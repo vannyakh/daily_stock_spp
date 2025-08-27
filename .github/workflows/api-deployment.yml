@@ -235,7 +235,7 @@ jobs:
           echo "Deploying to production: ${{ steps.prod_version.outputs.prod_version }}"
 
       - name: Download deployment package
-        uses: actions/download-artifact@v3
+        uses: actions/download-artifact@v4
         with:
           name: api-deployment-package-${{ steps.prod_version.outputs.prod_version }}
 
