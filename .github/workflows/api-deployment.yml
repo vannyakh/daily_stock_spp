@@ -235,7 +235,7 @@ jobs:
           echo "Deploying to production: ${{ steps.prod_version.outputs.prod_version }}"
 
       - name: Download deployment package
-        uses: actions/download-artifact@v3
+        uses: actions/download-artifact@v4
         with:
           name: api-deployment-package-${{ steps.prod_version.outputs.prod_version }}
 
@@ -377,6 +377,7 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Run security scan
+        if: github.event_name == 'pull_request' || github.event_name == 'pull_request_target'
         uses: actions/dependency-review-action@v3
         with:
           fail-on-severity: moderate
