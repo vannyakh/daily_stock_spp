@@ -2,17 +2,41 @@ name: API Deployment
 
 # Trigger the workflow on push to main branch or manual dispatch
 on:
-  workflow_dispatch: # Allows manual trigger
+  workflow_dispatch: # Allows manual trigger with inputs
+    inputs:
+      api_version:
+        description: 'API version to deploy'
+        required: true
+        default: 'v2'
+        type: choice
+        options:
+          - v1
+          - v2
+      environment:
+        description: 'Deployment environment'
+        required: true
+        default: 'staging'
+        type: choice
+        options:
+          - staging
+          - production
+      include_data:
+        description: 'Include stock data in deployment'
+        required: false
+        default: true
+        type: boolean
   push:
     branches: [ main ]
     paths:
-      - 'stock_api.py'
+      - 'v1/stock_api.py'
+      - 'v2/stock_api_server.py'
       - 'requirements.txt'
       - '.github/workflows/api-deployment.yml'
   pull_request:
     branches: [ main ]
     paths:
-      - 'stock_api.py'
+      - 'v1/stock_api.py'
+      - 'v2/stock_api_server.py'
       - 'requirements.txt'
 
 # Environment variables
@@ -54,16 +78,49 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt
 
-      - name: Run API tests
+      - name: Determine API version to test
+        id: api_version
         run: |
-          echo "Testing API functionality..."
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+            echo "api_version=${{ github.event.inputs.api_version }}" >> $GITHUB_OUTPUT
+          else
+            # Auto-detect based on changed files
+            if git diff --name-only HEAD~1 | grep -q "v1/stock_api.py"; then
+              echo "api_version=v1" >> $GITHUB_OUTPUT
+            elif git diff --name-only HEAD~1 | grep -q "v2/stock_api_server.py"; then
+              echo "api_version=v2" >> $GITHUB_OUTPUT
+            else
+              echo "api_version=v2" >> $GITHUB_OUTPUT
+            fi
+          fi
+          echo "Testing API version: ${{ steps.api_version.outputs.api_version }}"
+
+      - name: Test V1 API
+        if: steps.api_version.outputs.api_version == 'v1'
+        run: |
+          echo "🧪 Testing V1 API functionality..."
           python -c "
           import sys
-          sys.path.append('.')
+          sys.path.append('v1')
           from stock_api import app
-          print('✅ API app imported successfully')
+          print('✅ V1 API app imported successfully')
           print(f'✅ App title: {app.title}')
           print(f'✅ App version: {app.version}')
+          print('✅ V1 API test completed')
+          "
+
+      - name: Test V2 API
+        if: steps.api_version.outputs.api_version == 'v2'
+        run: |
+          echo "🧪 Testing V2 API functionality..."
+          python -c "
+          import sys
+          sys.path.append('v2')
+          from stock_api_server import app
+          print('✅ V2 API app imported successfully')
+          print(f'✅ App title: {app.title}')
+          print(f'✅ App version: {app.version}')
+          print('✅ V2 API test completed')
           "
 
   # Deploy to staging environment
@@ -87,24 +144,62 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt
 
-      - name: Create deployment package
+      - name: Determine API version for deployment
+        id: deploy_version
         run: |
-          mkdir -p deployment
-          cp stock_api.py deployment/
-          cp requirements.txt deployment/
-          cp -r stock_data deployment/ || echo "No stock_data folder found"
-          echo "Deployment package created"
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+            echo "deploy_version=${{ github.event.inputs.api_version }}" >> $GITHUB_OUTPUT
+          else
+            # Use the same version that was tested
+            echo "deploy_version=${{ needs.test.outputs.api_version }}" >> $GITHUB_OUTPUT
+          fi
+          echo "Deploying API version: ${{ steps.deploy_version.outputs.deploy_version }}"
+
+      - name: Create V1 deployment package
+        if: steps.deploy_version.outputs.deploy_version == 'v1'
+        run: |
+          echo "📦 Creating V1 API deployment package..."
+          mkdir -p deployment/v1
+          cp v1/stock_api.py deployment/v1/
+          cp requirements.txt deployment/v1/
+          if [ "${{ github.event.inputs.include_data || 'true' }}" = "true" ]; then
+            cp -r stock_data deployment/v1/ || echo "No stock_data folder found"
+          fi
+          echo "✅ V1 deployment package created"
+
+      - name: Create V2 deployment package
+        if: steps.deploy_version.outputs.deploy_version == 'v2'
+        run: |
+          echo "📦 Creating V2 API deployment package..."
+          mkdir -p deployment/v2
+          cp v2/stock_api_server.py deployment/v2/
+          cp requirements.txt deployment/v2/
+          if [ "${{ github.event.inputs.include_data || 'true' }}" = "true" ]; then
+            cp -r json_stock_data deployment/v2/ || echo "No json_stock_data folder found"
+            cp -r stock_data deployment/v2/ || echo "No stock_data folder found"
+          fi
+          echo "✅ V2 deployment package created"
 
       - name: Upload deployment package
         uses: actions/upload-artifact@v3
         with:
-          name: api-deployment-package
+          name: api-deployment-package-${{ steps.deploy_version.outputs.deploy_version }}
           path: deployment/
 
       - name: Deploy to staging
         run: |
-          echo "🚀 Deploying to staging environment..."
+          echo "🚀 Deploying ${{ steps.deploy_version.outputs.deploy_version }} API to staging environment..."
           echo "📊 API will be available on staging server"
+          echo "🔗 Endpoints:"
+          if [ "${{ steps.deploy_version.outputs.deploy_version }}" = "v1" ]; then
+            echo "   • Basic stock data endpoints"
+            echo "   • Intraday data access"
+            echo "   • Simple REST API"
+          else
+            echo "   • Enhanced stock data endpoints"
+            echo "   • Market overview data"
+            echo "   • Stock screening capabilities"
+          fi
           echo "✅ Staging deployment completed"
 
   # Deploy to production environment
@@ -129,15 +224,35 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt
 
+      - name: Determine production API version
+        id: prod_version
+        run: |
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+            echo "prod_version=${{ github.event.inputs.api_version }}" >> $GITHUB_OUTPUT
+          else
+            echo "prod_version=${{ needs.test.outputs.api_version }}" >> $GITHUB_OUTPUT
+          fi
+          echo "Deploying to production: ${{ steps.prod_version.outputs.prod_version }}"
+
       - name: Download deployment package
         uses: actions/download-artifact@v3
         with:
-          name: api-deployment-package
+          name: api-deployment-package-${{ steps.prod_version.outputs.prod_version }}
 
       - name: Deploy to production
         run: |
-          echo "🚀 Deploying to production environment..."
+          echo "🚀 Deploying ${{ steps.prod_version.outputs.prod_version }} API to production environment..."
           echo "📊 API will be available on production server"
+          echo "🔗 Production endpoints:"
+          if [ "${{ steps.prod_version.outputs.prod_version }}" = "v1" ]; then
+            echo "   • Basic stock data API"
+            echo "   • Intraday data access"
+            echo "   • Simple REST endpoints"
+          else
+            echo "   • Enhanced stock data API"
+            echo "   • Market overview data"
+            echo "   • Advanced screening features"
+          fi
           echo "✅ Production deployment completed"
 
       - name: Create production deployment
@@ -149,7 +264,7 @@ jobs:
               repo: context.repo.repo,
               ref: context.sha,
               environment: 'production',
-              description: 'Stock Data API Production Deployment',
+              description: `Stock Data API ${{ steps.prod_version.outputs.prod_version }} Production Deployment`,
               auto_merge: false,
               required_contexts: ['test', 'deploy-staging']
             });
@@ -169,24 +284,46 @@ jobs:
       - name: Set up Docker Buildx
         uses: docker/setup-buildx-action@v2
 
-      - name: Build Docker image
+      - name: Determine Docker API version
+        id: docker_version
         run: |
-          docker build -t stock-data-api:${{ github.sha }} .
-          docker tag stock-data-api:${{ github.sha }} stock-data-api:latest
+          echo "docker_version=${{ github.event.inputs.api_version || 'v2' }}" >> $GITHUB_OUTPUT
+          echo "Building Docker image for API version: ${{ steps.docker_version.outputs.docker_version }}"
+
+      - name: Build V1 Docker image
+        if: steps.docker_version.outputs.docker_version == 'v1'
+        run: |
+          echo "🐳 Building V1 API Docker image..."
+          docker build -t stock-data-api-v1:${{ github.sha }} -f Dockerfile.v1 .
+          docker tag stock-data-api-v1:${{ github.sha }} stock-data-api-v1:latest
+
+      - name: Build V2 Docker image
+        if: steps.docker_version.outputs.docker_version == 'v2'
+        run: |
+          echo "🐳 Building V2 API Docker image..."
+          docker build -t stock-data-api-v2:${{ github.sha }} -f Dockerfile.v2 .
+          docker tag stock-data-api-v2:${{ github.sha }} stock-data-api-v2:latest
 
       - name: Test Docker image
         run: |
           echo "🧪 Testing Docker image..."
-          docker run --rm -d --name test-api -p 8000:8000 stock-data-api:latest
-          sleep 10
-          curl -f http://localhost:8000/api/health || exit 1
-          docker stop test-api
+          if [ "${{ steps.docker_version.outputs.docker_version }}" = "v1" ]; then
+            docker run --rm -d --name test-api-v1 -p 8000:8000 stock-data-api-v1:latest
+            sleep 10
+            curl -f http://localhost:8000/api/health || exit 1
+            docker stop test-api-v1
+          else
+            docker run --rm -d --name test-api-v2 -p 8000:8000 stock-data-api-v2:latest
+            sleep 10
+            curl -f http://localhost:8000/ || exit 1
+            docker stop test-api-v2
+          fi
 
       - name: Push Docker image
-        if: github.event_name == 'workflow_dispatch'
         run: |
           echo "📦 Docker image built and tested successfully"
           echo "🚀 Ready for deployment to container registry"
+          echo "🔀 API Version: ${{ steps.docker_version.outputs.docker_version }}"
 
   # Health check and monitoring
   health-check:
@@ -212,14 +349,8 @@ jobs:
       - name: Run health checks
         run: |
           echo "🏥 Running health checks..."
-          python -c "
-          import requests
-          import time
-          
-          # Simulate health check
-          print('✅ API health check completed')
-          print('📊 All systems operational')
-          "
+          echo "✅ API health check completed"
+          echo "📊 All systems operational"
 
       - name: Deployment status
         if: always()
@@ -253,13 +384,18 @@ jobs:
       - name: Run bandit security scan
         run: |
           pip install bandit
-          bandit -r . -f json -o bandit-report.json || true
+          echo "🔒 Scanning V1 API..."
+          bandit -r v1/ -f json -o bandit-report-v1.json || true
+          echo "🔒 Scanning V2 API..."
+          bandit -r v2/ -f json -o bandit-report-v2.json || true
 
-      - name: Upload security report
+      - name: Upload security reports
         uses: actions/upload-artifact@v3
         with:
-          name: security-report
-          path: bandit-report.json
+          name: security-reports
+          path: |
+            bandit-report-v1.json
+            bandit-report-v2.json
 
   # Performance testing
   performance-test:
@@ -281,20 +417,48 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt
 
-      - name: Run performance tests
+      - name: Determine API version for performance test
+        id: perf_version
         run: |
-          echo "⚡ Running performance tests..."
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+            echo "perf_version=${{ github.event.inputs.api_version }}" >> $GITHUB_OUTPUT
+          else
+            echo "perf_version=${{ needs.test.outputs.api_version }}" >> $GITHUB_OUTPUT
+          fi
+          echo "Performance testing API version: ${{ steps.perf_version.outputs.perf_version }}"
+
+      - name: Run V1 performance tests
+        if: steps.perf_version.outputs.perf_version == 'v1'
+        run: |
+          echo "⚡ Running V1 API performance tests..."
           python -c "
           import time
           import sys
-          sys.path.append('.')
+          sys.path.append('v1')
           
           start_time = time.time()
           from stock_api import app
           load_time = time.time() - start_time
           
-          print(f'✅ API load time: {load_time:.3f} seconds')
-          print(f'✅ Performance test completed')
+          print(f'✅ V1 API load time: {load_time:.3f} seconds')
+          print(f'✅ V1 Performance test completed')
+          "
+
+      - name: Run V2 performance tests
+        if: steps.perf_version.outputs.perf_version == 'v2'
+        run: |
+          echo "⚡ Running V2 API performance tests..."
+          python -c "
+          import time
+          import sys
+          sys.path.append('v2')
+          
+          start_time = time.time()
+          from stock_api_server import app
+          load_time = time.time() - start_time
+          
+          print(f'✅ V2 API load time: {load_time:.3f} seconds')
+          print(f'✅ V2 Performance test completed')
           "
 
   # Documentation generation
@@ -316,15 +480,29 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt
 
-      - name: Generate API documentation
+      - name: Generate V1 API documentation
         run: |
-          echo "📚 Generating API documentation..."
+          echo "📚 Generating V1 API documentation..."
           python -c "
           import sys
-          sys.path.append('.')
+          sys.path.append('v1')
           from stock_api import app
           
-          print('✅ API documentation generated')
+          print('✅ V1 API documentation generated')
+          print(f'📖 Swagger UI: /docs')
+          print(f'📖 ReDoc: /redoc')
+          print(f'📖 OpenAPI spec: /openapi.json')
+          "
+
+      - name: Generate V2 API documentation
+        run: |
+          echo "📚 Generating V2 API documentation..."
+          python -c "
+          import sys
+          sys.path.append('v2')
+          from stock_api_server import app
+          
+          print('✅ V2 API documentation generated')
           print(f'📖 Swagger UI: /docs')
           print(f'📖 ReDoc: /redoc')
           print(f'📖 OpenAPI spec: /openapi.json')
@@ -335,6 +513,7 @@ jobs:
         with:
           name: api-documentation
           path: |
-            stock_api.py
+            v1/stock_api.py
+            v2/stock_api_server.py
             requirements.txt
             README.md

@@ -1,145 +1,50 @@
-# Stock Data API Documentation
+# 🚀 Enhanced Stock Data Scraper & API System
 
-## 🚀 Overview
+A comprehensive stock market data collection and API system that supports both basic (V1) and enhanced (V2) versions, leveraging multiple yfinance components to provide rich, multi-dimensional market insights.
 
-The Stock Data API is a comprehensive REST API built with FastAPI that provides easy access to scraped stock market data. It offers multiple endpoints for retrieving stock information, summaries, and historical data with support for filtering, pagination, and search functionality.
+## 🌟 System Overview
 
-## 🌟 Features
+This system provides two distinct API versions to meet different needs:
 
-- **Multi-threaded Data Scraping** - Efficient collection of stock data using concurrent workers
-- **RESTful API** - Clean, intuitive endpoints following REST principles
-- **Real-time Data Access** - Get current stock prices and historical data
-- **Flexible Filtering** - Filter data by date ranges and limits
-- **Search Functionality** - Find stocks by ticker or company name
-- **Comprehensive Statistics** - API usage and data metrics
-- **Error Handling** - Robust error handling with meaningful messages
-- **CORS Support** - Cross-origin resource sharing enabled
-- **Auto-generated Documentation** - Interactive API docs with Swagger UI
+- **🔄 V1 - Basic Stock Data API**: Simple, lightweight API for intraday data access
+- **🚀 V2 - Enhanced Stock Data API**: Comprehensive API with advanced features and market overview
+
+## 🔀 Version Comparison
+
+| Feature | V1 - Basic | V2 - Enhanced |
+|---------|------------|----------------|
+| **Data Collection** | Intraday prices only | Comprehensive + market data |
+| **Storage Format** | CSV files | JSON + CSV files |
+| **API Endpoints** | Basic REST endpoints | Advanced + screening |
+| **Market Data** | Individual stocks | + Indices, sectors, trending |
+| **Performance** | Fast, lightweight | Feature-rich, comprehensive |
+| **Use Case** | Simple data access | Advanced analysis & screening |
 
 ## 🏗️ Architecture
 
 ```
-┌─────────────────┐    ┌─────────────────┐    ┌─────────────────┐
-│   Stock Data    │    │   FastAPI       │    │   CSV Files     │
-│   Scraper       │───▶│   REST API      │───▶│   (stock_data/  │
-│   (yf_scraper)  │    │   (stock_api)   │    │    folder)      │
-└─────────────────┘    └─────────────────┘    └─────────────────┘
+┌─────────────────┐    ┌──────────────────┐    ┌─────────────────┐
+│   Stock Data    │    │   Data Storage   │    │   FastAPI       │
+│   Scrapers      │───▶│   (CSV/JSON)     │───▶│   Servers       │
+│                 │    │                  │    │                 │
+└─────────────────┘    └──────────────────┘    └─────────────────┘
+         │                       │                       │
+         │                       │                       │
+         ▼                       ▼                       ▼
+┌─────────────────┐    ┌──────────────────┐    ┌─────────────────┐
+│   V1: yf_scraper│    │   stock_data/    │    │   V1: stock_api │
+│   V2: stock_scraper│  │   json_stock_data│    │   V2: stock_api_server│
+└─────────────────┘    └──────────────────┘    └─────────────────┘
 ```
 
-## 📋 API Endpoints
-
-### Base URL
-```
-http://localhost:8000
-```
-
-### 1. Root Endpoint
-- **GET** `/`
-- **Description**: API information and available endpoints
-- **Response**: API metadata and endpoint list
-
-### 2. Health Check
-- **GET** `/api/health`
-- **Description**: Check API health and status
-- **Response**: Health status, available stocks count, data folder info
-
-### 3. List Stocks
-- **GET** `/api/stocks`
-- **Query Parameters**:
-  - `limit` (optional): Maximum number of results
-  - `offset` (optional): Pagination offset
-- **Description**: Get list of available stock tickers
-- **Response**: Array of stock tickers with pagination info
-
-### 4. Stock Data
-- **GET** `/api/stocks/{ticker}`
-- **Path Parameters**:
-  - `ticker`: Stock ticker symbol (e.g., AAPL, MSFT)
-- **Query Parameters**:
-  - `start_date` (optional): Start date (YYYY-MM-DD)
-  - `end_date` (optional): End date (YYYY-MM-DD)
-  - `limit` (optional): Maximum data points (default: 100)
-  - `interval` (optional): Data interval (default: 1m)
-- **Description**: Get historical stock data for a specific ticker
-- **Response**: Stock data with OHLCV information and metadata
-
-### 5. Stock Summary
-- **GET** `/api/stocks/{ticker}/summary`
-- **Path Parameters**:
-  - `ticker`: Stock ticker symbol
-- **Description**: Get summary statistics for a stock
-- **Response**: Price change, volume, data points, date range
-
-### 6. Latest Price
-- **GET** `/api/stocks/{ticker}/latest`
-- **Path Parameters**:
-  - `ticker`: Stock ticker symbol
-- **Description**: Get the most recent price for a stock
-- **Response**: Latest price, timestamp, volume, price change
-
-### 7. Search Stocks
-- **GET** `/api/search`
-- **Query Parameters**:
-  - `query`: Search query (ticker or company name)
-  - `limit` (optional): Maximum results (default: 10)
-- **Description**: Search for stocks by ticker or company name
-- **Response**: Matching stock tickers
-
-### 8. API Statistics
-- **GET** `/api/stats`
-- **Description**: Get API usage and data statistics
-- **Response**: Total stocks, data points, averages, folder size
-
-## 📊 Data Models
-
-### StockData
-```json
-{
-  "ticker": "AAPL",
-  "datetime": "2025-08-26 19:59:00",
-  "open": 501.76,
-  "high": 502.46,
-  "low": 501.71,
-  "close": 501.93,
-  "adj_close": 501.93,
-  "volume": 775473
-}
-```
-
-### StockSummary
-```json
-{
-  "ticker": "AAPL",
-  "data_points": 780,
-  "date_range": {
-    "start": "2025-08-25 13:30:00",
-    "end": "2025-08-26 19:59:00"
-  },
-  "latest_price": 501.93,
-  "price_change": -5.15,
-  "price_change_percent": -1.02,
-  "volume_today": 775473
-}
-```
-
-### APIResponse
-```json
-{
-  "success": true,
-  "message": "Data retrieved successfully",
-  "data": {...},
-  "timestamp": "2025-08-27T17:55:08.552300",
-  "count": 5
-}
-```
-
-## 🚀 Getting Started
+## 📦 Installation
 
 ### Prerequisites
 - Python 3.8+
-- Virtual environment (recommended)
+- pip package manager
+- Git
 
-### Installation
+### Setup
 
 1. **Clone the repository**
    ```bash
@@ -147,9 +52,9 @@ http://localhost:8000
    cd daily_stock_scraper-main
    ```
 
-2. **Create and activate virtual environment**
+2. **Create virtual environment**
    ```bash
-   python3 -m venv venv
+   python -m venv venv
    source venv/bin/activate  # On Windows: venv\Scripts\activate
    ```
 
@@ -158,176 +63,278 @@ http://localhost:8000
    pip install -r requirements.txt
    ```
 
-4. **Scrape stock data** (if not already done)
+4. **Verify installation**
    ```bash
-   python3 yf_scraper.py
+   python -c "import yfinance, fastapi, uvicorn; print('✅ All dependencies installed')"
    ```
 
-5. **Start the API server**
-   ```bash
-   python3 stock_api.py
-   ```
+## 🚀 Quick Start
 
-6. **Access the API**
-   - API: http://localhost:8000
-   - Interactive docs: http://localhost:8000/docs
-   - Alternative docs: http://localhost:8000/redoc
+### Option 1: Interactive Startup Script (Recommended)
+```bash
+python start_system.py
+```
+This provides a menu-driven interface to:
+- Choose between V1 and V2
+- Run scrapers
+- Start API servers
+- Check data status
 
-## 📱 Usage Examples
+### Option 2: Direct Execution
 
-### Python Client Example
+#### V1 - Basic System
+```bash
+# Run basic scraper
+python v1/yf_scraper.py
 
+# Start basic API server
+python v1/stock_api.py
+```
+
+#### V2 - Enhanced System
+```bash
+# Run enhanced scraper
+python v2/stock_scraper.py
+
+# Start enhanced API server
+python v2/stock_api_server.py
+```
+
+## 📊 Data Collection
+
+### V1 - Basic Data Collection
+```bash
+python v1/yf_scraper.py
+```
+**What Gets Collected:**
+- Intraday price data (1-minute intervals)
+- Basic stock information
+- CSV storage in `stock_data/` folder
+
+### V2 - Enhanced Data Collection
+```bash
+python v2/stock_scraper.py --max_workers 6 --include_market_data true
+```
+**What Gets Collected:**
+- Intraday price data (1-minute intervals)
+- Company information and fundamentals
+- Financial statements (income, balance sheet, cash flow)
+- Options data and expiration dates
+- News and analyst recommendations
+- Institutional and major holders
+- Earnings data and calendar
+- Market indices and sector performance
+- Global market data
+- Trending stocks
+
+## 🌐 API Usage
+
+### V1 - Basic API Endpoints
+
+**Base URL**: `http://localhost:8000`
+
+| Endpoint | Method | Description |
+|----------|--------|-------------|
+| `/api/health` | GET | API health check |
+| `/api/stocks` | GET | List available stocks |
+| `/api/stocks/{ticker}` | GET | Get stock data |
+| `/api/stocks/{ticker}/summary` | GET | Stock summary |
+| `/api/stocks/{ticker}/latest` | GET | Latest price |
+| `/api/search` | GET | Search stocks |
+| `/api/stats` | GET | API statistics |
+
+### V2 - Enhanced API Endpoints
+
+**Base URL**: `http://localhost:8000`
+
+| Endpoint | Method | Description |
+|----------|--------|-------------|
+| `/` | GET | API information |
+| `/api/v1/stocks` | GET | List all stocks with status |
+| `/api/v1/stocks/{ticker}` | GET | Get comprehensive stock data |
+| `/api/v1/market/overview` | GET | Market overview data |
+| `/api/v1/stocks/search` | GET | Advanced stock search |
+| `/api/v1/stocks/screener` | GET | Stock screening with filters |
+| `/api/v1/market/sectors` | GET | Sector performance data |
+| `/api/v1/market/indices` | GET | Market indices data |
+| `/api/v1/market/global` | GET | Global market data |
+
+## 🐳 Docker Deployment
+
+### Quick Docker Setup
+```bash
+# Build and run V1 API
+docker build -f v1/Dockerfile -t stock-data-api-v1 .
+docker run -p 8001:8000 stock-data-api-v1
+
+# Build and run V2 API
+docker build -f v2/Dockerfile -t stock-data-api-v2 .
+docker run -p 8000:8000 stock-data-api-v2
+```
+
+### Docker Compose
+```bash
+# Deploy V1 stack
+API_VERSION=v1 docker-compose up -d
+
+# Deploy V2 stack (default)
+API_VERSION=v2 docker-compose up -d
+
+# Deploy specific services
+docker-compose --profile v1 up -d stock-api-v1 redis nginx
+```
+
+## 🚀 Deployment Scripts
+
+### Automated Deployment
+```bash
+# Deploy V1 API to staging
+./deploy.sh staging v1
+
+# Deploy V2 API to production
+./deploy.sh production v2
+
+# Deploy V1 API with Docker
+./deploy.sh docker v1
+
+# Check deployment status
+./deploy.sh status v2
+```
+
+### GitHub Actions Workflows
+
+- **Daily Scraper**: Automatically collects data daily
+- **API Deployment**: Automated testing and deployment
+- **Version Selection**: Choose V1 or V2 for deployment
+
+## 📱 API Client Examples
+
+### Python Client
 ```python
-from api_client_example import StockDataAPIClient
+from example.api_client_example import StockDataAPIClient
 
 # Initialize client
 client = StockDataAPIClient()
 
-# Get stock summary
+# V1 API calls
 summary = client.get_stock_summary("AAPL")
-print(f"AAPL latest price: ${summary['data']['latest_price']}")
-
-# Get recent data
 data = client.get_stock_data("AAPL", limit=10)
-for point in data['data']:
-    print(f"{point['datetime']}: ${point['close']}")
+
+# V2 API calls (enhanced features)
+market_overview = client.get_market_overview()
+screened_stocks = client.screen_stocks(sector="Technology", market_cap_min=1000000000)
 ```
 
 ### cURL Examples
 
+#### V1 API
 ```bash
-# Get API health
-curl http://localhost:8000/api/health
-
-# Get AAPL summary
+# Get stock summary
 curl http://localhost:8000/api/stocks/aapl/summary
 
-# Get recent AAPL data (last 5 points)
+# Get recent data
 curl "http://localhost:8000/api/stocks/aapl?limit=5"
-
-# Search for stocks containing "MSFT"
-curl "http://localhost:8000/api/search?query=msft"
 ```
 
-### JavaScript/Node.js Example
+#### V2 API
+```bash
+# Get market overview
+curl http://localhost:8000/api/v1/market/overview
 
-```javascript
-// Get stock data
-fetch('http://localhost:8000/api/stocks/aapl?limit=10')
-  .then(response => response.json())
-  .then(data => {
-    if (data.success) {
-      console.log('AAPL data:', data.data);
-    }
-  });
+# Screen stocks
+curl "http://localhost:8000/api/v1/stocks/screener?sector=Technology&market_cap_min=1000000000"
 ```
 
 ## 🔧 Configuration
 
 ### Environment Variables
-- `STOCK_DATA_FOLDER`: Path to stock data folder (default: "stock_data")
-- `MAX_WORKERS`: Maximum concurrent threads for scraping (default: 3)
+- `API_VERSION`: Set to 'v1' or 'v2' (default: 'v2')
+- `MAX_WORKERS`: Concurrent threads for scraping (default: 4)
+- `INCLUDE_MARKET_DATA`: Include market overview (V2 only, default: true)
 
 ### API Settings
-- **Host**: 0.0.0.0 (accessible from any IP)
-- **Port**: 8000
-- **CORS**: Enabled for all origins (configure for production)
+- **V1 Host**: 0.0.0.0:8000
+- **V2 Host**: 0.0.0.0:8000
+- **CORS**: Enabled for all origins
+- **Documentation**: Auto-generated Swagger/ReDoc
 
-## 📈 Performance
+## 📈 Performance & Monitoring
 
-- **Multi-threading**: Up to 3 concurrent workers for data scraping
-- **Data Processing**: Efficient pandas-based data handling
-- **Memory Usage**: Optimized for large datasets
-- **Response Time**: Sub-second response times for most endpoints
+### Performance Metrics
+- **V1**: Fast response times, lightweight processing
+- **V2**: Comprehensive data, advanced features
+- **Multi-threading**: Configurable concurrent processing
+- **Memory Optimization**: Efficient data handling
 
-## 🛡️ Error Handling
+### Health Checks
+- **V1**: `/api/health` endpoint
+- **V2**: `/` root endpoint
+- **Docker**: Built-in health checks
+- **Monitoring**: Prometheus + Grafana support
 
-The API provides comprehensive error handling:
+## 🛡️ Security & Best Practices
 
-- **400 Bad Request**: Invalid parameters or date formats
-- **404 Not Found**: Stock ticker not found or no data available
-- **500 Internal Server Error**: Server-side processing errors
+### Security Features
+- Input validation and sanitization
+- Rate limiting (configurable)
+- CORS configuration
+- Non-root Docker containers
 
-All errors include:
-- Descriptive error messages
-- Error codes
-- Timestamps
-- Structured error responses
-
-## 📚 API Documentation
-
-### Interactive Documentation
-- **Swagger UI**: http://localhost:8000/docs
-- **ReDoc**: http://localhost:8000/redoc
-
-### Features
-- Interactive endpoint testing
-- Request/response examples
-- Schema validation
-- Authentication (if implemented)
+### Production Considerations
+- Use HTTPS in production
+- Configure CORS origins
+- Implement authentication
+- Set up monitoring and logging
+- Use production ASGI server (Gunicorn + Uvicorn)
 
 ## 🔍 Troubleshooting
 
 ### Common Issues
 
-1. **Connection Refused**
-   - Ensure the API server is running
-   - Check if port 8000 is available
+1. **Port Conflicts**
+   - V1 and V2 can run simultaneously on different ports
+   - Use `./deploy.sh status v1` to check status
 
-2. **No Data Found**
-   - Verify stock data has been scraped
-   - Check stock_data folder contents
+2. **Data Not Found**
+   - Run scraper first: `python v1/yf_scraper.py` or `python v2/stock_scraper.py`
+   - Check data folders: `stock_data/` and `json_stock_data/`
 
-3. **Column Mapping Errors**
-   - Ensure CSV files have correct structure
-   - Check for data corruption
+3. **Docker Issues**
+   - Ensure Docker is running
+   - Check container logs: `docker logs stock-data-api-v1`
 
 ### Debug Mode
-
-Enable debug logging:
-```python
-import logging
-logging.basicConfig(level=logging.DEBUG)
+```bash
+# Enable debug logging
+export PYTHONPATH="${PYTHONPATH}:$(pwd)"
+python -c "import logging; logging.basicConfig(level=logging.DEBUG)"
 ```
 
-## 🚀 Deployment
+## 📚 Documentation
 
-### Production Considerations
+### Interactive API Docs
+- **V1 API**: http://localhost:8000/docs (Swagger UI)
+- **V2 API**: http://localhost:8000/docs (Swagger UI)
 
-1. **Security**
-   - Configure CORS origins
-   - Implement authentication
-   - Use HTTPS
-
-2. **Performance**
-   - Use production ASGI server (Gunicorn + Uvicorn)
-   - Implement caching
-   - Database optimization
-
-3. **Monitoring**
-   - Health checks
-   - Metrics collection
-   - Log aggregation
-
-### Docker Deployment
-
-```dockerfile
-FROM python:3.9-slim
-WORKDIR /app
-COPY requirements.txt .
-RUN pip install -r requirements.txt
-COPY . .
-EXPOSE 8000
-CMD ["python", "stock_api.py"]
-```
+### Additional Resources
+- **V1 README**: `v1/README.md`
+- **V2 README**: `v2/README.md`
+- **API Examples**: `example/api_client_example.py`
+- **Deployment Guide**: `deploy.sh --help`
 
 ## 🤝 Contributing
 
 1. Fork the repository
 2. Create a feature branch
 3. Make your changes
-4. Add tests
+4. Add tests for both V1 and V2
 5. Submit a pull request
+
+### Development Guidelines
+- Test changes on both API versions
+- Update documentation for affected features
+- Ensure backward compatibility where possible
+- Follow existing code style and patterns
 
 ## 📄 License
 
@@ -335,11 +342,46 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 ## 🆘 Support
 
-For support and questions:
+### Getting Help
 - Create an issue in the repository
 - Check the troubleshooting section
-- Review the API documentation
+- Review version-specific README files
+- Use the interactive startup script: `python start_system.py`
+
+### Community
+- Report bugs and feature requests
+- Share your use cases and examples
+- Contribute improvements and fixes
 
 ---
+
+## 🎯 Quick Reference
+
+### Start Everything
+```bash
+python start_system.py
+# Choose option 6: Run Full System
+```
+
+### V1 - Basic System
+```bash
+./deploy.sh staging v1
+# Access at: http://localhost:8000
+```
+
+### V2 - Enhanced System
+```bash
+./deploy.sh production v2
+# Access at: http://localhost:8000
+```
+
+### Data Collection
+```bash
+# V1: Basic intraday data
+python v1/yf_scraper.py
+
+# V2: Comprehensive data
+python v2/stock_scraper.py
+```
 
 **Happy Trading! 📈💰**

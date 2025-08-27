@@ -1,10 +1,29 @@
-name: Daily Scraper
+name: Daily Stock Scraper
 
 # Trigger the workflow every 24 hours
 on:
-  workflow_dispatch: # Allows manual trigger
+  workflow_dispatch: # Allows manual trigger with inputs
+    inputs:
+      version:
+        description: 'Scraper version to run'
+        required: true
+        default: 'v2'
+        type: choice
+        options:
+          - v1
+          - v2
+      include_market_data:
+        description: 'Include market overview data (V2 only)'
+        required: false
+        default: true
+        type: boolean
+      max_workers:
+        description: 'Maximum concurrent workers'
+        required: false
+        default: 4
+        type: number
   schedule:
-    - cron: "25 3 * * *" # 10:25 PM EST
+    - cron: "25 3 * * *" # 10:25 PM EST (defaults to V2)
 
 permissions:
   contents: write  # Ensure write permissions for pushing changes
@@ -30,16 +49,88 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt
 
-      # Step 4: Run the scraper script
-      - name: Run scraper
-        run: python yf_scraper.py
+      # Step 4: Determine version to run
+      - name: Determine scraper version
+        id: version
+        run: |
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+            echo "version=${{ github.event.inputs.version }}" >> $GITHUB_OUTPUT
+          else
+            echo "version=v2" >> $GITHUB_OUTPUT
+          fi
+          echo "Running scraper version: ${{ steps.version.outputs.version }}"
 
-      # Step 5: Commit and push changes
+      # Step 5: Run V1 scraper (if selected)
+      - name: Run V1 Basic Scraper
+        if: steps.version.outputs.version == 'v1'
+        run: |
+          echo "🚀 Running V1 Basic Stock Scraper..."
+          python v1/yf_scraper.py
+        continue-on-error: true
+
+      # Step 6: Run V2 Enhanced Scraper (if selected)
+      - name: Run V2 Enhanced Scraper
+        if: steps.version.outputs.version == 'v2'
+        run: |
+          echo "🚀 Running V2 Enhanced Stock Scraper..."
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ] && [ "${{ github.event.inputs.include_market_data }}" = "false" ]; then
+            echo "Running without market data..."
+            python v2/stock_scraper.py --include_market_data false --max_workers ${{ github.event.inputs.max_workers || 4 }}
+          else
+            echo "Running with full market data..."
+            python v2/stock_scraper.py --max_workers ${{ github.event.inputs.max_workers || 4 }}
+          fi
+        continue-on-error: true
+
+      # Step 7: Check data collection status
+      - name: Check data collection status
+        run: |
+          echo "📊 Checking data collection status..."
+          
+          # Check V1 data
+          if [ -d "stock_data" ]; then
+            v1_count=$(find stock_data -name "*_intraday.csv" | wc -l)
+            echo "V1 Basic data: $v1_count stocks collected"
+          else
+            echo "V1 Basic data: No data found"
+          fi
+          
+          # Check V2 data
+          if [ -d "json_stock_data" ]; then
+            v2_count=$(find json_stock_data -name "*_comprehensive.json" | wc -l)
+            market_count=$(find json_stock_data -name "market_overview.json" | wc -l)
+            echo "V2 Enhanced data: $v2_count stocks collected"
+            echo "V2 Market data: $market_count files collected"
+          else
+            echo "V2 Enhanced data: No data found"
+          fi
+
+      # Step 8: Commit and push changes
       - name: Commit and push changes
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          
+          # Add all changes
           git add .
-          git commit -m "Update intraday stock data"
-          git push origin main
+          
+          # Create commit message based on version
+          if [ "${{ steps.version.outputs.version }}" = "v1" ]; then
+            commit_msg="Update V1 basic stock data - $(date +'%Y-%m-%d %H:%M:%S UTC')"
+          else
+            commit_msg="Update V2 enhanced stock data - $(date +'%Y-%m-%d %H:%M:%S UTC')"
+          fi
+          
+          # Commit and push
+          git commit -m "$commit_msg" || echo "No changes to commit"
+          git push origin main || echo "No changes to push"
+
+      # Step 9: Summary
+      - name: Summary
+        run: |
+          echo "✅ Daily scraper workflow completed successfully!"
+          echo "📅 Date: $(date)"
+          echo "🔀 Version: ${{ steps.version.outputs.version }}"
+          echo "🌐 Repository: ${{ github.repository }}"
+          echo "📊 Check the data folders for collected information"
 

@@ -1,15 +1,50 @@
 version: '3.8'
 
+# Stock Data API Docker Compose Configuration (Supports V1 and V2)
+# Usage: API_VERSION=v1 docker-compose up -d  # For V1 API
+#        API_VERSION=v2 docker-compose up -d  # For V2 API (default)
+
 services:
-  # Stock Data API service
+  # Stock Data API service (V1 or V2 based on environment variable)
   stock-api:
-    build: .
-    container_name: stock-data-api
+    build:
+      context: .
+      dockerfile: ${API_VERSION:-v2}/Dockerfile
+    container_name: stock-data-api-${API_VERSION:-v2}
     ports:
       - "8000:8000"
     environment:
       - PYTHONUNBUFFERED=1
       - API_PORT=8000
+      - API_VERSION=${API_VERSION:-v2}
+    volumes:
+      - ./stock_data:/app/stock_data:ro
+      - ./logs:/app/logs
+      - ./json_stock_data:/app/json_stock_data:ro  # For V2 enhanced data
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8000/${API_VERSION_HEALTH_ENDPOINT:-}"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 40s
+    networks:
+      - stock-network
+    profiles:
+      - ${API_VERSION:-v2}
+
+  # V1 API specific service
+  stock-api-v1:
+    build:
+      context: .
+      dockerfile: v1/Dockerfile
+    container_name: stock-data-api-v1
+    ports:
+      - "8001:8000"  # Different port to avoid conflicts
+    environment:
+      - PYTHONUNBUFFERED=1
+      - API_PORT=8000
+      - API_VERSION=v1
     volumes:
       - ./stock_data:/app/stock_data:ro
       - ./logs:/app/logs
@@ -22,6 +57,36 @@ services:
       start_period: 40s
     networks:
       - stock-network
+    profiles:
+      - v1
+
+  # V2 API specific service
+  stock-api-v2:
+    build:
+      context: .
+      dockerfile: v2/Dockerfile
+    container_name: stock-data-api-v2
+    ports:
+      - "8000:8000"
+    environment:
+      - PYTHONUNBUFFERED=1
+      - API_PORT=8000
+      - API_VERSION=v2
+    volumes:
+      - ./stock_data:/app/stock_data:ro
+      - ./json_stock_data:/app/json_stock_data:ro
+      - ./logs:/app/logs
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8000/"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 40s
+    networks:
+      - stock-network
+    profiles:
+      - v2
 
   # Redis for caching (optional)
   redis:
@@ -34,6 +99,9 @@ services:
     restart: unless-stopped
     networks:
       - stock-network
+    profiles:
+      - v1
+      - v2
 
   # Nginx reverse proxy (optional)
   nginx:
@@ -46,10 +114,14 @@ services:
       - ./nginx.conf:/etc/nginx/nginx.conf:ro
       - ./ssl:/etc/nginx/ssl:ro
     depends_on:
-      - stock-api
+      - stock-api-v1
+      - stock-api-v2
     restart: unless-stopped
     networks:
       - stock-network
+    profiles:
+      - v1
+      - v2
 
   # Monitoring with Prometheus (optional)
   prometheus:
@@ -70,6 +142,9 @@ services:
     restart: unless-stopped
     networks:
       - stock-network
+    profiles:
+      - v1
+      - v2
 
   # Grafana for visualization (optional)
   grafana:
@@ -86,6 +161,32 @@ services:
     restart: unless-stopped
     networks:
       - stock-network
+    profiles:
+      - v1
+      - v2
+
+  # Data collection service (for V2 enhanced features)
+  data-collector:
+    image: python:3.9-slim
+    container_name: stock-data-collector
+    environment:
+      - PYTHONUNBUFFERED=1
+    volumes:
+      - ./v2:/app/v2
+      - ./stock_data:/app/stock_data
+      - ./json_stock_data:/app/json_stock_data
+      - ./requirements.txt:/app/requirements.txt
+    working_dir: /app
+    command: >
+      bash -c "
+        pip install -r requirements.txt &&
+        python v2/stock_scraper.py --max_workers 4
+      "
+    restart: "no"
+    networks:
+      - stock-network
+    profiles:
+      - v2
 
 volumes:
   redis_data:
