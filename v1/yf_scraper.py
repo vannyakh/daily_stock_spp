@@ -177,8 +177,8 @@ def print_banner():
     banner = f"""
 {Fore.CYAN}{Style.BRIGHT}
 ╔══════════════════════════════════════════════════════════════╗
-║                    📈 STOCK DATA SCRAPER 📈                    ║
-║                    Multi-Threaded Edition                     ║
+║                    📈 STOCK DATA SCRAPER 📈                   ║
+║                    Multi-Threaded Edition                    ║
 ╚══════════════════════════════════════════════════════════════╝
 {Style.RESET_ALL}"""
     print(banner)
