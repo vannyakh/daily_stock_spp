@@ -10,6 +10,8 @@ import os
 import sys
 import subprocess
 import time
+import json
+import re
 from pathlib import Path
 
 def print_banner():
@@ -38,6 +40,75 @@ def check_dependencies():
     
     print("✅ All dependencies are installed")
     return True
+
+def repair_json_files():
+    """Repair malformed JSON files in json_stock_data directory"""
+    print("🔧 Repairing malformed JSON files...")
+    
+    json_data_path = Path("json_stock_data")
+    if not json_data_path.exists():
+        print("❌ No json_stock_data directory found")
+        return
+    
+    json_files = list(json_data_path.glob("*_comprehensive.json"))
+    if not json_files:
+        print("❌ No comprehensive JSON files found")
+        return
+    
+    print(f"📁 Found {len(json_files)} JSON files to check...")
+    
+    repaired_count = 0
+    error_count = 0
+    
+    for json_file in json_files:
+        try:
+            # Try to read the file normally first
+            with open(json_file, 'r', encoding='utf-8') as f:
+                content = f.read()
+                json.loads(content)  # Test if valid JSON
+            print(f"✅ {json_file.name} - Valid JSON")
+        except json.JSONDecodeError as e:
+            print(f"🔧 {json_file.name} - Malformed JSON, attempting repair...")
+            try:
+                # Attempt to repair common JSON issues
+                repaired_content = repair_json_content(content)
+                
+                # Test the repaired content
+                json.loads(repaired_content)
+                
+                # Write the repaired content back
+                with open(json_file, 'w', encoding='utf-8') as f:
+                    f.write(repaired_content)
+                
+                print(f"✅ {json_file.name} - Successfully repaired")
+                repaired_count += 1
+                
+            except Exception as repair_error:
+                print(f"❌ {json_file.name} - Repair failed: {repair_error}")
+                error_count += 1
+    
+    print(f"\n📊 JSON Repair Summary:")
+    print(f"   ✅ Successfully repaired: {repaired_count}")
+    print(f"   ❌ Failed to repair: {error_count}")
+    print(f"   📁 Total files processed: {len(json_files)}")
+
+def repair_json_content(content):
+    """Repair common JSON formatting issues"""
+    # Fix missing quotes around property names
+    # Pattern: {property: value} -> {"property": value}
+    content = re.sub(r'(\s*)(\w+)(\s*):(\s*)', r'\1"\2"\3:\4', content)
+    
+    # Fix missing quotes around string values
+    # Pattern: property: value, -> property: "value",
+    content = re.sub(r':(\s*)([^"\d\[\]{},]+?)(\s*)([,}\]])', r':\1"\2"\3\4', content)
+    
+    # Fix trailing commas
+    content = re.sub(r',(\s*[}\]])', r'\1', content)
+    
+    # Fix single quotes to double quotes
+    content = content.replace("'", '"')
+    
+    return content
 
 def run_v1_scraper():
     """Run the v1 basic stock scraper"""
@@ -127,6 +198,23 @@ def check_data_status():
         market_files = list(enhanced_data_path.glob("market_overview.json"))
         print(f"✅ V2 Enhanced data: {len(enhanced_files)} stocks")
         print(f"🌍 V2 Market data: {len(market_files)} files")
+        
+        # Check for JSON errors
+        if enhanced_files:
+            print("\n🔍 Checking JSON file integrity...")
+            error_files = []
+            for json_file in enhanced_files[:5]:  # Check first 5 files
+                try:
+                    with open(json_file, 'r', encoding='utf-8') as f:
+                        json.load(f)
+                except json.JSONDecodeError:
+                    error_files.append(json_file.name)
+            
+            if error_files:
+                print(f"⚠️  Found {len(error_files)} files with JSON errors")
+                print("💡 Use option 7 to repair JSON files")
+            else:
+                print("✅ All checked JSON files are valid")
     else:
         print("❌ No V2 enhanced data found")
 
@@ -238,10 +326,11 @@ def show_menu():
         print("1. 🔀 Select Version & Run System")
         print("2. 📊 Check Data Status")
         print("3. 📱 Run API Client Example")
-        print("4. ❌ Exit")
+        print("4. 🔧 Repair JSON Files (Fix V2 API errors)")
+        print("5. ❌ Exit")
         print("="*50)
         
-        choice = input("\nSelect an option (1-4): ").strip()
+        choice = input("\nSelect an option (1-5): ").strip()
         
         if choice == "1":
             while True:
@@ -261,10 +350,12 @@ def show_menu():
         elif choice == "3":
             run_api_client()
         elif choice == "4":
+            repair_json_files()
+        elif choice == "5":
             print("👋 Goodbye! Happy trading! 📈💰")
             break
         else:
-            print("❌ Invalid option. Please choose 1-4.")
+            print("❌ Invalid option. Please choose 1-5.")
         
         input("\nPress Enter to continue...")
 
