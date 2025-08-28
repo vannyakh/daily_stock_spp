@@ -40,12 +40,16 @@ class ColoredFormatter(logging.Formatter):
         
         return super().format(record)
 
-# Configure logging with colored output
+
+# Configure logging with colored output to dir logs/*
+
+os.makedirs("logs", exist_ok=True)
+
 logging.basicConfig(
     level=logging.INFO,
     format='%(asctime)s - %(levelname)s - %(message)s',
     handlers=[
-        logging.FileHandler('enhanced_scraper.log'),
+        logging.FileHandler(os.path.join("logs", "enhanced_scraper.log")),
         logging.StreamHandler()
     ]
 )
@@ -56,11 +60,11 @@ console_handler.setFormatter(ColoredFormatter('%(asctime)s - %(levelname)s - %(m
 
 logger = logging.getLogger(__name__)
 logger.handlers = []  # Clear existing handlers
-logger.addHandler(logging.FileHandler('enhanced_scraper.log'))
+logger.addHandler(logging.FileHandler(os.path.join("logs", "enhanced_scraper.log")))
 logger.addHandler(console_handler)
 logger.setLevel(logging.INFO)
 
-class EnhancedStockDataWorker:
+class StockDataWorker:
     """Enhanced worker class for fetching comprehensive stock data using yfinance components"""
     
     def __init__(self, ticker: str, folder_path: str, max_data_size: int = None):
@@ -603,7 +607,7 @@ def print_progress_bar(current: int, total: int, width: int = 50):
     percentage = (current / total) * 100
     print(f"\r{Fore.CYAN}Progress: {bar} {percentage:.1f}% ({current}/{total}){Style.RESET_ALL}", end='', flush=True)
 
-def scrape_enhanced_yahoo_finance(max_workers: int = 4, include_market_data: bool = True, max_data_size: int = None):
+def scrape_yahoo_finance(max_workers: int = 4, include_market_data: bool = True, max_data_size: int = None):
     """
     Enhanced scraper using multiple yfinance components for comprehensive data collection.
     
@@ -638,7 +642,7 @@ def scrape_enhanced_yahoo_finance(max_workers: int = 4, include_market_data: boo
         print()
     
     # Create enhanced workers for each stock
-    workers = [EnhancedStockDataWorker(ticker, folder_path, max_data_size) for ticker in stock_names]
+    workers = [StockDataWorker(ticker, folder_path, max_data_size) for ticker in stock_names]
     
     # Results tracking
     results = []
@@ -753,7 +757,7 @@ if __name__ == "__main__":
     # and to avoid overwhelming Yahoo Finance's servers
     try:
         # Set max_data_size to None for unlimited data, or set a limit like 10000
-        scrape_enhanced_yahoo_finance(
+        scrape_yahoo_finance(
             max_workers=3, 
             include_market_data=True,
             max_data_size=None  # None = unlimited, or set number like 10000
