@@ -1,0 +1,62 @@
+# Wrangler configuration for Cloudflare services
+# This file configures Workers, R2, KV, and D1 services
+
+name = "stock-data-processor"
+main = "cloudflare_worker.js"
+compatibility_date = "2024-01-01"
+compatibility_flags = ["nodejs_compat"]
+
+# Environment variables
+[vars]
+ENVIRONMENT = "production"
+DATA_VERSION = "2.0"
+
+# R2 Object Storage
+[[r2_buckets]]
+binding = "stock-data-bucket"
+bucket_name = "stock-data-bucket"
+preview_bucket_name = "stock-data-bucket-dev"
+
+# KV Namespace for metadata
+[[kv_namespaces]]
+binding = "stock_metadata"
+id = "your_kv_namespace_id_here"
+preview_id = "your_preview_kv_namespace_id_here"
+
+# D1 Database
+[[d1_databases]]
+binding = "stock_data_db"
+database_name = "stock_data_db"
+database_id = "your_d1_database_id_here"
+
+# Worker settings
+[env.production]
+name = "stock-data-processor"
+route = "stock-data.yourdomain.com/*"
+
+[env.staging]
+name = "stock-data-processor-staging"
+route = "staging-stock-data.yourdomain.com/*"
+
+# Cron triggers for scheduled tasks
+[triggers]
+crons = [
+  "0 */6 * * *",  # Every 6 hours
+  "0 0 * * *"     # Daily at midnight
+]
+
+# Build settings
+[build]
+command = "npm run build"
+watch_dir = "src"
+
+# Development settings
+[dev]
+port = 8787
+local = true
+persist = true
+
+# Secrets (set these with: wrangler secret put SECRET_NAME)
+# CLOUDFLARE_API_TOKEN
+# CLOUDFLARE_ACCOUNT_ID
+# CLOUDFLARE_ZONE_ID

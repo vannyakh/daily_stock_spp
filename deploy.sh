@@ -1,7 +1,7 @@
 #!/bin/bash
 
-# Stock Data API Deployment Script (Supports V1 and V2)
-# Usage: ./deploy.sh [staging|production|docker] [v1|v2]
+# Stock Data API Deployment Script (Supports V1, V2, and Cloudflare)
+# Usage: ./deploy.sh [staging|production|docker|cloudflare] [v1|v2]
 
 set -e
 
@@ -22,6 +22,7 @@ DOCKER_TAG="latest"
 # Default values
 DEPLOY_ENV="staging"
 API_VERSION="v2"
+CLOUDFLARE_CONFIG="cloudflare/cloudflare_config.json"
 
 # Functions
 log_info() {
@@ -62,6 +63,12 @@ check_dependencies() {
     # Check if Docker is installed (for Docker deployment)
     if [[ "$1" == "docker" ]] && ! command -v docker &> /dev/null; then
         log_error "Docker is not installed"
+        exit 1
+    fi
+    
+    # Check if Wrangler is installed (for Cloudflare deployment)
+    if [[ "$1" == "cloudflare" ]] && ! command -v wrangler &> /dev/null; then
+        log_error "Wrangler CLI is not installed. Install with: npm install -g wrangler"
         exit 1
     fi
     
@@ -113,6 +120,23 @@ test_api() {
         test_v1_api
     else
         test_v2_api
+    fi
+}
+
+test_cloudflare() {
+    log_info "Testing Cloudflare integration..."
+    
+    if [[ -f "$CLOUDFLARE_CONFIG" ]]; then
+        if python3 test_cloudflare.py > /dev/null 2>&1; then
+            log_success "Cloudflare integration test passed"
+            return 0
+        else
+            log_warning "Cloudflare integration test failed"
+            return 1
+        fi
+    else
+        log_warning "Cloudflare configuration not found, skipping test"
+        return 0
     fi
 }
 
@@ -257,6 +281,46 @@ deploy_compose() {
     log_info "  - Grafana: http://localhost:3000 (admin/admin)"
 }
 
+deploy_cloudflare() {
+    log_info "Deploying $API_VERSION API with Cloudflare integration..."
+    
+    # Check if Cloudflare configuration exists
+    if [[ ! -f "$CLOUDFLARE_CONFIG" ]]; then
+        log_error "Cloudflare configuration not found at $CLOUDFLARE_CONFIG"
+        log_info "Please run the Cloudflare setup first:"
+        log_info "  python cloudflare/cloudflare_setup.py"
+        exit 1
+    fi
+    
+    # Test Cloudflare integration
+    test_cloudflare
+    
+    # Deploy to Cloudflare Workers
+    log_info "Deploying Cloudflare Worker..."
+    cd cloudflare
+    
+    # Deploy the Worker
+    if wrangler deploy; then
+        log_success "Cloudflare Worker deployed successfully"
+    else
+        log_error "Failed to deploy Cloudflare Worker"
+        cd ..
+        exit 1
+    fi
+    
+    cd ..
+    
+    # Deploy the API version to staging with Cloudflare integration
+    log_info "Deploying $API_VERSION API with Cloudflare storage..."
+    deploy_staging
+    
+    log_success "Cloudflare deployment completed for $API_VERSION"
+    log_info "Cloudflare services available:"
+    log_info "  - Worker API: Check your Cloudflare dashboard"
+    log_info "  - R2 Storage: Check your Cloudflare dashboard"
+    log_info "  - Local API: cd staging/$API_VERSION && python3 $(if [[ "$API_VERSION" == "v1" ]]; then echo "stock_api.py"; else echo "stock_api_server.py"; fi)"
+}
+
 show_status() {
     log_info "Deployment Status for $API_VERSION:"
     
@@ -275,6 +339,33 @@ show_status() {
         else
             docker ps --filter "name=stock-data-api-v2" --format "table {{.Names}}\t{{.Status}}\t{{.Ports}}"
         fi
+    fi
+    
+    # Check Cloudflare status
+    if [[ -f "$CLOUDFLARE_CONFIG" ]]; then
+        log_info "Cloudflare Status:"
+        if command -v wrangler &> /dev/null; then
+            # Check if Worker is deployed
+            cd cloudflare 2>/dev/null && {
+                if wrangler whoami > /dev/null 2>&1; then
+                    log_success "Cloudflare authentication: ✅"
+                    
+                    # Check Worker status
+                    if wrangler tail --format=pretty > /dev/null 2>&1; then
+                        log_success "Cloudflare Worker: ✅ Running"
+                    else
+                        log_warning "Cloudflare Worker: ⚠️ Not running"
+                    fi
+                else
+                    log_warning "Cloudflare authentication: ❌ Not authenticated"
+                fi
+                cd ..
+            } || log_warning "Cloudflare directory not accessible"
+        else
+            log_warning "Wrangler CLI not installed"
+        fi
+    else
+        log_info "Cloudflare: Not configured"
     fi
     
     # Show data status
@@ -299,27 +390,31 @@ show_status() {
 }
 
 show_help() {
-    echo "Stock Data API Deployment Script (Supports V1 and V2)"
+    echo "Stock Data API Deployment Script (Supports V1, V2, and Cloudflare)"
     echo ""
     echo "Usage: $0 [ENVIRONMENT] [VERSION]"
     echo ""
     echo "Environments:"
-    echo "  staging     Deploy to staging environment"
-    echo "  production  Deploy to production environment"
-    echo "  docker      Deploy using Docker"
-    echo "  compose     Deploy using Docker Compose (full stack)"
-    echo "  status      Show deployment status"
-    echo "  help        Show this help message"
+    echo "  staging         Deploy to staging environment"
+    echo "  production      Deploy to production environment"
+    echo "  docker          Deploy using Docker"
+    echo "  compose         Deploy using Docker Compose (full stack)"
+    echo "  cloudflare      Deploy with Cloudflare integration (Workers + R2)"
+    echo "  setup-cloudflare Setup Cloudflare services (R2, KV, D1, Workers)"
+    echo "  status          Show deployment status"
+    echo "  help            Show this help message"
     echo ""
     echo "Versions:"
     echo "  v1          Basic Stock Data API (intraday data)"
     echo "  v2          Enhanced Stock Data API (comprehensive data)"
     echo ""
     echo "Examples:"
-    echo "  $0 staging v1     # Deploy V1 API to staging"
-    echo "  $0 production v2  # Deploy V2 API to production"
-    echo "  $0 docker v1      # Deploy V1 API with Docker"
-    echo "  $0 status v2      # Check V2 API deployment status"
+    echo "  $0 staging v1            # Deploy V1 API to staging"
+    echo "  $0 production v2         # Deploy V2 API to production"
+    echo "  $0 docker v1             # Deploy V1 API with Docker"
+    echo "  $0 cloudflare v2         # Deploy V2 API with Cloudflare"
+    echo "  $0 setup-cloudflare      # Setup Cloudflare services"
+    echo "  $0 status v2             # Check V2 API deployment status"
     echo ""
     echo "Default: staging v2 (if no arguments provided)"
 }
@@ -342,7 +437,7 @@ parse_args() {
     
     # Validate deployment environment
     case "$DEPLOY_ENV" in
-        "staging"|"production"|"docker"|"compose"|"status"|"help")
+        "staging"|"production"|"docker"|"compose"|"cloudflare"|"setup-cloudflare"|"status"|"help")
             ;;
         *)
             log_error "Invalid deployment environment: $DEPLOY_ENV"
@@ -380,6 +475,32 @@ main() {
         "compose")
             check_dependencies docker
             deploy_compose
+            ;;
+        "cloudflare")
+            check_dependencies
+            install_dependencies
+            test_api
+            deploy_cloudflare
+            ;;
+        "setup-cloudflare")
+            check_dependencies
+            install_dependencies
+            log_info "Setting up Cloudflare services..."
+            if [[ -f "$CLOUDFLARE_CONFIG" ]]; then
+                log_info "Cloudflare configuration found, running setup..."
+                cd cloudflare
+                if python3 cloudflare_setup.py; then
+                    log_success "Cloudflare setup completed"
+                else
+                    log_error "Cloudflare setup failed"
+                    cd ..
+                    exit 1
+                fi
+                cd ..
+            else
+                log_error "Cloudflare configuration not found. Please create it first."
+                exit 1
+            fi
             ;;
         "status")
             show_status

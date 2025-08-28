@@ -1,0 +1,83 @@
+name: Daily Stock Scraper V1
+
+# Trigger the workflow every 24 hours
+on:
+  workflow_dispatch: # Allows manual trigger with inputs
+    inputs:
+      max_workers:
+        description: 'Maximum concurrent workers'
+        required: false
+        default: 4
+        type: number
+  schedule:
+    - cron: "25 3 * * *" # 10:25 PM EST
+
+permissions:
+  contents: write  # Ensure write permissions for pushing changes
+
+jobs:
+  scrape-job:
+    runs-on: ubuntu-latest
+
+    steps:
+      # Step 1: Check out the repository code
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      # Step 2: Set up Python environment
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: "3.9"
+
+      # Step 3: Install dependencies
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      # Step 4: Run V1 Basic Scraper
+      - name: Run V1 Basic Scraper
+        run: |
+          echo "🚀 Running V1 Basic Stock Scraper..."
+          python v1/yf_scraper.py
+        continue-on-error: true
+
+      # Step 5: Check V1 data collection status
+      - name: Check V1 data collection status
+        run: |
+          echo "📊 Checking V1 data collection status..."
+          
+          # Check V1 data
+          if [ -d "stock_data" ]; then
+            v1_count=$(find stock_data -name "*_intraday.csv" | wc -l)
+            echo "V1 Basic data: $v1_count stocks collected"
+          else
+            echo "V1 Basic data: No data found"
+          fi
+
+      # Step 6: Commit and push changes
+      - name: Commit and push changes
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          
+          # Add all changes
+          git add .
+          
+          # Create commit message for V1
+          commit_msg="Update V1 basic stock data - $(date +'%Y-%m-%d %H:%M:%S UTC')"
+          
+          # Commit and push
+          git commit -m "$commit_msg" || echo "No changes to commit"
+          git push origin main || echo "No changes to push"
+
+      # Step 7: Summary
+      - name: Summary
+        run: |
+          echo "✅ V1 Daily scraper workflow completed successfully!"
+          echo "📅 Date: $(date)"
+          echo "🔀 Version: V1 Basic Scraper"
+          echo "🌐 Repository: ${{ github.repository }}"
+          echo "📊 Check the stock_data folder for collected information"
+
