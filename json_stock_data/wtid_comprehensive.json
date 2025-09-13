@@ -1,0 +1,76 @@
+{
+  "ticker": "WTID",
+  "timestamp": "2025-09-13T04:19:39.405157",
+  "intraday_data": {
+    "status": "success",
+    "rows": 3,
+    "data": [
+      {
+        "Close": 12.605899810791016,
+        "High": 12.605899810791016,
+        "Low": 12.590100288391113,
+        "Open": 12.590100288391113,
+        "Volume": 0
+      },
+      {
+        "Close": 12.550000190734863,
+        "High": 12.550000190734863,
+        "Low": 12.550000190734863,
+        "Open": 12.550000190734863,
+        "Volume": 621
+      },
+      {
+        "Close": 12.850000381469727,
+        "High": 12.850000381469727,
+        "Low": 12.850000381469727,
+        "Open": 12.850000381469727,
+        "Volume": 115
+      }
+    ]
+  },
+  "stock_info": {
+    "status": "error",
+    "message": "Too Many Requests. Rate limited. Try after a while."
+  },
+  "financials": {
+    "income_statement": {
+      "status": "no_data"
+    },
+    "balance_sheet": {
+      "status": "no_data"
+    },
+    "cash_flow": {
+      "status": "no_data"
+    }
+  },
+  "options_data": {
+    "status": "error",
+    "error_message": "Too Many Requests. Rate limited. Try after a while."
+  },
+  "news_data": {
+    "news": {
+      "status": "no_data"
+    },
+    "recommendations": {
+      "status": "no_data"
+    }
+  },
+  "holders_data": {
+    "major_holders": {
+      "status": "error"
+    },
+    "institutional_holders": {
+      "status": "error"
+    }
+  },
+  "earnings_data": {
+    "earnings": {
+      "status": "error",
+      "message": "'NoneType' object has no attribute 'empty'"
+    },
+    "calendar": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  }
+}

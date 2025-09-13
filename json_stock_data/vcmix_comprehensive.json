@@ -1,0 +1,70 @@
+{
+  "ticker": "VCMIX",
+  "timestamp": "2025-09-13T04:20:16.571650",
+  "intraday_data": {
+    "status": "success",
+    "rows": 2,
+    "data": [
+      {
+        "Close": 24.3799991607666,
+        "High": 24.3799991607666,
+        "Low": 24.3799991607666,
+        "Open": 24.3799991607666,
+        "Volume": 0
+      },
+      {
+        "Close": 24.360000610351562,
+        "High": 24.360000610351562,
+        "Low": 24.360000610351562,
+        "Open": 24.360000610351562,
+        "Volume": 0
+      }
+    ]
+  },
+  "stock_info": {
+    "status": "error",
+    "message": "Too Many Requests. Rate limited. Try after a while."
+  },
+  "financials": {
+    "income_statement": {
+      "status": "no_data"
+    },
+    "balance_sheet": {
+      "status": "no_data"
+    },
+    "cash_flow": {
+      "status": "no_data"
+    }
+  },
+  "options_data": {
+    "status": "error",
+    "error_message": "Too Many Requests. Rate limited. Try after a while."
+  },
+  "news_data": {
+    "news": {
+      "status": "no_data"
+    },
+    "recommendations": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  },
+  "holders_data": {
+    "major_holders": {
+      "status": "error"
+    },
+    "institutional_holders": {
+      "status": "error"
+    }
+  },
+  "earnings_data": {
+    "earnings": {
+      "status": "error",
+      "message": "'NoneType' object has no attribute 'empty'"
+    },
+    "calendar": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  }
+}

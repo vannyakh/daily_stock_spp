@@ -1,0 +1,70 @@
+{
+  "ticker": "IPXXW",
+  "timestamp": "2025-09-13T04:14:47.309053",
+  "intraday_data": {
+    "status": "success",
+    "rows": 2,
+    "data": [
+      {
+        "Close RMXI": 5.0,
+        "High RMXI": 5.0,
+        "Low RMXI": 5.0,
+        "Open RMXI": 5.0,
+        "Volume RMXI": 0
+      },
+      {
+        "Close RMXI": 4.900000095367432,
+        "High RMXI": 4.900000095367432,
+        "Low RMXI": 4.900000095367432,
+        "Open RMXI": 4.900000095367432,
+        "Volume RMXI": 700
+      }
+    ]
+  },
+  "stock_info": {
+    "status": "error",
+    "message": "argument of type 'NoneType' is not iterable"
+  },
+  "financials": {
+    "income_statement": {
+      "status": "no_data"
+    },
+    "balance_sheet": {
+      "status": "no_data"
+    },
+    "cash_flow": {
+      "status": "no_data"
+    }
+  },
+  "options_data": {
+    "status": "error",
+    "error_message": "Too Many Requests. Rate limited. Try after a while."
+  },
+  "news_data": {
+    "news": {
+      "status": "no_data"
+    },
+    "recommendations": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  },
+  "holders_data": {
+    "major_holders": {
+      "status": "error"
+    },
+    "institutional_holders": {
+      "status": "error"
+    }
+  },
+  "earnings_data": {
+    "earnings": {
+      "status": "error",
+      "message": "'NoneType' object has no attribute 'empty'"
+    },
+    "calendar": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  }
+}

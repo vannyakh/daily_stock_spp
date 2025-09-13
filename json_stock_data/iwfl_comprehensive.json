@@ -1,0 +1,70 @@
+{
+  "ticker": "IWFL",
+  "timestamp": "2025-09-13T04:18:15.394593",
+  "intraday_data": {
+    "status": "success",
+    "rows": 2,
+    "data": [
+      {
+        "Close": 54.789100646972656,
+        "High": 54.789100646972656,
+        "Low": 54.789100646972656,
+        "Open": 54.789100646972656,
+        "Volume": 0
+      },
+      {
+        "Close": 55.151798248291016,
+        "High": 55.151798248291016,
+        "Low": 55.099998474121094,
+        "Open": 55.11000061035156,
+        "Volume": 205
+      }
+    ]
+  },
+  "stock_info": {
+    "status": "error",
+    "message": "Too Many Requests. Rate limited. Try after a while."
+  },
+  "financials": {
+    "income_statement": {
+      "status": "no_data"
+    },
+    "balance_sheet": {
+      "status": "no_data"
+    },
+    "cash_flow": {
+      "status": "no_data"
+    }
+  },
+  "options_data": {
+    "status": "error",
+    "error_message": "Too Many Requests. Rate limited. Try after a while."
+  },
+  "news_data": {
+    "news": {
+      "status": "no_data"
+    },
+    "recommendations": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  },
+  "holders_data": {
+    "major_holders": {
+      "status": "error"
+    },
+    "institutional_holders": {
+      "status": "error"
+    }
+  },
+  "earnings_data": {
+    "earnings": {
+      "status": "error",
+      "message": "'NoneType' object has no attribute 'empty'"
+    },
+    "calendar": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  }
+}

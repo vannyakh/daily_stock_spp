@@ -1,0 +1,77 @@
+{
+  "ticker": "CAS",
+  "timestamp": "2025-09-13T04:13:02.274134",
+  "intraday_data": {
+    "status": "success",
+    "rows": 3,
+    "data": [
+      {
+        "Close CHMI-PB": 24.479999542236328,
+        "High CHMI-PB": 24.479999542236328,
+        "Low CHMI-PB": 24.443599700927734,
+        "Open CHMI-PB": 24.443599700927734,
+        "Volume CHMI-PB": 242
+      },
+      {
+        "Close CHMI-PB": 24.344999313354492,
+        "High CHMI-PB": 24.344999313354492,
+        "Low CHMI-PB": 24.344999313354492,
+        "Open CHMI-PB": 24.344999313354492,
+        "Volume CHMI-PB": 500
+      },
+      {
+        "Close CHMI-PB": 24.344999313354492,
+        "High CHMI-PB": 24.344999313354492,
+        "Low CHMI-PB": 24.344999313354492,
+        "Open CHMI-PB": 24.344999313354492,
+        "Volume CHMI-PB": 100
+      }
+    ]
+  },
+  "stock_info": {
+    "status": "error",
+    "message": "Too Many Requests. Rate limited. Try after a while."
+  },
+  "financials": {
+    "income_statement": {
+      "status": "no_data"
+    },
+    "balance_sheet": {
+      "status": "no_data"
+    },
+    "cash_flow": {
+      "status": "no_data"
+    }
+  },
+  "options_data": {
+    "status": "error",
+    "error_message": "Too Many Requests. Rate limited. Try after a while."
+  },
+  "news_data": {
+    "news": {
+      "status": "no_data"
+    },
+    "recommendations": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  },
+  "holders_data": {
+    "major_holders": {
+      "status": "error"
+    },
+    "institutional_holders": {
+      "status": "error"
+    }
+  },
+  "earnings_data": {
+    "earnings": {
+      "status": "error",
+      "message": "'NoneType' object has no attribute 'empty'"
+    },
+    "calendar": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  }
+}

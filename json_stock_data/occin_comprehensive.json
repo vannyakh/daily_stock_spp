@@ -1,0 +1,84 @@
+{
+  "ticker": "OCCIN",
+  "timestamp": "2025-09-13T04:15:36.702843",
+  "intraday_data": {
+    "status": "success",
+    "rows": 4,
+    "data": [
+      {
+        "Close": 24.371299743652344,
+        "High": 24.371299743652344,
+        "Low": 24.371299743652344,
+        "Open": 24.371299743652344,
+        "Volume": 0
+      },
+      {
+        "Close": 24.3976993560791,
+        "High": 24.3976993560791,
+        "Low": 24.3976993560791,
+        "Open": 24.3976993560791,
+        "Volume": 1234
+      },
+      {
+        "Close": 24.420000076293945,
+        "High": 24.420000076293945,
+        "Low": 24.420000076293945,
+        "Open": 24.420000076293945,
+        "Volume": 436
+      },
+      {
+        "Close": 24.472000122070312,
+        "High": 24.472000122070312,
+        "Low": 24.472000122070312,
+        "Open": 24.472000122070312,
+        "Volume": 200
+      }
+    ]
+  },
+  "stock_info": {
+    "status": "error",
+    "message": "Too Many Requests. Rate limited. Try after a while."
+  },
+  "financials": {
+    "income_statement": {
+      "status": "no_data"
+    },
+    "balance_sheet": {
+      "status": "no_data"
+    },
+    "cash_flow": {
+      "status": "no_data"
+    }
+  },
+  "options_data": {
+    "status": "error",
+    "error_message": "Too Many Requests. Rate limited. Try after a while."
+  },
+  "news_data": {
+    "news": {
+      "status": "no_data"
+    },
+    "recommendations": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  },
+  "holders_data": {
+    "major_holders": {
+      "status": "error"
+    },
+    "institutional_holders": {
+      "status": "error"
+    }
+  },
+  "earnings_data": {
+    "earnings": {
+      "status": "error",
+      "message": "'NoneType' object has no attribute 'empty'"
+    },
+    "calendar": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  }
+}

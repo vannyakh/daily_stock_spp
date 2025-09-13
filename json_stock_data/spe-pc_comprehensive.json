@@ -1,0 +1,77 @@
+{
+  "ticker": "SPE-PC",
+  "timestamp": "2025-09-13T04:19:35.812144",
+  "intraday_data": {
+    "status": "success",
+    "rows": 3,
+    "data": [
+      {
+        "Close": 25.149999618530273,
+        "High": 25.149999618530273,
+        "Low": 25.149999618530273,
+        "Open": 25.149999618530273,
+        "Volume": 0
+      },
+      {
+        "Close": 25.5,
+        "High": 25.5,
+        "Low": 25.5,
+        "Open": 25.5,
+        "Volume": 0
+      },
+      {
+        "Close": 24.790000915527344,
+        "High": 24.850000381469727,
+        "Low": 24.790000915527344,
+        "Open": 24.850000381469727,
+        "Volume": 3996
+      }
+    ]
+  },
+  "stock_info": {
+    "status": "error",
+    "message": "Too Many Requests. Rate limited. Try after a while."
+  },
+  "financials": {
+    "income_statement": {
+      "status": "no_data"
+    },
+    "balance_sheet": {
+      "status": "no_data"
+    },
+    "cash_flow": {
+      "status": "no_data"
+    }
+  },
+  "options_data": {
+    "status": "error",
+    "error_message": "Too Many Requests. Rate limited. Try after a while."
+  },
+  "news_data": {
+    "news": {
+      "status": "no_data"
+    },
+    "recommendations": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  },
+  "holders_data": {
+    "major_holders": {
+      "status": "error"
+    },
+    "institutional_holders": {
+      "status": "error"
+    }
+  },
+  "earnings_data": {
+    "earnings": {
+      "status": "error",
+      "message": "'NoneType' object has no attribute 'empty'"
+    },
+    "calendar": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  }
+}

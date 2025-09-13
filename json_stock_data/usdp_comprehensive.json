@@ -1,0 +1,70 @@
+{
+  "ticker": "USDP",
+  "timestamp": "2025-09-13T04:13:58.768048",
+  "intraday_data": {
+    "status": "success",
+    "rows": 2,
+    "data": [
+      {
+        "Close": 0.006500000134110451,
+        "High": 0.006500000134110451,
+        "Low": 0.006500000134110451,
+        "Open": 0.006500000134110451,
+        "Volume": 285
+      },
+      {
+        "Close": 0.006599999964237213,
+        "High": 0.006599999964237213,
+        "Low": 0.006599999964237213,
+        "Open": 0.006599999964237213,
+        "Volume": 2000
+      }
+    ]
+  },
+  "stock_info": {
+    "status": "error",
+    "message": "Too Many Requests. Rate limited. Try after a while."
+  },
+  "financials": {
+    "income_statement": {
+      "status": "no_data"
+    },
+    "balance_sheet": {
+      "status": "no_data"
+    },
+    "cash_flow": {
+      "status": "no_data"
+    }
+  },
+  "options_data": {
+    "status": "error",
+    "error_message": "Too Many Requests. Rate limited. Try after a while."
+  },
+  "news_data": {
+    "news": {
+      "status": "no_data"
+    },
+    "recommendations": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  },
+  "holders_data": {
+    "major_holders": {
+      "status": "error"
+    },
+    "institutional_holders": {
+      "status": "error"
+    }
+  },
+  "earnings_data": {
+    "earnings": {
+      "status": "error",
+      "message": "'NoneType' object has no attribute 'empty'"
+    },
+    "calendar": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  }
+}

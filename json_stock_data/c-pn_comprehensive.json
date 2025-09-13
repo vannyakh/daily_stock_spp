@@ -1,0 +1,70 @@
+{
+  "ticker": "C-PN",
+  "timestamp": "2025-09-13T04:19:54.119265",
+  "intraday_data": {
+    "status": "success",
+    "rows": 2,
+    "data": [
+      {
+        "Close DZZ": 1.7000000476837158,
+        "High DZZ": 1.7060999870300293,
+        "Low DZZ": 1.7000000476837158,
+        "Open DZZ": 1.7060999870300293,
+        "Volume DZZ": 2098
+      },
+      {
+        "Close DZZ": 1.7000000476837158,
+        "High DZZ": 1.7050000429153442,
+        "Low DZZ": 1.7000000476837158,
+        "Open DZZ": 1.7050000429153442,
+        "Volume DZZ": 0
+      }
+    ]
+  },
+  "stock_info": {
+    "status": "error",
+    "message": "Too Many Requests. Rate limited. Try after a while."
+  },
+  "financials": {
+    "income_statement": {
+      "status": "no_data"
+    },
+    "balance_sheet": {
+      "status": "no_data"
+    },
+    "cash_flow": {
+      "status": "no_data"
+    }
+  },
+  "options_data": {
+    "status": "error",
+    "error_message": "Too Many Requests. Rate limited. Try after a while."
+  },
+  "news_data": {
+    "news": {
+      "status": "no_data"
+    },
+    "recommendations": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  },
+  "holders_data": {
+    "major_holders": {
+      "status": "error"
+    },
+    "institutional_holders": {
+      "status": "error"
+    }
+  },
+  "earnings_data": {
+    "earnings": {
+      "status": "error",
+      "message": "'NoneType' object has no attribute 'empty'"
+    },
+    "calendar": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  }
+}

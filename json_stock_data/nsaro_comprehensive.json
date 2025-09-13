@@ -1,0 +1,77 @@
+{
+  "ticker": "NSARO",
+  "timestamp": "2025-09-13T04:15:59.026224",
+  "intraday_data": {
+    "status": "success",
+    "rows": 3,
+    "data": [
+      {
+        "Close HAWEM": 20.420000076293945,
+        "High HAWEM": 20.420000076293945,
+        "Low HAWEM": 20.420000076293945,
+        "Open HAWEM": 20.420000076293945,
+        "Volume HAWEM": 0
+      },
+      {
+        "Close HAWEM": 21.5,
+        "High HAWEM": 21.5,
+        "Low HAWEM": 21.5,
+        "Open HAWEM": 21.5,
+        "Volume HAWEM": 400
+      },
+      {
+        "Close HAWEM": 20.75,
+        "High HAWEM": 20.75,
+        "Low HAWEM": 20.75,
+        "Open HAWEM": 20.75,
+        "Volume HAWEM": 400
+      }
+    ]
+  },
+  "stock_info": {
+    "status": "error",
+    "message": "Too Many Requests. Rate limited. Try after a while."
+  },
+  "financials": {
+    "income_statement": {
+      "status": "no_data"
+    },
+    "balance_sheet": {
+      "status": "no_data"
+    },
+    "cash_flow": {
+      "status": "no_data"
+    }
+  },
+  "options_data": {
+    "status": "error",
+    "error_message": "Too Many Requests. Rate limited. Try after a while."
+  },
+  "news_data": {
+    "news": {
+      "status": "no_data"
+    },
+    "recommendations": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  },
+  "holders_data": {
+    "major_holders": {
+      "status": "error"
+    },
+    "institutional_holders": {
+      "status": "error"
+    }
+  },
+  "earnings_data": {
+    "earnings": {
+      "status": "error",
+      "message": "'NoneType' object has no attribute 'empty'"
+    },
+    "calendar": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  }
+}

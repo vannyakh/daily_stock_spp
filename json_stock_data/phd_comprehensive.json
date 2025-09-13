@@ -1,0 +1,150 @@
+{
+  "ticker": "PHD",
+  "timestamp": "2025-09-13T04:01:13.889722",
+  "intraday_data": {
+    "status": "no_data",
+    "message": "No intraday data available"
+  },
+  "stock_info": {
+    "status": "error",
+    "message": "Too Many Requests. Rate limited. Try after a while."
+  },
+  "financials": {
+    "income_statement": {
+      "status": "no_data"
+    },
+    "balance_sheet": {
+      "status": "no_data"
+    },
+    "cash_flow": {
+      "status": "no_data"
+    }
+  },
+  "options_data": {
+    "status": "error",
+    "error_message": "Too Many Requests. Rate limited. Try after a while."
+  },
+  "news_data": {
+    "news": {
+      "status": "no_data"
+    },
+    "recommendations": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  },
+  "holders_data": {
+    "major_holders": {
+      "status": "success",
+      "data": [
+        {
+          "Value": 0.0
+        },
+        {
+          "Value": 0.42824
+        },
+        {
+          "Value": 0.42824
+        },
+        {
+          "Value": 56.0
+        }
+      ]
+    },
+    "institutional_holders": {
+      "status": "success",
+      "data": [
+        {
+          "Date Reported": "2025-06-30 00:00:00",
+          "Holder": "Lake Street Private Wealth, LLC",
+          "pctHeld": 0.0555,
+          "Shares": 686650,
+          "Value": 6784102,
+          "pctChange": 0.0045
+        },
+        {
+          "Date Reported": "2025-06-30 00:00:00",
+          "Holder": "Advisors Asset Management, Inc.",
+          "pctHeld": 0.0277,
+          "Shares": 342948,
+          "Value": 3388326,
+          "pctChange": -0.0070999996
+        },
+        {
+          "Date Reported": "2025-06-30 00:00:00",
+          "Holder": "Almitas Capital LLC",
+          "pctHeld": 0.0273,
+          "Shares": 338368,
+          "Value": 3343075,
+          "pctChange": 1.0
+        },
+        {
+          "Date Reported": "2025-06-30 00:00:00",
+          "Holder": "Invesco Ltd.",
+          "pctHeld": 0.0272,
+          "Shares": 336488,
+          "Value": 3324501,
+          "pctChange": -0.0295
+        },
+        {
+          "Date Reported": "2025-06-30 00:00:00",
+          "Holder": "Saba Capital Management, L.P.",
+          "pctHeld": 0.025799999,
+          "Shares": 319614,
+          "Value": 3157786,
+          "pctChange": 1.0
+        },
+        {
+          "Date Reported": "2025-06-30 00:00:00",
+          "Holder": "Guggenheim Capital, LLC",
+          "pctHeld": 0.018099999,
+          "Shares": 224400,
+          "Value": 2217072,
+          "pctChange": 0.024
+        },
+        {
+          "Date Reported": "2025-06-30 00:00:00",
+          "Holder": "Ethos Financial Group, LLC                          ",
+          "pctHeld": 0.0172,
+          "Shares": 213365,
+          "Value": 2108046,
+          "pctChange": -0.0095999995
+        },
+        {
+          "Date Reported": "2025-06-30 00:00:00",
+          "Holder": "Bank of America Corporation",
+          "pctHeld": 0.015700001,
+          "Shares": 194369,
+          "Value": 1920365,
+          "pctChange": -0.2346
+        },
+        {
+          "Date Reported": "2025-06-30 00:00:00",
+          "Holder": "Clear Creek Financial Management, LLC",
+          "pctHeld": 0.0139999995,
+          "Shares": 173155,
+          "Value": 1710771,
+          "pctChange": 0.2043
+        },
+        {
+          "Date Reported": "2025-06-30 00:00:00",
+          "Holder": "Pathstone Holdings, LLC",
+          "pctHeld": 0.0139999995,
+          "Shares": 173266,
+          "Value": 1711868,
+          "pctChange": -0.5382
+        }
+      ]
+    }
+  },
+  "earnings_data": {
+    "earnings": {
+      "status": "error",
+      "message": "'NoneType' object has no attribute 'empty'"
+    },
+    "calendar": {
+      "status": "error",
+      "message": "'dict' object has no attribute 'empty'"
+    }
+  }
+}

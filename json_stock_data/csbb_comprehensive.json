@@ -1,0 +1,84 @@
+{
+  "ticker": "CSBB",
+  "timestamp": "2025-09-13T04:01:46.813689",
+  "intraday_data": {
+    "status": "success",
+    "rows": 4,
+    "data": [
+      {
+        "Close": 45.59000015258789,
+        "High": 45.59000015258789,
+        "Low": 45.59000015258789,
+        "Open": 45.59000015258789,
+        "Volume": 200
+      },
+      {
+        "Close": 45.5,
+        "High": 45.5,
+        "Low": 45.5,
+        "Open": 45.5,
+        "Volume": 240
+      },
+      {
+        "Close": 45.5,
+        "High": 45.5,
+        "Low": 45.5,
+        "Open": 45.5,
+        "Volume": 200
+      },
+      {
+        "Close": 45.5,
+        "High": 45.5,
+        "Low": 45.5,
+        "Open": 45.5,
+        "Volume": 540
+      }
+    ]
+  },
+  "stock_info": {
+    "status": "error",
+    "message": "Too Many Requests. Rate limited. Try after a while."
+  },
+  "financials": {
+    "income_statement": {
+      "status": "no_data"
+    },
+    "balance_sheet": {
+      "status": "no_data"
+    },
+    "cash_flow": {
+      "status": "no_data"
+    }
+  },
+  "options_data": {
+    "status": "error",
+    "error_message": "Too Many Requests. Rate limited. Try after a while."
+  },
+  "news_data": {
+    "news": {
+      "status": "no_data"
+    },
+    "recommendations": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  },
+  "holders_data": {
+    "major_holders": {
+      "status": "error"
+    },
+    "institutional_holders": {
+      "status": "error"
+    }
+  },
+  "earnings_data": {
+    "earnings": {
+      "status": "error",
+      "message": "'NoneType' object has no attribute 'empty'"
+    },
+    "calendar": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  }
+}

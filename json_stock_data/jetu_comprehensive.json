@@ -1,0 +1,84 @@
+{
+  "ticker": "JETU",
+  "timestamp": "2025-09-13T04:19:38.416563",
+  "intraday_data": {
+    "status": "success",
+    "rows": 4,
+    "data": [
+      {
+        "Close": 23.53580093383789,
+        "High": 23.92639923095703,
+        "Low": 23.53580093383789,
+        "Open": 23.92639923095703,
+        "Volume": 65
+      },
+      {
+        "Close": 23.53580093383789,
+        "High": 23.53580093383789,
+        "Low": 23.53580093383789,
+        "Open": 23.53580093383789,
+        "Volume": 0
+      },
+      {
+        "Close": 23.23819923400879,
+        "High": 23.92639923095703,
+        "Low": 23.23819923400879,
+        "Open": 23.92639923095703,
+        "Volume": 287
+      },
+      {
+        "Close": 23.92639923095703,
+        "High": 23.92639923095703,
+        "Low": 23.92639923095703,
+        "Open": 23.92639923095703,
+        "Volume": 0
+      }
+    ]
+  },
+  "stock_info": {
+    "status": "error",
+    "message": "Too Many Requests. Rate limited. Try after a while."
+  },
+  "financials": {
+    "income_statement": {
+      "status": "no_data"
+    },
+    "balance_sheet": {
+      "status": "no_data"
+    },
+    "cash_flow": {
+      "status": "no_data"
+    }
+  },
+  "options_data": {
+    "status": "error",
+    "error_message": "Too Many Requests. Rate limited. Try after a while."
+  },
+  "news_data": {
+    "news": {
+      "status": "no_data"
+    },
+    "recommendations": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  },
+  "holders_data": {
+    "major_holders": {
+      "status": "error"
+    },
+    "institutional_holders": {
+      "status": "error"
+    }
+  },
+  "earnings_data": {
+    "earnings": {
+      "status": "error",
+      "message": "'NoneType' object has no attribute 'empty'"
+    },
+    "calendar": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  }
+}

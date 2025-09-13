@@ -1,0 +1,69 @@
+{
+  "ticker": "ERLFF",
+  "timestamp": "2025-09-13T04:12:58.456876",
+  "intraday_data": {
+    "status": "success",
+    "rows": 2,
+    "data": [
+      {
+        "Close": 1.7000000476837158,
+        "High": 1.7000000476837158,
+        "Low": 1.7000000476837158,
+        "Open": 1.7000000476837158,
+        "Volume": 0
+      },
+      {
+        "Close": 1.659999966621399,
+        "High": 1.659999966621399,
+        "Low": 1.659999966621399,
+        "Open": 1.659999966621399,
+        "Volume": 200
+      }
+    ]
+  },
+  "stock_info": {
+    "status": "error",
+    "message": "Too Many Requests. Rate limited. Try after a while."
+  },
+  "financials": {
+    "income_statement": {
+      "status": "no_data"
+    },
+    "balance_sheet": {
+      "status": "no_data"
+    },
+    "cash_flow": {
+      "status": "no_data"
+    }
+  },
+  "options_data": {
+    "status": "error",
+    "error_message": "Too Many Requests. Rate limited. Try after a while."
+  },
+  "news_data": {
+    "news": {
+      "status": "no_data"
+    },
+    "recommendations": {
+      "status": "no_data"
+    }
+  },
+  "holders_data": {
+    "major_holders": {
+      "status": "error"
+    },
+    "institutional_holders": {
+      "status": "error"
+    }
+  },
+  "earnings_data": {
+    "earnings": {
+      "status": "error",
+      "message": "'NoneType' object has no attribute 'empty'"
+    },
+    "calendar": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  }
+}

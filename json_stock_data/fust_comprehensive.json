@@ -1,0 +1,77 @@
+{
+  "ticker": "FUST",
+  "timestamp": "2025-09-13T04:07:58.657160",
+  "intraday_data": {
+    "status": "success",
+    "rows": 3,
+    "data": [
+      {
+        "Close CTHR": 0.7400000095367432,
+        "High CTHR": 0.7400000095367432,
+        "Low CTHR": 0.7400000095367432,
+        "Open CTHR": 0.7400000095367432,
+        "Volume CTHR": 0
+      },
+      {
+        "Close CTHR": 0.800000011920929,
+        "High CTHR": 0.800000011920929,
+        "Low CTHR": 0.6500499844551086,
+        "Open CTHR": 0.6500499844551086,
+        "Volume CTHR": 1210
+      },
+      {
+        "Close CTHR": 0.800000011920929,
+        "High CTHR": 0.800000011920929,
+        "Low CTHR": 0.800000011920929,
+        "Open CTHR": 0.800000011920929,
+        "Volume CTHR": 2000
+      }
+    ]
+  },
+  "stock_info": {
+    "status": "error",
+    "message": "Too Many Requests. Rate limited. Try after a while."
+  },
+  "financials": {
+    "income_statement": {
+      "status": "no_data"
+    },
+    "balance_sheet": {
+      "status": "no_data"
+    },
+    "cash_flow": {
+      "status": "no_data"
+    }
+  },
+  "options_data": {
+    "status": "error",
+    "error_message": "Too Many Requests. Rate limited. Try after a while."
+  },
+  "news_data": {
+    "news": {
+      "status": "no_data"
+    },
+    "recommendations": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  },
+  "holders_data": {
+    "major_holders": {
+      "status": "error"
+    },
+    "institutional_holders": {
+      "status": "error"
+    }
+  },
+  "earnings_data": {
+    "earnings": {
+      "status": "error",
+      "message": "'NoneType' object has no attribute 'empty'"
+    },
+    "calendar": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  }
+}
