@@ -1,91 +1,25 @@
 {
   "ticker": "MOJO",
-  "timestamp": "2025-09-13T04:06:58.845206",
+  "timestamp": "2025-09-16T04:16:40.072987",
   "intraday_data": {
-    "status": "success",
-    "rows": 5,
-    "data": [
-      {
-        "Close ECTM": 0.5299999713897705,
-        "High ECTM": 0.5299999713897705,
-        "Low ECTM": 0.5299999713897705,
-        "Open ECTM": 0.5299999713897705,
-        "Volume ECTM": 0
-      },
-      {
-        "Close ECTM": 0.5299999713897705,
-        "High ECTM": 0.5299999713897705,
-        "Low ECTM": 0.5299999713897705,
-        "Open ECTM": 0.5299999713897705,
-        "Volume ECTM": 0
-      },
-      {
-        "Close ECTM": 0.5400000214576721,
-        "High ECTM": 0.5400000214576721,
-        "Low ECTM": 0.5400000214576721,
-        "Open ECTM": 0.5400000214576721,
-        "Volume ECTM": 2800
-      },
-      {
-        "Close ECTM": 0.5795000195503235,
-        "High ECTM": 0.5795000195503235,
-        "Low ECTM": 0.5795000195503235,
-        "Open ECTM": 0.5795000195503235,
-        "Volume ECTM": 0
-      },
-      {
-        "Close ECTM": 0.5404999852180481,
-        "High ECTM": 0.5404999852180481,
-        "Low ECTM": 0.5404999852180481,
-        "Open ECTM": 0.5404999852180481,
-        "Volume ECTM": 350
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
-    "message": "Too Many Requests. Rate limited. Try after a while."
+    "message": "argument of type 'NoneType' is not iterable"
   },
   "financials": {
     "income_statement": {
-      "status": "no_data"
-    },
-    "balance_sheet": {
-      "status": "no_data"
-    },
-    "cash_flow": {
-      "status": "no_data"
-    }
-  },
-  "options_data": {
-    "status": "error",
-    "error_message": "Too Many Requests. Rate limited. Try after a while."
-  },
-  "news_data": {
-    "news": {
-      "status": "no_data"
-    },
-    "recommendations": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
-    }
-  },
-  "holders_data": {
-    "major_holders": {
-      "status": "error"
-    },
-    "institutional_holders": {
-      "status": "error"
-    }
-  },
-  "earnings_data": {
-    "earnings": {
-      "status": "error",
-      "message": "'NoneType' object has no attribute 'empty'"
-    },
-    "calendar": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
-    }
-  }
-}
+      "status": "success",
+      "rows": 35,
+      "columns": [
+        "2024-12-31 00:00:00",
+        "2023-12-31 00:00:00",
+        "2022-12-31 00:00:00",
+        "2021-12-31 00:00:00",
+        "2020-12-31 00:00:00"
+      ],
+      "data": [
+        {
+          

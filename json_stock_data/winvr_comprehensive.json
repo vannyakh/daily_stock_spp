@@ -1,53 +1,9 @@
 {
   "ticker": "WINVR",
-  "timestamp": "2025-09-13T04:17:16.276720",
+  "timestamp": "2025-09-16T04:28:05.293622",
   "intraday_data": {
-    "status": "success",
-    "rows": 6,
-    "data": [
-      {
-        "Close BRQL": 0.25,
-        "High BRQL": 0.25,
-        "Low BRQL": 0.25,
-        "Open BRQL": 0.25,
-        "Volume BRQL": 0
-      },
-      {
-        "Close BRQL": 0.25,
-        "High BRQL": 0.25,
-        "Low BRQL": 0.25,
-        "Open BRQL": 0.25,
-        "Volume BRQL": 0
-      },
-      {
-        "Close BRQL": 0.25,
-        "High BRQL": 0.25,
-        "Low BRQL": 0.25,
-        "Open BRQL": 0.25,
-        "Volume BRQL": 10000
-      },
-      {
-        "Close BRQL": 0.699999988079071,
-        "High BRQL": 0.699999988079071,
-        "Low BRQL": 0.699999988079071,
-        "Open BRQL": 0.699999988079071,
-        "Volume BRQL": 100
-      },
-      {
-        "Close BRQL": 0.3499999940395355,
-        "High BRQL": 0.3499999940395355,
-        "Low BRQL": 0.3499999940395355,
-        "Open BRQL": 0.3499999940395355,
-        "Volume BRQL": 0
-      },
-      {
-        "Close BRQL": 0.5799999833106995,
-        "High BRQL": 0.5799999833106995,
-        "Low BRQL": 0.5799999833106995,
-        "Open BRQL": 0.5799999833106995,
-        "Volume BRQL": 4700
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -70,7 +26,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

@@ -1,18 +1,9 @@
 {
   "ticker": "VSSYW",
-  "timestamp": "2025-09-13T04:17:55.025589",
+  "timestamp": "2025-09-16T04:28:51.529322",
   "intraday_data": {
-    "status": "success",
-    "rows": 1,
-    "data": [
-      {
-        "Close": 0.054999999701976776,
-        "High": 0.054999999701976776,
-        "Low": 0.054999999701976776,
-        "Open": 0.054999999701976776,
-        "Volume": 0
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -163,7 +154,8 @@
       ]
     },
     "recommendations": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   },
   "holders_data": {

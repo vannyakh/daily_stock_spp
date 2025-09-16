@@ -1,16 +1,16 @@
 {
   "ticker": "JUPGF",
-  "timestamp": "2025-09-13T04:06:28.131795",
+  "timestamp": "2025-09-16T04:16:03.093242",
   "intraday_data": {
     "status": "success",
     "rows": 1,
     "data": [
       {
-        "Close SPRS": 2.6500000953674316,
-        "High SPRS": 2.6500000953674316,
-        "Low SPRS": 2.6500000953674316,
-        "Open SPRS": 2.6500000953674316,
-        "Volume SPRS": 1346
+        "Close SPRS": 2.5,
+        "High SPRS": 2.5,
+        "Low SPRS": 2.5,
+        "Open SPRS": 2.5,
+        "Volume SPRS": 10
       }
     ]
   },
@@ -38,15 +38,16 @@
       "status": "no_data"
     },
     "recommendations": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   },
   "holders_data": {
     "major_holders": {
-      "status": "no_data"
+      "status": "error"
     },
     "institutional_holders": {
-      "status": "no_data"
+      "status": "error"
     }
   },
   "earnings_data": {

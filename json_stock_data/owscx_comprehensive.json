@@ -1,25 +1,9 @@
 {
   "ticker": "OWSCX",
-  "timestamp": "2025-09-13T04:16:39.548838",
+  "timestamp": "2025-09-16T04:27:23.003590",
   "intraday_data": {
-    "status": "success",
-    "rows": 2,
-    "data": [
-      {
-        "Close": 19.700000762939453,
-        "High": 19.700000762939453,
-        "Low": 19.700000762939453,
-        "Open": 19.700000762939453,
-        "Volume": 0
-      },
-      {
-        "Close": 19.709999084472656,
-        "High": 19.709999084472656,
-        "Low": 19.709999084472656,
-        "Open": 19.709999084472656,
-        "Volume": 0
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -42,8 +26,7 @@
   },
   "news_data": {
     "news": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
+      "status": "no_data"
     },
     "recommendations": {
       "status": "error",

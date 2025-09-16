@@ -1,39 +1,9 @@
 {
   "ticker": "MHGUP",
-  "timestamp": "2025-09-13T04:19:54.818193",
+  "timestamp": "2025-09-16T04:31:08.082029",
   "intraday_data": {
-    "status": "success",
-    "rows": 4,
-    "data": [
-      {
-        "Close": 22.0,
-        "High": 22.0,
-        "Low": 22.0,
-        "Open": 22.0,
-        "Volume": 0
-      },
-      {
-        "Close": 22.0,
-        "High": 22.0,
-        "Low": 22.0,
-        "Open": 22.0,
-        "Volume": 200
-      },
-      {
-        "Close": 22.0,
-        "High": 22.0,
-        "Low": 22.0,
-        "Open": 22.0,
-        "Volume": 100
-      },
-      {
-        "Close": 22.0,
-        "High": 22.0,
-        "Low": 22.0,
-        "Open": 22.0,
-        "Volume": 500
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -367,7 +337,8 @@
       ]
     },
     "recommendations": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   },
   "holders_data": {

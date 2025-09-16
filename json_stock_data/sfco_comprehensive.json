@@ -1,9 +1,53 @@
 {
   "ticker": "SFCO",
-  "timestamp": "2025-09-13T04:04:51.962254",
+  "timestamp": "2025-09-16T04:14:10.669594",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 6,
+    "data": [
+      {
+        "Close SLGL": 24.075000762939453,
+        "High SLGL": 24.075000762939453,
+        "Low SLGL": 24.075000762939453,
+        "Open SLGL": 24.075000762939453,
+        "Volume SLGL": 0
+      },
+      {
+        "Close SLGL": 23.8700008392334,
+        "High SLGL": 23.8700008392334,
+        "Low SLGL": 23.8700008392334,
+        "Open SLGL": 23.8700008392334,
+        "Volume SLGL": 444
+      },
+      {
+        "Close SLGL": 23.760000228881836,
+        "High SLGL": 23.760000228881836,
+        "Low SLGL": 23.760000228881836,
+        "Open SLGL": 23.760000228881836,
+        "Volume SLGL": 1154
+      },
+      {
+        "Close SLGL": 23.899999618530273,
+        "High SLGL": 23.899999618530273,
+        "Low SLGL": 23.899999618530273,
+        "Open SLGL": 23.899999618530273,
+        "Volume SLGL": 276
+      },
+      {
+        "Close SLGL": 24.134899139404297,
+        "High SLGL": 24.134899139404297,
+        "Low SLGL": 24.134899139404297,
+        "Open SLGL": 24.134899139404297,
+        "Volume SLGL": 1676
+      },
+      {
+        "Close SLGL": 23.979999542236328,
+        "High SLGL": 23.979999542236328,
+        "Low SLGL": 23.979999542236328,
+        "Open SLGL": 23.979999542236328,
+        "Volume SLGL": 363
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -29,15 +73,16 @@
       "status": "no_data"
     },
     "recommendations": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   },
   "holders_data": {
     "major_holders": {
-      "status": "no_data"
+      "status": "error"
     },
     "institutional_holders": {
-      "status": "no_data"
+      "status": "error"
     }
   },
   "earnings_data": {

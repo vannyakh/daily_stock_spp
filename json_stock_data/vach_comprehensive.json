@@ -1,9 +1,39 @@
 {
   "ticker": "VACH",
-  "timestamp": "2025-09-13T03:57:47.526431",
+  "timestamp": "2025-09-16T04:06:18.791324",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 4,
+    "data": [
+      {
+        "Close": 10.430000305175781,
+        "High": 10.430000305175781,
+        "Low": 10.430000305175781,
+        "Open": 10.430000305175781,
+        "Volume": 0
+      },
+      {
+        "Close": 10.430000305175781,
+        "High": 10.430000305175781,
+        "Low": 10.430000305175781,
+        "Open": 10.430000305175781,
+        "Volume": 900
+      },
+      {
+        "Close": 10.430000305175781,
+        "High": 10.430000305175781,
+        "Low": 10.430000305175781,
+        "Open": 10.430000305175781,
+        "Volume": 578
+      },
+      {
+        "Close": 10.460000038146973,
+        "High": 10.460000038146973,
+        "Low": 10.460000038146973,
+        "Open": 10.460000038146973,
+        "Volume": 0
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -93,7 +123,8 @@
       ]
     },
     "recommendations": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   },
   "holders_data": {

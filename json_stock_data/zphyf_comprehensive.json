@@ -1,9 +1,39 @@
 {
   "ticker": "ZPHYF",
-  "timestamp": "2025-09-13T04:08:45.180580",
+  "timestamp": "2025-09-16T04:18:39.689062",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 4,
+    "data": [
+      {
+        "Close": 0.03370000049471855,
+        "High": 0.03370000049471855,
+        "Low": 0.03370000049471855,
+        "Open": 0.03370000049471855,
+        "Volume": 20000
+      },
+      {
+        "Close": 0.04500000178813934,
+        "High": 0.04500000178813934,
+        "Low": 0.04500000178813934,
+        "Open": 0.04500000178813934,
+        "Volume": 0
+      },
+      {
+        "Close": 0.04500000178813934,
+        "High": 0.04500000178813934,
+        "Low": 0.04500000178813934,
+        "Open": 0.04500000178813934,
+        "Volume": 0
+      },
+      {
+        "Close": 0.0430000014603138,
+        "High": 0.0430000014603138,
+        "Low": 0.0430000014603138,
+        "Open": 0.0430000014603138,
+        "Volume": 0
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -48,7 +78,7 @@
     },
     "calendar": {
       "status": "error",
-      "message": "'dict' object has no attribute 'empty'"
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   }
 }

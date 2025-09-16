@@ -1,115 +1,54 @@
 {
   "ticker": "FTIIW",
-  "timestamp": "2025-09-13T04:17:14.762683",
+  "timestamp": "2025-09-16T04:28:02.976756",
   "intraday_data": {
     "status": "no_data",
     "message": "No intraday data available"
   },
   "stock_info": {
-    "status": "success",
-    "data": {
-      "address1": "128 Gail Drive",
-      "city": "New Rochelle",
-      "state": "NY",
-      "zip": "10805",
-      "country": "United States",
-      "phone": "914 316 4805",
-      "industry": "Shell Companies",
-      "industryKey": "shell-companies",
-      "industryDisp": "Shell Companies",
-      "sector": "Financial Services",
-      "sectorKey": "financial-services",
-      "sectorDisp": "Financial Services",
-      "longBusinessSummary": "FutureTech II Acquisition Corp. does not have significant operations. The company intends to effect a merger, capital stock exchange, asset acquisition, stock purchase, reorganization, or similar business combination with one or more businesses. It focuses on business operating in the technology industry, including artificial intelligence, robotic process automation, biomedical life science, and other related technology market. FutureTech II Acquisition Corp. was founded in 2021 and is based in New Rochelle, New York. FutureTech II Acquisition Corp. operates as a subsidiary of FutureTech II Partners LLC.",
-      "maxAge": 86400,
-      "priceHint": 4,
-      "previousClose": 0.036,
-      "open": 0.0889,
-      "dayLow": 0.0889,
-      "dayHigh": 0.0889,
-      "regularMarketPreviousClose": 0.036,
-      "regularMarketOpen": 0.0889,
-      "regularMarketDayLow": 0.0889,
-      "regularMarketDayHigh": 0.0889,
-      "beta": -0.028,
-      "volume": 1,
-      "regularMarketVolume": 1,
-      "bid": 0.0301,
-      "ask": 0.0889,
-      "bidSize": 20000,
-      "askSize": 0,
-      "fiftyTwoWeekLow": 0.0889,
-      "fiftyTwoWeekHigh": 0.0889,
-      "trailingAnnualDividendRate": 0.0,
-      "trailingAnnualDividendYield": 0.0,
-      "currency": "USD",
-      "tradeable": false,
-      "profitMargins": 0.0,
-      "floatShares": 894886,
-      "bookValue": -2.234,
-      "netIncomeToCommon": -1202392,
-      "SandP52WeekChange": 0.16885936,
-      "quoteType": "EQUITY",
-      "currentPrice": 0.0889,
-      "recommendationKey": "none",
-      "totalCash": 160723,
-      "totalCashPerShare": 0.037,
-      "totalDebt": 4361046,
-      "quickRatio": 0.199,
-      "currentRatio": 0.209,
-      "returnOnAssets": -0.05954,
-      "freeCashflow": -1680040,
-      "operatingCashflow": -2521376,
-      "grossMargins": 0.0,
-      "ebitdaMargins": 0.0,
-      "operatingMargins": 0.0,
-      "financialCurrency": "USD",
-      "symbol": "FTIIW",
-      "language": "en-US",
-      "region": "US",
-      "typeDisp": "Equity",
-      "quoteSourceName": "Delayed Quote",
-      "triggerable": true,
-      "customPriceAlertConfidence": "HIGH",
-      "marketState": "CLOSED",
-      "regularMarketChangePercent": 146.94444,
-      "regularMarketPrice": 0.0889,
-      "regularMarketTime": 1755267193,
-      "shortName": "FutureTech II Acquisition Corp.",
-      "longName": "FutureTech II Acquisition Corp.",
-      "hasPrePostMarketData": true,
-      "regularMarketChange": 0.0529,
-      "regularMarketDayRange": "0.0889 - 0.0889",
-      "fullExchangeName": "NasdaqCM",
-      "fiftyTwoWeekLowChange": 0.0,
-      "fiftyTwoWeekLowChangePercent": 0.0,
-      "fiftyTwoWeekRange": "0.0889 - 0.0889",
-      "fiftyTwoWeekHighChange": 0.0,
-      "fiftyTwoWeekHighChangePercent": 0.0,
-      "priceToBook": -0.03979409,
-      "sourceInterval": 15,
-      "exchangeDataDelayedBy": 0,
-      "ipoExpectedDate": "2022-04-08",
-      "cryptoTradeable": false,
-      "exchange": "NCM",
-      "messageBoardId": "finmb_1760720207",
-      "exchangeTimezoneName": "America/New_York",
-      "exchangeTimezoneShortName": "EDT",
-      "gmtOffSetMilliseconds": -14400000,
-      "market": "us_market",
-      "esgPopulated": false,
-      "displayName": "FutureTech II"
-    }
+    "status": "error",
+    "message": "Too Many Requests. Rate limited. Try after a while."
   },
   "financials": {
     "income_statement": {
-      "status": "success",
-      "rows": 35,
-      "columns": [
-        "2024-12-31 00:00:00",
-        "2023-12-31 00:00:00",
-        "2022-12-31 00:00:00"
-      ],
-      "data": [
-        {
-          
+      "status": "no_data"
+    },
+    "balance_sheet": {
+      "status": "no_data"
+    },
+    "cash_flow": {
+      "status": "no_data"
+    }
+  },
+  "options_data": {
+    "status": "error",
+    "error_message": "Too Many Requests. Rate limited. Try after a while."
+  },
+  "news_data": {
+    "news": {
+      "status": "no_data"
+    },
+    "recommendations": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  },
+  "holders_data": {
+    "major_holders": {
+      "status": "error"
+    },
+    "institutional_holders": {
+      "status": "error"
+    }
+  },
+  "earnings_data": {
+    "earnings": {
+      "status": "error",
+      "message": "'NoneType' object has no attribute 'empty'"
+    },
+    "calendar": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  }
+}

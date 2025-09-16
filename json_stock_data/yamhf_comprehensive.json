@@ -1,18 +1,9 @@
 {
   "ticker": "YAMHF",
-  "timestamp": "2025-09-13T04:11:57.570128",
+  "timestamp": "2025-09-16T04:22:06.476675",
   "intraday_data": {
-    "status": "success",
-    "rows": 1,
-    "data": [
-      {
-        "Close FREJO": 24.25,
-        "High FREJO": 24.25,
-        "Low FREJO": 24.25,
-        "Open FREJO": 24.25,
-        "Volume FREJO": 1
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -36,8 +27,69 @@
   "news_data": {
     "news": {
       "status": "success",
-      "count": 5,
+      "count": 6,
       "data": [
+        {
+          "id": "c3cb2dbf-bfee-3cb2-91cc-8c66d0818a81",
+          "content": {
+            "id": "c3cb2dbf-bfee-3cb2-91cc-8c66d0818a81",
+            "contentType": "STORY",
+            "title": "How Recent Earnings and Robotics Expansion Shape the Outlook for Yamaha Motor in 2025",
+            "description": "",
+            "summary": "Are you trying to decide what to do with your Yamaha Motor shares or wondering if now is the right time to jump in? Let\u2019s dig into what\u2019s been happening and what that might mean for your portfolio. While Yamaha Motor has seen a slight lift over the past seven days, up 0.3%, and posted a decent 3.3% rise in the last month, the bigger picture looks more complex. Year to date, the stock is down by 16.5%, and it has shrunk 6.3% over the past twelve months. Still, step back and the five-year...",
+            "pubDate": "2025-09-15T11:08:11Z",
+            "displayTime": "2025-09-15T11:08:11Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": {
+              "originalUrl": "https://media.zenfs.com/en/simply_wall_st__316/8c9ffc1dd5222e207f569feb0cf62c5d",
+              "originalWidth": 1194,
+              "originalHeight": 432,
+              "caption": "",
+              "resolutions": [
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/3Rh0y2tJmVUOpvZJOL8C5w--~B/aD00MzI7dz0xMTk0O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/simply_wall_st__316/8c9ffc1dd5222e207f569feb0cf62c5d",
+                  "width": 1194,
+                  "height": 432,
+                  "tag": "original"
+                },
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/C82gxN5PXWp7PNop5odWSQ--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/simply_wall_st__316/8c9ffc1dd5222e207f569feb0cf62c5d",
+                  "width": 170,
+                  "height": 128,
+                  "tag": "170x128"
+                }
+              ]
+            },
+            "provider": {
+              "displayName": "Simply Wall St.",
+              "url": "https://simplywall.st/"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/recent-earnings-robotics-expansion-shape-110811812.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/recent-earnings-robotics-expansion-shape-110811812.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        },
         {
           "id": "b60eef3a-637f-3edc-bb90-53eb69fa212c",
           "content": {
@@ -346,15 +398,16 @@
       ]
     },
     "recommendations": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   },
   "holders_data": {
     "major_holders": {
-      "status": "no_data"
+      "status": "error"
     },
     "institutional_holders": {
-      "status": "no_data"
+      "status": "error"
     }
   },
   "earnings_data": {

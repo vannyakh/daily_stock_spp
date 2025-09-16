@@ -1,18 +1,9 @@
 {
   "ticker": "JWSMF",
-  "timestamp": "2025-09-13T03:58:11.692056",
+  "timestamp": "2025-09-16T04:06:48.097172",
   "intraday_data": {
-    "status": "success",
-    "rows": 1,
-    "data": [
-      {
-        "Close": 10.489999771118164,
-        "High": 10.489999771118164,
-        "Low": 10.489999771118164,
-        "Open": 10.489999771118164,
-        "Volume": 0
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -35,7 +26,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

@@ -1,46 +1,9 @@
 {
   "ticker": "MAZE",
-  "timestamp": "2025-09-13T04:10:35.388707",
+  "timestamp": "2025-09-16T04:20:34.156385",
   "intraday_data": {
-    "status": "success",
-    "rows": 5,
-    "data": [
-      {
-        "Close HVII": 10.180000305175781,
-        "High HVII": 10.180000305175781,
-        "Low HVII": 10.180000305175781,
-        "Open HVII": 10.180000305175781,
-        "Volume HVII": 0
-      },
-      {
-        "Close HVII": 10.180000305175781,
-        "High HVII": 10.180000305175781,
-        "Low HVII": 10.180000305175781,
-        "Open HVII": 10.180000305175781,
-        "Volume HVII": 0
-      },
-      {
-        "Close HVII": 10.180000305175781,
-        "High HVII": 10.180000305175781,
-        "Low HVII": 10.180000305175781,
-        "Open HVII": 10.180000305175781,
-        "Volume HVII": 1459
-      },
-      {
-        "Close HVII": 10.180000305175781,
-        "High HVII": 10.180000305175781,
-        "Low HVII": 10.180000305175781,
-        "Open HVII": 10.180000305175781,
-        "Volume HVII": 151
-      },
-      {
-        "Close HVII": 10.180000305175781,
-        "High HVII": 10.180000305175781,
-        "Low HVII": 10.180000305175781,
-        "Open HVII": 10.180000305175781,
-        "Volume HVII": 3498
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -636,8 +599,7 @@
       ]
     },
     "recommendations": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
+      "status": "no_data"
     }
   },
   "holders_data": {
@@ -645,7 +607,7 @@
       "status": "error"
     },
     "institutional_holders": {
-      "status": "no_data"
+      "status": "error"
     }
   },
   "earnings_data": {
