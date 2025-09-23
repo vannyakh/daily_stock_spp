@@ -1,57 +1,13 @@
 {
   "ticker": "BEAGR",
-  "timestamp": "2025-09-16T04:28:09.227954",
+  "timestamp": "2025-09-23T04:24:39.588535",
   "intraday_data": {
-    "status": "success",
-    "rows": 6,
-    "data": [
-      {
-        "Close ONMDW": 0.03480000048875809,
-        "High ONMDW": 0.03480000048875809,
-        "Low ONMDW": 0.03480000048875809,
-        "Open ONMDW": 0.03480000048875809,
-        "Volume ONMDW": 0
-      },
-      {
-        "Close ONMDW": 0.03759999945759773,
-        "High ONMDW": 0.03759999945759773,
-        "Low ONMDW": 0.03759999945759773,
-        "Open ONMDW": 0.03759999945759773,
-        "Volume ONMDW": 10101
-      },
-      {
-        "Close ONMDW": 0.03779999911785126,
-        "High ONMDW": 0.03779999911785126,
-        "Low ONMDW": 0.03779999911785126,
-        "Open ONMDW": 0.03779999911785126,
-        "Volume ONMDW": 0
-      },
-      {
-        "Close ONMDW": 0.03790000081062317,
-        "High ONMDW": 0.03790000081062317,
-        "Low ONMDW": 0.03790000081062317,
-        "Open ONMDW": 0.03790000081062317,
-        "Volume ONMDW": 0
-      },
-      {
-        "Close ONMDW": 0.03779999911785126,
-        "High ONMDW": 0.03779999911785126,
-        "Low ONMDW": 0.03779999911785126,
-        "Open ONMDW": 0.03779999911785126,
-        "Volume ONMDW": 20901
-      },
-      {
-        "Close ONMDW": 0.037700001150369644,
-        "High ONMDW": 0.03779999911785126,
-        "Low ONMDW": 0.037700001150369644,
-        "Open ONMDW": 0.03779999911785126,
-        "Volume ONMDW": 0
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
-    "message": "Too Many Requests. Rate limited. Try after a while."
+    "message": "argument of type 'NoneType' is not iterable"
   },
   "financials": {
     "income_statement": {
@@ -65,7 +21,8 @@
     }
   },
   "options_data": {
-    "expirations": []
+    "status": "error",
+    "error_message": "Too Many Requests. Rate limited. Try after a while."
   },
   "news_data": {
     "news": {
@@ -197,7 +154,8 @@
       ]
     },
     "recommendations": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   },
   "holders_data": {

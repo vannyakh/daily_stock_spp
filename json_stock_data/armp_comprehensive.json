@@ -1,64 +1,13 @@
 {
   "ticker": "ARMP",
-  "timestamp": "2025-09-16T04:11:31.818213",
+  "timestamp": "2025-09-23T04:10:25.259884",
   "intraday_data": {
-    "status": "success",
-    "rows": 7,
-    "data": [
-      {
-        "Close": 2.990000009536743,
-        "High": 2.990000009536743,
-        "Low": 2.990000009536743,
-        "Open": 2.990000009536743,
-        "Volume": 783
-      },
-      {
-        "Close": 3.0199999809265137,
-        "High": 3.0199999809265137,
-        "Low": 3.0199999809265137,
-        "Open": 3.0199999809265137,
-        "Volume": 326
-      },
-      {
-        "Close": 3.0199999809265137,
-        "High": 3.0199999809265137,
-        "Low": 3.0199999809265137,
-        "Open": 3.0199999809265137,
-        "Volume": 351
-      },
-      {
-        "Close": 3.0,
-        "High": 3.0,
-        "Low": 3.0,
-        "Open": 3.0,
-        "Volume": 138
-      },
-      {
-        "Close": 2.9823999404907227,
-        "High": 2.9823999404907227,
-        "Low": 2.9823999404907227,
-        "Open": 2.9823999404907227,
-        "Volume": 236
-      },
-      {
-        "Close": 2.859999895095825,
-        "High": 2.859999895095825,
-        "Low": 2.859999895095825,
-        "Open": 2.859999895095825,
-        "Volume": 335
-      },
-      {
-        "Close": 2.990000009536743,
-        "High": 2.990000009536743,
-        "Low": 2.990000009536743,
-        "Open": 2.990000009536743,
-        "Volume": 106
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
-    "message": "argument of type 'NoneType' is not iterable"
+    "message": "Too Many Requests. Rate limited. Try after a while."
   },
   "financials": {
     "income_statement": {
@@ -78,8 +27,69 @@
   "news_data": {
     "news": {
       "status": "success",
-      "count": 5,
+      "count": 6,
       "data": [
+        {
+          "id": "e9e6bee1-83c8-318c-bda0-11837bd862a1",
+          "content": {
+            "id": "e9e6bee1-83c8-318c-bda0-11837bd862a1",
+            "contentType": "STORY",
+            "title": "Is Armata Pharmaceuticals (ARMP) Stock Outpacing Its Medical Peers This Year?",
+            "description": "",
+            "summary": "Here is how Armata Pharmaceuticals, Inc. (ARMP) and Actinium Pharmaceuticals (ATNM) have performed compared to their sector so far this year.",
+            "pubDate": "2025-09-18T13:40:02Z",
+            "displayTime": "2025-09-18T13:40:02Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": {
+              "originalUrl": "https://media.zenfs.com/en/zacks.com/d0d4ab152198da2f423d92da8a7d22ee",
+              "originalWidth": 900,
+              "originalHeight": 876,
+              "caption": "",
+              "resolutions": [
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/UYup8AGIrn99rMsHiTllqA--~B/aD04NzY7dz05MDA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/zacks.com/d0d4ab152198da2f423d92da8a7d22ee",
+                  "width": 900,
+                  "height": 876,
+                  "tag": "original"
+                },
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/wb2k3yLH6dLqGK7K4lTkgA--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/zacks.com/d0d4ab152198da2f423d92da8a7d22ee",
+                  "width": 170,
+                  "height": 128,
+                  "tag": "170x128"
+                }
+              ]
+            },
+            "provider": {
+              "displayName": "Zacks",
+              "url": "http://www.zacks.com/"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/armata-pharmaceuticals-armp-stock-outpacing-134002975.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/armata-pharmaceuticals-armp-stock-outpacing-134002975.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        },
         {
           "id": "f00860d5-6470-342a-87ca-3507a8663e19",
           "content": {

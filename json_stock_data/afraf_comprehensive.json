@@ -1,25 +1,704 @@
 {
   "ticker": "AFRAF",
-  "timestamp": "2025-09-16T04:22:26.439629",
+  "timestamp": "2025-09-23T04:19:50.994758",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 5,
+    "data": [
+      {
+        "Close FNMFN": 29.940000534057617,
+        "High FNMFN": 29.940000534057617,
+        "Low FNMFN": 29.940000534057617,
+        "Open FNMFN": 29.940000534057617,
+        "Volume FNMFN": 0
+      },
+      {
+        "Close FNMFN": 29.899999618530273,
+        "High FNMFN": 29.899999618530273,
+        "Low FNMFN": 29.899999618530273,
+        "Open FNMFN": 29.899999618530273,
+        "Volume FNMFN": 235
+      },
+      {
+        "Close FNMFN": 29.899999618530273,
+        "High FNMFN": 29.899999618530273,
+        "Low FNMFN": 29.899999618530273,
+        "Open FNMFN": 29.899999618530273,
+        "Volume FNMFN": 5
+      },
+      {
+        "Close FNMFN": 29.399999618530273,
+        "High FNMFN": 29.399999618530273,
+        "Low FNMFN": 29.399999618530273,
+        "Open FNMFN": 29.399999618530273,
+        "Volume FNMFN": 100
+      },
+      {
+        "Close FNMFN": 29.299999237060547,
+        "High FNMFN": 29.299999237060547,
+        "Low FNMFN": 29.299999237060547,
+        "Open FNMFN": 29.299999237060547,
+        "Volume FNMFN": 80
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
-    "message": "argument of type 'NoneType' is not iterable"
+    "message": "Too Many Requests. Rate limited. Try after a while."
   },
   "financials": {
     "income_statement": {
+      "status": "no_data"
+    },
+    "balance_sheet": {
+      "status": "no_data"
+    },
+    "cash_flow": {
+      "status": "no_data"
+    }
+  },
+  "options_data": {
+    "status": "error",
+    "error_message": "Too Many Requests. Rate limited. Try after a while."
+  },
+  "news_data": {
+    "news": {
       "status": "success",
-      "rows": 51,
-      "columns": [
-        "2024-12-31 00:00:00",
-        "2023-12-31 00:00:00",
-        "2022-12-31 00:00:00",
-        "2021-12-31 00:00:00",
-        "2020-12-31 00:00:00"
-      ],
+      "count": 10,
       "data": [
         {
-          
+          "id": "294a0793-fbd2-3695-b654-41a367b88baf",
+          "content": {
+            "id": "294a0793-fbd2-3695-b654-41a367b88baf",
+            "contentType": "STORY",
+            "title": "Exclusive-Turkey's surprise Air Europa deal came down to one key thing: control",
+            "description": "",
+            "summary": "SEVILLE/LONDON/ISTANBUL (Reuters) -Turkish Airlines' surprise deal for a stake in Spanish carrier Air Europa, outlasting European rivals Lufthansa and Air France-KLM, was in large part down to its willingness to share control of the carrier with the airline's Hidalgo family owners, four sources told Reuters.  Air France-KLM and Lufthansa, however, wanted more control of Air Europa, the sources close to the deal said.  Turkish Airlines - looking to boost its global reach and with deeper pockets and political backing - was willing to stick with a smaller stake.",
+            "pubDate": "2025-09-18T10:24:17Z",
+            "displayTime": "2025-09-18T10:24:17Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": {
+              "originalUrl": "https://media.zenfs.com/en/reuters.com/2dc57c35d5aca4f9272b7f2db9d2e46e",
+              "originalWidth": 800,
+              "originalHeight": 533,
+              "caption": "A Boeing 787-9 Dreamliner of the Air Europa company lands at Gran Canaria airport",
+              "resolutions": [
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/XY.r.taGjweIjwM4fOFCzA--~B/aD01MzM7dz04MDA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/reuters.com/2dc57c35d5aca4f9272b7f2db9d2e46e",
+                  "width": 800,
+                  "height": 533,
+                  "tag": "original"
+                },
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/ki2z6v4IGEGkeNaJXDF05Q--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/reuters.com/2dc57c35d5aca4f9272b7f2db9d2e46e",
+                  "width": 170,
+                  "height": 128,
+                  "tag": "170x128"
+                }
+              ]
+            },
+            "provider": {
+              "displayName": "Reuters",
+              "url": "https://www.reuters.com/"
+            },
+            "canonicalUrl": {
+              "url": "https://uk.finance.yahoo.com/news/exclusive-turkeys-surprise-air-europa-102417057.html",
+              "site": "finance",
+              "region": "GB",
+              "lang": "en-GB"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/exclusive-turkeys-surprise-air-europa-102417057.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        },
+        {
+          "id": "1a6dd820-c854-3445-bdcd-e900dec9ec0a",
+          "content": {
+            "id": "1a6dd820-c854-3445-bdcd-e900dec9ec0a",
+            "contentType": "STORY",
+            "title": "British Airways passengers can trade air miles for iPhones",
+            "description": "",
+            "summary": "British Airways (BA) passengers will be able to use air miles to buy iPhones and other Apple products thanks to a ground-breaking pact with the technology giant.",
+            "pubDate": "2025-09-16T11:38:06Z",
+            "displayTime": "2025-09-16T11:38:06Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": {
+              "originalUrl": "https://media.zenfs.com/en/the_telegraph_818/4aae1498a7a8ef034829d2cc4314a5c2",
+              "originalWidth": 2500,
+              "originalHeight": 1563,
+              "caption": "",
+              "resolutions": [
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/SMrEzqgvM_dxjJB.uilyqw--~B/aD0xNTYzO3c9MjUwMDthcHBpZD15dGFjaHlvbg--/https://media.zenfs.com/en/the_telegraph_818/4aae1498a7a8ef034829d2cc4314a5c2",
+                  "width": 2500,
+                  "height": 1563,
+                  "tag": "original"
+                },
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/jCYBOgeC8_jXY0xpSCysYQ--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/the_telegraph_818/4aae1498a7a8ef034829d2cc4314a5c2",
+                  "width": 170,
+                  "height": 128,
+                  "tag": "170x128"
+                }
+              ]
+            },
+            "provider": {
+              "displayName": "The Telegraph",
+              "url": "http://www.telegraph.co.uk/"
+            },
+            "canonicalUrl": {
+              "url": "https://uk.finance.yahoo.com/news/british-airways-passengers-trade-air-113806828.html",
+              "site": "finance",
+              "region": "GB",
+              "lang": "en-GB"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/british-airways-passengers-trade-air-113806828.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        },
+        {
+          "id": "b615dcbc-895a-38e7-bdbf-0ed219a110a1",
+          "content": {
+            "id": "b615dcbc-895a-38e7-bdbf-0ed219a110a1",
+            "contentType": "STORY",
+            "title": "Air France-KLM (ENXTPA:AF): Exploring Valuation After Recent Share Price Swings",
+            "description": "",
+            "summary": "If you have been keeping an eye on Air France-KLM (ENXTPA:AF) recently, you are probably wondering whether the recent swing in its share price is telling us something new, or if it just highlights ongoing market uncertainty. While there has not been a single major event to spark today's move, the stock's action still raises an important question for investors: could these shifts be a signal that underlying sentiment or outlook is changing around Air France-KLM? Taking a step back, Air...",
+            "pubDate": "2025-09-14T12:30:37Z",
+            "displayTime": "2025-09-14T12:30:37Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": {
+              "originalUrl": "https://media.zenfs.com/en/simply_wall_st__316/cdab26cef65d270b239872ce437e6c07",
+              "originalWidth": 1194,
+              "originalHeight": 432,
+              "caption": "",
+              "resolutions": [
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/O3OmcYFNcZ9w8fuYvI_6Og--~B/aD00MzI7dz0xMTk0O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/simply_wall_st__316/cdab26cef65d270b239872ce437e6c07",
+                  "width": 1194,
+                  "height": 432,
+                  "tag": "original"
+                },
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/szHwMMcGj9jXEp8SyFPbYg--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/simply_wall_st__316/cdab26cef65d270b239872ce437e6c07",
+                  "width": 170,
+                  "height": 128,
+                  "tag": "170x128"
+                }
+              ]
+            },
+            "provider": {
+              "displayName": "Simply Wall St.",
+              "url": "https://simplywall.st/"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/air-france-klm-enxtpa-af-123037979.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/air-france-klm-enxtpa-af-123037979.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        },
+        {
+          "id": "33482cb1-3b83-322a-aa6d-be771fd19ff1",
+          "content": {
+            "id": "33482cb1-3b83-322a-aa6d-be771fd19ff1",
+            "contentType": "STORY",
+            "title": "Air France-KLM tops ranking of airline rewards programs",
+            "description": "",
+            "summary": "The top carrier hasn't changed since last year, but two American airlines have moved up substantially in the 2025 rankings",
+            "pubDate": "2025-09-10T09:05:00Z",
+            "displayTime": "2025-09-10T09:05:00Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": {
+              "originalUrl": "https://media.zenfs.com/en/quartz_855/292e82d4aec3111f575e5dd14c4e9ed9",
+              "originalWidth": 1280,
+              "originalHeight": 720,
+              "caption": "",
+              "resolutions": [
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/Bch9zgTAiVPGK0A8BYHTjg--~B/aD03MjA7dz0xMjgwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/quartz_855/292e82d4aec3111f575e5dd14c4e9ed9",
+                  "width": 1280,
+                  "height": 720,
+                  "tag": "original"
+                },
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/m6JPOAqsRh0jALDO4zA_aQ--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/quartz_855/292e82d4aec3111f575e5dd14c4e9ed9",
+                  "width": 170,
+                  "height": 128,
+                  "tag": "170x128"
+                }
+              ]
+            },
+            "provider": {
+              "displayName": "Quartz",
+              "url": "https://qz.com/"
+            },
+            "canonicalUrl": {
+              "url": "https://qz.com/best-airline-rewards-programs-2025",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/air-france-klm-tops-ranking-090500675.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        },
+        {
+          "id": "52ff6aec-8b05-3826-80c1-7c17b6a5cae5",
+          "content": {
+            "id": "52ff6aec-8b05-3826-80c1-7c17b6a5cae5",
+            "contentType": "STORY",
+            "title": "Airline rewards rankings 2025: These programs offer the best points value, flight change and cancellation perks",
+            "description": "",
+            "summary": "American, Alaska, and United stood out among 59 airlines sweetening the deal for frequent fliers, according to Point.me.",
+            "pubDate": "2025-09-10T09:00:00Z",
+            "displayTime": "2025-09-10T09:00:00Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": {
+              "originalUrl": "https://media.zenfs.com/en/fastcompany_735/88c3abc05095d2fc158f161b9bad8239",
+              "originalWidth": 1280,
+              "originalHeight": 720,
+              "caption": "",
+              "resolutions": [
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/dDineYezYnyk9hIGgsw8kQ--~B/aD03MjA7dz0xMjgwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/fastcompany_735/88c3abc05095d2fc158f161b9bad8239",
+                  "width": 1280,
+                  "height": 720,
+                  "tag": "original"
+                },
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/T89AD4uSTz6in8X7uTxt_A--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/fastcompany_735/88c3abc05095d2fc158f161b9bad8239",
+                  "width": 170,
+                  "height": 128,
+                  "tag": "170x128"
+                }
+              ]
+            },
+            "provider": {
+              "displayName": "FastCompany",
+              "url": "https://www.fastcompany.com/"
+            },
+            "canonicalUrl": {
+              "url": "https://www.fastcompany.com/91401067/airline-rewards-program-rankings-2025-most-value-for-travel-points-flexible-flight-change-cancel-policies-american-airlines-united-jetblue",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/airline-rewards-rankings-2025-programs-090000038.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        },
+        {
+          "id": "73fe5918-0fee-32dd-95b7-adb5bdd94320",
+          "content": {
+            "id": "73fe5918-0fee-32dd-95b7-adb5bdd94320",
+            "contentType": "STORY",
+            "title": "United Airlines Ventures invests in aerospace startup Astro Mechanica",
+            "description": "",
+            "summary": "The Trump administration has been pushing to lift a ban on supersonic air transport over land imposed in 1973, directing the FAA to repeal the supersonic speed limit as long as aircraft do not produce an audible sonic boom on the ground.  The era of regular commercial supersonic flights ended in 2003 when Concorde, flown by Air France and British Airways, was retired after 27 years of service.  Supersonic aircraft have been criticized by environmentalists for burning more fuel per passenger than comparable subsonic planes.",
+            "pubDate": "2025-08-20T14:09:53Z",
+            "displayTime": "2025-08-20T14:09:53Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": {
+              "originalUrl": "https://media.zenfs.com/en/reuters.com/d667fac39805ff980ce144de85ab2ca7",
+              "originalWidth": 800,
+              "originalHeight": 450,
+              "caption": "United Airlines planes are seen at the tarmac at Newark International Airport as the skyline of New York is seen in the background from Newark, New Jersey",
+              "resolutions": [
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/XkQEgmCSgyeg6jY_VxInKw--~B/aD00NTA7dz04MDA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/reuters.com/d667fac39805ff980ce144de85ab2ca7",
+                  "width": 800,
+                  "height": 450,
+                  "tag": "original"
+                },
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/CzXdM2Wr93uAzG5qqTRFOw--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/reuters.com/d667fac39805ff980ce144de85ab2ca7",
+                  "width": 170,
+                  "height": 128,
+                  "tag": "170x128"
+                }
+              ]
+            },
+            "provider": {
+              "displayName": "Reuters",
+              "url": "https://www.reuters.com/"
+            },
+            "canonicalUrl": {
+              "url": "https://ca.finance.yahoo.com/news/united-airlines-ventures-invests-aerospace-140953945.html",
+              "site": "finance",
+              "region": "CA",
+              "lang": "en-CA"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/united-airlines-ventures-invests-aerospace-140953945.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        },
+        {
+          "id": "23ed41ec-d93e-3f8f-91af-931abcf7f953",
+          "content": {
+            "id": "23ed41ec-d93e-3f8f-91af-931abcf7f953",
+            "contentType": "STORY",
+            "title": "Air Lease confirms canceled order for Airbus A350 freighter",
+            "description": "",
+            "summary": "Air Lease said its decision to ditch an order for Airbus A350 cargo jets was based on development delays and its preference to focus on passenger aircraft. The post Air Lease confirms canceled order for Airbus A350 freighter appeared first on FreightWaves.",
+            "pubDate": "2025-08-06T12:36:46Z",
+            "displayTime": "2025-08-06T12:36:46Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": {
+              "originalUrl": "https://media.zenfs.com/en/freightwaves_373/c51ee7cceb2ba8f87d87d240ca1d1b88",
+              "originalWidth": 1920,
+              "originalHeight": 1080,
+              "caption": "A scale model of an Airbus A350 freighter at an air show exhibit hall.",
+              "resolutions": [
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/INAxMhtsp44PtUDG47zvaw--~B/aD0xMDgwO3c9MTkyMDthcHBpZD15dGFjaHlvbg--/https://media.zenfs.com/en/freightwaves_373/c51ee7cceb2ba8f87d87d240ca1d1b88",
+                  "width": 1920,
+                  "height": 1080,
+                  "tag": "original"
+                },
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/oSIGA.8FVx1pl.qZCjdyfw--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/freightwaves_373/c51ee7cceb2ba8f87d87d240ca1d1b88",
+                  "width": 170,
+                  "height": 128,
+                  "tag": "170x128"
+                }
+              ]
+            },
+            "provider": {
+              "displayName": "FreightWaves",
+              "url": "https://www.freightwaves.com"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/air-lease-confirms-canceled-order-123646288.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/air-lease-confirms-canceled-order-123646288.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        },
+        {
+          "id": "fa40340f-934f-33ec-80b9-5856d8ee421d",
+          "content": {
+            "id": "fa40340f-934f-33ec-80b9-5856d8ee421d",
+            "contentType": "STORY",
+            "title": "Exclusive-Lufthansa abandons process to buy stake in Spain's Air Europa",
+            "description": "",
+            "summary": "FRANKFURT/LONDON (Reuters) -Lufthansa has abandoned its plan to bid for a stake in Spanish airline Air Europa, a spokesperson for the German group said on Tuesday, only a week after Air France-KLM announced it was also dropping out of the process.  That leaves Turkish Airlines as the only known remaining bidder.  British Airways-owner IAG owns a 20% stake in Air Europa but failed to get regulatory approval for a full takeover in 2024 after years of talks.",
+            "pubDate": "2025-08-05T11:28:15Z",
+            "displayTime": "2025-08-05T11:28:15Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": {
+              "originalUrl": "https://media.zenfs.com/en/reuters.com/77d6455085c64cae7cd6c55acf6960bb",
+              "originalWidth": 800,
+              "originalHeight": 533,
+              "caption": "Lufthansa's bet on ITA Airways hinges on Rome airport revamp",
+              "resolutions": [
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/E1DUCAYDsJ86AStbTQQsBw--~B/aD01MzM7dz04MDA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/reuters.com/77d6455085c64cae7cd6c55acf6960bb",
+                  "width": 800,
+                  "height": 533,
+                  "tag": "original"
+                },
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/Q5CrnQlokSM7GSSYPbxX3w--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/reuters.com/77d6455085c64cae7cd6c55acf6960bb",
+                  "width": 170,
+                  "height": 128,
+                  "tag": "170x128"
+                }
+              ]
+            },
+            "provider": {
+              "displayName": "Reuters",
+              "url": "https://www.reuters.com/"
+            },
+            "canonicalUrl": {
+              "url": "https://ca.finance.yahoo.com/news/exclusive-lufthansa-abandons-process-buy-112815182.html",
+              "site": "finance",
+              "region": "CA",
+              "lang": "en-CA"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/exclusive-lufthansa-abandons-process-buy-112815182.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        },
+        {
+          "id": "09a84a44-e94c-34dc-9b38-db6f19b9dc94",
+          "content": {
+            "id": "09a84a44-e94c-34dc-9b38-db6f19b9dc94",
+            "contentType": "STORY",
+            "title": "Europe's airline shares outpace US peers amid tariff turbulence",
+            "description": "",
+            "summary": "LONDON/CHICAGO (Reuters) -European airline shares have soared in the last six months despite geopolitical and economic uncertainty, while those of U.S. airlines have sold off amid a pullback in travel spending.  The stock market has been turbulent since the start of this year as U.S. President Donald Trump's trade war has shaken consumer and business confidence.  Since travel spending is a discretionary item for many consumers and businesses, prospects of weak economic growth in the U.S. and high inflation have hit shares of companies including Delta, United and American Airlines.",
+            "pubDate": "2025-08-01T07:11:34Z",
+            "displayTime": "2025-08-01T07:11:34Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": {
+              "originalUrl": "https://media.zenfs.com/en/reuters-finance.com/f7f75a3e03055efbb18043a2b2edef38",
+              "originalWidth": 800,
+              "originalHeight": 533,
+              "caption": "An Air France Airbus A330 airplane lands at the Charles-de-Gaulle Airport in Roissy",
+              "resolutions": [
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/hj_BadDaIqpg8K2RnoiT5A--~B/aD01MzM7dz04MDA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/reuters-finance.com/f7f75a3e03055efbb18043a2b2edef38",
+                  "width": 800,
+                  "height": 533,
+                  "tag": "original"
+                },
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/MPdintAe7VyOEEL43QzLIw--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/reuters-finance.com/f7f75a3e03055efbb18043a2b2edef38",
+                  "width": 170,
+                  "height": 128,
+                  "tag": "170x128"
+                }
+              ]
+            },
+            "provider": {
+              "displayName": "Reuters",
+              "url": "http://www.reuters.com/"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/europes-airline-shares-outpace-us-071134008.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/europes-airline-shares-outpace-us-071134008.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        },
+        {
+          "id": "f49fa30f-8021-306a-8a02-0fcb43b6a75b",
+          "content": {
+            "id": "f49fa30f-8021-306a-8a02-0fcb43b6a75b",
+            "contentType": "STORY",
+            "title": "Air France-KLM's Q2 profit rises, helped by premium sales",
+            "description": "",
+            "summary": "LONDON (Reuters) -Air France-KLM reported higher second-quarter operating profit on Thursday, citing strong bookings for its premium services even as the sector frets about the knock-on effects from U.S. President Donald Trump's tariff war.  Europe's major airlines have been watching for a possible dip in transatlantic travel as European travellers have shied away from booking trips to the United States this year.  But Air France-KLM highlighted its strategy focused on a new first-class cabin and strong sales for its premium economy cabin, particularly for KLM.",
+            "pubDate": "2025-07-31T06:08:39Z",
+            "displayTime": "2025-07-31T06:08:39Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": {
+              "originalUrl": "https://media.zenfs.com/en/reuters-finance.com/7ddb30a3db6daab44238d606adcd99b9",
+              "originalWidth": 800,
+              "originalHeight": 412,
+              "caption": "An Air France airplane lands at the Charles-de-Gaulle airport in Roissy",
+              "resolutions": [
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/4AUi9MY18kYTsKjVioaAOw--~B/aD00MTI7dz04MDA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/reuters-finance.com/7ddb30a3db6daab44238d606adcd99b9",
+                  "width": 800,
+                  "height": 412,
+                  "tag": "original"
+                },
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/4g.yLb.l_z7uqheBBauYUA--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/reuters-finance.com/7ddb30a3db6daab44238d606adcd99b9",
+                  "width": 170,
+                  "height": 128,
+                  "tag": "170x128"
+                }
+              ]
+            },
+            "provider": {
+              "displayName": "Reuters",
+              "url": "http://www.reuters.com/"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/air-france-klms-q2-profit-060839334.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/air-france-klms-q2-profit-060839334.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        }
+      ]
+    },
+    "recommendations": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  },
+  "holders_data": {
+    "major_holders": {
+      "status": "error"
+    },
+    "institutional_holders": {
+      "status": "error"
+    }
+  },
+  "earnings_data": {
+    "earnings": {
+      "status": "error",
+      "message": "'NoneType' object has no attribute 'empty'"
+    },
+    "calendar": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  }
+}

@@ -1,84 +1,23 @@
 {
   "ticker": "OMG",
-  "timestamp": "2025-09-16T04:20:40.887595",
+  "timestamp": "2025-09-23T04:18:18.807580",
   "intraday_data": {
-    "status": "success",
-    "rows": 4,
-    "data": [
-      {
-        "Close BELR": 0.00039999998989515007,
-        "High BELR": 0.00039999998989515007,
-        "Low BELR": 0.00039999998989515007,
-        "Open BELR": 0.00039999998989515007,
-        "Volume BELR": 0
-      },
-      {
-        "Close BELR": 0.00039999998989515007,
-        "High BELR": 0.00039999998989515007,
-        "Low BELR": 0.00039999998989515007,
-        "Open BELR": 0.00039999998989515007,
-        "Volume BELR": 9220327
-      },
-      {
-        "Close BELR": 0.00039999998989515007,
-        "High BELR": 0.00039999998989515007,
-        "Low BELR": 0.00039999998989515007,
-        "Open BELR": 0.00039999998989515007,
-        "Volume BELR": 10000
-      },
-      {
-        "Close BELR": 0.00039999998989515007,
-        "High BELR": 0.00039999998989515007,
-        "Low BELR": 0.00039999998989515007,
-        "Open BELR": 0.00039999998989515007,
-        "Volume BELR": 745745
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
-    "message": "Too Many Requests. Rate limited. Try after a while."
+    "message": "argument of type 'NoneType' is not iterable"
   },
   "financials": {
     "income_statement": {
-      "status": "no_data"
-    },
-    "balance_sheet": {
-      "status": "no_data"
-    },
-    "cash_flow": {
-      "status": "no_data"
-    }
-  },
-  "options_data": {
-    "status": "error",
-    "error_message": "Too Many Requests. Rate limited. Try after a while."
-  },
-  "news_data": {
-    "news": {
-      "status": "no_data"
-    },
-    "recommendations": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
-    }
-  },
-  "holders_data": {
-    "major_holders": {
-      "status": "error"
-    },
-    "institutional_holders": {
-      "status": "error"
-    }
-  },
-  "earnings_data": {
-    "earnings": {
-      "status": "error",
-      "message": "'NoneType' object has no attribute 'empty'"
-    },
-    "calendar": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
-    }
-  }
-}
+      "status": "success",
+      "rows": 57,
+      "columns": [
+        "2024-06-30 00:00:00",
+        "2022-06-30 00:00:00",
+        "2021-06-30 00:00:00"
+      ],
+      "data": [
+        {
+          

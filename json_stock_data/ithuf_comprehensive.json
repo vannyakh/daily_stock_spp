@@ -1,25 +1,9 @@
 {
   "ticker": "ITHUF",
-  "timestamp": "2025-09-16T04:13:51.244709",
+  "timestamp": "2025-09-23T04:12:26.223733",
   "intraday_data": {
-    "status": "success",
-    "rows": 2,
-    "data": [
-      {
-        "Close": 0.007499999832361937,
-        "High": 0.007499999832361937,
-        "Low": 0.007499999832361937,
-        "Open": 0.007499999832361937,
-        "Volume": 0
-      },
-      {
-        "Close": 0.007499999832361937,
-        "High": 0.007499999832361937,
-        "Low": 0.007499999832361937,
-        "Open": 0.007499999832361937,
-        "Volume": 300
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -90,7 +74,8 @@
       ]
     },
     "recommendations": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   },
   "holders_data": {

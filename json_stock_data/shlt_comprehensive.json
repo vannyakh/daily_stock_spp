@@ -1,6 +1,6 @@
 {
   "ticker": "SHLT",
-  "timestamp": "2025-09-16T04:12:51.465988",
+  "timestamp": "2025-09-23T04:11:35.916279",
   "intraday_data": {
     "status": "no_data",
     "message": "No intraday data available"
@@ -99,10 +99,10 @@
   },
   "holders_data": {
     "major_holders": {
-      "status": "no_data"
+      "status": "error"
     },
     "institutional_holders": {
-      "status": "no_data"
+      "status": "error"
     }
   },
   "earnings_data": {
@@ -112,7 +112,7 @@
     },
     "calendar": {
       "status": "error",
-      "message": "'dict' object has no attribute 'empty'"
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   }
 }

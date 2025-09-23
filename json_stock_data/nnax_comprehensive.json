@@ -1,25 +1,9 @@
 {
   "ticker": "NNAX",
-  "timestamp": "2025-09-16T04:19:36.387370",
+  "timestamp": "2025-09-23T04:17:23.205663",
   "intraday_data": {
-    "status": "success",
-    "rows": 2,
-    "data": [
-      {
-        "Close": 0.00039999998989515007,
-        "High": 0.00039999998989515007,
-        "Low": 0.00039999998989515007,
-        "Open": 0.00039999998989515007,
-        "Volume": 5000000
-      },
-      {
-        "Close": 0.00039999998989515007,
-        "High": 0.00039999998989515007,
-        "Low": 0.00039999998989515007,
-        "Open": 0.00039999998989515007,
-        "Volume": 6290000
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -45,7 +29,8 @@
       "status": "no_data"
     },
     "recommendations": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   },
   "holders_data": {

@@ -1,25 +1,9 @@
 {
   "ticker": "MITP",
-  "timestamp": "2025-09-16T04:29:42.138571",
+  "timestamp": "2025-09-23T04:25:54.005584",
   "intraday_data": {
-    "status": "success",
-    "rows": 2,
-    "data": [
-      {
-        "Close": 25.309999465942383,
-        "High": 25.309999465942383,
-        "Low": 25.309999465942383,
-        "Open": 25.309999465942383,
-        "Volume": 0
-      },
-      {
-        "Close": 25.309999465942383,
-        "High": 25.399999618530273,
-        "Low": 25.309999465942383,
-        "Open": 25.399999618530273,
-        "Volume": 1514
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -45,7 +29,8 @@
       "status": "no_data"
     },
     "recommendations": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   },
   "holders_data": {

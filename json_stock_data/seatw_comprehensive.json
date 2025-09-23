@@ -1,25 +1,9 @@
 {
   "ticker": "SEATW",
-  "timestamp": "2025-09-16T04:25:48.547217",
+  "timestamp": "2025-09-23T04:22:42.263705",
   "intraday_data": {
-    "status": "success",
-    "rows": 2,
-    "data": [
-      {
-        "Close": 0.11429999768733978,
-        "High": 0.11429999768733978,
-        "Low": 0.11429999768733978,
-        "Open": 0.11429999768733978,
-        "Volume": 0
-      },
-      {
-        "Close": 0.11100000143051147,
-        "High": 0.11100000143051147,
-        "Low": 0.11100000143051147,
-        "Open": 0.11100000143051147,
-        "Volume": 300
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -620,8 +604,7 @@
       ]
     },
     "recommendations": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
+      "status": "no_data"
     }
   },
   "holders_data": {

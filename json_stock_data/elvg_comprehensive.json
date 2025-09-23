@@ -1,9 +1,39 @@
 {
   "ticker": "ELVG",
-  "timestamp": "2025-09-16T04:16:50.947777",
+  "timestamp": "2025-09-23T04:15:03.458684",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 4,
+    "data": [
+      {
+        "Close HOFV": 0.6650000214576721,
+        "High HOFV": 0.6650000214576721,
+        "Low HOFV": 0.6650000214576721,
+        "Open HOFV": 0.6650000214576721,
+        "Volume HOFV": 0
+      },
+      {
+        "Close HOFV": 0.6801000237464905,
+        "High HOFV": 0.6801000237464905,
+        "Low HOFV": 0.6801000237464905,
+        "Open HOFV": 0.6801000237464905,
+        "Volume HOFV": 773
+      },
+      {
+        "Close HOFV": 0.7398999929428101,
+        "High HOFV": 0.7398999929428101,
+        "Low HOFV": 0.7398999929428101,
+        "Open HOFV": 0.7398999929428101,
+        "Volume HOFV": 135
+      },
+      {
+        "Close HOFV": 0.7350000143051147,
+        "High HOFV": 0.7350000143051147,
+        "Low HOFV": 0.7350000143051147,
+        "Open HOFV": 0.7350000143051147,
+        "Volume HOFV": 500
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -14,41 +44,15 @@
       "status": "no_data"
     },
     "balance_sheet": {
-      "status": "no_data"
-    },
-    "cash_flow": {
-      "status": "no_data"
-    }
-  },
-  "options_data": {
-    "status": "error",
-    "error_message": "Too Many Requests. Rate limited. Try after a while."
-  },
-  "news_data": {
-    "news": {
-      "status": "no_data"
-    },
-    "recommendations": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
-    }
-  },
-  "holders_data": {
-    "major_holders": {
-      "status": "error"
-    },
-    "institutional_holders": {
-      "status": "error"
-    }
-  },
-  "earnings_data": {
-    "earnings": {
-      "status": "error",
-      "message": "'NoneType' object has no attribute 'empty'"
-    },
-    "calendar": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
-    }
-  }
-}
+      "status": "success",
+      "rows": 55,
+      "columns": [
+        "2024-12-31 00:00:00",
+        "2023-12-31 00:00:00",
+        "2022-12-31 00:00:00",
+        "2021-12-31 00:00:00",
+        "2020-12-31 00:00:00"
+      ],
+      "data": [
+        {
+          

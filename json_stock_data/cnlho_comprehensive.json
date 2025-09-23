@@ -1,25 +1,9 @@
 {
   "ticker": "CNLHO",
-  "timestamp": "2025-09-16T04:23:21.680214",
+  "timestamp": "2025-09-23T04:20:36.890977",
   "intraday_data": {
-    "status": "success",
-    "rows": 2,
-    "data": [
-      {
-        "Close HAWEN": 20.610000610351562,
-        "High HAWEN": 20.610000610351562,
-        "Low HAWEN": 20.610000610351562,
-        "Open HAWEN": 20.610000610351562,
-        "Volume HAWEN": 0
-      },
-      {
-        "Close HAWEN": 20.600000381469727,
-        "High HAWEN": 20.600000381469727,
-        "Low HAWEN": 20.600000381469727,
-        "Open HAWEN": 20.600000381469727,
-        "Volume HAWEN": 0
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -65,7 +49,7 @@
     },
     "calendar": {
       "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
+      "message": "'dict' object has no attribute 'empty'"
     }
   }
 }

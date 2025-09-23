@@ -1,9 +1,25 @@
 {
   "ticker": "NUVR",
-  "timestamp": "2025-09-16T04:12:40.783309",
+  "timestamp": "2025-09-23T04:11:27.198084",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 2,
+    "data": [
+      {
+        "Close": 12.399999618530273,
+        "High": 12.449999809265137,
+        "Low": 12.25,
+        "Open": 12.449999809265137,
+        "Volume": 0
+      },
+      {
+        "Close": 12.399999618530273,
+        "High": 12.399999618530273,
+        "Low": 12.399999618530273,
+        "Open": 12.399999618530273,
+        "Volume": 500
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -29,16 +45,15 @@
       "status": "no_data"
     },
     "recommendations": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
+      "status": "no_data"
     }
   },
   "holders_data": {
     "major_holders": {
-      "status": "error"
+      "status": "no_data"
     },
     "institutional_holders": {
-      "status": "error"
+      "status": "no_data"
     }
   },
   "earnings_data": {
@@ -48,7 +63,7 @@
     },
     "calendar": {
       "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
+      "message": "'dict' object has no attribute 'empty'"
     }
   }
 }

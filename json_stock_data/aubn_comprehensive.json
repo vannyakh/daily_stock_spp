@@ -1,39 +1,9 @@
 {
   "ticker": "AUBN",
-  "timestamp": "2025-09-16T04:11:20.342718",
+  "timestamp": "2025-09-23T04:10:15.646000",
   "intraday_data": {
-    "status": "success",
-    "rows": 4,
-    "data": [
-      {
-        "Close": 25.0,
-        "High": 25.0,
-        "Low": 25.0,
-        "Open": 25.0,
-        "Volume": 741
-      },
-      {
-        "Close": 25.0,
-        "High": 25.0,
-        "Low": 25.0,
-        "Open": 25.0,
-        "Volume": 619
-      },
-      {
-        "Close": 24.75,
-        "High": 24.75,
-        "Low": 24.75,
-        "Open": 24.75,
-        "Volume": 342
-      },
-      {
-        "Close": 25.760000228881836,
-        "High": 25.760000228881836,
-        "Low": 25.760000228881836,
-        "Open": 25.760000228881836,
-        "Volume": 667
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -653,7 +623,8 @@
       ]
     },
     "recommendations": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   },
   "holders_data": {

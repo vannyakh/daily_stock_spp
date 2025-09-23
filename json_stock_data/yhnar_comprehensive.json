@@ -1,9 +1,32 @@
 {
   "ticker": "YHNAR",
-  "timestamp": "2025-09-16T04:31:36.737023",
+  "timestamp": "2025-09-23T04:27:30.534726",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 3,
+    "data": [
+      {
+        "Close EQV-UN": 10.739999771118164,
+        "High EQV-UN": 10.739999771118164,
+        "Low EQV-UN": 10.739999771118164,
+        "Open EQV-UN": 10.739999771118164,
+        "Volume EQV-UN": 0
+      },
+      {
+        "Close EQV-UN": 10.550000190734863,
+        "High EQV-UN": 10.550000190734863,
+        "Low EQV-UN": 10.539999961853027,
+        "Open EQV-UN": 10.550000190734863,
+        "Volume EQV-UN": 400
+      },
+      {
+        "Close EQV-UN": 10.510000228881836,
+        "High EQV-UN": 10.550000190734863,
+        "Low EQV-UN": 10.510000228881836,
+        "Open EQV-UN": 10.550000190734863,
+        "Volume EQV-UN": 400
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -29,7 +52,8 @@
       "status": "no_data"
     },
     "recommendations": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   },
   "holders_data": {

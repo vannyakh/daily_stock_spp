@@ -1,25 +1,9 @@
 {
   "ticker": "CRVW",
-  "timestamp": "2025-09-16T04:14:43.266720",
+  "timestamp": "2025-09-23T04:13:12.460010",
   "intraday_data": {
-    "status": "success",
-    "rows": 2,
-    "data": [
-      {
-        "Close": 0.017999999225139618,
-        "High": 0.017999999225139618,
-        "Low": 0.017999999225139618,
-        "Open": 0.017999999225139618,
-        "Volume": 0
-      },
-      {
-        "Close": 0.017999999225139618,
-        "High": 0.017999999225139618,
-        "Low": 0.017999999225139618,
-        "Open": 0.017999999225139618,
-        "Volume": 0
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -292,7 +276,8 @@
       ]
     },
     "recommendations": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   },
   "holders_data": {

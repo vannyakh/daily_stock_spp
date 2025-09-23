@@ -1,9 +1,39 @@
 {
   "ticker": "FMSTW",
-  "timestamp": "2025-09-16T04:25:54.117593",
+  "timestamp": "2025-09-23T04:22:46.281932",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 4,
+    "data": [
+      {
+        "Close AMBI-WT": 0.13500000536441803,
+        "High AMBI-WT": 0.13500000536441803,
+        "Low AMBI-WT": 0.13500000536441803,
+        "Open AMBI-WT": 0.13500000536441803,
+        "Volume AMBI-WT": 0
+      },
+      {
+        "Close AMBI-WT": 0.1598999947309494,
+        "High AMBI-WT": 0.1598999947309494,
+        "Low AMBI-WT": 0.1598999947309494,
+        "Open AMBI-WT": 0.1598999947309494,
+        "Volume AMBI-WT": 100
+      },
+      {
+        "Close AMBI-WT": 0.12999999523162842,
+        "High AMBI-WT": 0.12999999523162842,
+        "Low AMBI-WT": 0.12999999523162842,
+        "Open AMBI-WT": 0.12999999523162842,
+        "Volume AMBI-WT": 100
+      },
+      {
+        "Close AMBI-WT": 0.16290000081062317,
+        "High AMBI-WT": 0.16290000081062317,
+        "Low AMBI-WT": 0.16290000081062317,
+        "Open AMBI-WT": 0.16290000081062317,
+        "Volume AMBI-WT": 100
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -458,15 +488,16 @@
       ]
     },
     "recommendations": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   },
   "holders_data": {
     "major_holders": {
-      "status": "no_data"
+      "status": "error"
     },
     "institutional_holders": {
-      "status": "no_data"
+      "status": "error"
     }
   },
   "earnings_data": {

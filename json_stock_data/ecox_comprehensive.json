@@ -1,9 +1,18 @@
 {
   "ticker": "ECOX",
-  "timestamp": "2025-09-16T04:24:39.472329",
+  "timestamp": "2025-09-23T04:21:42.176253",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 1,
+    "data": [
+      {
+        "Close": 9.999999747378752e-05,
+        "High": 9.999999747378752e-05,
+        "Low": 9.999999747378752e-05,
+        "Open": 9.999999747378752e-05,
+        "Volume": 0
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -29,15 +38,16 @@
       "status": "no_data"
     },
     "recommendations": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   },
   "holders_data": {
     "major_holders": {
-      "status": "no_data"
+      "status": "error"
     },
     "institutional_holders": {
-      "status": "no_data"
+      "status": "error"
     }
   },
   "earnings_data": {

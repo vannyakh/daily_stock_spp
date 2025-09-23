@@ -1,74 +1,9 @@
 {
   "ticker": "GGAAF",
-  "timestamp": "2025-09-16T04:12:40.092505",
+  "timestamp": "2025-09-23T04:11:26.642916",
   "intraday_data": {
-    "status": "success",
-    "rows": 9,
-    "data": [
-      {
-        "Close CLST": 13.020000457763672,
-        "High CLST": 13.020000457763672,
-        "Low CLST": 13.020000457763672,
-        "Open CLST": 13.020000457763672,
-        "Volume CLST": 0
-      },
-      {
-        "Close CLST": 13.069899559020996,
-        "High CLST": 13.069899559020996,
-        "Low CLST": 13.069899559020996,
-        "Open CLST": 13.069899559020996,
-        "Volume CLST": 443
-      },
-      {
-        "Close CLST": 13.069899559020996,
-        "High CLST": 13.069899559020996,
-        "Low CLST": 13.029999732971191,
-        "Open CLST": 13.029999732971191,
-        "Volume CLST": 318
-      },
-      {
-        "Close CLST": 13.0,
-        "High CLST": 13.0,
-        "Low CLST": 13.0,
-        "Open CLST": 13.0,
-        "Volume CLST": 261
-      },
-      {
-        "Close CLST": 13.0423002243042,
-        "High CLST": 13.0423002243042,
-        "Low CLST": 13.0423002243042,
-        "Open CLST": 13.0423002243042,
-        "Volume CLST": 211
-      },
-      {
-        "Close CLST": 13.0,
-        "High CLST": 13.0,
-        "Low CLST": 13.0,
-        "Open CLST": 13.0,
-        "Volume CLST": 203
-      },
-      {
-        "Close CLST": 13.03499984741211,
-        "High CLST": 13.03499984741211,
-        "Low CLST": 13.03499984741211,
-        "Open CLST": 13.03499984741211,
-        "Volume CLST": 400
-      },
-      {
-        "Close CLST": 13.0,
-        "High CLST": 13.0,
-        "Low CLST": 13.0,
-        "Open CLST": 13.0,
-        "Volume CLST": 2
-      },
-      {
-        "Close CLST": 13.042499542236328,
-        "High CLST": 13.042499542236328,
-        "Low CLST": 13.042499542236328,
-        "Open CLST": 13.042499542236328,
-        "Volume CLST": 360
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -94,7 +29,8 @@
       "status": "no_data"
     },
     "recommendations": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   },
   "holders_data": {
