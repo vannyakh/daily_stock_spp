@@ -1,10 +1,32 @@
 {
   "ticker": "BRLSW",
-  "timestamp": "2025-09-23T04:22:22.771015",
+  "timestamp": "2025-10-05T04:23:30.323424",
   "intraday_data": {
     "status": "success",
-    "rows": 0,
-    "data": []
+    "rows": 3,
+    "data": [
+      {
+        "Close AERTW": 0.031099999323487282,
+        "High AERTW": 0.031099999323487282,
+        "Low AERTW": 0.031099999323487282,
+        "Open AERTW": 0.031099999323487282,
+        "Volume AERTW": 0
+      },
+      {
+        "Close AERTW": 0.03709999844431877,
+        "High AERTW": 0.03709999844431877,
+        "Low AERTW": 0.03709999844431877,
+        "Open AERTW": 0.03709999844431877,
+        "Volume AERTW": 2000
+      },
+      {
+        "Close AERTW": 0.03999999910593033,
+        "High AERTW": 0.03999999910593033,
+        "Low AERTW": 0.03999999910593033,
+        "Open AERTW": 0.03999999910593033,
+        "Volume AERTW": 800
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -94,15 +116,16 @@
       ]
     },
     "recommendations": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   },
   "holders_data": {
     "major_holders": {
-      "status": "no_data"
+      "status": "error"
     },
     "institutional_holders": {
-      "status": "no_data"
+      "status": "error"
     }
   },
   "earnings_data": {

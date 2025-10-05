@@ -1,32 +1,9 @@
 {
   "ticker": "GDHG",
-  "timestamp": "2025-09-23T04:14:56.242762",
+  "timestamp": "2025-10-05T04:16:02.875216",
   "intraday_data": {
-    "status": "success",
-    "rows": 3,
-    "data": [
-      {
-        "Close SDCH": 0.07000000029802322,
-        "High SDCH": 0.07000000029802322,
-        "Low SDCH": 0.07000000029802322,
-        "Open SDCH": 0.07000000029802322,
-        "Volume SDCH": 0
-      },
-      {
-        "Close SDCH": 0.07100000232458115,
-        "High SDCH": 0.07100000232458115,
-        "Low SDCH": 0.07090000063180923,
-        "Open SDCH": 0.07090000063180923,
-        "Volume SDCH": 30000
-      },
-      {
-        "Close SDCH": 0.06199999898672104,
-        "High SDCH": 0.06199999898672104,
-        "Low SDCH": 0.06199999898672104,
-        "Open SDCH": 0.06199999898672104,
-        "Volume SDCH": 10820
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -341,7 +318,8 @@
       ]
     },
     "recommendations": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   },
   "holders_data": {

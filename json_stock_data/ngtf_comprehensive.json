@@ -1,24 +1,179 @@
 {
   "ticker": "NGTF",
-  "timestamp": "2025-09-23T04:17:00.589874",
+  "timestamp": "2025-10-05T04:18:14.707340",
   "intraday_data": {
     "status": "no_data",
     "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
-    "message": "argument of type 'NoneType' is not iterable"
+    "message": "Too Many Requests. Rate limited. Try after a while."
   },
   "financials": {
     "income_statement": {
+      "status": "no_data"
+    },
+    "balance_sheet": {
+      "status": "no_data"
+    },
+    "cash_flow": {
+      "status": "no_data"
+    }
+  },
+  "options_data": {
+    "status": "error",
+    "error_message": "Too Many Requests. Rate limited. Try after a while."
+  },
+  "news_data": {
+    "news": {
       "status": "success",
-      "rows": 52,
-      "columns": [
-        "2024-06-30 00:00:00",
-        "2023-06-30 00:00:00",
-        "2022-06-30 00:00:00",
-        "2021-06-30 00:00:00"
-      ],
+      "count": 2,
       "data": [
         {
-          
+          "id": "57f36673-a39f-3b22-9b91-d11b3a8b9d49",
+          "content": {
+            "id": "57f36673-a39f-3b22-9b91-d11b3a8b9d49",
+            "contentType": "STORY",
+            "title": "Nightfood acquires Victorville Treasure Holdings for $31m",
+            "description": "",
+            "summary": "The Holiday Inn Victorville location will serve as Nightfood's first site for its Robotics-as-a-Service (RaaS) initiative.",
+            "pubDate": "2025-09-04T10:49:48Z",
+            "displayTime": "2025-09-04T10:49:48Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": {
+              "originalUrl": "https://media.zenfs.com/en/hotel_management_network_805/80351d2c53b6a25a040807c6cd98a06d",
+              "originalWidth": 1440,
+              "originalHeight": 810,
+              "caption": "Victorville Treasure Holdings owns a 155-room Holiday Inn in Victorville",
+              "resolutions": [
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/3f7XZFDf8TF0EoLvsdfNsA--~B/aD04MTA7dz0xNDQwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/hotel_management_network_805/80351d2c53b6a25a040807c6cd98a06d",
+                  "width": 1440,
+                  "height": 810,
+                  "tag": "original"
+                },
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/v_5ryArhlBQ2stQeXeAwdg--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/hotel_management_network_805/80351d2c53b6a25a040807c6cd98a06d",
+                  "width": 170,
+                  "height": 128,
+                  "tag": "170x128"
+                }
+              ]
+            },
+            "provider": {
+              "displayName": "Hotel Management Network",
+              "url": "https://www.globaldata.com/"
+            },
+            "canonicalUrl": {
+              "url": "https://www.hotelmanagement-network.com/news/nightfood-acquires-victorville-treasure-holdings-for-31m/",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/nightfood-acquires-victorville-treasure-holdings-104948094.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        },
+        {
+          "id": "90f09aa0-a7f0-3dd0-b172-7adba1eb876f",
+          "content": {
+            "id": "90f09aa0-a7f0-3dd0-b172-7adba1eb876f",
+            "contentType": "STORY",
+            "title": "Nightfood to acquire two California hotels for $80m",
+            "description": "",
+            "summary": "The acquisitions are expected to close by the end of the current quarter.",
+            "pubDate": "2025-08-04T14:30:05Z",
+            "displayTime": "2025-08-04T14:30:05Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": {
+              "originalUrl": "https://media.zenfs.com/en/hotel_management_network_805/1749ebfb17400b5863ca985a43b65043",
+              "originalWidth": 1440,
+              "originalHeight": 672,
+              "caption": "Nightfood's RaaS platform allows hospitality operators to implement AI solutions on a subscription basis. Credit: MangKangMangMee / Shutterstock.com.",
+              "resolutions": [
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/QLpXuy1X4C1WjieVvDiEXQ--~B/aD02NzI7dz0xNDQwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/hotel_management_network_805/1749ebfb17400b5863ca985a43b65043",
+                  "width": 1440,
+                  "height": 672,
+                  "tag": "original"
+                },
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/pIRL1J7nA8YD7zksLKvjww--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/hotel_management_network_805/1749ebfb17400b5863ca985a43b65043",
+                  "width": 170,
+                  "height": 128,
+                  "tag": "170x128"
+                }
+              ]
+            },
+            "provider": {
+              "displayName": "Hotel Management Network",
+              "url": "https://www.globaldata.com/"
+            },
+            "canonicalUrl": {
+              "url": "https://www.hotelmanagement-network.com/news/nightfood-to-acquire-two-california-hotels-for-80m/",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/nightfood-acquire-two-california-hotels-143005875.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        }
+      ]
+    },
+    "recommendations": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  },
+  "holders_data": {
+    "major_holders": {
+      "status": "error"
+    },
+    "institutional_holders": {
+      "status": "error"
+    }
+  },
+  "earnings_data": {
+    "earnings": {
+      "status": "error",
+      "message": "'NoneType' object has no attribute 'empty'"
+    },
+    "calendar": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  }
+}

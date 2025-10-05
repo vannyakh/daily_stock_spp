@@ -1,32 +1,9 @@
 {
   "ticker": "JSDA",
-  "timestamp": "2025-09-23T04:13:04.614284",
+  "timestamp": "2025-10-05T04:14:14.571833",
   "intraday_data": {
-    "status": "success",
-    "rows": 3,
-    "data": [
-      {
-        "Close": 0.1809999942779541,
-        "High": 0.1809999942779541,
-        "Low": 0.1809999942779541,
-        "Open": 0.1809999942779541,
-        "Volume": 0
-      },
-      {
-        "Close": 0.18469999730587006,
-        "High": 0.18469999730587006,
-        "Low": 0.18469999730587006,
-        "Open": 0.18469999730587006,
-        "Volume": 7
-      },
-      {
-        "Close": 0.18469999730587006,
-        "High": 0.18469999730587006,
-        "Low": 0.18469999730587006,
-        "Open": 0.18469999730587006,
-        "Volume": 10
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -34,14 +11,394 @@
   },
   "financials": {
     "income_statement": {
+      "status": "no_data"
+    },
+    "balance_sheet": {
+      "status": "no_data"
+    },
+    "cash_flow": {
+      "status": "no_data"
+    }
+  },
+  "options_data": {
+    "status": "error",
+    "error_message": "Too Many Requests. Rate limited. Try after a while."
+  },
+  "news_data": {
+    "news": {
       "status": "success",
-      "rows": 41,
-      "columns": [
-        "2024-12-31 00:00:00",
-        "2023-12-31 00:00:00",
-        "2022-12-31 00:00:00",
-        "2021-12-31 00:00:00"
-      ],
+      "count": 6,
       "data": [
         {
-          
+          "id": "14ec58fb-1f72-30ee-88dc-544c65492709",
+          "content": {
+            "id": "14ec58fb-1f72-30ee-88dc-544c65492709",
+            "contentType": "STORY",
+            "title": "JSDA Posts Q2 Profit From Cannabis Sale Despite Y/Y Revenue Dip",
+            "description": "",
+            "summary": "Jones Soda posts Q2 profit from cannabis sale despite a y/y revenue drop, with product launches and retail expansion aimed at fueling growth.",
+            "pubDate": "2025-08-25T15:30:00Z",
+            "displayTime": "2025-08-25T15:30:00Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": {
+              "originalUrl": "https://media.zenfs.com/en/zacks.com/ad1b23fb3e642b047ca28a29d00af8e5",
+              "originalWidth": 635,
+              "originalHeight": 400,
+              "caption": "",
+              "resolutions": [
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/_TJoQh4hxWuNGKeK4j5Evw--~B/aD00MDA7dz02MzU7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/zacks.com/ad1b23fb3e642b047ca28a29d00af8e5",
+                  "width": 635,
+                  "height": 400,
+                  "tag": "original"
+                },
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/ZR02M6aUuRaEWM.TtcGl.A--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/zacks.com/ad1b23fb3e642b047ca28a29d00af8e5",
+                  "width": 170,
+                  "height": 128,
+                  "tag": "170x128"
+                }
+              ]
+            },
+            "provider": {
+              "displayName": "Zacks",
+              "url": "http://www.zacks.com/"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/jsda-posts-q2-profit-cannabis-153000271.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/jsda-posts-q2-profit-cannabis-153000271.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        },
+        {
+          "id": "04568ceb-ea9f-3e93-b704-866ee31bdf96",
+          "content": {
+            "id": "04568ceb-ea9f-3e93-b704-866ee31bdf96",
+            "contentType": "STORY",
+            "title": "Jones Soda Higher as It Swings to a Second-Quarter Profit",
+            "description": "",
+            "summary": "Jones Soda (JSDA.CN) up 6% on last look, on Friday reported a swing to a second-quarter profit. N",
+            "pubDate": "2025-08-15T15:07:04Z",
+            "displayTime": "2025-08-15T15:07:04Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": null,
+            "provider": {
+              "displayName": "MT Newswires",
+              "url": "https://www.mtnewswires.com/"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/jones-soda-higher-swings-second-150704091.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/jones-soda-higher-swings-second-150704091.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": true,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        },
+        {
+          "id": "6861280b-f1a4-3df6-836c-ad33f3b63028",
+          "content": {
+            "id": "6861280b-f1a4-3df6-836c-ad33f3b63028",
+            "contentType": "STORY",
+            "title": "Jones Soda to push on with HD9 products",
+            "description": "",
+            "summary": "In a statement yesterday (26 June) the company said it had \"retained and continues to focus on its fast growing hemp-derived THC product (HD9) line\".",
+            "pubDate": "2025-06-27T13:30:20Z",
+            "displayTime": "2025-06-27T13:30:20Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": {
+              "originalUrl": "https://media.zenfs.com/en/just_drinks_442/3babbffb4c4e1bc4088e9284d0f6d53e",
+              "originalWidth": 1440,
+              "originalHeight": 810,
+              "caption": "Credit: Jones Soda Co.",
+              "resolutions": [
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/noXdxraDcUtapeUcUiXMQQ--~B/aD04MTA7dz0xNDQwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/just_drinks_442/3babbffb4c4e1bc4088e9284d0f6d53e",
+                  "width": 1440,
+                  "height": 810,
+                  "tag": "original"
+                },
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/7WQWE_LL.1JsdX2xMIEfFA--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/just_drinks_442/3babbffb4c4e1bc4088e9284d0f6d53e",
+                  "width": 170,
+                  "height": 128,
+                  "tag": "170x128"
+                }
+              ]
+            },
+            "provider": {
+              "displayName": "Just Drinks",
+              "url": "https://www.globaldata.com/"
+            },
+            "canonicalUrl": {
+              "url": "https://www.just-drinks.com/news/jones-soda-hd9-products/",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/jones-soda-push-hd9-products-133020899.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        },
+        {
+          "id": "fee30d2f-c68a-3424-b0d1-bd71f14da2d7",
+          "content": {
+            "id": "fee30d2f-c68a-3424-b0d1-bd71f14da2d7",
+            "contentType": "STORY",
+            "title": "Jones Soda announces divestiture of cannabis beverage business",
+            "description": "",
+            "summary": "Jones Soda (JSDA) announced that it has sold its cannabis beverage business, including all related cannabis-specific assets under the Mary Jones brand, to MJ Reg Disrupters, a privately held company. The transaction is part of Jones\u2019 previously announced strategy to streamline operations and focus on its core soda offerings, modern functional beverages, and emerging adult beverage category. Pursuant to the terms of a share purchase agreement dated June 19, 2025, entered into between the Company,",
+            "pubDate": "2025-06-24T17:06:40Z",
+            "displayTime": "2025-06-24T17:06:40Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": {
+              "originalUrl": "https://media.zenfs.com/en/tipranks_452/7e41c4543e974cfd5355583e29d3a809",
+              "originalWidth": 192,
+              "originalHeight": 192,
+              "caption": "https://www.tipranks.com/news/the-fly/jones-soda-announces-divestiture-of-cannabis-beverage-business-thefly",
+              "resolutions": [
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/EfyRPrSc5AIsQU5Umpa4Tw--~B/aD0xOTI7dz0xOTI7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/tipranks_452/7e41c4543e974cfd5355583e29d3a809",
+                  "width": 192,
+                  "height": 192,
+                  "tag": "original"
+                },
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/i5k3GYwGIlinhdIhRt74fA--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/tipranks_452/7e41c4543e974cfd5355583e29d3a809",
+                  "width": 170,
+                  "height": 128,
+                  "tag": "170x128"
+                }
+              ]
+            },
+            "provider": {
+              "displayName": "TipRanks",
+              "url": "https://www.tipranks.com/"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/jones-soda-announces-divestiture-cannabis-170640741.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/jones-soda-announces-divestiture-cannabis-170640741.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        },
+        {
+          "id": "386bacea-4678-3c8b-a671-1639e29477df",
+          "content": {
+            "id": "386bacea-4678-3c8b-a671-1639e29477df",
+            "contentType": "STORY",
+            "title": "Jones Soda sells cannabis beverage business to MJ Reg Disrupters",
+            "description": "",
+            "summary": "Jones Soda launched the Mary Jones cannabis-infused drinks in 2022.",
+            "pubDate": "2025-06-24T11:49:07Z",
+            "displayTime": "2025-06-24T11:49:07Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": {
+              "originalUrl": "https://media.zenfs.com/en/just_drinks_442/91672f93511e22ab431ac4c62cb39ec1",
+              "originalWidth": 900,
+              "originalHeight": 507,
+              "caption": "Mary Jones launch",
+              "resolutions": [
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/RpSF81l3irLRgR7nA0evPA--~B/aD01MDc7dz05MDA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/just_drinks_442/91672f93511e22ab431ac4c62cb39ec1",
+                  "width": 900,
+                  "height": 507,
+                  "tag": "original"
+                },
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/L6n88fTGib1WiI7Jb7Axjg--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/just_drinks_442/91672f93511e22ab431ac4c62cb39ec1",
+                  "width": 170,
+                  "height": 128,
+                  "tag": "170x128"
+                }
+              ]
+            },
+            "provider": {
+              "displayName": "Just Drinks",
+              "url": "https://www.globaldata.com/"
+            },
+            "canonicalUrl": {
+              "url": "https://www.just-drinks.com/news/jones-soda-sells-cannabis-business/",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/jones-soda-sells-cannabis-beverage-114907487.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        },
+        {
+          "id": "0610d62a-4c53-3f67-a92c-8cbc1317fffc",
+          "content": {
+            "id": "0610d62a-4c53-3f67-a92c-8cbc1317fffc",
+            "contentType": "STORY",
+            "title": "Jones Soda sells cannabis business for $3M",
+            "description": "",
+            "summary": "The divestiture of its Mary Jones brand will allow the company to focus on other categories, such as alcohol and functional beverages.",
+            "pubDate": "2025-06-24T09:15:49Z",
+            "displayTime": "2025-06-24T09:15:49Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": {
+              "originalUrl": "https://media.zenfs.com/en/food_dive_848/360f4cfcacd5a9172e9b3d6deccc40ef",
+              "originalWidth": 1600,
+              "originalHeight": 900,
+              "caption": "",
+              "resolutions": [
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/O0AZQu3oNBG.1FHd1wp1dw--~B/aD05MDA7dz0xNjAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/food_dive_848/360f4cfcacd5a9172e9b3d6deccc40ef",
+                  "width": 1600,
+                  "height": 900,
+                  "tag": "original"
+                },
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/9DWiZs8C0otMgac3cx76Vg--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/food_dive_848/360f4cfcacd5a9172e9b3d6deccc40ef",
+                  "width": 170,
+                  "height": 128,
+                  "tag": "170x128"
+                }
+              ]
+            },
+            "provider": {
+              "displayName": "Food Dive",
+              "url": "https://fooddive.com/"
+            },
+            "canonicalUrl": {
+              "url": "https://www.fooddive.com/news/jones-soda-exists-cannabis-business-for-3m/751463/",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/jones-soda-sells-cannabis-business-091549652.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        }
+      ]
+    },
+    "recommendations": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  },
+  "holders_data": {
+    "major_holders": {
+      "status": "error"
+    },
+    "institutional_holders": {
+      "status": "error"
+    }
+  },
+  "earnings_data": {
+    "earnings": {
+      "status": "error",
+      "message": "'NoneType' object has no attribute 'empty'"
+    },
+    "calendar": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  }
+}

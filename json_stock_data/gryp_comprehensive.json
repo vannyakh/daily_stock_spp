@@ -1,32 +1,9 @@
 {
   "ticker": "GRYP",
-  "timestamp": "2025-09-23T04:12:39.860706",
+  "timestamp": "2025-10-05T04:13:51.150711",
   "intraday_data": {
-    "status": "success",
-    "rows": 3,
-    "data": [
-      {
-        "Close MTBLY": 2.8299999237060547,
-        "High MTBLY": 2.8299999237060547,
-        "Low MTBLY": 2.8299999237060547,
-        "Open MTBLY": 2.8299999237060547,
-        "Volume MTBLY": 0
-      },
-      {
-        "Close MTBLY": 2.8299999237060547,
-        "High MTBLY": 2.8299999237060547,
-        "Low MTBLY": 2.8299999237060547,
-        "Open MTBLY": 2.8299999237060547,
-        "Volume MTBLY": 99
-      },
-      {
-        "Close MTBLY": 2.8499999046325684,
-        "High MTBLY": 2.8499999046325684,
-        "Low MTBLY": 2.8499999046325684,
-        "Open MTBLY": 2.8499999046325684,
-        "Volume MTBLY": 600
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -102,7 +79,7 @@
               "lang": "en-US"
             },
             "metadata": {
-              "editorsPick": true
+              "editorsPick": false
             },
             "finance": {
               "premiumFinance": {
@@ -660,15 +637,16 @@
       ]
     },
     "recommendations": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   },
   "holders_data": {
     "major_holders": {
-      "status": "no_data"
+      "status": "error"
     },
     "institutional_holders": {
-      "status": "no_data"
+      "status": "error"
     }
   },
   "earnings_data": {

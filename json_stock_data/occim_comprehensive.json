@@ -1,10 +1,18 @@
 {
   "ticker": "OCCIM",
-  "timestamp": "2025-09-23T04:23:02.740338",
+  "timestamp": "2025-10-05T04:24:10.405251",
   "intraday_data": {
     "status": "success",
-    "rows": 0,
-    "data": []
+    "rows": 1,
+    "data": [
+      {
+        "Close": 25.100000381469727,
+        "High": 25.100000381469727,
+        "Low": 25.030000686645508,
+        "Open": 25.0310001373291,
+        "Volume": 0
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -39,7 +47,7 @@
       "status": "error"
     },
     "institutional_holders": {
-      "status": "error"
+      "status": "no_data"
     }
   },
   "earnings_data": {
@@ -49,7 +57,7 @@
     },
     "calendar": {
       "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
+      "message": "'dict' object has no attribute 'empty'"
     }
   }
 }

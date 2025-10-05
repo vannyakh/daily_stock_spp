@@ -1,23 +1,58 @@
 {
   "ticker": "NUVR",
-  "timestamp": "2025-09-23T04:11:27.198084",
+  "timestamp": "2025-10-05T04:12:41.063197",
   "intraday_data": {
     "status": "success",
-    "rows": 2,
+    "rows": 7,
     "data": [
       {
-        "Close": 12.399999618530273,
-        "High": 12.449999809265137,
-        "Low": 12.25,
-        "Open": 12.449999809265137,
+        "Close": 12.5,
+        "High": 12.5,
+        "Low": 12.5,
+        "Open": 12.5,
         "Volume": 0
       },
       {
-        "Close": 12.399999618530273,
-        "High": 12.399999618530273,
-        "Low": 12.399999618530273,
-        "Open": 12.399999618530273,
-        "Volume": 500
+        "Close": 12.350000381469727,
+        "High": 12.350000381469727,
+        "Low": 12.350000381469727,
+        "Open": 12.350000381469727,
+        "Volume": 100
+      },
+      {
+        "Close": 12.350000381469727,
+        "High": 12.350000381469727,
+        "Low": 12.350000381469727,
+        "Open": 12.350000381469727,
+        "Volume": 1302
+      },
+      {
+        "Close": 12.350000381469727,
+        "High": 12.350000381469727,
+        "Low": 12.350000381469727,
+        "Open": 12.350000381469727,
+        "Volume": 100
+      },
+      {
+        "Close": 12.350000381469727,
+        "High": 12.350000381469727,
+        "Low": 12.350000381469727,
+        "Open": 12.350000381469727,
+        "Volume": 1098
+      },
+      {
+        "Close": 12.350000381469727,
+        "High": 12.350000381469727,
+        "Low": 12.350000381469727,
+        "Open": 12.350000381469727,
+        "Volume": 100
+      },
+      {
+        "Close": 12.25,
+        "High": 12.25,
+        "Low": 12.25,
+        "Open": 12.25,
+        "Volume": 150
       }
     ]
   },
@@ -45,15 +80,16 @@
       "status": "no_data"
     },
     "recommendations": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   },
   "holders_data": {
     "major_holders": {
-      "status": "no_data"
+      "status": "error"
     },
     "institutional_holders": {
-      "status": "no_data"
+      "status": "error"
     }
   },
   "earnings_data": {
@@ -63,7 +99,7 @@
     },
     "calendar": {
       "status": "error",
-      "message": "'dict' object has no attribute 'empty'"
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   }
 }

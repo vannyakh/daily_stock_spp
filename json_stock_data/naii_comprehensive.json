@@ -1,25 +1,9 @@
 {
   "ticker": "NAII",
-  "timestamp": "2025-09-23T04:13:01.794665",
+  "timestamp": "2025-10-05T04:14:12.141740",
   "intraday_data": {
-    "status": "success",
-    "rows": 2,
-    "data": [
-      {
-        "Close": 3.0,
-        "High": 3.1500000953674316,
-        "Low": 3.0,
-        "Open": 3.1500000953674316,
-        "Volume": 0
-      },
-      {
-        "Close": 3.0399999618530273,
-        "High": 3.0399999618530273,
-        "Low": 3.0399999618530273,
-        "Open": 3.0399999618530273,
-        "Volume": 399
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -43,8 +27,69 @@
   "news_data": {
     "news": {
       "status": "success",
-      "count": 2,
+      "count": 3,
       "data": [
+        {
+          "id": "e6d649a4-2582-3028-8f04-e82ad6920df3",
+          "content": {
+            "id": "e6d649a4-2582-3028-8f04-e82ad6920df3",
+            "contentType": "STORY",
+            "title": "Natural Alternatives Q4 Sales Rise 15% Y/Y, Loss Widens for FY25",
+            "description": "",
+            "summary": "NAII sales rise y/y in the fourth quarter of fiscal 2025, but higher charges and underused capacity widen loss.",
+            "pubDate": "2025-10-02T15:07:00Z",
+            "displayTime": "2025-10-02T15:07:00Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": {
+              "originalUrl": "https://media.zenfs.com/en/zacks.com/6f2cab89bf2cbad1966358e04258e202",
+              "originalWidth": 635,
+              "originalHeight": 400,
+              "caption": "",
+              "resolutions": [
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/ShfhwtDyA2WzDBKdAL7M8Q--~B/aD00MDA7dz02MzU7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/zacks.com/6f2cab89bf2cbad1966358e04258e202",
+                  "width": 635,
+                  "height": 400,
+                  "tag": "original"
+                },
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/WBkF.8AjygV.rmpZ4E0BUQ--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/zacks.com/6f2cab89bf2cbad1966358e04258e202",
+                  "width": 170,
+                  "height": 128,
+                  "tag": "170x128"
+                }
+              ]
+            },
+            "provider": {
+              "displayName": "Zacks",
+              "url": "http://www.zacks.com/"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/natural-alternatives-q4-sales-rise-150700402.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/natural-alternatives-q4-sales-rise-150700402.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        },
         {
           "id": "7d9b7750-5dac-39b6-998f-da0575a6513d",
           "content": {
@@ -170,8 +215,7 @@
       ]
     },
     "recommendations": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
+      "status": "no_data"
     }
   },
   "holders_data": {

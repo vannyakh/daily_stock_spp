@@ -1,9 +1,32 @@
 {
   "ticker": "HMST",
-  "timestamp": "2025-09-23T04:07:25.821735",
+  "timestamp": "2025-10-05T04:08:48.407316",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 3,
+    "data": [
+      {
+        "Close MOLN": 3.75,
+        "High MOLN": 3.75,
+        "Low MOLN": 3.75,
+        "Open MOLN": 3.75,
+        "Volume MOLN": 0
+      },
+      {
+        "Close MOLN": 3.7100000381469727,
+        "High MOLN": 3.7100000381469727,
+        "Low MOLN": 3.7100000381469727,
+        "Open MOLN": 3.7100000381469727,
+        "Volume MOLN": 1268
+      },
+      {
+        "Close MOLN": 3.7100000381469727,
+        "High MOLN": 3.7100000381469727,
+        "Low MOLN": 3.7100000381469727,
+        "Open MOLN": 3.7100000381469727,
+        "Volume MOLN": 101
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -604,7 +627,8 @@
       ]
     },
     "recommendations": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   },
   "holders_data": {

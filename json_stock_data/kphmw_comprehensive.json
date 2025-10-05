@@ -1,34 +1,301 @@
 {
   "ticker": "KPHMW",
-  "timestamp": "2025-09-23T04:26:10.539131",
+  "timestamp": "2025-10-05T04:27:09.984210",
   "intraday_data": {
-    "status": "success",
-    "rows": 1,
-    "data": [
-      {
-        "Close SICLQ": 9.0,
-        "High SICLQ": 9.0,
-        "Low SICLQ": 9.0,
-        "Open SICLQ": 9.0,
-        "Volume SICLQ": 0
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
-    "message": "argument of type 'NoneType' is not iterable"
+    "message": "Too Many Requests. Rate limited. Try after a while."
   },
   "financials": {
     "income_statement": {
+      "status": "no_data"
+    },
+    "balance_sheet": {
+      "status": "no_data"
+    },
+    "cash_flow": {
+      "status": "no_data"
+    }
+  },
+  "options_data": {
+    "status": "error",
+    "error_message": "Too Many Requests. Rate limited. Try after a while."
+  },
+  "news_data": {
+    "news": {
       "status": "success",
-      "rows": 46,
-      "columns": [
-        "2024-12-31 00:00:00",
-        "2023-12-31 00:00:00",
-        "2022-12-31 00:00:00",
-        "2021-12-31 00:00:00",
-        "2020-12-31 00:00:00"
-      ],
+      "count": 4,
       "data": [
         {
-          
+          "id": "7818b72f-a958-3f3f-a34f-b788f9864023",
+          "content": {
+            "id": "7818b72f-a958-3f3f-a34f-b788f9864023",
+            "contentType": "STORY",
+            "title": "Vicarious Surgical names Stephen From as next CEO",
+            "description": "",
+            "summary": "From, who joins the surgical robot developer from Aruna Bio, will take the reins from co-founder Adam Sachs on Aug. 7.",
+            "pubDate": "2025-08-01T15:51:44Z",
+            "displayTime": "2025-08-01T15:51:44Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": {
+              "originalUrl": "https://media.zenfs.com/en/medtech_dive_335/e0c242ddb38c223c92b8987deb7b8932",
+              "originalWidth": 1600,
+              "originalHeight": 900,
+              "caption": "Vicarious Surgical's robotic system.",
+              "resolutions": [
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/6tPp1OfT0TAV9eb8nhNqCw--~B/aD05MDA7dz0xNjAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/medtech_dive_335/e0c242ddb38c223c92b8987deb7b8932",
+                  "width": 1600,
+                  "height": 900,
+                  "tag": "original"
+                },
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/zLKgx3guvHbCfY5th3LmzQ--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/medtech_dive_335/e0c242ddb38c223c92b8987deb7b8932",
+                  "width": 170,
+                  "height": 128,
+                  "tag": "170x128"
+                }
+              ]
+            },
+            "provider": {
+              "displayName": "MedTech Dive",
+              "url": "https://medtechdive.com/"
+            },
+            "canonicalUrl": {
+              "url": "https://www.medtechdive.com/news/Vicarious-Surgical-CEO-Stephen-From/756635/",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/vicarious-surgical-names-stephen-next-155144478.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        },
+        {
+          "id": "4988f7f6-7a12-3e25-834c-081dcbd92ac1",
+          "content": {
+            "id": "4988f7f6-7a12-3e25-834c-081dcbd92ac1",
+            "contentType": "STORY",
+            "title": "Kiora Pharmaceuticals (KPRX) Upgraded to Strong Buy: Here's What You Should Know",
+            "description": "",
+            "summary": "Kiora Pharmaceuticals (KPRX) has been upgraded to a Zacks Rank #1 (Strong Buy), reflecting growing optimism about the company's earnings prospects. This might drive the stock higher in the near term.",
+            "pubDate": "2025-07-16T16:00:03Z",
+            "displayTime": "2025-07-16T16:00:03Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": {
+              "originalUrl": "https://media.zenfs.com/en/zacks.com/39dfb058875b6e691de9136bc97a47b4",
+              "originalWidth": 900,
+              "originalHeight": 900,
+              "caption": "",
+              "resolutions": [
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/hYDVEF34jJNULlluFRTwjg--~B/aD05MDA7dz05MDA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/zacks.com/39dfb058875b6e691de9136bc97a47b4",
+                  "width": 900,
+                  "height": 900,
+                  "tag": "original"
+                },
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/TKhE1QXt8L12yJAimuSXOg--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/zacks.com/39dfb058875b6e691de9136bc97a47b4",
+                  "width": 170,
+                  "height": 128,
+                  "tag": "170x128"
+                }
+              ]
+            },
+            "provider": {
+              "displayName": "Zacks",
+              "url": "http://www.zacks.com/"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/kiora-pharmaceuticals-kprx-upgraded-strong-160003097.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/kiora-pharmaceuticals-kprx-upgraded-strong-160003097.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        },
+        {
+          "id": "cf4f4e4a-a326-3c65-9ffe-d17b86ceab46",
+          "content": {
+            "id": "cf4f4e4a-a326-3c65-9ffe-d17b86ceab46",
+            "contentType": "STORY",
+            "title": "We Think Kiora Pharmaceuticals' (NASDAQ:KPRX) Healthy Earnings Might Be Conservative",
+            "description": "",
+            "summary": "Investors signalled that they were pleased with Kiora Pharmaceuticals, Inc.'s ( NASDAQ:KPRX ) most recent earnings...",
+            "pubDate": "2024-11-15T11:06:22Z",
+            "displayTime": "2024-11-15T11:06:22Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": {
+              "originalUrl": "https://media.zenfs.com/en/simply_wall_st__316/fd5474a7eee0c5f442903b68fe63249b",
+              "originalWidth": 1194,
+              "originalHeight": 432,
+              "caption": "",
+              "resolutions": [
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/TLyt5D16lsSwRjJRVjlUTA--~B/aD00MzI7dz0xMTk0O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/simply_wall_st__316/fd5474a7eee0c5f442903b68fe63249b",
+                  "width": 1194,
+                  "height": 432,
+                  "tag": "original"
+                },
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/PogKoFkj.Bi2muTuZmcSEQ--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/simply_wall_st__316/fd5474a7eee0c5f442903b68fe63249b",
+                  "width": 170,
+                  "height": 128,
+                  "tag": "170x128"
+                }
+              ]
+            },
+            "provider": {
+              "displayName": "Simply Wall St.",
+              "url": "https://simplywall.st/"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/think-kiora-pharmaceuticals-nasdaq-kprx-110622540.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/think-kiora-pharmaceuticals-nasdaq-kprx-110622540.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        },
+        {
+          "id": "b1161d61-bed1-3a1c-93fc-2f89d5568484",
+          "content": {
+            "id": "b1161d61-bed1-3a1c-93fc-2f89d5568484",
+            "contentType": "STORY",
+            "title": "Kiora Pharmaceuticals Gains Approval for Phase 2 Trial",
+            "description": "",
+            "summary": "Kiora Pharmaceuticals ( (KPRX) ) has issued an update. Kiora Pharmaceuticals has received regulatory approval to begin a Phase 2 clinical trial of KIO-301 for treating retinitis pigmentosa, aiming to restore vision in patients with severe vision loss. The ABACUS-2 trial will assess the drug\u2019s safety and efficacy across multiple centers in Australia, utilizing a unique photoswitch mechanism that could work for various gene mutations associated with retinal diseases. This innovative approach, supp",
+            "pubDate": "2024-10-30T11:28:54Z",
+            "displayTime": "2024-10-30T11:28:54Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": {
+              "originalUrl": "https://media.zenfs.com/en/tipranks_452/6e60166f16c98d232e4fe2b08fd8a093",
+              "originalWidth": 192,
+              "originalHeight": 192,
+              "caption": "https://www.tipranks.com/news/company-announcements/kiora-pharmaceuticals-gains-approval-for-phase-2-trial",
+              "resolutions": [
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/zzQJwVxfC_2TzhvJl13Lkg--~B/aD0xOTI7dz0xOTI7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/tipranks_452/6e60166f16c98d232e4fe2b08fd8a093",
+                  "width": 192,
+                  "height": 192,
+                  "tag": "original"
+                },
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/_BxuIMjkk1bI8gsGG9iPaQ--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/tipranks_452/6e60166f16c98d232e4fe2b08fd8a093",
+                  "width": 170,
+                  "height": 128,
+                  "tag": "170x128"
+                }
+              ]
+            },
+            "provider": {
+              "displayName": "TipRanks",
+              "url": "https://www.tipranks.com/"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/kiora-pharmaceuticals-gains-approval-phase-112854842.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/kiora-pharmaceuticals-gains-approval-phase-112854842.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        }
+      ]
+    },
+    "recommendations": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  },
+  "holders_data": {
+    "major_holders": {
+      "status": "error"
+    },
+    "institutional_holders": {
+      "status": "error"
+    }
+  },
+  "earnings_data": {
+    "earnings": {
+      "status": "error",
+      "message": "'NoneType' object has no attribute 'empty'"
+    },
+    "calendar": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  }
+}

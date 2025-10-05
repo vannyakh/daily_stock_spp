@@ -1,26 +1,13 @@
 {
   "ticker": "HSDTW",
-  "timestamp": "2025-09-23T04:25:25.668431",
+  "timestamp": "2025-10-05T04:26:28.058720",
   "intraday_data": {
     "status": "no_data",
     "message": "No intraday data available"
   },
   "stock_info": {
-    "status": "success",
-    "data": {
-      "quoteType": "NONE",
-      "symbol": "HSDTW",
-      "language": "en-US",
-      "region": "US",
-      "triggerable": false,
-      "customPriceAlertConfidence": "NONE",
-      "hasPrePostMarketData": false,
-      "financialCurrency": "USD",
-      "tradeable": false,
-      "cryptoTradeable": false,
-      "messageBoardId": "finmb_266639642",
-      "esgPopulated": false
-    }
+    "status": "error",
+    "message": "Too Many Requests. Rate limited. Try after a while."
   },
   "financials": {
     "income_statement": {
@@ -34,7 +21,8 @@
     }
   },
   "options_data": {
-    "expirations": []
+    "status": "error",
+    "error_message": "Too Many Requests. Rate limited. Try after a while."
   },
   "news_data": {
     "news": {

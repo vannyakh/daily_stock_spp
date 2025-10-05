@@ -1,32 +1,9 @@
 {
   "ticker": "HONDW",
-  "timestamp": "2025-09-23T04:22:32.264176",
+  "timestamp": "2025-10-05T04:23:39.362669",
   "intraday_data": {
-    "status": "success",
-    "rows": 3,
-    "data": [
-      {
-        "Close HONDU": 16.100000381469727,
-        "High HONDU": 16.100000381469727,
-        "Low HONDU": 16.100000381469727,
-        "Open HONDU": 16.100000381469727,
-        "Volume HONDU": 0
-      },
-      {
-        "Close HONDU": 16.100000381469727,
-        "High HONDU": 16.100000381469727,
-        "Low HONDU": 16.100000381469727,
-        "Open HONDU": 16.100000381469727,
-        "Volume HONDU": 5300
-      },
-      {
-        "Close HONDU": 16.100000381469727,
-        "High HONDU": 16.100000381469727,
-        "Low HONDU": 16.100000381469727,
-        "Open HONDU": 16.100000381469727,
-        "Volume HONDU": 0
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -37,11 +14,86 @@
       "status": "no_data"
     },
     "balance_sheet": {
+      "status": "no_data"
+    },
+    "cash_flow": {
+      "status": "no_data"
+    }
+  },
+  "options_data": {
+    "status": "error",
+    "error_message": "Too Many Requests. Rate limited. Try after a while."
+  },
+  "news_data": {
+    "news": {
       "status": "success",
-      "rows": 33,
-      "columns": [
-        "2024-12-31 00:00:00"
-      ],
+      "count": 1,
       "data": [
         {
-          
+          "id": "3d7ba606-3e69-3c87-9d24-a0be19a97659",
+          "content": {
+            "id": "3d7ba606-3e69-3c87-9d24-a0be19a97659",
+            "contentType": "STORY",
+            "title": "HCM II Acquisition to Merge With Next-Generation Nuclear Reactor Company; Shares Climb",
+            "description": "",
+            "summary": "HCM II Acquisition Corp. (HOND) said Wednesday it will merge with Terrestrial Energy, a developer of",
+            "pubDate": "2025-03-26T14:48:13Z",
+            "displayTime": "2025-03-26T14:48:13Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": null,
+            "provider": {
+              "displayName": "MT Newswires",
+              "url": "https://www.mtnewswires.com/"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/hcm-ii-acquisition-merge-next-144813898.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/hcm-ii-acquisition-merge-next-144813898.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": true,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        }
+      ]
+    },
+    "recommendations": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  },
+  "holders_data": {
+    "major_holders": {
+      "status": "error"
+    },
+    "institutional_holders": {
+      "status": "error"
+    }
+  },
+  "earnings_data": {
+    "earnings": {
+      "status": "error",
+      "message": "'NoneType' object has no attribute 'empty'"
+    },
+    "calendar": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  }
+}

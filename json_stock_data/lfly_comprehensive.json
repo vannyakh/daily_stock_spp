@@ -1,18 +1,9 @@
 {
   "ticker": "LFLY",
-  "timestamp": "2025-09-23T04:16:49.821210",
+  "timestamp": "2025-10-05T04:17:59.979763",
   "intraday_data": {
-    "status": "success",
-    "rows": 1,
-    "data": [
-      {
-        "Close ATMH": 0.06949999928474426,
-        "High ATMH": 0.06949999928474426,
-        "Low ATMH": 0.06949999928474426,
-        "Open ATMH": 0.06949999928474426,
-        "Volume ATMH": 0
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -102,7 +93,7 @@
     },
     "calendar": {
       "status": "error",
-      "message": "'dict' object has no attribute 'empty'"
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   }
 }

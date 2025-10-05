@@ -1,25 +1,9 @@
 {
   "ticker": "JUNE",
-  "timestamp": "2025-09-23T04:11:28.822477",
+  "timestamp": "2025-10-05T04:12:43.250078",
   "intraday_data": {
-    "status": "success",
-    "rows": 2,
-    "data": [
-      {
-        "Close ARKR": 7.130000114440918,
-        "High ARKR": 7.130000114440918,
-        "Low ARKR": 7.130000114440918,
-        "Open ARKR": 7.130000114440918,
-        "Volume ARKR": 0
-      },
-      {
-        "Close ARKR": 7.269999980926514,
-        "High ARKR": 7.269999980926514,
-        "Low ARKR": 7.269999980926514,
-        "Open ARKR": 7.269999980926514,
-        "Volume ARKR": 605
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -189,7 +173,7 @@
     },
     "calendar": {
       "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
+      "message": "'dict' object has no attribute 'empty'"
     }
   }
 }

@@ -1,10 +1,9 @@
 {
   "ticker": "DLTI",
-  "timestamp": "2025-09-23T04:21:44.957259",
+  "timestamp": "2025-10-05T04:22:55.092330",
   "intraday_data": {
-    "status": "success",
-    "rows": 0,
-    "data": []
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -30,7 +29,8 @@
       "status": "no_data"
     },
     "recommendations": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   },
   "holders_data": {

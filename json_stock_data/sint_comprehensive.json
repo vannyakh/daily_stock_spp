@@ -1,10 +1,18 @@
 {
   "ticker": "SINT",
-  "timestamp": "2025-09-23T04:15:59.961494",
+  "timestamp": "2025-10-05T04:17:08.698556",
   "intraday_data": {
     "status": "success",
-    "rows": 0,
-    "data": []
+    "rows": 1,
+    "data": [
+      {
+        "Close IGEX": 0.00039999998989515007,
+        "High IGEX": 0.00039999998989515007,
+        "Low IGEX": 0.00039999998989515007,
+        "Open IGEX": 0.00039999998989515007,
+        "Volume IGEX": 0
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -380,15 +388,16 @@
       ]
     },
     "recommendations": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   },
   "holders_data": {
     "major_holders": {
-      "status": "no_data"
+      "status": "error"
     },
     "institutional_holders": {
-      "status": "no_data"
+      "status": "error"
     }
   },
   "earnings_data": {

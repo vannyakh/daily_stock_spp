@@ -1,77 +1,40 @@
 {
   "ticker": "SPE-PC",
-  "timestamp": "2025-09-23T04:26:49.880810",
+  "timestamp": "2025-10-05T04:27:48.436674",
   "intraday_data": {
     "status": "success",
-    "rows": 3,
+    "rows": 2,
     "data": [
       {
-        "Close GPUS-PD": 23.889999389648438,
-        "High GPUS-PD": 23.889999389648438,
-        "Low GPUS-PD": 23.889999389648438,
-        "Open GPUS-PD": 23.889999389648438,
-        "Volume GPUS-PD": 499
+        "Close": 24.760000228881836,
+        "High": 24.760099411010742,
+        "Low": 24.760000228881836,
+        "Open": 24.760099411010742,
+        "Volume": 240
       },
       {
-        "Close GPUS-PD": 23.889999389648438,
-        "High GPUS-PD": 23.889999389648438,
-        "Low GPUS-PD": 23.463699340820312,
-        "Open GPUS-PD": 23.463699340820312,
-        "Volume GPUS-PD": 0
-      },
-      {
-        "Close GPUS-PD": 23.889999389648438,
-        "High GPUS-PD": 23.889999389648438,
-        "Low GPUS-PD": 23.889999389648438,
-        "Open GPUS-PD": 23.889999389648438,
-        "Volume GPUS-PD": 0
+        "Close": 24.959999084472656,
+        "High": 24.959999084472656,
+        "Low": 24.959999084472656,
+        "Open": 24.959999084472656,
+        "Volume": 460
       }
     ]
   },
   "stock_info": {
     "status": "error",
-    "message": "Too Many Requests. Rate limited. Try after a while."
+    "message": "argument of type 'NoneType' is not iterable"
   },
   "financials": {
     "income_statement": {
-      "status": "no_data"
-    },
-    "balance_sheet": {
-      "status": "no_data"
-    },
-    "cash_flow": {
-      "status": "no_data"
-    }
-  },
-  "options_data": {
-    "status": "error",
-    "error_message": "Too Many Requests. Rate limited. Try after a while."
-  },
-  "news_data": {
-    "news": {
-      "status": "no_data"
-    },
-    "recommendations": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
-    }
-  },
-  "holders_data": {
-    "major_holders": {
-      "status": "error"
-    },
-    "institutional_holders": {
-      "status": "error"
-    }
-  },
-  "earnings_data": {
-    "earnings": {
-      "status": "error",
-      "message": "'NoneType' object has no attribute 'empty'"
-    },
-    "calendar": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
-    }
-  }
-}
+      "status": "success",
+      "rows": 22,
+      "columns": [
+        "2024-12-31 00:00:00",
+        "2023-12-31 00:00:00",
+        "2022-12-31 00:00:00",
+        "2021-12-31 00:00:00"
+      ],
+      "data": [
+        {
+          

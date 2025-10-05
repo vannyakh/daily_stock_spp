@@ -1,116 +1,54 @@
 {
   "ticker": "SGTM",
-  "timestamp": "2025-09-23T04:21:11.612987",
+  "timestamp": "2025-10-05T04:22:20.298488",
   "intraday_data": {
-    "status": "success",
-    "rows": 13,
-    "data": [
-      {
-        "Close TVC": 24.190000534057617,
-        "High TVC": 24.190000534057617,
-        "Low TVC": 24.190000534057617,
-        "Open TVC": 24.190000534057617,
-        "Volume TVC": 0
-      },
-      {
-        "Close TVC": 24.100000381469727,
-        "High TVC": 24.100000381469727,
-        "Low TVC": 24.100000381469727,
-        "Open TVC": 24.100000381469727,
-        "Volume TVC": 100
-      },
-      {
-        "Close TVC": 24.030099868774414,
-        "High TVC": 24.030099868774414,
-        "Low TVC": 24.030099868774414,
-        "Open TVC": 24.030099868774414,
-        "Volume TVC": 380
-      },
-      {
-        "Close TVC": 24.122800827026367,
-        "High TVC": 24.122800827026367,
-        "Low TVC": 24.122800827026367,
-        "Open TVC": 24.122800827026367,
-        "Volume TVC": 370
-      },
-      {
-        "Close TVC": 24.139999389648438,
-        "High TVC": 24.139999389648438,
-        "Low TVC": 24.139999389648438,
-        "Open TVC": 24.139999389648438,
-        "Volume TVC": 341
-      },
-      {
-        "Close TVC": 24.114999771118164,
-        "High TVC": 24.114999771118164,
-        "Low TVC": 24.09000015258789,
-        "Open TVC": 24.09000015258789,
-        "Volume TVC": 353
-      },
-      {
-        "Close TVC": 24.084999084472656,
-        "High TVC": 24.084999084472656,
-        "Low TVC": 24.084999084472656,
-        "Open TVC": 24.084999084472656,
-        "Volume TVC": 123
-      },
-      {
-        "Close TVC": 24.09000015258789,
-        "High TVC": 24.09000015258789,
-        "Low TVC": 24.09000015258789,
-        "Open TVC": 24.09000015258789,
-        "Volume TVC": 4816
-      },
-      {
-        "Close TVC": 24.060100555419922,
-        "High TVC": 24.09000015258789,
-        "Low TVC": 24.059999465942383,
-        "Open TVC": 24.059999465942383,
-        "Volume TVC": 1402
-      },
-      {
-        "Close TVC": 24.139999389648438,
-        "High TVC": 24.149999618530273,
-        "Low TVC": 24.139999389648438,
-        "Open TVC": 24.139999389648438,
-        "Volume TVC": 500
-      },
-      {
-        "Close TVC": 24.104999542236328,
-        "High TVC": 24.104999542236328,
-        "Low TVC": 24.104999542236328,
-        "Open TVC": 24.104999542236328,
-        "Volume TVC": 0
-      },
-      {
-        "Close TVC": 24.104999542236328,
-        "High TVC": 24.104999542236328,
-        "Low TVC": 24.104999542236328,
-        "Open TVC": 24.104999542236328,
-        "Volume TVC": 10370
-      },
-      {
-        "Close TVC": 24.1299991607666,
-        "High TVC": 24.1299991607666,
-        "Low TVC": 24.1299991607666,
-        "Open TVC": 24.1299991607666,
-        "Volume TVC": 112
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
-    "message": "argument of type 'NoneType' is not iterable"
+    "message": "Too Many Requests. Rate limited. Try after a while."
   },
   "financials": {
     "income_statement": {
-      "status": "success",
-      "rows": 47,
-      "columns": [
-        "2023-12-31 00:00:00",
-        "2022-12-31 00:00:00",
-        "2021-12-31 00:00:00"
-      ],
-      "data": [
-        {
-          
+      "status": "no_data"
+    },
+    "balance_sheet": {
+      "status": "no_data"
+    },
+    "cash_flow": {
+      "status": "no_data"
+    }
+  },
+  "options_data": {
+    "status": "error",
+    "error_message": "Too Many Requests. Rate limited. Try after a while."
+  },
+  "news_data": {
+    "news": {
+      "status": "no_data"
+    },
+    "recommendations": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  },
+  "holders_data": {
+    "major_holders": {
+      "status": "error"
+    },
+    "institutional_holders": {
+      "status": "error"
+    }
+  },
+  "earnings_data": {
+    "earnings": {
+      "status": "error",
+      "message": "'NoneType' object has no attribute 'empty'"
+    },
+    "calendar": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  }
+}

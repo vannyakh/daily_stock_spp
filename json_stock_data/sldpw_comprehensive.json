@@ -1,75 +1,13 @@
 {
   "ticker": "SLDPW",
-  "timestamp": "2025-09-23T04:23:07.033408",
+  "timestamp": "2025-10-05T04:24:13.875364",
   "intraday_data": {
-    "status": "success",
-    "rows": 5,
-    "data": [
-      {
-        "Close AISPW": 2.109999895095825,
-        "Close": 0.4560000002384186,
-        "High AISPW": 2.109999895095825,
-        "High": 0.4560000002384186,
-        "Low AISPW": 2.109999895095825,
-        "Low": 0.4560000002384186,
-        "Open AISPW": 2.109999895095825,
-        "Open": 0.4560000002384186,
-        "Volume AISPW": 0.0,
-        "Volume": 1041.0
-      },
-      {
-        "Close AISPW": 2.0764999389648438,
-        "Close": 0.4700999855995178,
-        "High AISPW": 2.0764999389648438,
-        "High": 0.4700999855995178,
-        "Low AISPW": 2.0764999389648438,
-        "Low": 0.4700999855995178,
-        "Open AISPW": 2.0764999389648438,
-        "Open": 0.4700999855995178,
-        "Volume AISPW": 2000.0,
-        "Volume": 6000.0
-      },
-      {
-        "Close AISPW": 2.0999999046325684,
-        "Close": 0.48500001430511475,
-        "High AISPW": 2.0999999046325684,
-        "High": 0.48500001430511475,
-        "Low AISPW": 2.0764999389648438,
-        "Low": 0.48500001430511475,
-        "Open AISPW": 2.0764999389648438,
-        "Open": 0.48500001430511475,
-        "Volume AISPW": 1950.0,
-        "Volume": 0.0
-      },
-      {
-        "Close AISPW": 2.0899999141693115,
-        "Close": 0.5,
-        "High AISPW": 2.0899999141693115,
-        "High": 0.5,
-        "Low AISPW": 2.0899999141693115,
-        "Low": 0.5,
-        "Open AISPW": 2.0899999141693115,
-        "Open": 0.5,
-        "Volume AISPW": 111.0,
-        "Volume": 200.0
-      },
-      {
-        "Close AISPW": 2.0399999618530273,
-        "Close": 0.490200012922287,
-        "High AISPW": 2.0399999618530273,
-        "High": 0.4902999997138977,
-        "Low AISPW": 2.0199999809265137,
-        "Low": 0.490200012922287,
-        "Open AISPW": 2.0199999809265137,
-        "Open": 0.4902999997138977,
-        "Volume AISPW": 1117.0,
-        "Volume": 2610.0
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
-    "message": "argument of type 'NoneType' is not iterable"
+    "message": "Too Many Requests. Rate limited. Try after a while."
   },
   "financials": {
     "income_statement": {
@@ -704,7 +642,8 @@
       ]
     },
     "recommendations": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   },
   "holders_data": {

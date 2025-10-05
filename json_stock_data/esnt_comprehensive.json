@@ -1,24 +1,667 @@
 {
   "ticker": "ESNT",
-  "timestamp": "2025-09-23T03:56:44.315523",
+  "timestamp": "2025-10-05T03:58:19.039933",
   "intraday_data": {
     "status": "no_data",
     "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
-    "message": "argument of type 'NoneType' is not iterable"
+    "message": "Too Many Requests. Rate limited. Try after a while."
   },
   "financials": {
     "income_statement": {
+      "status": "no_data"
+    },
+    "balance_sheet": {
+      "status": "no_data"
+    },
+    "cash_flow": {
+      "status": "no_data"
+    }
+  },
+  "options_data": {
+    "status": "error",
+    "error_message": "Too Many Requests. Rate limited. Try after a while."
+  },
+  "news_data": {
+    "news": {
       "status": "success",
-      "rows": 32,
-      "columns": [
-        "2024-12-31 00:00:00",
-        "2023-12-31 00:00:00",
-        "2022-12-31 00:00:00",
-        "2021-12-31 00:00:00"
-      ],
+      "count": 10,
       "data": [
         {
-          
+          "id": "ddb0cbe7-a822-354d-824b-4272f8ec0e2b",
+          "content": {
+            "id": "ddb0cbe7-a822-354d-824b-4272f8ec0e2b",
+            "contentType": "STORY",
+            "title": "Are You Looking for a High-Growth Dividend Stock?",
+            "description": "",
+            "summary": "Dividends are one of the best benefits to being a shareholder, but finding a great dividend stock is no easy task. Does Essent Group (ESNT) have what it takes? Let's find out.",
+            "pubDate": "2025-10-03T15:45:02Z",
+            "displayTime": "2025-10-03T15:45:02Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": {
+              "originalUrl": "https://media.zenfs.com/en/zacks.com/17a4db66bb13bdabcbf848550a6ea15a",
+              "originalWidth": 900,
+              "originalHeight": 587,
+              "caption": "",
+              "resolutions": [
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/aMCT_Lh5K9xNn9.QUdX03w--~B/aD01ODc7dz05MDA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/zacks.com/17a4db66bb13bdabcbf848550a6ea15a",
+                  "width": 900,
+                  "height": 587,
+                  "tag": "original"
+                },
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/PzpA3zQ5.H.JCR52WP7cJw--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/zacks.com/17a4db66bb13bdabcbf848550a6ea15a",
+                  "width": 170,
+                  "height": 128,
+                  "tag": "170x128"
+                }
+              ]
+            },
+            "provider": {
+              "displayName": "Zacks",
+              "url": "http://www.zacks.com/"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/looking-high-growth-dividend-stock-154502565.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/looking-high-growth-dividend-stock-154502565.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        },
+        {
+          "id": "ac30546e-9d75-3ada-aab0-29060548e52e",
+          "content": {
+            "id": "ac30546e-9d75-3ada-aab0-29060548e52e",
+            "contentType": "STORY",
+            "title": "3 Low-Volatility Stocks That Concern Us",
+            "description": "",
+            "summary": "Low-volatility stocks may offer stability, but that often comes at the cost of slower growth and the upside potential of more dynamic companies.",
+            "pubDate": "2025-10-02T04:42:36Z",
+            "displayTime": "2025-10-02T04:42:36Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": {
+              "originalUrl": "https://media.zenfs.com/en/stockstory_922/3e9471166a0d4ee8c41ab9eef8ac261c",
+              "originalWidth": 1400,
+              "originalHeight": 700,
+              "caption": "BIIB Cover Image",
+              "resolutions": [
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/wtItv3XfGffbfYP9HLRGJw--~B/aD03MDA7dz0xNDAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/stockstory_922/3e9471166a0d4ee8c41ab9eef8ac261c",
+                  "width": 1400,
+                  "height": 700,
+                  "tag": "original"
+                },
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/hEVsZK7eJAFMNI5Aav96ww--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/stockstory_922/3e9471166a0d4ee8c41ab9eef8ac261c",
+                  "width": 170,
+                  "height": 128,
+                  "tag": "170x128"
+                }
+              ]
+            },
+            "provider": {
+              "displayName": "StockStory",
+              "url": "https://stockstory.org/"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/3-low-volatility-stocks-concern-044236694.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/3-low-volatility-stocks-concern-044236694.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        },
+        {
+          "id": "ab6fb528-5d34-3082-8b21-c763d8fdb7c7",
+          "content": {
+            "id": "ab6fb528-5d34-3082-8b21-c763d8fdb7c7",
+            "contentType": "STORY",
+            "title": "3 Reasons to Sell ESNT and 1 Stock to Buy Instead",
+            "description": "",
+            "summary": "Even though Essent Group (currently trading at $62.57 per share) has gained 6.6% over the last six months, it has lagged the S&P 500\u2019s 18.4% return during that period. This may have investors wondering how to approach the situation.",
+            "pubDate": "2025-10-02T04:01:36Z",
+            "displayTime": "2025-10-02T04:01:36Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": {
+              "originalUrl": "https://media.zenfs.com/en/stockstory_922/78ad2f598b01f5fe13b595e3d725c921",
+              "originalWidth": 1400,
+              "originalHeight": 700,
+              "caption": "ESNT Cover Image",
+              "resolutions": [
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/i5P7Sdrl8FAsReADENTAVQ--~B/aD03MDA7dz0xNDAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/stockstory_922/78ad2f598b01f5fe13b595e3d725c921",
+                  "width": 1400,
+                  "height": 700,
+                  "tag": "original"
+                },
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/7BHPl4Fnxh0QeeUgT.ROWA--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/stockstory_922/78ad2f598b01f5fe13b595e3d725c921",
+                  "width": 170,
+                  "height": 128,
+                  "tag": "170x128"
+                }
+              ]
+            },
+            "provider": {
+              "displayName": "StockStory",
+              "url": "https://stockstory.org/"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/3-reasons-sell-esnt-1-040136491.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/3-reasons-sell-esnt-1-040136491.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        },
+        {
+          "id": "04a566c4-d1a4-36fb-b75b-456e692330bc",
+          "content": {
+            "id": "04a566c4-d1a4-36fb-b75b-456e692330bc",
+            "contentType": "STORY",
+            "title": "ESNT vs. BRK.B: Which Stock Is the Better Value Option?",
+            "description": "",
+            "summary": "ESNT vs. BRK.B: Which Stock Is the Better Value Option?",
+            "pubDate": "2025-09-26T15:40:02Z",
+            "displayTime": "2025-09-26T15:40:02Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": {
+              "originalUrl": "https://media.zenfs.com/en/zacks.com/c65fb4556b91b6c9dc83e4eff25fede0",
+              "originalWidth": 3000,
+              "originalHeight": 2351,
+              "caption": "",
+              "resolutions": [
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/UACuRym2G7Sc_7yqOtSLVQ--~B/aD0yMzUxO3c9MzAwMDthcHBpZD15dGFjaHlvbg--/https://media.zenfs.com/en/zacks.com/c65fb4556b91b6c9dc83e4eff25fede0",
+                  "width": 3000,
+                  "height": 2351,
+                  "tag": "original"
+                },
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/v7gRK1e0mL1nqaiP4PoZzA--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/zacks.com/c65fb4556b91b6c9dc83e4eff25fede0",
+                  "width": 170,
+                  "height": 128,
+                  "tag": "170x128"
+                }
+              ]
+            },
+            "provider": {
+              "displayName": "Zacks",
+              "url": "http://www.zacks.com/"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/esnt-vs-brk-b-stock-154002051.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/esnt-vs-brk-b-stock-154002051.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        },
+        {
+          "id": "a35f8164-8f99-3b7e-a667-7bff6021cad9",
+          "content": {
+            "id": "a35f8164-8f99-3b7e-a667-7bff6021cad9",
+            "contentType": "STORY",
+            "title": "2 Insurance Stocks to Target This Week and 1 We Turn Down",
+            "description": "",
+            "summary": "Insurance providers use their expertise in risk assessment to help protect assets while offering consumers peace of mind through comprehensive coverage options. But concerns about claims severity and tightening regulations have tempered enthusiasm, capping the upside for insurance stocks lately - over the past six months, the industry\u2019s flat return has trailed the S&P 500\u2019s 14.9% gain.",
+            "pubDate": "2025-09-25T04:39:17Z",
+            "displayTime": "2025-09-25T04:39:17Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": {
+              "originalUrl": "https://media.zenfs.com/en/stockstory_922/ef5cc88cdf7999d4edfa781cb3e84b2f",
+              "originalWidth": 1400,
+              "originalHeight": 700,
+              "caption": "WRB Cover Image",
+              "resolutions": [
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/BxObSl6mdqyMvhCDwGcOxw--~B/aD03MDA7dz0xNDAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/stockstory_922/ef5cc88cdf7999d4edfa781cb3e84b2f",
+                  "width": 1400,
+                  "height": 700,
+                  "tag": "original"
+                },
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/aD2GT0PN8v8rOTcYE1I.Qg--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/stockstory_922/ef5cc88cdf7999d4edfa781cb3e84b2f",
+                  "width": 170,
+                  "height": 128,
+                  "tag": "170x128"
+                }
+              ]
+            },
+            "provider": {
+              "displayName": "StockStory",
+              "url": "https://stockstory.org/"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/2-insurance-stocks-target-week-043917284.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/2-insurance-stocks-target-week-043917284.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        },
+        {
+          "id": "844c05d4-1081-3281-b742-ac21ad6c187d",
+          "content": {
+            "id": "844c05d4-1081-3281-b742-ac21ad6c187d",
+            "contentType": "STORY",
+            "title": "ESNT or BRK.B: Which Is the Better Value Stock Right Now?",
+            "description": "",
+            "summary": "ESNT vs. BRK.B: Which Stock Is the Better Value Option?",
+            "pubDate": "2025-09-10T15:40:02Z",
+            "displayTime": "2025-09-10T15:40:02Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": {
+              "originalUrl": "https://media.zenfs.com/en/zacks.com/3d7c5b2146ac04ffd51752e17ff2a619",
+              "originalWidth": 900,
+              "originalHeight": 506,
+              "caption": "",
+              "resolutions": [
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/132juehTNIyEUn7pK7.GPA--~B/aD01MDY7dz05MDA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/zacks.com/3d7c5b2146ac04ffd51752e17ff2a619",
+                  "width": 900,
+                  "height": 506,
+                  "tag": "original"
+                },
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/ntuaEXebAoViSP2xpnvkrA--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/zacks.com/3d7c5b2146ac04ffd51752e17ff2a619",
+                  "width": 170,
+                  "height": 128,
+                  "tag": "170x128"
+                }
+              ]
+            },
+            "provider": {
+              "displayName": "Zacks",
+              "url": "http://www.zacks.com/"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/esnt-brk-b-better-value-154002565.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/esnt-brk-b-better-value-154002565.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        },
+        {
+          "id": "26102431-aa93-39e3-8ba3-7953b906dd27",
+          "content": {
+            "id": "26102431-aa93-39e3-8ba3-7953b906dd27",
+            "contentType": "STORY",
+            "title": "Q2 Earnings Highs And Lows: Essent Group (NYSE:ESNT) Vs The Rest Of The Property & Casualty Insurance Stocks",
+            "description": "",
+            "summary": "Wrapping up Q2 earnings, we look at the numbers and key takeaways for the property & casualty insurance stocks, including Essent Group (NYSE:ESNT) and its peers.",
+            "pubDate": "2025-09-02T03:31:04Z",
+            "displayTime": "2025-09-02T03:31:04Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": {
+              "originalUrl": "https://media.zenfs.com/en/stockstory_922/78ad2f598b01f5fe13b595e3d725c921",
+              "originalWidth": 1400,
+              "originalHeight": 700,
+              "caption": "ESNT Cover Image",
+              "resolutions": [
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/i5P7Sdrl8FAsReADENTAVQ--~B/aD03MDA7dz0xNDAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/stockstory_922/78ad2f598b01f5fe13b595e3d725c921",
+                  "width": 1400,
+                  "height": 700,
+                  "tag": "original"
+                },
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/7BHPl4Fnxh0QeeUgT.ROWA--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/stockstory_922/78ad2f598b01f5fe13b595e3d725c921",
+                  "width": 170,
+                  "height": 128,
+                  "tag": "170x128"
+                }
+              ]
+            },
+            "provider": {
+              "displayName": "StockStory",
+              "url": "https://stockstory.org/"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/q2-earnings-highs-lows-essent-033104767.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/q2-earnings-highs-lows-essent-033104767.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        },
+        {
+          "id": "c0ecbccf-ba82-38b0-9f9f-89fff747a3d9",
+          "content": {
+            "id": "c0ecbccf-ba82-38b0-9f9f-89fff747a3d9",
+            "contentType": "STORY",
+            "title": "The Top 5 Analyst Questions From Essent Group\u2019s Q2 Earnings Call",
+            "description": "",
+            "summary": "Essent Group\u2019s second quarter results were marked by a positive market reaction, largely due to favorable credit performance and higher investment income amid a stable macroeconomic environment. CEO Mark Casale highlighted the company\u2019s \u201cbuy, manage and distribute operating model\u201d as a key factor in generating high-quality earnings this quarter. Management attributed much of the quarter\u2019s success to strong persistency rates and embedded equity within the insured portfolio, which provided additio",
+            "pubDate": "2025-08-15T05:31:09Z",
+            "displayTime": "2025-08-15T05:31:09Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": {
+              "originalUrl": "https://media.zenfs.com/en/stockstory_922/78ad2f598b01f5fe13b595e3d725c921",
+              "originalWidth": 1400,
+              "originalHeight": 700,
+              "caption": "ESNT Cover Image",
+              "resolutions": [
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/i5P7Sdrl8FAsReADENTAVQ--~B/aD03MDA7dz0xNDAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/stockstory_922/78ad2f598b01f5fe13b595e3d725c921",
+                  "width": 1400,
+                  "height": 700,
+                  "tag": "original"
+                },
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/7BHPl4Fnxh0QeeUgT.ROWA--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/stockstory_922/78ad2f598b01f5fe13b595e3d725c921",
+                  "width": 170,
+                  "height": 128,
+                  "tag": "170x128"
+                }
+              ]
+            },
+            "provider": {
+              "displayName": "StockStory",
+              "url": "https://stockstory.org/"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/top-5-analyst-questions-essent-053109176.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/top-5-analyst-questions-essent-053109176.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        },
+        {
+          "id": "aa131383-96dc-3cca-b00a-22449d00be7b",
+          "content": {
+            "id": "aa131383-96dc-3cca-b00a-22449d00be7b",
+            "contentType": "STORY",
+            "title": "ESNT Q2 Deep Dive: Investment Income and Credit Strength Drive Outperformance",
+            "description": "",
+            "summary": "Mortgage insurance provider Essent Group (NYSE:ESNT) announced better-than-expected revenue in Q2 CY2025, with sales up 2% year on year to $319.1 million. Its non-GAAP profit of $1.93 per share was 12.9% above analysts\u2019 consensus estimates.",
+            "pubDate": "2025-08-11T13:41:15Z",
+            "displayTime": "2025-08-11T13:41:15Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": {
+              "originalUrl": "https://media.zenfs.com/en/stockstory_922/78ad2f598b01f5fe13b595e3d725c921",
+              "originalWidth": 1400,
+              "originalHeight": 700,
+              "caption": "ESNT Cover Image",
+              "resolutions": [
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/i5P7Sdrl8FAsReADENTAVQ--~B/aD03MDA7dz0xNDAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/stockstory_922/78ad2f598b01f5fe13b595e3d725c921",
+                  "width": 1400,
+                  "height": 700,
+                  "tag": "original"
+                },
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/7BHPl4Fnxh0QeeUgT.ROWA--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/stockstory_922/78ad2f598b01f5fe13b595e3d725c921",
+                  "width": 170,
+                  "height": 128,
+                  "tag": "170x128"
+                }
+              ]
+            },
+            "provider": {
+              "displayName": "StockStory",
+              "url": "https://stockstory.org/"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/esnt-q2-deep-dive-investment-134115668.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/esnt-q2-deep-dive-investment-134115668.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        },
+        {
+          "id": "74525c74-5126-3c7e-8822-289431867d37",
+          "content": {
+            "id": "74525c74-5126-3c7e-8822-289431867d37",
+            "contentType": "STORY",
+            "title": "Essent Group Second Quarter 2025 Earnings: EPS Beats Expectations",
+            "description": "",
+            "summary": "Essent Group ( NYSE:ESNT ) Second Quarter 2025 Results Key Financial Results Revenue: US$319.1m (up 5.4% from 2Q 2024...",
+            "pubDate": "2025-08-10T13:10:00Z",
+            "displayTime": "2025-08-10T13:10:00Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": {
+              "originalUrl": "https://media.zenfs.com/en/simply_wall_st__316/78a8c60a6283aea0450523395306d38c",
+              "originalWidth": 945,
+              "originalHeight": 636,
+              "caption": "",
+              "resolutions": [
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/5Vpve0Pc2F3m_L3fs2p_dQ--~B/aD02MzY7dz05NDU7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/simply_wall_st__316/78a8c60a6283aea0450523395306d38c",
+                  "width": 945,
+                  "height": 636,
+                  "tag": "original"
+                },
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/5K6kmrQzRk.k.11fs9N_QA--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/simply_wall_st__316/78a8c60a6283aea0450523395306d38c",
+                  "width": 170,
+                  "height": 128,
+                  "tag": "170x128"
+                }
+              ]
+            },
+            "provider": {
+              "displayName": "Simply Wall St.",
+              "url": "https://simplywall.st/"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/essent-group-second-quarter-2025-131000507.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/essent-group-second-quarter-2025-131000507.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        }
+      ]
+    },
+    "recommendations": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  },
+  "holders_data": {
+    "major_holders": {
+      "status": "error"
+    },
+    "institutional_holders": {
+      "status": "error"
+    }
+  },
+  "earnings_data": {
+    "earnings": {
+      "status": "error",
+      "message": "'NoneType' object has no attribute 'empty'"
+    },
+    "calendar": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  }
+}

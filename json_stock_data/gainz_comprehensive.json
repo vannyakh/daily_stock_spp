@@ -1,92 +1,83 @@
 {
   "ticker": "GAINZ",
-  "timestamp": "2025-09-23T04:26:58.333508",
+  "timestamp": "2025-10-05T04:27:56.607863",
   "intraday_data": {
-    "status": "success",
-    "rows": 11,
-    "data": [
-      {
-        "Close": 24.0,
-        "High": 24.0,
-        "Low": 24.0,
-        "Open": 24.0,
-        "Volume": 0
-      },
-      {
-        "Close": 23.83329963684082,
-        "High": 23.83329963684082,
-        "Low": 23.83329963684082,
-        "Open": 23.83329963684082,
-        "Volume": 300
-      },
-      {
-        "Close": 23.99850082397461,
-        "High": 23.99850082397461,
-        "Low": 23.99850082397461,
-        "Open": 23.99850082397461,
-        "Volume": 333
-      },
-      {
-        "Close": 23.999900817871094,
-        "High": 23.999900817871094,
-        "Low": 23.924999237060547,
-        "Open": 23.924999237060547,
-        "Volume": 604
-      },
-      {
-        "Close": 24.0,
-        "High": 24.0,
-        "Low": 24.0,
-        "Open": 24.0,
-        "Volume": 300
-      },
-      {
-        "Close": 24.0,
-        "High": 24.0,
-        "Low": 23.950000762939453,
-        "Open": 23.950000762939453,
-        "Volume": 730
-      },
-      {
-        "Close": 23.999900817871094,
-        "High": 24.0,
-        "Low": 23.999900817871094,
-        "Open": 24.0,
-        "Volume": 420
-      },
-      {
-        "Close": 23.999900817871094,
-        "High": 23.999900817871094,
-        "Low": 23.999900817871094,
-        "Open": 23.999900817871094,
-        "Volume": 200
-      },
-      {
-        "Close": 23.928800582885742,
-        "High": 23.928800582885742,
-        "Low": 23.928800582885742,
-        "Open": 23.928800582885742,
-        "Volume": 261
-      },
-      {
-        "Close": 23.950000762939453,
-        "High": 23.950000762939453,
-        "Low": 23.950000762939453,
-        "Open": 23.950000762939453,
-        "Volume": 328
-      },
-      {
-        "Close": 23.989999771118164,
-        "High": 23.989999771118164,
-        "Low": 23.989999771118164,
-        "Open": 23.989999771118164,
-        "Volume": 166
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
-    "status": "error",
-    "message": "Too Many Requests. Rate limited. Try after a while."
+    "status": "success",
+    "data": {
+      "maxAge": 86400,
+      "priceHint": 2,
+      "previousClose": 23.89,
+      "open": 23.81,
+      "dayLow": 23.89,
+      "dayHigh": 23.89,
+      "regularMarketPreviousClose": 23.89,
+      "regularMarketOpen": 23.81,
+      "regularMarketDayLow": 23.89,
+      "regularMarketDayHigh": 23.89,
+      "volume": 118,
+      "regularMarketVolume": 118,
+      "averageVolume": 3831,
+      "averageVolume10days": 4720,
+      "averageDailyVolume10Day": 4720,
+      "bid": 0.0,
+      "ask": 0.0,
+      "bidSize": 0,
+      "askSize": 0,
+      "fiftyTwoWeekLow": 22.21,
+      "fiftyTwoWeekHigh": 24.139,
+      "allTimeHigh": 27.44,
+      "allTimeLow": 20.4,
+      "fiftyDayAverage": 23.7165,
+      "twoHundredDayAverage": 23.30758,
+      "currency": "USD",
+      "tradeable": false,
+      "quoteType": "EQUITY",
+      "symbol": "GAINZ",
+      "language": "en-US",
+      "region": "US",
+      "typeDisp": "Equity",
+      "quoteSourceName": "Delayed Quote",
+      "triggerable": true,
+      "customPriceAlertConfidence": "HIGH",
+      "regularMarketDayRange": "23.89 - 23.89",
+      "shortName": "Gladstone Investment Corporatio",
+      "longName": "Gladstone Investment Corporation 4.875% Notes due 2028",
+      "regularMarketChangePercent": 0.0,
+      "regularMarketPrice": 23.89,
+      "marketState": "CLOSED",
+      "regularMarketTime": 1759435200,
+      "messageBoardId": "finmb_21880789",
+      "fiftyTwoWeekLowChange": 1.6800003,
+      "fiftyTwoWeekLowChangePercent": 0.07564162,
+      "fiftyTwoWeekRange": "22.21 - 24.139",
+      "fiftyTwoWeekHighChange": -0.24900055,
+      "fiftyTwoWeekHighChangePercent": -0.01031528,
+      "fiftyTwoWeekChangePercent": 0.12573004,
+      "dividendDate": 1754006400,
+      "fiftyDayAverageChange": 0.17350006,
+      "fiftyDayAverageChangePercent": 0.007315585,
+      "twoHundredDayAverageChange": 0.58241844,
+      "twoHundredDayAverageChangePercent": 0.02498837,
+      "sourceInterval": 15,
+      "exchangeDataDelayedBy": 0,
+      "ipoExpectedDate": "2021-08-19",
+      "hasPrePostMarketData": true,
+      "regularMarketChange": 0.0,
+      "exchange": "NMS",
+      "exchangeTimezoneName": "America/New_York",
+      "exchangeTimezoneShortName": "EDT",
+      "gmtOffSetMilliseconds": -14400000,
+      "market": "us_market",
+      "esgPopulated": false,
+      "fullExchangeName": "NasdaqGS",
+      "averageDailyVolume3Month": 3831,
+      "cryptoTradeable": false,
+      "firstTradeDateMilliseconds": 1629379800000
+    }
   },
   "financials": {
     "income_statement": {
@@ -100,8 +91,7 @@
     }
   },
   "options_data": {
-    "status": "error",
-    "error_message": "Too Many Requests. Rate limited. Try after a while."
+    "expirations": []
   },
   "news_data": {
     "news": {

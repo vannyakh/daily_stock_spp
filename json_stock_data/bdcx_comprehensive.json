@@ -1,9 +1,25 @@
 {
   "ticker": "BDCX",
-  "timestamp": "2025-09-23T04:25:30.248310",
+  "timestamp": "2025-10-05T04:26:32.752862",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 2,
+    "data": [
+      {
+        "Close AMUB": 18.409400939941406,
+        "High AMUB": 18.40999984741211,
+        "Low AMUB": 18.409400939941406,
+        "Open AMUB": 18.40999984741211,
+        "Volume AMUB": 0
+      },
+      {
+        "Close AMUB": 18.409400939941406,
+        "High AMUB": 18.409400939941406,
+        "Low AMUB": 18.385000228881836,
+        "Open AMUB": 18.385000228881836,
+        "Volume AMUB": 0
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -29,7 +45,8 @@
       "status": "no_data"
     },
     "recommendations": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   },
   "holders_data": {

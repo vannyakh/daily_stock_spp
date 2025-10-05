@@ -1,6 +1,6 @@
 {
   "ticker": "XELA",
-  "timestamp": "2025-09-23T04:13:34.386351",
+  "timestamp": "2025-10-05T04:14:43.280993",
   "intraday_data": {
     "status": "no_data",
     "message": "No intraday data available"
@@ -93,16 +93,39 @@
       ]
     },
     "recommendations": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
+      "status": "no_data"
     }
   },
   "holders_data": {
     "major_holders": {
-      "status": "error"
+      "status": "success",
+      "data": [
+        {
+          "Value": 0.23681
+        },
+        {
+          "Value": 0.37363
+        },
+        {
+          "Value": 0.48957002
+        },
+        {
+          "Value": 2.0
+        }
+      ]
     },
     "institutional_holders": {
-      "status": "error"
+      "status": "success",
+      "data": [
+        {
+          "Date Reported": "2024-12-31 00:00:00",
+          "Holder": "Simplex Trading, LLC",
+          "pctHeld": 0.0034999999,
+          "Shares": 22402,
+          "Value": 5354,
+          "pctChange": 1.0
+        }
+      ]
     }
   },
   "earnings_data": {
@@ -112,7 +135,7 @@
     },
     "calendar": {
       "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
+      "message": "'dict' object has no attribute 'empty'"
     }
   }
 }

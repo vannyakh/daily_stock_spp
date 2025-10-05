@@ -1,179 +1,23 @@
 {
   "ticker": "FBLA",
-  "timestamp": "2025-09-23T04:06:59.043455",
+  "timestamp": "2025-10-05T04:08:25.573300",
   "intraday_data": {
     "status": "no_data",
     "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
-    "message": "Too Many Requests. Rate limited. Try after a while."
+    "message": "argument of type 'NoneType' is not iterable"
   },
   "financials": {
     "income_statement": {
-      "status": "no_data"
-    },
-    "balance_sheet": {
-      "status": "no_data"
-    },
-    "cash_flow": {
-      "status": "no_data"
-    }
-  },
-  "options_data": {
-    "status": "error",
-    "error_message": "Too Many Requests. Rate limited. Try after a while."
-  },
-  "news_data": {
-    "news": {
       "status": "success",
-      "count": 2,
+      "rows": 39,
+      "columns": [
+        "2024-12-31 00:00:00",
+        "2023-12-31 00:00:00",
+        "2022-12-31 00:00:00"
+      ],
       "data": [
         {
-          "id": "c6e2fda3-9bf2-3d44-9eab-26376b77c14d",
-          "content": {
-            "id": "c6e2fda3-9bf2-3d44-9eab-26376b77c14d",
-            "contentType": "STORY",
-            "title": "FB Bancorp, Inc. (NASDAQ:FBLA) most popular amongst retail investors who own 58% of the shares, institutions hold 39%",
-            "description": "",
-            "summary": "Key Insights FB Bancorp's significant retail investors ownership suggests that the key decisions are influenced by...",
-            "pubDate": "2025-07-24T10:29:17Z",
-            "displayTime": "2025-07-24T10:29:17Z",
-            "isHosted": true,
-            "bypassModal": false,
-            "previewUrl": null,
-            "thumbnail": {
-              "originalUrl": "https://media.zenfs.com/en/simply_wall_st__316/75a6275a0d81fd5fbc47ebecee672e4c",
-              "originalWidth": 1194,
-              "originalHeight": 432,
-              "caption": "",
-              "resolutions": [
-                {
-                  "url": "https://s.yimg.com/uu/api/res/1.2/RvXBP6irJOcli7EUS_oYYw--~B/aD00MzI7dz0xMTk0O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/simply_wall_st__316/75a6275a0d81fd5fbc47ebecee672e4c",
-                  "width": 1194,
-                  "height": 432,
-                  "tag": "original"
-                },
-                {
-                  "url": "https://s.yimg.com/uu/api/res/1.2/McnRbZ1GDkEwVdEg.M3tyg--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/simply_wall_st__316/75a6275a0d81fd5fbc47ebecee672e4c",
-                  "width": 170,
-                  "height": 128,
-                  "tag": "170x128"
-                }
-              ]
-            },
-            "provider": {
-              "displayName": "Simply Wall St.",
-              "url": "https://simplywall.st/"
-            },
-            "canonicalUrl": {
-              "url": "https://finance.yahoo.com/news/fb-bancorp-inc-nasdaq-fbla-102917483.html",
-              "site": "finance",
-              "region": "US",
-              "lang": "en-US"
-            },
-            "clickThroughUrl": {
-              "url": "https://finance.yahoo.com/news/fb-bancorp-inc-nasdaq-fbla-102917483.html",
-              "site": "finance",
-              "region": "US",
-              "lang": "en-US"
-            },
-            "metadata": {
-              "editorsPick": false
-            },
-            "finance": {
-              "premiumFinance": {
-                "isPremiumNews": false,
-                "isPremiumFreeNews": false
-              }
-            },
-            "storyline": null
-          }
-        },
-        {
-          "id": "0ded6224-588f-3458-8a84-80bd53fdc46f",
-          "content": {
-            "id": "0ded6224-588f-3458-8a84-80bd53fdc46f",
-            "contentType": "STORY",
-            "title": "FB Bancorp Reports Full Year 2024 Earnings",
-            "description": "",
-            "summary": "FB Bancorp ( NASDAQ:FBLA ) Full Year 2024 Results Key Financial Results Revenue: US$64.9m (down 5.1% from FY 2023). Net...",
-            "pubDate": "2025-04-02T10:41:13Z",
-            "displayTime": "2025-04-02T10:41:13Z",
-            "isHosted": true,
-            "bypassModal": false,
-            "previewUrl": null,
-            "thumbnail": {
-              "originalUrl": "https://media.zenfs.com/en/simply_wall_st__316/78a8c60a6283aea0450523395306d38c",
-              "originalWidth": 945,
-              "originalHeight": 636,
-              "caption": "",
-              "resolutions": [
-                {
-                  "url": "https://s.yimg.com/uu/api/res/1.2/5Vpve0Pc2F3m_L3fs2p_dQ--~B/aD02MzY7dz05NDU7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/simply_wall_st__316/78a8c60a6283aea0450523395306d38c",
-                  "width": 945,
-                  "height": 636,
-                  "tag": "original"
-                },
-                {
-                  "url": "https://s.yimg.com/uu/api/res/1.2/5K6kmrQzRk.k.11fs9N_QA--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/simply_wall_st__316/78a8c60a6283aea0450523395306d38c",
-                  "width": 170,
-                  "height": 128,
-                  "tag": "170x128"
-                }
-              ]
-            },
-            "provider": {
-              "displayName": "Simply Wall St.",
-              "url": "https://simplywall.st/"
-            },
-            "canonicalUrl": {
-              "url": "https://finance.yahoo.com/news/fb-bancorp-reports-full-2024-104113778.html",
-              "site": "finance",
-              "region": "US",
-              "lang": "en-US"
-            },
-            "clickThroughUrl": {
-              "url": "https://finance.yahoo.com/news/fb-bancorp-reports-full-2024-104113778.html",
-              "site": "finance",
-              "region": "US",
-              "lang": "en-US"
-            },
-            "metadata": {
-              "editorsPick": false
-            },
-            "finance": {
-              "premiumFinance": {
-                "isPremiumNews": false,
-                "isPremiumFreeNews": false
-              }
-            },
-            "storyline": null
-          }
-        }
-      ]
-    },
-    "recommendations": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
-    }
-  },
-  "holders_data": {
-    "major_holders": {
-      "status": "error"
-    },
-    "institutional_holders": {
-      "status": "error"
-    }
-  },
-  "earnings_data": {
-    "earnings": {
-      "status": "error",
-      "message": "'NoneType' object has no attribute 'empty'"
-    },
-    "calendar": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
-    }
-  }
-}
+          

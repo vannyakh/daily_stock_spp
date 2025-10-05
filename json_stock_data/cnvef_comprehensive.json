@@ -1,48 +1,610 @@
 {
   "ticker": "CNVEF",
-  "timestamp": "2025-09-23T04:25:56.669191",
+  "timestamp": "2025-10-05T04:26:58.569247",
   "intraday_data": {
-    "status": "success",
-    "rows": 3,
-    "data": [
-      {
-        "Close CVE-WT": 12.010000228881836,
-        "High CVE-WT": 12.010000228881836,
-        "Low CVE-WT": 12.010000228881836,
-        "Open CVE-WT": 12.010000228881836,
-        "Volume CVE-WT": 0
-      },
-      {
-        "Close CVE-WT": 12.260000228881836,
-        "High CVE-WT": 12.260000228881836,
-        "Low CVE-WT": 12.260000228881836,
-        "Open CVE-WT": 12.260000228881836,
-        "Volume CVE-WT": 100
-      },
-      {
-        "Close CVE-WT": 12.399999618530273,
-        "High CVE-WT": 12.399999618530273,
-        "Low CVE-WT": 12.399999618530273,
-        "Open CVE-WT": 12.399999618530273,
-        "Volume CVE-WT": 100
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
-    "message": "argument of type 'NoneType' is not iterable"
+    "message": "Too Many Requests. Rate limited. Try after a while."
   },
   "financials": {
     "income_statement": {
+      "status": "no_data"
+    },
+    "balance_sheet": {
+      "status": "no_data"
+    },
+    "cash_flow": {
+      "status": "no_data"
+    }
+  },
+  "options_data": {
+    "status": "error",
+    "error_message": "Too Many Requests. Rate limited. Try after a while."
+  },
+  "news_data": {
+    "news": {
       "status": "success",
-      "rows": 48,
-      "columns": [
-        "2024-12-31 00:00:00",
-        "2023-12-31 00:00:00",
-        "2022-12-31 00:00:00",
-        "2021-12-31 00:00:00",
-        "2020-12-31 00:00:00"
-      ],
+      "count": 10,
       "data": [
         {
-          
+          "id": "b4630ece-7c3a-3c8b-a82c-7773d5dc3a9e",
+          "content": {
+            "id": "b4630ece-7c3a-3c8b-a82c-7773d5dc3a9e",
+            "contentType": "STORY",
+            "title": "Will Cenovus (CVE) Beat Estimates Again in Its Next Earnings Report?",
+            "description": "",
+            "summary": "Cenovus (CVE) has an impressive earnings surprise history and currently possesses the right combination of the two key ingredients for a likely beat in its next quarterly report.",
+            "pubDate": "2025-10-02T16:10:04Z",
+            "displayTime": "2025-10-02T16:10:04Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": {
+              "originalUrl": "https://media.zenfs.com/en/zacks.com/26a86d59f0e8f1e82a35a92ae5684cd9",
+              "originalWidth": 900,
+              "originalHeight": 845,
+              "caption": "",
+              "resolutions": [
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/gUf3JPAiwp3PVjuDKftvaA--~B/aD04NDU7dz05MDA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/zacks.com/26a86d59f0e8f1e82a35a92ae5684cd9",
+                  "width": 900,
+                  "height": 845,
+                  "tag": "original"
+                },
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/eCx50FHAThtC2odHVlyBEw--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/zacks.com/26a86d59f0e8f1e82a35a92ae5684cd9",
+                  "width": 170,
+                  "height": 128,
+                  "tag": "170x128"
+                }
+              ]
+            },
+            "provider": {
+              "displayName": "Zacks",
+              "url": "http://www.zacks.com/"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/cenovus-cve-beat-estimates-again-161004985.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/cenovus-cve-beat-estimates-again-161004985.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        },
+        {
+          "id": "d1001861-3b11-3c55-a199-86a84d63b233",
+          "content": {
+            "id": "d1001861-3b11-3c55-a199-86a84d63b233",
+            "contentType": "STORY",
+            "title": "Want Better Returns? Don't Ignore These 2 Oils-Energy Stocks Set to Beat Earnings",
+            "description": "",
+            "summary": "The Zacks Earnings ESP is a great way to find potential earnings surprises. Why investors should take advantage now.",
+            "pubDate": "2025-09-30T13:00:02Z",
+            "displayTime": "2025-09-30T13:00:02Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": {
+              "originalUrl": "https://media.zenfs.com/en/zacks.com/62d8c8e05376a18ba1420a1733ffdda4",
+              "originalWidth": 900,
+              "originalHeight": 601,
+              "caption": "",
+              "resolutions": [
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/YliGu3uiWo7T6YkWQuaEpA--~B/aD02MDE7dz05MDA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/zacks.com/62d8c8e05376a18ba1420a1733ffdda4",
+                  "width": 900,
+                  "height": 601,
+                  "tag": "original"
+                },
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/U_mLgBLkmbjzIonwV1EBtQ--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/zacks.com/62d8c8e05376a18ba1420a1733ffdda4",
+                  "width": 170,
+                  "height": 128,
+                  "tag": "170x128"
+                }
+              ]
+            },
+            "provider": {
+              "displayName": "Zacks",
+              "url": "http://www.zacks.com/"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/want-better-returns-dont-ignore-130002175.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/want-better-returns-dont-ignore-130002175.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        },
+        {
+          "id": "c7941d60-20f2-36bd-b525-34a83bdb410a",
+          "content": {
+            "id": "c7941d60-20f2-36bd-b525-34a83bdb410a",
+            "contentType": "STORY",
+            "title": "Cenovus Energy (CVE) Stock Sinks As Market Gains: What You Should Know",
+            "description": "",
+            "summary": "In the latest trading session, Cenovus Energy (CVE) closed at $17.27, marking a -2.81% move from the previous day.",
+            "pubDate": "2025-09-29T22:15:01Z",
+            "displayTime": "2025-09-29T22:15:01Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": {
+              "originalUrl": "https://media.zenfs.com/en/zacks.com/432476d296d64c50172213c0415587c9",
+              "originalWidth": 1000,
+              "originalHeight": 603,
+              "caption": "",
+              "resolutions": [
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/Fs_R4sd8jCoOMib958Znmg--~B/aD02MDM7dz0xMDAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/zacks.com/432476d296d64c50172213c0415587c9",
+                  "width": 1000,
+                  "height": 603,
+                  "tag": "original"
+                },
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/VHlzTcmp5MiZoTQkdAhz1A--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/zacks.com/432476d296d64c50172213c0415587c9",
+                  "width": 170,
+                  "height": 128,
+                  "tag": "170x128"
+                }
+              ]
+            },
+            "provider": {
+              "displayName": "Zacks",
+              "url": "http://www.zacks.com/"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/cenovus-energy-cve-stock-sinks-221501123.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/cenovus-energy-cve-stock-sinks-221501123.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        },
+        {
+          "id": "15d42be4-ed6d-3f42-a3d6-be7d3b96d693",
+          "content": {
+            "id": "15d42be4-ed6d-3f42-a3d6-be7d3b96d693",
+            "contentType": "STORY",
+            "title": "Sector Update: Energy Stocks Rise Late Afternoon",
+            "description": "",
+            "summary": "Energy stocks were higher late Friday afternoon, with the NYSE Energy Sector Index rising 0.7% and t",
+            "pubDate": "2025-09-26T19:59:49Z",
+            "displayTime": "2025-09-26T19:59:49Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": null,
+            "provider": {
+              "displayName": "MT Newswires",
+              "url": "https://www.mtnewswires.com/"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/sector-energy-stocks-rise-afternoon-195949513.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/sector-energy-stocks-rise-afternoon-195949513.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": true,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        },
+        {
+          "id": "cb96c0d8-c6ef-3047-94f3-c4612a9fcb5a",
+          "content": {
+            "id": "cb96c0d8-c6ef-3047-94f3-c4612a9fcb5a",
+            "contentType": "STORY",
+            "title": "Market Chatter: ISS Backs Cenovus Energy Bid for MEG Energy",
+            "description": "",
+            "summary": "Cenovus Energy (CVE) received support for its bid to acquire MEG Energy (MEGEF) from investor advise",
+            "pubDate": "2025-09-26T18:18:24Z",
+            "displayTime": "2025-09-26T18:18:24Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": null,
+            "provider": {
+              "displayName": "MT Newswires",
+              "url": "https://www.mtnewswires.com/"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/market-chatter-iss-backs-cenovus-181824968.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/market-chatter-iss-backs-cenovus-181824968.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": true,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        },
+        {
+          "id": "1c8b5ead-3771-385e-8017-9d7262e2d6ab",
+          "content": {
+            "id": "1c8b5ead-3771-385e-8017-9d7262e2d6ab",
+            "contentType": "STORY",
+            "title": "How to Boost Your Portfolio with Top Oils-Energy Stocks Set to Beat Earnings",
+            "description": "",
+            "summary": "Investors looking for ways to find stocks that are set to beat quarterly earnings estimates should check out the Zacks Earnings ESP.",
+            "pubDate": "2025-09-24T13:00:02Z",
+            "displayTime": "2025-09-24T13:00:02Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": {
+              "originalUrl": "https://media.zenfs.com/en/zacks.com/45c083e4721b0d0d1f6e431ec0bb5cc1",
+              "originalWidth": 900,
+              "originalHeight": 602,
+              "caption": "",
+              "resolutions": [
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/XxozWWpdDFgGg6m0CzltLg--~B/aD02MDI7dz05MDA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/zacks.com/45c083e4721b0d0d1f6e431ec0bb5cc1",
+                  "width": 900,
+                  "height": 602,
+                  "tag": "original"
+                },
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/v3NNmw3GO3h96zvTjY7gSg--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/zacks.com/45c083e4721b0d0d1f6e431ec0bb5cc1",
+                  "width": 170,
+                  "height": 128,
+                  "tag": "170x128"
+                }
+              ]
+            },
+            "provider": {
+              "displayName": "Zacks",
+              "url": "http://www.zacks.com/"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/boost-portfolio-top-oils-energy-130002938.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/boost-portfolio-top-oils-energy-130002938.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        },
+        {
+          "id": "5c265710-72d7-3381-a3a0-3723e24d5257",
+          "content": {
+            "id": "5c265710-72d7-3381-a3a0-3723e24d5257",
+            "contentType": "STORY",
+            "title": "Cenovus Energy (CVE) \u2013 Among the Best Oil and Gas Dividend Stocks to Buy Now",
+            "description": "",
+            "summary": "Cenovus Energy Inc. (NYSE:CVE) is included among the 15 Best Natural Gas and Oil Dividend Stock to Buy Now. Cenovus Energy Inc. (NYSE:CVE) made headlines this summer when the company announced that it would acquire MEG Energy in a C$7.9 billion cash-and-stock deal, creating one of the largest oil sands companies in Canada. However, the [\u2026]",
+            "pubDate": "2025-09-24T02:12:20Z",
+            "displayTime": "2025-09-24T02:12:20Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": {
+              "originalUrl": "https://media.zenfs.com/en/insidermonkey.com/be3393f134c2a187ca00a2f11da1c8b1",
+              "originalWidth": 1280,
+              "originalHeight": 853,
+              "caption": "Cenovus Energy (CVE) - Among the Best Oil and Gas Dividend Stocks to Buy Now",
+              "resolutions": [
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/fnoX5CVCsji8KlnEhEeNkQ--~B/aD04NTM7dz0xMjgwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/insidermonkey.com/be3393f134c2a187ca00a2f11da1c8b1",
+                  "width": 1280,
+                  "height": 853,
+                  "tag": "original"
+                },
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/56NFXwrF3veJ_TLLeCyS5Q--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/insidermonkey.com/be3393f134c2a187ca00a2f11da1c8b1",
+                  "width": 170,
+                  "height": 128,
+                  "tag": "170x128"
+                }
+              ]
+            },
+            "provider": {
+              "displayName": "Insider Monkey",
+              "url": "http://www.insidermonkey.com"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/cenovus-energy-cve-among-best-021220769.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/cenovus-energy-cve-among-best-021220769.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        },
+        {
+          "id": "68cdd846-a848-3047-b385-587d3ff006fd",
+          "content": {
+            "id": "68cdd846-a848-3047-b385-587d3ff006fd",
+            "contentType": "STORY",
+            "title": "Phillips 66 (PSX) \u2013 Among the Best Natural Gas and Oil Dividend Stocks to Invest in",
+            "description": "",
+            "summary": "Phillips 66 (NYSE:PSX) is included among the 15 Best Natural Gas and Oil Dividend Stock to Buy Now. Known for its high and consistent shareholder returns, Phillips 66 (NYSE:PSX) has increased its dividend at an 11.7% CAGR since 2013 through the end of 2024. The company remains committed to returning over 50% of its net [\u2026]",
+            "pubDate": "2025-09-24T02:10:05Z",
+            "displayTime": "2025-09-24T02:10:05Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": {
+              "originalUrl": "https://media.zenfs.com/en/insidermonkey.com/cc88fe4a0a16614c80d5e42ac175454e",
+              "originalWidth": 1280,
+              "originalHeight": 853,
+              "caption": "Dividend Paying Stocks With Consistency: What Sets Cisco Systems (CSCO) Apart",
+              "resolutions": [
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/C8vHk0sJM1cKY88_KYHBxg--~B/aD04NTM7dz0xMjgwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/insidermonkey.com/cc88fe4a0a16614c80d5e42ac175454e",
+                  "width": 1280,
+                  "height": 853,
+                  "tag": "original"
+                },
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/iPgO83GKA9sWZuGcFlgAuA--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/insidermonkey.com/cc88fe4a0a16614c80d5e42ac175454e",
+                  "width": 170,
+                  "height": 128,
+                  "tag": "170x128"
+                }
+              ]
+            },
+            "provider": {
+              "displayName": "Insider Monkey",
+              "url": "http://www.insidermonkey.com"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/phillips-66-psx-among-best-021005708.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/phillips-66-psx-among-best-021005708.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        },
+        {
+          "id": "c4f9da31-67bd-30ca-8395-9446b80652ce",
+          "content": {
+            "id": "c4f9da31-67bd-30ca-8395-9446b80652ce",
+            "contentType": "STORY",
+            "title": "Phillips 66 Expands Refining Capacity and Strengthens Dividend Outlook Following Q2 Beat",
+            "description": "",
+            "summary": "Phillips 66 (NYSE:PSX) is one of the 13 Best Fortune 500 Dividend Stocks to Invest In. Following solid second quarter results, the company acquires the remaining 50% interest in WRB Refining and announces $2 billion Notes offering. On July 25, 2025, Phillips 66 (NYSE:PSX) reported a strong Q2 2025, with Adjusted EPS of $2.38 and [\u2026]",
+            "pubDate": "2025-09-23T23:41:37Z",
+            "displayTime": "2025-09-23T23:41:37Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": {
+              "originalUrl": "https://media.zenfs.com/en/insidermonkey.com/3813a2a65d52e7994092aa394019fb80",
+              "originalWidth": 1456,
+              "originalHeight": 816,
+              "caption": "Phillips 66 Expands Refining Capacity and Strengthens Dividend Outlook Following Q2 Beat",
+              "resolutions": [
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/PE0dQaTXzgLLoGB7gDZKGg--~B/aD04MTY7dz0xNDU2O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/insidermonkey.com/3813a2a65d52e7994092aa394019fb80",
+                  "width": 1456,
+                  "height": 816,
+                  "tag": "original"
+                },
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/Dqaj_l9asA6VB1GWMXu44g--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/insidermonkey.com/3813a2a65d52e7994092aa394019fb80",
+                  "width": 170,
+                  "height": 128,
+                  "tag": "170x128"
+                }
+              ]
+            },
+            "provider": {
+              "displayName": "Insider Monkey",
+              "url": "http://www.insidermonkey.com"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/phillips-66-expands-refining-capacity-234137109.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/phillips-66-expands-refining-capacity-234137109.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        },
+        {
+          "id": "56da2ba5-94db-348b-b013-f086b6dc3835",
+          "content": {
+            "id": "56da2ba5-94db-348b-b013-f086b6dc3835",
+            "contentType": "STORY",
+            "title": "Strathcona 'Disappointed' with MEG's Rejection of Revised Offer",
+            "description": "",
+            "summary": "The MEG board 'has resorted to the same pattern of false and misleading claims,' Strathcona said.",
+            "pubDate": "2025-09-22T15:00:00Z",
+            "displayTime": "2025-09-22T15:00:00Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": null,
+            "provider": {
+              "displayName": "Rigzone.com",
+              "url": "https://www.rigzone.com"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/strathcona-disappointed-megs-rejection-revised-150000845.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/strathcona-disappointed-megs-rejection-revised-150000845.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        }
+      ]
+    },
+    "recommendations": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  },
+  "holders_data": {
+    "major_holders": {
+      "status": "error"
+    },
+    "institutional_holders": {
+      "status": "error"
+    }
+  },
+  "earnings_data": {
+    "earnings": {
+      "status": "error",
+      "message": "'NoneType' object has no attribute 'empty'"
+    },
+    "calendar": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  }
+}

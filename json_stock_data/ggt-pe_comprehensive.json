@@ -1,9 +1,18 @@
 {
   "ticker": "GGT-PE",
-  "timestamp": "2025-09-23T04:20:27.117565",
+  "timestamp": "2025-10-05T04:21:38.731812",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 1,
+    "data": [
+      {
+        "Close": 21.86750030517578,
+        "High": 21.86750030517578,
+        "Low": 21.86750030517578,
+        "Open": 21.86750030517578,
+        "Volume": 619
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -29,7 +38,8 @@
       "status": "no_data"
     },
     "recommendations": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   },
   "holders_data": {

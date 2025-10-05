@@ -1,9 +1,32 @@
 {
   "ticker": "FLYX-WT",
-  "timestamp": "2025-09-23T04:24:23.381959",
+  "timestamp": "2025-10-05T04:25:28.196952",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 3,
+    "data": [
+      {
+        "Close": 0.25999999046325684,
+        "High": 0.25999999046325684,
+        "Low": 0.25999999046325684,
+        "Open": 0.25999999046325684,
+        "Volume": 0
+      },
+      {
+        "Close": 0.2741999924182892,
+        "High": 0.2741999924182892,
+        "Low": 0.2741999924182892,
+        "Open": 0.2741999924182892,
+        "Volume": 561
+      },
+      {
+        "Close": 0.2741999924182892,
+        "High": 0.2741999924182892,
+        "Low": 0.25999999046325684,
+        "Open": 0.25999999046325684,
+        "Volume": 0
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -135,15 +158,16 @@
       ]
     },
     "recommendations": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   },
   "holders_data": {
     "major_holders": {
-      "status": "no_data"
+      "status": "error"
     },
     "institutional_holders": {
-      "status": "no_data"
+      "status": "error"
     }
   },
   "earnings_data": {

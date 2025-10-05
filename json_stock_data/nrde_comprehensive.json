@@ -1,9 +1,39 @@
 {
   "ticker": "NRDE",
-  "timestamp": "2025-09-23T04:13:29.071505",
+  "timestamp": "2025-10-05T04:14:37.623855",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 4,
+    "data": [
+      {
+        "Close GYRO": 10.0,
+        "High GYRO": 10.0,
+        "Low GYRO": 10.0,
+        "Open GYRO": 10.0,
+        "Volume GYRO": 605
+      },
+      {
+        "Close GYRO": 9.890000343322754,
+        "High GYRO": 9.890000343322754,
+        "Low GYRO": 9.890000343322754,
+        "Open GYRO": 9.890000343322754,
+        "Volume GYRO": 120
+      },
+      {
+        "Close GYRO": 10.270000457763672,
+        "High GYRO": 10.270000457763672,
+        "Low GYRO": 10.270000457763672,
+        "Open GYRO": 10.270000457763672,
+        "Volume GYRO": 504
+      },
+      {
+        "Close GYRO": 10.300000190734863,
+        "High GYRO": 10.300000190734863,
+        "Low GYRO": 10.210000038146973,
+        "Open GYRO": 10.210000038146973,
+        "Volume GYRO": 743
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -88,7 +118,8 @@
       ]
     },
     "recommendations": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   },
   "holders_data": {

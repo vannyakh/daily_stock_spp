@@ -1,40 +1,84 @@
 {
   "ticker": "XFLT-PA",
-  "timestamp": "2025-09-23T04:24:57.904794",
+  "timestamp": "2025-10-05T04:26:01.880684",
   "intraday_data": {
     "status": "success",
-    "rows": 2,
+    "rows": 4,
     "data": [
       {
-        "Close": 25.200000762939453,
-        "High": 25.200000762939453,
-        "Low": 25.200000762939453,
-        "Open": 25.200000762939453,
-        "Volume": 0
+        "Close GPMT-PA": 20.299999237060547,
+        "High GPMT-PA": 20.299999237060547,
+        "Low GPMT-PA": 20.299999237060547,
+        "Open GPMT-PA": 20.299999237060547,
+        "Volume GPMT-PA": 0
       },
       {
-        "Close": 25.194700241088867,
-        "High": 25.194700241088867,
-        "Low": 25.194700241088867,
-        "Open": 25.194700241088867,
-        "Volume": 288
+        "Close GPMT-PA": 20.32110023498535,
+        "High GPMT-PA": 20.32110023498535,
+        "Low GPMT-PA": 20.32110023498535,
+        "Open GPMT-PA": 20.32110023498535,
+        "Volume GPMT-PA": 350
+      },
+      {
+        "Close GPMT-PA": 20.31999969482422,
+        "High GPMT-PA": 20.31999969482422,
+        "Low GPMT-PA": 20.25,
+        "Open GPMT-PA": 20.31999969482422,
+        "Volume GPMT-PA": 1432
+      },
+      {
+        "Close GPMT-PA": 20.049999237060547,
+        "High GPMT-PA": 20.049999237060547,
+        "Low GPMT-PA": 20.049999237060547,
+        "Open GPMT-PA": 20.049999237060547,
+        "Volume GPMT-PA": 1189
       }
     ]
   },
   "stock_info": {
     "status": "error",
-    "message": "argument of type 'NoneType' is not iterable"
+    "message": "Too Many Requests. Rate limited. Try after a while."
   },
   "financials": {
     "income_statement": {
-      "status": "success",
-      "rows": 21,
-      "columns": [
-        "2024-09-30 00:00:00",
-        "2023-09-30 00:00:00",
-        "2022-09-30 00:00:00",
-        "2021-09-30 00:00:00"
-      ],
-      "data": [
-        {
-          
+      "status": "no_data"
+    },
+    "balance_sheet": {
+      "status": "no_data"
+    },
+    "cash_flow": {
+      "status": "no_data"
+    }
+  },
+  "options_data": {
+    "status": "error",
+    "error_message": "Too Many Requests. Rate limited. Try after a while."
+  },
+  "news_data": {
+    "news": {
+      "status": "no_data"
+    },
+    "recommendations": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  },
+  "holders_data": {
+    "major_holders": {
+      "status": "error"
+    },
+    "institutional_holders": {
+      "status": "error"
+    }
+  },
+  "earnings_data": {
+    "earnings": {
+      "status": "error",
+      "message": "'NoneType' object has no attribute 'empty'"
+    },
+    "calendar": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  }
+}

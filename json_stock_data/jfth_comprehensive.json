@@ -1,9 +1,74 @@
 {
   "ticker": "JFTH",
-  "timestamp": "2025-09-23T04:21:28.841935",
+  "timestamp": "2025-10-05T04:22:37.225435",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 9,
+    "data": [
+      {
+        "Close RDAR": 0.0006000000284984708,
+        "High RDAR": 0.0006000000284984708,
+        "Low RDAR": 0.0006000000284984708,
+        "Open RDAR": 0.0006000000284984708,
+        "Volume RDAR": 0
+      },
+      {
+        "Close RDAR": 0.0006000000284984708,
+        "High RDAR": 0.0006000000284984708,
+        "Low RDAR": 0.0006000000284984708,
+        "Open RDAR": 0.0006000000284984708,
+        "Volume RDAR": 500000
+      },
+      {
+        "Close RDAR": 0.0006000000284984708,
+        "High RDAR": 0.0006000000284984708,
+        "Low RDAR": 0.0006000000284984708,
+        "Open RDAR": 0.0006000000284984708,
+        "Volume RDAR": 1000000
+      },
+      {
+        "Close RDAR": 0.0006000000284984708,
+        "High RDAR": 0.0006000000284984708,
+        "Low RDAR": 0.0006000000284984708,
+        "Open RDAR": 0.0006000000284984708,
+        "Volume RDAR": 800000
+      },
+      {
+        "Close RDAR": 0.0006000000284984708,
+        "High RDAR": 0.0006000000284984708,
+        "Low RDAR": 0.0006000000284984708,
+        "Open RDAR": 0.0006000000284984708,
+        "Volume RDAR": 5000
+      },
+      {
+        "Close RDAR": 0.0006000000284984708,
+        "High RDAR": 0.0006000000284984708,
+        "Low RDAR": 0.0006000000284984708,
+        "Open RDAR": 0.0006000000284984708,
+        "Volume RDAR": 1000000
+      },
+      {
+        "Close RDAR": 0.0005000000237487257,
+        "High RDAR": 0.0005000000237487257,
+        "Low RDAR": 0.0005000000237487257,
+        "Open RDAR": 0.0005000000237487257,
+        "Volume RDAR": 1
+      },
+      {
+        "Close RDAR": 0.0006000000284984708,
+        "High RDAR": 0.0006000000284984708,
+        "Low RDAR": 0.0006000000284984708,
+        "Open RDAR": 0.0006000000284984708,
+        "Volume RDAR": 2600
+      },
+      {
+        "Close RDAR": 0.0006000000284984708,
+        "High RDAR": 0.0006000000284984708,
+        "Low RDAR": 0.0006000000284984708,
+        "Open RDAR": 0.0006000000284984708,
+        "Volume RDAR": 5140
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -11,13 +76,44 @@
   },
   "financials": {
     "income_statement": {
-      "status": "success",
-      "rows": 37,
-      "columns": [
-        "2024-03-31 00:00:00",
-        "2023-03-31 00:00:00",
-        "2022-03-31 00:00:00"
-      ],
-      "data": [
-        {
-          
+      "status": "no_data"
+    },
+    "balance_sheet": {
+      "status": "no_data"
+    },
+    "cash_flow": {
+      "status": "no_data"
+    }
+  },
+  "options_data": {
+    "status": "error",
+    "error_message": "Too Many Requests. Rate limited. Try after a while."
+  },
+  "news_data": {
+    "news": {
+      "status": "no_data"
+    },
+    "recommendations": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  },
+  "holders_data": {
+    "major_holders": {
+      "status": "error"
+    },
+    "institutional_holders": {
+      "status": "error"
+    }
+  },
+  "earnings_data": {
+    "earnings": {
+      "status": "error",
+      "message": "'NoneType' object has no attribute 'empty'"
+    },
+    "calendar": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  }
+}

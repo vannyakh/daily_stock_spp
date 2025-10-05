@@ -1,6 +1,6 @@
 {
   "ticker": "PCTTU",
-  "timestamp": "2025-09-23T04:23:51.915548",
+  "timestamp": "2025-10-05T04:24:57.019376",
   "intraday_data": {
     "status": "no_data",
     "message": "No intraday data available"
@@ -623,55 +623,16 @@
       ]
     },
     "recommendations": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   },
   "holders_data": {
     "major_holders": {
-      "status": "success",
-      "data": [
-        {
-          "Value": 0.0
-        },
-        {
-          "Value": 0.00155
-        },
-        {
-          "Value": 0.00155
-        },
-        {
-          "Value": 3.0
-        }
-      ]
+      "status": "error"
     },
     "institutional_holders": {
-      "status": "success",
-      "data": [
-        {
-          "Date Reported": "2025-06-30 00:00:00",
-          "Holder": "Abundance Wealth Counselors",
-          "pctHeld": 0.19860001,
-          "Shares": 10050,
-          "Value": 178889,
-          "pctChange": 0.0
-        },
-        {
-          "Date Reported": "2025-06-30 00:00:00",
-          "Holder": "UBS Group AG",
-          "pctHeld": 0.0317,
-          "Shares": 1605,
-          "Value": 28568,
-          "pctChange": -0.00059999997
-        },
-        {
-          "Date Reported": "2025-06-30 00:00:00",
-          "Holder": "Clear Street LLC",
-          "pctHeld": 0.0,
-          "Shares": 1,
-          "Value": 17,
-          "pctChange": 1.0
-        }
-      ]
+      "status": "error"
     }
   },
   "earnings_data": {
@@ -681,7 +642,7 @@
     },
     "calendar": {
       "status": "error",
-      "message": "'dict' object has no attribute 'empty'"
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   }
 }

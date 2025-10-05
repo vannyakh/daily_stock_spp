@@ -1,18 +1,9 @@
 {
   "ticker": "PBLA",
-  "timestamp": "2025-09-23T04:16:48.525794",
+  "timestamp": "2025-10-05T04:17:58.413408",
   "intraday_data": {
-    "status": "success",
-    "rows": 1,
-    "data": [
-      {
-        "Close": 0.05000000074505806,
-        "High": 0.05000000074505806,
-        "Low": 0.05000000074505806,
-        "Open": 0.05000000074505806,
-        "Volume": 0
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -35,7 +26,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

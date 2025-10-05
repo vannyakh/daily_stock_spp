@@ -1,25 +1,9 @@
 {
   "ticker": "CGAC",
-  "timestamp": "2025-09-23T04:21:31.960127",
+  "timestamp": "2025-10-05T04:22:41.961414",
   "intraday_data": {
-    "status": "success",
-    "rows": 2,
-    "data": [
-      {
-        "Close": 9.999999747378752e-05,
-        "High": 9.999999747378752e-05,
-        "Low": 9.999999747378752e-05,
-        "Open": 9.999999747378752e-05,
-        "Volume": 0
-      },
-      {
-        "Close": 9.999999747378752e-05,
-        "High": 9.999999747378752e-05,
-        "Low": 9.999999747378752e-05,
-        "Open": 9.999999747378752e-05,
-        "Volume": 1878500
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -45,16 +29,15 @@
       "status": "no_data"
     },
     "recommendations": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
+      "status": "no_data"
     }
   },
   "holders_data": {
     "major_holders": {
-      "status": "error"
+      "status": "no_data"
     },
     "institutional_holders": {
-      "status": "error"
+      "status": "no_data"
     }
   },
   "earnings_data": {

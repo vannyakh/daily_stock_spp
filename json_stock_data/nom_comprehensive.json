@@ -1,97 +1,54 @@
 {
   "ticker": "NOM",
-  "timestamp": "2025-09-23T04:12:59.000150",
+  "timestamp": "2025-10-05T04:14:09.149527",
   "intraday_data": {
-    "status": "success",
-    "rows": 10,
-    "data": [
-      {
-        "Close": 11.100000381469727,
-        "High": 11.100000381469727,
-        "Low": 11.100000381469727,
-        "Open": 11.100000381469727,
-        "Volume": 0
-      },
-      {
-        "Close": 11.010000228881836,
-        "High": 11.010000228881836,
-        "Low": 11.0,
-        "Open": 11.010000228881836,
-        "Volume": 1463
-      },
-      {
-        "Close": 10.944999694824219,
-        "High": 10.944999694824219,
-        "Low": 10.944999694824219,
-        "Open": 10.944999694824219,
-        "Volume": 400
-      },
-      {
-        "Close": 10.9399995803833,
-        "High": 10.9399995803833,
-        "Low": 10.9399995803833,
-        "Open": 10.9399995803833,
-        "Volume": 396
-      },
-      {
-        "Close": 10.974900245666504,
-        "High": 10.974900245666504,
-        "Low": 10.974900245666504,
-        "Open": 10.974900245666504,
-        "Volume": 337
-      },
-      {
-        "Close": 11.159899711608887,
-        "High": 11.15999984741211,
-        "Low": 11.140000343322754,
-        "Open": 11.140000343322754,
-        "Volume": 519
-      },
-      {
-        "Close": 11.079999923706055,
-        "High": 11.079999923706055,
-        "Low": 11.079999923706055,
-        "Open": 11.079999923706055,
-        "Volume": 780
-      },
-      {
-        "Close": 11.006699562072754,
-        "High": 11.006699562072754,
-        "Low": 11.006699562072754,
-        "Open": 11.006699562072754,
-        "Volume": 789
-      },
-      {
-        "Close": 11.140000343322754,
-        "High": 11.140000343322754,
-        "Low": 11.140000343322754,
-        "Open": 11.140000343322754,
-        "Volume": 470
-      },
-      {
-        "Close": 11.149999618530273,
-        "High": 11.149999618530273,
-        "Low": 11.149999618530273,
-        "Open": 11.149999618530273,
-        "Volume": 255
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
-    "message": "argument of type 'NoneType' is not iterable"
+    "message": "Too Many Requests. Rate limited. Try after a while."
   },
   "financials": {
     "income_statement": {
-      "status": "success",
-      "rows": 25,
-      "columns": [
-        "2025-05-31 00:00:00",
-        "2024-05-31 00:00:00",
-        "2023-05-31 00:00:00",
-        "2022-05-31 00:00:00",
-        "2021-05-31 00:00:00"
-      ],
-      "data": [
-        {
-          
+      "status": "no_data"
+    },
+    "balance_sheet": {
+      "status": "no_data"
+    },
+    "cash_flow": {
+      "status": "no_data"
+    }
+  },
+  "options_data": {
+    "status": "error",
+    "error_message": "Too Many Requests. Rate limited. Try after a while."
+  },
+  "news_data": {
+    "news": {
+      "status": "no_data"
+    },
+    "recommendations": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  },
+  "holders_data": {
+    "major_holders": {
+      "status": "error"
+    },
+    "institutional_holders": {
+      "status": "error"
+    }
+  },
+  "earnings_data": {
+    "earnings": {
+      "status": "error",
+      "message": "'NoneType' object has no attribute 'empty'"
+    },
+    "calendar": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  }
+}

@@ -1,13 +1,83 @@
 {
   "ticker": "GAINN",
-  "timestamp": "2025-09-23T04:26:57.877936",
+  "timestamp": "2025-10-05T04:27:56.850491",
   "intraday_data": {
     "status": "no_data",
     "message": "No intraday data available"
   },
   "stock_info": {
-    "status": "error",
-    "message": "Too Many Requests. Rate limited. Try after a while."
+    "status": "success",
+    "data": {
+      "maxAge": 86400,
+      "priceHint": 2,
+      "previousClose": 25.16,
+      "open": 25.35,
+      "dayLow": 25.16,
+      "dayHigh": 25.35,
+      "regularMarketPreviousClose": 25.16,
+      "regularMarketOpen": 25.35,
+      "regularMarketDayLow": 25.16,
+      "regularMarketDayHigh": 25.35,
+      "volume": 1441,
+      "regularMarketVolume": 1441,
+      "averageVolume": 5968,
+      "averageVolume10days": 2530,
+      "averageDailyVolume10Day": 2530,
+      "bid": 0.0,
+      "ask": 0.0,
+      "bidSize": 0,
+      "askSize": 0,
+      "fiftyTwoWeekLow": 24.25,
+      "fiftyTwoWeekHigh": 25.46,
+      "allTimeHigh": 26.56,
+      "allTimeLow": 22.208,
+      "fiftyDayAverage": 25.05468,
+      "twoHundredDayAverage": 24.88782,
+      "currency": "USD",
+      "tradeable": false,
+      "quoteType": "EQUITY",
+      "symbol": "GAINN",
+      "language": "en-US",
+      "region": "US",
+      "typeDisp": "Equity",
+      "quoteSourceName": "Delayed Quote",
+      "triggerable": true,
+      "customPriceAlertConfidence": "HIGH",
+      "marketState": "CLOSED",
+      "regularMarketTime": 1759521600,
+      "regularMarketChangePercent": 0.3175705,
+      "regularMarketPrice": 25.2399,
+      "shortName": "Gladstone Investment Corporatio",
+      "longName": "Gladstone Investment Corporation 5.00% Notes Due 2026",
+      "exchange": "NMS",
+      "messageBoardId": "finmb_21880789",
+      "exchangeTimezoneName": "America/New_York",
+      "exchangeTimezoneShortName": "EDT",
+      "gmtOffSetMilliseconds": -14400000,
+      "market": "us_market",
+      "esgPopulated": false,
+      "regularMarketChange": 0.07990074,
+      "regularMarketDayRange": "25.16 - 25.35",
+      "fullExchangeName": "NasdaqGS",
+      "averageDailyVolume3Month": 5968,
+      "fiftyTwoWeekLowChange": 0.9899006,
+      "fiftyTwoWeekLowChangePercent": 0.040820643,
+      "fiftyTwoWeekRange": "24.25 - 25.46",
+      "fiftyTwoWeekHighChange": -0.2200985,
+      "fiftyTwoWeekHighChangePercent": -0.008644874,
+      "fiftyTwoWeekChangePercent": 1.9386053,
+      "dividendDate": 1754006400,
+      "fiftyDayAverageChange": 0.18522072,
+      "fiftyDayAverageChangePercent": 0.0073926593,
+      "twoHundredDayAverageChange": 0.3520813,
+      "twoHundredDayAverageChangePercent": 0.014146731,
+      "sourceInterval": 15,
+      "exchangeDataDelayedBy": 0,
+      "ipoExpectedDate": "2021-03-04",
+      "cryptoTradeable": false,
+      "hasPrePostMarketData": true,
+      "firstTradeDateMilliseconds": 1614868200000
+    }
   },
   "financials": {
     "income_statement": {
@@ -21,12 +91,12 @@
     }
   },
   "options_data": {
-    "status": "error",
-    "error_message": "Too Many Requests. Rate limited. Try after a while."
+    "expirations": []
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",
