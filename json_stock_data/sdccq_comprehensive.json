@@ -1,23 +1,16 @@
 {
   "ticker": "SDCCQ",
-  "timestamp": "2025-10-05T04:18:50.127394",
+  "timestamp": "2025-10-09T04:19:58.705571",
   "intraday_data": {
     "status": "success",
-    "rows": 2,
+    "rows": 1,
     "data": [
       {
-        "Close": 9.999999747378752e-05,
-        "High": 9.999999747378752e-05,
-        "Low": 9.999999747378752e-05,
-        "Open": 9.999999747378752e-05,
-        "Volume": 0
-      },
-      {
-        "Close": 9.999999747378752e-05,
-        "High": 9.999999747378752e-05,
-        "Low": 9.999999747378752e-05,
-        "Open": 9.999999747378752e-05,
-        "Volume": 3000
+        "Close EBET": 0.0010000000474974513,
+        "High EBET": 0.0010000000474974513,
+        "Low EBET": 0.0010000000474974513,
+        "Open EBET": 0.0010000000474974513,
+        "Volume EBET": 0
       }
     ]
   },
@@ -27,13 +20,89 @@
   },
   "financials": {
     "income_statement": {
+      "status": "no_data"
+    },
+    "balance_sheet": {
+      "status": "no_data"
+    },
+    "cash_flow": {
+      "status": "no_data"
+    }
+  },
+  "options_data": {
+    "status": "error",
+    "error_message": "Too Many Requests. Rate limited. Try after a while."
+  },
+  "news_data": {
+    "news": {
       "status": "success",
-      "rows": 48,
-      "columns": [
-        "2022-12-31 00:00:00",
-        "2021-12-31 00:00:00",
-        "2020-12-31 00:00:00"
-      ],
+      "count": 1,
       "data": [
         {
-          
+          "id": "c3cf827d-e4ce-3a59-aeb1-efe9965ef810",
+          "content": {
+            "id": "c3cf827d-e4ce-3a59-aeb1-efe9965ef810",
+            "contentType": "STORY",
+            "title": "Direct-to-consumer IPOs go from boom to bust",
+            "description": "",
+            "summary": "Direct-to-consumer start-ups once looked poised to take America by storm. This new breed of retailer takes an everyday product, makes a nicer...",
+            "pubDate": "2025-08-13T15:24:13Z",
+            "displayTime": "2025-08-13T15:24:13Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": null,
+            "provider": {
+              "displayName": "Financial Times",
+              "url": "https://www.ft.com/"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/direct-consumer-ipos-boom-bust-152413203.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/direct-consumer-ipos-boom-bust-152413203.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": true,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        }
+      ]
+    },
+    "recommendations": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  },
+  "holders_data": {
+    "major_holders": {
+      "status": "error"
+    },
+    "institutional_holders": {
+      "status": "error"
+    }
+  },
+  "earnings_data": {
+    "earnings": {
+      "status": "error",
+      "message": "'NoneType' object has no attribute 'empty'"
+    },
+    "calendar": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  }
+}

@@ -1,648 +1,209 @@
 {
   "ticker": "CRGY",
-  "timestamp": "2025-10-05T03:59:20.793368",
+  "timestamp": "2025-10-09T04:00:20.276112",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 2,
+    "data": [
+      {
+        "Close SIM": 26.81999969482422,
+        "High SIM": 26.84000015258789,
+        "Low SIM": 26.81999969482422,
+        "Open SIM": 26.84000015258789,
+        "Volume SIM": 713
+      },
+      {
+        "Close SIM": 26.799999237060547,
+        "High SIM": 26.850000381469727,
+        "Low SIM": 26.799999237060547,
+        "Open SIM": 26.850000381469727,
+        "Volume SIM": 364
+      }
+    ]
   },
   "stock_info": {
-    "status": "error",
-    "message": "Too Many Requests. Rate limited. Try after a while."
+    "status": "success",
+    "data": {
+      "address1": "600 Travis Street",
+      "address2": "Suite 7200",
+      "city": "Houston",
+      "state": "TX",
+      "zip": "77002",
+      "country": "United States",
+      "phone": "713 337 4600",
+      "website": "https://crescentenergyco.com",
+      "industry": "Oil & Gas E&P",
+      "industryKey": "oil-gas-e-p",
+      "industryDisp": "Oil & Gas E&P",
+      "sector": "Energy",
+      "sectorKey": "energy",
+      "sectorDisp": "Energy",
+      "longBusinessSummary": "Crescent Energy Company, an energy company, engages in the exploration and production of crude oil, natural gas, and natural gas liquids in the United States. Its activities are focused in Texas and the Rocky Mountain region. The company was founded in 2011 and is headquartered in Houston, Texas.",
+      "fullTimeEmployees": 987,
+      "compensationAsOfEpochDate": 1735603200,
+      "maxAge": 86400,
+      "priceHint": 2,
+      "previousClose": 9.12,
+      "open": 9.18,
+      "dayLow": 8.97,
+      "dayHigh": 9.185,
+      "regularMarketPreviousClose": 9.12,
+      "regularMarketOpen": 9.18,
+      "regularMarketDayLow": 8.97,
+      "regularMarketDayHigh": 9.185,
+      "dividendRate": 0.48,
+      "dividendYield": 5.26,
+      "exDividendDate": 1755475200,
+      "payoutRatio": 2.2255,
+      "beta": 1.214,
+      "forwardPE": 5.0607734,
+      "volume": 2613895,
+      "regularMarketVolume": 2613895,
+      "averageVolume": 4471815,
+      "averageVolume10days": 4571250,
+      "averageDailyVolume10Day": 4571250,
+      "bid": 9.05,
+      "ask": 9.16,
+      "bidSize": 32,
+      "askSize": 46,
+      "marketCap": 2332274944,
+      "fiftyTwoWeekLow": 6.83,
+      "fiftyTwoWeekHigh": 16.94,
+      "allTimeHigh": 19.65,
+      "allTimeLow": 6.83,
+      "priceToSalesTrailing12Months": 0.67245114,
+      "fiftyDayAverage": 9.1282,
+      "twoHundredDayAverage": 10.57885,
+      "trailingAnnualDividendRate": 0.48,
+      "trailingAnnualDividendYield": 0.05263158,
+      "currency": "USD",
+      "tradeable": false,
+      "enterpriseValue": 5719931904,
+      "profitMargins": 0.00666,
+      "floatShares": 185599188,
+      "sharesOutstanding": 254615178,
+      "sharesShort": 19931412,
+      "sharesShortPriorMonth": 14426897,
+      "sharesShortPreviousMonthDate": 1755216000,
+      "dateShortInterest": 1757894400,
+      "sharesPercentSharesOut": 0.0783,
+      "heldPercentInsiders": 0.04251,
+      "heldPercentInstitutions": 0.95314,
+      "shortRatio": 3.62,
+      "shortPercentOfFloat": 0.099300005,
+      "impliedSharesOutstanding": 254615178,
+      "bookValue": 17.626,
+      "priceToBook": 0.5196868,
+      "lastFiscalYearEnd": 1735603200,
+      "nextFiscalYearEnd": 1767139200,
+      "mostRecentQuarter": 1751241600,
+      "earningsQuarterlyGrowth": 3.081,
+      "netIncomeToCommon": 23090000,
+      "trailingEps": -0.34,
+      "forwardEps": 1.81,
+      "enterpriseToRevenue": 1.649,
+      "enterpriseToEbitda": 3.359,
+      "52WeekChange": -0.3065859,
+      "SandP52WeekChange": 0.16845357,
+      "lastDividendValue": 0.12,
+      "lastDividendDate": 1755475200,
+      "quoteType": "EQUITY",
+      "currentPrice": 9.16,
+      "targetHighPrice": 19.0,
+      "targetLowPrice": 10.0,
+      "targetMeanPrice": 15.0,
+      "targetMedianPrice": 15.0,
+      "recommendationMean": 1.27273,
+      "recommendationKey": "strong_buy",
+      "numberOfAnalystOpinions": 9,
+      "totalCash": 3054000,
+      "totalCashPerShare": 0.012,
+      "ebitda": 1703021952,
+      "totalDebt": 3379760896,
+      "quickRatio": 0.704,
+      "currentRatio": 0.885,
+      "totalRevenue": 3468318976,
+      "debtToEquity": 75.127,
+      "revenuePerShare": 18.222,
+      "returnOnAssets": 0.02543,
+      "returnOnEquity": -0.00176,
+      "grossProfits": 1994529024,
+      "freeCashflow": -676824128,
+      "operatingCashflow": 1588470016,
+      "earningsGrowth": 0.8,
+      "revenueGrowth": 0.375,
+      "grossMargins": 0.57507,
+      "ebitdaMargins": 0.49102002,
+      "operatingMargins": 0.30967,
+      "financialCurrency": "USD",
+      "symbol": "CRGY",
+      "language": "en-US",
+      "region": "US",
+      "typeDisp": "Equity",
+      "quoteSourceName": "Delayed Quote",
+      "triggerable": true,
+      "customPriceAlertConfidence": "HIGH",
+      "marketState": "PREPRE",
+      "postMarketTime": 1759967952,
+      "regularMarketTime": 1759953602,
+      "exchange": "NYQ",
+      "messageBoardId": "finmb_564714137",
+      "exchangeTimezoneName": "America/New_York",
+      "exchangeTimezoneShortName": "EDT",
+      "gmtOffSetMilliseconds": -14400000,
+      "market": "us_market",
+      "esgPopulated": false,
+      "regularMarketChangePercent": 0.438596,
+      "regularMarketPrice": 9.16,
+      "regularMarketChange": 0.04,
+      "regularMarketDayRange": "8.97 - 9.185",
+      "fullExchangeName": "NYSE",
+      "averageDailyVolume3Month": 4471815,
+      "fiftyTwoWeekLowChange": 2.33,
+      "fiftyTwoWeekLowChangePercent": 0.341142,
+      "fiftyTwoWeekRange": "6.83 - 16.94",
+      "fiftyTwoWeekHighChange": -7.7800007,
+      "fiftyTwoWeekHighChangePercent": -0.45926803,
+      "fiftyTwoWeekChangePercent": -30.65859,
+      "dividendDate": 1756771200,
+      "earningsTimestamp": 1762200000,
+      "earningsTimestampStart": 1762200000,
+      "earningsTimestampEnd": 1762200000,
+      "earningsCallTimestampStart": 1762272000,
+      "earningsCallTimestampEnd": 1762272000,
+      "hasPrePostMarketData": true,
+      "firstTradeDateMilliseconds": 1638973800000,
+      "postMarketChangePercent": 0.43668082,
+      "postMarketPrice": 9.2,
+      "postMarketChange": 0.03999996,
+      "isEarningsDateEstimate": false,
+      "epsTrailingTwelveMonths": -0.34,
+      "epsForward": 1.81,
+      "epsCurrentYear": 1.73605,
+      "priceEpsCurrentYear": 5.2763457,
+      "fiftyDayAverageChange": 0.03180027,
+      "fiftyDayAverageChangePercent": 0.0034837397,
+      "twoHundredDayAverageChange": -1.41885,
+      "twoHundredDayAverageChangePercent": -0.13412139,
+      "sourceInterval": 15,
+      "exchangeDataDelayedBy": 0,
+      "averageAnalystRating": "1.3 - Strong Buy",
+      "cryptoTradeable": false,
+      "longName": "Crescent Energy Company",
+      "shortName": "Crescent Energy Company"
+    }
   },
   "financials": {
     "income_statement": {
-      "status": "no_data"
-    },
-    "balance_sheet": {
-      "status": "no_data"
-    },
-    "cash_flow": {
-      "status": "no_data"
-    }
-  },
-  "options_data": {
-    "status": "error",
-    "error_message": "Too Many Requests. Rate limited. Try after a while."
-  },
-  "news_data": {
-    "news": {
       "status": "success",
-      "count": 10,
+      "rows": 56,
+      "columns": [
+        "2024-12-31 00:00:00",
+        "2023-12-31 00:00:00",
+        "2022-12-31 00:00:00",
+        "2021-12-31 00:00:00",
+        "2020-12-31 00:00:00"
+      ],
       "data": [
         {
-          "id": "00574bd3-460f-3b6c-89df-bd58812b1486",
-          "content": {
-            "id": "00574bd3-460f-3b6c-89df-bd58812b1486",
-            "contentType": "STORY",
-            "title": "Crescent Energy (CRGY) Soars 16.17% as Oil Prices Climb on Russia-Ukraine Spat",
-            "description": "",
-            "summary": "We recently published 10 Big Names With Explosive Gains That Investors Can\u2019t Ignore. Crescent Energy Company (NYSE:CRGY) is one of the companies that soared by double- and triple-digits last week. Crescent Energy grew its share prices by 16.17 percent week-on-week as investors poured funds into oil and gas companies amid growing tensions between Russia and [\u2026]",
-            "pubDate": "2025-09-29T23:03:56Z",
-            "displayTime": "2025-09-29T23:03:56Z",
-            "isHosted": true,
-            "bypassModal": false,
-            "previewUrl": null,
-            "thumbnail": null,
-            "provider": {
-              "displayName": "Insider Monkey",
-              "url": "http://www.insidermonkey.com"
-            },
-            "canonicalUrl": {
-              "url": "https://finance.yahoo.com/news/crescent-energy-crgy-soars-16-230356763.html",
-              "site": "finance",
-              "region": "US",
-              "lang": "en-US"
-            },
-            "clickThroughUrl": {
-              "url": "https://finance.yahoo.com/news/crescent-energy-crgy-soars-16-230356763.html",
-              "site": "finance",
-              "region": "US",
-              "lang": "en-US"
-            },
-            "metadata": {
-              "editorsPick": false
-            },
-            "finance": {
-              "premiumFinance": {
-                "isPremiumNews": false,
-                "isPremiumFreeNews": false
-              }
-            },
-            "storyline": null
-          }
-        },
-        {
-          "id": "1542d4b8-1471-39ca-9cfd-78b3067ec86b",
-          "content": {
-            "id": "1542d4b8-1471-39ca-9cfd-78b3067ec86b",
-            "contentType": "STORY",
-            "title": "Crescent Energy (CRGY) Stock Drops Despite Market Gains: Important Facts to Note",
-            "description": "",
-            "summary": "Crescent Energy (CRGY) reached $9.06 at the closing of the latest trading day, reflecting a -7.27% change compared to its last close.",
-            "pubDate": "2025-09-29T22:15:02Z",
-            "displayTime": "2025-09-29T22:15:02Z",
-            "isHosted": true,
-            "bypassModal": false,
-            "previewUrl": null,
-            "thumbnail": {
-              "originalUrl": "https://media.zenfs.com/en/zacks.com/48ad4265c55e3ba7a1fb9148d6e717d9",
-              "originalWidth": 900,
-              "originalHeight": 601,
-              "caption": "",
-              "resolutions": [
-                {
-                  "url": "https://s.yimg.com/uu/api/res/1.2/QOfludHza1dTKV8R6Coeiw--~B/aD02MDE7dz05MDA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/zacks.com/48ad4265c55e3ba7a1fb9148d6e717d9",
-                  "width": 900,
-                  "height": 601,
-                  "tag": "original"
-                },
-                {
-                  "url": "https://s.yimg.com/uu/api/res/1.2/thZ5nAsZ4WtcmUWXhIUjkg--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/zacks.com/48ad4265c55e3ba7a1fb9148d6e717d9",
-                  "width": 170,
-                  "height": 128,
-                  "tag": "170x128"
-                }
-              ]
-            },
-            "provider": {
-              "displayName": "Zacks",
-              "url": "http://www.zacks.com/"
-            },
-            "canonicalUrl": {
-              "url": "https://finance.yahoo.com/news/crescent-energy-crgy-stock-drops-221502695.html",
-              "site": "finance",
-              "region": "US",
-              "lang": "en-US"
-            },
-            "clickThroughUrl": {
-              "url": "https://finance.yahoo.com/news/crescent-energy-crgy-stock-drops-221502695.html",
-              "site": "finance",
-              "region": "US",
-              "lang": "en-US"
-            },
-            "metadata": {
-              "editorsPick": false
-            },
-            "finance": {
-              "premiumFinance": {
-                "isPremiumNews": false,
-                "isPremiumFreeNews": false
-              }
-            },
-            "storyline": null
-          }
-        },
-        {
-          "id": "0d586612-8597-358e-9d31-d543f6048040",
-          "content": {
-            "id": "0d586612-8597-358e-9d31-d543f6048040",
-            "contentType": "STORY",
-            "title": "Crescent Energy (CRGY) Rises Higher Than Market: Key Facts",
-            "description": "",
-            "summary": "Crescent Energy (CRGY) closed at $8.5 in the latest trading session, marking a +1.07% move from the prior day.",
-            "pubDate": "2025-09-22T22:15:04Z",
-            "displayTime": "2025-09-22T22:15:04Z",
-            "isHosted": true,
-            "bypassModal": false,
-            "previewUrl": null,
-            "thumbnail": {
-              "originalUrl": "https://media.zenfs.com/en/zacks.com/3496571a811465d910e99bd171c71a94",
-              "originalWidth": 900,
-              "originalHeight": 588,
-              "caption": "",
-              "resolutions": [
-                {
-                  "url": "https://s.yimg.com/uu/api/res/1.2/6Ex_CnpNXcMseRWMhPXBow--~B/aD01ODg7dz05MDA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/zacks.com/3496571a811465d910e99bd171c71a94",
-                  "width": 900,
-                  "height": 588,
-                  "tag": "original"
-                },
-                {
-                  "url": "https://s.yimg.com/uu/api/res/1.2/0HVE0W8096B50ypvoxtgig--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/zacks.com/3496571a811465d910e99bd171c71a94",
-                  "width": 170,
-                  "height": 128,
-                  "tag": "170x128"
-                }
-              ]
-            },
-            "provider": {
-              "displayName": "Zacks",
-              "url": "http://www.zacks.com/"
-            },
-            "canonicalUrl": {
-              "url": "https://finance.yahoo.com/news/crescent-energy-crgy-rises-higher-221504752.html",
-              "site": "finance",
-              "region": "US",
-              "lang": "en-US"
-            },
-            "clickThroughUrl": {
-              "url": "https://finance.yahoo.com/news/crescent-energy-crgy-rises-higher-221504752.html",
-              "site": "finance",
-              "region": "US",
-              "lang": "en-US"
-            },
-            "metadata": {
-              "editorsPick": false
-            },
-            "finance": {
-              "premiumFinance": {
-                "isPremiumNews": false,
-                "isPremiumFreeNews": false
-              }
-            },
-            "storyline": null
-          }
-        },
-        {
-          "id": "36bf33e0-498c-3119-907b-84f53c7b0c12",
-          "content": {
-            "id": "36bf33e0-498c-3119-907b-84f53c7b0c12",
-            "contentType": "STORY",
-            "title": "Alyeska Boosts Crescent Energy Company (CRGY) Stake to 0.62% Following Vital Energy Deal",
-            "description": "",
-            "summary": "Crescent Energy Company (NYSE:CRGY) is among the best stocks with the highest upside potential. During the first quarter, Alyeska Investment Group L.P. lifted its stake in Crescent Energy Company (NYSE:CRGY) by 452.3%. With the purchase of 1,298,155 shares, the firm owns 0.62% of the company, translating to an investment worth $17,817,000. The debt-free acquisition of [\u2026]",
-            "pubDate": "2025-09-16T13:53:39Z",
-            "displayTime": "2025-09-16T13:53:39Z",
-            "isHosted": true,
-            "bypassModal": false,
-            "previewUrl": null,
-            "thumbnail": {
-              "originalUrl": "https://media.zenfs.com/en/insidermonkey.com/ed2cbc18f7ee1cffb2187d2e45782718",
-              "originalWidth": 1456,
-              "originalHeight": 816,
-              "caption": "Sable Offshore (SOC) Climbs 41% W/W on Looming Las Flores Restart",
-              "resolutions": [
-                {
-                  "url": "https://s.yimg.com/uu/api/res/1.2/AK5uaKqRub2bhPfL10RMVg--~B/aD04MTY7dz0xNDU2O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/insidermonkey.com/ed2cbc18f7ee1cffb2187d2e45782718",
-                  "width": 1456,
-                  "height": 816,
-                  "tag": "original"
-                },
-                {
-                  "url": "https://s.yimg.com/uu/api/res/1.2/Cra5hVk5Yqy943Hac0jMgw--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/insidermonkey.com/ed2cbc18f7ee1cffb2187d2e45782718",
-                  "width": 170,
-                  "height": 128,
-                  "tag": "170x128"
-                }
-              ]
-            },
-            "provider": {
-              "displayName": "Insider Monkey",
-              "url": "http://www.insidermonkey.com"
-            },
-            "canonicalUrl": {
-              "url": "https://finance.yahoo.com/news/alyeska-boosts-crescent-energy-company-135339729.html",
-              "site": "finance",
-              "region": "US",
-              "lang": "en-US"
-            },
-            "clickThroughUrl": {
-              "url": "https://finance.yahoo.com/news/alyeska-boosts-crescent-energy-company-135339729.html",
-              "site": "finance",
-              "region": "US",
-              "lang": "en-US"
-            },
-            "metadata": {
-              "editorsPick": false
-            },
-            "finance": {
-              "premiumFinance": {
-                "isPremiumNews": false,
-                "isPremiumFreeNews": false
-              }
-            },
-            "storyline": null
-          }
-        },
-        {
-          "id": "23eada2e-64f4-3a06-92d7-3a57606b2de9",
-          "content": {
-            "id": "23eada2e-64f4-3a06-92d7-3a57606b2de9",
-            "contentType": "STORY",
-            "title": "Crescent Energy (CRGY) Stock Dips While Market Gains: Key Facts",
-            "description": "",
-            "summary": "Crescent Energy (CRGY) closed the most recent trading day at $8.42, moving 2.88% from the previous trading session.",
-            "pubDate": "2025-09-15T22:15:03Z",
-            "displayTime": "2025-09-15T22:15:03Z",
-            "isHosted": true,
-            "bypassModal": false,
-            "previewUrl": null,
-            "thumbnail": {
-              "originalUrl": "https://media.zenfs.com/en/zacks.com/e8e4b0344809eaac6d73c9fd25fd180a",
-              "originalWidth": 900,
-              "originalHeight": 600,
-              "caption": "",
-              "resolutions": [
-                {
-                  "url": "https://s.yimg.com/uu/api/res/1.2/7h8ntzJXcDOdVmDKQ08gRg--~B/aD02MDA7dz05MDA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/zacks.com/e8e4b0344809eaac6d73c9fd25fd180a",
-                  "width": 900,
-                  "height": 600,
-                  "tag": "original"
-                },
-                {
-                  "url": "https://s.yimg.com/uu/api/res/1.2/HPPe9cVpY.5CDqgVwfXxLg--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/zacks.com/e8e4b0344809eaac6d73c9fd25fd180a",
-                  "width": 170,
-                  "height": 128,
-                  "tag": "170x128"
-                }
-              ]
-            },
-            "provider": {
-              "displayName": "Zacks",
-              "url": "http://www.zacks.com/"
-            },
-            "canonicalUrl": {
-              "url": "https://finance.yahoo.com/news/crescent-energy-crgy-stock-dips-221503219.html",
-              "site": "finance",
-              "region": "US",
-              "lang": "en-US"
-            },
-            "clickThroughUrl": {
-              "url": "https://finance.yahoo.com/news/crescent-energy-crgy-stock-dips-221503219.html",
-              "site": "finance",
-              "region": "US",
-              "lang": "en-US"
-            },
-            "metadata": {
-              "editorsPick": false
-            },
-            "finance": {
-              "premiumFinance": {
-                "isPremiumNews": false,
-                "isPremiumFreeNews": false
-              }
-            },
-            "storyline": null
-          }
-        },
-        {
-          "id": "dd19a04d-c4a2-31ba-8ca6-8429d99e7277",
-          "content": {
-            "id": "dd19a04d-c4a2-31ba-8ca6-8429d99e7277",
-            "contentType": "STORY",
-            "title": "Crescent Energy (CRGY) Soars 5.8%: Is Further Upside Left in the Stock?",
-            "description": "",
-            "summary": "Crescent Energy (CRGY) was a big mover last session on higher-than-average trading volume. The latest trend in earnings estimate revisions might not help the stock continue moving higher in the near term.",
-            "pubDate": "2025-09-11T16:38:00Z",
-            "displayTime": "2025-09-11T16:38:00Z",
-            "isHosted": true,
-            "bypassModal": false,
-            "previewUrl": null,
-            "thumbnail": {
-              "originalUrl": "https://media.zenfs.com/en/zacks.com/a574f7bb4b2cf2e2f35ed4d825f9cb01",
-              "originalWidth": 900,
-              "originalHeight": 900,
-              "caption": "",
-              "resolutions": [
-                {
-                  "url": "https://s.yimg.com/uu/api/res/1.2/29Q9Ar5y6NvA7_.y8Y_lgA--~B/aD05MDA7dz05MDA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/zacks.com/a574f7bb4b2cf2e2f35ed4d825f9cb01",
-                  "width": 900,
-                  "height": 900,
-                  "tag": "original"
-                },
-                {
-                  "url": "https://s.yimg.com/uu/api/res/1.2/NdhW6GHNuM7dBBnyIloh8A--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/zacks.com/a574f7bb4b2cf2e2f35ed4d825f9cb01",
-                  "width": 170,
-                  "height": 128,
-                  "tag": "170x128"
-                }
-              ]
-            },
-            "provider": {
-              "displayName": "Zacks",
-              "url": "http://www.zacks.com/"
-            },
-            "canonicalUrl": {
-              "url": "https://finance.yahoo.com/news/crescent-energy-crgy-soars-5-163800616.html",
-              "site": "finance",
-              "region": "US",
-              "lang": "en-US"
-            },
-            "clickThroughUrl": {
-              "url": "https://finance.yahoo.com/news/crescent-energy-crgy-soars-5-163800616.html",
-              "site": "finance",
-              "region": "US",
-              "lang": "en-US"
-            },
-            "metadata": {
-              "editorsPick": false
-            },
-            "finance": {
-              "premiumFinance": {
-                "isPremiumNews": false,
-                "isPremiumFreeNews": false
-              }
-            },
-            "storyline": null
-          }
-        },
-        {
-          "id": "4ab315ef-3ad8-3443-9838-e4f62505de65",
-          "content": {
-            "id": "4ab315ef-3ad8-3443-9838-e4f62505de65",
-            "contentType": "STORY",
-            "title": "Crescent Energy (CRGY): Valuation in Focus After EPS Outlook Slashed Despite Rising Revenue",
-            "description": "",
-            "summary": "If you\u2019re holding Crescent Energy (CRGY) or keeping it on your watchlist, the recent headlines may have you doing a double-take. The company is slated to report a sharp drop in earnings per share for the coming quarter, even though forecasts point to higher revenue. That combination has investors reassessing the outlook, especially since analyst earnings estimates have been trimmed considerably over the last month. That uncertainty is reflected in the share price. While the broader market has...",
-            "pubDate": "2025-09-11T12:02:12Z",
-            "displayTime": "2025-09-11T12:02:12Z",
-            "isHosted": true,
-            "bypassModal": false,
-            "previewUrl": null,
-            "thumbnail": {
-              "originalUrl": "https://media.zenfs.com/en/simply_wall_st__316/fef15a04bcb8e7f05d317d73670619f7",
-              "originalWidth": 1194,
-              "originalHeight": 432,
-              "caption": "",
-              "resolutions": [
-                {
-                  "url": "https://s.yimg.com/uu/api/res/1.2/zbingGm8u8WvxKzb7gFJEQ--~B/aD00MzI7dz0xMTk0O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/simply_wall_st__316/fef15a04bcb8e7f05d317d73670619f7",
-                  "width": 1194,
-                  "height": 432,
-                  "tag": "original"
-                },
-                {
-                  "url": "https://s.yimg.com/uu/api/res/1.2/0TmvAbrR8UwmJ968fBRtIA--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/simply_wall_st__316/fef15a04bcb8e7f05d317d73670619f7",
-                  "width": 170,
-                  "height": 128,
-                  "tag": "170x128"
-                }
-              ]
-            },
-            "provider": {
-              "displayName": "Simply Wall St.",
-              "url": "https://simplywall.st/"
-            },
-            "canonicalUrl": {
-              "url": "https://finance.yahoo.com/news/crescent-energy-crgy-valuation-focus-120212595.html",
-              "site": "finance",
-              "region": "US",
-              "lang": "en-US"
-            },
-            "clickThroughUrl": {
-              "url": "https://finance.yahoo.com/news/crescent-energy-crgy-valuation-focus-120212595.html",
-              "site": "finance",
-              "region": "US",
-              "lang": "en-US"
-            },
-            "metadata": {
-              "editorsPick": false
-            },
-            "finance": {
-              "premiumFinance": {
-                "isPremiumNews": false,
-                "isPremiumFreeNews": false
-              }
-            },
-            "storyline": null
-          }
-        },
-        {
-          "id": "929e2cc9-cf07-3988-8b4f-a3c8db061f1e",
-          "content": {
-            "id": "929e2cc9-cf07-3988-8b4f-a3c8db061f1e",
-            "contentType": "STORY",
-            "title": "Crescent Energy vs. SM Energy: Who's Leading the Shale Race Now?",
-            "description": "",
-            "summary": "SM offers stronger valuation and better ROE than CRGY, while CRGY beats SM in one-year price performance, despite shale sector headwinds.",
-            "pubDate": "2025-08-29T15:10:00Z",
-            "displayTime": "2025-08-29T15:10:00Z",
-            "isHosted": true,
-            "bypassModal": false,
-            "previewUrl": null,
-            "thumbnail": {
-              "originalUrl": "https://media.zenfs.com/en/zacks.com/86253de8f096ae92a86e04a12318b1cc",
-              "originalWidth": 620,
-              "originalHeight": 411,
-              "caption": "",
-              "resolutions": [
-                {
-                  "url": "https://s.yimg.com/uu/api/res/1.2/4uh.1QTs8n8J.xHykyRF3A--~B/aD00MTE7dz02MjA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/zacks.com/86253de8f096ae92a86e04a12318b1cc",
-                  "width": 620,
-                  "height": 411,
-                  "tag": "original"
-                },
-                {
-                  "url": "https://s.yimg.com/uu/api/res/1.2/rarQpmW8xfcCw0IkXAmvdA--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/zacks.com/86253de8f096ae92a86e04a12318b1cc",
-                  "width": 170,
-                  "height": 128,
-                  "tag": "170x128"
-                }
-              ]
-            },
-            "provider": {
-              "displayName": "Zacks",
-              "url": "http://www.zacks.com/"
-            },
-            "canonicalUrl": {
-              "url": "https://finance.yahoo.com/news/crescent-energy-vs-sm-energy-151000055.html",
-              "site": "finance",
-              "region": "US",
-              "lang": "en-US"
-            },
-            "clickThroughUrl": {
-              "url": "https://finance.yahoo.com/news/crescent-energy-vs-sm-energy-151000055.html",
-              "site": "finance",
-              "region": "US",
-              "lang": "en-US"
-            },
-            "metadata": {
-              "editorsPick": false
-            },
-            "finance": {
-              "premiumFinance": {
-                "isPremiumNews": false,
-                "isPremiumFreeNews": false
-              }
-            },
-            "storyline": null
-          }
-        },
-        {
-          "id": "868afb5f-4cb5-3ba1-8809-884faf61091b",
-          "content": {
-            "id": "868afb5f-4cb5-3ba1-8809-884faf61091b",
-            "contentType": "STORY",
-            "title": "Will Crescent Energy Gain if the Federal Reserve Cuts Rate Next Month?",
-            "description": "",
-            "summary": "Crescent Energy may benefit from a Fed rate cut, but falling oil prices and global tensions could temper gains.",
-            "pubDate": "2025-08-29T15:10:00Z",
-            "displayTime": "2025-08-29T15:10:00Z",
-            "isHosted": true,
-            "bypassModal": false,
-            "previewUrl": null,
-            "thumbnail": {
-              "originalUrl": "https://media.zenfs.com/en/zacks.com/aadb32ca2bcac09294d4644e0717de7e",
-              "originalWidth": 900,
-              "originalHeight": 600,
-              "caption": "",
-              "resolutions": [
-                {
-                  "url": "https://s.yimg.com/uu/api/res/1.2/S4b9kkz9elvlLf1il8WuAw--~B/aD02MDA7dz05MDA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/zacks.com/aadb32ca2bcac09294d4644e0717de7e",
-                  "width": 900,
-                  "height": 600,
-                  "tag": "original"
-                },
-                {
-                  "url": "https://s.yimg.com/uu/api/res/1.2/beaIydWeFw4qLAkGLZImjg--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/zacks.com/aadb32ca2bcac09294d4644e0717de7e",
-                  "width": 170,
-                  "height": 128,
-                  "tag": "170x128"
-                }
-              ]
-            },
-            "provider": {
-              "displayName": "Zacks",
-              "url": "http://www.zacks.com/"
-            },
-            "canonicalUrl": {
-              "url": "https://finance.yahoo.com/news/crescent-energy-gain-federal-cuts-151000041.html",
-              "site": "finance",
-              "region": "US",
-              "lang": "en-US"
-            },
-            "clickThroughUrl": {
-              "url": "https://finance.yahoo.com/news/crescent-energy-gain-federal-cuts-151000041.html",
-              "site": "finance",
-              "region": "US",
-              "lang": "en-US"
-            },
-            "metadata": {
-              "editorsPick": false
-            },
-            "finance": {
-              "premiumFinance": {
-                "isPremiumNews": false,
-                "isPremiumFreeNews": false
-              }
-            },
-            "storyline": null
-          }
-        },
-        {
-          "id": "e78ed4cd-cff4-3c00-b73b-9ad736717295",
-          "content": {
-            "id": "e78ed4cd-cff4-3c00-b73b-9ad736717295",
-            "contentType": "STORY",
-            "title": "Marvell downgraded, Dollar Tree upgraded: Wall Street's top analyst calls",
-            "description": "",
-            "summary": "Marvell downgraded, Dollar Tree upgraded: Wall Street's top analyst calls",
-            "pubDate": "2025-08-29T13:38:54Z",
-            "displayTime": "2025-08-29T13:38:54Z",
-            "isHosted": true,
-            "bypassModal": false,
-            "previewUrl": null,
-            "thumbnail": {
-              "originalUrl": "https://media.zenfs.com/en/the_fly_169/5039a5ccc6ec98e1b92bc672330bfcec",
-              "originalWidth": 1200,
-              "originalHeight": 628,
-              "caption": "",
-              "resolutions": [
-                {
-                  "url": "https://s.yimg.com/uu/api/res/1.2/zUit8GQVW5kcaTZHEPMI9Q--~B/aD02Mjg7dz0xMjAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/the_fly_169/5039a5ccc6ec98e1b92bc672330bfcec",
-                  "width": 1200,
-                  "height": 628,
-                  "tag": "original"
-                },
-                {
-                  "url": "https://s.yimg.com/uu/api/res/1.2/gS79B8voAjWV.54rV5PgVg--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/the_fly_169/5039a5ccc6ec98e1b92bc672330bfcec",
-                  "width": 170,
-                  "height": 128,
-                  "tag": "170x128"
-                }
-              ]
-            },
-            "provider": {
-              "displayName": "The Fly",
-              "url": "https://thefly.com/"
-            },
-            "canonicalUrl": {
-              "url": "https://finance.yahoo.com/news/marvell-downgraded-dollar-tree-upgraded-133854416.html",
-              "site": "finance",
-              "region": "US",
-              "lang": "en-US"
-            },
-            "clickThroughUrl": {
-              "url": "https://finance.yahoo.com/news/marvell-downgraded-dollar-tree-upgraded-133854416.html",
-              "site": "finance",
-              "region": "US",
-              "lang": "en-US"
-            },
-            "metadata": {
-              "editorsPick": false
-            },
-            "finance": {
-              "premiumFinance": {
-                "isPremiumNews": false,
-                "isPremiumFreeNews": false
-              }
-            },
-            "storyline": null
-          }
-        }
-      ]
-    },
-    "recommendations": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
-    }
-  },
-  "holders_data": {
-    "major_holders": {
-      "status": "error"
-    },
-    "institutional_holders": {
-      "status": "error"
-    }
-  },
-  "earnings_data": {
-    "earnings": {
-      "status": "error",
-      "message": "'NoneType' object has no attribute 'empty'"
-    },
-    "calendar": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
-    }
-  }
-}
+          

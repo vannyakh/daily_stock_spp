@@ -1,9 +1,25 @@
 {
   "ticker": "ZNOGW",
-  "timestamp": "2025-10-05T04:24:45.138548",
+  "timestamp": "2025-10-09T04:25:55.278833",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 2,
+    "data": [
+      {
+        "Close CSDX": 0.3499999940395355,
+        "High CSDX": 0.3499999940395355,
+        "Low CSDX": 0.3499999940395355,
+        "Open CSDX": 0.3499999940395355,
+        "Volume CSDX": 0
+      },
+      {
+        "Close CSDX": 0.3499999940395355,
+        "High CSDX": 0.3499999940395355,
+        "Low CSDX": 0.3499999940395355,
+        "Open CSDX": 0.3499999940395355,
+        "Volume CSDX": 855
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -26,7 +42,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

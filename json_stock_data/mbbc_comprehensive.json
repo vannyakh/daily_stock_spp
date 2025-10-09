@@ -1,23 +1,72 @@
 {
   "ticker": "MBBC",
-  "timestamp": "2025-10-05T04:13:50.543300",
+  "timestamp": "2025-10-09T04:14:56.782699",
   "intraday_data": {
     "status": "success",
-    "rows": 2,
+    "rows": 9,
     "data": [
       {
         "Close": 10.5,
         "High": 10.5,
-        "Low": 10.499899864196777,
-        "Open": 10.499899864196777,
+        "Low": 10.5,
+        "Open": 10.5,
         "Volume": 0
       },
       {
+        "Close": 10.399999618530273,
+        "High": 10.399999618530273,
+        "Low": 10.399999618530273,
+        "Open": 10.399999618530273,
+        "Volume": 772
+      },
+      {
+        "Close": 10.432700157165527,
+        "High": 10.432700157165527,
+        "Low": 10.432700157165527,
+        "Open": 10.432700157165527,
+        "Volume": 348
+      },
+      {
+        "Close": 10.449999809265137,
+        "High": 10.449999809265137,
+        "Low": 10.449999809265137,
+        "Open": 10.449999809265137,
+        "Volume": 202
+      },
+      {
+        "Close": 10.449999809265137,
+        "High": 10.449999809265137,
+        "Low": 10.449999809265137,
+        "Open": 10.449999809265137,
+        "Volume": 42
+      },
+      {
+        "Close": 10.5,
+        "High": 10.5,
+        "Low": 10.5,
+        "Open": 10.5,
+        "Volume": 347
+      },
+      {
         "Close": 10.489999771118164,
-        "High": 10.489999771118164,
+        "High": 10.5,
         "Low": 10.489999771118164,
         "Open": 10.489999771118164,
-        "Volume": 102
+        "Volume": 2161
+      },
+      {
+        "Close": 10.5,
+        "High": 10.5,
+        "Low": 10.5,
+        "Open": 10.5,
+        "Volume": 200
+      },
+      {
+        "Close": 10.5,
+        "High": 10.5,
+        "Low": 10.5,
+        "Open": 10.5,
+        "Volume": 4
       }
     ]
   },
@@ -45,111 +94,16 @@
       "status": "no_data"
     },
     "recommendations": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   },
   "holders_data": {
     "major_holders": {
-      "status": "success",
-      "data": [
-        {
-          "Value": 0.43296
-        },
-        {
-          "Value": 0.17958
-        },
-        {
-          "Value": 0.3167
-        },
-        {
-          "Value": 13.0
-        }
-      ]
+      "status": "error"
     },
     "institutional_holders": {
-      "status": "success",
-      "data": [
-        {
-          "Date Reported": "2025-06-30 00:00:00",
-          "Holder": "Maltese Capital Management, LLC",
-          "pctHeld": 0.045900002,
-          "Shares": 135000,
-          "Value": 1416149,
-          "pctChange": 1.0
-        },
-        {
-          "Date Reported": "2025-06-30 00:00:00",
-          "Holder": "Raffles Associates Lp",
-          "pctHeld": 0.0366,
-          "Shares": 107664,
-          "Value": 1129395,
-          "pctChange": 1.0
-        },
-        {
-          "Date Reported": "2025-06-30 00:00:00",
-          "Holder": "Alliancebernstein L.P.",
-          "pctHeld": 0.0308,
-          "Shares": 90481,
-          "Value": 949145,
-          "pctChange": 1.0
-        },
-        {
-          "Date Reported": "2025-06-30 00:00:00",
-          "Holder": "Minerva Advisors LLC",
-          "pctHeld": 0.0186,
-          "Shares": 54718,
-          "Value": 573991,
-          "pctChange": 1.0
-        },
-        {
-          "Date Reported": "2025-06-30 00:00:00",
-          "Holder": "Vanguard Group Inc",
-          "pctHeld": 0.015800001,
-          "Shares": 46467,
-          "Value": 487438,
-          "pctChange": 1.0
-        },
-        {
-          "Date Reported": "2025-06-30 00:00:00",
-          "Holder": "Murchinson Ltd.",
-          "pctHeld": 0.0078,
-          "Shares": 22808,
-          "Value": 239255,
-          "pctChange": 1.0
-        },
-        {
-          "Date Reported": "2025-06-30 00:00:00",
-          "Holder": "Stilwell Value LLC",
-          "pctHeld": 0.0068,
-          "Shares": 20000,
-          "Value": 209799,
-          "pctChange": 1.0
-        },
-        {
-          "Date Reported": "2025-06-30 00:00:00",
-          "Holder": "Citadel Advisors Llc",
-          "pctHeld": 0.004,
-          "Shares": 11746,
-          "Value": 123215,
-          "pctChange": 1.0
-        },
-        {
-          "Date Reported": "2025-06-30 00:00:00",
-          "Holder": "UBS Group AG",
-          "pctHeld": 0.0004,
-          "Shares": 1282,
-          "Value": 13448,
-          "pctChange": 1.0
-        },
-        {
-          "Date Reported": "2025-06-30 00:00:00",
-          "Holder": "Tower Research Capital LLC (TRC)",
-          "pctHeld": 0.0002,
-          "Shares": 674,
-          "Value": 7070,
-          "pctChange": 1.0
-        }
-      ]
+      "status": "error"
     }
   },
   "earnings_data": {
@@ -159,7 +113,7 @@
     },
     "calendar": {
       "status": "error",
-      "message": "'dict' object has no attribute 'empty'"
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   }
 }

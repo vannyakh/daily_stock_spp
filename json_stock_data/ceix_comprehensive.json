@@ -1,67 +1,9 @@
 {
   "ticker": "CEIX",
-  "timestamp": "2025-10-05T04:21:12.494091",
+  "timestamp": "2025-10-09T04:22:22.211443",
   "intraday_data": {
-    "status": "success",
-    "rows": 8,
-    "data": [
-      {
-        "Close WRB-PE": 23.434600830078125,
-        "High WRB-PE": 23.434600830078125,
-        "Low WRB-PE": 23.434600830078125,
-        "Open WRB-PE": 23.434600830078125,
-        "Volume WRB-PE": 0
-      },
-      {
-        "Close WRB-PE": 23.440000534057617,
-        "High WRB-PE": 23.440000534057617,
-        "Low WRB-PE": 23.440000534057617,
-        "Open WRB-PE": 23.440000534057617,
-        "Volume WRB-PE": 184
-      },
-      {
-        "Close WRB-PE": 23.43600082397461,
-        "High WRB-PE": 23.43600082397461,
-        "Low WRB-PE": 23.43600082397461,
-        "Open WRB-PE": 23.43600082397461,
-        "Volume WRB-PE": 506
-      },
-      {
-        "Close WRB-PE": 23.31999969482422,
-        "High WRB-PE": 23.31999969482422,
-        "Low WRB-PE": 23.299999237060547,
-        "Open WRB-PE": 23.299999237060547,
-        "Volume WRB-PE": 498
-      },
-      {
-        "Close WRB-PE": 23.280000686645508,
-        "High WRB-PE": 23.299999237060547,
-        "Low WRB-PE": 23.270000457763672,
-        "Open WRB-PE": 23.280000686645508,
-        "Volume WRB-PE": 1096
-      },
-      {
-        "Close WRB-PE": 23.299999237060547,
-        "High WRB-PE": 23.299999237060547,
-        "Low WRB-PE": 23.299999237060547,
-        "Open WRB-PE": 23.299999237060547,
-        "Volume WRB-PE": 307
-      },
-      {
-        "Close WRB-PE": 23.229999542236328,
-        "High WRB-PE": 23.229999542236328,
-        "Low WRB-PE": 23.229999542236328,
-        "Open WRB-PE": 23.229999542236328,
-        "Volume WRB-PE": 192
-      },
-      {
-        "Close WRB-PE": 23.239999771118164,
-        "High WRB-PE": 23.239999771118164,
-        "Low WRB-PE": 23.239999771118164,
-        "Open WRB-PE": 23.239999771118164,
-        "Volume WRB-PE": 219
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -700,7 +642,8 @@
       ]
     },
     "recommendations": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   },
   "holders_data": {

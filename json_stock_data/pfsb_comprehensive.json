@@ -1,9 +1,25 @@
 {
   "ticker": "PFSB",
-  "timestamp": "2025-10-05T04:14:46.956731",
+  "timestamp": "2025-10-09T04:15:54.903013",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 2,
+    "data": [
+      {
+        "Close": 12.880000114440918,
+        "High": 12.880000114440918,
+        "Low": 12.880000114440918,
+        "Open": 12.880000114440918,
+        "Volume": 0
+      },
+      {
+        "Close": 12.880000114440918,
+        "High": 12.899999618530273,
+        "Low": 12.880000114440918,
+        "Open": 12.899999618530273,
+        "Volume": 1484
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -29,16 +45,15 @@
       "status": "no_data"
     },
     "recommendations": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
+      "status": "no_data"
     }
   },
   "holders_data": {
     "major_holders": {
-      "status": "error"
+      "status": "no_data"
     },
     "institutional_holders": {
-      "status": "error"
+      "status": "no_data"
     }
   },
   "earnings_data": {

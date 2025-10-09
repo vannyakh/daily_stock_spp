@@ -1,46 +1,9 @@
 {
   "ticker": "ICTSF",
-  "timestamp": "2025-10-05T04:09:21.062298",
+  "timestamp": "2025-10-09T04:10:24.923006",
   "intraday_data": {
-    "status": "success",
-    "rows": 5,
-    "data": [
-      {
-        "Close TDAC": 10.368000030517578,
-        "High TDAC": 10.368000030517578,
-        "Low TDAC": 10.368000030517578,
-        "Open TDAC": 10.368000030517578,
-        "Volume TDAC": 0
-      },
-      {
-        "Close TDAC": 10.36989974975586,
-        "High TDAC": 10.36989974975586,
-        "Low TDAC": 10.36989974975586,
-        "Open TDAC": 10.36989974975586,
-        "Volume TDAC": 7521
-      },
-      {
-        "Close TDAC": 10.3572998046875,
-        "High TDAC": 10.359999656677246,
-        "Low TDAC": 10.34000015258789,
-        "Open TDAC": 10.359999656677246,
-        "Volume TDAC": 4200
-      },
-      {
-        "Close TDAC": 10.34000015258789,
-        "High TDAC": 10.34000015258789,
-        "Low TDAC": 10.34000015258789,
-        "Open TDAC": 10.34000015258789,
-        "Volume TDAC": 0
-      },
-      {
-        "Close TDAC": 10.34000015258789,
-        "High TDAC": 10.34000015258789,
-        "Low TDAC": 10.34000015258789,
-        "Open TDAC": 10.34000015258789,
-        "Volume TDAC": 0
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -66,7 +29,8 @@
       "status": "no_data"
     },
     "recommendations": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   },
   "holders_data": {

@@ -1,9 +1,18 @@
 {
   "ticker": "ZCARW",
-  "timestamp": "2025-10-05T04:25:35.615965",
+  "timestamp": "2025-10-09T04:26:47.195125",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 1,
+    "data": [
+      {
+        "Close": 0.004999999888241291,
+        "High": 0.004999999888241291,
+        "Low": 0.004999999888241291,
+        "Open": 0.004999999888241291,
+        "Volume": 0
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -257,7 +266,7 @@
     },
     "calendar": {
       "status": "error",
-      "message": "'dict' object has no attribute 'empty'"
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   }
 }

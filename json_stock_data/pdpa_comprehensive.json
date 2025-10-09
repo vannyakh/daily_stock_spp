@@ -1,9 +1,53 @@
 {
   "ticker": "PDPA",
-  "timestamp": "2025-10-05T04:24:01.487525",
+  "timestamp": "2025-10-09T04:25:11.967294",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 6,
+    "data": [
+      {
+        "Close": 25.280000686645508,
+        "High": 25.280000686645508,
+        "Low": 25.280000686645508,
+        "Open": 25.280000686645508,
+        "Volume": 0
+      },
+      {
+        "Close": 25.270000457763672,
+        "High": 25.270000457763672,
+        "Low": 25.270000457763672,
+        "Open": 25.270000457763672,
+        "Volume": 100
+      },
+      {
+        "Close": 25.329999923706055,
+        "High": 25.329999923706055,
+        "Low": 25.270000457763672,
+        "Open": 25.270000457763672,
+        "Volume": 203
+      },
+      {
+        "Close": 25.270000457763672,
+        "High": 25.270000457763672,
+        "Low": 25.270000457763672,
+        "Open": 25.270000457763672,
+        "Volume": 200
+      },
+      {
+        "Close": 25.280000686645508,
+        "High": 25.280000686645508,
+        "Low": 25.280000686645508,
+        "Open": 25.280000686645508,
+        "Volume": 400
+      },
+      {
+        "Close": 25.270000457763672,
+        "High": 25.270000457763672,
+        "Low": 25.270000457763672,
+        "Open": 25.270000457763672,
+        "Volume": 100
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -14,12 +58,86 @@
       "status": "no_data"
     },
     "balance_sheet": {
+      "status": "no_data"
+    },
+    "cash_flow": {
+      "status": "no_data"
+    }
+  },
+  "options_data": {
+    "status": "error",
+    "error_message": "Too Many Requests. Rate limited. Try after a while."
+  },
+  "news_data": {
+    "news": {
       "status": "success",
-      "rows": 29,
-      "columns": [
-        "2024-12-31 00:00:00",
-        "2023-12-31 00:00:00"
-      ],
+      "count": 1,
       "data": [
         {
-          
+          "id": "ab4229d8-43e9-3b41-9426-eb8a226eb73d",
+          "content": {
+            "id": "ab4229d8-43e9-3b41-9426-eb8a226eb73d",
+            "contentType": "STORY",
+            "title": "PEARL DIVER CREDIT COMPANY INC (PDCC) Q2 2025 Earnings Call Highlights: Strong Cash Flows and ...",
+            "description": "",
+            "summary": "PDCC showcases robust performance with a 1.6% NAV increase and strategic portfolio management, despite challenges in the credit environment.",
+            "pubDate": "2025-08-27T07:04:31Z",
+            "displayTime": "2025-08-27T07:04:31Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": null,
+            "provider": {
+              "displayName": "GuruFocus.com",
+              "url": "http://www.gurufocus.com/"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/pearl-diver-credit-company-inc-070431555.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/pearl-diver-credit-company-inc-070431555.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        }
+      ]
+    },
+    "recommendations": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  },
+  "holders_data": {
+    "major_holders": {
+      "status": "error"
+    },
+    "institutional_holders": {
+      "status": "error"
+    }
+  },
+  "earnings_data": {
+    "earnings": {
+      "status": "error",
+      "message": "'NoneType' object has no attribute 'empty'"
+    },
+    "calendar": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  }
+}

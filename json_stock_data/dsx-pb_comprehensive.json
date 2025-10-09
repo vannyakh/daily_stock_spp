@@ -1,9 +1,39 @@
 {
   "ticker": "DSX-PB",
-  "timestamp": "2025-10-05T04:21:46.782491",
+  "timestamp": "2025-10-09T04:22:56.161245",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 4,
+    "data": [
+      {
+        "Close": 27.3700008392334,
+        "High": 27.3700008392334,
+        "Low": 27.139999389648438,
+        "Open": 27.139999389648438,
+        "Volume": 0
+      },
+      {
+        "Close": 26.975000381469727,
+        "High": 26.975000381469727,
+        "Low": 26.975000381469727,
+        "Open": 26.975000381469727,
+        "Volume": 0
+      },
+      {
+        "Close": 27.399999618530273,
+        "High": 27.399999618530273,
+        "Low": 27.399999618530273,
+        "Open": 27.399999618530273,
+        "Volume": 131
+      },
+      {
+        "Close": 27.399999618530273,
+        "High": 27.399999618530273,
+        "Low": 27.399999618530273,
+        "Open": 27.399999618530273,
+        "Volume": 100
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -599,7 +629,8 @@
       ]
     },
     "recommendations": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   },
   "holders_data": {

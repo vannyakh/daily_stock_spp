@@ -1,32 +1,9 @@
 {
   "ticker": "IFED",
-  "timestamp": "2025-10-05T04:26:36.345611",
+  "timestamp": "2025-10-09T04:27:51.701778",
   "intraday_data": {
-    "status": "success",
-    "rows": 3,
-    "data": [
-      {
-        "Close HDLB": 16.85770034790039,
-        "High HDLB": 16.85770034790039,
-        "Low HDLB": 16.85770034790039,
-        "Open HDLB": 16.85770034790039,
-        "Volume HDLB": 0
-      },
-      {
-        "Close HDLB": 16.860000610351562,
-        "High HDLB": 16.860000610351562,
-        "Low HDLB": 16.860000610351562,
-        "Open HDLB": 16.860000610351562,
-        "Volume HDLB": 126
-      },
-      {
-        "Close HDLB": 16.861000061035156,
-        "High HDLB": 16.899999618530273,
-        "Low HDLB": 16.861000061035156,
-        "Open HDLB": 16.899999618530273,
-        "Volume HDLB": 2023
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -52,7 +29,8 @@
       "status": "no_data"
     },
     "recommendations": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   },
   "holders_data": {
@@ -60,7 +38,7 @@
       "status": "error"
     },
     "institutional_holders": {
-      "status": "error"
+      "status": "no_data"
     }
   },
   "earnings_data": {

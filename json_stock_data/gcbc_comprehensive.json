@@ -1,6 +1,6 @@
 {
   "ticker": "GCBC",
-  "timestamp": "2025-10-05T04:06:02.360503",
+  "timestamp": "2025-10-09T04:07:06.977944",
   "intraday_data": {
     "status": "no_data",
     "message": "No intraday data available"
@@ -623,111 +623,16 @@
       ]
     },
     "recommendations": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   },
   "holders_data": {
     "major_holders": {
-      "status": "success",
-      "data": [
-        {
-          "Value": 0.59251
-        },
-        {
-          "Value": 0.14232999
-        },
-        {
-          "Value": 0.34929
-        },
-        {
-          "Value": 107.0
-        }
-      ]
+      "status": "error"
     },
     "institutional_holders": {
-      "status": "success",
-      "data": [
-        {
-          "Date Reported": "2025-06-30 00:00:00",
-          "Holder": "Blackrock Inc.",
-          "pctHeld": 0.033099998,
-          "Shares": 564022,
-          "Value": 12431045,
-          "pctChange": 0.1459
-        },
-        {
-          "Date Reported": "2025-06-30 00:00:00",
-          "Holder": "Vanguard Group Inc",
-          "pctHeld": 0.0214,
-          "Shares": 364836,
-          "Value": 8040985,
-          "pctChange": -0.0152
-        },
-        {
-          "Date Reported": "2025-06-30 00:00:00",
-          "Holder": "Geode Capital Management, LLC",
-          "pctHeld": 0.0099,
-          "Shares": 169308,
-          "Value": 3731548,
-          "pctChange": 0.030299999
-        },
-        {
-          "Date Reported": "2025-06-30 00:00:00",
-          "Holder": "State Street Corporation",
-          "pctHeld": 0.0075,
-          "Shares": 127062,
-          "Value": 2800446,
-          "pctChange": 0.0112
-        },
-        {
-          "Date Reported": "2025-06-30 00:00:00",
-          "Holder": "NewEdge Advisors, LLC",
-          "pctHeld": 0.0068,
-          "Shares": 115218,
-          "Value": 2539404,
-          "pctChange": 0.0
-        },
-        {
-          "Date Reported": "2025-06-30 00:00:00",
-          "Holder": "Dimensional Fund Advisors LP",
-          "pctHeld": 0.0047,
-          "Shares": 79375,
-          "Value": 1749425,
-          "pctChange": 0.0468
-        },
-        {
-          "Date Reported": "2025-06-30 00:00:00",
-          "Holder": "Citadel Advisors Llc",
-          "pctHeld": 0.0046,
-          "Shares": 78696,
-          "Value": 1734459,
-          "pctChange": -0.082100004
-        },
-        {
-          "Date Reported": "2025-06-30 00:00:00",
-          "Holder": "Millennium Management Llc",
-          "pctHeld": 0.0044,
-          "Shares": 74639,
-          "Value": 1645043,
-          "pctChange": 0.3424
-        },
-        {
-          "Date Reported": "2025-06-30 00:00:00",
-          "Holder": "Renaissance Technologies, LLC",
-          "pctHeld": 0.0036000002,
-          "Shares": 61800,
-          "Value": 1362072,
-          "pctChange": 0.12979999
-        },
-        {
-          "Date Reported": "2025-06-30 00:00:00",
-          "Holder": "Stifel Financial Corporation",
-          "pctHeld": 0.0034999999,
-          "Shares": 59440,
-          "Value": 1310057,
-          "pctChange": 0.0039
-        }
-      ]
+      "status": "error"
     }
   },
   "earnings_data": {
@@ -737,7 +642,7 @@
     },
     "calendar": {
       "status": "error",
-      "message": "'dict' object has no attribute 'empty'"
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   }
 }

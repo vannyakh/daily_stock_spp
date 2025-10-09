@@ -1,9 +1,32 @@
 {
   "ticker": "CBDBY",
-  "timestamp": "2025-10-05T04:28:31.314057",
+  "timestamp": "2025-10-09T04:29:51.705469",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 3,
+    "data": [
+      {
+        "Close": 0.6700000166893005,
+        "High": 0.6700000166893005,
+        "Low": 0.6700000166893005,
+        "Open": 0.6700000166893005,
+        "Volume": 0
+      },
+      {
+        "Close": 0.6700000166893005,
+        "High": 0.6700000166893005,
+        "Low": 0.6700000166893005,
+        "Open": 0.6700000166893005,
+        "Volume": 4
+      },
+      {
+        "Close": 0.7400000095367432,
+        "High": 0.7400000095367432,
+        "Low": 0.7400000095367432,
+        "Open": 0.7400000095367432,
+        "Volume": 52
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -200,16 +223,15 @@
       ]
     },
     "recommendations": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
+      "status": "no_data"
     }
   },
   "holders_data": {
     "major_holders": {
-      "status": "error"
+      "status": "no_data"
     },
     "institutional_holders": {
-      "status": "error"
+      "status": "no_data"
     }
   },
   "earnings_data": {

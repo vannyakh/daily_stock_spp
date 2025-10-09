@@ -1,9 +1,25 @@
 {
   "ticker": "HSPOU",
-  "timestamp": "2025-10-05T04:23:14.163790",
+  "timestamp": "2025-10-09T04:24:24.716483",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 2,
+    "data": [
+      {
+        "Close FRMEP": 25.79990005493164,
+        "High FRMEP": 25.79990005493164,
+        "Low FRMEP": 25.79990005493164,
+        "Open FRMEP": 25.79990005493164,
+        "Volume FRMEP": 0
+      },
+      {
+        "Close FRMEP": 25.739999771118164,
+        "High FRMEP": 25.739999771118164,
+        "Low FRMEP": 25.739999771118164,
+        "Open FRMEP": 25.739999771118164,
+        "Volume FRMEP": 1731
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -11,12 +27,44 @@
   },
   "financials": {
     "income_statement": {
-      "status": "success",
-      "rows": 25,
-      "columns": [
-        "2024-12-31 00:00:00",
-        "2023-12-31 00:00:00"
-      ],
-      "data": [
-        {
-          
+      "status": "no_data"
+    },
+    "balance_sheet": {
+      "status": "no_data"
+    },
+    "cash_flow": {
+      "status": "no_data"
+    }
+  },
+  "options_data": {
+    "status": "error",
+    "error_message": "Too Many Requests. Rate limited. Try after a while."
+  },
+  "news_data": {
+    "news": {
+      "status": "no_data"
+    },
+    "recommendations": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  },
+  "holders_data": {
+    "major_holders": {
+      "status": "error"
+    },
+    "institutional_holders": {
+      "status": "error"
+    }
+  },
+  "earnings_data": {
+    "earnings": {
+      "status": "error",
+      "message": "'NoneType' object has no attribute 'empty'"
+    },
+    "calendar": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  }
+}

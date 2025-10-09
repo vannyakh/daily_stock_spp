@@ -1,60 +1,9 @@
 {
   "ticker": "GSUN",
-  "timestamp": "2025-10-05T04:16:39.012258",
+  "timestamp": "2025-10-09T04:17:48.260235",
   "intraday_data": {
-    "status": "success",
-    "rows": 7,
-    "data": [
-      {
-        "Close": 2.440000057220459,
-        "High": 2.440000057220459,
-        "Low": 2.440000057220459,
-        "Open": 2.440000057220459,
-        "Volume": 0
-      },
-      {
-        "Close": 2.430000066757202,
-        "High": 2.440000057220459,
-        "Low": 2.430000066757202,
-        "Open": 2.440000057220459,
-        "Volume": 553
-      },
-      {
-        "Close": 2.430000066757202,
-        "High": 2.430000066757202,
-        "Low": 2.430000066757202,
-        "Open": 2.430000066757202,
-        "Volume": 448
-      },
-      {
-        "Close": 2.430000066757202,
-        "High": 2.430000066757202,
-        "Low": 2.430000066757202,
-        "Open": 2.430000066757202,
-        "Volume": 1054
-      },
-      {
-        "Close": 2.440000057220459,
-        "High": 2.4800000190734863,
-        "Low": 2.440000057220459,
-        "Open": 2.4800000190734863,
-        "Volume": 1200
-      },
-      {
-        "Close": 2.440000057220459,
-        "High": 2.440000057220459,
-        "Low": 2.440000057220459,
-        "Open": 2.440000057220459,
-        "Volume": 100
-      },
-      {
-        "Close": 2.4100000858306885,
-        "High": 2.440000057220459,
-        "Low": 2.4100000858306885,
-        "Open": 2.440000057220459,
-        "Volume": 631
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -65,14 +14,105 @@
       "status": "no_data"
     },
     "balance_sheet": {
+      "status": "no_data"
+    },
+    "cash_flow": {
+      "status": "no_data"
+    }
+  },
+  "options_data": {
+    "status": "error",
+    "error_message": "Too Many Requests. Rate limited. Try after a while."
+  },
+  "news_data": {
+    "news": {
       "status": "success",
-      "rows": 76,
-      "columns": [
-        "2024-09-30 00:00:00",
-        "2023-09-30 00:00:00",
-        "2022-09-30 00:00:00",
-        "2021-09-30 00:00:00"
-      ],
+      "count": 1,
       "data": [
         {
-          
+          "id": "ebfa9ae0-8500-3a6a-972a-9a3622d89a64",
+          "content": {
+            "id": "ebfa9ae0-8500-3a6a-972a-9a3622d89a64",
+            "contentType": "STORY",
+            "title": "Golden Sun Health Technology Group Leads 3 US Penny Stocks Worth Monitoring",
+            "description": "",
+            "summary": "As the S&P 500 and Nasdaq Composite continue to experience declines, investor sentiment is being tested by economic uncertainties and fluctuating market conditions. Despite these challenges, penny stocks remain a notable segment for investors seeking opportunities in smaller or newer companies. While the term \"penny stocks\" may seem outdated, it still encapsulates firms that have the potential for growth when backed by strong financials. In this context, certain penny stocks are emerging as...",
+            "pubDate": "2025-02-25T20:11:52Z",
+            "displayTime": "2025-02-25T20:11:52Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": {
+              "originalUrl": "https://media.zenfs.com/en/simply_wall_st__316/3ab151850b8c1f533556b66726f399bc",
+              "originalWidth": 1194,
+              "originalHeight": 432,
+              "caption": "",
+              "resolutions": [
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/lxUIYrtsPsHKjKA_d7Zf0Q--~B/aD00MzI7dz0xMTk0O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/simply_wall_st__316/3ab151850b8c1f533556b66726f399bc",
+                  "width": 1194,
+                  "height": 432,
+                  "tag": "original"
+                },
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/vdBPRsSIazv7vS1Ndk3PDg--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/simply_wall_st__316/3ab151850b8c1f533556b66726f399bc",
+                  "width": 170,
+                  "height": 128,
+                  "tag": "170x128"
+                }
+              ]
+            },
+            "provider": {
+              "displayName": "Simply Wall St.",
+              "url": "https://simplywall.st/"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/golden-sun-health-technology-group-201152293.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/golden-sun-health-technology-group-201152293.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        }
+      ]
+    },
+    "recommendations": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  },
+  "holders_data": {
+    "major_holders": {
+      "status": "error"
+    },
+    "institutional_holders": {
+      "status": "error"
+    }
+  },
+  "earnings_data": {
+    "earnings": {
+      "status": "error",
+      "message": "'NoneType' object has no attribute 'empty'"
+    },
+    "calendar": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  }
+}

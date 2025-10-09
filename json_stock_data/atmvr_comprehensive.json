@@ -1,9 +1,32 @@
 {
   "ticker": "ATMVR",
-  "timestamp": "2025-10-05T04:23:14.553903",
+  "timestamp": "2025-10-09T04:24:25.359896",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 3,
+    "data": [
+      {
+        "Close HSPOW": 0.02290000021457672,
+        "High HSPOW": 0.02290000021457672,
+        "Low HSPOW": 0.02290000021457672,
+        "Open HSPOW": 0.02290000021457672,
+        "Volume HSPOW": 0
+      },
+      {
+        "Close HSPOW": 0.023099999874830246,
+        "High HSPOW": 0.023099999874830246,
+        "Low HSPOW": 0.023099999874830246,
+        "Open HSPOW": 0.023099999874830246,
+        "Volume HSPOW": 300
+      },
+      {
+        "Close HSPOW": 0.03720000013709068,
+        "High HSPOW": 0.03720000013709068,
+        "Low HSPOW": 0.03720000013709068,
+        "Open HSPOW": 0.03720000013709068,
+        "Volume HSPOW": 700
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -93,7 +116,8 @@
       ]
     },
     "recommendations": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   },
   "holders_data": {
