@@ -1,54 +1,54 @@
 {
   "ticker": "HLLK",
-  "timestamp": "2025-10-09T04:19:20.479227",
+  "timestamp": "2025-10-14T04:37:05.579185",
   "intraday_data": {
-    "status": "success",
-    "rows": 4,
-    "data": [
-      {
-        "Close ASII": 0.00019999999494757503,
-        "High ASII": 0.00019999999494757503,
-        "Low ASII": 0.00019999999494757503,
-        "Open ASII": 0.00019999999494757503,
-        "Volume ASII": 0
-      },
-      {
-        "Close ASII": 0.00019999999494757503,
-        "High ASII": 0.00019999999494757503,
-        "Low ASII": 0.00019999999494757503,
-        "Open ASII": 0.00019999999494757503,
-        "Volume ASII": 1000
-      },
-      {
-        "Close ASII": 0.00019999999494757503,
-        "High ASII": 0.00019999999494757503,
-        "Low ASII": 0.00019999999494757503,
-        "Open ASII": 0.00019999999494757503,
-        "Volume ASII": 170000
-      },
-      {
-        "Close ASII": 0.00019999999494757503,
-        "High ASII": 0.00019999999494757503,
-        "Low ASII": 0.00019999999494757503,
-        "Open ASII": 0.00019999999494757503,
-        "Volume ASII": 80000
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
-    "message": "argument of type 'NoneType' is not iterable"
+    "message": "Too Many Requests. Rate limited. Try after a while."
   },
   "financials": {
     "income_statement": {
-      "status": "success",
-      "rows": 45,
-      "columns": [
-        "2024-12-31 00:00:00",
-        "2023-12-31 00:00:00",
-        "2022-12-31 00:00:00",
-        "2021-12-31 00:00:00"
-      ],
-      "data": [
-        {
-          
+      "status": "no_data"
+    },
+    "balance_sheet": {
+      "status": "no_data"
+    },
+    "cash_flow": {
+      "status": "no_data"
+    }
+  },
+  "options_data": {
+    "status": "error",
+    "error_message": "Too Many Requests. Rate limited. Try after a while."
+  },
+  "news_data": {
+    "news": {
+      "status": "no_data"
+    },
+    "recommendations": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  },
+  "holders_data": {
+    "major_holders": {
+      "status": "error"
+    },
+    "institutional_holders": {
+      "status": "error"
+    }
+  },
+  "earnings_data": {
+    "earnings": {
+      "status": "error",
+      "message": "'NoneType' object has no attribute 'empty'"
+    },
+    "calendar": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  }
+}

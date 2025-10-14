@@ -1,22 +1,15 @@
 {
   "ticker": "AAM",
-  "timestamp": "2025-10-09T04:07:12.748346",
+  "timestamp": "2025-10-14T04:17:24.533573",
   "intraday_data": {
     "status": "success",
-    "rows": 5,
+    "rows": 3,
     "data": [
       {
-        "Close": 10.520000457763672,
-        "High": 10.520000457763672,
-        "Low": 10.520000457763672,
-        "Open": 10.520000457763672,
-        "Volume": 352
-      },
-      {
-        "Close": 10.520000457763672,
-        "High": 10.520000457763672,
-        "Low": 10.520000457763672,
-        "Open": 10.520000457763672,
+        "Close": 10.529999732971191,
+        "High": 10.529999732971191,
+        "Low": 10.529999732971191,
+        "Open": 10.529999732971191,
         "Volume": 0
       },
       {
@@ -24,21 +17,14 @@
         "High": 10.539999961853027,
         "Low": 10.539999961853027,
         "Open": 10.539999961853027,
-        "Volume": 228
+        "Volume": 103
       },
       {
-        "Close": 10.537500381469727,
-        "High": 10.539999961853027,
-        "Low": 10.537500381469727,
-        "Open": 10.539999961853027,
-        "Volume": 427
-      },
-      {
-        "Close": 10.539299964904785,
-        "High": 10.539299964904785,
-        "Low": 10.539299964904785,
-        "Open": 10.539299964904785,
-        "Volume": 101
+        "Close": 10.529999732971191,
+        "High": 10.529999732971191,
+        "Low": 10.529999732971191,
+        "Open": 10.529999732971191,
+        "Volume": 875
       }
     ]
   },
@@ -66,15 +52,16 @@
       "status": "no_data"
     },
     "recommendations": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   },
   "holders_data": {
     "major_holders": {
-      "status": "no_data"
+      "status": "error"
     },
     "institutional_holders": {
-      "status": "no_data"
+      "status": "error"
     }
   },
   "earnings_data": {
@@ -84,7 +71,7 @@
     },
     "calendar": {
       "status": "error",
-      "message": "'dict' object has no attribute 'empty'"
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   }
 }

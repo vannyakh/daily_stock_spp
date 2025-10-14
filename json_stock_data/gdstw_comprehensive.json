@@ -1,98 +1,24 @@
 {
   "ticker": "GDSTW",
-  "timestamp": "2025-10-09T04:26:55.088141",
+  "timestamp": "2025-10-14T04:48:52.690021",
   "intraday_data": {
-    "status": "success",
-    "rows": 6,
-    "data": [
-      {
-        "Close GDSTR": 0.17110000550746918,
-        "High GDSTR": 0.17110000550746918,
-        "Low GDSTR": 0.17110000550746918,
-        "Open GDSTR": 0.17110000550746918,
-        "Volume GDSTR": 0
-      },
-      {
-        "Close GDSTR": 0.14000000059604645,
-        "High GDSTR": 0.14000000059604645,
-        "Low GDSTR": 0.14000000059604645,
-        "Open GDSTR": 0.14000000059604645,
-        "Volume GDSTR": 20000
-      },
-      {
-        "Close GDSTR": 0.11100000143051147,
-        "High GDSTR": 0.11100000143051147,
-        "Low GDSTR": 0.11100000143051147,
-        "Open GDSTR": 0.11100000143051147,
-        "Volume GDSTR": 6300
-      },
-      {
-        "Close GDSTR": 0.14000000059604645,
-        "High GDSTR": 0.14000000059604645,
-        "Low GDSTR": 0.14000000059604645,
-        "Open GDSTR": 0.14000000059604645,
-        "Volume GDSTR": 10000
-      },
-      {
-        "Close GDSTR": 0.14000000059604645,
-        "High GDSTR": 0.14000000059604645,
-        "Low GDSTR": 0.14000000059604645,
-        "Open GDSTR": 0.14000000059604645,
-        "Volume GDSTR": 10000
-      },
-      {
-        "Close GDSTR": 0.11999999731779099,
-        "High GDSTR": 0.11999999731779099,
-        "Low GDSTR": 0.11999999731779099,
-        "Open GDSTR": 0.11999999731779099,
-        "Volume GDSTR": 20000
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
-    "message": "Too Many Requests. Rate limited. Try after a while."
+    "message": "argument of type 'NoneType' is not iterable"
   },
   "financials": {
     "income_statement": {
-      "status": "no_data"
-    },
-    "balance_sheet": {
-      "status": "no_data"
-    },
-    "cash_flow": {
-      "status": "no_data"
-    }
-  },
-  "options_data": {
-    "status": "error",
-    "error_message": "Too Many Requests. Rate limited. Try after a while."
-  },
-  "news_data": {
-    "news": {
-      "status": "no_data"
-    },
-    "recommendations": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
-    }
-  },
-  "holders_data": {
-    "major_holders": {
-      "status": "error"
-    },
-    "institutional_holders": {
-      "status": "error"
-    }
-  },
-  "earnings_data": {
-    "earnings": {
-      "status": "error",
-      "message": "'NoneType' object has no attribute 'empty'"
-    },
-    "calendar": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
-    }
-  }
-}
+      "status": "success",
+      "rows": 35,
+      "columns": [
+        "2025-03-31 00:00:00",
+        "2024-03-31 00:00:00",
+        "2023-03-31 00:00:00",
+        "2022-03-31 00:00:00"
+      ],
+      "data": [
+        {
+          

@@ -1,9 +1,32 @@
 {
   "ticker": "AFJK",
-  "timestamp": "2025-10-09T04:12:02.674217",
+  "timestamp": "2025-10-14T04:25:32.001116",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 3,
+    "data": [
+      {
+        "Close": 11.369199752807617,
+        "High": 11.375499725341797,
+        "Low": 11.369199752807617,
+        "Open": 11.375499725341797,
+        "Volume": 0
+      },
+      {
+        "Close": 11.330100059509277,
+        "High": 11.330100059509277,
+        "Low": 11.329999923706055,
+        "Open": 11.329999923706055,
+        "Volume": 101
+      },
+      {
+        "Close": 11.399999618530273,
+        "High": 11.399999618530273,
+        "Low": 11.399999618530273,
+        "Open": 11.399999618530273,
+        "Volume": 10289
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -93,8 +116,7 @@
       ]
     },
     "recommendations": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
+      "status": "no_data"
     }
   },
   "holders_data": {

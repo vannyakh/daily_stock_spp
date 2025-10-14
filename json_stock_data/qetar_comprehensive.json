@@ -1,46 +1,9 @@
 {
   "ticker": "QETAR",
-  "timestamp": "2025-10-09T04:25:47.810879",
+  "timestamp": "2025-10-14T04:47:10.778715",
   "intraday_data": {
-    "status": "success",
-    "rows": 5,
-    "data": [
-      {
-        "Close": 1.8899999856948853,
-        "High": 1.8899999856948853,
-        "Low": 1.8899999856948853,
-        "Open": 1.8899999856948853,
-        "Volume": 0
-      },
-      {
-        "Close": 2.0,
-        "High": 2.0999999046325684,
-        "Low": 2.0,
-        "Open": 2.0999999046325684,
-        "Volume": 210
-      },
-      {
-        "Close": 2.059999942779541,
-        "High": 2.059999942779541,
-        "Low": 2.059999942779541,
-        "Open": 2.059999942779541,
-        "Volume": 200
-      },
-      {
-        "Close": 1.7999999523162842,
-        "High": 1.9900000095367432,
-        "Low": 1.7999999523162842,
-        "Open": 1.9900000095367432,
-        "Volume": 1818
-      },
-      {
-        "Close": 1.7999999523162842,
-        "High": 1.7999999523162842,
-        "Low": 1.7999999523162842,
-        "Open": 1.7999999523162842,
-        "Volume": 422
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -66,7 +29,8 @@
       "status": "no_data"
     },
     "recommendations": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   },
   "holders_data": {

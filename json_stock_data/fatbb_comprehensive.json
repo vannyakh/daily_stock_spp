@@ -1,39 +1,9 @@
 {
   "ticker": "FATBB",
-  "timestamp": "2025-10-09T04:23:07.946436",
+  "timestamp": "2025-10-14T04:42:57.946263",
   "intraday_data": {
-    "status": "success",
-    "rows": 4,
-    "data": [
-      {
-        "Close RDIB": 11.100000381469727,
-        "High RDIB": 11.100000381469727,
-        "Low RDIB": 11.100000381469727,
-        "Open RDIB": 11.100000381469727,
-        "Volume RDIB": 7166
-      },
-      {
-        "Close RDIB": 11.199999809265137,
-        "High RDIB": 11.199999809265137,
-        "Low RDIB": 11.199999809265137,
-        "Open RDIB": 11.199999809265137,
-        "Volume RDIB": 991
-      },
-      {
-        "Close RDIB": 11.300000190734863,
-        "High RDIB": 11.300000190734863,
-        "Low RDIB": 11.300000190734863,
-        "Open RDIB": 11.300000190734863,
-        "Volume RDIB": 435
-      },
-      {
-        "Close RDIB": 11.359999656677246,
-        "High RDIB": 11.359999656677246,
-        "Low RDIB": 11.359999656677246,
-        "Open RDIB": 11.359999656677246,
-        "Volume RDIB": 306
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -672,16 +642,15 @@
       ]
     },
     "recommendations": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
+      "status": "no_data"
     }
   },
   "holders_data": {
     "major_holders": {
-      "status": "error"
+      "status": "no_data"
     },
     "institutional_holders": {
-      "status": "error"
+      "status": "no_data"
     }
   },
   "earnings_data": {

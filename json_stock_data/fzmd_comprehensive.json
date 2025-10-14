@@ -1,98 +1,23 @@
 {
   "ticker": "FZMD",
-  "timestamp": "2025-10-09T04:23:29.333383",
+  "timestamp": "2025-10-14T04:43:31.679575",
   "intraday_data": {
-    "status": "success",
-    "rows": 6,
-    "data": [
-      {
-        "Close WBSR": 0.03440000116825104,
-        "High WBSR": 0.03440000116825104,
-        "Low WBSR": 0.03440000116825104,
-        "Open WBSR": 0.03440000116825104,
-        "Volume WBSR": 0
-      },
-      {
-        "Close WBSR": 0.039000000804662704,
-        "High WBSR": 0.039000000804662704,
-        "Low WBSR": 0.039000000804662704,
-        "Open WBSR": 0.039000000804662704,
-        "Volume WBSR": 300
-      },
-      {
-        "Close WBSR": 0.03849999979138374,
-        "High WBSR": 0.03849999979138374,
-        "Low WBSR": 0.03849999979138374,
-        "Open WBSR": 0.03849999979138374,
-        "Volume WBSR": 5000
-      },
-      {
-        "Close WBSR": 0.03849999979138374,
-        "High WBSR": 0.03849999979138374,
-        "Low WBSR": 0.03849999979138374,
-        "Open WBSR": 0.03849999979138374,
-        "Volume WBSR": 65000
-      },
-      {
-        "Close WBSR": 0.03849999979138374,
-        "High WBSR": 0.03849999979138374,
-        "Low WBSR": 0.03849999979138374,
-        "Open WBSR": 0.03849999979138374,
-        "Volume WBSR": 9400
-      },
-      {
-        "Close WBSR": 0.039000000804662704,
-        "High WBSR": 0.039000000804662704,
-        "Low WBSR": 0.039000000804662704,
-        "Open WBSR": 0.039000000804662704,
-        "Volume WBSR": 10432
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
-    "message": "Too Many Requests. Rate limited. Try after a while."
+    "message": "argument of type 'NoneType' is not iterable"
   },
   "financials": {
     "income_statement": {
-      "status": "no_data"
-    },
-    "balance_sheet": {
-      "status": "no_data"
-    },
-    "cash_flow": {
-      "status": "no_data"
-    }
-  },
-  "options_data": {
-    "status": "error",
-    "error_message": "Too Many Requests. Rate limited. Try after a while."
-  },
-  "news_data": {
-    "news": {
-      "status": "no_data"
-    },
-    "recommendations": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
-    }
-  },
-  "holders_data": {
-    "major_holders": {
-      "status": "error"
-    },
-    "institutional_holders": {
-      "status": "error"
-    }
-  },
-  "earnings_data": {
-    "earnings": {
-      "status": "error",
-      "message": "'NoneType' object has no attribute 'empty'"
-    },
-    "calendar": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
-    }
-  }
-}
+      "status": "success",
+      "rows": 46,
+      "columns": [
+        "2022-12-31 00:00:00",
+        "2021-12-31 00:00:00",
+        "2020-12-31 00:00:00"
+      ],
+      "data": [
+        {
+          

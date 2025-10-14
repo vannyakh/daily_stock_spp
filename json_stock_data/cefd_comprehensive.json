@@ -1,16 +1,30 @@
 {
   "ticker": "CEFD",
-  "timestamp": "2025-10-09T04:27:48.212807",
+  "timestamp": "2025-10-14T04:50:20.305421",
   "intraday_data": {
     "status": "success",
-    "rows": 1,
+    "rows": 3,
     "data": [
       {
-        "Close BDCZ": 16.588300704956055,
-        "High BDCZ": 16.670000076293945,
-        "Low BDCZ": 16.588300704956055,
-        "Open BDCZ": 16.670000076293945,
-        "Volume BDCZ": 839
+        "Close": 19.149999618530273,
+        "High": 19.149999618530273,
+        "Low": 19.149999618530273,
+        "Open": 19.149999618530273,
+        "Volume": 0
+      },
+      {
+        "Close": 19.34160041809082,
+        "High": 19.34160041809082,
+        "Low": 19.34160041809082,
+        "Open": 19.34160041809082,
+        "Volume": 113
+      },
+      {
+        "Close": 19.25,
+        "High": 19.25,
+        "Low": 19.25,
+        "Open": 19.25,
+        "Volume": 372
       }
     ]
   },
@@ -38,16 +52,15 @@
       "status": "no_data"
     },
     "recommendations": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
+      "status": "no_data"
     }
   },
   "holders_data": {
     "major_holders": {
-      "status": "error"
+      "status": "no_data"
     },
     "institutional_holders": {
-      "status": "error"
+      "status": "no_data"
     }
   },
   "earnings_data": {
@@ -57,7 +70,7 @@
     },
     "calendar": {
       "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
+      "message": "'dict' object has no attribute 'empty'"
     }
   }
 }

@@ -1,18 +1,21 @@
 {
   "ticker": "VEII",
-  "timestamp": "2025-10-09T04:19:24.332095",
+  "timestamp": "2025-10-14T04:37:12.374300",
   "intraday_data": {
     "status": "no_data",
     "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
-    "message": "argument of type 'NoneType' is not iterable"
+    "message": "Too Many Requests. Rate limited. Try after a while."
   },
   "financials": {
     "income_statement": {
+      "status": "no_data"
+    },
+    "balance_sheet": {
       "status": "success",
-      "rows": 48,
+      "rows": 72,
       "columns": [
         "2023-12-31 00:00:00",
         "2022-12-31 00:00:00",

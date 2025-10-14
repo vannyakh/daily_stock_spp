@@ -1,91 +1,22 @@
 {
   "ticker": "FORL",
-  "timestamp": "2025-10-09T04:14:01.471173",
+  "timestamp": "2025-10-14T04:28:39.730958",
   "intraday_data": {
-    "status": "success",
-    "rows": 5,
-    "data": [
-      {
-        "Close DEFG": 23.5,
-        "High DEFG": 23.5,
-        "Low DEFG": 23.5,
-        "Open DEFG": 23.5,
-        "Volume DEFG": 0
-      },
-      {
-        "Close DEFG": 23.5,
-        "High DEFG": 23.5,
-        "Low DEFG": 23.5,
-        "Open DEFG": 23.5,
-        "Volume DEFG": 100
-      },
-      {
-        "Close DEFG": 23.5,
-        "High DEFG": 23.5,
-        "Low DEFG": 23.5,
-        "Open DEFG": 23.5,
-        "Volume DEFG": 334
-      },
-      {
-        "Close DEFG": 23.549999237060547,
-        "High DEFG": 23.549999237060547,
-        "Low DEFG": 23.549999237060547,
-        "Open DEFG": 23.549999237060547,
-        "Volume DEFG": 100
-      },
-      {
-        "Close DEFG": 22.40999984741211,
-        "High DEFG": 22.40999984741211,
-        "Low DEFG": 22.40999984741211,
-        "Open DEFG": 22.40999984741211,
-        "Volume DEFG": 20
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
-    "message": "Too Many Requests. Rate limited. Try after a while."
+    "message": "argument of type 'NoneType' is not iterable"
   },
   "financials": {
     "income_statement": {
-      "status": "no_data"
-    },
-    "balance_sheet": {
-      "status": "no_data"
-    },
-    "cash_flow": {
-      "status": "no_data"
-    }
-  },
-  "options_data": {
-    "status": "error",
-    "error_message": "Too Many Requests. Rate limited. Try after a while."
-  },
-  "news_data": {
-    "news": {
-      "status": "no_data"
-    },
-    "recommendations": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
-    }
-  },
-  "holders_data": {
-    "major_holders": {
-      "status": "error"
-    },
-    "institutional_holders": {
-      "status": "error"
-    }
-  },
-  "earnings_data": {
-    "earnings": {
-      "status": "error",
-      "message": "'NoneType' object has no attribute 'empty'"
-    },
-    "calendar": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
-    }
-  }
-}
+      "status": "success",
+      "rows": 31,
+      "columns": [
+        "2024-12-31 00:00:00",
+        "2023-12-31 00:00:00"
+      ],
+      "data": [
+        {
+          

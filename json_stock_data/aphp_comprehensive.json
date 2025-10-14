@@ -1,39 +1,9 @@
 {
   "ticker": "APHP",
-  "timestamp": "2025-10-09T04:14:32.994665",
+  "timestamp": "2025-10-14T04:29:30.419360",
   "intraday_data": {
-    "status": "success",
-    "rows": 4,
-    "data": [
-      {
-        "Close": 0.1615999937057495,
-        "High": 0.1615999937057495,
-        "Low": 0.1615999937057495,
-        "Open": 0.1615999937057495,
-        "Volume": 0
-      },
-      {
-        "Close": 0.16599999368190765,
-        "High": 0.16599999368190765,
-        "Low": 0.1615999937057495,
-        "Open": 0.1615999937057495,
-        "Volume": 7373
-      },
-      {
-        "Close": 0.18000000715255737,
-        "High": 0.18000000715255737,
-        "Low": 0.18000000715255737,
-        "Open": 0.18000000715255737,
-        "Volume": 5000
-      },
-      {
-        "Close": 0.16699999570846558,
-        "High": 0.16699999570846558,
-        "Low": 0.16699999570846558,
-        "Open": 0.16699999570846558,
-        "Volume": 1176
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -41,44 +11,13 @@
   },
   "financials": {
     "income_statement": {
-      "status": "no_data"
-    },
-    "balance_sheet": {
-      "status": "no_data"
-    },
-    "cash_flow": {
-      "status": "no_data"
-    }
-  },
-  "options_data": {
-    "status": "error",
-    "error_message": "Too Many Requests. Rate limited. Try after a while."
-  },
-  "news_data": {
-    "news": {
-      "status": "no_data"
-    },
-    "recommendations": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
-    }
-  },
-  "holders_data": {
-    "major_holders": {
-      "status": "error"
-    },
-    "institutional_holders": {
-      "status": "error"
-    }
-  },
-  "earnings_data": {
-    "earnings": {
-      "status": "error",
-      "message": "'NoneType' object has no attribute 'empty'"
-    },
-    "calendar": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
-    }
-  }
-}
+      "status": "success",
+      "rows": 40,
+      "columns": [
+        "2024-12-31 00:00:00",
+        "2023-12-31 00:00:00",
+        "2022-12-31 00:00:00"
+      ],
+      "data": [
+        {
+          

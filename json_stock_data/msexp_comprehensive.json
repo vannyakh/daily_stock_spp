@@ -1,97 +1,56 @@
 {
   "ticker": "MSEXP",
-  "timestamp": "2025-10-09T04:28:50.290243",
+  "timestamp": "2025-10-14T04:51:54.736799",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 0,
+    "data": []
   },
   "stock_info": {
-    "status": "success",
-    "data": {
-      "maxAge": 86400,
-      "priceHint": 2,
-      "previousClose": 530.0,
-      "open": 530.0,
-      "dayLow": 530.0,
-      "dayHigh": 530.0,
-      "regularMarketPreviousClose": 530.0,
-      "regularMarketOpen": 530.0,
-      "regularMarketDayLow": 530.0,
-      "regularMarketDayHigh": 530.0,
-      "volume": 1,
-      "regularMarketVolume": 1,
-      "averageVolume": 12,
-      "averageVolume10days": 10,
-      "averageDailyVolume10Day": 10,
-      "bid": 550.0,
-      "ask": 599.5,
-      "bidSize": 4,
-      "askSize": 2,
-      "fiftyTwoWeekLow": 462.0,
-      "fiftyTwoWeekHigh": 795.0,
-      "allTimeHigh": 795.0,
-      "allTimeLow": 92.0,
-      "fiftyDayAverage": 553.71,
-      "twoHundredDayAverage": 566.4161,
-      "currency": "USD",
-      "tradeable": false,
-      "quoteType": "EQUITY",
-      "symbol": "MSEXP",
-      "language": "en-US",
-      "region": "US",
-      "typeDisp": "Equity",
-      "quoteSourceName": "Delayed Quote",
-      "triggerable": false,
-      "customPriceAlertConfidence": "LOW",
-      "regularMarketTime": 1759881600,
-      "earningsTimestampStart": 1753786740,
-      "earningsTimestampEnd": 1754308800,
-      "isEarningsDateEstimate": true,
-      "fiftyDayAverageChange": -23.710022,
-      "fiftyDayAverageChangePercent": -0.042820286,
-      "twoHundredDayAverageChange": -36.416077,
-      "twoHundredDayAverageChangePercent": -0.064292096,
-      "sourceInterval": 15,
-      "exchangeDataDelayedBy": 0,
-      "cryptoTradeable": false,
-      "shortName": "Middlesex Water Co.",
-      "longName": "Middlesex Water Company PFD 7%",
-      "exchange": "PNK",
-      "messageBoardId": "finmb_288070",
-      "exchangeTimezoneName": "America/New_York",
-      "exchangeTimezoneShortName": "EDT",
-      "gmtOffSetMilliseconds": -14400000,
-      "market": "us_market",
-      "esgPopulated": false,
-      "regularMarketChangePercent": 0.0,
-      "regularMarketPrice": 530.0,
-      "hasPrePostMarketData": false,
-      "firstTradeDateMilliseconds": 1506087000000,
-      "regularMarketChange": 0.0,
-      "regularMarketDayRange": "530.0 - 530.0",
-      "fullExchangeName": "OTC Markets OTCPK",
-      "averageDailyVolume3Month": 12,
-      "fiftyTwoWeekLowChange": 68.0,
-      "fiftyTwoWeekLowChangePercent": 0.14718615,
-      "fiftyTwoWeekRange": "462.0 - 795.0",
-      "fiftyTwoWeekHighChange": -265.0,
-      "fiftyTwoWeekHighChangePercent": -0.33333334,
-      "fiftyTwoWeekChangePercent": -25.352114,
-      "dividendDate": 1754006400,
-      "marketState": "PREPRE"
-    }
+    "status": "error",
+    "message": "Too Many Requests. Rate limited. Try after a while."
   },
   "financials": {
     "income_statement": {
-      "status": "success",
-      "rows": 43,
-      "columns": [
-        "2024-12-31 00:00:00",
-        "2023-12-31 00:00:00",
-        "2022-12-31 00:00:00",
-        "2021-12-31 00:00:00",
-        "2020-12-31 00:00:00"
-      ],
-      "data": [
-        {
-          
+      "status": "no_data"
+    },
+    "balance_sheet": {
+      "status": "no_data"
+    },
+    "cash_flow": {
+      "status": "no_data"
+    }
+  },
+  "options_data": {
+    "status": "error",
+    "error_message": "Too Many Requests. Rate limited. Try after a while."
+  },
+  "news_data": {
+    "news": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    },
+    "recommendations": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  },
+  "holders_data": {
+    "major_holders": {
+      "status": "error"
+    },
+    "institutional_holders": {
+      "status": "error"
+    }
+  },
+  "earnings_data": {
+    "earnings": {
+      "status": "error",
+      "message": "'NoneType' object has no attribute 'empty'"
+    },
+    "calendar": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  }
+}

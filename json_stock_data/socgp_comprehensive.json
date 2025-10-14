@@ -1,25 +1,606 @@
 {
   "ticker": "SOCGP",
-  "timestamp": "2025-10-09T04:22:27.228567",
+  "timestamp": "2025-10-14T04:41:48.235286",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 2,
+    "data": [
+      {
+        "Close": 25.020000457763672,
+        "High": 25.020000457763672,
+        "Low": 25.020000457763672,
+        "Open": 25.020000457763672,
+        "Volume": 0
+      },
+      {
+        "Close": 25.020000457763672,
+        "High": 25.020000457763672,
+        "Low": 25.020000457763672,
+        "Open": 25.020000457763672,
+        "Volume": 226
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
-    "message": "argument of type 'NoneType' is not iterable"
+    "message": "Too Many Requests. Rate limited. Try after a while."
   },
   "financials": {
     "income_statement": {
+      "status": "no_data"
+    },
+    "balance_sheet": {
+      "status": "no_data"
+    },
+    "cash_flow": {
+      "status": "no_data"
+    }
+  },
+  "options_data": {
+    "status": "error",
+    "error_message": "Too Many Requests. Rate limited. Try after a while."
+  },
+  "news_data": {
+    "news": {
       "status": "success",
-      "rows": 40,
-      "columns": [
-        "2024-12-31 00:00:00",
-        "2023-12-31 00:00:00",
-        "2022-12-31 00:00:00",
-        "2021-12-31 00:00:00",
-        "2020-12-31 00:00:00"
-      ],
+      "count": 10,
       "data": [
         {
-          
+          "id": "43141735-88a7-3ed9-8203-0b25dc9fa7b3",
+          "content": {
+            "id": "43141735-88a7-3ed9-8203-0b25dc9fa7b3",
+            "contentType": "STORY",
+            "title": "Sector Update: Energy Stocks Lean Lower Premarket Thursday",
+            "description": "",
+            "summary": "Energy stocks were leaning lower premarket Thursday with the Energy Select Sector SPDR Fund (XLE) do",
+            "pubDate": "2025-06-12T13:25:17Z",
+            "displayTime": "2025-06-12T13:25:17Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": null,
+            "provider": {
+              "displayName": "MT Newswires",
+              "url": "https://www.mtnewswires.com/"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/sector-energy-stocks-lean-lower-132517595.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/sector-energy-stocks-lean-lower-132517595.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": true,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        },
+        {
+          "id": "e45fe942-fcc5-3a65-9651-2345f85e055e",
+          "content": {
+            "id": "e45fe942-fcc5-3a65-9651-2345f85e055e",
+            "contentType": "STORY",
+            "title": "Southern California air regulators reject rules to phase out gas furnaces and water heaters",
+            "description": "",
+            "summary": "Air quality regulators in Southern California voted 7 to 5 to reject rules that would have curbed harmful emissions from gas-powered furnaces and water heaters, but the majority voted to send the rules back to committee to be changed and reconsidered.  Burning natural gas is also one of the primary drivers of climate change.  The South Coast Air Quality Management District estimates that the rules would have lowered NOx emissions from gas-fired furnaces, preventing about 2,490 premature deaths and 10,200 new asthma cases over a 26-year period in the region.",
+            "pubDate": "2025-06-06T20:07:08Z",
+            "displayTime": "2025-06-06T20:07:08Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": {
+              "originalUrl": "https://media.zenfs.com/en/ap_finance_articles_694/38334f6b9b2fd27ed304c130eb02ef36",
+              "originalWidth": 6000,
+              "originalHeight": 4000,
+              "caption": "FILE - A person with a dog walks along a trail as a layer of smog blankets downtown Los Angeles, Tuesday, Oct. 1, 2024. (AP Photo/Jae C. Hong, File)",
+              "resolutions": [
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/3HcfsQ8KrURNSN6EyG0e6A--~B/aD00MDAwO3c9NjAwMDthcHBpZD15dGFjaHlvbg--/https://media.zenfs.com/en/ap_finance_articles_694/38334f6b9b2fd27ed304c130eb02ef36",
+                  "width": 6000,
+                  "height": 4000,
+                  "tag": "original"
+                },
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/Sp5Gaew2iT0KA4NaVIGxZw--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/ap_finance_articles_694/38334f6b9b2fd27ed304c130eb02ef36",
+                  "width": 170,
+                  "height": 128,
+                  "tag": "170x128"
+                }
+              ]
+            },
+            "provider": {
+              "displayName": "Associated Press Finance",
+              "url": "http://www.ap.org/"
+            },
+            "canonicalUrl": {
+              "url": "https://www.yahoo.com/news/southern-california-air-regulators-weigh-200708677.html",
+              "site": "news",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://www.yahoo.com/news/southern-california-air-regulators-weigh-200708677.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        },
+        {
+          "id": "cb9befd1-2209-39f5-b16b-78cd955a3d36",
+          "content": {
+            "id": "cb9befd1-2209-39f5-b16b-78cd955a3d36",
+            "contentType": "STORY",
+            "title": "Sector Update: Energy Stocks Decline Premarket Friday",
+            "description": "",
+            "summary": "Energy stocks were down premarket Friday as the Energy Select Sector SPDR Fund (XLE) was 0.7% lower",
+            "pubDate": "2025-05-30T13:20:53Z",
+            "displayTime": "2025-05-30T13:20:53Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": null,
+            "provider": {
+              "displayName": "MT Newswires",
+              "url": "https://www.mtnewswires.com/"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/sector-energy-stocks-decline-premarket-132053610.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/sector-energy-stocks-decline-premarket-132053610.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": true,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        },
+        {
+          "id": "8144722c-d3c9-3be0-ba86-ff6eb4e9f903",
+          "content": {
+            "id": "8144722c-d3c9-3be0-ba86-ff6eb4e9f903",
+            "contentType": "STORY",
+            "title": "Port Arthur LNG Phase 2 secures non-FTA export authorisation from US DOE",
+            "description": "",
+            "summary": "The approval permits the export of up to 13.5mtpa of US-produced LNG.",
+            "pubDate": "2025-05-30T10:01:22Z",
+            "displayTime": "2025-05-30T10:01:22Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": {
+              "originalUrl": "https://media.zenfs.com/en/offshore_technology_431/264840d2eabad13286fa2823b22c14c5",
+              "originalWidth": 1440,
+              "originalHeight": 810,
+              "caption": "The Port Arthur LNG Phase 2 project is being developed by Sempra Infrastructure. Credit: Andromeda stock/Shutterstock.",
+              "resolutions": [
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/asZxc5Sj3_DcxoyLFuw.xw--~B/aD04MTA7dz0xNDQwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/offshore_technology_431/264840d2eabad13286fa2823b22c14c5",
+                  "width": 1440,
+                  "height": 810,
+                  "tag": "original"
+                },
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/kmnqeBIJskFce9m1.r0Agw--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/offshore_technology_431/264840d2eabad13286fa2823b22c14c5",
+                  "width": 170,
+                  "height": 128,
+                  "tag": "170x128"
+                }
+              ]
+            },
+            "provider": {
+              "displayName": "Offshore Technology",
+              "url": "https://www.globaldata.com/"
+            },
+            "canonicalUrl": {
+              "url": "https://www.offshore-technology.com/news/port-arthur-lng-export-authorisation/",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/port-arthur-lng-phase-2-100122855.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        },
+        {
+          "id": "214d4b12-68df-3adb-adf8-1db1f7e20419",
+          "content": {
+            "id": "214d4b12-68df-3adb-adf8-1db1f7e20419",
+            "contentType": "STORY",
+            "title": "Sempra Energy Rides on LNG Operations & Strategic Investments",
+            "description": "",
+            "summary": "SRE is expected to gain from planned investments and LNG projects. Yet, valuation concerns and wildfire events may impact its operations.",
+            "pubDate": "2025-05-29T15:36:00Z",
+            "displayTime": "2025-05-29T15:36:00Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": {
+              "originalUrl": "https://media.zenfs.com/en/zacks.com/ccb59fd9aab6f9d8ecdcb013249e30d6",
+              "originalWidth": 635,
+              "originalHeight": 400,
+              "caption": "",
+              "resolutions": [
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/aS9zbGzWhD4VAou4J8VzXA--~B/aD00MDA7dz02MzU7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/zacks.com/ccb59fd9aab6f9d8ecdcb013249e30d6",
+                  "width": 635,
+                  "height": 400,
+                  "tag": "original"
+                },
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/6h98ndnazcfiWjk7GkHQjw--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/zacks.com/ccb59fd9aab6f9d8ecdcb013249e30d6",
+                  "width": 170,
+                  "height": 128,
+                  "tag": "170x128"
+                }
+              ]
+            },
+            "provider": {
+              "displayName": "Zacks",
+              "url": "http://www.zacks.com/"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/sempra-energy-rides-lng-operations-153600467.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/sempra-energy-rides-lng-operations-153600467.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        },
+        {
+          "id": "02793bd1-e9a7-3e01-b601-eaf18b4753ac",
+          "content": {
+            "id": "02793bd1-e9a7-3e01-b601-eaf18b4753ac",
+            "contentType": "STORY",
+            "title": "Sempra (SRE) Prioritizes Long-Term Growth Over Short-Term Challenges",
+            "description": "",
+            "summary": "ClearBridge Investments, an investment management company, released its \u201cClearBridge Large Cap Value Strategy\u201d first quarter 2025 investor letter. A copy of the letter can be downloaded here. The S&P 500 Index declined by -4.3% in Q1 2025 due to a tariff war and a shift away from AI-related tech stocks. Amid the tech-led sell-off, the [\u2026]",
+            "pubDate": "2025-05-20T13:17:17Z",
+            "displayTime": "2025-05-20T13:17:17Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": {
+              "originalUrl": "https://media.zenfs.com/en/insidermonkey.com/ece937db709c1ea7a36f86538d17cc1c",
+              "originalWidth": 768,
+              "originalHeight": 430,
+              "caption": "\u2018It Did Not Deliver\u2019 \u2013 Jim Cramer Slams Sempra (SRE) After Disappointing Quarter",
+              "resolutions": [
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/TIrx57AhyDC_vNfbMjvspA--~B/aD00MzA7dz03Njg7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/insidermonkey.com/ece937db709c1ea7a36f86538d17cc1c",
+                  "width": 768,
+                  "height": 430,
+                  "tag": "original"
+                },
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/oqiOHzu1aLMey8VmIRRj4Q--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/insidermonkey.com/ece937db709c1ea7a36f86538d17cc1c",
+                  "width": 170,
+                  "height": 128,
+                  "tag": "170x128"
+                }
+              ]
+            },
+            "provider": {
+              "displayName": "Insider Monkey",
+              "url": "http://www.insidermonkey.com"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/sempra-sre-prioritizes-long-term-131717084.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/sempra-sre-prioritizes-long-term-131717084.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        },
+        {
+          "id": "6a714abb-e584-3103-9113-fe0105afa433",
+          "content": {
+            "id": "6a714abb-e584-3103-9113-fe0105afa433",
+            "contentType": "STORY",
+            "title": "Tariffs Can\u2019t Stop the U.S. LNG Boom",
+            "description": "",
+            "summary": "The biggest LNG developers are confident they would give the investment go-ahead to their projects sooner rather than later, top executives said on the companies\u2019 earnings calls.",
+            "pubDate": "2025-05-19T23:00:00Z",
+            "displayTime": "2025-05-19T23:00:00Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": null,
+            "provider": {
+              "displayName": "Oilprice.com",
+              "url": "http://oilprice.com"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/tariffs-t-stop-u-lng-230000959.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/tariffs-t-stop-u-lng-230000959.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        },
+        {
+          "id": "9ba021cc-98a5-3b9e-9c0e-5dbd6d34ebee",
+          "content": {
+            "id": "9ba021cc-98a5-3b9e-9c0e-5dbd6d34ebee",
+            "contentType": "STORY",
+            "title": "Update: Market Chatter: Aramco Reportedly Signing Memoranda of Understanding With NextDecade, Sempra for LNG Supply",
+            "description": "",
+            "summary": "(Updates with NextDecade comments in the fourth and fifth paragraphs.) Aramco's chief executive A",
+            "pubDate": "2025-05-13T15:37:31Z",
+            "displayTime": "2025-05-13T15:37:31Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": null,
+            "provider": {
+              "displayName": "MT Newswires",
+              "url": "https://www.mtnewswires.com/"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/market-chatter-aramco-reportedly-signing-153731378.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/market-chatter-aramco-reportedly-signing-153731378.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": true,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        },
+        {
+          "id": "279c0b39-5188-352a-b02b-090f1289be72",
+          "content": {
+            "id": "279c0b39-5188-352a-b02b-090f1289be72",
+            "contentType": "STORY",
+            "title": "Sempra to sell Mexican natural gas business to fund transmission expansion in Texas",
+            "description": "",
+            "summary": "The sale of gas assets and a minority interest in Sempra Infrastructure would reduce the company's need to issue new common stock to fund its $56 billion capital plan, CEO Jeff Martin said.",
+            "pubDate": "2025-05-09T09:00:00Z",
+            "displayTime": "2025-05-09T09:00:00Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": {
+              "originalUrl": "https://media.zenfs.com/en/utility_dive_591/43dcaf908756e7fd1dcbef61414184c8",
+              "originalWidth": 1600,
+              "originalHeight": 900,
+              "caption": "Power pylons carry electricity across a rural landscape on Route 66 in Texas.",
+              "resolutions": [
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/BXsTz8uRvZxoVyPgB19Viw--~B/aD05MDA7dz0xNjAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/utility_dive_591/43dcaf908756e7fd1dcbef61414184c8",
+                  "width": 1600,
+                  "height": 900,
+                  "tag": "original"
+                },
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/jlRQZB64.DryzP_jjHxEhQ--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/utility_dive_591/43dcaf908756e7fd1dcbef61414184c8",
+                  "width": 170,
+                  "height": 128,
+                  "tag": "170x128"
+                }
+              ]
+            },
+            "provider": {
+              "displayName": "Utility Dive",
+              "url": "https://utilitydive.com/"
+            },
+            "canonicalUrl": {
+              "url": "https://www.utilitydive.com/news/sempra-earnings-mexican-natural-gas-oncor-transmission/747618/",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/sempra-sell-mexican-natural-gas-090000436.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        },
+        {
+          "id": "8a5bc3f1-1a52-305d-bc67-351010f18b5b",
+          "content": {
+            "id": "8a5bc3f1-1a52-305d-bc67-351010f18b5b",
+            "contentType": "STORY",
+            "title": "Sempra (SRE) Q1 2025 Earnings Call Highlights: Strong EPS Growth and Strategic Investments",
+            "description": "",
+            "summary": "Sempra (SRE) reports increased earnings and reaffirms guidance, while planning significant infrastructure investments in the U.S.",
+            "pubDate": "2025-05-09T07:35:13Z",
+            "displayTime": "2025-05-09T07:35:13Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": {
+              "originalUrl": "https://media.zenfs.com/en/us.finance.gurufocus/f414a714bf6e9ec3387da9e8a421fafd",
+              "originalWidth": 500,
+              "originalHeight": 500,
+              "caption": "",
+              "resolutions": [
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/9zVAeH59K9jYtKb7V2AbDA--~B/aD01MDA7dz01MDA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/us.finance.gurufocus/f414a714bf6e9ec3387da9e8a421fafd",
+                  "width": 500,
+                  "height": 500,
+                  "tag": "original"
+                },
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/DirnDeLxBGpB89MP5PL5fg--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/us.finance.gurufocus/f414a714bf6e9ec3387da9e8a421fafd",
+                  "width": 170,
+                  "height": 128,
+                  "tag": "170x128"
+                }
+              ]
+            },
+            "provider": {
+              "displayName": "GuruFocus.com",
+              "url": "http://www.gurufocus.com/"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/sempra-sre-q1-2025-earnings-073513996.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/sempra-sre-q1-2025-earnings-073513996.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        }
+      ]
+    },
+    "recommendations": {
+      "status": "no_data"
+    }
+  },
+  "holders_data": {
+    "major_holders": {
+      "status": "no_data"
+    },
+    "institutional_holders": {
+      "status": "no_data"
+    }
+  },
+  "earnings_data": {
+    "earnings": {
+      "status": "error",
+      "message": "'NoneType' object has no attribute 'empty'"
+    },
+    "calendar": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  }
+}

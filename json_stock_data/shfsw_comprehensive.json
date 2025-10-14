@@ -1,9 +1,32 @@
 {
   "ticker": "SHFSW",
-  "timestamp": "2025-10-09T04:26:34.099878",
+  "timestamp": "2025-10-14T04:48:20.481438",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 3,
+    "data": [
+      {
+        "Close": 0.03869999945163727,
+        "High": 0.03869999945163727,
+        "Low": 0.03869999945163727,
+        "Open": 0.03869999945163727,
+        "Volume": 0
+      },
+      {
+        "Close": 0.03779999911785126,
+        "High": 0.03799999877810478,
+        "Low": 0.03779999911785126,
+        "Open": 0.03799999877810478,
+        "Volume": 200
+      },
+      {
+        "Close": 0.03779999911785126,
+        "High": 0.03779999911785126,
+        "Low": 0.03779999911785126,
+        "Open": 0.03779999911785126,
+        "Volume": 2297
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -482,15 +505,16 @@
       ]
     },
     "recommendations": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   },
   "holders_data": {
     "major_holders": {
-      "status": "no_data"
+      "status": "error"
     },
     "institutional_holders": {
-      "status": "no_data"
+      "status": "error"
     }
   },
   "earnings_data": {

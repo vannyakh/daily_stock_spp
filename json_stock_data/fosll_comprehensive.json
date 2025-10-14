@@ -1,13 +1,71 @@
 {
   "ticker": "FOSLL",
-  "timestamp": "2025-10-09T04:29:31.792310",
+  "timestamp": "2025-10-14T04:52:57.289578",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 8,
+    "data": [
+      {
+        "Close": 18.280000686645508,
+        "High": 18.280000686645508,
+        "Low": 18.280000686645508,
+        "Open": 18.280000686645508,
+        "Volume": 0
+      },
+      {
+        "Close": 18.0,
+        "High": 18.0,
+        "Low": 18.0,
+        "Open": 18.0,
+        "Volume": 2598
+      },
+      {
+        "Close": 17.459999084472656,
+        "High": 17.579999923706055,
+        "Low": 17.459999084472656,
+        "Open": 17.469999313354492,
+        "Volume": 744
+      },
+      {
+        "Close": 17.975000381469727,
+        "High": 17.975000381469727,
+        "Low": 17.975000381469727,
+        "Open": 17.975000381469727,
+        "Volume": 283
+      },
+      {
+        "Close": 18.0,
+        "High": 18.0,
+        "Low": 18.0,
+        "Open": 18.0,
+        "Volume": 911
+      },
+      {
+        "Close": 17.989999771118164,
+        "High": 17.989999771118164,
+        "Low": 17.989999771118164,
+        "Open": 17.989999771118164,
+        "Volume": 300
+      },
+      {
+        "Close": 18.274999618530273,
+        "High": 18.70549964904785,
+        "Low": 18.274999618530273,
+        "Open": 18.70549964904785,
+        "Volume": 586
+      },
+      {
+        "Close": 17.989999771118164,
+        "High": 17.989999771118164,
+        "Low": 17.989999771118164,
+        "Open": 17.989999771118164,
+        "Volume": 522
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
-    "message": "argument of type 'NoneType' is not iterable"
+    "message": "Too Many Requests. Rate limited. Try after a while."
   },
   "financials": {
     "income_statement": {
@@ -21,7 +79,8 @@
     }
   },
   "options_data": {
-    "expirations": []
+    "status": "error",
+    "error_message": "Too Many Requests. Rate limited. Try after a while."
   },
   "news_data": {
     "news": {

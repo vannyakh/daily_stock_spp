@@ -1,9 +1,18 @@
 {
   "ticker": "CYTHW",
-  "timestamp": "2025-10-09T04:27:55.695838",
+  "timestamp": "2025-10-14T04:50:31.181821",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 1,
+    "data": [
+      {
+        "Close EFSCP": 20.010099411010742,
+        "High EFSCP": 20.30500030517578,
+        "Low EFSCP": 20.010000228881836,
+        "Open EFSCP": 20.30500030517578,
+        "Volume EFSCP": 2221
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -93,16 +102,15 @@
       ]
     },
     "recommendations": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
+      "status": "no_data"
     }
   },
   "holders_data": {
     "major_holders": {
-      "status": "error"
+      "status": "no_data"
     },
     "institutional_holders": {
-      "status": "error"
+      "status": "no_data"
     }
   },
   "earnings_data": {

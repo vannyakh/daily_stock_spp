@@ -1,9 +1,18 @@
 {
   "ticker": "DXFFY",
-  "timestamp": "2025-10-09T04:19:53.059772",
+  "timestamp": "2025-10-14T04:37:52.451600",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 1,
+    "data": [
+      {
+        "Close": 3.2200000286102295,
+        "High": 3.2300000190734863,
+        "Low": 3.069999933242798,
+        "Open": 3.2300000190734863,
+        "Volume": 30094
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -29,7 +38,8 @@
       "status": "no_data"
     },
     "recommendations": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   },
   "holders_data": {

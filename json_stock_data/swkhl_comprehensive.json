@@ -1,43 +1,13 @@
 {
   "ticker": "SWKHL",
-  "timestamp": "2025-10-09T04:28:58.292000",
+  "timestamp": "2025-10-14T04:52:08.209135",
   "intraday_data": {
-    "status": "success",
-    "rows": 4,
-    "data": [
-      {
-        "Close": 25.415000915527344,
-        "High": 25.415000915527344,
-        "Low": 25.415000915527344,
-        "Open": 25.415000915527344,
-        "Volume": 0
-      },
-      {
-        "Close": 25.424999237060547,
-        "High": 25.424999237060547,
-        "Low": 25.424999237060547,
-        "Open": 25.424999237060547,
-        "Volume": 300
-      },
-      {
-        "Close": 25.424999237060547,
-        "High": 25.424999237060547,
-        "Low": 25.424999237060547,
-        "Open": 25.424999237060547,
-        "Volume": 0
-      },
-      {
-        "Close": 25.429899215698242,
-        "High": 25.43000030517578,
-        "Low": 25.429899215698242,
-        "Open": 25.43000030517578,
-        "Volume": 1240
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
-    "message": "argument of type 'NoneType' is not iterable"
+    "message": "Too Many Requests. Rate limited. Try after a while."
   },
   "financials": {
     "income_statement": {
@@ -57,7 +27,7 @@
   "news_data": {
     "news": {
       "status": "success",
-      "count": 4,
+      "count": 3,
       "data": [
         {
           "id": "fedcb2b0-af52-3439-852f-9349c1e9d74e",
@@ -203,54 +173,11 @@
             },
             "storyline": null
           }
-        },
-        {
-          "id": "bddd45ae-bef8-300d-a1f3-2a37c02ec8b4",
-          "content": {
-            "id": "bddd45ae-bef8-300d-a1f3-2a37c02ec8b4",
-            "contentType": "STORY",
-            "title": "SWK Holdings Corp (SWKH) Q2 2024 Earnings Call Highlights: Strong Portfolio Growth Amidst ...",
-            "description": "",
-            "summary": "SWK Holdings Corp (SWKH) reports a 19% increase in net finance receivables and strategic share repurchases, while navigating impairments and competitive pressures.",
-            "pubDate": "2024-10-09T22:32:53Z",
-            "displayTime": "2024-10-09T22:32:53Z",
-            "isHosted": true,
-            "bypassModal": false,
-            "previewUrl": null,
-            "thumbnail": null,
-            "provider": {
-              "displayName": "GuruFocus.com",
-              "url": "http://www.gurufocus.com/"
-            },
-            "canonicalUrl": {
-              "url": "https://finance.yahoo.com/news/swk-holdings-corp-swkh-q2-223253528.html",
-              "site": "finance",
-              "region": "US",
-              "lang": "en-US"
-            },
-            "clickThroughUrl": {
-              "url": "https://finance.yahoo.com/news/swk-holdings-corp-swkh-q2-223253528.html",
-              "site": "finance",
-              "region": "US",
-              "lang": "en-US"
-            },
-            "metadata": {
-              "editorsPick": false
-            },
-            "finance": {
-              "premiumFinance": {
-                "isPremiumNews": false,
-                "isPremiumFreeNews": false
-              }
-            },
-            "storyline": null
-          }
         }
       ]
     },
     "recommendations": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
+      "status": "no_data"
     }
   },
   "holders_data": {

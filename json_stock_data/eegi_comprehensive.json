@@ -1,9 +1,46 @@
 {
   "ticker": "EEGI",
-  "timestamp": "2025-10-09T04:18:36.563988",
+  "timestamp": "2025-10-14T04:36:00.184983",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 5,
+    "data": [
+      {
+        "Close LIPO": 0.550000011920929,
+        "High LIPO": 0.550000011920929,
+        "Low LIPO": 0.550000011920929,
+        "Open LIPO": 0.550000011920929,
+        "Volume LIPO": 0
+      },
+      {
+        "Close LIPO": 0.5299999713897705,
+        "High LIPO": 0.5299999713897705,
+        "Low LIPO": 0.5299999713897705,
+        "Open LIPO": 0.5299999713897705,
+        "Volume LIPO": 200
+      },
+      {
+        "Close LIPO": 0.5210000276565552,
+        "High LIPO": 0.5210000276565552,
+        "Low LIPO": 0.5210000276565552,
+        "Open LIPO": 0.5210000276565552,
+        "Volume LIPO": 400
+      },
+      {
+        "Close LIPO": 0.5109999775886536,
+        "High LIPO": 0.5109999775886536,
+        "Low LIPO": 0.5109999775886536,
+        "Open LIPO": 0.5109999775886536,
+        "Volume LIPO": 100
+      },
+      {
+        "Close LIPO": 0.5109999775886536,
+        "High LIPO": 0.5109999775886536,
+        "Low LIPO": 0.5109999775886536,
+        "Open LIPO": 0.5109999775886536,
+        "Volume LIPO": 100
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -11,44 +48,14 @@
   },
   "financials": {
     "income_statement": {
-      "status": "no_data"
-    },
-    "balance_sheet": {
-      "status": "no_data"
-    },
-    "cash_flow": {
-      "status": "no_data"
-    }
-  },
-  "options_data": {
-    "status": "error",
-    "error_message": "Too Many Requests. Rate limited. Try after a while."
-  },
-  "news_data": {
-    "news": {
-      "status": "no_data"
-    },
-    "recommendations": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
-    }
-  },
-  "holders_data": {
-    "major_holders": {
-      "status": "error"
-    },
-    "institutional_holders": {
-      "status": "error"
-    }
-  },
-  "earnings_data": {
-    "earnings": {
-      "status": "error",
-      "message": "'NoneType' object has no attribute 'empty'"
-    },
-    "calendar": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
-    }
-  }
-}
+      "status": "success",
+      "rows": 33,
+      "columns": [
+        "2024-12-31 00:00:00",
+        "2023-12-31 00:00:00",
+        "2022-12-31 00:00:00",
+        "2021-12-31 00:00:00"
+      ],
+      "data": [
+        {
+          

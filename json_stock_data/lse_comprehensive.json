@@ -1,9 +1,32 @@
 {
   "ticker": "LSE",
-  "timestamp": "2025-10-09T04:11:21.494033",
+  "timestamp": "2025-10-14T04:24:29.938236",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 3,
+    "data": [
+      {
+        "Close": 5.307700157165527,
+        "High": 5.307700157165527,
+        "Low": 5.307700157165527,
+        "Open": 5.307700157165527,
+        "Volume": 3038
+      },
+      {
+        "Close": 5.301199913024902,
+        "High": 5.301199913024902,
+        "Low": 5.301199913024902,
+        "Open": 5.301199913024902,
+        "Volume": 855
+      },
+      {
+        "Close": 5.300000190734863,
+        "High": 5.300000190734863,
+        "Low": 5.300000190734863,
+        "Open": 5.300000190734863,
+        "Volume": 278
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -379,8 +402,7 @@
       ]
     },
     "recommendations": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
+      "status": "no_data"
     }
   },
   "holders_data": {

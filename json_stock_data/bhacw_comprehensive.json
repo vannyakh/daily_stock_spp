@@ -1,9 +1,32 @@
 {
   "ticker": "BHACW",
-  "timestamp": "2025-10-09T04:26:34.348459",
+  "timestamp": "2025-10-14T04:48:18.587230",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 3,
+    "data": [
+      {
+        "Close SHFSW": 0.03869999945163727,
+        "High SHFSW": 0.03869999945163727,
+        "Low SHFSW": 0.03869999945163727,
+        "Open SHFSW": 0.03869999945163727,
+        "Volume SHFSW": 0
+      },
+      {
+        "Close SHFSW": 0.03779999911785126,
+        "High SHFSW": 0.03799999877810478,
+        "Low SHFSW": 0.03779999911785126,
+        "Open SHFSW": 0.03799999877810478,
+        "Volume SHFSW": 200
+      },
+      {
+        "Close SHFSW": 0.03779999911785126,
+        "High SHFSW": 0.03779999911785126,
+        "Low SHFSW": 0.03779999911785126,
+        "Open SHFSW": 0.03779999911785126,
+        "Volume SHFSW": 2297
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -26,63 +49,19 @@
   },
   "news_data": {
     "news": {
-      "status": "success",
-      "count": 1,
-      "data": [
-        {
-          "id": "057b4032-da0d-3fb1-95ec-92f73b4433e2",
-          "content": {
-            "id": "057b4032-da0d-3fb1-95ec-92f73b4433e2",
-            "contentType": "STORY",
-            "title": "Focus Impact Shares to be Suspended from Nasdaq Trading",
-            "description": "",
-            "summary": "Focus Impact Shares to be Suspended from Nasdaq Trading",
-            "pubDate": "2024-10-11T18:33:24Z",
-            "displayTime": "2024-10-11T18:33:24Z",
-            "isHosted": true,
-            "bypassModal": false,
-            "previewUrl": null,
-            "thumbnail": null,
-            "provider": {
-              "displayName": "MT Newswires",
-              "url": "https://www.mtnewswires.com/"
-            },
-            "canonicalUrl": {
-              "url": "https://finance.yahoo.com/news/focus-impact-shares-suspended-nasdaq-183324800.html",
-              "site": "finance",
-              "region": "US",
-              "lang": "en-US"
-            },
-            "clickThroughUrl": {
-              "url": "https://finance.yahoo.com/news/focus-impact-shares-suspended-nasdaq-183324800.html",
-              "site": "finance",
-              "region": "US",
-              "lang": "en-US"
-            },
-            "metadata": {
-              "editorsPick": false
-            },
-            "finance": {
-              "premiumFinance": {
-                "isPremiumNews": true,
-                "isPremiumFreeNews": false
-              }
-            },
-            "storyline": null
-          }
-        }
-      ]
+      "status": "no_data"
     },
     "recommendations": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   },
   "holders_data": {
     "major_holders": {
-      "status": "no_data"
+      "status": "error"
     },
     "institutional_holders": {
-      "status": "no_data"
+      "status": "error"
     }
   },
   "earnings_data": {

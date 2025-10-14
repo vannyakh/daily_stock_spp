@@ -1,32 +1,9 @@
 {
   "ticker": "OMCC",
-  "timestamp": "2025-10-09T04:14:05.527965",
+  "timestamp": "2025-10-14T04:28:47.403824",
   "intraday_data": {
-    "status": "success",
-    "rows": 3,
-    "data": [
-      {
-        "Close": 5.308599948883057,
-        "High": 5.308599948883057,
-        "Low": 4.989999771118164,
-        "Open": 5.308599948883057,
-        "Volume": 0
-      },
-      {
-        "Close": 5.239999771118164,
-        "High": 5.239999771118164,
-        "Low": 5.239999771118164,
-        "Open": 5.239999771118164,
-        "Volume": 3572
-      },
-      {
-        "Close": 5.46999979019165,
-        "High": 5.46999979019165,
-        "Low": 5.46999979019165,
-        "Open": 5.46999979019165,
-        "Volume": 1510
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -177,7 +154,8 @@
       ]
     },
     "recommendations": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   },
   "holders_data": {

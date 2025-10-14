@@ -1,53 +1,9 @@
 {
   "ticker": "EADSF",
-  "timestamp": "2025-10-09T04:21:13.330544",
+  "timestamp": "2025-10-14T04:39:59.775783",
   "intraday_data": {
-    "status": "success",
-    "rows": 6,
-    "data": [
-      {
-        "Close": 237.0500030517578,
-        "High": 237.0500030517578,
-        "Low": 237.0,
-        "Open": 237.0,
-        "Volume": 0
-      },
-      {
-        "Close": 237.0,
-        "High": 237.0,
-        "Low": 237.0,
-        "Open": 237.0,
-        "Volume": 10
-      },
-      {
-        "Close": 236.0,
-        "High": 236.0,
-        "Low": 236.0,
-        "Open": 236.0,
-        "Volume": 100
-      },
-      {
-        "Close": 239.0,
-        "High": 239.0,
-        "Low": 239.0,
-        "Open": 239.0,
-        "Volume": 3
-      },
-      {
-        "Close": 238.0,
-        "High": 238.0,
-        "Low": 238.0,
-        "Open": 238.0,
-        "Volume": 100
-      },
-      {
-        "Close": 238.0,
-        "High": 238.0,
-        "Low": 238.0,
-        "Open": 238.0,
-        "Volume": 2
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -55,14 +11,638 @@
   },
   "financials": {
     "income_statement": {
+      "status": "no_data"
+    },
+    "balance_sheet": {
+      "status": "no_data"
+    },
+    "cash_flow": {
+      "status": "no_data"
+    }
+  },
+  "options_data": {
+    "status": "error",
+    "error_message": "Too Many Requests. Rate limited. Try after a while."
+  },
+  "news_data": {
+    "news": {
       "status": "success",
-      "rows": 44,
-      "columns": [
-        "2024-12-31 00:00:00",
-        "2023-12-31 00:00:00",
-        "2022-12-31 00:00:00",
-        "2021-12-31 00:00:00"
-      ],
+      "count": 10,
       "data": [
         {
-          
+          "id": "08d2bd30-c9e1-3d9d-9928-0feff2c8cf6c",
+          "content": {
+            "id": "08d2bd30-c9e1-3d9d-9928-0feff2c8cf6c",
+            "contentType": "STORY",
+            "title": "Airlines Face More Than $11 Billion in Extra Costs Amid Supply Challenges, IATA Says",
+            "description": "",
+            "summary": "Aircraft production delays could cost the airline industry more than $11 billion this year, as an ag",
+            "pubDate": "2025-10-13T18:04:10Z",
+            "displayTime": "2025-10-13T18:04:10Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": {
+              "originalUrl": "https://media.zenfs.com/en/mt_newswires_premium_news_706/cd4c59d93fac2b2890c94826bd93d85c",
+              "originalWidth": 1000,
+              "originalHeight": 667,
+              "caption": "airline4 - Shutterstock",
+              "resolutions": [
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/Nm0g1y_0F00KrBhL.STRfg--~B/aD02Njc7dz0xMDAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/mt_newswires_premium_news_706/cd4c59d93fac2b2890c94826bd93d85c",
+                  "width": 1000,
+                  "height": 667,
+                  "tag": "original"
+                },
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/b9ZbI0.P5pltCTO5c2qkDA--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/mt_newswires_premium_news_706/cd4c59d93fac2b2890c94826bd93d85c",
+                  "width": 170,
+                  "height": 128,
+                  "tag": "170x128"
+                }
+              ]
+            },
+            "provider": {
+              "displayName": "MT Newswires",
+              "url": "https://www.mtnewswires.com/"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/airlines-face-more-11-billion-180410528.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/airlines-face-more-11-billion-180410528.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": true,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        },
+        {
+          "id": "ddfafe95-f50e-33fe-85d9-dc9e6f436327",
+          "content": {
+            "id": "ddfafe95-f50e-33fe-85d9-dc9e6f436327",
+            "contentType": "STORY",
+            "title": "Boeing Stock Rises 41.4% in a Year: What Should Investors Do Now?",
+            "description": "",
+            "summary": "BA's 41% stock surge is fueled by booming jet orders and defense wins, but weak ROIC and fading estimates may test investors' confidence.",
+            "pubDate": "2025-10-13T14:02:00Z",
+            "displayTime": "2025-10-13T14:02:00Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": {
+              "originalUrl": "https://media.zenfs.com/en/zacks.com/7a3bb699b166757d5def43fc64d10497",
+              "originalWidth": 635,
+              "originalHeight": 400,
+              "caption": "",
+              "resolutions": [
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/YK4xnzcJTIGxMZ_xakT.pA--~B/aD00MDA7dz02MzU7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/zacks.com/7a3bb699b166757d5def43fc64d10497",
+                  "width": 635,
+                  "height": 400,
+                  "tag": "original"
+                },
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/cZriZYBEsxuhjBarh1_2_A--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/zacks.com/7a3bb699b166757d5def43fc64d10497",
+                  "width": 170,
+                  "height": 128,
+                  "tag": "170x128"
+                }
+              ]
+            },
+            "provider": {
+              "displayName": "Zacks",
+              "url": "http://www.zacks.com/"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/boeing-stock-rises-41-4-140200397.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/boeing-stock-rises-41-4-140200397.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        },
+        {
+          "id": "553f59e3-876b-33f3-baec-3e273d4bb952",
+          "content": {
+            "id": "553f59e3-876b-33f3-baec-3e273d4bb952",
+            "contentType": "STORY",
+            "title": "Is Leonardo DRS, Inc. (DRS) Outperforming Other Aerospace Stocks This Year?",
+            "description": "",
+            "summary": "Here is how Leonardo DRS, Inc. (DRS) and Airbus SE - Unsponsored ADR (EADSY) have performed compared to their sector so far this year.",
+            "pubDate": "2025-10-13T13:40:03Z",
+            "displayTime": "2025-10-13T13:40:03Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": {
+              "originalUrl": "https://media.zenfs.com/en/zacks.com/1a018a29aef5adbf5b4319f32058e209",
+              "originalWidth": 900,
+              "originalHeight": 600,
+              "caption": "",
+              "resolutions": [
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/nxwFIPS2ImeTQYZMYlnAgg--~B/aD02MDA7dz05MDA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/zacks.com/1a018a29aef5adbf5b4319f32058e209",
+                  "width": 900,
+                  "height": 600,
+                  "tag": "original"
+                },
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/wWH_bZ_Pg8IIFWiHu6880A--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/zacks.com/1a018a29aef5adbf5b4319f32058e209",
+                  "width": 170,
+                  "height": 128,
+                  "tag": "170x128"
+                }
+              ]
+            },
+            "provider": {
+              "displayName": "Zacks",
+              "url": "http://www.zacks.com/"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/leonardo-drs-inc-drs-outperforming-134003272.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/leonardo-drs-inc-drs-outperforming-134003272.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        },
+        {
+          "id": "d6122f87-2be4-3fc3-ba82-f12efd0e586f",
+          "content": {
+            "id": "d6122f87-2be4-3fc3-ba82-f12efd0e586f",
+            "contentType": "STORY",
+            "title": "3 Growth Stocks Down 25% to 54% to Buy Right Now",
+            "description": "",
+            "summary": "These companies operate in desirable long-term growth markets that are currently experiencing some temporary weakness.",
+            "pubDate": "2025-10-11T17:42:00Z",
+            "displayTime": "2025-10-11T17:42:00Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": {
+              "originalUrl": "https://media.zenfs.com/en/motleyfool.com/98cfd1ce74c2784c4917b3b795ad5c8c",
+              "originalWidth": 1400,
+              "originalHeight": 934,
+              "caption": "A smiling couple sitting on the floor of their new home and counting a fresh supply of cash.",
+              "resolutions": [
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/ei.ykdxW.VcLN_4rti_6gg--~B/aD05MzQ7dz0xNDAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/motleyfool.com/98cfd1ce74c2784c4917b3b795ad5c8c",
+                  "width": 1400,
+                  "height": 934,
+                  "tag": "original"
+                },
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/m1LhN.qi06M3VoqEun8T_Q--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/motleyfool.com/98cfd1ce74c2784c4917b3b795ad5c8c",
+                  "width": 170,
+                  "height": 128,
+                  "tag": "170x128"
+                }
+              ]
+            },
+            "provider": {
+              "displayName": "Motley Fool",
+              "url": "http://www.fool.com/"
+            },
+            "canonicalUrl": {
+              "url": "https://www.fool.com/investing/2025/10/11/3-growth-stocks-down-25-to-54-to-buy-right-now/",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/3-growth-stocks-down-25-174200936.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        },
+        {
+          "id": "0a7a94b8-53f7-3df8-a1cd-d82a2f6d0872",
+          "content": {
+            "id": "0a7a94b8-53f7-3df8-a1cd-d82a2f6d0872",
+            "contentType": "STORY",
+            "title": "How Supplier Strain and Governance Scrutiny at Spirit AeroSystems (SPR) Has Changed Its Investment Story",
+            "description": "",
+            "summary": "In recent days, Spirit AeroSystems Holdings reportedly asked Boeing and Airbus to help absorb inflation costs, while production issues at its customers and an investigation into its corporate governance were also announced. This series of events highlights mounting pressures throughout the aerospace supply chain and growing scrutiny of Spirit AeroSystems' internal oversight. We\u2019ll explore how Spirit AeroSystems\u2019 request for inflation relief from key partners shapes its evolving investment...",
+            "pubDate": "2025-10-10T20:06:48Z",
+            "displayTime": "2025-10-10T20:06:48Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": {
+              "originalUrl": "https://media.zenfs.com/en/simply_wall_st__316/4b379f9ed3f80f55476d72ed08ba4e52",
+              "originalWidth": 1194,
+              "originalHeight": 432,
+              "caption": "",
+              "resolutions": [
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/yhs92jtzc6Qzq8t7Tx5IAw--~B/aD00MzI7dz0xMTk0O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/simply_wall_st__316/4b379f9ed3f80f55476d72ed08ba4e52",
+                  "width": 1194,
+                  "height": 432,
+                  "tag": "original"
+                },
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/wCp66IZKz1jWP12XMoiyvg--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/simply_wall_st__316/4b379f9ed3f80f55476d72ed08ba4e52",
+                  "width": 170,
+                  "height": 128,
+                  "tag": "170x128"
+                }
+              ]
+            },
+            "provider": {
+              "displayName": "Simply Wall St.",
+              "url": "https://simplywall.st/"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/supplier-strain-governance-scrutiny-spirit-200648175.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/supplier-strain-governance-scrutiny-spirit-200648175.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        },
+        {
+          "id": "f4a41d43-5c04-30eb-829c-bd79c6b15680",
+          "content": {
+            "id": "f4a41d43-5c04-30eb-829c-bd79c6b15680",
+            "contentType": "STORY",
+            "title": "Spirit AeroSystems (SPR): Evaluating Valuation Following Major Customer Talks, Delivery Delays, and Management Probe",
+            "description": "",
+            "summary": "Spirit AeroSystems Holdings (SPR) is in the spotlight after three significant developments: its request for financial relief from Boeing and Airbus, a supplier-related slowdown in Boeing deliveries, and an investigation into its management\u2019s conduct. See our latest analysis for Spirit AeroSystems Holdings. This flurry of news comes after a solid run for Spirit AeroSystems. While the share price dipped 4.1% on the latest trading day, its year-to-date gain sits at 15.2%. Momentum has cooled in...",
+            "pubDate": "2025-10-10T14:08:34Z",
+            "displayTime": "2025-10-10T14:08:34Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": {
+              "originalUrl": "https://media.zenfs.com/en/simply_wall_st__316/4b379f9ed3f80f55476d72ed08ba4e52",
+              "originalWidth": 1194,
+              "originalHeight": 432,
+              "caption": "",
+              "resolutions": [
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/yhs92jtzc6Qzq8t7Tx5IAw--~B/aD00MzI7dz0xMTk0O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/simply_wall_st__316/4b379f9ed3f80f55476d72ed08ba4e52",
+                  "width": 1194,
+                  "height": 432,
+                  "tag": "original"
+                },
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/wCp66IZKz1jWP12XMoiyvg--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/simply_wall_st__316/4b379f9ed3f80f55476d72ed08ba4e52",
+                  "width": 170,
+                  "height": 128,
+                  "tag": "170x128"
+                }
+              ]
+            },
+            "provider": {
+              "displayName": "Simply Wall St.",
+              "url": "https://simplywall.st/"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/spirit-aerosystems-spr-evaluating-valuation-140834379.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/spirit-aerosystems-spr-evaluating-valuation-140834379.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        },
+        {
+          "id": "2feb9306-4297-328d-b00d-7f5b6990a4f4",
+          "content": {
+            "id": "2feb9306-4297-328d-b00d-7f5b6990a4f4",
+            "contentType": "STORY",
+            "title": "How Investors May Respond To Airbus (ENXTPA:AIR) Surpassing Boeing in Deliveries and Winning Key Airline Orders",
+            "description": "",
+            "summary": "In recent days, Airbus overtook Boeing\u2019s 737 as the world\u2019s most-delivered passenger plane, with the milestone A320 delivery to Saudi carrier Flynas marking a shift in industry leadership. At the same time, Turkish Airlines signaled it may transfer a 150-jet order from Boeing to Airbus if Boeing's engine supplier negotiations fall through, highlighting Airbus\u2019s strengthened competitive advantage in global order contests. We\u2019ll now examine how this newfound delivery leadership and the...",
+            "pubDate": "2025-10-10T01:11:04Z",
+            "displayTime": "2025-10-10T01:11:04Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": {
+              "originalUrl": "https://media.zenfs.com/en/simply_wall_st__316/487d008a8060e3d91fb2b2271a603d3c",
+              "originalWidth": 1194,
+              "originalHeight": 432,
+              "caption": "",
+              "resolutions": [
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/7SISLG6dwk0JDWnvcB2ZKw--~B/aD00MzI7dz0xMTk0O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/simply_wall_st__316/487d008a8060e3d91fb2b2271a603d3c",
+                  "width": 1194,
+                  "height": 432,
+                  "tag": "original"
+                },
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/3z1Mn9Dtak3ZWHSFtlprBA--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/simply_wall_st__316/487d008a8060e3d91fb2b2271a603d3c",
+                  "width": 170,
+                  "height": 128,
+                  "tag": "170x128"
+                }
+              ]
+            },
+            "provider": {
+              "displayName": "Simply Wall St.",
+              "url": "https://simplywall.st/"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/investors-may-respond-airbus-enxtpa-011104880.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/investors-may-respond-airbus-enxtpa-011104880.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        },
+        {
+          "id": "d33e795d-e299-3e67-ab1c-22d453cad9e4",
+          "content": {
+            "id": "d33e795d-e299-3e67-ab1c-22d453cad9e4",
+            "contentType": "STORY",
+            "title": "Market Chatter: Boeing in Danger of Losing Turkish Airlines 737 Max Order if Engine Deal Falters",
+            "description": "",
+            "summary": "Boeing (BA) could lose Turkish Airlines' recent order for 150 737 Max jets to rival Airbus' A320neos",
+            "pubDate": "2025-10-09T11:47:15Z",
+            "displayTime": "2025-10-09T11:47:15Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": null,
+            "provider": {
+              "displayName": "MT Newswires",
+              "url": "https://www.mtnewswires.com/"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/market-chatter-boeing-danger-losing-114715079.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/market-chatter-boeing-danger-losing-114715079.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": true,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        },
+        {
+          "id": "1b1ab038-42ce-37c2-91e1-6a309b133841",
+          "content": {
+            "id": "1b1ab038-42ce-37c2-91e1-6a309b133841",
+            "contentType": "STORY",
+            "title": "GE Aerospace's flight data app rapidly expands user base",
+            "description": "",
+            "summary": "(Reuters) -The number of commercial pilots using GE Aerospace's flight data monitoring app, FlightPulse, has expanded rapidly from 40,000 a year ago to more than 60,000, and the company expects to exceed 70,000 by year-end.  Airlines pay an undisclosed fee per pilot to use it, and the app burnishes the engine-maker's reputation for safety and efficiency with its airline customers.  Qantas Captain Mark Cameron has been using FlightPulse to get accustomed to the Airbus A321, which he recently started flying after years in the much larger A330 twin-aisle jet.",
+            "pubDate": "2025-10-09T10:02:52Z",
+            "displayTime": "2025-10-09T10:02:52Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": {
+              "originalUrl": "https://media.zenfs.com/en/reuters-finance.com/8c9e1262b01c69e8df53471e3f30b7e7",
+              "originalWidth": 800,
+              "originalHeight": 533,
+              "caption": "FILE PHOTO: Pilots are seen in the cockpit of an airplane as it sits on the tarmac at John F. Kennedy International Airport on the July 4th weekend in Queens, New York City",
+              "resolutions": [
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/7twPqqF_2BvRidMw6P7cYw--~B/aD01MzM7dz04MDA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/reuters-finance.com/8c9e1262b01c69e8df53471e3f30b7e7",
+                  "width": 800,
+                  "height": 533,
+                  "tag": "original"
+                },
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/0wohKNWX8J3VveWIOM5aRg--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/reuters-finance.com/8c9e1262b01c69e8df53471e3f30b7e7",
+                  "width": 170,
+                  "height": 128,
+                  "tag": "170x128"
+                }
+              ]
+            },
+            "provider": {
+              "displayName": "Reuters",
+              "url": "http://www.reuters.com/"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/ge-aerospaces-flight-data-app-100252261.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/ge-aerospaces-flight-data-app-100252261.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        },
+        {
+          "id": "12d19426-98e9-3224-a4a2-8e0c3f1b679f",
+          "content": {
+            "id": "12d19426-98e9-3224-a4a2-8e0c3f1b679f",
+            "contentType": "STORY",
+            "title": "Air Lease Announces Encouraging Activity Update for Q3 2025",
+            "description": "",
+            "summary": "AL benefits from its robust fleet size, contributing to an encouraging activity update for the third quarter of 2025.",
+            "pubDate": "2025-10-07T17:09:00Z",
+            "displayTime": "2025-10-07T17:09:00Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": {
+              "originalUrl": "https://media.zenfs.com/en/zacks.com/ff1646c3e13adb6c050bce40dc6d4849",
+              "originalWidth": 620,
+              "originalHeight": 412,
+              "caption": "",
+              "resolutions": [
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/ouChDyDSVbiCPe0mniT_ig--~B/aD00MTI7dz02MjA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/zacks.com/ff1646c3e13adb6c050bce40dc6d4849",
+                  "width": 620,
+                  "height": 412,
+                  "tag": "original"
+                },
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/ZKQnKlyKRfyrIF90ONg4Jw--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/zacks.com/ff1646c3e13adb6c050bce40dc6d4849",
+                  "width": 170,
+                  "height": 128,
+                  "tag": "170x128"
+                }
+              ]
+            },
+            "provider": {
+              "displayName": "Zacks",
+              "url": "http://www.zacks.com/"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/air-lease-announces-encouraging-activity-170900959.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/air-lease-announces-encouraging-activity-170900959.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        }
+      ]
+    },
+    "recommendations": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  },
+  "holders_data": {
+    "major_holders": {
+      "status": "error"
+    },
+    "institutional_holders": {
+      "status": "error"
+    }
+  },
+  "earnings_data": {
+    "earnings": {
+      "status": "error",
+      "message": "'NoneType' object has no attribute 'empty'"
+    },
+    "calendar": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  }
+}
