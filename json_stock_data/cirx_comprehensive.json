@@ -1,37 +1,23 @@
 {
   "ticker": "CIRX",
-  "timestamp": "2025-10-14T04:38:01.556585",
+  "timestamp": "2025-10-15T04:43:21.225314",
   "intraday_data": {
     "status": "success",
-    "rows": 4,
+    "rows": 2,
     "data": [
       {
-        "Close IPIX": 9.999999747378752e-05,
-        "High IPIX": 9.999999747378752e-05,
-        "Low IPIX": 9.999999747378752e-05,
-        "Open IPIX": 9.999999747378752e-05,
-        "Volume IPIX": 0
+        "Close BETSF": 0.0010000000474974513,
+        "High BETSF": 0.0010000000474974513,
+        "Low BETSF": 0.0010000000474974513,
+        "Open BETSF": 0.0010000000474974513,
+        "Volume BETSF": 0
       },
       {
-        "Close IPIX": 9.999999747378752e-05,
-        "High IPIX": 9.999999747378752e-05,
-        "Low IPIX": 9.999999747378752e-05,
-        "Open IPIX": 9.999999747378752e-05,
-        "Volume IPIX": 4040
-      },
-      {
-        "Close IPIX": 0.0020000000949949026,
-        "High IPIX": 0.0020000000949949026,
-        "Low IPIX": 0.0020000000949949026,
-        "Open IPIX": 0.0020000000949949026,
-        "Volume IPIX": 100
-      },
-      {
-        "Close IPIX": 0.0020000000949949026,
-        "High IPIX": 0.0020000000949949026,
-        "Low IPIX": 0.0020000000949949026,
-        "Open IPIX": 0.0020000000949949026,
-        "Volume IPIX": 500
+        "Close BETSF": 0.0010000000474974513,
+        "High BETSF": 0.0010000000474974513,
+        "Low BETSF": 0.0010000000474974513,
+        "Open BETSF": 0.0010000000474974513,
+        "Volume BETSF": 203
       }
     ]
   },
@@ -47,15 +33,38 @@
       "status": "no_data"
     },
     "cash_flow": {
-      "status": "success",
-      "rows": 53,
-      "columns": [
-        "2024-12-31 00:00:00",
-        "2023-12-31 00:00:00",
-        "2022-12-31 00:00:00",
-        "2021-12-31 00:00:00",
-        "2020-12-31 00:00:00"
-      ],
-      "data": [
-        {
-          
+      "status": "no_data"
+    }
+  },
+  "options_data": {
+    "status": "error",
+    "error_message": "Too Many Requests. Rate limited. Try after a while."
+  },
+  "news_data": {
+    "news": {
+      "status": "no_data"
+    },
+    "recommendations": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  },
+  "holders_data": {
+    "major_holders": {
+      "status": "error"
+    },
+    "institutional_holders": {
+      "status": "error"
+    }
+  },
+  "earnings_data": {
+    "earnings": {
+      "status": "error",
+      "message": "'NoneType' object has no attribute 'empty'"
+    },
+    "calendar": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  }
+}

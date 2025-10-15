@@ -1,77 +1,24 @@
 {
   "ticker": "TFLM",
-  "timestamp": "2025-10-14T04:45:49.795261",
+  "timestamp": "2025-10-15T04:52:06.123553",
   "intraday_data": {
-    "status": "success",
-    "rows": 3,
-    "data": [
-      {
-        "Close WLDSW": 2.4700000286102295,
-        "High WLDSW": 2.4700000286102295,
-        "Low WLDSW": 2.4700000286102295,
-        "Open WLDSW": 2.4700000286102295,
-        "Volume WLDSW": 0
-      },
-      {
-        "Close WLDSW": 2.6500000953674316,
-        "High WLDSW": 2.6500000953674316,
-        "Low WLDSW": 2.6500000953674316,
-        "Open WLDSW": 2.6500000953674316,
-        "Volume WLDSW": 1800
-      },
-      {
-        "Close WLDSW": 3.75,
-        "High WLDSW": 3.75,
-        "Low WLDSW": 3.75,
-        "Open WLDSW": 3.75,
-        "Volume WLDSW": 0
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
-    "message": "Too Many Requests. Rate limited. Try after a while."
+    "message": "argument of type 'NoneType' is not iterable"
   },
   "financials": {
     "income_statement": {
-      "status": "no_data"
-    },
-    "balance_sheet": {
-      "status": "no_data"
-    },
-    "cash_flow": {
-      "status": "no_data"
-    }
-  },
-  "options_data": {
-    "status": "error",
-    "error_message": "Too Many Requests. Rate limited. Try after a while."
-  },
-  "news_data": {
-    "news": {
-      "status": "no_data"
-    },
-    "recommendations": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
-    }
-  },
-  "holders_data": {
-    "major_holders": {
-      "status": "error"
-    },
-    "institutional_holders": {
-      "status": "error"
-    }
-  },
-  "earnings_data": {
-    "earnings": {
-      "status": "error",
-      "message": "'NoneType' object has no attribute 'empty'"
-    },
-    "calendar": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
-    }
-  }
-}
+      "status": "success",
+      "rows": 38,
+      "columns": [
+        "2024-07-31 00:00:00",
+        "2023-07-31 00:00:00",
+        "2022-07-31 00:00:00",
+        "2021-07-31 00:00:00"
+      ],
+      "data": [
+        {
+          

@@ -1,9 +1,9 @@
 {
   "ticker": "FGPR",
-  "timestamp": "2025-10-14T04:21:49.314239",
+  "timestamp": "2025-10-15T04:25:21.911121",
   "intraday_data": {
     "status": "success",
-    "rows": 4,
+    "rows": 5,
     "data": [
       {
         "Close": 14.609999656677246,
@@ -32,6 +32,13 @@
         "Low": 14.649999618530273,
         "Open": 14.649999618530273,
         "Volume": 100
+      },
+      {
+        "Close": 14.520000457763672,
+        "High": 14.520000457763672,
+        "Low": 14.520000457763672,
+        "Open": 14.520000457763672,
+        "Volume": 774
       }
     ]
   },
@@ -44,14 +51,41 @@
       "status": "no_data"
     },
     "balance_sheet": {
-      "status": "success",
-      "rows": 68,
-      "columns": [
-        "2024-07-31 00:00:00",
-        "2023-07-31 00:00:00",
-        "2022-07-31 00:00:00",
-        "2021-07-31 00:00:00"
-      ],
-      "data": [
-        {
-          
+      "status": "no_data"
+    },
+    "cash_flow": {
+      "status": "no_data"
+    }
+  },
+  "options_data": {
+    "status": "error",
+    "error_message": "Too Many Requests. Rate limited. Try after a while."
+  },
+  "news_data": {
+    "news": {
+      "status": "no_data"
+    },
+    "recommendations": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  },
+  "holders_data": {
+    "major_holders": {
+      "status": "error"
+    },
+    "institutional_holders": {
+      "status": "error"
+    }
+  },
+  "earnings_data": {
+    "earnings": {
+      "status": "error",
+      "message": "'NoneType' object has no attribute 'empty'"
+    },
+    "calendar": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  }
+}

@@ -1,24 +1,526 @@
 {
   "ticker": "TGL",
-  "timestamp": "2025-10-14T04:34:20.983184",
+  "timestamp": "2025-10-15T04:39:07.453766",
   "intraday_data": {
     "status": "no_data",
     "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
-    "message": "argument of type 'NoneType' is not iterable"
+    "message": "Too Many Requests. Rate limited. Try after a while."
   },
   "financials": {
     "income_statement": {
+      "status": "no_data"
+    },
+    "balance_sheet": {
+      "status": "no_data"
+    },
+    "cash_flow": {
+      "status": "no_data"
+    }
+  },
+  "options_data": {
+    "status": "error",
+    "error_message": "Too Many Requests. Rate limited. Try after a while."
+  },
+  "news_data": {
+    "news": {
       "status": "success",
-      "rows": 44,
-      "columns": [
-        "2024-06-30 00:00:00",
-        "2023-06-30 00:00:00",
-        "2022-06-30 00:00:00",
-        "2021-06-30 00:00:00"
-      ],
+      "count": 8,
       "data": [
         {
-          
+          "id": "e2bbc0eb-5a10-317a-9dba-0b0d4868fb98",
+          "content": {
+            "id": "e2bbc0eb-5a10-317a-9dba-0b0d4868fb98",
+            "contentType": "STORY",
+            "title": "BC-Most Active Stocks",
+            "description": "",
+            "summary": "YY Group Holdings Ltd. 147,635,481 0.52",
+            "pubDate": "2025-09-11T14:30:30Z",
+            "displayTime": "2025-09-11T14:30:30Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": null,
+            "provider": {
+              "displayName": "Associated Press Finance",
+              "url": "http://www.ap.org/"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/bc-most-active-stocks-143030880.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/bc-most-active-stocks-143030880.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        },
+        {
+          "id": "db439552-f1ba-3f35-b642-26b5d5fabe94",
+          "content": {
+            "id": "db439552-f1ba-3f35-b642-26b5d5fabe94",
+            "contentType": "STORY",
+            "title": "Teo Guan Lee Corporation Berhad (KLSE:TGL) Is Posting Promising Earnings But The Good News Doesn\u2019t Stop There",
+            "description": "",
+            "summary": "The market seemed underwhelmed by last week's earnings announcement from Teo Guan Lee Corporation Berhad ( KLSE:TGL...",
+            "pubDate": "2025-09-03T22:44:14Z",
+            "displayTime": "2025-09-03T22:44:14Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": {
+              "originalUrl": "https://media.zenfs.com/en/simply_wall_st__316/1d405932ab06ff458a2892e2e6f5b19b",
+              "originalWidth": 1194,
+              "originalHeight": 432,
+              "caption": "",
+              "resolutions": [
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/v2TYmTZo63my46MElvPZPA--~B/aD00MzI7dz0xMTk0O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/simply_wall_st__316/1d405932ab06ff458a2892e2e6f5b19b",
+                  "width": 1194,
+                  "height": 432,
+                  "tag": "original"
+                },
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/PLmdMZf2l5TYoLkSPnjItA--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/simply_wall_st__316/1d405932ab06ff458a2892e2e6f5b19b",
+                  "width": 170,
+                  "height": 128,
+                  "tag": "170x128"
+                }
+              ]
+            },
+            "provider": {
+              "displayName": "Simply Wall St.",
+              "url": "https://simplywall.st/"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/teo-guan-lee-corporation-berhad-224414206.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/teo-guan-lee-corporation-berhad-224414206.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        },
+        {
+          "id": "9a11c303-33fa-3231-b949-d8861215d8f3",
+          "content": {
+            "id": "9a11c303-33fa-3231-b949-d8861215d8f3",
+            "contentType": "STORY",
+            "title": "Teo Guan Lee Corporation Berhad Full Year 2025 Earnings: EPS: RM0.13 (vs RM0.13 in FY 2024)",
+            "description": "",
+            "summary": "Teo Guan Lee Corporation Berhad ( KLSE:TGL ) Full Year 2025 Results Key Financial Results Revenue: RM130.7m (down 1.9...",
+            "pubDate": "2025-08-29T22:03:19Z",
+            "displayTime": "2025-08-29T22:03:19Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": {
+              "originalUrl": "https://media.zenfs.com/en/simply_wall_st__316/78a8c60a6283aea0450523395306d38c",
+              "originalWidth": 945,
+              "originalHeight": 636,
+              "caption": "",
+              "resolutions": [
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/5Vpve0Pc2F3m_L3fs2p_dQ--~B/aD02MzY7dz05NDU7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/simply_wall_st__316/78a8c60a6283aea0450523395306d38c",
+                  "width": 945,
+                  "height": 636,
+                  "tag": "original"
+                },
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/5K6kmrQzRk.k.11fs9N_QA--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/simply_wall_st__316/78a8c60a6283aea0450523395306d38c",
+                  "width": 170,
+                  "height": 128,
+                  "tag": "170x128"
+                }
+              ]
+            },
+            "provider": {
+              "displayName": "Simply Wall St.",
+              "url": "https://simplywall.st/"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/teo-guan-lee-corporation-berhad-220319725.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/teo-guan-lee-corporation-berhad-220319725.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        },
+        {
+          "id": "b6a28372-1feb-32a1-9eb6-1e87c2f8ad56",
+          "content": {
+            "id": "b6a28372-1feb-32a1-9eb6-1e87c2f8ad56",
+            "contentType": "STORY",
+            "title": "Teo Guan Lee Corporation Berhad (KLSE:TGL) Is Experiencing Growth In Returns On Capital",
+            "description": "",
+            "summary": "What trends should we look for it we want to identify stocks that can multiply in value over the long term? Firstly...",
+            "pubDate": "2025-08-19T23:28:11Z",
+            "displayTime": "2025-08-19T23:28:11Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": {
+              "originalUrl": "https://media.zenfs.com/en/simply_wall_st__316/1d405932ab06ff458a2892e2e6f5b19b",
+              "originalWidth": 1194,
+              "originalHeight": 432,
+              "caption": "",
+              "resolutions": [
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/v2TYmTZo63my46MElvPZPA--~B/aD00MzI7dz0xMTk0O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/simply_wall_st__316/1d405932ab06ff458a2892e2e6f5b19b",
+                  "width": 1194,
+                  "height": 432,
+                  "tag": "original"
+                },
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/PLmdMZf2l5TYoLkSPnjItA--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/simply_wall_st__316/1d405932ab06ff458a2892e2e6f5b19b",
+                  "width": 170,
+                  "height": 128,
+                  "tag": "170x128"
+                }
+              ]
+            },
+            "provider": {
+              "displayName": "Simply Wall St.",
+              "url": "https://simplywall.st/"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/teo-guan-lee-corporation-berhad-232811701.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/teo-guan-lee-corporation-berhad-232811701.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        },
+        {
+          "id": "5e12713d-812f-3ec1-bf17-75f21bc792e5",
+          "content": {
+            "id": "5e12713d-812f-3ec1-bf17-75f21bc792e5",
+            "contentType": "STORY",
+            "title": "Treasure Global launches $100M digital asset treasury strategy",
+            "description": "",
+            "summary": "Treasure Global (TGL) announced the launch of a $100M digital asset treasury initiative as a part of a broader strategy to reinforce its digital infrastructure and support the forthcoming launch of its AI-powered consumer intelligence platform in the third quarter of 2025. The treasury initiative is backed by two capital sources: $50M from an existing equity financing agreement. $50M secured through a new institutional commitment from a strategic funding partner. The strategy enables Treasure Gl",
+            "pubDate": "2025-06-05T13:06:34Z",
+            "displayTime": "2025-06-05T13:06:34Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": {
+              "originalUrl": "https://media.zenfs.com/en/tipranks_452/3db48cd1b3c8e86b7b1e47a404e1b6d3",
+              "originalWidth": 192,
+              "originalHeight": 192,
+              "caption": "https://www.tipranks.com/news/the-fly/treasure-global-launches-100m-digital-asset-treasury-strategy-thefly",
+              "resolutions": [
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/dP7CH2MkOvRx32gX5XDqsA--~B/aD0xOTI7dz0xOTI7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/tipranks_452/3db48cd1b3c8e86b7b1e47a404e1b6d3",
+                  "width": 192,
+                  "height": 192,
+                  "tag": "original"
+                },
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/rtwqjF_oPLgCaS0vm_R.yA--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/tipranks_452/3db48cd1b3c8e86b7b1e47a404e1b6d3",
+                  "width": 170,
+                  "height": 128,
+                  "tag": "170x128"
+                }
+              ]
+            },
+            "provider": {
+              "displayName": "TipRanks",
+              "url": "https://www.tipranks.com/"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/treasure-global-launches-100m-digital-130634209.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/treasure-global-launches-100m-digital-130634209.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        },
+        {
+          "id": "e20c4d58-4a20-3620-a008-bcf0738d95f9",
+          "content": {
+            "id": "e20c4d58-4a20-3620-a008-bcf0738d95f9",
+            "contentType": "STORY",
+            "title": "Treasure Global Third Quarter 2025 Earnings: EPS: US$1.09 (vs US$116 loss in 3Q 2024)",
+            "description": "",
+            "summary": "Treasure Global ( NASDAQ:TGL ) Third Quarter 2025 Results Key Financial Results Net income: US$1.26m (up from US$1.71m...",
+            "pubDate": "2025-05-17T13:03:37Z",
+            "displayTime": "2025-05-17T13:03:37Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": {
+              "originalUrl": "https://media.zenfs.com/en/simply_wall_st__316/78a8c60a6283aea0450523395306d38c",
+              "originalWidth": 945,
+              "originalHeight": 636,
+              "caption": "",
+              "resolutions": [
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/5Vpve0Pc2F3m_L3fs2p_dQ--~B/aD02MzY7dz05NDU7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/simply_wall_st__316/78a8c60a6283aea0450523395306d38c",
+                  "width": 945,
+                  "height": 636,
+                  "tag": "original"
+                },
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/5K6kmrQzRk.k.11fs9N_QA--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/simply_wall_st__316/78a8c60a6283aea0450523395306d38c",
+                  "width": 170,
+                  "height": 128,
+                  "tag": "170x128"
+                }
+              ]
+            },
+            "provider": {
+              "displayName": "Simply Wall St.",
+              "url": "https://simplywall.st/"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/treasure-global-third-quarter-2025-130337126.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/treasure-global-third-quarter-2025-130337126.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        },
+        {
+          "id": "98a1bfd6-7465-3ec5-81ed-fc58cffda6d1",
+          "content": {
+            "id": "98a1bfd6-7465-3ec5-81ed-fc58cffda6d1",
+            "contentType": "STORY",
+            "title": "Treasure Global Second Quarter 2025 Earnings: US$0.011 loss per share (vs US$2.22 loss in 2Q 2024)",
+            "description": "",
+            "summary": "Treasure Global ( NASDAQ:TGL ) Second Quarter 2025 Results Key Financial Results Revenue: US$301.9k (down 96% from 2Q...",
+            "pubDate": "2025-02-16T13:20:38Z",
+            "displayTime": "2025-02-16T13:20:38Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": {
+              "originalUrl": "https://media.zenfs.com/en/simply_wall_st__316/78a8c60a6283aea0450523395306d38c",
+              "originalWidth": 945,
+              "originalHeight": 636,
+              "caption": "",
+              "resolutions": [
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/5Vpve0Pc2F3m_L3fs2p_dQ--~B/aD02MzY7dz05NDU7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/simply_wall_st__316/78a8c60a6283aea0450523395306d38c",
+                  "width": 945,
+                  "height": 636,
+                  "tag": "original"
+                },
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/5K6kmrQzRk.k.11fs9N_QA--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/simply_wall_st__316/78a8c60a6283aea0450523395306d38c",
+                  "width": 170,
+                  "height": 128,
+                  "tag": "170x128"
+                }
+              ]
+            },
+            "provider": {
+              "displayName": "Simply Wall St.",
+              "url": "https://simplywall.st/"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/treasure-global-second-quarter-2025-132038271.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/treasure-global-second-quarter-2025-132038271.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        },
+        {
+          "id": "6d6cf40a-494d-362e-ad2e-fe2434bf5690",
+          "content": {
+            "id": "6d6cf40a-494d-362e-ad2e-fe2434bf5690",
+            "contentType": "STORY",
+            "title": "Treasure Global enters service partnership with Octagram",
+            "description": "",
+            "summary": "Treasure Global (TGL) announced the signing of a significant partnership agreement with Octagram Investment. This strategic collaboration aims to enhance user engagement and drive growth through the integration of innovative mini-game modules into the ZCity platform. This collaboration aims to drive growth and enhance user engagement through the integration of innovative technology modules into the ZCity platform, including interactive mini-games. As part of the agreement, OCTA will design and d",
+            "pubDate": "2024-10-23T13:25:46Z",
+            "displayTime": "2024-10-23T13:25:46Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": {
+              "originalUrl": "https://media.zenfs.com/en/tipranks_452/d9491735df358cd245e88d03b92dc707",
+              "originalWidth": 192,
+              "originalHeight": 192,
+              "caption": "https://www.tipranks.com/news/the-fly/treasure-global-enters-service-partnership-with-octagram",
+              "resolutions": [
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/SAICltmuLgmQaK.qiQB0Cg--~B/aD0xOTI7dz0xOTI7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/tipranks_452/d9491735df358cd245e88d03b92dc707",
+                  "width": 192,
+                  "height": 192,
+                  "tag": "original"
+                },
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/Xk16VtLFBk1WsVqRmCpYTQ--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/tipranks_452/d9491735df358cd245e88d03b92dc707",
+                  "width": 170,
+                  "height": 128,
+                  "tag": "170x128"
+                }
+              ]
+            },
+            "provider": {
+              "displayName": "TipRanks",
+              "url": "https://www.tipranks.com/"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/treasure-global-enters-partnership-octagram-132546548.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/treasure-global-enters-partnership-octagram-132546548.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        }
+      ]
+    },
+    "recommendations": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  },
+  "holders_data": {
+    "major_holders": {
+      "status": "error"
+    },
+    "institutional_holders": {
+      "status": "error"
+    }
+  },
+  "earnings_data": {
+    "earnings": {
+      "status": "error",
+      "message": "'NoneType' object has no attribute 'empty'"
+    },
+    "calendar": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  }
+}

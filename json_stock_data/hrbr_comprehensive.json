@@ -1,9 +1,46 @@
 {
   "ticker": "HRBR",
-  "timestamp": "2025-10-14T04:37:34.510503",
+  "timestamp": "2025-10-15T04:42:48.192722",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 5,
+    "data": [
+      {
+        "Close": 0.8100000023841858,
+        "High": 0.8100000023841858,
+        "Low": 0.8100000023841858,
+        "Open": 0.8100000023841858,
+        "Volume": 0
+      },
+      {
+        "Close": 0.8199999928474426,
+        "High": 0.8199999928474426,
+        "Low": 0.8199999928474426,
+        "Open": 0.8199999928474426,
+        "Volume": 15000
+      },
+      {
+        "Close": 0.8199999928474426,
+        "High": 0.8199999928474426,
+        "Low": 0.8199999928474426,
+        "Open": 0.8199999928474426,
+        "Volume": 821
+      },
+      {
+        "Close": 0.8199999928474426,
+        "High": 0.8199999928474426,
+        "Low": 0.8199999928474426,
+        "Open": 0.8199999928474426,
+        "Volume": 9179
+      },
+      {
+        "Close": 0.8999999761581421,
+        "High": 0.8999999761581421,
+        "Low": 0.8999999761581421,
+        "Open": 0.8999999761581421,
+        "Volume": 5000
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -14,14 +51,41 @@
       "status": "no_data"
     },
     "balance_sheet": {
-      "status": "success",
-      "rows": 83,
-      "columns": [
-        "2023-12-31 00:00:00",
-        "2022-12-31 00:00:00",
-        "2021-12-31 00:00:00",
-        "2020-12-31 00:00:00"
-      ],
-      "data": [
-        {
-          
+      "status": "no_data"
+    },
+    "cash_flow": {
+      "status": "no_data"
+    }
+  },
+  "options_data": {
+    "status": "error",
+    "error_message": "Too Many Requests. Rate limited. Try after a while."
+  },
+  "news_data": {
+    "news": {
+      "status": "no_data"
+    },
+    "recommendations": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  },
+  "holders_data": {
+    "major_holders": {
+      "status": "error"
+    },
+    "institutional_holders": {
+      "status": "error"
+    }
+  },
+  "earnings_data": {
+    "earnings": {
+      "status": "error",
+      "message": "'NoneType' object has no attribute 'empty'"
+    },
+    "calendar": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  }
+}

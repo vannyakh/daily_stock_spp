@@ -1,9 +1,9 @@
 {
   "ticker": "TIKK",
-  "timestamp": "2025-10-14T04:33:56.962621",
+  "timestamp": "2025-10-15T04:38:40.267938",
   "intraday_data": {
     "status": "success",
-    "rows": 1,
+    "rows": 2,
     "data": [
       {
         "Close": 3.890000104904175,
@@ -11,6 +11,13 @@
         "Low": 3.890000104904175,
         "Open": 3.890000104904175,
         "Volume": 0
+      },
+      {
+        "Close": 3.8499999046325684,
+        "High": 3.8499999046325684,
+        "Low": 3.8499999046325684,
+        "Open": 3.8499999046325684,
+        "Volume": 100
       }
     ]
   },
@@ -20,14 +27,44 @@
   },
   "financials": {
     "income_statement": {
-      "status": "success",
-      "rows": 46,
-      "columns": [
-        "2024-03-31 00:00:00",
-        "2023-03-31 00:00:00",
-        "2022-03-31 00:00:00",
-        "2021-03-31 00:00:00"
-      ],
-      "data": [
-        {
-          
+      "status": "no_data"
+    },
+    "balance_sheet": {
+      "status": "no_data"
+    },
+    "cash_flow": {
+      "status": "no_data"
+    }
+  },
+  "options_data": {
+    "status": "error",
+    "error_message": "Too Many Requests. Rate limited. Try after a while."
+  },
+  "news_data": {
+    "news": {
+      "status": "no_data"
+    },
+    "recommendations": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  },
+  "holders_data": {
+    "major_holders": {
+      "status": "error"
+    },
+    "institutional_holders": {
+      "status": "error"
+    }
+  },
+  "earnings_data": {
+    "earnings": {
+      "status": "error",
+      "message": "'NoneType' object has no attribute 'empty'"
+    },
+    "calendar": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  }
+}

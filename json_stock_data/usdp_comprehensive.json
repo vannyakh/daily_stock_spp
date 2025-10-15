@@ -1,9 +1,39 @@
 {
   "ticker": "USDP",
-  "timestamp": "2025-10-14T04:43:57.908258",
+  "timestamp": "2025-10-15T04:50:05.879067",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 4,
+    "data": [
+      {
+        "Close": 0.008700000122189522,
+        "High": 0.008700000122189522,
+        "Low": 0.008100000210106373,
+        "Open": 0.008100000210106373,
+        "Volume": 0
+      },
+      {
+        "Close": 0.008700000122189522,
+        "High": 0.008700000122189522,
+        "Low": 0.008700000122189522,
+        "Open": 0.008700000122189522,
+        "Volume": 21248
+      },
+      {
+        "Close": 0.006800000090152025,
+        "High": 0.006800000090152025,
+        "Low": 0.006800000090152025,
+        "Open": 0.006800000090152025,
+        "Volume": 2000
+      },
+      {
+        "Close": 0.008999999612569809,
+        "High": 0.008999999612569809,
+        "Low": 0.008999999612569809,
+        "Open": 0.008999999612569809,
+        "Volume": 42805
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -17,13 +47,38 @@
       "status": "no_data"
     },
     "cash_flow": {
-      "status": "success",
-      "rows": 47,
-      "columns": [
-        "2022-12-31 00:00:00",
-        "2021-12-31 00:00:00",
-        "2020-12-31 00:00:00"
-      ],
-      "data": [
-        {
-          
+      "status": "no_data"
+    }
+  },
+  "options_data": {
+    "status": "error",
+    "error_message": "Too Many Requests. Rate limited. Try after a while."
+  },
+  "news_data": {
+    "news": {
+      "status": "no_data"
+    },
+    "recommendations": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  },
+  "holders_data": {
+    "major_holders": {
+      "status": "error"
+    },
+    "institutional_holders": {
+      "status": "error"
+    }
+  },
+  "earnings_data": {
+    "earnings": {
+      "status": "error",
+      "message": "'NoneType' object has no attribute 'empty'"
+    },
+    "calendar": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  }
+}

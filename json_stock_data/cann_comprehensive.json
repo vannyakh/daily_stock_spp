@@ -1,46 +1,9 @@
 {
   "ticker": "CANN",
-  "timestamp": "2025-10-14T04:35:48.148484",
+  "timestamp": "2025-10-15T04:40:52.603018",
   "intraday_data": {
-    "status": "success",
-    "rows": 5,
-    "data": [
-      {
-        "Close": 0.04390000179409981,
-        "High": 0.04390000179409981,
-        "Low": 0.04390000179409981,
-        "Open": 0.04390000179409981,
-        "Volume": 0
-      },
-      {
-        "Close": 0.045499999076128006,
-        "High": 0.045499999076128006,
-        "Low": 0.045499999076128006,
-        "Open": 0.045499999076128006,
-        "Volume": 2197
-      },
-      {
-        "Close": 0.038100000470876694,
-        "High": 0.03999999910593033,
-        "Low": 0.038100000470876694,
-        "Open": 0.03999999910593033,
-        "Volume": 1000
-      },
-      {
-        "Close": 0.04309999942779541,
-        "High": 0.04309999942779541,
-        "Low": 0.04309999942779541,
-        "Open": 0.04309999942779541,
-        "Volume": 2320
-      },
-      {
-        "Close": 0.04309999942779541,
-        "High": 0.04309999942779541,
-        "Low": 0.04309999942779541,
-        "Open": 0.04309999942779541,
-        "Volume": 3000
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -48,44 +11,14 @@
   },
   "financials": {
     "income_statement": {
-      "status": "no_data"
-    },
-    "balance_sheet": {
-      "status": "no_data"
-    },
-    "cash_flow": {
-      "status": "no_data"
-    }
-  },
-  "options_data": {
-    "status": "error",
-    "error_message": "Too Many Requests. Rate limited. Try after a while."
-  },
-  "news_data": {
-    "news": {
-      "status": "no_data"
-    },
-    "recommendations": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
-    }
-  },
-  "holders_data": {
-    "major_holders": {
-      "status": "error"
-    },
-    "institutional_holders": {
-      "status": "error"
-    }
-  },
-  "earnings_data": {
-    "earnings": {
-      "status": "error",
-      "message": "'NoneType' object has no attribute 'empty'"
-    },
-    "calendar": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
-    }
-  }
-}
+      "status": "success",
+      "rows": 51,
+      "columns": [
+        "2023-12-31 00:00:00",
+        "2022-12-31 00:00:00",
+        "2021-12-31 00:00:00",
+        "2020-12-31 00:00:00"
+      ],
+      "data": [
+        {
+          

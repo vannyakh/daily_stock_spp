@@ -1,9 +1,46 @@
 {
   "ticker": "BRRN",
-  "timestamp": "2025-10-14T04:43:40.564754",
+  "timestamp": "2025-10-15T04:49:46.711444",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 5,
+    "data": [
+      {
+        "Close ADMQ": 0.04010000079870224,
+        "High ADMQ": 0.04010000079870224,
+        "Low ADMQ": 0.04010000079870224,
+        "Open ADMQ": 0.04010000079870224,
+        "Volume ADMQ": 0
+      },
+      {
+        "Close ADMQ": 0.04010000079870224,
+        "High ADMQ": 0.041200000792741776,
+        "Low ADMQ": 0.04010000079870224,
+        "Open ADMQ": 0.041200000792741776,
+        "Volume ADMQ": 44825
+      },
+      {
+        "Close ADMQ": 0.039900001138448715,
+        "High ADMQ": 0.039900001138448715,
+        "Low ADMQ": 0.039900001138448715,
+        "Open ADMQ": 0.039900001138448715,
+        "Volume ADMQ": 25000
+      },
+      {
+        "Close ADMQ": 0.03610000014305115,
+        "High ADMQ": 0.03720000013709068,
+        "Low ADMQ": 0.03610000014305115,
+        "Open ADMQ": 0.03720000013709068,
+        "Volume ADMQ": 13000
+      },
+      {
+        "Close ADMQ": 0.03700000047683716,
+        "High ADMQ": 0.03700000047683716,
+        "Low ADMQ": 0.03700000047683716,
+        "Open ADMQ": 0.03700000047683716,
+        "Volume ADMQ": 215000
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -29,7 +66,8 @@
       "status": "no_data"
     },
     "recommendations": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   },
   "holders_data": {

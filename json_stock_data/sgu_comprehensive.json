@@ -1,9 +1,10 @@
 {
   "ticker": "SGU",
-  "timestamp": "2025-10-14T04:18:01.681090",
+  "timestamp": "2025-10-15T04:21:30.634703",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 0,
+    "data": []
   },
   "stock_info": {
     "status": "error",
@@ -11,14 +12,581 @@
   },
   "financials": {
     "income_statement": {
+      "status": "no_data"
+    },
+    "balance_sheet": {
+      "status": "no_data"
+    },
+    "cash_flow": {
+      "status": "no_data"
+    }
+  },
+  "options_data": {
+    "status": "error",
+    "error_message": "Too Many Requests. Rate limited. Try after a while."
+  },
+  "news_data": {
+    "news": {
       "status": "success",
-      "rows": 43,
-      "columns": [
-        "2024-09-30 00:00:00",
-        "2023-09-30 00:00:00",
-        "2022-09-30 00:00:00",
-        "2021-09-30 00:00:00"
-      ],
+      "count": 10,
       "data": [
         {
-          
+          "id": "9bbe0187-73ad-30e2-9ee5-6143969de59c",
+          "content": {
+            "id": "9bbe0187-73ad-30e2-9ee5-6143969de59c",
+            "contentType": "STORY",
+            "title": "Star Group Q3 Net Loss Widens Y/Y on Lower Sales, Revenues Fall",
+            "description": "",
+            "summary": "SGU's Q3 revenues drop 7.8% y/y and net loss widens as lower sales volumes offset gains from acquisitions and improved margins.",
+            "pubDate": "2025-08-11T15:26:00Z",
+            "displayTime": "2025-08-11T15:26:00Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": {
+              "originalUrl": "https://media.zenfs.com/en/zacks.com/5ffeb83ada09c44e2b9fdba5353a4fa9",
+              "originalWidth": 620,
+              "originalHeight": 360,
+              "caption": "",
+              "resolutions": [
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/ByKSc.S9mF5K3Tt9siAzIg--~B/aD0zNjA7dz02MjA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/zacks.com/5ffeb83ada09c44e2b9fdba5353a4fa9",
+                  "width": 620,
+                  "height": 360,
+                  "tag": "original"
+                },
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/v7q3Qr0h7WA._suzI7Gw6g--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/zacks.com/5ffeb83ada09c44e2b9fdba5353a4fa9",
+                  "width": 170,
+                  "height": 128,
+                  "tag": "170x128"
+                }
+              ]
+            },
+            "provider": {
+              "displayName": "Zacks",
+              "url": "http://www.zacks.com/"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/star-group-q3-net-loss-152600190.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/star-group-q3-net-loss-152600190.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        },
+        {
+          "id": "ba970133-0217-3c63-92e2-3e0cc76e5fac",
+          "content": {
+            "id": "ba970133-0217-3c63-92e2-3e0cc76e5fac",
+            "contentType": "STORY",
+            "title": "Star Group LP (SGU) Q3 2025 Earnings Call Highlights: Strategic Acquisitions and Service ...",
+            "description": "",
+            "summary": "Despite a net loss, Star Group LP (SGU) leverages acquisitions and service improvements to bolster its financial resilience and expand market reach.",
+            "pubDate": "2025-08-08T15:01:56Z",
+            "displayTime": "2025-08-08T15:01:56Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": null,
+            "provider": {
+              "displayName": "GuruFocus.com",
+              "url": "http://www.gurufocus.com/"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/star-group-lp-sgu-q3-150156804.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/star-group-lp-sgu-q3-150156804.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        },
+        {
+          "id": "7a647a29-3c5f-36df-b6e0-1be6e154a39c",
+          "content": {
+            "id": "7a647a29-3c5f-36df-b6e0-1be6e154a39c",
+            "contentType": "STORY",
+            "title": "Star Group Q2 Earnings Rise Y/Y on Cold Weather, Acquisition Boost",
+            "description": "",
+            "summary": "Despite higher costs and a weather hedge loss, SGU sees improved margins, expands service revenues and continues its acquisition push.",
+            "pubDate": "2025-05-12T17:18:00Z",
+            "displayTime": "2025-05-12T17:18:00Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": {
+              "originalUrl": "https://media.zenfs.com/en/zacks.com/6f2cab89bf2cbad1966358e04258e202",
+              "originalWidth": 635,
+              "originalHeight": 400,
+              "caption": "",
+              "resolutions": [
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/ShfhwtDyA2WzDBKdAL7M8Q--~B/aD00MDA7dz02MzU7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/zacks.com/6f2cab89bf2cbad1966358e04258e202",
+                  "width": 635,
+                  "height": 400,
+                  "tag": "original"
+                },
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/WBkF.8AjygV.rmpZ4E0BUQ--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/zacks.com/6f2cab89bf2cbad1966358e04258e202",
+                  "width": 170,
+                  "height": 128,
+                  "tag": "170x128"
+                }
+              ]
+            },
+            "provider": {
+              "displayName": "Zacks",
+              "url": "http://www.zacks.com/"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/star-group-q2-earnings-rise-171800551.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/star-group-q2-earnings-rise-171800551.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        },
+        {
+          "id": "8251cfcc-7a7e-3a31-a359-286f6035b2eb",
+          "content": {
+            "id": "8251cfcc-7a7e-3a31-a359-286f6035b2eb",
+            "contentType": "STORY",
+            "title": "Star Group LP (SGU) Q2 2025 Earnings Call Highlights: Strong Growth Amid Colder Weather and ...",
+            "description": "",
+            "summary": "Star Group LP (SGU) reports significant increases in sales volume and profitability, while navigating warmer-than-normal temperatures and rising expenses.",
+            "pubDate": "2025-05-09T07:33:25Z",
+            "displayTime": "2025-05-09T07:33:25Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": null,
+            "provider": {
+              "displayName": "GuruFocus.com",
+              "url": "http://www.gurufocus.com/"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/star-group-lp-sgu-q2-073325068.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/star-group-lp-sgu-q2-073325068.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        },
+        {
+          "id": "65b7536a-500d-312b-beec-a21bcf86f9c8",
+          "content": {
+            "id": "65b7536a-500d-312b-beec-a21bcf86f9c8",
+            "contentType": "STORY",
+            "title": "The Zacks Analyst Blog Novo Nordisk, The Coca-Cola, Wells Fargo and Star Group",
+            "description": "",
+            "summary": "Novo Nordisk, The Coca-Cola, Wells Fargo and Star Group are included in this Analyst Blog.",
+            "pubDate": "2025-03-05T07:42:00Z",
+            "displayTime": "2025-03-05T07:42:00Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": {
+              "originalUrl": "https://media.zenfs.com/en/zacks.com/b3d20a747c726551b57284246985342d",
+              "originalWidth": 635,
+              "originalHeight": 400,
+              "caption": "",
+              "resolutions": [
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/RMH8a_Gf9QRb1nfyZrX0ZQ--~B/aD00MDA7dz02MzU7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/zacks.com/b3d20a747c726551b57284246985342d",
+                  "width": 635,
+                  "height": 400,
+                  "tag": "original"
+                },
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/ilwdPCEmIkDWfvb.c5UeEQ--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/zacks.com/b3d20a747c726551b57284246985342d",
+                  "width": 170,
+                  "height": 128,
+                  "tag": "170x128"
+                }
+              ]
+            },
+            "provider": {
+              "displayName": "Zacks",
+              "url": "http://www.zacks.com/"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/zacks-analyst-blog-novo-nordisk-074200498.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/zacks-analyst-blog-novo-nordisk-074200498.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        },
+        {
+          "id": "c487da6b-f7ed-3352-8bf2-df8536ce5360",
+          "content": {
+            "id": "c487da6b-f7ed-3352-8bf2-df8536ce5360",
+            "contentType": "STORY",
+            "title": "Top Research Reports for Novo Nordisk, Coca-Cola & Wells Fargo",
+            "description": "",
+            "summary": "Today's Research Daily features new research reports on 16 major stocks, including Novo Nordisk A/S (NVO), The Coca-Cola Company (KO) and Wells Fargo & Company (WFC), as well as a micro-cap stock Star Group, L.P. (SGU).",
+            "pubDate": "2025-03-04T21:53:00Z",
+            "displayTime": "2025-03-04T21:53:00Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": {
+              "originalUrl": "https://media.zenfs.com/en/zacks.com/723b414aa10600faf58f7a232ec73364",
+              "originalWidth": 635,
+              "originalHeight": 400,
+              "caption": "",
+              "resolutions": [
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/EaYjwqFOUx_QJeP7FQN8Aw--~B/aD00MDA7dz02MzU7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/zacks.com/723b414aa10600faf58f7a232ec73364",
+                  "width": 635,
+                  "height": 400,
+                  "tag": "original"
+                },
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/LBXmo4oUvzh.Gfu6tU27zg--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/zacks.com/723b414aa10600faf58f7a232ec73364",
+                  "width": 170,
+                  "height": 128,
+                  "tag": "170x128"
+                }
+              ]
+            },
+            "provider": {
+              "displayName": "Zacks",
+              "url": "http://www.zacks.com/"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/top-research-reports-novo-nordisk-215300276.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/top-research-reports-novo-nordisk-215300276.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        },
+        {
+          "id": "b21cbcc6-9a9b-387a-be6f-8abce6ac1ac6",
+          "content": {
+            "id": "b21cbcc6-9a9b-387a-be6f-8abce6ac1ac6",
+            "contentType": "STORY",
+            "title": "Star Group Shares Dip 1.5% Despite Reporting Y/Y Surge in Q1 Earnings",
+            "description": "",
+            "summary": "SGU reports strong Q1 results, with net income soaring 154% year over year, boosted by acquisitions, colder weather and operational efficiency.",
+            "pubDate": "2025-02-10T17:49:00Z",
+            "displayTime": "2025-02-10T17:49:00Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": {
+              "originalUrl": "https://media.zenfs.com/en/zacks.com/79da42a5951da395af5b31089b7ceda2",
+              "originalWidth": 900,
+              "originalHeight": 600,
+              "caption": "",
+              "resolutions": [
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/xF29f61LAv8TL96fMeM3FQ--~B/aD02MDA7dz05MDA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/zacks.com/79da42a5951da395af5b31089b7ceda2",
+                  "width": 900,
+                  "height": 600,
+                  "tag": "original"
+                },
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/uttFw0xY6xsI.asJjt0S5w--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/zacks.com/79da42a5951da395af5b31089b7ceda2",
+                  "width": 170,
+                  "height": 128,
+                  "tag": "170x128"
+                }
+              ]
+            },
+            "provider": {
+              "displayName": "Zacks",
+              "url": "http://www.zacks.com/"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/star-group-shares-dip-1-174900706.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/star-group-shares-dip-1-174900706.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        },
+        {
+          "id": "d40691da-42fe-3af1-bcf4-0069b41edf2a",
+          "content": {
+            "id": "d40691da-42fe-3af1-bcf4-0069b41edf2a",
+            "contentType": "STORY",
+            "title": "Star Group LP (SGU) Q1 2025 Earnings Call Highlights: Strong Financial Performance Amid ...",
+            "description": "",
+            "summary": "Star Group LP (SGU) reports significant gains in net income and adjusted EBITDA, driven by strategic acquisitions and increased sales volumes.",
+            "pubDate": "2025-02-07T07:22:20Z",
+            "displayTime": "2025-02-07T07:22:20Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": null,
+            "provider": {
+              "displayName": "GuruFocus.com",
+              "url": "http://www.gurufocus.com/"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/star-group-lp-sgu-q1-072220577.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/star-group-lp-sgu-q1-072220577.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        },
+        {
+          "id": "6330a75f-5fc3-3420-9e0e-a2a430343489",
+          "content": {
+            "id": "6330a75f-5fc3-3420-9e0e-a2a430343489",
+            "contentType": "STORY",
+            "title": "Star Group to acquire home energy distributor for $68M",
+            "description": "",
+            "summary": "Star Group (SGU) has entered into a definitive agreement to purchase a home energy distributor, located within the Company\u2019s existing operating footprint, for approximately $68M before working capital adjustments. Star anticipates closing on the transaction within the next 45 days, subject to compliance with governmental reporting requirements. Additional terms were not disclosed. Published first on TheFly \u2013 the ultimate source for real-time, market-moving breaking financial news. Try Now>> See",
+            "pubDate": "2024-12-13T13:06:26Z",
+            "displayTime": "2024-12-13T13:06:26Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": {
+              "originalUrl": "https://media.zenfs.com/en/tipranks_452/9ea7da3514131adedb82cf60db3762ac",
+              "originalWidth": 192,
+              "originalHeight": 192,
+              "caption": "https://www.tipranks.com/news/the-fly/star-group-to-acquire-home-energy-distributor-for-68m",
+              "resolutions": [
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/jEVs90tKB_DX2SO442yBwg--~B/aD0xOTI7dz0xOTI7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/tipranks_452/9ea7da3514131adedb82cf60db3762ac",
+                  "width": 192,
+                  "height": 192,
+                  "tag": "original"
+                },
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/mbzFWVGcpBnitYF9mHOxlQ--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/tipranks_452/9ea7da3514131adedb82cf60db3762ac",
+                  "width": 170,
+                  "height": 128,
+                  "tag": "170x128"
+                }
+              ]
+            },
+            "provider": {
+              "displayName": "TipRanks",
+              "url": "https://www.tipranks.com/"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/star-group-acquire-home-energy-130626731.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/star-group-acquire-home-energy-130626731.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        },
+        {
+          "id": "4afb9752-693b-3864-8dd5-b29f3cba2098",
+          "content": {
+            "id": "4afb9752-693b-3864-8dd5-b29f3cba2098",
+            "contentType": "STORY",
+            "title": "Sector Update: Energy Stocks Decline in Thursday Afternoon Trading",
+            "description": "",
+            "summary": "Energy stocks were lower Thursday afternoon, with the NYSE Energy Sector Index decreasing 0.6% and t",
+            "pubDate": "2024-12-12T18:40:45Z",
+            "displayTime": "2024-12-12T18:40:45Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": null,
+            "provider": {
+              "displayName": "MT Newswires",
+              "url": "https://www.mtnewswires.com/"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/sector-energy-stocks-decline-thursday-184045572.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/sector-energy-stocks-decline-thursday-184045572.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": true,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        }
+      ]
+    },
+    "recommendations": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  },
+  "holders_data": {
+    "major_holders": {
+      "status": "error"
+    },
+    "institutional_holders": {
+      "status": "error"
+    }
+  },
+  "earnings_data": {
+    "earnings": {
+      "status": "error",
+      "message": "'NoneType' object has no attribute 'empty'"
+    },
+    "calendar": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  }
+}

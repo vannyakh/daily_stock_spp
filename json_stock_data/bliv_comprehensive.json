@@ -1,9 +1,9 @@
 {
   "ticker": "BLIV",
-  "timestamp": "2025-10-14T04:38:28.332263",
+  "timestamp": "2025-10-15T04:43:53.855316",
   "intraday_data": {
     "status": "success",
-    "rows": 5,
+    "rows": 12,
     "data": [
       {
         "Close": 3.75,
@@ -39,12 +39,61 @@
         "Low": 3.700000047683716,
         "Open": 3.700000047683716,
         "Volume": 103
+      },
+      {
+        "Close": 3.4100000858306885,
+        "High": 3.4100000858306885,
+        "Low": 3.4100000858306885,
+        "Open": 3.4100000858306885,
+        "Volume": 1291
+      },
+      {
+        "Close": 3.450000047683716,
+        "High": 3.450000047683716,
+        "Low": 3.450000047683716,
+        "Open": 3.450000047683716,
+        "Volume": 374
+      },
+      {
+        "Close": 3.6500000953674316,
+        "High": 3.6500000953674316,
+        "Low": 3.6500000953674316,
+        "Open": 3.6500000953674316,
+        "Volume": 102
+      },
+      {
+        "Close": 3.5399999618530273,
+        "High": 3.5399999618530273,
+        "Low": 3.5399999618530273,
+        "Open": 3.5399999618530273,
+        "Volume": 355
+      },
+      {
+        "Close": 3.629300117492676,
+        "High": 3.629300117492676,
+        "Low": 3.629300117492676,
+        "Open": 3.629300117492676,
+        "Volume": 270
+      },
+      {
+        "Close": 3.6600000858306885,
+        "High": 3.6600000858306885,
+        "Low": 3.6600000858306885,
+        "Open": 3.6600000858306885,
+        "Volume": 438
+      },
+      {
+        "Close": 3.6600000858306885,
+        "High": 3.6600000858306885,
+        "Low": 3.6600000858306885,
+        "Open": 3.6600000858306885,
+        "Volume": 200
       }
     ]
   },
   "stock_info": {
     "status": "error",
-    "message": "Too Many Requests. Rate limited. Try after a while."
+    "message": "argument of type 'NoneType' is not iterable"
   },
   "financials": {
     "income_statement": {
@@ -130,7 +179,8 @@
       ]
     },
     "recommendations": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   },
   "holders_data": {

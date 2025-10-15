@@ -1,32 +1,9 @@
 {
   "ticker": "FEDU",
-  "timestamp": "2025-10-14T04:31:09.369732",
+  "timestamp": "2025-10-15T04:35:35.286086",
   "intraday_data": {
-    "status": "success",
-    "rows": 3,
-    "data": [
-      {
-        "Close": 13.010000228881836,
-        "High": 13.010000228881836,
-        "Low": 13.010000228881836,
-        "Open": 13.010000228881836,
-        "Volume": 453
-      },
-      {
-        "Close": 13.989999771118164,
-        "High": 13.989999771118164,
-        "Low": 13.989999771118164,
-        "Open": 13.989999771118164,
-        "Volume": 401
-      },
-      {
-        "Close": 13.0,
-        "High": 13.0,
-        "Low": 13.0,
-        "Open": 13.0,
-        "Volume": 195
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -406,7 +383,7 @@
     },
     "calendar": {
       "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
+      "message": "'dict' object has no attribute 'empty'"
     }
   }
 }

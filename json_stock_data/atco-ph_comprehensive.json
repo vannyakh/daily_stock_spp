@@ -1,25 +1,9 @@
 {
   "ticker": "ATCO-PH",
-  "timestamp": "2025-10-14T04:46:40.766698",
+  "timestamp": "2025-10-15T04:53:00.900521",
   "intraday_data": {
-    "status": "success",
-    "rows": 2,
-    "data": [
-      {
-        "Close": 25.61199951171875,
-        "High": 25.61199951171875,
-        "Low": 25.61199951171875,
-        "Open": 25.61199951171875,
-        "Volume": 0
-      },
-      {
-        "Close": 25.600000381469727,
-        "High": 25.600000381469727,
-        "Low": 25.600000381469727,
-        "Open": 25.600000381469727,
-        "Volume": 205
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -45,8 +29,7 @@
       "status": "no_data"
     },
     "recommendations": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
+      "status": "no_data"
     }
   },
   "holders_data": {

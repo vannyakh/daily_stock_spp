@@ -1,9 +1,9 @@
 {
   "ticker": "RGCO",
-  "timestamp": "2025-10-14T04:21:43.323552",
+  "timestamp": "2025-10-15T04:25:16.181307",
   "intraday_data": {
     "status": "success",
-    "rows": 8,
+    "rows": 12,
     "data": [
       {
         "Close": 21.25,
@@ -60,6 +60,34 @@
         "Low": 21.799999237060547,
         "Open": 21.799999237060547,
         "Volume": 545
+      },
+      {
+        "Close": 21.280000686645508,
+        "High": 21.280000686645508,
+        "Low": 21.280000686645508,
+        "Open": 21.280000686645508,
+        "Volume": 2649
+      },
+      {
+        "Close": 21.3700008392334,
+        "High": 21.3700008392334,
+        "Low": 21.3700008392334,
+        "Open": 21.3700008392334,
+        "Volume": 136
+      },
+      {
+        "Close": 21.479900360107422,
+        "High": 21.479900360107422,
+        "Low": 21.479900360107422,
+        "Open": 21.479900360107422,
+        "Volume": 387
+      },
+      {
+        "Close": 21.415000915527344,
+        "High": 21.415000915527344,
+        "Low": 21.415000915527344,
+        "Open": 21.415000915527344,
+        "Volume": 1132
       }
     ]
   },
@@ -700,15 +728,16 @@
       ]
     },
     "recommendations": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   },
   "holders_data": {
     "major_holders": {
-      "status": "no_data"
+      "status": "error"
     },
     "institutional_holders": {
-      "status": "no_data"
+      "status": "error"
     }
   },
   "earnings_data": {

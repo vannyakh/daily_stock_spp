@@ -1,9 +1,32 @@
 {
   "ticker": "ICUCW",
-  "timestamp": "2025-10-14T04:53:20.248501",
+  "timestamp": "2025-10-15T05:00:32.422406",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 3,
+    "data": [
+      {
+        "Close": 0.025299999862909317,
+        "High": 0.025299999862909317,
+        "Low": 0.025299999862909317,
+        "Open": 0.025299999862909317,
+        "Volume": 28000
+      },
+      {
+        "Close": 0.02710000053048134,
+        "High": 0.02710000053048134,
+        "Low": 0.02710000053048134,
+        "Open": 0.02710000053048134,
+        "Volume": 0
+      },
+      {
+        "Close": 0.031700000166893005,
+        "High": 0.031700000166893005,
+        "Low": 0.027499999850988388,
+        "Open": 0.027499999850988388,
+        "Volume": 1300
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -383,7 +406,8 @@
       ]
     },
     "recommendations": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   },
   "holders_data": {

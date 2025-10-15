@@ -1,18 +1,9 @@
 {
   "ticker": "NEOVW",
-  "timestamp": "2025-10-14T04:46:31.786757",
+  "timestamp": "2025-10-15T04:52:50.636203",
   "intraday_data": {
-    "status": "success",
-    "rows": 1,
-    "data": [
-      {
-        "Close": 1.8276000022888184,
-        "High": 1.8276000022888184,
-        "Low": 1.8276000022888184,
-        "Open": 1.8276000022888184,
-        "Volume": 0
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -510,7 +501,8 @@
       ]
     },
     "recommendations": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   },
   "holders_data": {

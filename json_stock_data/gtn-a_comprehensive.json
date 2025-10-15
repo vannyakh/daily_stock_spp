@@ -1,9 +1,9 @@
 {
   "ticker": "GTN-A",
-  "timestamp": "2025-10-14T04:42:19.841277",
+  "timestamp": "2025-10-15T04:48:13.475110",
   "intraday_data": {
     "status": "success",
-    "rows": 3,
+    "rows": 5,
     "data": [
       {
         "Close": 10.90999984741211,
@@ -24,7 +24,21 @@
         "High": 10.140000343322754,
         "Low": 10.140000343322754,
         "Open": 10.140000343322754,
-        "Volume": 155
+        "Volume": 0
+      },
+      {
+        "Close": 9.989999771118164,
+        "High": 9.989999771118164,
+        "Low": 9.989999771118164,
+        "Open": 9.989999771118164,
+        "Volume": 327
+      },
+      {
+        "Close": 9.989999771118164,
+        "High": 10.140000343322754,
+        "Low": 9.989999771118164,
+        "Open": 10.140000343322754,
+        "Volume": 0
       }
     ]
   },
@@ -665,7 +679,8 @@
       ]
     },
     "recommendations": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   },
   "holders_data": {

@@ -1,22 +1,70 @@
 {
   "ticker": "FORL",
-  "timestamp": "2025-10-14T04:28:39.730958",
+  "timestamp": "2025-10-15T04:32:54.463385",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 2,
+    "data": [
+      {
+        "Close": 11.9399995803833,
+        "High": 11.9399995803833,
+        "Low": 11.9399995803833,
+        "Open": 11.9399995803833,
+        "Volume": 0
+      },
+      {
+        "Close": 11.989999771118164,
+        "High": 11.989999771118164,
+        "Low": 11.989999771118164,
+        "Open": 11.989999771118164,
+        "Volume": 376
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
-    "message": "argument of type 'NoneType' is not iterable"
+    "message": "Too Many Requests. Rate limited. Try after a while."
   },
   "financials": {
     "income_statement": {
-      "status": "success",
-      "rows": 31,
-      "columns": [
-        "2024-12-31 00:00:00",
-        "2023-12-31 00:00:00"
-      ],
-      "data": [
-        {
-          
+      "status": "no_data"
+    },
+    "balance_sheet": {
+      "status": "no_data"
+    },
+    "cash_flow": {
+      "status": "no_data"
+    }
+  },
+  "options_data": {
+    "status": "error",
+    "error_message": "Too Many Requests. Rate limited. Try after a while."
+  },
+  "news_data": {
+    "news": {
+      "status": "no_data"
+    },
+    "recommendations": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  },
+  "holders_data": {
+    "major_holders": {
+      "status": "error"
+    },
+    "institutional_holders": {
+      "status": "error"
+    }
+  },
+  "earnings_data": {
+    "earnings": {
+      "status": "error",
+      "message": "'NoneType' object has no attribute 'empty'"
+    },
+    "calendar": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  }
+}

@@ -1,26 +1,667 @@
 {
   "ticker": "TSMWF",
-  "timestamp": "2025-10-14T04:39:49.409323",
+  "timestamp": "2025-10-15T04:45:17.419193",
   "intraday_data": {
-    "status": "success",
-    "rows": 0,
-    "data": []
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
-    "message": "argument of type 'NoneType' is not iterable"
+    "message": "Too Many Requests. Rate limited. Try after a while."
   },
   "financials": {
     "income_statement": {
+      "status": "no_data"
+    },
+    "balance_sheet": {
+      "status": "no_data"
+    },
+    "cash_flow": {
+      "status": "no_data"
+    }
+  },
+  "options_data": {
+    "status": "error",
+    "error_message": "Too Many Requests. Rate limited. Try after a while."
+  },
+  "news_data": {
+    "news": {
       "status": "success",
-      "rows": 52,
-      "columns": [
-        "2024-12-31 00:00:00",
-        "2023-12-31 00:00:00",
-        "2022-12-31 00:00:00",
-        "2021-12-31 00:00:00",
-        "2020-12-31 00:00:00"
-      ],
+      "count": 10,
       "data": [
         {
-          
+          "id": "17164fed-208d-4df3-a645-8a37417b8978",
+          "content": {
+            "id": "17164fed-208d-4df3-a645-8a37417b8978",
+            "contentType": "STORY",
+            "title": "Intel reveals new data center AI chip as turnaround effort continues",
+            "description": "",
+            "summary": "Intel unveiled its new data center AI GPU on Tuesday as the company continues its turnaround effort.",
+            "pubDate": "2025-10-14T17:00:39Z",
+            "displayTime": "2025-10-14T17:00:39Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": {
+              "originalUrl": "https://s.yimg.com/os/creatr-uploaded-images/2025-08/ae828260-7fa7-11f0-abfe-defae391d012",
+              "originalWidth": 3748,
+              "originalHeight": 2480,
+              "caption": "",
+              "resolutions": [
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/kKeYZZ1p8qDbXSxY35_Qgw--~B/aD0yNDgwO3c9Mzc0ODthcHBpZD15dGFjaHlvbg--/https://s.yimg.com/os/creatr-uploaded-images/2025-08/ae828260-7fa7-11f0-abfe-defae391d012",
+                  "width": 3748,
+                  "height": 2480,
+                  "tag": "original"
+                },
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/ME.ib.7oJlLtEh.keRe.ww--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://s.yimg.com/os/creatr-uploaded-images/2025-08/ae828260-7fa7-11f0-abfe-defae391d012",
+                  "width": 170,
+                  "height": 128,
+                  "tag": "170x128"
+                }
+              ]
+            },
+            "provider": {
+              "displayName": "Yahoo Finance",
+              "url": "http://finance.yahoo.com/"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/intel-reveals-new-data-center-ai-chip-as-turnaround-effort-continues-170039560.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/intel-reveals-new-data-center-ai-chip-as-turnaround-effort-continues-170039560.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": true
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": {
+              "storylineItems": [
+                {
+                  "content": {
+                    "id": "035a1404-14a9-4292-96b8-08cca27526ee",
+                    "contentType": "STORY",
+                    "isHosted": true,
+                    "title": "Earnings live: JPMorgan, BlackRock, Wells Fargo, Johnson & Johnson take spotlight as Q3 earnings kick off",
+                    "thumbnail": {
+                      "originalUrl": "https://s.yimg.com/os/creatr-uploaded-images/2024-10/3ae58080-91fc-11ef-bf76-94c6d2bf6df8",
+                      "originalWidth": 6000,
+                      "originalHeight": 4000,
+                      "caption": "",
+                      "resolutions": null
+                    },
+                    "provider": {
+                      "displayName": "Yahoo Finance",
+                      "sourceId": "yahoofinance.com"
+                    },
+                    "previewUrl": null,
+                    "providerContentUrl": "",
+                    "canonicalUrl": {
+                      "url": "https://finance.yahoo.com/news/live/earnings-live-jpmorgan-blackrock-wells-fargo-johnson--johnson-take-spotlight-as-q3-earnings-kick-off-113555421.html"
+                    },
+                    "clickThroughUrl": {
+                      "url": "https://finance.yahoo.com/news/live/earnings-live-jpmorgan-blackrock-wells-fargo-johnson--johnson-take-spotlight-as-q3-earnings-kick-off-113555421.html"
+                    }
+                  }
+                },
+                {
+                  "content": {
+                    "id": "5c36f000-19d5-303c-bcca-324ac09f68e7",
+                    "contentType": "VIDEO",
+                    "isHosted": true,
+                    "title": "Big tech and banking earnings and Bitcoin under severe pressure",
+                    "thumbnail": {
+                      "originalUrl": "https://s.yimg.com/os/creatr-uploaded-images/2025-10/1afe6960-a8f5-11f0-bffc-354fe0221cab",
+                      "originalWidth": 5000,
+                      "originalHeight": 2815,
+                      "caption": "",
+                      "resolutions": null
+                    },
+                    "provider": {
+                      "displayName": "Yahoo Finance Video",
+                      "sourceId": "video.yahoofinance.com"
+                    },
+                    "previewUrl": null,
+                    "providerContentUrl": "",
+                    "canonicalUrl": {
+                      "url": "https://finance.yahoo.com/video/big-tech-banking-earnings-bitcoin-122602946.html"
+                    },
+                    "clickThroughUrl": {
+                      "url": "https://finance.yahoo.com/video/big-tech-banking-earnings-bitcoin-122602946.html"
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "723fa895-9772-3c05-b286-0d7cbba01f32",
+          "content": {
+            "id": "723fa895-9772-3c05-b286-0d7cbba01f32",
+            "contentType": "VIDEO",
+            "title": "Papa John's, Navitas, Critical Metals: Trending Stocks",
+            "description": "<p>Rare-earth stocks rally as tensions between the US and China rise again, with MP Materials (<a data-i13n=\"cpos:1;pos:1\" href=\"https://finance.yahoo.com/quote/MP\">MP</a>) and Critical Metals (<a data-i13n=\"cpos:2;pos:1\" href=\"https://finance.yahoo.com/quote/CRML\">CRML</a>) posting big gains in pre-market. Papa John's (<a data-i13n=\"cpos:3;pos:1\" href=\"https://finance.yahoo.com/quote/PZZA\">PZZA</a>) keep rising on speculation surrounding a takeover bid. And in the world of tech and AI, while Navitas (<a data-i13n=\"cpos:4;pos:1\" href=\"https://finance.yahoo.com/quote/NVTS\">NVTS</a>) is skyrocketing following positive updates about its collaboration with Nvidia (<a data-i13n=\"cpos:5;pos:1\" href=\"https://finance.yahoo.com/quote/NVDA\">NVDA</a>), many other big names seem set to open in the red: notably Intel (<a data-i13n=\"cpos:6;pos:1\" href=\"https://finance.yahoo.com/quote/INTC\">INTC</a>), TSMC (<a data-i13n=\"cpos:7;pos:1\" href=\"https://finance.yahoo.com/quote/TSM\">TSM</a>), Alphabet (<a data-i13n=\"cpos:8;pos:1\" href=\"https://finance.yahoo.com/quote/GOOG\">GOOG</a>) and Broadcom (<a data-i13n=\"cpos:9;pos:1\" href=\"https://finance.yahoo.com/quote/AVGO\">AVGO</a>).</p>\n<p>For more live coverage of markets watch the full episode of<a data-i13n=\"cpos:10;pos:1\" href=\"https://www.youtube.com/watch?v=cLr6hc2-oMY&list=PLx28zU8ctIRqTE7Y4uXTY-S2oHlwDsL5c\"> Market Sunrise</a> and head to<a data-i13n=\"cpos:11;pos:1\" href=\"https://finance.yahoo.com/\"> Yahoo Finance</a>.</p>",
+            "summary": "Rare-earth stocks rally as tensions between the US and China rise again, with MP Materials (MP) and Critical Metals (CRML) posting big gains in pre-market. Papa John's (PZZA) keep rising on speculation surrounding a takeover bid. And in the world of tech and AI, while Navitas (NVTS) is skyrocketing following positive updates about its collaboration with Nvidia (NVDA), many other big names seem set to open in the red: notably Intel (INTC), TSMC (TSM), Alphabet (GOOG) and Broadcom (AVGO). For more live coverage of markets watch the full episode of Market Sunrise and head to Yahoo Finance.",
+            "pubDate": "2025-10-14T12:19:06Z",
+            "displayTime": "",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": {
+              "originalUrl": "https://s.yimg.com/os/creatr-uploaded-images/2025-10/f51be580-a8f7-11f0-bfbb-afaf16e44097",
+              "originalWidth": 3977,
+              "originalHeight": 2234,
+              "caption": "",
+              "resolutions": [
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/518xwXWLZkbwJu3baGQavg--~B/aD0yMjM0O3c9Mzk3NzthcHBpZD15dGFjaHlvbg--/https://s.yimg.com/os/creatr-uploaded-images/2025-10/f51be580-a8f7-11f0-bfbb-afaf16e44097",
+                  "width": 3977,
+                  "height": 2234,
+                  "tag": "original"
+                },
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/kU6M1hqY1kwA7HX30yGaYQ--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://s.yimg.com/os/creatr-uploaded-images/2025-10/f51be580-a8f7-11f0-bfbb-afaf16e44097",
+                  "width": 170,
+                  "height": 128,
+                  "tag": "170x128"
+                }
+              ]
+            },
+            "provider": {
+              "displayName": "Yahoo Finance Video",
+              "url": "https://finance.yahoo.com/"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/video/papa-johns-navitas-critical-metals-121906662.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/video/papa-johns-navitas-critical-metals-121906662.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": true
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        },
+        {
+          "id": "37ee0efa-08ba-3b00-8573-8906d76f0bee",
+          "content": {
+            "id": "37ee0efa-08ba-3b00-8573-8906d76f0bee",
+            "contentType": "STORY",
+            "title": "Micron stock falls amid semiconductor weakness and analyst downgrade",
+            "description": "",
+            "summary": "Investing.com -- Micron Technology (NASDAQ:MU) stock closed 3% lower on Tuesday as semiconductor stocks weakened due to ongoing trade tensions with China and following an analyst downgrade.",
+            "pubDate": "2025-10-14T21:06:43Z",
+            "displayTime": "2025-10-14T21:06:43Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": null,
+            "provider": {
+              "displayName": "Investing.com",
+              "url": "https://www.investing.com/"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/micron-stock-falls-amid-semiconductor-210643874.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/micron-stock-falls-amid-semiconductor-210643874.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        },
+        {
+          "id": "51b9468e-ad78-3c05-bd83-041ac8c1ef11",
+          "content": {
+            "id": "51b9468e-ad78-3c05-bd83-041ac8c1ef11",
+            "contentType": "STORY",
+            "title": "Intel (INTC) Cut to Reduce by HSBC; Analyst Cites Overdone Rally and Execution Risks",
+            "description": "",
+            "summary": "Intel Corporation (NASDAQ:INTC) is one of the Trending AI Stocks on Wall Street. On October 8, HSBC analyst Frank Lee downgraded the stock from \u201cHold\u201d to \u201cReduce\u201d and raised its price target to $24.00 (from $21.25). The firm believes that Intel\u2019s rally since August is largely due to short-term investment deals, rather than an improvement in [\u2026]",
+            "pubDate": "2025-10-14T20:42:52Z",
+            "displayTime": "2025-10-14T20:42:52Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": {
+              "originalUrl": "https://media.zenfs.com/en/insidermonkey.com/0b26115bd2c6a46cb897bf516f77b9b2",
+              "originalWidth": 1456,
+              "originalHeight": 816,
+              "caption": "",
+              "resolutions": [
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/t74cTqlfPyEw13wvLv9z.A--~B/aD04MTY7dz0xNDU2O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/insidermonkey.com/0b26115bd2c6a46cb897bf516f77b9b2",
+                  "width": 1456,
+                  "height": 816,
+                  "tag": "original"
+                },
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/J30vWJXUIbcaMNcnoI4BqA--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/insidermonkey.com/0b26115bd2c6a46cb897bf516f77b9b2",
+                  "width": 170,
+                  "height": 128,
+                  "tag": "170x128"
+                }
+              ]
+            },
+            "provider": {
+              "displayName": "Insider Monkey",
+              "url": "http://www.insidermonkey.com"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/intel-intc-cut-reduce-hsbc-204252888.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/intel-intc-cut-reduce-hsbc-204252888.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        },
+        {
+          "id": "09fbec95-f13a-3592-98ff-9ee9371cfd22",
+          "content": {
+            "id": "09fbec95-f13a-3592-98ff-9ee9371cfd22",
+            "contentType": "STORY",
+            "title": "ASML Stock Rally Justified by AI-Driven Chip Expansion, Says Bernstein",
+            "description": "",
+            "summary": "ASML Holding N.V. (NASDAQ:ASML) is one of the Trending AI Stocks on Wall Street. On October 9, Bernstein raised the firm\u2019s price target on the stock to $935 from $743 and kept a Market Perform rating on the shares. The firm cited an improved 2026 outlook behind the rating affirmation. ASML rallied over 50% in the [\u2026]",
+            "pubDate": "2025-10-14T20:41:22Z",
+            "displayTime": "2025-10-14T20:41:22Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": {
+              "originalUrl": "https://media.zenfs.com/en/insidermonkey.com/40170275f78eacf742c33b3d078742f2",
+              "originalWidth": 1456,
+              "originalHeight": 816,
+              "caption": "",
+              "resolutions": [
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/Q9NKrpGl7ldmdACfYaaxJw--~B/aD04MTY7dz0xNDU2O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/insidermonkey.com/40170275f78eacf742c33b3d078742f2",
+                  "width": 1456,
+                  "height": 816,
+                  "tag": "original"
+                },
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/udM4zdyf6pLdSD.8numCEw--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/insidermonkey.com/40170275f78eacf742c33b3d078742f2",
+                  "width": 170,
+                  "height": 128,
+                  "tag": "170x128"
+                }
+              ]
+            },
+            "provider": {
+              "displayName": "Insider Monkey",
+              "url": "http://www.insidermonkey.com"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/asml-stock-rally-justified-ai-204250151.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/asml-stock-rally-justified-ai-204250151.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        },
+        {
+          "id": "b1f3f04b-a188-3e2e-9d29-2f771f920fc6",
+          "content": {
+            "id": "b1f3f04b-a188-3e2e-9d29-2f771f920fc6",
+            "contentType": "STORY",
+            "title": "Chip ETFs: The Best Way to Profit from the AI Boom?",
+            "description": "",
+            "summary": "We examine recent AI deals and spotlight three key ETFs.",
+            "pubDate": "2025-10-14T20:24:00Z",
+            "displayTime": "2025-10-14T20:24:00Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": null,
+            "provider": {
+              "displayName": "Zacks",
+              "url": "http://www.zacks.com/"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/chip-etfs-best-way-profit-202400305.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/chip-etfs-best-way-profit-202400305.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        },
+        {
+          "id": "a5b049fc-f3dd-3ff1-97a0-1fc05cd31801",
+          "content": {
+            "id": "a5b049fc-f3dd-3ff1-97a0-1fc05cd31801",
+            "contentType": "STORY",
+            "title": "Buy the Surge in Taiwan Semiconductor Stock as Q3 Results Approach?",
+            "description": "",
+            "summary": "Riding a wave of unprecedented demand for next-gen AI chips, Taiwan Semiconductor is expected to post record Q3 results on Thursday, October 16.",
+            "pubDate": "2025-10-14T18:55:00Z",
+            "displayTime": "2025-10-14T18:55:00Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": {
+              "originalUrl": "https://media.zenfs.com/en/zacks.com/2a4ecfc4f5b1820dac3bad2b8f914c4e",
+              "originalWidth": 635,
+              "originalHeight": 400,
+              "caption": "",
+              "resolutions": [
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/mhxqkmknMlh02srpIQ38_w--~B/aD00MDA7dz02MzU7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/zacks.com/2a4ecfc4f5b1820dac3bad2b8f914c4e",
+                  "width": 635,
+                  "height": 400,
+                  "tag": "original"
+                },
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/xb2AaXbXBg34h7rKD8AZEw--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/zacks.com/2a4ecfc4f5b1820dac3bad2b8f914c4e",
+                  "width": 170,
+                  "height": 128,
+                  "tag": "170x128"
+                }
+              ]
+            },
+            "provider": {
+              "displayName": "Zacks",
+              "url": "http://www.zacks.com/"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/buy-surge-taiwan-semiconductor-stock-185500984.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/buy-surge-taiwan-semiconductor-stock-185500984.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        },
+        {
+          "id": "239dd75d-611b-3265-a52b-649a0c38aeb6",
+          "content": {
+            "id": "239dd75d-611b-3265-a52b-649a0c38aeb6",
+            "contentType": "STORY",
+            "title": "Jim Cramer on Taiwan Semiconductor\u2019s Earnings: \u201cI Expect a Very Rosy Picture\u201d",
+            "description": "",
+            "summary": "Taiwan Semiconductor Manufacturing Company Limited (NYSE:TSM) is one of the stocks in Jim Cramer\u2019s game plan for this week. Cramer has positive expectations from the company, as he stated: \u201cThursday morning, Taiwan Semi reports. I usually get up at 2:30 in the morning because that\u2019s when they report for heaven\u2019s sake. This manufacturer of chips [\u2026]",
+            "pubDate": "2025-10-14T17:22:07Z",
+            "displayTime": "2025-10-14T17:22:07Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": {
+              "originalUrl": "https://media.zenfs.com/en/insidermonkey.com/de8df6d5dadb2d673b307341d6e5e10b",
+              "originalWidth": 1500,
+              "originalHeight": 691,
+              "caption": "",
+              "resolutions": [
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/Tci4uerNx3Vfcmy1uG_Brg--~B/aD02OTE7dz0xNTAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/insidermonkey.com/de8df6d5dadb2d673b307341d6e5e10b",
+                  "width": 1500,
+                  "height": 691,
+                  "tag": "original"
+                },
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/uuy68rYy8g.le47YGy_ouQ--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/insidermonkey.com/de8df6d5dadb2d673b307341d6e5e10b",
+                  "width": 170,
+                  "height": 128,
+                  "tag": "170x128"
+                }
+              ]
+            },
+            "provider": {
+              "displayName": "Insider Monkey",
+              "url": "http://www.insidermonkey.com"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/jim-cramer-taiwan-semiconductor-earnings-172207811.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/jim-cramer-taiwan-semiconductor-earnings-172207811.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        },
+        {
+          "id": "1b888d7e-ceb8-307f-bc40-4e3bc019b391",
+          "content": {
+            "id": "1b888d7e-ceb8-307f-bc40-4e3bc019b391",
+            "contentType": "STORY",
+            "title": "Bank of America Securities Reiterates Buy Rating on Taiwan Semiconductor Manufacturing (TSM) Stock",
+            "description": "",
+            "summary": "Taiwan Semiconductor Manufacturing Company Limited (NYSE:TSM) is one of the Best Wide Moat Stocks to Buy Right Now. The company\u2019s wide moat stems from cost advantage and intangible assets. On October 7, Bank of America Securities analyst Robert Cheng reiterated a \u201cBuy\u201d rating on the company\u2019s stock, setting a price objective of $330.00. The analyst\u2019s [\u2026]",
+            "pubDate": "2025-10-14T17:06:05Z",
+            "displayTime": "2025-10-14T17:06:05Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": {
+              "originalUrl": "https://media.zenfs.com/en/insidermonkey.com/f90919c411d1aa5d89e5e74b1fb5e45e",
+              "originalWidth": 1456,
+              "originalHeight": 816,
+              "caption": "Bank of America Securities Reiterates Buy Rating on Taiwan Semiconductor Manufacturing (TSM) Stock",
+              "resolutions": [
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/DxYQcvd_gWJWaXO.7PRDtw--~B/aD04MTY7dz0xNDU2O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/insidermonkey.com/f90919c411d1aa5d89e5e74b1fb5e45e",
+                  "width": 1456,
+                  "height": 816,
+                  "tag": "original"
+                },
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/10gTbzkytW6VKJUk9nUfvw--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/insidermonkey.com/f90919c411d1aa5d89e5e74b1fb5e45e",
+                  "width": 170,
+                  "height": 128,
+                  "tag": "170x128"
+                }
+              ]
+            },
+            "provider": {
+              "displayName": "Insider Monkey",
+              "url": "http://www.insidermonkey.com"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/bank-america-securities-reiterates-buy-170605695.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/bank-america-securities-reiterates-buy-170605695.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        },
+        {
+          "id": "2cd4545d-8282-3a72-b176-467088eae0aa",
+          "content": {
+            "id": "2cd4545d-8282-3a72-b176-467088eae0aa",
+            "contentType": "STORY",
+            "title": "This Week's 5 Important Earnings Charts",
+            "description": "",
+            "summary": "In addition to the banks, watch the rails, semiconductors, energy and asset management.",
+            "pubDate": "2025-10-14T16:36:00Z",
+            "displayTime": "2025-10-14T16:36:00Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": null,
+            "provider": {
+              "displayName": "Zacks",
+              "url": "http://www.zacks.com/"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/weeks-5-important-earnings-charts-163600097.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/weeks-5-important-earnings-charts-163600097.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        }
+      ]
+    },
+    "recommendations": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  },
+  "holders_data": {
+    "major_holders": {
+      "status": "error"
+    },
+    "institutional_holders": {
+      "status": "error"
+    }
+  },
+  "earnings_data": {
+    "earnings": {
+      "status": "error",
+      "message": "'NoneType' object has no attribute 'empty'"
+    },
+    "calendar": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  }
+}

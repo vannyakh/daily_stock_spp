@@ -1,53 +1,9 @@
 {
   "ticker": "NCZ-PA",
-  "timestamp": "2025-10-14T04:42:37.962091",
+  "timestamp": "2025-10-15T04:48:32.470954",
   "intraday_data": {
-    "status": "success",
-    "rows": 6,
-    "data": [
-      {
-        "Close": 20.677600860595703,
-        "High": 20.677600860595703,
-        "Low": 20.677600860595703,
-        "Open": 20.677600860595703,
-        "Volume": 0
-      },
-      {
-        "Close": 20.700000762939453,
-        "High": 20.700000762939453,
-        "Low": 20.700000762939453,
-        "Open": 20.700000762939453,
-        "Volume": 300
-      },
-      {
-        "Close": 20.6200008392334,
-        "High": 20.650100708007812,
-        "Low": 20.6200008392334,
-        "Open": 20.649999618530273,
-        "Volume": 661
-      },
-      {
-        "Close": 20.510000228881836,
-        "High": 20.6200008392334,
-        "Low": 20.510000228881836,
-        "Open": 20.6200008392334,
-        "Volume": 407
-      },
-      {
-        "Close": 20.520000457763672,
-        "High": 20.520000457763672,
-        "Low": 20.520000457763672,
-        "Open": 20.520000457763672,
-        "Volume": 279
-      },
-      {
-        "Close": 20.6200008392334,
-        "High": 20.6200008392334,
-        "Low": 20.6200008392334,
-        "Open": 20.6200008392334,
-        "Volume": 100
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -73,16 +29,47 @@
       "status": "no_data"
     },
     "recommendations": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
+      "status": "no_data"
     }
   },
   "holders_data": {
     "major_holders": {
-      "status": "error"
+      "status": "success",
+      "data": [
+        {
+          "Value": 0.0
+        },
+        {
+          "Value": 0.093339995
+        },
+        {
+          "Value": 0.093339995
+        },
+        {
+          "Value": 3.0
+        }
+      ]
     },
     "institutional_holders": {
-      "status": "error"
+      "status": "success",
+      "data": [
+        {
+          "Date Reported": "2022-03-31 00:00:00",
+          "Holder": "Ancora Income Fund",
+          "pctHeld": 0.0,
+          "Shares": 22500,
+          "Value": 461925,
+          "pctChange": 0.0
+        },
+        {
+          "Date Reported": "2022-03-31 00:00:00",
+          "Holder": "Trust for Advised Port-Bramshill Income Performance Fd",
+          "pctHeld": 0.0,
+          "Shares": 7967,
+          "Value": 163562,
+          "pctChange": 0.0
+        }
+      ]
     }
   },
   "earnings_data": {
@@ -92,7 +79,7 @@
     },
     "calendar": {
       "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
+      "message": "'dict' object has no attribute 'empty'"
     }
   }
 }
