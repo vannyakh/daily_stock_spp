@@ -1,46 +1,9 @@
 {
   "ticker": "TLSS",
-  "timestamp": "2025-10-15T04:42:49.362880",
+  "timestamp": "2025-11-01T04:29:51.705050",
   "intraday_data": {
-    "status": "success",
-    "rows": 5,
-    "data": [
-      {
-        "Close HRBR": 0.8100000023841858,
-        "High HRBR": 0.8100000023841858,
-        "Low HRBR": 0.8100000023841858,
-        "Open HRBR": 0.8100000023841858,
-        "Volume HRBR": 0
-      },
-      {
-        "Close HRBR": 0.8199999928474426,
-        "High HRBR": 0.8199999928474426,
-        "Low HRBR": 0.8199999928474426,
-        "Open HRBR": 0.8199999928474426,
-        "Volume HRBR": 15000
-      },
-      {
-        "Close HRBR": 0.8199999928474426,
-        "High HRBR": 0.8199999928474426,
-        "Low HRBR": 0.8199999928474426,
-        "Open HRBR": 0.8199999928474426,
-        "Volume HRBR": 821
-      },
-      {
-        "Close HRBR": 0.8199999928474426,
-        "High HRBR": 0.8199999928474426,
-        "Low HRBR": 0.8199999928474426,
-        "Open HRBR": 0.8199999928474426,
-        "Volume HRBR": 9179
-      },
-      {
-        "Close HRBR": 0.8999999761581421,
-        "High HRBR": 0.8999999761581421,
-        "Low HRBR": 0.8999999761581421,
-        "Open HRBR": 0.8999999761581421,
-        "Volume HRBR": 5000
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -66,7 +29,8 @@
       "status": "no_data"
     },
     "recommendations": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   },
   "holders_data": {

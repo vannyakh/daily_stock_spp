@@ -1,39 +1,9 @@
 {
   "ticker": "RNLXY",
-  "timestamp": "2025-10-15T04:32:45.218386",
+  "timestamp": "2025-11-01T04:24:08.900320",
   "intraday_data": {
-    "status": "success",
-    "rows": 4,
-    "data": [
-      {
-        "Close FSEA": 11.600000381469727,
-        "High FSEA": 11.600000381469727,
-        "Low FSEA": 11.59000015258789,
-        "Open FSEA": 11.59000015258789,
-        "Volume FSEA": 0
-      },
-      {
-        "Close FSEA": 11.600000381469727,
-        "High FSEA": 11.600000381469727,
-        "Low FSEA": 11.600000381469727,
-        "Open FSEA": 11.600000381469727,
-        "Volume FSEA": 214
-      },
-      {
-        "Close FSEA": 11.600000381469727,
-        "High FSEA": 11.600000381469727,
-        "Low FSEA": 11.600000381469727,
-        "Open FSEA": 11.600000381469727,
-        "Volume FSEA": 52
-      },
-      {
-        "Close FSEA": 11.550000190734863,
-        "High FSEA": 11.600000381469727,
-        "Low FSEA": 11.550000190734863,
-        "Open FSEA": 11.556900024414062,
-        "Volume FSEA": 1912
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -78,7 +48,7 @@
     },
     "calendar": {
       "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
+      "message": "'dict' object has no attribute 'empty'"
     }
   }
 }

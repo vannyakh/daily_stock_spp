@@ -1,60 +1,9 @@
 {
   "ticker": "MDCXW",
-  "timestamp": "2025-10-15T04:51:22.775692",
+  "timestamp": "2025-11-01T04:34:46.842437",
   "intraday_data": {
-    "status": "success",
-    "rows": 7,
-    "data": [
-      {
-        "Close": 0.8999999761581421,
-        "High": 0.8999999761581421,
-        "Low": 0.8999999761581421,
-        "Open": 0.8999999761581421,
-        "Volume": 0
-      },
-      {
-        "Close": 0.9365000128746033,
-        "High": 0.9365000128746033,
-        "Low": 0.9365000128746033,
-        "Open": 0.9365000128746033,
-        "Volume": 800
-      },
-      {
-        "Close": 0.9225000143051147,
-        "High": 0.9225000143051147,
-        "Low": 0.9225000143051147,
-        "Open": 0.9225000143051147,
-        "Volume": 0
-      },
-      {
-        "Close": 0.9811000227928162,
-        "High": 0.9811000227928162,
-        "Low": 0.9811000227928162,
-        "Open": 0.9811000227928162,
-        "Volume": 0
-      },
-      {
-        "Close": 0.8927000164985657,
-        "High": 0.8927000164985657,
-        "Low": 0.8927000164985657,
-        "Open": 0.8927000164985657,
-        "Volume": 17
-      },
-      {
-        "Close": 0.9199000000953674,
-        "High": 0.9200000166893005,
-        "Low": 0.9199000000953674,
-        "Open": 0.9200000166893005,
-        "Volume": 2009
-      },
-      {
-        "Close": 0.8999999761581421,
-        "High": 0.8999999761581421,
-        "Low": 0.8999999761581421,
-        "Open": 0.8999999761581421,
-        "Volume": 191
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -65,105 +14,14 @@
       "status": "no_data"
     },
     "balance_sheet": {
-      "status": "no_data"
-    },
-    "cash_flow": {
-      "status": "no_data"
-    }
-  },
-  "options_data": {
-    "status": "error",
-    "error_message": "Too Many Requests. Rate limited. Try after a while."
-  },
-  "news_data": {
-    "news": {
       "status": "success",
-      "count": 1,
+      "rows": 44,
+      "columns": [
+        "2024-12-31 00:00:00",
+        "2023-12-31 00:00:00",
+        "2022-12-31 00:00:00",
+        "2021-12-31 00:00:00"
+      ],
       "data": [
         {
-          "id": "7f636af0-bc68-39cf-b493-da1be9d3f0e0",
-          "content": {
-            "id": "7f636af0-bc68-39cf-b493-da1be9d3f0e0",
-            "contentType": "STORY",
-            "title": "Medicus Pharma and Swanielle partner to expand BCC drug trial to Asia-Pacific",
-            "description": "",
-            "summary": "The Phase II SKNJCT-003 trial is currently being conducted across nine US clinical sites.",
-            "pubDate": "2024-12-03T10:43:42Z",
-            "displayTime": "2024-12-03T10:43:42Z",
-            "isHosted": true,
-            "bypassModal": false,
-            "previewUrl": null,
-            "thumbnail": {
-              "originalUrl": "https://media.zenfs.com/en/clinical_trials_arena_396/9d3c77665990d6bd0d20ff7c049294f1",
-              "originalWidth": 1440,
-              "originalHeight": 810,
-              "caption": "Swanielle will assist in identifying potential partners for Medicus in South-East Asia. Credit: Chay_Tee / Shutterstock.",
-              "resolutions": [
-                {
-                  "url": "https://s.yimg.com/uu/api/res/1.2/U8fUipHe8R60PLMyMz6pIw--~B/aD04MTA7dz0xNDQwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/clinical_trials_arena_396/9d3c77665990d6bd0d20ff7c049294f1",
-                  "width": 1440,
-                  "height": 810,
-                  "tag": "original"
-                },
-                {
-                  "url": "https://s.yimg.com/uu/api/res/1.2/afYFmvlYJ2gUVfopMcV89A--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/clinical_trials_arena_396/9d3c77665990d6bd0d20ff7c049294f1",
-                  "width": 170,
-                  "height": 128,
-                  "tag": "170x128"
-                }
-              ]
-            },
-            "provider": {
-              "displayName": "Clinical Trials Arena",
-              "url": "https://www.globaldata.com/"
-            },
-            "canonicalUrl": {
-              "url": "https://www.clinicaltrialsarena.com/news/medicus-swanielle-asia-pacific/",
-              "site": "finance",
-              "region": "US",
-              "lang": "en-US"
-            },
-            "clickThroughUrl": {
-              "url": "https://finance.yahoo.com/news/medicus-pharma-partners-swanielle-expand-104342244.html",
-              "site": "finance",
-              "region": "US",
-              "lang": "en-US"
-            },
-            "metadata": {
-              "editorsPick": false
-            },
-            "finance": {
-              "premiumFinance": {
-                "isPremiumNews": false,
-                "isPremiumFreeNews": false
-              }
-            },
-            "storyline": null
-          }
-        }
-      ]
-    },
-    "recommendations": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
-    }
-  },
-  "holders_data": {
-    "major_holders": {
-      "status": "error"
-    },
-    "institutional_holders": {
-      "status": "error"
-    }
-  },
-  "earnings_data": {
-    "earnings": {
-      "status": "error",
-      "message": "'NoneType' object has no attribute 'empty'"
-    },
-    "calendar": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
-    }
-  }
-}
+          

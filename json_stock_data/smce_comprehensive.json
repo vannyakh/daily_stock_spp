@@ -1,18 +1,9 @@
 {
   "ticker": "SMCE",
-  "timestamp": "2025-10-15T04:41:24.767524",
+  "timestamp": "2025-11-01T04:29:04.219679",
   "intraday_data": {
-    "status": "success",
-    "rows": 1,
-    "data": [
-      {
-        "Close CNNN": 0.009999999776482582,
-        "High CNNN": 0.009999999776482582,
-        "Low CNNN": 0.009999999776482582,
-        "Open CNNN": 0.009999999776482582,
-        "Volume CNNN": 1000
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -38,7 +29,8 @@
       "status": "no_data"
     },
     "recommendations": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   },
   "holders_data": {

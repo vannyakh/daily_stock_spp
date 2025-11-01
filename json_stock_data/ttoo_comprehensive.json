@@ -1,160 +1,40 @@
 {
   "ticker": "TTOO",
-  "timestamp": "2025-10-15T04:39:59.882196",
+  "timestamp": "2025-11-01T04:28:13.209883",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 2,
+    "data": [
+      {
+        "Close BICX": 0.3019999861717224,
+        "High BICX": 0.3019999861717224,
+        "Low BICX": 0.3019999861717224,
+        "Open BICX": 0.3019999861717224,
+        "Volume BICX": 0
+      },
+      {
+        "Close BICX": 0.3019999861717224,
+        "High BICX": 0.3019999861717224,
+        "Low BICX": 0.3019999861717224,
+        "Open BICX": 0.3019999861717224,
+        "Volume BICX": 400
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
-    "message": "Too Many Requests. Rate limited. Try after a while."
+    "message": "argument of type 'NoneType' is not iterable"
   },
   "financials": {
     "income_statement": {
-      "status": "no_data"
-    },
-    "balance_sheet": {
-      "status": "no_data"
-    },
-    "cash_flow": {
-      "status": "no_data"
-    }
-  },
-  "options_data": {
-    "status": "error",
-    "error_message": "Too Many Requests. Rate limited. Try after a while."
-  },
-  "news_data": {
-    "news": {
       "status": "success",
-      "count": 2,
+      "rows": 44,
+      "columns": [
+        "2023-12-31 00:00:00",
+        "2022-12-31 00:00:00",
+        "2021-12-31 00:00:00",
+        "2020-12-31 00:00:00"
+      ],
       "data": [
         {
-          "id": "dc0239da-cfee-3265-8ff3-d974af1215a8",
-          "content": {
-            "id": "dc0239da-cfee-3265-8ff3-d974af1215a8",
-            "contentType": "STORY",
-            "title": "T2 Biosystems Inc (TTOO) Q3 2024 Earnings Call Highlights: Revenue Surge and Strategic ...",
-            "description": "",
-            "summary": "T2 Biosystems Inc (TTOO) reports a 34% revenue increase, driven by sepsis test sales and a pivotal partnership with Cardinal Health, despite ongoing financial challenges.",
-            "pubDate": "2024-11-15T07:15:50Z",
-            "displayTime": "2024-11-15T07:15:50Z",
-            "isHosted": true,
-            "bypassModal": false,
-            "previewUrl": null,
-            "thumbnail": {
-              "originalUrl": "https://media.zenfs.com/en/us.finance.gurufocus/b3a3548a05c0796da3a7267f15cd7446",
-              "originalWidth": 400,
-              "originalHeight": 400,
-              "caption": "",
-              "resolutions": [
-                {
-                  "url": "https://s.yimg.com/uu/api/res/1.2/CQwmDxoNLj2ZYULznhyVUw--~B/aD00MDA7dz00MDA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/us.finance.gurufocus/b3a3548a05c0796da3a7267f15cd7446",
-                  "width": 400,
-                  "height": 400,
-                  "tag": "original"
-                },
-                {
-                  "url": "https://s.yimg.com/uu/api/res/1.2/GwnHtBNdx_UmcRfXPs_bAA--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/us.finance.gurufocus/b3a3548a05c0796da3a7267f15cd7446",
-                  "width": 170,
-                  "height": 128,
-                  "tag": "170x128"
-                }
-              ]
-            },
-            "provider": {
-              "displayName": "GuruFocus.com",
-              "url": "http://www.gurufocus.com/"
-            },
-            "canonicalUrl": {
-              "url": "https://finance.yahoo.com/news/t2-biosystems-inc-ttoo-q3-071550970.html",
-              "site": "finance",
-              "region": "US",
-              "lang": "en-US"
-            },
-            "clickThroughUrl": {
-              "url": "https://finance.yahoo.com/news/t2-biosystems-inc-ttoo-q3-071550970.html",
-              "site": "finance",
-              "region": "US",
-              "lang": "en-US"
-            },
-            "metadata": {
-              "editorsPick": false
-            },
-            "finance": {
-              "premiumFinance": {
-                "isPremiumNews": false,
-                "isPremiumFreeNews": false
-              }
-            },
-            "storyline": null
-          }
-        },
-        {
-          "id": "762c5c95-6321-33e2-8601-6b8af9a10b0a",
-          "content": {
-            "id": "762c5c95-6321-33e2-8601-6b8af9a10b0a",
-            "contentType": "STORY",
-            "title": "T2 Biosystems: Q3 Earnings Snapshot",
-            "description": "",
-            "summary": "LEXINGTON, Mass. AP) \u2014 T2 Biosystems Inc. TTOO) on Thursday reported a loss of $10.1 million in its third quarter.",
-            "pubDate": "2024-11-14T21:25:40Z",
-            "displayTime": "2024-11-14T21:25:40Z",
-            "isHosted": true,
-            "bypassModal": false,
-            "previewUrl": null,
-            "thumbnail": null,
-            "provider": {
-              "displayName": "Associated Press Finance",
-              "url": "http://www.ap.org/"
-            },
-            "canonicalUrl": {
-              "url": "https://finance.yahoo.com/news/t2-biosystems-q3-earnings-snapshot-212540981.html",
-              "site": "finance",
-              "region": "US",
-              "lang": "en-US"
-            },
-            "clickThroughUrl": {
-              "url": "https://finance.yahoo.com/news/t2-biosystems-q3-earnings-snapshot-212540981.html",
-              "site": "finance",
-              "region": "US",
-              "lang": "en-US"
-            },
-            "metadata": {
-              "editorsPick": false
-            },
-            "finance": {
-              "premiumFinance": {
-                "isPremiumNews": false,
-                "isPremiumFreeNews": false
-              }
-            },
-            "storyline": null
-          }
-        }
-      ]
-    },
-    "recommendations": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
-    }
-  },
-  "holders_data": {
-    "major_holders": {
-      "status": "error"
-    },
-    "institutional_holders": {
-      "status": "error"
-    }
-  },
-  "earnings_data": {
-    "earnings": {
-      "status": "error",
-      "message": "'NoneType' object has no attribute 'empty'"
-    },
-    "calendar": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
-    }
-  }
-}
+          

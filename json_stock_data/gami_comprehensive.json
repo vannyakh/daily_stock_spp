@@ -1,40 +1,400 @@
 {
   "ticker": "GAMI",
-  "timestamp": "2025-10-15T04:48:20.309189",
+  "timestamp": "2025-11-01T04:33:02.913161",
   "intraday_data": {
     "status": "success",
-    "rows": 2,
-    "data": [
-      {
-        "Close GGT-PE": 21.809999465942383,
-        "High GGT-PE": 21.809999465942383,
-        "Low GGT-PE": 21.809999465942383,
-        "Open GGT-PE": 21.809999465942383,
-        "Volume GGT-PE": 301
-      },
-      {
-        "Close GGT-PE": 21.809999465942383,
-        "High GGT-PE": 21.809999465942383,
-        "Low GGT-PE": 21.809999465942383,
-        "Open GGT-PE": 21.809999465942383,
-        "Volume GGT-PE": 300
-      }
-    ]
+    "rows": 0,
+    "data": []
   },
   "stock_info": {
     "status": "error",
-    "message": "argument of type 'NoneType' is not iterable"
+    "message": "Too Many Requests. Rate limited. Try after a while."
   },
   "financials": {
     "income_statement": {
+      "status": "no_data"
+    },
+    "balance_sheet": {
+      "status": "no_data"
+    },
+    "cash_flow": {
+      "status": "no_data"
+    }
+  },
+  "options_data": {
+    "status": "error",
+    "error_message": "Too Many Requests. Rate limited. Try after a while."
+  },
+  "news_data": {
+    "news": {
       "status": "success",
-      "rows": 47,
-      "columns": [
-        "2023-12-31 00:00:00",
-        "2022-12-31 00:00:00",
-        "2021-12-31 00:00:00",
-        "2020-12-31 00:00:00"
-      ],
+      "count": 6,
       "data": [
         {
-          
+          "id": "2d605b53-3c3c-34b7-a8b3-b907826cfe7b",
+          "content": {
+            "id": "2d605b53-3c3c-34b7-a8b3-b907826cfe7b",
+            "contentType": "STORY",
+            "title": "How GAMCO\u2019s Push for Equal Shareholder Treatment at Lennar (LEN) Has Changed Its Investment Story",
+            "description": "",
+            "summary": "On October 13, 2025, GAMCO Investors Inc announced it had sent a letter to Lennar Corporation\u2019s board raising concerns about Lennar\u2019s recent exchange offer of Millrose Properties Class A shares, specifically urging for the inclusion or conversion of Class B shares in the transaction. This push by a major Class B shareholder draws attention to underlying shareholder rights and the potential for enhanced value creation through transaction structure adjustments. We'll explore how this investor...",
+            "pubDate": "2025-10-15T15:14:33Z",
+            "displayTime": "2025-10-15T15:14:33Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": {
+              "originalUrl": "https://media.zenfs.com/en/simply_wall_st__316/ee39867ed54fe106bb884d0e58ecef7a",
+              "originalWidth": 1194,
+              "originalHeight": 432,
+              "caption": "",
+              "resolutions": [
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/Pr4xHz3OlvY3DQvbXETOcA--~B/aD00MzI7dz0xMTk0O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/simply_wall_st__316/ee39867ed54fe106bb884d0e58ecef7a",
+                  "width": 1194,
+                  "height": 432,
+                  "tag": "original"
+                },
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/FNriafdkBzIWQwzV1ssBBA--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/simply_wall_st__316/ee39867ed54fe106bb884d0e58ecef7a",
+                  "width": 170,
+                  "height": 128,
+                  "tag": "170x128"
+                }
+              ]
+            },
+            "provider": {
+              "displayName": "Simply Wall St.",
+              "url": "https://simplywall.st/"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/gamco-push-equal-shareholder-treatment-151433186.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/gamco-push-equal-shareholder-treatment-151433186.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        },
+        {
+          "id": "fa482981-a9b8-3da5-ba20-292dcb5720dc",
+          "content": {
+            "id": "fa482981-a9b8-3da5-ba20-292dcb5720dc",
+            "contentType": "STORY",
+            "title": "Caterpillar Emerges as Unlikely AI Winner on Turbine Demand",
+            "description": "",
+            "summary": "The iconic American company, known for its yellow excavators and bulldozers, closed September at an all-time high as investors bet AI\u2019s nearly insatiable demand for electricity will fuel orders for one of Caterpillar\u2019s lesser-known products \u2014 power-generation turbines.  Then, as the power demands became clear, a boom in shares of utilities and builders of data centers.  Shares of Caterpillar surged 14% in September, the best month since December 2023.",
+            "pubDate": "2025-10-02T11:00:00Z",
+            "displayTime": "2025-10-02T11:00:00Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": {
+              "originalUrl": "https://media.zenfs.com/en/bloomberg_holding_pen_162/c5cd2796516ff8f68a05ddfa8b973d04",
+              "originalWidth": 2500,
+              "originalHeight": 1667,
+              "caption": "",
+              "resolutions": [
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/3dPdO.ZyCDwiaqLyh_rZgw--~B/aD0xNjY3O3c9MjUwMDthcHBpZD15dGFjaHlvbg--/https://media.zenfs.com/en/bloomberg_holding_pen_162/c5cd2796516ff8f68a05ddfa8b973d04",
+                  "width": 2500,
+                  "height": 1667,
+                  "tag": "original"
+                },
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/9GQS8usJ4hAEYZ5i.slqXQ--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/bloomberg_holding_pen_162/c5cd2796516ff8f68a05ddfa8b973d04",
+                  "width": 170,
+                  "height": 128,
+                  "tag": "170x128"
+                }
+              ]
+            },
+            "provider": {
+              "displayName": "Bloomberg",
+              "url": "https://www.bloomberg.com/company"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/caterpillar-emerges-unlikely-ai-winner-110000713.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/caterpillar-emerges-unlikely-ai-winner-110000713.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        },
+        {
+          "id": "7ef46b28-fe44-32f6-a2be-fc7b4b60ea0e",
+          "content": {
+            "id": "7ef46b28-fe44-32f6-a2be-fc7b4b60ea0e",
+            "contentType": "STORY",
+            "title": "Billionaire Mario Gabelli Says He\u2019s Thinking About Buying More Kraft Heinz (KHC) Shares",
+            "description": "",
+            "summary": "Mario Gabelli, GAMCO Investors chairman and CEO, said in a recent program on CNBC that he\u2019d be a \u201cbuyer\u201d of Kraft Heinz Co (NASDAQ:KHC) in pieces and he\u2019s thinking of buying the stock. He was commenting on Kraft Heinz Co (NASDAQ:KHC)\u2019s plan to split into two companies. \u201cBasically the split up pieces can be worth [\u2026]",
+            "pubDate": "2025-09-17T12:07:54Z",
+            "displayTime": "2025-09-17T12:07:54Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": {
+              "originalUrl": "https://media.zenfs.com/en/insidermonkey.com/aa2f556ddd560aec8dab6cf26f27b05f",
+              "originalWidth": 768,
+              "originalHeight": 512,
+              "caption": "",
+              "resolutions": [
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/KMknAjda2HOk62zsr1DorQ--~B/aD01MTI7dz03Njg7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/insidermonkey.com/aa2f556ddd560aec8dab6cf26f27b05f",
+                  "width": 768,
+                  "height": 512,
+                  "tag": "original"
+                },
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/YVz0ShbUNFEKSpGQvmwZEw--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/insidermonkey.com/aa2f556ddd560aec8dab6cf26f27b05f",
+                  "width": 170,
+                  "height": 128,
+                  "tag": "170x128"
+                }
+              ]
+            },
+            "provider": {
+              "displayName": "Insider Monkey",
+              "url": "http://www.insidermonkey.com"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/billionaire-mario-gabelli-says-thinking-120754905.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/billionaire-mario-gabelli-says-thinking-120754905.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        },
+        {
+          "id": "e6e06ac0-69eb-3efc-8990-f1768eb2b157",
+          "content": {
+            "id": "e6e06ac0-69eb-3efc-8990-f1768eb2b157",
+            "contentType": "STORY",
+            "title": "Paramount, Rocket, and More Stocks See Action From Activist Investors",
+            "description": "",
+            "summary": "13D FILINGS These disclosures are from 13Ds filed with the Securities and Exchange Commission. 13Ds are filed within 10 days of an entity\u2019s attaining more than 5% in any class of a company\u2019s securities.",
+            "pubDate": "2025-08-08T17:56:00Z",
+            "displayTime": "2025-08-08T17:56:00Z",
+            "isHosted": false,
+            "bypassModal": false,
+            "previewUrl": "https://finance.yahoo.com/m/e6e06ac0-69eb-3efc-8990-f1768eb2b157/paramount-rocket-and-more.html",
+            "thumbnail": {
+              "originalUrl": "https://media.zenfs.com/en/Barrons.com/082da68a556b1f5dcff6651c029989a0",
+              "originalWidth": 1280,
+              "originalHeight": 640,
+              "caption": "",
+              "resolutions": [
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/icPh.zZ5.y49or1cAQ.01A--~B/aD02NDA7dz0xMjgwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/Barrons.com/082da68a556b1f5dcff6651c029989a0",
+                  "width": 1280,
+                  "height": 640,
+                  "tag": "original"
+                },
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/4xJKqCp01PqgNLt3b8D46g--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/Barrons.com/082da68a556b1f5dcff6651c029989a0",
+                  "width": 170,
+                  "height": 128,
+                  "tag": "170x128"
+                }
+              ]
+            },
+            "provider": {
+              "displayName": "Barrons.com",
+              "url": "http://www.barrons.com/"
+            },
+            "canonicalUrl": {
+              "url": "https://www.barrons.com/articles/paramount-rocket-and-more-stocks-see-action-from-activist-investors-f939fdc7?siteid=yhoof2&yptr=yahoo",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": null,
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        },
+        {
+          "id": "d9d844f6-06e0-3862-bb59-3eb4760e6906",
+          "content": {
+            "id": "d9d844f6-06e0-3862-bb59-3eb4760e6906",
+            "contentType": "STORY",
+            "title": "Gamco Investors: Q2 Earnings Snapshot",
+            "description": "",
+            "summary": "GREENWICH, Conn. AP) \u2014 Gamco Investors Inc. GAMI) on Tuesday reported profit of $20.8 million in its second quarter.",
+            "pubDate": "2025-08-05T21:26:45Z",
+            "displayTime": "2025-08-05T21:26:45Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": null,
+            "provider": {
+              "displayName": "Associated Press Finance",
+              "url": "http://www.ap.org/"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/gamco-investors-q2-earnings-snapshot-212645073.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/gamco-investors-q2-earnings-snapshot-212645073.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        },
+        {
+          "id": "599b75a6-30c5-3738-8e67-23fd5d317fe4",
+          "content": {
+            "id": "599b75a6-30c5-3738-8e67-23fd5d317fe4",
+            "contentType": "STORY",
+            "title": "Billionaire Mario Gabelli Says He\u2019s Bullish on This \u2018Extraordinarily\u2019 Cheap Stock",
+            "description": "",
+            "summary": "Textron Inc (NYSE:TXT) is one of the 10 Buzzing Stocks Everyone is Talking About. Mario Gabelli of GAMCO said in a recent program on CNBC that he likes industrial conglomerate Textron Inc (NYSE:TXT) shares. \u201cTextron Inc (NYSE:TXT) is important because there\u2019s 180 million shares. Scott Donnelly, who runs it, has done a terrific job. And [\u2026]",
+            "pubDate": "2025-07-23T12:02:15Z",
+            "displayTime": "2025-07-23T12:02:15Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": {
+              "originalUrl": "https://media.zenfs.com/en/insidermonkey.com/6ad9b3d6d691007650d362f7da830857",
+              "originalWidth": 600,
+              "originalHeight": 800,
+              "caption": "",
+              "resolutions": [
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/VSz490i5CZ6iEAcXxMhl5A--~B/aD04MDA7dz02MDA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/insidermonkey.com/6ad9b3d6d691007650d362f7da830857",
+                  "width": 600,
+                  "height": 800,
+                  "tag": "original"
+                },
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/C4JgB_E0bfkrdx90WkKhRQ--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/insidermonkey.com/6ad9b3d6d691007650d362f7da830857",
+                  "width": 170,
+                  "height": 128,
+                  "tag": "170x128"
+                }
+              ]
+            },
+            "provider": {
+              "displayName": "Insider Monkey",
+              "url": "http://www.insidermonkey.com"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/billionaire-mario-gabelli-says-bullish-120215775.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/billionaire-mario-gabelli-says-bullish-120215775.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        }
+      ]
+    },
+    "recommendations": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  },
+  "holders_data": {
+    "major_holders": {
+      "status": "error"
+    },
+    "institutional_holders": {
+      "status": "error"
+    }
+  },
+  "earnings_data": {
+    "earnings": {
+      "status": "error",
+      "message": "'NoneType' object has no attribute 'empty'"
+    },
+    "calendar": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  }
+}

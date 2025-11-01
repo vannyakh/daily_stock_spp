@@ -1,10 +1,39 @@
 {
   "ticker": "RMSGW",
-  "timestamp": "2025-10-15T04:52:33.985590",
+  "timestamp": "2025-11-01T04:35:25.269339",
   "intraday_data": {
     "status": "success",
-    "rows": 0,
-    "data": []
+    "rows": 4,
+    "data": [
+      {
+        "Close": 0.08429999649524689,
+        "High": 0.08429999649524689,
+        "Low": 0.08429999649524689,
+        "Open": 0.08429999649524689,
+        "Volume": 0
+      },
+      {
+        "Close": 0.07940000295639038,
+        "High": 0.07940000295639038,
+        "Low": 0.07940000295639038,
+        "Open": 0.07940000295639038,
+        "Volume": 600
+      },
+      {
+        "Close": 0.0714000016450882,
+        "High": 0.0714000016450882,
+        "Low": 0.0714000016450882,
+        "Open": 0.0714000016450882,
+        "Volume": 0
+      },
+      {
+        "Close": 0.0714000016450882,
+        "High": 0.0714000016450882,
+        "Low": 0.0714000016450882,
+        "Open": 0.0714000016450882,
+        "Volume": 1495
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -27,7 +56,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

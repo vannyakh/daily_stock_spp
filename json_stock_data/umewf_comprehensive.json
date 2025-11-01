@@ -1,6 +1,6 @@
 {
   "ticker": "UMEWF",
-  "timestamp": "2025-10-15T04:32:04.274423",
+  "timestamp": "2025-11-01T04:23:46.421809",
   "intraday_data": {
     "status": "no_data",
     "message": "No intraday data available"
@@ -35,24 +35,10 @@
   },
   "holders_data": {
     "major_holders": {
-      "status": "success",
-      "data": [
-        {
-          "Value": 0.72461
-        },
-        {
-          "Value": 0.0
-        },
-        {
-          "Value": 0.0
-        },
-        {
-          "Value": 0.0
-        }
-      ]
+      "status": "error"
     },
     "institutional_holders": {
-      "status": "no_data"
+      "status": "error"
     }
   },
   "earnings_data": {
@@ -62,7 +48,7 @@
     },
     "calendar": {
       "status": "error",
-      "message": "'dict' object has no attribute 'empty'"
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   }
 }

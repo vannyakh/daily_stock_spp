@@ -1,9 +1,25 @@
 {
   "ticker": "FEDU",
-  "timestamp": "2025-10-15T04:35:35.286086",
+  "timestamp": "2025-11-01T04:25:47.179286",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 2,
+    "data": [
+      {
+        "Close": 13.670000076293945,
+        "High": 13.670000076293945,
+        "Low": 13.670000076293945,
+        "Open": 13.670000076293945,
+        "Volume": 0
+      },
+      {
+        "Close": 13.591099739074707,
+        "High": 13.591099739074707,
+        "Low": 13.591099739074707,
+        "Open": 13.591099739074707,
+        "Volume": 101
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -27,8 +43,50 @@
   "news_data": {
     "news": {
       "status": "success",
-      "count": 7,
+      "count": 8,
       "data": [
+        {
+          "id": "54cdbc32-0358-31e1-a3eb-ea283ebd0d3c",
+          "content": {
+            "id": "54cdbc32-0358-31e1-a3eb-ea283ebd0d3c",
+            "contentType": "STORY",
+            "title": "Asian Equities Traded in the US as American Depositary Receipts Decline in Friday Trading; Lose 1.4% for Week",
+            "description": "",
+            "summary": "Asian equities traded in the US as American depositary receipts were down Friday morning, declining",
+            "pubDate": "2025-10-31T14:45:48Z",
+            "displayTime": "2025-10-31T14:45:48Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": null,
+            "provider": {
+              "displayName": "MT Newswires",
+              "url": "https://www.mtnewswires.com/"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/asian-equities-traded-us-american-144548752.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/asian-equities-traded-us-american-144548752.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": true,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        },
         {
           "id": "44cc528e-a71d-3564-a86c-f31a7cc09318",
           "content": {
@@ -383,7 +441,7 @@
     },
     "calendar": {
       "status": "error",
-      "message": "'dict' object has no attribute 'empty'"
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   }
 }

@@ -1,72 +1,37 @@
 {
   "ticker": "ETI-P",
-  "timestamp": "2025-10-15T04:43:53.230646",
+  "timestamp": "2025-11-01T04:30:30.178030",
   "intraday_data": {
     "status": "success",
-    "rows": 9,
+    "rows": 4,
     "data": [
       {
-        "Close": 22.940000534057617,
-        "High": 22.940000534057617,
-        "Low": 22.940000534057617,
-        "Open": 22.940000534057617,
+        "Close": 23.010000228881836,
+        "High": 23.010000228881836,
+        "Low": 23.010000228881836,
+        "Open": 23.010000228881836,
         "Volume": 0
       },
       {
-        "Close": 22.950000762939453,
-        "High": 22.950000762939453,
-        "Low": 22.950000762939453,
-        "Open": 22.950000762939453,
-        "Volume": 128
+        "Close": 22.84000015258789,
+        "High": 23.010000228881836,
+        "Low": 22.84000015258789,
+        "Open": 23.010000228881836,
+        "Volume": 1471
       },
       {
-        "Close": 22.899999618530273,
-        "High": 22.940000534057617,
-        "Low": 22.899999618530273,
-        "Open": 22.940000534057617,
-        "Volume": 1331
+        "Close": 22.945999145507812,
+        "High": 22.945999145507812,
+        "Low": 22.945999145507812,
+        "Open": 22.945999145507812,
+        "Volume": 301
       },
       {
-        "Close": 23.045000076293945,
-        "High": 23.045000076293945,
-        "Low": 23.045000076293945,
-        "Open": 23.045000076293945,
-        "Volume": 100
-      },
-      {
-        "Close": 23.04010009765625,
-        "High": 23.045000076293945,
-        "Low": 23.04010009765625,
-        "Open": 23.045000076293945,
-        "Volume": 954
-      },
-      {
-        "Close": 23.049999237060547,
-        "High": 23.049999237060547,
-        "Low": 23.049999237060547,
-        "Open": 23.049999237060547,
-        "Volume": 126
-      },
-      {
-        "Close": 22.979999542236328,
-        "High": 22.979999542236328,
-        "Low": 22.979999542236328,
-        "Open": 22.979999542236328,
-        "Volume": 340
-      },
-      {
-        "Close": 23.049999237060547,
-        "High": 23.049999237060547,
-        "Low": 23.049999237060547,
-        "Open": 23.049999237060547,
-        "Volume": 500
-      },
-      {
-        "Close": 22.940000534057617,
-        "High": 23.0,
-        "Low": 22.940000534057617,
-        "Open": 22.989999771118164,
-        "Volume": 700
+        "Close": 22.739999771118164,
+        "High": 22.760000228881836,
+        "Low": 22.729999542236328,
+        "Open": 22.729999542236328,
+        "Volume": 835
       }
     ]
   },
@@ -82,15 +47,38 @@
       "status": "no_data"
     },
     "cash_flow": {
-      "status": "success",
-      "rows": 52,
-      "columns": [
-        "2024-12-31 00:00:00",
-        "2023-12-31 00:00:00",
-        "2022-12-31 00:00:00",
-        "2021-12-31 00:00:00",
-        "2020-12-31 00:00:00"
-      ],
-      "data": [
-        {
-          
+      "status": "no_data"
+    }
+  },
+  "options_data": {
+    "status": "error",
+    "error_message": "Too Many Requests. Rate limited. Try after a while."
+  },
+  "news_data": {
+    "news": {
+      "status": "no_data"
+    },
+    "recommendations": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  },
+  "holders_data": {
+    "major_holders": {
+      "status": "error"
+    },
+    "institutional_holders": {
+      "status": "error"
+    }
+  },
+  "earnings_data": {
+    "earnings": {
+      "status": "error",
+      "message": "'NoneType' object has no attribute 'empty'"
+    },
+    "calendar": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  }
+}

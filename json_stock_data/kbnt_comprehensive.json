@@ -1,25 +1,9 @@
 {
   "ticker": "KBNT",
-  "timestamp": "2025-10-15T04:50:44.348764",
+  "timestamp": "2025-11-01T04:34:23.611195",
   "intraday_data": {
-    "status": "success",
-    "rows": 2,
-    "data": [
-      {
-        "Close": 9.999999747378752e-05,
-        "High": 9.999999747378752e-05,
-        "Low": 9.999999747378752e-05,
-        "Open": 9.999999747378752e-05,
-        "Volume": 0
-      },
-      {
-        "Close": 9.999999747378752e-05,
-        "High": 9.999999747378752e-05,
-        "Low": 9.999999747378752e-05,
-        "Open": 9.999999747378752e-05,
-        "Volume": 725
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -42,7 +26,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

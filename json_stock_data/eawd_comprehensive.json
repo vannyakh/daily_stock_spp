@@ -1,25 +1,9 @@
 {
   "ticker": "EAWD",
-  "timestamp": "2025-10-15T04:41:58.226416",
+  "timestamp": "2025-11-01T04:29:23.179493",
   "intraday_data": {
-    "status": "success",
-    "rows": 2,
-    "data": [
-      {
-        "Close": 0.0020000000949949026,
-        "High": 0.0020000000949949026,
-        "Low": 0.0020000000949949026,
-        "Open": 0.0020000000949949026,
-        "Volume": 0
-      },
-      {
-        "Close": 9.999999747378752e-05,
-        "High": 0.00019999999494757503,
-        "Low": 9.999999747378752e-05,
-        "Open": 0.00019999999494757503,
-        "Volume": 512000
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -45,7 +29,8 @@
       "status": "no_data"
     },
     "recommendations": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   },
   "holders_data": {

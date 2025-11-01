@@ -1,25 +1,9 @@
 {
   "ticker": "PTZH",
-  "timestamp": "2025-10-15T04:30:14.565859",
+  "timestamp": "2025-11-01T04:22:45.637125",
   "intraday_data": {
-    "status": "success",
-    "rows": 2,
-    "data": [
-      {
-        "Close STG": 7.340000152587891,
-        "High STG": 7.340000152587891,
-        "Low STG": 7.309999942779541,
-        "Open STG": 7.309999942779541,
-        "Volume STG": 163
-      },
-      {
-        "Close STG": 7.280600070953369,
-        "High STG": 7.280600070953369,
-        "Low STG": 7.280600070953369,
-        "Open STG": 7.280600070953369,
-        "Volume STG": 418
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -42,7 +26,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

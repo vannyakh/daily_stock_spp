@@ -1,16 +1,16 @@
 {
   "ticker": "UNIB",
-  "timestamp": "2025-10-15T04:30:00.822246",
+  "timestamp": "2025-11-01T04:22:37.946486",
   "intraday_data": {
     "status": "success",
     "rows": 1,
     "data": [
       {
-        "Close": 16.25,
-        "High": 16.25,
-        "Low": 16.25,
-        "Open": 16.25,
-        "Volume": 0
+        "Close": 16.850000381469727,
+        "High": 16.850000381469727,
+        "Low": 16.850000381469727,
+        "Open": 16.850000381469727,
+        "Volume": 100
       }
     ]
   },
@@ -38,15 +38,16 @@
       "status": "no_data"
     },
     "recommendations": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   },
   "holders_data": {
     "major_holders": {
-      "status": "no_data"
+      "status": "error"
     },
     "institutional_holders": {
-      "status": "no_data"
+      "status": "error"
     }
   },
   "earnings_data": {

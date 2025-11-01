@@ -1,46 +1,9 @@
 {
   "ticker": "BDL",
-  "timestamp": "2025-10-15T04:32:47.549695",
+  "timestamp": "2025-11-01T04:24:09.424559",
   "intraday_data": {
-    "status": "success",
-    "rows": 5,
-    "data": [
-      {
-        "Close": 31.360000610351562,
-        "High": 31.360000610351562,
-        "Low": 30.454999923706055,
-        "Open": 30.454999923706055,
-        "Volume": 0
-      },
-      {
-        "Close": 32.249900817871094,
-        "High": 32.25,
-        "Low": 31.75,
-        "Open": 32.25,
-        "Volume": 1672
-      },
-      {
-        "Close": 30.75,
-        "High": 30.75,
-        "Low": 30.75,
-        "Open": 30.75,
-        "Volume": 198
-      },
-      {
-        "Close": 31.700000762939453,
-        "High": 31.700000762939453,
-        "Low": 31.600000381469727,
-        "Open": 31.600000381469727,
-        "Volume": 205
-      },
-      {
-        "Close": 31.940000534057617,
-        "High": 31.940000534057617,
-        "Low": 31.940000534057617,
-        "Open": 31.940000534057617,
-        "Volume": 141
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -64,8 +27,69 @@
   "news_data": {
     "news": {
       "status": "success",
-      "count": 6,
+      "count": 7,
       "data": [
+        {
+          "id": "7864177a-ba9f-3c49-be6f-24b50ce646ab",
+          "content": {
+            "id": "7864177a-ba9f-3c49-be6f-24b50ce646ab",
+            "contentType": "STORY",
+            "title": "Flanigan's Gains 39% in Six Months: How to Play the Stock?",
+            "description": "",
+            "summary": "BDL's dual model and pricing moves fuel sales growth, but inflation and rising costs test its margin resilience.",
+            "pubDate": "2025-10-23T17:51:00Z",
+            "displayTime": "2025-10-23T17:51:00Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": {
+              "originalUrl": "https://media.zenfs.com/en/zacks.com/5f200760c294d1d5c8be9963f2761399",
+              "originalWidth": 620,
+              "originalHeight": 413,
+              "caption": "",
+              "resolutions": [
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/Dvi9asVtd4ZYo_qCmUKgkg--~B/aD00MTM7dz02MjA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/zacks.com/5f200760c294d1d5c8be9963f2761399",
+                  "width": 620,
+                  "height": 413,
+                  "tag": "original"
+                },
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/JSKfYpQvaZicU0yke5wCxQ--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/zacks.com/5f200760c294d1d5c8be9963f2761399",
+                  "width": 170,
+                  "height": 128,
+                  "tag": "170x128"
+                }
+              ]
+            },
+            "provider": {
+              "displayName": "Zacks",
+              "url": "http://www.zacks.com/"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/flanigans-gains-39-six-months-175100062.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/flanigans-gains-39-six-months-175100062.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        },
         {
           "id": "2f079e3a-9f4d-39f3-8a63-aac0684b471c",
           "content": {
@@ -435,7 +459,8 @@
       ]
     },
     "recommendations": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   },
   "holders_data": {

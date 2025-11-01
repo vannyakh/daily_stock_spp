@@ -1,9 +1,18 @@
 {
   "ticker": "PPWLO",
-  "timestamp": "2025-10-15T04:45:57.751220",
+  "timestamp": "2025-11-01T04:31:41.803835",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 1,
+    "data": [
+      {
+        "Close TKPHF": 26.329999923706055,
+        "High TKPHF": 26.329999923706055,
+        "Low TKPHF": 26.329999923706055,
+        "Open TKPHF": 26.329999923706055,
+        "Volume TKPHF": 0
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -196,16 +205,15 @@
       ]
     },
     "recommendations": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
+      "status": "no_data"
     }
   },
   "holders_data": {
     "major_holders": {
-      "status": "error"
+      "status": "no_data"
     },
     "institutional_holders": {
-      "status": "error"
+      "status": "no_data"
     }
   },
   "earnings_data": {

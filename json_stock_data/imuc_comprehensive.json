@@ -1,9 +1,18 @@
 {
   "ticker": "IMUC",
-  "timestamp": "2025-10-15T04:49:25.201071",
+  "timestamp": "2025-11-01T04:33:39.654900",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 1,
+    "data": [
+      {
+        "Close": 0.10999999940395355,
+        "High": 0.10999999940395355,
+        "Low": 0.10999999940395355,
+        "Open": 0.10999999940395355,
+        "Volume": 0
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -26,7 +35,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",
