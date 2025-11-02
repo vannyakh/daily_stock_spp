@@ -1,74 +1,9 @@
 {
   "ticker": "IWAL",
-  "timestamp": "2025-11-01T04:34:09.241954",
+  "timestamp": "2025-11-02T04:54:28.073262",
   "intraday_data": {
-    "status": "success",
-    "rows": 9,
-    "data": [
-      {
-        "Close": 0.02290000021457672,
-        "High": 0.02290000021457672,
-        "Low": 0.02290000021457672,
-        "Open": 0.02290000021457672,
-        "Volume": 0
-      },
-      {
-        "Close": 0.023000000044703484,
-        "High": 0.023000000044703484,
-        "Low": 0.023000000044703484,
-        "Open": 0.023000000044703484,
-        "Volume": 30000
-      },
-      {
-        "Close": 0.024700000882148743,
-        "High": 0.024700000882148743,
-        "Low": 0.024000000208616257,
-        "Open": 0.024000000208616257,
-        "Volume": 30000
-      },
-      {
-        "Close": 0.024900000542402267,
-        "High": 0.024900000542402267,
-        "Low": 0.024900000542402267,
-        "Open": 0.024900000542402267,
-        "Volume": 20000
-      },
-      {
-        "Close": 0.024900000542402267,
-        "High": 0.024900000542402267,
-        "Low": 0.024900000542402267,
-        "Open": 0.024900000542402267,
-        "Volume": 40000
-      },
-      {
-        "Close": 0.024900000542402267,
-        "High": 0.024900000542402267,
-        "Low": 0.024900000542402267,
-        "Open": 0.024900000542402267,
-        "Volume": 20000
-      },
-      {
-        "Close": 0.024900000542402267,
-        "High": 0.024900000542402267,
-        "Low": 0.024900000542402267,
-        "Open": 0.024900000542402267,
-        "Volume": 20000
-      },
-      {
-        "Close": 0.024900000542402267,
-        "High": 0.024900000542402267,
-        "Low": 0.024900000542402267,
-        "Open": 0.024900000542402267,
-        "Volume": 28332
-      },
-      {
-        "Close": 0.027000000700354576,
-        "High": 0.027000000700354576,
-        "Low": 0.027000000700354576,
-        "Open": 0.027000000700354576,
-        "Volume": 300
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -91,71 +26,8 @@
   },
   "news_data": {
     "news": {
-      "status": "success",
-      "count": 1,
-      "data": [
-        {
-          "id": "9e0beb90-350d-3a9b-9207-6ed8f6cde48f",
-          "content": {
-            "id": "9e0beb90-350d-3a9b-9207-6ed8f6cde48f",
-            "contentType": "STORY",
-            "title": "Paytech company iWallet launches Voice AI in payments",
-            "description": "",
-            "summary": "This technology provides an alternative to manual DTMF signal entry, reducing the risk of errors and fraud.",
-            "pubDate": "2024-12-31T10:43:08Z",
-            "displayTime": "2024-12-31T10:43:08Z",
-            "isHosted": true,
-            "bypassModal": false,
-            "previewUrl": null,
-            "thumbnail": {
-              "originalUrl": "https://media.zenfs.com/en/electronic_payments_938/fa58c204f8e5e7af7d25abe8370e56e0",
-              "originalWidth": 1440,
-              "originalHeight": 810,
-              "caption": "iWallet\u2019s new AI-based system is a PCI-compliant solution. Credit: TStudious/ Shutterstock.",
-              "resolutions": [
-                {
-                  "url": "https://s.yimg.com/uu/api/res/1.2/bOITHTUfc5WFFqRELi63WQ--~B/aD04MTA7dz0xNDQwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/electronic_payments_938/fa58c204f8e5e7af7d25abe8370e56e0",
-                  "width": 1440,
-                  "height": 810,
-                  "tag": "original"
-                },
-                {
-                  "url": "https://s.yimg.com/uu/api/res/1.2/ytME485LUh5FmU2exh0EPQ--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/electronic_payments_938/fa58c204f8e5e7af7d25abe8370e56e0",
-                  "width": 170,
-                  "height": 128,
-                  "tag": "170x128"
-                }
-              ]
-            },
-            "provider": {
-              "displayName": "Electronic Payments",
-              "url": "https://www.globaldata.com/"
-            },
-            "canonicalUrl": {
-              "url": "https://www.electronicpaymentsinternational.com/news/iwallet-voice-ai-payments/",
-              "site": "finance",
-              "region": "US",
-              "lang": "en-US"
-            },
-            "clickThroughUrl": {
-              "url": "https://finance.yahoo.com/news/paytech-company-iwallet-launches-voice-104308878.html",
-              "site": "finance",
-              "region": "US",
-              "lang": "en-US"
-            },
-            "metadata": {
-              "editorsPick": false
-            },
-            "finance": {
-              "premiumFinance": {
-                "isPremiumNews": false,
-                "isPremiumFreeNews": false
-              }
-            },
-            "storyline": null
-          }
-        }
-      ]
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

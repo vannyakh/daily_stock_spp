@@ -1,13 +1,34 @@
 {
   "ticker": "ICDIQ",
-  "timestamp": "2025-11-01T04:38:26.829151",
+  "timestamp": "2025-11-02T05:01:33.049214",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 1,
+    "data": [
+      {
+        "Close PW-PA": 4.679999828338623,
+        "High PW-PA": 4.679999828338623,
+        "Low PW-PA": 4.553999900817871,
+        "Open PW-PA": 4.553999900817871,
+        "Volume PW-PA": 0
+      }
+    ]
   },
   "stock_info": {
-    "status": "error",
-    "message": "Too Many Requests. Rate limited. Try after a while."
+    "status": "success",
+    "data": {
+      "quoteType": "NONE",
+      "symbol": "ICDIQ",
+      "language": "en-US",
+      "region": "US",
+      "triggerable": false,
+      "customPriceAlertConfidence": "NONE",
+      "tradeable": false,
+      "cryptoTradeable": false,
+      "esgPopulated": false,
+      "hasPrePostMarketData": false,
+      "financialCurrency": "USD"
+    }
   },
   "financials": {
     "income_statement": {
@@ -26,7 +47,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

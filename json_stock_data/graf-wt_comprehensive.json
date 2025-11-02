@@ -1,46 +1,9 @@
 {
   "ticker": "GRAF-WT",
-  "timestamp": "2025-11-01T04:37:00.444100",
+  "timestamp": "2025-11-02T04:59:02.406816",
   "intraday_data": {
-    "status": "success",
-    "rows": 5,
-    "data": [
-      {
-        "Close VFSWW": 0.20010000467300415,
-        "High VFSWW": 0.20839999616146088,
-        "Low VFSWW": 0.20010000467300415,
-        "Open VFSWW": 0.20839999616146088,
-        "Volume VFSWW": 0
-      },
-      {
-        "Close VFSWW": 0.19200000166893005,
-        "High VFSWW": 0.19200000166893005,
-        "Low VFSWW": 0.19200000166893005,
-        "Open VFSWW": 0.19200000166893005,
-        "Volume VFSWW": 1370
-      },
-      {
-        "Close VFSWW": 0.20600000023841858,
-        "High VFSWW": 0.20600000023841858,
-        "Low VFSWW": 0.20600000023841858,
-        "Open VFSWW": 0.20600000023841858,
-        "Volume VFSWW": 0
-      },
-      {
-        "Close VFSWW": 0.19200000166893005,
-        "High VFSWW": 0.19200000166893005,
-        "Low VFSWW": 0.19200000166893005,
-        "Open VFSWW": 0.19200000166893005,
-        "Volume VFSWW": 3751
-      },
-      {
-        "Close VFSWW": 0.1800999939441681,
-        "High VFSWW": 0.18019999563694,
-        "Low VFSWW": 0.1800999939441681,
-        "Open VFSWW": 0.18019999563694,
-        "Volume VFSWW": 600
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -63,7 +26,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

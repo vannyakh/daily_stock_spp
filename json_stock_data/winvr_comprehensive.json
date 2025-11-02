@@ -1,9 +1,18 @@
 {
   "ticker": "WINVR",
-  "timestamp": "2025-11-01T04:37:11.542686",
+  "timestamp": "2025-11-02T04:59:20.449007",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 1,
+    "data": [
+      {
+        "Close BRQL": 0.5045999884605408,
+        "High BRQL": 0.5045999884605408,
+        "Low BRQL": 0.5045999884605408,
+        "Open BRQL": 0.5045999884605408,
+        "Volume BRQL": 0
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -26,7 +35,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

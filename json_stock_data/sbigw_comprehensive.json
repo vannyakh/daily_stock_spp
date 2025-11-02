@@ -1,9 +1,53 @@
 {
   "ticker": "SBIGW",
-  "timestamp": "2025-11-01T04:36:45.280459",
+  "timestamp": "2025-11-02T04:58:42.169049",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 6,
+    "data": [
+      {
+        "Close OBTC": 32.95000076293945,
+        "High OBTC": 32.95000076293945,
+        "Low OBTC": 32.95000076293945,
+        "Open OBTC": 32.95000076293945,
+        "Volume OBTC": 0
+      },
+      {
+        "Close OBTC": 32.900001525878906,
+        "High OBTC": 32.900001525878906,
+        "Low OBTC": 32.900001525878906,
+        "Open OBTC": 32.900001525878906,
+        "Volume OBTC": 200
+      },
+      {
+        "Close OBTC": 33.099998474121094,
+        "High OBTC": 33.099998474121094,
+        "Low OBTC": 33.099998474121094,
+        "Open OBTC": 33.099998474121094,
+        "Volume OBTC": 120
+      },
+      {
+        "Close OBTC": 32.68000030517578,
+        "High OBTC": 32.68000030517578,
+        "Low OBTC": 32.68000030517578,
+        "Open OBTC": 32.68000030517578,
+        "Volume OBTC": 200
+      },
+      {
+        "Close OBTC": 32.689998626708984,
+        "High OBTC": 32.689998626708984,
+        "Low OBTC": 32.689998626708984,
+        "Open OBTC": 32.689998626708984,
+        "Volume OBTC": 50
+      },
+      {
+        "Close OBTC": 33.29999923706055,
+        "High OBTC": 33.29999923706055,
+        "Low OBTC": 33.2400016784668,
+        "Open OBTC": 33.2400016784668,
+        "Volume OBTC": 1000
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -26,18 +70,20 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   },
   "holders_data": {
     "major_holders": {
-      "status": "no_data"
+      "status": "error"
     },
     "institutional_holders": {
-      "status": "no_data"
+      "status": "error"
     }
   },
   "earnings_data": {

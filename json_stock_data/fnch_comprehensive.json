@@ -1,9 +1,18 @@
 {
   "ticker": "FNCH",
-  "timestamp": "2025-11-01T04:33:40.428213",
+  "timestamp": "2025-11-02T04:53:38.236527",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 1,
+    "data": [
+      {
+        "Close": 13.899999618530273,
+        "High": 13.899999618530273,
+        "Low": 13.899999618530273,
+        "Open": 13.899999618530273,
+        "Volume": 0
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -26,7 +35,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

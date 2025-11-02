@@ -1,46 +1,9 @@
 {
   "ticker": "VVOS",
-  "timestamp": "2025-11-01T04:24:57.806528",
+  "timestamp": "2025-11-02T04:40:07.972623",
   "intraday_data": {
-    "status": "success",
-    "rows": 5,
-    "data": [
-      {
-        "Close DYNR": 1.2200000286102295,
-        "High DYNR": 1.2200000286102295,
-        "Low DYNR": 1.2200000286102295,
-        "Open DYNR": 1.2200000286102295,
-        "Volume DYNR": 230
-      },
-      {
-        "Close DYNR": 1.190000057220459,
-        "High DYNR": 1.190000057220459,
-        "Low DYNR": 1.190000057220459,
-        "Open DYNR": 1.190000057220459,
-        "Volume DYNR": 115
-      },
-      {
-        "Close DYNR": 1.190000057220459,
-        "High DYNR": 1.190000057220459,
-        "Low DYNR": 1.190000057220459,
-        "Open DYNR": 1.190000057220459,
-        "Volume DYNR": 985
-      },
-      {
-        "Close DYNR": 1.2000000476837158,
-        "High DYNR": 1.2000000476837158,
-        "Low DYNR": 1.2000000476837158,
-        "Open DYNR": 1.2000000476837158,
-        "Volume DYNR": 939
-      },
-      {
-        "Close DYNR": 1.2000000476837158,
-        "High DYNR": 1.2000000476837158,
-        "Low DYNR": 1.2000000476837158,
-        "Open DYNR": 1.2000000476837158,
-        "Volume DYNR": 576
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -622,7 +585,8 @@
       ]
     },
     "recommendations": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   },
   "holders_data": {

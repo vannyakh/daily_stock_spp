@@ -1,32 +1,9 @@
 {
   "ticker": "VYST",
-  "timestamp": "2025-11-01T04:29:33.725189",
+  "timestamp": "2025-11-02T04:46:59.494458",
   "intraday_data": {
-    "status": "success",
-    "rows": 3,
-    "data": [
-      {
-        "Close": 0.08500000089406967,
-        "High": 0.08500000089406967,
-        "Low": 0.08500000089406967,
-        "Open": 0.08500000089406967,
-        "Volume": 0
-      },
-      {
-        "Close": 0.08500000089406967,
-        "High": 0.08500000089406967,
-        "Low": 0.08500000089406967,
-        "Open": 0.08500000089406967,
-        "Volume": 1100
-      },
-      {
-        "Close": 0.08500000089406967,
-        "High": 0.08500000089406967,
-        "Low": 0.08500000089406967,
-        "Open": 0.08500000089406967,
-        "Volume": 2500
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -49,7 +26,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

@@ -1,9 +1,39 @@
 {
   "ticker": "UBCP",
-  "timestamp": "2025-11-01T04:23:02.995786",
+  "timestamp": "2025-11-02T04:36:41.839883",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 4,
+    "data": [
+      {
+        "Close": 13.050100326538086,
+        "High": 13.050100326538086,
+        "Low": 13.050100326538086,
+        "Open": 13.050100326538086,
+        "Volume": 0
+      },
+      {
+        "Close": 13.050100326538086,
+        "High": 13.050100326538086,
+        "Low": 13.050000190734863,
+        "Open": 13.050000190734863,
+        "Volume": 1501
+      },
+      {
+        "Close": 13.050000190734863,
+        "High": 13.050000190734863,
+        "Low": 13.050000190734863,
+        "Open": 13.050000190734863,
+        "Volume": 219
+      },
+      {
+        "Close": 13.074999809265137,
+        "High": 13.074999809265137,
+        "Low": 13.074999809265137,
+        "Open": 13.074999809265137,
+        "Volume": 191
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -642,7 +672,8 @@
       ]
     },
     "recommendations": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   },
   "holders_data": {

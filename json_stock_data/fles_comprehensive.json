@@ -1,18 +1,9 @@
 {
   "ticker": "FLES",
-  "timestamp": "2025-11-01T04:34:24.735221",
+  "timestamp": "2025-11-02T04:54:50.778214",
   "intraday_data": {
-    "status": "success",
-    "rows": 1,
-    "data": [
-      {
-        "Close MOTS": 9.999999747378752e-05,
-        "High MOTS": 9.999999747378752e-05,
-        "Low MOTS": 9.999999747378752e-05,
-        "Open MOTS": 9.999999747378752e-05,
-        "Volume MOTS": 0
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -38,7 +29,8 @@
       "status": "no_data"
     },
     "recommendations": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   },
   "holders_data": {

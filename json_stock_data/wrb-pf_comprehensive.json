@@ -1,18 +1,9 @@
 {
   "ticker": "WRB-PF",
-  "timestamp": "2025-11-01T04:39:01.365108",
+  "timestamp": "2025-11-02T05:02:29.840015",
   "intraday_data": {
-    "status": "success",
-    "rows": 1,
-    "data": [
-      {
-        "Close FRBKQ": 9.999999747378752e-05,
-        "High FRBKQ": 9.999999747378752e-05,
-        "Low FRBKQ": 9.999999747378752e-05,
-        "Open FRBKQ": 9.999999747378752e-05,
-        "Volume FRBKQ": 120
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -35,7 +26,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

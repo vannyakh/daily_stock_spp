@@ -1,9 +1,39 @@
 {
   "ticker": "TRCK",
-  "timestamp": "2025-11-01T04:29:19.417182",
+  "timestamp": "2025-11-02T04:46:35.793885",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 4,
+    "data": [
+      {
+        "Close": 0.3319999873638153,
+        "High": 0.3319999873638153,
+        "Low": 0.3319999873638153,
+        "Open": 0.3319999873638153,
+        "Volume": 0
+      },
+      {
+        "Close": 0.3100000023841858,
+        "High": 0.3100000023841858,
+        "Low": 0.3100000023841858,
+        "Open": 0.3100000023841858,
+        "Volume": 2500
+      },
+      {
+        "Close": 0.25,
+        "High": 0.2750000059604645,
+        "Low": 0.25,
+        "Open": 0.2750000059604645,
+        "Volume": 10500
+      },
+      {
+        "Close": 0.27000001072883606,
+        "High": 0.27000001072883606,
+        "Low": 0.27000001072883606,
+        "Open": 0.27000001072883606,
+        "Volume": 2500
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -29,15 +59,16 @@
       "status": "no_data"
     },
     "recommendations": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   },
   "holders_data": {
     "major_holders": {
-      "status": "no_data"
+      "status": "error"
     },
     "institutional_holders": {
-      "status": "no_data"
+      "status": "error"
     }
   },
   "earnings_data": {

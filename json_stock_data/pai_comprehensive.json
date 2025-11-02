@@ -1,9 +1,32 @@
 {
   "ticker": "PAI",
-  "timestamp": "2025-11-01T04:21:44.721478",
+  "timestamp": "2025-11-02T04:34:28.234989",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 3,
+    "data": [
+      {
+        "Close HTLM": 3.219899892807007,
+        "High HTLM": 3.2200000286102295,
+        "Low HTLM": 3.2197999954223633,
+        "Open HTLM": 3.2200000286102295,
+        "Volume HTLM": 0
+      },
+      {
+        "Close HTLM": 3.2093000411987305,
+        "High HTLM": 3.2093000411987305,
+        "Low HTLM": 3.2093000411987305,
+        "Open HTLM": 3.2093000411987305,
+        "Volume HTLM": 0
+      },
+      {
+        "Close HTLM": 3.2190001010894775,
+        "High HTLM": 3.2190001010894775,
+        "Low HTLM": 3.2190001010894775,
+        "Open HTLM": 3.2190001010894775,
+        "Volume HTLM": 167
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -29,7 +52,8 @@
       "status": "no_data"
     },
     "recommendations": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   },
   "holders_data": {

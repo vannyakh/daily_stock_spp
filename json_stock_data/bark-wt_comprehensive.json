@@ -1,88 +1,9 @@
 {
   "ticker": "BARK-WT",
-  "timestamp": "2025-11-01T04:37:42.490263",
+  "timestamp": "2025-11-02T05:00:20.480815",
   "intraday_data": {
-    "status": "success",
-    "rows": 11,
-    "data": [
-      {
-        "Close GCMGW": 0.1468999981880188,
-        "High GCMGW": 0.1468999981880188,
-        "Low GCMGW": 0.1468999981880188,
-        "Open GCMGW": 0.1468999981880188,
-        "Volume GCMGW": 0
-      },
-      {
-        "Close GCMGW": 0.14000000059604645,
-        "High GCMGW": 0.14000000059604645,
-        "Low GCMGW": 0.125,
-        "Open GCMGW": 0.125,
-        "Volume GCMGW": 9166
-      },
-      {
-        "Close GCMGW": 0.1340000033378601,
-        "High GCMGW": 0.1340000033378601,
-        "Low GCMGW": 0.1340000033378601,
-        "Open GCMGW": 0.1340000033378601,
-        "Volume GCMGW": 2500
-      },
-      {
-        "Close GCMGW": 0.14000000059604645,
-        "High GCMGW": 0.14000000059604645,
-        "Low GCMGW": 0.14000000059604645,
-        "Open GCMGW": 0.14000000059604645,
-        "Volume GCMGW": 5369
-      },
-      {
-        "Close GCMGW": 0.12999999523162842,
-        "High GCMGW": 0.1306000053882599,
-        "Low GCMGW": 0.12999999523162842,
-        "Open GCMGW": 0.1306000053882599,
-        "Volume GCMGW": 5800
-      },
-      {
-        "Close GCMGW": 0.12999999523162842,
-        "High GCMGW": 0.12999999523162842,
-        "Low GCMGW": 0.12999999523162842,
-        "Open GCMGW": 0.12999999523162842,
-        "Volume GCMGW": 200
-      },
-      {
-        "Close GCMGW": 0.12999999523162842,
-        "High GCMGW": 0.12999999523162842,
-        "Low GCMGW": 0.12999999523162842,
-        "Open GCMGW": 0.12999999523162842,
-        "Volume GCMGW": 300
-      },
-      {
-        "Close GCMGW": 0.12999999523162842,
-        "High GCMGW": 0.12999999523162842,
-        "Low GCMGW": 0.12999999523162842,
-        "Open GCMGW": 0.12999999523162842,
-        "Volume GCMGW": 1200
-      },
-      {
-        "Close GCMGW": 0.14000000059604645,
-        "High GCMGW": 0.14000000059604645,
-        "Low GCMGW": 0.14000000059604645,
-        "Open GCMGW": 0.14000000059604645,
-        "Volume GCMGW": 1200
-      },
-      {
-        "Close GCMGW": 0.15000000596046448,
-        "High GCMGW": 0.15000000596046448,
-        "Low GCMGW": 0.14980000257492065,
-        "Open GCMGW": 0.14980000257492065,
-        "Volume GCMGW": 3326
-      },
-      {
-        "Close GCMGW": 0.15000000596046448,
-        "High GCMGW": 0.15000000596046448,
-        "Low GCMGW": 0.15000000596046448,
-        "Open GCMGW": 0.15000000596046448,
-        "Volume GCMGW": 100
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -105,7 +26,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

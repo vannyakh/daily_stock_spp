@@ -1,60 +1,9 @@
 {
   "ticker": "WLSS",
-  "timestamp": "2025-11-01T04:35:49.250746",
+  "timestamp": "2025-11-02T04:57:15.740802",
   "intraday_data": {
-    "status": "success",
-    "rows": 7,
-    "data": [
-      {
-        "Close GGROW": 0.01899999938905239,
-        "High GGROW": 0.01899999938905239,
-        "Low GGROW": 0.01899999938905239,
-        "Open GGROW": 0.01899999938905239,
-        "Volume GGROW": 0
-      },
-      {
-        "Close GGROW": 0.01979999989271164,
-        "High GGROW": 0.01979999989271164,
-        "Low GGROW": 0.01979999989271164,
-        "Open GGROW": 0.01979999989271164,
-        "Volume GGROW": 1000
-      },
-      {
-        "Close GGROW": 0.019700000062584877,
-        "High GGROW": 0.019700000062584877,
-        "Low GGROW": 0.019600000232458115,
-        "Open GGROW": 0.019700000062584877,
-        "Volume GGROW": 200
-      },
-      {
-        "Close GGROW": 0.018200000748038292,
-        "High GGROW": 0.018200000748038292,
-        "Low GGROW": 0.018200000748038292,
-        "Open GGROW": 0.018200000748038292,
-        "Volume GGROW": 0
-      },
-      {
-        "Close GGROW": 0.018200000748038292,
-        "High GGROW": 0.018400000408291817,
-        "Low GGROW": 0.018200000748038292,
-        "Open GGROW": 0.018400000408291817,
-        "Volume GGROW": 4996
-      },
-      {
-        "Close GGROW": 0.018200000748038292,
-        "High GGROW": 0.018200000748038292,
-        "Low GGROW": 0.018200000748038292,
-        "Open GGROW": 0.018200000748038292,
-        "Volume GGROW": 1015
-      },
-      {
-        "Close GGROW": 0.019899999722838402,
-        "High GGROW": 0.019899999722838402,
-        "Low GGROW": 0.019899999722838402,
-        "Open GGROW": 0.019899999722838402,
-        "Volume GGROW": 200
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -77,7 +26,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

@@ -1,32 +1,9 @@
 {
   "ticker": "NUKKW",
-  "timestamp": "2025-11-01T04:35:40.776971",
+  "timestamp": "2025-11-02T04:57:03.423646",
   "intraday_data": {
-    "status": "success",
-    "rows": 3,
-    "data": [
-      {
-        "Close MSPRZ": 0.01549999974668026,
-        "High MSPRZ": 0.015599999576807022,
-        "Low MSPRZ": 0.01549999974668026,
-        "Open MSPRZ": 0.01549999974668026,
-        "Volume MSPRZ": 0
-      },
-      {
-        "Close MSPRZ": 0.01549999974668026,
-        "High MSPRZ": 0.01549999974668026,
-        "Low MSPRZ": 0.01549999974668026,
-        "Open MSPRZ": 0.01549999974668026,
-        "Volume MSPRZ": 5100
-      },
-      {
-        "Close MSPRZ": 0.01510000042617321,
-        "High MSPRZ": 0.01510000042617321,
-        "Low MSPRZ": 0.009999999776482582,
-        "Open MSPRZ": 0.01510000042617321,
-        "Volume MSPRZ": 18107
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -49,71 +26,8 @@
   },
   "news_data": {
     "news": {
-      "status": "success",
-      "count": 1,
-      "data": [
-        {
-          "id": "42e98012-3458-3792-afb0-3b89f1652272",
-          "content": {
-            "id": "42e98012-3458-3792-afb0-3b89f1652272",
-            "contentType": "STORY",
-            "title": "Nukkleus, Mandragola establish joint venture for infrastructure modernization",
-            "description": "",
-            "summary": "Nukkleus (NUKK), together with Mandragola announced the establishment of a strategic joint venture focused on commercial and defense-oriented infrastructure modernization. Under the new venture, Nukkleus and Mandragola intend to establish advanced manufacturing zones in both the Baltics and Israel, designed to support civil and defense aviation needs. Plans also include the development of a NATO-compliant logistics hub in Riga in cooperation with additional regional partners, as well as faciliti",
-            "pubDate": "2025-08-30T12:55:42Z",
-            "displayTime": "2025-08-30T12:55:42Z",
-            "isHosted": true,
-            "bypassModal": false,
-            "previewUrl": null,
-            "thumbnail": {
-              "originalUrl": "https://media.zenfs.com/en/tipranks_452/9f42828689b51f4a121456ec717e5d5f",
-              "originalWidth": 192,
-              "originalHeight": 192,
-              "caption": "https://www.tipranks.com/news/the-fly/nukkleus-mandragola-establish-joint-venture-for-infrastructure-modernization-thefly",
-              "resolutions": [
-                {
-                  "url": "https://s.yimg.com/uu/api/res/1.2/eaf_KlyOKOmW17xf3F8d1A--~B/aD0xOTI7dz0xOTI7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/tipranks_452/9f42828689b51f4a121456ec717e5d5f",
-                  "width": 192,
-                  "height": 192,
-                  "tag": "original"
-                },
-                {
-                  "url": "https://s.yimg.com/uu/api/res/1.2/SAQuzmpyKPDqkvTVzsS_ig--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/tipranks_452/9f42828689b51f4a121456ec717e5d5f",
-                  "width": 170,
-                  "height": 128,
-                  "tag": "170x128"
-                }
-              ]
-            },
-            "provider": {
-              "displayName": "TipRanks",
-              "url": "https://www.tipranks.com/"
-            },
-            "canonicalUrl": {
-              "url": "https://finance.yahoo.com/news/nukkleus-mandragola-establish-joint-venture-125542369.html",
-              "site": "finance",
-              "region": "US",
-              "lang": "en-US"
-            },
-            "clickThroughUrl": {
-              "url": "https://finance.yahoo.com/news/nukkleus-mandragola-establish-joint-venture-125542369.html",
-              "site": "finance",
-              "region": "US",
-              "lang": "en-US"
-            },
-            "metadata": {
-              "editorsPick": false
-            },
-            "finance": {
-              "premiumFinance": {
-                "isPremiumNews": false,
-                "isPremiumFreeNews": false
-              }
-            },
-            "storyline": null
-          }
-        }
-      ]
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

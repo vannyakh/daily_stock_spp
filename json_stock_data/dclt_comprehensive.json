@@ -1,81 +1,9 @@
 {
   "ticker": "DCLT",
-  "timestamp": "2025-11-01T04:30:05.233695",
+  "timestamp": "2025-11-02T04:47:47.146162",
   "intraday_data": {
-    "status": "success",
-    "rows": 10,
-    "data": [
-      {
-        "Close RAKR": 0.029100000858306885,
-        "High RAKR": 0.029100000858306885,
-        "Low RAKR": 0.029100000858306885,
-        "Open RAKR": 0.029100000858306885,
-        "Volume RAKR": 0
-      },
-      {
-        "Close RAKR": 0.029100000858306885,
-        "High RAKR": 0.029100000858306885,
-        "Low RAKR": 0.029100000858306885,
-        "Open RAKR": 0.029100000858306885,
-        "Volume RAKR": 600
-      },
-      {
-        "Close RAKR": 0.029100000858306885,
-        "High RAKR": 0.029100000858306885,
-        "Low RAKR": 0.029100000858306885,
-        "Open RAKR": 0.029100000858306885,
-        "Volume RAKR": 2200
-      },
-      {
-        "Close RAKR": 0.02800000086426735,
-        "High RAKR": 0.02810000069439411,
-        "Low RAKR": 0.02800000086426735,
-        "Open RAKR": 0.02810000069439411,
-        "Volume RAKR": 150000
-      },
-      {
-        "Close RAKR": 0.02800000086426735,
-        "High RAKR": 0.02800000086426735,
-        "Low RAKR": 0.02800000086426735,
-        "Open RAKR": 0.02800000086426735,
-        "Volume RAKR": 38571
-      },
-      {
-        "Close RAKR": 0.021700000390410423,
-        "High RAKR": 0.021700000390410423,
-        "Low RAKR": 0.021700000390410423,
-        "Open RAKR": 0.021700000390410423,
-        "Volume RAKR": 10000
-      },
-      {
-        "Close RAKR": 0.02500000037252903,
-        "High RAKR": 0.02500000037252903,
-        "Low RAKR": 0.02500000037252903,
-        "Open RAKR": 0.02500000037252903,
-        "Volume RAKR": 50000
-      },
-      {
-        "Close RAKR": 0.02250000089406967,
-        "High RAKR": 0.02250000089406967,
-        "Low RAKR": 0.02250000089406967,
-        "Open RAKR": 0.02250000089406967,
-        "Volume RAKR": 10000
-      },
-      {
-        "Close RAKR": 0.02250000089406967,
-        "High RAKR": 0.02250000089406967,
-        "Low RAKR": 0.02250000089406967,
-        "Open RAKR": 0.02250000089406967,
-        "Volume RAKR": 9769
-      },
-      {
-        "Close RAKR": 0.02250000089406967,
-        "High RAKR": 0.02250000089406967,
-        "Low RAKR": 0.02250000089406967,
-        "Open RAKR": 0.02250000089406967,
-        "Volume RAKR": 23000
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -98,7 +26,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

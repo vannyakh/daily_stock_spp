@@ -1,25 +1,9 @@
 {
   "ticker": "IFED",
-  "timestamp": "2025-11-01T04:38:09.593619",
+  "timestamp": "2025-11-02T05:01:08.324160",
   "intraday_data": {
-    "status": "success",
-    "rows": 2,
-    "data": [
-      {
-        "Close": 46.19660186767578,
-        "High": 46.5640983581543,
-        "Low": 46.19660186767578,
-        "Open": 46.5640983581543,
-        "Volume": 0
-      },
-      {
-        "Close": 46.68330001831055,
-        "High": 46.68330001831055,
-        "Low": 46.19660186767578,
-        "Open": 46.19660186767578,
-        "Volume": 0
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -42,7 +26,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

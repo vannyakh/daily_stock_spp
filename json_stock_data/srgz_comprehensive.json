@@ -1,9 +1,32 @@
 {
   "ticker": "SRGZ",
-  "timestamp": "2025-11-01T04:29:22.003418",
+  "timestamp": "2025-11-02T04:46:38.563128",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 3,
+    "data": [
+      {
+        "Close": 0.04500000178813934,
+        "High": 0.04500000178813934,
+        "Low": 0.04500000178813934,
+        "Open": 0.04500000178813934,
+        "Volume": 0
+      },
+      {
+        "Close": 0.04500000178813934,
+        "High": 0.04500000178813934,
+        "Low": 0.04500000178813934,
+        "Open": 0.04500000178813934,
+        "Volume": 1157
+      },
+      {
+        "Close": 0.03999999910593033,
+        "High": 0.03999999910593033,
+        "Low": 0.03999999910593033,
+        "Open": 0.03999999910593033,
+        "Volume": 10200
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -26,7 +49,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

@@ -1,53 +1,9 @@
 {
   "ticker": "PCG-PE",
-  "timestamp": "2025-11-01T04:32:24.422155",
+  "timestamp": "2025-11-02T04:51:42.373166",
   "intraday_data": {
-    "status": "success",
-    "rows": 6,
-    "data": [
-      {
-        "Close": 19.0,
-        "High": 19.0,
-        "Low": 19.0,
-        "Open": 19.0,
-        "Volume": 0
-      },
-      {
-        "Close": 19.1200008392334,
-        "High": 19.1200008392334,
-        "Low": 19.1200008392334,
-        "Open": 19.1200008392334,
-        "Volume": 300
-      },
-      {
-        "Close": 19.3799991607666,
-        "High": 19.3799991607666,
-        "Low": 19.3799991607666,
-        "Open": 19.3799991607666,
-        "Volume": 100
-      },
-      {
-        "Close": 19.649999618530273,
-        "High": 19.649999618530273,
-        "Low": 19.649999618530273,
-        "Open": 19.649999618530273,
-        "Volume": 0
-      },
-      {
-        "Close": 19.760000228881836,
-        "High": 19.760000228881836,
-        "Low": 19.65999984741211,
-        "Open": 19.68000030517578,
-        "Volume": 1615
-      },
-      {
-        "Close": 19.690000534057617,
-        "High": 19.690000534057617,
-        "Low": 19.690000534057617,
-        "Open": 19.690000534057617,
-        "Volume": 100
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -70,7 +26,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

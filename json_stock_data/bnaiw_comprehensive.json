@@ -1,75 +1,54 @@
 {
   "ticker": "BNAIW",
-  "timestamp": "2025-11-01T04:37:46.006465",
+  "timestamp": "2025-11-02T05:00:24.341494",
   "intraday_data": {
-    "status": "success",
-    "rows": 7,
-    "data": [
-      {
-        "Close ECCW": 23.874500274658203,
-        "High ECCW": 23.874500274658203,
-        "Low ECCW": 23.874500274658203,
-        "Open ECCW": 23.874500274658203,
-        "Volume ECCW": 0
-      },
-      {
-        "Close ECCW": 23.84149932861328,
-        "High ECCW": 23.84149932861328,
-        "Low ECCW": 23.84149932861328,
-        "Open ECCW": 23.84149932861328,
-        "Volume ECCW": 204
-      },
-      {
-        "Close ECCW": 23.899900436401367,
-        "High ECCW": 23.899900436401367,
-        "Low ECCW": 23.899900436401367,
-        "Open ECCW": 23.899900436401367,
-        "Volume ECCW": 457
-      },
-      {
-        "Close ECCW": 23.899900436401367,
-        "High ECCW": 23.899999618530273,
-        "Low ECCW": 23.899900436401367,
-        "Open ECCW": 23.899999618530273,
-        "Volume ECCW": 396
-      },
-      {
-        "Close ECCW": 23.899900436401367,
-        "High ECCW": 23.899999618530273,
-        "Low ECCW": 23.899900436401367,
-        "Open ECCW": 23.899999618530273,
-        "Volume ECCW": 300
-      },
-      {
-        "Close ECCW": 23.864999771118164,
-        "High ECCW": 23.864999771118164,
-        "Low ECCW": 23.864999771118164,
-        "Open ECCW": 23.864999771118164,
-        "Volume ECCW": 0
-      },
-      {
-        "Close ECCW": 23.864999771118164,
-        "High ECCW": 23.864999771118164,
-        "Low ECCW": 23.864999771118164,
-        "Open ECCW": 23.864999771118164,
-        "Volume ECCW": 0
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
-    "message": "argument of type 'NoneType' is not iterable"
+    "message": "Too Many Requests. Rate limited. Try after a while."
   },
   "financials": {
     "income_statement": {
-      "status": "success",
-      "rows": 47,
-      "columns": [
-        "2024-12-31 00:00:00",
-        "2023-12-31 00:00:00",
-        "2022-12-31 00:00:00",
-        "2021-12-31 00:00:00"
-      ],
-      "data": [
-        {
-          
+      "status": "no_data"
+    },
+    "balance_sheet": {
+      "status": "no_data"
+    },
+    "cash_flow": {
+      "status": "no_data"
+    }
+  },
+  "options_data": {
+    "status": "error",
+    "error_message": "Too Many Requests. Rate limited. Try after a while."
+  },
+  "news_data": {
+    "news": {
+      "status": "no_data"
+    },
+    "recommendations": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  },
+  "holders_data": {
+    "major_holders": {
+      "status": "error"
+    },
+    "institutional_holders": {
+      "status": "error"
+    }
+  },
+  "earnings_data": {
+    "earnings": {
+      "status": "error",
+      "message": "'NoneType' object has no attribute 'empty'"
+    },
+    "calendar": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  }
+}

@@ -1,39 +1,9 @@
 {
   "ticker": "COBA",
-  "timestamp": "2025-11-01T04:37:30.756342",
+  "timestamp": "2025-11-02T05:00:01.047573",
   "intraday_data": {
-    "status": "success",
-    "rows": 4,
-    "data": [
-      {
-        "Close NRXPW": 0.14910000562667847,
-        "High NRXPW": 0.14910000562667847,
-        "Low NRXPW": 0.14910000562667847,
-        "Open NRXPW": 0.14910000562667847,
-        "Volume NRXPW": 0
-      },
-      {
-        "Close NRXPW": 0.15000000596046448,
-        "High NRXPW": 0.15000000596046448,
-        "Low NRXPW": 0.15000000596046448,
-        "Open NRXPW": 0.15000000596046448,
-        "Volume NRXPW": 0
-      },
-      {
-        "Close NRXPW": 0.1363999992609024,
-        "High NRXPW": 0.1363999992609024,
-        "Low NRXPW": 0.1363999992609024,
-        "Open NRXPW": 0.1363999992609024,
-        "Volume NRXPW": 1588
-      },
-      {
-        "Close NRXPW": 0.15000000596046448,
-        "High NRXPW": 0.15000000596046448,
-        "Low NRXPW": 0.15000000596046448,
-        "Open NRXPW": 0.15000000596046448,
-        "Volume NRXPW": 1000
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -56,94 +26,8 @@
   },
   "news_data": {
     "news": {
-      "status": "success",
-      "count": 2,
-      "data": [
-        {
-          "id": "a999fe1d-950a-3cb3-a285-e2b759b60df7",
-          "content": {
-            "id": "a999fe1d-950a-3cb3-a285-e2b759b60df7",
-            "contentType": "STORY",
-            "title": "Update: Newmont Down As Sells Coffee Project to Fuerte Metals in US$150 Million Deal; Adds National Bank Commentary",
-            "description": "",
-            "summary": "(Adds share price move on TSX in first paragraph and National Bank commentary from eight paragraph)",
-            "pubDate": "2025-09-15T14:50:46Z",
-            "displayTime": "2025-09-15T14:50:46Z",
-            "isHosted": true,
-            "bypassModal": false,
-            "previewUrl": null,
-            "thumbnail": null,
-            "provider": {
-              "displayName": "MT Newswires",
-              "url": "https://www.mtnewswires.com/"
-            },
-            "canonicalUrl": {
-              "url": "https://finance.yahoo.com/news/newmont-down-sells-coffee-project-145046335.html",
-              "site": "finance",
-              "region": "US",
-              "lang": "en-US"
-            },
-            "clickThroughUrl": {
-              "url": "https://finance.yahoo.com/news/newmont-down-sells-coffee-project-145046335.html",
-              "site": "finance",
-              "region": "US",
-              "lang": "en-US"
-            },
-            "metadata": {
-              "editorsPick": false
-            },
-            "finance": {
-              "premiumFinance": {
-                "isPremiumNews": true,
-                "isPremiumFreeNews": false
-              }
-            },
-            "storyline": null
-          }
-        },
-        {
-          "id": "5367e27c-785b-3645-9522-722e645d3aca",
-          "content": {
-            "id": "5367e27c-785b-3645-9522-722e645d3aca",
-            "contentType": "STORY",
-            "title": "Newmont Lower In US Premarket As Sells Coffee Project to Fuerte Metals in US$150 Million Deal; Days After Fuerte Asked About Recent Trading Activity",
-            "description": "",
-            "summary": "Newmont (NGT.TO) was at last look down 0.5% in US premarket trade Monday as it agreed to sell the Co",
-            "pubDate": "2025-09-15T13:23:07Z",
-            "displayTime": "2025-09-15T13:23:07Z",
-            "isHosted": true,
-            "bypassModal": false,
-            "previewUrl": null,
-            "thumbnail": null,
-            "provider": {
-              "displayName": "MT Newswires",
-              "url": "https://www.mtnewswires.com/"
-            },
-            "canonicalUrl": {
-              "url": "https://finance.yahoo.com/news/newmont-lower-us-premarket-sells-132307467.html",
-              "site": "finance",
-              "region": "US",
-              "lang": "en-US"
-            },
-            "clickThroughUrl": {
-              "url": "https://finance.yahoo.com/news/newmont-lower-us-premarket-sells-132307467.html",
-              "site": "finance",
-              "region": "US",
-              "lang": "en-US"
-            },
-            "metadata": {
-              "editorsPick": false
-            },
-            "finance": {
-              "premiumFinance": {
-                "isPremiumNews": true,
-                "isPremiumFreeNews": false
-              }
-            },
-            "storyline": null
-          }
-        }
-      ]
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

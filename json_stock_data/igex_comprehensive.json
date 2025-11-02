@@ -1,9 +1,32 @@
 {
   "ticker": "IGEX",
-  "timestamp": "2025-11-01T04:28:33.678128",
+  "timestamp": "2025-11-02T04:45:24.581496",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 3,
+    "data": [
+      {
+        "Close RSCF": 0.04600000008940697,
+        "High RSCF": 0.04600000008940697,
+        "Low RSCF": 0.04600000008940697,
+        "Open RSCF": 0.04600000008940697,
+        "Volume RSCF": 0
+      },
+      {
+        "Close RSCF": 0.04500000178813934,
+        "High RSCF": 0.04500000178813934,
+        "Low RSCF": 0.04500000178813934,
+        "Open RSCF": 0.04500000178813934,
+        "Volume RSCF": 45000
+      },
+      {
+        "Close RSCF": 0.052400000393390656,
+        "High RSCF": 0.052400000393390656,
+        "Low RSCF": 0.052400000393390656,
+        "Open RSCF": 0.052400000393390656,
+        "Volume RSCF": 100
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -26,7 +49,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

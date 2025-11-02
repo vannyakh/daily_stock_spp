@@ -1,9 +1,39 @@
 {
   "ticker": "NAHD",
-  "timestamp": "2025-11-01T04:28:15.995857",
+  "timestamp": "2025-11-02T04:45:01.377105",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 4,
+    "data": [
+      {
+        "Close ATPC": 1.190000057220459,
+        "High ATPC": 1.190000057220459,
+        "Low ATPC": 1.190000057220459,
+        "Open ATPC": 1.190000057220459,
+        "Volume ATPC": 0
+      },
+      {
+        "Close ATPC": 1.2000000476837158,
+        "High ATPC": 1.2000000476837158,
+        "Low ATPC": 1.2000000476837158,
+        "Open ATPC": 1.2000000476837158,
+        "Volume ATPC": 100
+      },
+      {
+        "Close ATPC": 1.1784000396728516,
+        "High ATPC": 1.1784000396728516,
+        "Low ATPC": 1.1784000396728516,
+        "Open ATPC": 1.1784000396728516,
+        "Volume ATPC": 101
+      },
+      {
+        "Close ATPC": 1.2000000476837158,
+        "High ATPC": 1.2000000476837158,
+        "Low ATPC": 1.2000000476837158,
+        "Open ATPC": 1.2000000476837158,
+        "Volume ATPC": 154
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -26,7 +56,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

@@ -1,23 +1,16 @@
 {
   "ticker": "TETOF",
-  "timestamp": "2025-11-01T04:26:45.547092",
+  "timestamp": "2025-11-02T04:42:50.648608",
   "intraday_data": {
     "status": "success",
-    "rows": 2,
+    "rows": 1,
     "data": [
-      {
-        "Close": 0.6600000262260437,
-        "High": 0.6600000262260437,
-        "Low": 0.6600000262260437,
-        "Open": 0.6600000262260437,
-        "Volume": 0
-      },
       {
         "Close": 0.6549999713897705,
         "High": 0.6549999713897705,
         "Low": 0.6549999713897705,
         "Open": 0.6549999713897705,
-        "Volume": 4000
+        "Volume": 0
       }
     ]
   },
@@ -42,7 +35,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

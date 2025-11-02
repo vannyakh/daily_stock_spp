@@ -1,9 +1,18 @@
 {
   "ticker": "VJTTY",
-  "timestamp": "2025-11-01T04:38:34.991654",
+  "timestamp": "2025-11-02T05:01:45.629612",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 1,
+    "data": [
+      {
+        "Close VIASP": 25.57979965209961,
+        "High VIASP": 25.579999923706055,
+        "Low VIASP": 25.57979965209961,
+        "Open VIASP": 25.579999923706055,
+        "Volume VIASP": 0
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -26,7 +35,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

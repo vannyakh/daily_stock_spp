@@ -1,53 +1,9 @@
 {
   "ticker": "SDCCQ",
-  "timestamp": "2025-11-01T04:30:13.188568",
+  "timestamp": "2025-11-02T04:47:58.412521",
   "intraday_data": {
-    "status": "success",
-    "rows": 6,
-    "data": [
-      {
-        "Close SING": 0.0010000000474974513,
-        "High SING": 0.0010000000474974513,
-        "Low SING": 0.0010000000474974513,
-        "Open SING": 0.0010000000474974513,
-        "Volume SING": 0
-      },
-      {
-        "Close SING": 0.0003000000142492354,
-        "High SING": 0.0003000000142492354,
-        "Low SING": 0.0003000000142492354,
-        "Open SING": 0.0003000000142492354,
-        "Volume SING": 100
-      },
-      {
-        "Close SING": 0.0006000000284984708,
-        "High SING": 0.0006000000284984708,
-        "Low SING": 0.0006000000284984708,
-        "Open SING": 0.0006000000284984708,
-        "Volume SING": 100
-      },
-      {
-        "Close SING": 0.0006000000284984708,
-        "High SING": 0.0006000000284984708,
-        "Low SING": 0.0006000000284984708,
-        "Open SING": 0.0006000000284984708,
-        "Volume SING": 100
-      },
-      {
-        "Close SING": 0.0006000000284984708,
-        "High SING": 0.0006000000284984708,
-        "Low SING": 0.0006000000284984708,
-        "Open SING": 0.0006000000284984708,
-        "Volume SING": 100
-      },
-      {
-        "Close SING": 0.0007999999797903001,
-        "High SING": 0.0007999999797903001,
-        "Low SING": 0.0007999999797903001,
-        "Open SING": 0.0007999999797903001,
-        "Volume SING": 100
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -73,7 +29,8 @@
       "status": "no_data"
     },
     "recommendations": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   },
   "holders_data": {

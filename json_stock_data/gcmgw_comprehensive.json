@@ -1,110 +1,54 @@
 {
   "ticker": "GCMGW",
-  "timestamp": "2025-11-01T04:37:43.593364",
+  "timestamp": "2025-11-02T05:00:20.365467",
   "intraday_data": {
-    "status": "success",
-    "rows": 12,
-    "data": [
-      {
-        "Close HTOOW": 0.021400000900030136,
-        "High HTOOW": 0.021400000900030136,
-        "Low HTOOW": 0.021400000900030136,
-        "Open HTOOW": 0.021400000900030136,
-        "Volume HTOOW": 0
-      },
-      {
-        "Close HTOOW": 0.021199999377131462,
-        "High HTOOW": 0.021199999377131462,
-        "Low HTOOW": 0.021199999377131462,
-        "Open HTOOW": 0.021199999377131462,
-        "Volume HTOOW": 1938
-      },
-      {
-        "Close HTOOW": 0.021900000050663948,
-        "High HTOOW": 0.02199999988079071,
-        "Low HTOOW": 0.021700000390410423,
-        "Open HTOOW": 0.021700000390410423,
-        "Volume HTOOW": 500
-      },
-      {
-        "Close HTOOW": 0.025499999523162842,
-        "High HTOOW": 0.025499999523162842,
-        "Low HTOOW": 0.02500000037252903,
-        "Open HTOOW": 0.02500000037252903,
-        "Volume HTOOW": 20500
-      },
-      {
-        "Close HTOOW": 0.0215000007301569,
-        "High HTOOW": 0.0215000007301569,
-        "Low HTOOW": 0.0215000007301569,
-        "Open HTOOW": 0.0215000007301569,
-        "Volume HTOOW": 0
-      },
-      {
-        "Close HTOOW": 0.02160000056028366,
-        "High HTOOW": 0.02160000056028366,
-        "Low HTOOW": 0.0215000007301569,
-        "Open HTOOW": 0.0215000007301569,
-        "Volume HTOOW": 5799
-      },
-      {
-        "Close HTOOW": 0.0215000007301569,
-        "High HTOOW": 0.0215000007301569,
-        "Low HTOOW": 0.0215000007301569,
-        "Open HTOOW": 0.0215000007301569,
-        "Volume HTOOW": 5286
-      },
-      {
-        "Close HTOOW": 0.0210999995470047,
-        "High HTOOW": 0.02160000056028366,
-        "Low HTOOW": 0.0210999995470047,
-        "Open HTOOW": 0.02160000056028366,
-        "Volume HTOOW": 12810
-      },
-      {
-        "Close HTOOW": 0.019999999552965164,
-        "High HTOOW": 0.019999999552965164,
-        "Low HTOOW": 0.019999999552965164,
-        "Open HTOOW": 0.019999999552965164,
-        "Volume HTOOW": 796
-      },
-      {
-        "Close HTOOW": 0.020099999383091927,
-        "High HTOOW": 0.020099999383091927,
-        "Low HTOOW": 0.019999999552965164,
-        "Open HTOOW": 0.020099999383091927,
-        "Volume HTOOW": 11200
-      },
-      {
-        "Close HTOOW": 0.019999999552965164,
-        "High HTOOW": 0.020099999383091927,
-        "Low HTOOW": 0.019999999552965164,
-        "Open HTOOW": 0.020099999383091927,
-        "Volume HTOOW": 3200
-      },
-      {
-        "Close HTOOW": 0.021900000050663948,
-        "High HTOOW": 0.02199999988079071,
-        "Low HTOOW": 0.021900000050663948,
-        "Open HTOOW": 0.02199999988079071,
-        "Volume HTOOW": 208
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
-    "message": "argument of type 'NoneType' is not iterable"
+    "message": "Too Many Requests. Rate limited. Try after a while."
   },
   "financials": {
     "income_statement": {
-      "status": "success",
-      "rows": 41,
-      "columns": [
-        "2024-12-31 00:00:00",
-        "2023-12-31 00:00:00",
-        "2022-12-31 00:00:00",
-        "2021-12-31 00:00:00"
-      ],
-      "data": [
-        {
-          
+      "status": "no_data"
+    },
+    "balance_sheet": {
+      "status": "no_data"
+    },
+    "cash_flow": {
+      "status": "no_data"
+    }
+  },
+  "options_data": {
+    "status": "error",
+    "error_message": "Too Many Requests. Rate limited. Try after a while."
+  },
+  "news_data": {
+    "news": {
+      "status": "no_data"
+    },
+    "recommendations": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  },
+  "holders_data": {
+    "major_holders": {
+      "status": "error"
+    },
+    "institutional_holders": {
+      "status": "error"
+    }
+  },
+  "earnings_data": {
+    "earnings": {
+      "status": "error",
+      "message": "'NoneType' object has no attribute 'empty'"
+    },
+    "calendar": {
+      "status": "error",
+      "message": "'dict' object has no attribute 'empty'"
+    }
+  }
+}

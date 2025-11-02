@@ -1,9 +1,32 @@
 {
   "ticker": "ASMB",
-  "timestamp": "2025-11-01T04:22:25.332400",
+  "timestamp": "2025-11-02T04:35:38.223245",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 3,
+    "data": [
+      {
+        "Close BCRD": 8.300000190734863,
+        "High BCRD": 8.300000190734863,
+        "Low BCRD": 8.300000190734863,
+        "Open BCRD": 8.300000190734863,
+        "Volume BCRD": 0
+      },
+      {
+        "Close BCRD": 8.5,
+        "High BCRD": 8.5,
+        "Low BCRD": 8.5,
+        "Open BCRD": 8.5,
+        "Volume BCRD": 500
+      },
+      {
+        "Close BCRD": 8.5,
+        "High BCRD": 8.5,
+        "Low BCRD": 8.5,
+        "Open BCRD": 8.5,
+        "Volume BCRD": 300
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -604,7 +627,8 @@
       ]
     },
     "recommendations": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   },
   "holders_data": {

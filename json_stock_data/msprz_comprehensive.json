@@ -1,32 +1,9 @@
 {
   "ticker": "MSPRZ",
-  "timestamp": "2025-11-01T04:35:40.846774",
+  "timestamp": "2025-11-02T04:57:03.078175",
   "intraday_data": {
-    "status": "success",
-    "rows": 3,
-    "data": [
-      {
-        "Close": 0.01549999974668026,
-        "High": 0.015599999576807022,
-        "Low": 0.01549999974668026,
-        "Open": 0.01549999974668026,
-        "Volume": 0
-      },
-      {
-        "Close": 0.01549999974668026,
-        "High": 0.01549999974668026,
-        "Low": 0.01549999974668026,
-        "Open": 0.01549999974668026,
-        "Volume": 5100
-      },
-      {
-        "Close": 0.01510000042617321,
-        "High": 0.01510000042617321,
-        "Low": 0.009999999776482582,
-        "Open": 0.01510000042617321,
-        "Volume": 18107
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -49,52 +26,8 @@
   },
   "news_data": {
     "news": {
-      "status": "success",
-      "count": 1,
-      "data": [
-        {
-          "id": "36907576-e169-3369-928e-2175d5cdddee",
-          "content": {
-            "id": "36907576-e169-3369-928e-2175d5cdddee",
-            "contentType": "STORY",
-            "title": "BC-Most Active Stocks",
-            "description": "",
-            "summary": "EPWK Holdings Ltd. 1,389,291,372 0.1629",
-            "pubDate": "2025-10-31T14:30:18Z",
-            "displayTime": "2025-10-31T14:30:18Z",
-            "isHosted": true,
-            "bypassModal": false,
-            "previewUrl": null,
-            "thumbnail": null,
-            "provider": {
-              "displayName": "Associated Press Finance",
-              "url": "http://www.ap.org/"
-            },
-            "canonicalUrl": {
-              "url": "https://finance.yahoo.com/news/bc-most-active-stocks-143018033.html",
-              "site": "finance",
-              "region": "US",
-              "lang": "en-US"
-            },
-            "clickThroughUrl": {
-              "url": "https://finance.yahoo.com/news/bc-most-active-stocks-143018033.html",
-              "site": "finance",
-              "region": "US",
-              "lang": "en-US"
-            },
-            "metadata": {
-              "editorsPick": false
-            },
-            "finance": {
-              "premiumFinance": {
-                "isPremiumNews": false,
-                "isPremiumFreeNews": false
-              }
-            },
-            "storyline": null
-          }
-        }
-      ]
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

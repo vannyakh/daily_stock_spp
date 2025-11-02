@@ -1,26 +1,78 @@
 {
   "ticker": "CDR-PB",
-  "timestamp": "2025-11-01T04:33:23.015623",
+  "timestamp": "2025-11-02T04:53:04.698783",
   "intraday_data": {
     "status": "success",
-    "rows": 0,
-    "data": []
+    "rows": 3,
+    "data": [
+      {
+        "Close": 18.445600509643555,
+        "High": 18.445600509643555,
+        "Low": 18.445600509643555,
+        "Open": 18.445600509643555,
+        "Volume": 0
+      },
+      {
+        "Close": 18.3700008392334,
+        "High": 18.3700008392334,
+        "Low": 18.3700008392334,
+        "Open": 18.3700008392334,
+        "Volume": 154
+      },
+      {
+        "Close": 18.510000228881836,
+        "High": 18.510000228881836,
+        "Low": 18.510000228881836,
+        "Open": 18.510000228881836,
+        "Volume": 602
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
-    "message": "argument of type 'NoneType' is not iterable"
+    "message": "Too Many Requests. Rate limited. Try after a while."
   },
   "financials": {
     "income_statement": {
-      "status": "success",
-      "rows": 46,
-      "columns": [
-        "2024-12-31 00:00:00",
-        "2023-12-31 00:00:00",
-        "2022-12-31 00:00:00",
-        "2021-12-31 00:00:00",
-        "2020-12-31 00:00:00"
-      ],
-      "data": [
-        {
-          
+      "status": "no_data"
+    },
+    "balance_sheet": {
+      "status": "no_data"
+    },
+    "cash_flow": {
+      "status": "no_data"
+    }
+  },
+  "options_data": {
+    "status": "error",
+    "error_message": "Too Many Requests. Rate limited. Try after a while."
+  },
+  "news_data": {
+    "news": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    },
+    "recommendations": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  },
+  "holders_data": {
+    "major_holders": {
+      "status": "error"
+    },
+    "institutional_holders": {
+      "status": "error"
+    }
+  },
+  "earnings_data": {
+    "earnings": {
+      "status": "error",
+      "message": "'NoneType' object has no attribute 'empty'"
+    },
+    "calendar": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  }
+}

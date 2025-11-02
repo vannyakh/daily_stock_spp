@@ -1,25 +1,9 @@
 {
   "ticker": "OCCIN",
-  "timestamp": "2025-11-01T04:35:34.613834",
+  "timestamp": "2025-11-02T04:56:53.698884",
   "intraday_data": {
-    "status": "success",
-    "rows": 2,
-    "data": [
-      {
-        "Close OCCIM": 25.162500381469727,
-        "High OCCIM": 25.162500381469727,
-        "Low OCCIM": 25.162500381469727,
-        "Open OCCIM": 25.162500381469727,
-        "Volume OCCIM": 0
-      },
-      {
-        "Close OCCIM": 25.229999542236328,
-        "High OCCIM": 25.229999542236328,
-        "Low OCCIM": 25.209999084472656,
-        "Open OCCIM": 25.209999084472656,
-        "Volume OCCIM": 709
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -42,7 +26,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

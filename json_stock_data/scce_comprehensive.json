@@ -1,88 +1,9 @@
 {
   "ticker": "SCCE",
-  "timestamp": "2025-11-01T04:35:32.470753",
+  "timestamp": "2025-11-02T04:56:51.124801",
   "intraday_data": {
-    "status": "success",
-    "rows": 11,
-    "data": [
-      {
-        "Close SCCF": 22.81999969482422,
-        "High SCCF": 22.81999969482422,
-        "Low SCCF": 22.800399780273438,
-        "Open SCCF": 22.800399780273438,
-        "Volume SCCF": 0
-      },
-      {
-        "Close SCCF": 22.799999237060547,
-        "High SCCF": 22.809999465942383,
-        "Low SCCF": 22.799999237060547,
-        "Open SCCF": 22.809999465942383,
-        "Volume SCCF": 238
-      },
-      {
-        "Close SCCF": 22.700000762939453,
-        "High SCCF": 22.700000762939453,
-        "Low SCCF": 22.700000762939453,
-        "Open SCCF": 22.700000762939453,
-        "Volume SCCF": 390
-      },
-      {
-        "Close SCCF": 22.700000762939453,
-        "High SCCF": 22.700000762939453,
-        "Low SCCF": 22.700000762939453,
-        "Open SCCF": 22.700000762939453,
-        "Volume SCCF": 135
-      },
-      {
-        "Close SCCF": 22.700000762939453,
-        "High SCCF": 22.700000762939453,
-        "Low SCCF": 22.700000762939453,
-        "Open SCCF": 22.700000762939453,
-        "Volume SCCF": 227
-      },
-      {
-        "Close SCCF": 22.679000854492188,
-        "High SCCF": 22.679000854492188,
-        "Low SCCF": 22.679000854492188,
-        "Open SCCF": 22.679000854492188,
-        "Volume SCCF": 275
-      },
-      {
-        "Close SCCF": 22.700000762939453,
-        "High SCCF": 22.700000762939453,
-        "Low SCCF": 22.700000762939453,
-        "Open SCCF": 22.700000762939453,
-        "Volume SCCF": 1414
-      },
-      {
-        "Close SCCF": 22.649999618530273,
-        "High SCCF": 22.649999618530273,
-        "Low SCCF": 22.649999618530273,
-        "Open SCCF": 22.649999618530273,
-        "Volume SCCF": 456
-      },
-      {
-        "Close SCCF": 22.649999618530273,
-        "High SCCF": 22.649999618530273,
-        "Low SCCF": 22.649999618530273,
-        "Open SCCF": 22.649999618530273,
-        "Volume SCCF": 0
-      },
-      {
-        "Close SCCF": 22.959999084472656,
-        "High SCCF": 22.959999084472656,
-        "Low SCCF": 22.799999237060547,
-        "Open SCCF": 22.799999237060547,
-        "Volume SCCF": 532
-      },
-      {
-        "Close SCCF": 22.832000732421875,
-        "High SCCF": 22.832000732421875,
-        "Low SCCF": 22.832000732421875,
-        "Open SCCF": 22.832000732421875,
-        "Volume SCCF": 188
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -105,7 +26,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

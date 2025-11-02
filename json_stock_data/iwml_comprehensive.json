@@ -1,46 +1,9 @@
 {
   "ticker": "IWML",
-  "timestamp": "2025-11-01T04:38:08.989793",
+  "timestamp": "2025-11-02T05:01:08.020345",
   "intraday_data": {
-    "status": "success",
-    "rows": 5,
-    "data": [
-      {
-        "Close": 22.5,
-        "High": 22.5,
-        "Low": 22.5,
-        "Open": 22.5,
-        "Volume": 0
-      },
-      {
-        "Close": 23.459999084472656,
-        "High": 23.459999084472656,
-        "Low": 23.459999084472656,
-        "Open": 23.459999084472656,
-        "Volume": 200
-      },
-      {
-        "Close": 23.24810028076172,
-        "High": 23.69499969482422,
-        "Low": 23.24810028076172,
-        "Open": 23.69499969482422,
-        "Volume": 0
-      },
-      {
-        "Close": 23.545700073242188,
-        "High": 23.545700073242188,
-        "Low": 23.079999923706055,
-        "Open": 23.079999923706055,
-        "Volume": 543
-      },
-      {
-        "Close": 23.545700073242188,
-        "High": 23.545700073242188,
-        "Low": 23.079999923706055,
-        "Open": 23.079999923706055,
-        "Volume": 0
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -63,7 +26,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

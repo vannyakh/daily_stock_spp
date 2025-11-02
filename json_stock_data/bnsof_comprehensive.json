@@ -1,79 +1,16 @@
 {
   "ticker": "BNSOF",
-  "timestamp": "2025-11-01T04:33:45.664717",
+  "timestamp": "2025-11-02T04:53:45.215217",
   "intraday_data": {
     "status": "success",
-    "rows": 48,
+    "rows": 39,
     "data": [
       {
-        "Close TVE": 23.96500015258789,
-        "High TVE": 23.96500015258789,
-        "Low TVE": 23.96500015258789,
-        "Open TVE": 23.96500015258789,
+        "Close TVE": 23.989999771118164,
+        "High TVE": 23.989999771118164,
+        "Low TVE": 23.989999771118164,
+        "Open TVE": 23.989999771118164,
         "Volume TVE": 0
-      },
-      {
-        "Close TVE": 23.989999771118164,
-        "High TVE": 23.989999771118164,
-        "Low TVE": 23.989999771118164,
-        "Open TVE": 23.989999771118164,
-        "Volume TVE": 502
-      },
-      {
-        "Close TVE": 23.940000534057617,
-        "High TVE": 23.940000534057617,
-        "Low TVE": 23.940000534057617,
-        "Open TVE": 23.940000534057617,
-        "Volume TVE": 241
-      },
-      {
-        "Close TVE": 24.0049991607666,
-        "High TVE": 24.0049991607666,
-        "Low TVE": 24.0049991607666,
-        "Open TVE": 24.0049991607666,
-        "Volume TVE": 500
-      },
-      {
-        "Close TVE": 24.0049991607666,
-        "High TVE": 24.0049991607666,
-        "Low TVE": 24.0049991607666,
-        "Open TVE": 24.0049991607666,
-        "Volume TVE": 502
-      },
-      {
-        "Close TVE": 23.979999542236328,
-        "High TVE": 24.0049991607666,
-        "Low TVE": 23.950000762939453,
-        "Open TVE": 24.0049991607666,
-        "Volume TVE": 1086
-      },
-      {
-        "Close TVE": 23.920000076293945,
-        "High TVE": 23.920000076293945,
-        "Low TVE": 23.920000076293945,
-        "Open TVE": 23.920000076293945,
-        "Volume TVE": 487
-      },
-      {
-        "Close TVE": 23.920000076293945,
-        "High TVE": 23.920000076293945,
-        "Low TVE": 23.920000076293945,
-        "Open TVE": 23.920000076293945,
-        "Volume TVE": 600
-      },
-      {
-        "Close TVE": 24.049999237060547,
-        "High TVE": 24.059999465942383,
-        "Low TVE": 24.049999237060547,
-        "Open TVE": 24.059999465942383,
-        "Volume TVE": 1598
-      },
-      {
-        "Close TVE": 23.989999771118164,
-        "High TVE": 23.989999771118164,
-        "Low TVE": 23.989999771118164,
-        "Open TVE": 23.989999771118164,
-        "Volume TVE": 151
       },
       {
         "Close TVE": 23.905000686645508,
@@ -352,13 +289,41 @@
       "status": "no_data"
     },
     "balance_sheet": {
-      "status": "success",
-      "rows": 73,
-      "columns": [
-        "2023-03-31 00:00:00",
-        "2022-03-31 00:00:00",
-        "2021-03-31 00:00:00"
-      ],
-      "data": [
-        {
-          
+      "status": "no_data"
+    },
+    "cash_flow": {
+      "status": "no_data"
+    }
+  },
+  "options_data": {
+    "status": "error",
+    "error_message": "Too Many Requests. Rate limited. Try after a while."
+  },
+  "news_data": {
+    "news": {
+      "status": "no_data"
+    },
+    "recommendations": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  },
+  "holders_data": {
+    "major_holders": {
+      "status": "error"
+    },
+    "institutional_holders": {
+      "status": "error"
+    }
+  },
+  "earnings_data": {
+    "earnings": {
+      "status": "error",
+      "message": "'NoneType' object has no attribute 'empty'"
+    },
+    "calendar": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  }
+}

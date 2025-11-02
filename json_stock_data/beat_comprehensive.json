@@ -1,9 +1,25 @@
 {
   "ticker": "BEAT",
-  "timestamp": "2025-11-01T04:23:42.564983",
+  "timestamp": "2025-11-02T04:37:56.261187",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 2,
+    "data": [
+      {
+        "Close UWHR": 10.470000267028809,
+        "High UWHR": 10.470000267028809,
+        "Low UWHR": 10.470000267028809,
+        "Open UWHR": 10.470000267028809,
+        "Volume UWHR": 0
+      },
+      {
+        "Close UWHR": 10.100000381469727,
+        "High UWHR": 10.149999618530273,
+        "Low UWHR": 10.100000381469727,
+        "Open UWHR": 10.149999618530273,
+        "Volume UWHR": 1080
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -585,7 +601,8 @@
       ]
     },
     "recommendations": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   },
   "holders_data": {

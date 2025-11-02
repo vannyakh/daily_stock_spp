@@ -1,10 +1,9 @@
 {
   "ticker": "HLYK",
-  "timestamp": "2025-11-01T04:27:45.107426",
+  "timestamp": "2025-11-02T04:44:20.476948",
   "intraday_data": {
-    "status": "success",
-    "rows": 0,
-    "data": []
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -27,7 +26,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

@@ -1,43 +1,13 @@
 {
   "ticker": "RGTPQ",
-  "timestamp": "2025-11-01T04:29:39.945285",
+  "timestamp": "2025-11-02T04:47:07.819810",
   "intraday_data": {
-    "status": "success",
-    "rows": 4,
-    "data": [
-      {
-        "Close PTCO": 0.09549999982118607,
-        "High PTCO": 0.09549999982118607,
-        "Low PTCO": 0.09549999982118607,
-        "Open PTCO": 0.09549999982118607,
-        "Volume PTCO": 0
-      },
-      {
-        "Close PTCO": 0.09549999982118607,
-        "High PTCO": 0.09549999982118607,
-        "Low PTCO": 0.09549999982118607,
-        "Open PTCO": 0.09549999982118607,
-        "Volume PTCO": 0
-      },
-      {
-        "Close PTCO": 0.05900000035762787,
-        "High PTCO": 0.05900000035762787,
-        "Low PTCO": 0.05900000035762787,
-        "Open PTCO": 0.05900000035762787,
-        "Volume PTCO": 3018
-      },
-      {
-        "Close PTCO": 0.09549999982118607,
-        "High PTCO": 0.09549999982118607,
-        "Low PTCO": 0.09549999982118607,
-        "Open PTCO": 0.09549999982118607,
-        "Volume PTCO": 1000
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
-    "message": "argument of type 'NoneType' is not iterable"
+    "message": "Too Many Requests. Rate limited. Try after a while."
   },
   "financials": {
     "income_statement": {
@@ -56,10 +26,12 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   },
   "holders_data": {

@@ -1,23 +1,16 @@
 {
   "ticker": "LPAAW",
-  "timestamp": "2025-11-01T04:34:31.682718",
+  "timestamp": "2025-11-02T04:55:04.059569",
   "intraday_data": {
     "status": "success",
-    "rows": 3,
+    "rows": 2,
     "data": [
-      {
-        "Close": 0.27880001068115234,
-        "High": 0.27880001068115234,
-        "Low": 0.27880001068115234,
-        "Open": 0.27880001068115234,
-        "Volume": 0
-      },
       {
         "Close": 0.27900001406669617,
         "High": 0.27900001406669617,
         "Low": 0.27900001406669617,
         "Open": 0.27900001406669617,
-        "Volume": 249
+        "Volume": 0
       },
       {
         "Close": 0.25999999046325684,
@@ -49,7 +42,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

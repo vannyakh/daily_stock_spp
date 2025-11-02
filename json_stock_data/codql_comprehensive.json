@@ -1,60 +1,9 @@
 {
   "ticker": "CODQL",
-  "timestamp": "2025-11-01T04:32:43.899654",
+  "timestamp": "2025-11-02T04:52:12.543672",
   "intraday_data": {
-    "status": "success",
-    "rows": 7,
-    "data": [
-      {
-        "Close FNMAI": 14.180000305175781,
-        "High FNMAI": 14.180000305175781,
-        "Low FNMAI": 14.180000305175781,
-        "Open FNMAI": 14.180000305175781,
-        "Volume FNMAI": 0
-      },
-      {
-        "Close FNMAI": 14.649999618530273,
-        "High FNMAI": 14.649999618530273,
-        "Low FNMAI": 14.649999618530273,
-        "Open FNMAI": 14.649999618530273,
-        "Volume FNMAI": 100
-      },
-      {
-        "Close FNMAI": 14.649999618530273,
-        "High FNMAI": 14.649999618530273,
-        "Low FNMAI": 14.649999618530273,
-        "Open FNMAI": 14.649999618530273,
-        "Volume FNMAI": 350
-      },
-      {
-        "Close FNMAI": 14.649999618530273,
-        "High FNMAI": 14.649999618530273,
-        "Low FNMAI": 14.649999618530273,
-        "Open FNMAI": 14.649999618530273,
-        "Volume FNMAI": 621
-      },
-      {
-        "Close FNMAI": 14.649999618530273,
-        "High FNMAI": 14.649999618530273,
-        "Low FNMAI": 14.649999618530273,
-        "Open FNMAI": 14.649999618530273,
-        "Volume FNMAI": 900
-      },
-      {
-        "Close FNMAI": 14.5,
-        "High FNMAI": 14.5,
-        "Low FNMAI": 14.5,
-        "Open FNMAI": 14.5,
-        "Volume FNMAI": 100
-      },
-      {
-        "Close FNMAI": 14.350000381469727,
-        "High FNMAI": 14.350000381469727,
-        "Low FNMAI": 14.350000381469727,
-        "Open FNMAI": 14.350000381469727,
-        "Volume FNMAI": 4000
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -77,7 +26,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

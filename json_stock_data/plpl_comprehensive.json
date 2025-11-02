@@ -1,9 +1,18 @@
 {
   "ticker": "PLPL",
-  "timestamp": "2025-11-01T04:34:12.855308",
+  "timestamp": "2025-11-02T04:54:34.044378",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 1,
+    "data": [
+      {
+        "Close ENDV": 9.999999747378752e-05,
+        "High ENDV": 9.999999747378752e-05,
+        "Low ENDV": 9.999999747378752e-05,
+        "Open ENDV": 9.999999747378752e-05,
+        "Volume ENDV": 0
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -26,7 +35,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

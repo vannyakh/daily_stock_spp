@@ -1,100 +1,16 @@
 {
   "ticker": "DGICB",
-  "timestamp": "2025-11-01T04:33:04.208068",
+  "timestamp": "2025-11-02T04:52:36.558975",
   "intraday_data": {
     "status": "success",
-    "rows": 25,
+    "rows": 13,
     "data": [
       {
-        "Close GGN-PB": 21.1200008392334,
-        "High GGN-PB": 21.1200008392334,
+        "Close GGN-PB": 21.0,
+        "High GGN-PB": 21.0,
         "Low GGN-PB": 20.950000762939453,
         "Open GGN-PB": 20.950000762939453,
         "Volume GGN-PB": 0
-      },
-      {
-        "Close GGN-PB": 21.0,
-        "High GGN-PB": 21.0,
-        "Low GGN-PB": 21.0,
-        "Open GGN-PB": 21.0,
-        "Volume GGN-PB": 300
-      },
-      {
-        "Close GGN-PB": 21.0,
-        "High GGN-PB": 21.0,
-        "Low GGN-PB": 21.0,
-        "Open GGN-PB": 21.0,
-        "Volume GGN-PB": 600
-      },
-      {
-        "Close GGN-PB": 21.09000015258789,
-        "High GGN-PB": 21.09000015258789,
-        "Low GGN-PB": 21.09000015258789,
-        "Open GGN-PB": 21.09000015258789,
-        "Volume GGN-PB": 155
-      },
-      {
-        "Close GGN-PB": 20.959999084472656,
-        "High GGN-PB": 20.959999084472656,
-        "Low GGN-PB": 20.950000762939453,
-        "Open GGN-PB": 20.950000762939453,
-        "Volume GGN-PB": 952
-      },
-      {
-        "Close GGN-PB": 21.06999969482422,
-        "High GGN-PB": 21.06999969482422,
-        "Low GGN-PB": 21.06999969482422,
-        "Open GGN-PB": 21.06999969482422,
-        "Volume GGN-PB": 100
-      },
-      {
-        "Close GGN-PB": 20.950000762939453,
-        "High GGN-PB": 20.950000762939453,
-        "Low GGN-PB": 20.950000762939453,
-        "Open GGN-PB": 20.950000762939453,
-        "Volume GGN-PB": 310
-      },
-      {
-        "Close GGN-PB": 21.049999237060547,
-        "High GGN-PB": 21.049999237060547,
-        "Low GGN-PB": 21.049999237060547,
-        "Open GGN-PB": 21.049999237060547,
-        "Volume GGN-PB": 100
-      },
-      {
-        "Close GGN-PB": 21.010000228881836,
-        "High GGN-PB": 21.010000228881836,
-        "Low GGN-PB": 21.010000228881836,
-        "Open GGN-PB": 21.010000228881836,
-        "Volume GGN-PB": 140
-      },
-      {
-        "Close GGN-PB": 21.059900283813477,
-        "High GGN-PB": 21.059900283813477,
-        "Low GGN-PB": 21.059900283813477,
-        "Open GGN-PB": 21.059900283813477,
-        "Volume GGN-PB": 546
-      },
-      {
-        "Close GGN-PB": 20.95009994506836,
-        "High GGN-PB": 20.95009994506836,
-        "Low GGN-PB": 20.950000762939453,
-        "Open GGN-PB": 20.950000762939453,
-        "Volume GGN-PB": 1958
-      },
-      {
-        "Close GGN-PB": 21.020000457763672,
-        "High GGN-PB": 21.020000457763672,
-        "Low GGN-PB": 20.889999389648438,
-        "Open GGN-PB": 20.950000762939453,
-        "Volume GGN-PB": 0
-      },
-      {
-        "Close GGN-PB": 21.0,
-        "High GGN-PB": 21.0,
-        "Low GGN-PB": 20.950000762939453,
-        "Open GGN-PB": 20.950000762939453,
-        "Volume GGN-PB": 1545
       },
       {
         "Close GGN-PB": 21.0,
@@ -184,19 +100,48 @@
   },
   "stock_info": {
     "status": "error",
-    "message": "argument of type 'NoneType' is not iterable"
+    "message": "Too Many Requests. Rate limited. Try after a while."
   },
   "financials": {
     "income_statement": {
-      "status": "success",
-      "rows": 34,
-      "columns": [
-        "2024-12-31 00:00:00",
-        "2023-12-31 00:00:00",
-        "2022-12-31 00:00:00",
-        "2021-12-31 00:00:00",
-        "2020-12-31 00:00:00"
-      ],
-      "data": [
-        {
-          
+      "status": "no_data"
+    },
+    "balance_sheet": {
+      "status": "no_data"
+    },
+    "cash_flow": {
+      "status": "no_data"
+    }
+  },
+  "options_data": {
+    "status": "error",
+    "error_message": "Too Many Requests. Rate limited. Try after a while."
+  },
+  "news_data": {
+    "news": {
+      "status": "no_data"
+    },
+    "recommendations": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  },
+  "holders_data": {
+    "major_holders": {
+      "status": "error"
+    },
+    "institutional_holders": {
+      "status": "error"
+    }
+  },
+  "earnings_data": {
+    "earnings": {
+      "status": "error",
+      "message": "'NoneType' object has no attribute 'empty'"
+    },
+    "calendar": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  }
+}

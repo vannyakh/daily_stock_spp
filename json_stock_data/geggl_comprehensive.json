@@ -1,14 +1,50 @@
 {
   "ticker": "GEGGL",
-  "timestamp": "2025-11-01T04:39:56.756857",
+  "timestamp": "2025-11-02T05:03:53.500217",
   "intraday_data": {
     "status": "success",
-    "rows": 0,
-    "data": []
+    "rows": 5,
+    "data": [
+      {
+        "Close ICUCW": 0.03849999979138374,
+        "High ICUCW": 0.03849999979138374,
+        "Low ICUCW": 0.03849999979138374,
+        "Open ICUCW": 0.03849999979138374,
+        "Volume ICUCW": 0
+      },
+      {
+        "Close ICUCW": 0.03849999979138374,
+        "High ICUCW": 0.03849999979138374,
+        "Low ICUCW": 0.03849999979138374,
+        "Open ICUCW": 0.03849999979138374,
+        "Volume ICUCW": 634
+      },
+      {
+        "Close ICUCW": 0.039500001817941666,
+        "High ICUCW": 0.039500001817941666,
+        "Low ICUCW": 0.039500001817941666,
+        "Open ICUCW": 0.039500001817941666,
+        "Volume ICUCW": 4000
+      },
+      {
+        "Close ICUCW": 0.039500001817941666,
+        "High ICUCW": 0.039500001817941666,
+        "Low ICUCW": 0.039500001817941666,
+        "Open ICUCW": 0.039500001817941666,
+        "Volume ICUCW": 321
+      },
+      {
+        "Close ICUCW": 0.039400000125169754,
+        "High ICUCW": 0.039400000125169754,
+        "Low ICUCW": 0.039400000125169754,
+        "Open ICUCW": 0.039400000125169754,
+        "Volume ICUCW": 888
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
-    "message": "Too Many Requests. Rate limited. Try after a while."
+    "message": "argument of type 'NoneType' is not iterable"
   },
   "financials": {
     "income_statement": {
@@ -27,7 +63,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

@@ -1,65 +1,16 @@
 {
   "ticker": "BIPI",
-  "timestamp": "2025-11-01T04:38:46.023860",
+  "timestamp": "2025-11-02T05:02:04.068007",
   "intraday_data": {
     "status": "success",
-    "rows": 29,
+    "rows": 22,
     "data": [
-      {
-        "Close BIP-PA": 17.375,
-        "High BIP-PA": 17.375,
-        "Low BIP-PA": 17.375,
-        "Open BIP-PA": 17.375,
-        "Volume BIP-PA": 0
-      },
-      {
-        "Close BIP-PA": 17.469999313354492,
-        "High BIP-PA": 17.469999313354492,
-        "Low BIP-PA": 17.469999313354492,
-        "Open BIP-PA": 17.469999313354492,
-        "Volume BIP-PA": 150
-      },
-      {
-        "Close BIP-PA": 17.5,
-        "High BIP-PA": 17.5,
-        "Low BIP-PA": 17.5,
-        "Open BIP-PA": 17.5,
-        "Volume BIP-PA": 352
-      },
-      {
-        "Close BIP-PA": 17.4950008392334,
-        "High BIP-PA": 17.4950008392334,
-        "Low BIP-PA": 17.4950008392334,
-        "Open BIP-PA": 17.4950008392334,
-        "Volume BIP-PA": 100
-      },
-      {
-        "Close BIP-PA": 17.4950008392334,
-        "High BIP-PA": 17.4950008392334,
-        "Low BIP-PA": 17.4950008392334,
-        "Open BIP-PA": 17.4950008392334,
-        "Volume BIP-PA": 141
-      },
-      {
-        "Close BIP-PA": 17.440000534057617,
-        "High BIP-PA": 17.4950008392334,
-        "Low BIP-PA": 17.440000534057617,
-        "Open BIP-PA": 17.4950008392334,
-        "Volume BIP-PA": 510
-      },
-      {
-        "Close BIP-PA": 17.399999618530273,
-        "High BIP-PA": 17.399999618530273,
-        "Low BIP-PA": 17.360000610351562,
-        "Open BIP-PA": 17.360000610351562,
-        "Volume BIP-PA": 0
-      },
       {
         "Close BIP-PA": 17.520000457763672,
         "High BIP-PA": 17.520000457763672,
         "Low BIP-PA": 17.520000457763672,
         "Open BIP-PA": 17.520000457763672,
-        "Volume BIP-PA": 425
+        "Volume BIP-PA": 0
       },
       {
         "Close BIP-PA": 17.25,
@@ -231,7 +182,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",
@@ -253,7 +205,7 @@
     },
     "calendar": {
       "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
+      "message": "'dict' object has no attribute 'empty'"
     }
   }
 }

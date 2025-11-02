@@ -1,53 +1,9 @@
 {
   "ticker": "CAPTW",
-  "timestamp": "2025-11-01T04:35:25.946845",
+  "timestamp": "2025-11-02T04:56:41.083678",
   "intraday_data": {
-    "status": "success",
-    "rows": 6,
-    "data": [
-      {
-        "Close": 0.020099999383091927,
-        "High": 0.020600000396370888,
-        "Low": 0.020099999383091927,
-        "Open": 0.020600000396370888,
-        "Volume": 0
-      },
-      {
-        "Close": 0.019999999552965164,
-        "High": 0.019999999552965164,
-        "Low": 0.019999999552965164,
-        "Open": 0.019999999552965164,
-        "Volume": 10378
-      },
-      {
-        "Close": 0.020600000396370888,
-        "High": 0.020600000396370888,
-        "Low": 0.020600000396370888,
-        "Open": 0.020600000396370888,
-        "Volume": 0
-      },
-      {
-        "Close": 0.02070000022649765,
-        "High": 0.02070000022649765,
-        "Low": 0.02070000022649765,
-        "Open": 0.02070000022649765,
-        "Volume": 200
-      },
-      {
-        "Close": 0.02070000022649765,
-        "High": 0.02070000022649765,
-        "Low": 0.02070000022649765,
-        "Open": 0.02070000022649765,
-        "Volume": 1200
-      },
-      {
-        "Close": 0.0210999995470047,
-        "High": 0.0210999995470047,
-        "Low": 0.020999999716877937,
-        "Open": 0.020999999716877937,
-        "Volume": 101000
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -70,71 +26,8 @@
   },
   "news_data": {
     "news": {
-      "status": "success",
-      "count": 1,
-      "data": [
-        {
-          "id": "2a837065-43a2-4fba-9b68-b39964083017",
-          "content": {
-            "id": "2a837065-43a2-4fba-9b68-b39964083017",
-            "contentType": "STORY",
-            "title": "South Korea stocks plunge as president declares martial law",
-            "description": "",
-            "summary": "The South Korean won dropped to a more than two-year low against the dollar after Yoon Suk Yeol declared emergency martial law.",
-            "pubDate": "2024-12-03T16:12:30Z",
-            "displayTime": "2024-12-03T16:12:30Z",
-            "isHosted": true,
-            "bypassModal": false,
-            "previewUrl": null,
-            "thumbnail": {
-              "originalUrl": "https://s.yimg.com/os/creatr-uploaded-images/2024-11/53405b90-b188-11ef-a7fb-925393d68054",
-              "originalWidth": 4194,
-              "originalHeight": 2796,
-              "caption": "",
-              "resolutions": [
-                {
-                  "url": "https://s.yimg.com/uu/api/res/1.2/t_02CHqVRMRJFZzIrWc2mw--~B/aD0yNzk2O3c9NDE5NDthcHBpZD15dGFjaHlvbg--/https://s.yimg.com/os/creatr-uploaded-images/2024-11/53405b90-b188-11ef-a7fb-925393d68054",
-                  "width": 4194,
-                  "height": 2796,
-                  "tag": "original"
-                },
-                {
-                  "url": "https://s.yimg.com/uu/api/res/1.2/gTkdC.wPp8169oBIvwKrhQ--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://s.yimg.com/os/creatr-uploaded-images/2024-11/53405b90-b188-11ef-a7fb-925393d68054",
-                  "width": 170,
-                  "height": 128,
-                  "tag": "170x128"
-                }
-              ]
-            },
-            "provider": {
-              "displayName": "Yahoo Finance UK",
-              "url": "http://uk.finance.yahoo.com/"
-            },
-            "canonicalUrl": {
-              "url": "https://uk.finance.yahoo.com/news/south-korea-martial-law-stock-market-yoon-suk-yeol-161230767.html",
-              "site": "finance",
-              "region": "GB",
-              "lang": "en-GB"
-            },
-            "clickThroughUrl": {
-              "url": "https://finance.yahoo.com/news/south-korea-martial-law-stock-market-yoon-suk-yeol-161230767.html",
-              "site": "finance",
-              "region": "US",
-              "lang": "en-US"
-            },
-            "metadata": {
-              "editorsPick": false
-            },
-            "finance": {
-              "premiumFinance": {
-                "isPremiumNews": false,
-                "isPremiumFreeNews": false
-              }
-            },
-            "storyline": null
-          }
-        }
-      ]
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

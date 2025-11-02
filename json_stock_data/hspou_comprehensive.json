@@ -1,25 +1,9 @@
 {
   "ticker": "HSPOU",
-  "timestamp": "2025-11-01T04:34:38.101272",
+  "timestamp": "2025-11-02T04:55:14.163535",
   "intraday_data": {
-    "status": "success",
-    "rows": 2,
-    "data": [
-      {
-        "Close": 13.489999771118164,
-        "High": 13.489999771118164,
-        "Low": 13.489999771118164,
-        "Open": 13.489999771118164,
-        "Volume": 0
-      },
-      {
-        "Close": 13.470000267028809,
-        "High": 13.489999771118164,
-        "Low": 13.470000267028809,
-        "Open": 13.489999771118164,
-        "Volume": 552
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -42,7 +26,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

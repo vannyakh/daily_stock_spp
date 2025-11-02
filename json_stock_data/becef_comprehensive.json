@@ -1,46 +1,9 @@
 {
   "ticker": "BECEF",
-  "timestamp": "2025-11-01T04:31:38.444948",
+  "timestamp": "2025-11-02T04:50:22.298883",
   "intraday_data": {
-    "status": "success",
-    "rows": 5,
-    "data": [
-      {
-        "Close SPG-PJ": 53.29999923706055,
-        "High SPG-PJ": 53.29999923706055,
-        "Low SPG-PJ": 53.29999923706055,
-        "Open SPG-PJ": 53.29999923706055,
-        "Volume SPG-PJ": 0
-      },
-      {
-        "Close SPG-PJ": 53.42499923706055,
-        "High SPG-PJ": 53.42499923706055,
-        "Low SPG-PJ": 53.42499923706055,
-        "Open SPG-PJ": 53.42499923706055,
-        "Volume SPG-PJ": 136
-      },
-      {
-        "Close SPG-PJ": 53.499900817871094,
-        "High SPG-PJ": 53.5,
-        "Low SPG-PJ": 53.470001220703125,
-        "Open SPG-PJ": 53.470001220703125,
-        "Volume SPG-PJ": 388
-      },
-      {
-        "Close SPG-PJ": 53.54999923706055,
-        "High SPG-PJ": 53.54999923706055,
-        "Low SPG-PJ": 53.54999923706055,
-        "Open SPG-PJ": 53.54999923706055,
-        "Volume SPG-PJ": 280
-      },
-      {
-        "Close SPG-PJ": 53.380001068115234,
-        "High SPG-PJ": 53.380001068115234,
-        "Low SPG-PJ": 53.380001068115234,
-        "Open SPG-PJ": 53.380001068115234,
-        "Volume SPG-PJ": 327
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -51,15 +14,41 @@
       "status": "no_data"
     },
     "balance_sheet": {
-      "status": "success",
-      "rows": 96,
-      "columns": [
-        "2024-12-31 00:00:00",
-        "2023-12-31 00:00:00",
-        "2022-12-31 00:00:00",
-        "2021-12-31 00:00:00",
-        "2020-12-31 00:00:00"
-      ],
-      "data": [
-        {
-          
+      "status": "no_data"
+    },
+    "cash_flow": {
+      "status": "no_data"
+    }
+  },
+  "options_data": {
+    "status": "error",
+    "error_message": "Too Many Requests. Rate limited. Try after a while."
+  },
+  "news_data": {
+    "news": {
+      "status": "no_data"
+    },
+    "recommendations": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  },
+  "holders_data": {
+    "major_holders": {
+      "status": "error"
+    },
+    "institutional_holders": {
+      "status": "error"
+    }
+  },
+  "earnings_data": {
+    "earnings": {
+      "status": "error",
+      "message": "'NoneType' object has no attribute 'empty'"
+    },
+    "calendar": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  }
+}

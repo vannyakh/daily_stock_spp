@@ -1,18 +1,9 @@
 {
   "ticker": "VLDXW",
-  "timestamp": "2025-11-01T04:36:17.315104",
+  "timestamp": "2025-11-02T04:57:56.385334",
   "intraday_data": {
-    "status": "success",
-    "rows": 1,
-    "data": [
-      {
-        "Close": 0.013100000098347664,
-        "High": 0.013100000098347664,
-        "Low": 0.013100000098347664,
-        "Open": 0.013100000098347664,
-        "Volume": 0
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -35,10 +26,12 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   },
   "holders_data": {

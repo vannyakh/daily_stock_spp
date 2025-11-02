@@ -1,9 +1,18 @@
 {
   "ticker": "RTON",
-  "timestamp": "2025-11-01T04:34:01.831992",
+  "timestamp": "2025-11-02T04:54:12.494305",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 1,
+    "data": [
+      {
+        "Close": 0.014999999664723873,
+        "High": 0.014999999664723873,
+        "Low": 0.014999999664723873,
+        "Open": 0.014999999664723873,
+        "Volume": 0
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -26,7 +35,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

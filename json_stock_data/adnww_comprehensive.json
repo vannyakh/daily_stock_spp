@@ -1,25 +1,9 @@
 {
   "ticker": "ADNWW",
-  "timestamp": "2025-11-01T04:37:35.888010",
+  "timestamp": "2025-11-02T05:00:08.013093",
   "intraday_data": {
-    "status": "success",
-    "rows": 2,
-    "data": [
-      {
-        "Close CCLFX": 10.5600004196167,
-        "High CCLFX": 10.5600004196167,
-        "Low CCLFX": 10.5600004196167,
-        "Open CCLFX": 10.5600004196167,
-        "Volume CCLFX": 0
-      },
-      {
-        "Close CCLFX": 10.5600004196167,
-        "High CCLFX": 10.5600004196167,
-        "Low CCLFX": 10.5600004196167,
-        "Open CCLFX": 10.5600004196167,
-        "Volume CCLFX": 0
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -45,7 +29,8 @@
       "status": "no_data"
     },
     "recommendations": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   },
   "holders_data": {

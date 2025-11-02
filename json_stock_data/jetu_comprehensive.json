@@ -1,16 +1,30 @@
 {
   "ticker": "JETU",
-  "timestamp": "2025-11-01T04:39:23.494904",
+  "timestamp": "2025-11-02T05:03:04.896169",
   "intraday_data": {
     "status": "success",
-    "rows": 1,
+    "rows": 3,
     "data": [
       {
-        "Close": 23.247699737548828,
-        "High": 23.247699737548828,
-        "Low": 22.365800857543945,
-        "Open": 22.365800857543945,
-        "Volume": 0
+        "Close JETD": 6.900000095367432,
+        "High JETD": 6.900000095367432,
+        "Low JETD": 6.900000095367432,
+        "Open JETD": 6.900000095367432,
+        "Volume JETD": 0
+      },
+      {
+        "Close JETD": 6.820000171661377,
+        "High JETD": 6.820000171661377,
+        "Low JETD": 6.820000171661377,
+        "Open JETD": 6.820000171661377,
+        "Volume JETD": 262
+      },
+      {
+        "Close JETD": 6.684999942779541,
+        "High JETD": 6.684999942779541,
+        "Low JETD": 6.684999942779541,
+        "Open JETD": 6.684999942779541,
+        "Volume JETD": 175
       }
     ]
   },
@@ -35,7 +49,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

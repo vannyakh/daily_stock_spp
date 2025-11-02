@@ -1,16 +1,23 @@
 {
   "ticker": "AFIB",
-  "timestamp": "2025-11-01T04:29:26.130208",
+  "timestamp": "2025-11-02T04:46:44.844512",
   "intraday_data": {
     "status": "success",
-    "rows": 1,
+    "rows": 2,
     "data": [
       {
-        "Close": 0.0003000000142492354,
-        "High": 0.0003000000142492354,
-        "Low": 0.0003000000142492354,
-        "Open": 0.0003000000142492354,
-        "Volume": 0
+        "Close PBLA": 0.019999999552965164,
+        "High PBLA": 0.019999999552965164,
+        "Low PBLA": 0.019999999552965164,
+        "Open PBLA": 0.019999999552965164,
+        "Volume PBLA": 0
+      },
+      {
+        "Close PBLA": 0.019999999552965164,
+        "High PBLA": 0.019999999552965164,
+        "Low PBLA": 0.019999999552965164,
+        "Open PBLA": 0.019999999552965164,
+        "Volume PBLA": 2
       }
     ]
   },
@@ -38,7 +45,8 @@
       "status": "no_data"
     },
     "recommendations": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   },
   "holders_data": {

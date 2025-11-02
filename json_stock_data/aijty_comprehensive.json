@@ -1,9 +1,18 @@
 {
   "ticker": "AIJTY",
-  "timestamp": "2025-11-01T04:28:13.031824",
+  "timestamp": "2025-11-02T04:44:56.896042",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 1,
+    "data": [
+      {
+        "Close TTOO": 0.012000000104308128,
+        "High TTOO": 0.012000000104308128,
+        "Low TTOO": 0.012000000104308128,
+        "Open TTOO": 0.012000000104308128,
+        "Volume TTOO": 0
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -26,7 +35,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

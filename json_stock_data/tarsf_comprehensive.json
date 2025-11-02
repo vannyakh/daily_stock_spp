@@ -1,39 +1,9 @@
 {
   "ticker": "TARSF",
-  "timestamp": "2025-11-01T04:28:53.386288",
+  "timestamp": "2025-11-02T04:45:52.079397",
   "intraday_data": {
-    "status": "success",
-    "rows": 4,
-    "data": [
-      {
-        "Close": 0.1850000023841858,
-        "High": 0.1850000023841858,
-        "Low": 0.1850000023841858,
-        "Open": 0.1850000023841858,
-        "Volume": 0
-      },
-      {
-        "Close": 0.18490000069141388,
-        "High": 0.18490000069141388,
-        "Low": 0.18490000069141388,
-        "Open": 0.18490000069141388,
-        "Volume": 5000
-      },
-      {
-        "Close": 0.1808999925851822,
-        "High": 0.18299999833106995,
-        "Low": 0.1808999925851822,
-        "Open": 0.18299999833106995,
-        "Volume": 10000
-      },
-      {
-        "Close": 0.17499999701976776,
-        "High": 0.17499999701976776,
-        "Low": 0.17499999701976776,
-        "Open": 0.17499999701976776,
-        "Volume": 5700
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -56,71 +26,8 @@
   },
   "news_data": {
     "news": {
-      "status": "success",
-      "count": 1,
-      "data": [
-        {
-          "id": "e62d88f9-99c1-34d3-bcf2-eb85653fa31a",
-          "content": {
-            "id": "e62d88f9-99c1-34d3-bcf2-eb85653fa31a",
-            "contentType": "STORY",
-            "title": "Silver North Resources raises $268,235 in private placement for Yukon exploration",
-            "description": "",
-            "summary": "The funds raised from the units will be used for general administrative costs and to advance the company\u2019s project pipeline.",
-            "pubDate": "2025-08-01T11:30:35Z",
-            "displayTime": "2025-08-01T11:30:35Z",
-            "isHosted": true,
-            "bypassModal": false,
-            "previewUrl": null,
-            "thumbnail": {
-              "originalUrl": "https://media.zenfs.com/en/mining_technology_700/da1a9f09f1fadf12062558df149531eb",
-              "originalWidth": 1440,
-              "originalHeight": 810,
-              "caption": "Silver North Resources is a Canadian mining company. Credit: Mr. Tempter/Shutterstock.com.",
-              "resolutions": [
-                {
-                  "url": "https://s.yimg.com/uu/api/res/1.2/A2SkdUNtcBJ_evHKL7_v9Q--~B/aD04MTA7dz0xNDQwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/mining_technology_700/da1a9f09f1fadf12062558df149531eb",
-                  "width": 1440,
-                  "height": 810,
-                  "tag": "original"
-                },
-                {
-                  "url": "https://s.yimg.com/uu/api/res/1.2/pewZJVjhIPcp.YspLyY5UQ--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/mining_technology_700/da1a9f09f1fadf12062558df149531eb",
-                  "width": 170,
-                  "height": 128,
-                  "tag": "170x128"
-                }
-              ]
-            },
-            "provider": {
-              "displayName": "Mining Technology",
-              "url": "https://www.globaldata.com/"
-            },
-            "canonicalUrl": {
-              "url": "https://www.mining-technology.com/news/silver-north-resources-raises/",
-              "site": "finance",
-              "region": "US",
-              "lang": "en-US"
-            },
-            "clickThroughUrl": {
-              "url": "https://finance.yahoo.com/news/silver-north-resources-raises-268-113035474.html",
-              "site": "finance",
-              "region": "US",
-              "lang": "en-US"
-            },
-            "metadata": {
-              "editorsPick": false
-            },
-            "finance": {
-              "premiumFinance": {
-                "isPremiumNews": false,
-                "isPremiumFreeNews": false
-              }
-            },
-            "storyline": null
-          }
-        }
-      ]
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

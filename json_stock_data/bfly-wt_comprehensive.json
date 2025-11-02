@@ -1,9 +1,25 @@
 {
   "ticker": "BFLY-WT",
-  "timestamp": "2025-11-01T04:36:46.013051",
+  "timestamp": "2025-11-02T04:58:42.821170",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 2,
+    "data": [
+      {
+        "Close ORGNW": 0.022700000554323196,
+        "High ORGNW": 0.022700000554323196,
+        "Low ORGNW": 0.022199999541044235,
+        "Open ORGNW": 0.022199999541044235,
+        "Volume ORGNW": 0
+      },
+      {
+        "Close ORGNW": 0.022700000554323196,
+        "High ORGNW": 0.022700000554323196,
+        "Low ORGNW": 0.022700000554323196,
+        "Open ORGNW": 0.022700000554323196,
+        "Volume ORGNW": 4352
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -26,7 +42,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

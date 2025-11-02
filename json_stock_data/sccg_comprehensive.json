@@ -1,9 +1,32 @@
 {
   "ticker": "SCCG",
-  "timestamp": "2025-11-01T04:35:32.743410",
+  "timestamp": "2025-11-02T04:56:51.600780",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 3,
+    "data": [
+      {
+        "Close": 23.18000030517578,
+        "High": 23.18000030517578,
+        "Low": 23.119800567626953,
+        "Open": 23.119800567626953,
+        "Volume": 0
+      },
+      {
+        "Close": 23.01609992980957,
+        "High": 23.01609992980957,
+        "Low": 23.01609992980957,
+        "Open": 23.01609992980957,
+        "Volume": 533
+      },
+      {
+        "Close": 23.01140022277832,
+        "High": 23.01140022277832,
+        "Low": 23.01140022277832,
+        "Open": 23.01140022277832,
+        "Volume": 357
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -26,7 +49,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

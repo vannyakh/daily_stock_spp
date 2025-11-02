@@ -1,85 +1,64 @@
 {
   "ticker": "MRAI",
-  "timestamp": "2025-11-01T04:26:33.932161",
+  "timestamp": "2025-11-02T04:42:29.062035",
   "intraday_data": {
     "status": "success",
-    "rows": 10,
+    "rows": 7,
     "data": [
       {
-        "Close": 1.4700000286102295,
-        "High": 1.4700000286102295,
-        "Low": 1.4700000286102295,
-        "Open": 1.4700000286102295,
-        "Volume": 0
+        "Close BBGI": 5.090000152587891,
+        "High BBGI": 5.090000152587891,
+        "Low BBGI": 5.090000152587891,
+        "Open BBGI": 5.090000152587891,
+        "Volume BBGI": 632
       },
       {
-        "Close": 1.5,
-        "High": 1.5,
-        "Low": 1.399999976158142,
-        "Open": 1.399999976158142,
-        "Volume": 5100
+        "Close BBGI": 5.175000190734863,
+        "High BBGI": 5.175000190734863,
+        "Low BBGI": 5.175000190734863,
+        "Open BBGI": 5.175000190734863,
+        "Volume BBGI": 100
       },
       {
-        "Close": 1.4500000476837158,
-        "High": 1.4500000476837158,
-        "Low": 1.4500000476837158,
-        "Open": 1.4500000476837158,
-        "Volume": 4900
+        "Close BBGI": 5.239999771118164,
+        "High BBGI": 5.239999771118164,
+        "Low BBGI": 5.239999771118164,
+        "Open BBGI": 5.239999771118164,
+        "Volume BBGI": 203
       },
       {
-        "Close": 1.4500000476837158,
-        "High": 1.4500000476837158,
-        "Low": 1.4500000476837158,
-        "Open": 1.4500000476837158,
-        "Volume": 100
+        "Close BBGI": 5.150000095367432,
+        "High BBGI": 5.150000095367432,
+        "Low BBGI": 5.150000095367432,
+        "Open BBGI": 5.150000095367432,
+        "Volume BBGI": 459
       },
       {
-        "Close": 1.399999976158142,
-        "High": 1.399999976158142,
-        "Low": 1.399999976158142,
-        "Open": 1.399999976158142,
-        "Volume": 1100
+        "Close BBGI": 5.110099792480469,
+        "High BBGI": 5.151199817657471,
+        "Low BBGI": 5.110099792480469,
+        "Open BBGI": 5.151199817657471,
+        "Volume BBGI": 1006
       },
       {
-        "Close": 1.399999976158142,
-        "High": 1.399999976158142,
-        "Low": 1.399999976158142,
-        "Open": 1.399999976158142,
-        "Volume": 400
+        "Close BBGI": 5.01800012588501,
+        "High BBGI": 5.01800012588501,
+        "Low BBGI": 5.01800012588501,
+        "Open BBGI": 5.01800012588501,
+        "Volume BBGI": 141
       },
       {
-        "Close": 1.399999976158142,
-        "High": 1.399999976158142,
-        "Low": 1.399999976158142,
-        "Open": 1.399999976158142,
-        "Volume": 496
-      },
-      {
-        "Close": 1.5,
-        "High": 1.5,
-        "Low": 1.5,
-        "Open": 1.5,
-        "Volume": 1900
-      },
-      {
-        "Close": 1.399999976158142,
-        "High": 1.399999976158142,
-        "Low": 1.399999976158142,
-        "Open": 1.399999976158142,
-        "Volume": 2
-      },
-      {
-        "Close": 1.4500000476837158,
-        "High": 1.4500000476837158,
-        "Low": 1.4500000476837158,
-        "Open": 1.4500000476837158,
-        "Volume": 198
+        "Close BBGI": 5.010000228881836,
+        "High BBGI": 5.010000228881836,
+        "Low BBGI": 5.010000228881836,
+        "Open BBGI": 5.010000228881836,
+        "Volume BBGI": 232
       }
     ]
   },
   "stock_info": {
     "status": "error",
-    "message": "Too Many Requests. Rate limited. Try after a while."
+    "message": "argument of type 'NoneType' is not iterable"
   },
   "financials": {
     "income_statement": {
@@ -98,7 +77,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",
@@ -120,7 +100,7 @@
     },
     "calendar": {
       "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
+      "message": "'dict' object has no attribute 'empty'"
     }
   }
 }

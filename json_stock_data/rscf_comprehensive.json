@@ -1,9 +1,32 @@
 {
   "ticker": "RSCF",
-  "timestamp": "2025-11-01T04:28:33.718248",
+  "timestamp": "2025-11-02T04:45:26.735595",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 3,
+    "data": [
+      {
+        "Close": 0.04600000008940697,
+        "High": 0.04600000008940697,
+        "Low": 0.04600000008940697,
+        "Open": 0.04600000008940697,
+        "Volume": 0
+      },
+      {
+        "Close": 0.04500000178813934,
+        "High": 0.04500000178813934,
+        "Low": 0.04500000178813934,
+        "Open": 0.04500000178813934,
+        "Volume": 45000
+      },
+      {
+        "Close": 0.052400000393390656,
+        "High": 0.052400000393390656,
+        "Low": 0.052400000393390656,
+        "Open": 0.052400000393390656,
+        "Volume": 100
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -11,44 +34,14 @@
   },
   "financials": {
     "income_statement": {
-      "status": "no_data"
-    },
-    "balance_sheet": {
-      "status": "no_data"
-    },
-    "cash_flow": {
-      "status": "no_data"
-    }
-  },
-  "options_data": {
-    "status": "error",
-    "error_message": "Too Many Requests. Rate limited. Try after a while."
-  },
-  "news_data": {
-    "news": {
-      "status": "no_data"
-    },
-    "recommendations": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
-    }
-  },
-  "holders_data": {
-    "major_holders": {
-      "status": "error"
-    },
-    "institutional_holders": {
-      "status": "error"
-    }
-  },
-  "earnings_data": {
-    "earnings": {
-      "status": "error",
-      "message": "'NoneType' object has no attribute 'empty'"
-    },
-    "calendar": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
-    }
-  }
-}
+      "status": "success",
+      "rows": 44,
+      "columns": [
+        "2023-12-31 00:00:00",
+        "2022-12-31 00:00:00",
+        "2021-12-31 00:00:00",
+        "2020-12-31 00:00:00"
+      ],
+      "data": [
+        {
+          

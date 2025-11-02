@@ -1,39 +1,9 @@
 {
   "ticker": "JOBY-WT",
-  "timestamp": "2025-11-01T04:36:25.634410",
+  "timestamp": "2025-11-02T04:58:08.621981",
   "intraday_data": {
-    "status": "success",
-    "rows": 4,
-    "data": [
-      {
-        "Close ONFOW": 0.17000000178813934,
-        "High ONFOW": 0.17000000178813934,
-        "Low ONFOW": 0.17000000178813934,
-        "Open ONFOW": 0.17000000178813934,
-        "Volume ONFOW": 0
-      },
-      {
-        "Close ONFOW": 0.20000000298023224,
-        "High ONFOW": 0.20000000298023224,
-        "Low ONFOW": 0.20000000298023224,
-        "Open ONFOW": 0.20000000298023224,
-        "Volume ONFOW": 100
-      },
-      {
-        "Close ONFOW": 0.19179999828338623,
-        "High ONFOW": 0.19179999828338623,
-        "Low ONFOW": 0.19169999659061432,
-        "Open ONFOW": 0.19179999828338623,
-        "Volume ONFOW": 4900
-      },
-      {
-        "Close ONFOW": 0.17260000109672546,
-        "High ONFOW": 0.17260000109672546,
-        "Low ONFOW": 0.15000000596046448,
-        "Open ONFOW": 0.15000000596046448,
-        "Volume ONFOW": 0
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -56,7 +26,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

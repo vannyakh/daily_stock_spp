@@ -1,37 +1,16 @@
 {
   "ticker": "ICR-PA",
-  "timestamp": "2025-11-01T04:31:16.109246",
+  "timestamp": "2025-11-02T04:49:44.429796",
   "intraday_data": {
     "status": "success",
-    "rows": 11,
+    "rows": 8,
     "data": [
-      {
-        "Close": 21.549999237060547,
-        "High": 21.549999237060547,
-        "Low": 21.549999237060547,
-        "Open": 21.549999237060547,
-        "Volume": 0
-      },
-      {
-        "Close": 21.700199127197266,
-        "High": 21.700199127197266,
-        "Low": 21.700199127197266,
-        "Open": 21.700199127197266,
-        "Volume": 163
-      },
-      {
-        "Close": 21.799999237060547,
-        "High": 21.799999237060547,
-        "Low": 21.799999237060547,
-        "Open": 21.799999237060547,
-        "Volume": 0
-      },
       {
         "Close": 21.742000579833984,
         "High": 21.742000579833984,
         "Low": 21.709999084472656,
         "Open": 21.709999084472656,
-        "Volume": 314
+        "Volume": 0
       },
       {
         "Close": 21.700000762939453,
@@ -86,7 +65,7 @@
   },
   "stock_info": {
     "status": "error",
-    "message": "Too Many Requests. Rate limited. Try after a while."
+    "message": "argument of type 'NoneType' is not iterable"
   },
   "financials": {
     "income_statement": {
@@ -105,7 +84,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

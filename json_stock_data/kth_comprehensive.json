@@ -1,25 +1,9 @@
 {
   "ticker": "KTH",
-  "timestamp": "2025-11-01T04:31:14.033596",
+  "timestamp": "2025-11-02T04:49:40.952735",
   "intraday_data": {
-    "status": "success",
-    "rows": 2,
-    "data": [
-      {
-        "Close XPTFX": 10.100000381469727,
-        "High XPTFX": 10.100000381469727,
-        "Low XPTFX": 10.100000381469727,
-        "Open XPTFX": 10.100000381469727,
-        "Volume XPTFX": 0
-      },
-      {
-        "Close XPTFX": 10.100000381469727,
-        "High XPTFX": 10.100000381469727,
-        "Low XPTFX": 10.100000381469727,
-        "Open XPTFX": 10.100000381469727,
-        "Volume XPTFX": 0
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -42,7 +26,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

@@ -1,6 +1,6 @@
 {
   "ticker": "SEE",
-  "timestamp": "2025-11-01T04:09:54.535994",
+  "timestamp": "2025-11-02T04:15:18.028143",
   "intraday_data": {
     "status": "no_data",
     "message": "No intraday data available"
@@ -642,146 +642,16 @@
       ]
     },
     "recommendations": {
-      "status": "success",
-      "rows": 4,
-      "data": [
-        {
-          "period": "0m",
-          "strongBuy": 2,
-          "buy": 9,
-          "hold": 4,
-          "sell": 0,
-          "strongSell": 0
-        },
-        {
-          "period": "-1m",
-          "strongBuy": 2,
-          "buy": 9,
-          "hold": 5,
-          "sell": 0,
-          "strongSell": 0
-        },
-        {
-          "period": "-2m",
-          "strongBuy": 1,
-          "buy": 9,
-          "hold": 6,
-          "sell": 0,
-          "strongSell": 0
-        },
-        {
-          "period": "-3m",
-          "strongBuy": 1,
-          "buy": 9,
-          "hold": 6,
-          "sell": 0,
-          "strongSell": 0
-        }
-      ]
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   },
   "holders_data": {
     "major_holders": {
-      "status": "success",
-      "data": [
-        {
-          "Value": 0.0053600003
-        },
-        {
-          "Value": 1.00229
-        },
-        {
-          "Value": 1.00769
-        },
-        {
-          "Value": 557.0
-        }
-      ]
+      "status": "error"
     },
     "institutional_holders": {
-      "status": "success",
-      "data": [
-        {
-          "Date Reported": "2025-06-30 00:00:00",
-          "Holder": "Blackrock Inc.",
-          "pctHeld": 0.19569999,
-          "Shares": 28790213,
-          "Value": 964759989,
-          "pctChange": 0.0156
-        },
-        {
-          "Date Reported": "2025-06-30 00:00:00",
-          "Holder": "Vanguard Group Inc",
-          "pctHeld": 0.12640001,
-          "Shares": 18591539,
-          "Value": 623002440,
-          "pctChange": 0.0159
-        },
-        {
-          "Date Reported": "2025-06-30 00:00:00",
-          "Holder": "T. Rowe Price Investment Management, Inc.",
-          "pctHeld": 0.0756,
-          "Shares": 11122884,
-          "Value": 372727824,
-          "pctChange": -0.113400005
-        },
-        {
-          "Date Reported": "2025-06-30 00:00:00",
-          "Holder": "Harris Associates L.P.",
-          "pctHeld": 0.0363,
-          "Shares": 5341389,
-          "Value": 178989936,
-          "pctChange": -0.161
-        },
-        {
-          "Date Reported": "2025-06-30 00:00:00",
-          "Holder": "State Street Corporation",
-          "pctHeld": 0.0341,
-          "Shares": 5016726,
-          "Value": 168110479,
-          "pctChange": -0.0047
-        },
-        {
-          "Date Reported": "2025-06-30 00:00:00",
-          "Holder": "Bank of America Corporation",
-          "pctHeld": 0.0287,
-          "Shares": 4220533,
-          "Value": 141430053,
-          "pctChange": 0.1365
-        },
-        {
-          "Date Reported": "2025-06-30 00:00:00",
-          "Holder": "Invesco Ltd.",
-          "pctHeld": 0.024500001,
-          "Shares": 3609686,
-          "Value": 120960571,
-          "pctChange": -0.070700005
-        },
-        {
-          "Date Reported": "2025-06-30 00:00:00",
-          "Holder": "Dimensional Fund Advisors LP",
-          "pctHeld": 0.0188,
-          "Shares": 2762367,
-          "Value": 92566913,
-          "pctChange": 0.0775
-        },
-        {
-          "Date Reported": "2025-06-30 00:00:00",
-          "Holder": "Victory Capital Management Inc.",
-          "pctHeld": 0.0186,
-          "Shares": 2741143,
-          "Value": 91855697,
-          "pctChange": -0.0432
-        },
-        {
-          "Date Reported": "2025-06-30 00:00:00",
-          "Holder": "Morgan Stanley",
-          "pctHeld": 0.018,
-          "Shares": 2643107,
-          "Value": 88570511,
-          "pctChange": -0.0394
-        }
-      ]
+      "status": "error"
     }
   },
   "earnings_data": {
@@ -791,7 +661,7 @@
     },
     "calendar": {
       "status": "error",
-      "message": "'dict' object has no attribute 'empty'"
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   }
 }

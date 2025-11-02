@@ -1,18 +1,9 @@
 {
   "ticker": "IVDN",
-  "timestamp": "2025-11-01T04:27:05.792018",
+  "timestamp": "2025-11-02T04:43:20.507026",
   "intraday_data": {
-    "status": "success",
-    "rows": 1,
-    "data": [
-      {
-        "Close": 0.2150000035762787,
-        "High": 0.2150000035762787,
-        "Low": 0.2150000035762787,
-        "Open": 0.2150000035762787,
-        "Volume": 510
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -35,7 +26,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

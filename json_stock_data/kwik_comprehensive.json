@@ -1,6 +1,6 @@
 {
   "ticker": "KWIK",
-  "timestamp": "2025-11-01T04:26:45.539269",
+  "timestamp": "2025-11-02T04:42:50.145828",
   "intraday_data": {
     "status": "success",
     "rows": 1,
@@ -10,7 +10,7 @@
         "High": 2.2799999713897705,
         "Low": 2.2799999713897705,
         "Open": 2.2799999713897705,
-        "Volume": 1000
+        "Volume": 0
       }
     ]
   },
@@ -38,15 +38,16 @@
       "status": "no_data"
     },
     "recommendations": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   },
   "holders_data": {
     "major_holders": {
-      "status": "no_data"
+      "status": "error"
     },
     "institutional_holders": {
-      "status": "no_data"
+      "status": "error"
     }
   },
   "earnings_data": {
@@ -56,7 +57,7 @@
     },
     "calendar": {
       "status": "error",
-      "message": "'dict' object has no attribute 'empty'"
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   }
 }

@@ -1,9 +1,60 @@
 {
   "ticker": "WHFCL",
-  "timestamp": "2025-11-01T04:37:23.496951",
+  "timestamp": "2025-11-02T04:59:51.661761",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 7,
+    "data": [
+      {
+        "Close": 25.22010040283203,
+        "High": 25.22100067138672,
+        "Low": 25.22010040283203,
+        "Open": 25.22100067138672,
+        "Volume": 0
+      },
+      {
+        "Close": 25.25,
+        "High": 25.25,
+        "Low": 25.25,
+        "Open": 25.25,
+        "Volume": 129
+      },
+      {
+        "Close": 25.31999969482422,
+        "High": 25.31999969482422,
+        "Low": 25.31999969482422,
+        "Open": 25.31999969482422,
+        "Volume": 101
+      },
+      {
+        "Close": 25.325000762939453,
+        "High": 25.325000762939453,
+        "Low": 25.325000762939453,
+        "Open": 25.325000762939453,
+        "Volume": 245
+      },
+      {
+        "Close": 25.30940055847168,
+        "High": 25.30940055847168,
+        "Low": 25.30940055847168,
+        "Open": 25.30940055847168,
+        "Volume": 600
+      },
+      {
+        "Close": 25.3700008392334,
+        "High": 25.3700008392334,
+        "Low": 25.31999969482422,
+        "Open": 25.31999969482422,
+        "Volume": 125
+      },
+      {
+        "Close": 25.31999969482422,
+        "High": 25.31999969482422,
+        "Low": 25.31999969482422,
+        "Open": 25.31999969482422,
+        "Volume": 166
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -26,7 +77,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

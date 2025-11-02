@@ -1,25 +1,9 @@
 {
   "ticker": "XSIAX",
-  "timestamp": "2025-11-01T04:31:05.008575",
+  "timestamp": "2025-11-02T04:49:25.335970",
   "intraday_data": {
-    "status": "success",
-    "rows": 2,
-    "data": [
-      {
-        "Close": 9.470000267028809,
-        "High": 9.470000267028809,
-        "Low": 9.470000267028809,
-        "Open": 9.470000267028809,
-        "Volume": 0
-      },
-      {
-        "Close": 9.470000267028809,
-        "High": 9.470000267028809,
-        "Low": 9.470000267028809,
-        "Open": 9.470000267028809,
-        "Volume": 0
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -42,7 +26,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

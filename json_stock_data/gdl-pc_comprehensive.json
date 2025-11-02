@@ -1,13 +1,71 @@
 {
   "ticker": "GDL-PC",
-  "timestamp": "2025-11-01T04:39:27.126540",
+  "timestamp": "2025-11-02T05:03:10.108481",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 8,
+    "data": [
+      {
+        "Close SAJ": 25.3799991607666,
+        "High SAJ": 25.459999084472656,
+        "Low SAJ": 25.3799991607666,
+        "Open SAJ": 25.459999084472656,
+        "Volume SAJ": 0
+      },
+      {
+        "Close SAJ": 25.3799991607666,
+        "High SAJ": 25.3799991607666,
+        "Low SAJ": 25.3799991607666,
+        "Open SAJ": 25.3799991607666,
+        "Volume SAJ": 166
+      },
+      {
+        "Close SAJ": 25.3799991607666,
+        "High SAJ": 25.3799991607666,
+        "Low SAJ": 25.3799991607666,
+        "Open SAJ": 25.3799991607666,
+        "Volume SAJ": 100
+      },
+      {
+        "Close SAJ": 25.3799991607666,
+        "High SAJ": 25.3799991607666,
+        "Low SAJ": 25.3799991607666,
+        "Open SAJ": 25.3799991607666,
+        "Volume SAJ": 100
+      },
+      {
+        "Close SAJ": 25.3799991607666,
+        "High SAJ": 25.3799991607666,
+        "Low SAJ": 25.3799991607666,
+        "Open SAJ": 25.3799991607666,
+        "Volume SAJ": 102
+      },
+      {
+        "Close SAJ": 25.399999618530273,
+        "High SAJ": 25.399999618530273,
+        "Low SAJ": 25.399999618530273,
+        "Open SAJ": 25.399999618530273,
+        "Volume SAJ": 660
+      },
+      {
+        "Close SAJ": 25.399999618530273,
+        "High SAJ": 25.399999618530273,
+        "Low SAJ": 25.399999618530273,
+        "Open SAJ": 25.399999618530273,
+        "Volume SAJ": 450
+      },
+      {
+        "Close SAJ": 25.3799991607666,
+        "High SAJ": 25.3799991607666,
+        "Low SAJ": 25.3799991607666,
+        "Open SAJ": 25.3799991607666,
+        "Volume SAJ": 100
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
-    "message": "Too Many Requests. Rate limited. Try after a while."
+    "message": "argument of type 'NoneType' is not iterable"
   },
   "financials": {
     "income_statement": {
@@ -26,7 +84,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

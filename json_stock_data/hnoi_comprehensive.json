@@ -1,25 +1,9 @@
 {
   "ticker": "HNOI",
-  "timestamp": "2025-11-01T04:15:43.856525",
+  "timestamp": "2025-11-02T04:24:51.528052",
   "intraday_data": {
-    "status": "success",
-    "rows": 2,
-    "data": [
-      {
-        "Close": 0.36000001430511475,
-        "High": 0.36000001430511475,
-        "Low": 0.35010001063346863,
-        "Open": 0.35010001063346863,
-        "Volume": 8977
-      },
-      {
-        "Close": 0.4099999964237213,
-        "High": 0.4099999964237213,
-        "Low": 0.4099999964237213,
-        "Open": 0.4099999964237213,
-        "Volume": 1847
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -42,7 +26,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

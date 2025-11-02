@@ -1,9 +1,32 @@
 {
   "ticker": "JPOTF",
-  "timestamp": "2025-11-01T04:27:33.168129",
+  "timestamp": "2025-11-02T04:44:03.533040",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 3,
+    "data": [
+      {
+        "Close": 0.08699999749660492,
+        "High": 0.08699999749660492,
+        "Low": 0.0869000032544136,
+        "Open": 0.0869000032544136,
+        "Volume": 0
+      },
+      {
+        "Close": 0.08699999749660492,
+        "High": 0.08699999749660492,
+        "Low": 0.08699999749660492,
+        "Open": 0.08699999749660492,
+        "Volume": 13000
+      },
+      {
+        "Close": 0.08699999749660492,
+        "High": 0.08699999749660492,
+        "Low": 0.08699999749660492,
+        "Open": 0.08699999749660492,
+        "Volume": 14000
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -26,7 +49,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

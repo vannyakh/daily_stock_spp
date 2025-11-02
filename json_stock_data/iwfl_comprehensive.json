@@ -1,50 +1,13 @@
 {
   "ticker": "IWFL",
-  "timestamp": "2025-11-01T04:38:09.059206",
+  "timestamp": "2025-11-02T05:01:06.623629",
   "intraday_data": {
-    "status": "success",
-    "rows": 5,
-    "data": [
-      {
-        "Close IWML": 22.5,
-        "High IWML": 22.5,
-        "Low IWML": 22.5,
-        "Open IWML": 22.5,
-        "Volume IWML": 0
-      },
-      {
-        "Close IWML": 23.459999084472656,
-        "High IWML": 23.459999084472656,
-        "Low IWML": 23.459999084472656,
-        "Open IWML": 23.459999084472656,
-        "Volume IWML": 200
-      },
-      {
-        "Close IWML": 23.24810028076172,
-        "High IWML": 23.69499969482422,
-        "Low IWML": 23.24810028076172,
-        "Open IWML": 23.69499969482422,
-        "Volume IWML": 0
-      },
-      {
-        "Close IWML": 23.545700073242188,
-        "High IWML": 23.545700073242188,
-        "Low IWML": 23.079999923706055,
-        "Open IWML": 23.079999923706055,
-        "Volume IWML": 543
-      },
-      {
-        "Close IWML": 23.545700073242188,
-        "High IWML": 23.545700073242188,
-        "Low IWML": 23.079999923706055,
-        "Open IWML": 23.079999923706055,
-        "Volume IWML": 0
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
-    "message": "argument of type 'NoneType' is not iterable"
+    "message": "Too Many Requests. Rate limited. Try after a while."
   },
   "financials": {
     "income_statement": {
@@ -63,7 +26,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

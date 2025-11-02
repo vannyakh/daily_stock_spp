@@ -1,30 +1,16 @@
 {
   "ticker": "RIVF",
-  "timestamp": "2025-11-01T04:26:25.753864",
+  "timestamp": "2025-11-02T04:42:14.035476",
   "intraday_data": {
     "status": "success",
-    "rows": 3,
+    "rows": 1,
     "data": [
-      {
-        "Close": 1.3799999952316284,
-        "High": 1.3799999952316284,
-        "Low": 1.3799999952316284,
-        "Open": 1.3799999952316284,
-        "Volume": 0
-      },
-      {
-        "Close": 1.3799999952316284,
-        "High": 1.3799999952316284,
-        "Low": 1.3799999952316284,
-        "Open": 1.3799999952316284,
-        "Volume": 300
-      },
       {
         "Close": 1.0099999904632568,
         "High": 1.0099999904632568,
         "Low": 1.0099999904632568,
         "Open": 1.0099999904632568,
-        "Volume": 100
+        "Volume": 0
       }
     ]
   },
@@ -37,14 +23,42 @@
       "status": "no_data"
     },
     "balance_sheet": {
-      "status": "success",
-      "rows": 44,
-      "columns": [
-        "2023-12-31 00:00:00",
-        "2022-12-31 00:00:00",
-        "2021-12-31 00:00:00",
-        "2020-12-31 00:00:00"
-      ],
-      "data": [
-        {
-          
+      "status": "no_data"
+    },
+    "cash_flow": {
+      "status": "no_data"
+    }
+  },
+  "options_data": {
+    "status": "error",
+    "error_message": "Too Many Requests. Rate limited. Try after a while."
+  },
+  "news_data": {
+    "news": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    },
+    "recommendations": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  },
+  "holders_data": {
+    "major_holders": {
+      "status": "error"
+    },
+    "institutional_holders": {
+      "status": "error"
+    }
+  },
+  "earnings_data": {
+    "earnings": {
+      "status": "error",
+      "message": "'NoneType' object has no attribute 'empty'"
+    },
+    "calendar": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  }
+}

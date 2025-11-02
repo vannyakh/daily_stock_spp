@@ -1,32 +1,9 @@
 {
   "ticker": "SPQS",
-  "timestamp": "2025-11-01T04:33:59.766798",
+  "timestamp": "2025-11-02T04:54:08.826299",
   "intraday_data": {
-    "status": "success",
-    "rows": 3,
-    "data": [
-      {
-        "Close CRTD": 0.22300000488758087,
-        "High CRTD": 0.22300000488758087,
-        "Low CRTD": 0.22300000488758087,
-        "Open CRTD": 0.22300000488758087,
-        "Volume CRTD": 0
-      },
-      {
-        "Close CRTD": 0.25,
-        "High CRTD": 0.25,
-        "Low CRTD": 0.25,
-        "Open CRTD": 0.25,
-        "Volume CRTD": 50
-      },
-      {
-        "Close CRTD": 0.30000001192092896,
-        "High CRTD": 0.30000001192092896,
-        "Low CRTD": 0.30000001192092896,
-        "Open CRTD": 0.30000001192092896,
-        "Volume CRTD": 100
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -49,7 +26,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

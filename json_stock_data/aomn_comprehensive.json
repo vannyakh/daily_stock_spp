@@ -1,13 +1,85 @@
 {
   "ticker": "AOMN",
-  "timestamp": "2025-11-01T04:37:26.841596",
+  "timestamp": "2025-11-02T04:59:54.675769",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 10,
+    "data": [
+      {
+        "Close": 25.049999237060547,
+        "High": 25.049999237060547,
+        "Low": 25.049999237060547,
+        "Open": 25.049999237060547,
+        "Volume": 0
+      },
+      {
+        "Close": 25.049999237060547,
+        "High": 25.049999237060547,
+        "Low": 25.049999237060547,
+        "Open": 25.049999237060547,
+        "Volume": 180
+      },
+      {
+        "Close": 25.049999237060547,
+        "High": 25.049999237060547,
+        "Low": 25.049999237060547,
+        "Open": 25.049999237060547,
+        "Volume": 292
+      },
+      {
+        "Close": 25.035999298095703,
+        "High": 25.035999298095703,
+        "Low": 25.035999298095703,
+        "Open": 25.035999298095703,
+        "Volume": 234
+      },
+      {
+        "Close": 25.030000686645508,
+        "High": 25.030000686645508,
+        "Low": 25.030000686645508,
+        "Open": 25.030000686645508,
+        "Volume": 101
+      },
+      {
+        "Close": 25.027999877929688,
+        "High": 25.027999877929688,
+        "Low": 25.027999877929688,
+        "Open": 25.027999877929688,
+        "Volume": 100
+      },
+      {
+        "Close": 25.0,
+        "High": 25.0,
+        "Low": 25.0,
+        "Open": 25.0,
+        "Volume": 170
+      },
+      {
+        "Close": 25.0,
+        "High": 25.0,
+        "Low": 25.0,
+        "Open": 25.0,
+        "Volume": 200
+      },
+      {
+        "Close": 25.040000915527344,
+        "High": 25.040000915527344,
+        "Low": 25.040000915527344,
+        "Open": 25.040000915527344,
+        "Volume": 100
+      },
+      {
+        "Close": 25.025999069213867,
+        "High": 25.025999069213867,
+        "Low": 25.025999069213867,
+        "Open": 25.025999069213867,
+        "Volume": 163
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
-    "message": "Too Many Requests. Rate limited. Try after a while."
+    "message": "argument of type 'NoneType' is not iterable"
   },
   "financials": {
     "income_statement": {
@@ -26,7 +98,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

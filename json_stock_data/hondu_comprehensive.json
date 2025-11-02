@@ -1,18 +1,9 @@
 {
   "ticker": "HONDU",
-  "timestamp": "2025-11-01T04:35:03.350719",
+  "timestamp": "2025-11-02T04:56:07.506978",
   "intraday_data": {
-    "status": "success",
-    "rows": 1,
-    "data": [
-      {
-        "Close TLPPF": 10.270000457763672,
-        "High TLPPF": 10.270000457763672,
-        "Low TLPPF": 10.270000457763672,
-        "Open TLPPF": 10.270000457763672,
-        "Volume TLPPF": 2000
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -35,52 +26,8 @@
   },
   "news_data": {
     "news": {
-      "status": "success",
-      "count": 1,
-      "data": [
-        {
-          "id": "3d7ba606-3e69-3c87-9d24-a0be19a97659",
-          "content": {
-            "id": "3d7ba606-3e69-3c87-9d24-a0be19a97659",
-            "contentType": "STORY",
-            "title": "HCM II Acquisition to Merge With Next-Generation Nuclear Reactor Company; Shares Climb",
-            "description": "",
-            "summary": "HCM II Acquisition Corp. (HOND) said Wednesday it will merge with Terrestrial Energy, a developer of",
-            "pubDate": "2025-03-26T14:48:13Z",
-            "displayTime": "2025-03-26T14:48:13Z",
-            "isHosted": true,
-            "bypassModal": false,
-            "previewUrl": null,
-            "thumbnail": null,
-            "provider": {
-              "displayName": "MT Newswires",
-              "url": "https://www.mtnewswires.com/"
-            },
-            "canonicalUrl": {
-              "url": "https://finance.yahoo.com/news/hcm-ii-acquisition-merge-next-144813898.html",
-              "site": "finance",
-              "region": "US",
-              "lang": "en-US"
-            },
-            "clickThroughUrl": {
-              "url": "https://finance.yahoo.com/news/hcm-ii-acquisition-merge-next-144813898.html",
-              "site": "finance",
-              "region": "US",
-              "lang": "en-US"
-            },
-            "metadata": {
-              "editorsPick": false
-            },
-            "finance": {
-              "premiumFinance": {
-                "isPremiumNews": true,
-                "isPremiumFreeNews": false
-              }
-            },
-            "storyline": null
-          }
-        }
-      ]
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

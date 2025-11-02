@@ -1,106 +1,13 @@
 {
   "ticker": "CUBB",
-  "timestamp": "2025-11-01T04:38:47.758390",
+  "timestamp": "2025-11-02T05:02:05.666533",
   "intraday_data": {
-    "status": "success",
-    "rows": 13,
-    "data": [
-      {
-        "Close PEB-PH": 17.649999618530273,
-        "High PEB-PH": 17.649999618530273,
-        "Low PEB-PH": 17.649999618530273,
-        "Open PEB-PH": 17.649999618530273,
-        "Volume PEB-PH": 0
-      },
-      {
-        "Close PEB-PH": 17.649999618530273,
-        "High PEB-PH": 17.649999618530273,
-        "Low PEB-PH": 17.649999618530273,
-        "Open PEB-PH": 17.649999618530273,
-        "Volume PEB-PH": 500
-      },
-      {
-        "Close PEB-PH": 17.549999237060547,
-        "High PEB-PH": 17.549999237060547,
-        "Low PEB-PH": 17.5,
-        "Open PEB-PH": 17.549999237060547,
-        "Volume PEB-PH": 1200
-      },
-      {
-        "Close PEB-PH": 17.559999465942383,
-        "High PEB-PH": 17.559999465942383,
-        "Low PEB-PH": 17.559999465942383,
-        "Open PEB-PH": 17.559999465942383,
-        "Volume PEB-PH": 100
-      },
-      {
-        "Close PEB-PH": 17.559999465942383,
-        "High PEB-PH": 17.559999465942383,
-        "Low PEB-PH": 17.559999465942383,
-        "Open PEB-PH": 17.559999465942383,
-        "Volume PEB-PH": 100
-      },
-      {
-        "Close PEB-PH": 17.559999465942383,
-        "High PEB-PH": 17.559999465942383,
-        "Low PEB-PH": 17.559999465942383,
-        "Open PEB-PH": 17.559999465942383,
-        "Volume PEB-PH": 100
-      },
-      {
-        "Close PEB-PH": 17.510099411010742,
-        "High PEB-PH": 17.600000381469727,
-        "Low PEB-PH": 17.510099411010742,
-        "Open PEB-PH": 17.600000381469727,
-        "Volume PEB-PH": 960
-      },
-      {
-        "Close PEB-PH": 17.68000030517578,
-        "High PEB-PH": 17.68000030517578,
-        "Low PEB-PH": 17.510000228881836,
-        "Open PEB-PH": 17.510000228881836,
-        "Volume PEB-PH": 634
-      },
-      {
-        "Close PEB-PH": 17.510000228881836,
-        "High PEB-PH": 17.510000228881836,
-        "Low PEB-PH": 17.510000228881836,
-        "Open PEB-PH": 17.510000228881836,
-        "Volume PEB-PH": 0
-      },
-      {
-        "Close PEB-PH": 17.450000762939453,
-        "High PEB-PH": 17.479999542236328,
-        "Low PEB-PH": 17.450000762939453,
-        "Open PEB-PH": 17.479999542236328,
-        "Volume PEB-PH": 575
-      },
-      {
-        "Close PEB-PH": 17.77989959716797,
-        "High PEB-PH": 17.77989959716797,
-        "Low PEB-PH": 17.77989959716797,
-        "Open PEB-PH": 17.77989959716797,
-        "Volume PEB-PH": 1032
-      },
-      {
-        "Close PEB-PH": 17.3799991607666,
-        "High PEB-PH": 17.3799991607666,
-        "Low PEB-PH": 17.3799991607666,
-        "Open PEB-PH": 17.3799991607666,
-        "Volume PEB-PH": 318
-      },
-      {
-        "Close PEB-PH": 17.3799991607666,
-        "High PEB-PH": 17.489999771118164,
-        "Low PEB-PH": 17.3799991607666,
-        "Open PEB-PH": 17.489999771118164,
-        "Volume PEB-PH": 207
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
-    "message": "argument of type 'NoneType' is not iterable"
+    "message": "Too Many Requests. Rate limited. Try after a while."
   },
   "financials": {
     "income_statement": {
@@ -119,7 +26,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

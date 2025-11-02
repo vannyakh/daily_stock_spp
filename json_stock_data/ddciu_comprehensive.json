@@ -1,46 +1,9 @@
 {
   "ticker": "DDCIU",
-  "timestamp": "2025-11-01T04:31:05.500194",
+  "timestamp": "2025-11-02T04:49:27.472811",
   "intraday_data": {
-    "status": "success",
-    "rows": 5,
-    "data": [
-      {
-        "Close EIIA": 25.100000381469727,
-        "High EIIA": 25.100000381469727,
-        "Low EIIA": 25.100000381469727,
-        "Open EIIA": 25.100000381469727,
-        "Volume EIIA": 0
-      },
-      {
-        "Close EIIA": 25.052799224853516,
-        "High EIIA": 25.052799224853516,
-        "Low EIIA": 25.020000457763672,
-        "Open EIIA": 25.020000457763672,
-        "Volume EIIA": 808
-      },
-      {
-        "Close EIIA": 25.049999237060547,
-        "High EIIA": 25.049999237060547,
-        "Low EIIA": 25.049999237060547,
-        "Open EIIA": 25.049999237060547,
-        "Volume EIIA": 1000
-      },
-      {
-        "Close EIIA": 25.049999237060547,
-        "High EIIA": 25.049999237060547,
-        "Low EIIA": 25.049999237060547,
-        "Open EIIA": 25.049999237060547,
-        "Volume EIIA": 0
-      },
-      {
-        "Close EIIA": 25.059999465942383,
-        "High EIIA": 25.059999465942383,
-        "Low EIIA": 25.059999465942383,
-        "Open EIIA": 25.059999465942383,
-        "Volume EIIA": 2065
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -63,7 +26,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

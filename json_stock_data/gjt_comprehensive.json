@@ -1,9 +1,18 @@
 {
   "ticker": "GJT",
-  "timestamp": "2025-11-01T04:30:27.787889",
+  "timestamp": "2025-11-02T04:48:16.352210",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 1,
+    "data": [
+      {
+        "Close": 22.75,
+        "High": 22.75,
+        "Low": 22.75,
+        "Open": 22.75,
+        "Volume": 0
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -26,7 +35,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

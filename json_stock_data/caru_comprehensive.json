@@ -1,9 +1,32 @@
 {
   "ticker": "CARU",
-  "timestamp": "2025-11-01T04:39:23.964221",
+  "timestamp": "2025-11-02T05:03:05.497261",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 3,
+    "data": [
+      {
+        "Close WTID": 12.430000305175781,
+        "High WTID": 12.430000305175781,
+        "Low WTID": 12.430000305175781,
+        "Open WTID": 12.430000305175781,
+        "Volume WTID": 0
+      },
+      {
+        "Close WTID": 12.382599830627441,
+        "High WTID": 12.382599830627441,
+        "Low WTID": 12.382599830627441,
+        "Open WTID": 12.382599830627441,
+        "Volume WTID": 1548
+      },
+      {
+        "Close WTID": 12.317399978637695,
+        "High WTID": 12.570199966430664,
+        "Low WTID": 12.317399978637695,
+        "Open WTID": 12.570199966430664,
+        "Volume WTID": 462
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -26,7 +49,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

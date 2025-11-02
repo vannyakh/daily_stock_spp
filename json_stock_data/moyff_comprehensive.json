@@ -1,32 +1,9 @@
 {
   "ticker": "MOYFF",
-  "timestamp": "2025-11-01T04:33:21.611055",
+  "timestamp": "2025-11-02T04:53:01.745275",
   "intraday_data": {
-    "status": "success",
-    "rows": 3,
-    "data": [
-      {
-        "Close WONDF": 0.2076999992132187,
-        "High WONDF": 0.2076999992132187,
-        "Low WONDF": 0.2076999992132187,
-        "Open WONDF": 0.2076999992132187,
-        "Volume WONDF": 0
-      },
-      {
-        "Close WONDF": 0.20649999380111694,
-        "High WONDF": 0.20649999380111694,
-        "Low WONDF": 0.20649999380111694,
-        "Open WONDF": 0.20649999380111694,
-        "Volume WONDF": 10000
-      },
-      {
-        "Close WONDF": 0.20649999380111694,
-        "High WONDF": 0.20649999380111694,
-        "Low WONDF": 0.20649999380111694,
-        "Open WONDF": 0.20649999380111694,
-        "Volume WONDF": 2500
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -49,7 +26,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

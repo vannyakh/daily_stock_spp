@@ -1,9 +1,32 @@
 {
   "ticker": "EFSCP",
-  "timestamp": "2025-11-01T04:38:12.598337",
+  "timestamp": "2025-11-02T05:01:11.270977",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 3,
+    "data": [
+      {
+        "Close BWBBP": 19.87579917907715,
+        "High BWBBP": 19.87579917907715,
+        "Low BWBBP": 19.87579917907715,
+        "Open BWBBP": 19.87579917907715,
+        "Volume BWBBP": 0
+      },
+      {
+        "Close BWBBP": 20.68000030517578,
+        "High BWBBP": 20.68000030517578,
+        "Low BWBBP": 20.68000030517578,
+        "Open BWBBP": 20.68000030517578,
+        "Volume BWBBP": 100
+      },
+      {
+        "Close BWBBP": 20.68000030517578,
+        "High BWBBP": 20.68000030517578,
+        "Low BWBBP": 20.68000030517578,
+        "Open BWBBP": 20.68000030517578,
+        "Volume BWBBP": 132
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -11,15 +34,45 @@
   },
   "financials": {
     "income_statement": {
-      "status": "success",
-      "rows": 37,
-      "columns": [
-        "2024-12-31 00:00:00",
-        "2023-12-31 00:00:00",
-        "2022-12-31 00:00:00",
-        "2021-12-31 00:00:00",
-        "2020-12-31 00:00:00"
-      ],
-      "data": [
-        {
-          
+      "status": "no_data"
+    },
+    "balance_sheet": {
+      "status": "no_data"
+    },
+    "cash_flow": {
+      "status": "no_data"
+    }
+  },
+  "options_data": {
+    "status": "error",
+    "error_message": "Too Many Requests. Rate limited. Try after a while."
+  },
+  "news_data": {
+    "news": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    },
+    "recommendations": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  },
+  "holders_data": {
+    "major_holders": {
+      "status": "error"
+    },
+    "institutional_holders": {
+      "status": "error"
+    }
+  },
+  "earnings_data": {
+    "earnings": {
+      "status": "error",
+      "message": "'NoneType' object has no attribute 'empty'"
+    },
+    "calendar": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  }
+}

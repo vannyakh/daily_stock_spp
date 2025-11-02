@@ -1,43 +1,13 @@
 {
   "ticker": "PTCO",
-  "timestamp": "2025-11-01T04:29:39.385774",
+  "timestamp": "2025-11-02T04:47:07.631018",
   "intraday_data": {
-    "status": "success",
-    "rows": 4,
-    "data": [
-      {
-        "Close": 0.09549999982118607,
-        "High": 0.09549999982118607,
-        "Low": 0.09549999982118607,
-        "Open": 0.09549999982118607,
-        "Volume": 0
-      },
-      {
-        "Close": 0.09549999982118607,
-        "High": 0.09549999982118607,
-        "Low": 0.09549999982118607,
-        "Open": 0.09549999982118607,
-        "Volume": 0
-      },
-      {
-        "Close": 0.05900000035762787,
-        "High": 0.05900000035762787,
-        "Low": 0.05900000035762787,
-        "Open": 0.05900000035762787,
-        "Volume": 3018
-      },
-      {
-        "Close": 0.09549999982118607,
-        "High": 0.09549999982118607,
-        "Low": 0.09549999982118607,
-        "Open": 0.09549999982118607,
-        "Volume": 1000
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
-    "message": "Too Many Requests. Rate limited. Try after a while."
+    "message": "argument of type 'NoneType' is not iterable"
   },
   "financials": {
     "income_statement": {
@@ -56,7 +26,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

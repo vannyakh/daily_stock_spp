@@ -1,18 +1,9 @@
 {
   "ticker": "BRGO",
-  "timestamp": "2025-11-01T04:30:06.901508",
+  "timestamp": "2025-11-02T04:47:48.825355",
   "intraday_data": {
-    "status": "success",
-    "rows": 1,
-    "data": [
-      {
-        "Close CTKYY": 0.022099999710917473,
-        "High CTKYY": 0.022099999710917473,
-        "Low CTKYY": 0.022099999710917473,
-        "Open CTKYY": 0.022099999710917473,
-        "Volume CTKYY": 7
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -35,7 +26,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",
