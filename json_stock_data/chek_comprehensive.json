@@ -1,9 +1,47 @@
 {
   "ticker": "CHEK",
-  "timestamp": "2025-11-02T04:44:13.025592",
+  "timestamp": "2025-11-04T04:26:40.110934",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 3,
+    "data": [
+      {
+        "Close CNSP": 7.510000228881836,
+        "Close DOMH": 4.869999885559082,
+        "High CNSP": 7.510000228881836,
+        "High DOMH": 4.869999885559082,
+        "Low CNSP": 7.510000228881836,
+        "Low DOMH": 4.840000152587891,
+        "Open CNSP": 7.510000228881836,
+        "Open DOMH": 4.840000152587891,
+        "Volume CNSP": 0.0,
+        "Volume DOMH": 755.0
+      },
+      {
+        "Close CNSP": 7.3470001220703125,
+        "Close DOMH": 4.894999980926514,
+        "High CNSP": 7.3470001220703125,
+        "High DOMH": 4.894999980926514,
+        "Low CNSP": 7.3470001220703125,
+        "Low DOMH": 4.894999980926514,
+        "Open CNSP": 7.3470001220703125,
+        "Open DOMH": 4.894999980926514,
+        "Volume CNSP": 323.0,
+        "Volume DOMH": 395.0
+      },
+      {
+        "Close CNSP": 7.170000076293945,
+        "Close DOMH": 4.829999923706055,
+        "High CNSP": 7.170000076293945,
+        "High DOMH": 4.829999923706055,
+        "Low CNSP": 7.170000076293945,
+        "Low DOMH": 4.829999923706055,
+        "Open CNSP": 7.170000076293945,
+        "Open DOMH": 4.829999923706055,
+        "Volume CNSP": 2258.0,
+        "Volume DOMH": 1151.0
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -17,15 +55,102 @@
       "status": "no_data"
     },
     "cash_flow": {
+      "status": "no_data"
+    }
+  },
+  "options_data": {
+    "status": "error",
+    "error_message": "Too Many Requests. Rate limited. Try after a while."
+  },
+  "news_data": {
+    "news": {
       "status": "success",
-      "rows": 36,
-      "columns": [
-        "2024-12-31 00:00:00",
-        "2023-12-31 00:00:00",
-        "2022-12-31 00:00:00",
-        "2021-12-31 00:00:00",
-        "2020-12-31 00:00:00"
-      ],
+      "count": 1,
       "data": [
         {
-          
+          "id": "7effc939-d8c6-36f3-bf09-b37a7c6d80bb",
+          "content": {
+            "id": "7effc939-d8c6-36f3-bf09-b37a7c6d80bb",
+            "contentType": "STORY",
+            "title": "Check-Cap Leads 3 US Penny Stocks To Monitor",
+            "description": "",
+            "summary": "As the U.S. market experiences a downturn with the S&P 500 and Nasdaq Composite facing sharp declines, investors are increasingly cautious about economic prospects and policy impacts. In this context, penny stocks\u2014often representing smaller or newer companies\u2014remain an intriguing area for those seeking potential growth opportunities despite their vintage-sounding name. These stocks can offer affordability and significant upside when backed by solid financials, making them worth monitoring for...",
+            "pubDate": "2025-02-25T17:11:02Z",
+            "displayTime": "2025-02-25T17:11:02Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": {
+              "originalUrl": "https://media.zenfs.com/en/simply_wall_st__316/983f2bdfe32b19227b1d118c45bf4f09",
+              "originalWidth": 1194,
+              "originalHeight": 432,
+              "caption": "",
+              "resolutions": [
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/qrnhoA9Y9l_fYJBd0ck5WA--~B/aD00MzI7dz0xMTk0O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/simply_wall_st__316/983f2bdfe32b19227b1d118c45bf4f09",
+                  "width": 1194,
+                  "height": 432,
+                  "tag": "original"
+                },
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/IAujkiSdBQXs5os_dwl0Xg--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/simply_wall_st__316/983f2bdfe32b19227b1d118c45bf4f09",
+                  "width": 170,
+                  "height": 128,
+                  "tag": "170x128"
+                }
+              ]
+            },
+            "provider": {
+              "displayName": "Simply Wall St.",
+              "url": "https://simplywall.st/"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/check-cap-leads-3-us-171102959.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/check-cap-leads-3-us-171102959.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        }
+      ]
+    },
+    "recommendations": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  },
+  "holders_data": {
+    "major_holders": {
+      "status": "error"
+    },
+    "institutional_holders": {
+      "status": "error"
+    }
+  },
+  "earnings_data": {
+    "earnings": {
+      "status": "error",
+      "message": "'NoneType' object has no attribute 'empty'"
+    },
+    "calendar": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  }
+}

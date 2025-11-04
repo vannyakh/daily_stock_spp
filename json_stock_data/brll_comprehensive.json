@@ -1,25 +1,9 @@
 {
   "ticker": "BRLL",
-  "timestamp": "2025-11-02T04:54:17.565269",
+  "timestamp": "2025-11-04T04:33:17.813023",
   "intraday_data": {
-    "status": "success",
-    "rows": 2,
-    "data": [
-      {
-        "Close": 0.0024999999441206455,
-        "High": 0.0024999999441206455,
-        "Low": 0.0024999999441206455,
-        "Open": 0.0024999999441206455,
-        "Volume": 0
-      },
-      {
-        "Close": 0.0027000000700354576,
-        "High": 0.0027000000700354576,
-        "Low": 0.0027000000700354576,
-        "Open": 0.0027000000700354576,
-        "Volume": 90000
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -42,8 +26,7 @@
   },
   "news_data": {
     "news": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
+      "status": "no_data"
     },
     "recommendations": {
       "status": "error",

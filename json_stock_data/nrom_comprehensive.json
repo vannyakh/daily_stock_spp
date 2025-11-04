@@ -1,46 +1,9 @@
 {
   "ticker": "NROM",
-  "timestamp": "2025-11-02T04:43:55.447131",
+  "timestamp": "2025-11-04T04:26:28.492603",
   "intraday_data": {
-    "status": "success",
-    "rows": 5,
-    "data": [
-      {
-        "Close": 0.17000000178813934,
-        "High": 0.17499999701976776,
-        "Low": 0.17000000178813934,
-        "Open": 0.17499999701976776,
-        "Volume": 0
-      },
-      {
-        "Close": 0.17470000684261322,
-        "High": 0.17470000684261322,
-        "Low": 0.17470000684261322,
-        "Open": 0.17470000684261322,
-        "Volume": 100
-      },
-      {
-        "Close": 0.17470000684261322,
-        "High": 0.17470000684261322,
-        "Low": 0.17470000684261322,
-        "Open": 0.17470000684261322,
-        "Volume": 100
-      },
-      {
-        "Close": 0.17470000684261322,
-        "High": 0.17470000684261322,
-        "Low": 0.17470000684261322,
-        "Open": 0.17470000684261322,
-        "Volume": 100
-      },
-      {
-        "Close": 0.17470000684261322,
-        "High": 0.17470000684261322,
-        "Low": 0.17470000684261322,
-        "Open": 0.17470000684261322,
-        "Volume": 100
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -51,41 +14,15 @@
       "status": "no_data"
     },
     "balance_sheet": {
-      "status": "no_data"
-    },
-    "cash_flow": {
-      "status": "no_data"
-    }
-  },
-  "options_data": {
-    "status": "error",
-    "error_message": "Too Many Requests. Rate limited. Try after a while."
-  },
-  "news_data": {
-    "news": {
-      "status": "no_data"
-    },
-    "recommendations": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
-    }
-  },
-  "holders_data": {
-    "major_holders": {
-      "status": "error"
-    },
-    "institutional_holders": {
-      "status": "error"
-    }
-  },
-  "earnings_data": {
-    "earnings": {
-      "status": "error",
-      "message": "'NoneType' object has no attribute 'empty'"
-    },
-    "calendar": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
-    }
-  }
-}
+      "status": "success",
+      "rows": 57,
+      "columns": [
+        "2024-12-31 00:00:00",
+        "2023-12-31 00:00:00",
+        "2022-12-31 00:00:00",
+        "2021-12-31 00:00:00",
+        "2020-12-31 00:00:00"
+      ],
+      "data": [
+        {
+          

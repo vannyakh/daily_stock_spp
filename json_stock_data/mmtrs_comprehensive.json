@@ -1,32 +1,9 @@
 {
   "ticker": "MMTRS",
-  "timestamp": "2025-11-02T04:43:41.511874",
+  "timestamp": "2025-11-04T04:26:16.450582",
   "intraday_data": {
-    "status": "success",
-    "rows": 3,
-    "data": [
-      {
-        "Close": 24.0,
-        "High": 24.0,
-        "Low": 24.0,
-        "Open": 24.0,
-        "Volume": 0
-      },
-      {
-        "Close": 23.75,
-        "High": 23.75,
-        "Low": 23.75,
-        "Open": 23.75,
-        "Volume": 100
-      },
-      {
-        "Close": 24.0,
-        "High": 24.0,
-        "Low": 24.0,
-        "Open": 24.0,
-        "Volume": 161
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -49,8 +26,7 @@
   },
   "news_data": {
     "news": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
+      "status": "no_data"
     },
     "recommendations": {
       "status": "error",

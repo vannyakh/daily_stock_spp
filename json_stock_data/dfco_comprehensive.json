@@ -1,9 +1,32 @@
 {
   "ticker": "DFCO",
-  "timestamp": "2025-11-02T04:44:08.689424",
+  "timestamp": "2025-11-04T04:26:36.634754",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 3,
+    "data": [
+      {
+        "Close": 0.054999999701976776,
+        "High": 0.054999999701976776,
+        "Low": 0.054999999701976776,
+        "Open": 0.054999999701976776,
+        "Volume": 0
+      },
+      {
+        "Close": 0.029999999329447746,
+        "High": 0.029999999329447746,
+        "Low": 0.029999999329447746,
+        "Open": 0.029999999329447746,
+        "Volume": 5000
+      },
+      {
+        "Close": 0.04010000079870224,
+        "High": 0.04010000079870224,
+        "Low": 0.04010000079870224,
+        "Open": 0.04010000079870224,
+        "Volume": 10000
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -26,12 +49,10 @@
   },
   "news_data": {
     "news": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
+      "status": "no_data"
     },
     "recommendations": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
+      "status": "no_data"
     }
   },
   "holders_data": {

@@ -1,18 +1,9 @@
 {
   "ticker": "FFNTF",
-  "timestamp": "2025-11-02T04:43:38.459922",
+  "timestamp": "2025-11-04T04:26:13.475079",
   "intraday_data": {
-    "status": "success",
-    "rows": 1,
-    "data": [
-      {
-        "Close": 9.999999747378752e-05,
-        "High": 9.999999747378752e-05,
-        "Low": 9.999999747378752e-05,
-        "Open": 9.999999747378752e-05,
-        "Volume": 0
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -35,8 +26,52 @@
   },
   "news_data": {
     "news": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
+      "status": "success",
+      "count": 1,
+      "data": [
+        {
+          "id": "a7fcb6af-59e0-3b39-8b18-5c87386e2246",
+          "content": {
+            "id": "a7fcb6af-59e0-3b39-8b18-5c87386e2246",
+            "contentType": "STORY",
+            "title": "Weekly Roundup on the Cannabis Sector & Psychedelic Sector",
+            "description": "",
+            "summary": "Key Takeaways; Cannabis Sector Tilray stockholders approved reverse stock split, but implementation was paused amid strategic evaluation 4Front Ventures filed for bankruptcy in Canada following recent financial struggles Village Farms regained Nasdaq compliance, as the company doubled down on Cannabis focus Ontario court dismissed Apollo\u2019s bid for independent chair in MediPharm shareholder dispute Key Takeaways; [\u2026]",
+            "pubDate": "2025-06-16T21:44:38Z",
+            "displayTime": "2025-06-16T21:44:38Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": null,
+            "provider": {
+              "displayName": "Market Exclusive",
+              "url": "https://marketexclusive.com/"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/weekly-roundup-cannabis-sector-psychedelic-214438139.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/weekly-roundup-cannabis-sector-psychedelic-214438139.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        }
+      ]
     },
     "recommendations": {
       "status": "error",

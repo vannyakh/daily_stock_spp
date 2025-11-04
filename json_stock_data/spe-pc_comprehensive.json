@@ -1,25 +1,9 @@
 {
   "ticker": "SPE-PC",
-  "timestamp": "2025-11-02T05:02:59.941851",
+  "timestamp": "2025-11-04T04:38:46.425034",
   "intraday_data": {
-    "status": "success",
-    "rows": 2,
-    "data": [
-      {
-        "Close": 25.020000457763672,
-        "High": 25.020000457763672,
-        "Low": 25.020000457763672,
-        "Open": 25.020000457763672,
-        "Volume": 0
-      },
-      {
-        "Close": 25.049999237060547,
-        "High": 25.049999237060547,
-        "Low": 25.049999237060547,
-        "Open": 25.049999237060547,
-        "Volume": 100
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -42,8 +26,7 @@
   },
   "news_data": {
     "news": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
+      "status": "no_data"
     },
     "recommendations": {
       "status": "error",

@@ -1,18 +1,9 @@
 {
   "ticker": "LOKV",
-  "timestamp": "2025-11-02T04:48:31.740840",
+  "timestamp": "2025-11-04T04:29:36.504897",
   "intraday_data": {
-    "status": "success",
-    "rows": 1,
-    "data": [
-      {
-        "Close": 10.279999732971191,
-        "High": 10.279999732971191,
-        "Low": 10.279999732971191,
-        "Open": 10.279999732971191,
-        "Volume": 0
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -35,8 +26,71 @@
   },
   "news_data": {
     "news": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
+      "status": "success",
+      "count": 1,
+      "data": [
+        {
+          "id": "92f4c3db-010e-3768-830e-4fb734887e84",
+          "content": {
+            "id": "92f4c3db-010e-3768-830e-4fb734887e84",
+            "contentType": "STORY",
+            "title": "Individual investors account for 60% of Live Oak Acquisition Corp. V's (NASDAQ:LOKV) ownership, while private companies account for 20%",
+            "description": "",
+            "summary": "Key Insights Significant control over Live Oak Acquisition V by individual investors implies that the general public...",
+            "pubDate": "2025-08-14T11:41:17Z",
+            "displayTime": "2025-08-14T11:41:17Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": {
+              "originalUrl": "https://media.zenfs.com/en/simply_wall_st__316/f88d3d8c5618aa88ce2627c2a1cda340",
+              "originalWidth": 1194,
+              "originalHeight": 432,
+              "caption": "",
+              "resolutions": [
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/SSw8naZrBB1tKswm10P8gw--~B/aD00MzI7dz0xMTk0O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/simply_wall_st__316/f88d3d8c5618aa88ce2627c2a1cda340",
+                  "width": 1194,
+                  "height": 432,
+                  "tag": "original"
+                },
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/79qko4F_hdhwRlGyEfLjcw--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/simply_wall_st__316/f88d3d8c5618aa88ce2627c2a1cda340",
+                  "width": 170,
+                  "height": 128,
+                  "tag": "170x128"
+                }
+              ]
+            },
+            "provider": {
+              "displayName": "Simply Wall St.",
+              "url": "https://simplywall.st/"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/individual-investors-account-60-live-114117114.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/individual-investors-account-60-live-114117114.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        }
+      ]
     },
     "recommendations": {
       "status": "error",

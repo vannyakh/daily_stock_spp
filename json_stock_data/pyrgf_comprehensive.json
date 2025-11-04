@@ -1,40 +1,519 @@
 {
   "ticker": "PYRGF",
-  "timestamp": "2025-11-02T04:36:37.508309",
+  "timestamp": "2025-11-04T04:21:52.521732",
   "intraday_data": {
     "status": "success",
-    "rows": 2,
+    "rows": 3,
     "data": [
       {
-        "Close": 0.16300000250339508,
-        "High": 0.16300000250339508,
-        "Low": 0.16300000250339508,
-        "Open": 0.16300000250339508,
+        "Close": 0.16699999570846558,
+        "High": 0.16699999570846558,
+        "Low": 0.16699999570846558,
+        "Open": 0.16699999570846558,
         "Volume": 0
       },
       {
-        "Close": 0.17319999635219574,
-        "High": 0.17319999635219574,
-        "Low": 0.17319999635219574,
-        "Open": 0.17319999635219574,
-        "Volume": 1953
+        "Close": 0.16699999570846558,
+        "High": 0.16699999570846558,
+        "Low": 0.16699999570846558,
+        "Open": 0.16699999570846558,
+        "Volume": 20000
+      },
+      {
+        "Close": 0.16699999570846558,
+        "High": 0.16699999570846558,
+        "Low": 0.16699999570846558,
+        "Open": 0.16699999570846558,
+        "Volume": 25000
       }
     ]
   },
   "stock_info": {
     "status": "error",
-    "message": "argument of type 'NoneType' is not iterable"
+    "message": "Too Many Requests. Rate limited. Try after a while."
   },
   "financials": {
     "income_statement": {
+      "status": "no_data"
+    },
+    "balance_sheet": {
+      "status": "no_data"
+    },
+    "cash_flow": {
+      "status": "no_data"
+    }
+  },
+  "options_data": {
+    "status": "error",
+    "error_message": "Too Many Requests. Rate limited. Try after a while."
+  },
+  "news_data": {
+    "news": {
       "status": "success",
-      "rows": 53,
-      "columns": [
-        "2023-12-31 00:00:00",
-        "2022-12-31 00:00:00",
-        "2021-12-31 00:00:00",
-        "2020-12-31 00:00:00"
-      ],
+      "count": 10,
       "data": [
         {
-          
+          "id": "702a0ee6-2d60-3e8b-a85f-e517fd227833",
+          "content": {
+            "id": "702a0ee6-2d60-3e8b-a85f-e517fd227833",
+            "contentType": "STORY",
+            "title": "This PyroGenesis Insider Increased Their Holding In The Last Year",
+            "description": "",
+            "summary": "Viewing insider transactions for PyroGenesis Inc.'s ( TSE:PYR ) over the last year, we see that insiders were net...",
+            "pubDate": "2025-11-01T12:10:24Z",
+            "displayTime": "2025-11-01T12:10:24Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": {
+              "originalUrl": "https://media.zenfs.com/en/simply_wall_st__316/030470c488bfc719a1b699066a1274c3",
+              "originalWidth": 1194,
+              "originalHeight": 432,
+              "caption": "",
+              "resolutions": [
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/cYppHp2ry_mDEJ3zwap5hw--~B/aD00MzI7dz0xMTk0O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/simply_wall_st__316/030470c488bfc719a1b699066a1274c3",
+                  "width": 1194,
+                  "height": 432,
+                  "tag": "original"
+                },
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/W4q9rTHe_wyXcKJdyS6gyA--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/simply_wall_st__316/030470c488bfc719a1b699066a1274c3",
+                  "width": 170,
+                  "height": 128,
+                  "tag": "170x128"
+                }
+              ]
+            },
+            "provider": {
+              "displayName": "Simply Wall St.",
+              "url": "https://simplywall.st/"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/pyrogenesis-insider-increased-holding-last-121024184.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/pyrogenesis-insider-increased-holding-last-121024184.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        },
+        {
+          "id": "2aaf4bbd-83e4-3216-8216-e177418e8f4f",
+          "content": {
+            "id": "2aaf4bbd-83e4-3216-8216-e177418e8f4f",
+            "contentType": "STORY",
+            "title": "PyroGenesis Closed First Tranche of First Unit Group In Non-Brokered Private Placement for Near $3.5 Million",
+            "description": "",
+            "summary": "PyroGenesis (PYR.TO), a player in innovating for ultra-high temperature processes and engineering, a",
+            "pubDate": "2025-10-16T11:17:25Z",
+            "displayTime": "2025-10-16T11:17:25Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": null,
+            "provider": {
+              "displayName": "MT Newswires",
+              "url": "https://www.mtnewswires.com/"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/pyrogenesis-closed-first-tranche-first-111725567.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/pyrogenesis-closed-first-tranche-first-111725567.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": true,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        },
+        {
+          "id": "6e097f97-8aba-3f10-9c75-ca61ca6e974d",
+          "content": {
+            "id": "6e097f97-8aba-3f10-9c75-ca61ca6e974d",
+            "contentType": "STORY",
+            "title": "PyroGenesis Launches Private Placement Totaling Over $5 Million",
+            "description": "",
+            "summary": "PyroGenesis (PYR.TO) Wednesday said it intends to complete a non-brokered private placement that has",
+            "pubDate": "2025-10-01T11:52:56Z",
+            "displayTime": "2025-10-01T11:52:56Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": null,
+            "provider": {
+              "displayName": "MT Newswires",
+              "url": "https://www.mtnewswires.com/"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/pyrogenesis-launches-private-placement-totaling-115256982.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/pyrogenesis-launches-private-placement-totaling-115256982.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": true,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        },
+        {
+          "id": "78456448-64c5-3dbc-8f29-f20a2b89f411",
+          "content": {
+            "id": "78456448-64c5-3dbc-8f29-f20a2b89f411",
+            "contentType": "STORY",
+            "title": "HPQ Silicon Hits Pilot-Scale Milestone in Commercial Fumed Silica Production",
+            "description": "",
+            "summary": "HPQ Silicon (HPQ.V) Thursday said its unit HPQ Silica Polvere has successfully produced commercial-g",
+            "pubDate": "2025-09-04T12:45:05Z",
+            "displayTime": "2025-09-04T12:45:05Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": null,
+            "provider": {
+              "displayName": "MT Newswires",
+              "url": "https://www.mtnewswires.com/"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/hpq-silicon-hits-pilot-scale-124505613.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/hpq-silicon-hits-pilot-scale-124505613.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": true,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        },
+        {
+          "id": "340a5ce2-e171-3946-9a80-944555c27b27",
+          "content": {
+            "id": "340a5ce2-e171-3946-9a80-944555c27b27",
+            "contentType": "STORY",
+            "title": "PyroGenesis Secures Initial Contract for Titanium Metal Powder from European Client",
+            "description": "",
+            "summary": "High-tech company PyroGenesis (PYR.TO) said Thursday that it received a contract for titanium metal",
+            "pubDate": "2025-07-31T13:26:59Z",
+            "displayTime": "2025-07-31T13:26:59Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": null,
+            "provider": {
+              "displayName": "MT Newswires",
+              "url": "https://www.mtnewswires.com/"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/pyrogenesis-secures-initial-contract-titanium-132659325.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/pyrogenesis-secures-initial-contract-titanium-132659325.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": true,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        },
+        {
+          "id": "b41e4e5a-b696-37f6-b0dd-96d4134be195",
+          "content": {
+            "id": "b41e4e5a-b696-37f6-b0dd-96d4134be195",
+            "contentType": "STORY",
+            "title": "HPQ Silicon Pilot-Scale Fumed Silica Production Nears Commercial Viability",
+            "description": "",
+            "summary": "HPQ Silicon (HPQ.V) on Wednesday said it received an independent Scanning Electron Microscope (SEM)",
+            "pubDate": "2025-07-23T12:05:23Z",
+            "displayTime": "2025-07-23T12:05:23Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": null,
+            "provider": {
+              "displayName": "MT Newswires",
+              "url": "https://www.mtnewswires.com/"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/hpq-silicon-pilot-scale-fumed-120523495.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/hpq-silicon-pilot-scale-fumed-120523495.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": true,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        },
+        {
+          "id": "0fce624e-f465-31fc-a13a-1678ca44911f",
+          "content": {
+            "id": "0fce624e-f465-31fc-a13a-1678ca44911f",
+            "contentType": "STORY",
+            "title": "PyroGenesis Canada Unit Completes Project for Tata Steel",
+            "description": "",
+            "summary": "PyroGenesis Canada (PYR.TO) said Tuesday that its subsidiary Pyro Green-Gas completed a $9.3 million",
+            "pubDate": "2025-07-15T12:22:11Z",
+            "displayTime": "2025-07-15T12:22:11Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": null,
+            "provider": {
+              "displayName": "MT Newswires",
+              "url": "https://www.mtnewswires.com/"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/pyrogenesis-canada-unit-completes-project-122211256.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/pyrogenesis-canada-unit-completes-project-122211256.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": true,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        },
+        {
+          "id": "8d4b7ac2-6588-3b44-b49e-70ae0685f6e0",
+          "content": {
+            "id": "8d4b7ac2-6588-3b44-b49e-70ae0685f6e0",
+            "contentType": "STORY",
+            "title": "PyroGenesis Fumed Silica Quality, Purity, and Consistency Improves Across Multiple Production Cycles",
+            "description": "",
+            "summary": "PyroGenesis (PYR.TO) on Tuesday said the latest upgrades to the fumed silica reactor (FSR) project h",
+            "pubDate": "2025-07-08T13:06:48Z",
+            "displayTime": "2025-07-08T13:06:48Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": null,
+            "provider": {
+              "displayName": "MT Newswires",
+              "url": "https://www.mtnewswires.com/"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/pyrogenesis-fumed-silica-quality-purity-130648594.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/pyrogenesis-fumed-silica-quality-purity-130648594.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": true,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        },
+        {
+          "id": "11542863-58b0-3e87-8c62-1300ff9308df",
+          "content": {
+            "id": "11542863-58b0-3e87-8c62-1300ff9308df",
+            "contentType": "STORY",
+            "title": "HPQ Silicon Says Latest Pilot Test Confirms \"Several Notable Improvements\" in Fumed Silica",
+            "description": "",
+            "summary": "HPQ Silicon (HPQ.V), a technology company involved in innovation across advanced materials and criti",
+            "pubDate": "2025-07-03T12:37:36Z",
+            "displayTime": "2025-07-03T12:37:36Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": null,
+            "provider": {
+              "displayName": "MT Newswires",
+              "url": "https://www.mtnewswires.com/"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/hpq-silicon-says-latest-pilot-123736317.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/hpq-silicon-says-latest-pilot-123736317.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": true,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        },
+        {
+          "id": "48f9c79e-46f6-39d8-b573-3bcb52c80b8c",
+          "content": {
+            "id": "48f9c79e-46f6-39d8-b573-3bcb52c80b8c",
+            "contentType": "STORY",
+            "title": "PyroGenesis Signs $600,000 Contract Targeting Plastic Waste Problem in Europe",
+            "description": "",
+            "summary": "PyroGenesis (PYR.TO) said Wednesday that it signed a $600,000 contract to expand its relationship wi",
+            "pubDate": "2025-07-02T13:09:00Z",
+            "displayTime": "2025-07-02T13:09:00Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": null,
+            "provider": {
+              "displayName": "MT Newswires",
+              "url": "https://www.mtnewswires.com/"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/pyrogenesis-signs-600-000-contract-130900572.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/pyrogenesis-signs-600-000-contract-130900572.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": true,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        }
+      ]
+    },
+    "recommendations": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  },
+  "holders_data": {
+    "major_holders": {
+      "status": "error"
+    },
+    "institutional_holders": {
+      "status": "error"
+    }
+  },
+  "earnings_data": {
+    "earnings": {
+      "status": "error",
+      "message": "'NoneType' object has no attribute 'empty'"
+    },
+    "calendar": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  }
+}

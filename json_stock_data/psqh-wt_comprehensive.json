@@ -1,53 +1,9 @@
 {
   "ticker": "PSQH-WT",
-  "timestamp": "2025-11-02T04:58:23.290366",
+  "timestamp": "2025-11-04T04:35:56.442911",
   "intraday_data": {
-    "status": "success",
-    "rows": 6,
-    "data": [
-      {
-        "Close": 0.20980000495910645,
-        "High": 0.20980000495910645,
-        "Low": 0.20980000495910645,
-        "Open": 0.20980000495910645,
-        "Volume": 0
-      },
-      {
-        "Close": 0.20980000495910645,
-        "High": 0.20980000495910645,
-        "Low": 0.20980000495910645,
-        "Open": 0.20980000495910645,
-        "Volume": 1731
-      },
-      {
-        "Close": 0.20980000495910645,
-        "High": 0.22100000083446503,
-        "Low": 0.20980000495910645,
-        "Open": 0.22100000083446503,
-        "Volume": 2230
-      },
-      {
-        "Close": 0.21369999647140503,
-        "High": 0.21369999647140503,
-        "Low": 0.21369999647140503,
-        "Open": 0.21369999647140503,
-        "Volume": 1296
-      },
-      {
-        "Close": 0.20250000059604645,
-        "High": 0.2199999988079071,
-        "Low": 0.20250000059604645,
-        "Open": 0.2199999988079071,
-        "Volume": 1510
-      },
-      {
-        "Close": 0.20749999582767487,
-        "High": 0.20749999582767487,
-        "Low": 0.20749999582767487,
-        "Open": 0.20749999582767487,
-        "Volume": 1830
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -92,7 +48,7 @@
     },
     "calendar": {
       "status": "error",
-      "message": "'dict' object has no attribute 'empty'"
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   }
 }

@@ -1,9 +1,25 @@
 {
   "ticker": "CANN",
-  "timestamp": "2025-11-02T04:45:39.206073",
+  "timestamp": "2025-11-04T04:27:42.729158",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 2,
+    "data": [
+      {
+        "Close": 0.04309999942779541,
+        "High": 0.04309999942779541,
+        "Low": 0.04309999942779541,
+        "Open": 0.04309999942779541,
+        "Volume": 0
+      },
+      {
+        "Close": 0.0430000014603138,
+        "High": 0.0430000014603138,
+        "Low": 0.0430000014603138,
+        "Open": 0.0430000014603138,
+        "Volume": 1000
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -26,8 +42,7 @@
   },
   "news_data": {
     "news": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
+      "status": "no_data"
     },
     "recommendations": {
       "status": "error",

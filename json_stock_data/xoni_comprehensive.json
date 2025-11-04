@@ -1,32 +1,9 @@
 {
   "ticker": "XONI",
-  "timestamp": "2025-11-02T04:44:56.366044",
+  "timestamp": "2025-11-04T04:27:11.574118",
   "intraday_data": {
-    "status": "success",
-    "rows": 3,
-    "data": [
-      {
-        "Close OVTZ": 0.03999999910593033,
-        "High OVTZ": 0.03999999910593033,
-        "Low OVTZ": 0.03999999910593033,
-        "Open OVTZ": 0.03999999910593033,
-        "Volume OVTZ": 0
-      },
-      {
-        "Close OVTZ": 0.03400000184774399,
-        "High OVTZ": 0.03400000184774399,
-        "Low OVTZ": 0.03400000184774399,
-        "Open OVTZ": 0.03400000184774399,
-        "Volume OVTZ": 992
-      },
-      {
-        "Close OVTZ": 0.03465000167489052,
-        "High OVTZ": 0.03465000167489052,
-        "Low OVTZ": 0.03465000167489052,
-        "Open OVTZ": 0.03465000167489052,
-        "Volume OVTZ": 266
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -49,7 +26,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

@@ -1,13 +1,22 @@
 {
   "ticker": "RITE",
-  "timestamp": "2025-11-02T04:44:10.179199",
+  "timestamp": "2025-11-04T04:26:37.974787",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 1,
+    "data": [
+      {
+        "Close BLTH": 3.0999999046325684,
+        "High BLTH": 3.0999999046325684,
+        "Low BLTH": 3.0999999046325684,
+        "Open BLTH": 3.0999999046325684,
+        "Volume BLTH": 0
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
-    "message": "Too Many Requests. Rate limited. Try after a while."
+    "message": "argument of type 'NoneType' is not iterable"
   },
   "financials": {
     "income_statement": {
@@ -26,8 +35,7 @@
   },
   "news_data": {
     "news": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
+      "status": "no_data"
     },
     "recommendations": {
       "status": "error",

@@ -1,9 +1,32 @@
 {
   "ticker": "SWISF",
-  "timestamp": "2025-11-02T04:54:05.169534",
+  "timestamp": "2025-11-04T04:33:11.173818",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 3,
+    "data": [
+      {
+        "Close": 0.02500000037252903,
+        "High": 0.02500000037252903,
+        "Low": 0.02500000037252903,
+        "Open": 0.02500000037252903,
+        "Volume": 0
+      },
+      {
+        "Close": 0.029500000178813934,
+        "High": 0.029500000178813934,
+        "Low": 0.029500000178813934,
+        "Open": 0.029500000178813934,
+        "Volume": 5000
+      },
+      {
+        "Close": 0.029500000178813934,
+        "High": 0.029500000178813934,
+        "Low": 0.029500000178813934,
+        "Open": 0.029500000178813934,
+        "Volume": 6000
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -26,8 +49,7 @@
   },
   "news_data": {
     "news": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
+      "status": "no_data"
     },
     "recommendations": {
       "status": "error",

@@ -1,32 +1,9 @@
 {
   "ticker": "GSMGW",
-  "timestamp": "2025-11-02T05:03:47.067096",
+  "timestamp": "2025-11-04T04:39:21.592237",
   "intraday_data": {
-    "status": "success",
-    "rows": 3,
-    "data": [
-      {
-        "Close ILLRW": 0.037700001150369644,
-        "High ILLRW": 0.037700001150369644,
-        "Low ILLRW": 0.037700001150369644,
-        "Open ILLRW": 0.037700001150369644,
-        "Volume ILLRW": 0
-      },
-      {
-        "Close ILLRW": 0.03370000049471855,
-        "High ILLRW": 0.03530000150203705,
-        "Low ILLRW": 0.03370000049471855,
-        "Open ILLRW": 0.03530000150203705,
-        "Volume ILLRW": 710
-      },
-      {
-        "Close ILLRW": 0.03689999878406525,
-        "High ILLRW": 0.03689999878406525,
-        "Low ILLRW": 0.03689999878406525,
-        "Open ILLRW": 0.03689999878406525,
-        "Volume ILLRW": 100
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -37,41 +14,15 @@
       "status": "no_data"
     },
     "balance_sheet": {
-      "status": "no_data"
-    },
-    "cash_flow": {
-      "status": "no_data"
-    }
-  },
-  "options_data": {
-    "status": "error",
-    "error_message": "Too Many Requests. Rate limited. Try after a while."
-  },
-  "news_data": {
-    "news": {
-      "status": "no_data"
-    },
-    "recommendations": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
-    }
-  },
-  "holders_data": {
-    "major_holders": {
-      "status": "error"
-    },
-    "institutional_holders": {
-      "status": "error"
-    }
-  },
-  "earnings_data": {
-    "earnings": {
-      "status": "error",
-      "message": "'NoneType' object has no attribute 'empty'"
-    },
-    "calendar": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
-    }
-  }
-}
+      "status": "success",
+      "rows": 72,
+      "columns": [
+        "2024-12-31 00:00:00",
+        "2023-12-31 00:00:00",
+        "2022-12-31 00:00:00",
+        "2021-12-31 00:00:00",
+        "2020-12-31 00:00:00"
+      ],
+      "data": [
+        {
+          

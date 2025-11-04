@@ -1,9 +1,25 @@
 {
   "ticker": "JRSS",
-  "timestamp": "2025-11-02T04:42:38.574182",
+  "timestamp": "2025-11-04T04:25:38.832943",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 2,
+    "data": [
+      {
+        "Close": 0.007499999832361937,
+        "High": 0.007499999832361937,
+        "Low": 0.007499999832361937,
+        "Open": 0.007499999832361937,
+        "Volume": 0
+      },
+      {
+        "Close": 0.007300000172108412,
+        "High": 0.007300000172108412,
+        "Low": 0.007300000172108412,
+        "Open": 0.007300000172108412,
+        "Volume": 40000
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -26,8 +42,7 @@
   },
   "news_data": {
     "news": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
+      "status": "no_data"
     },
     "recommendations": {
       "status": "error",

@@ -1,25 +1,9 @@
 {
   "ticker": "AHL-PD",
-  "timestamp": "2025-11-02T04:52:24.489704",
+  "timestamp": "2025-11-04T04:31:54.628207",
   "intraday_data": {
-    "status": "success",
-    "rows": 2,
-    "data": [
-      {
-        "Close MHLA": 15.050000190734863,
-        "High MHLA": 15.050000190734863,
-        "Low MHLA": 15.050000190734863,
-        "Open MHLA": 15.050000190734863,
-        "Volume MHLA": 0
-      },
-      {
-        "Close MHLA": 15.140000343322754,
-        "High MHLA": 15.140000343322754,
-        "Low MHLA": 15.140000343322754,
-        "Open MHLA": 15.140000343322754,
-        "Volume MHLA": 547
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -42,7 +26,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

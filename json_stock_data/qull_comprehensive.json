@@ -1,9 +1,25 @@
 {
   "ticker": "QULL",
-  "timestamp": "2025-11-02T05:01:05.762951",
+  "timestamp": "2025-11-04T04:37:30.489477",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 2,
+    "data": [
+      {
+        "Close": 54.95000076293945,
+        "High": 55.0,
+        "Low": 54.95000076293945,
+        "Open": 55.0,
+        "Volume": 0
+      },
+      {
+        "Close": 54.650001525878906,
+        "High": 54.959999084472656,
+        "Low": 54.650001525878906,
+        "Open": 54.959999084472656,
+        "Volume": 378
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -26,8 +42,7 @@
   },
   "news_data": {
     "news": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
+      "status": "no_data"
     },
     "recommendations": {
       "status": "error",

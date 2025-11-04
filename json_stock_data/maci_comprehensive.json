@@ -1,9 +1,46 @@
 {
   "ticker": "MACI",
-  "timestamp": "2025-11-02T04:31:16.598574",
+  "timestamp": "2025-11-04T04:18:38.758625",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 5,
+    "data": [
+      {
+        "Close": 10.550000190734863,
+        "High": 10.550000190734863,
+        "Low": 10.550000190734863,
+        "Open": 10.550000190734863,
+        "Volume": 910
+      },
+      {
+        "Close": 10.550000190734863,
+        "High": 10.550000190734863,
+        "Low": 10.550000190734863,
+        "Open": 10.550000190734863,
+        "Volume": 141
+      },
+      {
+        "Close": 10.600000381469727,
+        "High": 10.600000381469727,
+        "Low": 10.600000381469727,
+        "Open": 10.600000381469727,
+        "Volume": 2800
+      },
+      {
+        "Close": 10.710000038146973,
+        "High": 10.710000038146973,
+        "Low": 10.710000038146973,
+        "Open": 10.710000038146973,
+        "Volume": 0
+      },
+      {
+        "Close": 10.550000190734863,
+        "High": 10.550000190734863,
+        "Low": 10.550000190734863,
+        "Open": 10.550000190734863,
+        "Volume": 400
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -276,7 +313,8 @@
       ]
     },
     "recommendations": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   },
   "holders_data": {

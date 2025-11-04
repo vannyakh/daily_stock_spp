@@ -1,39 +1,9 @@
 {
   "ticker": "GUER",
-  "timestamp": "2025-11-02T04:42:41.251062",
+  "timestamp": "2025-11-04T04:25:40.739206",
   "intraday_data": {
-    "status": "success",
-    "rows": 4,
-    "data": [
-      {
-        "Close APCX": 0.1379999965429306,
-        "High APCX": 0.1379999965429306,
-        "Low APCX": 0.1379999965429306,
-        "Open APCX": 0.1379999965429306,
-        "Volume APCX": 0
-      },
-      {
-        "Close APCX": 0.15000000596046448,
-        "High APCX": 0.15000000596046448,
-        "Low APCX": 0.15000000596046448,
-        "Open APCX": 0.15000000596046448,
-        "Volume APCX": 15000
-      },
-      {
-        "Close APCX": 0.1379999965429306,
-        "High APCX": 0.1379999965429306,
-        "Low APCX": 0.1379999965429306,
-        "Open APCX": 0.1379999965429306,
-        "Volume APCX": 200
-      },
-      {
-        "Close APCX": 0.1599999964237213,
-        "High APCX": 0.1599999964237213,
-        "Low APCX": 0.1599999964237213,
-        "Open APCX": 0.1599999964237213,
-        "Volume APCX": 100
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -51,12 +21,12 @@
     }
   },
   "options_data": {
-    "expirations": []
+    "status": "error",
+    "error_message": "Too Many Requests. Rate limited. Try after a while."
   },
   "news_data": {
     "news": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
+      "status": "no_data"
     },
     "recommendations": {
       "status": "error",

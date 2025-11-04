@@ -1,629 +1,89 @@
 {
   "ticker": "UTMD",
-  "timestamp": "2025-11-02T04:31:32.053369",
+  "timestamp": "2025-11-04T04:18:47.143867",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 9,
+    "data": [
+      {
+        "Close": 58.099998474121094,
+        "High": 58.099998474121094,
+        "Low": 58.099998474121094,
+        "Open": 58.099998474121094,
+        "Volume": 0
+      },
+      {
+        "Close": 55.650001525878906,
+        "High": 55.650001525878906,
+        "Low": 55.650001525878906,
+        "Open": 55.650001525878906,
+        "Volume": 250
+      },
+      {
+        "Close": 58.727699279785156,
+        "High": 58.727699279785156,
+        "Low": 58.727699279785156,
+        "Open": 58.727699279785156,
+        "Volume": 400
+      },
+      {
+        "Close": 58.099998474121094,
+        "High": 58.81999969482422,
+        "Low": 58.099998474121094,
+        "Open": 58.79999923706055,
+        "Volume": 2904
+      },
+      {
+        "Close": 58.310001373291016,
+        "High": 58.310001373291016,
+        "Low": 58.310001373291016,
+        "Open": 58.310001373291016,
+        "Volume": 923
+      },
+      {
+        "Close": 58.71799850463867,
+        "High": 58.71799850463867,
+        "Low": 58.71799850463867,
+        "Open": 58.71799850463867,
+        "Volume": 352
+      },
+      {
+        "Close": 59.380001068115234,
+        "High": 59.380001068115234,
+        "Low": 59.380001068115234,
+        "Open": 59.380001068115234,
+        "Volume": 344
+      },
+      {
+        "Close": 59.470001220703125,
+        "High": 59.470001220703125,
+        "Low": 59.470001220703125,
+        "Open": 59.470001220703125,
+        "Volume": 759
+      },
+      {
+        "Close": 58.4900016784668,
+        "High": 58.4900016784668,
+        "Low": 58.4900016784668,
+        "Open": 58.4900016784668,
+        "Volume": 427
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
-    "message": "Too Many Requests. Rate limited. Try after a while."
+    "message": "argument of type 'NoneType' is not iterable"
   },
   "financials": {
     "income_statement": {
-      "status": "no_data"
-    },
-    "balance_sheet": {
-      "status": "no_data"
-    },
-    "cash_flow": {
-      "status": "no_data"
-    }
-  },
-  "options_data": {
-    "status": "error",
-    "error_message": "Too Many Requests. Rate limited. Try after a while."
-  },
-  "news_data": {
-    "news": {
       "status": "success",
-      "count": 10,
+      "rows": 39,
+      "columns": [
+        "2024-12-31 00:00:00",
+        "2023-12-31 00:00:00",
+        "2022-12-31 00:00:00",
+        "2021-12-31 00:00:00"
+      ],
       "data": [
         {
-          "id": "20fcb6d8-aeed-3134-bb1e-411be21f71da",
-          "content": {
-            "id": "20fcb6d8-aeed-3134-bb1e-411be21f71da",
-            "contentType": "STORY",
-            "title": "UTMD's Q3 Earnings Dip Y/Y on Trade Disruptions, Margins Squeeze",
-            "description": "",
-            "summary": "Utah Medical's Q3 earnings fell 20% year over year as order cancellations and tariffs pressured margins. Growth in U.S. Filshie devices and direct sales helped partially offset declines.",
-            "pubDate": "2025-10-29T17:29:00Z",
-            "displayTime": "2025-10-29T17:29:00Z",
-            "isHosted": true,
-            "bypassModal": false,
-            "previewUrl": null,
-            "thumbnail": {
-              "originalUrl": "https://media.zenfs.com/en/zacks.com/228e67967b066e7a755ae3614be720e1",
-              "originalWidth": 635,
-              "originalHeight": 400,
-              "caption": "",
-              "resolutions": [
-                {
-                  "url": "https://s.yimg.com/uu/api/res/1.2/ZcqDt7bCeBMLkGs_KJ1O8A--~B/aD00MDA7dz02MzU7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/zacks.com/228e67967b066e7a755ae3614be720e1",
-                  "width": 635,
-                  "height": 400,
-                  "tag": "original"
-                },
-                {
-                  "url": "https://s.yimg.com/uu/api/res/1.2/IJwx9BDXtLoXgU4Iunz7Ig--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/zacks.com/228e67967b066e7a755ae3614be720e1",
-                  "width": 170,
-                  "height": 128,
-                  "tag": "170x128"
-                }
-              ]
-            },
-            "provider": {
-              "displayName": "Zacks",
-              "url": "http://www.zacks.com/"
-            },
-            "canonicalUrl": {
-              "url": "https://finance.yahoo.com/news/utmds-q3-earnings-dip-y-172900463.html",
-              "site": "finance",
-              "region": "US",
-              "lang": "en-US"
-            },
-            "clickThroughUrl": {
-              "url": "https://finance.yahoo.com/news/utmds-q3-earnings-dip-y-172900463.html",
-              "site": "finance",
-              "region": "US",
-              "lang": "en-US"
-            },
-            "metadata": {
-              "editorsPick": false
-            },
-            "finance": {
-              "premiumFinance": {
-                "isPremiumNews": false,
-                "isPremiumFreeNews": false
-              }
-            },
-            "storyline": null
-          }
-        },
-        {
-          "id": "238796db-7764-3679-b172-9b2862adb125",
-          "content": {
-            "id": "238796db-7764-3679-b172-9b2862adb125",
-            "contentType": "STORY",
-            "title": "Utah Medical Products (UTMD): Margin Decline Challenges Reputation for High Quality Earnings",
-            "description": "",
-            "summary": "Utah Medical Products (UTMD) reported a net profit margin of 30.1% for the most recent period, down from 34.6% last year. Over the past five years, earnings have grown at an average annual rate of 2.2%, but the latest figures reveal negative earnings growth and tighter margins compared to the previous year. See our full analysis for Utah Medical Products. Next, we will see how these headline numbers match up with the key narratives around the stock, looking for places where the earnings meet...",
-            "pubDate": "2025-10-25T01:15:24Z",
-            "displayTime": "2025-10-25T01:15:24Z",
-            "isHosted": true,
-            "bypassModal": false,
-            "previewUrl": null,
-            "thumbnail": {
-              "originalUrl": "https://media.zenfs.com/en/simply_wall_st__316/2260c3158cb31199a7e2c221586ac549",
-              "originalWidth": 1194,
-              "originalHeight": 432,
-              "caption": "",
-              "resolutions": [
-                {
-                  "url": "https://s.yimg.com/uu/api/res/1.2/S0lfvVFvT2zEUqilo.yhog--~B/aD00MzI7dz0xMTk0O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/simply_wall_st__316/2260c3158cb31199a7e2c221586ac549",
-                  "width": 1194,
-                  "height": 432,
-                  "tag": "original"
-                },
-                {
-                  "url": "https://s.yimg.com/uu/api/res/1.2/2BfzJUAuM.KqATzZalVgSw--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/simply_wall_st__316/2260c3158cb31199a7e2c221586ac549",
-                  "width": 170,
-                  "height": 128,
-                  "tag": "170x128"
-                }
-              ]
-            },
-            "provider": {
-              "displayName": "Simply Wall St.",
-              "url": "https://simplywall.st/"
-            },
-            "canonicalUrl": {
-              "url": "https://finance.yahoo.com/news/utah-medical-products-utmd-margin-011524166.html",
-              "site": "finance",
-              "region": "US",
-              "lang": "en-US"
-            },
-            "clickThroughUrl": {
-              "url": "https://finance.yahoo.com/news/utah-medical-products-utmd-margin-011524166.html",
-              "site": "finance",
-              "region": "US",
-              "lang": "en-US"
-            },
-            "metadata": {
-              "editorsPick": false
-            },
-            "finance": {
-              "premiumFinance": {
-                "isPremiumNews": false,
-                "isPremiumFreeNews": false
-              }
-            },
-            "storyline": null
-          }
-        },
-        {
-          "id": "23274f00-3827-3bcd-b57e-8b29f4685568",
-          "content": {
-            "id": "23274f00-3827-3bcd-b57e-8b29f4685568",
-            "contentType": "STORY",
-            "title": "Utah Medical: Q3 Earnings Snapshot",
-            "description": "",
-            "summary": "MIDVALE, Utah (AP) \u2014 Utah Medical Products Inc. UTMD) on Thursday reported profit of $2.6 million in its third quarter. On a per-share basis, the Midvale, Utah-based company said it had profit of 82 cents.",
-            "pubDate": "2025-10-23T13:08:00Z",
-            "displayTime": "2025-10-23T13:08:00Z",
-            "isHosted": true,
-            "bypassModal": false,
-            "previewUrl": null,
-            "thumbnail": null,
-            "provider": {
-              "displayName": "Associated Press Finance",
-              "url": "http://www.ap.org/"
-            },
-            "canonicalUrl": {
-              "url": "https://finance.yahoo.com/news/utah-medical-q3-earnings-snapshot-130800645.html",
-              "site": "finance",
-              "region": "US",
-              "lang": "en-US"
-            },
-            "clickThroughUrl": {
-              "url": "https://finance.yahoo.com/news/utah-medical-q3-earnings-snapshot-130800645.html",
-              "site": "finance",
-              "region": "US",
-              "lang": "en-US"
-            },
-            "metadata": {
-              "editorsPick": false
-            },
-            "finance": {
-              "premiumFinance": {
-                "isPremiumNews": false,
-                "isPremiumFreeNews": false
-              }
-            },
-            "storyline": null
-          }
-        },
-        {
-          "id": "07d418ce-e303-3438-94c1-634a0071a7a4",
-          "content": {
-            "id": "07d418ce-e303-3438-94c1-634a0071a7a4",
-            "contentType": "STORY",
-            "title": "With 65% ownership, Utah Medical Products, Inc. (NASDAQ:UTMD) boasts of strong institutional backing",
-            "description": "",
-            "summary": "Key Insights Significantly high institutional ownership implies Utah Medical Products' stock price is sensitive to...",
-            "pubDate": "2025-10-05T12:52:47Z",
-            "displayTime": "2025-10-05T12:52:47Z",
-            "isHosted": true,
-            "bypassModal": false,
-            "previewUrl": null,
-            "thumbnail": {
-              "originalUrl": "https://media.zenfs.com/en/simply_wall_st__316/2260c3158cb31199a7e2c221586ac549",
-              "originalWidth": 1194,
-              "originalHeight": 432,
-              "caption": "",
-              "resolutions": [
-                {
-                  "url": "https://s.yimg.com/uu/api/res/1.2/S0lfvVFvT2zEUqilo.yhog--~B/aD00MzI7dz0xMTk0O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/simply_wall_st__316/2260c3158cb31199a7e2c221586ac549",
-                  "width": 1194,
-                  "height": 432,
-                  "tag": "original"
-                },
-                {
-                  "url": "https://s.yimg.com/uu/api/res/1.2/2BfzJUAuM.KqATzZalVgSw--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/simply_wall_st__316/2260c3158cb31199a7e2c221586ac549",
-                  "width": 170,
-                  "height": 128,
-                  "tag": "170x128"
-                }
-              ]
-            },
-            "provider": {
-              "displayName": "Simply Wall St.",
-              "url": "https://simplywall.st/"
-            },
-            "canonicalUrl": {
-              "url": "https://finance.yahoo.com/news/65-ownership-utah-medical-products-125247373.html",
-              "site": "finance",
-              "region": "US",
-              "lang": "en-US"
-            },
-            "clickThroughUrl": {
-              "url": "https://finance.yahoo.com/news/65-ownership-utah-medical-products-125247373.html",
-              "site": "finance",
-              "region": "US",
-              "lang": "en-US"
-            },
-            "metadata": {
-              "editorsPick": false
-            },
-            "finance": {
-              "premiumFinance": {
-                "isPremiumNews": false,
-                "isPremiumFreeNews": false
-              }
-            },
-            "storyline": null
-          }
-        },
-        {
-          "id": "af60aafe-dc80-3f76-b020-9be11066452a",
-          "content": {
-            "id": "af60aafe-dc80-3f76-b020-9be11066452a",
-            "contentType": "STORY",
-            "title": "Can Utah Medical Products, Inc. (NASDAQ:UTMD) Performance Keep Up Given Its Mixed Bag Of Fundamentals?",
-            "description": "",
-            "summary": "NasdaqGS:UTMD 1 Year Share Price vs Fair Value Explore Utah Medical Products's Fair Values from the Community and...",
-            "pubDate": "2025-08-18T12:12:51Z",
-            "displayTime": "2025-08-18T12:12:51Z",
-            "isHosted": true,
-            "bypassModal": false,
-            "previewUrl": null,
-            "thumbnail": {
-              "originalUrl": "https://media.zenfs.com/en/simply_wall_st__316/2260c3158cb31199a7e2c221586ac549",
-              "originalWidth": 1194,
-              "originalHeight": 432,
-              "caption": "",
-              "resolutions": [
-                {
-                  "url": "https://s.yimg.com/uu/api/res/1.2/S0lfvVFvT2zEUqilo.yhog--~B/aD00MzI7dz0xMTk0O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/simply_wall_st__316/2260c3158cb31199a7e2c221586ac549",
-                  "width": 1194,
-                  "height": 432,
-                  "tag": "original"
-                },
-                {
-                  "url": "https://s.yimg.com/uu/api/res/1.2/2BfzJUAuM.KqATzZalVgSw--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/simply_wall_st__316/2260c3158cb31199a7e2c221586ac549",
-                  "width": 170,
-                  "height": 128,
-                  "tag": "170x128"
-                }
-              ]
-            },
-            "provider": {
-              "displayName": "Simply Wall St.",
-              "url": "https://simplywall.st/"
-            },
-            "canonicalUrl": {
-              "url": "https://finance.yahoo.com/news/utah-medical-products-inc-nasdaq-121251880.html",
-              "site": "finance",
-              "region": "US",
-              "lang": "en-US"
-            },
-            "clickThroughUrl": {
-              "url": "https://finance.yahoo.com/news/utah-medical-products-inc-nasdaq-121251880.html",
-              "site": "finance",
-              "region": "US",
-              "lang": "en-US"
-            },
-            "metadata": {
-              "editorsPick": false
-            },
-            "finance": {
-              "premiumFinance": {
-                "isPremiumNews": false,
-                "isPremiumFreeNews": false
-              }
-            },
-            "storyline": null
-          }
-        },
-        {
-          "id": "e8587c7c-eb9b-32a2-84d0-ad9875bd825d",
-          "content": {
-            "id": "e8587c7c-eb9b-32a2-84d0-ad9875bd825d",
-            "contentType": "STORY",
-            "title": "Utah Medical Products (NASDAQ:UTMD) Has Affirmed Its Dividend Of $0.305",
-            "description": "",
-            "summary": "The board of Utah Medical Products, Inc. ( NASDAQ:UTMD ) has announced that it will pay a dividend of $0.305 per share...",
-            "pubDate": "2025-08-01T13:15:46Z",
-            "displayTime": "2025-08-01T13:15:46Z",
-            "isHosted": true,
-            "bypassModal": false,
-            "previewUrl": null,
-            "thumbnail": {
-              "originalUrl": "https://media.zenfs.com/en/simply_wall_st__316/2260c3158cb31199a7e2c221586ac549",
-              "originalWidth": 1194,
-              "originalHeight": 432,
-              "caption": "",
-              "resolutions": [
-                {
-                  "url": "https://s.yimg.com/uu/api/res/1.2/S0lfvVFvT2zEUqilo.yhog--~B/aD00MzI7dz0xMTk0O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/simply_wall_st__316/2260c3158cb31199a7e2c221586ac549",
-                  "width": 1194,
-                  "height": 432,
-                  "tag": "original"
-                },
-                {
-                  "url": "https://s.yimg.com/uu/api/res/1.2/2BfzJUAuM.KqATzZalVgSw--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/simply_wall_st__316/2260c3158cb31199a7e2c221586ac549",
-                  "width": 170,
-                  "height": 128,
-                  "tag": "170x128"
-                }
-              ]
-            },
-            "provider": {
-              "displayName": "Simply Wall St.",
-              "url": "https://simplywall.st/"
-            },
-            "canonicalUrl": {
-              "url": "https://finance.yahoo.com/news/utah-medical-products-nasdaq-utmd-131546839.html",
-              "site": "finance",
-              "region": "US",
-              "lang": "en-US"
-            },
-            "clickThroughUrl": {
-              "url": "https://finance.yahoo.com/news/utah-medical-products-nasdaq-utmd-131546839.html",
-              "site": "finance",
-              "region": "US",
-              "lang": "en-US"
-            },
-            "metadata": {
-              "editorsPick": false
-            },
-            "finance": {
-              "premiumFinance": {
-                "isPremiumNews": false,
-                "isPremiumFreeNews": false
-              }
-            },
-            "storyline": null
-          }
-        },
-        {
-          "id": "f255e7b7-c769-32c6-bc32-3acf9b623a32",
-          "content": {
-            "id": "f255e7b7-c769-32c6-bc32-3acf9b623a32",
-            "contentType": "STORY",
-            "title": "UTMD's Q2 Earnings Slip Y/Y Due to Falling OEM Sales, Stock Down 3%",
-            "description": "",
-            "summary": "Utah Medical's Q2 earnings decrease year over year on lower OEM sales and weak international demand, though cost controls helped cushion margins.",
-            "pubDate": "2025-07-30T16:59:00Z",
-            "displayTime": "2025-07-30T16:59:00Z",
-            "isHosted": true,
-            "bypassModal": false,
-            "previewUrl": null,
-            "thumbnail": {
-              "originalUrl": "https://media.zenfs.com/en/zacks.com/181d5ab1675d8aae9c53428215552644",
-              "originalWidth": 635,
-              "originalHeight": 400,
-              "caption": "",
-              "resolutions": [
-                {
-                  "url": "https://s.yimg.com/uu/api/res/1.2/X_G78K7TS0Wks9k_NbYhwg--~B/aD00MDA7dz02MzU7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/zacks.com/181d5ab1675d8aae9c53428215552644",
-                  "width": 635,
-                  "height": 400,
-                  "tag": "original"
-                },
-                {
-                  "url": "https://s.yimg.com/uu/api/res/1.2/FuBN8oSEV5bdmfIHdd46cQ--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/zacks.com/181d5ab1675d8aae9c53428215552644",
-                  "width": 170,
-                  "height": 128,
-                  "tag": "170x128"
-                }
-              ]
-            },
-            "provider": {
-              "displayName": "Zacks",
-              "url": "http://www.zacks.com/"
-            },
-            "canonicalUrl": {
-              "url": "https://finance.yahoo.com/news/utmds-q2-earnings-slip-y-165900223.html",
-              "site": "finance",
-              "region": "US",
-              "lang": "en-US"
-            },
-            "clickThroughUrl": {
-              "url": "https://finance.yahoo.com/news/utmds-q2-earnings-slip-y-165900223.html",
-              "site": "finance",
-              "region": "US",
-              "lang": "en-US"
-            },
-            "metadata": {
-              "editorsPick": false
-            },
-            "finance": {
-              "premiumFinance": {
-                "isPremiumNews": false,
-                "isPremiumFreeNews": false
-              }
-            },
-            "storyline": null
-          }
-        },
-        {
-          "id": "19c07125-d48b-35f7-aa20-c7fbf68feb8d",
-          "content": {
-            "id": "19c07125-d48b-35f7-aa20-c7fbf68feb8d",
-            "contentType": "STORY",
-            "title": "Utah Medical: Q2 Earnings Snapshot",
-            "description": "",
-            "summary": "MIDVALE, Utah (AP) \u2014 Utah Medical Products Inc. UTMD) on Thursday reported earnings of $3 million in its second quarter. The Midvale, Utah-based company said it had profit of 94 cents per share.",
-            "pubDate": "2025-07-25T11:06:12Z",
-            "displayTime": "2025-07-25T11:06:12Z",
-            "isHosted": true,
-            "bypassModal": false,
-            "previewUrl": null,
-            "thumbnail": null,
-            "provider": {
-              "displayName": "Associated Press Finance",
-              "url": "http://www.ap.org/"
-            },
-            "canonicalUrl": {
-              "url": "https://finance.yahoo.com/news/utah-medical-q2-earnings-snapshot-110612762.html",
-              "site": "finance",
-              "region": "US",
-              "lang": "en-US"
-            },
-            "clickThroughUrl": {
-              "url": "https://finance.yahoo.com/news/utah-medical-q2-earnings-snapshot-110612762.html",
-              "site": "finance",
-              "region": "US",
-              "lang": "en-US"
-            },
-            "metadata": {
-              "editorsPick": false
-            },
-            "finance": {
-              "premiumFinance": {
-                "isPremiumNews": false,
-                "isPremiumFreeNews": false
-              }
-            },
-            "storyline": null
-          }
-        },
-        {
-          "id": "05eb1d72-bd43-3a6c-bffa-3a0fbb97dc6f",
-          "content": {
-            "id": "05eb1d72-bd43-3a6c-bffa-3a0fbb97dc6f",
-            "contentType": "STORY",
-            "title": "A Look At The Fair Value Of Utah Medical Products, Inc. (NASDAQ:UTMD)",
-            "description": "",
-            "summary": "Key Insights Utah Medical Products' estimated fair value is US$58.64 based on 2 Stage Free Cash Flow to Equity Utah...",
-            "pubDate": "2025-06-25T16:40:23Z",
-            "displayTime": "2025-06-25T16:40:23Z",
-            "isHosted": true,
-            "bypassModal": false,
-            "previewUrl": null,
-            "thumbnail": {
-              "originalUrl": "https://media.zenfs.com/en/simply_wall_st__316/2260c3158cb31199a7e2c221586ac549",
-              "originalWidth": 1194,
-              "originalHeight": 432,
-              "caption": "",
-              "resolutions": [
-                {
-                  "url": "https://s.yimg.com/uu/api/res/1.2/S0lfvVFvT2zEUqilo.yhog--~B/aD00MzI7dz0xMTk0O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/simply_wall_st__316/2260c3158cb31199a7e2c221586ac549",
-                  "width": 1194,
-                  "height": 432,
-                  "tag": "original"
-                },
-                {
-                  "url": "https://s.yimg.com/uu/api/res/1.2/2BfzJUAuM.KqATzZalVgSw--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/simply_wall_st__316/2260c3158cb31199a7e2c221586ac549",
-                  "width": 170,
-                  "height": 128,
-                  "tag": "170x128"
-                }
-              ]
-            },
-            "provider": {
-              "displayName": "Simply Wall St.",
-              "url": "https://simplywall.st/"
-            },
-            "canonicalUrl": {
-              "url": "https://finance.yahoo.com/news/look-fair-value-utah-medical-164023447.html",
-              "site": "finance",
-              "region": "US",
-              "lang": "en-US"
-            },
-            "clickThroughUrl": {
-              "url": "https://finance.yahoo.com/news/look-fair-value-utah-medical-164023447.html",
-              "site": "finance",
-              "region": "US",
-              "lang": "en-US"
-            },
-            "metadata": {
-              "editorsPick": false
-            },
-            "finance": {
-              "premiumFinance": {
-                "isPremiumNews": false,
-                "isPremiumFreeNews": false
-              }
-            },
-            "storyline": null
-          }
-        },
-        {
-          "id": "7356202d-1219-3392-ae37-99eb167dc161",
-          "content": {
-            "id": "7356202d-1219-3392-ae37-99eb167dc161",
-            "contentType": "STORY",
-            "title": "Top Analyst Reports for JPMorgan, Novartis & AT&T",
-            "description": "",
-            "summary": "JPM's strong NII outlook, NVS's blockbuster pipeline, and T's wireless momentum anchor today's top analyst picks.",
-            "pubDate": "2025-06-24T20:53:00Z",
-            "displayTime": "2025-06-24T20:53:00Z",
-            "isHosted": true,
-            "bypassModal": false,
-            "previewUrl": null,
-            "thumbnail": {
-              "originalUrl": "https://media.zenfs.com/en/zacks.com/4658663242c3a61dee3fef55a1bf4887",
-              "originalWidth": 620,
-              "originalHeight": 413,
-              "caption": "",
-              "resolutions": [
-                {
-                  "url": "https://s.yimg.com/uu/api/res/1.2/kHYuj_GDhroF7BEQsCcsVA--~B/aD00MTM7dz02MjA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/zacks.com/4658663242c3a61dee3fef55a1bf4887",
-                  "width": 620,
-                  "height": 413,
-                  "tag": "original"
-                },
-                {
-                  "url": "https://s.yimg.com/uu/api/res/1.2/p9A.TkMt.5s3OngF4IA4lg--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/zacks.com/4658663242c3a61dee3fef55a1bf4887",
-                  "width": 170,
-                  "height": 128,
-                  "tag": "170x128"
-                }
-              ]
-            },
-            "provider": {
-              "displayName": "Zacks",
-              "url": "http://www.zacks.com/"
-            },
-            "canonicalUrl": {
-              "url": "https://finance.yahoo.com/news/top-analyst-reports-jpmorgan-novartis-205300769.html",
-              "site": "finance",
-              "region": "US",
-              "lang": "en-US"
-            },
-            "clickThroughUrl": {
-              "url": "https://finance.yahoo.com/news/top-analyst-reports-jpmorgan-novartis-205300769.html",
-              "site": "finance",
-              "region": "US",
-              "lang": "en-US"
-            },
-            "metadata": {
-              "editorsPick": false
-            },
-            "finance": {
-              "premiumFinance": {
-                "isPremiumNews": false,
-                "isPremiumFreeNews": false
-              }
-            },
-            "storyline": null
-          }
-        }
-      ]
-    },
-    "recommendations": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
-    }
-  },
-  "holders_data": {
-    "major_holders": {
-      "status": "error"
-    },
-    "institutional_holders": {
-      "status": "error"
-    }
-  },
-  "earnings_data": {
-    "earnings": {
-      "status": "error",
-      "message": "'NoneType' object has no attribute 'empty'"
-    },
-    "calendar": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
-    }
-  }
-}
+          

@@ -1,64 +1,13 @@
 {
   "ticker": "MRAI",
-  "timestamp": "2025-11-02T04:42:29.062035",
+  "timestamp": "2025-11-04T04:25:34.418057",
   "intraday_data": {
-    "status": "success",
-    "rows": 7,
-    "data": [
-      {
-        "Close BBGI": 5.090000152587891,
-        "High BBGI": 5.090000152587891,
-        "Low BBGI": 5.090000152587891,
-        "Open BBGI": 5.090000152587891,
-        "Volume BBGI": 632
-      },
-      {
-        "Close BBGI": 5.175000190734863,
-        "High BBGI": 5.175000190734863,
-        "Low BBGI": 5.175000190734863,
-        "Open BBGI": 5.175000190734863,
-        "Volume BBGI": 100
-      },
-      {
-        "Close BBGI": 5.239999771118164,
-        "High BBGI": 5.239999771118164,
-        "Low BBGI": 5.239999771118164,
-        "Open BBGI": 5.239999771118164,
-        "Volume BBGI": 203
-      },
-      {
-        "Close BBGI": 5.150000095367432,
-        "High BBGI": 5.150000095367432,
-        "Low BBGI": 5.150000095367432,
-        "Open BBGI": 5.150000095367432,
-        "Volume BBGI": 459
-      },
-      {
-        "Close BBGI": 5.110099792480469,
-        "High BBGI": 5.151199817657471,
-        "Low BBGI": 5.110099792480469,
-        "Open BBGI": 5.151199817657471,
-        "Volume BBGI": 1006
-      },
-      {
-        "Close BBGI": 5.01800012588501,
-        "High BBGI": 5.01800012588501,
-        "Low BBGI": 5.01800012588501,
-        "Open BBGI": 5.01800012588501,
-        "Volume BBGI": 141
-      },
-      {
-        "Close BBGI": 5.010000228881836,
-        "High BBGI": 5.010000228881836,
-        "Low BBGI": 5.010000228881836,
-        "Open BBGI": 5.010000228881836,
-        "Volume BBGI": 232
-      }
-    ]
+    "status": "error",
+    "message": "No objects to concatenate"
   },
   "stock_info": {
     "status": "error",
-    "message": "argument of type 'NoneType' is not iterable"
+    "message": "Too Many Requests. Rate limited. Try after a while."
   },
   "financials": {
     "income_statement": {
@@ -77,8 +26,7 @@
   },
   "news_data": {
     "news": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
+      "status": "no_data"
     },
     "recommendations": {
       "status": "error",
@@ -100,7 +48,7 @@
     },
     "calendar": {
       "status": "error",
-      "message": "'dict' object has no attribute 'empty'"
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   }
 }

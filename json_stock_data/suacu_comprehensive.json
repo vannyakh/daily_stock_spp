@@ -1,53 +1,9 @@
 {
   "ticker": "SUACU",
-  "timestamp": "2025-11-02T04:59:30.113560",
+  "timestamp": "2025-11-04T04:36:35.426048",
   "intraday_data": {
-    "status": "success",
-    "rows": 6,
-    "data": [
-      {
-        "Close JFBRW": 0.022199999541044235,
-        "High JFBRW": 0.022199999541044235,
-        "Low JFBRW": 0.022199999541044235,
-        "Open JFBRW": 0.022199999541044235,
-        "Volume JFBRW": 0
-      },
-      {
-        "Close JFBRW": 0.02199999988079071,
-        "High JFBRW": 0.02199999988079071,
-        "Low JFBRW": 0.02199999988079071,
-        "Open JFBRW": 0.02199999988079071,
-        "Volume JFBRW": 100
-      },
-      {
-        "Close JFBRW": 0.02199999988079071,
-        "High JFBRW": 0.02199999988079071,
-        "Low JFBRW": 0.020899999886751175,
-        "Open JFBRW": 0.020999999716877937,
-        "Volume JFBRW": 6552
-      },
-      {
-        "Close JFBRW": 0.021900000050663948,
-        "High JFBRW": 0.02199999988079071,
-        "Low JFBRW": 0.021900000050663948,
-        "Open JFBRW": 0.02199999988079071,
-        "Volume JFBRW": 3884
-      },
-      {
-        "Close JFBRW": 0.020099999383091927,
-        "High JFBRW": 0.020099999383091927,
-        "Low JFBRW": 0.020099999383091927,
-        "Open JFBRW": 0.020099999383091927,
-        "Volume JFBRW": 404
-      },
-      {
-        "Close JFBRW": 0.02199999988079071,
-        "High JFBRW": 0.02199999988079071,
-        "Low JFBRW": 0.02199999988079071,
-        "Open JFBRW": 0.02199999988079071,
-        "Volume JFBRW": 100
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -70,7 +26,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

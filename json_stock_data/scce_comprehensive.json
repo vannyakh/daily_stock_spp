@@ -1,9 +1,25 @@
 {
   "ticker": "SCCE",
-  "timestamp": "2025-11-02T04:56:51.124801",
+  "timestamp": "2025-11-04T04:34:56.680322",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 2,
+    "data": [
+      {
+        "Close": 22.7549991607666,
+        "High": 22.7549991607666,
+        "Low": 22.7549991607666,
+        "Open": 22.7549991607666,
+        "Volume": 0
+      },
+      {
+        "Close": 22.780000686645508,
+        "High": 22.780000686645508,
+        "Low": 22.780000686645508,
+        "Open": 22.780000686645508,
+        "Volume": 995
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -26,8 +42,7 @@
   },
   "news_data": {
     "news": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
+      "status": "no_data"
     },
     "recommendations": {
       "status": "error",

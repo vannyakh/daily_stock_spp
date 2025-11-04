@@ -1,25 +1,9 @@
 {
   "ticker": "DBB",
-  "timestamp": "2025-11-02T04:31:38.645060",
+  "timestamp": "2025-11-04T04:18:51.286503",
   "intraday_data": {
-    "status": "success",
-    "rows": 2,
-    "data": [
-      {
-        "Close MOLN": 3.740000009536743,
-        "High MOLN": 3.740000009536743,
-        "Low MOLN": 3.740000009536743,
-        "Open MOLN": 3.740000009536743,
-        "Volume MOLN": 0
-      },
-      {
-        "Close MOLN": 3.633699893951416,
-        "High MOLN": 3.633699893951416,
-        "Low MOLN": 3.633699893951416,
-        "Open MOLN": 3.633699893951416,
-        "Volume MOLN": 154
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -45,7 +29,8 @@
       "status": "no_data"
     },
     "recommendations": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   },
   "holders_data": {
