@@ -1,9 +1,9 @@
 {
   "ticker": "OESX",
-  "timestamp": "2025-11-04T04:24:23.334804",
+  "timestamp": "2025-11-05T04:26:02.977095",
   "intraday_data": {
     "status": "success",
-    "rows": 15,
+    "rows": 23,
     "data": [
       {
         "Close": 9.890000343322754,
@@ -109,6 +109,62 @@
         "Low": 9.470000267028809,
         "Open": 9.470000267028809,
         "Volume": 239
+      },
+      {
+        "Close": 9.1899995803833,
+        "High": 9.1899995803833,
+        "Low": 9.1899995803833,
+        "Open": 9.1899995803833,
+        "Volume": 1068
+      },
+      {
+        "Close": 9.210000038146973,
+        "High": 9.210000038146973,
+        "Low": 9.210000038146973,
+        "Open": 9.210000038146973,
+        "Volume": 322
+      },
+      {
+        "Close": 8.780099868774414,
+        "High": 8.780099868774414,
+        "Low": 8.780099868774414,
+        "Open": 8.780099868774414,
+        "Volume": 630
+      },
+      {
+        "Close": 8.84000015258789,
+        "High": 8.84000015258789,
+        "Low": 8.84000015258789,
+        "Open": 8.84000015258789,
+        "Volume": 100
+      },
+      {
+        "Close": 8.819999694824219,
+        "High": 8.819999694824219,
+        "Low": 8.819999694824219,
+        "Open": 8.819999694824219,
+        "Volume": 1504
+      },
+      {
+        "Close": 8.800000190734863,
+        "High": 8.800000190734863,
+        "Low": 8.760000228881836,
+        "Open": 8.800000190734863,
+        "Volume": 2055
+      },
+      {
+        "Close": 8.8100004196167,
+        "High": 8.8100004196167,
+        "Low": 8.8100004196167,
+        "Open": 8.8100004196167,
+        "Volume": 376
+      },
+      {
+        "Close": 8.954999923706055,
+        "High": 8.954999923706055,
+        "Low": 8.954999923706055,
+        "Open": 8.954999923706055,
+        "Volume": 1087
       }
     ]
   },
@@ -121,15 +177,42 @@
       "status": "no_data"
     },
     "balance_sheet": {
-      "status": "success",
-      "rows": 76,
-      "columns": [
-        "2025-03-31 00:00:00",
-        "2024-03-31 00:00:00",
-        "2023-03-31 00:00:00",
-        "2022-03-31 00:00:00",
-        "2021-03-31 00:00:00"
-      ],
-      "data": [
-        {
-          
+      "status": "no_data"
+    },
+    "cash_flow": {
+      "status": "no_data"
+    }
+  },
+  "options_data": {
+    "status": "error",
+    "error_message": "Too Many Requests. Rate limited. Try after a while."
+  },
+  "news_data": {
+    "news": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    },
+    "recommendations": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  },
+  "holders_data": {
+    "major_holders": {
+      "status": "error"
+    },
+    "institutional_holders": {
+      "status": "error"
+    }
+  },
+  "earnings_data": {
+    "earnings": {
+      "status": "error",
+      "message": "'NoneType' object has no attribute 'empty'"
+    },
+    "calendar": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  }
+}

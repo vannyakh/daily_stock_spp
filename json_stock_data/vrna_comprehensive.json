@@ -1,6 +1,6 @@
 {
   "ticker": "VRNA",
-  "timestamp": "2025-11-04T04:08:38.926139",
+  "timestamp": "2025-11-05T04:11:09.191475",
   "intraday_data": {
     "status": "no_data",
     "message": "No intraday data available"
@@ -642,15 +642,16 @@
       ]
     },
     "recommendations": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   },
   "holders_data": {
     "major_holders": {
-      "status": "no_data"
+      "status": "error"
     },
     "institutional_holders": {
-      "status": "no_data"
+      "status": "error"
     }
   },
   "earnings_data": {
@@ -660,7 +661,7 @@
     },
     "calendar": {
       "status": "error",
-      "message": "'dict' object has no attribute 'empty'"
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   }
 }

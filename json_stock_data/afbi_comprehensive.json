@@ -1,6 +1,6 @@
 {
   "ticker": "AFBI",
-  "timestamp": "2025-11-04T04:20:33.408651",
+  "timestamp": "2025-11-05T04:22:24.189533",
   "intraday_data": {
     "status": "no_data",
     "message": "No intraday data available"
@@ -648,10 +648,106 @@
   },
   "holders_data": {
     "major_holders": {
-      "status": "error"
+      "status": "success",
+      "data": [
+        {
+          "Value": 0.29378
+        },
+        {
+          "Value": 0.22432
+        },
+        {
+          "Value": 0.31763
+        },
+        {
+          "Value": 30.0
+        }
+      ]
     },
     "institutional_holders": {
-      "status": "error"
+      "status": "success",
+      "data": [
+        {
+          "Date Reported": "2025-06-30 00:00:00",
+          "Holder": "Alliancebernstein L.P.",
+          "pctHeld": 0.0582,
+          "Shares": 366431,
+          "Value": 6874245,
+          "pctChange": 0.0146
+        },
+        {
+          "Date Reported": "2025-06-30 00:00:00",
+          "Holder": "Vanguard Group Inc",
+          "pctHeld": 0.0541,
+          "Shares": 340662,
+          "Value": 6390819,
+          "pctChange": -0.0058
+        },
+        {
+          "Date Reported": "2025-06-30 00:00:00",
+          "Holder": "Raffles Associates Lp",
+          "pctHeld": 0.031600002,
+          "Shares": 199130,
+          "Value": 3735678,
+          "pctChange": 0.0
+        },
+        {
+          "Date Reported": "2025-06-30 00:00:00",
+          "Holder": "Yakira Capital Management, Inc.",
+          "pctHeld": 0.0199,
+          "Shares": 125219,
+          "Value": 2349108,
+          "pctChange": -0.113299996
+        },
+        {
+          "Date Reported": "2025-06-30 00:00:00",
+          "Holder": "Dimensional Fund Advisors LP",
+          "pctHeld": 0.0095999995,
+          "Shares": 60673,
+          "Value": 1138225,
+          "pctChange": 0.0397
+        },
+        {
+          "Date Reported": "2025-06-30 00:00:00",
+          "Holder": "Renaissance Technologies, LLC",
+          "pctHeld": 0.0095999995,
+          "Shares": 60148,
+          "Value": 1128376,
+          "pctChange": -0.0372
+        },
+        {
+          "Date Reported": "2025-06-30 00:00:00",
+          "Holder": "Geode Capital Management, LLC",
+          "pctHeld": 0.0087,
+          "Shares": 54694,
+          "Value": 1026059,
+          "pctChange": -0.0011999999
+        },
+        {
+          "Date Reported": "2025-06-30 00:00:00",
+          "Holder": "Maltese Capital Management, LLC",
+          "pctHeld": 0.0075,
+          "Shares": 47000,
+          "Value": 881720,
+          "pctChange": 0.0
+        },
+        {
+          "Date Reported": "2025-06-30 00:00:00",
+          "Holder": "Objectivity Squared, LLC                          ",
+          "pctHeld": 0.0043,
+          "Shares": 26918,
+          "Value": 504981,
+          "pctChange": 0.0
+        },
+        {
+          "Date Reported": "2025-06-30 00:00:00",
+          "Holder": "State Street Corporation",
+          "pctHeld": 0.0036000002,
+          "Shares": 22519,
+          "Value": 422456,
+          "pctChange": 0.0
+        }
+      ]
     }
   },
   "earnings_data": {
@@ -661,7 +757,7 @@
     },
     "calendar": {
       "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
+      "message": "'dict' object has no attribute 'empty'"
     }
   }
 }

@@ -1,51 +1,37 @@
 {
   "ticker": "OCCIO",
-  "timestamp": "2025-11-04T04:34:58.760255",
+  "timestamp": "2025-11-05T04:36:06.788645",
   "intraday_data": {
     "status": "success",
-    "rows": 6,
+    "rows": 4,
     "data": [
       {
-        "Close OCCIM": 25.153099060058594,
-        "High OCCIM": 25.153099060058594,
-        "Low OCCIM": 25.153099060058594,
-        "Open OCCIM": 25.153099060058594,
-        "Volume OCCIM": 0
+        "Close": 24.988000869750977,
+        "High": 24.988000869750977,
+        "Low": 24.988000869750977,
+        "Open": 24.988000869750977,
+        "Volume": 0
       },
       {
-        "Close OCCIM": 25.13990020751953,
-        "High OCCIM": 25.13990020751953,
-        "Low OCCIM": 25.020000457763672,
-        "Open OCCIM": 25.020000457763672,
-        "Volume OCCIM": 300
+        "Close": 24.979999542236328,
+        "High": 24.979999542236328,
+        "Low": 24.979999542236328,
+        "Open": 24.979999542236328,
+        "Volume": 235
       },
       {
-        "Close OCCIM": 25.020000457763672,
-        "High OCCIM": 25.020000457763672,
-        "Low OCCIM": 25.020000457763672,
-        "Open OCCIM": 25.020000457763672,
-        "Volume OCCIM": 200
+        "Close": 24.950000762939453,
+        "High": 24.959999084472656,
+        "Low": 24.950000762939453,
+        "Open": 24.959999084472656,
+        "Volume": 537
       },
       {
-        "Close OCCIM": 25.010000228881836,
-        "High OCCIM": 25.010000228881836,
-        "Low OCCIM": 25.010000228881836,
-        "Open OCCIM": 25.010000228881836,
-        "Volume OCCIM": 102
-      },
-      {
-        "Close OCCIM": 25.13990020751953,
-        "High OCCIM": 25.13990020751953,
-        "Low OCCIM": 25.13990020751953,
-        "Open OCCIM": 25.13990020751953,
-        "Volume OCCIM": 398
-      },
-      {
-        "Close OCCIM": 25.046499252319336,
-        "High OCCIM": 25.1200008392334,
-        "Low OCCIM": 24.969999313354492,
-        "Open OCCIM": 25.1200008392334,
-        "Volume OCCIM": 400
+        "Close": 25.049999237060547,
+        "High": 25.049999237060547,
+        "Low": 25.049999237060547,
+        "Open": 25.049999237060547,
+        "Volume": 345
       }
     ]
   },
@@ -70,20 +56,42 @@
   },
   "news_data": {
     "news": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
+      "status": "no_data"
     },
     "recommendations": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
+      "status": "no_data"
     }
   },
   "holders_data": {
     "major_holders": {
-      "status": "error"
+      "status": "success",
+      "data": [
+        {
+          "Value": 0.0
+        },
+        {
+          "Value": 0.0211
+        },
+        {
+          "Value": 0.0211
+        },
+        {
+          "Value": 2.0
+        }
+      ]
     },
     "institutional_holders": {
-      "status": "error"
+      "status": "success",
+      "data": [
+        {
+          "Date Reported": "2025-06-30 00:00:00",
+          "Holder": "Nbc Securities, Inc.                          ",
+          "pctHeld": 0.0018000001,
+          "Shares": 1400,
+          "Value": 35069,
+          "pctChange": 1.0
+        }
+      ]
     }
   },
   "earnings_data": {
@@ -93,7 +101,7 @@
     },
     "calendar": {
       "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
+      "message": "'dict' object has no attribute 'empty'"
     }
   }
 }

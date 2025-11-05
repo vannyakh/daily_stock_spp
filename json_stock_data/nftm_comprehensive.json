@@ -1,9 +1,18 @@
 {
   "ticker": "NFTM",
-  "timestamp": "2025-11-04T04:38:07.720927",
+  "timestamp": "2025-11-05T04:39:11.293697",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 1,
+    "data": [
+      {
+        "Close": 0.027000000700354576,
+        "High": 0.027000000700354576,
+        "Low": 0.027000000700354576,
+        "Open": 0.027000000700354576,
+        "Volume": 0
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -26,7 +35,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

@@ -1,9 +1,25 @@
 {
   "ticker": "EICB",
-  "timestamp": "2025-11-04T04:35:58.043103",
+  "timestamp": "2025-11-05T04:37:04.600518",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 2,
+    "data": [
+      {
+        "Close OWSCX": 19.450000762939453,
+        "High OWSCX": 19.450000762939453,
+        "Low OWSCX": 19.450000762939453,
+        "Open OWSCX": 19.450000762939453,
+        "Volume OWSCX": 0
+      },
+      {
+        "Close OWSCX": 19.450000762939453,
+        "High OWSCX": 19.450000762939453,
+        "Low OWSCX": 19.450000762939453,
+        "Open OWSCX": 19.450000762939453,
+        "Volume OWSCX": 0
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -29,7 +45,8 @@
       "status": "no_data"
     },
     "recommendations": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   },
   "holders_data": {

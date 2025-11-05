@@ -1,9 +1,18 @@
 {
   "ticker": "INFIQ",
-  "timestamp": "2025-11-04T04:33:37.391620",
+  "timestamp": "2025-11-05T04:34:54.556018",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 1,
+    "data": [
+      {
+        "Close EVLO": 0.0005000000237487257,
+        "High EVLO": 0.0005000000237487257,
+        "Low EVLO": 0.0005000000237487257,
+        "Open EVLO": 0.0005000000237487257,
+        "Volume EVLO": 133
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -29,7 +38,8 @@
       "status": "no_data"
     },
     "recommendations": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   },
   "holders_data": {

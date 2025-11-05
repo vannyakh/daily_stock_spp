@@ -1,18 +1,9 @@
 {
   "ticker": "SCDL",
-  "timestamp": "2025-11-04T04:37:29.717824",
+  "timestamp": "2025-11-05T04:38:34.328196",
   "intraday_data": {
-    "status": "success",
-    "rows": 1,
-    "data": [
-      {
-        "Close": 36.344600677490234,
-        "High": 37.161399841308594,
-        "Low": 36.344600677490234,
-        "Open": 37.161399841308594,
-        "Volume": 0
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -35,7 +26,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

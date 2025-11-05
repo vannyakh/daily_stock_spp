@@ -1,46 +1,9 @@
 {
   "ticker": "PHIL",
-  "timestamp": "2025-11-04T04:26:22.241720",
+  "timestamp": "2025-11-05T04:27:57.500737",
   "intraday_data": {
-    "status": "success",
-    "rows": 5,
-    "data": [
-      {
-        "Close PURE": 0.061400000005960464,
-        "High PURE": 0.06289999932050705,
-        "Low PURE": 0.061400000005960464,
-        "Open PURE": 0.06289999932050705,
-        "Volume PURE": 0
-      },
-      {
-        "Close PURE": 0.05550000071525574,
-        "High PURE": 0.0560000017285347,
-        "Low PURE": 0.05550000071525574,
-        "Open PURE": 0.0560000017285347,
-        "Volume PURE": 22067
-      },
-      {
-        "Close PURE": 0.07199999690055847,
-        "High PURE": 0.07199999690055847,
-        "Low PURE": 0.07199999690055847,
-        "Open PURE": 0.07199999690055847,
-        "Volume PURE": 7044
-      },
-      {
-        "Close PURE": 0.07000000029802322,
-        "High PURE": 0.07000000029802322,
-        "Low PURE": 0.07000000029802322,
-        "Open PURE": 0.07000000029802322,
-        "Volume PURE": 250
-      },
-      {
-        "Close PURE": 0.05900000035762787,
-        "High PURE": 0.05900000035762787,
-        "Low PURE": 0.05900000035762787,
-        "Open PURE": 0.05900000035762787,
-        "Volume PURE": 25000
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -66,7 +29,8 @@
       "status": "no_data"
     },
     "recommendations": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   },
   "holders_data": {

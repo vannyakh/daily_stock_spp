@@ -1,9 +1,9 @@
 {
   "ticker": "FMN",
-  "timestamp": "2025-11-04T04:20:19.662106",
+  "timestamp": "2025-11-05T04:22:10.236701",
   "intraday_data": {
     "status": "success",
-    "rows": 1,
+    "rows": 5,
     "data": [
       {
         "Close SFBC": 44.46189880371094,
@@ -11,6 +11,34 @@
         "Low SFBC": 44.46189880371094,
         "Open SFBC": 44.46189880371094,
         "Volume SFBC": 0
+      },
+      {
+        "Close SFBC": 45.0,
+        "High SFBC": 45.0,
+        "Low SFBC": 45.0,
+        "Open SFBC": 45.0,
+        "Volume SFBC": 292
+      },
+      {
+        "Close SFBC": 43.9900016784668,
+        "High SFBC": 43.9900016784668,
+        "Low SFBC": 43.9900016784668,
+        "Open SFBC": 43.9900016784668,
+        "Volume SFBC": 557
+      },
+      {
+        "Close SFBC": 44.18000030517578,
+        "High SFBC": 44.18000030517578,
+        "Low SFBC": 44.18000030517578,
+        "Open SFBC": 44.18000030517578,
+        "Volume SFBC": 784
+      },
+      {
+        "Close SFBC": 43.80009841918945,
+        "High SFBC": 43.80009841918945,
+        "Low SFBC": 43.79999923706055,
+        "Open SFBC": 43.79999923706055,
+        "Volume SFBC": 1406
       }
     ]
   },
@@ -23,15 +51,41 @@
       "status": "no_data"
     },
     "balance_sheet": {
-      "status": "success",
-      "rows": 26,
-      "columns": [
-        "2024-11-30 00:00:00",
-        "2023-11-30 00:00:00",
-        "2022-11-30 00:00:00",
-        "2021-11-30 00:00:00",
-        "2020-11-30 00:00:00"
-      ],
-      "data": [
-        {
-          
+      "status": "no_data"
+    },
+    "cash_flow": {
+      "status": "no_data"
+    }
+  },
+  "options_data": {
+    "status": "error",
+    "error_message": "Too Many Requests. Rate limited. Try after a while."
+  },
+  "news_data": {
+    "news": {
+      "status": "no_data"
+    },
+    "recommendations": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  },
+  "holders_data": {
+    "major_holders": {
+      "status": "error"
+    },
+    "institutional_holders": {
+      "status": "error"
+    }
+  },
+  "earnings_data": {
+    "earnings": {
+      "status": "error",
+      "message": "'NoneType' object has no attribute 'empty'"
+    },
+    "calendar": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  }
+}

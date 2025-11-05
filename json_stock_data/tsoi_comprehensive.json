@@ -1,9 +1,39 @@
 {
   "ticker": "TSOI",
-  "timestamp": "2025-11-04T04:28:34.749745",
+  "timestamp": "2025-11-05T04:30:06.639273",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 4,
+    "data": [
+      {
+        "Close VYST": 0.08500000089406967,
+        "High VYST": 0.08500000089406967,
+        "Low VYST": 0.08500000089406967,
+        "Open VYST": 0.08500000089406967,
+        "Volume VYST": 0
+      },
+      {
+        "Close VYST": 0.08500000089406967,
+        "High VYST": 0.08500000089406967,
+        "Low VYST": 0.08500000089406967,
+        "Open VYST": 0.08500000089406967,
+        "Volume VYST": 800
+      },
+      {
+        "Close VYST": 0.08500000089406967,
+        "High VYST": 0.08500000089406967,
+        "Low VYST": 0.08500000089406967,
+        "Open VYST": 0.08500000089406967,
+        "Volume VYST": 950
+      },
+      {
+        "Close VYST": 0.09679999947547913,
+        "High VYST": 0.09679999947547913,
+        "Low VYST": 0.09679999947547913,
+        "Open VYST": 0.09679999947547913,
+        "Volume VYST": 100
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -29,7 +59,8 @@
       "status": "no_data"
     },
     "recommendations": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   },
   "holders_data": {

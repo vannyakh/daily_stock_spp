@@ -1,10 +1,32 @@
 {
   "ticker": "BGAVF",
-  "timestamp": "2025-11-04T04:28:19.297296",
+  "timestamp": "2025-11-05T04:29:52.661544",
   "intraday_data": {
     "status": "success",
-    "rows": 0,
-    "data": []
+    "rows": 3,
+    "data": [
+      {
+        "Close": 0.03200000151991844,
+        "High": 0.03200000151991844,
+        "Low": 0.03200000151991844,
+        "Open": 0.03200000151991844,
+        "Volume": 0
+      },
+      {
+        "Close": 0.03200000151991844,
+        "High": 0.03200000151991844,
+        "Low": 0.03200000151991844,
+        "Open": 0.03200000151991844,
+        "Volume": 116000
+      },
+      {
+        "Close": 0.028999999165534973,
+        "High": 0.028999999165534973,
+        "Low": 0.028999999165534973,
+        "Open": 0.028999999165534973,
+        "Volume": 50000
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -75,7 +97,8 @@
       ]
     },
     "recommendations": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   },
   "holders_data": {

@@ -1,9 +1,39 @@
 {
   "ticker": "BWBBP",
-  "timestamp": "2025-11-04T04:37:34.955410",
+  "timestamp": "2025-11-05T04:38:39.703696",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 4,
+    "data": [
+      {
+        "Close": 20.164199829101562,
+        "High": 20.164199829101562,
+        "Low": 20.164199829101562,
+        "Open": 20.164199829101562,
+        "Volume": 359
+      },
+      {
+        "Close": 19.750099182128906,
+        "High": 19.750099182128906,
+        "Low": 19.750099182128906,
+        "Open": 19.750099182128906,
+        "Volume": 1000
+      },
+      {
+        "Close": 19.790000915527344,
+        "High": 19.790000915527344,
+        "Low": 19.790000915527344,
+        "Open": 19.790000915527344,
+        "Volume": 205
+      },
+      {
+        "Close": 20.040000915527344,
+        "High": 20.049999237060547,
+        "Low": 20.040000915527344,
+        "Open": 20.040000915527344,
+        "Volume": 300
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -604,7 +634,8 @@
       ]
     },
     "recommendations": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   },
   "holders_data": {

@@ -1,9 +1,25 @@
 {
   "ticker": "CEDAX",
-  "timestamp": "2025-11-04T04:37:07.468407",
+  "timestamp": "2025-11-05T04:38:14.746935",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 2,
+    "data": [
+      {
+        "Close": 21.899999618530273,
+        "High": 21.899999618530273,
+        "Low": 21.899999618530273,
+        "Open": 21.899999618530273,
+        "Volume": 0
+      },
+      {
+        "Close": 21.790000915527344,
+        "High": 21.790000915527344,
+        "Low": 21.790000915527344,
+        "Open": 21.790000915527344,
+        "Volume": 0
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -29,7 +45,8 @@
       "status": "no_data"
     },
     "recommendations": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   },
   "holders_data": {

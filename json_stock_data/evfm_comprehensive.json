@@ -1,6 +1,6 @@
 {
   "ticker": "EVFM",
-  "timestamp": "2025-11-04T04:28:41.417433",
+  "timestamp": "2025-11-05T04:30:12.665176",
   "intraday_data": {
     "status": "no_data",
     "message": "No intraday data available"
@@ -11,14 +11,108 @@
   },
   "financials": {
     "income_statement": {
+      "status": "no_data"
+    },
+    "balance_sheet": {
+      "status": "no_data"
+    },
+    "cash_flow": {
+      "status": "no_data"
+    }
+  },
+  "options_data": {
+    "status": "error",
+    "error_message": "Too Many Requests. Rate limited. Try after a while."
+  },
+  "news_data": {
+    "news": {
       "status": "success",
-      "rows": 50,
-      "columns": [
-        "2024-12-31 00:00:00",
-        "2023-12-31 00:00:00",
-        "2022-12-31 00:00:00",
-        "2021-12-31 00:00:00"
-      ],
+      "count": 1,
       "data": [
         {
-          
+          "id": "7cdb4040-aa3c-3970-9ffe-e5286a3a3e6b",
+          "content": {
+            "id": "7cdb4040-aa3c-3970-9ffe-e5286a3a3e6b",
+            "contentType": "STORY",
+            "title": "Evofem says FDA Orange Book lists patent for Solosec treatment",
+            "description": "",
+            "summary": "Evofem (EVFM) Biosciences announced that a newly-issued U.S. patent which covers SOLOSEC 2 g oral granules and one of its labeled indications is now listed in the U.S. Food and Drug Administration publication Approved Drug Products with Therapeutic Equivalence Evaluations, commonly known as the Orange Book. \u201cThe Orange Book listing of this patent covering SOLOSEC\u2019s method, pharmaceutical composition, and use in trichomoniasis is an important step in further strengthening our patent portfolio,\u201d s",
+            "pubDate": "2025-08-20T13:45:10Z",
+            "displayTime": "2025-08-20T13:45:10Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": {
+              "originalUrl": "https://media.zenfs.com/en/tipranks_452/060c7819ab2e6aac03de78d24e089052",
+              "originalWidth": 192,
+              "originalHeight": 192,
+              "caption": "https://www.tipranks.com/news/the-fly/evofem-says-fda-orange-book-lists-patent-for-solosec-treatment-thefly",
+              "resolutions": [
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/xBumZ4QcpNk7wPW_.v5BJw--~B/aD0xOTI7dz0xOTI7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/tipranks_452/060c7819ab2e6aac03de78d24e089052",
+                  "width": 192,
+                  "height": 192,
+                  "tag": "original"
+                },
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/TQu3FUtDLfoYJmmDbgtVrQ--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/tipranks_452/060c7819ab2e6aac03de78d24e089052",
+                  "width": 170,
+                  "height": 128,
+                  "tag": "170x128"
+                }
+              ]
+            },
+            "provider": {
+              "displayName": "TipRanks",
+              "url": "https://www.tipranks.com/"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/evofem-says-fda-orange-book-134510204.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/evofem-says-fda-orange-book-134510204.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        }
+      ]
+    },
+    "recommendations": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  },
+  "holders_data": {
+    "major_holders": {
+      "status": "error"
+    },
+    "institutional_holders": {
+      "status": "error"
+    }
+  },
+  "earnings_data": {
+    "earnings": {
+      "status": "error",
+      "message": "'NoneType' object has no attribute 'empty'"
+    },
+    "calendar": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  }
+}

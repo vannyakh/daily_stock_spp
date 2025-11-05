@@ -1,32 +1,9 @@
 {
   "ticker": "WGSWW",
-  "timestamp": "2025-11-04T04:37:03.283329",
+  "timestamp": "2025-11-05T04:38:09.840391",
   "intraday_data": {
-    "status": "success",
-    "rows": 3,
-    "data": [
-      {
-        "Close": 0.0925000011920929,
-        "High": 0.0925000011920929,
-        "Low": 0.0925000011920929,
-        "Open": 0.0925000011920929,
-        "Volume": 0
-      },
-      {
-        "Close": 0.08579999953508377,
-        "High": 0.08579999953508377,
-        "Low": 0.08579999953508377,
-        "Open": 0.08579999953508377,
-        "Volume": 400
-      },
-      {
-        "Close": 0.09939999878406525,
-        "High": 0.09939999878406525,
-        "Low": 0.08240000158548355,
-        "Open": 0.08500000089406967,
-        "Volume": 7900
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -655,7 +632,8 @@
       ]
     },
     "recommendations": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   },
   "holders_data": {

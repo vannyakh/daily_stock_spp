@@ -1,9 +1,32 @@
 {
   "ticker": "MAXD",
-  "timestamp": "2025-11-04T04:33:38.424753",
+  "timestamp": "2025-11-05T04:34:55.259753",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 3,
+    "data": [
+      {
+        "Close SINC": 1.100000023841858,
+        "High SINC": 1.100000023841858,
+        "Low SINC": 1.100000023841858,
+        "Open SINC": 1.100000023841858,
+        "Volume SINC": 0
+      },
+      {
+        "Close SINC": 4.5,
+        "High SINC": 4.5,
+        "Low SINC": 4.5,
+        "Open SINC": 4.5,
+        "Volume SINC": 55
+      },
+      {
+        "Close SINC": 2.130000114440918,
+        "High SINC": 2.130000114440918,
+        "Low SINC": 2.130000114440918,
+        "Open SINC": 2.130000114440918,
+        "Volume SINC": 8
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -11,12 +34,44 @@
   },
   "financials": {
     "income_statement": {
-      "status": "success",
-      "rows": 36,
-      "columns": [
-        "2021-12-31 00:00:00",
-        "2020-12-31 00:00:00"
-      ],
-      "data": [
-        {
-          
+      "status": "no_data"
+    },
+    "balance_sheet": {
+      "status": "no_data"
+    },
+    "cash_flow": {
+      "status": "no_data"
+    }
+  },
+  "options_data": {
+    "status": "error",
+    "error_message": "Too Many Requests. Rate limited. Try after a while."
+  },
+  "news_data": {
+    "news": {
+      "status": "no_data"
+    },
+    "recommendations": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  },
+  "holders_data": {
+    "major_holders": {
+      "status": "error"
+    },
+    "institutional_holders": {
+      "status": "error"
+    }
+  },
+  "earnings_data": {
+    "earnings": {
+      "status": "error",
+      "message": "'NoneType' object has no attribute 'empty'"
+    },
+    "calendar": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  }
+}

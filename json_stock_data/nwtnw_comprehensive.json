@@ -1,9 +1,25 @@
 {
   "ticker": "NWTNW",
-  "timestamp": "2025-11-04T04:35:15.582020",
+  "timestamp": "2025-11-05T04:36:23.052018",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 2,
+    "data": [
+      {
+        "Close TBMCR": 0.2605000138282776,
+        "High TBMCR": 0.28999999165534973,
+        "Low TBMCR": 0.2605000138282776,
+        "Open TBMCR": 0.28999999165534973,
+        "Volume TBMCR": 0
+      },
+      {
+        "Close TBMCR": 0.33000001311302185,
+        "High TBMCR": 0.33000001311302185,
+        "Low TBMCR": 0.33000001311302185,
+        "Open TBMCR": 0.33000001311302185,
+        "Volume TBMCR": 100
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -99,10 +115,10 @@
   },
   "holders_data": {
     "major_holders": {
-      "status": "no_data"
+      "status": "error"
     },
     "institutional_holders": {
-      "status": "no_data"
+      "status": "error"
     }
   },
   "earnings_data": {
@@ -112,7 +128,7 @@
     },
     "calendar": {
       "status": "error",
-      "message": "'dict' object has no attribute 'empty'"
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   }
 }

@@ -1,25 +1,9 @@
 {
   "ticker": "EQOSQ",
-  "timestamp": "2025-11-04T04:28:31.933882",
+  "timestamp": "2025-11-05T04:30:03.981191",
   "intraday_data": {
-    "status": "success",
-    "rows": 2,
-    "data": [
-      {
-        "Close SKVI": 0.3499999940395355,
-        "High SKVI": 0.3499999940395355,
-        "Low SKVI": 0.3499999940395355,
-        "Open SKVI": 0.3499999940395355,
-        "Volume SKVI": 0
-      },
-      {
-        "Close SKVI": 0.3499999940395355,
-        "High SKVI": 0.3499999940395355,
-        "Low SKVI": 0.3499999940395355,
-        "Open SKVI": 0.3499999940395355,
-        "Volume SKVI": 500
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -33,12 +17,38 @@
       "status": "no_data"
     },
     "cash_flow": {
-      "status": "success",
-      "rows": 67,
-      "columns": [
-        "2022-03-31 00:00:00",
-        "2021-03-31 00:00:00"
-      ],
-      "data": [
-        {
-          
+      "status": "no_data"
+    }
+  },
+  "options_data": {
+    "status": "error",
+    "error_message": "Too Many Requests. Rate limited. Try after a while."
+  },
+  "news_data": {
+    "news": {
+      "status": "no_data"
+    },
+    "recommendations": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  },
+  "holders_data": {
+    "major_holders": {
+      "status": "error"
+    },
+    "institutional_holders": {
+      "status": "error"
+    }
+  },
+  "earnings_data": {
+    "earnings": {
+      "status": "error",
+      "message": "'NoneType' object has no attribute 'empty'"
+    },
+    "calendar": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  }
+}

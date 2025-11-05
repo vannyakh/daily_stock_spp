@@ -1,34 +1,13 @@
 {
   "ticker": "RCFWF",
-  "timestamp": "2025-11-04T04:34:25.398868",
+  "timestamp": "2025-11-05T04:35:34.085730",
   "intraday_data": {
-    "status": "success",
-    "rows": 1,
-    "data": [
-      {
-        "Close WTMAR": 0.6600000262260437,
-        "High WTMAR": 0.6600000262260437,
-        "Low WTMAR": 0.6600000262260437,
-        "Open WTMAR": 0.6600000262260437,
-        "Volume WTMAR": 0
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
-    "status": "success",
-    "data": {
-      "quoteType": "NONE",
-      "symbol": "RCFWF",
-      "language": "en-US",
-      "region": "US",
-      "triggerable": false,
-      "customPriceAlertConfidence": "NONE",
-      "esgPopulated": false,
-      "hasPrePostMarketData": false,
-      "financialCurrency": "USD",
-      "tradeable": false,
-      "cryptoTradeable": false
-    }
+    "status": "error",
+    "message": "Too Many Requests. Rate limited. Try after a while."
   },
   "financials": {
     "income_statement": {
@@ -42,7 +21,8 @@
     }
   },
   "options_data": {
-    "expirations": []
+    "status": "error",
+    "error_message": "Too Many Requests. Rate limited. Try after a while."
   },
   "news_data": {
     "news": {

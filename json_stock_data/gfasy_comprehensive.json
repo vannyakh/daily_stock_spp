@@ -1,32 +1,9 @@
 {
   "ticker": "GFASY",
-  "timestamp": "2025-11-04T04:32:33.692648",
+  "timestamp": "2025-11-05T04:33:59.897643",
   "intraday_data": {
-    "status": "success",
-    "rows": 3,
-    "data": [
-      {
-        "Close CIZN": 6.800000190734863,
-        "High CIZN": 6.800000190734863,
-        "Low CIZN": 6.800000190734863,
-        "Open CIZN": 6.800000190734863,
-        "Volume CIZN": 100
-      },
-      {
-        "Close CIZN": 6.75,
-        "High CIZN": 6.75,
-        "Low CIZN": 6.75,
-        "Open CIZN": 6.75,
-        "Volume CIZN": 100
-      },
-      {
-        "Close CIZN": 6.699999809265137,
-        "High CIZN": 6.699999809265137,
-        "Low CIZN": 6.699999809265137,
-        "Open CIZN": 6.699999809265137,
-        "Volume CIZN": 100
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -49,7 +26,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

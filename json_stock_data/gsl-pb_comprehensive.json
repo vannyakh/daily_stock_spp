@@ -1,9 +1,39 @@
 {
   "ticker": "GSL-PB",
-  "timestamp": "2025-11-04T04:32:28.968268",
+  "timestamp": "2025-11-05T04:33:55.831293",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 4,
+    "data": [
+      {
+        "Close BCTF": 13.619999885559082,
+        "High BCTF": 13.619999885559082,
+        "Low BCTF": 13.619999885559082,
+        "Open BCTF": 13.619999885559082,
+        "Volume BCTF": 0
+      },
+      {
+        "Close BCTF": 13.619999885559082,
+        "High BCTF": 13.619999885559082,
+        "Low BCTF": 13.619999885559082,
+        "Open BCTF": 13.619999885559082,
+        "Volume BCTF": 168
+      },
+      {
+        "Close BCTF": 13.609999656677246,
+        "High BCTF": 13.609999656677246,
+        "Low BCTF": 13.609999656677246,
+        "Open BCTF": 13.609999656677246,
+        "Volume BCTF": 1600
+      },
+      {
+        "Close BCTF": 13.600000381469727,
+        "High BCTF": 13.600000381469727,
+        "Low BCTF": 13.600000381469727,
+        "Open BCTF": 13.600000381469727,
+        "Volume BCTF": 124
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -642,7 +672,8 @@
       ]
     },
     "recommendations": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   },
   "holders_data": {
