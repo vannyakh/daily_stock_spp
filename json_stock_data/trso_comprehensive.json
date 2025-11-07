@@ -1,25 +1,9 @@
 {
   "ticker": "TRSO",
-  "timestamp": "2025-11-05T04:36:50.988530",
+  "timestamp": "2025-11-07T05:05:31.052130",
   "intraday_data": {
-    "status": "success",
-    "rows": 2,
-    "data": [
-      {
-        "Close CPRDX": 11.40999984741211,
-        "High CPRDX": 11.40999984741211,
-        "Low CPRDX": 11.40999984741211,
-        "Open CPRDX": 11.40999984741211,
-        "Volume CPRDX": 0
-      },
-      {
-        "Close CPRDX": 11.420000076293945,
-        "High CPRDX": 11.420000076293945,
-        "Low CPRDX": 11.420000076293945,
-        "Open CPRDX": 11.420000076293945,
-        "Volume CPRDX": 0
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -27,15 +11,44 @@
   },
   "financials": {
     "income_statement": {
-      "status": "success",
-      "rows": 46,
-      "columns": [
-        "2024-11-30 00:00:00",
-        "2023-11-30 00:00:00",
-        "2022-11-30 00:00:00",
-        "2021-11-30 00:00:00",
-        "2020-11-30 00:00:00"
-      ],
-      "data": [
-        {
-          
+      "status": "no_data"
+    },
+    "balance_sheet": {
+      "status": "no_data"
+    },
+    "cash_flow": {
+      "status": "no_data"
+    }
+  },
+  "options_data": {
+    "status": "error",
+    "error_message": "Too Many Requests. Rate limited. Try after a while."
+  },
+  "news_data": {
+    "news": {
+      "status": "no_data"
+    },
+    "recommendations": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  },
+  "holders_data": {
+    "major_holders": {
+      "status": "error"
+    },
+    "institutional_holders": {
+      "status": "error"
+    }
+  },
+  "earnings_data": {
+    "earnings": {
+      "status": "error",
+      "message": "'NoneType' object has no attribute 'empty'"
+    },
+    "calendar": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  }
+}

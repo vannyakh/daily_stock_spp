@@ -1,25 +1,9 @@
 {
   "ticker": "ILST",
-  "timestamp": "2025-11-05T04:29:57.819169",
+  "timestamp": "2025-11-07T04:52:29.470842",
   "intraday_data": {
-    "status": "success",
-    "rows": 2,
-    "data": [
-      {
-        "Close": 0.0003000000142492354,
-        "High": 0.0003000000142492354,
-        "Low": 0.0003000000142492354,
-        "Open": 0.0003000000142492354,
-        "Volume": 0
-      },
-      {
-        "Close": 0.0003000000142492354,
-        "High": 0.0003000000142492354,
-        "Low": 0.0003000000142492354,
-        "Open": 0.0003000000142492354,
-        "Volume": 1000
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -42,7 +26,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

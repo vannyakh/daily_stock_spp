@@ -1,9 +1,18 @@
 {
   "ticker": "SRRIX",
-  "timestamp": "2025-11-05T04:37:50.372362",
+  "timestamp": "2025-11-07T05:07:27.561109",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 1,
+    "data": [
+      {
+        "Close GMBLZ": 0.0007999999797903001,
+        "High GMBLZ": 0.0010000000474974513,
+        "Low GMBLZ": 0.0007999999797903001,
+        "Open GMBLZ": 0.0010000000474974513,
+        "Volume GMBLZ": 0
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -29,7 +38,8 @@
       "status": "no_data"
     },
     "recommendations": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   },
   "holders_data": {

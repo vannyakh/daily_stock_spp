@@ -1,25 +1,9 @@
 {
   "ticker": "JETMF",
-  "timestamp": "2025-11-05T04:25:54.548080",
+  "timestamp": "2025-11-07T04:44:27.272438",
   "intraday_data": {
-    "status": "success",
-    "rows": 2,
-    "data": [
-      {
-        "Close": 0.7850000262260437,
-        "High": 0.7850000262260437,
-        "Low": 0.7850000262260437,
-        "Open": 0.7850000262260437,
-        "Volume": 0
-      },
-      {
-        "Close": 0.7450000047683716,
-        "High": 0.75,
-        "Low": 0.7450000047683716,
-        "Open": 0.75,
-        "Volume": 23100
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -42,8 +26,71 @@
   },
   "news_data": {
     "news": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
+      "status": "success",
+      "count": 1,
+      "data": [
+        {
+          "id": "f1c4e2ca-6f21-3b16-8128-6ef48ffe4eac",
+          "content": {
+            "id": "f1c4e2ca-6f21-3b16-8128-6ef48ffe4eac",
+            "contentType": "STORY",
+            "title": "DHL extends short-term cargo contract with Global Crossing Airlines",
+            "description": "",
+            "summary": "DHL Express has extended its trial contract with Global Crossing Airlines, a Miami-based provider of dedicated contract air and as-needed charter flights, by four months, Global Crossing said in its earnings report last week. Global Crossing Airlines (OTCQB: JETMF) operates four Airbus A321 converted cargo jets in addition to 15 Airbus passenger aircraft. In April, [\u2026] The post DHL extends short-term cargo contract with Global Crossing Airlines appeared first on FreightWaves.",
+            "pubDate": "2025-08-22T13:01:13Z",
+            "displayTime": "2025-08-22T13:01:13Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": {
+              "originalUrl": "https://media.zenfs.com/en/freightwaves_373/dd136a415ae2a3aa476cd2cbbe1cb745",
+              "originalWidth": 1178,
+              "originalHeight": 663,
+              "caption": "Cargo door is open on airplane with light-blue X painted on side, with stairs leading to cockpit door.",
+              "resolutions": [
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/DMTKXsNJP_jZZi8VrVZakA--~B/aD02NjM7dz0xMTc4O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/freightwaves_373/dd136a415ae2a3aa476cd2cbbe1cb745",
+                  "width": 1178,
+                  "height": 663,
+                  "tag": "original"
+                },
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/fgf7vBAZhzZ3TaQKhiodaw--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/freightwaves_373/dd136a415ae2a3aa476cd2cbbe1cb745",
+                  "width": 170,
+                  "height": 128,
+                  "tag": "170x128"
+                }
+              ]
+            },
+            "provider": {
+              "displayName": "FreightWaves",
+              "url": "https://www.freightwaves.com"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/dhl-extends-short-term-cargo-130113565.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/dhl-extends-short-term-cargo-130113565.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        }
+      ]
     },
     "recommendations": {
       "status": "error",

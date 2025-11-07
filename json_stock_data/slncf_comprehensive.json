@@ -1,34 +1,496 @@
 {
   "ticker": "SLNCF",
-  "timestamp": "2025-11-05T04:33:43.682887",
+  "timestamp": "2025-11-07T04:59:45.786903",
   "intraday_data": {
-    "status": "success",
-    "rows": 1,
-    "data": [
-      {
-        "Close": 1.600000023841858,
-        "High": 1.600000023841858,
-        "Low": 1.600000023841858,
-        "Open": 1.600000023841858,
-        "Volume": 101
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
-    "message": "argument of type 'NoneType' is not iterable"
+    "message": "Too Many Requests. Rate limited. Try after a while."
   },
   "financials": {
     "income_statement": {
+      "status": "no_data"
+    },
+    "balance_sheet": {
+      "status": "no_data"
+    },
+    "cash_flow": {
+      "status": "no_data"
+    }
+  },
+  "options_data": {
+    "status": "error",
+    "error_message": "Too Many Requests. Rate limited. Try after a while."
+  },
+  "news_data": {
+    "news": {
       "status": "success",
-      "rows": 48,
-      "columns": [
-        "2024-12-31 00:00:00",
-        "2023-12-31 00:00:00",
-        "2022-12-31 00:00:00",
-        "2021-12-31 00:00:00",
-        "2020-12-31 00:00:00"
-      ],
+      "count": 10,
       "data": [
         {
-          
+          "id": "6ee110ec-0063-3c8b-a629-f6e693d384db",
+          "content": {
+            "id": "6ee110ec-0063-3c8b-a629-f6e693d384db",
+            "contentType": "STORY",
+            "title": "European Equities Traded in the US as American Depositary Receipts Little Changed in Tuesday",
+            "description": "",
+            "summary": "European equities traded in the US as American depositary receipts were little changed late Tuesday",
+            "pubDate": "2025-10-28T14:59:08Z",
+            "displayTime": "2025-10-28T14:59:08Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": null,
+            "provider": {
+              "displayName": "MT Newswires",
+              "url": "https://www.mtnewswires.com/"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/european-equities-traded-us-american-145908480.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/european-equities-traded-us-american-145908480.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": true,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        },
+        {
+          "id": "6960dc88-4623-3597-a269-e4c08c55172a",
+          "content": {
+            "id": "6960dc88-4623-3597-a269-e4c08c55172a",
+            "contentType": "STORY",
+            "title": "Is Silence Therapeutics (NASDAQ:SLN) In A Good Position To Deliver On Growth Plans?",
+            "description": "",
+            "summary": "Just because a business does not make any money, does not mean that the stock will go down. For example, although...",
+            "pubDate": "2025-10-17T13:45:19Z",
+            "displayTime": "2025-10-17T13:45:19Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": {
+              "originalUrl": "https://media.zenfs.com/en/simply_wall_st__316/2b615bb0216a492e754128412857f305",
+              "originalWidth": 1194,
+              "originalHeight": 432,
+              "caption": "",
+              "resolutions": [
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/fZxxC7WFAddugsI0.C6IZw--~B/aD00MzI7dz0xMTk0O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/simply_wall_st__316/2b615bb0216a492e754128412857f305",
+                  "width": 1194,
+                  "height": 432,
+                  "tag": "original"
+                },
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/FiWMhIU1r.JPHCUDRXdqDg--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/simply_wall_st__316/2b615bb0216a492e754128412857f305",
+                  "width": 170,
+                  "height": 128,
+                  "tag": "170x128"
+                }
+              ]
+            },
+            "provider": {
+              "displayName": "Simply Wall St.",
+              "url": "https://simplywall.st/"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/silence-therapeutics-nasdaq-sln-good-134519884.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/silence-therapeutics-nasdaq-sln-good-134519884.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        },
+        {
+          "id": "a3b43cbe-d8ad-3e2f-b161-228977a335af",
+          "content": {
+            "id": "a3b43cbe-d8ad-3e2f-b161-228977a335af",
+            "contentType": "STORY",
+            "title": "European Equities Traded in the US as American Depositary Receipts Rise Modestly in Wednesday Trading",
+            "description": "",
+            "summary": "European equities traded in the US as American depositary receipts were tracking modestly higher lat",
+            "pubDate": "2025-10-15T14:57:29Z",
+            "displayTime": "2025-10-15T14:57:29Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": null,
+            "provider": {
+              "displayName": "MT Newswires",
+              "url": "https://www.mtnewswires.com/"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/european-equities-traded-us-american-145729567.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/european-equities-traded-us-american-145729567.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": true,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        },
+        {
+          "id": "e428fbb2-ddc7-358c-a8ca-7092e7628f03",
+          "content": {
+            "id": "e428fbb2-ddc7-358c-a8ca-7092e7628f03",
+            "contentType": "STORY",
+            "title": "European Equities Traded in the US as American Depositary Receipts Start Week Higher in Monday Trading",
+            "description": "",
+            "summary": "European equities traded in the US as American depositary receipts opened the week higher late Monda",
+            "pubDate": "2025-10-13T15:09:48Z",
+            "displayTime": "2025-10-13T15:09:48Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": null,
+            "provider": {
+              "displayName": "MT Newswires",
+              "url": "https://www.mtnewswires.com/"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/european-equities-traded-us-american-150948454.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/european-equities-traded-us-american-150948454.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": true,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        },
+        {
+          "id": "8f911b28-f41d-3443-b452-78cb8b1398c4",
+          "content": {
+            "id": "8f911b28-f41d-3443-b452-78cb8b1398c4",
+            "contentType": "STORY",
+            "title": "European Equities Traded in the US as American Depositary Receipts Fall in Friday Trading, Down 2.8% for Week",
+            "description": "",
+            "summary": "European equities traded in the US as American depositary receipts were lower late Friday morning, f",
+            "pubDate": "2025-10-10T15:29:40Z",
+            "displayTime": "2025-10-10T15:29:40Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": null,
+            "provider": {
+              "displayName": "MT Newswires",
+              "url": "https://www.mtnewswires.com/"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/european-equities-traded-us-american-152940684.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/european-equities-traded-us-american-152940684.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": true,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        },
+        {
+          "id": "fb9d8808-76b7-35aa-a326-2f70648537ca",
+          "content": {
+            "id": "fb9d8808-76b7-35aa-a326-2f70648537ca",
+            "contentType": "STORY",
+            "title": "European Equities Traded in the US as American Depositary Receipts Trend Lower  in Thursday Trading",
+            "description": "",
+            "summary": "European equities traded in the US as American depositary receipts were trending lower late Thursday",
+            "pubDate": "2025-10-09T15:04:34Z",
+            "displayTime": "2025-10-09T15:04:34Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": null,
+            "provider": {
+              "displayName": "MT Newswires",
+              "url": "https://www.mtnewswires.com/"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/european-equities-traded-us-american-150434578.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/european-equities-traded-us-american-150434578.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": true,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        },
+        {
+          "id": "ed0eb60d-99f3-3022-8d02-816fb8a24b98",
+          "content": {
+            "id": "ed0eb60d-99f3-3022-8d02-816fb8a24b98",
+            "contentType": "STORY",
+            "title": "European Equities Traded in the US as American Depositary Receipts Rise Tuesday Trading",
+            "description": "",
+            "summary": "European equities traded in the US as American depositary receipts were tracking higher Tuesday morn",
+            "pubDate": "2025-09-23T15:09:20Z",
+            "displayTime": "2025-09-23T15:09:20Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": null,
+            "provider": {
+              "displayName": "MT Newswires",
+              "url": "https://www.mtnewswires.com/"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/european-equities-traded-us-american-150920602.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/european-equities-traded-us-american-150920602.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": true,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        },
+        {
+          "id": "b6ef84b5-4374-397c-9ff5-a1a662714ba1",
+          "content": {
+            "id": "b6ef84b5-4374-397c-9ff5-a1a662714ba1",
+            "contentType": "STORY",
+            "title": "European Equities Traded in the US as American Depositary Receipts Rise in Wednesday Trading",
+            "description": "",
+            "summary": "European equities traded in the US as American depositary receipts were higher Wednesday morning, ri",
+            "pubDate": "2025-09-17T14:57:18Z",
+            "displayTime": "2025-09-17T14:57:18Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": null,
+            "provider": {
+              "displayName": "MT Newswires",
+              "url": "https://www.mtnewswires.com/"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/european-equities-traded-us-american-145718643.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/european-equities-traded-us-american-145718643.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": true,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        },
+        {
+          "id": "75869d6c-468e-3683-85b7-f814c76a107f",
+          "content": {
+            "id": "75869d6c-468e-3683-85b7-f814c76a107f",
+            "contentType": "STORY",
+            "title": "European Equities Traded in the US as American Depositary Receipts Rise in Thursday Trading",
+            "description": "",
+            "summary": "European equities traded in the US as American depositary receipts were higher Thursday morning, ris",
+            "pubDate": "2025-09-11T15:06:48Z",
+            "displayTime": "2025-09-11T15:06:48Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": null,
+            "provider": {
+              "displayName": "MT Newswires",
+              "url": "https://www.mtnewswires.com/"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/european-equities-traded-us-american-150648383.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/european-equities-traded-us-american-150648383.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": true,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        },
+        {
+          "id": "c6998e8d-b899-32ee-ba81-8a7e610a8fc6",
+          "content": {
+            "id": "c6998e8d-b899-32ee-ba81-8a7e610a8fc6",
+            "contentType": "STORY",
+            "title": "European Equities Traded in the US as ADRs Are Little Changed in Friday Trading",
+            "description": "",
+            "summary": "European equities traded in the US as American depositary receipts were little changed late Friday m",
+            "pubDate": "2025-09-05T15:12:45Z",
+            "displayTime": "2025-09-05T15:12:45Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": null,
+            "provider": {
+              "displayName": "MT Newswires",
+              "url": "https://www.mtnewswires.com/"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/european-equities-traded-us-adrs-151245169.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/european-equities-traded-us-adrs-151245169.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": true,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        }
+      ]
+    },
+    "recommendations": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  },
+  "holders_data": {
+    "major_holders": {
+      "status": "error"
+    },
+    "institutional_holders": {
+      "status": "error"
+    }
+  },
+  "earnings_data": {
+    "earnings": {
+      "status": "error",
+      "message": "'NoneType' object has no attribute 'empty'"
+    },
+    "calendar": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  }
+}

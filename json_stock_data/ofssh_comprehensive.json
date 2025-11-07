@@ -1,32 +1,9 @@
 {
   "ticker": "OFSSH",
-  "timestamp": "2025-11-05T04:40:23.645420",
+  "timestamp": "2025-11-07T05:12:38.001676",
   "intraday_data": {
-    "status": "success",
-    "rows": 3,
-    "data": [
-      {
-        "Close": 23.489999771118164,
-        "High": 23.489999771118164,
-        "Low": 23.489999771118164,
-        "Open": 23.489999771118164,
-        "Volume": 0
-      },
-      {
-        "Close": 23.489999771118164,
-        "High": 23.489999771118164,
-        "Low": 23.489999771118164,
-        "Open": 23.489999771118164,
-        "Volume": 89000
-      },
-      {
-        "Close": 23.489999771118164,
-        "High": 23.489999771118164,
-        "Low": 23.489999771118164,
-        "Open": 23.489999771118164,
-        "Volume": 86000
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -52,7 +29,8 @@
       "status": "no_data"
     },
     "recommendations": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   },
   "holders_data": {

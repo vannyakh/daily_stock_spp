@@ -1,53 +1,9 @@
 {
   "ticker": "DLNG-PA",
-  "timestamp": "2025-11-05T04:33:51.157421",
+  "timestamp": "2025-11-07T04:59:58.797835",
   "intraday_data": {
-    "status": "success",
-    "rows": 6,
-    "data": [
-      {
-        "Close WONDF": 0.20000000298023224,
-        "High WONDF": 0.20000000298023224,
-        "Low WONDF": 0.20000000298023224,
-        "Open WONDF": 0.20000000298023224,
-        "Volume WONDF": 0
-      },
-      {
-        "Close WONDF": 0.19300000369548798,
-        "High WONDF": 0.19499999284744263,
-        "Low WONDF": 0.19300000369548798,
-        "Open WONDF": 0.19499999284744263,
-        "Volume WONDF": 18000
-      },
-      {
-        "Close WONDF": 0.19499999284744263,
-        "High WONDF": 0.19499999284744263,
-        "Low WONDF": 0.19499999284744263,
-        "Open WONDF": 0.19499999284744263,
-        "Volume WONDF": 5000
-      },
-      {
-        "Close WONDF": 0.1899999976158142,
-        "High WONDF": 0.1899999976158142,
-        "Low WONDF": 0.1899999976158142,
-        "Open WONDF": 0.1899999976158142,
-        "Volume WONDF": 25000
-      },
-      {
-        "Close WONDF": 0.18080000579357147,
-        "High WONDF": 0.18080000579357147,
-        "Low WONDF": 0.18080000579357147,
-        "Open WONDF": 0.18080000579357147,
-        "Volume WONDF": 300
-      },
-      {
-        "Close WONDF": 0.1860000044107437,
-        "High WONDF": 0.1860000044107437,
-        "Low WONDF": 0.1860000044107437,
-        "Open WONDF": 0.1860000044107437,
-        "Volume WONDF": 7000
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -179,7 +135,8 @@
       ]
     },
     "recommendations": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   },
   "holders_data": {

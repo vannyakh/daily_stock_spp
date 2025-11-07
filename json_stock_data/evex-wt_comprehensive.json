@@ -1,9 +1,39 @@
 {
   "ticker": "EVEX-WT",
-  "timestamp": "2025-11-05T04:38:07.559724",
+  "timestamp": "2025-11-07T05:08:02.051856",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 4,
+    "data": [
+      {
+        "Close": 0.515999972820282,
+        "High": 0.515999972820282,
+        "Low": 0.515999972820282,
+        "Open": 0.515999972820282,
+        "Volume": 0
+      },
+      {
+        "Close": 0.5697000026702881,
+        "High": 0.5697000026702881,
+        "Low": 0.5697000026702881,
+        "Open": 0.5697000026702881,
+        "Volume": 0
+      },
+      {
+        "Close": 0.5,
+        "High": 0.5,
+        "Low": 0.5,
+        "Open": 0.5,
+        "Volume": 3200
+      },
+      {
+        "Close": 0.5666000247001648,
+        "High": 0.5666999816894531,
+        "Low": 0.5666000247001648,
+        "Open": 0.5666999816894531,
+        "Volume": 810
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -29,7 +59,8 @@
       "status": "no_data"
     },
     "recommendations": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   },
   "holders_data": {

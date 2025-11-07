@@ -1,9 +1,46 @@
 {
   "ticker": "JSHG",
-  "timestamp": "2025-11-05T04:34:26.753252",
+  "timestamp": "2025-11-07T05:01:06.455068",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 5,
+    "data": [
+      {
+        "Close": 0.004999999888241291,
+        "High": 0.004999999888241291,
+        "Low": 0.004999999888241291,
+        "Open": 0.004999999888241291,
+        "Volume": 0
+      },
+      {
+        "Close": 0.004999999888241291,
+        "High": 0.004999999888241291,
+        "Low": 0.004999999888241291,
+        "Open": 0.004999999888241291,
+        "Volume": 50000
+      },
+      {
+        "Close": 0.006200000178068876,
+        "High": 0.006200000178068876,
+        "Low": 0.006000000052154064,
+        "Open": 0.006000000052154064,
+        "Volume": 72778
+      },
+      {
+        "Close": 0.006000000052154064,
+        "High": 0.006000000052154064,
+        "Low": 0.006000000052154064,
+        "Open": 0.006000000052154064,
+        "Volume": 56294
+      },
+      {
+        "Close": 0.00419999985024333,
+        "High": 0.00419999985024333,
+        "Low": 0.00419999985024333,
+        "Open": 0.00419999985024333,
+        "Volume": 10326
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -17,12 +54,38 @@
       "status": "no_data"
     },
     "cash_flow": {
-      "status": "success",
-      "rows": 37,
-      "columns": [
-        "2021-12-31 00:00:00",
-        "2020-12-31 00:00:00"
-      ],
-      "data": [
-        {
-          
+      "status": "no_data"
+    }
+  },
+  "options_data": {
+    "status": "error",
+    "error_message": "Too Many Requests. Rate limited. Try after a while."
+  },
+  "news_data": {
+    "news": {
+      "status": "no_data"
+    },
+    "recommendations": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  },
+  "holders_data": {
+    "major_holders": {
+      "status": "error"
+    },
+    "institutional_holders": {
+      "status": "error"
+    }
+  },
+  "earnings_data": {
+    "earnings": {
+      "status": "error",
+      "message": "'NoneType' object has no attribute 'empty'"
+    },
+    "calendar": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  }
+}

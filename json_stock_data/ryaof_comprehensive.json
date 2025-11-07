@@ -1,6 +1,6 @@
 {
   "ticker": "RYAOF",
-  "timestamp": "2025-11-05T04:32:21.181554",
+  "timestamp": "2025-11-07T04:57:12.221142",
   "intraday_data": {
     "status": "no_data",
     "message": "No intraday data available"
@@ -619,10 +619,42 @@
   },
   "holders_data": {
     "major_holders": {
-      "status": "error"
+      "status": "success",
+      "data": [
+        {
+          "Value": 0.04127
+        },
+        {
+          "Value": 0.54799
+        },
+        {
+          "Value": 0.57158
+        },
+        {
+          "Value": 327.0
+        }
+      ]
     },
     "institutional_holders": {
-      "status": "error"
+      "status": "success",
+      "data": [
+        {
+          "Date Reported": "2025-06-30 00:00:00",
+          "Holder": "Old Mission Capital, LLC",
+          "pctHeld": 0.00029999999,
+          "Shares": 265970,
+          "Value": 7686532,
+          "pctChange": 1.0
+        },
+        {
+          "Date Reported": "2025-09-30 00:00:00",
+          "Holder": "Pacer Advisors, Inc.",
+          "pctHeld": 0.0,
+          "Shares": 4558,
+          "Value": 131726,
+          "pctChange": -0.0339
+        }
+      ]
     }
   },
   "earnings_data": {
@@ -632,7 +664,7 @@
     },
     "calendar": {
       "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
+      "message": "'dict' object has no attribute 'empty'"
     }
   }
 }

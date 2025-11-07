@@ -1,25 +1,9 @@
 {
   "ticker": "YELLQ",
-  "timestamp": "2025-11-05T04:33:59.293212",
+  "timestamp": "2025-11-07T05:00:15.435448",
   "intraday_data": {
-    "status": "success",
-    "rows": 2,
-    "data": [
-      {
-        "Close": 0.05050000175833702,
-        "High": 0.05050000175833702,
-        "Low": 0.05050000175833702,
-        "Open": 0.05050000175833702,
-        "Volume": 0
-      },
-      {
-        "Close": 0.05000000074505806,
-        "High": 0.05000000074505806,
-        "Low": 0.05000000074505806,
-        "Open": 0.05000000074505806,
-        "Volume": 300
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -658,7 +642,8 @@
       ]
     },
     "recommendations": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   },
   "holders_data": {

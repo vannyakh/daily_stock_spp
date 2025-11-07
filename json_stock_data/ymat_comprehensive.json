@@ -1,39 +1,9 @@
 {
   "ticker": "YMAT",
-  "timestamp": "2025-11-05T04:31:32.863373",
+  "timestamp": "2025-11-07T04:55:36.271540",
   "intraday_data": {
-    "status": "success",
-    "rows": 4,
-    "data": [
-      {
-        "Close WSBK": 9.640000343322754,
-        "High WSBK": 9.640000343322754,
-        "Low WSBK": 9.640000343322754,
-        "Open WSBK": 9.640000343322754,
-        "Volume WSBK": 0
-      },
-      {
-        "Close WSBK": 9.54010009765625,
-        "High WSBK": 9.54010009765625,
-        "Low WSBK": 9.539999961853027,
-        "Open WSBK": 9.539999961853027,
-        "Volume WSBK": 1023
-      },
-      {
-        "Close WSBK": 9.59000015258789,
-        "High WSBK": 9.59000015258789,
-        "Low WSBK": 9.59000015258789,
-        "Open WSBK": 9.59000015258789,
-        "Volume WSBK": 160
-      },
-      {
-        "Close WSBK": 9.640000343322754,
-        "High WSBK": 9.640000343322754,
-        "Low WSBK": 9.640000343322754,
-        "Open WSBK": 9.640000343322754,
-        "Volume WSBK": 100
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -123,7 +93,8 @@
       ]
     },
     "recommendations": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   },
   "holders_data": {

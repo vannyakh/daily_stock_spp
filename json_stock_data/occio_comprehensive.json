@@ -1,39 +1,9 @@
 {
   "ticker": "OCCIO",
-  "timestamp": "2025-11-05T04:36:06.788645",
+  "timestamp": "2025-11-07T05:04:11.541006",
   "intraday_data": {
-    "status": "success",
-    "rows": 4,
-    "data": [
-      {
-        "Close": 24.988000869750977,
-        "High": 24.988000869750977,
-        "Low": 24.988000869750977,
-        "Open": 24.988000869750977,
-        "Volume": 0
-      },
-      {
-        "Close": 24.979999542236328,
-        "High": 24.979999542236328,
-        "Low": 24.979999542236328,
-        "Open": 24.979999542236328,
-        "Volume": 235
-      },
-      {
-        "Close": 24.950000762939453,
-        "High": 24.959999084472656,
-        "Low": 24.950000762939453,
-        "Open": 24.959999084472656,
-        "Volume": 537
-      },
-      {
-        "Close": 25.049999237060547,
-        "High": 25.049999237060547,
-        "Low": 25.049999237060547,
-        "Open": 25.049999237060547,
-        "Volume": 345
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -59,39 +29,16 @@
       "status": "no_data"
     },
     "recommendations": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   },
   "holders_data": {
     "major_holders": {
-      "status": "success",
-      "data": [
-        {
-          "Value": 0.0
-        },
-        {
-          "Value": 0.0211
-        },
-        {
-          "Value": 0.0211
-        },
-        {
-          "Value": 2.0
-        }
-      ]
+      "status": "error"
     },
     "institutional_holders": {
-      "status": "success",
-      "data": [
-        {
-          "Date Reported": "2025-06-30 00:00:00",
-          "Holder": "Nbc Securities, Inc.                          ",
-          "pctHeld": 0.0018000001,
-          "Shares": 1400,
-          "Value": 35069,
-          "pctChange": 1.0
-        }
-      ]
+      "status": "error"
     }
   },
   "earnings_data": {
@@ -101,7 +48,7 @@
     },
     "calendar": {
       "status": "error",
-      "message": "'dict' object has no attribute 'empty'"
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   }
 }

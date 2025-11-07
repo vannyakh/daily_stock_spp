@@ -1,74 +1,9 @@
 {
   "ticker": "SNPX",
-  "timestamp": "2025-11-05T04:29:03.016197",
+  "timestamp": "2025-11-07T04:50:37.432421",
   "intraday_data": {
-    "status": "success",
-    "rows": 9,
-    "data": [
-      {
-        "Close URZEF": 0.2549999952316284,
-        "High URZEF": 0.2549999952316284,
-        "Low URZEF": 0.2549999952316284,
-        "Open URZEF": 0.2549999952316284,
-        "Volume URZEF": 0
-      },
-      {
-        "Close URZEF": 0.23999999463558197,
-        "High URZEF": 0.23999999463558197,
-        "Low URZEF": 0.23999999463558197,
-        "Open URZEF": 0.23999999463558197,
-        "Volume URZEF": 2500
-      },
-      {
-        "Close URZEF": 0.24300000071525574,
-        "High URZEF": 0.24300000071525574,
-        "Low URZEF": 0.24300000071525574,
-        "Open URZEF": 0.24300000071525574,
-        "Volume URZEF": 452
-      },
-      {
-        "Close URZEF": 0.24300000071525574,
-        "High URZEF": 0.24300000071525574,
-        "Low URZEF": 0.24300000071525574,
-        "Open URZEF": 0.24300000071525574,
-        "Volume URZEF": 4000
-      },
-      {
-        "Close URZEF": 0.24300000071525574,
-        "High URZEF": 0.24300000071525574,
-        "Low URZEF": 0.24300000071525574,
-        "Open URZEF": 0.24300000071525574,
-        "Volume URZEF": 4500
-      },
-      {
-        "Close URZEF": 0.24300000071525574,
-        "High URZEF": 0.24300000071525574,
-        "Low URZEF": 0.24300000071525574,
-        "Open URZEF": 0.24300000071525574,
-        "Volume URZEF": 3500
-      },
-      {
-        "Close URZEF": 0.2492000013589859,
-        "High URZEF": 0.2492000013589859,
-        "Low URZEF": 0.2492000013589859,
-        "Open URZEF": 0.2492000013589859,
-        "Volume URZEF": 4000
-      },
-      {
-        "Close URZEF": 0.2492000013589859,
-        "High URZEF": 0.2492000013589859,
-        "Low URZEF": 0.2492000013589859,
-        "Open URZEF": 0.2492000013589859,
-        "Volume URZEF": 1170
-      },
-      {
-        "Close URZEF": 0.2492000013589859,
-        "High URZEF": 0.2492000013589859,
-        "Low URZEF": 0.2492000013589859,
-        "Open URZEF": 0.2492000013589859,
-        "Volume URZEF": 1000
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -91,7 +26,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

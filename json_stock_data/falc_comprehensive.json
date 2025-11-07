@@ -1,18 +1,9 @@
 {
   "ticker": "FALC",
-  "timestamp": "2025-11-05T04:34:19.575001",
+  "timestamp": "2025-11-07T05:00:51.847976",
   "intraday_data": {
-    "status": "success",
-    "rows": 1,
-    "data": [
-      {
-        "Close": 1.649999976158142,
-        "High": 1.649999976158142,
-        "Low": 1.649999976158142,
-        "Open": 1.649999976158142,
-        "Volume": 200
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -20,173 +11,14 @@
   },
   "financials": {
     "income_statement": {
-      "status": "no_data"
-    },
-    "balance_sheet": {
-      "status": "no_data"
-    },
-    "cash_flow": {
-      "status": "no_data"
-    }
-  },
-  "options_data": {
-    "status": "error",
-    "error_message": "Too Many Requests. Rate limited. Try after a while."
-  },
-  "news_data": {
-    "news": {
       "status": "success",
-      "count": 3,
+      "rows": 46,
+      "columns": [
+        "2023-12-31 00:00:00",
+        "2022-12-31 00:00:00",
+        "2021-12-31 00:00:00",
+        "2020-12-31 00:00:00"
+      ],
       "data": [
         {
-          "id": "ae31cfaa-54f3-3d23-8647-0b36757ae8da",
-          "content": {
-            "id": "ae31cfaa-54f3-3d23-8647-0b36757ae8da",
-            "contentType": "STORY",
-            "title": "FalconStor Software: Q2 Earnings Snapshot",
-            "description": "",
-            "summary": "AUSTIN, Texas (AP) \u2014 FalconStor Software Inc. FALC) on Wednesday reported a loss of $545,000 in its second quarter. On a per-share basis, the Austin, Texas-based company said it had a loss of 11 cents.",
-            "pubDate": "2025-08-06T22:37:31Z",
-            "displayTime": "2025-08-06T22:37:31Z",
-            "isHosted": true,
-            "bypassModal": false,
-            "previewUrl": null,
-            "thumbnail": null,
-            "provider": {
-              "displayName": "Associated Press Finance",
-              "url": "http://www.ap.org/"
-            },
-            "canonicalUrl": {
-              "url": "https://finance.yahoo.com/news/falconstor-software-q2-earnings-snapshot-223731819.html",
-              "site": "finance",
-              "region": "US",
-              "lang": "en-US"
-            },
-            "clickThroughUrl": {
-              "url": "https://finance.yahoo.com/news/falconstor-software-q2-earnings-snapshot-223731819.html",
-              "site": "finance",
-              "region": "US",
-              "lang": "en-US"
-            },
-            "metadata": {
-              "editorsPick": false
-            },
-            "finance": {
-              "premiumFinance": {
-                "isPremiumNews": false,
-                "isPremiumFreeNews": false
-              }
-            },
-            "storyline": null
-          }
-        },
-        {
-          "id": "da366371-7b5e-374f-9faa-eed556ce1d7c",
-          "content": {
-            "id": "da366371-7b5e-374f-9faa-eed556ce1d7c",
-            "contentType": "STORY",
-            "title": "FalconStor Software: Q1 Earnings Snapshot",
-            "description": "",
-            "summary": "AUSTIN, Texas (AP) \u2014 FalconStor Software Inc. FALC) on Wednesday reported earnings of $79,000 in its first quarter. On a per-share basis, the Austin, Texas-based company said it had net loss of 6 cents.",
-            "pubDate": "2025-05-07T22:59:09Z",
-            "displayTime": "2025-05-07T22:59:09Z",
-            "isHosted": true,
-            "bypassModal": false,
-            "previewUrl": null,
-            "thumbnail": null,
-            "provider": {
-              "displayName": "Associated Press Finance",
-              "url": "http://www.ap.org/"
-            },
-            "canonicalUrl": {
-              "url": "https://finance.yahoo.com/news/falconstor-software-q1-earnings-snapshot-225909229.html",
-              "site": "finance",
-              "region": "US",
-              "lang": "en-US"
-            },
-            "clickThroughUrl": {
-              "url": "https://finance.yahoo.com/news/falconstor-software-q1-earnings-snapshot-225909229.html",
-              "site": "finance",
-              "region": "US",
-              "lang": "en-US"
-            },
-            "metadata": {
-              "editorsPick": false
-            },
-            "finance": {
-              "premiumFinance": {
-                "isPremiumNews": false,
-                "isPremiumFreeNews": false
-              }
-            },
-            "storyline": null
-          }
-        },
-        {
-          "id": "c932ce05-da34-37de-ab20-d4d9973a3c36",
-          "content": {
-            "id": "c932ce05-da34-37de-ab20-d4d9973a3c36",
-            "contentType": "STORY",
-            "title": "FalconStor Software: Q3 Earnings Snapshot",
-            "description": "",
-            "summary": "AUSTIN, Texas (AP) \u2014 FalconStor Software Inc. FALC) on Wednesday reported earnings of $677,000 in its third quarter. On a per-share basis, the Austin, Texas-based company said it had profit of 3 cents.",
-            "pubDate": "2024-11-06T22:36:37Z",
-            "displayTime": "2024-11-06T22:36:37Z",
-            "isHosted": true,
-            "bypassModal": false,
-            "previewUrl": null,
-            "thumbnail": null,
-            "provider": {
-              "displayName": "Associated Press Finance",
-              "url": "http://www.ap.org/"
-            },
-            "canonicalUrl": {
-              "url": "https://finance.yahoo.com/news/falconstor-software-q3-earnings-snapshot-223637456.html",
-              "site": "finance",
-              "region": "US",
-              "lang": "en-US"
-            },
-            "clickThroughUrl": {
-              "url": "https://finance.yahoo.com/news/falconstor-software-q3-earnings-snapshot-223637456.html",
-              "site": "finance",
-              "region": "US",
-              "lang": "en-US"
-            },
-            "metadata": {
-              "editorsPick": false
-            },
-            "finance": {
-              "premiumFinance": {
-                "isPremiumNews": false,
-                "isPremiumFreeNews": false
-              }
-            },
-            "storyline": null
-          }
-        }
-      ]
-    },
-    "recommendations": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
-    }
-  },
-  "holders_data": {
-    "major_holders": {
-      "status": "error"
-    },
-    "institutional_holders": {
-      "status": "error"
-    }
-  },
-  "earnings_data": {
-    "earnings": {
-      "status": "error",
-      "message": "'NoneType' object has no attribute 'empty'"
-    },
-    "calendar": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
-    }
-  }
-}
+          

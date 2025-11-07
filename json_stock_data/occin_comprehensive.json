@@ -1,39 +1,9 @@
 {
   "ticker": "OCCIN",
-  "timestamp": "2025-11-05T04:36:06.734178",
+  "timestamp": "2025-11-07T05:04:10.454902",
   "intraday_data": {
-    "status": "success",
-    "rows": 4,
-    "data": [
-      {
-        "Close OCCIO": 24.988000869750977,
-        "High OCCIO": 24.988000869750977,
-        "Low OCCIO": 24.988000869750977,
-        "Open OCCIO": 24.988000869750977,
-        "Volume OCCIO": 0
-      },
-      {
-        "Close OCCIO": 24.979999542236328,
-        "High OCCIO": 24.979999542236328,
-        "Low OCCIO": 24.979999542236328,
-        "Open OCCIO": 24.979999542236328,
-        "Volume OCCIO": 235
-      },
-      {
-        "Close OCCIO": 24.950000762939453,
-        "High OCCIO": 24.959999084472656,
-        "Low OCCIO": 24.950000762939453,
-        "Open OCCIO": 24.959999084472656,
-        "Volume OCCIO": 537
-      },
-      {
-        "Close OCCIO": 25.049999237060547,
-        "High OCCIO": 25.049999237060547,
-        "Low OCCIO": 25.049999237060547,
-        "Open OCCIO": 25.049999237060547,
-        "Volume OCCIO": 345
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -68,17 +38,7 @@
       "status": "error"
     },
     "institutional_holders": {
-      "status": "success",
-      "data": [
-        {
-          "Date Reported": "2025-08-31 00:00:00",
-          "Holder": "High Income Securities Fund",
-          "pctHeld": 0.0429,
-          "Shares": 60000,
-          "Value": 1460400,
-          "pctChange": 0.0
-        }
-      ]
+      "status": "error"
     }
   },
   "earnings_data": {
@@ -88,7 +48,7 @@
     },
     "calendar": {
       "status": "error",
-      "message": "'dict' object has no attribute 'empty'"
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   }
 }
