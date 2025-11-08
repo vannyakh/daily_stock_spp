@@ -1,14 +1,43 @@
 {
   "ticker": "GMBL",
-  "timestamp": "2025-11-07T05:01:30.193337",
+  "timestamp": "2025-11-08T04:48:33.954140",
   "intraday_data": {
     "status": "success",
-    "rows": 0,
-    "data": []
+    "rows": 4,
+    "data": [
+      {
+        "Close TLIF": 0.00430000014603138,
+        "High TLIF": 0.00430000014603138,
+        "Low TLIF": 0.00430000014603138,
+        "Open TLIF": 0.00430000014603138,
+        "Volume TLIF": 0
+      },
+      {
+        "Close TLIF": 0.004900000058114529,
+        "High TLIF": 0.004900000058114529,
+        "Low TLIF": 0.004900000058114529,
+        "Open TLIF": 0.004900000058114529,
+        "Volume TLIF": 211
+      },
+      {
+        "Close TLIF": 0.00419999985024333,
+        "High TLIF": 0.00430000014603138,
+        "Low TLIF": 0.00419999985024333,
+        "Open TLIF": 0.00430000014603138,
+        "Volume TLIF": 1000000
+      },
+      {
+        "Close TLIF": 0.00419999985024333,
+        "High TLIF": 0.004399999976158142,
+        "Low TLIF": 0.00419999985024333,
+        "Open TLIF": 0.004399999976158142,
+        "Volume TLIF": 120000
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
-    "message": "Too Many Requests. Rate limited. Try after a while."
+    "message": "Failed to perform, curl: (7) Failed to connect to query1.finance.yahoo.com port 443 after 3 ms: Could not connect to server. See https://curl.se/libcurl/c/libcurl-errors.html first for more details."
   },
   "financials": {
     "income_statement": {
@@ -27,7 +56,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Failed to perform, curl: (7) Failed to connect to finance.yahoo.com port 443 after 3 ms: Could not connect to server. See https://curl.se/libcurl/c/libcurl-errors.html first for more details."
     },
     "recommendations": {
       "status": "error",

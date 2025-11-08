@@ -1,50 +1,13 @@
 {
   "ticker": "BKHAR",
-  "timestamp": "2025-11-07T05:02:39.155705",
+  "timestamp": "2025-11-08T04:49:37.953781",
   "intraday_data": {
-    "status": "success",
-    "rows": 5,
-    "data": [
-      {
-        "Close": 1.399999976158142,
-        "High": 1.399999976158142,
-        "Low": 1.3700000047683716,
-        "Open": 1.3700000047683716,
-        "Volume": 300
-      },
-      {
-        "Close": 1.5220999717712402,
-        "High": 1.5220999717712402,
-        "Low": 1.350100040435791,
-        "Open": 1.350100040435791,
-        "Volume": 200
-      },
-      {
-        "Close": 1.3801000118255615,
-        "High": 1.3801000118255615,
-        "Low": 1.3799999952316284,
-        "Open": 1.3799999952316284,
-        "Volume": 500
-      },
-      {
-        "Close": 1.3801000118255615,
-        "High": 1.5499999523162842,
-        "Low": 1.3799999952316284,
-        "Open": 1.5499999523162842,
-        "Volume": 900
-      },
-      {
-        "Close": 1.3801000118255615,
-        "High": 1.5410000085830688,
-        "Low": 1.3799999952316284,
-        "Open": 1.3799999952316284,
-        "Volume": 600
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
-    "message": "Too Many Requests. Rate limited. Try after a while."
+    "message": "Failed to perform, curl: (7) Failed to connect to query2.finance.yahoo.com port 443 after 3 ms: Could not connect to server. See https://curl.se/libcurl/c/libcurl-errors.html first for more details."
   },
   "financials": {
     "income_statement": {
@@ -75,7 +38,7 @@
       "status": "error"
     },
     "institutional_holders": {
-      "status": "error"
+      "status": "no_data"
     }
   },
   "earnings_data": {

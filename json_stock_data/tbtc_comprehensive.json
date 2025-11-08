@@ -1,53 +1,9 @@
 {
   "ticker": "TBTC",
-  "timestamp": "2025-11-07T04:46:16.597036",
+  "timestamp": "2025-11-08T04:35:06.080725",
   "intraday_data": {
-    "status": "success",
-    "rows": 6,
-    "data": [
-      {
-        "Close": 4.5,
-        "High": 4.5,
-        "Low": 4.5,
-        "Open": 4.5,
-        "Volume": 0
-      },
-      {
-        "Close": 4.5,
-        "High": 4.5,
-        "Low": 4.5,
-        "Open": 4.5,
-        "Volume": 100
-      },
-      {
-        "Close": 4.5,
-        "High": 4.5,
-        "Low": 4.5,
-        "Open": 4.5,
-        "Volume": 25
-      },
-      {
-        "Close": 4.409999847412109,
-        "High": 4.409999847412109,
-        "Low": 4.409999847412109,
-        "Open": 4.409999847412109,
-        "Volume": 5
-      },
-      {
-        "Close": 4.269999980926514,
-        "High": 4.269999980926514,
-        "Low": 4.269999980926514,
-        "Open": 4.269999980926514,
-        "Volume": 157
-      },
-      {
-        "Close": 4.269999980926514,
-        "High": 4.269999980926514,
-        "Low": 4.269999980926514,
-        "Open": 4.269999980926514,
-        "Volume": 235
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -687,7 +643,7 @@
     },
     "recommendations": {
       "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
+      "message": "Failed to perform, curl: (7) Failed to connect to query2.finance.yahoo.com port 443 after 3 ms: Could not connect to server. See https://curl.se/libcurl/c/libcurl-errors.html first for more details."
     }
   },
   "holders_data": {

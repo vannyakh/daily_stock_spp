@@ -1,16 +1,16 @@
 {
   "ticker": "SPRS",
-  "timestamp": "2025-11-07T04:47:27.415601",
+  "timestamp": "2025-11-08T04:36:17.168394",
   "intraday_data": {
     "status": "success",
-    "rows": 9,
+    "rows": 18,
     "data": [
       {
         "Close": 3.319999933242798,
         "High": 3.319999933242798,
         "Low": 3.0999999046325684,
         "Open": 3.0999999046325684,
-        "Volume": 5000
+        "Volume": 0
       },
       {
         "Close": 3.0999999046325684,
@@ -67,24 +67,117 @@
         "Low": 3.1500000953674316,
         "Open": 3.1500000953674316,
         "Volume": 700
+      },
+      {
+        "Close": 2.9000000953674316,
+        "High": 3.0,
+        "Low": 2.9000000953674316,
+        "Open": 3.0,
+        "Volume": 400
+      },
+      {
+        "Close": 2.9000000953674316,
+        "High": 2.9000000953674316,
+        "Low": 2.9000000953674316,
+        "Open": 2.9000000953674316,
+        "Volume": 600
+      },
+      {
+        "Close": 2.759999990463257,
+        "High": 2.799999952316284,
+        "Low": 2.759999990463257,
+        "Open": 2.799999952316284,
+        "Volume": 400
+      },
+      {
+        "Close": 2.759999990463257,
+        "High": 2.759999990463257,
+        "Low": 2.759999990463257,
+        "Open": 2.759999990463257,
+        "Volume": 146
+      },
+      {
+        "Close": 2.9000000953674316,
+        "High": 2.9000000953674316,
+        "Low": 2.9000000953674316,
+        "Open": 2.9000000953674316,
+        "Volume": 100
+      },
+      {
+        "Close": 3.049999952316284,
+        "High": 3.049999952316284,
+        "Low": 2.9000000953674316,
+        "Open": 2.9000000953674316,
+        "Volume": 7282
+      },
+      {
+        "Close": 3.0899999141693115,
+        "High": 3.0899999141693115,
+        "Low": 3.0899999141693115,
+        "Open": 3.0899999141693115,
+        "Volume": 200
+      },
+      {
+        "Close": 3.0999999046325684,
+        "High": 3.0999999046325684,
+        "Low": 3.0999999046325684,
+        "Open": 3.0999999046325684,
+        "Volume": 2300
+      },
+      {
+        "Close": 3.0999999046325684,
+        "High": 3.0999999046325684,
+        "Low": 3.0999999046325684,
+        "Open": 3.0999999046325684,
+        "Volume": 2700
       }
     ]
   },
   "stock_info": {
     "status": "error",
-    "message": "argument of type 'NoneType' is not iterable"
+    "message": "Too Many Requests. Rate limited. Try after a while."
   },
   "financials": {
     "income_statement": {
-      "status": "success",
-      "rows": 46,
-      "columns": [
-        "2024-11-30 00:00:00",
-        "2023-11-30 00:00:00",
-        "2022-11-30 00:00:00",
-        "2021-11-30 00:00:00",
-        "2020-11-30 00:00:00"
-      ],
-      "data": [
-        {
-          
+      "status": "no_data"
+    },
+    "balance_sheet": {
+      "status": "no_data"
+    },
+    "cash_flow": {
+      "status": "no_data"
+    }
+  },
+  "options_data": {
+    "status": "error",
+    "error_message": "Too Many Requests. Rate limited. Try after a while."
+  },
+  "news_data": {
+    "news": {
+      "status": "error",
+      "message": "Failed to perform, curl: (7) Failed to connect to finance.yahoo.com port 443 after 3 ms: Could not connect to server. See https://curl.se/libcurl/c/libcurl-errors.html first for more details."
+    },
+    "recommendations": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  },
+  "holders_data": {
+    "major_holders": {
+      "status": "error"
+    },
+    "institutional_holders": {
+      "status": "error"
+    }
+  },
+  "earnings_data": {
+    "earnings": {
+      "status": "error",
+      "message": "'NoneType' object has no attribute 'empty'"
+    },
+    "calendar": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  }
+}

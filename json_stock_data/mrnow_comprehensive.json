@@ -1,9 +1,39 @@
 {
   "ticker": "MRNOW",
-  "timestamp": "2025-11-07T05:02:29.462041",
+  "timestamp": "2025-11-08T04:49:28.194970",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 4,
+    "data": [
+      {
+        "Close": 0.08500000089406967,
+        "High": 0.08500000089406967,
+        "Low": 0.08500000089406967,
+        "Open": 0.08500000089406967,
+        "Volume": 0
+      },
+      {
+        "Close": 0.07760000228881836,
+        "High": 0.07760000228881836,
+        "Low": 0.07760000228881836,
+        "Open": 0.07760000228881836,
+        "Volume": 215
+      },
+      {
+        "Close": 0.07280000299215317,
+        "High": 0.07280000299215317,
+        "Low": 0.07280000299215317,
+        "Open": 0.07280000299215317,
+        "Volume": 0
+      },
+      {
+        "Close": 0.08500000089406967,
+        "High": 0.08500000089406967,
+        "Low": 0.08420000225305557,
+        "Open": 0.08420000225305557,
+        "Volume": 633
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -215,15 +245,16 @@
       ]
     },
     "recommendations": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   },
   "holders_data": {
     "major_holders": {
-      "status": "no_data"
+      "status": "error"
     },
     "institutional_holders": {
-      "status": "no_data"
+      "status": "error"
     }
   },
   "earnings_data": {

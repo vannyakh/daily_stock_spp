@@ -1,123 +1,9 @@
 {
   "ticker": "SVMHW",
-  "timestamp": "2025-11-07T05:04:56.322709",
+  "timestamp": "2025-11-08T04:51:51.131829",
   "intraday_data": {
-    "status": "success",
-    "rows": 16,
-    "data": [
-      {
-        "Close NIVFW": 0.040300000458955765,
-        "High NIVFW": 0.040300000458955765,
-        "Low NIVFW": 0.039900001138448715,
-        "Open NIVFW": 0.039900001138448715,
-        "Volume NIVFW": 0
-      },
-      {
-        "Close NIVFW": 0.04490000009536743,
-        "High NIVFW": 0.04490000009536743,
-        "Low NIVFW": 0.04490000009536743,
-        "Open NIVFW": 0.04490000009536743,
-        "Volume NIVFW": 3700
-      },
-      {
-        "Close NIVFW": 0.04490000009536743,
-        "High NIVFW": 0.04490000009536743,
-        "Low NIVFW": 0.04490000009536743,
-        "Open NIVFW": 0.04490000009536743,
-        "Volume NIVFW": 2723
-      },
-      {
-        "Close NIVFW": 0.039000000804662704,
-        "High NIVFW": 0.039000000804662704,
-        "Low NIVFW": 0.039000000804662704,
-        "Open NIVFW": 0.039000000804662704,
-        "Volume NIVFW": 1500
-      },
-      {
-        "Close NIVFW": 0.03880000114440918,
-        "High NIVFW": 0.03880000114440918,
-        "Low NIVFW": 0.03880000114440918,
-        "Open NIVFW": 0.03880000114440918,
-        "Volume NIVFW": 5000
-      },
-      {
-        "Close NIVFW": 0.02810000069439411,
-        "High NIVFW": 0.02810000069439411,
-        "Low NIVFW": 0.02810000069439411,
-        "Open NIVFW": 0.02810000069439411,
-        "Volume NIVFW": 4990
-      },
-      {
-        "Close NIVFW": 0.03880000114440918,
-        "High NIVFW": 0.03880000114440918,
-        "Low NIVFW": 0.03880000114440918,
-        "Open NIVFW": 0.03880000114440918,
-        "Volume NIVFW": 23910
-      },
-      {
-        "Close NIVFW": 0.03880000114440918,
-        "High NIVFW": 0.03880000114440918,
-        "Low NIVFW": 0.03880000114440918,
-        "Open NIVFW": 0.03880000114440918,
-        "Volume NIVFW": 30613
-      },
-      {
-        "Close NIVFW": 0.03880000114440918,
-        "High NIVFW": 0.03880000114440918,
-        "Low NIVFW": 0.03880000114440918,
-        "Open NIVFW": 0.03880000114440918,
-        "Volume NIVFW": 250
-      },
-      {
-        "Close NIVFW": 0.023000000044703484,
-        "High NIVFW": 0.023000000044703484,
-        "Low NIVFW": 0.023000000044703484,
-        "Open NIVFW": 0.023000000044703484,
-        "Volume NIVFW": 2891
-      },
-      {
-        "Close NIVFW": 0.022600000724196434,
-        "High NIVFW": 0.022600000724196434,
-        "Low NIVFW": 0.022600000724196434,
-        "Open NIVFW": 0.022600000724196434,
-        "Volume NIVFW": 0
-      },
-      {
-        "Close NIVFW": 0.02290000021457672,
-        "High NIVFW": 0.02290000021457672,
-        "Low NIVFW": 0.02290000021457672,
-        "Open NIVFW": 0.02290000021457672,
-        "Volume NIVFW": 2285
-      },
-      {
-        "Close NIVFW": 0.022700000554323196,
-        "High NIVFW": 0.022700000554323196,
-        "Low NIVFW": 0.022700000554323196,
-        "Open NIVFW": 0.022700000554323196,
-        "Volume NIVFW": 11000
-      },
-      {
-        "Close NIVFW": 0.022600000724196434,
-        "High NIVFW": 0.022600000724196434,
-        "Low NIVFW": 0.022600000724196434,
-        "Open NIVFW": 0.022600000724196434,
-        "Volume NIVFW": 6600
-      },
-      {
-        "Close NIVFW": 0.02250000089406967,
-        "High NIVFW": 0.02250000089406967,
-        "Low NIVFW": 0.02250000089406967,
-        "Open NIVFW": 0.02250000089406967,
-        "Volume NIVFW": 1900
-      },
-      {
-        "Close NIVFW": 0.022099999710917473,
-        "High NIVFW": 0.022099999710917473,
-        "Low NIVFW": 0.022099999710917473,
-        "Open NIVFW": 0.022099999710917473,
-        "Volume NIVFW": 1400
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -140,7 +26,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Failed to perform, curl: (7) Failed to connect to finance.yahoo.com port 443 after 2 ms: Could not connect to server. See https://curl.se/libcurl/c/libcurl-errors.html first for more details."
     },
     "recommendations": {
       "status": "error",

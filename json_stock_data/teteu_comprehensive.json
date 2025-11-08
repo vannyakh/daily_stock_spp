@@ -1,46 +1,9 @@
 {
   "ticker": "TETEU",
-  "timestamp": "2025-11-07T05:04:42.919614",
+  "timestamp": "2025-11-08T04:51:35.985881",
   "intraday_data": {
-    "status": "success",
-    "rows": 5,
-    "data": [
-      {
-        "Close LVWR-WT": 0.10100000351667404,
-        "High LVWR-WT": 0.10100000351667404,
-        "Low LVWR-WT": 0.10100000351667404,
-        "Open LVWR-WT": 0.10100000351667404,
-        "Volume LVWR-WT": 0
-      },
-      {
-        "Close LVWR-WT": 0.08500000089406967,
-        "High LVWR-WT": 0.08500000089406967,
-        "Low LVWR-WT": 0.08500000089406967,
-        "Open LVWR-WT": 0.08500000089406967,
-        "Volume LVWR-WT": 989
-      },
-      {
-        "Close LVWR-WT": 0.09920000284910202,
-        "High LVWR-WT": 0.09920000284910202,
-        "Low LVWR-WT": 0.09920000284910202,
-        "Open LVWR-WT": 0.09920000284910202,
-        "Volume LVWR-WT": 3000
-      },
-      {
-        "Close LVWR-WT": 0.09160000085830688,
-        "High LVWR-WT": 0.09160000085830688,
-        "Low LVWR-WT": 0.09160000085830688,
-        "Open LVWR-WT": 0.09160000085830688,
-        "Volume LVWR-WT": 5000
-      },
-      {
-        "Close LVWR-WT": 0.08810000121593475,
-        "High LVWR-WT": 0.08810000121593475,
-        "Low LVWR-WT": 0.08780000358819962,
-        "Open LVWR-WT": 0.08780000358819962,
-        "Volume LVWR-WT": 3765
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -63,11 +26,11 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Failed to perform, curl: (7) Failed to connect to finance.yahoo.com port 443 after 3 ms: Could not connect to server. See https://curl.se/libcurl/c/libcurl-errors.html first for more details."
     },
     "recommendations": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
+      "status": "no_data"
     }
   },
   "holders_data": {

@@ -1,9 +1,53 @@
 {
   "ticker": "OCCIN",
-  "timestamp": "2025-11-07T05:04:10.454902",
+  "timestamp": "2025-11-08T04:51:01.238394",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 6,
+    "data": [
+      {
+        "Close": 24.34000015258789,
+        "High": 24.34000015258789,
+        "Low": 24.34000015258789,
+        "Open": 24.34000015258789,
+        "Volume": 0
+      },
+      {
+        "Close": 24.34000015258789,
+        "High": 24.34000015258789,
+        "Low": 24.34000015258789,
+        "Open": 24.34000015258789,
+        "Volume": 336
+      },
+      {
+        "Close": 24.360000610351562,
+        "High": 24.360000610351562,
+        "Low": 24.360000610351562,
+        "Open": 24.360000610351562,
+        "Volume": 101
+      },
+      {
+        "Close": 24.350000381469727,
+        "High": 24.350000381469727,
+        "Low": 24.350000381469727,
+        "Open": 24.350000381469727,
+        "Volume": 100
+      },
+      {
+        "Close": 24.350000381469727,
+        "High": 24.350000381469727,
+        "Low": 24.350000381469727,
+        "Open": 24.350000381469727,
+        "Volume": 230
+      },
+      {
+        "Close": 24.360000610351562,
+        "High": 24.360000610351562,
+        "Low": 24.360000610351562,
+        "Open": 24.360000610351562,
+        "Volume": 349
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -26,7 +70,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

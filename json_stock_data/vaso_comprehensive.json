@@ -1,86 +1,16 @@
 {
   "ticker": "VASO",
-  "timestamp": "2025-11-07T04:45:12.887661",
+  "timestamp": "2025-11-08T04:34:17.155492",
   "intraday_data": {
     "status": "success",
-    "rows": 12,
+    "rows": 4,
     "data": [
       {
-        "Close": 0.11509999632835388,
-        "High": 0.11509999632835388,
-        "Low": 0.11509999632835388,
-        "Open": 0.11509999632835388,
+        "Close": 0.11699999868869781,
+        "High": 0.11699999868869781,
+        "Low": 0.11699999868869781,
+        "Open": 0.11699999868869781,
         "Volume": 0
-      },
-      {
-        "Close": 0.11509999632835388,
-        "High": 0.11509999632835388,
-        "Low": 0.11509999632835388,
-        "Open": 0.11509999632835388,
-        "Volume": 5000
-      },
-      {
-        "Close": 0.11749999970197678,
-        "High": 0.11749999970197678,
-        "Low": 0.11749999970197678,
-        "Open": 0.11749999970197678,
-        "Volume": 5000
-      },
-      {
-        "Close": 0.11509999632835388,
-        "High": 0.11509999632835388,
-        "Low": 0.11509999632835388,
-        "Open": 0.11509999632835388,
-        "Volume": 10000
-      },
-      {
-        "Close": 0.11509999632835388,
-        "High": 0.11509999632835388,
-        "Low": 0.11509999632835388,
-        "Open": 0.11509999632835388,
-        "Volume": 5000
-      },
-      {
-        "Close": 0.11509999632835388,
-        "High": 0.11509999632835388,
-        "Low": 0.11509999632835388,
-        "Open": 0.11509999632835388,
-        "Volume": 10000
-      },
-      {
-        "Close": 0.11509999632835388,
-        "High": 0.11509999632835388,
-        "Low": 0.11509999632835388,
-        "Open": 0.11509999632835388,
-        "Volume": 62625
-      },
-      {
-        "Close": 0.11509999632835388,
-        "High": 0.11509999632835388,
-        "Low": 0.11509999632835388,
-        "Open": 0.11509999632835388,
-        "Volume": 5000
-      },
-      {
-        "Close": 0.11699999868869781,
-        "High": 0.11699999868869781,
-        "Low": 0.11699999868869781,
-        "Open": 0.11699999868869781,
-        "Volume": 4500
-      },
-      {
-        "Close": 0.11699999868869781,
-        "High": 0.11699999868869781,
-        "Low": 0.11699999868869781,
-        "Open": 0.11699999868869781,
-        "Volume": 4500
-      },
-      {
-        "Close": 0.11699999868869781,
-        "High": 0.11699999868869781,
-        "Low": 0.11699999868869781,
-        "Open": 0.11699999868869781,
-        "Volume": 197
       },
       {
         "Close": 0.11699999868869781,
@@ -88,12 +18,26 @@
         "Low": 0.11699999868869781,
         "Open": 0.11699999868869781,
         "Volume": 800
+      },
+      {
+        "Close": 0.11500000208616257,
+        "High": 0.11500000208616257,
+        "Low": 0.11500000208616257,
+        "Open": 0.11500000208616257,
+        "Volume": 5000
+      },
+      {
+        "Close": 0.10530000180006027,
+        "High": 0.10909999907016754,
+        "Low": 0.10530000180006027,
+        "Open": 0.10909999907016754,
+        "Volume": 4000
       }
     ]
   },
   "stock_info": {
     "status": "error",
-    "message": "Too Many Requests. Rate limited. Try after a while."
+    "message": "Failed to perform, curl: (7) Failed to connect to query2.finance.yahoo.com port 443 after 4 ms: Could not connect to server. See https://curl.se/libcurl/c/libcurl-errors.html first for more details."
   },
   "financials": {
     "income_statement": {
@@ -423,16 +367,39 @@
       ]
     },
     "recommendations": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
+      "status": "no_data"
     }
   },
   "holders_data": {
     "major_holders": {
-      "status": "error"
+      "status": "success",
+      "data": [
+        {
+          "Value": 0.4385
+        },
+        {
+          "Value": 0.0
+        },
+        {
+          "Value": 0.0
+        },
+        {
+          "Value": 0.0
+        }
+      ]
     },
     "institutional_holders": {
-      "status": "error"
+      "status": "success",
+      "data": [
+        {
+          "Date Reported": "2024-06-30 00:00:00",
+          "Holder": "FNY Investment Advisers, LLC",
+          "pctHeld": 0.00059999997,
+          "Shares": 100000,
+          "Value": 10999,
+          "pctChange": 1.0
+        }
+      ]
     }
   },
   "earnings_data": {
@@ -442,7 +409,7 @@
     },
     "calendar": {
       "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
+      "message": "'dict' object has no attribute 'empty'"
     }
   }
 }

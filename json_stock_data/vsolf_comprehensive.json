@@ -1,6 +1,6 @@
 {
   "ticker": "VSOLF",
-  "timestamp": "2025-11-07T04:54:17.337088",
+  "timestamp": "2025-11-08T04:42:02.592028",
   "intraday_data": {
     "status": "no_data",
     "message": "No intraday data available"
@@ -38,7 +38,17 @@
       "status": "error"
     },
     "institutional_holders": {
-      "status": "error"
+      "status": "success",
+      "data": [
+        {
+          "Date Reported": "2024-06-30 00:00:00",
+          "Holder": "Carret Asset Management, LLC",
+          "pctHeld": 0.00029999999,
+          "Shares": 12000,
+          "Value": 1,
+          "pctChange": 0.0
+        }
+      ]
     }
   },
   "earnings_data": {
@@ -48,7 +58,7 @@
     },
     "calendar": {
       "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
+      "message": "'dict' object has no attribute 'empty'"
     }
   }
 }

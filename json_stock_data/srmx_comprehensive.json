@@ -1,22 +1,13 @@
 {
   "ticker": "SRMX",
-  "timestamp": "2025-11-07T05:01:10.961723",
+  "timestamp": "2025-11-08T04:48:15.171061",
   "intraday_data": {
-    "status": "success",
-    "rows": 1,
-    "data": [
-      {
-        "Close": 0.00019999999494757503,
-        "High": 0.00019999999494757503,
-        "Low": 0.00019999999494757503,
-        "Open": 0.00019999999494757503,
-        "Volume": 0
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
-    "message": "Too Many Requests. Rate limited. Try after a while."
+    "message": "Failed to perform, curl: (7) Failed to connect to query2.finance.yahoo.com port 443 after 2 ms: Could not connect to server. See https://curl.se/libcurl/c/libcurl-errors.html first for more details."
   },
   "financials": {
     "income_statement": {

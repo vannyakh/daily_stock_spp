@@ -1,25 +1,9 @@
 {
   "ticker": "SNES",
-  "timestamp": "2025-11-07T04:51:47.462139",
+  "timestamp": "2025-11-08T04:39:57.390195",
   "intraday_data": {
-    "status": "success",
-    "rows": 2,
-    "data": [
-      {
-        "Close BITTF": 0.05999999865889549,
-        "High BITTF": 0.05999999865889549,
-        "Low BITTF": 0.05999999865889549,
-        "Open BITTF": 0.05999999865889549,
-        "Volume BITTF": 0
-      },
-      {
-        "Close BITTF": 0.052799999713897705,
-        "High BITTF": 0.052799999713897705,
-        "Low BITTF": 0.052799999713897705,
-        "Open BITTF": 0.052799999713897705,
-        "Volume BITTF": 14000
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -43,7 +27,7 @@
   "news_data": {
     "news": {
       "status": "success",
-      "count": 10,
+      "count": 9,
       "data": [
         {
           "id": "b21e4510-0fd4-3660-b36d-b68183833df9",
@@ -593,73 +577,12 @@
             },
             "storyline": null
           }
-        },
-        {
-          "id": "38962a86-3033-3110-939c-e875493d862c",
-          "content": {
-            "id": "38962a86-3033-3110-939c-e875493d862c",
-            "contentType": "STORY",
-            "title": "QuidelOrtho (QDEL) Beats Q3 Earnings and Revenue Estimates",
-            "description": "",
-            "summary": "QuidelOrtho (QDEL) delivered earnings and revenue surprises of 174.19% and 12.75%, respectively, for the quarter ended September 2024. Do the numbers hold clues to what lies ahead for the stock?",
-            "pubDate": "2024-11-07T23:40:12Z",
-            "displayTime": "2024-11-07T23:40:12Z",
-            "isHosted": true,
-            "bypassModal": false,
-            "previewUrl": null,
-            "thumbnail": {
-              "originalUrl": "https://media.zenfs.com/en/zacks.com/090f58c1efbe3555b861102525e50b39",
-              "originalWidth": 900,
-              "originalHeight": 601,
-              "caption": "",
-              "resolutions": [
-                {
-                  "url": "https://s.yimg.com/uu/api/res/1.2/9tpS8u8rAmiEoUItmUZeOA--~B/aD02MDE7dz05MDA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/zacks.com/090f58c1efbe3555b861102525e50b39",
-                  "width": 900,
-                  "height": 601,
-                  "tag": "original"
-                },
-                {
-                  "url": "https://s.yimg.com/uu/api/res/1.2/tI5aU6IfGKgQOEcdrCb7vg--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/zacks.com/090f58c1efbe3555b861102525e50b39",
-                  "width": 170,
-                  "height": 128,
-                  "tag": "170x128"
-                }
-              ]
-            },
-            "provider": {
-              "displayName": "Zacks",
-              "url": "http://www.zacks.com/"
-            },
-            "canonicalUrl": {
-              "url": "https://finance.yahoo.com/news/quidelortho-qdel-beats-q3-earnings-234012215.html",
-              "site": "finance",
-              "region": "US",
-              "lang": "en-US"
-            },
-            "clickThroughUrl": {
-              "url": "https://finance.yahoo.com/news/quidelortho-qdel-beats-q3-earnings-234012215.html",
-              "site": "finance",
-              "region": "US",
-              "lang": "en-US"
-            },
-            "metadata": {
-              "editorsPick": false
-            },
-            "finance": {
-              "premiumFinance": {
-                "isPremiumNews": false,
-                "isPremiumFreeNews": false
-              }
-            },
-            "storyline": null
-          }
         }
       ]
     },
     "recommendations": {
       "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
+      "message": "Failed to perform, curl: (7) Failed to connect to query2.finance.yahoo.com port 443 after 2 ms: Could not connect to server. See https://curl.se/libcurl/c/libcurl-errors.html first for more details."
     }
   },
   "holders_data": {

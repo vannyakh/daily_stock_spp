@@ -1,9 +1,18 @@
 {
   "ticker": "KLDI",
-  "timestamp": "2025-11-07T05:00:14.975459",
+  "timestamp": "2025-11-08T04:47:21.894521",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 1,
+    "data": [
+      {
+        "Close CULL": 11.84000015258789,
+        "High CULL": 11.84000015258789,
+        "Low CULL": 11.84000015258789,
+        "Open CULL": 11.84000015258789,
+        "Volume CULL": 100
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -48,7 +57,7 @@
     },
     "calendar": {
       "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
+      "message": "Failed to perform, curl: (7) Failed to connect to query1.finance.yahoo.com port 443 after 3 ms: Could not connect to server. See https://curl.se/libcurl/c/libcurl-errors.html first for more details."
     }
   }
 }

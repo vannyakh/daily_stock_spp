@@ -1,13 +1,36 @@
 {
   "ticker": "GLACR",
-  "timestamp": "2025-11-07T05:03:46.970767",
+  "timestamp": "2025-11-08T04:50:38.994035",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 3,
+    "data": [
+      {
+        "Close CDTTW": 0.013399999588727951,
+        "High CDTTW": 0.013399999588727951,
+        "Low CDTTW": 0.013399999588727951,
+        "Open CDTTW": 0.013399999588727951,
+        "Volume CDTTW": 0
+      },
+      {
+        "Close CDTTW": 0.013199999928474426,
+        "High CDTTW": 0.013199999928474426,
+        "Low CDTTW": 0.013199999928474426,
+        "Open CDTTW": 0.013199999928474426,
+        "Volume CDTTW": 2000
+      },
+      {
+        "Close CDTTW": 0.013500000350177288,
+        "High CDTTW": 0.013500000350177288,
+        "Low CDTTW": 0.013500000350177288,
+        "Open CDTTW": 0.013500000350177288,
+        "Volume CDTTW": 222
+      }
+    ]
   },
   "stock_info": {
-    "status": "error",
-    "message": "Too Many Requests. Rate limited. Try after a while."
+    "status": "success",
+    "data": {}
   },
   "financials": {
     "income_statement": {
@@ -21,12 +44,12 @@
     }
   },
   "options_data": {
-    "status": "error",
-    "error_message": "Too Many Requests. Rate limited. Try after a while."
+    "expirations": []
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Failed to perform, curl: (7) Failed to connect to finance.yahoo.com port 443 after 4 ms: Could not connect to server. See https://curl.se/libcurl/c/libcurl-errors.html first for more details."
     },
     "recommendations": {
       "status": "error",

@@ -1,29 +1,13 @@
 {
   "ticker": "LWLW",
-  "timestamp": "2025-11-07T05:00:49.480065",
+  "timestamp": "2025-11-08T04:47:54.009916",
   "intraday_data": {
-    "status": "success",
-    "rows": 2,
-    "data": [
-      {
-        "Close TGCB": 0.07999999821186066,
-        "High TGCB": 0.07999999821186066,
-        "Low TGCB": 0.07999999821186066,
-        "Open TGCB": 0.07999999821186066,
-        "Volume TGCB": 0
-      },
-      {
-        "Close TGCB": 0.09000000357627869,
-        "High TGCB": 0.09000000357627869,
-        "Low TGCB": 0.09000000357627869,
-        "Open TGCB": 0.09000000357627869,
-        "Volume TGCB": 10000
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
-    "message": "Too Many Requests. Rate limited. Try after a while."
+    "message": "argument of type 'NoneType' is not iterable"
   },
   "financials": {
     "income_statement": {
@@ -42,7 +26,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Failed to perform, curl: (7) Failed to connect to finance.yahoo.com port 443 after 2 ms: Could not connect to server. See https://curl.se/libcurl/c/libcurl-errors.html first for more details."
     },
     "recommendations": {
       "status": "error",

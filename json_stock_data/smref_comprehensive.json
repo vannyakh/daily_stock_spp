@@ -1,43 +1,22 @@
 {
   "ticker": "SMREF",
-  "timestamp": "2025-11-07T04:49:38.948180",
+  "timestamp": "2025-11-08T04:38:08.104923",
   "intraday_data": {
     "status": "success",
-    "rows": 4,
+    "rows": 1,
     "data": [
-      {
-        "Close": 0.09629999846220016,
-        "High": 0.09849999845027924,
-        "Low": 0.09629999846220016,
-        "Open": 0.09839999675750732,
-        "Volume": 0
-      },
-      {
-        "Close": 0.09480000287294388,
-        "High": 0.09520000219345093,
-        "Low": 0.09480000287294388,
-        "Open": 0.09520000219345093,
-        "Volume": 32187
-      },
-      {
-        "Close": 0.0949999988079071,
-        "High": 0.0949999988079071,
-        "Low": 0.0949999988079071,
-        "Open": 0.0949999988079071,
-        "Volume": 7500
-      },
       {
         "Close": 0.10000000149011612,
         "High": 0.10000000149011612,
         "Low": 0.10000000149011612,
         "Open": 0.10000000149011612,
-        "Volume": 5000
+        "Volume": 0
       }
     ]
   },
   "stock_info": {
     "status": "error",
-    "message": "Too Many Requests. Rate limited. Try after a while."
+    "message": "Failed to perform, curl: (7) Failed to connect to query2.finance.yahoo.com port 443 after 4 ms: Could not connect to server. See https://curl.se/libcurl/c/libcurl-errors.html first for more details."
   },
   "financials": {
     "income_statement": {
@@ -56,71 +35,8 @@
   },
   "news_data": {
     "news": {
-      "status": "success",
-      "count": 1,
-      "data": [
-        {
-          "id": "e8ed8292-bf3b-39a7-b74c-2a6fb6abbc85",
-          "content": {
-            "id": "e8ed8292-bf3b-39a7-b74c-2a6fb6abbc85",
-            "contentType": "STORY",
-            "title": "We're Keeping An Eye On Sun Summit Minerals' (CVE:SMN) Cash Burn Rate",
-            "description": "",
-            "summary": "We can readily understand why investors are attracted to unprofitable companies. For example, although Amazon.com made...",
-            "pubDate": "2025-11-01T12:20:27Z",
-            "displayTime": "2025-11-01T12:20:27Z",
-            "isHosted": true,
-            "bypassModal": false,
-            "previewUrl": null,
-            "thumbnail": {
-              "originalUrl": "https://media.zenfs.com/en/simply_wall_st__316/3eb1acfa01a97be66f224c62f2ff60fd",
-              "originalWidth": 1194,
-              "originalHeight": 432,
-              "caption": "",
-              "resolutions": [
-                {
-                  "url": "https://s.yimg.com/uu/api/res/1.2/8ou9h1aPnDmM7LIetWUw9Q--~B/aD00MzI7dz0xMTk0O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/simply_wall_st__316/3eb1acfa01a97be66f224c62f2ff60fd",
-                  "width": 1194,
-                  "height": 432,
-                  "tag": "original"
-                },
-                {
-                  "url": "https://s.yimg.com/uu/api/res/1.2/_sYfo3oaqp9UOTD_JpXBBw--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/simply_wall_st__316/3eb1acfa01a97be66f224c62f2ff60fd",
-                  "width": 170,
-                  "height": 128,
-                  "tag": "170x128"
-                }
-              ]
-            },
-            "provider": {
-              "displayName": "Simply Wall St.",
-              "url": "https://simplywall.st/"
-            },
-            "canonicalUrl": {
-              "url": "https://finance.yahoo.com/news/were-keeping-eye-sun-summit-122027398.html",
-              "site": "finance",
-              "region": "US",
-              "lang": "en-US"
-            },
-            "clickThroughUrl": {
-              "url": "https://finance.yahoo.com/news/were-keeping-eye-sun-summit-122027398.html",
-              "site": "finance",
-              "region": "US",
-              "lang": "en-US"
-            },
-            "metadata": {
-              "editorsPick": false
-            },
-            "finance": {
-              "premiumFinance": {
-                "isPremiumNews": false,
-                "isPremiumFreeNews": false
-              }
-            },
-            "storyline": null
-          }
-        }
-      ]
+      "status": "error",
+      "message": "Failed to perform, curl: (7) Failed to connect to finance.yahoo.com port 443 after 8 ms: Could not connect to server. See https://curl.se/libcurl/c/libcurl-errors.html first for more details."
     },
     "recommendations": {
       "status": "error",

@@ -1,50 +1,13 @@
 {
   "ticker": "PHBI",
-  "timestamp": "2025-11-07T05:01:31.220445",
+  "timestamp": "2025-11-08T04:48:36.912936",
   "intraday_data": {
-    "status": "success",
-    "rows": 5,
-    "data": [
-      {
-        "Close TKMO": 9.999999747378752e-05,
-        "High TKMO": 9.999999747378752e-05,
-        "Low TKMO": 9.999999747378752e-05,
-        "Open TKMO": 9.999999747378752e-05,
-        "Volume TKMO": 0
-      },
-      {
-        "Close TKMO": 9.999999747378752e-05,
-        "High TKMO": 9.999999747378752e-05,
-        "Low TKMO": 9.999999747378752e-05,
-        "Open TKMO": 9.999999747378752e-05,
-        "Volume TKMO": 4980000
-      },
-      {
-        "Close TKMO": 9.999999747378752e-05,
-        "High TKMO": 9.999999747378752e-05,
-        "Low TKMO": 9.999999747378752e-05,
-        "Open TKMO": 9.999999747378752e-05,
-        "Volume TKMO": 740000
-      },
-      {
-        "Close TKMO": 9.999999747378752e-05,
-        "High TKMO": 9.999999747378752e-05,
-        "Low TKMO": 9.999999747378752e-05,
-        "Open TKMO": 9.999999747378752e-05,
-        "Volume TKMO": 10000
-      },
-      {
-        "Close TKMO": 9.999999747378752e-05,
-        "High TKMO": 9.999999747378752e-05,
-        "Low TKMO": 9.999999747378752e-05,
-        "Open TKMO": 9.999999747378752e-05,
-        "Volume TKMO": 6990000
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
-    "message": "Too Many Requests. Rate limited. Try after a while."
+    "message": "Failed to perform, curl: (7) Failed to connect to query2.finance.yahoo.com port 443 after 4 ms: Could not connect to server. See https://curl.se/libcurl/c/libcurl-errors.html first for more details."
   },
   "financials": {
     "income_statement": {

@@ -1,98 +1,26 @@
 {
   "ticker": "AXIM",
-  "timestamp": "2025-11-07T05:01:27.667789",
+  "timestamp": "2025-11-08T04:48:30.990215",
   "intraday_data": {
     "status": "success",
-    "rows": 6,
-    "data": [
-      {
-        "Close": 0.009600000455975533,
-        "High": 0.009600000455975533,
-        "Low": 0.009600000455975533,
-        "Open": 0.009600000455975533,
-        "Volume": 0
-      },
-      {
-        "Close": 0.009999999776482582,
-        "High": 0.009999999776482582,
-        "Low": 0.009999999776482582,
-        "Open": 0.009999999776482582,
-        "Volume": 49000
-      },
-      {
-        "Close": 0.009800000116229057,
-        "High": 0.009800000116229057,
-        "Low": 0.009800000116229057,
-        "Open": 0.009800000116229057,
-        "Volume": 99200
-      },
-      {
-        "Close": 0.009399999864399433,
-        "High": 0.009399999864399433,
-        "Low": 0.009399999864399433,
-        "Open": 0.009399999864399433,
-        "Volume": 285000
-      },
-      {
-        "Close": 0.009399999864399433,
-        "High": 0.009399999864399433,
-        "Low": 0.009399999864399433,
-        "Open": 0.009399999864399433,
-        "Volume": 27240
-      },
-      {
-        "Close": 0.009999999776482582,
-        "High": 0.009999999776482582,
-        "Low": 0.009999999776482582,
-        "Open": 0.009999999776482582,
-        "Volume": 76486
-      }
-    ]
+    "rows": 0,
+    "data": []
   },
   "stock_info": {
     "status": "error",
-    "message": "Too Many Requests. Rate limited. Try after a while."
+    "message": "Failed to perform, curl: (7) Failed to connect to query2.finance.yahoo.com port 443 after 3 ms: Could not connect to server. See https://curl.se/libcurl/c/libcurl-errors.html first for more details."
   },
   "financials": {
     "income_statement": {
-      "status": "no_data"
-    },
-    "balance_sheet": {
-      "status": "no_data"
-    },
-    "cash_flow": {
-      "status": "no_data"
-    }
-  },
-  "options_data": {
-    "status": "error",
-    "error_message": "Too Many Requests. Rate limited. Try after a while."
-  },
-  "news_data": {
-    "news": {
-      "status": "no_data"
-    },
-    "recommendations": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
-    }
-  },
-  "holders_data": {
-    "major_holders": {
-      "status": "error"
-    },
-    "institutional_holders": {
-      "status": "error"
-    }
-  },
-  "earnings_data": {
-    "earnings": {
-      "status": "error",
-      "message": "'NoneType' object has no attribute 'empty'"
-    },
-    "calendar": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
-    }
-  }
-}
+      "status": "success",
+      "rows": 51,
+      "columns": [
+        "2024-12-31 00:00:00",
+        "2023-12-31 00:00:00",
+        "2022-12-31 00:00:00",
+        "2021-12-31 00:00:00",
+        "2020-12-31 00:00:00"
+      ],
+      "data": [
+        {
+          

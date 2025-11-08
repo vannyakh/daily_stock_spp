@@ -1,24 +1,70 @@
 {
   "ticker": "VRVR",
-  "timestamp": "2025-11-07T04:51:27.944704",
+  "timestamp": "2025-11-08T04:39:42.310033",
   "intraday_data": {
     "status": "success",
-    "rows": 0,
-    "data": []
+    "rows": 2,
+    "data": [
+      {
+        "Close ORMNF": 0.12600000202655792,
+        "High ORMNF": 0.12600000202655792,
+        "Low ORMNF": 0.12600000202655792,
+        "Open ORMNF": 0.12600000202655792,
+        "Volume ORMNF": 0
+      },
+      {
+        "Close ORMNF": 0.11599999666213989,
+        "High ORMNF": 0.11599999666213989,
+        "Low ORMNF": 0.11599999666213989,
+        "Open ORMNF": 0.11599999666213989,
+        "Volume ORMNF": 1500
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
-    "message": "argument of type 'NoneType' is not iterable"
+    "message": "Too Many Requests. Rate limited. Try after a while."
   },
   "financials": {
     "income_statement": {
-      "status": "success",
-      "rows": 41,
-      "columns": [
-        "2023-09-30 00:00:00",
-        "2022-09-30 00:00:00",
-        "2021-09-30 00:00:00"
-      ],
-      "data": [
-        {
-          
+      "status": "no_data"
+    },
+    "balance_sheet": {
+      "status": "no_data"
+    },
+    "cash_flow": {
+      "status": "no_data"
+    }
+  },
+  "options_data": {
+    "status": "error",
+    "error_message": "Too Many Requests. Rate limited. Try after a while."
+  },
+  "news_data": {
+    "news": {
+      "status": "no_data"
+    },
+    "recommendations": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  },
+  "holders_data": {
+    "major_holders": {
+      "status": "error"
+    },
+    "institutional_holders": {
+      "status": "error"
+    }
+  },
+  "earnings_data": {
+    "earnings": {
+      "status": "error",
+      "message": "'NoneType' object has no attribute 'empty'"
+    },
+    "calendar": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  }
+}

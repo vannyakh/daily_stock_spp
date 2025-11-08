@@ -1,102 +1,9 @@
 {
   "ticker": "GETRW",
-  "timestamp": "2025-11-07T05:04:15.291686",
+  "timestamp": "2025-11-08T04:51:04.172665",
   "intraday_data": {
-    "status": "success",
-    "rows": 13,
-    "data": [
-      {
-        "Close IINNW": 0.3124000132083893,
-        "High IINNW": 0.3163999915122986,
-        "Low IINNW": 0.3124000132083893,
-        "Open IINNW": 0.3163999915122986,
-        "Volume IINNW": 0
-      },
-      {
-        "Close IINNW": 0.33379998803138733,
-        "High IINNW": 0.33379998803138733,
-        "Low IINNW": 0.33379998803138733,
-        "Open IINNW": 0.33379998803138733,
-        "Volume IINNW": 3402
-      },
-      {
-        "Close IINNW": 0.32420000433921814,
-        "High IINNW": 0.33709999918937683,
-        "Low IINNW": 0.32420000433921814,
-        "Open IINNW": 0.33709999918937683,
-        "Volume IINNW": 4184
-      },
-      {
-        "Close IINNW": 0.37540000677108765,
-        "High IINNW": 0.37540000677108765,
-        "Low IINNW": 0.3499000072479248,
-        "Open IINNW": 0.3499000072479248,
-        "Volume IINNW": 1208
-      },
-      {
-        "Close IINNW": 0.4000000059604645,
-        "High IINNW": 0.4000000059604645,
-        "Low IINNW": 0.3935999870300293,
-        "Open IINNW": 0.3935999870300293,
-        "Volume IINNW": 962
-      },
-      {
-        "Close IINNW": 0.4007999897003174,
-        "High IINNW": 0.4007999897003174,
-        "Low IINNW": 0.4000000059604645,
-        "Open IINNW": 0.4000000059604645,
-        "Volume IINNW": 1200
-      },
-      {
-        "Close IINNW": 0.41990000009536743,
-        "High IINNW": 0.41990000009536743,
-        "Low IINNW": 0.41990000009536743,
-        "Open IINNW": 0.41990000009536743,
-        "Volume IINNW": 1090
-      },
-      {
-        "Close IINNW": 0.42399999499320984,
-        "High IINNW": 0.42399999499320984,
-        "Low IINNW": 0.42399999499320984,
-        "Open IINNW": 0.42399999499320984,
-        "Volume IINNW": 2454
-      },
-      {
-        "Close IINNW": 0.41999998688697815,
-        "High IINNW": 0.41999998688697815,
-        "Low IINNW": 0.41999998688697815,
-        "Open IINNW": 0.41999998688697815,
-        "Volume IINNW": 200
-      },
-      {
-        "Close IINNW": 0.3799999952316284,
-        "High IINNW": 0.3799999952316284,
-        "Low IINNW": 0.3799999952316284,
-        "Open IINNW": 0.3799999952316284,
-        "Volume IINNW": 1627
-      },
-      {
-        "Close IINNW": 0.36000001430511475,
-        "High IINNW": 0.36000001430511475,
-        "Low IINNW": 0.36000001430511475,
-        "Open IINNW": 0.36000001430511475,
-        "Volume IINNW": 1900
-      },
-      {
-        "Close IINNW": 0.36000001430511475,
-        "High IINNW": 0.36000001430511475,
-        "Low IINNW": 0.36000001430511475,
-        "Open IINNW": 0.36000001430511475,
-        "Volume IINNW": 2200
-      },
-      {
-        "Close IINNW": 0.3799000084400177,
-        "High IINNW": 0.3799999952316284,
-        "Low IINNW": 0.3799000084400177,
-        "Open IINNW": 0.3799999952316284,
-        "Volume IINNW": 1700
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -247,15 +154,16 @@
       ]
     },
     "recommendations": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Failed to perform, curl: (7) Failed to connect to query1.finance.yahoo.com port 443 after 2 ms: Could not connect to server. See https://curl.se/libcurl/c/libcurl-errors.html first for more details."
     }
   },
   "holders_data": {
     "major_holders": {
-      "status": "no_data"
+      "status": "error"
     },
     "institutional_holders": {
-      "status": "no_data"
+      "status": "error"
     }
   },
   "earnings_data": {

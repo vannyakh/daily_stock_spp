@@ -1,13 +1,13 @@
 {
   "ticker": "CDMO",
-  "timestamp": "2025-11-07T04:25:21.068986",
+  "timestamp": "2025-11-08T04:17:11.588739",
   "intraday_data": {
     "status": "no_data",
     "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
-    "message": "Too Many Requests. Rate limited. Try after a while."
+    "message": "Failed to perform, curl: (7) Failed to connect to query2.finance.yahoo.com port 443 after 6 ms: Could not connect to server. See https://curl.se/libcurl/c/libcurl-errors.html first for more details."
   },
   "financials": {
     "income_statement": {
@@ -27,7 +27,7 @@
   "news_data": {
     "news": {
       "status": "success",
-      "count": 5,
+      "count": 4,
       "data": [
         {
           "id": "c7bde8fc-285c-3f20-be10-6b994b191fb7",
@@ -238,67 +238,6 @@
             },
             "clickThroughUrl": {
               "url": "https://finance.yahoo.com/news/avid-bioservices-acquired-1-1-113722160.html",
-              "site": "finance",
-              "region": "US",
-              "lang": "en-US"
-            },
-            "metadata": {
-              "editorsPick": false
-            },
-            "finance": {
-              "premiumFinance": {
-                "isPremiumNews": false,
-                "isPremiumFreeNews": false
-              }
-            },
-            "storyline": null
-          }
-        },
-        {
-          "id": "9ad5ba34-50e1-39b9-bbfa-c122c0c824e3",
-          "content": {
-            "id": "9ad5ba34-50e1-39b9-bbfa-c122c0c824e3",
-            "contentType": "STORY",
-            "title": "GHO and Ampersand Capital to acquire Avid Bioservices",
-            "description": "",
-            "summary": "The definitive merger agreement stipulates that GHO and Ampersand will purchase all outstanding shares of Avid.",
-            "pubDate": "2024-11-07T11:59:56Z",
-            "displayTime": "2024-11-07T11:59:56Z",
-            "isHosted": true,
-            "bypassModal": false,
-            "previewUrl": null,
-            "thumbnail": {
-              "originalUrl": "https://media.zenfs.com/en/pharmaceutical_technology_376/fae21221ef6856e99af8a729bbb37ba4",
-              "originalWidth": 1440,
-              "originalHeight": 810,
-              "caption": "Avid is a contract development and manufacturing organisation focused on biotechnology services. Credit: totojang1977/Shutterstock.",
-              "resolutions": [
-                {
-                  "url": "https://s.yimg.com/uu/api/res/1.2/IUoTj3qH6StWirIkD1NbqA--~B/aD04MTA7dz0xNDQwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/pharmaceutical_technology_376/fae21221ef6856e99af8a729bbb37ba4",
-                  "width": 1440,
-                  "height": 810,
-                  "tag": "original"
-                },
-                {
-                  "url": "https://s.yimg.com/uu/api/res/1.2/tEF9AkPVlvgklz_0rdX5.w--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/pharmaceutical_technology_376/fae21221ef6856e99af8a729bbb37ba4",
-                  "width": 170,
-                  "height": 128,
-                  "tag": "170x128"
-                }
-              ]
-            },
-            "provider": {
-              "displayName": "Pharmaceutical Technology",
-              "url": "https://www.globaldata.com/"
-            },
-            "canonicalUrl": {
-              "url": "https://www.pharmaceutical-technology.com/news/gho-ampersand-capital-avid/",
-              "site": "finance",
-              "region": "US",
-              "lang": "en-US"
-            },
-            "clickThroughUrl": {
-              "url": "https://finance.yahoo.com/news/gho-ampersand-capital-acquire-avid-115956089.html",
               "site": "finance",
               "region": "US",
               "lang": "en-US"

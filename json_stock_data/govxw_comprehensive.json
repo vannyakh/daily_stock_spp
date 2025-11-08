@@ -1,6 +1,6 @@
 {
   "ticker": "GOVXW",
-  "timestamp": "2025-11-07T05:02:19.134619",
+  "timestamp": "2025-11-08T04:49:21.379671",
   "intraday_data": {
     "status": "no_data",
     "message": "No intraday data available"
@@ -441,15 +441,15 @@
     },
     "recommendations": {
       "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
+      "message": "Failed to perform, curl: (7) Failed to connect to query2.finance.yahoo.com port 443 after 4 ms: Could not connect to server. See https://curl.se/libcurl/c/libcurl-errors.html first for more details."
     }
   },
   "holders_data": {
     "major_holders": {
-      "status": "error"
+      "status": "no_data"
     },
     "institutional_holders": {
-      "status": "error"
+      "status": "no_data"
     }
   },
   "earnings_data": {
@@ -459,7 +459,7 @@
     },
     "calendar": {
       "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
+      "message": "Failed to perform, curl: (7) Failed to connect to query1.finance.yahoo.com port 443 after 4 ms: Could not connect to server. See https://curl.se/libcurl/c/libcurl-errors.html first for more details."
     }
   }
 }

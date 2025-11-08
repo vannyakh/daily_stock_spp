@@ -1,9 +1,32 @@
 {
   "ticker": "ZIVO",
-  "timestamp": "2025-11-07T05:00:14.980266",
+  "timestamp": "2025-11-08T04:47:19.223823",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 3,
+    "data": [
+      {
+        "Close TCBC": 20.389999389648438,
+        "High TCBC": 20.389999389648438,
+        "Low TCBC": 20.389999389648438,
+        "Open TCBC": 20.389999389648438,
+        "Volume TCBC": 0
+      },
+      {
+        "Close TCBC": 20.3700008392334,
+        "High TCBC": 20.3700008392334,
+        "Low TCBC": 20.364999771118164,
+        "Open TCBC": 20.364999771118164,
+        "Volume TCBC": 106
+      },
+      {
+        "Close TCBC": 20.3700008392334,
+        "High TCBC": 20.3700008392334,
+        "Low TCBC": 20.3700008392334,
+        "Open TCBC": 20.3700008392334,
+        "Volume TCBC": 25
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -26,7 +49,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Failed to perform, curl: (7) Failed to connect to finance.yahoo.com port 443 after 5 ms: Could not connect to server. See https://curl.se/libcurl/c/libcurl-errors.html first for more details."
     },
     "recommendations": {
       "status": "error",

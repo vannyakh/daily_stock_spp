@@ -1,46 +1,9 @@
 {
   "ticker": "BBXIB",
-  "timestamp": "2025-11-07T05:00:01.213873",
+  "timestamp": "2025-11-08T04:47:07.499094",
   "intraday_data": {
-    "status": "success",
-    "rows": 5,
-    "data": [
-      {
-        "Close AONC": 9.5,
-        "High AONC": 9.5,
-        "Low AONC": 9.470000267028809,
-        "Open AONC": 9.470000267028809,
-        "Volume AONC": 0
-      },
-      {
-        "Close AONC": 9.850000381469727,
-        "High AONC": 9.850000381469727,
-        "Low AONC": 9.850000381469727,
-        "Open AONC": 9.850000381469727,
-        "Volume AONC": 520
-      },
-      {
-        "Close AONC": 9.890000343322754,
-        "High AONC": 9.890000343322754,
-        "Low AONC": 9.890000343322754,
-        "Open AONC": 9.890000343322754,
-        "Volume AONC": 1000
-      },
-      {
-        "Close AONC": 9.899999618530273,
-        "High AONC": 9.899999618530273,
-        "Low AONC": 9.890000343322754,
-        "Open AONC": 9.890000343322754,
-        "Volume AONC": 1100
-      },
-      {
-        "Close AONC": 9.890000343322754,
-        "High AONC": 9.890000343322754,
-        "Low AONC": 9.890000343322754,
-        "Open AONC": 9.890000343322754,
-        "Volume AONC": 231
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -63,7 +26,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Failed to perform, curl: (7) Failed to connect to finance.yahoo.com port 443 after 5 ms: Could not connect to server. See https://curl.se/libcurl/c/libcurl-errors.html first for more details."
     },
     "recommendations": {
       "status": "error",

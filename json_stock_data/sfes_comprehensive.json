@@ -1,18 +1,9 @@
 {
   "ticker": "SFES",
-  "timestamp": "2025-11-07T05:00:36.706856",
+  "timestamp": "2025-11-08T04:47:43.938835",
   "intraday_data": {
-    "status": "success",
-    "rows": 1,
-    "data": [
-      {
-        "Close": 0.8801000118255615,
-        "High": 0.8801000118255615,
-        "Low": 0.8801000118255615,
-        "Open": 0.8801000118255615,
-        "Volume": 6495
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -35,8 +26,52 @@
   },
   "news_data": {
     "news": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
+      "status": "success",
+      "count": 1,
+      "data": [
+        {
+          "id": "b1c6ddbd-e6c0-3518-9604-a16e54b3f8b7",
+          "content": {
+            "id": "b1c6ddbd-e6c0-3518-9604-a16e54b3f8b7",
+            "contentType": "STORY",
+            "title": "Safeguard Scientifics: Q2 Earnings Snapshot",
+            "description": "",
+            "summary": "RADNOR, Pa. AP) \u2014 Safeguard Scientifics Inc. SFES) on Thursday reported profit of $1.1 million in its second quarter.",
+            "pubDate": "2025-08-14T17:19:20Z",
+            "displayTime": "2025-08-14T17:19:20Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": null,
+            "provider": {
+              "displayName": "Associated Press Finance",
+              "url": "http://www.ap.org/"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/safeguard-scientifics-q2-earnings-snapshot-171920240.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/safeguard-scientifics-q2-earnings-snapshot-171920240.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        }
+      ]
     },
     "recommendations": {
       "status": "error",

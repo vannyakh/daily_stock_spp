@@ -1,9 +1,32 @@
 {
   "ticker": "JMIA",
-  "timestamp": "2025-11-07T04:28:59.498271",
+  "timestamp": "2025-11-08T04:20:13.351046",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 3,
+    "data": [
+      {
+        "Close ANSC": 11.050000190734863,
+        "High ANSC": 11.050000190734863,
+        "Low ANSC": 11.050000190734863,
+        "Open ANSC": 11.050000190734863,
+        "Volume ANSC": 0
+      },
+      {
+        "Close ANSC": 11.050000190734863,
+        "High ANSC": 11.050000190734863,
+        "Low ANSC": 11.050000190734863,
+        "Open ANSC": 11.050000190734863,
+        "Volume ANSC": 304
+      },
+      {
+        "Close ANSC": 11.09000015258789,
+        "High ANSC": 11.09000015258789,
+        "Low ANSC": 11.09000015258789,
+        "Open ANSC": 11.09000015258789,
+        "Volume ANSC": 206
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -619,7 +642,7 @@
     },
     "recommendations": {
       "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
+      "message": "Failed to perform, curl: (7) Failed to connect to query2.finance.yahoo.com port 443 after 2 ms: Could not connect to server. See https://curl.se/libcurl/c/libcurl-errors.html first for more details."
     }
   },
   "holders_data": {

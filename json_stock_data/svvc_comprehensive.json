@@ -1,41 +1,99 @@
 {
   "ticker": "SVVC",
-  "timestamp": "2025-11-07T05:01:13.421350",
+  "timestamp": "2025-11-08T04:48:15.415404",
   "intraday_data": {
-    "status": "success",
-    "rows": 2,
-    "data": [
-      {
-        "Close": 0.05180000141263008,
-        "High": 0.05180000141263008,
-        "Low": 0.05180000141263008,
-        "Open": 0.05180000141263008,
-        "Volume": 0
-      },
-      {
-        "Close": 0.05249999836087227,
-        "High": 0.05249999836087227,
-        "Low": 0.05249999836087227,
-        "Open": 0.05249999836087227,
-        "Volume": 7537
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
-    "message": "argument of type 'NoneType' is not iterable"
+    "message": "Too Many Requests. Rate limited. Try after a while."
   },
   "financials": {
     "income_statement": {
+      "status": "no_data"
+    },
+    "balance_sheet": {
+      "status": "no_data"
+    },
+    "cash_flow": {
+      "status": "no_data"
+    }
+  },
+  "options_data": {
+    "status": "error",
+    "error_message": "Too Many Requests. Rate limited. Try after a while."
+  },
+  "news_data": {
+    "news": {
       "status": "success",
-      "rows": 25,
-      "columns": [
-        "2024-12-31 00:00:00",
-        "2023-12-31 00:00:00",
-        "2022-12-31 00:00:00",
-        "2021-12-31 00:00:00",
-        "2020-12-31 00:00:00"
-      ],
+      "count": 1,
       "data": [
         {
-          
+          "id": "259395c3-f510-3ee9-afad-07e6a67eb7cd",
+          "content": {
+            "id": "259395c3-f510-3ee9-afad-07e6a67eb7cd",
+            "contentType": "STORY",
+            "title": "Firsthand Technology Value Fund: Q2 Earnings Snapshot",
+            "description": "",
+            "summary": "SVVC) on Thursday reported a loss of $90,000 in its second quarter. On a per-share basis, the San Jose, California-based company said it had a loss of 1 cent. The technology investment fund posted revenue of $170,900 in the period.",
+            "pubDate": "2025-08-14T19:49:09Z",
+            "displayTime": "2025-08-14T19:49:09Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": null,
+            "provider": {
+              "displayName": "Associated Press Finance",
+              "url": "http://www.ap.org/"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/firsthand-technology-value-fund-q2-194909171.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/firsthand-technology-value-fund-q2-194909171.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        }
+      ]
+    },
+    "recommendations": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  },
+  "holders_data": {
+    "major_holders": {
+      "status": "error"
+    },
+    "institutional_holders": {
+      "status": "error"
+    }
+  },
+  "earnings_data": {
+    "earnings": {
+      "status": "error",
+      "message": "'NoneType' object has no attribute 'empty'"
+    },
+    "calendar": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  }
+}

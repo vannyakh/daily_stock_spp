@@ -1,246 +1,25 @@
 {
   "ticker": "BGI",
-  "timestamp": "2025-11-07T04:44:39.701642",
+  "timestamp": "2025-11-08T04:33:50.741181",
   "intraday_data": {
-    "status": "success",
-    "rows": 18,
-    "data": [
-      {
-        "Close RAIN": 5.329999923706055,
-        "High RAIN": 5.329999923706055,
-        "Low RAIN": 5.329999923706055,
-        "Open RAIN": 5.329999923706055,
-        "Volume RAIN": 0
-      },
-      {
-        "Close RAIN": 5.057600021362305,
-        "High RAIN": 5.057600021362305,
-        "Low RAIN": 5.057600021362305,
-        "Open RAIN": 5.057600021362305,
-        "Volume RAIN": 345
-      },
-      {
-        "Close RAIN": 5.050000190734863,
-        "High RAIN": 5.050000190734863,
-        "Low RAIN": 5.050000190734863,
-        "Open RAIN": 5.050000190734863,
-        "Volume RAIN": 200
-      },
-      {
-        "Close RAIN": 5.130499839782715,
-        "High RAIN": 5.130499839782715,
-        "Low RAIN": 5.130499839782715,
-        "Open RAIN": 5.130499839782715,
-        "Volume RAIN": 1850
-      },
-      {
-        "Close RAIN": 5.019999980926514,
-        "High RAIN": 5.019999980926514,
-        "Low RAIN": 5.019999980926514,
-        "Open RAIN": 5.019999980926514,
-        "Volume RAIN": 400
-      },
-      {
-        "Close RAIN": 5.25,
-        "High RAIN": 5.25,
-        "Low RAIN": 5.25,
-        "Open RAIN": 5.25,
-        "Volume RAIN": 700
-      },
-      {
-        "Close RAIN": 5.099999904632568,
-        "High RAIN": 5.099999904632568,
-        "Low RAIN": 5.099999904632568,
-        "Open RAIN": 5.099999904632568,
-        "Volume RAIN": 1020
-      },
-      {
-        "Close RAIN": 5.164999961853027,
-        "High RAIN": 5.164999961853027,
-        "Low RAIN": 5.164999961853027,
-        "Open RAIN": 5.164999961853027,
-        "Volume RAIN": 200
-      },
-      {
-        "Close RAIN": 5.3317999839782715,
-        "High RAIN": 5.3317999839782715,
-        "Low RAIN": 5.3317999839782715,
-        "Open RAIN": 5.3317999839782715,
-        "Volume RAIN": 201
-      },
-      {
-        "Close RAIN": 5.164999961853027,
-        "High RAIN": 5.164999961853027,
-        "Low RAIN": 5.164999961853027,
-        "Open RAIN": 5.164999961853027,
-        "Volume RAIN": 421
-      },
-      {
-        "Close RAIN": 5.079999923706055,
-        "High RAIN": 5.079999923706055,
-        "Low RAIN": 5.079999923706055,
-        "Open RAIN": 5.079999923706055,
-        "Volume RAIN": 1200
-      },
-      {
-        "Close RAIN": 5.090000152587891,
-        "High RAIN": 5.099999904632568,
-        "Low RAIN": 5.079999923706055,
-        "Open RAIN": 5.079999923706055,
-        "Volume RAIN": 0
-      },
-      {
-        "Close RAIN": 5.090000152587891,
-        "High RAIN": 5.090000152587891,
-        "Low RAIN": 5.090000152587891,
-        "Open RAIN": 5.090000152587891,
-        "Volume RAIN": 121
-      },
-      {
-        "Close RAIN": 5.090000152587891,
-        "High RAIN": 5.090000152587891,
-        "Low RAIN": 5.090000152587891,
-        "Open RAIN": 5.090000152587891,
-        "Volume RAIN": 131
-      },
-      {
-        "Close RAIN": 5.150000095367432,
-        "High RAIN": 5.150000095367432,
-        "Low RAIN": 5.150000095367432,
-        "Open RAIN": 5.150000095367432,
-        "Volume RAIN": 688
-      },
-      {
-        "Close RAIN": 5.021999835968018,
-        "High RAIN": 5.021999835968018,
-        "Low RAIN": 5.021999835968018,
-        "Open RAIN": 5.021999835968018,
-        "Volume RAIN": 100
-      },
-      {
-        "Close RAIN": 4.991600036621094,
-        "High RAIN": 4.991600036621094,
-        "Low RAIN": 4.991600036621094,
-        "Open RAIN": 4.991600036621094,
-        "Volume RAIN": 424
-      },
-      {
-        "Close RAIN": 4.989999771118164,
-        "High RAIN": 4.989999771118164,
-        "Low RAIN": 4.989999771118164,
-        "Open RAIN": 4.989999771118164,
-        "Volume RAIN": 104
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
-    "message": "Too Many Requests. Rate limited. Try after a while."
+    "message": "Failed to perform, curl: (7) Failed to connect to query2.finance.yahoo.com port 443 after 2 ms: Could not connect to server. See https://curl.se/libcurl/c/libcurl-errors.html first for more details."
   },
   "financials": {
     "income_statement": {
-      "status": "no_data"
-    },
-    "balance_sheet": {
-      "status": "no_data"
-    },
-    "cash_flow": {
-      "status": "no_data"
-    }
-  },
-  "options_data": {
-    "status": "error",
-    "error_message": "Too Many Requests. Rate limited. Try after a while."
-  },
-  "news_data": {
-    "news": {
       "status": "success",
-      "count": 1,
+      "rows": 44,
+      "columns": [
+        "2025-03-31 00:00:00",
+        "2024-03-31 00:00:00",
+        "2023-03-31 00:00:00",
+        "2022-03-31 00:00:00",
+        "2021-03-31 00:00:00"
+      ],
       "data": [
         {
-          "id": "bd8fb8b8-c0d3-3c3d-8c0d-0280a70a8d75",
-          "content": {
-            "id": "bd8fb8b8-c0d3-3c3d-8c0d-0280a70a8d75",
-            "contentType": "STORY",
-            "title": "Birks acquires European Boutique\u2019s luxury watch and jewellery business",
-            "description": "",
-            "summary": "Birks Group has secured a licensing agreement to operate the Canadian brand Diamonds Direct.",
-            "pubDate": "2025-07-09T11:47:36Z",
-            "displayTime": "2025-07-09T11:47:36Z",
-            "isHosted": true,
-            "bypassModal": false,
-            "previewUrl": null,
-            "thumbnail": {
-              "originalUrl": "https://media.zenfs.com/en/retail_insight_network_724/fa110639c31343d9c13483391f315b70",
-              "originalWidth": 1440,
-              "originalHeight": 810,
-              "caption": "European operates multi-brand luxury watch and jewellery stores. Credit: FXQuadro/Shutterstock.",
-              "resolutions": [
-                {
-                  "url": "https://s.yimg.com/uu/api/res/1.2/5cFahBC3PpsDge4poSafxQ--~B/aD04MTA7dz0xNDQwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/retail_insight_network_724/fa110639c31343d9c13483391f315b70",
-                  "width": 1440,
-                  "height": 810,
-                  "tag": "original"
-                },
-                {
-                  "url": "https://s.yimg.com/uu/api/res/1.2/e8Cv_fw8rfkux36c.V7qlg--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/retail_insight_network_724/fa110639c31343d9c13483391f315b70",
-                  "width": 170,
-                  "height": 128,
-                  "tag": "170x128"
-                }
-              ]
-            },
-            "provider": {
-              "displayName": "Retail Insight Network",
-              "url": "https://www.globaldata.com/"
-            },
-            "canonicalUrl": {
-              "url": "https://www.retail-insight-network.com/news/birks-group-european-boutique/",
-              "site": "finance",
-              "region": "US",
-              "lang": "en-US"
-            },
-            "clickThroughUrl": {
-              "url": "https://finance.yahoo.com/news/birks-acquires-european-boutique-luxury-114736422.html",
-              "site": "finance",
-              "region": "US",
-              "lang": "en-US"
-            },
-            "metadata": {
-              "editorsPick": false
-            },
-            "finance": {
-              "premiumFinance": {
-                "isPremiumNews": false,
-                "isPremiumFreeNews": false
-              }
-            },
-            "storyline": null
-          }
-        }
-      ]
-    },
-    "recommendations": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
-    }
-  },
-  "holders_data": {
-    "major_holders": {
-      "status": "error"
-    },
-    "institutional_holders": {
-      "status": "error"
-    }
-  },
-  "earnings_data": {
-    "earnings": {
-      "status": "error",
-      "message": "'NoneType' object has no attribute 'empty'"
-    },
-    "calendar": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
-    }
-  }
-}
+          

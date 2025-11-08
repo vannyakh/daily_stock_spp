@@ -1,18 +1,9 @@
 {
   "ticker": "RLFTY",
-  "timestamp": "2025-11-07T05:00:16.483769",
+  "timestamp": "2025-11-08T04:47:23.852478",
   "intraday_data": {
-    "status": "success",
-    "rows": 1,
-    "data": [
-      {
-        "Close FFBW": 14.050000190734863,
-        "High FFBW": 14.050000190734863,
-        "Low FFBW": 14.050000190734863,
-        "Open FFBW": 14.050000190734863,
-        "Volume FFBW": 245
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -35,7 +26,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Failed to perform, curl: (7) Failed to connect to finance.yahoo.com port 443 after 4 ms: Could not connect to server. See https://curl.se/libcurl/c/libcurl-errors.html first for more details."
     },
     "recommendations": {
       "status": "error",

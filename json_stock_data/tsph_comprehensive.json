@@ -1,6 +1,6 @@
 {
   "ticker": "TSPH",
-  "timestamp": "2025-11-07T05:05:42.678857",
+  "timestamp": "2025-11-08T04:52:30.921734",
   "intraday_data": {
     "status": "no_data",
     "message": "No intraday data available"
@@ -26,52 +26,8 @@
   },
   "news_data": {
     "news": {
-      "status": "success",
-      "count": 1,
-      "data": [
-        {
-          "id": "79965d3f-6fe1-3195-a945-33bc3dcd6532",
-          "content": {
-            "id": "79965d3f-6fe1-3195-a945-33bc3dcd6532",
-            "contentType": "STORY",
-            "title": "CreateAI Holdings: Q2 Earnings Snapshot",
-            "description": "",
-            "summary": "SAN DIEGO (AP) \u2014 CreateAI Holdings Inc. TSPH) on Thursday reported a loss of $17.8 million in its second quarter. The San Diego-based company said it had a loss of 7 cents per share.",
-            "pubDate": "2025-08-14T20:07:37Z",
-            "displayTime": "2025-08-14T20:07:37Z",
-            "isHosted": true,
-            "bypassModal": false,
-            "previewUrl": null,
-            "thumbnail": null,
-            "provider": {
-              "displayName": "Associated Press Finance",
-              "url": "http://www.ap.org/"
-            },
-            "canonicalUrl": {
-              "url": "https://finance.yahoo.com/news/createai-holdings-q2-earnings-snapshot-200737089.html",
-              "site": "finance",
-              "region": "US",
-              "lang": "en-US"
-            },
-            "clickThroughUrl": {
-              "url": "https://finance.yahoo.com/news/createai-holdings-q2-earnings-snapshot-200737089.html",
-              "site": "finance",
-              "region": "US",
-              "lang": "en-US"
-            },
-            "metadata": {
-              "editorsPick": false
-            },
-            "finance": {
-              "premiumFinance": {
-                "isPremiumNews": false,
-                "isPremiumFreeNews": false
-              }
-            },
-            "storyline": null
-          }
-        }
-      ]
+      "status": "error",
+      "message": "Failed to perform, curl: (7) Failed to connect to finance.yahoo.com port 443 after 2 ms: Could not connect to server. See https://curl.se/libcurl/c/libcurl-errors.html first for more details."
     },
     "recommendations": {
       "status": "error",

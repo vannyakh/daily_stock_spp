@@ -1,127 +1,93 @@
 {
   "ticker": "WLACW",
-  "timestamp": "2025-11-07T05:04:55.024811",
+  "timestamp": "2025-11-08T04:51:51.127675",
   "intraday_data": {
     "status": "success",
-    "rows": 1,
+    "rows": 10,
     "data": [
       {
-        "Close WLACU": 13.449999809265137,
-        "High WLACU": 13.449999809265137,
-        "Low WLACU": 12.880000114440918,
-        "Open WLACU": 12.880000114440918,
-        "Volume WLACU": 0
+        "Close": 3.3399999141693115,
+        "High": 3.3399999141693115,
+        "Low": 3.3399999141693115,
+        "Open": 3.3399999141693115,
+        "Volume": 0
+      },
+      {
+        "Close": 3.1500000953674316,
+        "High": 3.1500000953674316,
+        "Low": 3.1500000953674316,
+        "Open": 3.1500000953674316,
+        "Volume": 1518
+      },
+      {
+        "Close": 3.049999952316284,
+        "High": 3.1500000953674316,
+        "Low": 3.049999952316284,
+        "Open": 3.1500000953674316,
+        "Volume": 3952
+      },
+      {
+        "Close": 3.1500000953674316,
+        "High": 3.2200000286102295,
+        "Low": 3.1500000953674316,
+        "Open": 3.2200000286102295,
+        "Volume": 1490
+      },
+      {
+        "Close": 3.2999000549316406,
+        "High": 3.2999000549316406,
+        "Low": 3.2999000549316406,
+        "Open": 3.2999000549316406,
+        "Volume": 3090
+      },
+      {
+        "Close": 3.299999952316284,
+        "High": 3.299999952316284,
+        "Low": 3.299999952316284,
+        "Open": 3.299999952316284,
+        "Volume": 2600
+      },
+      {
+        "Close": 3.299999952316284,
+        "High": 3.309999942779541,
+        "Low": 3.299999952316284,
+        "Open": 3.309999942779541,
+        "Volume": 1000
+      },
+      {
+        "Close": 3.6500000953674316,
+        "High": 3.6500000953674316,
+        "Low": 3.5899999141693115,
+        "Open": 3.5899999141693115,
+        "Volume": 1401
+      },
+      {
+        "Close": 3.75,
+        "High": 3.75,
+        "Low": 3.75,
+        "Open": 3.75,
+        "Volume": 1355
+      },
+      {
+        "Close": 3.5999999046325684,
+        "High": 3.5999999046325684,
+        "Low": 3.5999999046325684,
+        "Open": 3.5999999046325684,
+        "Volume": 21872
       }
     ]
   },
   "stock_info": {
     "status": "error",
-    "message": "Too Many Requests. Rate limited. Try after a while."
+    "message": "Failed to perform, curl: (7) Failed to connect to query1.finance.yahoo.com port 443 after 3 ms: Could not connect to server. See https://curl.se/libcurl/c/libcurl-errors.html first for more details."
   },
   "financials": {
     "income_statement": {
-      "status": "no_data"
-    },
-    "balance_sheet": {
-      "status": "no_data"
-    },
-    "cash_flow": {
-      "status": "no_data"
-    }
-  },
-  "options_data": {
-    "status": "error",
-    "error_message": "Too Many Requests. Rate limited. Try after a while."
-  },
-  "news_data": {
-    "news": {
       "status": "success",
-      "count": 1,
+      "rows": 27,
+      "columns": [
+        "2024-12-31 00:00:00"
+      ],
       "data": [
         {
-          "id": "967aff49-ebf8-3509-ae36-e8d5d4e4767d",
-          "content": {
-            "id": "967aff49-ebf8-3509-ae36-e8d5d4e4767d",
-            "contentType": "STORY",
-            "title": "Insiders own 31% of Willow Lane Acquisition Corp. (NASDAQ:WLAC) shares but individual investors control 36% of the company",
-            "description": "",
-            "summary": "Key Insights The considerable ownership by individual investors in Willow Lane Acquisition indicates that they...",
-            "pubDate": "2025-03-29T13:10:55Z",
-            "displayTime": "2025-03-29T13:10:55Z",
-            "isHosted": true,
-            "bypassModal": false,
-            "previewUrl": null,
-            "thumbnail": {
-              "originalUrl": "https://media.zenfs.com/en/simply_wall_st__316/f88d3d8c5618aa88ce2627c2a1cda340",
-              "originalWidth": 1194,
-              "originalHeight": 432,
-              "caption": "",
-              "resolutions": [
-                {
-                  "url": "https://s.yimg.com/uu/api/res/1.2/SSw8naZrBB1tKswm10P8gw--~B/aD00MzI7dz0xMTk0O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/simply_wall_st__316/f88d3d8c5618aa88ce2627c2a1cda340",
-                  "width": 1194,
-                  "height": 432,
-                  "tag": "original"
-                },
-                {
-                  "url": "https://s.yimg.com/uu/api/res/1.2/79qko4F_hdhwRlGyEfLjcw--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/simply_wall_st__316/f88d3d8c5618aa88ce2627c2a1cda340",
-                  "width": 170,
-                  "height": 128,
-                  "tag": "170x128"
-                }
-              ]
-            },
-            "provider": {
-              "displayName": "Simply Wall St.",
-              "url": "https://simplywall.st/"
-            },
-            "canonicalUrl": {
-              "url": "https://finance.yahoo.com/news/insiders-own-31-willow-lane-131055093.html",
-              "site": "finance",
-              "region": "US",
-              "lang": "en-US"
-            },
-            "clickThroughUrl": {
-              "url": "https://finance.yahoo.com/news/insiders-own-31-willow-lane-131055093.html",
-              "site": "finance",
-              "region": "US",
-              "lang": "en-US"
-            },
-            "metadata": {
-              "editorsPick": false
-            },
-            "finance": {
-              "premiumFinance": {
-                "isPremiumNews": false,
-                "isPremiumFreeNews": false
-              }
-            },
-            "storyline": null
-          }
-        }
-      ]
-    },
-    "recommendations": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
-    }
-  },
-  "holders_data": {
-    "major_holders": {
-      "status": "error"
-    },
-    "institutional_holders": {
-      "status": "error"
-    }
-  },
-  "earnings_data": {
-    "earnings": {
-      "status": "error",
-      "message": "'NoneType' object has no attribute 'empty'"
-    },
-    "calendar": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
-    }
-  }
-}
+          

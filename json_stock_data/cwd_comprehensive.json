@@ -1,23 +1,16 @@
 {
   "ticker": "CWD",
-  "timestamp": "2025-11-07T04:47:06.448458",
+  "timestamp": "2025-11-08T04:35:55.949354",
   "intraday_data": {
     "status": "success",
     "rows": 7,
     "data": [
       {
-        "Close BASA": 0.026399999856948853,
-        "High BASA": 0.026399999856948853,
-        "Low BASA": 0.026399999856948853,
-        "Open BASA": 0.026399999856948853,
-        "Volume BASA": 0
-      },
-      {
         "Close BASA": 0.02630000002682209,
         "High BASA": 0.026499999687075615,
         "Low BASA": 0.02630000002682209,
         "Open BASA": 0.026499999687075615,
-        "Volume BASA": 70000
+        "Volume BASA": 0
       },
       {
         "Close BASA": 0.026200000196695328,
@@ -53,12 +46,19 @@
         "Low BASA": 0.024399999529123306,
         "Open BASA": 0.024399999529123306,
         "Volume BASA": 18500
+      },
+      {
+        "Close BASA": 0.02419999986886978,
+        "High BASA": 0.02419999986886978,
+        "Low BASA": 0.02419999986886978,
+        "Open BASA": 0.02419999986886978,
+        "Volume BASA": 10000
       }
     ]
   },
   "stock_info": {
     "status": "error",
-    "message": "Too Many Requests. Rate limited. Try after a while."
+    "message": "Failed to perform, curl: (7) Failed to connect to query2.finance.yahoo.com port 443 after 3 ms: Could not connect to server. See https://curl.se/libcurl/c/libcurl-errors.html first for more details."
   },
   "financials": {
     "income_statement": {
@@ -618,7 +618,7 @@
     },
     "recommendations": {
       "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
+      "message": "Failed to perform, curl: (7) Failed to connect to query2.finance.yahoo.com port 443 after 2 ms: Could not connect to server. See https://curl.se/libcurl/c/libcurl-errors.html first for more details."
     }
   },
   "holders_data": {

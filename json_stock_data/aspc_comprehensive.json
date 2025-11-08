@@ -1,109 +1,9 @@
 {
   "ticker": "ASPC",
-  "timestamp": "2025-11-07T04:39:33.635414",
+  "timestamp": "2025-11-08T04:29:26.063688",
   "intraday_data": {
-    "status": "success",
-    "rows": 14,
-    "data": [
-      {
-        "Close": 11.399999618530273,
-        "High": 11.460000038146973,
-        "Low": 11.399999618530273,
-        "Open": 11.460000038146973,
-        "Volume": 0
-      },
-      {
-        "Close": 11.109999656677246,
-        "High": 11.119999885559082,
-        "Low": 11.109999656677246,
-        "Open": 11.119999885559082,
-        "Volume": 277
-      },
-      {
-        "Close": 11.050000190734863,
-        "High": 11.050000190734863,
-        "Low": 11.050000190734863,
-        "Open": 11.050000190734863,
-        "Volume": 277
-      },
-      {
-        "Close": 11.300000190734863,
-        "High": 11.300000190734863,
-        "Low": 11.229999542236328,
-        "Open": 11.229999542236328,
-        "Volume": 673
-      },
-      {
-        "Close": 11.229999542236328,
-        "High": 11.229999542236328,
-        "Low": 11.229999542236328,
-        "Open": 11.229999542236328,
-        "Volume": 101
-      },
-      {
-        "Close": 11.199999809265137,
-        "High": 11.199999809265137,
-        "Low": 11.199999809265137,
-        "Open": 11.199999809265137,
-        "Volume": 150
-      },
-      {
-        "Close": 11.210000038146973,
-        "High": 11.210000038146973,
-        "Low": 11.210000038146973,
-        "Open": 11.210000038146973,
-        "Volume": 100
-      },
-      {
-        "Close": 11.210000038146973,
-        "High": 11.210000038146973,
-        "Low": 11.210000038146973,
-        "Open": 11.210000038146973,
-        "Volume": 304
-      },
-      {
-        "Close": 11.199999809265137,
-        "High": 11.199999809265137,
-        "Low": 11.199999809265137,
-        "Open": 11.199999809265137,
-        "Volume": 101
-      },
-      {
-        "Close": 10.920000076293945,
-        "High": 10.920000076293945,
-        "Low": 10.699999809265137,
-        "Open": 10.699999809265137,
-        "Volume": 545
-      },
-      {
-        "Close": 10.899999618530273,
-        "High": 10.899999618530273,
-        "Low": 10.899999618530273,
-        "Open": 10.899999618530273,
-        "Volume": 146
-      },
-      {
-        "Close": 11.09000015258789,
-        "High": 11.09000015258789,
-        "Low": 11.069999694824219,
-        "Open": 11.069999694824219,
-        "Volume": 629
-      },
-      {
-        "Close": 11.550000190734863,
-        "High": 11.550000190734863,
-        "Low": 11.550000190734863,
-        "Open": 11.550000190734863,
-        "Volume": 200
-      },
-      {
-        "Close": 11.539999961853027,
-        "High": 11.539999961853027,
-        "Low": 11.539999961853027,
-        "Open": 11.539999961853027,
-        "Volume": 200
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -111,13 +11,44 @@
   },
   "financials": {
     "income_statement": {
-      "status": "success",
-      "rows": 32,
-      "columns": [
-        "2024-12-31 00:00:00",
-        "2023-12-31 00:00:00",
-        "2022-12-31 00:00:00"
-      ],
-      "data": [
-        {
-          
+      "status": "no_data"
+    },
+    "balance_sheet": {
+      "status": "no_data"
+    },
+    "cash_flow": {
+      "status": "no_data"
+    }
+  },
+  "options_data": {
+    "status": "error",
+    "error_message": "Too Many Requests. Rate limited. Try after a while."
+  },
+  "news_data": {
+    "news": {
+      "status": "no_data"
+    },
+    "recommendations": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  },
+  "holders_data": {
+    "major_holders": {
+      "status": "error"
+    },
+    "institutional_holders": {
+      "status": "error"
+    }
+  },
+  "earnings_data": {
+    "earnings": {
+      "status": "error",
+      "message": "'NoneType' object has no attribute 'empty'"
+    },
+    "calendar": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  }
+}

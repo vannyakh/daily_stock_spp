@@ -1,64 +1,32 @@
 {
   "ticker": "EGRX",
-  "timestamp": "2025-11-07T05:00:48.971675",
+  "timestamp": "2025-11-08T04:47:53.141887",
   "intraday_data": {
     "status": "success",
     "rows": 1,
     "data": [
       {
-        "Close": 0.75,
-        "High": 0.75,
-        "Low": 0.75,
-        "Open": 0.75,
-        "Volume": 4174
+        "Close VQSSF": 0.13210000097751617,
+        "High VQSSF": 0.13210000097751617,
+        "Low VQSSF": 0.13210000097751617,
+        "Open VQSSF": 0.13210000097751617,
+        "Volume VQSSF": 3000
       }
     ]
   },
   "stock_info": {
     "status": "error",
-    "message": "Too Many Requests. Rate limited. Try after a while."
+    "message": "Failed to perform, curl: (7) Failed to connect to query2.finance.yahoo.com port 443 after 7 ms: Could not connect to server. See https://curl.se/libcurl/c/libcurl-errors.html first for more details."
   },
   "financials": {
     "income_statement": {
-      "status": "no_data"
-    },
-    "balance_sheet": {
-      "status": "no_data"
-    },
-    "cash_flow": {
-      "status": "no_data"
-    }
-  },
-  "options_data": {
-    "status": "error",
-    "error_message": "Too Many Requests. Rate limited. Try after a while."
-  },
-  "news_data": {
-    "news": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
-    },
-    "recommendations": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
-    }
-  },
-  "holders_data": {
-    "major_holders": {
-      "status": "error"
-    },
-    "institutional_holders": {
-      "status": "error"
-    }
-  },
-  "earnings_data": {
-    "earnings": {
-      "status": "error",
-      "message": "'NoneType' object has no attribute 'empty'"
-    },
-    "calendar": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
-    }
-  }
-}
+      "status": "success",
+      "rows": 44,
+      "columns": [
+        "2022-12-31 00:00:00",
+        "2021-12-31 00:00:00",
+        "2020-12-31 00:00:00"
+      ],
+      "data": [
+        {
+          

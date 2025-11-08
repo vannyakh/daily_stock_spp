@@ -1,29 +1,13 @@
 {
   "ticker": "ICDX",
-  "timestamp": "2025-11-07T04:48:52.016862",
+  "timestamp": "2025-11-08T04:37:25.608570",
   "intraday_data": {
-    "status": "success",
-    "rows": 2,
-    "data": [
-      {
-        "Close NMGX": 0.39500001072883606,
-        "High NMGX": 0.39500001072883606,
-        "Low NMGX": 0.39500001072883606,
-        "Open NMGX": 0.39500001072883606,
-        "Volume NMGX": 0
-      },
-      {
-        "Close NMGX": 0.5400000214576721,
-        "High NMGX": 0.5400000214576721,
-        "Low NMGX": 0.5400000214576721,
-        "Open NMGX": 0.5400000214576721,
-        "Volume NMGX": 100
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
-    "message": "Too Many Requests. Rate limited. Try after a while."
+    "message": "Failed to perform, curl: (7) Failed to connect to query1.finance.yahoo.com port 443 after 2 ms: Could not connect to server. See https://curl.se/libcurl/c/libcurl-errors.html first for more details."
   },
   "financials": {
     "income_statement": {

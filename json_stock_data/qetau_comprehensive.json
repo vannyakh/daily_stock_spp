@@ -1,9 +1,18 @@
 {
   "ticker": "QETAU",
-  "timestamp": "2025-11-07T05:04:57.945906",
+  "timestamp": "2025-11-08T04:51:51.952237",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 1,
+    "data": [
+      {
+        "Close QETAR": 1.7000000476837158,
+        "High QETAR": 1.7000000476837158,
+        "Low QETAR": 1.7000000476837158,
+        "Open QETAR": 1.7000000476837158,
+        "Volume QETAR": 2316
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -26,7 +35,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Failed to perform, curl: (7) Failed to connect to finance.yahoo.com port 443 after 3 ms: Could not connect to server. See https://curl.se/libcurl/c/libcurl-errors.html first for more details."
     },
     "recommendations": {
       "status": "error",

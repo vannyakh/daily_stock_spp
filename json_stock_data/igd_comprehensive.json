@@ -1,54 +1,97 @@
 {
   "ticker": "IGD",
-  "timestamp": "2025-11-07T04:29:19.317392",
+  "timestamp": "2025-11-08T04:20:30.842371",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 10,
+    "data": [
+      {
+        "Close VALU": 36.72999954223633,
+        "High VALU": 36.72999954223633,
+        "Low VALU": 36.72999954223633,
+        "Open VALU": 36.72999954223633,
+        "Volume VALU": 0
+      },
+      {
+        "Close VALU": 36.13999938964844,
+        "High VALU": 36.650001525878906,
+        "Low VALU": 36.13999938964844,
+        "Open VALU": 36.650001525878906,
+        "Volume VALU": 604
+      },
+      {
+        "Close VALU": 36.720001220703125,
+        "High VALU": 36.720001220703125,
+        "Low VALU": 36.720001220703125,
+        "Open VALU": 36.720001220703125,
+        "Volume VALU": 106
+      },
+      {
+        "Close VALU": 36.56999969482422,
+        "High VALU": 36.595001220703125,
+        "Low VALU": 36.56999969482422,
+        "Open VALU": 36.595001220703125,
+        "Volume VALU": 597
+      },
+      {
+        "Close VALU": 36.56999969482422,
+        "High VALU": 36.56999969482422,
+        "Low VALU": 36.56999969482422,
+        "Open VALU": 36.56999969482422,
+        "Volume VALU": 319
+      },
+      {
+        "Close VALU": 36.849998474121094,
+        "High VALU": 36.849998474121094,
+        "Low VALU": 36.849998474121094,
+        "Open VALU": 36.849998474121094,
+        "Volume VALU": 105
+      },
+      {
+        "Close VALU": 37.279998779296875,
+        "High VALU": 37.29999923706055,
+        "Low VALU": 37.25,
+        "Open VALU": 37.29999923706055,
+        "Volume VALU": 400
+      },
+      {
+        "Close VALU": 37.25,
+        "High VALU": 37.29999923706055,
+        "Low VALU": 37.25,
+        "Open VALU": 37.27000045776367,
+        "Volume VALU": 738
+      },
+      {
+        "Close VALU": 37.439998626708984,
+        "High VALU": 37.439998626708984,
+        "Low VALU": 37.310001373291016,
+        "Open VALU": 37.310001373291016,
+        "Volume VALU": 350
+      },
+      {
+        "Close VALU": 37.65999984741211,
+        "High VALU": 37.65999984741211,
+        "Low VALU": 37.65999984741211,
+        "Open VALU": 37.65999984741211,
+        "Volume VALU": 279
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
-    "message": "Too Many Requests. Rate limited. Try after a while."
+    "message": "Failed to perform, curl: (7) Failed to connect to query2.finance.yahoo.com port 443 after 3 ms: Could not connect to server. See https://curl.se/libcurl/c/libcurl-errors.html first for more details."
   },
   "financials": {
     "income_statement": {
-      "status": "no_data"
-    },
-    "balance_sheet": {
-      "status": "no_data"
-    },
-    "cash_flow": {
-      "status": "no_data"
-    }
-  },
-  "options_data": {
-    "status": "error",
-    "error_message": "Too Many Requests. Rate limited. Try after a while."
-  },
-  "news_data": {
-    "news": {
-      "status": "no_data"
-    },
-    "recommendations": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
-    }
-  },
-  "holders_data": {
-    "major_holders": {
-      "status": "error"
-    },
-    "institutional_holders": {
-      "status": "error"
-    }
-  },
-  "earnings_data": {
-    "earnings": {
-      "status": "error",
-      "message": "'NoneType' object has no attribute 'empty'"
-    },
-    "calendar": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
-    }
-  }
-}
+      "status": "success",
+      "rows": 24,
+      "columns": [
+        "2025-02-28 00:00:00",
+        "2024-02-29 00:00:00",
+        "2023-02-28 00:00:00",
+        "2022-02-28 00:00:00",
+        "2021-02-28 00:00:00"
+      ],
+      "data": [
+        {
+          

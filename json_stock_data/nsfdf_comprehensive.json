@@ -1,23 +1,23 @@
 {
   "ticker": "NSFDF",
-  "timestamp": "2025-11-07T04:47:16.385012",
+  "timestamp": "2025-11-08T04:36:06.439280",
   "intraday_data": {
     "status": "success",
     "rows": 2,
     "data": [
       {
-        "Close": 0.3050000071525574,
-        "High": 0.3050000071525574,
-        "Low": 0.3050000071525574,
-        "Open": 0.3050000071525574,
-        "Volume": 0
-      },
-      {
         "Close": 0.3100000023841858,
         "High": 0.3100000023841858,
         "Low": 0.3100000023841858,
         "Open": 0.3100000023841858,
-        "Volume": 2000
+        "Volume": 0
+      },
+      {
+        "Close": 0.3082999885082245,
+        "High": 0.3082999885082245,
+        "Low": 0.3082999885082245,
+        "Open": 0.3082999885082245,
+        "Volume": 4500
       }
     ]
   },
@@ -43,7 +43,7 @@
   "news_data": {
     "news": {
       "status": "success",
-      "count": 3,
+      "count": 2,
       "data": [
         {
           "id": "1ee5cff3-ac8e-34e9-b33c-aa59fb02bd82",
@@ -128,62 +128,20 @@
             },
             "storyline": null
           }
-        },
-        {
-          "id": "66e00cd0-a709-3b84-94be-280b2b0bf1cc",
-          "content": {
-            "id": "66e00cd0-a709-3b84-94be-280b2b0bf1cc",
-            "contentType": "STORY",
-            "title": "NXT: Q3 Earnings Snapshot",
-            "description": "",
-            "summary": "CALGARY, Alberta (AP) \u2014 NXT Energy Solutions Inc. NSFDF) on Thursday reported a loss of $1.1 million in its third quarter. On a per-share basis, the Calgary, Alberta-based company said it had a loss of 1 cent.",
-            "pubDate": "2024-11-07T23:47:29Z",
-            "displayTime": "2024-11-07T23:47:29Z",
-            "isHosted": true,
-            "bypassModal": false,
-            "previewUrl": null,
-            "thumbnail": null,
-            "provider": {
-              "displayName": "Associated Press Finance",
-              "url": "http://www.ap.org/"
-            },
-            "canonicalUrl": {
-              "url": "https://finance.yahoo.com/news/nxt-q3-earnings-snapshot-234729566.html",
-              "site": "finance",
-              "region": "US",
-              "lang": "en-US"
-            },
-            "clickThroughUrl": {
-              "url": "https://finance.yahoo.com/news/nxt-q3-earnings-snapshot-234729566.html",
-              "site": "finance",
-              "region": "US",
-              "lang": "en-US"
-            },
-            "metadata": {
-              "editorsPick": false
-            },
-            "finance": {
-              "premiumFinance": {
-                "isPremiumNews": false,
-                "isPremiumFreeNews": false
-              }
-            },
-            "storyline": null
-          }
         }
       ]
     },
     "recommendations": {
       "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
+      "message": "Failed to perform, curl: (7) Failed to connect to query2.finance.yahoo.com port 443 after 3 ms: Could not connect to server. See https://curl.se/libcurl/c/libcurl-errors.html first for more details."
     }
   },
   "holders_data": {
     "major_holders": {
-      "status": "error"
+      "status": "no_data"
     },
     "institutional_holders": {
-      "status": "error"
+      "status": "no_data"
     }
   },
   "earnings_data": {
@@ -193,7 +151,7 @@
     },
     "calendar": {
       "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
+      "message": "Failed to perform, curl: (7) Failed to connect to query1.finance.yahoo.com port 443 after 2 ms: Could not connect to server. See https://curl.se/libcurl/c/libcurl-errors.html first for more details."
     }
   }
 }

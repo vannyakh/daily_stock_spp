@@ -1,13 +1,13 @@
 {
   "ticker": "VINE",
-  "timestamp": "2025-11-07T04:47:52.462868",
+  "timestamp": "2025-11-08T04:36:40.259178",
   "intraday_data": {
     "status": "no_data",
     "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
-    "message": "Too Many Requests. Rate limited. Try after a while."
+    "message": "Failed to perform, curl: (7) Failed to connect to query2.finance.yahoo.com port 443 after 3 ms: Could not connect to server. See https://curl.se/libcurl/c/libcurl-errors.html first for more details."
   },
   "financials": {
     "income_statement": {
@@ -26,71 +26,8 @@
   },
   "news_data": {
     "news": {
-      "status": "success",
-      "count": 1,
-      "data": [
-        {
-          "id": "e8f7f7ff-2599-3623-a81f-555b66b885aa",
-          "content": {
-            "id": "e8f7f7ff-2599-3623-a81f-555b66b885aa",
-            "contentType": "STORY",
-            "title": "Elon Musk\u2019s Comment on Vine Sparks 122% Surge in Solana Meme Coin",
-            "description": "",
-            "summary": "Elon Musk\u2019s potential revival of Vine has triggered a surge in the Solana-based meme coin $VINE, which jumped 122% in three days.",
-            "pubDate": "2025-04-01T01:02:41Z",
-            "displayTime": "2025-04-01T01:02:41Z",
-            "isHosted": true,
-            "bypassModal": false,
-            "previewUrl": null,
-            "thumbnail": {
-              "originalUrl": "https://media.zenfs.com/en/coinmarketcap_783/38dbbfa26c2cc824dbb3108377b2ec20",
-              "originalWidth": 752,
-              "originalHeight": 423,
-              "caption": "",
-              "resolutions": [
-                {
-                  "url": "https://s.yimg.com/uu/api/res/1.2/5j4YmGn5JL.OWDKRUiCEhQ--~B/aD00MjM7dz03NTI7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/coinmarketcap_783/38dbbfa26c2cc824dbb3108377b2ec20",
-                  "width": 752,
-                  "height": 423,
-                  "tag": "original"
-                },
-                {
-                  "url": "https://s.yimg.com/uu/api/res/1.2/V7cdKwF92NJYgvBbxfjKNw--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/coinmarketcap_783/38dbbfa26c2cc824dbb3108377b2ec20",
-                  "width": 170,
-                  "height": 128,
-                  "tag": "170x128"
-                }
-              ]
-            },
-            "provider": {
-              "displayName": "CoinMarketCap",
-              "url": "https://coinmarketcap.com/"
-            },
-            "canonicalUrl": {
-              "url": "https://finance.yahoo.com/news/elon-musk-vine-sparks-122-010241962.html",
-              "site": "finance",
-              "region": "US",
-              "lang": "en-US"
-            },
-            "clickThroughUrl": {
-              "url": "https://finance.yahoo.com/news/elon-musk-vine-sparks-122-010241962.html",
-              "site": "finance",
-              "region": "US",
-              "lang": "en-US"
-            },
-            "metadata": {
-              "editorsPick": false
-            },
-            "finance": {
-              "premiumFinance": {
-                "isPremiumNews": false,
-                "isPremiumFreeNews": false
-              }
-            },
-            "storyline": null
-          }
-        }
-      ]
+      "status": "error",
+      "message": "Failed to perform, curl: (7) Failed to connect to finance.yahoo.com port 443 after 2 ms: Could not connect to server. See https://curl.se/libcurl/c/libcurl-errors.html first for more details."
     },
     "recommendations": {
       "status": "error",

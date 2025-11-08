@@ -1,67 +1,9 @@
 {
   "ticker": "PWDY",
-  "timestamp": "2025-11-07T05:01:13.132711",
+  "timestamp": "2025-11-08T04:48:15.675651",
   "intraday_data": {
-    "status": "success",
-    "rows": 8,
-    "data": [
-      {
-        "Close": 0.0026000000070780516,
-        "High": 0.0026000000070780516,
-        "Low": 0.0026000000070780516,
-        "Open": 0.0026000000070780516,
-        "Volume": 0
-      },
-      {
-        "Close": 0.0026000000070780516,
-        "High": 0.0026000000070780516,
-        "Low": 0.0026000000070780516,
-        "Open": 0.0026000000070780516,
-        "Volume": 5000
-      },
-      {
-        "Close": 0.003000000026077032,
-        "High": 0.003000000026077032,
-        "Low": 0.003000000026077032,
-        "Open": 0.003000000026077032,
-        "Volume": 1500
-      },
-      {
-        "Close": 0.003000000026077032,
-        "High": 0.003000000026077032,
-        "Low": 0.003000000026077032,
-        "Open": 0.003000000026077032,
-        "Volume": 23300
-      },
-      {
-        "Close": 0.003000000026077032,
-        "High": 0.003000000026077032,
-        "Low": 0.003000000026077032,
-        "Open": 0.003000000026077032,
-        "Volume": 1000
-      },
-      {
-        "Close": 0.003000000026077032,
-        "High": 0.003000000026077032,
-        "Low": 0.003000000026077032,
-        "Open": 0.003000000026077032,
-        "Volume": 100
-      },
-      {
-        "Close": 0.00279999990016222,
-        "High": 0.003000000026077032,
-        "Low": 0.00279999990016222,
-        "Open": 0.003000000026077032,
-        "Volume": 15280
-      },
-      {
-        "Close": 0.00279999990016222,
-        "High": 0.00279999990016222,
-        "Low": 0.00279999990016222,
-        "Open": 0.00279999990016222,
-        "Volume": 357142
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -88,7 +30,7 @@
     },
     "recommendations": {
       "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
+      "message": "Failed to perform, curl: (7) Failed to connect to query2.finance.yahoo.com port 443 after 3 ms: Could not connect to server. See https://curl.se/libcurl/c/libcurl-errors.html first for more details."
     }
   },
   "holders_data": {
@@ -106,7 +48,7 @@
     },
     "calendar": {
       "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
+      "message": "Failed to perform, curl: (7) Failed to connect to query1.finance.yahoo.com port 443 after 4 ms: Could not connect to server. See https://curl.se/libcurl/c/libcurl-errors.html first for more details."
     }
   }
 }

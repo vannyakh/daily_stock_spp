@@ -1,39 +1,9 @@
 {
   "ticker": "ECTM",
-  "timestamp": "2025-11-07T04:48:28.328622",
+  "timestamp": "2025-11-08T04:37:08.949617",
   "intraday_data": {
-    "status": "success",
-    "rows": 4,
-    "data": [
-      {
-        "Close BMNM": 1.75,
-        "High BMNM": 1.75,
-        "Low BMNM": 1.75,
-        "Open BMNM": 1.75,
-        "Volume BMNM": 0
-      },
-      {
-        "Close BMNM": 1.7599999904632568,
-        "High BMNM": 1.7599999904632568,
-        "Low BMNM": 1.7599999904632568,
-        "Open BMNM": 1.7599999904632568,
-        "Volume BMNM": 4000
-      },
-      {
-        "Close BMNM": 1.7599999904632568,
-        "High BMNM": 1.7599999904632568,
-        "Low BMNM": 1.7599999904632568,
-        "Open BMNM": 1.7599999904632568,
-        "Volume BMNM": 2000
-      },
-      {
-        "Close BMNM": 1.7599999904632568,
-        "High BMNM": 1.7599999904632568,
-        "Low BMNM": 1.7599999904632568,
-        "Open BMNM": 1.7599999904632568,
-        "Volume BMNM": 500
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -60,7 +30,7 @@
     },
     "recommendations": {
       "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
+      "message": "Failed to perform, curl: (7) Failed to connect to query1.finance.yahoo.com port 443 after 2 ms: Could not connect to server. See https://curl.se/libcurl/c/libcurl-errors.html first for more details."
     }
   },
   "holders_data": {

@@ -1,18 +1,9 @@
 {
   "ticker": "BDPT",
-  "timestamp": "2025-11-07T04:53:36.640806",
+  "timestamp": "2025-11-08T04:41:31.486990",
   "intraday_data": {
-    "status": "success",
-    "rows": 1,
-    "data": [
-      {
-        "Close": 0.03999999910593033,
-        "High": 0.03999999910593033,
-        "Low": 0.03999999910593033,
-        "Open": 0.03999999910593033,
-        "Volume": 0
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -35,7 +26,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Failed to perform, curl: (7) Failed to connect to finance.yahoo.com port 443 after 2 ms: Could not connect to server. See https://curl.se/libcurl/c/libcurl-errors.html first for more details."
     },
     "recommendations": {
       "status": "error",

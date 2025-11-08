@@ -1,9 +1,32 @@
 {
   "ticker": "OCFCP",
-  "timestamp": "2025-11-07T05:11:44.883691",
+  "timestamp": "2025-11-08T04:57:37.138414",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 3,
+    "data": [
+      {
+        "Close AIMDW": 0.13989999890327454,
+        "High AIMDW": 0.13989999890327454,
+        "Low AIMDW": 0.13989999890327454,
+        "Open AIMDW": 0.13989999890327454,
+        "Volume AIMDW": 0
+      },
+      {
+        "Close AIMDW": 0.14000000059604645,
+        "High AIMDW": 0.14000000059604645,
+        "Low AIMDW": 0.14000000059604645,
+        "Open AIMDW": 0.14000000059604645,
+        "Volume AIMDW": 100
+      },
+      {
+        "Close AIMDW": 0.14000000059604645,
+        "High AIMDW": 0.14010000228881836,
+        "Low AIMDW": 0.14000000059604645,
+        "Open AIMDW": 0.14000000059604645,
+        "Volume AIMDW": 1659
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -623,7 +646,8 @@
       ]
     },
     "recommendations": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   },
   "holders_data": {
