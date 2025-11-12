@@ -1,60 +1,9 @@
 {
   "ticker": "GLXG",
-  "timestamp": "2025-11-08T04:34:36.058981",
+  "timestamp": "2025-11-12T04:29:17.108745",
   "intraday_data": {
-    "status": "success",
-    "rows": 7,
-    "data": [
-      {
-        "Close": 4.03000020980835,
-        "High": 4.03000020980835,
-        "Low": 4.03000020980835,
-        "Open": 4.03000020980835,
-        "Volume": 0
-      },
-      {
-        "Close": 3.990000009536743,
-        "High": 3.990000009536743,
-        "Low": 3.990000009536743,
-        "Open": 3.990000009536743,
-        "Volume": 260
-      },
-      {
-        "Close": 3.6800999641418457,
-        "High": 3.6800999641418457,
-        "Low": 3.6800999641418457,
-        "Open": 3.6800999641418457,
-        "Volume": 542
-      },
-      {
-        "Close": 3.940000057220459,
-        "High": 3.940000057220459,
-        "Low": 3.940000057220459,
-        "Open": 3.940000057220459,
-        "Volume": 121
-      },
-      {
-        "Close": 3.906599998474121,
-        "High": 3.906599998474121,
-        "Low": 3.906599998474121,
-        "Open": 3.906599998474121,
-        "Volume": 459
-      },
-      {
-        "Close": 3.8499999046325684,
-        "High": 3.8499999046325684,
-        "Low": 3.75,
-        "Open": 3.75,
-        "Volume": 613
-      },
-      {
-        "Close": 3.8299999237060547,
-        "High": 3.8299999237060547,
-        "Low": 3.8299999237060547,
-        "Open": 3.8299999237060547,
-        "Volume": 331
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -144,7 +93,8 @@
       ]
     },
     "recommendations": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   },
   "holders_data": {

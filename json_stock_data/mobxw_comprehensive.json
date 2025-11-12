@@ -1,32 +1,9 @@
 {
   "ticker": "MOBXW",
-  "timestamp": "2025-11-08T04:52:37.498361",
+  "timestamp": "2025-11-12T04:40:15.317657",
   "intraday_data": {
-    "status": "success",
-    "rows": 3,
-    "data": [
-      {
-        "Close": 0.15000000596046448,
-        "High": 0.15000000596046448,
-        "Low": 0.15000000596046448,
-        "Open": 0.15000000596046448,
-        "Volume": 0
-      },
-      {
-        "Close": 0.14550000429153442,
-        "High": 0.14550000429153442,
-        "Low": 0.14550000429153442,
-        "Open": 0.14550000429153442,
-        "Volume": 1300
-      },
-      {
-        "Close": 0.14000000059604645,
-        "High": 0.14000000059604645,
-        "Low": 0.14000000059604645,
-        "Open": 0.14000000059604645,
-        "Volume": 5616
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -34,45 +11,14 @@
   },
   "financials": {
     "income_statement": {
-      "status": "no_data"
-    },
-    "balance_sheet": {
-      "status": "no_data"
-    },
-    "cash_flow": {
-      "status": "no_data"
-    }
-  },
-  "options_data": {
-    "status": "error",
-    "error_message": "Too Many Requests. Rate limited. Try after a while."
-  },
-  "news_data": {
-    "news": {
-      "status": "error",
-      "message": "Failed to perform, curl: (7) Failed to connect to finance.yahoo.com port 443 after 2 ms: Could not connect to server. See https://curl.se/libcurl/c/libcurl-errors.html first for more details."
-    },
-    "recommendations": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
-    }
-  },
-  "holders_data": {
-    "major_holders": {
-      "status": "error"
-    },
-    "institutional_holders": {
-      "status": "error"
-    }
-  },
-  "earnings_data": {
-    "earnings": {
-      "status": "error",
-      "message": "'NoneType' object has no attribute 'empty'"
-    },
-    "calendar": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
-    }
-  }
-}
+      "status": "success",
+      "rows": 42,
+      "columns": [
+        "2024-09-30 00:00:00",
+        "2023-09-30 00:00:00",
+        "2022-09-30 00:00:00",
+        "2021-09-30 00:00:00"
+      ],
+      "data": [
+        {
+          

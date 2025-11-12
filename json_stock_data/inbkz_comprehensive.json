@@ -1,14 +1,43 @@
 {
   "ticker": "INBKZ",
-  "timestamp": "2025-11-08T04:54:13.364043",
+  "timestamp": "2025-11-12T04:41:08.406095",
   "intraday_data": {
     "status": "success",
-    "rows": 0,
-    "data": []
+    "rows": 4,
+    "data": [
+      {
+        "Close": 24.790000915527344,
+        "High": 24.790000915527344,
+        "Low": 24.790000915527344,
+        "Open": 24.790000915527344,
+        "Volume": 0
+      },
+      {
+        "Close": 24.594999313354492,
+        "High": 24.594999313354492,
+        "Low": 24.594999313354492,
+        "Open": 24.594999313354492,
+        "Volume": 100
+      },
+      {
+        "Close": 24.700000762939453,
+        "High": 24.780000686645508,
+        "Low": 24.651500701904297,
+        "Open": 24.651500701904297,
+        "Volume": 3528
+      },
+      {
+        "Close": 24.969999313354492,
+        "High": 24.969999313354492,
+        "Low": 24.969999313354492,
+        "Open": 24.969999313354492,
+        "Volume": 0
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
-    "message": "Too Many Requests. Rate limited. Try after a while."
+    "message": "argument of type 'NoneType' is not iterable"
   },
   "financials": {
     "income_statement": {
@@ -30,15 +59,16 @@
       "status": "no_data"
     },
     "recommendations": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   },
   "holders_data": {
     "major_holders": {
-      "status": "no_data"
+      "status": "error"
     },
     "institutional_holders": {
-      "status": "no_data"
+      "status": "error"
     }
   },
   "earnings_data": {
@@ -48,7 +78,7 @@
     },
     "calendar": {
       "status": "error",
-      "message": "'dict' object has no attribute 'empty'"
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   }
 }

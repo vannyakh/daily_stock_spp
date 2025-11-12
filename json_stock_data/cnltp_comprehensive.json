@@ -1,53 +1,9 @@
 {
   "ticker": "CNLTP",
-  "timestamp": "2025-11-08T04:46:57.013542",
+  "timestamp": "2025-11-12T04:36:52.353026",
   "intraday_data": {
-    "status": "success",
-    "rows": 6,
-    "data": [
-      {
-        "Close AHT-PF": 13.9399995803833,
-        "High AHT-PF": 13.9399995803833,
-        "Low AHT-PF": 13.9399995803833,
-        "Open AHT-PF": 13.9399995803833,
-        "Volume AHT-PF": 0
-      },
-      {
-        "Close AHT-PF": 13.770099639892578,
-        "High AHT-PF": 14.130000114440918,
-        "Low AHT-PF": 13.770099639892578,
-        "Open AHT-PF": 14.07960033416748,
-        "Volume AHT-PF": 500
-      },
-      {
-        "Close AHT-PF": 13.770000457763672,
-        "High AHT-PF": 13.770000457763672,
-        "Low AHT-PF": 13.770000457763672,
-        "Open AHT-PF": 13.770000457763672,
-        "Volume AHT-PF": 0
-      },
-      {
-        "Close AHT-PF": 13.9399995803833,
-        "High AHT-PF": 13.9399995803833,
-        "Low AHT-PF": 13.9399995803833,
-        "Open AHT-PF": 13.9399995803833,
-        "Volume AHT-PF": 140
-      },
-      {
-        "Close AHT-PF": 13.989999771118164,
-        "High AHT-PF": 13.989999771118164,
-        "Low AHT-PF": 13.989999771118164,
-        "Open AHT-PF": 13.989999771118164,
-        "Volume AHT-PF": 145
-      },
-      {
-        "Close AHT-PF": 13.970000267028809,
-        "High AHT-PF": 13.970000267028809,
-        "Low AHT-PF": 13.970000267028809,
-        "Open AHT-PF": 13.970000267028809,
-        "Volume AHT-PF": 385
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -74,7 +30,7 @@
     },
     "recommendations": {
       "status": "error",
-      "message": "Failed to perform, curl: (7) Failed to connect to query1.finance.yahoo.com port 443 after 3 ms: Could not connect to server. See https://curl.se/libcurl/c/libcurl-errors.html first for more details."
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   },
   "holders_data": {

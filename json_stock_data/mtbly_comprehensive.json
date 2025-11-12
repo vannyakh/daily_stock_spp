@@ -1,9 +1,32 @@
 {
   "ticker": "MTBLY",
-  "timestamp": "2025-11-08T04:33:34.470870",
+  "timestamp": "2025-11-12T04:28:39.596856",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 3,
+    "data": [
+      {
+        "Close": 2.930000066757202,
+        "High": 2.930000066757202,
+        "Low": 2.930000066757202,
+        "Open": 2.930000066757202,
+        "Volume": 0
+      },
+      {
+        "Close": 2.859999895095825,
+        "High": 2.859999895095825,
+        "Low": 2.859999895095825,
+        "Open": 2.859999895095825,
+        "Volume": 100
+      },
+      {
+        "Close": 2.799999952316284,
+        "High": 2.799999952316284,
+        "Low": 2.799999952316284,
+        "Open": 2.799999952316284,
+        "Volume": 100
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -11,15 +34,44 @@
   },
   "financials": {
     "income_statement": {
-      "status": "success",
-      "rows": 55,
-      "columns": [
-        "2024-12-31 00:00:00",
-        "2023-12-31 00:00:00",
-        "2022-12-31 00:00:00",
-        "2021-12-31 00:00:00",
-        "2020-12-31 00:00:00"
-      ],
-      "data": [
-        {
-          
+      "status": "no_data"
+    },
+    "balance_sheet": {
+      "status": "no_data"
+    },
+    "cash_flow": {
+      "status": "no_data"
+    }
+  },
+  "options_data": {
+    "status": "error",
+    "error_message": "Too Many Requests. Rate limited. Try after a while."
+  },
+  "news_data": {
+    "news": {
+      "status": "no_data"
+    },
+    "recommendations": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  },
+  "holders_data": {
+    "major_holders": {
+      "status": "error"
+    },
+    "institutional_holders": {
+      "status": "error"
+    }
+  },
+  "earnings_data": {
+    "earnings": {
+      "status": "error",
+      "message": "'NoneType' object has no attribute 'empty'"
+    },
+    "calendar": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  }
+}

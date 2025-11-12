@@ -1,39 +1,9 @@
 {
   "ticker": "AIRJW",
-  "timestamp": "2025-11-08T04:52:37.645609",
+  "timestamp": "2025-11-12T04:40:14.475145",
   "intraday_data": {
-    "status": "success",
-    "rows": 4,
-    "data": [
-      {
-        "Close DC-WT": 1.9500000476837158,
-        "High DC-WT": 1.9550000429153442,
-        "Low DC-WT": 1.9500000476837158,
-        "Open DC-WT": 1.9500000476837158,
-        "Volume DC-WT": 0
-      },
-      {
-        "Close DC-WT": 1.909999966621399,
-        "High DC-WT": 1.909999966621399,
-        "Low DC-WT": 1.909999966621399,
-        "Open DC-WT": 1.909999966621399,
-        "Volume DC-WT": 700
-      },
-      {
-        "Close DC-WT": 1.899999976158142,
-        "High DC-WT": 1.909999966621399,
-        "Low DC-WT": 1.899999976158142,
-        "Open DC-WT": 1.909999966621399,
-        "Volume DC-WT": 700
-      },
-      {
-        "Close DC-WT": 2.0299999713897705,
-        "High DC-WT": 2.0299999713897705,
-        "Low DC-WT": 1.9723000526428223,
-        "Open DC-WT": 1.9723000526428223,
-        "Volume DC-WT": 0
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -653,15 +623,16 @@
       ]
     },
     "recommendations": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   },
   "holders_data": {
     "major_holders": {
-      "status": "no_data"
+      "status": "error"
     },
     "institutional_holders": {
-      "status": "no_data"
+      "status": "error"
     }
   },
   "earnings_data": {

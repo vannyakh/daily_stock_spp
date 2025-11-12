@@ -1,25 +1,473 @@
 {
   "ticker": "FEDU",
-  "timestamp": "2025-11-08T04:34:32.086022",
+  "timestamp": "2025-11-12T04:29:16.072225",
   "intraday_data": {
     "status": "no_data",
     "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
-    "message": "Failed to perform, curl: (7) Failed to connect to query2.finance.yahoo.com port 443 after 2 ms: Could not connect to server. See https://curl.se/libcurl/c/libcurl-errors.html first for more details."
+    "message": "Too Many Requests. Rate limited. Try after a while."
   },
   "financials": {
     "income_statement": {
+      "status": "no_data"
+    },
+    "balance_sheet": {
+      "status": "no_data"
+    },
+    "cash_flow": {
+      "status": "no_data"
+    }
+  },
+  "options_data": {
+    "status": "error",
+    "error_message": "Too Many Requests. Rate limited. Try after a while."
+  },
+  "news_data": {
+    "news": {
       "status": "success",
-      "rows": 52,
-      "columns": [
-        "2025-02-28 00:00:00",
-        "2024-02-29 00:00:00",
-        "2023-02-28 00:00:00",
-        "2022-02-28 00:00:00",
-        "2021-02-28 00:00:00"
-      ],
+      "count": 9,
       "data": [
         {
-          
+          "id": "1179a279-3d24-380a-bdc4-6ea6239f0a11",
+          "content": {
+            "id": "1179a279-3d24-380a-bdc4-6ea6239f0a11",
+            "contentType": "STORY",
+            "title": "Asian Equities Traded in the US as American Depositary Receipts Decline in Tuesday Trading",
+            "description": "",
+            "summary": "Asian equities traded in the US as American depositary receipts were tracking lower Tuesday morning,",
+            "pubDate": "2025-11-04T15:48:48Z",
+            "displayTime": "2025-11-04T15:48:48Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": null,
+            "provider": {
+              "displayName": "MT Newswires",
+              "url": "https://www.mtnewswires.com/"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/asian-equities-traded-us-american-154848574.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/asian-equities-traded-us-american-154848574.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": true,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        },
+        {
+          "id": "54cdbc32-0358-31e1-a3eb-ea283ebd0d3c",
+          "content": {
+            "id": "54cdbc32-0358-31e1-a3eb-ea283ebd0d3c",
+            "contentType": "STORY",
+            "title": "Asian Equities Traded in the US as American Depositary Receipts Decline in Friday Trading; Lose 1.4% for Week",
+            "description": "",
+            "summary": "Asian equities traded in the US as American depositary receipts were down Friday morning, declining",
+            "pubDate": "2025-10-31T14:45:48Z",
+            "displayTime": "2025-10-31T14:45:48Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": null,
+            "provider": {
+              "displayName": "MT Newswires",
+              "url": "https://www.mtnewswires.com/"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/asian-equities-traded-us-american-144548752.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/asian-equities-traded-us-american-144548752.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": true,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        },
+        {
+          "id": "44cc528e-a71d-3564-a86c-f31a7cc09318",
+          "content": {
+            "id": "44cc528e-a71d-3564-a86c-f31a7cc09318",
+            "contentType": "STORY",
+            "title": "Asian Equities Traded in the US as American Depositary Receipts Rise in Monday Trading",
+            "description": "",
+            "summary": "Asian equities traded in the US as American depositary receipts opened the week higher Monday mornin",
+            "pubDate": "2025-09-15T14:30:23Z",
+            "displayTime": "2025-09-15T14:30:23Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": null,
+            "provider": {
+              "displayName": "MT Newswires",
+              "url": "https://www.mtnewswires.com/"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/asian-equities-traded-us-american-143023225.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/asian-equities-traded-us-american-143023225.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": true,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        },
+        {
+          "id": "c8b05831-6b65-3a74-bf8c-e910f231dcae",
+          "content": {
+            "id": "c8b05831-6b65-3a74-bf8c-e910f231dcae",
+            "contentType": "STORY",
+            "title": "Asian Equities Traded in the US as American Depositary Receipts Rise in Wednesday Trading",
+            "description": "",
+            "summary": "Asian equities traded in the US as American depositary receipts were tracking higher Wednesday morni",
+            "pubDate": "2025-09-10T14:37:44Z",
+            "displayTime": "2025-09-10T14:37:44Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": null,
+            "provider": {
+              "displayName": "MT Newswires",
+              "url": "https://www.mtnewswires.com/"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/asian-equities-traded-us-american-143744716.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/asian-equities-traded-us-american-143744716.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": true,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        },
+        {
+          "id": "af923806-6013-3710-b4c0-285c3406f139",
+          "content": {
+            "id": "af923806-6013-3710-b4c0-285c3406f139",
+            "contentType": "STORY",
+            "title": "Asian Equities Traded in the US as American Depositary Receipts Fall in Wednesday Trading",
+            "description": "",
+            "summary": "Asian equities traded in the US as American depositary receipts were trending lower Wednesday mornin",
+            "pubDate": "2025-09-03T14:38:27Z",
+            "displayTime": "2025-09-03T14:38:27Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": null,
+            "provider": {
+              "displayName": "MT Newswires",
+              "url": "https://www.mtnewswires.com/"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/asian-equities-traded-us-american-143827272.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/asian-equities-traded-us-american-143827272.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": true,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        },
+        {
+          "id": "541ffef6-ed5a-3c04-8a1d-62aebafd9cfd",
+          "content": {
+            "id": "541ffef6-ed5a-3c04-8a1d-62aebafd9cfd",
+            "contentType": "STORY",
+            "title": "Asian Equities Traded in the US as American Depositary Receipts Edge Higher in Friday Trading; Flat for Week",
+            "description": "",
+            "summary": "Asian equities traded in the US as American depositary receipts edged higher Friday morning, rising",
+            "pubDate": "2025-07-11T14:38:20Z",
+            "displayTime": "2025-07-11T14:38:20Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": null,
+            "provider": {
+              "displayName": "MT Newswires",
+              "url": "https://www.mtnewswires.com/"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/asian-equities-traded-us-american-143820005.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/asian-equities-traded-us-american-143820005.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": true,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        },
+        {
+          "id": "2ed30044-5875-3a62-85e3-332a0a2f9deb",
+          "content": {
+            "id": "2ed30044-5875-3a62-85e3-332a0a2f9deb",
+            "contentType": "STORY",
+            "title": "Four Seasons Education (Cayman) Full Year 2025 Earnings: EPS: CN\u00a50.37 (vs CN\u00a52.34 in FY 2024)",
+            "description": "",
+            "summary": "Four Seasons Education (Cayman) ( NYSE:FEDU ) Full Year 2025 Results Key Financial Results Revenue: CN\u00a5251.1m (up 100...",
+            "pubDate": "2025-06-28T13:03:53Z",
+            "displayTime": "2025-06-28T13:03:53Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": {
+              "originalUrl": "https://media.zenfs.com/en/simply_wall_st__316/78a8c60a6283aea0450523395306d38c",
+              "originalWidth": 945,
+              "originalHeight": 636,
+              "caption": "",
+              "resolutions": [
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/5Vpve0Pc2F3m_L3fs2p_dQ--~B/aD02MzY7dz05NDU7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/simply_wall_st__316/78a8c60a6283aea0450523395306d38c",
+                  "width": 945,
+                  "height": 636,
+                  "tag": "original"
+                },
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/5K6kmrQzRk.k.11fs9N_QA--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/simply_wall_st__316/78a8c60a6283aea0450523395306d38c",
+                  "width": 170,
+                  "height": 128,
+                  "tag": "170x128"
+                }
+              ]
+            },
+            "provider": {
+              "displayName": "Simply Wall St.",
+              "url": "https://simplywall.st/"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/four-seasons-education-cayman-full-130353842.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/four-seasons-education-cayman-full-130353842.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        },
+        {
+          "id": "4cb06b2d-f2e1-32f7-a1ba-83e77d988d60",
+          "content": {
+            "id": "4cb06b2d-f2e1-32f7-a1ba-83e77d988d60",
+            "contentType": "STORY",
+            "title": "Asian Equities Traded in the US as American Depositary Receipts Head Lower in Monday Trading",
+            "description": "",
+            "summary": "Asian equities traded in the US as American depositary receipts were heading lower Monday morning, f",
+            "pubDate": "2025-03-10T14:50:24Z",
+            "displayTime": "2025-03-10T14:50:24Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": null,
+            "provider": {
+              "displayName": "MT Newswires",
+              "url": "https://www.mtnewswires.com/"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/asian-equities-traded-us-american-145024856.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/asian-equities-traded-us-american-145024856.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": true,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        },
+        {
+          "id": "ce25c890-0c95-3abb-98e8-9fb2e2cdfbc7",
+          "content": {
+            "id": "ce25c890-0c95-3abb-98e8-9fb2e2cdfbc7",
+            "contentType": "STORY",
+            "title": "Four Seasons Education Sees Revenue Surge Amid Operational Losses",
+            "description": "",
+            "summary": "Four Seasons Education (Cayman) ( (FEDU) ) just unveiled an update. Four Seasons Education reported a significant increase in revenue by 117.8% to RMB134.7 million for the first half of fiscal year 2025, driven by growth in its tourism and non-academic tutoring sectors. Despite this revenue growth, the company experienced an operating loss and a decline in net income compared to the previous year. The company has expanded its non-academic tutoring programs and tourism services, including launchi",
+            "pubDate": "2024-12-21T11:47:36Z",
+            "displayTime": "2024-12-21T11:47:36Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": {
+              "originalUrl": "https://media.zenfs.com/en/tipranks_452/101b2a35725798f906daae88d3298e2b",
+              "originalWidth": 192,
+              "originalHeight": 192,
+              "caption": "https://www.tipranks.com/news/company-announcements/four-seasons-education-sees-revenue-surge-amid-operational-losses",
+              "resolutions": [
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/Hw7LjZXPxRR69khGauKwtw--~B/aD0xOTI7dz0xOTI7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/tipranks_452/101b2a35725798f906daae88d3298e2b",
+                  "width": 192,
+                  "height": 192,
+                  "tag": "original"
+                },
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/dacguIYNAS.o5DgvbjBeGg--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/tipranks_452/101b2a35725798f906daae88d3298e2b",
+                  "width": 170,
+                  "height": 128,
+                  "tag": "170x128"
+                }
+              ]
+            },
+            "provider": {
+              "displayName": "TipRanks",
+              "url": "https://www.tipranks.com/"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/four-seasons-education-sees-revenue-114736466.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/four-seasons-education-sees-revenue-114736466.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        }
+      ]
+    },
+    "recommendations": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  },
+  "holders_data": {
+    "major_holders": {
+      "status": "error"
+    },
+    "institutional_holders": {
+      "status": "error"
+    }
+  },
+  "earnings_data": {
+    "earnings": {
+      "status": "error",
+      "message": "'NoneType' object has no attribute 'empty'"
+    },
+    "calendar": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  }
+}

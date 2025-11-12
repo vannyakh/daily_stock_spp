@@ -1,46 +1,9 @@
 {
   "ticker": "EAST",
-  "timestamp": "2025-11-08T04:39:38.287359",
+  "timestamp": "2025-11-12T04:32:20.333449",
   "intraday_data": {
-    "status": "success",
-    "rows": 5,
-    "data": [
-      {
-        "Close LIPO": 0.3700000047683716,
-        "High LIPO": 0.3700000047683716,
-        "Low LIPO": 0.3700000047683716,
-        "Open LIPO": 0.3700000047683716,
-        "Volume LIPO": 0
-      },
-      {
-        "Close LIPO": 0.3700000047683716,
-        "High LIPO": 0.3700000047683716,
-        "Low LIPO": 0.3700000047683716,
-        "Open LIPO": 0.3700000047683716,
-        "Volume LIPO": 12
-      },
-      {
-        "Close LIPO": 0.3700000047683716,
-        "High LIPO": 0.3700000047683716,
-        "Low LIPO": 0.3700000047683716,
-        "Open LIPO": 0.3700000047683716,
-        "Volume LIPO": 15
-      },
-      {
-        "Close LIPO": 0.38999998569488525,
-        "High LIPO": 0.38999998569488525,
-        "Low LIPO": 0.38999998569488525,
-        "Open LIPO": 0.38999998569488525,
-        "Volume LIPO": 575
-      },
-      {
-        "Close LIPO": 0.3499999940395355,
-        "High LIPO": 0.3700000047683716,
-        "Low LIPO": 0.3499999940395355,
-        "Open LIPO": 0.3700000047683716,
-        "Volume LIPO": 11667
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -66,7 +29,8 @@
       "status": "no_data"
     },
     "recommendations": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   },
   "holders_data": {

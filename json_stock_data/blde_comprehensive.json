@@ -1,9 +1,10 @@
 {
   "ticker": "BLDE",
-  "timestamp": "2025-11-08T04:22:26.002304",
+  "timestamp": "2025-11-12T04:21:43.971338",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 0,
+    "data": []
   },
   "stock_info": {
     "status": "error",
@@ -632,15 +633,16 @@
       ]
     },
     "recommendations": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   },
   "holders_data": {
     "major_holders": {
-      "status": "no_data"
+      "status": "error"
     },
     "institutional_holders": {
-      "status": "no_data"
+      "status": "error"
     }
   },
   "earnings_data": {
@@ -650,7 +652,7 @@
     },
     "calendar": {
       "status": "error",
-      "message": "Failed to perform, curl: (7) Failed to connect to query2.finance.yahoo.com port 443 after 4 ms: Could not connect to server. See https://curl.se/libcurl/c/libcurl-errors.html first for more details."
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   }
 }

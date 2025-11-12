@@ -1,36 +1,13 @@
 {
   "ticker": "KANT",
-  "timestamp": "2025-11-08T04:38:49.314040",
+  "timestamp": "2025-11-12T04:31:50.323634",
   "intraday_data": {
-    "status": "success",
-    "rows": 3,
-    "data": [
-      {
-        "Close ROYL": 0.039000000804662704,
-        "High ROYL": 0.039000000804662704,
-        "Low ROYL": 0.039000000804662704,
-        "Open ROYL": 0.039000000804662704,
-        "Volume ROYL": 0
-      },
-      {
-        "Close ROYL": 0.039000000804662704,
-        "High ROYL": 0.039000000804662704,
-        "Low ROYL": 0.039000000804662704,
-        "Open ROYL": 0.039000000804662704,
-        "Volume ROYL": 80155
-      },
-      {
-        "Close ROYL": 0.04149999842047691,
-        "High ROYL": 0.04149999842047691,
-        "Low ROYL": 0.04149999842047691,
-        "Open ROYL": 0.04149999842047691,
-        "Volume ROYL": 1331
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
-    "status": "success",
-    "data": {}
+    "status": "error",
+    "message": "Too Many Requests. Rate limited. Try after a while."
   },
   "financials": {
     "income_statement": {
@@ -44,7 +21,8 @@
     }
   },
   "options_data": {
-    "expirations": []
+    "status": "error",
+    "error_message": "Too Many Requests. Rate limited. Try after a while."
   },
   "news_data": {
     "news": {

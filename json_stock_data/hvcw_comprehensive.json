@@ -1,13 +1,36 @@
 {
   "ticker": "HVCW",
-  "timestamp": "2025-11-08T04:48:48.532897",
+  "timestamp": "2025-11-12T04:37:59.998030",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 3,
+    "data": [
+      {
+        "Close FAVO": 4.699999809265137,
+        "High FAVO": 4.699999809265137,
+        "Low FAVO": 4.699999809265137,
+        "Open FAVO": 4.699999809265137,
+        "Volume FAVO": 0
+      },
+      {
+        "Close FAVO": 5.0,
+        "High FAVO": 5.0,
+        "Low FAVO": 5.0,
+        "Open FAVO": 5.0,
+        "Volume FAVO": 500
+      },
+      {
+        "Close FAVO": 4.659999847412109,
+        "High FAVO": 4.659999847412109,
+        "Low FAVO": 4.659999847412109,
+        "Open FAVO": 4.659999847412109,
+        "Volume FAVO": 40
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
-    "message": "Too Many Requests. Rate limited. Try after a while."
+    "message": "argument of type 'NoneType' is not iterable"
   },
   "financials": {
     "income_statement": {
@@ -30,7 +53,7 @@
     },
     "recommendations": {
       "status": "error",
-      "message": "Failed to perform, curl: (7) Failed to connect to query2.finance.yahoo.com port 443 after 3 ms: Could not connect to server. See https://curl.se/libcurl/c/libcurl-errors.html first for more details."
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   },
   "holders_data": {

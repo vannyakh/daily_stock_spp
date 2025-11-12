@@ -1,71 +1,13 @@
 {
   "ticker": "HSPOU",
-  "timestamp": "2025-11-08T04:49:22.613613",
+  "timestamp": "2025-11-12T04:38:19.991905",
   "intraday_data": {
-    "status": "success",
-    "rows": 8,
-    "data": [
-      {
-        "Close HSPOR": 0.10999999940395355,
-        "High HSPOR": 0.10999999940395355,
-        "Low HSPOR": 0.10999999940395355,
-        "Open HSPOR": 0.10999999940395355,
-        "Volume HSPOR": 0
-      },
-      {
-        "Close HSPOR": 0.14880000054836273,
-        "High HSPOR": 0.14880000054836273,
-        "Low HSPOR": 0.14880000054836273,
-        "Open HSPOR": 0.14880000054836273,
-        "Volume HSPOR": 100
-      },
-      {
-        "Close HSPOR": 0.10999999940395355,
-        "High HSPOR": 0.10999999940395355,
-        "Low HSPOR": 0.10999999940395355,
-        "Open HSPOR": 0.10999999940395355,
-        "Volume HSPOR": 100
-      },
-      {
-        "Close HSPOR": 0.14499999582767487,
-        "High HSPOR": 0.14499999582767487,
-        "Low HSPOR": 0.14499999582767487,
-        "Open HSPOR": 0.14499999582767487,
-        "Volume HSPOR": 100
-      },
-      {
-        "Close HSPOR": 0.10999999940395355,
-        "High HSPOR": 0.10999999940395355,
-        "Low HSPOR": 0.10999999940395355,
-        "Open HSPOR": 0.10999999940395355,
-        "Volume HSPOR": 100
-      },
-      {
-        "Close HSPOR": 0.11999999731779099,
-        "High HSPOR": 0.11999999731779099,
-        "Low HSPOR": 0.11999999731779099,
-        "Open HSPOR": 0.11999999731779099,
-        "Volume HSPOR": 100
-      },
-      {
-        "Close HSPOR": 0.11999999731779099,
-        "High HSPOR": 0.11999999731779099,
-        "Low HSPOR": 0.11999999731779099,
-        "Open HSPOR": 0.11999999731779099,
-        "Volume HSPOR": 200
-      },
-      {
-        "Close HSPOR": 0.11999999731779099,
-        "High HSPOR": 0.11999999731779099,
-        "Low HSPOR": 0.11999999731779099,
-        "Open HSPOR": 0.11999999731779099,
-        "Volume HSPOR": 200
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
-    "message": "Failed to perform, curl: (7) Failed to connect to query2.finance.yahoo.com port 443 after 5 ms: Could not connect to server. See https://curl.se/libcurl/c/libcurl-errors.html first for more details."
+    "message": "Too Many Requests. Rate limited. Try after a while."
   },
   "financials": {
     "income_statement": {
@@ -88,7 +30,7 @@
     },
     "recommendations": {
       "status": "error",
-      "message": "Failed to perform, curl: (7) Failed to connect to query1.finance.yahoo.com port 443 after 3 ms: Could not connect to server. See https://curl.se/libcurl/c/libcurl-errors.html first for more details."
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   },
   "holders_data": {

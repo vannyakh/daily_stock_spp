@@ -1,13 +1,13 @@
 {
   "ticker": "BRLL",
-  "timestamp": "2025-11-08T04:48:21.891068",
+  "timestamp": "2025-11-12T04:37:44.416114",
   "intraday_data": {
     "status": "no_data",
     "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
-    "message": "Failed to perform, curl: (7) Failed to connect to query2.finance.yahoo.com port 443 after 5 ms: Could not connect to server. See https://curl.se/libcurl/c/libcurl-errors.html first for more details."
+    "message": "Too Many Requests. Rate limited. Try after a while."
   },
   "financials": {
     "income_statement": {
@@ -26,8 +26,7 @@
   },
   "news_data": {
     "news": {
-      "status": "error",
-      "message": "Failed to perform, curl: (7) Failed to connect to finance.yahoo.com port 443 after 5 ms: Could not connect to server. See https://curl.se/libcurl/c/libcurl-errors.html first for more details."
+      "status": "no_data"
     },
     "recommendations": {
       "status": "error",

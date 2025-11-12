@@ -1,9 +1,32 @@
 {
   "ticker": "NVAWW",
-  "timestamp": "2025-11-08T04:51:18.941707",
+  "timestamp": "2025-11-12T04:39:29.716254",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 3,
+    "data": [
+      {
+        "Close": 42.02000045776367,
+        "High": 42.02000045776367,
+        "Low": 42.02000045776367,
+        "Open": 42.02000045776367,
+        "Volume": 4572
+      },
+      {
+        "Close": 40.27000045776367,
+        "High": 40.27000045776367,
+        "Low": 40.27000045776367,
+        "Open": 40.27000045776367,
+        "Volume": 0
+      },
+      {
+        "Close": 41.312198638916016,
+        "High": 41.312198638916016,
+        "Low": 41.312198638916016,
+        "Open": 41.312198638916016,
+        "Volume": 2148
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -642,15 +665,16 @@
       ]
     },
     "recommendations": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   },
   "holders_data": {
     "major_holders": {
-      "status": "no_data"
+      "status": "error"
     },
     "institutional_holders": {
-      "status": "no_data"
+      "status": "error"
     }
   },
   "earnings_data": {

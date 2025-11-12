@@ -1,13 +1,36 @@
 {
   "ticker": "PHIL",
-  "timestamp": "2025-11-08T04:37:07.288496",
+  "timestamp": "2025-11-12T04:30:50.125522",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 3,
+    "data": [
+      {
+        "Close PURE": 0.05290000140666962,
+        "High PURE": 0.05290000140666962,
+        "Low PURE": 0.05290000140666962,
+        "Open PURE": 0.05290000140666962,
+        "Volume PURE": 0
+      },
+      {
+        "Close PURE": 0.054999999701976776,
+        "High PURE": 0.054999999701976776,
+        "Low PURE": 0.054999999701976776,
+        "Open PURE": 0.054999999701976776,
+        "Volume PURE": 4956
+      },
+      {
+        "Close PURE": 0.05959999933838844,
+        "High PURE": 0.05959999933838844,
+        "Low PURE": 0.05959999933838844,
+        "Open PURE": 0.05959999933838844,
+        "Volume PURE": 100
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
-    "message": "Failed to perform, curl: (7) Failed to connect to query1.finance.yahoo.com port 443 after 3 ms: Could not connect to server. See https://curl.se/libcurl/c/libcurl-errors.html first for more details."
+    "message": "Too Many Requests. Rate limited. Try after a while."
   },
   "financials": {
     "income_statement": {
@@ -22,16 +45,14 @@
   },
   "options_data": {
     "status": "error",
-    "error_message": "Failed to perform, curl: (7) Failed to connect to query1.finance.yahoo.com port 443 after 2 ms: Could not connect to server. See https://curl.se/libcurl/c/libcurl-errors.html first for more details."
+    "error_message": "Too Many Requests. Rate limited. Try after a while."
   },
   "news_data": {
     "news": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
+      "status": "no_data"
     },
     "recommendations": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
+      "status": "no_data"
     }
   },
   "holders_data": {

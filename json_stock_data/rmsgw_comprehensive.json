@@ -1,9 +1,74 @@
 {
   "ticker": "RMSGW",
-  "timestamp": "2025-11-08T04:50:48.778342",
+  "timestamp": "2025-11-12T04:39:12.766034",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 9,
+    "data": [
+      {
+        "Close MNYWW": 0.05260000005364418,
+        "High MNYWW": 0.05260000005364418,
+        "Low MNYWW": 0.05249999836087227,
+        "Open MNYWW": 0.05249999836087227,
+        "Volume MNYWW": 0
+      },
+      {
+        "Close MNYWW": 0.05990000069141388,
+        "High MNYWW": 0.05990000069141388,
+        "Low MNYWW": 0.05990000069141388,
+        "Open MNYWW": 0.05990000069141388,
+        "Volume MNYWW": 1051
+      },
+      {
+        "Close MNYWW": 0.05990000069141388,
+        "High MNYWW": 0.05990000069141388,
+        "Low MNYWW": 0.059700001031160355,
+        "Open MNYWW": 0.059700001031160355,
+        "Volume MNYWW": 5055
+      },
+      {
+        "Close MNYWW": 0.05999999865889549,
+        "High MNYWW": 0.05999999865889549,
+        "Low MNYWW": 0.05999999865889549,
+        "Open MNYWW": 0.05999999865889549,
+        "Volume MNYWW": 100
+      },
+      {
+        "Close MNYWW": 0.05570000037550926,
+        "High MNYWW": 0.056299999356269836,
+        "Low MNYWW": 0.05260000005364418,
+        "Open MNYWW": 0.05260000005364418,
+        "Volume MNYWW": 0
+      },
+      {
+        "Close MNYWW": 0.05249999836087227,
+        "High MNYWW": 0.05249999836087227,
+        "Low MNYWW": 0.05249999836087227,
+        "Open MNYWW": 0.05249999836087227,
+        "Volume MNYWW": 3066
+      },
+      {
+        "Close MNYWW": 0.05999999865889549,
+        "High MNYWW": 0.05999999865889549,
+        "Low MNYWW": 0.05999999865889549,
+        "Open MNYWW": 0.05999999865889549,
+        "Volume MNYWW": 2509
+      },
+      {
+        "Close MNYWW": 0.056299999356269836,
+        "High MNYWW": 0.056299999356269836,
+        "Low MNYWW": 0.056299999356269836,
+        "Open MNYWW": 0.056299999356269836,
+        "Volume MNYWW": 300
+      },
+      {
+        "Close MNYWW": 0.056299999356269836,
+        "High MNYWW": 0.056299999356269836,
+        "Low MNYWW": 0.056299999356269836,
+        "Open MNYWW": 0.056299999356269836,
+        "Volume MNYWW": 130
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -22,12 +87,11 @@
   },
   "options_data": {
     "status": "error",
-    "error_message": "Failed to perform, curl: (7) Failed to connect to query1.finance.yahoo.com port 443 after 2 ms: Could not connect to server. See https://curl.se/libcurl/c/libcurl-errors.html first for more details."
+    "error_message": "Too Many Requests. Rate limited. Try after a while."
   },
   "news_data": {
     "news": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
+      "status": "no_data"
     },
     "recommendations": {
       "status": "error",

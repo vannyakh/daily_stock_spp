@@ -1,9 +1,25 @@
 {
   "ticker": "FIGP",
-  "timestamp": "2025-11-08T04:52:22.331744",
+  "timestamp": "2025-11-12T04:40:04.318674",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 2,
+    "data": [
+      {
+        "Close CPRDX": 11.420000076293945,
+        "High CPRDX": 11.420000076293945,
+        "Low CPRDX": 11.420000076293945,
+        "Open CPRDX": 11.420000076293945,
+        "Volume CPRDX": 0
+      },
+      {
+        "Close CPRDX": 11.430000305175781,
+        "High CPRDX": 11.430000305175781,
+        "Low CPRDX": 11.430000305175781,
+        "Open CPRDX": 11.430000305175781,
+        "Volume CPRDX": 0
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -26,8 +42,7 @@
   },
   "news_data": {
     "news": {
-      "status": "error",
-      "message": "Failed to perform, curl: (7) Failed to connect to finance.yahoo.com port 443 after 3 ms: Could not connect to server. See https://curl.se/libcurl/c/libcurl-errors.html first for more details."
+      "status": "no_data"
     },
     "recommendations": {
       "status": "error",

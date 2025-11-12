@@ -1,29 +1,13 @@
 {
   "ticker": "KWIK",
-  "timestamp": "2025-11-08T04:36:09.804691",
+  "timestamp": "2025-11-12T04:30:14.567218",
   "intraday_data": {
-    "status": "success",
-    "rows": 2,
-    "data": [
-      {
-        "Close": 2.299999952316284,
-        "High": 2.299999952316284,
-        "Low": 2.299999952316284,
-        "Open": 2.299999952316284,
-        "Volume": 2470
-      },
-      {
-        "Close": 2.450000047683716,
-        "High": 2.450000047683716,
-        "Low": 2.390000104904175,
-        "Open": 2.390000104904175,
-        "Volume": 137
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
-    "message": "Failed to perform, curl: (7) Failed to connect to query2.finance.yahoo.com port 443 after 2 ms: Could not connect to server. See https://curl.se/libcurl/c/libcurl-errors.html first for more details."
+    "message": "Too Many Requests. Rate limited. Try after a while."
   },
   "financials": {
     "income_statement": {
@@ -42,8 +26,7 @@
   },
   "news_data": {
     "news": {
-      "status": "error",
-      "message": "Failed to perform, curl: (7) Failed to connect to finance.yahoo.com port 443 after 2 ms: Could not connect to server. See https://curl.se/libcurl/c/libcurl-errors.html first for more details."
+      "status": "no_data"
     },
     "recommendations": {
       "status": "error",

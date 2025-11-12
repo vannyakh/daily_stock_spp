@@ -1,39 +1,9 @@
 {
   "ticker": "CUYTF",
-  "timestamp": "2025-11-08T04:54:50.625865",
+  "timestamp": "2025-11-12T04:41:32.829905",
   "intraday_data": {
-    "status": "success",
-    "rows": 4,
-    "data": [
-      {
-        "Close SBFMW": 0.1996999979019165,
-        "High SBFMW": 0.1996999979019165,
-        "Low SBFMW": 0.1996999979019165,
-        "Open SBFMW": 0.1996999979019165,
-        "Volume SBFMW": 0
-      },
-      {
-        "Close SBFMW": 0.19499999284744263,
-        "High SBFMW": 0.19499999284744263,
-        "Low SBFMW": 0.19499999284744263,
-        "Open SBFMW": 0.19499999284744263,
-        "Volume SBFMW": 612
-      },
-      {
-        "Close SBFMW": 0.15150000154972076,
-        "High SBFMW": 0.17000000178813934,
-        "Low SBFMW": 0.15150000154972076,
-        "Open SBFMW": 0.17000000178813934,
-        "Volume SBFMW": 1341
-      },
-      {
-        "Close SBFMW": 0.24529999494552612,
-        "High SBFMW": 0.24529999494552612,
-        "Low SBFMW": 0.18569999933242798,
-        "Open SBFMW": 0.18569999933242798,
-        "Volume SBFMW": 4502
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -691,7 +661,7 @@
     },
     "calendar": {
       "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
+      "message": "'dict' object has no attribute 'empty'"
     }
   }
 }

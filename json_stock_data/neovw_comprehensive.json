@@ -1,150 +1,55 @@
 {
   "ticker": "NEOVW",
-  "timestamp": "2025-11-08T04:51:00.850169",
+  "timestamp": "2025-11-12T04:39:19.775892",
   "intraday_data": {
-    "status": "success",
-    "rows": 3,
-    "data": [
-      {
-        "Close": 1.1799999475479126,
-        "High": 1.1799999475479126,
-        "Low": 1.1799999475479126,
-        "Open": 1.1799999475479126,
-        "Volume": 0
-      },
-      {
-        "Close": 0.9399999976158142,
-        "High": 0.9399999976158142,
-        "Low": 0.9399999976158142,
-        "Open": 0.9399999976158142,
-        "Volume": 198
-      },
-      {
-        "Close": 1.1799999475479126,
-        "High": 1.1799999475479126,
-        "Low": 1.1799999475479126,
-        "Open": 1.1799999475479126,
-        "Volume": 427
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
-    "status": "success",
-    "data": {
-      "address1": "12195 Dearborn Place",
-      "city": "Poway",
-      "state": "CA",
-      "zip": "92064",
-      "country": "United States",
-      "phone": "800 364 5464",
-      "website": "https://www.neovolta.com",
-      "industry": "Electrical Equipment & Parts",
-      "industryKey": "electrical-equipment-parts",
-      "industryDisp": "Electrical Equipment & Parts",
-      "sector": "Industrials",
-      "sectorKey": "industrials",
-      "sectorDisp": "Industrials",
-      "longBusinessSummary": "NeoVolta Inc. designs, manufactures, and sells energy storage systems in the United States. The company provides NV14, NV14-K, and NV 24 energy storage systems, which stores and uses energy through batteries and an inverter at residential or commercial sites; and NV16KAC. It markets and sells its products directly to certified solar installers and solar equipment distributors. The company was founded in 2018 and is headquartered in Poway, California.",
-      "fullTimeEmployees": 17,
-      "compensationAsOfEpochDate": 1767139200,
-      "maxAge": 86400,
-      "priceHint": 4,
-      "previousClose": 1.18,
-      "open": 1.43,
-      "dayLow": 0.94,
-      "dayHigh": 1.18,
-      "regularMarketPreviousClose": 1.18,
-      "regularMarketOpen": 1.43,
-      "regularMarketDayLow": 0.94,
-      "regularMarketDayHigh": 1.18,
-      "beta": -0.333,
-      "volume": 427,
-      "regularMarketVolume": 427,
-      "bid": 0.0,
-      "ask": 0.0,
-      "bidSize": 0,
-      "askSize": 0,
-      "fiftyTwoWeekLow": 0.94,
-      "fiftyTwoWeekHigh": 1.18,
-      "trailingAnnualDividendRate": 0.0,
-      "trailingAnnualDividendYield": 0.0,
-      "currency": "USD",
-      "tradeable": false,
-      "profitMargins": -0.59745,
-      "floatShares": 29662029,
-      "bookValue": 0.085,
-      "priceToBook": 13.882352,
-      "netIncomeToCommon": -5034596,
-      "SandP52WeekChange": 0.1198014,
-      "quoteType": "EQUITY",
-      "currentPrice": 1.18,
-      "recommendationKey": "none",
-      "totalCash": 794836,
-      "totalCashPerShare": 0.023,
-      "ebitda": -4635620,
-      "totalDebt": 3127301,
-      "quickRatio": 1.076,
-      "currentRatio": 1.898,
-      "totalRevenue": 8426835,
-      "debtToEquity": 107.478,
-      "revenuePerShare": 0.251,
-      "returnOnAssets": -0.51434,
-      "returnOnEquity": -1.34164,
-      "grossProfits": 1506705,
-      "freeCashflow": -2458465,
-      "operatingCashflow": -4425752,
-      "revenueGrowth": 7.202,
-      "grossMargins": 0.17879999,
-      "ebitdaMargins": -0.55009997,
-      "operatingMargins": -0.3015,
-      "financialCurrency": "USD",
-      "symbol": "NEOVW",
-      "language": "en-US",
-      "region": "US",
-      "typeDisp": "Equity",
-      "quoteSourceName": "Delayed Quote",
-      "triggerable": true,
-      "customPriceAlertConfidence": "HIGH",
-      "hasPrePostMarketData": true,
-      "shortName": "NeoVolta Inc. Warrant",
-      "regularMarketTime": 1762544049,
-      "exchange": "NCM",
-      "messageBoardId": "finmb_575303910",
-      "exchangeTimezoneName": "America/New_York",
-      "exchangeTimezoneShortName": "EST",
-      "gmtOffSetMilliseconds": -18000000,
-      "market": "us_market",
-      "esgPopulated": false,
-      "regularMarketChangePercent": 0.0,
-      "regularMarketPrice": 1.18,
-      "longName": "NeoVolta Inc.",
-      "regularMarketChange": 0.0,
-      "regularMarketDayRange": "0.94 - 1.18",
-      "fullExchangeName": "NasdaqCM",
-      "fiftyTwoWeekLowChange": 0.23999995,
-      "fiftyTwoWeekLowChangePercent": 0.2553191,
-      "fiftyTwoWeekRange": "0.94 - 1.18",
-      "fiftyTwoWeekHighChange": 0.0,
-      "fiftyTwoWeekHighChangePercent": 0.0,
-      "sourceInterval": 15,
-      "exchangeDataDelayedBy": 0,
-      "ipoExpectedDate": "2022-06-17",
-      "cryptoTradeable": false,
-      "marketState": "POSTPOST",
-      "displayName": "NeoVolta"
-    }
+    "status": "error",
+    "message": "Too Many Requests. Rate limited. Try after a while."
   },
   "financials": {
     "income_statement": {
-      "status": "success",
-      "rows": 39,
-      "columns": [
-        "2025-06-30 00:00:00",
-        "2024-06-30 00:00:00",
-        "2023-06-30 00:00:00",
-        "2022-06-30 00:00:00",
-        "2021-06-30 00:00:00"
-      ],
-      "data": [
-        {
-          
+      "status": "no_data"
+    },
+    "balance_sheet": {
+      "status": "no_data"
+    },
+    "cash_flow": {
+      "status": "no_data"
+    }
+  },
+  "options_data": {
+    "status": "error",
+    "error_message": "Too Many Requests. Rate limited. Try after a while."
+  },
+  "news_data": {
+    "news": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    },
+    "recommendations": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  },
+  "holders_data": {
+    "major_holders": {
+      "status": "error"
+    },
+    "institutional_holders": {
+      "status": "error"
+    }
+  },
+  "earnings_data": {
+    "earnings": {
+      "status": "error",
+      "message": "'NoneType' object has no attribute 'empty'"
+    },
+    "calendar": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  }
+}

@@ -1,9 +1,32 @@
 {
   "ticker": "USAQ",
-  "timestamp": "2025-11-08T04:40:45.444336",
+  "timestamp": "2025-11-12T04:32:59.255020",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 3,
+    "data": [
+      {
+        "Close MNTR": 0.09149999916553497,
+        "High MNTR": 0.09149999916553497,
+        "Low MNTR": 0.09149999916553497,
+        "Open MNTR": 0.09149999916553497,
+        "Volume MNTR": 0
+      },
+      {
+        "Close MNTR": 0.09430000185966492,
+        "High MNTR": 0.09430000185966492,
+        "Low MNTR": 0.09430000185966492,
+        "Open MNTR": 0.09430000185966492,
+        "Volume MNTR": 999
+      },
+      {
+        "Close MNTR": 0.09440000355243683,
+        "High MNTR": 0.09440000355243683,
+        "Low MNTR": 0.09440000355243683,
+        "Open MNTR": 0.09440000355243683,
+        "Volume MNTR": 2000
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -29,7 +52,8 @@
       "status": "no_data"
     },
     "recommendations": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   },
   "holders_data": {

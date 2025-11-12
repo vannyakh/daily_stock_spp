@@ -1,102 +1,9 @@
 {
   "ticker": "RCD",
-  "timestamp": "2025-11-08T04:55:01.942193",
+  "timestamp": "2025-11-12T04:41:40.396162",
   "intraday_data": {
-    "status": "success",
-    "rows": 13,
-    "data": [
-      {
-        "Close": 23.829999923706055,
-        "High": 23.829999923706055,
-        "Low": 23.829999923706055,
-        "Open": 23.829999923706055,
-        "Volume": 0
-      },
-      {
-        "Close": 23.979900360107422,
-        "High": 23.979900360107422,
-        "Low": 23.979900360107422,
-        "Open": 23.979900360107422,
-        "Volume": 2104
-      },
-      {
-        "Close": 23.950000762939453,
-        "High": 23.959999084472656,
-        "Low": 23.950000762939453,
-        "Open": 23.959999084472656,
-        "Volume": 273
-      },
-      {
-        "Close": 23.950000762939453,
-        "High": 23.950000762939453,
-        "Low": 23.950000762939453,
-        "Open": 23.950000762939453,
-        "Volume": 126
-      },
-      {
-        "Close": 23.700000762939453,
-        "High": 23.700000762939453,
-        "Low": 23.700000762939453,
-        "Open": 23.700000762939453,
-        "Volume": 1046
-      },
-      {
-        "Close": 23.8700008392334,
-        "High": 23.8700008392334,
-        "Low": 23.8700008392334,
-        "Open": 23.8700008392334,
-        "Volume": 359
-      },
-      {
-        "Close": 24.0,
-        "High": 24.0,
-        "Low": 23.950000762939453,
-        "Open": 23.950000762939453,
-        "Volume": 304
-      },
-      {
-        "Close": 23.920000076293945,
-        "High": 23.920000076293945,
-        "Low": 23.920000076293945,
-        "Open": 23.920000076293945,
-        "Volume": 156
-      },
-      {
-        "Close": 23.90019989013672,
-        "High": 23.90019989013672,
-        "Low": 23.899999618530273,
-        "Open": 23.899999618530273,
-        "Volume": 804
-      },
-      {
-        "Close": 23.90019989013672,
-        "High": 23.90019989013672,
-        "Low": 23.899999618530273,
-        "Open": 23.899999618530273,
-        "Volume": 696
-      },
-      {
-        "Close": 23.920000076293945,
-        "High": 23.920000076293945,
-        "Low": 23.920000076293945,
-        "Open": 23.920000076293945,
-        "Volume": 148
-      },
-      {
-        "Close": 23.947799682617188,
-        "High": 23.947799682617188,
-        "Low": 23.899999618530273,
-        "Open": 23.899999618530273,
-        "Volume": 1433
-      },
-      {
-        "Close": 23.951200485229492,
-        "High": 23.951200485229492,
-        "Low": 23.951200485229492,
-        "Open": 23.951200485229492,
-        "Volume": 5304
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -122,97 +29,16 @@
       "status": "no_data"
     },
     "recommendations": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   },
   "holders_data": {
     "major_holders": {
-      "status": "no_data"
+      "status": "error"
     },
     "institutional_holders": {
-      "status": "success",
-      "data": [
-        {
-          "Date Reported": "2023-03-31 00:00:00",
-          "Holder": "Phoenix Holdings Ltd.",
-          "pctHeld": 0.36099997,
-          "Shares": 1332100,
-          "Value": 31905394,
-          "pctChange": 0.3879
-        },
-        {
-          "Date Reported": "2023-03-31 00:00:00",
-          "Holder": "Harel Insurance Investments & Financial Services Ltd.",
-          "pctHeld": 0.18969999,
-          "Shares": 700000,
-          "Value": 16765840,
-          "pctChange": 0.0
-        },
-        {
-          "Date Reported": "2023-03-31 00:00:00",
-          "Holder": "Wells Fargo & Company",
-          "pctHeld": 0.028199999,
-          "Shares": 104062,
-          "Value": 2492409,
-          "pctChange": 2.689
-        },
-        {
-          "Date Reported": "2023-03-31 00:00:00",
-          "Holder": "HighTower Advisors, LLC",
-          "pctHeld": 0.0146,
-          "Shares": 53828,
-          "Value": 1289245,
-          "pctChange": 0.0276
-        },
-        {
-          "Date Reported": "2023-03-31 00:00:00",
-          "Holder": "Raymond James Financial Services Advisors, Inc.",
-          "pctHeld": 0.014099999,
-          "Shares": 51875,
-          "Value": 1242468,
-          "pctChange": 0.17
-        },
-        {
-          "Date Reported": "2023-03-31 00:00:00",
-          "Holder": "Legend Financial Advisors, Inc.",
-          "pctHeld": 0.013300001,
-          "Shares": 49204,
-          "Value": 1178494,
-          "pctChange": -0.0005
-        },
-        {
-          "Date Reported": "2023-03-31 00:00:00",
-          "Holder": "Oppenheimer Asset Management, Inc.",
-          "pctHeld": 0.0119,
-          "Shares": 43994,
-          "Value": 1053709,
-          "pctChange": -0.0112
-        },
-        {
-          "Date Reported": "2023-03-31 00:00:00",
-          "Holder": "Bank of America Corporation",
-          "pctHeld": 0.0111,
-          "Shares": 40893,
-          "Value": 979436,
-          "pctChange": 0.2067
-        },
-        {
-          "Date Reported": "2023-03-31 00:00:00",
-          "Holder": "Janney Capital Management LLC",
-          "pctHeld": 0.0095,
-          "Shares": 34930,
-          "Value": 836615,
-          "pctChange": 1.0
-        },
-        {
-          "Date Reported": "2023-03-31 00:00:00",
-          "Holder": "LPL Financial LLC",
-          "pctHeld": 0.0089,
-          "Shares": 32711,
-          "Value": 783467,
-          "pctChange": 0.2348
-        }
-      ]
+      "status": "error"
     }
   },
   "earnings_data": {
@@ -222,7 +48,7 @@
     },
     "calendar": {
       "status": "error",
-      "message": "'dict' object has no attribute 'empty'"
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   }
 }

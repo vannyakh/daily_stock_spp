@@ -1,9 +1,32 @@
 {
   "ticker": "RDACR",
-  "timestamp": "2025-11-08T04:51:49.362320",
+  "timestamp": "2025-11-12T04:39:44.756057",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 3,
+    "data": [
+      {
+        "Close": 0.19009999930858612,
+        "High": 0.19009999930858612,
+        "Low": 0.19009999930858612,
+        "Open": 0.19009999930858612,
+        "Volume": 0
+      },
+      {
+        "Close": 0.19020000100135803,
+        "High": 0.19020000100135803,
+        "Low": 0.19020000100135803,
+        "Open": 0.19020000100135803,
+        "Volume": 1000
+      },
+      {
+        "Close": 0.25,
+        "High": 0.25,
+        "Low": 0.25,
+        "Open": 0.25,
+        "Volume": 1140
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -29,97 +52,16 @@
       "status": "no_data"
     },
     "recommendations": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   },
   "holders_data": {
     "major_holders": {
-      "status": "no_data"
+      "status": "error"
     },
     "institutional_holders": {
-      "status": "success",
-      "data": [
-        {
-          "Date Reported": "2025-06-30 00:00:00",
-          "Holder": "Clear Street LLC",
-          "pctHeld": 0.0,
-          "Shares": 485495,
-          "Value": 92244,
-          "pctChange": 0.0034999999
-        },
-        {
-          "Date Reported": "2025-06-30 00:00:00",
-          "Holder": "Harraden Circle Investments, LLC",
-          "pctHeld": 0.0,
-          "Shares": 1208200,
-          "Value": 229557,
-          "pctChange": 0.0
-        },
-        {
-          "Date Reported": "2025-06-30 00:00:00",
-          "Holder": "Polar Asset Management Partners Inc.",
-          "pctHeld": 0.0,
-          "Shares": 500000,
-          "Value": 94999,
-          "pctChange": 0.0
-        },
-        {
-          "Date Reported": "2025-06-30 00:00:00",
-          "Holder": "RiverNorth Capital Management, LLC",
-          "pctHeld": 0.0,
-          "Shares": 495000,
-          "Value": 94049,
-          "pctChange": 0.0
-        },
-        {
-          "Date Reported": "2025-06-30 00:00:00",
-          "Holder": "AQR Arbitrage LLC",
-          "pctHeld": 0.0,
-          "Shares": 491982,
-          "Value": 93476,
-          "pctChange": 0.0
-        },
-        {
-          "Date Reported": "2025-06-30 00:00:00",
-          "Holder": "Toronto Dominion Bank",
-          "pctHeld": 0.0,
-          "Shares": 480900,
-          "Value": 91370,
-          "pctChange": 1.0
-        },
-        {
-          "Date Reported": "2025-06-30 00:00:00",
-          "Holder": "Glazer Capital LLC",
-          "pctHeld": 0.0,
-          "Shares": 158994,
-          "Value": 30208,
-          "pctChange": -0.4155
-        },
-        {
-          "Date Reported": "2025-06-30 00:00:00",
-          "Holder": "Shaw D.E. & Co., Inc.",
-          "pctHeld": 0.0,
-          "Shares": 150000,
-          "Value": 28499,
-          "pctChange": 0.0
-        },
-        {
-          "Date Reported": "2025-06-30 00:00:00",
-          "Holder": "Cable Car Capital, LP",
-          "pctHeld": 0.0,
-          "Shares": 188000,
-          "Value": 35719,
-          "pctChange": 0.0
-        },
-        {
-          "Date Reported": "2025-06-30 00:00:00",
-          "Holder": "Boothbay Fund Management, LLC",
-          "pctHeld": 0.0,
-          "Shares": 58000,
-          "Value": 11019,
-          "pctChange": 0.0
-        }
-      ]
+      "status": "error"
     }
   },
   "earnings_data": {
@@ -129,7 +71,7 @@
     },
     "calendar": {
       "status": "error",
-      "message": "'dict' object has no attribute 'empty'"
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   }
 }

@@ -1,9 +1,32 @@
 {
   "ticker": "ISRLW",
-  "timestamp": "2025-11-08T04:50:15.859023",
+  "timestamp": "2025-11-12T04:38:51.289259",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 3,
+    "data": [
+      {
+        "Close": 0.20999999344348907,
+        "High": 0.20999999344348907,
+        "Low": 0.20800000429153442,
+        "Open": 0.20999999344348907,
+        "Volume": 0
+      },
+      {
+        "Close": 0.2240999937057495,
+        "High": 0.23000000417232513,
+        "Low": 0.2240000069141388,
+        "Open": 0.23000000417232513,
+        "Volume": 9371
+      },
+      {
+        "Close": 0.22100000083446503,
+        "High": 0.22100000083446503,
+        "Low": 0.22100000083446503,
+        "Open": 0.22100000083446503,
+        "Volume": 18479
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -26,8 +49,7 @@
   },
   "news_data": {
     "news": {
-      "status": "error",
-      "message": "Failed to perform, curl: (7) Failed to connect to finance.yahoo.com port 443 after 57 ms: Could not connect to server. See https://curl.se/libcurl/c/libcurl-errors.html first for more details."
+      "status": "no_data"
     },
     "recommendations": {
       "status": "error",

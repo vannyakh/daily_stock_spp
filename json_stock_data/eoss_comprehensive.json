@@ -1,32 +1,9 @@
 {
   "ticker": "EOSS",
-  "timestamp": "2025-11-08T04:41:14.253223",
+  "timestamp": "2025-11-12T04:33:24.724259",
   "intraday_data": {
-    "status": "success",
-    "rows": 3,
-    "data": [
-      {
-        "Close BOTY": 9.999999747378752e-05,
-        "High BOTY": 9.999999747378752e-05,
-        "Low BOTY": 9.999999747378752e-05,
-        "Open BOTY": 9.999999747378752e-05,
-        "Volume BOTY": 0
-      },
-      {
-        "Close BOTY": 9.999999747378752e-05,
-        "High BOTY": 9.999999747378752e-05,
-        "Low BOTY": 9.999999747378752e-05,
-        "Open BOTY": 9.999999747378752e-05,
-        "Volume BOTY": 100000
-      },
-      {
-        "Close BOTY": 9.999999747378752e-05,
-        "High BOTY": 9.999999747378752e-05,
-        "Low BOTY": 9.999999747378752e-05,
-        "Open BOTY": 9.999999747378752e-05,
-        "Volume BOTY": 30000
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -49,7 +26,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

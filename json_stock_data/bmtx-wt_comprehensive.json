@@ -1,13 +1,134 @@
 {
   "ticker": "BMTX-WT",
-  "timestamp": "2025-11-08T04:54:27.066068",
+  "timestamp": "2025-11-12T04:41:16.441727",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 17,
+    "data": [
+      {
+        "Close ALTG-PA": 25.0,
+        "High ALTG-PA": 25.0,
+        "Low ALTG-PA": 25.0,
+        "Open ALTG-PA": 25.0,
+        "Volume ALTG-PA": 0
+      },
+      {
+        "Close ALTG-PA": 25.0,
+        "High ALTG-PA": 25.0,
+        "Low ALTG-PA": 25.0,
+        "Open ALTG-PA": 25.0,
+        "Volume ALTG-PA": 410
+      },
+      {
+        "Close ALTG-PA": 25.020000457763672,
+        "High ALTG-PA": 25.020000457763672,
+        "Low ALTG-PA": 25.020000457763672,
+        "Open ALTG-PA": 25.020000457763672,
+        "Volume ALTG-PA": 125
+      },
+      {
+        "Close ALTG-PA": 25.049999237060547,
+        "High ALTG-PA": 25.049999237060547,
+        "Low ALTG-PA": 25.049999237060547,
+        "Open ALTG-PA": 25.049999237060547,
+        "Volume ALTG-PA": 342
+      },
+      {
+        "Close ALTG-PA": 25.299999237060547,
+        "High ALTG-PA": 25.299999237060547,
+        "Low ALTG-PA": 25.299999237060547,
+        "Open ALTG-PA": 25.299999237060547,
+        "Volume ALTG-PA": 175
+      },
+      {
+        "Close ALTG-PA": 25.200000762939453,
+        "High ALTG-PA": 25.200000762939453,
+        "Low ALTG-PA": 25.190000534057617,
+        "Open ALTG-PA": 25.190000534057617,
+        "Volume ALTG-PA": 200
+      },
+      {
+        "Close ALTG-PA": 25.247699737548828,
+        "High ALTG-PA": 25.247699737548828,
+        "Low ALTG-PA": 25.06999969482422,
+        "Open ALTG-PA": 25.247699737548828,
+        "Volume ALTG-PA": 758
+      },
+      {
+        "Close ALTG-PA": 25.049999237060547,
+        "High ALTG-PA": 25.06999969482422,
+        "Low ALTG-PA": 25.049999237060547,
+        "Open ALTG-PA": 25.06999969482422,
+        "Volume ALTG-PA": 493
+      },
+      {
+        "Close ALTG-PA": 25.200000762939453,
+        "High ALTG-PA": 25.200000762939453,
+        "Low ALTG-PA": 25.200000762939453,
+        "Open ALTG-PA": 25.200000762939453,
+        "Volume ALTG-PA": 0
+      },
+      {
+        "Close ALTG-PA": 25.200000762939453,
+        "High ALTG-PA": 25.200000762939453,
+        "Low ALTG-PA": 25.200000762939453,
+        "Open ALTG-PA": 25.200000762939453,
+        "Volume ALTG-PA": 250
+      },
+      {
+        "Close ALTG-PA": 25.200000762939453,
+        "High ALTG-PA": 25.200000762939453,
+        "Low ALTG-PA": 25.200000762939453,
+        "Open ALTG-PA": 25.200000762939453,
+        "Volume ALTG-PA": 197
+      },
+      {
+        "Close ALTG-PA": 25.254899978637695,
+        "High ALTG-PA": 25.254899978637695,
+        "Low ALTG-PA": 25.254899978637695,
+        "Open ALTG-PA": 25.254899978637695,
+        "Volume ALTG-PA": 100
+      },
+      {
+        "Close ALTG-PA": 25.25,
+        "High ALTG-PA": 25.25,
+        "Low ALTG-PA": 25.25,
+        "Open ALTG-PA": 25.25,
+        "Volume ALTG-PA": 100
+      },
+      {
+        "Close ALTG-PA": 25.18000030517578,
+        "High ALTG-PA": 25.18000030517578,
+        "Low ALTG-PA": 25.170000076293945,
+        "Open ALTG-PA": 25.170000076293945,
+        "Volume ALTG-PA": 651
+      },
+      {
+        "Close ALTG-PA": 25.103200912475586,
+        "High ALTG-PA": 25.139999389648438,
+        "Low ALTG-PA": 25.103200912475586,
+        "Open ALTG-PA": 25.139999389648438,
+        "Volume ALTG-PA": 402
+      },
+      {
+        "Close ALTG-PA": 25.07029914855957,
+        "High ALTG-PA": 25.07029914855957,
+        "Low ALTG-PA": 25.07029914855957,
+        "Open ALTG-PA": 25.07029914855957,
+        "Volume ALTG-PA": 212
+      },
+      {
+        "Close ALTG-PA": 25.149999618530273,
+        "High ALTG-PA": 25.149999618530273,
+        "Low ALTG-PA": 25.149999618530273,
+        "Open ALTG-PA": 25.149999618530273,
+        "Volume ALTG-PA": 125
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
-    "message": "Too Many Requests. Rate limited. Try after a while."
+    "message": "argument of type 'NoneType' is not iterable"
   },
   "financials": {
     "income_statement": {
@@ -26,7 +147,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

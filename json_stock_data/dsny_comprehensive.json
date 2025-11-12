@@ -1,263 +1,33 @@
 {
   "ticker": "DSNY",
-  "timestamp": "2025-11-08T04:37:39.530179",
+  "timestamp": "2025-11-12T04:31:11.165809",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 1,
+    "data": [
+      {
+        "Close": 0.46000000834465027,
+        "High": 0.46000000834465027,
+        "Low": 0.46000000834465027,
+        "Open": 0.46000000834465027,
+        "Volume": 0
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
-    "message": "Too Many Requests. Rate limited. Try after a while."
+    "message": "argument of type 'NoneType' is not iterable"
   },
   "financials": {
     "income_statement": {
-      "status": "no_data"
-    },
-    "balance_sheet": {
-      "status": "no_data"
-    },
-    "cash_flow": {
-      "status": "no_data"
-    }
-  },
-  "options_data": {
-    "status": "error",
-    "error_message": "Too Many Requests. Rate limited. Try after a while."
-  },
-  "news_data": {
-    "news": {
       "status": "success",
-      "count": 4,
+      "rows": 50,
+      "columns": [
+        "2024-08-31 00:00:00",
+        "2023-08-31 00:00:00",
+        "2022-08-31 00:00:00",
+        "2021-08-31 00:00:00"
+      ],
       "data": [
         {
-          "id": "392d4f66-1b35-3cce-b0ee-ea93f9f96162",
-          "content": {
-            "id": "392d4f66-1b35-3cce-b0ee-ea93f9f96162",
-            "contentType": "STORY",
-            "title": "Destiny Media: Fiscal Q2 Earnings Snapshot",
-            "description": "",
-            "summary": "VANCOUVER, British Columbia (AP) \u2014 Destiny Media Technologies Inc. DSNY) on Monday reported a loss of $302,000 in its fiscal second quarter. On a per-share basis, the Vancouver, British Columbia-based company said it had a loss of 3 cents.",
-            "pubDate": "2025-04-14T10:51:33Z",
-            "displayTime": "2025-04-14T10:51:33Z",
-            "isHosted": true,
-            "bypassModal": false,
-            "previewUrl": null,
-            "thumbnail": null,
-            "provider": {
-              "displayName": "Associated Press Finance",
-              "url": "http://www.ap.org/"
-            },
-            "canonicalUrl": {
-              "url": "https://finance.yahoo.com/news/destiny-media-fiscal-q2-earnings-105133623.html",
-              "site": "finance",
-              "region": "US",
-              "lang": "en-US"
-            },
-            "clickThroughUrl": {
-              "url": "https://finance.yahoo.com/news/destiny-media-fiscal-q2-earnings-105133623.html",
-              "site": "finance",
-              "region": "US",
-              "lang": "en-US"
-            },
-            "metadata": {
-              "editorsPick": false
-            },
-            "finance": {
-              "premiumFinance": {
-                "isPremiumNews": false,
-                "isPremiumFreeNews": false
-              }
-            },
-            "storyline": null
-          }
-        },
-        {
-          "id": "4646cd5f-6a5b-3115-8865-e8239e9b623c",
-          "content": {
-            "id": "4646cd5f-6a5b-3115-8865-e8239e9b623c",
-            "contentType": "STORY",
-            "title": "Destiny Media Technologies Inc (DSNY) Q1 2025 Earnings Call Highlights: Revenue Growth Amid ...",
-            "description": "",
-            "summary": "Destiny Media Technologies Inc (DSNY) reports a 6.2% revenue increase, focusing on expanding market presence and enhancing marketing strategies.",
-            "pubDate": "2025-01-15T07:00:26Z",
-            "displayTime": "2025-01-15T07:00:26Z",
-            "isHosted": true,
-            "bypassModal": false,
-            "previewUrl": null,
-            "thumbnail": {
-              "originalUrl": "https://media.zenfs.com/en/us.finance.gurufocus/2f5d94a6e2e3470d7de8d308400cfeb5",
-              "originalWidth": 180,
-              "originalHeight": 180,
-              "caption": "",
-              "resolutions": [
-                {
-                  "url": "https://s.yimg.com/uu/api/res/1.2/BdwGO25DriVIzqxdtF.9yg--~B/aD0xODA7dz0xODA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/us.finance.gurufocus/2f5d94a6e2e3470d7de8d308400cfeb5",
-                  "width": 180,
-                  "height": 180,
-                  "tag": "original"
-                },
-                {
-                  "url": "https://s.yimg.com/uu/api/res/1.2/anwTCXt5hsE7kInR2GUSmA--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/us.finance.gurufocus/2f5d94a6e2e3470d7de8d308400cfeb5",
-                  "width": 170,
-                  "height": 128,
-                  "tag": "170x128"
-                }
-              ]
-            },
-            "provider": {
-              "displayName": "GuruFocus.com",
-              "url": "http://www.gurufocus.com/"
-            },
-            "canonicalUrl": {
-              "url": "https://finance.yahoo.com/news/destiny-media-technologies-inc-dsny-070026486.html",
-              "site": "finance",
-              "region": "US",
-              "lang": "en-US"
-            },
-            "clickThroughUrl": {
-              "url": "https://finance.yahoo.com/news/destiny-media-technologies-inc-dsny-070026486.html",
-              "site": "finance",
-              "region": "US",
-              "lang": "en-US"
-            },
-            "metadata": {
-              "editorsPick": false
-            },
-            "finance": {
-              "premiumFinance": {
-                "isPremiumNews": false,
-                "isPremiumFreeNews": false
-              }
-            },
-            "storyline": null
-          }
-        },
-        {
-          "id": "7a8d4456-e4e5-3b68-a760-0c090b8e98c2",
-          "content": {
-            "id": "7a8d4456-e4e5-3b68-a760-0c090b8e98c2",
-            "contentType": "STORY",
-            "title": "Destiny Media: Fiscal Q1 Earnings Snapshot",
-            "description": "",
-            "summary": "VANCOUVER, British Columbia (AP) \u2014 Destiny Media Technologies Inc. DSNY) on Tuesday reported profit of $118,000 in its fiscal first quarter. The Vancouver, British Columbia-based company said it had profit of 1 cent per share.",
-            "pubDate": "2025-01-14T14:07:16Z",
-            "displayTime": "2025-01-14T14:07:16Z",
-            "isHosted": true,
-            "bypassModal": false,
-            "previewUrl": null,
-            "thumbnail": null,
-            "provider": {
-              "displayName": "Associated Press Finance",
-              "url": "http://www.ap.org/"
-            },
-            "canonicalUrl": {
-              "url": "https://finance.yahoo.com/news/destiny-media-fiscal-q1-earnings-140716690.html",
-              "site": "finance",
-              "region": "US",
-              "lang": "en-US"
-            },
-            "clickThroughUrl": {
-              "url": "https://finance.yahoo.com/news/destiny-media-fiscal-q1-earnings-140716690.html",
-              "site": "finance",
-              "region": "US",
-              "lang": "en-US"
-            },
-            "metadata": {
-              "editorsPick": false
-            },
-            "finance": {
-              "premiumFinance": {
-                "isPremiumNews": false,
-                "isPremiumFreeNews": false
-              }
-            },
-            "storyline": null
-          }
-        },
-        {
-          "id": "812fee1c-ec6b-3366-bfa7-b031011a9a88",
-          "content": {
-            "id": "812fee1c-ec6b-3366-bfa7-b031011a9a88",
-            "contentType": "STORY",
-            "title": "Destiny Media Technologies Inc (DSNY) Q4 2024 Earnings Call Highlights: Revenue Growth and ...",
-            "description": "",
-            "summary": "Destiny Media Technologies Inc (DSNY) reports promising revenue growth and unveils strategic initiatives for future expansion despite current challenges.",
-            "pubDate": "2024-11-22T07:05:39Z",
-            "displayTime": "2024-11-22T07:05:39Z",
-            "isHosted": true,
-            "bypassModal": false,
-            "previewUrl": null,
-            "thumbnail": {
-              "originalUrl": "https://media.zenfs.com/en/us.finance.gurufocus/2f5d94a6e2e3470d7de8d308400cfeb5",
-              "originalWidth": 180,
-              "originalHeight": 180,
-              "caption": "",
-              "resolutions": [
-                {
-                  "url": "https://s.yimg.com/uu/api/res/1.2/BdwGO25DriVIzqxdtF.9yg--~B/aD0xODA7dz0xODA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/us.finance.gurufocus/2f5d94a6e2e3470d7de8d308400cfeb5",
-                  "width": 180,
-                  "height": 180,
-                  "tag": "original"
-                },
-                {
-                  "url": "https://s.yimg.com/uu/api/res/1.2/anwTCXt5hsE7kInR2GUSmA--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/us.finance.gurufocus/2f5d94a6e2e3470d7de8d308400cfeb5",
-                  "width": 170,
-                  "height": 128,
-                  "tag": "170x128"
-                }
-              ]
-            },
-            "provider": {
-              "displayName": "GuruFocus.com",
-              "url": "http://www.gurufocus.com/"
-            },
-            "canonicalUrl": {
-              "url": "https://finance.yahoo.com/news/destiny-media-technologies-inc-dsny-070539913.html",
-              "site": "finance",
-              "region": "US",
-              "lang": "en-US"
-            },
-            "clickThroughUrl": {
-              "url": "https://finance.yahoo.com/news/destiny-media-technologies-inc-dsny-070539913.html",
-              "site": "finance",
-              "region": "US",
-              "lang": "en-US"
-            },
-            "metadata": {
-              "editorsPick": false
-            },
-            "finance": {
-              "premiumFinance": {
-                "isPremiumNews": false,
-                "isPremiumFreeNews": false
-              }
-            },
-            "storyline": null
-          }
-        }
-      ]
-    },
-    "recommendations": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
-    }
-  },
-  "holders_data": {
-    "major_holders": {
-      "status": "error"
-    },
-    "institutional_holders": {
-      "status": "error"
-    }
-  },
-  "earnings_data": {
-    "earnings": {
-      "status": "error",
-      "message": "'NoneType' object has no attribute 'empty'"
-    },
-    "calendar": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
-    }
-  }
-}
+          

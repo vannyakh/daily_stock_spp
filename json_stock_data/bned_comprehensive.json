@@ -1,145 +1,648 @@
 {
   "ticker": "BNED",
-  "timestamp": "2025-11-08T04:22:07.958688",
+  "timestamp": "2025-11-12T04:21:34.383034",
   "intraday_data": {
-    "status": "success",
-    "rows": 17,
-    "data": [
-      {
-        "Close GDEV": 22.229999542236328,
-        "High GDEV": 22.229999542236328,
-        "Low GDEV": 22.229999542236328,
-        "Open GDEV": 22.229999542236328,
-        "Volume GDEV": 0
-      },
-      {
-        "Close GDEV": 22.84000015258789,
-        "High GDEV": 22.84000015258789,
-        "Low GDEV": 22.84000015258789,
-        "Open GDEV": 22.84000015258789,
-        "Volume GDEV": 151
-      },
-      {
-        "Close GDEV": 22.979999542236328,
-        "High GDEV": 22.979999542236328,
-        "Low GDEV": 22.979999542236328,
-        "Open GDEV": 22.979999542236328,
-        "Volume GDEV": 441
-      },
-      {
-        "Close GDEV": 22.290000915527344,
-        "High GDEV": 22.520000457763672,
-        "Low GDEV": 22.290000915527344,
-        "Open GDEV": 22.520000457763672,
-        "Volume GDEV": 312
-      },
-      {
-        "Close GDEV": 22.0,
-        "High GDEV": 22.0,
-        "Low GDEV": 22.0,
-        "Open GDEV": 22.0,
-        "Volume GDEV": 215
-      },
-      {
-        "Close GDEV": 22.094999313354492,
-        "High GDEV": 22.094999313354492,
-        "Low GDEV": 22.09000015258789,
-        "Open GDEV": 22.09000015258789,
-        "Volume GDEV": 348
-      },
-      {
-        "Close GDEV": 22.030000686645508,
-        "High GDEV": 22.030000686645508,
-        "Low GDEV": 22.030000686645508,
-        "Open GDEV": 22.030000686645508,
-        "Volume GDEV": 317
-      },
-      {
-        "Close GDEV": 21.520000457763672,
-        "High GDEV": 21.520000457763672,
-        "Low GDEV": 21.520000457763672,
-        "Open GDEV": 21.520000457763672,
-        "Volume GDEV": 406
-      },
-      {
-        "Close GDEV": 21.25,
-        "High GDEV": 21.25,
-        "Low GDEV": 21.25,
-        "Open GDEV": 21.25,
-        "Volume GDEV": 268
-      },
-      {
-        "Close GDEV": 21.739999771118164,
-        "High GDEV": 21.739999771118164,
-        "Low GDEV": 21.739999771118164,
-        "Open GDEV": 21.739999771118164,
-        "Volume GDEV": 261
-      },
-      {
-        "Close GDEV": 22.399999618530273,
-        "High GDEV": 22.399999618530273,
-        "Low GDEV": 22.399999618530273,
-        "Open GDEV": 22.399999618530273,
-        "Volume GDEV": 0
-      },
-      {
-        "Close GDEV": 20.90049934387207,
-        "High GDEV": 21.149999618530273,
-        "Low GDEV": 20.90049934387207,
-        "Open GDEV": 21.149999618530273,
-        "Volume GDEV": 721
-      },
-      {
-        "Close GDEV": 21.34000015258789,
-        "High GDEV": 21.34000015258789,
-        "Low GDEV": 21.34000015258789,
-        "Open GDEV": 21.34000015258789,
-        "Volume GDEV": 163
-      },
-      {
-        "Close GDEV": 21.0,
-        "High GDEV": 21.0,
-        "Low GDEV": 20.989999771118164,
-        "Open GDEV": 20.989999771118164,
-        "Volume GDEV": 790
-      },
-      {
-        "Close GDEV": 21.0,
-        "High GDEV": 21.0,
-        "Low GDEV": 21.0,
-        "Open GDEV": 21.0,
-        "Volume GDEV": 672
-      },
-      {
-        "Close GDEV": 21.3799991607666,
-        "High GDEV": 21.3799991607666,
-        "Low GDEV": 21.3799991607666,
-        "Open GDEV": 21.3799991607666,
-        "Volume GDEV": 153
-      },
-      {
-        "Close GDEV": 21.428600311279297,
-        "High GDEV": 21.428600311279297,
-        "Low GDEV": 21.428600311279297,
-        "Open GDEV": 21.428600311279297,
-        "Volume GDEV": 184
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
-    "message": "Failed to perform, curl: (7) Failed to connect to query2.finance.yahoo.com port 443 after 6 ms: Could not connect to server. See https://curl.se/libcurl/c/libcurl-errors.html first for more details."
+    "message": "Too Many Requests. Rate limited. Try after a while."
   },
   "financials": {
     "income_statement": {
+      "status": "no_data"
+    },
+    "balance_sheet": {
+      "status": "no_data"
+    },
+    "cash_flow": {
+      "status": "no_data"
+    }
+  },
+  "options_data": {
+    "status": "error",
+    "error_message": "Too Many Requests. Rate limited. Try after a while."
+  },
+  "news_data": {
+    "news": {
       "status": "success",
-      "rows": 47,
-      "columns": [
-        "2024-04-30 00:00:00",
-        "2023-04-30 00:00:00",
-        "2022-04-30 00:00:00",
-        "2021-04-30 00:00:00"
-      ],
+      "count": 10,
       "data": [
         {
-          
+          "id": "15363eb6-f926-40cf-88bf-08df989e45c7",
+          "content": {
+            "id": "15363eb6-f926-40cf-88bf-08df989e45c7",
+            "contentType": "STORY",
+            "title": "Stocks to watch this week: Nvidia, Dell, Prudential, JD Sports and Delivery Hero",
+            "description": "",
+            "summary": "Earnings preview of key companies reporting in the coming week and what to look out for",
+            "pubDate": "2025-08-22T12:02:32Z",
+            "displayTime": "2025-08-22T12:02:33Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": {
+              "originalUrl": "https://s.yimg.com/os/creatr-uploaded-images/2025-08/d2553aa0-7d97-11f0-9ffe-de1c6ec8cf21",
+              "originalWidth": 6471,
+              "originalHeight": 4823,
+              "caption": "",
+              "resolutions": [
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/hyFDYch5IjAiJrmWcPkWxA--~B/aD00ODIzO3c9NjQ3MTthcHBpZD15dGFjaHlvbg--/https://s.yimg.com/os/creatr-uploaded-images/2025-08/d2553aa0-7d97-11f0-9ffe-de1c6ec8cf21",
+                  "width": 6471,
+                  "height": 4823,
+                  "tag": "original"
+                },
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/mO_RFcHvpSRJFDL3FypGAA--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://s.yimg.com/os/creatr-uploaded-images/2025-08/d2553aa0-7d97-11f0-9ffe-de1c6ec8cf21",
+                  "width": 170,
+                  "height": 128,
+                  "tag": "170x128"
+                }
+              ]
+            },
+            "provider": {
+              "displayName": "Yahoo Finance UK",
+              "url": "http://uk.finance.yahoo.com/"
+            },
+            "canonicalUrl": {
+              "url": "https://uk.finance.yahoo.com/news/nvidia-dell-prudential-jd-sports-delivery-hero-stocks-to-watch-120232371.html",
+              "site": "finance",
+              "region": "GB",
+              "lang": "en-GB"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/nvidia-dell-prudential-jd-sports-delivery-hero-stocks-to-watch-120232371.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        },
+        {
+          "id": "8dcaa948-c667-381d-a868-02d0bce291ff",
+          "content": {
+            "id": "8dcaa948-c667-381d-a868-02d0bce291ff",
+            "contentType": "STORY",
+            "title": "Barnes & Noble Education, Inc. (BNED): A Bear Case Theory",
+            "description": "",
+            "summary": "We came across a bearish thesis on Barnes & Noble Education, Inc. (BNED) on Monopolistic Investor\u2019s Substack by Antoni Nabzdyk. In this article, we will summarize the bears\u2019 thesis on BNED. Barnes & Noble Education, Inc. (BNED)\u2019s share was trading at $11.82 as of 4th June. Barnes & Noble Education (BNED) operates at the intersection of traditional [\u2026]",
+            "pubDate": "2025-06-09T15:39:38Z",
+            "displayTime": "2025-06-09T15:39:38Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": {
+              "originalUrl": "https://media.zenfs.com/en/insidermonkey.com/598766daaff21acdb4bab4754477424d",
+              "originalWidth": 768,
+              "originalHeight": 430,
+              "caption": "",
+              "resolutions": [
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/CtLOKgoG2dhrfsjwJftGWA--~B/aD00MzA7dz03Njg7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/insidermonkey.com/598766daaff21acdb4bab4754477424d",
+                  "width": 768,
+                  "height": 430,
+                  "tag": "original"
+                },
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/lHyBGnXRSy2YB3CAnwA52Q--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/insidermonkey.com/598766daaff21acdb4bab4754477424d",
+                  "width": 170,
+                  "height": 128,
+                  "tag": "170x128"
+                }
+              ]
+            },
+            "provider": {
+              "displayName": "Insider Monkey",
+              "url": "http://www.insidermonkey.com"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/barnes-noble-education-inc-bned-153938422.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/barnes-noble-education-inc-bned-153938422.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        },
+        {
+          "id": "611e347b-45a5-30b0-8714-4ba1c0601159",
+          "content": {
+            "id": "611e347b-45a5-30b0-8714-4ba1c0601159",
+            "contentType": "STORY",
+            "title": "While institutions own 28% of Barnes & Noble Education, Inc. (NYSE:BNED), public companies are its largest shareholders with 33% ownership",
+            "description": "",
+            "summary": "Key Insights The considerable ownership by public companies in Barnes & Noble Education indicates that they...",
+            "pubDate": "2025-05-05T13:29:40Z",
+            "displayTime": "2025-05-05T13:29:40Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": {
+              "originalUrl": "https://media.zenfs.com/en/simply_wall_st__316/c6e5788321104192c94e273fc848befb",
+              "originalWidth": 1194,
+              "originalHeight": 432,
+              "caption": "",
+              "resolutions": [
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/dRNnkf7eGrWqIMNAR8UGRw--~B/aD00MzI7dz0xMTk0O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/simply_wall_st__316/c6e5788321104192c94e273fc848befb",
+                  "width": 1194,
+                  "height": 432,
+                  "tag": "original"
+                },
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/vlkdpm_06a3oNJDowdWVIQ--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/simply_wall_st__316/c6e5788321104192c94e273fc848befb",
+                  "width": 170,
+                  "height": 128,
+                  "tag": "170x128"
+                }
+              ]
+            },
+            "provider": {
+              "displayName": "Simply Wall St.",
+              "url": "https://simplywall.st/"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/while-institutions-own-28-barnes-132940114.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/while-institutions-own-28-barnes-132940114.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        },
+        {
+          "id": "4af63860-58ca-3b29-94b3-732f76d9855f",
+          "content": {
+            "id": "4af63860-58ca-3b29-94b3-732f76d9855f",
+            "contentType": "STORY",
+            "title": "Barnes & Noble Education's (NYSE:BNED) Returns On Capital Are Heading Higher",
+            "description": "",
+            "summary": "Did you know there are some financial metrics that can provide clues of a potential multi-bagger? In a perfect world...",
+            "pubDate": "2025-04-08T13:16:03Z",
+            "displayTime": "2025-04-08T13:16:03Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": {
+              "originalUrl": "https://media.zenfs.com/en/simply_wall_st__316/c6e5788321104192c94e273fc848befb",
+              "originalWidth": 1194,
+              "originalHeight": 432,
+              "caption": "",
+              "resolutions": [
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/dRNnkf7eGrWqIMNAR8UGRw--~B/aD00MzI7dz0xMTk0O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/simply_wall_st__316/c6e5788321104192c94e273fc848befb",
+                  "width": 1194,
+                  "height": 432,
+                  "tag": "original"
+                },
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/vlkdpm_06a3oNJDowdWVIQ--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/simply_wall_st__316/c6e5788321104192c94e273fc848befb",
+                  "width": 170,
+                  "height": 128,
+                  "tag": "170x128"
+                }
+              ]
+            },
+            "provider": {
+              "displayName": "Simply Wall St.",
+              "url": "https://simplywall.st/"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/barnes-noble-educations-nyse-bned-131603126.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/barnes-noble-educations-nyse-bned-131603126.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        },
+        {
+          "id": "3469df18-f544-3dff-b70d-b6eae44bf006",
+          "content": {
+            "id": "3469df18-f544-3dff-b70d-b6eae44bf006",
+            "contentType": "STORY",
+            "title": "Barnes & Noble Education, Inc. (BNED): A Bull Case Theory",
+            "description": "",
+            "summary": "We came across a bullish thesis on Barnes & Noble Education, Inc. (BNED) on Substack by Catapult Capital. In this article, we will summarize the bulls\u2019 thesis on BNED. Barnes & Noble Education, Inc. (BNED)\u2019s share was trading at $9.73 as of March 17th. Barnes & Noble Education (BNED) is the independent university bookstore division of Barnes [\u2026]",
+            "pubDate": "2025-03-18T19:09:36Z",
+            "displayTime": "2025-03-18T19:09:36Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": {
+              "originalUrl": "https://media.zenfs.com/en/insidermonkey.com/598766daaff21acdb4bab4754477424d",
+              "originalWidth": 768,
+              "originalHeight": 430,
+              "caption": "",
+              "resolutions": [
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/CtLOKgoG2dhrfsjwJftGWA--~B/aD00MzA7dz03Njg7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/insidermonkey.com/598766daaff21acdb4bab4754477424d",
+                  "width": 768,
+                  "height": 430,
+                  "tag": "original"
+                },
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/lHyBGnXRSy2YB3CAnwA52Q--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/insidermonkey.com/598766daaff21acdb4bab4754477424d",
+                  "width": 170,
+                  "height": 128,
+                  "tag": "170x128"
+                }
+              ]
+            },
+            "provider": {
+              "displayName": "Insider Monkey",
+              "url": "http://www.insidermonkey.com"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/barnes-noble-education-inc-bned-190936526.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/barnes-noble-education-inc-bned-190936526.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        },
+        {
+          "id": "bf107b49-4808-303f-ace9-70f3c40d136b",
+          "content": {
+            "id": "bf107b49-4808-303f-ace9-70f3c40d136b",
+            "contentType": "STORY",
+            "title": "Barnes & Noble Education Third Quarter 2025 Earnings: EPS Beats Expectations",
+            "description": "",
+            "summary": "Barnes & Noble Education ( NYSE:BNED ) Third Quarter 2025 Results Key Financial Results Revenue: US$466.3m (up 2.1...",
+            "pubDate": "2025-03-12T11:19:16Z",
+            "displayTime": "2025-03-12T11:19:16Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": {
+              "originalUrl": "https://media.zenfs.com/en/simply_wall_st__316/78a8c60a6283aea0450523395306d38c",
+              "originalWidth": 945,
+              "originalHeight": 636,
+              "caption": "",
+              "resolutions": [
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/5Vpve0Pc2F3m_L3fs2p_dQ--~B/aD02MzY7dz05NDU7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/simply_wall_st__316/78a8c60a6283aea0450523395306d38c",
+                  "width": 945,
+                  "height": 636,
+                  "tag": "original"
+                },
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/5K6kmrQzRk.k.11fs9N_QA--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/simply_wall_st__316/78a8c60a6283aea0450523395306d38c",
+                  "width": 170,
+                  "height": 128,
+                  "tag": "170x128"
+                }
+              ]
+            },
+            "provider": {
+              "displayName": "Simply Wall St.",
+              "url": "https://simplywall.st/"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/barnes-noble-education-third-quarter-111916728.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/barnes-noble-education-third-quarter-111916728.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        },
+        {
+          "id": "08941066-b9a5-3a95-b1a2-2e816339c756",
+          "content": {
+            "id": "08941066-b9a5-3a95-b1a2-2e816339c756",
+            "contentType": "STORY",
+            "title": "Barnes & Noble Education: Fiscal Q3 Earnings Snapshot",
+            "description": "",
+            "summary": "BASKING RIDGE, N.J. (AP) \u2014 Barnes & Noble Education Inc. BNED) on Monday reported fiscal third-quarter net income of $7.1 million, after reporting a loss in the same period a year earlier. The Basking Ridge, New Jersey-based company said it had profit of 23 cents per share.",
+            "pubDate": "2025-03-10T21:37:18Z",
+            "displayTime": "2025-03-10T21:37:18Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": null,
+            "provider": {
+              "displayName": "Associated Press Finance",
+              "url": "http://www.ap.org/"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/barnes-noble-education-fiscal-q3-213718790.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/barnes-noble-education-fiscal-q3-213718790.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        },
+        {
+          "id": "faa22bb8-762e-395c-a9d6-eb7991c953e4",
+          "content": {
+            "id": "faa22bb8-762e-395c-a9d6-eb7991c953e4",
+            "contentType": "STORY",
+            "title": "Bullish Barnes & Noble Education Insiders Loaded Up On US$1.69m Of Stock",
+            "description": "",
+            "summary": "Quite a few insiders have dramatically grown their holdings in Barnes & Noble Education, Inc. ( NYSE:BNED ) over the...",
+            "pubDate": "2025-02-18T12:35:09Z",
+            "displayTime": "2025-02-18T12:35:09Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": {
+              "originalUrl": "https://media.zenfs.com/en/simply_wall_st__316/c6e5788321104192c94e273fc848befb",
+              "originalWidth": 1194,
+              "originalHeight": 432,
+              "caption": "",
+              "resolutions": [
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/dRNnkf7eGrWqIMNAR8UGRw--~B/aD00MzI7dz0xMTk0O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/simply_wall_st__316/c6e5788321104192c94e273fc848befb",
+                  "width": 1194,
+                  "height": 432,
+                  "tag": "original"
+                },
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/vlkdpm_06a3oNJDowdWVIQ--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/simply_wall_st__316/c6e5788321104192c94e273fc848befb",
+                  "width": 170,
+                  "height": 128,
+                  "tag": "170x128"
+                }
+              ]
+            },
+            "provider": {
+              "displayName": "Simply Wall St.",
+              "url": "https://simplywall.st/"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/bullish-barnes-noble-education-insiders-123509469.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/bullish-barnes-noble-education-insiders-123509469.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        },
+        {
+          "id": "bc90a48e-7abd-3c05-9295-74fc7168073b",
+          "content": {
+            "id": "bc90a48e-7abd-3c05-9295-74fc7168073b",
+            "contentType": "STORY",
+            "title": "Barnes & Noble Education Second Quarter 2025 Earnings: EPS: US$1.87 (vs US$9.36 in 2Q 2024)",
+            "description": "",
+            "summary": "Barnes & Noble Education ( NYSE:BNED ) Second Quarter 2025 Results Key Financial Results Revenue: US$602.1m (down 1.4...",
+            "pubDate": "2024-12-11T10:41:10Z",
+            "displayTime": "2024-12-11T10:41:10Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": {
+              "originalUrl": "https://media.zenfs.com/en/simply_wall_st__316/78a8c60a6283aea0450523395306d38c",
+              "originalWidth": 945,
+              "originalHeight": 636,
+              "caption": "",
+              "resolutions": [
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/5Vpve0Pc2F3m_L3fs2p_dQ--~B/aD02MzY7dz05NDU7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/simply_wall_st__316/78a8c60a6283aea0450523395306d38c",
+                  "width": 945,
+                  "height": 636,
+                  "tag": "original"
+                },
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/5K6kmrQzRk.k.11fs9N_QA--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/simply_wall_st__316/78a8c60a6283aea0450523395306d38c",
+                  "width": 170,
+                  "height": 128,
+                  "tag": "170x128"
+                }
+              ]
+            },
+            "provider": {
+              "displayName": "Simply Wall St.",
+              "url": "https://simplywall.st/"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/barnes-noble-education-second-quarter-104110950.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/barnes-noble-education-second-quarter-104110950.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        },
+        {
+          "id": "4cd77026-6855-3fd0-8c49-e03229374c64",
+          "content": {
+            "id": "4cd77026-6855-3fd0-8c49-e03229374c64",
+            "contentType": "STORY",
+            "title": "Immersion Corporation (IMMR): A Bull Case Theory",
+            "description": "",
+            "summary": "We came across a bullish thesis on Immersion Corporation (IMMR) on Substack by PPinvest. In this article, we will summarize the bulls\u2019 thesis on IMMR. Immersion Corporation (IMMR)\u2019s share was trading at $8.65 as of Dec 6th. IMMR\u2019s trailing and forward P/E were 4.82 and 6.98 respectively according to Yahoo Finance. Immersion Corporation, a leader in haptics [\u2026]",
+            "pubDate": "2024-12-10T00:01:44Z",
+            "displayTime": "2024-12-10T00:01:44Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": {
+              "originalUrl": "https://media.zenfs.com/en/insidermonkey.com/3e931cf55ce2d3072d6c4a959efe4885",
+              "originalWidth": 768,
+              "originalHeight": 430,
+              "caption": "",
+              "resolutions": [
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/ZfMK9XYSlUOExsV_HarbXA--~B/aD00MzA7dz03Njg7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/insidermonkey.com/3e931cf55ce2d3072d6c4a959efe4885",
+                  "width": 768,
+                  "height": 430,
+                  "tag": "original"
+                },
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/2FoFToc1W51wH6ukKvrNAQ--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/insidermonkey.com/3e931cf55ce2d3072d6c4a959efe4885",
+                  "width": 170,
+                  "height": 128,
+                  "tag": "170x128"
+                }
+              ]
+            },
+            "provider": {
+              "displayName": "Insider Monkey",
+              "url": "http://www.insidermonkey.com"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/immersion-corporation-immr-bull-case-000144171.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/immersion-corporation-immr-bull-case-000144171.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        }
+      ]
+    },
+    "recommendations": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  },
+  "holders_data": {
+    "major_holders": {
+      "status": "error"
+    },
+    "institutional_holders": {
+      "status": "error"
+    }
+  },
+  "earnings_data": {
+    "earnings": {
+      "status": "error",
+      "message": "'NoneType' object has no attribute 'empty'"
+    },
+    "calendar": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  }
+}

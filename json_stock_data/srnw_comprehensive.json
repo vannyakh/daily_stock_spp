@@ -1,9 +1,25 @@
 {
   "ticker": "SRNW",
-  "timestamp": "2025-11-08T04:37:46.116345",
+  "timestamp": "2025-11-12T04:31:14.537742",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 2,
+    "data": [
+      {
+        "Close HLYK": 1.25,
+        "High HLYK": 1.2799999713897705,
+        "Low HLYK": 1.25,
+        "Open HLYK": 1.2799999713897705,
+        "Volume HLYK": 0
+      },
+      {
+        "Close HLYK": 1.059999942779541,
+        "High HLYK": 1.25,
+        "Low HLYK": 1.059999942779541,
+        "Open HLYK": 1.25,
+        "Volume HLYK": 500
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -29,7 +45,8 @@
       "status": "no_data"
     },
     "recommendations": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   },
   "holders_data": {

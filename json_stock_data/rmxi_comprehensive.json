@@ -1,55 +1,37 @@
 {
   "ticker": "RMXI",
-  "timestamp": "2025-11-08T04:49:40.856690",
+  "timestamp": "2025-11-12T04:38:30.936490",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 2,
+    "data": [
+      {
+        "Close": 2.0999999046325684,
+        "High": 2.0999999046325684,
+        "Low": 2.0999999046325684,
+        "Open": 2.0999999046325684,
+        "Volume": 0
+      },
+      {
+        "Close": 2.049999952316284,
+        "High": 2.049999952316284,
+        "Low": 2.049999952316284,
+        "Open": 2.049999952316284,
+        "Volume": 2500
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
-    "message": "Too Many Requests. Rate limited. Try after a while."
+    "message": "argument of type 'NoneType' is not iterable"
   },
   "financials": {
     "income_statement": {
-      "status": "no_data"
-    },
-    "balance_sheet": {
-      "status": "no_data"
-    },
-    "cash_flow": {
-      "status": "no_data"
-    }
-  },
-  "options_data": {
-    "status": "error",
-    "error_message": "Too Many Requests. Rate limited. Try after a while."
-  },
-  "news_data": {
-    "news": {
-      "status": "error",
-      "message": "Failed to perform, curl: (7) Failed to connect to finance.yahoo.com port 443 after 4 ms: Could not connect to server. See https://curl.se/libcurl/c/libcurl-errors.html first for more details."
-    },
-    "recommendations": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
-    }
-  },
-  "holders_data": {
-    "major_holders": {
-      "status": "error"
-    },
-    "institutional_holders": {
-      "status": "error"
-    }
-  },
-  "earnings_data": {
-    "earnings": {
-      "status": "error",
-      "message": "'NoneType' object has no attribute 'empty'"
-    },
-    "calendar": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
-    }
-  }
-}
+      "status": "success",
+      "rows": 38,
+      "columns": [
+        "2023-12-31 00:00:00"
+      ],
+      "data": [
+        {
+          

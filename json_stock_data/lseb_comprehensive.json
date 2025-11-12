@@ -1,91 +1,54 @@
 {
   "ticker": "LSEB",
-  "timestamp": "2025-11-08T04:50:39.339893",
+  "timestamp": "2025-11-12T04:39:03.707378",
   "intraday_data": {
     "status": "no_data",
     "message": "No intraday data available"
   },
   "stock_info": {
-    "status": "success",
-    "data": {
-      "language": "en-US",
-      "region": "US",
-      "quoteType": "EQUITY",
-      "typeDisp": "Equity",
-      "quoteSourceName": "Delayed Quote",
-      "triggerable": false,
-      "customPriceAlertConfidence": "LOW",
-      "currency": "USD",
-      "tradeable": false,
-      "cryptoTradeable": false,
-      "exchange": "OQB",
-      "messageBoardId": "finmb_1757389741",
-      "exchangeTimezoneName": "America/New_York",
-      "exchangeTimezoneShortName": "EST",
-      "gmtOffSetMilliseconds": -18000000,
-      "market": "us_market",
-      "esgPopulated": false,
-      "epsTrailingTwelveMonths": -0.01,
-      "sharesOutstanding": 16376300,
-      "bookValue": 0.002,
-      "fiftyDayAverage": 0.292804,
-      "fiftyDayAverageChange": -0.092804,
-      "fiftyDayAverageChangePercent": -0.31694922,
-      "twoHundredDayAverage": 0.18219675,
-      "twoHundredDayAverageChange": 0.017803252,
-      "twoHundredDayAverageChangePercent": 0.09771443,
-      "marketCap": 3275260,
-      "priceToBook": 100.0,
-      "sourceInterval": 15,
-      "exchangeDataDelayedBy": 0,
-      "shortName": "LSEB CREATIVE CORP.",
-      "longName": "LSEB Creative Corp.",
-      "regularMarketChangePercent": 0.0,
-      "regularMarketPrice": 0.2,
-      "marketState": "POSTPOST",
-      "hasPrePostMarketData": false,
-      "firstTradeDateMilliseconds": 1680615000000,
-      "priceHint": 4,
-      "regularMarketChange": 0.0,
-      "regularMarketDayHigh": 0.2,
-      "regularMarketDayRange": "0.2 - 0.2",
-      "regularMarketDayLow": 0.2,
-      "regularMarketVolume": 200,
-      "regularMarketPreviousClose": 0.2,
-      "bid": 0.0626,
-      "ask": 0.2,
-      "bidSize": 21000,
-      "askSize": 35850,
-      "fullExchangeName": "OTC Markets OTCQB",
-      "financialCurrency": "USD",
-      "regularMarketOpen": 0.2,
-      "averageDailyVolume3Month": 841,
-      "averageDailyVolume10Day": 585,
-      "fiftyTwoWeekLowChange": 0.14500001,
-      "fiftyTwoWeekLowChangePercent": 2.6363637,
-      "fiftyTwoWeekRange": "0.055 - 1.25",
-      "fiftyTwoWeekHighChange": -1.05,
-      "fiftyTwoWeekHighChangePercent": -0.84,
-      "fiftyTwoWeekLow": 0.055,
-      "fiftyTwoWeekHigh": 1.25,
-      "fiftyTwoWeekChangePercent": -84.0,
-      "trailingAnnualDividendRate": 0.0,
-      "trailingAnnualDividendYield": 0.0,
-      "regularMarketTime": 1762549200,
-      "displayName": "LSEB Creative",
-      "symbol": "LSEB"
-    }
+    "status": "error",
+    "message": "Too Many Requests. Rate limited. Try after a while."
   },
   "financials": {
     "income_statement": {
-      "status": "success",
-      "rows": 40,
-      "columns": [
-        "2025-03-31 00:00:00",
-        "2024-03-31 00:00:00",
-        "2023-03-31 00:00:00",
-        "2022-03-31 00:00:00"
-      ],
-      "data": [
-        {
-          
+      "status": "no_data"
+    },
+    "balance_sheet": {
+      "status": "no_data"
+    },
+    "cash_flow": {
+      "status": "no_data"
+    }
+  },
+  "options_data": {
+    "status": "error",
+    "error_message": "Too Many Requests. Rate limited. Try after a while."
+  },
+  "news_data": {
+    "news": {
+      "status": "no_data"
+    },
+    "recommendations": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  },
+  "holders_data": {
+    "major_holders": {
+      "status": "error"
+    },
+    "institutional_holders": {
+      "status": "error"
+    }
+  },
+  "earnings_data": {
+    "earnings": {
+      "status": "error",
+      "message": "'NoneType' object has no attribute 'empty'"
+    },
+    "calendar": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  }
+}

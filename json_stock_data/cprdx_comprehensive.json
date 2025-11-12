@@ -1,9 +1,25 @@
 {
   "ticker": "CPRDX",
-  "timestamp": "2025-11-08T04:52:25.342334",
+  "timestamp": "2025-11-12T04:40:04.291699",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 2,
+    "data": [
+      {
+        "Close": 11.420000076293945,
+        "High": 11.420000076293945,
+        "Low": 11.420000076293945,
+        "Open": 11.420000076293945,
+        "Volume": 0
+      },
+      {
+        "Close": 11.430000305175781,
+        "High": 11.430000305175781,
+        "Low": 11.430000305175781,
+        "Open": 11.430000305175781,
+        "Volume": 0
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -112,7 +128,7 @@
     },
     "calendar": {
       "status": "error",
-      "message": "Failed to perform, curl: (7) Failed to connect to query1.finance.yahoo.com port 443 after 2 ms: Could not connect to server. See https://curl.se/libcurl/c/libcurl-errors.html first for more details."
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   }
 }

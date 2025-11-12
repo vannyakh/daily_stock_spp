@@ -1,124 +1,629 @@
 {
   "ticker": "ZVIA",
-  "timestamp": "2025-11-08T04:22:40.371216",
+  "timestamp": "2025-11-12T04:21:51.857789",
   "intraday_data": {
-    "status": "success",
-    "rows": 14,
-    "data": [
-      {
-        "Close BEAG": 10.680299758911133,
-        "High BEAG": 10.680700302124023,
-        "Low BEAG": 10.680299758911133,
-        "Open BEAG": 10.680700302124023,
-        "Volume BEAG": 0
-      },
-      {
-        "Close BEAG": 10.680000305175781,
-        "High BEAG": 10.680000305175781,
-        "Low BEAG": 10.680000305175781,
-        "Open BEAG": 10.680000305175781,
-        "Volume BEAG": 125
-      },
-      {
-        "Close BEAG": 10.630000114440918,
-        "High BEAG": 10.699999809265137,
-        "Low BEAG": 10.619999885559082,
-        "Open BEAG": 10.6850004196167,
-        "Volume BEAG": 11580
-      },
-      {
-        "Close BEAG": 10.699999809265137,
-        "High BEAG": 10.699999809265137,
-        "Low BEAG": 10.619999885559082,
-        "Open BEAG": 10.619999885559082,
-        "Volume BEAG": 5775
-      },
-      {
-        "Close BEAG": 10.675000190734863,
-        "High BEAG": 10.675000190734863,
-        "Low BEAG": 10.675000190734863,
-        "Open BEAG": 10.675000190734863,
-        "Volume BEAG": 100
-      },
-      {
-        "Close BEAG": 10.720000267028809,
-        "High BEAG": 10.720000267028809,
-        "Low BEAG": 10.720000267028809,
-        "Open BEAG": 10.720000267028809,
-        "Volume BEAG": 995
-      },
-      {
-        "Close BEAG": 10.699999809265137,
-        "High BEAG": 10.699999809265137,
-        "Low BEAG": 10.699999809265137,
-        "Open BEAG": 10.699999809265137,
-        "Volume BEAG": 200
-      },
-      {
-        "Close BEAG": 10.706000328063965,
-        "High BEAG": 10.706000328063965,
-        "Low BEAG": 10.706000328063965,
-        "Open BEAG": 10.706000328063965,
-        "Volume BEAG": 1004
-      },
-      {
-        "Close BEAG": 10.649999618530273,
-        "High BEAG": 10.65999984741211,
-        "Low BEAG": 10.649999618530273,
-        "Open BEAG": 10.65999984741211,
-        "Volume BEAG": 2701
-      },
-      {
-        "Close BEAG": 10.694999694824219,
-        "High BEAG": 10.694999694824219,
-        "Low BEAG": 10.694999694824219,
-        "Open BEAG": 10.694999694824219,
-        "Volume BEAG": 200
-      },
-      {
-        "Close BEAG": 10.609999656677246,
-        "High BEAG": 10.619999885559082,
-        "Low BEAG": 10.609999656677246,
-        "Open BEAG": 10.619999885559082,
-        "Volume BEAG": 200
-      },
-      {
-        "Close BEAG": 10.649999618530273,
-        "High BEAG": 10.649999618530273,
-        "Low BEAG": 10.649999618530273,
-        "Open BEAG": 10.649999618530273,
-        "Volume BEAG": 26228
-      },
-      {
-        "Close BEAG": 10.6899995803833,
-        "High BEAG": 10.6899995803833,
-        "Low BEAG": 10.6899995803833,
-        "Open BEAG": 10.6899995803833,
-        "Volume BEAG": 0
-      },
-      {
-        "Close BEAG": 10.642000198364258,
-        "High BEAG": 10.642000198364258,
-        "Low BEAG": 10.642000198364258,
-        "Open BEAG": 10.642000198364258,
-        "Volume BEAG": 276
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
-    "message": "Failed to perform, curl: (7) Failed to connect to query2.finance.yahoo.com port 443 after 7 ms: Could not connect to server. See https://curl.se/libcurl/c/libcurl-errors.html first for more details."
+    "message": "Too Many Requests. Rate limited. Try after a while."
   },
   "financials": {
     "income_statement": {
+      "status": "no_data"
+    },
+    "balance_sheet": {
+      "status": "no_data"
+    },
+    "cash_flow": {
+      "status": "no_data"
+    }
+  },
+  "options_data": {
+    "status": "error",
+    "error_message": "Too Many Requests. Rate limited. Try after a while."
+  },
+  "news_data": {
+    "news": {
       "status": "success",
-      "rows": 44,
-      "columns": [
-        "2024-12-31 00:00:00",
-        "2023-12-31 00:00:00",
-        "2022-12-31 00:00:00",
-        "2021-12-31 00:00:00"
-      ],
+      "count": 10,
       "data": [
         {
-          
+          "id": "d292db44-e0c1-3784-9d08-b4bed0309c9e",
+          "content": {
+            "id": "d292db44-e0c1-3784-9d08-b4bed0309c9e",
+            "contentType": "STORY",
+            "title": "Zevia (ZVIA) Q3 2025 Earnings Call Transcript",
+            "description": "",
+            "summary": "Amy Taylor: Good afternoon, everyone, and thank you for joining our third quarter 2025 earnings conference call.  As the broad cultural conversation continues to focus on health, and ingredients, major food and beverage companies scramble to remove artificial ingredients and colors.",
+            "pubDate": "2025-11-06T14:57:42Z",
+            "displayTime": "2025-11-06T14:57:42Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": {
+              "originalUrl": "https://media.zenfs.com/en/motleyfool.com/3d110b7e6ef9919d4e1571f2331a7780",
+              "originalWidth": 400,
+              "originalHeight": 427,
+              "caption": "",
+              "resolutions": [
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/_OmhJioyka0rIbrRDaD3oQ--~B/aD00Mjc7dz00MDA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/motleyfool.com/3d110b7e6ef9919d4e1571f2331a7780",
+                  "width": 400,
+                  "height": 427,
+                  "tag": "original"
+                },
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/yxAFKlDCBXSsDcBesz8tHg--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/motleyfool.com/3d110b7e6ef9919d4e1571f2331a7780",
+                  "width": 170,
+                  "height": 128,
+                  "tag": "170x128"
+                }
+              ]
+            },
+            "provider": {
+              "displayName": "Motley Fool",
+              "url": "http://www.fool.com/"
+            },
+            "canonicalUrl": {
+              "url": "https://www.fool.com/earnings/call-transcripts/2025/11/06/zevia-zvia-q3-2025-earnings-call-transcript/",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/zevia-zvia-q3-2025-earnings-145742690.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        },
+        {
+          "id": "473d8a06-87e1-394c-bb91-f63338b988ba",
+          "content": {
+            "id": "473d8a06-87e1-394c-bb91-f63338b988ba",
+            "contentType": "STORY",
+            "title": "ZVIA Q3 Deep Dive: Distribution and Brand Investment Support Market Share Gains",
+            "description": "",
+            "summary": "Beverage company Zevia (NYSE:ZVIA) reported revenue ahead of Wall Streets expectations in Q3 CY2025, with sales up 12.3% year on year to $40.84 million. The company expects next quarter\u2019s revenue to be around $40 million, close to analysts\u2019 estimates. Its GAAP loss of $0.04 per share was $0.03 above analysts\u2019 consensus estimates.",
+            "pubDate": "2025-11-06T14:16:09Z",
+            "displayTime": "2025-11-06T14:16:09Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": {
+              "originalUrl": "https://media.zenfs.com/en/stockstory_922/23b501c60a806c654ca578c0e12065fb",
+              "originalWidth": 1400,
+              "originalHeight": 700,
+              "caption": "ZVIA Cover Image",
+              "resolutions": [
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/13ATwFYDNxeIR3FD3qYODw--~B/aD03MDA7dz0xNDAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/stockstory_922/23b501c60a806c654ca578c0e12065fb",
+                  "width": 1400,
+                  "height": 700,
+                  "tag": "original"
+                },
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/gDf0EHgNlp5K2nZ6I8EMQw--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/stockstory_922/23b501c60a806c654ca578c0e12065fb",
+                  "width": 170,
+                  "height": 128,
+                  "tag": "170x128"
+                }
+              ]
+            },
+            "provider": {
+              "displayName": "StockStory",
+              "url": "https://stockstory.org/"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/zvia-q3-deep-dive-distribution-141609716.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/zvia-q3-deep-dive-distribution-141609716.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        },
+        {
+          "id": "c0ac48e0-66bb-3bba-87a0-f2111475f88d",
+          "content": {
+            "id": "c0ac48e0-66bb-3bba-87a0-f2111475f88d",
+            "contentType": "STORY",
+            "title": "Zevia PBC (ZVIA) Q3 2025 Earnings Call Highlights: Surpassing Sales Expectations Amidst Margin ...",
+            "description": "",
+            "summary": "Zevia PBC (ZVIA) reports a 12% increase in net sales and raises full-year guidance, despite challenges in gross margin and net loss stability.",
+            "pubDate": "2025-11-06T05:06:12Z",
+            "displayTime": "2025-11-06T05:06:12Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": null,
+            "provider": {
+              "displayName": "GuruFocus.com",
+              "url": "http://www.gurufocus.com/"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/zevia-pbc-zvia-q3-2025-050612660.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/zevia-pbc-zvia-q3-2025-050612660.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        },
+        {
+          "id": "b5928187-13c9-36d6-947f-547f453b5ea2",
+          "content": {
+            "id": "b5928187-13c9-36d6-947f-547f453b5ea2",
+            "contentType": "STORY",
+            "title": "Zevia (ZVIA) Reports Q3 Loss, Tops Revenue Estimates",
+            "description": "",
+            "summary": "Zevia (ZVIA) delivered earnings and revenue surprises of +33.33% and +3.80%, respectively, for the quarter ended September 2025. Do the numbers hold clues to what lies ahead for the stock?",
+            "pubDate": "2025-11-05T23:45:02Z",
+            "displayTime": "2025-11-05T23:45:02Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": {
+              "originalUrl": "https://media.zenfs.com/en/zacks.com/c2fdcaac033e049c74f38d188afcc9f9",
+              "originalWidth": 900,
+              "originalHeight": 600,
+              "caption": "",
+              "resolutions": [
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/HIalcDlt7JZPKSITVlxPuw--~B/aD02MDA7dz05MDA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/zacks.com/c2fdcaac033e049c74f38d188afcc9f9",
+                  "width": 900,
+                  "height": 600,
+                  "tag": "original"
+                },
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/09MA9PjN.OtW0qNf1bvwTg--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/zacks.com/c2fdcaac033e049c74f38d188afcc9f9",
+                  "width": 170,
+                  "height": 128,
+                  "tag": "170x128"
+                }
+              ]
+            },
+            "provider": {
+              "displayName": "Zacks",
+              "url": "http://www.zacks.com/"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/zevia-zvia-reports-q3-loss-234502853.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/zevia-zvia-reports-q3-loss-234502853.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        },
+        {
+          "id": "9ea0f9a5-683e-31f8-9825-f0b12832f774",
+          "content": {
+            "id": "9ea0f9a5-683e-31f8-9825-f0b12832f774",
+            "contentType": "STORY",
+            "title": "Zevia: Q3 Earnings Snapshot",
+            "description": "",
+            "summary": "ENCINO, Calif. AP) \u2014 Zevia PBC (ZVIA) on Wednesday reported a loss of $2.7 million in its third quarter. The Encino, California-based company said it had a loss of 4 cents per share.",
+            "pubDate": "2025-11-05T22:40:58Z",
+            "displayTime": "2025-11-05T22:40:58Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": null,
+            "provider": {
+              "displayName": "Associated Press Finance",
+              "url": "http://www.ap.org/"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/zevia-q3-earnings-snapshot-224058078.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/zevia-q3-earnings-snapshot-224058078.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        },
+        {
+          "id": "8197e0cf-ad57-3a33-9aac-c4c2e37cb89c",
+          "content": {
+            "id": "8197e0cf-ad57-3a33-9aac-c4c2e37cb89c",
+            "contentType": "STORY",
+            "title": "Zevia (NYSE:ZVIA) Reports Upbeat Q3, Stock Jumps 11%",
+            "description": "",
+            "summary": "Beverage company Zevia (NYSE:ZVIA) beat Wall Street\u2019s revenue expectations in Q3 CY2025, with sales up 12.3% year on year to $40.84 million. The company expects next quarter\u2019s revenue to be around $40 million, close to analysts\u2019 estimates. Its GAAP loss of $0.04 per share was $0.03 above analysts\u2019 consensus estimates.",
+            "pubDate": "2025-11-05T21:31:37Z",
+            "displayTime": "2025-11-05T21:31:37Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": {
+              "originalUrl": "https://media.zenfs.com/en/stockstory_922/23b501c60a806c654ca578c0e12065fb",
+              "originalWidth": 1400,
+              "originalHeight": 700,
+              "caption": "ZVIA Cover Image",
+              "resolutions": [
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/13ATwFYDNxeIR3FD3qYODw--~B/aD03MDA7dz0xNDAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/stockstory_922/23b501c60a806c654ca578c0e12065fb",
+                  "width": 1400,
+                  "height": 700,
+                  "tag": "original"
+                },
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/gDf0EHgNlp5K2nZ6I8EMQw--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/stockstory_922/23b501c60a806c654ca578c0e12065fb",
+                  "width": 170,
+                  "height": 128,
+                  "tag": "170x128"
+                }
+              ]
+            },
+            "provider": {
+              "displayName": "StockStory",
+              "url": "https://stockstory.org/"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/zevia-nyse-zvia-reports-upbeat-213137643.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/zevia-nyse-zvia-reports-upbeat-213137643.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        },
+        {
+          "id": "6b2597fb-4c85-3a75-8104-01f031b25cd7",
+          "content": {
+            "id": "6b2597fb-4c85-3a75-8104-01f031b25cd7",
+            "contentType": "STORY",
+            "title": "Zevia (ZVIA) Q3 Earnings: What To Expect",
+            "description": "",
+            "summary": "Beverage company Zevia (NYSE:ZVIA) will be reporting earnings this Wednesday afternoon. Here\u2019s what you need to know.",
+            "pubDate": "2025-11-04T03:13:14Z",
+            "displayTime": "2025-11-04T03:13:14Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": {
+              "originalUrl": "https://media.zenfs.com/en/stockstory_922/23b501c60a806c654ca578c0e12065fb",
+              "originalWidth": 1400,
+              "originalHeight": 700,
+              "caption": "ZVIA Cover Image",
+              "resolutions": [
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/13ATwFYDNxeIR3FD3qYODw--~B/aD03MDA7dz0xNDAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/stockstory_922/23b501c60a806c654ca578c0e12065fb",
+                  "width": 1400,
+                  "height": 700,
+                  "tag": "original"
+                },
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/gDf0EHgNlp5K2nZ6I8EMQw--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/stockstory_922/23b501c60a806c654ca578c0e12065fb",
+                  "width": 170,
+                  "height": 128,
+                  "tag": "170x128"
+                }
+              ]
+            },
+            "provider": {
+              "displayName": "StockStory",
+              "url": "https://stockstory.org/"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/zevia-zvia-q3-earnings-expect-031314780.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/zevia-zvia-q3-earnings-expect-031314780.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        },
+        {
+          "id": "46c28b12-f5e1-30e3-87dc-900791cf9db7",
+          "content": {
+            "id": "46c28b12-f5e1-30e3-87dc-900791cf9db7",
+            "contentType": "STORY",
+            "title": "3 Promising Penny Stocks With Market Caps Under $200M",
+            "description": "",
+            "summary": "As major U.S. stock indexes reach new records, driven by anticipation of Federal Reserve decisions and tech earnings, the market continues to capture investor attention with its dynamic shifts. Amidst these developments, penny stocks remain an intriguing segment for investors seeking opportunities outside the realm of large-cap giants. Although the term \"penny stock\" may seem outdated, it still represents smaller or newer companies that can offer significant potential when backed by strong...",
+            "pubDate": "2025-10-29T18:04:50Z",
+            "displayTime": "2025-10-29T18:04:50Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": {
+              "originalUrl": "https://media.zenfs.com/en/simply_wall_st__316/70f6a2d423969c7bd844e7301d973d65",
+              "originalWidth": 1194,
+              "originalHeight": 432,
+              "caption": "",
+              "resolutions": [
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/WmufdV9.7qoiOmDt_SJToQ--~B/aD00MzI7dz0xMTk0O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/simply_wall_st__316/70f6a2d423969c7bd844e7301d973d65",
+                  "width": 1194,
+                  "height": 432,
+                  "tag": "original"
+                },
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/Oz2RFj9dkhf4usuxaB6tuQ--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/simply_wall_st__316/70f6a2d423969c7bd844e7301d973d65",
+                  "width": 170,
+                  "height": 128,
+                  "tag": "170x128"
+                }
+              ]
+            },
+            "provider": {
+              "displayName": "Simply Wall St.",
+              "url": "https://simplywall.st/"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/3-promising-penny-stocks-market-180450358.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/3-promising-penny-stocks-market-180450358.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        },
+        {
+          "id": "ea12e817-a540-337b-b90a-475e8257955b",
+          "content": {
+            "id": "ea12e817-a540-337b-b90a-475e8257955b",
+            "contentType": "STORY",
+            "title": "Boston Beer, BeautyHealth, and Zevia Shares Are Soaring, What You Need To Know",
+            "description": "",
+            "summary": "A number of stocks jumped in the afternoon session after the latest Consumer Price Index (CPI) report showed inflation metrics ticking down slightly.",
+            "pubDate": "2025-10-24T20:25:55Z",
+            "displayTime": "2025-10-24T20:25:55Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": {
+              "originalUrl": "https://media.zenfs.com/en/stockstory_922/739e308f062f41b74098702dce002e7a",
+              "originalWidth": 1400,
+              "originalHeight": 700,
+              "caption": "SAM Cover Image",
+              "resolutions": [
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/VH9bts5v2C1tKUe.hyc3Zw--~B/aD03MDA7dz0xNDAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/stockstory_922/739e308f062f41b74098702dce002e7a",
+                  "width": 1400,
+                  "height": 700,
+                  "tag": "original"
+                },
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/eQhcjK0vBClJaP3g3NAxHg--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/stockstory_922/739e308f062f41b74098702dce002e7a",
+                  "width": 170,
+                  "height": 128,
+                  "tag": "170x128"
+                }
+              ]
+            },
+            "provider": {
+              "displayName": "StockStory",
+              "url": "https://stockstory.org/"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/boston-beer-beautyhealth-zevia-shares-202555329.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/boston-beer-beautyhealth-zevia-shares-202555329.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        },
+        {
+          "id": "951bcd7e-6ce7-31cb-8233-2370172502fc",
+          "content": {
+            "id": "951bcd7e-6ce7-31cb-8233-2370172502fc",
+            "contentType": "STORY",
+            "title": "3 Unprofitable Stocks We Find Risky",
+            "description": "",
+            "summary": "Unprofitable companies face headwinds as they struggle to keep operating expenses under control. Some may be investing heavily, but the majority fail to convert spending into sustainable growth.",
+            "pubDate": "2025-10-24T04:40:37Z",
+            "displayTime": "2025-10-24T04:40:37Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": {
+              "originalUrl": "https://media.zenfs.com/en/stockstory_922/7d2910cb3398cbd41ad0c04e17312089",
+              "originalWidth": 1400,
+              "originalHeight": 700,
+              "caption": "SFIX Cover Image",
+              "resolutions": [
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/lNyzKQc11FJt6RWFa2EOkw--~B/aD03MDA7dz0xNDAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/stockstory_922/7d2910cb3398cbd41ad0c04e17312089",
+                  "width": 1400,
+                  "height": 700,
+                  "tag": "original"
+                },
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/Ys1CYlLTGZ8aAe6wpN3g9w--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/stockstory_922/7d2910cb3398cbd41ad0c04e17312089",
+                  "width": 170,
+                  "height": 128,
+                  "tag": "170x128"
+                }
+              ]
+            },
+            "provider": {
+              "displayName": "StockStory",
+              "url": "https://stockstory.org/"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/3-unprofitable-stocks-risky-044037327.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/3-unprofitable-stocks-risky-044037327.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        }
+      ]
+    },
+    "recommendations": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  },
+  "holders_data": {
+    "major_holders": {
+      "status": "error"
+    },
+    "institutional_holders": {
+      "status": "error"
+    }
+  },
+  "earnings_data": {
+    "earnings": {
+      "status": "error",
+      "message": "'NoneType' object has no attribute 'empty'"
+    },
+    "calendar": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  }
+}

@@ -1,10 +1,32 @@
 {
   "ticker": "ALRTF",
-  "timestamp": "2025-11-08T04:40:17.444144",
+  "timestamp": "2025-11-12T04:32:44.786957",
   "intraday_data": {
     "status": "success",
-    "rows": 0,
-    "data": []
+    "rows": 3,
+    "data": [
+      {
+        "Close": 0.017999999225139618,
+        "High": 0.017999999225139618,
+        "Low": 0.017999999225139618,
+        "Open": 0.017999999225139618,
+        "Volume": 0
+      },
+      {
+        "Close": 0.017999999225139618,
+        "High": 0.017999999225139618,
+        "Low": 0.017999999225139618,
+        "Open": 0.017999999225139618,
+        "Volume": 65000
+      },
+      {
+        "Close": 0.016100000590085983,
+        "High": 0.016100000590085983,
+        "Low": 0.016100000590085983,
+        "Open": 0.016100000590085983,
+        "Volume": 100
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -30,7 +52,8 @@
       "status": "no_data"
     },
     "recommendations": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   },
   "holders_data": {

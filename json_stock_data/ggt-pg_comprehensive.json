@@ -1,46 +1,9 @@
 {
   "ticker": "GGT-PG",
-  "timestamp": "2025-11-08T04:57:13.568622",
+  "timestamp": "2025-11-12T04:43:00.943175",
   "intraday_data": {
-    "status": "success",
-    "rows": 5,
-    "data": [
-      {
-        "Close": 21.68000030517578,
-        "High": 21.68000030517578,
-        "Low": 21.68000030517578,
-        "Open": 21.68000030517578,
-        "Volume": 0
-      },
-      {
-        "Close": 21.68000030517578,
-        "High": 21.68000030517578,
-        "Low": 21.5049991607666,
-        "Open": 21.5049991607666,
-        "Volume": 1163
-      },
-      {
-        "Close": 21.68000030517578,
-        "High": 21.68000030517578,
-        "Low": 21.68000030517578,
-        "Open": 21.68000030517578,
-        "Volume": 0
-      },
-      {
-        "Close": 21.68000030517578,
-        "High": 21.68000030517578,
-        "Low": 21.68000030517578,
-        "Open": 21.68000030517578,
-        "Volume": 546
-      },
-      {
-        "Close": 21.68000030517578,
-        "High": 21.68000030517578,
-        "Low": 21.68000030517578,
-        "Open": 21.68000030517578,
-        "Volume": 301
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -58,15 +21,15 @@
     }
   },
   "options_data": {
-    "status": "error",
-    "error_message": "Too Many Requests. Rate limited. Try after a while."
+    "expirations": []
   },
   "news_data": {
     "news": {
       "status": "no_data"
     },
     "recommendations": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   },
   "holders_data": {

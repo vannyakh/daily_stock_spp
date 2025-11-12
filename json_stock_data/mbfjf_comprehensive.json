@@ -1,25 +1,9 @@
 {
   "ticker": "MBFJF",
-  "timestamp": "2025-11-08T04:43:45.262510",
+  "timestamp": "2025-11-12T04:35:01.462953",
   "intraday_data": {
-    "status": "success",
-    "rows": 2,
-    "data": [
-      {
-        "Close": 16.969999313354492,
-        "High": 16.969999313354492,
-        "Low": 16.969999313354492,
-        "Open": 16.969999313354492,
-        "Volume": 0
-      },
-      {
-        "Close": 15.210000038146973,
-        "High": 15.210000038146973,
-        "Low": 15.210000038146973,
-        "Open": 15.210000038146973,
-        "Volume": 623
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -572,16 +556,15 @@
       ]
     },
     "recommendations": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
+      "status": "no_data"
     }
   },
   "holders_data": {
     "major_holders": {
-      "status": "error"
+      "status": "no_data"
     },
     "institutional_holders": {
-      "status": "error"
+      "status": "no_data"
     }
   },
   "earnings_data": {
@@ -591,7 +574,7 @@
     },
     "calendar": {
       "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
+      "message": "'dict' object has no attribute 'empty'"
     }
   }
 }

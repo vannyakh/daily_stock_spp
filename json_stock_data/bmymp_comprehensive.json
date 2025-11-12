@@ -1,34 +1,662 @@
 {
   "ticker": "BMYMP",
-  "timestamp": "2025-11-08T04:43:37.879899",
+  "timestamp": "2025-11-12T04:34:54.966005",
   "intraday_data": {
-    "status": "success",
-    "rows": 1,
-    "data": [
-      {
-        "Close": 770.9500122070312,
-        "High": 770.9500122070312,
-        "Low": 770.9500122070312,
-        "Open": 770.9500122070312,
-        "Volume": 0
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
-    "message": "argument of type 'NoneType' is not iterable"
+    "message": "Too Many Requests. Rate limited. Try after a while."
   },
   "financials": {
     "income_statement": {
+      "status": "no_data"
+    },
+    "balance_sheet": {
+      "status": "no_data"
+    },
+    "cash_flow": {
+      "status": "no_data"
+    }
+  },
+  "options_data": {
+    "status": "error",
+    "error_message": "Too Many Requests. Rate limited. Try after a while."
+  },
+  "news_data": {
+    "news": {
       "status": "success",
-      "rows": 52,
-      "columns": [
-        "2024-12-31 00:00:00",
-        "2023-12-31 00:00:00",
-        "2022-12-31 00:00:00",
-        "2021-12-31 00:00:00",
-        "2020-12-31 00:00:00"
-      ],
+      "count": 10,
       "data": [
         {
-          
+          "id": "6e0a25a4-c486-3726-bac4-589b19895005",
+          "content": {
+            "id": "6e0a25a4-c486-3726-bac4-589b19895005",
+            "contentType": "STORY",
+            "title": "Bernstein Assigns Bristol-Myers Squibb Company (BMY) a Hold Rating",
+            "description": "",
+            "summary": "Bristol-Myers Squibb Company (NYSE:BMY) is one of the best undervalued stocks to buy under $50. Bristol-Myers Squibb Company (NYSE:BMY) was assigned a Hold rating by Bernstein analyst Courtney Breen on November 3, who maintained the price target at $58. Bristol-Myers Squibb Company (NYSE:BMY) announced strong Q3 results on October 30, with both revenue and EPS [\u2026]",
+            "pubDate": "2025-11-12T02:55:12Z",
+            "displayTime": "2025-11-12T02:55:12Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": {
+              "originalUrl": "https://media.zenfs.com/en/insidermonkey.com/4da437b7638100421dc4d0ddd5060036",
+              "originalWidth": 1456,
+              "originalHeight": 816,
+              "caption": "insitro and Bristol Myers Squibb (BMY) Advance ALS Research with New AI-Powered Collaboration",
+              "resolutions": [
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/en44qJadwHtgnjLpOOwvDg--~B/aD04MTY7dz0xNDU2O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/insidermonkey.com/4da437b7638100421dc4d0ddd5060036",
+                  "width": 1456,
+                  "height": 816,
+                  "tag": "original"
+                },
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/gnrKxJVkDykEdo5ubc35Eg--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/insidermonkey.com/4da437b7638100421dc4d0ddd5060036",
+                  "width": 170,
+                  "height": 128,
+                  "tag": "170x128"
+                }
+              ]
+            },
+            "provider": {
+              "displayName": "Insider Monkey",
+              "url": "http://www.insidermonkey.com"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/bernstein-assigns-bristol-myers-squibb-025512415.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/bernstein-assigns-bristol-myers-squibb-025512415.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        },
+        {
+          "id": "dbf9a02f-4772-3ce7-a726-0db9810bc0d3",
+          "content": {
+            "id": "dbf9a02f-4772-3ce7-a726-0db9810bc0d3",
+            "contentType": "STORY",
+            "title": "Jim Cramer on Bristol-Myers: \u201cI\u2019m Backing off on It\u201d",
+            "description": "",
+            "summary": "Bristol-Myers Squibb Company (NYSE:BMY) is one of the stocks Jim Cramer offered insights on. Answering a caller\u2019s query about the stock, Cramer stated: \u201cI\u2019m backing off on it because I gotta tell you, I\u2019m trying to see some good news in this Cobenfy that I was really all in on and I\u2019m not getting that [\u2026]",
+            "pubDate": "2025-11-11T19:34:44Z",
+            "displayTime": "2025-11-11T19:34:44Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": {
+              "originalUrl": "https://media.zenfs.com/en/insidermonkey.com/7b1d6a1350c79cef49b9cb2889204dd6",
+              "originalWidth": 1000,
+              "originalHeight": 666,
+              "caption": "",
+              "resolutions": [
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/.MInuMQb0436cyNb8.visw--~B/aD02NjY7dz0xMDAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/insidermonkey.com/7b1d6a1350c79cef49b9cb2889204dd6",
+                  "width": 1000,
+                  "height": 666,
+                  "tag": "original"
+                },
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/Q.8l1CHef0wlQVnceOsLkg--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/insidermonkey.com/7b1d6a1350c79cef49b9cb2889204dd6",
+                  "width": 170,
+                  "height": 128,
+                  "tag": "170x128"
+                }
+              ]
+            },
+            "provider": {
+              "displayName": "Insider Monkey",
+              "url": "http://www.insidermonkey.com"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/jim-cramer-bristol-myers-m-193444161.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/jim-cramer-bristol-myers-m-193444161.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        },
+        {
+          "id": "ad5faf27-37af-3e02-bb0c-866894813021",
+          "content": {
+            "id": "ad5faf27-37af-3e02-bb0c-866894813021",
+            "contentType": "STORY",
+            "title": "Editas Q3 Loss Narrower Than Expected, Revenues Increase Y/Y",
+            "description": "",
+            "summary": "EDIT reports narrower Q3 loss, boosts revenues on a Bristol Myers milestone, and advances in vivo gene-editing program with EDIT-401.",
+            "pubDate": "2025-11-11T15:37:00Z",
+            "displayTime": "2025-11-11T15:37:00Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": {
+              "originalUrl": "https://media.zenfs.com/en/zacks.com/56d1b0639f9b169b5b1e773c99d1da8d",
+              "originalWidth": 635,
+              "originalHeight": 400,
+              "caption": "",
+              "resolutions": [
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/j1FS0yeEY913fehDKxmAwA--~B/aD00MDA7dz02MzU7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/zacks.com/56d1b0639f9b169b5b1e773c99d1da8d",
+                  "width": 635,
+                  "height": 400,
+                  "tag": "original"
+                },
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/WmsIqhwtDMxkLDNGRUl81g--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/zacks.com/56d1b0639f9b169b5b1e773c99d1da8d",
+                  "width": 170,
+                  "height": 128,
+                  "tag": "170x128"
+                }
+              ]
+            },
+            "provider": {
+              "displayName": "Zacks",
+              "url": "http://www.zacks.com/"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/editas-q3-loss-narrower-expected-153700145.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/editas-q3-loss-narrower-expected-153700145.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        },
+        {
+          "id": "d25209f9-a29f-3ae4-8b64-7f7bdce5643c",
+          "content": {
+            "id": "d25209f9-a29f-3ae4-8b64-7f7bdce5643c",
+            "contentType": "STORY",
+            "title": "Bristol-Myers Squibb (BMY): Assessing Valuation After Improved Profits and Upgraded Revenue Guidance",
+            "description": "",
+            "summary": "Bristol-Myers Squibb (BMY) grabbed investor attention after releasing its third-quarter results, which showed a sharp rise in net income and higher revenue guidance for 2025. The company highlighted strength across its growth portfolio. See our latest analysis for Bristol-Myers Squibb. Bristol-Myers Squibb has seen its share price rebound recently, with a 7.5% return over the past month following upbeat quarterly results and an outlook upgrade. However, the 1-year total shareholder return...",
+            "pubDate": "2025-11-11T11:12:40Z",
+            "displayTime": "2025-11-11T11:12:40Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": {
+              "originalUrl": "https://media.zenfs.com/en/simply_wall_st__316/5a13d347387951add3c978a1a10a0331",
+              "originalWidth": 1194,
+              "originalHeight": 432,
+              "caption": "",
+              "resolutions": [
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/Sp73TNIiKVMw9A3F94.Pyg--~B/aD00MzI7dz0xMTk0O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/simply_wall_st__316/5a13d347387951add3c978a1a10a0331",
+                  "width": 1194,
+                  "height": 432,
+                  "tag": "original"
+                },
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/B94CzSsAhK2Zkf9F9xXkQA--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/simply_wall_st__316/5a13d347387951add3c978a1a10a0331",
+                  "width": 170,
+                  "height": 128,
+                  "tag": "170x128"
+                }
+              ]
+            },
+            "provider": {
+              "displayName": "Simply Wall St.",
+              "url": "https://simplywall.st/"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/bristol-myers-squibb-bmy-assessing-111240662.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/bristol-myers-squibb-bmy-assessing-111240662.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        },
+        {
+          "id": "c70a8e35-e2d9-32eb-bc26-71bba76dc373",
+          "content": {
+            "id": "c70a8e35-e2d9-32eb-bc26-71bba76dc373",
+            "contentType": "STORY",
+            "title": "Clear Street Raises PT on Beam Therapeutics (BEAM) to $37 Following Q3 Results",
+            "description": "",
+            "summary": "With significant upside potential and hedge fund interest, Beam Therapeutics Inc. (NASDAQ:BEAM) secured a spot on our list of the 15 stocks set to explode in 2026. On November 5, 2025, Clear Street increased its price target on Beam Therapeutics Inc. (NASDAQ:BEAM) from $34 to $37, while maintaining a \u201cBuy\u201d rating. The revised target reflected [\u2026]",
+            "pubDate": "2025-11-11T01:16:32Z",
+            "displayTime": "2025-11-11T01:16:32Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": {
+              "originalUrl": "https://media.zenfs.com/en/insidermonkey.com/3b43cd88473669721d3861c507e76c48",
+              "originalWidth": 1456,
+              "originalHeight": 816,
+              "caption": "Clear Street Raises PT on Beam Therapeutics (BEAM) to $37 Following Q3 Results",
+              "resolutions": [
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/uRM66W6JEo9kPXFgEEMNEA--~B/aD04MTY7dz0xNDU2O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/insidermonkey.com/3b43cd88473669721d3861c507e76c48",
+                  "width": 1456,
+                  "height": 816,
+                  "tag": "original"
+                },
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/QxcsWqGg5iStzxK5D.TwNA--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/insidermonkey.com/3b43cd88473669721d3861c507e76c48",
+                  "width": 170,
+                  "height": 128,
+                  "tag": "170x128"
+                }
+              ]
+            },
+            "provider": {
+              "displayName": "Insider Monkey",
+              "url": "http://www.insidermonkey.com"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/clear-street-raises-pt-beam-011632151.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/clear-street-raises-pt-beam-011632151.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        },
+        {
+          "id": "6ef2afa4-42dc-373e-ace9-01f0c0da1376",
+          "content": {
+            "id": "6ef2afa4-42dc-373e-ace9-01f0c0da1376",
+            "contentType": "STORY",
+            "title": "Bristol Myers Gains 7.2% in a Month:  Buy, Sell or Hold the Stock?",
+            "description": "",
+            "summary": "Bristol Myers Squibb's strong Q3 driven by soaring demand for Opdivo, Reblozyl, Breyanzi and Camzyos pushes shares up 7.2% in a month.",
+            "pubDate": "2025-11-10T13:54:00Z",
+            "displayTime": "2025-11-10T13:54:00Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": {
+              "originalUrl": "https://media.zenfs.com/en/zacks.com/52b6d392b63705aefb517365eab38a95",
+              "originalWidth": 635,
+              "originalHeight": 400,
+              "caption": "",
+              "resolutions": [
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/SlGE5JR4xp73Vb5zTu29cQ--~B/aD00MDA7dz02MzU7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/zacks.com/52b6d392b63705aefb517365eab38a95",
+                  "width": 635,
+                  "height": 400,
+                  "tag": "original"
+                },
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/ya.SvWhfMRGS.8aUBOHSCw--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/zacks.com/52b6d392b63705aefb517365eab38a95",
+                  "width": 170,
+                  "height": 128,
+                  "tag": "170x128"
+                }
+              ]
+            },
+            "provider": {
+              "displayName": "Zacks",
+              "url": "http://www.zacks.com/"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/bristol-myers-gains-7-2-135400428.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/bristol-myers-gains-7-2-135400428.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        },
+        {
+          "id": "b05e0f71-a661-3dc8-b6da-4d87989deae8",
+          "content": {
+            "id": "b05e0f71-a661-3dc8-b6da-4d87989deae8",
+            "contentType": "STORY",
+            "title": "Jim Cramer Says He \u201cBelieved in\u201d Bristol-Myers\u2019 Cobenfy But \u201cIt\u2019s Not Selling Well at All\u201d",
+            "description": "",
+            "summary": "Bristol-Myers Squibb Company (NYSE:BMY) is one of the stocks Jim Cramer recently shared thoughts on. Cramer showed his disappointment in the company\u2019s schizophrenia medicine sales, as he commented: \u201cLook, I, my Charitable Trust owns Bristol, looks like a mistake because I, I believed in Cobenfy, which is a, a pretty good product, but it\u2019s not [\u2026]",
+            "pubDate": "2025-11-08T04:06:47Z",
+            "displayTime": "2025-11-08T04:06:47Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": {
+              "originalUrl": "https://media.zenfs.com/en/insidermonkey.com/7b1d6a1350c79cef49b9cb2889204dd6",
+              "originalWidth": 1000,
+              "originalHeight": 666,
+              "caption": "",
+              "resolutions": [
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/.MInuMQb0436cyNb8.visw--~B/aD02NjY7dz0xMDAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/insidermonkey.com/7b1d6a1350c79cef49b9cb2889204dd6",
+                  "width": 1000,
+                  "height": 666,
+                  "tag": "original"
+                },
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/Q.8l1CHef0wlQVnceOsLkg--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/insidermonkey.com/7b1d6a1350c79cef49b9cb2889204dd6",
+                  "width": 170,
+                  "height": 128,
+                  "tag": "170x128"
+                }
+              ]
+            },
+            "provider": {
+              "displayName": "Insider Monkey",
+              "url": "http://www.insidermonkey.com"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/jim-cramer-says-believed-bristol-040647541.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/jim-cramer-says-believed-bristol-040647541.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        },
+        {
+          "id": "7911d182-05f5-37ae-bbe0-0c9cc4f94585",
+          "content": {
+            "id": "7911d182-05f5-37ae-bbe0-0c9cc4f94585",
+            "contentType": "STORY",
+            "title": "Prothena Q3 Earnings Miss Estimates, Pipeline Progress in Focus",
+            "description": "",
+            "summary": "Prothena's Q3 loss widened as revenues fell short of estimates, but its Alzheimer and Parkinson's drug programs gained FDA momentum and key collaborations advanced.",
+            "pubDate": "2025-11-07T15:32:00Z",
+            "displayTime": "2025-11-07T15:32:00Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": {
+              "originalUrl": "https://media.zenfs.com/en/zacks.com/1566882a22938942efee3e7508e93e96",
+              "originalWidth": 635,
+              "originalHeight": 400,
+              "caption": "",
+              "resolutions": [
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/.UMP6LIbiG0Pb3tKR9RYYw--~B/aD00MDA7dz02MzU7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/zacks.com/1566882a22938942efee3e7508e93e96",
+                  "width": 635,
+                  "height": 400,
+                  "tag": "original"
+                },
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/f2JrKEnx44G9YSnXJ_lLsg--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/zacks.com/1566882a22938942efee3e7508e93e96",
+                  "width": 170,
+                  "height": 128,
+                  "tag": "170x128"
+                }
+              ]
+            },
+            "provider": {
+              "displayName": "Zacks",
+              "url": "http://www.zacks.com/"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/prothena-q3-earnings-miss-estimates-153200662.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/prothena-q3-earnings-miss-estimates-153200662.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        },
+        {
+          "id": "3ba12191-1d21-3b60-a35a-1ca88c5aabd1",
+          "content": {
+            "id": "3ba12191-1d21-3b60-a35a-1ca88c5aabd1",
+            "contentType": "STORY",
+            "title": "Can Milestone Payments Offset Evotec's (XTRA:EVT) Sales Decline in Its Neuroscience Collaboration?",
+            "description": "",
+            "summary": "Evotec SE reported its third-quarter 2025 results, showing quarterly sales of \u20ac163.89 million and a net loss of \u20ac43.09 million, alongside news that it received a US$25 million payment from Bristol Myers Squibb for progress within their neuroscience collaboration. While sales declined year-over-year in the quarter, Evotec\u2019s ongoing partnership achievements underscore the company\u2019s ambitions in innovative drug discovery for neurodegenerative diseases. We'll examine how milestone payments for...",
+            "pubDate": "2025-11-07T05:10:31Z",
+            "displayTime": "2025-11-07T05:10:31Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": {
+              "originalUrl": "https://media.zenfs.com/en/simply_wall_st__316/b7362375b2727bfdfe4eb144bcc3fe6a",
+              "originalWidth": 1194,
+              "originalHeight": 432,
+              "caption": "",
+              "resolutions": [
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/qUsXHnhTq9BjFq.vX6I3sw--~B/aD00MzI7dz0xMTk0O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/simply_wall_st__316/b7362375b2727bfdfe4eb144bcc3fe6a",
+                  "width": 1194,
+                  "height": 432,
+                  "tag": "original"
+                },
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/0.GbbVePCOfxjtvuYVwiog--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/simply_wall_st__316/b7362375b2727bfdfe4eb144bcc3fe6a",
+                  "width": 170,
+                  "height": 128,
+                  "tag": "170x128"
+                }
+              ]
+            },
+            "provider": {
+              "displayName": "Simply Wall St.",
+              "url": "https://simplywall.st/"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/milestone-payments-offset-evotecs-xtra-051031067.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/milestone-payments-offset-evotecs-xtra-051031067.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        },
+        {
+          "id": "c1ee16da-fae9-3f10-b045-7efdd08aecc5",
+          "content": {
+            "id": "c1ee16da-fae9-3f10-b045-7efdd08aecc5",
+            "contentType": "STORY",
+            "title": "Biotech M&A Deals Are Trickier Than They Look. Watch the Milestone Payments.",
+            "description": "",
+            "summary": "Contingent value rights have become common in biotechnology deals. More than half of all transactions this year include them, according to a Jefferies report in October.",
+            "pubDate": "2025-11-06T20:02:00Z",
+            "displayTime": "2025-11-06T20:02:00Z",
+            "isHosted": false,
+            "bypassModal": false,
+            "previewUrl": "https://finance.yahoo.com/m/c1ee16da-fae9-3f10-b045-7efdd08aecc5/biotech-m-a-deals-are.html",
+            "thumbnail": {
+              "originalUrl": "https://media.zenfs.com/en/Barrons.com/3c42eb23f3229e8d0dd693d3475a00fc",
+              "originalWidth": 1280,
+              "originalHeight": 640,
+              "caption": "",
+              "resolutions": [
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/nJL2ijiwgfA.64X6e4T2QQ--~B/aD02NDA7dz0xMjgwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/Barrons.com/3c42eb23f3229e8d0dd693d3475a00fc",
+                  "width": 1280,
+                  "height": 640,
+                  "tag": "original"
+                },
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/oCCBat4BrrjL3lztirU4sA--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/Barrons.com/3c42eb23f3229e8d0dd693d3475a00fc",
+                  "width": 170,
+                  "height": 128,
+                  "tag": "170x128"
+                }
+              ]
+            },
+            "provider": {
+              "displayName": "Barrons.com",
+              "url": "http://www.barrons.com/"
+            },
+            "canonicalUrl": {
+              "url": "https://www.barrons.com/articles/biotech-mergers-cvr-stocks-ff1e996d?siteid=yhoof2&yptr=yahoo",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": null,
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        }
+      ]
+    },
+    "recommendations": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  },
+  "holders_data": {
+    "major_holders": {
+      "status": "error"
+    },
+    "institutional_holders": {
+      "status": "error"
+    }
+  },
+  "earnings_data": {
+    "earnings": {
+      "status": "error",
+      "message": "'NoneType' object has no attribute 'empty'"
+    },
+    "calendar": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  }
+}

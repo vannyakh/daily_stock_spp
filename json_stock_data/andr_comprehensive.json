@@ -1,22 +1,13 @@
 {
   "ticker": "ANDR",
-  "timestamp": "2025-11-08T04:48:29.817946",
+  "timestamp": "2025-11-12T04:37:47.762454",
   "intraday_data": {
-    "status": "success",
-    "rows": 1,
-    "data": [
-      {
-        "Close": 9.999999747378752e-05,
-        "High": 9.999999747378752e-05,
-        "Low": 9.999999747378752e-05,
-        "Open": 9.999999747378752e-05,
-        "Volume": 0
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
-    "message": "Failed to perform, curl: (7) Failed to connect to query1.finance.yahoo.com port 443 after 3 ms: Could not connect to server. See https://curl.se/libcurl/c/libcurl-errors.html first for more details."
+    "message": "Too Many Requests. Rate limited. Try after a while."
   },
   "financials": {
     "income_statement": {

@@ -1,18 +1,9 @@
 {
   "ticker": "MEXGF",
-  "timestamp": "2025-11-08T04:41:14.546231",
+  "timestamp": "2025-11-12T04:33:25.169750",
   "intraday_data": {
-    "status": "success",
-    "rows": 1,
-    "data": [
-      {
-        "Close": 0.07249999791383743,
-        "High": 0.07249999791383743,
-        "Low": 0.07249999791383743,
-        "Open": 0.07249999791383743,
-        "Volume": 31000
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -44,10 +35,24 @@
   },
   "holders_data": {
     "major_holders": {
-      "status": "error"
+      "status": "success",
+      "data": [
+        {
+          "Value": 0.02892
+        },
+        {
+          "Value": 0.0
+        },
+        {
+          "Value": 0.0
+        },
+        {
+          "Value": 0.0
+        }
+      ]
     },
     "institutional_holders": {
-      "status": "error"
+      "status": "no_data"
     }
   },
   "earnings_data": {

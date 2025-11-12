@@ -1,67 +1,9 @@
 {
   "ticker": "GRNQ",
-  "timestamp": "2025-11-08T04:37:30.430139",
+  "timestamp": "2025-11-12T04:31:04.269100",
   "intraday_data": {
-    "status": "success",
-    "rows": 8,
-    "data": [
-      {
-        "Close YJ": 1.7200000286102295,
-        "High YJ": 1.7200000286102295,
-        "Low YJ": 1.7200000286102295,
-        "Open YJ": 1.7200000286102295,
-        "Volume YJ": 0
-      },
-      {
-        "Close YJ": 1.7450000047683716,
-        "High YJ": 1.7450000047683716,
-        "Low YJ": 1.7450000047683716,
-        "Open YJ": 1.7450000047683716,
-        "Volume YJ": 176
-      },
-      {
-        "Close YJ": 1.7000000476837158,
-        "High YJ": 1.7000000476837158,
-        "Low YJ": 1.7000000476837158,
-        "Open YJ": 1.7000000476837158,
-        "Volume YJ": 872
-      },
-      {
-        "Close YJ": 1.7000000476837158,
-        "High YJ": 1.7000000476837158,
-        "Low YJ": 1.7000000476837158,
-        "Open YJ": 1.7000000476837158,
-        "Volume YJ": 299
-      },
-      {
-        "Close YJ": 1.7400000095367432,
-        "High YJ": 1.7400000095367432,
-        "Low YJ": 1.7400000095367432,
-        "Open YJ": 1.7400000095367432,
-        "Volume YJ": 178
-      },
-      {
-        "Close YJ": 1.7228000164031982,
-        "High YJ": 1.7228000164031982,
-        "Low YJ": 1.7228000164031982,
-        "Open YJ": 1.7228000164031982,
-        "Volume YJ": 845
-      },
-      {
-        "Close YJ": 1.7000000476837158,
-        "High YJ": 1.7000999450683594,
-        "Low YJ": 1.7000000476837158,
-        "Open YJ": 1.7000999450683594,
-        "Volume YJ": 2001
-      },
-      {
-        "Close YJ": 1.7100000381469727,
-        "High YJ": 1.7200000286102295,
-        "Low YJ": 1.7000000476837158,
-        "Open YJ": 1.7000000476837158,
-        "Volume YJ": 1616
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -334,7 +276,8 @@
       ]
     },
     "recommendations": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   },
   "holders_data": {
@@ -342,25 +285,7 @@
       "status": "error"
     },
     "institutional_holders": {
-      "status": "success",
-      "data": [
-        {
-          "Date Reported": "2025-06-30 00:00:00",
-          "Holder": "Geode Capital Management, LLC",
-          "pctHeld": 0.0088,
-          "Shares": 73339,
-          "Value": 115582,
-          "pctChange": 0.0139
-        },
-        {
-          "Date Reported": "2025-06-30 00:00:00",
-          "Holder": "UBS Group AG",
-          "pctHeld": 0.0053,
-          "Shares": 44553,
-          "Value": 70215,
-          "pctChange": -0.33150002
-        }
-      ]
+      "status": "error"
     }
   },
   "earnings_data": {
@@ -370,7 +295,7 @@
     },
     "calendar": {
       "status": "error",
-      "message": "'dict' object has no attribute 'empty'"
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   }
 }

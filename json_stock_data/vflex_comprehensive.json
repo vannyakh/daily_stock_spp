@@ -1,25 +1,9 @@
 {
   "ticker": "VFLEX",
-  "timestamp": "2025-11-08T04:54:34.247916",
+  "timestamp": "2025-11-12T04:41:19.763986",
   "intraday_data": {
-    "status": "success",
-    "rows": 2,
-    "data": [
-      {
-        "Close": 27.190000534057617,
-        "High": 27.190000534057617,
-        "Low": 27.190000534057617,
-        "Open": 27.190000534057617,
-        "Volume": 0
-      },
-      {
-        "Close": 27.18000030517578,
-        "High": 27.18000030517578,
-        "Low": 27.18000030517578,
-        "Open": 27.18000030517578,
-        "Volume": 0
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -45,7 +29,8 @@
       "status": "no_data"
     },
     "recommendations": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   },
   "holders_data": {

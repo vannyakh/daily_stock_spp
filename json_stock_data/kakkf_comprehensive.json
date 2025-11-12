@@ -1,6 +1,6 @@
 {
   "ticker": "KAKKF",
-  "timestamp": "2025-11-08T04:45:24.244716",
+  "timestamp": "2025-11-12T04:36:00.027938",
   "intraday_data": {
     "status": "no_data",
     "message": "No intraday data available"
@@ -27,7 +27,7 @@
   "news_data": {
     "news": {
       "status": "success",
-      "count": 4,
+      "count": 3,
       "data": [
         {
           "id": "ac3d3b34-c7e7-343e-a331-bd62f4cfa152",
@@ -211,80 +211,20 @@
             },
             "storyline": null
           }
-        },
-        {
-          "id": "ad09eee3-ff89-3775-be14-c407008667db",
-          "content": {
-            "id": "ad09eee3-ff89-3775-be14-c407008667db",
-            "contentType": "STORY",
-            "title": "K Line subsidiary Daito to construct electric tugboat",
-            "description": "",
-            "summary": "The initiative aims to enhance environmental sustainability in maritime operations.",
-            "pubDate": "2024-11-08T17:25:12Z",
-            "displayTime": "2024-11-08T17:25:12Z",
-            "isHosted": true,
-            "bypassModal": false,
-            "previewUrl": null,
-            "thumbnail": {
-              "originalUrl": "https://media.zenfs.com/en/ship_technology_324/70e8e83e0eb00735d5c89c482b8d4e7a",
-              "originalWidth": 1440,
-              "originalHeight": 810,
-              "caption": "The EV tugboat is being constructed at Daizo with scheduled for May 2027. Credit: \"K\" LINE.",
-              "resolutions": [
-                {
-                  "url": "https://s.yimg.com/uu/api/res/1.2/GU4X5Y8GFQwsvUBsnixylQ--~B/aD04MTA7dz0xNDQwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/ship_technology_324/70e8e83e0eb00735d5c89c482b8d4e7a",
-                  "width": 1440,
-                  "height": 810,
-                  "tag": "original"
-                },
-                {
-                  "url": "https://s.yimg.com/uu/api/res/1.2/cMTvlmOE0WqfVJy.xGxXaw--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/ship_technology_324/70e8e83e0eb00735d5c89c482b8d4e7a",
-                  "width": 170,
-                  "height": 128,
-                  "tag": "170x128"
-                }
-              ]
-            },
-            "provider": {
-              "displayName": "Ship Technology",
-              "url": "https://www.globaldata.com/"
-            },
-            "canonicalUrl": {
-              "url": "https://www.ship-technology.com/news/daito-construct-electric-tugboat/",
-              "site": "finance",
-              "region": "US",
-              "lang": "en-US"
-            },
-            "clickThroughUrl": {
-              "url": "https://finance.yahoo.com/news/k-line-subsidiary-daito-construct-172512962.html",
-              "site": "finance",
-              "region": "US",
-              "lang": "en-US"
-            },
-            "metadata": {
-              "editorsPick": false
-            },
-            "finance": {
-              "premiumFinance": {
-                "isPremiumNews": false,
-                "isPremiumFreeNews": false
-              }
-            },
-            "storyline": null
-          }
         }
       ]
     },
     "recommendations": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   },
   "holders_data": {
     "major_holders": {
-      "status": "no_data"
+      "status": "error"
     },
     "institutional_holders": {
-      "status": "no_data"
+      "status": "error"
     }
   },
   "earnings_data": {
@@ -294,7 +234,7 @@
     },
     "calendar": {
       "status": "error",
-      "message": "'dict' object has no attribute 'empty'"
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   }
 }

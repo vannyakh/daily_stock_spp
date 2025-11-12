@@ -1,18 +1,9 @@
 {
   "ticker": "BIOE",
-  "timestamp": "2025-11-08T04:47:30.953127",
+  "timestamp": "2025-11-12T04:37:15.305266",
   "intraday_data": {
-    "status": "success",
-    "rows": 1,
-    "data": [
-      {
-        "Close": 0.058400001376867294,
-        "High": 0.058400001376867294,
-        "Low": 0.058400001376867294,
-        "Open": 0.058400001376867294,
-        "Volume": 0
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -35,8 +26,7 @@
   },
   "news_data": {
     "news": {
-      "status": "error",
-      "message": "Failed to perform, curl: (7) Failed to connect to finance.yahoo.com port 443 after 2 ms: Could not connect to server. See https://curl.se/libcurl/c/libcurl-errors.html first for more details."
+      "status": "no_data"
     },
     "recommendations": {
       "status": "error",
@@ -58,7 +48,7 @@
     },
     "calendar": {
       "status": "error",
-      "message": "Failed to perform, curl: (7) Failed to connect to query2.finance.yahoo.com port 443 after 2 ms: Could not connect to server. See https://curl.se/libcurl/c/libcurl-errors.html first for more details."
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   }
 }

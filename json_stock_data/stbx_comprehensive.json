@@ -1,13 +1,22 @@
 {
   "ticker": "STBX",
-  "timestamp": "2025-11-08T04:31:34.216708",
+  "timestamp": "2025-11-12T04:27:29.769042",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 1,
+    "data": [
+      {
+        "Close NUVR": 12.5,
+        "High NUVR": 12.5,
+        "Low NUVR": 12.5,
+        "Open NUVR": 12.5,
+        "Volume NUVR": 0
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
-    "message": "Failed to perform, curl: (7) Failed to connect to query2.finance.yahoo.com port 443 after 3 ms: Could not connect to server. See https://curl.se/libcurl/c/libcurl-errors.html first for more details."
+    "message": "Too Many Requests. Rate limited. Try after a while."
   },
   "financials": {
     "income_statement": {

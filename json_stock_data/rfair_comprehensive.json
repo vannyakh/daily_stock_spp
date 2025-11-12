@@ -1,9 +1,25 @@
 {
   "ticker": "RFAIR",
-  "timestamp": "2025-11-08T04:49:43.075763",
+  "timestamp": "2025-11-12T04:38:32.066325",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 2,
+    "data": [
+      {
+        "Close": 0.12999999523162842,
+        "High": 0.12999999523162842,
+        "Low": 0.12999999523162842,
+        "Open": 0.12999999523162842,
+        "Volume": 0
+      },
+      {
+        "Close": 0.15000000596046448,
+        "High": 0.15000000596046448,
+        "Low": 0.15000000596046448,
+        "Open": 0.15000000596046448,
+        "Volume": 498
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -22,7 +38,7 @@
   },
   "options_data": {
     "status": "error",
-    "error_message": "Failed to perform, curl: (7) Failed to connect to query1.finance.yahoo.com port 443 after 3 ms: Could not connect to server. See https://curl.se/libcurl/c/libcurl-errors.html first for more details."
+    "error_message": "Too Many Requests. Rate limited. Try after a while."
   },
   "news_data": {
     "news": {

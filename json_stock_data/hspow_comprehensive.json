@@ -1,65 +1,16 @@
 {
   "ticker": "HSPOW",
-  "timestamp": "2025-11-08T04:49:24.444943",
+  "timestamp": "2025-11-12T04:38:20.268263",
   "intraday_data": {
     "status": "success",
-    "rows": 8,
+    "rows": 1,
     "data": [
       {
-        "Close": 0.06040000170469284,
-        "High": 0.06040000170469284,
-        "Low": 0.06030000001192093,
-        "Open": 0.06030000001192093,
+        "Close": 0.07760000228881836,
+        "High": 0.07760000228881836,
+        "Low": 0.07760000228881836,
+        "Open": 0.07760000228881836,
         "Volume": 0
-      },
-      {
-        "Close": 0.05999999865889549,
-        "High": 0.05999999865889549,
-        "Low": 0.05999999865889549,
-        "Open": 0.05999999865889549,
-        "Volume": 1200
-      },
-      {
-        "Close": 0.05999999865889549,
-        "High": 0.06430000066757202,
-        "Low": 0.05999999865889549,
-        "Open": 0.06430000066757202,
-        "Volume": 1100
-      },
-      {
-        "Close": 0.05609999969601631,
-        "High": 0.05609999969601631,
-        "Low": 0.05609999969601631,
-        "Open": 0.05609999969601631,
-        "Volume": 18000
-      },
-      {
-        "Close": 0.06989999860525131,
-        "High": 0.06989999860525131,
-        "Low": 0.06989999860525131,
-        "Open": 0.06989999860525131,
-        "Volume": 2217
-      },
-      {
-        "Close": 0.07000000029802322,
-        "High": 0.07000000029802322,
-        "Low": 0.06989999860525131,
-        "Open": 0.07000000029802322,
-        "Volume": 0
-      },
-      {
-        "Close": 0.0560000017285347,
-        "High": 0.0560000017285347,
-        "Low": 0.0560000017285347,
-        "Open": 0.0560000017285347,
-        "Volume": 1039
-      },
-      {
-        "Close": 0.07769999653100967,
-        "High": 0.07769999653100967,
-        "Low": 0.07769999653100967,
-        "Open": 0.07769999653100967,
-        "Volume": 2080
       }
     ]
   },
@@ -72,13 +23,41 @@
       "status": "no_data"
     },
     "balance_sheet": {
-      "status": "success",
-      "rows": 33,
-      "columns": [
-        "2024-12-31 00:00:00",
-        "2023-12-31 00:00:00",
-        "2022-12-31 00:00:00"
-      ],
-      "data": [
-        {
-          
+      "status": "no_data"
+    },
+    "cash_flow": {
+      "status": "no_data"
+    }
+  },
+  "options_data": {
+    "status": "error",
+    "error_message": "Too Many Requests. Rate limited. Try after a while."
+  },
+  "news_data": {
+    "news": {
+      "status": "no_data"
+    },
+    "recommendations": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  },
+  "holders_data": {
+    "major_holders": {
+      "status": "error"
+    },
+    "institutional_holders": {
+      "status": "error"
+    }
+  },
+  "earnings_data": {
+    "earnings": {
+      "status": "error",
+      "message": "'NoneType' object has no attribute 'empty'"
+    },
+    "calendar": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  }
+}

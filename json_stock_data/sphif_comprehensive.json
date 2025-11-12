@@ -1,13 +1,36 @@
 {
   "ticker": "SPHIF",
-  "timestamp": "2025-11-08T04:49:29.508541",
+  "timestamp": "2025-11-12T04:38:24.348835",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 3,
+    "data": [
+      {
+        "Close MRNOW": 0.11559999734163284,
+        "High MRNOW": 0.11559999734163284,
+        "Low MRNOW": 0.11559999734163284,
+        "Open MRNOW": 0.11559999734163284,
+        "Volume MRNOW": 0
+      },
+      {
+        "Close MRNOW": 0.0828000009059906,
+        "High MRNOW": 0.0828000009059906,
+        "Low MRNOW": 0.0828000009059906,
+        "Open MRNOW": 0.0828000009059906,
+        "Volume MRNOW": 1263
+      },
+      {
+        "Close MRNOW": 0.07429999858140945,
+        "High MRNOW": 0.07519999891519547,
+        "Low MRNOW": 0.07429999858140945,
+        "Open MRNOW": 0.07519999891519547,
+        "Volume MRNOW": 515
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
-    "message": "Failed to perform, curl: (7) Failed to connect to query2.finance.yahoo.com port 443 after 4 ms: Could not connect to server. See https://curl.se/libcurl/c/libcurl-errors.html first for more details."
+    "message": "Too Many Requests. Rate limited. Try after a while."
   },
   "financials": {
     "income_statement": {
@@ -276,7 +299,8 @@
       ]
     },
     "recommendations": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   },
   "holders_data": {

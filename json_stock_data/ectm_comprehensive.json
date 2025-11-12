@@ -1,9 +1,67 @@
 {
   "ticker": "ECTM",
-  "timestamp": "2025-11-08T04:37:08.949617",
+  "timestamp": "2025-11-12T04:30:51.723106",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 8,
+    "data": [
+      {
+        "Close": 0.5260000228881836,
+        "High": 0.526199996471405,
+        "Low": 0.5260000228881836,
+        "Open": 0.526199996471405,
+        "Volume": 0
+      },
+      {
+        "Close": 0.5393000245094299,
+        "High": 0.5393000245094299,
+        "Low": 0.5393000245094299,
+        "Open": 0.5393000245094299,
+        "Volume": 100
+      },
+      {
+        "Close": 0.5400000214576721,
+        "High": 0.5400000214576721,
+        "Low": 0.5393000245094299,
+        "Open": 0.5393000245094299,
+        "Volume": 4700
+      },
+      {
+        "Close": 0.5393999814987183,
+        "High": 0.5393999814987183,
+        "Low": 0.5393999814987183,
+        "Open": 0.5393999814987183,
+        "Volume": 1
+      },
+      {
+        "Close": 0.5600000023841858,
+        "High": 0.5600000023841858,
+        "Low": 0.5600000023841858,
+        "Open": 0.5600000023841858,
+        "Volume": 100
+      },
+      {
+        "Close": 0.5600000023841858,
+        "High": 0.5600000023841858,
+        "Low": 0.5600000023841858,
+        "Open": 0.5600000023841858,
+        "Volume": 1700
+      },
+      {
+        "Close": 0.5600000023841858,
+        "High": 0.5600000023841858,
+        "Low": 0.5600000023841858,
+        "Open": 0.5600000023841858,
+        "Volume": 100
+      },
+      {
+        "Close": 0.5600000023841858,
+        "High": 0.5600000023841858,
+        "Low": 0.5600000023841858,
+        "Open": 0.5600000023841858,
+        "Volume": 100
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -30,7 +88,7 @@
     },
     "recommendations": {
       "status": "error",
-      "message": "Failed to perform, curl: (7) Failed to connect to query1.finance.yahoo.com port 443 after 2 ms: Could not connect to server. See https://curl.se/libcurl/c/libcurl-errors.html first for more details."
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   },
   "holders_data": {

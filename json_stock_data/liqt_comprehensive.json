@@ -1,95 +1,9 @@
 {
   "ticker": "LIQT",
-  "timestamp": "2025-11-08T04:35:22.231148",
+  "timestamp": "2025-11-12T04:29:45.153194",
   "intraday_data": {
-    "status": "success",
-    "rows": 12,
-    "data": [
-      {
-        "Close": 2.4649999141693115,
-        "High": 2.4649999141693115,
-        "Low": 2.388000011444092,
-        "Open": 2.4000000953674316,
-        "Volume": 0
-      },
-      {
-        "Close": 2.3450000286102295,
-        "High": 2.3450000286102295,
-        "Low": 2.3450000286102295,
-        "Open": 2.3450000286102295,
-        "Volume": 200
-      },
-      {
-        "Close": 2.25,
-        "High": 2.25,
-        "Low": 2.240000009536743,
-        "Open": 2.244999885559082,
-        "Volume": 1043
-      },
-      {
-        "Close": 2.242300033569336,
-        "High": 2.242300033569336,
-        "Low": 2.242300033569336,
-        "Open": 2.242300033569336,
-        "Volume": 1100
-      },
-      {
-        "Close": 2.242300033569336,
-        "High": 2.242300033569336,
-        "Low": 2.242300033569336,
-        "Open": 2.242300033569336,
-        "Volume": 566
-      },
-      {
-        "Close": 2.1944000720977783,
-        "High": 2.1944000720977783,
-        "Low": 2.1944000720977783,
-        "Open": 2.1944000720977783,
-        "Volume": 157
-      },
-      {
-        "Close": 2.0899999141693115,
-        "High": 2.0899999141693115,
-        "Low": 2.0899999141693115,
-        "Open": 2.0899999141693115,
-        "Volume": 230
-      },
-      {
-        "Close": 2.130000114440918,
-        "High": 2.130000114440918,
-        "Low": 2.130000114440918,
-        "Open": 2.130000114440918,
-        "Volume": 168
-      },
-      {
-        "Close": 2.244999885559082,
-        "High": 2.244999885559082,
-        "Low": 2.244999885559082,
-        "Open": 2.244999885559082,
-        "Volume": 1202
-      },
-      {
-        "Close": 2.09089994430542,
-        "High": 2.09089994430542,
-        "Low": 2.09089994430542,
-        "Open": 2.09089994430542,
-        "Volume": 752
-      },
-      {
-        "Close": 2.090100049972534,
-        "High": 2.090100049972534,
-        "Low": 2.090100049972534,
-        "Open": 2.090100049972534,
-        "Volume": 1000
-      },
-      {
-        "Close": 2.245500087738037,
-        "High": 2.245500087738037,
-        "Low": 2.245500087738037,
-        "Open": 2.245500087738037,
-        "Volume": 578
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -100,42 +14,15 @@
       "status": "no_data"
     },
     "balance_sheet": {
-      "status": "no_data"
-    },
-    "cash_flow": {
-      "status": "no_data"
-    }
-  },
-  "options_data": {
-    "status": "error",
-    "error_message": "Too Many Requests. Rate limited. Try after a while."
-  },
-  "news_data": {
-    "news": {
-      "status": "error",
-      "message": "Failed to perform, curl: (7) Failed to connect to finance.yahoo.com port 443 after 3 ms: Could not connect to server. See https://curl.se/libcurl/c/libcurl-errors.html first for more details."
-    },
-    "recommendations": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
-    }
-  },
-  "holders_data": {
-    "major_holders": {
-      "status": "error"
-    },
-    "institutional_holders": {
-      "status": "error"
-    }
-  },
-  "earnings_data": {
-    "earnings": {
-      "status": "error",
-      "message": "'NoneType' object has no attribute 'empty'"
-    },
-    "calendar": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
-    }
-  }
-}
+      "status": "success",
+      "rows": 75,
+      "columns": [
+        "2024-12-31 00:00:00",
+        "2023-12-31 00:00:00",
+        "2022-12-31 00:00:00",
+        "2021-12-31 00:00:00",
+        "2020-12-31 00:00:00"
+      ],
+      "data": [
+        {
+          
