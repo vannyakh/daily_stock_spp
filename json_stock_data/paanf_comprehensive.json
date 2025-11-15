@@ -1,9 +1,25 @@
 {
   "ticker": "PAANF",
-  "timestamp": "2025-11-12T04:37:42.954984",
+  "timestamp": "2025-11-15T05:16:19.371575",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 2,
+    "data": [
+      {
+        "Close": 0.3409999907016754,
+        "High": 0.3409999907016754,
+        "Low": 0.3409999907016754,
+        "Open": 0.3409999907016754,
+        "Volume": 0
+      },
+      {
+        "Close": 0.38999998569488525,
+        "High": 0.38999998569488525,
+        "Low": 0.38999998569488525,
+        "Open": 0.38999998569488525,
+        "Volume": 3000
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -11,89 +27,16 @@
   },
   "financials": {
     "income_statement": {
-      "status": "no_data"
-    },
-    "balance_sheet": {
-      "status": "no_data"
-    },
-    "cash_flow": {
-      "status": "no_data"
-    }
-  },
-  "options_data": {
-    "status": "error",
-    "error_message": "Too Many Requests. Rate limited. Try after a while."
-  },
-  "news_data": {
-    "news": {
       "status": "success",
-      "count": 1,
+      "rows": 46,
+      "columns": [
+        "2025-03-31 00:00:00",
+        "2024-03-31 00:00:00",
+        "2023-03-31 00:00:00",
+        "2022-04-30 00:00:00",
+        "2022-03-31 00:00:00",
+        "2021-04-30 00:00:00"
+      ],
       "data": [
         {
-          "id": "e57de4f8-ab4f-30b8-a849-69c7f65e30d5",
-          "content": {
-            "id": "e57de4f8-ab4f-30b8-a849-69c7f65e30d5",
-            "contentType": "STORY",
-            "title": "Pan American Energy Up 10% on Assay Results from Winter Drilling at Big Mack Project",
-            "description": "",
-            "summary": "Pan American Energy (PNRG.CN) on Tuesday rose 10% on \"positive\" assay results from its Winter 2024 d",
-            "pubDate": "2025-08-05T16:52:12Z",
-            "displayTime": "2025-08-05T16:52:12Z",
-            "isHosted": true,
-            "bypassModal": false,
-            "previewUrl": null,
-            "thumbnail": null,
-            "provider": {
-              "displayName": "MT Newswires",
-              "url": "https://www.mtnewswires.com/"
-            },
-            "canonicalUrl": {
-              "url": "https://finance.yahoo.com/news/pan-american-energy-10-assay-165212337.html",
-              "site": "finance",
-              "region": "US",
-              "lang": "en-US"
-            },
-            "clickThroughUrl": {
-              "url": "https://finance.yahoo.com/news/pan-american-energy-10-assay-165212337.html",
-              "site": "finance",
-              "region": "US",
-              "lang": "en-US"
-            },
-            "metadata": {
-              "editorsPick": false
-            },
-            "finance": {
-              "premiumFinance": {
-                "isPremiumNews": true,
-                "isPremiumFreeNews": false
-              }
-            },
-            "storyline": null
-          }
-        }
-      ]
-    },
-    "recommendations": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
-    }
-  },
-  "holders_data": {
-    "major_holders": {
-      "status": "error"
-    },
-    "institutional_holders": {
-      "status": "error"
-    }
-  },
-  "earnings_data": {
-    "earnings": {
-      "status": "error",
-      "message": "'NoneType' object has no attribute 'empty'"
-    },
-    "calendar": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
-    }
-  }
-}
+          

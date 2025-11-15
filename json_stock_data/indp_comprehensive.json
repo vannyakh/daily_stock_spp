@@ -1,6 +1,6 @@
 {
   "ticker": "INDP",
-  "timestamp": "2025-11-12T04:30:40.435267",
+  "timestamp": "2025-11-15T04:58:32.042490",
   "intraday_data": {
     "status": "no_data",
     "message": "No intraday data available"
@@ -11,89 +11,15 @@
   },
   "financials": {
     "income_statement": {
-      "status": "no_data"
-    },
-    "balance_sheet": {
-      "status": "no_data"
-    },
-    "cash_flow": {
-      "status": "no_data"
-    }
-  },
-  "options_data": {
-    "status": "error",
-    "error_message": "Too Many Requests. Rate limited. Try after a while."
-  },
-  "news_data": {
-    "news": {
       "status": "success",
-      "count": 1,
+      "rows": 35,
+      "columns": [
+        "2024-12-31 00:00:00",
+        "2023-12-31 00:00:00",
+        "2022-12-31 00:00:00",
+        "2021-12-31 00:00:00",
+        "2020-12-31 00:00:00"
+      ],
       "data": [
         {
-          "id": "acfb3a7e-a376-3044-852b-f15c2b7ec52e",
-          "content": {
-            "id": "acfb3a7e-a376-3044-852b-f15c2b7ec52e",
-            "contentType": "STORY",
-            "title": "Wall Street Set to Open Higher Friday; Nonfarm Payrolls Fall Well Short of Forecasts",
-            "description": "",
-            "summary": "US stocks look set to open higher in Friday's trading session as investors parse key jobs data showi",
-            "pubDate": "2025-09-05T13:22:43Z",
-            "displayTime": "2025-09-05T13:22:43Z",
-            "isHosted": true,
-            "bypassModal": false,
-            "previewUrl": null,
-            "thumbnail": null,
-            "provider": {
-              "displayName": "MT Newswires",
-              "url": "https://www.mtnewswires.com/"
-            },
-            "canonicalUrl": {
-              "url": "https://finance.yahoo.com/news/wall-street-set-open-higher-132243247.html",
-              "site": "finance",
-              "region": "US",
-              "lang": "en-US"
-            },
-            "clickThroughUrl": {
-              "url": "https://finance.yahoo.com/news/wall-street-set-open-higher-132243247.html",
-              "site": "finance",
-              "region": "US",
-              "lang": "en-US"
-            },
-            "metadata": {
-              "editorsPick": false
-            },
-            "finance": {
-              "premiumFinance": {
-                "isPremiumNews": true,
-                "isPremiumFreeNews": false
-              }
-            },
-            "storyline": null
-          }
-        }
-      ]
-    },
-    "recommendations": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
-    }
-  },
-  "holders_data": {
-    "major_holders": {
-      "status": "error"
-    },
-    "institutional_holders": {
-      "status": "error"
-    }
-  },
-  "earnings_data": {
-    "earnings": {
-      "status": "error",
-      "message": "'NoneType' object has no attribute 'empty'"
-    },
-    "calendar": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
-    }
-  }
-}
+          

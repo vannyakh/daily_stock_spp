@@ -1,10 +1,9 @@
 {
   "ticker": "GLP",
-  "timestamp": "2025-11-12T04:16:05.775240",
+  "timestamp": "2025-11-15T04:22:13.418675",
   "intraday_data": {
-    "status": "success",
-    "rows": 0,
-    "data": []
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -643,7 +642,8 @@
       ]
     },
     "recommendations": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   },
   "holders_data": {

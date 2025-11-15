@@ -1,67 +1,9 @@
 {
   "ticker": "ADIL",
-  "timestamp": "2025-11-12T04:31:28.827892",
+  "timestamp": "2025-11-15T05:00:32.913653",
   "intraday_data": {
-    "status": "success",
-    "rows": 8,
-    "data": [
-      {
-        "Close CNEY": 1.7395999431610107,
-        "High CNEY": 1.75,
-        "Low CNEY": 1.7395999431610107,
-        "Open CNEY": 1.75,
-        "Volume CNEY": 744
-      },
-      {
-        "Close CNEY": 1.7000000476837158,
-        "High CNEY": 1.7000000476837158,
-        "Low CNEY": 1.7000000476837158,
-        "Open CNEY": 1.7000000476837158,
-        "Volume CNEY": 434
-      },
-      {
-        "Close CNEY": 1.715000033378601,
-        "High CNEY": 1.715000033378601,
-        "Low CNEY": 1.715000033378601,
-        "Open CNEY": 1.715000033378601,
-        "Volume CNEY": 156
-      },
-      {
-        "Close CNEY": 1.7100000381469727,
-        "High CNEY": 1.7100000381469727,
-        "Low CNEY": 1.7100000381469727,
-        "Open CNEY": 1.7100000381469727,
-        "Volume CNEY": 277
-      },
-      {
-        "Close CNEY": 1.6699999570846558,
-        "High CNEY": 1.6699999570846558,
-        "Low CNEY": 1.6699999570846558,
-        "Open CNEY": 1.6699999570846558,
-        "Volume CNEY": 417
-      },
-      {
-        "Close CNEY": 1.649999976158142,
-        "High CNEY": 1.649999976158142,
-        "Low CNEY": 1.649999976158142,
-        "Open CNEY": 1.649999976158142,
-        "Volume CNEY": 200
-      },
-      {
-        "Close CNEY": 1.649999976158142,
-        "High CNEY": 1.7182999849319458,
-        "Low CNEY": 1.649999976158142,
-        "Open CNEY": 1.7182999849319458,
-        "Volume CNEY": 458
-      },
-      {
-        "Close CNEY": 1.6801999807357788,
-        "High CNEY": 1.6801999807357788,
-        "Low CNEY": 1.6801999807357788,
-        "Open CNEY": 1.6801999807357788,
-        "Volume CNEY": 427
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -681,7 +623,8 @@
       ]
     },
     "recommendations": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   },
   "holders_data": {

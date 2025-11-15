@@ -1,9 +1,32 @@
 {
   "ticker": "ECRO",
-  "timestamp": "2025-11-12T04:31:00.765754",
+  "timestamp": "2025-11-15T04:59:23.052196",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 3,
+    "data": [
+      {
+        "Close": 0.10999999940395355,
+        "High": 0.10999999940395355,
+        "Low": 0.10999999940395355,
+        "Open": 0.10999999940395355,
+        "Volume": 0
+      },
+      {
+        "Close": 0.10499999672174454,
+        "High": 0.10499999672174454,
+        "Low": 0.10499999672174454,
+        "Open": 0.10499999672174454,
+        "Volume": 30000
+      },
+      {
+        "Close": 0.10249999910593033,
+        "High": 0.10249999910593033,
+        "Low": 0.10249999910593033,
+        "Open": 0.10249999910593033,
+        "Volume": 1000
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -26,7 +49,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

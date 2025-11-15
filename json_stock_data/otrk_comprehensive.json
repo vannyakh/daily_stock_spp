@@ -1,18 +1,9 @@
 {
   "ticker": "OTRK",
-  "timestamp": "2025-11-12T04:31:10.653759",
+  "timestamp": "2025-11-15T04:59:47.589883",
   "intraday_data": {
-    "status": "success",
-    "rows": 1,
-    "data": [
-      {
-        "Close DSNY": 0.46000000834465027,
-        "High DSNY": 0.46000000834465027,
-        "Low DSNY": 0.46000000834465027,
-        "Open DSNY": 0.46000000834465027,
-        "Volume DSNY": 0
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -613,7 +604,8 @@
       ]
     },
     "recommendations": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   },
   "holders_data": {

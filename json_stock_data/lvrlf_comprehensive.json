@@ -1,38 +1,70 @@
 {
   "ticker": "LVRLF",
-  "timestamp": "2025-11-12T04:32:16.550462",
+  "timestamp": "2025-11-15T05:02:37.335575",
   "intraday_data": {
     "status": "success",
-    "rows": 1,
+    "rows": 2,
     "data": [
       {
-        "Close": 0.029999999329447746,
-        "Close UPXI": 3.2799999713897705,
-        "High": 0.029999999329447746,
-        "High UPXI": 3.309999942779541,
-        "Low": 0.029999999329447746,
-        "Low UPXI": 3.265000104904175,
-        "Open": 0.029999999329447746,
-        "Open UPXI": 3.309999942779541,
-        "Volume": 0.0,
-        "Volume UPXI": 490527
+        "Close": 0.026499999687075615,
+        "High": 0.026499999687075615,
+        "Low": 0.026499999687075615,
+        "Open": 0.026499999687075615,
+        "Volume": 0
+      },
+      {
+        "Close": 0.030899999663233757,
+        "High": 0.030899999663233757,
+        "Low": 0.030899999663233757,
+        "Open": 0.030899999663233757,
+        "Volume": 400
       }
     ]
   },
   "stock_info": {
     "status": "error",
-    "message": "argument of type 'NoneType' is not iterable"
+    "message": "Too Many Requests. Rate limited. Try after a while."
   },
   "financials": {
     "income_statement": {
-      "status": "success",
-      "rows": 57,
-      "columns": [
-        "2024-06-30 00:00:00",
-        "2023-06-30 00:00:00",
-        "2022-06-30 00:00:00",
-        "2021-06-30 00:00:00"
-      ],
-      "data": [
-        {
-          
+      "status": "no_data"
+    },
+    "balance_sheet": {
+      "status": "no_data"
+    },
+    "cash_flow": {
+      "status": "no_data"
+    }
+  },
+  "options_data": {
+    "status": "error",
+    "error_message": "Too Many Requests. Rate limited. Try after a while."
+  },
+  "news_data": {
+    "news": {
+      "status": "no_data"
+    },
+    "recommendations": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  },
+  "holders_data": {
+    "major_holders": {
+      "status": "error"
+    },
+    "institutional_holders": {
+      "status": "error"
+    }
+  },
+  "earnings_data": {
+    "earnings": {
+      "status": "error",
+      "message": "'NoneType' object has no attribute 'empty'"
+    },
+    "calendar": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  }
+}

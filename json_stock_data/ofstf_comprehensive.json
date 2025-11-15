@@ -1,9 +1,18 @@
 {
   "ticker": "OFSTF",
-  "timestamp": "2025-11-12T04:37:05.176021",
+  "timestamp": "2025-11-15T05:14:38.915439",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 1,
+    "data": [
+      {
+        "Close": 0.5619999766349792,
+        "High": 0.5619999766349792,
+        "Low": 0.5619000196456909,
+        "Open": 0.5619000196456909,
+        "Volume": 5990
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -14,128 +23,14 @@
       "status": "no_data"
     },
     "balance_sheet": {
-      "status": "no_data"
-    },
-    "cash_flow": {
-      "status": "no_data"
-    }
-  },
-  "options_data": {
-    "status": "error",
-    "error_message": "Too Many Requests. Rate limited. Try after a while."
-  },
-  "news_data": {
-    "news": {
       "status": "success",
-      "count": 2,
+      "rows": 54,
+      "columns": [
+        "2024-12-31 00:00:00",
+        "2023-12-31 00:00:00",
+        "2022-06-30 00:00:00",
+        "2021-06-30 00:00:00"
+      ],
       "data": [
         {
-          "id": "774ffaa9-2035-32ab-92be-ba157d448b18",
-          "content": {
-            "id": "774ffaa9-2035-32ab-92be-ba157d448b18",
-            "contentType": "STORY",
-            "title": "Carbon Streaming: Q3 Earnings Snapshot",
-            "description": "",
-            "summary": "VANCOUVER, British Columbia (AP) \u2014 Carbon Streaming Corporation (OFSTF) on Monday reported earnings of $645,000 in its third quarter. On a per-share basis, the Vancouver, British Columbia-based company said it had profit of 1 cent. Losses, adjusted for non-recurring gains, were 2 cents per share.",
-            "pubDate": "2025-11-10T13:59:43Z",
-            "displayTime": "2025-11-10T13:59:43Z",
-            "isHosted": true,
-            "bypassModal": false,
-            "previewUrl": null,
-            "thumbnail": null,
-            "provider": {
-              "displayName": "Associated Press Finance",
-              "url": "http://www.ap.org/"
-            },
-            "canonicalUrl": {
-              "url": "https://finance.yahoo.com/news/carbon-streaming-q3-earnings-snapshot-135943668.html",
-              "site": "finance",
-              "region": "US",
-              "lang": "en-US"
-            },
-            "clickThroughUrl": {
-              "url": "https://finance.yahoo.com/news/carbon-streaming-q3-earnings-snapshot-135943668.html",
-              "site": "finance",
-              "region": "US",
-              "lang": "en-US"
-            },
-            "metadata": {
-              "editorsPick": false
-            },
-            "finance": {
-              "premiumFinance": {
-                "isPremiumNews": false,
-                "isPremiumFreeNews": false
-              }
-            },
-            "storyline": null
-          }
-        },
-        {
-          "id": "87c1bafb-d798-33e5-89dc-d9e0b7d65d48",
-          "content": {
-            "id": "87c1bafb-d798-33e5-89dc-d9e0b7d65d48",
-            "contentType": "STORY",
-            "title": "Carbon Streaming: Q2 Earnings Snapshot",
-            "description": "",
-            "summary": "VANCOUVER, British Columbia (AP) \u2014 Carbon Streaming Corporation (OFSTF) on Thursday reported a loss of $1.3 million in its second quarter. The Vancouver, British Columbia-based company said it had a loss of 2 cents per share. Earnings, adjusted for non-recurring costs, came to 1 cent per share.",
-            "pubDate": "2025-08-14T22:51:52Z",
-            "displayTime": "2025-08-14T22:51:52Z",
-            "isHosted": true,
-            "bypassModal": false,
-            "previewUrl": null,
-            "thumbnail": null,
-            "provider": {
-              "displayName": "Associated Press Finance",
-              "url": "http://www.ap.org/"
-            },
-            "canonicalUrl": {
-              "url": "https://finance.yahoo.com/news/carbon-streaming-q2-earnings-snapshot-225152788.html",
-              "site": "finance",
-              "region": "US",
-              "lang": "en-US"
-            },
-            "clickThroughUrl": {
-              "url": "https://finance.yahoo.com/news/carbon-streaming-q2-earnings-snapshot-225152788.html",
-              "site": "finance",
-              "region": "US",
-              "lang": "en-US"
-            },
-            "metadata": {
-              "editorsPick": false
-            },
-            "finance": {
-              "premiumFinance": {
-                "isPremiumNews": false,
-                "isPremiumFreeNews": false
-              }
-            },
-            "storyline": null
-          }
-        }
-      ]
-    },
-    "recommendations": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
-    }
-  },
-  "holders_data": {
-    "major_holders": {
-      "status": "error"
-    },
-    "institutional_holders": {
-      "status": "error"
-    }
-  },
-  "earnings_data": {
-    "earnings": {
-      "status": "error",
-      "message": "'NoneType' object has no attribute 'empty'"
-    },
-    "calendar": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
-    }
-  }
-}
+          

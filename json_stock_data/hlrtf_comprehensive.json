@@ -1,18 +1,9 @@
 {
   "ticker": "HLRTF",
-  "timestamp": "2025-11-12T04:31:00.747229",
+  "timestamp": "2025-11-15T04:59:22.171537",
   "intraday_data": {
-    "status": "success",
-    "rows": 1,
-    "data": [
-      {
-        "Close": 0.08749999850988388,
-        "High": 0.08749999850988388,
-        "Low": 0.08749999850988388,
-        "Open": 0.08749999850988388,
-        "Volume": 1000
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -182,7 +173,7 @@
     },
     "calendar": {
       "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
+      "message": "'dict' object has no attribute 'empty'"
     }
   }
 }

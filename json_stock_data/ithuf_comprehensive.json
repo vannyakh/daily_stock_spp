@@ -1,53 +1,9 @@
 {
   "ticker": "ITHUF",
-  "timestamp": "2025-11-12T04:28:27.134344",
+  "timestamp": "2025-11-15T04:52:43.085720",
   "intraday_data": {
-    "status": "success",
-    "rows": 6,
-    "data": [
-      {
-        "Close": 0.006899999920278788,
-        "High": 0.006899999920278788,
-        "Low": 0.006899999920278788,
-        "Open": 0.006899999920278788,
-        "Volume": 0
-      },
-      {
-        "Close": 0.006899999920278788,
-        "High": 0.006899999920278788,
-        "Low": 0.006899999920278788,
-        "Open": 0.006899999920278788,
-        "Volume": 50000
-      },
-      {
-        "Close": 0.006899999920278788,
-        "High": 0.006899999920278788,
-        "Low": 0.006899999920278788,
-        "Open": 0.006899999920278788,
-        "Volume": 33000
-      },
-      {
-        "Close": 0.006200000178068876,
-        "High": 0.006200000178068876,
-        "Low": 0.006200000178068876,
-        "Open": 0.006200000178068876,
-        "Volume": 4000
-      },
-      {
-        "Close": 0.00559999980032444,
-        "High": 0.00559999980032444,
-        "Low": 0.00559999980032444,
-        "Open": 0.00559999980032444,
-        "Volume": 50000
-      },
-      {
-        "Close": 0.005100000184029341,
-        "High": 0.005100000184029341,
-        "Low": 0.005100000184029341,
-        "Open": 0.005100000184029341,
-        "Volume": 50000
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -55,89 +11,15 @@
   },
   "financials": {
     "income_statement": {
-      "status": "no_data"
-    },
-    "balance_sheet": {
-      "status": "no_data"
-    },
-    "cash_flow": {
-      "status": "no_data"
-    }
-  },
-  "options_data": {
-    "status": "error",
-    "error_message": "Too Many Requests. Rate limited. Try after a while."
-  },
-  "news_data": {
-    "news": {
       "status": "success",
-      "count": 1,
+      "rows": 58,
+      "columns": [
+        "2024-12-31 00:00:00",
+        "2023-12-31 00:00:00",
+        "2022-12-31 00:00:00",
+        "2021-12-31 00:00:00",
+        "2020-12-31 00:00:00"
+      ],
       "data": [
         {
-          "id": "5d3066cd-c902-3d38-af4a-fe67803643a8",
-          "content": {
-            "id": "5d3066cd-c902-3d38-af4a-fe67803643a8",
-            "contentType": "STORY",
-            "title": "Weekly Roundup on the Cannabis Sector & Psychedelic Sector",
-            "description": "",
-            "summary": "Key Takeaways; Cannabis Sector Vireo Growth raised $81M in oversubscribed funding round; the company aims to expand operations across seven states iAnthus acquired premium vape brand Cheetah in $1.5M all-stock deal Entourage Health to go private in union pension fund deal. Cansortium and RIV Capital finalized merger to create a multistate cannabis powerhouse Key Takeaways; [\u2026]",
-            "pubDate": "2025-01-06T01:19:34Z",
-            "displayTime": "2025-01-06T01:19:34Z",
-            "isHosted": true,
-            "bypassModal": false,
-            "previewUrl": null,
-            "thumbnail": null,
-            "provider": {
-              "displayName": "Market Exclusive",
-              "url": "https://marketexclusive.com/"
-            },
-            "canonicalUrl": {
-              "url": "https://finance.yahoo.com/news/weekly-roundup-cannabis-sector-psychedelic-011934573.html",
-              "site": "finance",
-              "region": "US",
-              "lang": "en-US"
-            },
-            "clickThroughUrl": {
-              "url": "https://finance.yahoo.com/news/weekly-roundup-cannabis-sector-psychedelic-011934573.html",
-              "site": "finance",
-              "region": "US",
-              "lang": "en-US"
-            },
-            "metadata": {
-              "editorsPick": false
-            },
-            "finance": {
-              "premiumFinance": {
-                "isPremiumNews": false,
-                "isPremiumFreeNews": false
-              }
-            },
-            "storyline": null
-          }
-        }
-      ]
-    },
-    "recommendations": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
-    }
-  },
-  "holders_data": {
-    "major_holders": {
-      "status": "error"
-    },
-    "institutional_holders": {
-      "status": "error"
-    }
-  },
-  "earnings_data": {
-    "earnings": {
-      "status": "error",
-      "message": "'NoneType' object has no attribute 'empty'"
-    },
-    "calendar": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
-    }
-  }
-}
+          

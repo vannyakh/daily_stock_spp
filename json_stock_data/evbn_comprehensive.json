@@ -1,53 +1,9 @@
 {
   "ticker": "EVBN",
-  "timestamp": "2025-11-12T04:22:49.658918",
+  "timestamp": "2025-11-15T04:38:41.470771",
   "intraday_data": {
-    "status": "success",
-    "rows": 6,
-    "data": [
-      {
-        "Close CFFI": 69.11000061035156,
-        "High CFFI": 69.11000061035156,
-        "Low CFFI": 69.11000061035156,
-        "Open CFFI": 69.11000061035156,
-        "Volume CFFI": 0
-      },
-      {
-        "Close CFFI": 69.69000244140625,
-        "High CFFI": 69.69000244140625,
-        "Low CFFI": 69.69000244140625,
-        "Open CFFI": 69.69000244140625,
-        "Volume CFFI": 1859
-      },
-      {
-        "Close CFFI": 70.69999694824219,
-        "High CFFI": 70.69999694824219,
-        "Low CFFI": 70.69999694824219,
-        "Open CFFI": 70.69999694824219,
-        "Volume CFFI": 297
-      },
-      {
-        "Close CFFI": 70.4800033569336,
-        "High CFFI": 70.4800033569336,
-        "Low CFFI": 70.4800033569336,
-        "Open CFFI": 70.4800033569336,
-        "Volume CFFI": 237
-      },
-      {
-        "Close CFFI": 71.25,
-        "High CFFI": 71.25,
-        "Low CFFI": 71.25,
-        "Open CFFI": 71.25,
-        "Volume CFFI": 963
-      },
-      {
-        "Close CFFI": 71.0,
-        "High CFFI": 71.0,
-        "Low CFFI": 71.0,
-        "Open CFFI": 71.0,
-        "Volume CFFI": 373
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -686,7 +642,8 @@
       ]
     },
     "recommendations": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   },
   "holders_data": {

@@ -1,9 +1,18 @@
 {
   "ticker": "SSMXF",
-  "timestamp": "2025-11-12T04:35:38.743984",
+  "timestamp": "2025-11-15T05:10:57.924350",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 1,
+    "data": [
+      {
+        "Close TEVJF": 26.0,
+        "High TEVJF": 26.0,
+        "Low TEVJF": 26.0,
+        "Open TEVJF": 26.0,
+        "Volume TEVJF": 0
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -93,7 +102,8 @@
       ]
     },
     "recommendations": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   },
   "holders_data": {

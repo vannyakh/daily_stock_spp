@@ -1,9 +1,39 @@
 {
   "ticker": "GNGYF",
-  "timestamp": "2025-11-12T04:36:18.610468",
+  "timestamp": "2025-11-15T05:12:37.596480",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 4,
+    "data": [
+      {
+        "Close TY-P": 44.879600524902344,
+        "High TY-P": 44.879600524902344,
+        "Low TY-P": 44.879600524902344,
+        "Open TY-P": 44.879600524902344,
+        "Volume TY-P": 0
+      },
+      {
+        "Close TY-P": 45.0,
+        "High TY-P": 45.0,
+        "Low TY-P": 45.0,
+        "Open TY-P": 45.0,
+        "Volume TY-P": 978
+      },
+      {
+        "Close TY-P": 44.650001525878906,
+        "High TY-P": 44.650001525878906,
+        "Low TY-P": 44.650001525878906,
+        "Open TY-P": 44.650001525878906,
+        "Volume TY-P": 122
+      },
+      {
+        "Close TY-P": 45.0,
+        "High TY-P": 45.0,
+        "Low TY-P": 45.0,
+        "Open TY-P": 45.0,
+        "Volume TY-P": 500
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -459,7 +489,8 @@
       ]
     },
     "recommendations": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   },
   "holders_data": {

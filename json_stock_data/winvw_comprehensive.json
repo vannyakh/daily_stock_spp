@@ -1,22 +1,26 @@
 {
   "ticker": "WINVW",
-  "timestamp": "2025-11-12T04:40:53.733085",
+  "timestamp": "2025-11-15T05:24:49.188142",
   "intraday_data": {
     "status": "no_data",
     "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
-    "message": "argument of type 'NoneType' is not iterable"
+    "message": "Too Many Requests. Rate limited. Try after a while."
   },
   "financials": {
     "income_statement": {
+      "status": "no_data"
+    },
+    "balance_sheet": {
       "status": "success",
-      "rows": 28,
+      "rows": 42,
       "columns": [
         "2024-12-31 00:00:00",
         "2023-12-31 00:00:00",
-        "2022-12-31 00:00:00"
+        "2022-12-31 00:00:00",
+        "2021-12-31 00:00:00"
       ],
       "data": [
         {

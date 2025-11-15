@@ -1,153 +1,643 @@
 {
   "ticker": "JELD",
-  "timestamp": "2025-11-12T04:18:44.793774",
+  "timestamp": "2025-11-15T04:28:25.243570",
   "intraday_data": {
-    "status": "success",
-    "rows": 18,
-    "data": [
-      {
-        "Close ADSE": 10.109999656677246,
-        "High ADSE": 10.109999656677246,
-        "Low ADSE": 10.109999656677246,
-        "Open ADSE": 10.109999656677246,
-        "Volume ADSE": 0
-      },
-      {
-        "Close ADSE": 9.975000381469727,
-        "High ADSE": 9.975000381469727,
-        "Low ADSE": 9.975000381469727,
-        "Open ADSE": 9.975000381469727,
-        "Volume ADSE": 632
-      },
-      {
-        "Close ADSE": 10.100000381469727,
-        "High ADSE": 10.100000381469727,
-        "Low ADSE": 10.039999961853027,
-        "Open ADSE": 10.039999961853027,
-        "Volume ADSE": 754
-      },
-      {
-        "Close ADSE": 10.09000015258789,
-        "High ADSE": 10.09000015258789,
-        "Low ADSE": 10.09000015258789,
-        "Open ADSE": 10.09000015258789,
-        "Volume ADSE": 200
-      },
-      {
-        "Close ADSE": 10.0,
-        "High ADSE": 10.020000457763672,
-        "Low ADSE": 10.0,
-        "Open ADSE": 10.020000457763672,
-        "Volume ADSE": 261
-      },
-      {
-        "Close ADSE": 10.15999984741211,
-        "High ADSE": 10.15999984741211,
-        "Low ADSE": 10.100000381469727,
-        "Open ADSE": 10.100000381469727,
-        "Volume ADSE": 494
-      },
-      {
-        "Close ADSE": 10.15999984741211,
-        "High ADSE": 10.15999984741211,
-        "Low ADSE": 10.100000381469727,
-        "Open ADSE": 10.100000381469727,
-        "Volume ADSE": 1097
-      },
-      {
-        "Close ADSE": 10.119999885559082,
-        "High ADSE": 10.119999885559082,
-        "Low ADSE": 10.119999885559082,
-        "Open ADSE": 10.119999885559082,
-        "Volume ADSE": 1119
-      },
-      {
-        "Close ADSE": 10.289999961853027,
-        "High ADSE": 10.289999961853027,
-        "Low ADSE": 10.289999961853027,
-        "Open ADSE": 10.289999961853027,
-        "Volume ADSE": 1450
-      },
-      {
-        "Close ADSE": 10.109999656677246,
-        "High ADSE": 10.109999656677246,
-        "Low ADSE": 10.109999656677246,
-        "Open ADSE": 10.109999656677246,
-        "Volume ADSE": 292
-      },
-      {
-        "Close ADSE": 10.010000228881836,
-        "High ADSE": 10.050000190734863,
-        "Low ADSE": 10.010000228881836,
-        "Open ADSE": 10.050000190734863,
-        "Volume ADSE": 479
-      },
-      {
-        "Close ADSE": 10.079999923706055,
-        "High ADSE": 10.100000381469727,
-        "Low ADSE": 10.079999923706055,
-        "Open ADSE": 10.100000381469727,
-        "Volume ADSE": 446
-      },
-      {
-        "Close ADSE": 10.180000305175781,
-        "High ADSE": 10.180000305175781,
-        "Low ADSE": 10.180000305175781,
-        "Open ADSE": 10.180000305175781,
-        "Volume ADSE": 274
-      },
-      {
-        "Close ADSE": 10.180000305175781,
-        "High ADSE": 10.180000305175781,
-        "Low ADSE": 10.180000305175781,
-        "Open ADSE": 10.180000305175781,
-        "Volume ADSE": 777
-      },
-      {
-        "Close ADSE": 10.149999618530273,
-        "High ADSE": 10.149999618530273,
-        "Low ADSE": 10.149999618530273,
-        "Open ADSE": 10.149999618530273,
-        "Volume ADSE": 523
-      },
-      {
-        "Close ADSE": 10.149999618530273,
-        "High ADSE": 10.149999618530273,
-        "Low ADSE": 10.149999618530273,
-        "Open ADSE": 10.149999618530273,
-        "Volume ADSE": 218
-      },
-      {
-        "Close ADSE": 10.149999618530273,
-        "High ADSE": 10.149999618530273,
-        "Low ADSE": 10.149999618530273,
-        "Open ADSE": 10.149999618530273,
-        "Volume ADSE": 1600
-      },
-      {
-        "Close ADSE": 10.1850004196167,
-        "High ADSE": 10.1850004196167,
-        "Low ADSE": 10.1850004196167,
-        "Open ADSE": 10.1850004196167,
-        "Volume ADSE": 708
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
-    "message": "argument of type 'NoneType' is not iterable"
+    "message": "Too Many Requests. Rate limited. Try after a while."
   },
   "financials": {
     "income_statement": {
+      "status": "no_data"
+    },
+    "balance_sheet": {
+      "status": "no_data"
+    },
+    "cash_flow": {
+      "status": "no_data"
+    }
+  },
+  "options_data": {
+    "status": "error",
+    "error_message": "Too Many Requests. Rate limited. Try after a while."
+  },
+  "news_data": {
+    "news": {
       "status": "success",
-      "rows": 54,
-      "columns": [
-        "2024-12-31 00:00:00",
-        "2023-12-31 00:00:00",
-        "2022-12-31 00:00:00",
-        "2021-12-31 00:00:00",
-        "2020-12-31 00:00:00"
-      ],
+      "count": 10,
       "data": [
         {
-          
+          "id": "73a06a40-4942-367e-a511-47ca36ba81fe",
+          "content": {
+            "id": "73a06a40-4942-367e-a511-47ca36ba81fe",
+            "contentType": "STORY",
+            "title": "3 Small-Cap Stocks We Find Risky",
+            "description": "",
+            "summary": "Many small-cap stocks have limited Wall Street coverage, giving savvy investors the chance to act before everyone else catches on. But the flip side is that these businesses have increased downside risk because they lack the scale and staying power of their larger competitors.",
+            "pubDate": "2025-11-14T04:33:39Z",
+            "displayTime": "2025-11-14T04:33:39Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": {
+              "originalUrl": "https://media.zenfs.com/en/stockstory_922/0573cd8c22f41832196f95d84271a6da",
+              "originalWidth": 1400,
+              "originalHeight": 700,
+              "caption": "WSC Cover Image",
+              "resolutions": [
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/hyvHXSWK9wgdJ3d5eu_cnw--~B/aD03MDA7dz0xNDAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/stockstory_922/0573cd8c22f41832196f95d84271a6da",
+                  "width": 1400,
+                  "height": 700,
+                  "tag": "original"
+                },
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/jI6_sotZ67.OHlFKIA.Vlg--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/stockstory_922/0573cd8c22f41832196f95d84271a6da",
+                  "width": 170,
+                  "height": 128,
+                  "tag": "170x128"
+                }
+              ]
+            },
+            "provider": {
+              "displayName": "StockStory",
+              "url": "https://stockstory.org/"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/3-small-cap-stocks-risky-043339820.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/3-small-cap-stocks-risky-043339820.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        },
+        {
+          "id": "e0301ca7-9c07-35ca-a82e-f539b1b1e9d1",
+          "content": {
+            "id": "e0301ca7-9c07-35ca-a82e-f539b1b1e9d1",
+            "contentType": "STORY",
+            "title": "Why JELD-WEN (JELD) Stock Is Trading Lower Today",
+            "description": "",
+            "summary": "Shares of building products manufacturer JELD-WEN (NYSE:JELD) fell 9.1% in the afternoon session after the stock's negative momentum continued as the company's recent earnings report showed a significant miss on both profit and revenue. The company posted a loss of $0.20 per share for the quarter, which was a stark contrast to the expected profit of $0.18 per share. This marked a substantial miss of $0.38. Revenue also fell short, coming in at $809.48 million, below analysts' expectations of $82",
+            "pubDate": "2025-11-10T20:21:01Z",
+            "displayTime": "2025-11-10T20:21:01Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": {
+              "originalUrl": "https://media.zenfs.com/en/stockstory_922/5876c8ed84f0119677722cf0ec16fb24",
+              "originalWidth": 1400,
+              "originalHeight": 700,
+              "caption": "JELD Cover Image",
+              "resolutions": [
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/xABEkQYCBP4w8ZUCaOKw5Q--~B/aD03MDA7dz0xNDAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/stockstory_922/5876c8ed84f0119677722cf0ec16fb24",
+                  "width": 1400,
+                  "height": 700,
+                  "tag": "original"
+                },
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/rS0adirJkXNd7O67pqbTWw--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/stockstory_922/5876c8ed84f0119677722cf0ec16fb24",
+                  "width": 170,
+                  "height": 128,
+                  "tag": "170x128"
+                }
+              ]
+            },
+            "provider": {
+              "displayName": "StockStory",
+              "url": "https://stockstory.org/"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/why-jeld-wen-jeld-stock-202101617.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/why-jeld-wen-jeld-stock-202101617.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        },
+        {
+          "id": "24c770ba-59f7-3d9d-8998-5aabb4b2dafc",
+          "content": {
+            "id": "24c770ba-59f7-3d9d-8998-5aabb4b2dafc",
+            "contentType": "STORY",
+            "title": "How the Narrative Around JELD-WEN Is Shifting Amid Strategy Changes and Analyst Uncertainty",
+            "description": "",
+            "summary": "JELD-WEN Holding has seen a notable shift in its price target, with fair value estimates dropping significantly from $4.55 to $3.59. The discount rate has remained steady at 12.32%, signaling an unchanged perspective on risk. However, analysts have adjusted their expectations for the company's near-term prospects. Stay tuned to discover how you can track updates to JELD-WEN Holding's changing narrative as the outlook evolves. Stay updated as the Fair Value for JELD-WEN Holding shifts by...",
+            "pubDate": "2025-11-07T13:13:20Z",
+            "displayTime": "2025-11-07T13:13:20Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": {
+              "originalUrl": "https://media.zenfs.com/en/simply_wall_st__316/51f3305c1122cc0aece72cb5d1045e9b",
+              "originalWidth": 1194,
+              "originalHeight": 432,
+              "caption": "",
+              "resolutions": [
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/8EbW.sYPESR2DPafdsss2w--~B/aD00MzI7dz0xMTk0O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/simply_wall_st__316/51f3305c1122cc0aece72cb5d1045e9b",
+                  "width": 1194,
+                  "height": 432,
+                  "tag": "original"
+                },
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/lkLa5SnTxLUitZtP5NrHxA--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/simply_wall_st__316/51f3305c1122cc0aece72cb5d1045e9b",
+                  "width": 170,
+                  "height": 128,
+                  "tag": "170x128"
+                }
+              ]
+            },
+            "provider": {
+              "displayName": "Simply Wall St.",
+              "url": "https://simplywall.st/"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/narrative-around-jeld-wen-shifting-131320570.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/narrative-around-jeld-wen-shifting-131320570.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        },
+        {
+          "id": "4e7bb00c-6394-389b-932e-1aaa4eef4c11",
+          "content": {
+            "id": "4e7bb00c-6394-389b-932e-1aaa4eef4c11",
+            "contentType": "STORY",
+            "title": "3 Out-of-Favor Stocks We Keep Off Our Radar",
+            "description": "",
+            "summary": "Rock-bottom prices don't always mean rock-bottom businesses. The stocks we're examining today have all touched their 52-week lows, creating a classic investor's dilemma: bargain opportunity or value trap?",
+            "pubDate": "2025-11-07T04:49:02Z",
+            "displayTime": "2025-11-07T04:49:02Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": {
+              "originalUrl": "https://media.zenfs.com/en/stockstory_922/acc4913d7d88da3fed9183a6f18dbd22",
+              "originalWidth": 4380,
+              "originalHeight": 2925,
+              "caption": "ADBE Cover Image",
+              "resolutions": [
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/KfP1M0lonyF6TfHK1VeNvw--~B/aD0yOTI1O3c9NDM4MDthcHBpZD15dGFjaHlvbg--/https://media.zenfs.com/en/stockstory_922/acc4913d7d88da3fed9183a6f18dbd22",
+                  "width": 4380,
+                  "height": 2925,
+                  "tag": "original"
+                },
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/fA.sPQyt6gg.SJqC9WsY7A--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/stockstory_922/acc4913d7d88da3fed9183a6f18dbd22",
+                  "width": 170,
+                  "height": 128,
+                  "tag": "170x128"
+                }
+              ]
+            },
+            "provider": {
+              "displayName": "StockStory",
+              "url": "https://stockstory.org/"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/3-favor-stocks-keep-off-044902130.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/3-favor-stocks-keep-off-044902130.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        },
+        {
+          "id": "f1ea0e6e-8e21-3a48-95ed-c7bcbd836f38",
+          "content": {
+            "id": "f1ea0e6e-8e21-3a48-95ed-c7bcbd836f38",
+            "contentType": "STORY",
+            "title": "Why JELD-WEN (JELD) Stock Is Down Today",
+            "description": "",
+            "summary": "Shares of building products manufacturer JELD-WEN (NYSE:JELD) fell 5.9% in the morning session after the stock's decline continued as the company reported a significant drop in revenue amid deteriorating market demand, and an analyst lowered their price target on the stock. JELD-WEN's quarterly revenue was $809 million, with core revenue down 10% compared to the same period in the previous year. The company noted it was experiencing a notable deterioration in market demand, particularly in North",
+            "pubDate": "2025-11-06T18:56:10Z",
+            "displayTime": "2025-11-06T18:56:10Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": {
+              "originalUrl": "https://media.zenfs.com/en/stockstory_922/5876c8ed84f0119677722cf0ec16fb24",
+              "originalWidth": 1400,
+              "originalHeight": 700,
+              "caption": "JELD Cover Image",
+              "resolutions": [
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/xABEkQYCBP4w8ZUCaOKw5Q--~B/aD03MDA7dz0xNDAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/stockstory_922/5876c8ed84f0119677722cf0ec16fb24",
+                  "width": 1400,
+                  "height": 700,
+                  "tag": "original"
+                },
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/rS0adirJkXNd7O67pqbTWw--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/stockstory_922/5876c8ed84f0119677722cf0ec16fb24",
+                  "width": 170,
+                  "height": 128,
+                  "tag": "170x128"
+                }
+              ]
+            },
+            "provider": {
+              "displayName": "StockStory",
+              "url": "https://stockstory.org/"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/why-jeld-wen-jeld-stock-185610763.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/why-jeld-wen-jeld-stock-185610763.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        },
+        {
+          "id": "34f8cb55-1f92-34c9-bf17-8433ef3b40f6",
+          "content": {
+            "id": "34f8cb55-1f92-34c9-bf17-8433ef3b40f6",
+            "contentType": "STORY",
+            "title": "JELD-WEN (JELD) Valuation Stands Out as Losses Worsen, Reinforcing Deep Value Narrative This Earnings Season",
+            "description": "",
+            "summary": "JELD-WEN Holding (JELD) remains unprofitable, with net losses worsening by 78.1% per year over the past five years. While revenue is forecast to grow modestly at 1.9% per year, which is well below the broader US market's 10.5% pace, earnings are projected to surge by 131.26% annually. The company is expected to reach profitability within the next three years, outpacing the market average turnaround. Despite ongoing financial risks, JELD-WEN's valuation stands out, with a Price-To-Sales Ratio...",
+            "pubDate": "2025-11-04T23:18:22Z",
+            "displayTime": "2025-11-04T23:18:22Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": {
+              "originalUrl": "https://media.zenfs.com/en/simply_wall_st__316/51f3305c1122cc0aece72cb5d1045e9b",
+              "originalWidth": 1194,
+              "originalHeight": 432,
+              "caption": "",
+              "resolutions": [
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/8EbW.sYPESR2DPafdsss2w--~B/aD00MzI7dz0xMTk0O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/simply_wall_st__316/51f3305c1122cc0aece72cb5d1045e9b",
+                  "width": 1194,
+                  "height": 432,
+                  "tag": "original"
+                },
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/lkLa5SnTxLUitZtP5NrHxA--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/simply_wall_st__316/51f3305c1122cc0aece72cb5d1045e9b",
+                  "width": 170,
+                  "height": 128,
+                  "tag": "170x128"
+                }
+              ]
+            },
+            "provider": {
+              "displayName": "Simply Wall St.",
+              "url": "https://simplywall.st/"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/jeld-wen-jeld-valuation-stands-231822871.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/jeld-wen-jeld-valuation-stands-231822871.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        },
+        {
+          "id": "4035828e-2570-3988-8c26-127926efb61a",
+          "content": {
+            "id": "4035828e-2570-3988-8c26-127926efb61a",
+            "contentType": "STORY",
+            "title": "JELD-WEN Holding Inc (JELD) Q3 2025 Earnings Call Highlights: Navigating Market Challenges and ...",
+            "description": "",
+            "summary": "Despite a challenging quarter marked by revenue declines and market pressures, JELD-WEN Holding Inc (JELD) focuses on cost-saving measures and strategic reviews to strengthen its financial position.",
+            "pubDate": "2025-11-04T21:03:31Z",
+            "displayTime": "2025-11-04T21:03:31Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": {
+              "originalUrl": "https://media.zenfs.com/en/us.finance.gurufocus/bbec641f68f7572328fdce55c8399aea",
+              "originalWidth": 220,
+              "originalHeight": 54,
+              "caption": "",
+              "resolutions": [
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/gHYAAePYBs3tVnqkRuw3xw--~B/aD01NDt3PTIyMDthcHBpZD15dGFjaHlvbg--/https://media.zenfs.com/en/us.finance.gurufocus/bbec641f68f7572328fdce55c8399aea",
+                  "width": 220,
+                  "height": 54,
+                  "tag": "original"
+                },
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/aHLk6GDOxPD_6xAnKt8y7w--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/us.finance.gurufocus/bbec641f68f7572328fdce55c8399aea",
+                  "width": 170,
+                  "height": 128,
+                  "tag": "170x128"
+                }
+              ]
+            },
+            "provider": {
+              "displayName": "GuruFocus.com",
+              "url": "http://www.gurufocus.com/"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/jeld-wen-holding-inc-jeld-210331201.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": null,
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        },
+        {
+          "id": "89884a80-fbe3-3304-94b4-a3e8465aa534",
+          "content": {
+            "id": "89884a80-fbe3-3304-94b4-a3e8465aa534",
+            "contentType": "STORY",
+            "title": "JELD-WEN (JELD) Reports Q3 Loss, Misses Revenue Estimates",
+            "description": "",
+            "summary": "JELD-WEN (JELD) delivered earnings and revenue surprises of -211.11% and -2.00%, respectively, for the quarter ended September 2025. Do the numbers hold clues to what lies ahead for the stock?",
+            "pubDate": "2025-11-03T23:25:03Z",
+            "displayTime": "2025-11-03T23:25:03Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": {
+              "originalUrl": "https://media.zenfs.com/en/zacks.com/45c083e4721b0d0d1f6e431ec0bb5cc1",
+              "originalWidth": 900,
+              "originalHeight": 602,
+              "caption": "",
+              "resolutions": [
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/XxozWWpdDFgGg6m0CzltLg--~B/aD02MDI7dz05MDA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/zacks.com/45c083e4721b0d0d1f6e431ec0bb5cc1",
+                  "width": 900,
+                  "height": 602,
+                  "tag": "original"
+                },
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/v3NNmw3GO3h96zvTjY7gSg--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/zacks.com/45c083e4721b0d0d1f6e431ec0bb5cc1",
+                  "width": 170,
+                  "height": 128,
+                  "tag": "170x128"
+                }
+              ]
+            },
+            "provider": {
+              "displayName": "Zacks",
+              "url": "http://www.zacks.com/"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/jeld-wen-jeld-reports-q3-232503247.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/jeld-wen-jeld-reports-q3-232503247.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        },
+        {
+          "id": "d2c2c7e8-0518-370c-a747-0b03d76817f6",
+          "content": {
+            "id": "d2c2c7e8-0518-370c-a747-0b03d76817f6",
+            "contentType": "STORY",
+            "title": "JELD-WEN (NYSE:JELD) Misses Q3 Sales Expectations, Stock Drops 12.7%",
+            "description": "",
+            "summary": "Building products manufacturer JELD-WEN (NYSE:JELD) fell short of the markets revenue expectations in Q3 CY2025, with sales falling 13.4% year on year to $809.5 million. The company\u2019s full-year revenue guidance of $3.15 billion at the midpoint came in 2.9% below analysts\u2019 estimates. Its non-GAAP loss of $0.20 per share was significantly below analysts\u2019 consensus estimates.",
+            "pubDate": "2025-11-03T22:54:51Z",
+            "displayTime": "2025-11-03T22:54:51Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": {
+              "originalUrl": "https://media.zenfs.com/en/stockstory_922/5876c8ed84f0119677722cf0ec16fb24",
+              "originalWidth": 1400,
+              "originalHeight": 700,
+              "caption": "JELD Cover Image",
+              "resolutions": [
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/xABEkQYCBP4w8ZUCaOKw5Q--~B/aD03MDA7dz0xNDAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/stockstory_922/5876c8ed84f0119677722cf0ec16fb24",
+                  "width": 1400,
+                  "height": 700,
+                  "tag": "original"
+                },
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/rS0adirJkXNd7O67pqbTWw--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/stockstory_922/5876c8ed84f0119677722cf0ec16fb24",
+                  "width": 170,
+                  "height": 128,
+                  "tag": "170x128"
+                }
+              ]
+            },
+            "provider": {
+              "displayName": "StockStory",
+              "url": "https://stockstory.org/"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/jeld-wen-nyse-jeld-misses-225451766.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/jeld-wen-nyse-jeld-misses-225451766.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        },
+        {
+          "id": "e76d57c3-c6eb-39a0-a125-8bb273092fd6",
+          "content": {
+            "id": "e76d57c3-c6eb-39a0-a125-8bb273092fd6",
+            "contentType": "STORY",
+            "title": "JELD-WEN: Q3 Earnings Snapshot",
+            "description": "",
+            "summary": "CHARLOTTE, N.C. (AP) \u2014 JELD-WEN Holding, Inc. JELD) on Monday reported a loss of $367.6 million in its third quarter. On a per-share basis, the Charlotte, North Carolina-based company said it had a loss of $4.30.",
+            "pubDate": "2025-11-03T22:22:50Z",
+            "displayTime": "2025-11-03T22:22:50Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": null,
+            "provider": {
+              "displayName": "Associated Press Finance",
+              "url": "http://www.ap.org/"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/jeld-wen-q3-earnings-snapshot-222250653.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/jeld-wen-q3-earnings-snapshot-222250653.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        }
+      ]
+    },
+    "recommendations": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  },
+  "holders_data": {
+    "major_holders": {
+      "status": "error"
+    },
+    "institutional_holders": {
+      "status": "error"
+    }
+  },
+  "earnings_data": {
+    "earnings": {
+      "status": "error",
+      "message": "'NoneType' object has no attribute 'empty'"
+    },
+    "calendar": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  }
+}

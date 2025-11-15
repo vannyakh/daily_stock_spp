@@ -1,6 +1,6 @@
 {
   "ticker": "FRTSF",
-  "timestamp": "2025-11-12T04:42:24.492478",
+  "timestamp": "2025-11-15T05:28:45.048014",
   "intraday_data": {
     "status": "no_data",
     "message": "No intraday data available"
@@ -599,7 +599,8 @@
       ]
     },
     "recommendations": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   },
   "holders_data": {
@@ -607,7 +608,7 @@
       "status": "error"
     },
     "institutional_holders": {
-      "status": "error"
+      "status": "no_data"
     }
   },
   "earnings_data": {
@@ -617,7 +618,7 @@
     },
     "calendar": {
       "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
+      "message": "'dict' object has no attribute 'empty'"
     }
   }
 }

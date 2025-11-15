@@ -1,24 +1,667 @@
 {
   "ticker": "WEBNF",
-  "timestamp": "2025-11-12T04:35:14.881529",
+  "timestamp": "2025-11-15T05:09:58.231308",
   "intraday_data": {
     "status": "no_data",
     "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
-    "message": "argument of type 'NoneType' is not iterable"
+    "message": "Too Many Requests. Rate limited. Try after a while."
   },
   "financials": {
     "income_statement": {
+      "status": "no_data"
+    },
+    "balance_sheet": {
+      "status": "no_data"
+    },
+    "cash_flow": {
+      "status": "no_data"
+    }
+  },
+  "options_data": {
+    "status": "error",
+    "error_message": "Too Many Requests. Rate limited. Try after a while."
+  },
+  "news_data": {
+    "news": {
       "status": "success",
-      "rows": 47,
-      "columns": [
-        "2024-09-30 00:00:00",
-        "2023-09-30 00:00:00",
-        "2022-09-30 00:00:00",
-        "2021-09-30 00:00:00"
-      ],
+      "count": 10,
       "data": [
         {
-          
+          "id": "e09623c6-bfde-3809-aeb3-63d9861e9561",
+          "content": {
+            "id": "e09623c6-bfde-3809-aeb3-63d9861e9561",
+            "contentType": "STORY",
+            "title": "Westpac Banking's (ASX:WBC) Shareholders Will Receive A Bigger Dividend Than Last Year",
+            "description": "",
+            "summary": "The board of Westpac Banking Corporation ( ASX:WBC ) has announced that it will be paying its dividend of A$0.77 on the...",
+            "pubDate": "2025-11-05T20:31:08Z",
+            "displayTime": "2025-11-05T20:31:08Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": {
+              "originalUrl": "https://media.zenfs.com/en/simply_wall_st__316/9cb69651d4316fa46fbd3b4e13d4fead",
+              "originalWidth": 1194,
+              "originalHeight": 432,
+              "caption": "",
+              "resolutions": [
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/6mTDMHV5wxphXZ1o9ZIO4A--~B/aD00MzI7dz0xMTk0O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/simply_wall_st__316/9cb69651d4316fa46fbd3b4e13d4fead",
+                  "width": 1194,
+                  "height": 432,
+                  "tag": "original"
+                },
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/hhbQd8PZvuW2FC0U2d5GtQ--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/simply_wall_st__316/9cb69651d4316fa46fbd3b4e13d4fead",
+                  "width": 170,
+                  "height": 128,
+                  "tag": "170x128"
+                }
+              ]
+            },
+            "provider": {
+              "displayName": "Simply Wall St.",
+              "url": "https://simplywall.st/"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/westpac-bankings-asx-wbc-shareholders-203108498.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/westpac-bankings-asx-wbc-shareholders-203108498.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        },
+        {
+          "id": "82a53686-296b-302c-9a81-9eb367f2e06c",
+          "content": {
+            "id": "82a53686-296b-302c-9a81-9eb367f2e06c",
+            "contentType": "STORY",
+            "title": "Here's What Analysts Are Forecasting For Westpac Banking Corporation (ASX:WBC) After Its Full-Year Results",
+            "description": "",
+            "summary": "It's been a good week for Westpac Banking Corporation ( ASX:WBC ) shareholders, because the company has just released...",
+            "pubDate": "2025-11-04T20:12:27Z",
+            "displayTime": "2025-11-04T20:12:27Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": {
+              "originalUrl": "https://media.zenfs.com/en/simply_wall_st__316/9cb69651d4316fa46fbd3b4e13d4fead",
+              "originalWidth": 1194,
+              "originalHeight": 432,
+              "caption": "",
+              "resolutions": [
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/6mTDMHV5wxphXZ1o9ZIO4A--~B/aD00MzI7dz0xMTk0O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/simply_wall_st__316/9cb69651d4316fa46fbd3b4e13d4fead",
+                  "width": 1194,
+                  "height": 432,
+                  "tag": "original"
+                },
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/hhbQd8PZvuW2FC0U2d5GtQ--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/simply_wall_st__316/9cb69651d4316fa46fbd3b4e13d4fead",
+                  "width": 170,
+                  "height": 128,
+                  "tag": "170x128"
+                }
+              ]
+            },
+            "provider": {
+              "displayName": "Simply Wall St.",
+              "url": "https://simplywall.st/"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/heres-analysts-forecasting-westpac-banking-201227716.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/heres-analysts-forecasting-westpac-banking-201227716.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        },
+        {
+          "id": "3396fe59-2abd-32df-a94a-6a0c490c51b4",
+          "content": {
+            "id": "3396fe59-2abd-32df-a94a-6a0c490c51b4",
+            "contentType": "STORY",
+            "title": "Westpac (ASX:WBC) Valuation in Focus After Strong Share Performance and Margin Concerns",
+            "description": "",
+            "summary": "Westpac Banking (ASX:WBC) has been drawing attention lately as investors take a closer look at its recent stock performance. The bank\u2019s shares have steadily climbed over the past month, raising questions about what is driving the momentum. See our latest analysis for Westpac Banking. After a strong stretch to start the year, Westpac shares have kept their upward momentum alive, reflecting a steady shift in sentiment around the big banks. The stock\u2019s solid one-year total shareholder return of...",
+            "pubDate": "2025-10-06T12:11:07Z",
+            "displayTime": "2025-10-06T12:11:07Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": {
+              "originalUrl": "https://media.zenfs.com/en/simply_wall_st__316/9cb69651d4316fa46fbd3b4e13d4fead",
+              "originalWidth": 1194,
+              "originalHeight": 432,
+              "caption": "",
+              "resolutions": [
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/6mTDMHV5wxphXZ1o9ZIO4A--~B/aD00MzI7dz0xMTk0O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/simply_wall_st__316/9cb69651d4316fa46fbd3b4e13d4fead",
+                  "width": 1194,
+                  "height": 432,
+                  "tag": "original"
+                },
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/hhbQd8PZvuW2FC0U2d5GtQ--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/simply_wall_st__316/9cb69651d4316fa46fbd3b4e13d4fead",
+                  "width": 170,
+                  "height": 128,
+                  "tag": "170x128"
+                }
+              ]
+            },
+            "provider": {
+              "displayName": "Simply Wall St.",
+              "url": "https://simplywall.st/"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/westpac-asx-wbc-valuation-focus-121107381.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/westpac-asx-wbc-valuation-focus-121107381.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        },
+        {
+          "id": "0418842b-8647-33c5-b8c1-5c50ea7a3133",
+          "content": {
+            "id": "0418842b-8647-33c5-b8c1-5c50ea7a3133",
+            "contentType": "STORY",
+            "title": "Australia August consumer sentiment boosted by rate cuts",
+            "description": "",
+            "summary": "SYDNEY (Reuters) -A measure of Australian consumer sentiment improved sharply in August as the third cut in interest rates this year bolstered the outlook for finances and the economy, a survey showed on Tuesday.  A Westpac-Melbourne Institute survey showed its main index of consumer sentiment climbed 5.7% in July to 98.5, the highest reading since early 2022.  The pick-up came after the Reserve Bank of Australia cut interest rates a quarter point to 3.60% and left the door open to further easing this year.",
+            "pubDate": "2025-08-19T00:54:32Z",
+            "displayTime": "2025-08-19T00:54:32Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": {
+              "originalUrl": "https://media.zenfs.com/en/reuters.com/426000ad4ed9ef8b4a6d09609504296b",
+              "originalWidth": 800,
+              "originalHeight": 534,
+              "caption": "People cross a busy street under holiday decorations in the city centre of Sydney",
+              "resolutions": [
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/LDIfXQOwL4tFFnP6fMTu5Q--~B/aD01MzQ7dz04MDA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/reuters.com/426000ad4ed9ef8b4a6d09609504296b",
+                  "width": 800,
+                  "height": 534,
+                  "tag": "original"
+                },
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/LnZPNudQmDXOZs4GQet7LA--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/reuters.com/426000ad4ed9ef8b4a6d09609504296b",
+                  "width": 170,
+                  "height": 128,
+                  "tag": "170x128"
+                }
+              ]
+            },
+            "provider": {
+              "displayName": "Reuters",
+              "url": "https://www.reuters.com/"
+            },
+            "canonicalUrl": {
+              "url": "https://ca.finance.yahoo.com/news/australia-aug-consumer-sentiment-boosted-005432912.html",
+              "site": "finance",
+              "region": "CA",
+              "lang": "en-CA"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/australia-aug-consumer-sentiment-boosted-005432912.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        },
+        {
+          "id": "ccfc97fa-3c8d-38c4-bfe1-0ec904aac45a",
+          "content": {
+            "id": "ccfc97fa-3c8d-38c4-bfe1-0ec904aac45a",
+            "contentType": "STORY",
+            "title": "Australia's Westpac profit grows 5% on margin lift and higher lending",
+            "description": "",
+            "summary": "(Reuters) -Australia's Westpac Banking Corp on Thursday said wider margins and lending and deposits gains helped it post slightly higher third-quarter profit, sending its shares surging more than 5%.  Westpac's net interest margins, the spread between interest earned from loans and paid to depositors, came in at 1.99% in the quarter, compared with 1.92% a year ago.  Net interest income was A$5 billion in the quarter, up 4% from the quarterly average in the first half.",
+            "pubDate": "2025-08-13T21:43:00Z",
+            "displayTime": "2025-08-13T21:43:00Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": {
+              "originalUrl": "https://media.zenfs.com/en/reuters-finance.com/bf80e0410c844ce75218ae7dfcf3c48a",
+              "originalWidth": 800,
+              "originalHeight": 534,
+              "caption": "A Westpac logo is seen on a building in Sydney",
+              "resolutions": [
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/18kNs6atEpVBqxh0k.TMUw--~B/aD01MzQ7dz04MDA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/reuters-finance.com/bf80e0410c844ce75218ae7dfcf3c48a",
+                  "width": 800,
+                  "height": 534,
+                  "tag": "original"
+                },
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/HtpQxc7WwJ6Hn5GaIByzRA--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/reuters-finance.com/bf80e0410c844ce75218ae7dfcf3c48a",
+                  "width": 170,
+                  "height": 128,
+                  "tag": "170x128"
+                }
+              ]
+            },
+            "provider": {
+              "displayName": "Reuters",
+              "url": "http://www.reuters.com/"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/australias-westpac-posts-more-5-214300354.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/australias-westpac-posts-more-5-214300354.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        },
+        {
+          "id": "96e769bd-290c-387f-bb8b-3bf9d699679d",
+          "content": {
+            "id": "96e769bd-290c-387f-bb8b-3bf9d699679d",
+            "contentType": "STORY",
+            "title": "Aussie 'Big four' banks cut home loan rates following RBA move",
+            "description": "",
+            "summary": "This follows the Reserve Bank of Australia lowering its cash rate by 25 bps to a two-year low of 3.6% on Tuesday, citing falling inflation and a loosening labour market.  The move brings the central bank's total rate reduction from the beginning of the year to 75 basis points.  CBA and ANZ's rate cuts take effect from August 22, while NAB's reduction becomes effective from August 25 and Westpac's from August 26.",
+            "pubDate": "2025-08-12T05:58:41Z",
+            "displayTime": "2025-08-12T05:58:41Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": {
+              "originalUrl": "https://media.zenfs.com/en/reuters.com/866906c4dcb28db4568c5ef2e8001e1a",
+              "originalWidth": 800,
+              "originalHeight": 534,
+              "caption": "A Westpac logo is seen on a building in Sydney",
+              "resolutions": [
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/M_vdAldQI6CxI3Acicfg7w--~B/aD01MzQ7dz04MDA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/reuters.com/866906c4dcb28db4568c5ef2e8001e1a",
+                  "width": 800,
+                  "height": 534,
+                  "tag": "original"
+                },
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/YWUPsOC5FcNAF42fddNEaQ--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/reuters.com/866906c4dcb28db4568c5ef2e8001e1a",
+                  "width": 170,
+                  "height": 128,
+                  "tag": "170x128"
+                }
+              ]
+            },
+            "provider": {
+              "displayName": "Reuters",
+              "url": "https://www.reuters.com/"
+            },
+            "canonicalUrl": {
+              "url": "https://ca.finance.yahoo.com/news/commonwealth-bank-australia-westpac-cut-055841653.html",
+              "site": "finance",
+              "region": "CA",
+              "lang": "en-CA"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/commonwealth-bank-australia-westpac-cut-055841653.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        },
+        {
+          "id": "b43b436f-d739-378b-ae34-3e3aab07a414",
+          "content": {
+            "id": "b43b436f-d739-378b-ae34-3e3aab07a414",
+            "contentType": "STORY",
+            "title": "FRV Australia reaches financial close on Gnarwarre BESS project",
+            "description": "",
+            "summary": "FRV Australia has achieved financial close on the 250MW/500 megawatt-hour (MWh) Gnarwarre battery energy storage system (BESS) project in the state of Victoria, enhancing its renewable energy portfolio. The milestone is part of FRV Australia\u2019s commitment to supporting the country\u2019s clean energy transition and enhancing grid stability. The Gnarwarre BESS project, FRV Australia\u2019s largest to\u2026",
+            "pubDate": "2025-08-04T14:43:17Z",
+            "displayTime": "2025-08-04T14:43:17Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": {
+              "originalUrl": "https://media.zenfs.com/en/power_technology_866/fc7554916afc0d732a4bce6a87500dd4",
+              "originalWidth": 2048,
+              "originalHeight": 857,
+              "caption": "The Gnarwarre project is financed under FRV Australia\u2019s portfolio facility closed in July 2024. Credit: Fotowatio Renewable Ventures S.L.U.",
+              "resolutions": [
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/C3kzQ5ieUyjH11okOzKfnw--~B/aD04NTc7dz0yMDQ4O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/power_technology_866/fc7554916afc0d732a4bce6a87500dd4",
+                  "width": 2048,
+                  "height": 857,
+                  "tag": "original"
+                },
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/QY7qaolRkUCvZhO9oMBfhg--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/power_technology_866/fc7554916afc0d732a4bce6a87500dd4",
+                  "width": 170,
+                  "height": 128,
+                  "tag": "170x128"
+                }
+              ]
+            },
+            "provider": {
+              "displayName": "Power Technology",
+              "url": "https://www.globaldata.com/"
+            },
+            "canonicalUrl": {
+              "url": "https://www.power-technology.com/news/frv-australia-financial-close-gnarwarre-bess/",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/frv-australia-reaches-financial-close-144317688.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        },
+        {
+          "id": "3235c873-5668-3c20-bf7b-573783547e32",
+          "content": {
+            "id": "3235c873-5668-3c20-bf7b-573783547e32",
+            "contentType": "STORY",
+            "title": "Westpac Banking's (ASX:WBC) earnings growth rate lags the 20% CAGR delivered to shareholders",
+            "description": "",
+            "summary": "Generally speaking the aim of active stock picking is to find companies that provide returns that are superior to the...",
+            "pubDate": "2025-07-28T00:46:05Z",
+            "displayTime": "2025-07-28T00:46:05Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": {
+              "originalUrl": "https://media.zenfs.com/en/simply_wall_st__316/9cb69651d4316fa46fbd3b4e13d4fead",
+              "originalWidth": 1194,
+              "originalHeight": 432,
+              "caption": "",
+              "resolutions": [
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/6mTDMHV5wxphXZ1o9ZIO4A--~B/aD00MzI7dz0xMTk0O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/simply_wall_st__316/9cb69651d4316fa46fbd3b4e13d4fead",
+                  "width": 1194,
+                  "height": 432,
+                  "tag": "original"
+                },
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/hhbQd8PZvuW2FC0U2d5GtQ--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/simply_wall_st__316/9cb69651d4316fa46fbd3b4e13d4fead",
+                  "width": 170,
+                  "height": 128,
+                  "tag": "170x128"
+                }
+              ]
+            },
+            "provider": {
+              "displayName": "Simply Wall St.",
+              "url": "https://simplywall.st/"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/westpac-bankings-asx-wbc-earnings-004605716.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/westpac-bankings-asx-wbc-earnings-004605716.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        },
+        {
+          "id": "a6cf3aff-be99-3a70-9026-19cea7405f31",
+          "content": {
+            "id": "a6cf3aff-be99-3a70-9026-19cea7405f31",
+            "contentType": "STORY",
+            "title": "Here's Why We Think Westpac Banking (ASX:WBC) Might Deserve Your Attention Today",
+            "description": "",
+            "summary": "Investors are often guided by the idea of discovering 'the next big thing', even if that means buying 'story stocks...",
+            "pubDate": "2025-06-16T20:36:22Z",
+            "displayTime": "2025-06-16T20:36:22Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": {
+              "originalUrl": "https://media.zenfs.com/en/simply_wall_st__316/9cb69651d4316fa46fbd3b4e13d4fead",
+              "originalWidth": 1194,
+              "originalHeight": 432,
+              "caption": "",
+              "resolutions": [
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/6mTDMHV5wxphXZ1o9ZIO4A--~B/aD00MzI7dz0xMTk0O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/simply_wall_st__316/9cb69651d4316fa46fbd3b4e13d4fead",
+                  "width": 1194,
+                  "height": 432,
+                  "tag": "original"
+                },
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/hhbQd8PZvuW2FC0U2d5GtQ--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/simply_wall_st__316/9cb69651d4316fa46fbd3b4e13d4fead",
+                  "width": 170,
+                  "height": 128,
+                  "tag": "170x128"
+                }
+              ]
+            },
+            "provider": {
+              "displayName": "Simply Wall St.",
+              "url": "https://simplywall.st/"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/heres-why-think-westpac-banking-203622729.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/heres-why-think-westpac-banking-203622729.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        },
+        {
+          "id": "f7e3ec36-a238-3dd0-82f8-410116beab4b",
+          "content": {
+            "id": "f7e3ec36-a238-3dd0-82f8-410116beab4b",
+            "contentType": "STORY",
+            "title": "Australia regulator alleges Westpac mortgage unit used false documents",
+            "description": "",
+            "summary": "(Reuters) -Australia's corporate regulator said the mortgage broking unit of No.2 lender Westpac had used falsified payslips from non-existent employers to approve home loans in a lawsuit filed on Wednesday.  The Australian Securities and Investments Commission (ASIC) said RAMS Financial Group, a Westpac subsidiary until the bank shuttered the business last year, engaged in widespread unlicensed conduct from June 2019 to April 2023.  The regulator made the allegations in a statement of facts agreed by Westpac, filed in a federal civil lawsuit, and published on Wednesday.",
+            "pubDate": "2025-06-03T23:00:12Z",
+            "displayTime": "2025-06-03T23:00:12Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": {
+              "originalUrl": "https://media.zenfs.com/en/reuters.com/ab4dc56545a8c2ff07c48b96e7b503a5",
+              "originalWidth": 800,
+              "originalHeight": 534,
+              "caption": "A Westpac logo is seen on a building in Sydney",
+              "resolutions": [
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/XdO1ML4QWpr7o14TKaFO9g--~B/aD01MzQ7dz04MDA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/reuters.com/ab4dc56545a8c2ff07c48b96e7b503a5",
+                  "width": 800,
+                  "height": 534,
+                  "tag": "original"
+                },
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/pogufcyy1L7ceeszBL851A--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/reuters.com/ab4dc56545a8c2ff07c48b96e7b503a5",
+                  "width": 170,
+                  "height": 128,
+                  "tag": "170x128"
+                }
+              ]
+            },
+            "provider": {
+              "displayName": "Reuters",
+              "url": "https://www.reuters.com/"
+            },
+            "canonicalUrl": {
+              "url": "https://ca.finance.yahoo.com/news/westpac-unit-settle-conduct-oversight-230012983.html",
+              "site": "finance",
+              "region": "CA",
+              "lang": "en-CA"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/westpac-unit-settle-conduct-oversight-230012983.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        }
+      ]
+    },
+    "recommendations": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  },
+  "holders_data": {
+    "major_holders": {
+      "status": "error"
+    },
+    "institutional_holders": {
+      "status": "error"
+    }
+  },
+  "earnings_data": {
+    "earnings": {
+      "status": "error",
+      "message": "'NoneType' object has no attribute 'empty'"
+    },
+    "calendar": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  }
+}

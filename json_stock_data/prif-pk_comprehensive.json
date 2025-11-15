@@ -1,32 +1,9 @@
 {
   "ticker": "PRIF-PK",
-  "timestamp": "2025-11-12T04:42:21.327749",
+  "timestamp": "2025-11-15T05:28:38.148430",
   "intraday_data": {
-    "status": "success",
-    "rows": 3,
-    "data": [
-      {
-        "Close PRIF-PJ": 23.700000762939453,
-        "High PRIF-PJ": 23.700000762939453,
-        "Low PRIF-PJ": 23.700000762939453,
-        "Open PRIF-PJ": 23.700000762939453,
-        "Volume PRIF-PJ": 0
-      },
-      {
-        "Close PRIF-PJ": 23.659500122070312,
-        "High PRIF-PJ": 23.659500122070312,
-        "Low PRIF-PJ": 23.659500122070312,
-        "Open PRIF-PJ": 23.659500122070312,
-        "Volume PRIF-PJ": 332
-      },
-      {
-        "Close PRIF-PJ": 23.735000610351562,
-        "High PRIF-PJ": 23.735000610351562,
-        "Low PRIF-PJ": 23.735000610351562,
-        "Open PRIF-PJ": 23.735000610351562,
-        "Volume PRIF-PJ": 0
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -34,44 +11,14 @@
   },
   "financials": {
     "income_statement": {
-      "status": "no_data"
-    },
-    "balance_sheet": {
-      "status": "no_data"
-    },
-    "cash_flow": {
-      "status": "no_data"
-    }
-  },
-  "options_data": {
-    "status": "error",
-    "error_message": "Too Many Requests. Rate limited. Try after a while."
-  },
-  "news_data": {
-    "news": {
-      "status": "no_data"
-    },
-    "recommendations": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
-    }
-  },
-  "holders_data": {
-    "major_holders": {
-      "status": "error"
-    },
-    "institutional_holders": {
-      "status": "error"
-    }
-  },
-  "earnings_data": {
-    "earnings": {
-      "status": "error",
-      "message": "'NoneType' object has no attribute 'empty'"
-    },
-    "calendar": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
-    }
-  }
-}
+      "status": "success",
+      "rows": 40,
+      "columns": [
+        "2025-06-30 00:00:00",
+        "2024-06-30 00:00:00",
+        "2023-06-30 00:00:00",
+        "2022-06-30 00:00:00"
+      ],
+      "data": [
+        {
+          

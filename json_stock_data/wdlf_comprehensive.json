@@ -1,39 +1,9 @@
 {
   "ticker": "WDLF",
-  "timestamp": "2025-11-12T04:37:35.620248",
+  "timestamp": "2025-11-15T05:15:59.573039",
   "intraday_data": {
-    "status": "success",
-    "rows": 4,
-    "data": [
-      {
-        "Close": 0.00039999998989515007,
-        "High": 0.00039999998989515007,
-        "Low": 0.00039999998989515007,
-        "Open": 0.00039999998989515007,
-        "Volume": 0
-      },
-      {
-        "Close": 0.00039999998989515007,
-        "High": 0.00039999998989515007,
-        "Low": 0.00039999998989515007,
-        "Open": 0.00039999998989515007,
-        "Volume": 2920
-      },
-      {
-        "Close": 0.00039999998989515007,
-        "High": 0.00039999998989515007,
-        "Low": 0.00039999998989515007,
-        "Open": 0.00039999998989515007,
-        "Volume": 250000
-      },
-      {
-        "Close": 0.00039999998989515007,
-        "High": 0.00039999998989515007,
-        "Low": 0.00039999998989515007,
-        "Open": 0.00039999998989515007,
-        "Volume": 115575
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -51,7 +21,8 @@
     }
   },
   "options_data": {
-    "expirations": []
+    "status": "error",
+    "error_message": "Too Many Requests. Rate limited. Try after a while."
   },
   "news_data": {
     "news": {

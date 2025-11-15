@@ -1,25 +1,9 @@
 {
   "ticker": "NEHCW",
-  "timestamp": "2025-11-12T04:38:48.173686",
+  "timestamp": "2025-11-15T05:19:13.279384",
   "intraday_data": {
-    "status": "success",
-    "rows": 2,
-    "data": [
-      {
-        "Close SBXD-WT": 0.45019999146461487,
-        "High SBXD-WT": 0.45019999146461487,
-        "Low SBXD-WT": 0.45019999146461487,
-        "Open SBXD-WT": 0.45019999146461487,
-        "Volume SBXD-WT": 0
-      },
-      {
-        "Close SBXD-WT": 0.4505000114440918,
-        "High SBXD-WT": 0.4505000114440918,
-        "Low SBXD-WT": 0.4505000114440918,
-        "Open SBXD-WT": 0.4505000114440918,
-        "Volume SBXD-WT": 2000
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -353,7 +337,8 @@
       ]
     },
     "recommendations": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   },
   "holders_data": {

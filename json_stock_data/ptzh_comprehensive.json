@@ -1,9 +1,53 @@
 {
   "ticker": "PTZH",
-  "timestamp": "2025-11-12T04:26:16.848300",
+  "timestamp": "2025-11-15T04:47:03.823444",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 6,
+    "data": [
+      {
+        "Close STG": 5.773200035095215,
+        "High STG": 5.773200035095215,
+        "Low STG": 5.773200035095215,
+        "Open STG": 5.773200035095215,
+        "Volume STG": 0
+      },
+      {
+        "Close STG": 5.96999979019165,
+        "High STG": 5.96999979019165,
+        "Low STG": 5.96999979019165,
+        "Open STG": 5.96999979019165,
+        "Volume STG": 225
+      },
+      {
+        "Close STG": 5.980000019073486,
+        "High STG": 5.980000019073486,
+        "Low STG": 5.980000019073486,
+        "Open STG": 5.980000019073486,
+        "Volume STG": 238
+      },
+      {
+        "Close STG": 5.980000019073486,
+        "High STG": 5.980000019073486,
+        "Low STG": 5.980000019073486,
+        "Open STG": 5.980000019073486,
+        "Volume STG": 228
+      },
+      {
+        "Close STG": 5.980000019073486,
+        "High STG": 5.980000019073486,
+        "Low STG": 5.980000019073486,
+        "Open STG": 5.980000019073486,
+        "Volume STG": 0
+      },
+      {
+        "Close STG": 5.715799808502197,
+        "High STG": 5.715799808502197,
+        "Low STG": 5.715799808502197,
+        "Open STG": 5.715799808502197,
+        "Volume STG": 244
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -21,15 +65,15 @@
     }
   },
   "options_data": {
-    "status": "error",
-    "error_message": "Too Many Requests. Rate limited. Try after a while."
+    "expirations": []
   },
   "news_data": {
     "news": {
       "status": "no_data"
     },
     "recommendations": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   },
   "holders_data": {

@@ -1,13 +1,50 @@
 {
   "ticker": "SAJ",
-  "timestamp": "2025-11-12T04:43:43.996442",
+  "timestamp": "2025-11-15T05:30:51.169869",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 5,
+    "data": [
+      {
+        "Close": 25.719999313354492,
+        "High": 25.719999313354492,
+        "Low": 25.719999313354492,
+        "Open": 25.719999313354492,
+        "Volume": 0
+      },
+      {
+        "Close": 25.600000381469727,
+        "High": 25.610000610351562,
+        "Low": 25.600000381469727,
+        "Open": 25.610000610351562,
+        "Volume": 400
+      },
+      {
+        "Close": 25.700000762939453,
+        "High": 25.700000762939453,
+        "Low": 25.700000762939453,
+        "Open": 25.700000762939453,
+        "Volume": 390
+      },
+      {
+        "Close": 25.239999771118164,
+        "High": 25.239999771118164,
+        "Low": 25.239999771118164,
+        "Open": 25.239999771118164,
+        "Volume": 303
+      },
+      {
+        "Close": 25.239999771118164,
+        "High": 25.239999771118164,
+        "Low": 25.239999771118164,
+        "Open": 25.239999771118164,
+        "Volume": 0
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
-    "message": "Failed to perform, curl: (28) Operation timed out after 30002 milliseconds with 0 out of 23 bytes received. See https://curl.se/libcurl/c/libcurl-errors.html first for more details."
+    "message": "Too Many Requests. Rate limited. Try after a while."
   },
   "financials": {
     "income_statement": {
@@ -26,8 +63,7 @@
   },
   "news_data": {
     "news": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
+      "status": "no_data"
     },
     "recommendations": {
       "status": "error",

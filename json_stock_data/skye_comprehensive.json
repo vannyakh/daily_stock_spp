@@ -1,32 +1,9 @@
 {
   "ticker": "SKYE",
-  "timestamp": "2025-11-12T04:26:16.647514",
+  "timestamp": "2025-11-15T04:47:02.809524",
   "intraday_data": {
-    "status": "success",
-    "rows": 3,
-    "data": [
-      {
-        "Close STG": 5.599999904632568,
-        "High STG": 5.671999931335449,
-        "Low STG": 5.599999904632568,
-        "Open STG": 5.671999931335449,
-        "Volume STG": 0
-      },
-      {
-        "Close STG": 5.460000038146973,
-        "High STG": 5.599999904632568,
-        "Low STG": 5.460000038146973,
-        "Open STG": 5.599999904632568,
-        "Volume STG": 1674
-      },
-      {
-        "Close STG": 5.739999771118164,
-        "High STG": 5.739999771118164,
-        "Low STG": 5.739999771118164,
-        "Open STG": 5.739999771118164,
-        "Volume STG": 0
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -646,15 +623,16 @@
       ]
     },
     "recommendations": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   },
   "holders_data": {
     "major_holders": {
-      "status": "no_data"
+      "status": "error"
     },
     "institutional_holders": {
-      "status": "no_data"
+      "status": "error"
     }
   },
   "earnings_data": {

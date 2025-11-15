@@ -1,81 +1,9 @@
 {
   "ticker": "JWSWF",
-  "timestamp": "2025-11-12T04:40:12.733060",
+  "timestamp": "2025-11-15T05:22:57.354787",
   "intraday_data": {
-    "status": "success",
-    "rows": 10,
-    "data": [
-      {
-        "Close": 0.09989999979734421,
-        "High": 0.10000000149011612,
-        "Low": 0.07999999821186066,
-        "Open": 0.07999999821186066,
-        "Volume": 93421
-      },
-      {
-        "Close": 0.10000000149011612,
-        "High": 0.10000000149011612,
-        "Low": 0.10000000149011612,
-        "Open": 0.10000000149011612,
-        "Volume": 50000
-      },
-      {
-        "Close": 0.10000000149011612,
-        "High": 0.10000000149011612,
-        "Low": 0.10000000149011612,
-        "Open": 0.10000000149011612,
-        "Volume": 95333
-      },
-      {
-        "Close": 0.10000000149011612,
-        "High": 0.10000000149011612,
-        "Low": 0.10000000149011612,
-        "Open": 0.10000000149011612,
-        "Volume": 5000
-      },
-      {
-        "Close": 0.10000000149011612,
-        "High": 0.10000000149011612,
-        "Low": 0.10000000149011612,
-        "Open": 0.10000000149011612,
-        "Volume": 3275
-      },
-      {
-        "Close": 0.10000000149011612,
-        "High": 0.10000000149011612,
-        "Low": 0.10000000149011612,
-        "Open": 0.10000000149011612,
-        "Volume": 1000
-      },
-      {
-        "Close": 0.10000000149011612,
-        "High": 0.10000000149011612,
-        "Low": 0.10000000149011612,
-        "Open": 0.10000000149011612,
-        "Volume": 25000
-      },
-      {
-        "Close": 0.10000000149011612,
-        "High": 0.10000000149011612,
-        "Low": 0.10000000149011612,
-        "Open": 0.10000000149011612,
-        "Volume": 50000
-      },
-      {
-        "Close": 0.10000000149011612,
-        "High": 0.10000000149011612,
-        "Low": 0.10000000149011612,
-        "Open": 0.10000000149011612,
-        "Volume": 3311
-      },
-      {
-        "Close": 0.10000000149011612,
-        "High": 0.10000000149011612,
-        "Low": 0.10000000149011612,
-        "Open": 0.10000000149011612,
-        "Volume": 72500
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -86,14 +14,41 @@
       "status": "no_data"
     },
     "balance_sheet": {
-      "status": "success",
-      "rows": 38,
-      "columns": [
-        "2023-12-31 00:00:00",
-        "2022-12-31 00:00:00",
-        "2021-12-31 00:00:00",
-        "2020-12-31 00:00:00"
-      ],
-      "data": [
-        {
-          
+      "status": "no_data"
+    },
+    "cash_flow": {
+      "status": "no_data"
+    }
+  },
+  "options_data": {
+    "status": "error",
+    "error_message": "Too Many Requests. Rate limited. Try after a while."
+  },
+  "news_data": {
+    "news": {
+      "status": "no_data"
+    },
+    "recommendations": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  },
+  "holders_data": {
+    "major_holders": {
+      "status": "error"
+    },
+    "institutional_holders": {
+      "status": "error"
+    }
+  },
+  "earnings_data": {
+    "earnings": {
+      "status": "error",
+      "message": "'NoneType' object has no attribute 'empty'"
+    },
+    "calendar": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  }
+}

@@ -1,46 +1,9 @@
 {
   "ticker": "QSJC",
-  "timestamp": "2025-11-12T04:29:57.548560",
+  "timestamp": "2025-11-15T04:56:39.212256",
   "intraday_data": {
-    "status": "success",
-    "rows": 5,
-    "data": [
-      {
-        "Close SPPL": 5.6479997634887695,
-        "High SPPL": 5.6479997634887695,
-        "Low SPPL": 5.349999904632568,
-        "Open SPPL": 5.349999904632568,
-        "Volume SPPL": 713
-      },
-      {
-        "Close SPPL": 5.639999866485596,
-        "High SPPL": 5.639999866485596,
-        "Low SPPL": 5.519999980926514,
-        "Open SPPL": 5.519999980926514,
-        "Volume SPPL": 1032
-      },
-      {
-        "Close SPPL": 5.544000148773193,
-        "High SPPL": 5.544000148773193,
-        "Low SPPL": 5.544000148773193,
-        "Open SPPL": 5.544000148773193,
-        "Volume SPPL": 0
-      },
-      {
-        "Close SPPL": 5.360000133514404,
-        "High SPPL": 5.360000133514404,
-        "Low SPPL": 5.360000133514404,
-        "Open SPPL": 5.360000133514404,
-        "Volume SPPL": 1377
-      },
-      {
-        "Close SPPL": 5.329999923706055,
-        "High SPPL": 5.329999923706055,
-        "Low SPPL": 5.329999923706055,
-        "Open SPPL": 5.329999923706055,
-        "Volume SPPL": 387
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -63,7 +26,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

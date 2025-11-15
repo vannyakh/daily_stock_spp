@@ -1,13 +1,29 @@
 {
   "ticker": "MGNC",
-  "timestamp": "2025-11-12T04:39:34.767161",
+  "timestamp": "2025-11-15T05:21:17.380928",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 2,
+    "data": [
+      {
+        "Close": 0.05400000140070915,
+        "High": 0.05999999865889549,
+        "Low": 0.05400000140070915,
+        "Open": 0.05999999865889549,
+        "Volume": 0
+      },
+      {
+        "Close": 0.05389999970793724,
+        "High": 0.05389999970793724,
+        "Low": 0.05389999970793724,
+        "Open": 0.05389999970793724,
+        "Volume": 2664
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
-    "message": "Too Many Requests. Rate limited. Try after a while."
+    "message": "argument of type 'NoneType' is not iterable"
   },
   "financials": {
     "income_statement": {
@@ -21,8 +37,7 @@
     }
   },
   "options_data": {
-    "status": "error",
-    "error_message": "Too Many Requests. Rate limited. Try after a while."
+    "expirations": []
   },
   "news_data": {
     "news": {

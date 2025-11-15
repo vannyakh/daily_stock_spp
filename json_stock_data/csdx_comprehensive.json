@@ -1,67 +1,9 @@
 {
   "ticker": "CSDX",
-  "timestamp": "2025-11-12T04:39:55.191347",
+  "timestamp": "2025-11-15T05:22:11.492577",
   "intraday_data": {
-    "status": "success",
-    "rows": 8,
-    "data": [
-      {
-        "Close AQNB": 25.650100708007812,
-        "High AQNB": 25.650100708007812,
-        "Low AQNB": 25.650100708007812,
-        "Open AQNB": 25.650100708007812,
-        "Volume AQNB": 0
-      },
-      {
-        "Close AQNB": 25.690000534057617,
-        "High AQNB": 25.690000534057617,
-        "Low AQNB": 25.690000534057617,
-        "Open AQNB": 25.690000534057617,
-        "Volume AQNB": 153
-      },
-      {
-        "Close AQNB": 25.690000534057617,
-        "High AQNB": 25.690000534057617,
-        "Low AQNB": 25.690000534057617,
-        "Open AQNB": 25.690000534057617,
-        "Volume AQNB": 109
-      },
-      {
-        "Close AQNB": 25.649999618530273,
-        "High AQNB": 25.649999618530273,
-        "Low AQNB": 25.649999618530273,
-        "Open AQNB": 25.649999618530273,
-        "Volume AQNB": 381
-      },
-      {
-        "Close AQNB": 25.71579933166504,
-        "High AQNB": 25.71579933166504,
-        "Low AQNB": 25.71579933166504,
-        "Open AQNB": 25.71579933166504,
-        "Volume AQNB": 1125
-      },
-      {
-        "Close AQNB": 25.690000534057617,
-        "High AQNB": 25.690000534057617,
-        "Low AQNB": 25.690000534057617,
-        "Open AQNB": 25.690000534057617,
-        "Volume AQNB": 0
-      },
-      {
-        "Close AQNB": 25.791099548339844,
-        "High AQNB": 25.791099548339844,
-        "Low AQNB": 25.791099548339844,
-        "Open AQNB": 25.791099548339844,
-        "Volume AQNB": 1053
-      },
-      {
-        "Close AQNB": 25.764999389648438,
-        "High AQNB": 25.764999389648438,
-        "Low AQNB": 25.764999389648438,
-        "Open AQNB": 25.764999389648438,
-        "Volume AQNB": 324
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -84,7 +26,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",
