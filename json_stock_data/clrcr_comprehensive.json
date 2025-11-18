@@ -1,13 +1,50 @@
 {
   "ticker": "CLRCR",
-  "timestamp": "2025-11-15T05:19:45.972316",
+  "timestamp": "2025-11-18T04:37:45.199453",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 5,
+    "data": [
+      {
+        "Close HUBCW": 0.019500000402331352,
+        "High HUBCW": 0.019500000402331352,
+        "Low HUBCW": 0.01860000006854534,
+        "Open HUBCW": 0.018799999728798866,
+        "Volume HUBCW": 0
+      },
+      {
+        "Close HUBCW": 0.018699999898672104,
+        "High HUBCW": 0.018699999898672104,
+        "Low HUBCW": 0.018699999898672104,
+        "Open HUBCW": 0.018699999898672104,
+        "Volume HUBCW": 2000
+      },
+      {
+        "Close HUBCW": 0.01860000006854534,
+        "High HUBCW": 0.01860000006854534,
+        "Low HUBCW": 0.01860000006854534,
+        "Open HUBCW": 0.01860000006854534,
+        "Volume HUBCW": 2775
+      },
+      {
+        "Close HUBCW": 0.01860000006854534,
+        "High HUBCW": 0.01860000006854534,
+        "Low HUBCW": 0.01860000006854534,
+        "Open HUBCW": 0.01860000006854534,
+        "Volume HUBCW": 100
+      },
+      {
+        "Close HUBCW": 0.020600000396370888,
+        "High HUBCW": 0.02070000022649765,
+        "Low HUBCW": 0.020600000396370888,
+        "Open HUBCW": 0.02070000022649765,
+        "Volume HUBCW": 100
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
-    "message": "Too Many Requests. Rate limited. Try after a while."
+    "message": "argument of type 'NoneType' is not iterable"
   },
   "financials": {
     "income_statement": {
@@ -21,8 +58,7 @@
     }
   },
   "options_data": {
-    "status": "error",
-    "error_message": "Too Many Requests. Rate limited. Try after a while."
+    "expirations": []
   },
   "news_data": {
     "news": {

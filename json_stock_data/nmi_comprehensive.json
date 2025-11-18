@@ -1,9 +1,67 @@
 {
   "ticker": "NMI",
-  "timestamp": "2025-11-15T04:45:38.524418",
+  "timestamp": "2025-11-18T04:24:53.135237",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 8,
+    "data": [
+      {
+        "Close AFJK": 11.199999809265137,
+        "High AFJK": 11.199999809265137,
+        "Low AFJK": 11.199999809265137,
+        "Open AFJK": 11.199999809265137,
+        "Volume AFJK": 502
+      },
+      {
+        "Close AFJK": 10.837699890136719,
+        "High AFJK": 10.837699890136719,
+        "Low AFJK": 10.837699890136719,
+        "Open AFJK": 10.837699890136719,
+        "Volume AFJK": 1129
+      },
+      {
+        "Close AFJK": 11.199700355529785,
+        "High AFJK": 11.199700355529785,
+        "Low AFJK": 11.199700355529785,
+        "Open AFJK": 11.199700355529785,
+        "Volume AFJK": 542
+      },
+      {
+        "Close AFJK": 11.300000190734863,
+        "High AFJK": 11.300000190734863,
+        "Low AFJK": 11.300000190734863,
+        "Open AFJK": 11.300000190734863,
+        "Volume AFJK": 380
+      },
+      {
+        "Close AFJK": 11.300000190734863,
+        "High AFJK": 11.300000190734863,
+        "Low AFJK": 11.300000190734863,
+        "Open AFJK": 11.300000190734863,
+        "Volume AFJK": 471
+      },
+      {
+        "Close AFJK": 10.9350004196167,
+        "High AFJK": 10.9350004196167,
+        "Low AFJK": 10.9350004196167,
+        "Open AFJK": 10.9350004196167,
+        "Volume AFJK": 181
+      },
+      {
+        "Close AFJK": 10.800000190734863,
+        "High AFJK": 10.800000190734863,
+        "Low AFJK": 10.800000190734863,
+        "Open AFJK": 10.800000190734863,
+        "Volume AFJK": 115
+      },
+      {
+        "Close AFJK": 11.010000228881836,
+        "High AFJK": 11.010000228881836,
+        "Low AFJK": 11.010000228881836,
+        "Open AFJK": 11.010000228881836,
+        "Volume AFJK": 200
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -35,10 +93,10 @@
   },
   "holders_data": {
     "major_holders": {
-      "status": "no_data"
+      "status": "error"
     },
     "institutional_holders": {
-      "status": "no_data"
+      "status": "error"
     }
   },
   "earnings_data": {
@@ -48,7 +106,7 @@
     },
     "calendar": {
       "status": "error",
-      "message": "'dict' object has no attribute 'empty'"
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   }
 }

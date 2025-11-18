@@ -1,60 +1,9 @@
 {
   "ticker": "TKOI",
-  "timestamp": "2025-11-15T05:16:14.595677",
+  "timestamp": "2025-11-18T04:36:24.413758",
   "intraday_data": {
-    "status": "success",
-    "rows": 7,
-    "data": [
-      {
-        "Close GPFT": 0.0003000000142492354,
-        "High GPFT": 0.0003000000142492354,
-        "Low GPFT": 0.0003000000142492354,
-        "Open GPFT": 0.0003000000142492354,
-        "Volume GPFT": 95000
-      },
-      {
-        "Close GPFT": 0.00039999998989515007,
-        "High GPFT": 0.00039999998989515007,
-        "Low GPFT": 0.00039999998989515007,
-        "Open GPFT": 0.00039999998989515007,
-        "Volume GPFT": 1154042
-      },
-      {
-        "Close GPFT": 0.0005000000237487257,
-        "High GPFT": 0.0005000000237487257,
-        "Low GPFT": 0.0005000000237487257,
-        "Open GPFT": 0.0005000000237487257,
-        "Volume GPFT": 994861
-      },
-      {
-        "Close GPFT": 0.0006000000284984708,
-        "High GPFT": 0.0006000000284984708,
-        "Low GPFT": 0.0006000000284984708,
-        "Open GPFT": 0.0006000000284984708,
-        "Volume GPFT": 1402500
-      },
-      {
-        "Close GPFT": 0.0006000000284984708,
-        "High GPFT": 0.0006000000284984708,
-        "Low GPFT": 0.0006000000284984708,
-        "Open GPFT": 0.0006000000284984708,
-        "Volume GPFT": 744655
-      },
-      {
-        "Close GPFT": 0.0006000000284984708,
-        "High GPFT": 0.0006000000284984708,
-        "Low GPFT": 0.0006000000284984708,
-        "Open GPFT": 0.0006000000284984708,
-        "Volume GPFT": 250000
-      },
-      {
-        "Close GPFT": 0.0006000000284984708,
-        "High GPFT": 0.0006000000284984708,
-        "Low GPFT": 0.0006000000284984708,
-        "Open GPFT": 0.0006000000284984708,
-        "Volume GPFT": 15345
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -77,7 +26,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

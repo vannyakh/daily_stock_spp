@@ -1,18 +1,9 @@
 {
   "ticker": "CMU",
-  "timestamp": "2025-11-15T04:46:21.852904",
+  "timestamp": "2025-11-18T04:25:10.685160",
   "intraday_data": {
-    "status": "success",
-    "rows": 1,
-    "data": [
-      {
-        "Close HSPO": 12.850000381469727,
-        "High HSPO": 12.850000381469727,
-        "Low HSPO": 12.850000381469727,
-        "Open HSPO": 12.850000381469727,
-        "Volume HSPO": 0
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -26,38 +17,15 @@
       "status": "no_data"
     },
     "cash_flow": {
-      "status": "no_data"
-    }
-  },
-  "options_data": {
-    "status": "error",
-    "error_message": "Too Many Requests. Rate limited. Try after a while."
-  },
-  "news_data": {
-    "news": {
-      "status": "no_data"
-    },
-    "recommendations": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
-    }
-  },
-  "holders_data": {
-    "major_holders": {
-      "status": "error"
-    },
-    "institutional_holders": {
-      "status": "error"
-    }
-  },
-  "earnings_data": {
-    "earnings": {
-      "status": "error",
-      "message": "'NoneType' object has no attribute 'empty'"
-    },
-    "calendar": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
-    }
-  }
-}
+      "status": "success",
+      "rows": 30,
+      "columns": [
+        "2024-11-30 00:00:00",
+        "2023-11-30 00:00:00",
+        "2022-11-30 00:00:00",
+        "2021-11-30 00:00:00",
+        "2020-11-30 00:00:00"
+      ],
+      "data": [
+        {
+          

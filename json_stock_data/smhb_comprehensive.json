@@ -1,25 +1,9 @@
 {
   "ticker": "SMHB",
-  "timestamp": "2025-11-15T05:27:16.135320",
+  "timestamp": "2025-11-18T04:40:25.831711",
   "intraday_data": {
-    "status": "success",
-    "rows": 2,
-    "data": [
-      {
-        "Close SCDL": 38.40510177612305,
-        "High SCDL": 38.40510177612305,
-        "Low SCDL": 38.344600677490234,
-        "Open SCDL": 38.344600677490234,
-        "Volume SCDL": 0
-      },
-      {
-        "Close SCDL": 38.51559829711914,
-        "High SCDL": 38.51559829711914,
-        "Low SCDL": 38.40510177612305,
-        "Open SCDL": 38.40510177612305,
-        "Volume SCDL": 0
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -64,7 +48,7 @@
     },
     "calendar": {
       "status": "error",
-      "message": "'dict' object has no attribute 'empty'"
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   }
 }

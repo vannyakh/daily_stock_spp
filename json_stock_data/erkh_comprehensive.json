@@ -1,60 +1,9 @@
 {
   "ticker": "ERKH",
-  "timestamp": "2025-11-15T05:15:27.812433",
+  "timestamp": "2025-11-18T04:36:08.400975",
   "intraday_data": {
-    "status": "success",
-    "rows": 7,
-    "data": [
-      {
-        "Close": 13.199999809265137,
-        "High": 13.199999809265137,
-        "Low": 13.1899995803833,
-        "Open": 13.1899995803833,
-        "Volume": 0
-      },
-      {
-        "Close": 13.5,
-        "High": 13.5,
-        "Low": 13.5,
-        "Open": 13.5,
-        "Volume": 100
-      },
-      {
-        "Close": 13.600000381469727,
-        "High": 13.600000381469727,
-        "Low": 13.600000381469727,
-        "Open": 13.600000381469727,
-        "Volume": 100
-      },
-      {
-        "Close": 13.699999809265137,
-        "High": 13.699999809265137,
-        "Low": 13.699999809265137,
-        "Open": 13.699999809265137,
-        "Volume": 300
-      },
-      {
-        "Close": 13.75,
-        "High": 13.75,
-        "Low": 13.75,
-        "Open": 13.75,
-        "Volume": 200
-      },
-      {
-        "Close": 13.699999809265137,
-        "High": 13.699999809265137,
-        "Low": 13.699999809265137,
-        "Open": 13.699999809265137,
-        "Volume": 100
-      },
-      {
-        "Close": 13.699999809265137,
-        "High": 13.699999809265137,
-        "Low": 13.699999809265137,
-        "Open": 13.699999809265137,
-        "Volume": 100
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -68,38 +17,12 @@
       "status": "no_data"
     },
     "cash_flow": {
-      "status": "no_data"
-    }
-  },
-  "options_data": {
-    "status": "error",
-    "error_message": "Too Many Requests. Rate limited. Try after a while."
-  },
-  "news_data": {
-    "news": {
-      "status": "no_data"
-    },
-    "recommendations": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
-    }
-  },
-  "holders_data": {
-    "major_holders": {
-      "status": "error"
-    },
-    "institutional_holders": {
-      "status": "error"
-    }
-  },
-  "earnings_data": {
-    "earnings": {
-      "status": "error",
-      "message": "'NoneType' object has no attribute 'empty'"
-    },
-    "calendar": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
-    }
-  }
-}
+      "status": "success",
+      "rows": 44,
+      "columns": [
+        "2021-12-31 00:00:00",
+        "2020-12-31 00:00:00"
+      ],
+      "data": [
+        {
+          

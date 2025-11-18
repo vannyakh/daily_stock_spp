@@ -1,9 +1,25 @@
 {
   "ticker": "UCIB",
-  "timestamp": "2025-11-15T05:27:13.591198",
+  "timestamp": "2025-11-18T04:40:25.338101",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 2,
+    "data": [
+      {
+        "Close": 25.309999465942383,
+        "High": 25.350000381469727,
+        "Low": 25.309999465942383,
+        "Open": 25.350000381469727,
+        "Volume": 0
+      },
+      {
+        "Close": 27.578800201416016,
+        "High": 27.634000778198242,
+        "Low": 27.578800201416016,
+        "Open": 27.634000778198242,
+        "Volume": 0
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -26,8 +42,7 @@
   },
   "news_data": {
     "news": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
+      "status": "no_data"
     },
     "recommendations": {
       "status": "error",

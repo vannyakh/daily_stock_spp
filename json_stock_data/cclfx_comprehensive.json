@@ -1,25 +1,9 @@
 {
   "ticker": "CCLFX",
-  "timestamp": "2025-11-15T05:25:53.194019",
+  "timestamp": "2025-11-18T04:39:55.237200",
   "intraday_data": {
-    "status": "success",
-    "rows": 2,
-    "data": [
-      {
-        "Close": 10.59000015258789,
-        "High": 10.59000015258789,
-        "Low": 10.59000015258789,
-        "Open": 10.59000015258789,
-        "Volume": 0
-      },
-      {
-        "Close": 10.600000381469727,
-        "High": 10.600000381469727,
-        "Low": 10.600000381469727,
-        "Open": 10.600000381469727,
-        "Volume": 0
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -45,7 +29,8 @@
       "status": "no_data"
     },
     "recommendations": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   },
   "holders_data": {

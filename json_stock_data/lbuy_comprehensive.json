@@ -1,9 +1,67 @@
 {
   "ticker": "LBUY",
-  "timestamp": "2025-11-15T05:04:19.202616",
+  "timestamp": "2025-11-18T04:31:50.851363",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 8,
+    "data": [
+      {
+        "Close": 0.013000000268220901,
+        "High": 0.0210999995470047,
+        "Low": 0.013000000268220901,
+        "Open": 0.0210999995470047,
+        "Volume": 0
+      },
+      {
+        "Close": 0.0210999995470047,
+        "High": 0.0210999995470047,
+        "Low": 0.0210999995470047,
+        "Open": 0.0210999995470047,
+        "Volume": 1
+      },
+      {
+        "Close": 0.0210999995470047,
+        "High": 0.0210999995470047,
+        "Low": 0.0210999995470047,
+        "Open": 0.0210999995470047,
+        "Volume": 1
+      },
+      {
+        "Close": 0.0210999995470047,
+        "High": 0.0210999995470047,
+        "Low": 0.0210999995470047,
+        "Open": 0.0210999995470047,
+        "Volume": 3
+      },
+      {
+        "Close": 0.0210999995470047,
+        "High": 0.0210999995470047,
+        "Low": 0.0210999995470047,
+        "Open": 0.0210999995470047,
+        "Volume": 5
+      },
+      {
+        "Close": 0.0210999995470047,
+        "High": 0.0210999995470047,
+        "Low": 0.0210999995470047,
+        "Open": 0.0210999995470047,
+        "Volume": 4
+      },
+      {
+        "Close": 0.019999999552965164,
+        "High": 0.019999999552965164,
+        "Low": 0.019999999552965164,
+        "Open": 0.019999999552965164,
+        "Volume": 2000
+      },
+      {
+        "Close": 0.0210999995470047,
+        "High": 0.0210999995470047,
+        "Low": 0.0210999995470047,
+        "Open": 0.0210999995470047,
+        "Volume": 6100
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -14,15 +72,41 @@
       "status": "no_data"
     },
     "balance_sheet": {
-      "status": "success",
-      "rows": 56,
-      "columns": [
-        "2025-06-30 00:00:00",
-        "2024-06-30 00:00:00",
-        "2023-06-30 00:00:00",
-        "2022-06-30 00:00:00",
-        "2021-06-30 00:00:00"
-      ],
-      "data": [
-        {
-          
+      "status": "no_data"
+    },
+    "cash_flow": {
+      "status": "no_data"
+    }
+  },
+  "options_data": {
+    "status": "error",
+    "error_message": "Too Many Requests. Rate limited. Try after a while."
+  },
+  "news_data": {
+    "news": {
+      "status": "no_data"
+    },
+    "recommendations": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  },
+  "holders_data": {
+    "major_holders": {
+      "status": "error"
+    },
+    "institutional_holders": {
+      "status": "error"
+    }
+  },
+  "earnings_data": {
+    "earnings": {
+      "status": "error",
+      "message": "'NoneType' object has no attribute 'empty'"
+    },
+    "calendar": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  }
+}

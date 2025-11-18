@@ -1,9 +1,32 @@
 {
   "ticker": "MACT",
-  "timestamp": "2025-11-15T05:20:01.958526",
+  "timestamp": "2025-11-18T04:37:49.922517",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 3,
+    "data": [
+      {
+        "Close SMXWW": 0.025299999862909317,
+        "High SMXWW": 0.02539999969303608,
+        "Low SMXWW": 0.025299999862909317,
+        "Open SMXWW": 0.02539999969303608,
+        "Volume SMXWW": 0
+      },
+      {
+        "Close SMXWW": 0.024700000882148743,
+        "High SMXWW": 0.024800000712275505,
+        "Low SMXWW": 0.024700000882148743,
+        "Open SMXWW": 0.024800000712275505,
+        "Volume SMXWW": 2000
+      },
+      {
+        "Close SMXWW": 0.02500000037252903,
+        "High SMXWW": 0.02500000037252903,
+        "Low SMXWW": 0.02500000037252903,
+        "Open SMXWW": 0.02500000037252903,
+        "Volume SMXWW": 501
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -21,7 +44,8 @@
     }
   },
   "options_data": {
-    "expirations": []
+    "status": "error",
+    "error_message": "Too Many Requests. Rate limited. Try after a while."
   },
   "news_data": {
     "news": {

@@ -1,25 +1,9 @@
 {
   "ticker": "LTRYW",
-  "timestamp": "2025-11-15T05:20:25.072088",
+  "timestamp": "2025-11-18T04:37:57.443295",
   "intraday_data": {
-    "status": "success",
-    "rows": 2,
-    "data": [
-      {
-        "Close NRSAX": 13.6899995803833,
-        "High NRSAX": 13.6899995803833,
-        "Low NRSAX": 13.6899995803833,
-        "Open NRSAX": 13.6899995803833,
-        "Volume NRSAX": 0
-      },
-      {
-        "Close NRSAX": 13.729999542236328,
-        "High NRSAX": 13.729999542236328,
-        "Low NRSAX": 13.729999542236328,
-        "Open NRSAX": 13.729999542236328,
-        "Volume NRSAX": 0
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -536,7 +520,8 @@
       ]
     },
     "recommendations": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   },
   "holders_data": {

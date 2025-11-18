@@ -1,9 +1,25 @@
 {
   "ticker": "ALSAF",
-  "timestamp": "2025-11-15T05:08:45.142414",
+  "timestamp": "2025-11-18T04:33:32.585356",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 2,
+    "data": [
+      {
+        "Close": 12.630000114440918,
+        "High": 12.630000114440918,
+        "Low": 12.630000114440918,
+        "Open": 12.630000114440918,
+        "Volume": 0
+      },
+      {
+        "Close": 18.709999084472656,
+        "High": 18.709999084472656,
+        "Low": 18.709999084472656,
+        "Open": 18.709999084472656,
+        "Volume": 1
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -26,8 +42,7 @@
   },
   "news_data": {
     "news": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
+      "status": "no_data"
     },
     "recommendations": {
       "status": "error",

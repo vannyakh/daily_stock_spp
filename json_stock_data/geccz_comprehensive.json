@@ -1,9 +1,25 @@
 {
   "ticker": "GECCZ",
-  "timestamp": "2025-11-15T05:20:26.552154",
+  "timestamp": "2025-11-18T04:37:57.897233",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 2,
+    "data": [
+      {
+        "Close GECCH": 25.25,
+        "High GECCH": 25.25,
+        "Low GECCH": 25.25,
+        "Open GECCH": 25.25,
+        "Volume GECCH": 0
+      },
+      {
+        "Close GECCH": 25.25,
+        "High GECCH": 25.25,
+        "Low GECCH": 25.25,
+        "Open GECCH": 25.25,
+        "Volume GECCH": 100
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -29,7 +45,8 @@
       "status": "no_data"
     },
     "recommendations": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   },
   "holders_data": {

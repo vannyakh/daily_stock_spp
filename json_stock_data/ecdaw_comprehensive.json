@@ -1,39 +1,9 @@
 {
   "ticker": "ECDAW",
-  "timestamp": "2025-11-15T05:32:26.595228",
+  "timestamp": "2025-11-18T04:42:17.928280",
   "intraday_data": {
-    "status": "success",
-    "rows": 4,
-    "data": [
-      {
-        "Close": 0.019899999722838402,
-        "High": 0.019899999722838402,
-        "Low": 0.019899999722838402,
-        "Open": 0.019899999722838402,
-        "Volume": 0
-      },
-      {
-        "Close": 0.01899999938905239,
-        "High": 0.01899999938905239,
-        "Low": 0.01899999938905239,
-        "Open": 0.01899999938905239,
-        "Volume": 436
-      },
-      {
-        "Close": 0.015599999576807022,
-        "High": 0.015599999576807022,
-        "Low": 0.015599999576807022,
-        "Open": 0.015599999576807022,
-        "Volume": 0
-      },
-      {
-        "Close": 0.01899999938905239,
-        "High": 0.01899999938905239,
-        "Low": 0.01899999938905239,
-        "Open": 0.01899999938905239,
-        "Volume": 2000
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -123,7 +93,8 @@
       ]
     },
     "recommendations": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   },
   "holders_data": {

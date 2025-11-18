@@ -1,65 +1,37 @@
 {
   "ticker": "CDR-PB",
-  "timestamp": "2025-11-15T05:14:27.653852",
+  "timestamp": "2025-11-18T04:35:46.470761",
   "intraday_data": {
     "status": "success",
-    "rows": 8,
+    "rows": 4,
     "data": [
       {
-        "Close": 17.809999465942383,
-        "High": 17.809999465942383,
-        "Low": 17.809999465942383,
-        "Open": 17.809999465942383,
+        "Close": 18.239999771118164,
+        "High": 18.239999771118164,
+        "Low": 18.239999771118164,
+        "Open": 18.239999771118164,
         "Volume": 0
       },
       {
-        "Close": 18.037500381469727,
-        "High": 18.037500381469727,
-        "Low": 18.037500381469727,
-        "Open": 18.037500381469727,
-        "Volume": 640
+        "Close": 18.041200637817383,
+        "High": 18.041200637817383,
+        "Low": 18.041200637817383,
+        "Open": 18.041200637817383,
+        "Volume": 102
       },
       {
-        "Close": 18.209999084472656,
-        "High": 18.209999084472656,
-        "Low": 18.209999084472656,
-        "Open": 18.209999084472656,
-        "Volume": 300
-      },
-      {
-        "Close": 18.110000610351562,
-        "High": 18.110000610351562,
-        "Low": 18.110000610351562,
-        "Open": 18.110000610351562,
-        "Volume": 100
+        "Close": 18.1299991607666,
+        "High": 18.1299991607666,
+        "Low": 18.1299991607666,
+        "Open": 18.1299991607666,
+        "Volume": 426
       },
       {
         "Close": 18.100000381469727,
         "High": 18.100000381469727,
         "Low": 18.100000381469727,
         "Open": 18.100000381469727,
-        "Volume": 100
-      },
-      {
-        "Close": 18.040000915527344,
-        "High": 18.040000915527344,
-        "Low": 18.040000915527344,
-        "Open": 18.040000915527344,
-        "Volume": 120
-      },
-      {
-        "Close": 18.469999313354492,
-        "High": 18.469999313354492,
-        "Low": 18.469999313354492,
-        "Open": 18.469999313354492,
-        "Volume": 200
-      },
-      {
-        "Close": 18.239999771118164,
-        "High": 18.239999771118164,
-        "Low": 18.239999771118164,
-        "Open": 18.239999771118164,
-        "Volume": 210
+        "Volume": 261
       }
     ]
   },
@@ -69,15 +41,44 @@
   },
   "financials": {
     "income_statement": {
-      "status": "success",
-      "rows": 46,
-      "columns": [
-        "2024-12-31 00:00:00",
-        "2023-12-31 00:00:00",
-        "2022-12-31 00:00:00",
-        "2021-12-31 00:00:00",
-        "2020-12-31 00:00:00"
-      ],
-      "data": [
-        {
-          
+      "status": "no_data"
+    },
+    "balance_sheet": {
+      "status": "no_data"
+    },
+    "cash_flow": {
+      "status": "no_data"
+    }
+  },
+  "options_data": {
+    "status": "error",
+    "error_message": "Too Many Requests. Rate limited. Try after a while."
+  },
+  "news_data": {
+    "news": {
+      "status": "no_data"
+    },
+    "recommendations": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  },
+  "holders_data": {
+    "major_holders": {
+      "status": "error"
+    },
+    "institutional_holders": {
+      "status": "error"
+    }
+  },
+  "earnings_data": {
+    "earnings": {
+      "status": "error",
+      "message": "'NoneType' object has no attribute 'empty'"
+    },
+    "calendar": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  }
+}

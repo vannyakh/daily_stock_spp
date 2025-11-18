@@ -1,9 +1,32 @@
 {
   "ticker": "TCRI",
-  "timestamp": "2025-11-15T04:58:44.459165",
+  "timestamp": "2025-11-18T04:29:47.863164",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 3,
+    "data": [
+      {
+        "Close BLMH": 0.6299999952316284,
+        "High BLMH": 0.6299999952316284,
+        "Low BLMH": 0.6299999952316284,
+        "Open BLMH": 0.6299999952316284,
+        "Volume BLMH": 0
+      },
+      {
+        "Close BLMH": 0.6299999952316284,
+        "High BLMH": 0.6299999952316284,
+        "Low BLMH": 0.6299999952316284,
+        "Open BLMH": 0.6299999952316284,
+        "Volume BLMH": 1240
+      },
+      {
+        "Close BLMH": 0.6299999952316284,
+        "High BLMH": 0.6299999952316284,
+        "Low BLMH": 0.6299999952316284,
+        "Open BLMH": 0.6299999952316284,
+        "Volume BLMH": 1760
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -26,7 +49,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

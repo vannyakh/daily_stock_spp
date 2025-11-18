@@ -1,24 +1,657 @@
 {
   "ticker": "EL",
-  "timestamp": "2025-11-15T04:06:08.200493",
+  "timestamp": "2025-11-18T04:09:12.982493",
   "intraday_data": {
     "status": "no_data",
     "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
-    "message": "argument of type 'NoneType' is not iterable"
+    "message": "Too Many Requests. Rate limited. Try after a while."
   },
   "financials": {
     "income_statement": {
+      "status": "no_data"
+    },
+    "balance_sheet": {
+      "status": "no_data"
+    },
+    "cash_flow": {
+      "status": "no_data"
+    }
+  },
+  "options_data": {
+    "status": "error",
+    "error_message": "Too Many Requests. Rate limited. Try after a while."
+  },
+  "news_data": {
+    "news": {
       "status": "success",
-      "rows": 45,
-      "columns": [
-        "2025-06-30 00:00:00",
-        "2024-06-30 00:00:00",
-        "2023-06-30 00:00:00",
-        "2022-06-30 00:00:00"
-      ],
+      "count": 10,
       "data": [
         {
-          
+          "id": "bf1de940-7df3-35cf-93eb-bd5d3eabeb9a",
+          "content": {
+            "id": "bf1de940-7df3-35cf-93eb-bd5d3eabeb9a",
+            "contentType": "STORY",
+            "title": "Est\u00e9e Lauder Companies (NYSE:EL) Has Announced A Dividend Of $0.35",
+            "description": "",
+            "summary": "The Est\u00e9e Lauder Companies Inc.'s ( NYSE:EL ) investors are due to receive a payment of $0.35 per share on 15th of...",
+            "pubDate": "2025-11-16T13:30:16Z",
+            "displayTime": "2025-11-16T13:30:16Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": {
+              "originalUrl": "https://media.zenfs.com/en/simply_wall_st__316/6df248a1a9b2f537095b8320aa40be72",
+              "originalWidth": 1194,
+              "originalHeight": 432,
+              "caption": "",
+              "resolutions": [
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/jXxfxGyf8qjAFoN4lUml6w--~B/aD00MzI7dz0xMTk0O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/simply_wall_st__316/6df248a1a9b2f537095b8320aa40be72",
+                  "width": 1194,
+                  "height": 432,
+                  "tag": "original"
+                },
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/aw0spN0.6PKSpUtDdu3Y0w--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/simply_wall_st__316/6df248a1a9b2f537095b8320aa40be72",
+                  "width": 170,
+                  "height": 128,
+                  "tag": "170x128"
+                }
+              ]
+            },
+            "provider": {
+              "displayName": "Simply Wall St.",
+              "url": "https://simplywall.st/"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/est-e-lauder-companies-nyse-133016516.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/est-e-lauder-companies-nyse-133016516.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        },
+        {
+          "id": "76e3ccb3-3381-3e21-ba97-56c36d47e7e7",
+          "content": {
+            "id": "76e3ccb3-3381-3e21-ba97-56c36d47e7e7",
+            "contentType": "STORY",
+            "title": "A Fresh Look at Est\u00e9e Lauder Companies's Valuation After Earnings Beat and Beauty Reimagined Strategy Success",
+            "description": "",
+            "summary": "Est\u00e9e Lauder Companies (EL) grabbed investors\u2019 attention following its fiscal first-quarter results, which beat expectations. The earnings jump was driven by higher revenue, improving profitability, and fresh momentum in organic sales growth. See our latest analysis for Est\u00e9e Lauder Companies. Est\u00e9e Lauder Companies\u2019 share price has shown renewed strength lately due to standout fiscal first-quarter results and fresh expansion moves, even as insider share sales and a major equity offering...",
+            "pubDate": "2025-11-14T19:08:05Z",
+            "displayTime": "2025-11-14T19:08:05Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": {
+              "originalUrl": "https://media.zenfs.com/en/simply_wall_st__316/6df248a1a9b2f537095b8320aa40be72",
+              "originalWidth": 1194,
+              "originalHeight": 432,
+              "caption": "",
+              "resolutions": [
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/jXxfxGyf8qjAFoN4lUml6w--~B/aD00MzI7dz0xMTk0O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/simply_wall_st__316/6df248a1a9b2f537095b8320aa40be72",
+                  "width": 1194,
+                  "height": 432,
+                  "tag": "original"
+                },
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/aw0spN0.6PKSpUtDdu3Y0w--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/simply_wall_st__316/6df248a1a9b2f537095b8320aa40be72",
+                  "width": 170,
+                  "height": 128,
+                  "tag": "170x128"
+                }
+              ]
+            },
+            "provider": {
+              "displayName": "Simply Wall St.",
+              "url": "https://simplywall.st/"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/fresh-look-est-e-lauder-190805707.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/fresh-look-est-e-lauder-190805707.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        },
+        {
+          "id": "2e0f027e-1049-34f5-bb42-2398f8e2b959",
+          "content": {
+            "id": "2e0f027e-1049-34f5-bb42-2398f8e2b959",
+            "contentType": "VIDEO",
+            "title": "CoreWeave, Est\u00e9e Lauder, The RealReal: Top Analyst Calls",
+            "description": "<p>Yahoo Finance senior reporter <a data-i13n=\"cpos:1;pos:1\" href=\"https://www.yahoo.com/author/brooke-dipalma/\">Brooke DiPalma</a> keeps track of several Wall Street analyst calls on top trending stocks, including calls around shares of CoreWeave (<a data-i13n=\"cpos:2;pos:1\" href=\"https://finance.yahoo.com/quote/CRWV\">CRWV</a>), Est\u00e9e Lauder (<a data-i13n=\"cpos:3;pos:1\" href=\"https://finance.yahoo.com/quote/EL\">EL</a>), and The RealReal (<a data-i13n=\"cpos:4;pos:1\" href=\"https://finance.yahoo.com/quote/REAL\">REAL</a>).</p>\n<p>To watch more expert insights and analysis on the latest market action, check out more\u00a0<a data-i13n=\"cpos:5;pos:1\" href=\"https://finance.yahoo.com/videos/series/market-catalysts/\">Market Catalysts</a>.</p>",
+            "summary": "Yahoo Finance senior reporter Brooke DiPalma keeps track of several Wall Street analyst calls on top trending stocks, including calls around shares of CoreWeave (CRWV), Est\u00e9e Lauder (EL), and The RealReal (REAL). To watch more expert insights and analysis on the latest market action, check out more&nbsp;Market Catalysts.",
+            "pubDate": "2025-11-11T15:42:22Z",
+            "displayTime": "",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": {
+              "originalUrl": "https://s.yimg.com/os/creatr-uploaded-images/2025-11/ffa91e90-bf14-11f0-97ef-b9fd761200cd",
+              "originalWidth": 3012,
+              "originalHeight": 1696,
+              "caption": "",
+              "resolutions": [
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/DevaE22I2fBctWxYcXkuEA--~B/aD0xNjk2O3c9MzAxMjthcHBpZD15dGFjaHlvbg--/https://s.yimg.com/os/creatr-uploaded-images/2025-11/ffa91e90-bf14-11f0-97ef-b9fd761200cd",
+                  "width": 3012,
+                  "height": 1696,
+                  "tag": "original"
+                },
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/2Phg9D62Sb_j38z.SQoknQ--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://s.yimg.com/os/creatr-uploaded-images/2025-11/ffa91e90-bf14-11f0-97ef-b9fd761200cd",
+                  "width": 170,
+                  "height": 128,
+                  "tag": "170x128"
+                }
+              ]
+            },
+            "provider": {
+              "displayName": "Yahoo Finance Video",
+              "url": "https://finance.yahoo.com/"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/video/coreweave-est-e-lauder-realreal-154222521.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/video/coreweave-est-e-lauder-realreal-154222521.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        },
+        {
+          "id": "e3bba46a-d378-3cef-a791-fdc0278c47ff",
+          "content": {
+            "id": "e3bba46a-d378-3cef-a791-fdc0278c47ff",
+            "contentType": "STORY",
+            "title": "PepsiCo and 3 Other Defensive Stocks to Ride Out a Vulnerable Market",
+            "description": "",
+            "summary": "While the S&P 500 is up 14% this year, lately investors have begun to question the health of the bull market.",
+            "pubDate": "2025-11-10T21:45:00Z",
+            "displayTime": "2025-11-10T21:45:00Z",
+            "isHosted": false,
+            "bypassModal": false,
+            "previewUrl": "https://finance.yahoo.com/m/e3bba46a-d378-3cef-a791-fdc0278c47ff/pepsico-and-3-other-defensive.html",
+            "thumbnail": {
+              "originalUrl": "https://media.zenfs.com/en/Barrons.com/e37ddb8fabbaa41b7a2645d85b508c41",
+              "originalWidth": 1280,
+              "originalHeight": 640,
+              "caption": "",
+              "resolutions": [
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/Ygxic5R9C1Yzbfl3zxRliA--~B/aD02NDA7dz0xMjgwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/Barrons.com/e37ddb8fabbaa41b7a2645d85b508c41",
+                  "width": 1280,
+                  "height": 640,
+                  "tag": "original"
+                },
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/oaMZpTIy4FwyBA8iHwXKIw--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/Barrons.com/e37ddb8fabbaa41b7a2645d85b508c41",
+                  "width": 170,
+                  "height": 128,
+                  "tag": "170x128"
+                }
+              ]
+            },
+            "provider": {
+              "displayName": "Barrons.com",
+              "url": "http://www.barrons.com/"
+            },
+            "canonicalUrl": {
+              "url": "https://www.barrons.com/articles/pepsico-defensive-stocks-market-3151728a?siteid=yhoof2&yptr=yahoo",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": null,
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        },
+        {
+          "id": "eef9b768-5560-3890-815f-b147bf46d9f3",
+          "content": {
+            "id": "eef9b768-5560-3890-815f-b147bf46d9f3",
+            "contentType": "STORY",
+            "title": "Est\u00e9e Lauder (EL) Is Down 6.4% After Shopify Partnership and $1.02B Equity Offering - What's Changed",
+            "description": "",
+            "summary": "On November 4, 2025, The Est\u00e9e Lauder Companies Inc. announced a strategic partnership with Shopify to modernize its digital technology infrastructure and completed a US$1.02 billion follow-on equity offering of 11,301,323 shares of Class A Common Stock at a US$90 price per share, after filing a shelf registration for an equivalent amount earlier that day. This first-of-its-kind digital commerce collaboration is designed to support Est\u00e9e Lauder\u2019s Beauty Reimagined strategy, aiming to...",
+            "pubDate": "2025-11-06T17:13:56Z",
+            "displayTime": "2025-11-06T17:13:56Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": {
+              "originalUrl": "https://media.zenfs.com/en/simply_wall_st__316/6df248a1a9b2f537095b8320aa40be72",
+              "originalWidth": 1194,
+              "originalHeight": 432,
+              "caption": "",
+              "resolutions": [
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/jXxfxGyf8qjAFoN4lUml6w--~B/aD00MzI7dz0xMTk0O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/simply_wall_st__316/6df248a1a9b2f537095b8320aa40be72",
+                  "width": 1194,
+                  "height": 432,
+                  "tag": "original"
+                },
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/aw0spN0.6PKSpUtDdu3Y0w--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/simply_wall_st__316/6df248a1a9b2f537095b8320aa40be72",
+                  "width": 170,
+                  "height": 128,
+                  "tag": "170x128"
+                }
+              ]
+            },
+            "provider": {
+              "displayName": "Simply Wall St.",
+              "url": "https://simplywall.st/"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/est-e-lauder-el-down-171356310.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/est-e-lauder-el-down-171356310.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        },
+        {
+          "id": "b2f78bd3-eaf0-39fd-b041-9cbc919386a6",
+          "content": {
+            "id": "b2f78bd3-eaf0-39fd-b041-9cbc919386a6",
+            "contentType": "STORY",
+            "title": "Are Wall Street Analysts Predicting Est\u00e9e Lauder Stock Will Climb or Sink?",
+            "description": "",
+            "summary": "What are Wall Street analysts\u2019 expectations on Est\u00e9e Lauder\u2019s stock post its earnings release?",
+            "pubDate": "2025-11-06T12:42:28Z",
+            "displayTime": "2025-11-06T12:42:28Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": {
+              "originalUrl": "https://media.zenfs.com/en/barchart_com_477/31c53bccadf1d884e344c28e24c52f09",
+              "originalWidth": 1253,
+              "originalHeight": 836,
+              "caption": "Estee Lauder Cos_, Inc_ sign by- BalkansCat via iStock",
+              "resolutions": [
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/VvYO.mGBA4AgwutTbcPqOA--~B/aD04MzY7dz0xMjUzO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/barchart_com_477/31c53bccadf1d884e344c28e24c52f09",
+                  "width": 1253,
+                  "height": 836,
+                  "tag": "original"
+                },
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/zu.IWlAag9Y3nNoHYL4AGg--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/barchart_com_477/31c53bccadf1d884e344c28e24c52f09",
+                  "width": 170,
+                  "height": 128,
+                  "tag": "170x128"
+                }
+              ]
+            },
+            "provider": {
+              "displayName": "Barchart",
+              "url": "https://www.barchart.com/"
+            },
+            "canonicalUrl": {
+              "url": "https://www.barchart.com/story/news/35950906/are-wall-street-analysts-predicting-estee-lauder-stock-will-climb-or-sink",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/wall-street-analysts-predicting-est-124228023.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        },
+        {
+          "id": "0c1283d4-df14-3ee2-9d0a-6d5623cb5e0c",
+          "content": {
+            "id": "0c1283d4-df14-3ee2-9d0a-6d5623cb5e0c",
+            "contentType": "STORY",
+            "title": "Michael Burry Is Super-Bearish On Palantir \u2014 With 5 Million Puts",
+            "description": "",
+            "summary": "A new regulatory filing shows that billionaire investor Michael Burry's hedge fund Scion Asset Management purchased five million put options on Palantir Technologies, Inc. (NASDAQ:PLTR) and one million put options on NVIDIA Corp. (NASDAQ:NVDA), among ...",
+            "pubDate": "2025-11-05T04:31:04Z",
+            "displayTime": "2025-11-05T04:31:04Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": {
+              "originalUrl": "https://media.zenfs.com/en/benzinga_79/fddb4c00d29ba7af97f6f5e3297816ce",
+              "originalWidth": 720,
+              "originalHeight": 480,
+              "caption": "",
+              "resolutions": [
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/5wpRrH89MeryMPE4NUKXKw--~B/aD00ODA7dz03MjA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/benzinga_79/fddb4c00d29ba7af97f6f5e3297816ce",
+                  "width": 720,
+                  "height": 480,
+                  "tag": "original"
+                },
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/CbY_ttwFAVSuOfABu7sc_A--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/benzinga_79/fddb4c00d29ba7af97f6f5e3297816ce",
+                  "width": 170,
+                  "height": 128,
+                  "tag": "170x128"
+                }
+              ]
+            },
+            "provider": {
+              "displayName": "Benzinga",
+              "url": "https://www.benzinga.com/"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/michael-burry-super-bearish-palantir-043104113.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/michael-burry-super-bearish-palantir-043104113.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        },
+        {
+          "id": "5d8cc488-dc76-3efc-9560-480a19023564",
+          "content": {
+            "id": "5d8cc488-dc76-3efc-9560-480a19023564",
+            "contentType": "STORY",
+            "title": "Shopify Revenue Tops Views, Guides to Strong Holiday Quarter",
+            "description": "",
+            "summary": "The Ottawa-based company now expects revenue to grow in the mid-to-high-twenties percentage rate in the current quarter after rising by nearly a third in the third quarter, beating Wall Street expectations.",
+            "pubDate": "2025-11-04T16:44:00Z",
+            "displayTime": "2025-11-04T16:44:00Z",
+            "isHosted": false,
+            "bypassModal": false,
+            "previewUrl": "https://finance.yahoo.com/m/5d8cc488-dc76-3efc-9560-480a19023564/shopify-revenue-tops-views-.html",
+            "thumbnail": {
+              "originalUrl": "https://media.zenfs.com/en/wsj.com/d89af35a4d82dea9eaec849ebe92ada4",
+              "originalWidth": 1280,
+              "originalHeight": 640,
+              "caption": "",
+              "resolutions": [
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/BR9FdZvsLr8uQbdOea6m5A--~B/aD02NDA7dz0xMjgwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/wsj.com/d89af35a4d82dea9eaec849ebe92ada4",
+                  "width": 1280,
+                  "height": 640,
+                  "tag": "original"
+                },
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/epyN665COW.hMvR3Uc6Kbw--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/wsj.com/d89af35a4d82dea9eaec849ebe92ada4",
+                  "width": 170,
+                  "height": 128,
+                  "tag": "170x128"
+                }
+              ]
+            },
+            "provider": {
+              "displayName": "The Wall Street Journal",
+              "url": "http://www.wsj.com/"
+            },
+            "canonicalUrl": {
+              "url": "https://www.wsj.com/business/earnings/shopify-beats-forecasts-fueled-by-strong-merchant-growth-5dfd294f?siteid=yhoof2&yptr=yahoo",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": null,
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        },
+        {
+          "id": "0345edd4-716b-46c5-8a4b-790486524417",
+          "content": {
+            "id": "0345edd4-716b-46c5-8a4b-790486524417",
+            "contentType": "STORY",
+            "title": "Michael Burry of 'Big Short' fame discloses bets against Palantir, Nvidia after bubble warning",
+            "description": "",
+            "summary": "Trader Michael Burry, famous for calling the 2008 housing crisis, has announced bets against Palantir and Nvidia.",
+            "pubDate": "2025-11-04T16:08:33Z",
+            "displayTime": "2025-11-04T16:08:33Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": {
+              "originalUrl": "https://s.yimg.com/os/creatr-uploaded-images/2021-01/6e0ebf10-5427-11eb-9ff7-65b8ae71e76b",
+              "originalWidth": 3000,
+              "originalHeight": 1941,
+              "caption": "",
+              "resolutions": [
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/GIubKCwppwPhLSsabWJMMg--~B/aD0xOTQxO3c9MzAwMDthcHBpZD15dGFjaHlvbg--/https://s.yimg.com/os/creatr-uploaded-images/2021-01/6e0ebf10-5427-11eb-9ff7-65b8ae71e76b",
+                  "width": 3000,
+                  "height": 1941,
+                  "tag": "original"
+                },
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/BSw.yTHLgIEWRiolPjCjHA--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://s.yimg.com/os/creatr-uploaded-images/2021-01/6e0ebf10-5427-11eb-9ff7-65b8ae71e76b",
+                  "width": 170,
+                  "height": 128,
+                  "tag": "170x128"
+                }
+              ]
+            },
+            "provider": {
+              "displayName": "Yahoo Finance",
+              "url": "http://finance.yahoo.com/"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/michael-burry-of-big-short-fame-discloses-bets-against-palantir-nvidia-after-bubble-warning-160833946.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/michael-burry-of-big-short-fame-discloses-bets-against-palantir-nvidia-after-bubble-warning-160833946.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        },
+        {
+          "id": "08f05724-cdae-3c96-90d1-79270aa14920",
+          "content": {
+            "id": "08f05724-cdae-3c96-90d1-79270aa14920",
+            "contentType": "STORY",
+            "title": "How Investors May Respond To Shopify (SHOP) Teaming Up With Estee Lauder for Luxury Omnichannel Tech",
+            "description": "",
+            "summary": "The Estee Lauder Companies announced in October 2025 that it has formed a partnership with Shopify to upgrade its digital technology infrastructure and deliver unified omnichannel consumer experiences for its portfolio of luxury beauty brands. This collaboration is a first of its kind in luxury beauty, aiming to accelerate direct-to-consumer innovation by integrating data and emerging technologies across both online and physical retail channels. We'll examine how this new alliance with The...",
+            "pubDate": "2025-11-04T06:12:10Z",
+            "displayTime": "2025-11-04T06:12:10Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": {
+              "originalUrl": "https://media.zenfs.com/en/simply_wall_st__316/ca14187af778fad9ac0335d1d50e414f",
+              "originalWidth": 1194,
+              "originalHeight": 432,
+              "caption": "",
+              "resolutions": [
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/vEyPnC7YLfpgZ2fLCvYfIA--~B/aD00MzI7dz0xMTk0O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/simply_wall_st__316/ca14187af778fad9ac0335d1d50e414f",
+                  "width": 1194,
+                  "height": 432,
+                  "tag": "original"
+                },
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/7zU.fMnAXAIeP9fta6wAqQ--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/simply_wall_st__316/ca14187af778fad9ac0335d1d50e414f",
+                  "width": 170,
+                  "height": 128,
+                  "tag": "170x128"
+                }
+              ]
+            },
+            "provider": {
+              "displayName": "Simply Wall St.",
+              "url": "https://simplywall.st/"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/investors-may-respond-shopify-shop-061210517.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/investors-may-respond-shopify-shop-061210517.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        }
+      ]
+    },
+    "recommendations": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  },
+  "holders_data": {
+    "major_holders": {
+      "status": "error"
+    },
+    "institutional_holders": {
+      "status": "error"
+    }
+  },
+  "earnings_data": {
+    "earnings": {
+      "status": "error",
+      "message": "'NoneType' object has no attribute 'empty'"
+    },
+    "calendar": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  }
+}

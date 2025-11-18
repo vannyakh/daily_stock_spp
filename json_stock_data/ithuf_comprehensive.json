@@ -1,9 +1,18 @@
 {
   "ticker": "ITHUF",
-  "timestamp": "2025-11-15T04:52:43.085720",
+  "timestamp": "2025-11-18T04:27:35.108049",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 1,
+    "data": [
+      {
+        "Close": 0.005400000140070915,
+        "High": 0.005400000140070915,
+        "Low": 0.005400000140070915,
+        "Open": 0.005400000140070915,
+        "Volume": 0
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -11,15 +20,89 @@
   },
   "financials": {
     "income_statement": {
+      "status": "no_data"
+    },
+    "balance_sheet": {
+      "status": "no_data"
+    },
+    "cash_flow": {
+      "status": "no_data"
+    }
+  },
+  "options_data": {
+    "status": "error",
+    "error_message": "Too Many Requests. Rate limited. Try after a while."
+  },
+  "news_data": {
+    "news": {
       "status": "success",
-      "rows": 58,
-      "columns": [
-        "2024-12-31 00:00:00",
-        "2023-12-31 00:00:00",
-        "2022-12-31 00:00:00",
-        "2021-12-31 00:00:00",
-        "2020-12-31 00:00:00"
-      ],
+      "count": 1,
       "data": [
         {
-          
+          "id": "5d3066cd-c902-3d38-af4a-fe67803643a8",
+          "content": {
+            "id": "5d3066cd-c902-3d38-af4a-fe67803643a8",
+            "contentType": "STORY",
+            "title": "Weekly Roundup on the Cannabis Sector & Psychedelic Sector",
+            "description": "",
+            "summary": "Key Takeaways; Cannabis Sector Vireo Growth raised $81M in oversubscribed funding round; the company aims to expand operations across seven states iAnthus acquired premium vape brand Cheetah in $1.5M all-stock deal Entourage Health to go private in union pension fund deal. Cansortium and RIV Capital finalized merger to create a multistate cannabis powerhouse Key Takeaways; [\u2026]",
+            "pubDate": "2025-01-06T01:19:34Z",
+            "displayTime": "2025-01-06T01:19:34Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": null,
+            "provider": {
+              "displayName": "Market Exclusive",
+              "url": "https://marketexclusive.com/"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/weekly-roundup-cannabis-sector-psychedelic-011934573.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/weekly-roundup-cannabis-sector-psychedelic-011934573.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        }
+      ]
+    },
+    "recommendations": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  },
+  "holders_data": {
+    "major_holders": {
+      "status": "error"
+    },
+    "institutional_holders": {
+      "status": "error"
+    }
+  },
+  "earnings_data": {
+    "earnings": {
+      "status": "error",
+      "message": "'NoneType' object has no attribute 'empty'"
+    },
+    "calendar": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  }
+}

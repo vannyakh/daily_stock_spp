@@ -1,95 +1,9 @@
 {
   "ticker": "CIZN",
-  "timestamp": "2025-11-15T05:14:52.202763",
+  "timestamp": "2025-11-18T04:35:55.682172",
   "intraday_data": {
-    "status": "success",
-    "rows": 12,
-    "data": [
-      {
-        "Close": 6.75,
-        "High": 6.75,
-        "Low": 6.75,
-        "Open": 6.75,
-        "Volume": 0
-      },
-      {
-        "Close": 6.75,
-        "High": 6.75,
-        "Low": 6.75,
-        "Open": 6.75,
-        "Volume": 478
-      },
-      {
-        "Close": 6.75,
-        "High": 6.75,
-        "Low": 6.75,
-        "Open": 6.75,
-        "Volume": 500
-      },
-      {
-        "Close": 6.789999961853027,
-        "High": 6.789999961853027,
-        "Low": 6.789999961853027,
-        "Open": 6.789999961853027,
-        "Volume": 28
-      },
-      {
-        "Close": 6.699999809265137,
-        "High": 6.699999809265137,
-        "Low": 6.699999809265137,
-        "Open": 6.699999809265137,
-        "Volume": 1000
-      },
-      {
-        "Close": 6.75,
-        "High": 6.75,
-        "Low": 6.75,
-        "Open": 6.75,
-        "Volume": 400
-      },
-      {
-        "Close": 6.699999809265137,
-        "High": 6.699999809265137,
-        "Low": 6.699999809265137,
-        "Open": 6.699999809265137,
-        "Volume": 1000
-      },
-      {
-        "Close": 6.75,
-        "High": 6.75,
-        "Low": 6.75,
-        "Open": 6.75,
-        "Volume": 938
-      },
-      {
-        "Close": 6.699999809265137,
-        "High": 6.699999809265137,
-        "Low": 6.699999809265137,
-        "Open": 6.699999809265137,
-        "Volume": 1000
-      },
-      {
-        "Close": 6.789999961853027,
-        "High": 6.789999961853027,
-        "Low": 6.789999961853027,
-        "Open": 6.789999961853027,
-        "Volume": 272
-      },
-      {
-        "Close": 6.699999809265137,
-        "High": 6.699999809265137,
-        "Low": 6.699999809265137,
-        "Open": 6.699999809265137,
-        "Volume": 160
-      },
-      {
-        "Close": 6.699999809265137,
-        "High": 6.699999809265137,
-        "Low": 6.699999809265137,
-        "Open": 6.699999809265137,
-        "Volume": 186
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -202,15 +116,16 @@
       ]
     },
     "recommendations": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   },
   "holders_data": {
     "major_holders": {
-      "status": "no_data"
+      "status": "error"
     },
     "institutional_holders": {
-      "status": "no_data"
+      "status": "error"
     }
   },
   "earnings_data": {

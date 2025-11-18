@@ -1,123 +1,9 @@
 {
   "ticker": "AFGB",
-  "timestamp": "2025-11-15T05:22:16.842195",
+  "timestamp": "2025-11-18T04:38:37.305120",
   "intraday_data": {
-    "status": "success",
-    "rows": 16,
-    "data": [
-      {
-        "Close AFGE": 17.739999771118164,
-        "High AFGE": 17.739999771118164,
-        "Low AFGE": 17.739999771118164,
-        "Open AFGE": 17.739999771118164,
-        "Volume AFGE": 0
-      },
-      {
-        "Close AFGE": 17.82900047302246,
-        "High AFGE": 17.82900047302246,
-        "Low AFGE": 17.82900047302246,
-        "Open AFGE": 17.82900047302246,
-        "Volume AFGE": 590
-      },
-      {
-        "Close AFGE": 17.79640007019043,
-        "High AFGE": 17.79640007019043,
-        "Low AFGE": 17.79640007019043,
-        "Open AFGE": 17.79640007019043,
-        "Volume AFGE": 253
-      },
-      {
-        "Close AFGE": 17.76689910888672,
-        "High AFGE": 17.76689910888672,
-        "Low AFGE": 17.76689910888672,
-        "Open AFGE": 17.76689910888672,
-        "Volume AFGE": 316
-      },
-      {
-        "Close AFGE": 17.815000534057617,
-        "High AFGE": 17.815000534057617,
-        "Low AFGE": 17.815000534057617,
-        "Open AFGE": 17.815000534057617,
-        "Volume AFGE": 363
-      },
-      {
-        "Close AFGE": 17.729999542236328,
-        "High AFGE": 17.729999542236328,
-        "Low AFGE": 17.729999542236328,
-        "Open AFGE": 17.729999542236328,
-        "Volume AFGE": 476
-      },
-      {
-        "Close AFGE": 17.719999313354492,
-        "High AFGE": 17.719999313354492,
-        "Low AFGE": 17.719999313354492,
-        "Open AFGE": 17.719999313354492,
-        "Volume AFGE": 192
-      },
-      {
-        "Close AFGE": 17.559999465942383,
-        "High AFGE": 17.559999465942383,
-        "Low AFGE": 17.559999465942383,
-        "Open AFGE": 17.559999465942383,
-        "Volume AFGE": 212
-      },
-      {
-        "Close AFGE": 17.674999237060547,
-        "High AFGE": 17.674999237060547,
-        "Low AFGE": 17.674999237060547,
-        "Open AFGE": 17.674999237060547,
-        "Volume AFGE": 676
-      },
-      {
-        "Close AFGE": 17.549999237060547,
-        "High AFGE": 17.674999237060547,
-        "Low AFGE": 17.549999237060547,
-        "Open AFGE": 17.674999237060547,
-        "Volume AFGE": 658
-      },
-      {
-        "Close AFGE": 17.56999969482422,
-        "High AFGE": 17.56999969482422,
-        "Low AFGE": 17.56999969482422,
-        "Open AFGE": 17.56999969482422,
-        "Volume AFGE": 279
-      },
-      {
-        "Close AFGE": 17.56999969482422,
-        "High AFGE": 17.59000015258789,
-        "Low AFGE": 17.56999969482422,
-        "Open AFGE": 17.59000015258789,
-        "Volume AFGE": 531
-      },
-      {
-        "Close AFGE": 17.56999969482422,
-        "High AFGE": 17.56999969482422,
-        "Low AFGE": 17.56999969482422,
-        "Open AFGE": 17.56999969482422,
-        "Volume AFGE": 194
-      },
-      {
-        "Close AFGE": 17.530000686645508,
-        "High AFGE": 17.530000686645508,
-        "Low AFGE": 17.530000686645508,
-        "Open AFGE": 17.530000686645508,
-        "Volume AFGE": 286
-      },
-      {
-        "Close AFGE": 17.719999313354492,
-        "High AFGE": 17.719999313354492,
-        "Low AFGE": 17.719999313354492,
-        "Open AFGE": 17.719999313354492,
-        "Volume AFGE": 690
-      },
-      {
-        "Close AFGE": 17.700000762939453,
-        "High AFGE": 17.700000762939453,
-        "Low AFGE": 17.700000762939453,
-        "Open AFGE": 17.700000762939453,
-        "Volume AFGE": 1707
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -143,16 +29,15 @@
       "status": "no_data"
     },
     "recommendations": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
+      "status": "no_data"
     }
   },
   "holders_data": {
     "major_holders": {
-      "status": "no_data"
+      "status": "error"
     },
     "institutional_holders": {
-      "status": "no_data"
+      "status": "error"
     }
   },
   "earnings_data": {
@@ -162,7 +47,7 @@
     },
     "calendar": {
       "status": "error",
-      "message": "'dict' object has no attribute 'empty'"
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   }
 }

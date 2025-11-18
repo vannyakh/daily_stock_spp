@@ -1,16 +1,37 @@
 {
   "ticker": "DTSQ",
-  "timestamp": "2025-11-15T04:46:18.591499",
+  "timestamp": "2025-11-18T04:25:08.446753",
   "intraday_data": {
     "status": "success",
-    "rows": 1,
+    "rows": 4,
     "data": [
       {
-        "Close": 10.75,
-        "High": 10.75,
-        "Low": 10.75,
-        "Open": 10.75,
+        "Close": 10.760000228881836,
+        "High": 10.760000228881836,
+        "Low": 10.760000228881836,
+        "Open": 10.760000228881836,
         "Volume": 0
+      },
+      {
+        "Close": 10.706500053405762,
+        "High": 10.706500053405762,
+        "Low": 10.706500053405762,
+        "Open": 10.706500053405762,
+        "Volume": 1000
+      },
+      {
+        "Close": 10.710000038146973,
+        "High": 10.710000038146973,
+        "Low": 10.6899995803833,
+        "Open": 10.6899995803833,
+        "Volume": 299
+      },
+      {
+        "Close": 10.703499794006348,
+        "High": 10.703499794006348,
+        "Low": 10.703499794006348,
+        "Open": 10.703499794006348,
+        "Volume": 515
       }
     ]
   },
@@ -26,12 +47,38 @@
       "status": "no_data"
     },
     "cash_flow": {
-      "status": "success",
-      "rows": 28,
-      "columns": [
-        "2024-12-31 00:00:00",
-        "2023-12-31 00:00:00"
-      ],
-      "data": [
-        {
-          
+      "status": "no_data"
+    }
+  },
+  "options_data": {
+    "status": "error",
+    "error_message": "Too Many Requests. Rate limited. Try after a while."
+  },
+  "news_data": {
+    "news": {
+      "status": "no_data"
+    },
+    "recommendations": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  },
+  "holders_data": {
+    "major_holders": {
+      "status": "error"
+    },
+    "institutional_holders": {
+      "status": "error"
+    }
+  },
+  "earnings_data": {
+    "earnings": {
+      "status": "error",
+      "message": "'NoneType' object has no attribute 'empty'"
+    },
+    "calendar": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  }
+}

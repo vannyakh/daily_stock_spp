@@ -1,9 +1,32 @@
 {
   "ticker": "AVAI",
-  "timestamp": "2025-11-15T04:47:46.051914",
+  "timestamp": "2025-11-18T04:25:43.309588",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 3,
+    "data": [
+      {
+        "Close": 0.3790000081062317,
+        "High": 0.3790000081062317,
+        "Low": 0.3790000081062317,
+        "Open": 0.3790000081062317,
+        "Volume": 0
+      },
+      {
+        "Close": 0.35499998927116394,
+        "High": 0.35760000348091125,
+        "Low": 0.35499998927116394,
+        "Open": 0.35760000348091125,
+        "Volume": 5000
+      },
+      {
+        "Close": 0.35499998927116394,
+        "High": 0.35499998927116394,
+        "Low": 0.35499998927116394,
+        "Open": 0.35499998927116394,
+        "Volume": 3200
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -11,15 +34,44 @@
   },
   "financials": {
     "income_statement": {
-      "status": "success",
-      "rows": 42,
-      "columns": [
-        "2025-03-31 00:00:00",
-        "2024-03-31 00:00:00",
-        "2023-03-31 00:00:00",
-        "2022-03-31 00:00:00",
-        "2021-03-31 00:00:00"
-      ],
-      "data": [
-        {
-          
+      "status": "no_data"
+    },
+    "balance_sheet": {
+      "status": "no_data"
+    },
+    "cash_flow": {
+      "status": "no_data"
+    }
+  },
+  "options_data": {
+    "status": "error",
+    "error_message": "Too Many Requests. Rate limited. Try after a while."
+  },
+  "news_data": {
+    "news": {
+      "status": "no_data"
+    },
+    "recommendations": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  },
+  "holders_data": {
+    "major_holders": {
+      "status": "error"
+    },
+    "institutional_holders": {
+      "status": "error"
+    }
+  },
+  "earnings_data": {
+    "earnings": {
+      "status": "error",
+      "message": "'NoneType' object has no attribute 'empty'"
+    },
+    "calendar": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  }
+}

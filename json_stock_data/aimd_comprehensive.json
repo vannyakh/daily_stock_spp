@@ -1,32 +1,9 @@
 {
   "ticker": "AIMD",
-  "timestamp": "2025-11-15T04:59:14.056745",
+  "timestamp": "2025-11-18T04:29:58.396416",
   "intraday_data": {
-    "status": "success",
-    "rows": 3,
-    "data": [
-      {
-        "Close GTHP": 0.22499999403953552,
-        "High GTHP": 0.22499999403953552,
-        "Low GTHP": 0.22499999403953552,
-        "Open GTHP": 0.22499999403953552,
-        "Volume GTHP": 1120
-      },
-      {
-        "Close GTHP": 0.22499999403953552,
-        "High GTHP": 0.22499999403953552,
-        "Low GTHP": 0.22499999403953552,
-        "Open GTHP": 0.22499999403953552,
-        "Volume GTHP": 3661
-      },
-      {
-        "Close GTHP": 0.25,
-        "High GTHP": 0.25,
-        "Low GTHP": 0.25,
-        "Open GTHP": 0.25,
-        "Volume GTHP": 1350
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -299,7 +276,7 @@
     },
     "calendar": {
       "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
+      "message": "'dict' object has no attribute 'empty'"
     }
   }
 }

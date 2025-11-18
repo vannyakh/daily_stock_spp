@@ -1,18 +1,9 @@
 {
   "ticker": "OABIW",
-  "timestamp": "2025-11-15T05:24:02.270053",
+  "timestamp": "2025-11-18T04:39:13.669903",
   "intraday_data": {
-    "status": "success",
-    "rows": 1,
-    "data": [
-      {
-        "Close": 0.15000000596046448,
-        "High": 0.15000000596046448,
-        "Low": 0.15000000596046448,
-        "Open": 0.15000000596046448,
-        "Volume": 0
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -632,7 +623,8 @@
       ]
     },
     "recommendations": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   },
   "holders_data": {
