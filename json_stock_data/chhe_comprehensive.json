@@ -1,9 +1,9 @@
 {
   "ticker": "CHHE",
-  "timestamp": "2025-11-18T04:29:20.298619",
+  "timestamp": "2025-11-19T04:28:48.216620",
   "intraday_data": {
     "status": "success",
-    "rows": 3,
+    "rows": 8,
     "data": [
       {
         "Close VAUCF": 0.12800000607967377,
@@ -25,22 +25,88 @@
         "Low VAUCF": 0.1251000016927719,
         "Open VAUCF": 0.1251000016927719,
         "Volume VAUCF": 10000
+      },
+      {
+        "Close VAUCF": 0.12409999966621399,
+        "High VAUCF": 0.12409999966621399,
+        "Low VAUCF": 0.12409999966621399,
+        "Open VAUCF": 0.12409999966621399,
+        "Volume VAUCF": 0
+      },
+      {
+        "Close VAUCF": 0.12210000306367874,
+        "High VAUCF": 0.12210000306367874,
+        "Low VAUCF": 0.12210000306367874,
+        "Open VAUCF": 0.12210000306367874,
+        "Volume VAUCF": 500
+      },
+      {
+        "Close VAUCF": 0.12210000306367874,
+        "High VAUCF": 0.12210000306367874,
+        "Low VAUCF": 0.12210000306367874,
+        "Open VAUCF": 0.12210000306367874,
+        "Volume VAUCF": 5000
+      },
+      {
+        "Close VAUCF": 0.125,
+        "High VAUCF": 0.125,
+        "Low VAUCF": 0.125,
+        "Open VAUCF": 0.125,
+        "Volume VAUCF": 5000
+      },
+      {
+        "Close VAUCF": 0.125,
+        "High VAUCF": 0.125,
+        "Low VAUCF": 0.125,
+        "Open VAUCF": 0.125,
+        "Volume VAUCF": 4500
       }
     ]
   },
   "stock_info": {
     "status": "error",
-    "message": "argument of type 'NoneType' is not iterable"
+    "message": "Too Many Requests. Rate limited. Try after a while."
   },
   "financials": {
     "income_statement": {
-      "status": "success",
-      "rows": 41,
-      "columns": [
-        "2023-06-30 00:00:00",
-        "2022-06-30 00:00:00",
-        "2021-06-30 00:00:00"
-      ],
-      "data": [
-        {
-          
+      "status": "no_data"
+    },
+    "balance_sheet": {
+      "status": "no_data"
+    },
+    "cash_flow": {
+      "status": "no_data"
+    }
+  },
+  "options_data": {
+    "status": "error",
+    "error_message": "Too Many Requests. Rate limited. Try after a while."
+  },
+  "news_data": {
+    "news": {
+      "status": "no_data"
+    },
+    "recommendations": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  },
+  "holders_data": {
+    "major_holders": {
+      "status": "error"
+    },
+    "institutional_holders": {
+      "status": "error"
+    }
+  },
+  "earnings_data": {
+    "earnings": {
+      "status": "error",
+      "message": "'NoneType' object has no attribute 'empty'"
+    },
+    "calendar": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  }
+}

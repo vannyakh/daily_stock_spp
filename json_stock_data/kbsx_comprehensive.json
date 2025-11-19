@@ -1,46 +1,9 @@
 {
   "ticker": "KBSX",
-  "timestamp": "2025-11-18T04:21:41.641866",
+  "timestamp": "2025-11-19T04:20:53.794415",
   "intraday_data": {
-    "status": "success",
-    "rows": 5,
-    "data": [
-      {
-        "Close": 1.4600000381469727,
-        "High": 1.4600000381469727,
-        "Low": 1.4600000381469727,
-        "Open": 1.4600000381469727,
-        "Volume": 0
-      },
-      {
-        "Close": 1.4427000284194946,
-        "High": 1.4427000284194946,
-        "Low": 1.4427000284194946,
-        "Open": 1.4427000284194946,
-        "Volume": 362
-      },
-      {
-        "Close": 1.4596999883651733,
-        "High": 1.4596999883651733,
-        "Low": 1.4596999883651733,
-        "Open": 1.4596999883651733,
-        "Volume": 390
-      },
-      {
-        "Close": 1.4600000381469727,
-        "High": 1.4600000381469727,
-        "Low": 1.4600000381469727,
-        "Open": 1.4600000381469727,
-        "Volume": 190
-      },
-      {
-        "Close": 1.4600000381469727,
-        "High": 1.4600000381469727,
-        "Low": 1.4600000381469727,
-        "Open": 1.4600000381469727,
-        "Volume": 247
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -51,13 +14,166 @@
       "status": "no_data"
     },
     "balance_sheet": {
+      "status": "no_data"
+    },
+    "cash_flow": {
+      "status": "no_data"
+    }
+  },
+  "options_data": {
+    "status": "error",
+    "error_message": "Too Many Requests. Rate limited. Try after a while."
+  },
+  "news_data": {
+    "news": {
       "status": "success",
-      "rows": 84,
-      "columns": [
-        "2024-12-31 00:00:00",
-        "2023-12-31 00:00:00",
-        "2022-12-31 00:00:00"
-      ],
+      "count": 2,
       "data": [
         {
-          
+          "id": "93950b0f-dc02-3165-b610-9e8158dbb525",
+          "content": {
+            "id": "93950b0f-dc02-3165-b610-9e8158dbb525",
+            "contentType": "STORY",
+            "title": "FST Corp.'s (NASDAQ:KBSX) largest shareholders are individual investors with 55% ownership, private companies own 29%",
+            "description": "",
+            "summary": "Key Insights The considerable ownership by individual investors in FST indicates that they collectively have a greater...",
+            "pubDate": "2025-07-31T11:19:44Z",
+            "displayTime": "2025-07-31T11:19:44Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": {
+              "originalUrl": "https://media.zenfs.com/en/simply_wall_st__316/26cebba865ed1d4633d2eacc31dceb62",
+              "originalWidth": 1194,
+              "originalHeight": 432,
+              "caption": "",
+              "resolutions": [
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/ilz_QRJfue4O96SgMglUEQ--~B/aD00MzI7dz0xMTk0O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/simply_wall_st__316/26cebba865ed1d4633d2eacc31dceb62",
+                  "width": 1194,
+                  "height": 432,
+                  "tag": "original"
+                },
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/JFAWJuLVa35B18.9nV11BA--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/simply_wall_st__316/26cebba865ed1d4633d2eacc31dceb62",
+                  "width": 170,
+                  "height": 128,
+                  "tag": "170x128"
+                }
+              ]
+            },
+            "provider": {
+              "displayName": "Simply Wall St.",
+              "url": "https://simplywall.st/"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/fst-corp-nasdaq-kbsx-largest-111944405.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/fst-corp-nasdaq-kbsx-largest-111944405.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        },
+        {
+          "id": "d4037412-1b97-3adf-9fd9-ad1a6bb98095",
+          "content": {
+            "id": "d4037412-1b97-3adf-9fd9-ad1a6bb98095",
+            "contentType": "STORY",
+            "title": "FST Corp.'s (NASDAQ:KBSX) market cap dropped US$303m last week; Individual investors bore the brunt",
+            "description": "",
+            "summary": "Key Insights FST's significant individual investors ownership suggests that the key decisions are influenced by...",
+            "pubDate": "2025-01-23T11:40:24Z",
+            "displayTime": "2025-01-23T11:40:24Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": {
+              "originalUrl": "https://media.zenfs.com/en/simply_wall_st__316/26cebba865ed1d4633d2eacc31dceb62",
+              "originalWidth": 1194,
+              "originalHeight": 432,
+              "caption": "",
+              "resolutions": [
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/ilz_QRJfue4O96SgMglUEQ--~B/aD00MzI7dz0xMTk0O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/simply_wall_st__316/26cebba865ed1d4633d2eacc31dceb62",
+                  "width": 1194,
+                  "height": 432,
+                  "tag": "original"
+                },
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/JFAWJuLVa35B18.9nV11BA--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/simply_wall_st__316/26cebba865ed1d4633d2eacc31dceb62",
+                  "width": 170,
+                  "height": 128,
+                  "tag": "170x128"
+                }
+              ]
+            },
+            "provider": {
+              "displayName": "Simply Wall St.",
+              "url": "https://simplywall.st/"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/fst-corp-nasdaq-kbsx-market-114024527.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/fst-corp-nasdaq-kbsx-market-114024527.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        }
+      ]
+    },
+    "recommendations": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  },
+  "holders_data": {
+    "major_holders": {
+      "status": "error"
+    },
+    "institutional_holders": {
+      "status": "error"
+    }
+  },
+  "earnings_data": {
+    "earnings": {
+      "status": "error",
+      "message": "'NoneType' object has no attribute 'empty'"
+    },
+    "calendar": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  }
+}

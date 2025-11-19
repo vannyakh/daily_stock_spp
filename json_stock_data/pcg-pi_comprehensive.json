@@ -1,53 +1,9 @@
 {
   "ticker": "PCG-PI",
-  "timestamp": "2025-11-18T04:34:53.512972",
+  "timestamp": "2025-11-19T04:34:39.120547",
   "intraday_data": {
-    "status": "success",
-    "rows": 6,
-    "data": [
-      {
-        "Close": 17.5,
-        "High": 17.5,
-        "Low": 17.5,
-        "Open": 17.5,
-        "Volume": 162
-      },
-      {
-        "Close": 17.693899154663086,
-        "High": 17.693899154663086,
-        "Low": 17.0,
-        "Open": 17.020000457763672,
-        "Volume": 2137
-      },
-      {
-        "Close": 17.0,
-        "High": 17.0,
-        "Low": 17.0,
-        "Open": 17.0,
-        "Volume": 2000
-      },
-      {
-        "Close": 17.0,
-        "High": 17.0,
-        "Low": 17.0,
-        "Open": 17.0,
-        "Volume": 200
-      },
-      {
-        "Close": 17.357500076293945,
-        "High": 17.357500076293945,
-        "Low": 17.357500076293945,
-        "Open": 17.357500076293945,
-        "Volume": 100
-      },
-      {
-        "Close": 17.649999618530273,
-        "High": 17.649999618530273,
-        "Low": 17.0,
-        "Open": 17.0,
-        "Volume": 200
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -73,7 +29,8 @@
       "status": "no_data"
     },
     "recommendations": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   },
   "holders_data": {

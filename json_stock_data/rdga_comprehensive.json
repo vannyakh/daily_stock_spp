@@ -1,167 +1,24 @@
 {
   "ticker": "RDGA",
-  "timestamp": "2025-11-18T04:30:09.833701",
+  "timestamp": "2025-11-19T04:29:42.791446",
   "intraday_data": {
-    "status": "success",
-    "rows": 16,
-    "data": [
-      {
-        "Close WAFU": 1.8300000429153442,
-        "High WAFU": 1.8300000429153442,
-        "Low WAFU": 1.8300000429153442,
-        "Open WAFU": 1.8300000429153442,
-        "Volume WAFU": 0
-      },
-      {
-        "Close WAFU": 1.715000033378601,
-        "High WAFU": 1.715000033378601,
-        "Low WAFU": 1.701300024986267,
-        "Open WAFU": 1.701300024986267,
-        "Volume WAFU": 200
-      },
-      {
-        "Close WAFU": 1.7699999809265137,
-        "High WAFU": 1.7699999809265137,
-        "Low WAFU": 1.7300000190734863,
-        "Open WAFU": 1.7300000190734863,
-        "Volume WAFU": 400
-      },
-      {
-        "Close WAFU": 1.7699999809265137,
-        "High WAFU": 1.7699999809265137,
-        "Low WAFU": 1.7645000219345093,
-        "Open WAFU": 1.7645000219345093,
-        "Volume WAFU": 199
-      },
-      {
-        "Close WAFU": 1.7799999713897705,
-        "High WAFU": 1.7799999713897705,
-        "Low WAFU": 1.7799999713897705,
-        "Open WAFU": 1.7799999713897705,
-        "Volume WAFU": 1312
-      },
-      {
-        "Close WAFU": 1.7799999713897705,
-        "High WAFU": 1.7799999713897705,
-        "Low WAFU": 1.7736999988555908,
-        "Open WAFU": 1.7736999988555908,
-        "Volume WAFU": 200
-      },
-      {
-        "Close WAFU": 1.7799999713897705,
-        "High WAFU": 1.7799999713897705,
-        "Low WAFU": 1.7721999883651733,
-        "Open WAFU": 1.7721999883651733,
-        "Volume WAFU": 200
-      },
-      {
-        "Close WAFU": 1.7799999713897705,
-        "High WAFU": 1.7799999713897705,
-        "Low WAFU": 1.7201000452041626,
-        "Open WAFU": 1.7201000452041626,
-        "Volume WAFU": 363
-      },
-      {
-        "Close WAFU": 1.7799999713897705,
-        "High WAFU": 1.7799999713897705,
-        "Low WAFU": 1.7720999717712402,
-        "Open WAFU": 1.7720999717712402,
-        "Volume WAFU": 0
-      },
-      {
-        "Close WAFU": 1.7200000286102295,
-        "High WAFU": 1.7200000286102295,
-        "Low WAFU": 1.7200000286102295,
-        "Open WAFU": 1.7200000286102295,
-        "Volume WAFU": 652
-      },
-      {
-        "Close WAFU": 1.8300000429153442,
-        "High WAFU": 1.8300000429153442,
-        "Low WAFU": 1.7799999713897705,
-        "Open WAFU": 1.7799999713897705,
-        "Volume WAFU": 1251
-      },
-      {
-        "Close WAFU": 1.7300000190734863,
-        "High WAFU": 1.7300000190734863,
-        "Low WAFU": 1.7300000190734863,
-        "Open WAFU": 1.7300000190734863,
-        "Volume WAFU": 602
-      },
-      {
-        "Close WAFU": 1.7200000286102295,
-        "High WAFU": 1.7200000286102295,
-        "Low WAFU": 1.7200000286102295,
-        "Open WAFU": 1.7200000286102295,
-        "Volume WAFU": 997
-      },
-      {
-        "Close WAFU": 1.7200000286102295,
-        "High WAFU": 1.7300000190734863,
-        "Low WAFU": 1.7200000286102295,
-        "Open WAFU": 1.7200000286102295,
-        "Volume WAFU": 1140
-      },
-      {
-        "Close WAFU": 1.7200000286102295,
-        "High WAFU": 1.7200000286102295,
-        "Low WAFU": 1.7200000286102295,
-        "Open WAFU": 1.7200000286102295,
-        "Volume WAFU": 2019
-      },
-      {
-        "Close WAFU": 1.7699999809265137,
-        "High WAFU": 1.7699999809265137,
-        "Low WAFU": 1.7699999809265137,
-        "Open WAFU": 1.7699999809265137,
-        "Volume WAFU": 338
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
-    "message": "Too Many Requests. Rate limited. Try after a while."
+    "message": "argument of type 'NoneType' is not iterable"
   },
   "financials": {
     "income_statement": {
-      "status": "no_data"
-    },
-    "balance_sheet": {
-      "status": "no_data"
-    },
-    "cash_flow": {
-      "status": "no_data"
-    }
-  },
-  "options_data": {
-    "status": "error",
-    "error_message": "Too Many Requests. Rate limited. Try after a while."
-  },
-  "news_data": {
-    "news": {
-      "status": "no_data"
-    },
-    "recommendations": {
-      "status": "no_data"
-    }
-  },
-  "holders_data": {
-    "major_holders": {
-      "status": "error"
-    },
-    "institutional_holders": {
-      "status": "error"
-    }
-  },
-  "earnings_data": {
-    "earnings": {
-      "status": "error",
-      "message": "'NoneType' object has no attribute 'empty'"
-    },
-    "calendar": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
-    }
-  }
-}
+      "status": "success",
+      "rows": 33,
+      "columns": [
+        "2024-12-31 00:00:00",
+        "2023-12-31 00:00:00",
+        "2022-12-31 00:00:00",
+        "2021-12-31 00:00:00"
+      ],
+      "data": [
+        {
+          

@@ -1,36 +1,13 @@
 {
   "ticker": "TMGI",
-  "timestamp": "2025-11-18T04:32:10.575873",
+  "timestamp": "2025-11-19T04:31:48.800528",
   "intraday_data": {
-    "status": "success",
-    "rows": 3,
-    "data": [
-      {
-        "Close": 0.08500000089406967,
-        "High": 0.08500000089406967,
-        "Low": 0.08500000089406967,
-        "Open": 0.08500000089406967,
-        "Volume": 0
-      },
-      {
-        "Close": 0.08500000089406967,
-        "High": 0.08500000089406967,
-        "Low": 0.08500000089406967,
-        "Open": 0.08500000089406967,
-        "Volume": 2903
-      },
-      {
-        "Close": 0.07999999821186066,
-        "High": 0.07999999821186066,
-        "Low": 0.07999999821186066,
-        "Open": 0.07999999821186066,
-        "Volume": 32000
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
-    "message": "argument of type 'NoneType' is not iterable"
+    "message": "Too Many Requests. Rate limited. Try after a while."
   },
   "financials": {
     "income_statement": {
@@ -52,16 +29,15 @@
       "status": "no_data"
     },
     "recommendations": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
+      "status": "no_data"
     }
   },
   "holders_data": {
     "major_holders": {
-      "status": "error"
+      "status": "no_data"
     },
     "institutional_holders": {
-      "status": "error"
+      "status": "no_data"
     }
   },
   "earnings_data": {

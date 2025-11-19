@@ -1,9 +1,9 @@
 {
   "ticker": "RMSGW",
-  "timestamp": "2025-11-18T04:37:53.490338",
+  "timestamp": "2025-11-19T04:37:38.533243",
   "intraday_data": {
     "status": "success",
-    "rows": 3,
+    "rows": 5,
     "data": [
       {
         "Close": 0.07410000264644623,
@@ -24,7 +24,21 @@
         "High": 0.07069999724626541,
         "Low": 0.07069999724626541,
         "Open": 0.07069999724626541,
-        "Volume": 2930
+        "Volume": 0
+      },
+      {
+        "Close": 0.05999999865889549,
+        "High": 0.07000000029802322,
+        "Low": 0.05999999865889549,
+        "Open": 0.07000000029802322,
+        "Volume": 2660
+      },
+      {
+        "Close": 0.07090000063180923,
+        "High": 0.07090000063180923,
+        "Low": 0.07090000063180923,
+        "Open": 0.07090000063180923,
+        "Volume": 720
       }
     ]
   },
@@ -34,44 +48,14 @@
   },
   "financials": {
     "income_statement": {
-      "status": "no_data"
-    },
-    "balance_sheet": {
-      "status": "no_data"
-    },
-    "cash_flow": {
-      "status": "no_data"
-    }
-  },
-  "options_data": {
-    "status": "error",
-    "error_message": "Too Many Requests. Rate limited. Try after a while."
-  },
-  "news_data": {
-    "news": {
-      "status": "no_data"
-    },
-    "recommendations": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
-    }
-  },
-  "holders_data": {
-    "major_holders": {
-      "status": "error"
-    },
-    "institutional_holders": {
-      "status": "error"
-    }
-  },
-  "earnings_data": {
-    "earnings": {
-      "status": "error",
-      "message": "'NoneType' object has no attribute 'empty'"
-    },
-    "calendar": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
-    }
-  }
-}
+      "status": "success",
+      "rows": 39,
+      "columns": [
+        "2025-03-31 00:00:00",
+        "2024-03-31 00:00:00",
+        "2023-03-31 00:00:00",
+        "2022-03-31 00:00:00"
+      ],
+      "data": [
+        {
+          

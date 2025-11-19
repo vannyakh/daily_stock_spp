@@ -1,6 +1,6 @@
 {
   "ticker": "NIKA",
-  "timestamp": "2025-11-18T04:19:07.512440",
+  "timestamp": "2025-11-19T04:18:19.490133",
   "intraday_data": {
     "status": "no_data",
     "message": "No intraday data available"
@@ -21,14 +21,16 @@
     }
   },
   "options_data": {
-    "expirations": []
+    "status": "error",
+    "error_message": "Too Many Requests. Rate limited. Try after a while."
   },
   "news_data": {
     "news": {
       "status": "no_data"
     },
     "recommendations": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   },
   "holders_data": {

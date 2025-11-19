@@ -1,18 +1,9 @@
 {
   "ticker": "FATBW",
-  "timestamp": "2025-11-18T04:39:49.082667",
+  "timestamp": "2025-11-19T04:39:36.639091",
   "intraday_data": {
-    "status": "success",
-    "rows": 1,
-    "data": [
-      {
-        "Close VCRRX": 28.6200008392334,
-        "High VCRRX": 28.6200008392334,
-        "Low VCRRX": 28.6200008392334,
-        "Open VCRRX": 28.6200008392334,
-        "Volume VCRRX": 0
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -30,7 +21,8 @@
     }
   },
   "options_data": {
-    "expirations": []
+    "status": "error",
+    "error_message": "Too Many Requests. Rate limited. Try after a while."
   },
   "news_data": {
     "news": {

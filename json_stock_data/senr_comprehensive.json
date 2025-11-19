@@ -1,9 +1,95 @@
 {
   "ticker": "SENR",
-  "timestamp": "2025-11-18T04:31:19.886334",
+  "timestamp": "2025-11-19T04:30:57.382210",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 12,
+    "data": [
+      {
+        "Close HEPA": 0.07100000232458115,
+        "High HEPA": 0.07100000232458115,
+        "Low HEPA": 0.07100000232458115,
+        "Open HEPA": 0.07100000232458115,
+        "Volume HEPA": 0
+      },
+      {
+        "Close HEPA": 0.07100000232458115,
+        "High HEPA": 0.07100000232458115,
+        "Low HEPA": 0.07100000232458115,
+        "Open HEPA": 0.07100000232458115,
+        "Volume HEPA": 200
+      },
+      {
+        "Close HEPA": 0.07100000232458115,
+        "High HEPA": 0.07100000232458115,
+        "Low HEPA": 0.07100000232458115,
+        "Open HEPA": 0.07100000232458115,
+        "Volume HEPA": 61
+      },
+      {
+        "Close HEPA": 0.07100000232458115,
+        "High HEPA": 0.07100000232458115,
+        "Low HEPA": 0.07100000232458115,
+        "Open HEPA": 0.07100000232458115,
+        "Volume HEPA": 1
+      },
+      {
+        "Close HEPA": 0.07100000232458115,
+        "High HEPA": 0.07100000232458115,
+        "Low HEPA": 0.07100000232458115,
+        "Open HEPA": 0.07100000232458115,
+        "Volume HEPA": 6474
+      },
+      {
+        "Close HEPA": 0.07100000232458115,
+        "High HEPA": 0.07100000232458115,
+        "Low HEPA": 0.07100000232458115,
+        "Open HEPA": 0.07100000232458115,
+        "Volume HEPA": 1
+      },
+      {
+        "Close HEPA": 0.07100000232458115,
+        "High HEPA": 0.07100000232458115,
+        "Low HEPA": 0.07100000232458115,
+        "Open HEPA": 0.07100000232458115,
+        "Volume HEPA": 1
+      },
+      {
+        "Close HEPA": 0.0860000029206276,
+        "High HEPA": 0.0860000029206276,
+        "Low HEPA": 0.0860000029206276,
+        "Open HEPA": 0.0860000029206276,
+        "Volume HEPA": 0
+      },
+      {
+        "Close HEPA": 0.0860000029206276,
+        "High HEPA": 0.0860000029206276,
+        "Low HEPA": 0.0860000029206276,
+        "Open HEPA": 0.0860000029206276,
+        "Volume HEPA": 10000
+      },
+      {
+        "Close HEPA": 0.07109999656677246,
+        "High HEPA": 0.07109999656677246,
+        "Low HEPA": 0.07109999656677246,
+        "Open HEPA": 0.07109999656677246,
+        "Volume HEPA": 1
+      },
+      {
+        "Close HEPA": 0.07109999656677246,
+        "High HEPA": 0.07109999656677246,
+        "Low HEPA": 0.07109999656677246,
+        "Open HEPA": 0.07109999656677246,
+        "Volume HEPA": 1
+      },
+      {
+        "Close HEPA": 0.07254999876022339,
+        "High HEPA": 0.07254999876022339,
+        "Low HEPA": 0.07254999876022339,
+        "Open HEPA": 0.07254999876022339,
+        "Volume HEPA": 100
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -14,15 +100,41 @@
       "status": "no_data"
     },
     "balance_sheet": {
-      "status": "success",
-      "rows": 76,
-      "columns": [
-        "2024-12-31 00:00:00",
-        "2023-12-31 00:00:00",
-        "2022-12-31 00:00:00",
-        "2021-12-31 00:00:00",
-        "2020-12-31 00:00:00"
-      ],
-      "data": [
-        {
-          
+      "status": "no_data"
+    },
+    "cash_flow": {
+      "status": "no_data"
+    }
+  },
+  "options_data": {
+    "status": "error",
+    "error_message": "Too Many Requests. Rate limited. Try after a while."
+  },
+  "news_data": {
+    "news": {
+      "status": "no_data"
+    },
+    "recommendations": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  },
+  "holders_data": {
+    "major_holders": {
+      "status": "error"
+    },
+    "institutional_holders": {
+      "status": "error"
+    }
+  },
+  "earnings_data": {
+    "earnings": {
+      "status": "error",
+      "message": "'NoneType' object has no attribute 'empty'"
+    },
+    "calendar": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  }
+}

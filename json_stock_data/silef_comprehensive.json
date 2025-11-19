@@ -1,118 +1,53 @@
 {
   "ticker": "SILEF",
-  "timestamp": "2025-11-18T04:36:14.035298",
+  "timestamp": "2025-11-19T04:35:59.437031",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 4,
+    "data": [
+      {
+        "Close": 0.20909999310970306,
+        "High": 0.20909999310970306,
+        "Low": 0.20909999310970306,
+        "Open": 0.20909999310970306,
+        "Volume": 0
+      },
+      {
+        "Close": 0.20909999310970306,
+        "High": 0.20909999310970306,
+        "Low": 0.20909999310970306,
+        "Open": 0.20909999310970306,
+        "Volume": 2000
+      },
+      {
+        "Close": 0.20909999310970306,
+        "High": 0.20909999310970306,
+        "Low": 0.20909999310970306,
+        "Open": 0.20909999310970306,
+        "Volume": 10000
+      },
+      {
+        "Close": 0.20909999310970306,
+        "High": 0.20909999310970306,
+        "Low": 0.20909999310970306,
+        "Open": 0.20909999310970306,
+        "Volume": 3000
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
-    "message": "Too Many Requests. Rate limited. Try after a while."
+    "message": "argument of type 'NoneType' is not iterable"
   },
   "financials": {
     "income_statement": {
-      "status": "no_data"
-    },
-    "balance_sheet": {
-      "status": "no_data"
-    },
-    "cash_flow": {
-      "status": "no_data"
-    }
-  },
-  "options_data": {
-    "status": "error",
-    "error_message": "Too Many Requests. Rate limited. Try after a while."
-  },
-  "news_data": {
-    "news": {
       "status": "success",
-      "count": 1,
+      "rows": 49,
+      "columns": [
+        "2022-12-31 00:00:00",
+        "2021-12-31 00:00:00",
+        "2020-12-31 00:00:00"
+      ],
       "data": [
         {
-          "id": "ab55ad2b-361a-3357-8d93-2e636009c101",
-          "content": {
-            "id": "ab55ad2b-361a-3357-8d93-2e636009c101",
-            "contentType": "STORY",
-            "title": "Cleantech acquires rights to Bolivian gold-antimony project from Silver Elephant",
-            "description": "",
-            "summary": "Located near the capital city of La Paz, the project covers an area of approximately 256ha.",
-            "pubDate": "2025-08-07T15:02:46Z",
-            "displayTime": "2025-08-07T15:02:46Z",
-            "isHosted": true,
-            "bypassModal": false,
-            "previewUrl": null,
-            "thumbnail": {
-              "originalUrl": "https://media.zenfs.com/en/mining_technology_700/e85be407bfb3861e3d49017a513b57e3",
-              "originalWidth": 1440,
-              "originalHeight": 810,
-              "caption": "The El Triunfo Project",
-              "resolutions": [
-                {
-                  "url": "https://s.yimg.com/uu/api/res/1.2/dnsuHXiQZuwbaSBbCJDMZA--~B/aD04MTA7dz0xNDQwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/mining_technology_700/e85be407bfb3861e3d49017a513b57e3",
-                  "width": 1440,
-                  "height": 810,
-                  "tag": "original"
-                },
-                {
-                  "url": "https://s.yimg.com/uu/api/res/1.2/_VHdNtNFUNrgv8KYHeeBrA--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/mining_technology_700/e85be407bfb3861e3d49017a513b57e3",
-                  "width": 170,
-                  "height": 128,
-                  "tag": "170x128"
-                }
-              ]
-            },
-            "provider": {
-              "displayName": "Mining Technology",
-              "url": "https://www.globaldata.com/"
-            },
-            "canonicalUrl": {
-              "url": "https://www.mining-technology.com/news/cleantech-el-triunfo-silver-elephant/",
-              "site": "finance",
-              "region": "US",
-              "lang": "en-US"
-            },
-            "clickThroughUrl": {
-              "url": "https://finance.yahoo.com/news/cleantech-acquires-rights-bolivian-gold-150246691.html",
-              "site": "finance",
-              "region": "US",
-              "lang": "en-US"
-            },
-            "metadata": {
-              "editorsPick": false
-            },
-            "finance": {
-              "premiumFinance": {
-                "isPremiumNews": false,
-                "isPremiumFreeNews": false
-              }
-            },
-            "storyline": null
-          }
-        }
-      ]
-    },
-    "recommendations": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
-    }
-  },
-  "holders_data": {
-    "major_holders": {
-      "status": "error"
-    },
-    "institutional_holders": {
-      "status": "error"
-    }
-  },
-  "earnings_data": {
-    "earnings": {
-      "status": "error",
-      "message": "'NoneType' object has no attribute 'empty'"
-    },
-    "calendar": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
-    }
-  }
-}
+          

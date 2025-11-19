@@ -1,9 +1,18 @@
 {
   "ticker": "NETTF",
-  "timestamp": "2025-11-18T04:33:57.199309",
+  "timestamp": "2025-11-19T04:33:36.400332",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 1,
+    "data": [
+      {
+        "Close GLAXF": 23.0,
+        "High GLAXF": 23.0,
+        "Low GLAXF": 23.0,
+        "Open GLAXF": 23.0,
+        "Volume GLAXF": 0
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -599,7 +608,8 @@
       ]
     },
     "recommendations": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   },
   "holders_data": {

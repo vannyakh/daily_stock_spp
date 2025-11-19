@@ -1,53 +1,9 @@
 {
   "ticker": "WHLM",
-  "timestamp": "2025-11-18T04:36:04.651522",
+  "timestamp": "2025-11-19T04:35:48.647092",
   "intraday_data": {
-    "status": "success",
-    "rows": 6,
-    "data": [
-      {
-        "Close SALM": 0.550000011920929,
-        "High SALM": 0.550000011920929,
-        "Low SALM": 0.550000011920929,
-        "Open SALM": 0.550000011920929,
-        "Volume SALM": 0
-      },
-      {
-        "Close SALM": 0.5099999904632568,
-        "High SALM": 0.5099999904632568,
-        "Low SALM": 0.5099999904632568,
-        "Open SALM": 0.5099999904632568,
-        "Volume SALM": 970
-      },
-      {
-        "Close SALM": 0.5199999809265137,
-        "High SALM": 0.5199999809265137,
-        "Low SALM": 0.5199999809265137,
-        "Open SALM": 0.5199999809265137,
-        "Volume SALM": 6000
-      },
-      {
-        "Close SALM": 0.5199999809265137,
-        "High SALM": 0.5199999809265137,
-        "Low SALM": 0.5199999809265137,
-        "Open SALM": 0.5199999809265137,
-        "Volume SALM": 16000
-      },
-      {
-        "Close SALM": 0.550000011920929,
-        "High SALM": 0.550000011920929,
-        "Low SALM": 0.550000011920929,
-        "Open SALM": 0.550000011920929,
-        "Volume SALM": 700
-      },
-      {
-        "Close SALM": 0.5498999953269958,
-        "High SALM": 0.5498999953269958,
-        "Low SALM": 0.5498999953269958,
-        "Open SALM": 0.5498999953269958,
-        "Volume SALM": 1000
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -137,7 +93,8 @@
       ]
     },
     "recommendations": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   },
   "holders_data": {

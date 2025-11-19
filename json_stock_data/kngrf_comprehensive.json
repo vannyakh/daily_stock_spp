@@ -1,39 +1,9 @@
 {
   "ticker": "KNGRF",
-  "timestamp": "2025-11-18T04:29:27.957439",
+  "timestamp": "2025-11-19T04:28:56.809789",
   "intraday_data": {
-    "status": "success",
-    "rows": 4,
-    "data": [
-      {
-        "Close": 1.2899999618530273,
-        "High": 1.2899999618530273,
-        "Low": 1.2899999618530273,
-        "Open": 1.2899999618530273,
-        "Volume": 0
-      },
-      {
-        "Close": 1.2999999523162842,
-        "High": 1.2999999523162842,
-        "Low": 1.2999999523162842,
-        "Open": 1.2999999523162842,
-        "Volume": 700
-      },
-      {
-        "Close": 1.2599999904632568,
-        "High": 1.2599999904632568,
-        "Low": 1.2599999904632568,
-        "Open": 1.2599999904632568,
-        "Volume": 300
-      },
-      {
-        "Close": 1.25,
-        "High": 1.25,
-        "Low": 1.25,
-        "Open": 1.25,
-        "Volume": 2400
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -165,7 +135,8 @@
       ]
     },
     "recommendations": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   },
   "holders_data": {

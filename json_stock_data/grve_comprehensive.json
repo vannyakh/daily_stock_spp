@@ -1,18 +1,9 @@
 {
   "ticker": "GRVE",
-  "timestamp": "2025-11-18T04:32:14.925556",
+  "timestamp": "2025-11-19T04:31:53.991160",
   "intraday_data": {
-    "status": "success",
-    "rows": 1,
-    "data": [
-      {
-        "Close": 0.008700000122189522,
-        "High": 0.008700000122189522,
-        "Low": 0.008700000122189522,
-        "Open": 0.008700000122189522,
-        "Volume": 0
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -35,7 +26,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

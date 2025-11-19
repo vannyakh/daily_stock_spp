@@ -1,81 +1,9 @@
 {
   "ticker": "EVF",
-  "timestamp": "2025-11-18T04:24:36.074656",
+  "timestamp": "2025-11-19T04:23:55.334430",
   "intraday_data": {
-    "status": "success",
-    "rows": 10,
-    "data": [
-      {
-        "Close SWZ": 6.0,
-        "High SWZ": 6.010000228881836,
-        "Low SWZ": 6.0,
-        "Open SWZ": 6.010000228881836,
-        "Volume SWZ": 1707
-      },
-      {
-        "Close SWZ": 6.019999980926514,
-        "High SWZ": 6.019999980926514,
-        "Low SWZ": 6.019999980926514,
-        "Open SWZ": 6.019999980926514,
-        "Volume SWZ": 1630
-      },
-      {
-        "Close SWZ": 6.010200023651123,
-        "High SWZ": 6.010200023651123,
-        "Low SWZ": 6.010200023651123,
-        "Open SWZ": 6.010200023651123,
-        "Volume SWZ": 1494
-      },
-      {
-        "Close SWZ": 6.010000228881836,
-        "High SWZ": 6.010000228881836,
-        "Low SWZ": 6.010000228881836,
-        "Open SWZ": 6.010000228881836,
-        "Volume SWZ": 800
-      },
-      {
-        "Close SWZ": 6.0019001960754395,
-        "High SWZ": 6.0019001960754395,
-        "Low SWZ": 6.0019001960754395,
-        "Open SWZ": 6.0019001960754395,
-        "Volume SWZ": 2014
-      },
-      {
-        "Close SWZ": 6.010000228881836,
-        "High SWZ": 6.010000228881836,
-        "Low SWZ": 6.005000114440918,
-        "Open SWZ": 6.005000114440918,
-        "Volume SWZ": 2528
-      },
-      {
-        "Close SWZ": 6.010000228881836,
-        "High SWZ": 6.010000228881836,
-        "Low SWZ": 6.010000228881836,
-        "Open SWZ": 6.010000228881836,
-        "Volume SWZ": 800
-      },
-      {
-        "Close SWZ": 6.010000228881836,
-        "High SWZ": 6.010000228881836,
-        "Low SWZ": 6.010000228881836,
-        "Open SWZ": 6.010000228881836,
-        "Volume SWZ": 181
-      },
-      {
-        "Close SWZ": 6.010000228881836,
-        "High SWZ": 6.010000228881836,
-        "Low SWZ": 6.010000228881836,
-        "Open SWZ": 6.010000228881836,
-        "Volume SWZ": 1285
-      },
-      {
-        "Close SWZ": 6.0,
-        "High SWZ": 6.0,
-        "Low SWZ": 6.0,
-        "Open SWZ": 6.0,
-        "Volume SWZ": 163
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -89,38 +17,14 @@
       "status": "no_data"
     },
     "cash_flow": {
-      "status": "no_data"
-    }
-  },
-  "options_data": {
-    "status": "error",
-    "error_message": "Too Many Requests. Rate limited. Try after a while."
-  },
-  "news_data": {
-    "news": {
-      "status": "no_data"
-    },
-    "recommendations": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
-    }
-  },
-  "holders_data": {
-    "major_holders": {
-      "status": "error"
-    },
-    "institutional_holders": {
-      "status": "error"
-    }
-  },
-  "earnings_data": {
-    "earnings": {
-      "status": "error",
-      "message": "'NoneType' object has no attribute 'empty'"
-    },
-    "calendar": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
-    }
-  }
-}
+      "status": "success",
+      "rows": 30,
+      "columns": [
+        "2025-06-30 00:00:00",
+        "2024-06-30 00:00:00",
+        "2023-06-30 00:00:00",
+        "2022-06-30 00:00:00"
+      ],
+      "data": [
+        {
+          

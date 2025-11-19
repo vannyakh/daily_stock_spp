@@ -1,32 +1,9 @@
 {
   "ticker": "KIQSF",
-  "timestamp": "2025-11-18T04:30:22.049868",
+  "timestamp": "2025-11-19T04:29:55.997730",
   "intraday_data": {
-    "status": "success",
-    "rows": 3,
-    "data": [
-      {
-        "Close": 0.14949999749660492,
-        "High": 0.14949999749660492,
-        "Low": 0.14949999749660492,
-        "Open": 0.14949999749660492,
-        "Volume": 0
-      },
-      {
-        "Close": 0.1469999998807907,
-        "High": 0.1469999998807907,
-        "Low": 0.1469999998807907,
-        "Open": 0.1469999998807907,
-        "Volume": 5000
-      },
-      {
-        "Close": 0.14509999752044678,
-        "High": 0.14509999752044678,
-        "Low": 0.14509999752044678,
-        "Open": 0.14509999752044678,
-        "Volume": 2200
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -177,7 +154,8 @@
       ]
     },
     "recommendations": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   },
   "holders_data": {

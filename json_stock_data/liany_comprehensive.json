@@ -1,9 +1,9 @@
 {
   "ticker": "LIANY",
-  "timestamp": "2025-11-18T04:38:49.245268",
+  "timestamp": "2025-11-19T04:38:38.329380",
   "intraday_data": {
     "status": "success",
-    "rows": 1,
+    "rows": 3,
     "data": [
       {
         "Close": 0.06549999862909317,
@@ -11,53 +11,36 @@
         "Low": 0.06549999862909317,
         "Open": 0.06549999862909317,
         "Volume": 0
+      },
+      {
+        "Close": 0.06549999862909317,
+        "High": 0.06549999862909317,
+        "Low": 0.06549999862909317,
+        "Open": 0.06549999862909317,
+        "Volume": 13
+      },
+      {
+        "Close": 0.06549999862909317,
+        "High": 0.06549999862909317,
+        "Low": 0.06549999862909317,
+        "Open": 0.06549999862909317,
+        "Volume": 1
       }
     ]
   },
   "stock_info": {
     "status": "error",
-    "message": "Too Many Requests. Rate limited. Try after a while."
+    "message": "argument of type 'NoneType' is not iterable"
   },
   "financials": {
     "income_statement": {
-      "status": "no_data"
-    },
-    "balance_sheet": {
-      "status": "no_data"
-    },
-    "cash_flow": {
-      "status": "no_data"
-    }
-  },
-  "options_data": {
-    "status": "error",
-    "error_message": "Too Many Requests. Rate limited. Try after a while."
-  },
-  "news_data": {
-    "news": {
-      "status": "no_data"
-    },
-    "recommendations": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
-    }
-  },
-  "holders_data": {
-    "major_holders": {
-      "status": "error"
-    },
-    "institutional_holders": {
-      "status": "error"
-    }
-  },
-  "earnings_data": {
-    "earnings": {
-      "status": "error",
-      "message": "'NoneType' object has no attribute 'empty'"
-    },
-    "calendar": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
-    }
-  }
-}
+      "status": "success",
+      "rows": 35,
+      "columns": [
+        "2022-12-31 00:00:00",
+        "2021-12-31 00:00:00",
+        "2020-12-31 00:00:00"
+      ],
+      "data": [
+        {
+          
