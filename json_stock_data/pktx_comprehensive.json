@@ -1,31 +1,10 @@
 {
   "ticker": "PKTX",
-  "timestamp": "2025-11-19T04:30:48.193149",
+  "timestamp": "2025-11-20T05:08:46.888053",
   "intraday_data": {
     "status": "success",
-    "rows": 5,
+    "rows": 2,
     "data": [
-      {
-        "Close": 0.005799999926239252,
-        "High": 0.005799999926239252,
-        "Low": 0.005799999926239252,
-        "Open": 0.005799999926239252,
-        "Volume": 0
-      },
-      {
-        "Close": 0.005900000222027302,
-        "High": 0.005900000222027302,
-        "Low": 0.005900000222027302,
-        "Open": 0.005900000222027302,
-        "Volume": 100000
-      },
-      {
-        "Close": 0.006000000052154064,
-        "High": 0.006000000052154064,
-        "Low": 0.006000000052154064,
-        "Open": 0.006000000052154064,
-        "Volume": 325000
-      },
       {
         "Close": 0.006000000052154064,
         "High": 0.006000000052154064,
@@ -48,14 +27,44 @@
   },
   "financials": {
     "income_statement": {
-      "status": "success",
-      "rows": 33,
-      "columns": [
-        "2024-12-31 00:00:00",
-        "2023-12-31 00:00:00",
-        "2022-12-31 00:00:00",
-        "2021-12-31 00:00:00"
-      ],
-      "data": [
-        {
-          
+      "status": "no_data"
+    },
+    "balance_sheet": {
+      "status": "no_data"
+    },
+    "cash_flow": {
+      "status": "no_data"
+    }
+  },
+  "options_data": {
+    "status": "error",
+    "error_message": "Too Many Requests. Rate limited. Try after a while."
+  },
+  "news_data": {
+    "news": {
+      "status": "no_data"
+    },
+    "recommendations": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  },
+  "holders_data": {
+    "major_holders": {
+      "status": "error"
+    },
+    "institutional_holders": {
+      "status": "error"
+    }
+  },
+  "earnings_data": {
+    "earnings": {
+      "status": "error",
+      "message": "'NoneType' object has no attribute 'empty'"
+    },
+    "calendar": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  }
+}

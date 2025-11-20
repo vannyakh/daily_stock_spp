@@ -1,55 +1,179 @@
 {
   "ticker": "ADXN",
-  "timestamp": "2025-11-19T04:29:33.126158",
+  "timestamp": "2025-11-20T05:05:33.513932",
   "intraday_data": {
-    "status": "success",
-    "rows": 4,
-    "data": [
-      {
-        "Close": 8.501500129699707,
-        "High": 8.501500129699707,
-        "Low": 8.501500129699707,
-        "Open": 8.501500129699707,
-        "Volume": 0
-      },
-      {
-        "Close": 8.399999618530273,
-        "High": 8.399999618530273,
-        "Low": 8.399999618530273,
-        "Open": 8.399999618530273,
-        "Volume": 0
-      },
-      {
-        "Close": 8.600000381469727,
-        "High": 8.979999542236328,
-        "Low": 8.600000381469727,
-        "Open": 8.600000381469727,
-        "Volume": 1703
-      },
-      {
-        "Close": 8.95989990234375,
-        "High": 8.95989990234375,
-        "Low": 8.95989990234375,
-        "Open": 8.95989990234375,
-        "Volume": 627
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
-    "message": "argument of type 'NoneType' is not iterable"
+    "message": "Too Many Requests. Rate limited. Try after a while."
   },
   "financials": {
     "income_statement": {
+      "status": "no_data"
+    },
+    "balance_sheet": {
+      "status": "no_data"
+    },
+    "cash_flow": {
+      "status": "no_data"
+    }
+  },
+  "options_data": {
+    "status": "error",
+    "error_message": "Too Many Requests. Rate limited. Try after a while."
+  },
+  "news_data": {
+    "news": {
       "status": "success",
-      "rows": 50,
-      "columns": [
-        "2024-12-31 00:00:00",
-        "2023-12-31 00:00:00",
-        "2022-12-31 00:00:00",
-        "2021-12-31 00:00:00",
-        "2020-12-31 00:00:00"
-      ],
+      "count": 2,
       "data": [
         {
-          
+          "id": "dc35b2aa-015c-36a7-b710-80706841dfb8",
+          "content": {
+            "id": "dc35b2aa-015c-36a7-b710-80706841dfb8",
+            "contentType": "STORY",
+            "title": "Addex Therapeutics Ltd (ADXN) Q2 2025 Earnings Call Highlights: Strategic Advances Amid ...",
+            "description": "",
+            "summary": "Despite a decrease in income and rising liabilities, Addex Therapeutics Ltd (ADXN) makes significant strides in drug development and strategic partnerships.",
+            "pubDate": "2025-10-01T21:01:16Z",
+            "displayTime": "2025-10-01T21:01:16Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": {
+              "originalUrl": "https://media.zenfs.com/en/us.finance.gurufocus/75b1c4ef3340f7a8f73636eb3851ee7a",
+              "originalWidth": 400,
+              "originalHeight": 400,
+              "caption": "",
+              "resolutions": [
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/P.8Ui4MAK2JC.ndaWXPlYQ--~B/aD00MDA7dz00MDA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/us.finance.gurufocus/75b1c4ef3340f7a8f73636eb3851ee7a",
+                  "width": 400,
+                  "height": 400,
+                  "tag": "original"
+                },
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/iX8BiUtwTPt4BbOfJ9G8Og--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/us.finance.gurufocus/75b1c4ef3340f7a8f73636eb3851ee7a",
+                  "width": 170,
+                  "height": 128,
+                  "tag": "170x128"
+                }
+              ]
+            },
+            "provider": {
+              "displayName": "GuruFocus.com",
+              "url": "http://www.gurufocus.com/"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/addex-therapeutics-ltd-adxn-q2-210116227.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/addex-therapeutics-ltd-adxn-q2-210116227.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        },
+        {
+          "id": "992af0e4-9704-3e3e-8521-12ffa6b9ea66",
+          "content": {
+            "id": "992af0e4-9704-3e3e-8521-12ffa6b9ea66",
+            "contentType": "STORY",
+            "title": "European Market Insights: Addex Therapeutics Among 3 Promising Penny Stocks",
+            "description": "",
+            "summary": "The European stock market has shown resilience, with the pan-European STOXX Europe 600 Index rising amid expectations of a potential rate cut by the U.S. Federal Reserve. As investors navigate these shifting economic landscapes, penny stocks emerge as an intriguing area of focus, offering opportunities in smaller or newer companies at lower price points. Despite being considered a throwback term, penny stocks can still represent valuable investment prospects when backed by strong financials...",
+            "pubDate": "2025-09-15T11:05:10Z",
+            "displayTime": "2025-09-15T11:05:10Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": {
+              "originalUrl": "https://media.zenfs.com/en/simply_wall_st__316/8e5b7feff946a5236949391477b36a92",
+              "originalWidth": 1194,
+              "originalHeight": 432,
+              "caption": "",
+              "resolutions": [
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/Nfz5wAhClXK3VMdDWSwWPw--~B/aD00MzI7dz0xMTk0O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/simply_wall_st__316/8e5b7feff946a5236949391477b36a92",
+                  "width": 1194,
+                  "height": 432,
+                  "tag": "original"
+                },
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/GRPjoIeyK4y9lfcsISybXQ--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/simply_wall_st__316/8e5b7feff946a5236949391477b36a92",
+                  "width": 170,
+                  "height": 128,
+                  "tag": "170x128"
+                }
+              ]
+            },
+            "provider": {
+              "displayName": "Simply Wall St.",
+              "url": "https://simplywall.st/"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/european-market-insights-addex-therapeutics-110510987.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/european-market-insights-addex-therapeutics-110510987.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        }
+      ]
+    },
+    "recommendations": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  },
+  "holders_data": {
+    "major_holders": {
+      "status": "error"
+    },
+    "institutional_holders": {
+      "status": "error"
+    }
+  },
+  "earnings_data": {
+    "earnings": {
+      "status": "error",
+      "message": "'NoneType' object has no attribute 'empty'"
+    },
+    "calendar": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  }
+}

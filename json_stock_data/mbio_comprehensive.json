@@ -1,74 +1,9 @@
 {
   "ticker": "MBIO",
-  "timestamp": "2025-11-19T04:29:43.872661",
+  "timestamp": "2025-11-20T05:06:03.932228",
   "intraday_data": {
-    "status": "success",
-    "rows": 9,
-    "data": [
-      {
-        "Close THMG": 0.6399999856948853,
-        "High THMG": 0.6399999856948853,
-        "Low THMG": 0.6399999856948853,
-        "Open THMG": 0.6399999856948853,
-        "Volume THMG": 0
-      },
-      {
-        "Close THMG": 0.6299999952316284,
-        "High THMG": 0.6299999952316284,
-        "Low THMG": 0.6299999952316284,
-        "Open THMG": 0.6299999952316284,
-        "Volume THMG": 100
-      },
-      {
-        "Close THMG": 0.6399999856948853,
-        "High THMG": 0.6399999856948853,
-        "Low THMG": 0.6399999856948853,
-        "Open THMG": 0.6399999856948853,
-        "Volume THMG": 1525
-      },
-      {
-        "Close THMG": 0.6800000071525574,
-        "High THMG": 0.6800000071525574,
-        "Low THMG": 0.6800000071525574,
-        "Open THMG": 0.6800000071525574,
-        "Volume THMG": 3000
-      },
-      {
-        "Close THMG": 0.6611999869346619,
-        "High THMG": 0.6611999869346619,
-        "Low THMG": 0.6611999869346619,
-        "Open THMG": 0.6611999869346619,
-        "Volume THMG": 4000
-      },
-      {
-        "Close THMG": 0.6611999869346619,
-        "High THMG": 0.6611999869346619,
-        "Low THMG": 0.6611999869346619,
-        "Open THMG": 0.6611999869346619,
-        "Volume THMG": 1000
-      },
-      {
-        "Close THMG": 0.6019999980926514,
-        "High THMG": 0.6019999980926514,
-        "Low THMG": 0.6019999980926514,
-        "Open THMG": 0.6019999980926514,
-        "Volume THMG": 0
-      },
-      {
-        "Close THMG": 0.5924999713897705,
-        "High THMG": 0.5924999713897705,
-        "Low THMG": 0.5924999713897705,
-        "Open THMG": 0.5924999713897705,
-        "Volume THMG": 3500
-      },
-      {
-        "Close THMG": 0.6000000238418579,
-        "High THMG": 0.6000000238418579,
-        "Low THMG": 0.6000000238418579,
-        "Open THMG": 0.6000000238418579,
-        "Volume THMG": 1500
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -76,89 +11,14 @@
   },
   "financials": {
     "income_statement": {
-      "status": "no_data"
-    },
-    "balance_sheet": {
-      "status": "no_data"
-    },
-    "cash_flow": {
-      "status": "no_data"
-    }
-  },
-  "options_data": {
-    "status": "error",
-    "error_message": "Too Many Requests. Rate limited. Try after a while."
-  },
-  "news_data": {
-    "news": {
       "status": "success",
-      "count": 1,
+      "rows": 45,
+      "columns": [
+        "2024-12-31 00:00:00",
+        "2023-12-31 00:00:00",
+        "2022-12-31 00:00:00",
+        "2021-12-31 00:00:00"
+      ],
       "data": [
         {
-          "id": "247dc28e-6f4e-32d5-bfb1-de5e8ccec5cf",
-          "content": {
-            "id": "247dc28e-6f4e-32d5-bfb1-de5e8ccec5cf",
-            "contentType": "STORY",
-            "title": "Wall Street Set to Open Lower Wednesday as Jobs Data Misses Forecasts",
-            "description": "",
-            "summary": "US stocks look set to open lower in Wednesday's trading session as key employment data missed analys",
-            "pubDate": "2025-07-02T13:13:21Z",
-            "displayTime": "2025-07-02T13:13:21Z",
-            "isHosted": true,
-            "bypassModal": false,
-            "previewUrl": null,
-            "thumbnail": null,
-            "provider": {
-              "displayName": "MT Newswires",
-              "url": "https://www.mtnewswires.com/"
-            },
-            "canonicalUrl": {
-              "url": "https://finance.yahoo.com/news/wall-street-set-open-lower-131321998.html",
-              "site": "finance",
-              "region": "US",
-              "lang": "en-US"
-            },
-            "clickThroughUrl": {
-              "url": "https://finance.yahoo.com/news/wall-street-set-open-lower-131321998.html",
-              "site": "finance",
-              "region": "US",
-              "lang": "en-US"
-            },
-            "metadata": {
-              "editorsPick": false
-            },
-            "finance": {
-              "premiumFinance": {
-                "isPremiumNews": true,
-                "isPremiumFreeNews": false
-              }
-            },
-            "storyline": null
-          }
-        }
-      ]
-    },
-    "recommendations": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
-    }
-  },
-  "holders_data": {
-    "major_holders": {
-      "status": "error"
-    },
-    "institutional_holders": {
-      "status": "error"
-    }
-  },
-  "earnings_data": {
-    "earnings": {
-      "status": "error",
-      "message": "'NoneType' object has no attribute 'empty'"
-    },
-    "calendar": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
-    }
-  }
-}
+          

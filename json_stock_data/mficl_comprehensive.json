@@ -1,18 +1,9 @@
 {
   "ticker": "MFICL",
-  "timestamp": "2025-11-19T04:40:52.144667",
+  "timestamp": "2025-11-20T05:35:27.446078",
   "intraday_data": {
-    "status": "success",
-    "rows": 1,
-    "data": [
-      {
-        "Close GLU-PA": 47.150001525878906,
-        "High GLU-PA": 47.16999816894531,
-        "Low GLU-PA": 47.150001525878906,
-        "Open GLU-PA": 47.16999816894531,
-        "Volume GLU-PA": 80
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -30,14 +21,16 @@
     }
   },
   "options_data": {
-    "expirations": []
+    "status": "error",
+    "error_message": "Too Many Requests. Rate limited. Try after a while."
   },
   "news_data": {
     "news": {
       "status": "no_data"
     },
     "recommendations": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   },
   "holders_data": {

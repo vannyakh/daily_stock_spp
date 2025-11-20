@@ -1,90 +1,54 @@
 {
   "ticker": "WELPP",
-  "timestamp": "2025-11-19T04:34:51.369050",
+  "timestamp": "2025-11-20T05:19:14.696889",
   "intraday_data": {
     "status": "no_data",
     "message": "No intraday data available"
   },
   "stock_info": {
-    "status": "success",
-    "data": {
-      "language": "en-US",
-      "region": "US",
-      "quoteType": "EQUITY",
-      "typeDisp": "Equity",
-      "quoteSourceName": "Delayed Quote",
-      "triggerable": false,
-      "customPriceAlertConfidence": "LOW",
-      "currency": "USD",
-      "regularMarketTime": 1763499600,
-      "exchange": "OQB",
-      "messageBoardId": "finmb_3188752",
-      "exchangeTimezoneName": "America/New_York",
-      "exchangeTimezoneShortName": "EST",
-      "gmtOffSetMilliseconds": -18000000,
-      "market": "us_market",
-      "esgPopulated": false,
-      "shortName": "Wisconsin Electric Power Co.",
-      "longName": "Wisconsin Electric Power Company PFD 3.60%",
-      "marketState": "POSTPOST",
-      "sharesOutstanding": 33289300,
-      "bookValue": 103.874,
-      "fiftyDayAverage": 67.053,
-      "fiftyDayAverageChange": -0.85300446,
-      "fiftyDayAverageChangePercent": -0.012721347,
-      "twoHundredDayAverage": 65.47545,
-      "twoHundredDayAverageChange": 0.72454834,
-      "twoHundredDayAverageChangePercent": 0.011065954,
-      "marketCap": 2203751680,
-      "priceToBook": 0.63731056,
-      "sourceInterval": 15,
-      "exchangeDataDelayedBy": 0,
-      "tradeable": false,
-      "cryptoTradeable": false,
-      "regularMarketChangePercent": -1.1940345,
-      "regularMarketPrice": 66.2,
-      "hasPrePostMarketData": false,
-      "firstTradeDateMilliseconds": 765811800000,
-      "priceHint": 2,
-      "regularMarketChange": -0.80000305,
-      "regularMarketDayHigh": 66.98,
-      "regularMarketDayRange": "66.2 - 66.98",
-      "regularMarketDayLow": 66.2,
-      "regularMarketVolume": 610,
-      "regularMarketPreviousClose": 67.0,
-      "bid": 66.0,
-      "ask": 66.98,
-      "bidSize": 325,
-      "askSize": 200,
-      "fullExchangeName": "OTC Markets OTCQB",
-      "financialCurrency": "USD",
-      "regularMarketOpen": 66.5,
-      "averageDailyVolume3Month": 188,
-      "averageDailyVolume10Day": 270,
-      "fiftyTwoWeekLowChange": 4.0899963,
-      "fiftyTwoWeekLowChangePercent": 0.06585085,
-      "fiftyTwoWeekRange": "62.11 - 68.0",
-      "fiftyTwoWeekHighChange": -1.800003,
-      "fiftyTwoWeekHighChangePercent": -0.026470633,
-      "fiftyTwoWeekLow": 62.11,
-      "fiftyTwoWeekHigh": 68.0,
-      "fiftyTwoWeekChangePercent": 3.7151694,
-      "dividendDate": 1748736000,
-      "trailingPE": 6.4895597,
-      "epsTrailingTwelveMonths": 10.201,
-      "symbol": "WELPP"
-    }
+    "status": "error",
+    "message": "Too Many Requests. Rate limited. Try after a while."
   },
   "financials": {
     "income_statement": {
-      "status": "success",
-      "rows": 41,
-      "columns": [
-        "2024-12-31 00:00:00",
-        "2023-12-31 00:00:00",
-        "2022-12-31 00:00:00",
-        "2021-12-31 00:00:00"
-      ],
-      "data": [
-        {
-          
+      "status": "no_data"
+    },
+    "balance_sheet": {
+      "status": "no_data"
+    },
+    "cash_flow": {
+      "status": "no_data"
+    }
+  },
+  "options_data": {
+    "status": "error",
+    "error_message": "Too Many Requests. Rate limited. Try after a while."
+  },
+  "news_data": {
+    "news": {
+      "status": "no_data"
+    },
+    "recommendations": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  },
+  "holders_data": {
+    "major_holders": {
+      "status": "error"
+    },
+    "institutional_holders": {
+      "status": "error"
+    }
+  },
+  "earnings_data": {
+    "earnings": {
+      "status": "error",
+      "message": "'NoneType' object has no attribute 'empty'"
+    },
+    "calendar": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  }
+}

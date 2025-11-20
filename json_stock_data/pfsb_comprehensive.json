@@ -1,24 +1,10 @@
 {
   "ticker": "PFSB",
-  "timestamp": "2025-11-19T04:28:10.593147",
+  "timestamp": "2025-11-20T05:01:58.398044",
   "intraday_data": {
     "status": "success",
-    "rows": 5,
+    "rows": 3,
     "data": [
-      {
-        "Close": 13.350000381469727,
-        "High": 13.350000381469727,
-        "Low": 13.350000381469727,
-        "Open": 13.350000381469727,
-        "Volume": 0
-      },
-      {
-        "Close": 13.390000343322754,
-        "High": 13.390000343322754,
-        "Low": 13.390000343322754,
-        "Open": 13.390000343322754,
-        "Volume": 300
-      },
       {
         "Close": 13.40999984741211,
         "High": 13.40999984741211,
@@ -48,13 +34,44 @@
   },
   "financials": {
     "income_statement": {
-      "status": "success",
-      "rows": 34,
-      "columns": [
-        "2024-12-31 00:00:00",
-        "2023-12-31 00:00:00",
-        "2022-12-31 00:00:00"
-      ],
-      "data": [
-        {
-          
+      "status": "no_data"
+    },
+    "balance_sheet": {
+      "status": "no_data"
+    },
+    "cash_flow": {
+      "status": "no_data"
+    }
+  },
+  "options_data": {
+    "status": "error",
+    "error_message": "Too Many Requests. Rate limited. Try after a while."
+  },
+  "news_data": {
+    "news": {
+      "status": "no_data"
+    },
+    "recommendations": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  },
+  "holders_data": {
+    "major_holders": {
+      "status": "error"
+    },
+    "institutional_holders": {
+      "status": "error"
+    }
+  },
+  "earnings_data": {
+    "earnings": {
+      "status": "error",
+      "message": "'NoneType' object has no attribute 'empty'"
+    },
+    "calendar": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  }
+}

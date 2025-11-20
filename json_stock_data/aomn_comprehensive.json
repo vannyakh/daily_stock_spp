@@ -1,53 +1,9 @@
 {
   "ticker": "AOMN",
-  "timestamp": "2025-11-19T04:39:34.982865",
+  "timestamp": "2025-11-20T05:32:01.687061",
   "intraday_data": {
-    "status": "success",
-    "rows": 6,
-    "data": [
-      {
-        "Close COEPW": 0.013199999928474426,
-        "High COEPW": 0.013199999928474426,
-        "Low COEPW": 0.013199999928474426,
-        "Open COEPW": 0.013199999928474426,
-        "Volume COEPW": 0
-      },
-      {
-        "Close COEPW": 0.013700000010430813,
-        "High COEPW": 0.013700000010430813,
-        "Low COEPW": 0.013700000010430813,
-        "Open COEPW": 0.013700000010430813,
-        "Volume COEPW": 1001
-      },
-      {
-        "Close COEPW": 0.013899999670684338,
-        "High COEPW": 0.013899999670684338,
-        "Low COEPW": 0.013700000010430813,
-        "Open COEPW": 0.013700000010430813,
-        "Volume COEPW": 4300
-      },
-      {
-        "Close COEPW": 0.013899999670684338,
-        "High COEPW": 0.013899999670684338,
-        "Low COEPW": 0.013899999670684338,
-        "Open COEPW": 0.013899999670684338,
-        "Volume COEPW": 5185
-      },
-      {
-        "Close COEPW": 0.013700000010430813,
-        "High COEPW": 0.013899999670684338,
-        "Low COEPW": 0.013700000010430813,
-        "Open COEPW": 0.013700000010430813,
-        "Volume COEPW": 21613
-      },
-      {
-        "Close COEPW": 0.013799999840557575,
-        "High COEPW": 0.013799999840557575,
-        "Low COEPW": 0.013799999840557575,
-        "Open COEPW": 0.013799999840557575,
-        "Volume COEPW": 0
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -73,7 +29,8 @@
       "status": "no_data"
     },
     "recommendations": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   },
   "holders_data": {

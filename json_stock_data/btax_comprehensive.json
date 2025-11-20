@@ -1,46 +1,9 @@
 {
   "ticker": "BTAX",
-  "timestamp": "2025-11-19T04:31:47.204916",
+  "timestamp": "2025-11-20T05:11:31.289794",
   "intraday_data": {
-    "status": "success",
-    "rows": 5,
-    "data": [
-      {
-        "Close EBZT": 0.20000000298023224,
-        "High EBZT": 0.20000000298023224,
-        "Low EBZT": 0.20000000298023224,
-        "Open EBZT": 0.20000000298023224,
-        "Volume EBZT": 0
-      },
-      {
-        "Close EBZT": 0.1907999962568283,
-        "High EBZT": 0.20100000500679016,
-        "Low EBZT": 0.1907999962568283,
-        "Open EBZT": 0.20100000500679016,
-        "Volume EBZT": 5450
-      },
-      {
-        "Close EBZT": 0.1770000010728836,
-        "High EBZT": 0.1770000010728836,
-        "Low EBZT": 0.1770000010728836,
-        "Open EBZT": 0.1770000010728836,
-        "Volume EBZT": 2400
-      },
-      {
-        "Close EBZT": 0.23000000417232513,
-        "High EBZT": 0.23000000417232513,
-        "Low EBZT": 0.23000000417232513,
-        "Open EBZT": 0.23000000417232513,
-        "Volume EBZT": 0
-      },
-      {
-        "Close EBZT": 0.17800000309944153,
-        "High EBZT": 0.17800000309944153,
-        "Low EBZT": 0.17800000309944153,
-        "Open EBZT": 0.17800000309944153,
-        "Volume EBZT": 5000
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -66,7 +29,8 @@
       "status": "no_data"
     },
     "recommendations": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   },
   "holders_data": {

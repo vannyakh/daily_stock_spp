@@ -1,10 +1,9 @@
 {
   "ticker": "CNBX",
-  "timestamp": "2025-11-19T04:32:06.395961",
+  "timestamp": "2025-11-20T05:12:22.475025",
   "intraday_data": {
-    "status": "success",
-    "rows": 0,
-    "data": []
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -22,7 +21,8 @@
     }
   },
   "options_data": {
-    "expirations": []
+    "status": "error",
+    "error_message": "Too Many Requests. Rate limited. Try after a while."
   },
   "news_data": {
     "news": {

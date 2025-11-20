@@ -1,24 +1,10 @@
 {
   "ticker": "TRTN-PA",
-  "timestamp": "2025-11-19T04:34:50.651558",
+  "timestamp": "2025-11-20T05:19:13.826968",
   "intraday_data": {
     "status": "success",
-    "rows": 38,
+    "rows": 50,
     "data": [
-      {
-        "Close": 25.75,
-        "High": 25.799999237060547,
-        "Low": 25.75,
-        "Open": 25.799999237060547,
-        "Volume": 0
-      },
-      {
-        "Close": 25.8700008392334,
-        "High": 25.8700008392334,
-        "Low": 25.770000457763672,
-        "Open": 25.770000457763672,
-        "Volume": 936
-      },
       {
         "Close": 25.969999313354492,
         "High": 25.969999313354492,
@@ -270,6 +256,104 @@
         "Low": 25.739999771118164,
         "Open": 25.75,
         "Volume": 5142
+      },
+      {
+        "Close": 25.780000686645508,
+        "High": 25.780000686645508,
+        "Low": 25.780000686645508,
+        "Open": 25.780000686645508,
+        "Volume": 0
+      },
+      {
+        "Close": 25.75,
+        "High": 25.770000457763672,
+        "Low": 25.75,
+        "Open": 25.770000457763672,
+        "Volume": 200
+      },
+      {
+        "Close": 25.7593994140625,
+        "High": 25.7593994140625,
+        "Low": 25.7593994140625,
+        "Open": 25.7593994140625,
+        "Volume": 200
+      },
+      {
+        "Close": 25.760000228881836,
+        "High": 25.760000228881836,
+        "Low": 25.750600814819336,
+        "Open": 25.750600814819336,
+        "Volume": 200
+      },
+      {
+        "Close": 25.740100860595703,
+        "High": 25.740100860595703,
+        "Low": 25.740100860595703,
+        "Open": 25.740100860595703,
+        "Volume": 471
+      },
+      {
+        "Close": 25.739999771118164,
+        "High": 25.739999771118164,
+        "Low": 25.739999771118164,
+        "Open": 25.739999771118164,
+        "Volume": 258
+      },
+      {
+        "Close": 25.736299514770508,
+        "High": 25.736299514770508,
+        "Low": 25.736299514770508,
+        "Open": 25.736299514770508,
+        "Volume": 443
+      },
+      {
+        "Close": 25.709999084472656,
+        "High": 25.709999084472656,
+        "Low": 25.709999084472656,
+        "Open": 25.709999084472656,
+        "Volume": 200
+      },
+      {
+        "Close": 25.739999771118164,
+        "High": 25.739999771118164,
+        "Low": 25.739999771118164,
+        "Open": 25.739999771118164,
+        "Volume": 198
+      },
+      {
+        "Close": 25.749900817871094,
+        "High": 25.749900817871094,
+        "Low": 25.749900817871094,
+        "Open": 25.749900817871094,
+        "Volume": 250
+      },
+      {
+        "Close": 25.75,
+        "High": 25.75,
+        "Low": 25.75,
+        "Open": 25.75,
+        "Volume": 1201
+      },
+      {
+        "Close": 25.75,
+        "High": 25.75,
+        "Low": 25.75,
+        "Open": 25.75,
+        "Volume": 2269
+      },
+      {
+        "Close": 25.75,
+        "High": 25.75,
+        "Low": 25.75,
+        "Open": 25.75,
+        "Volume": 914
+      },
+      {
+        "Close": 25.7450008392334,
+        "High": 25.75,
+        "Low": 25.7450008392334,
+        "Open": 25.75,
+        "Volume": 985
       }
     ]
   },
@@ -297,39 +381,16 @@
       "status": "no_data"
     },
     "recommendations": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   },
   "holders_data": {
     "major_holders": {
-      "status": "success",
-      "data": [
-        {
-          "Value": 0.0
-        },
-        {
-          "Value": 0.0
-        },
-        {
-          "Value": 0.0
-        },
-        {
-          "Value": 0.0
-        }
-      ]
+      "status": "error"
     },
     "institutional_holders": {
-      "status": "success",
-      "data": [
-        {
-          "Date Reported": "2023-12-31 00:00:00",
-          "Holder": "Uniplan Investment Counsel, Inc.",
-          "pctHeld": 0.0354,
-          "Shares": 106336,
-          "Value": 2737769,
-          "pctChange": 1.0
-        }
-      ]
+      "status": "error"
     }
   },
   "earnings_data": {
@@ -339,7 +400,7 @@
     },
     "calendar": {
       "status": "error",
-      "message": "'dict' object has no attribute 'empty'"
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   }
 }

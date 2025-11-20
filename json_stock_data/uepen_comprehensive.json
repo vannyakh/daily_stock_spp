@@ -1,25 +1,9 @@
 {
   "ticker": "UEPEN",
-  "timestamp": "2025-11-19T04:34:26.493183",
+  "timestamp": "2025-11-20T05:18:14.210896",
   "intraday_data": {
-    "status": "success",
-    "rows": 2,
-    "data": [
-      {
-        "Close": 59.79999923706055,
-        "High": 59.79999923706055,
-        "Low": 59.79999923706055,
-        "Open": 59.79999923706055,
-        "Volume": 0
-      },
-      {
-        "Close": 59.75,
-        "High": 59.75,
-        "Low": 59.75,
-        "Open": 59.75,
-        "Volume": 100
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -33,38 +17,15 @@
       "status": "no_data"
     },
     "cash_flow": {
-      "status": "no_data"
-    }
-  },
-  "options_data": {
-    "status": "error",
-    "error_message": "Too Many Requests. Rate limited. Try after a while."
-  },
-  "news_data": {
-    "news": {
-      "status": "no_data"
-    },
-    "recommendations": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
-    }
-  },
-  "holders_data": {
-    "major_holders": {
-      "status": "error"
-    },
-    "institutional_holders": {
-      "status": "error"
-    }
-  },
-  "earnings_data": {
-    "earnings": {
-      "status": "error",
-      "message": "'NoneType' object has no attribute 'empty'"
-    },
-    "calendar": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
-    }
-  }
-}
+      "status": "success",
+      "rows": 50,
+      "columns": [
+        "2024-12-31 00:00:00",
+        "2023-12-31 00:00:00",
+        "2022-12-31 00:00:00",
+        "2021-12-31 00:00:00",
+        "2020-12-31 00:00:00"
+      ],
+      "data": [
+        {
+          

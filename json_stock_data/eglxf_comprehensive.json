@@ -1,95 +1,78 @@
 {
   "ticker": "EGLXF",
-  "timestamp": "2025-11-19T04:35:49.526479",
+  "timestamp": "2025-11-20T05:21:49.849824",
   "intraday_data": {
     "status": "success",
-    "rows": 10,
+    "rows": 3,
     "data": [
       {
-        "Close SALM": 0.550000011920929,
-        "High SALM": 0.550000011920929,
-        "Low SALM": 0.550000011920929,
-        "Open SALM": 0.550000011920929,
-        "Volume SALM": 0
+        "Close": 0.03999999910593033,
+        "High": 0.03999999910593033,
+        "Low": 0.03999999910593033,
+        "Open": 0.03999999910593033,
+        "Volume": 0
       },
       {
-        "Close SALM": 0.5099999904632568,
-        "High SALM": 0.5099999904632568,
-        "Low SALM": 0.5099999904632568,
-        "Open SALM": 0.5099999904632568,
-        "Volume SALM": 970
+        "Close": 0.03999999910593033,
+        "High": 0.03999999910593033,
+        "Low": 0.03999999910593033,
+        "Open": 0.03999999910593033,
+        "Volume": 2000
       },
       {
-        "Close SALM": 0.5199999809265137,
-        "High SALM": 0.5199999809265137,
-        "Low SALM": 0.5199999809265137,
-        "Open SALM": 0.5199999809265137,
-        "Volume SALM": 6000
-      },
-      {
-        "Close SALM": 0.5199999809265137,
-        "High SALM": 0.5199999809265137,
-        "Low SALM": 0.5199999809265137,
-        "Open SALM": 0.5199999809265137,
-        "Volume SALM": 16000
-      },
-      {
-        "Close SALM": 0.550000011920929,
-        "High SALM": 0.550000011920929,
-        "Low SALM": 0.550000011920929,
-        "Open SALM": 0.550000011920929,
-        "Volume SALM": 700
-      },
-      {
-        "Close SALM": 0.5498999953269958,
-        "High SALM": 0.5498999953269958,
-        "Low SALM": 0.5498999953269958,
-        "Open SALM": 0.5498999953269958,
-        "Volume SALM": 1000
-      },
-      {
-        "Close SALM": 0.5299999713897705,
-        "High SALM": 0.5299999713897705,
-        "Low SALM": 0.5299999713897705,
-        "Open SALM": 0.5299999713897705,
-        "Volume SALM": 0
-      },
-      {
-        "Close SALM": 0.550000011920929,
-        "High SALM": 0.550000011920929,
-        "Low SALM": 0.550000011920929,
-        "Open SALM": 0.550000011920929,
-        "Volume SALM": 4000
-      },
-      {
-        "Close SALM": 0.5299999713897705,
-        "High SALM": 0.5299999713897705,
-        "Low SALM": 0.5299999713897705,
-        "Open SALM": 0.5299999713897705,
-        "Volume SALM": 800
-      },
-      {
-        "Close SALM": 0.5400000214576721,
-        "High SALM": 0.5400000214576721,
-        "Low SALM": 0.5400000214576721,
-        "Open SALM": 0.5400000214576721,
-        "Volume SALM": 4280
+        "Close": 0.039000000804662704,
+        "High": 0.039000000804662704,
+        "Low": 0.039000000804662704,
+        "Open": 0.039000000804662704,
+        "Volume": 20000
       }
     ]
   },
   "stock_info": {
     "status": "error",
-    "message": "argument of type 'NoneType' is not iterable"
+    "message": "Too Many Requests. Rate limited. Try after a while."
   },
   "financials": {
     "income_statement": {
-      "status": "success",
-      "rows": 54,
-      "columns": [
-        "2022-12-31 00:00:00",
-        "2021-12-31 00:00:00",
-        "2020-12-31 00:00:00"
-      ],
-      "data": [
-        {
-          
+      "status": "no_data"
+    },
+    "balance_sheet": {
+      "status": "no_data"
+    },
+    "cash_flow": {
+      "status": "no_data"
+    }
+  },
+  "options_data": {
+    "status": "error",
+    "error_message": "Too Many Requests. Rate limited. Try after a while."
+  },
+  "news_data": {
+    "news": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    },
+    "recommendations": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  },
+  "holders_data": {
+    "major_holders": {
+      "status": "error"
+    },
+    "institutional_holders": {
+      "status": "error"
+    }
+  },
+  "earnings_data": {
+    "earnings": {
+      "status": "error",
+      "message": "'NoneType' object has no attribute 'empty'"
+    },
+    "calendar": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  }
+}

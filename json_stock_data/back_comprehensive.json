@@ -1,6 +1,6 @@
 {
   "ticker": "BACK",
-  "timestamp": "2025-11-19T04:31:10.154494",
+  "timestamp": "2025-11-20T05:09:46.433929",
   "intraday_data": {
     "status": "success",
     "rows": 3,
@@ -13,18 +13,18 @@
         "Volume": 0
       },
       {
-        "Close": 0.05000000074505806,
-        "High": 0.05000000074505806,
-        "Low": 0.05000000074505806,
-        "Open": 0.05000000074505806,
-        "Volume": 3
-      },
-      {
         "Close": 0.06700000166893005,
         "High": 0.06700000166893005,
         "Low": 0.06700000166893005,
         "Open": 0.06700000166893005,
         "Volume": 7
+      },
+      {
+        "Close": 0.06689999997615814,
+        "High": 0.06689999997615814,
+        "Low": 0.06689999997615814,
+        "Open": 0.06689999997615814,
+        "Volume": 110
       }
     ]
   },
@@ -40,38 +40,15 @@
       "status": "no_data"
     },
     "cash_flow": {
-      "status": "no_data"
-    }
-  },
-  "options_data": {
-    "status": "error",
-    "error_message": "Too Many Requests. Rate limited. Try after a while."
-  },
-  "news_data": {
-    "news": {
-      "status": "no_data"
-    },
-    "recommendations": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
-    }
-  },
-  "holders_data": {
-    "major_holders": {
-      "status": "error"
-    },
-    "institutional_holders": {
-      "status": "error"
-    }
-  },
-  "earnings_data": {
-    "earnings": {
-      "status": "error",
-      "message": "'NoneType' object has no attribute 'empty'"
-    },
-    "calendar": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
-    }
-  }
-}
+      "status": "success",
+      "rows": 59,
+      "columns": [
+        "2024-12-31 00:00:00",
+        "2023-12-31 00:00:00",
+        "2022-12-31 00:00:00",
+        "2021-12-31 00:00:00",
+        "2020-12-31 00:00:00"
+      ],
+      "data": [
+        {
+          

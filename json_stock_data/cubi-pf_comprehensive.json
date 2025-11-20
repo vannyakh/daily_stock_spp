@@ -1,53 +1,9 @@
 {
   "ticker": "CUBI-PF",
-  "timestamp": "2025-11-19T04:35:14.276954",
+  "timestamp": "2025-11-20T05:20:15.657814",
   "intraday_data": {
-    "status": "success",
-    "rows": 6,
-    "data": [
-      {
-        "Close ECCX": 24.709999084472656,
-        "High ECCX": 24.709999084472656,
-        "Low ECCX": 24.709999084472656,
-        "Open ECCX": 24.709999084472656,
-        "Volume ECCX": 0
-      },
-      {
-        "Close ECCX": 24.760000228881836,
-        "High ECCX": 24.760000228881836,
-        "Low ECCX": 24.760000228881836,
-        "Open ECCX": 24.760000228881836,
-        "Volume ECCX": 346
-      },
-      {
-        "Close ECCX": 24.84000015258789,
-        "High ECCX": 24.84000015258789,
-        "Low ECCX": 24.84000015258789,
-        "Open ECCX": 24.84000015258789,
-        "Volume ECCX": 0
-      },
-      {
-        "Close ECCX": 24.920000076293945,
-        "High ECCX": 24.920000076293945,
-        "Low ECCX": 24.8700008392334,
-        "Open ECCX": 24.8700008392334,
-        "Volume ECCX": 750
-      },
-      {
-        "Close ECCX": 24.86989974975586,
-        "High ECCX": 24.86989974975586,
-        "Low ECCX": 24.86989974975586,
-        "Open ECCX": 24.86989974975586,
-        "Volume ECCX": 437
-      },
-      {
-        "Close ECCX": 24.889999389648438,
-        "High ECCX": 24.889999389648438,
-        "Low ECCX": 24.889999389648438,
-        "Open ECCX": 24.889999389648438,
-        "Volume ECCX": 508
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -686,7 +642,8 @@
       ]
     },
     "recommendations": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   },
   "holders_data": {

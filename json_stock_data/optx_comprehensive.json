@@ -1,18 +1,9 @@
 {
   "ticker": "OPTX",
-  "timestamp": "2025-11-19T04:25:11.540304",
+  "timestamp": "2025-11-20T04:54:15.250486",
   "intraday_data": {
-    "status": "success",
-    "rows": 1,
-    "data": [
-      {
-        "Close DWNX": 21.0,
-        "High DWNX": 21.0,
-        "Low DWNX": 21.0,
-        "Open DWNX": 21.0,
-        "Volume DWNX": 0
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -36,8 +27,69 @@
   "news_data": {
     "news": {
       "status": "success",
-      "count": 6,
+      "count": 7,
       "data": [
+        {
+          "id": "913c9f96-9d53-36d3-b817-611f04e18114",
+          "content": {
+            "id": "913c9f96-9d53-36d3-b817-611f04e18114",
+            "contentType": "STORY",
+            "title": "OPTX Incurs Q3 Loss Due to High Labor Costs, Stock Down 31%",
+            "description": "",
+            "summary": "Syntec Optics' Q3 results grapple with rising labor and overhead costs, audit fees, and cash constraints. Despite these pressures, the company projects stronger Q4 revenues from key growth sectors.",
+            "pubDate": "2025-11-19T18:24:00Z",
+            "displayTime": "2025-11-19T18:24:00Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": {
+              "originalUrl": "https://media.zenfs.com/en/zacks.com/c04fa10cfb24515e5fe8fc912bd81a3a",
+              "originalWidth": 635,
+              "originalHeight": 400,
+              "caption": "",
+              "resolutions": [
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/PHAQWn.zDysu9O2JdCx9fg--~B/aD00MDA7dz02MzU7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/zacks.com/c04fa10cfb24515e5fe8fc912bd81a3a",
+                  "width": 635,
+                  "height": 400,
+                  "tag": "original"
+                },
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/lfsRoGpwLTX0Nu_paEh4BA--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/zacks.com/c04fa10cfb24515e5fe8fc912bd81a3a",
+                  "width": 170,
+                  "height": 128,
+                  "tag": "170x128"
+                }
+              ]
+            },
+            "provider": {
+              "displayName": "Zacks",
+              "url": "http://www.zacks.com/"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/optx-incurs-q3-loss-due-182400272.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/optx-incurs-q3-loss-due-182400272.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        },
         {
           "id": "84dadf88-54be-31cc-acd4-8870d3aef5a9",
           "content": {
@@ -394,10 +446,10 @@
   },
   "holders_data": {
     "major_holders": {
-      "status": "error"
+      "status": "no_data"
     },
     "institutional_holders": {
-      "status": "error"
+      "status": "no_data"
     }
   },
   "earnings_data": {

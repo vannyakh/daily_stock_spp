@@ -1,67 +1,9 @@
 {
   "ticker": "BEPJ",
-  "timestamp": "2025-11-19T04:40:57.390338",
+  "timestamp": "2025-11-20T05:35:42.762395",
   "intraday_data": {
-    "status": "success",
-    "rows": 8,
-    "data": [
-      {
-        "Close BEP-PA": 17.780000686645508,
-        "High BEP-PA": 17.780000686645508,
-        "Low BEP-PA": 17.780000686645508,
-        "Open BEP-PA": 17.780000686645508,
-        "Volume BEP-PA": 0
-      },
-      {
-        "Close BEP-PA": 17.829999923706055,
-        "High BEP-PA": 17.829999923706055,
-        "Low BEP-PA": 17.829999923706055,
-        "Open BEP-PA": 17.829999923706055,
-        "Volume BEP-PA": 195
-      },
-      {
-        "Close BEP-PA": 17.834999084472656,
-        "High BEP-PA": 17.834999084472656,
-        "Low BEP-PA": 17.834999084472656,
-        "Open BEP-PA": 17.834999084472656,
-        "Volume BEP-PA": 100
-      },
-      {
-        "Close BEP-PA": 17.815000534057617,
-        "High BEP-PA": 17.815000534057617,
-        "Low BEP-PA": 17.815000534057617,
-        "Open BEP-PA": 17.815000534057617,
-        "Volume BEP-PA": 100
-      },
-      {
-        "Close BEP-PA": 17.75,
-        "High BEP-PA": 17.75,
-        "Low BEP-PA": 17.75,
-        "Open BEP-PA": 17.75,
-        "Volume BEP-PA": 206
-      },
-      {
-        "Close BEP-PA": 17.834999084472656,
-        "High BEP-PA": 17.834999084472656,
-        "Low BEP-PA": 17.834999084472656,
-        "Open BEP-PA": 17.834999084472656,
-        "Volume BEP-PA": 200
-      },
-      {
-        "Close BEP-PA": 17.803800582885742,
-        "High BEP-PA": 17.803800582885742,
-        "Low BEP-PA": 17.803800582885742,
-        "Open BEP-PA": 17.803800582885742,
-        "Volume BEP-PA": 326
-      },
-      {
-        "Close BEP-PA": 17.75,
-        "High BEP-PA": 17.75,
-        "Low BEP-PA": 17.75,
-        "Open BEP-PA": 17.75,
-        "Volume BEP-PA": 371
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -84,7 +26,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

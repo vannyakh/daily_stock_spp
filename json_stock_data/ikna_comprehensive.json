@@ -1,6 +1,6 @@
 {
   "ticker": "IKNA",
-  "timestamp": "2025-11-19T04:25:06.547091",
+  "timestamp": "2025-11-20T04:54:03.387011",
   "intraday_data": {
     "status": "no_data",
     "message": "No intraday data available"
@@ -21,8 +21,7 @@
     }
   },
   "options_data": {
-    "status": "error",
-    "error_message": "Too Many Requests. Rate limited. Try after a while."
+    "expirations": []
   },
   "news_data": {
     "news": {
@@ -421,15 +420,16 @@
       ]
     },
     "recommendations": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   },
   "holders_data": {
     "major_holders": {
-      "status": "no_data"
+      "status": "error"
     },
     "institutional_holders": {
-      "status": "no_data"
+      "status": "error"
     }
   },
   "earnings_data": {

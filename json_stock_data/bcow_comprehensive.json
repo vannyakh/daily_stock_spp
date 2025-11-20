@@ -1,32 +1,9 @@
 {
   "ticker": "BCOW",
-  "timestamp": "2025-11-19T04:25:57.774214",
+  "timestamp": "2025-11-20T04:56:12.938002",
   "intraday_data": {
-    "status": "success",
-    "rows": 3,
-    "data": [
-      {
-        "Close": 10.75,
-        "High": 10.760000228881836,
-        "Low": 10.75,
-        "Open": 10.760000228881836,
-        "Volume": 0
-      },
-      {
-        "Close": 10.84000015258789,
-        "High": 10.84000015258789,
-        "Low": 10.84000015258789,
-        "Open": 10.84000015258789,
-        "Volume": 100
-      },
-      {
-        "Close": 10.760000228881836,
-        "High": 10.760000228881836,
-        "Low": 10.760000228881836,
-        "Open": 10.760000228881836,
-        "Volume": 0
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -37,166 +14,14 @@
       "status": "no_data"
     },
     "balance_sheet": {
-      "status": "no_data"
-    },
-    "cash_flow": {
-      "status": "no_data"
-    }
-  },
-  "options_data": {
-    "status": "error",
-    "error_message": "Too Many Requests. Rate limited. Try after a while."
-  },
-  "news_data": {
-    "news": {
       "status": "success",
-      "count": 2,
+      "rows": 43,
+      "columns": [
+        "2023-12-31 00:00:00",
+        "2022-12-31 00:00:00",
+        "2021-12-31 00:00:00",
+        "2020-12-31 00:00:00"
+      ],
       "data": [
         {
-          "id": "bc79d1ad-b654-362a-bff3-f5bf3b713475",
-          "content": {
-            "id": "bc79d1ad-b654-362a-bff3-f5bf3b713475",
-            "contentType": "STORY",
-            "title": "Investing in 1895 Bancorp of Wisconsin (NASDAQ:BCOW) a year ago would have delivered you a 25% gain",
-            "description": "",
-            "summary": "A diverse portfolio of stocks will always have winners and losers. Of course, in an ideal world, all your stocks would...",
-            "pubDate": "2025-02-12T13:13:46Z",
-            "displayTime": "2025-02-12T13:13:46Z",
-            "isHosted": true,
-            "bypassModal": false,
-            "previewUrl": null,
-            "thumbnail": {
-              "originalUrl": "https://media.zenfs.com/en/simply_wall_st__316/0107d648e19bcd04135981178abf00cb",
-              "originalWidth": 1194,
-              "originalHeight": 432,
-              "caption": "",
-              "resolutions": [
-                {
-                  "url": "https://s.yimg.com/uu/api/res/1.2/HbBcRqmcQDbUzr9ugTsjEA--~B/aD00MzI7dz0xMTk0O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/simply_wall_st__316/0107d648e19bcd04135981178abf00cb",
-                  "width": 1194,
-                  "height": 432,
-                  "tag": "original"
-                },
-                {
-                  "url": "https://s.yimg.com/uu/api/res/1.2/G9I8pUAqTkmKu8FNqdcsBg--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/simply_wall_st__316/0107d648e19bcd04135981178abf00cb",
-                  "width": 170,
-                  "height": 128,
-                  "tag": "170x128"
-                }
-              ]
-            },
-            "provider": {
-              "displayName": "Simply Wall St.",
-              "url": "https://simplywall.st/"
-            },
-            "canonicalUrl": {
-              "url": "https://finance.yahoo.com/news/investing-1895-bancorp-wisconsin-nasdaq-131346755.html",
-              "site": "finance",
-              "region": "US",
-              "lang": "en-US"
-            },
-            "clickThroughUrl": {
-              "url": "https://finance.yahoo.com/news/investing-1895-bancorp-wisconsin-nasdaq-131346755.html",
-              "site": "finance",
-              "region": "US",
-              "lang": "en-US"
-            },
-            "metadata": {
-              "editorsPick": false
-            },
-            "finance": {
-              "premiumFinance": {
-                "isPremiumNews": false,
-                "isPremiumFreeNews": false
-              }
-            },
-            "storyline": null
-          }
-        },
-        {
-          "id": "e0f4407d-7bdc-363c-9f03-a38c1b2db323",
-          "content": {
-            "id": "e0f4407d-7bdc-363c-9f03-a38c1b2db323",
-            "contentType": "STORY",
-            "title": "Institutions own 16% of 1895 Bancorp of Wisconsin, Inc. (NASDAQ:BCOW) shares but individual investors control 27% of the company",
-            "description": "",
-            "summary": "Key Insights The considerable ownership by individual investors in 1895 Bancorp of Wisconsin indicates that they...",
-            "pubDate": "2024-11-23T12:27:47Z",
-            "displayTime": "2024-11-23T12:27:47Z",
-            "isHosted": true,
-            "bypassModal": false,
-            "previewUrl": null,
-            "thumbnail": {
-              "originalUrl": "https://media.zenfs.com/en/simply_wall_st__316/0107d648e19bcd04135981178abf00cb",
-              "originalWidth": 1194,
-              "originalHeight": 432,
-              "caption": "",
-              "resolutions": [
-                {
-                  "url": "https://s.yimg.com/uu/api/res/1.2/HbBcRqmcQDbUzr9ugTsjEA--~B/aD00MzI7dz0xMTk0O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/simply_wall_st__316/0107d648e19bcd04135981178abf00cb",
-                  "width": 1194,
-                  "height": 432,
-                  "tag": "original"
-                },
-                {
-                  "url": "https://s.yimg.com/uu/api/res/1.2/G9I8pUAqTkmKu8FNqdcsBg--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/simply_wall_st__316/0107d648e19bcd04135981178abf00cb",
-                  "width": 170,
-                  "height": 128,
-                  "tag": "170x128"
-                }
-              ]
-            },
-            "provider": {
-              "displayName": "Simply Wall St.",
-              "url": "https://simplywall.st/"
-            },
-            "canonicalUrl": {
-              "url": "https://finance.yahoo.com/news/institutions-own-16-1895-bancorp-122747786.html",
-              "site": "finance",
-              "region": "US",
-              "lang": "en-US"
-            },
-            "clickThroughUrl": {
-              "url": "https://finance.yahoo.com/news/institutions-own-16-1895-bancorp-122747786.html",
-              "site": "finance",
-              "region": "US",
-              "lang": "en-US"
-            },
-            "metadata": {
-              "editorsPick": false
-            },
-            "finance": {
-              "premiumFinance": {
-                "isPremiumNews": false,
-                "isPremiumFreeNews": false
-              }
-            },
-            "storyline": null
-          }
-        }
-      ]
-    },
-    "recommendations": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
-    }
-  },
-  "holders_data": {
-    "major_holders": {
-      "status": "error"
-    },
-    "institutional_holders": {
-      "status": "error"
-    }
-  },
-  "earnings_data": {
-    "earnings": {
-      "status": "error",
-      "message": "'NoneType' object has no attribute 'empty'"
-    },
-    "calendar": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
-    }
-  }
-}
+          

@@ -1,26 +1,13 @@
 {
   "ticker": "AIDG",
-  "timestamp": "2025-11-19T04:33:15.394547",
+  "timestamp": "2025-11-20T05:15:31.507945",
   "intraday_data": {
     "status": "no_data",
     "message": "No intraday data available"
   },
   "stock_info": {
-    "status": "success",
-    "data": {
-      "quoteType": "NONE",
-      "symbol": "AIDG",
-      "language": "en-US",
-      "region": "US",
-      "triggerable": false,
-      "customPriceAlertConfidence": "NONE",
-      "tradeable": false,
-      "cryptoTradeable": false,
-      "messageBoardId": "finmb_428063517",
-      "esgPopulated": false,
-      "hasPrePostMarketData": false,
-      "financialCurrency": "USD"
-    }
+    "status": "error",
+    "message": "Too Many Requests. Rate limited. Try after a while."
   },
   "financials": {
     "income_statement": {
@@ -34,7 +21,8 @@
     }
   },
   "options_data": {
-    "expirations": []
+    "status": "error",
+    "error_message": "Too Many Requests. Rate limited. Try after a while."
   },
   "news_data": {
     "news": {
