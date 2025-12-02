@@ -1,25 +1,9 @@
 {
   "ticker": "AXIM",
-  "timestamp": "2025-11-20T05:23:07.431089",
+  "timestamp": "2025-12-02T05:05:33.676772",
   "intraday_data": {
-    "status": "success",
-    "rows": 2,
-    "data": [
-      {
-        "Close": 0.012000000104308128,
-        "High": 0.012000000104308128,
-        "Low": 0.012000000104308128,
-        "Open": 0.012000000104308128,
-        "Volume": 0
-      },
-      {
-        "Close": 0.012500000186264515,
-        "High": 0.012600000016391277,
-        "Low": 0.012500000186264515,
-        "Open": 0.012600000016391277,
-        "Volume": 20000
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -37,7 +21,8 @@
     }
   },
   "options_data": {
-    "expirations": []
+    "status": "error",
+    "error_message": "Too Many Requests. Rate limited. Try after a while."
   },
   "news_data": {
     "news": {

@@ -1,9 +1,32 @@
 {
   "ticker": "IKNA",
-  "timestamp": "2025-11-20T04:54:03.387011",
+  "timestamp": "2025-12-02T04:46:51.577305",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 3,
+    "data": [
+      {
+        "Close BYFC": 6.190000057220459,
+        "High BYFC": 6.190000057220459,
+        "Low BYFC": 6.190000057220459,
+        "Open BYFC": 6.190000057220459,
+        "Volume BYFC": 0
+      },
+      {
+        "Close BYFC": 6.300099849700928,
+        "High BYFC": 6.300099849700928,
+        "Low BYFC": 6.300099849700928,
+        "Open BYFC": 6.300099849700928,
+        "Volume BYFC": 344
+      },
+      {
+        "Close BYFC": 6.364999771118164,
+        "High BYFC": 6.364999771118164,
+        "Low BYFC": 6.364999771118164,
+        "Open BYFC": 6.364999771118164,
+        "Volume BYFC": 488
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -21,7 +44,8 @@
     }
   },
   "options_data": {
-    "expirations": []
+    "status": "error",
+    "error_message": "Too Many Requests. Rate limited. Try after a while."
   },
   "news_data": {
     "news": {

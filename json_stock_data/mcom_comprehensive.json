@@ -1,9 +1,74 @@
 {
   "ticker": "MCOM",
-  "timestamp": "2025-11-20T05:11:25.031697",
+  "timestamp": "2025-12-02T04:58:04.152757",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 9,
+    "data": [
+      {
+        "Close": 0.006000000052154064,
+        "High": 0.006000000052154064,
+        "Low": 0.006000000052154064,
+        "Open": 0.006000000052154064,
+        "Volume": 0
+      },
+      {
+        "Close": 0.006000000052154064,
+        "High": 0.006000000052154064,
+        "Low": 0.006000000052154064,
+        "Open": 0.006000000052154064,
+        "Volume": 6176
+      },
+      {
+        "Close": 0.005549999885261059,
+        "High": 0.005549999885261059,
+        "Low": 0.005549999885261059,
+        "Open": 0.005549999885261059,
+        "Volume": 1
+      },
+      {
+        "Close": 0.006000000052154064,
+        "High": 0.006000000052154064,
+        "Low": 0.006000000052154064,
+        "Open": 0.006000000052154064,
+        "Volume": 6330
+      },
+      {
+        "Close": 0.005200000014156103,
+        "High": 0.005200000014156103,
+        "Low": 0.005200000014156103,
+        "Open": 0.005200000014156103,
+        "Volume": 1
+      },
+      {
+        "Close": 0.005200000014156103,
+        "High": 0.005200000014156103,
+        "Low": 0.005200000014156103,
+        "Open": 0.005200000014156103,
+        "Volume": 1
+      },
+      {
+        "Close": 0.005200000014156103,
+        "High": 0.005200000014156103,
+        "Low": 0.005200000014156103,
+        "Open": 0.005200000014156103,
+        "Volume": 1
+      },
+      {
+        "Close": 0.005200000014156103,
+        "High": 0.005200000014156103,
+        "Low": 0.005200000014156103,
+        "Open": 0.005200000014156103,
+        "Volume": 1
+      },
+      {
+        "Close": 0.005200000014156103,
+        "High": 0.005200000014156103,
+        "Low": 0.005200000014156103,
+        "Open": 0.005200000014156103,
+        "Volume": 13
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -17,15 +82,38 @@
       "status": "no_data"
     },
     "cash_flow": {
-      "status": "success",
-      "rows": 51,
-      "columns": [
-        "2024-12-31 00:00:00",
-        "2023-12-31 00:00:00",
-        "2022-12-31 00:00:00",
-        "2021-12-31 00:00:00",
-        "2020-12-31 00:00:00"
-      ],
-      "data": [
-        {
-          
+      "status": "no_data"
+    }
+  },
+  "options_data": {
+    "status": "error",
+    "error_message": "Too Many Requests. Rate limited. Try after a while."
+  },
+  "news_data": {
+    "news": {
+      "status": "no_data"
+    },
+    "recommendations": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  },
+  "holders_data": {
+    "major_holders": {
+      "status": "error"
+    },
+    "institutional_holders": {
+      "status": "error"
+    }
+  },
+  "earnings_data": {
+    "earnings": {
+      "status": "error",
+      "message": "'NoneType' object has no attribute 'empty'"
+    },
+    "calendar": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  }
+}

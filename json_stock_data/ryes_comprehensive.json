@@ -1,16 +1,30 @@
 {
   "ticker": "RYES",
-  "timestamp": "2025-11-20T05:08:03.827044",
+  "timestamp": "2025-12-02T04:56:00.149930",
   "intraday_data": {
     "status": "success",
-    "rows": 1,
+    "rows": 3,
     "data": [
       {
-        "Close": 0.1809999942779541,
-        "High": 0.1809999942779541,
-        "Low": 0.1809999942779541,
-        "Open": 0.1809999942779541,
+        "Close": 0.17329999804496765,
+        "High": 0.17329999804496765,
+        "Low": 0.17329999804496765,
+        "Open": 0.17329999804496765,
         "Volume": 0
+      },
+      {
+        "Close": 0.16500000655651093,
+        "High": 0.16500000655651093,
+        "Low": 0.16500000655651093,
+        "Open": 0.16500000655651093,
+        "Volume": 3600
+      },
+      {
+        "Close": 0.16500000655651093,
+        "High": 0.16500000655651093,
+        "Low": 0.16500000655651093,
+        "Open": 0.16500000655651093,
+        "Volume": 10000
       }
     ]
   },
@@ -26,36 +40,14 @@
       "status": "no_data"
     },
     "cash_flow": {
-      "status": "no_data"
-    }
-  },
-  "options_data": {
-    "expirations": []
-  },
-  "news_data": {
-    "news": {
-      "status": "no_data"
-    },
-    "recommendations": {
-      "status": "no_data"
-    }
-  },
-  "holders_data": {
-    "major_holders": {
-      "status": "error"
-    },
-    "institutional_holders": {
-      "status": "error"
-    }
-  },
-  "earnings_data": {
-    "earnings": {
-      "status": "error",
-      "message": "'NoneType' object has no attribute 'empty'"
-    },
-    "calendar": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
-    }
-  }
-}
+      "status": "success",
+      "rows": 37,
+      "columns": [
+        "2024-07-31 00:00:00",
+        "2023-07-31 00:00:00",
+        "2022-07-31 00:00:00",
+        "2021-07-31 00:00:00"
+      ],
+      "data": [
+        {
+          

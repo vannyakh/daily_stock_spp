@@ -1,9 +1,102 @@
 {
   "ticker": "TCRI",
-  "timestamp": "2025-11-20T05:04:57.659178",
+  "timestamp": "2025-12-02T04:53:57.948773",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 13,
+    "data": [
+      {
+        "Close GITS": 1.3600000143051147,
+        "High GITS": 1.3600000143051147,
+        "Low GITS": 1.350000023841858,
+        "Open GITS": 1.350000023841858,
+        "Volume GITS": 956
+      },
+      {
+        "Close GITS": 1.3639999628067017,
+        "High GITS": 1.3639999628067017,
+        "Low GITS": 1.3639999628067017,
+        "Open GITS": 1.3639999628067017,
+        "Volume GITS": 630
+      },
+      {
+        "Close GITS": 1.350000023841858,
+        "High GITS": 1.350000023841858,
+        "Low GITS": 1.350000023841858,
+        "Open GITS": 1.350000023841858,
+        "Volume GITS": 95
+      },
+      {
+        "Close GITS": 1.3246999979019165,
+        "High GITS": 1.3246999979019165,
+        "Low GITS": 1.3246999979019165,
+        "Open GITS": 1.3246999979019165,
+        "Volume GITS": 3664
+      },
+      {
+        "Close GITS": 1.320099949836731,
+        "High GITS": 1.320099949836731,
+        "Low GITS": 1.320099949836731,
+        "Open GITS": 1.320099949836731,
+        "Volume GITS": 400
+      },
+      {
+        "Close GITS": 1.3350000381469727,
+        "High GITS": 1.3350000381469727,
+        "Low GITS": 1.3350000381469727,
+        "Open GITS": 1.3350000381469727,
+        "Volume GITS": 0
+      },
+      {
+        "Close GITS": 1.2999999523162842,
+        "High GITS": 1.2999999523162842,
+        "Low GITS": 1.2999999523162842,
+        "Open GITS": 1.2999999523162842,
+        "Volume GITS": 400
+      },
+      {
+        "Close GITS": 1.3411999940872192,
+        "High GITS": 1.3411999940872192,
+        "Low GITS": 1.3411999940872192,
+        "Open GITS": 1.3411999940872192,
+        "Volume GITS": 95
+      },
+      {
+        "Close GITS": 1.309999942779541,
+        "High GITS": 1.309999942779541,
+        "Low GITS": 1.309999942779541,
+        "Open GITS": 1.309999942779541,
+        "Volume GITS": 497
+      },
+      {
+        "Close GITS": 1.2763999700546265,
+        "High GITS": 1.2763999700546265,
+        "Low GITS": 1.2763999700546265,
+        "Open GITS": 1.2763999700546265,
+        "Volume GITS": 123
+      },
+      {
+        "Close GITS": 1.2899999618530273,
+        "High GITS": 1.2899999618530273,
+        "Low GITS": 1.2899999618530273,
+        "Open GITS": 1.2899999618530273,
+        "Volume GITS": 228
+      },
+      {
+        "Close GITS": 1.2799999713897705,
+        "High GITS": 1.2799999713897705,
+        "Low GITS": 1.2799999713897705,
+        "Open GITS": 1.2799999713897705,
+        "Volume GITS": 353
+      },
+      {
+        "Close GITS": 1.25,
+        "High GITS": 1.25,
+        "Low GITS": 1.25,
+        "Open GITS": 1.25,
+        "Volume GITS": 400
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -17,15 +110,38 @@
       "status": "no_data"
     },
     "cash_flow": {
-      "status": "success",
-      "rows": 25,
-      "columns": [
-        "2024-12-31 00:00:00",
-        "2023-12-31 00:00:00",
-        "2022-12-31 00:00:00",
-        "2021-12-31 00:00:00",
-        "2020-12-31 00:00:00"
-      ],
-      "data": [
-        {
-          
+      "status": "no_data"
+    }
+  },
+  "options_data": {
+    "status": "error",
+    "error_message": "Too Many Requests. Rate limited. Try after a while."
+  },
+  "news_data": {
+    "news": {
+      "status": "no_data"
+    },
+    "recommendations": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  },
+  "holders_data": {
+    "major_holders": {
+      "status": "error"
+    },
+    "institutional_holders": {
+      "status": "error"
+    }
+  },
+  "earnings_data": {
+    "earnings": {
+      "status": "error",
+      "message": "'NoneType' object has no attribute 'empty'"
+    },
+    "calendar": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  }
+}

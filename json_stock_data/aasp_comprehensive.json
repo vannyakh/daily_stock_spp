@@ -1,9 +1,109 @@
 {
   "ticker": "AASP",
-  "timestamp": "2025-11-20T05:01:53.364801",
+  "timestamp": "2025-12-02T04:51:57.510639",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 14,
+    "data": [
+      {
+        "Close RCG": 2.5999999046325684,
+        "High RCG": 2.5999999046325684,
+        "Low RCG": 2.5999999046325684,
+        "Open RCG": 2.5999999046325684,
+        "Volume RCG": 0
+      },
+      {
+        "Close RCG": 2.5013999938964844,
+        "High RCG": 2.5013999938964844,
+        "Low RCG": 2.5013999938964844,
+        "Open RCG": 2.5013999938964844,
+        "Volume RCG": 100
+      },
+      {
+        "Close RCG": 2.509999990463257,
+        "High RCG": 2.509999990463257,
+        "Low RCG": 2.509999990463257,
+        "Open RCG": 2.509999990463257,
+        "Volume RCG": 1280
+      },
+      {
+        "Close RCG": 2.490000009536743,
+        "High RCG": 2.500200033187866,
+        "Low RCG": 2.4600000381469727,
+        "Open RCG": 2.5000998973846436,
+        "Volume RCG": 7356
+      },
+      {
+        "Close RCG": 2.486999988555908,
+        "High RCG": 2.486999988555908,
+        "Low RCG": 2.486999988555908,
+        "Open RCG": 2.486999988555908,
+        "Volume RCG": 101
+      },
+      {
+        "Close RCG": 2.5199999809265137,
+        "High RCG": 2.5199999809265137,
+        "Low RCG": 2.5,
+        "Open RCG": 2.509999990463257,
+        "Volume RCG": 1135
+      },
+      {
+        "Close RCG": 2.504699945449829,
+        "High RCG": 2.504699945449829,
+        "Low RCG": 2.504699945449829,
+        "Open RCG": 2.504699945449829,
+        "Volume RCG": 1000
+      },
+      {
+        "Close RCG": 2.4600000381469727,
+        "High RCG": 2.4600000381469727,
+        "Low RCG": 2.4600000381469727,
+        "Open RCG": 2.4600000381469727,
+        "Volume RCG": 500
+      },
+      {
+        "Close RCG": 2.51990008354187,
+        "High RCG": 2.51990008354187,
+        "Low RCG": 2.51990008354187,
+        "Open RCG": 2.51990008354187,
+        "Volume RCG": 1125
+      },
+      {
+        "Close RCG": 2.517899990081787,
+        "High RCG": 2.517899990081787,
+        "Low RCG": 2.517899990081787,
+        "Open RCG": 2.517899990081787,
+        "Volume RCG": 2000
+      },
+      {
+        "Close RCG": 2.5199999809265137,
+        "High RCG": 2.5199999809265137,
+        "Low RCG": 2.5199999809265137,
+        "Open RCG": 2.5199999809265137,
+        "Volume RCG": 100
+      },
+      {
+        "Close RCG": 2.5199999809265137,
+        "High RCG": 2.5199999809265137,
+        "Low RCG": 2.5171000957489014,
+        "Open RCG": 2.5171000957489014,
+        "Volume RCG": 10455
+      },
+      {
+        "Close RCG": 2.559999942779541,
+        "High RCG": 2.559999942779541,
+        "Low RCG": 2.559999942779541,
+        "Open RCG": 2.559999942779541,
+        "Volume RCG": 100
+      },
+      {
+        "Close RCG": 2.5511999130249023,
+        "High RCG": 2.5511999130249023,
+        "Low RCG": 2.5511999130249023,
+        "Open RCG": 2.5511999130249023,
+        "Volume RCG": 272
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -14,15 +114,41 @@
       "status": "no_data"
     },
     "balance_sheet": {
-      "status": "success",
-      "rows": 34,
-      "columns": [
-        "2024-12-31 00:00:00",
-        "2023-12-31 00:00:00",
-        "2022-12-31 00:00:00",
-        "2021-12-31 00:00:00",
-        "2020-12-31 00:00:00"
-      ],
-      "data": [
-        {
-          
+      "status": "no_data"
+    },
+    "cash_flow": {
+      "status": "no_data"
+    }
+  },
+  "options_data": {
+    "status": "error",
+    "error_message": "Too Many Requests. Rate limited. Try after a while."
+  },
+  "news_data": {
+    "news": {
+      "status": "no_data"
+    },
+    "recommendations": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  },
+  "holders_data": {
+    "major_holders": {
+      "status": "error"
+    },
+    "institutional_holders": {
+      "status": "error"
+    }
+  },
+  "earnings_data": {
+    "earnings": {
+      "status": "error",
+      "message": "'NoneType' object has no attribute 'empty'"
+    },
+    "calendar": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  }
+}

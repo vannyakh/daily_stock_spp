@@ -1,10 +1,25 @@
 {
   "ticker": "MDCXW",
-  "timestamp": "2025-11-20T05:24:53.455523",
+  "timestamp": "2025-12-02T05:06:43.413901",
   "intraday_data": {
     "status": "success",
-    "rows": 0,
-    "data": []
+    "rows": 2,
+    "data": [
+      {
+        "Close MKDWW": 0.01850000023841858,
+        "High MKDWW": 0.01850000023841858,
+        "Low MKDWW": 0.01730000041425228,
+        "Open MKDWW": 0.01730000041425228,
+        "Volume MKDWW": 0
+      },
+      {
+        "Close MKDWW": 0.01889999955892563,
+        "High MKDWW": 0.01899999938905239,
+        "Low MKDWW": 0.01889999955892563,
+        "Open MKDWW": 0.01899999938905239,
+        "Volume MKDWW": 53000
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -94,7 +109,8 @@
       ]
     },
     "recommendations": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   },
   "holders_data": {

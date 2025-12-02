@@ -1,6 +1,6 @@
 {
   "ticker": "ATMV",
-  "timestamp": "2025-11-20T04:57:12.718188",
+  "timestamp": "2025-12-02T04:48:50.372892",
   "intraday_data": {
     "status": "no_data",
     "message": "No intraday data available"
@@ -11,13 +11,131 @@
   },
   "financials": {
     "income_statement": {
+      "status": "no_data"
+    },
+    "balance_sheet": {
+      "status": "no_data"
+    },
+    "cash_flow": {
+      "status": "no_data"
+    }
+  },
+  "options_data": {
+    "status": "error",
+    "error_message": "Too Many Requests. Rate limited. Try after a while."
+  },
+  "news_data": {
+    "news": {
       "status": "success",
-      "rows": 33,
-      "columns": [
-        "2024-12-31 00:00:00",
-        "2023-12-31 00:00:00",
-        "2022-12-31 00:00:00"
-      ],
+      "count": 2,
       "data": [
         {
-          
+          "id": "33577aa6-96ca-376f-aa47-5f9ee7b5a456",
+          "content": {
+            "id": "33577aa6-96ca-376f-aa47-5f9ee7b5a456",
+            "contentType": "STORY",
+            "title": "Investors Parse Earnings Reports With US Equity Futures Flat Tuesday Pre-Bell",
+            "description": "",
+            "summary": "US stock futures were little changed in Tuesday's premarket session as investors parsed pre-market e",
+            "pubDate": "2025-10-21T12:09:51Z",
+            "displayTime": "2025-10-21T12:09:51Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": null,
+            "provider": {
+              "displayName": "MT Newswires",
+              "url": "https://www.mtnewswires.com/"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/investors-parse-earnings-reports-us-120951187.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/investors-parse-earnings-reports-us-120951187.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": true,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        },
+        {
+          "id": "f3c970e1-49f0-38c5-8d40-f02c2570229d",
+          "content": {
+            "id": "f3c970e1-49f0-38c5-8d40-f02c2570229d",
+            "contentType": "STORY",
+            "title": "Wall Street Set to Open Slightly Higher Friday as Equities Level Out Following Record Sessions",
+            "description": "",
+            "summary": "US stocks look set to open slightly higher in Friday's trading session after equities hit record hig",
+            "pubDate": "2025-09-19T13:25:47Z",
+            "displayTime": "2025-09-19T13:25:47Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": null,
+            "provider": {
+              "displayName": "MT Newswires",
+              "url": "https://www.mtnewswires.com/"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/wall-street-set-open-slightly-132547166.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/wall-street-set-open-slightly-132547166.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": true,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        }
+      ]
+    },
+    "recommendations": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  },
+  "holders_data": {
+    "major_holders": {
+      "status": "error"
+    },
+    "institutional_holders": {
+      "status": "error"
+    }
+  },
+  "earnings_data": {
+    "earnings": {
+      "status": "error",
+      "message": "'NoneType' object has no attribute 'empty'"
+    },
+    "calendar": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  }
+}

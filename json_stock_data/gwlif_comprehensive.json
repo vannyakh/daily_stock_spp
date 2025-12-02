@@ -1,50 +1,23 @@
 {
   "ticker": "GWLIF",
-  "timestamp": "2025-11-20T04:11:24.286653",
+  "timestamp": "2025-12-02T04:18:20.626277",
   "intraday_data": {
-    "status": "success",
-    "rows": 3,
-    "data": [
-      {
-        "Close": 44.7400016784668,
-        "High": 44.7400016784668,
-        "Low": 44.7400016784668,
-        "Open": 44.7400016784668,
-        "Volume": 6
-      },
-      {
-        "Close": 44.70000076293945,
-        "High": 44.70000076293945,
-        "Low": 44.70000076293945,
-        "Open": 44.70000076293945,
-        "Volume": 6
-      },
-      {
-        "Close": 44.83000183105469,
-        "High": 44.83000183105469,
-        "Low": 44.83000183105469,
-        "Open": 44.83000183105469,
-        "Volume": 100
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
-    "message": "Too Many Requests. Rate limited. Try after a while."
+    "message": "argument of type 'NoneType' is not iterable"
   },
   "financials": {
     "income_statement": {
-      "status": "no_data"
-    },
-    "balance_sheet": {
       "status": "success",
-      "rows": 62,
+      "rows": 47,
       "columns": [
         "2024-12-31 00:00:00",
         "2023-12-31 00:00:00",
         "2022-12-31 00:00:00",
-        "2021-12-31 00:00:00",
-        "2020-12-31 00:00:00"
+        "2021-12-31 00:00:00"
       ],
       "data": [
         {

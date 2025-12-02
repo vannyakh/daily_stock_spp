@@ -1,23 +1,16 @@
 {
   "ticker": "BRID",
-  "timestamp": "2025-11-20T04:52:00.075587",
+  "timestamp": "2025-12-02T04:45:33.595630",
   "intraday_data": {
     "status": "success",
-    "rows": 2,
+    "rows": 1,
     "data": [
       {
-        "Close": 7.619999885559082,
-        "High": 7.619999885559082,
-        "Low": 7.619999885559082,
-        "Open": 7.619999885559082,
+        "Close": 7.730000019073486,
+        "High": 7.730000019073486,
+        "Low": 7.730000019073486,
+        "Open": 7.730000019073486,
         "Volume": 0
-      },
-      {
-        "Close": 7.442699909210205,
-        "High": 7.442699909210205,
-        "Low": 7.442699909210205,
-        "Open": 7.442699909210205,
-        "Volume": 429
       }
     ]
   },
@@ -174,15 +167,16 @@
       ]
     },
     "recommendations": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   },
   "holders_data": {
     "major_holders": {
-      "status": "no_data"
+      "status": "error"
     },
     "institutional_holders": {
-      "status": "no_data"
+      "status": "error"
     }
   },
   "earnings_data": {

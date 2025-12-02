@@ -1,9 +1,46 @@
 {
   "ticker": "BRLS",
-  "timestamp": "2025-11-20T04:49:17.085529",
+  "timestamp": "2025-12-02T04:43:45.594159",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 5,
+    "data": [
+      {
+        "Close": 1.8799999952316284,
+        "High": 1.8799999952316284,
+        "Low": 1.8799999952316284,
+        "Open": 1.8799999952316284,
+        "Volume": 801
+      },
+      {
+        "Close": 1.8401000499725342,
+        "High": 1.8401000499725342,
+        "Low": 1.8401000499725342,
+        "Open": 1.8401000499725342,
+        "Volume": 6128
+      },
+      {
+        "Close": 1.815000057220459,
+        "High": 1.815000057220459,
+        "Low": 1.815000057220459,
+        "Open": 1.815000057220459,
+        "Volume": 1111
+      },
+      {
+        "Close": 1.8324999809265137,
+        "High": 1.8324999809265137,
+        "Low": 1.8324999809265137,
+        "Open": 1.8324999809265137,
+        "Volume": 297
+      },
+      {
+        "Close": 1.8200000524520874,
+        "High": 1.8200000524520874,
+        "Low": 1.8200000524520874,
+        "Open": 1.8200000524520874,
+        "Volume": 312
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -93,7 +130,8 @@
       ]
     },
     "recommendations": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   },
   "holders_data": {

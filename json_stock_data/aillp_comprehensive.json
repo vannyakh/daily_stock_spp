@@ -1,25 +1,9 @@
 {
   "ticker": "AILLP",
-  "timestamp": "2025-11-20T05:19:26.250447",
+  "timestamp": "2025-12-02T05:03:05.492688",
   "intraday_data": {
-    "status": "success",
-    "rows": 2,
-    "data": [
-      {
-        "Close FNMFM": 25.5,
-        "High FNMFM": 25.5,
-        "Low FNMFM": 25.5,
-        "Open FNMFM": 25.5,
-        "Volume FNMFM": 0
-      },
-      {
-        "Close FNMFM": 23.25,
-        "High FNMFM": 23.25,
-        "Low FNMFM": 23.25,
-        "Open FNMFM": 23.25,
-        "Volume FNMFM": 101
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -45,7 +29,8 @@
       "status": "no_data"
     },
     "recommendations": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   },
   "holders_data": {

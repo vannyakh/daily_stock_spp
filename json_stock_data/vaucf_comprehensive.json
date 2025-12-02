@@ -1,44 +1,51 @@
 {
   "ticker": "VAUCF",
-  "timestamp": "2025-11-20T05:03:37.403701",
+  "timestamp": "2025-12-02T04:53:04.325019",
   "intraday_data": {
     "status": "success",
-    "rows": 5,
+    "rows": 6,
     "data": [
       {
-        "Close": 0.12409999966621399,
-        "High": 0.12409999966621399,
-        "Low": 0.12409999966621399,
-        "Open": 0.12409999966621399,
-        "Volume": 0
+        "Close TETOF": 0.75,
+        "High TETOF": 0.75,
+        "Low TETOF": 0.75,
+        "Open TETOF": 0.75,
+        "Volume TETOF": 0
       },
       {
-        "Close": 0.12210000306367874,
-        "High": 0.12210000306367874,
-        "Low": 0.12210000306367874,
-        "Open": 0.12210000306367874,
-        "Volume": 500
+        "Close TETOF": 0.75,
+        "High TETOF": 0.75,
+        "Low TETOF": 0.75,
+        "Open TETOF": 0.75,
+        "Volume TETOF": 1200
       },
       {
-        "Close": 0.12210000306367874,
-        "High": 0.12210000306367874,
-        "Low": 0.12210000306367874,
-        "Open": 0.12210000306367874,
-        "Volume": 5000
+        "Close TETOF": 0.7400000095367432,
+        "High TETOF": 0.7400000095367432,
+        "Low TETOF": 0.7400000095367432,
+        "Open TETOF": 0.7400000095367432,
+        "Volume TETOF": 700
       },
       {
-        "Close": 0.125,
-        "High": 0.125,
-        "Low": 0.125,
-        "Open": 0.125,
-        "Volume": 5000
+        "Close TETOF": 0.7400000095367432,
+        "High TETOF": 0.7400000095367432,
+        "Low TETOF": 0.7400000095367432,
+        "Open TETOF": 0.7400000095367432,
+        "Volume TETOF": 5300
       },
       {
-        "Close": 0.125,
-        "High": 0.125,
-        "Low": 0.125,
-        "Open": 0.125,
-        "Volume": 4500
+        "Close TETOF": 0.7200000286102295,
+        "High TETOF": 0.7200000286102295,
+        "Low TETOF": 0.7200000286102295,
+        "Open TETOF": 0.7200000286102295,
+        "Volume TETOF": 10000
+      },
+      {
+        "Close TETOF": 0.7203999757766724,
+        "High TETOF": 0.7203999757766724,
+        "Low TETOF": 0.7203999757766724,
+        "Open TETOF": 0.7203999757766724,
+        "Volume TETOF": 500
       }
     ]
   },
@@ -48,14 +55,44 @@
   },
   "financials": {
     "income_statement": {
-      "status": "success",
-      "rows": 38,
-      "columns": [
-        "2024-10-31 00:00:00",
-        "2023-10-31 00:00:00",
-        "2022-10-31 00:00:00",
-        "2021-10-31 00:00:00"
-      ],
-      "data": [
-        {
-          
+      "status": "no_data"
+    },
+    "balance_sheet": {
+      "status": "no_data"
+    },
+    "cash_flow": {
+      "status": "no_data"
+    }
+  },
+  "options_data": {
+    "status": "error",
+    "error_message": "Too Many Requests. Rate limited. Try after a while."
+  },
+  "news_data": {
+    "news": {
+      "status": "no_data"
+    },
+    "recommendations": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  },
+  "holders_data": {
+    "major_holders": {
+      "status": "error"
+    },
+    "institutional_holders": {
+      "status": "error"
+    }
+  },
+  "earnings_data": {
+    "earnings": {
+      "status": "error",
+      "message": "'NoneType' object has no attribute 'empty'"
+    },
+    "calendar": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  }
+}

@@ -1,25 +1,9 @@
 {
   "ticker": "AWX",
-  "timestamp": "2025-11-20T05:03:24.054976",
+  "timestamp": "2025-12-02T04:52:56.748217",
   "intraday_data": {
-    "status": "success",
-    "rows": 2,
-    "data": [
-      {
-        "Close SRRE": 0.15000000596046448,
-        "High SRRE": 0.15000000596046448,
-        "Low SRRE": 0.15000000596046448,
-        "Open SRRE": 0.15000000596046448,
-        "Volume SRRE": 0
-      },
-      {
-        "Close SRRE": 0.12790000438690186,
-        "High SRRE": 0.13950000703334808,
-        "Low SRRE": 0.12790000438690186,
-        "Open SRRE": 0.13950000703334808,
-        "Volume SRRE": 20000
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -30,41 +14,15 @@
       "status": "no_data"
     },
     "balance_sheet": {
-      "status": "no_data"
-    },
-    "cash_flow": {
-      "status": "no_data"
-    }
-  },
-  "options_data": {
-    "status": "error",
-    "error_message": "Too Many Requests. Rate limited. Try after a while."
-  },
-  "news_data": {
-    "news": {
-      "status": "no_data"
-    },
-    "recommendations": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
-    }
-  },
-  "holders_data": {
-    "major_holders": {
-      "status": "error"
-    },
-    "institutional_holders": {
-      "status": "error"
-    }
-  },
-  "earnings_data": {
-    "earnings": {
-      "status": "error",
-      "message": "'NoneType' object has no attribute 'empty'"
-    },
-    "calendar": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
-    }
-  }
-}
+      "status": "success",
+      "rows": 63,
+      "columns": [
+        "2024-12-31 00:00:00",
+        "2023-12-31 00:00:00",
+        "2022-12-31 00:00:00",
+        "2021-12-31 00:00:00",
+        "2020-12-31 00:00:00"
+      ],
+      "data": [
+        {
+          

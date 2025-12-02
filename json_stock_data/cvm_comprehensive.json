@@ -1,6 +1,6 @@
 {
   "ticker": "CVM",
-  "timestamp": "2025-11-20T04:59:29.475760",
+  "timestamp": "2025-12-02T04:50:16.244590",
   "intraday_data": {
     "status": "no_data",
     "message": "No intraday data available"
@@ -17,14 +17,167 @@
       "status": "no_data"
     },
     "cash_flow": {
+      "status": "no_data"
+    }
+  },
+  "options_data": {
+    "status": "error",
+    "error_message": "Too Many Requests. Rate limited. Try after a while."
+  },
+  "news_data": {
+    "news": {
       "status": "success",
-      "rows": 50,
-      "columns": [
-        "2024-09-30 00:00:00",
-        "2023-09-30 00:00:00",
-        "2022-09-30 00:00:00",
-        "2021-09-30 00:00:00"
-      ],
+      "count": 3,
       "data": [
         {
-          
+          "id": "37c6983b-8b30-395f-be0d-182283359dfe",
+          "content": {
+            "id": "37c6983b-8b30-395f-be0d-182283359dfe",
+            "contentType": "STORY",
+            "title": "Cel-Sci: Fiscal Q3 Earnings Snapshot",
+            "description": "",
+            "summary": "VIENNA, Va. AP) \u2014 Cel-Sci Corp. CVM) on Thursday reported a loss of $5.7 million in its fiscal third quarter.",
+            "pubDate": "2025-08-14T13:37:22Z",
+            "displayTime": "2025-08-14T13:37:22Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": null,
+            "provider": {
+              "displayName": "Associated Press Finance",
+              "url": "http://www.ap.org/"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/cel-sci-fiscal-q3-earnings-133722679.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/cel-sci-fiscal-q3-earnings-133722679.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        },
+        {
+          "id": "605c99ea-0273-35e3-bf5d-5949dc7a7f4b",
+          "content": {
+            "id": "605c99ea-0273-35e3-bf5d-5949dc7a7f4b",
+            "contentType": "STORY",
+            "title": "Cel-Sci: Fiscal Q2 Earnings Snapshot",
+            "description": "",
+            "summary": "VIENNA, Va. AP) \u2014 Cel-Sci Corp. CVM) on Wednesday reported a loss of $6.6 million in its fiscal second quarter.",
+            "pubDate": "2025-05-14T23:30:12Z",
+            "displayTime": "2025-05-14T23:30:12Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": null,
+            "provider": {
+              "displayName": "Associated Press Finance",
+              "url": "http://www.ap.org/"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/cel-sci-fiscal-q2-earnings-233012536.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/cel-sci-fiscal-q2-earnings-233012536.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        },
+        {
+          "id": "ad5c0c33-f7d0-35ff-ab67-66f9873a100b",
+          "content": {
+            "id": "ad5c0c33-f7d0-35ff-ab67-66f9873a100b",
+            "contentType": "STORY",
+            "title": "Cel-Sci: Fiscal Q1 Earnings Snapshot",
+            "description": "",
+            "summary": "VIENNA, Va. AP) \u2014 Cel-Sci Corp. CVM) on Friday reported a loss of $7.1 million in its fiscal first quarter.",
+            "pubDate": "2025-02-14T21:24:13Z",
+            "displayTime": "2025-02-14T21:24:13Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": null,
+            "provider": {
+              "displayName": "Associated Press Finance",
+              "url": "http://www.ap.org/"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/cel-sci-fiscal-q1-earnings-212413365.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/cel-sci-fiscal-q1-earnings-212413365.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        }
+      ]
+    },
+    "recommendations": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  },
+  "holders_data": {
+    "major_holders": {
+      "status": "error"
+    },
+    "institutional_holders": {
+      "status": "error"
+    }
+  },
+  "earnings_data": {
+    "earnings": {
+      "status": "error",
+      "message": "'NoneType' object has no attribute 'empty'"
+    },
+    "calendar": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  }
+}

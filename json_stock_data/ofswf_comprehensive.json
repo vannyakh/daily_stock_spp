@@ -1,53 +1,9 @@
 {
   "ticker": "OFSWF",
-  "timestamp": "2025-11-20T05:25:30.648073",
+  "timestamp": "2025-12-02T05:07:06.950555",
   "intraday_data": {
-    "status": "success",
-    "rows": 6,
-    "data": [
-      {
-        "Close SATLW": 0.09000000357627869,
-        "High SATLW": 0.09000000357627869,
-        "Low SATLW": 0.09000000357627869,
-        "Open SATLW": 0.09000000357627869,
-        "Volume SATLW": 0
-      },
-      {
-        "Close SATLW": 0.08969999849796295,
-        "High SATLW": 0.09000000357627869,
-        "Low SATLW": 0.08209999650716782,
-        "Open SATLW": 0.09000000357627869,
-        "Volume SATLW": 10098
-      },
-      {
-        "Close SATLW": 0.08900000154972076,
-        "High SATLW": 0.08900000154972076,
-        "Low SATLW": 0.08799999952316284,
-        "Open SATLW": 0.08799999952316284,
-        "Volume SATLW": 0
-      },
-      {
-        "Close SATLW": 0.10000000149011612,
-        "High SATLW": 0.10000000149011612,
-        "Low SATLW": 0.0989999994635582,
-        "Open SATLW": 0.09960000216960907,
-        "Volume SATLW": 1510
-      },
-      {
-        "Close SATLW": 0.10989999771118164,
-        "High SATLW": 0.10989999771118164,
-        "Low SATLW": 0.10000000149011612,
-        "Open SATLW": 0.10000000149011612,
-        "Volume SATLW": 3400
-      },
-      {
-        "Close SATLW": 0.10000000149011612,
-        "High SATLW": 0.10000000149011612,
-        "Low SATLW": 0.10000000149011612,
-        "Open SATLW": 0.10000000149011612,
-        "Volume SATLW": 12300
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -65,7 +21,8 @@
     }
   },
   "options_data": {
-    "expirations": []
+    "status": "error",
+    "error_message": "Too Many Requests. Rate limited. Try after a while."
   },
   "news_data": {
     "news": {
@@ -117,7 +74,8 @@
       ]
     },
     "recommendations": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   },
   "holders_data": {

@@ -1,65 +1,30 @@
 {
   "ticker": "ATMCW",
-  "timestamp": "2025-11-20T05:27:45.823222",
+  "timestamp": "2025-12-02T05:08:28.861692",
   "intraday_data": {
     "status": "success",
-    "rows": 8,
+    "rows": 3,
     "data": [
       {
-        "Close": 0.07000000029802322,
+        "Close": 0.06989999860525131,
         "High": 0.07000000029802322,
-        "Low": 0.07000000029802322,
+        "Low": 0.06989999860525131,
         "Open": 0.07000000029802322,
         "Volume": 0
       },
       {
-        "Close": 0.054499998688697815,
-        "High": 0.05999999865889549,
-        "Low": 0.050200000405311584,
-        "Open": 0.05510000139474869,
-        "Volume": 1000
-      },
-      {
-        "Close": 0.05999999865889549,
-        "High": 0.05999999865889549,
-        "Low": 0.050200000405311584,
-        "Open": 0.05510000139474869,
-        "Volume": 1500
-      },
-      {
-        "Close": 0.053700000047683716,
-        "High": 0.053700000047683716,
-        "Low": 0.053700000047683716,
-        "Open": 0.053700000047683716,
-        "Volume": 500
-      },
-      {
-        "Close": 0.05009999871253967,
-        "High": 0.05009999871253967,
-        "Low": 0.05009999871253967,
-        "Open": 0.05009999871253967,
-        "Volume": 500
-      },
-      {
-        "Close": 0.05999999865889549,
+        "Close": 0.054999999701976776,
         "High": 0.05999999865889549,
         "Low": 0.054999999701976776,
-        "Open": 0.054999999701976776,
-        "Volume": 1400
-      },
-      {
-        "Close": 0.05999999865889549,
-        "High": 0.060100000351667404,
-        "Low": 0.05510000139474869,
-        "Open": 0.05510000139474869,
-        "Volume": 1600
-      },
-      {
-        "Close": 0.05999999865889549,
-        "High": 0.05999999865889549,
-        "Low": 0.05510000139474869,
         "Open": 0.05999999865889549,
-        "Volume": 1500
+        "Volume": 1800
+      },
+      {
+        "Close": 0.054999999701976776,
+        "High": 0.05510000139474869,
+        "Low": 0.054999999701976776,
+        "Open": 0.05510000139474869,
+        "Volume": 959
       }
     ]
   },
@@ -75,13 +40,38 @@
       "status": "no_data"
     },
     "cash_flow": {
-      "status": "success",
-      "rows": 30,
-      "columns": [
-        "2024-12-31 00:00:00",
-        "2023-12-31 00:00:00",
-        "2022-12-31 00:00:00"
-      ],
-      "data": [
-        {
-          
+      "status": "no_data"
+    }
+  },
+  "options_data": {
+    "status": "error",
+    "error_message": "Too Many Requests. Rate limited. Try after a while."
+  },
+  "news_data": {
+    "news": {
+      "status": "no_data"
+    },
+    "recommendations": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  },
+  "holders_data": {
+    "major_holders": {
+      "status": "error"
+    },
+    "institutional_holders": {
+      "status": "error"
+    }
+  },
+  "earnings_data": {
+    "earnings": {
+      "status": "error",
+      "message": "'NoneType' object has no attribute 'empty'"
+    },
+    "calendar": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  }
+}

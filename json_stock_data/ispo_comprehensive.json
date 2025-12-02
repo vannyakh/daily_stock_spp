@@ -1,9 +1,46 @@
 {
   "ticker": "ISPO",
-  "timestamp": "2025-11-20T04:53:39.989179",
+  "timestamp": "2025-12-02T04:46:36.670671",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 5,
+    "data": [
+      {
+        "Close": 2.7300000190734863,
+        "High": 2.7300000190734863,
+        "Low": 2.7300000190734863,
+        "Open": 2.7300000190734863,
+        "Volume": 0
+      },
+      {
+        "Close": 2.6700000762939453,
+        "High": 2.6700000762939453,
+        "Low": 2.6700000762939453,
+        "Open": 2.6700000762939453,
+        "Volume": 192
+      },
+      {
+        "Close": 2.7799999713897705,
+        "High": 2.7799999713897705,
+        "Low": 2.7799999713897705,
+        "Open": 2.7799999713897705,
+        "Volume": 100
+      },
+      {
+        "Close": 2.7799999713897705,
+        "High": 2.7799999713897705,
+        "Low": 2.7799999713897705,
+        "Open": 2.7799999713897705,
+        "Volume": 111
+      },
+      {
+        "Close": 2.7799999713897705,
+        "High": 2.7799999713897705,
+        "Low": 2.7799999713897705,
+        "Open": 2.7799999713897705,
+        "Volume": 424
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -501,7 +538,7 @@
     },
     "calendar": {
       "status": "error",
-      "message": "'dict' object has no attribute 'empty'"
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   }
 }

@@ -1,9 +1,32 @@
 {
   "ticker": "TETEU",
-  "timestamp": "2025-11-20T05:27:57.858190",
+  "timestamp": "2025-12-02T05:08:34.139838",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 3,
+    "data": [
+      {
+        "Close LVWR-WT": 0.06530000269412994,
+        "High LVWR-WT": 0.06530000269412994,
+        "Low LVWR-WT": 0.06530000269412994,
+        "Open LVWR-WT": 0.06530000269412994,
+        "Volume LVWR-WT": 0
+      },
+      {
+        "Close LVWR-WT": 0.05999999865889549,
+        "High LVWR-WT": 0.05999999865889549,
+        "Low LVWR-WT": 0.05999999865889549,
+        "Open LVWR-WT": 0.05999999865889549,
+        "Volume LVWR-WT": 100
+      },
+      {
+        "Close LVWR-WT": 0.05999999865889549,
+        "High LVWR-WT": 0.05999999865889549,
+        "Low LVWR-WT": 0.05999999865889549,
+        "Open LVWR-WT": 0.05999999865889549,
+        "Volume LVWR-WT": 100
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -21,15 +44,15 @@
     }
   },
   "options_data": {
-    "expirations": []
+    "status": "error",
+    "error_message": "Too Many Requests. Rate limited. Try after a while."
   },
   "news_data": {
     "news": {
       "status": "no_data"
     },
     "recommendations": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
+      "status": "no_data"
     }
   },
   "holders_data": {

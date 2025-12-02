@@ -1,6 +1,6 @@
 {
   "ticker": "KPEA",
-  "timestamp": "2025-11-20T04:59:44.654012",
+  "timestamp": "2025-12-02T04:50:23.584192",
   "intraday_data": {
     "status": "no_data",
     "message": "No intraday data available"
@@ -17,14 +17,37 @@
       "status": "no_data"
     },
     "cash_flow": {
-      "status": "success",
-      "rows": 50,
-      "columns": [
-        "2024-09-30 00:00:00",
-        "2023-09-30 00:00:00",
-        "2022-09-30 00:00:00",
-        "2021-09-30 00:00:00"
-      ],
-      "data": [
-        {
-          
+      "status": "no_data"
+    }
+  },
+  "options_data": {
+    "status": "error",
+    "error_message": "Too Many Requests. Rate limited. Try after a while."
+  },
+  "news_data": {
+    "news": {
+      "status": "no_data"
+    },
+    "recommendations": {
+      "status": "no_data"
+    }
+  },
+  "holders_data": {
+    "major_holders": {
+      "status": "error"
+    },
+    "institutional_holders": {
+      "status": "error"
+    }
+  },
+  "earnings_data": {
+    "earnings": {
+      "status": "error",
+      "message": "'NoneType' object has no attribute 'empty'"
+    },
+    "calendar": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  }
+}

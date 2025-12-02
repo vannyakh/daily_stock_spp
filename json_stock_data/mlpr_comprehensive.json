@@ -1,9 +1,25 @@
 {
   "ticker": "MLPR",
-  "timestamp": "2025-11-20T05:33:51.985707",
+  "timestamp": "2025-12-02T05:12:26.359648",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 2,
+    "data": [
+      {
+        "Close": 59.400001525878906,
+        "High": 59.5099983215332,
+        "Low": 59.400001525878906,
+        "Open": 59.5099983215332,
+        "Volume": 0
+      },
+      {
+        "Close": 59.810001373291016,
+        "High": 59.810001373291016,
+        "Low": 58.540000915527344,
+        "Open": 59.26499938964844,
+        "Volume": 3070
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -26,8 +42,7 @@
   },
   "news_data": {
     "news": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
+      "status": "no_data"
     },
     "recommendations": {
       "status": "error",

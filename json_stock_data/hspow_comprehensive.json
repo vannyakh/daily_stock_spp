@@ -1,44 +1,23 @@
 {
   "ticker": "HSPOW",
-  "timestamp": "2025-11-20T05:24:30.782680",
+  "timestamp": "2025-12-02T05:06:28.245911",
   "intraday_data": {
     "status": "success",
-    "rows": 5,
+    "rows": 2,
     "data": [
       {
-        "Close": 0.06019999831914902,
-        "High": 0.06019999831914902,
-        "Low": 0.06019999831914902,
-        "Open": 0.06019999831914902,
+        "Close": 0.05700000002980232,
+        "High": 0.06300000101327896,
+        "Low": 0.05700000002980232,
+        "Open": 0.06300000101327896,
         "Volume": 0
       },
       {
-        "Close": 0.06469999998807907,
-        "High": 0.06469999998807907,
-        "Low": 0.06469999998807907,
-        "Open": 0.06469999998807907,
-        "Volume": 200
-      },
-      {
-        "Close": 0.060100000351667404,
-        "High": 0.060100000351667404,
-        "Low": 0.060100000351667404,
-        "Open": 0.060100000351667404,
-        "Volume": 0
-      },
-      {
-        "Close": 0.06430000066757202,
-        "High": 0.06430000066757202,
-        "Low": 0.06430000066757202,
-        "Open": 0.06430000066757202,
-        "Volume": 100
-      },
-      {
-        "Close": 0.08479999750852585,
-        "High": 0.08489999920129776,
-        "Low": 0.08479999750852585,
-        "Open": 0.08489999920129776,
-        "Volume": 6012
+        "Close": 0.04039999842643738,
+        "High": 0.05050000175833702,
+        "Low": 0.04039999842643738,
+        "Open": 0.05050000175833702,
+        "Volume": 4286
       }
     ]
   },
@@ -48,12 +27,44 @@
   },
   "financials": {
     "income_statement": {
-      "status": "success",
-      "rows": 25,
-      "columns": [
-        "2024-12-31 00:00:00",
-        "2023-12-31 00:00:00"
-      ],
-      "data": [
-        {
-          
+      "status": "no_data"
+    },
+    "balance_sheet": {
+      "status": "no_data"
+    },
+    "cash_flow": {
+      "status": "no_data"
+    }
+  },
+  "options_data": {
+    "status": "error",
+    "error_message": "Too Many Requests. Rate limited. Try after a while."
+  },
+  "news_data": {
+    "news": {
+      "status": "no_data"
+    },
+    "recommendations": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  },
+  "holders_data": {
+    "major_holders": {
+      "status": "error"
+    },
+    "institutional_holders": {
+      "status": "error"
+    }
+  },
+  "earnings_data": {
+    "earnings": {
+      "status": "error",
+      "message": "'NoneType' object has no attribute 'empty'"
+    },
+    "calendar": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  }
+}

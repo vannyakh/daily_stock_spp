@@ -1,25 +1,9 @@
 {
   "ticker": "SIMA",
-  "timestamp": "2025-11-20T04:42:19.667318",
+  "timestamp": "2025-12-02T04:38:56.631409",
   "intraday_data": {
-    "status": "success",
-    "rows": 2,
-    "data": [
-      {
-        "Close": 10.550000190734863,
-        "High": 10.550000190734863,
-        "Low": 10.550000190734863,
-        "Open": 10.550000190734863,
-        "Volume": 0
-      },
-      {
-        "Close": 10.640000343322754,
-        "High": 10.640000343322754,
-        "Low": 10.600000381469727,
-        "Open": 10.600000381469727,
-        "Volume": 3517
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -42,8 +26,7 @@
   },
   "news_data": {
     "news": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
+      "status": "no_data"
     },
     "recommendations": {
       "status": "error",

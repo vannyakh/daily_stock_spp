@@ -1,54 +1,32 @@
 {
   "ticker": "DTGI",
-  "timestamp": "2025-11-20T05:22:40.258621",
+  "timestamp": "2025-12-02T05:05:16.350210",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 1,
+    "data": [
+      {
+        "Close GPLL": 0.017799999564886093,
+        "High GPLL": 0.017799999564886093,
+        "Low GPLL": 0.017799999564886093,
+        "Open GPLL": 0.017799999564886093,
+        "Volume GPLL": 0
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
-    "message": "Too Many Requests. Rate limited. Try after a while."
+    "message": "argument of type 'NoneType' is not iterable"
   },
   "financials": {
     "income_statement": {
-      "status": "no_data"
-    },
-    "balance_sheet": {
-      "status": "no_data"
-    },
-    "cash_flow": {
-      "status": "no_data"
-    }
-  },
-  "options_data": {
-    "status": "error",
-    "error_message": "Too Many Requests. Rate limited. Try after a while."
-  },
-  "news_data": {
-    "news": {
-      "status": "no_data"
-    },
-    "recommendations": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
-    }
-  },
-  "holders_data": {
-    "major_holders": {
-      "status": "error"
-    },
-    "institutional_holders": {
-      "status": "error"
-    }
-  },
-  "earnings_data": {
-    "earnings": {
-      "status": "error",
-      "message": "'NoneType' object has no attribute 'empty'"
-    },
-    "calendar": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
-    }
-  }
-}
+      "status": "success",
+      "rows": 48,
+      "columns": [
+        "2023-07-31 00:00:00",
+        "2022-07-31 00:00:00",
+        "2021-07-31 00:00:00"
+      ],
+      "data": [
+        {
+          

@@ -1,95 +1,9 @@
 {
   "ticker": "ENTX",
-  "timestamp": "2025-11-20T04:52:38.836384",
+  "timestamp": "2025-12-02T04:45:55.768085",
   "intraday_data": {
-    "status": "success",
-    "rows": 12,
-    "data": [
-      {
-        "Close ITMSF": 1.7000000476837158,
-        "High ITMSF": 1.7000000476837158,
-        "Low ITMSF": 1.7000000476837158,
-        "Open ITMSF": 1.7000000476837158,
-        "Volume ITMSF": 0
-      },
-      {
-        "Close ITMSF": 1.7000000476837158,
-        "High ITMSF": 1.7000000476837158,
-        "Low ITMSF": 1.7000000476837158,
-        "Open ITMSF": 1.7000000476837158,
-        "Volume ITMSF": 2500
-      },
-      {
-        "Close ITMSF": 1.7000000476837158,
-        "High ITMSF": 1.7000000476837158,
-        "Low ITMSF": 1.7000000476837158,
-        "Open ITMSF": 1.7000000476837158,
-        "Volume ITMSF": 375
-      },
-      {
-        "Close ITMSF": 1.7100000381469727,
-        "High ITMSF": 1.7100000381469727,
-        "Low ITMSF": 1.7100000381469727,
-        "Open ITMSF": 1.7100000381469727,
-        "Volume ITMSF": 1700
-      },
-      {
-        "Close ITMSF": 1.7000000476837158,
-        "High ITMSF": 1.7100000381469727,
-        "Low ITMSF": 1.7000000476837158,
-        "Open ITMSF": 1.7100000381469727,
-        "Volume ITMSF": 625
-      },
-      {
-        "Close ITMSF": 1.7999999523162842,
-        "High ITMSF": 1.7999999523162842,
-        "Low ITMSF": 1.7999999523162842,
-        "Open ITMSF": 1.7999999523162842,
-        "Volume ITMSF": 5400
-      },
-      {
-        "Close ITMSF": 1.809999942779541,
-        "High ITMSF": 1.809999942779541,
-        "Low ITMSF": 1.809999942779541,
-        "Open ITMSF": 1.809999942779541,
-        "Volume ITMSF": 5400
-      },
-      {
-        "Close ITMSF": 1.809999942779541,
-        "High ITMSF": 1.809999942779541,
-        "Low ITMSF": 1.809999942779541,
-        "Open ITMSF": 1.809999942779541,
-        "Volume ITMSF": 1100
-      },
-      {
-        "Close ITMSF": 1.7300000190734863,
-        "High ITMSF": 1.7300000190734863,
-        "Low ITMSF": 1.7300000190734863,
-        "Open ITMSF": 1.7300000190734863,
-        "Volume ITMSF": 1000
-      },
-      {
-        "Close ITMSF": 1.7699999809265137,
-        "High ITMSF": 1.7699999809265137,
-        "Low ITMSF": 1.7699999809265137,
-        "Open ITMSF": 1.7699999809265137,
-        "Volume ITMSF": 100
-      },
-      {
-        "Close ITMSF": 1.7699999809265137,
-        "High ITMSF": 1.7699999809265137,
-        "Low ITMSF": 1.7699999809265137,
-        "Open ITMSF": 1.7699999809265137,
-        "Volume ITMSF": 150
-      },
-      {
-        "Close ITMSF": 1.7699999809265137,
-        "High ITMSF": 1.7699999809265137,
-        "Low ITMSF": 1.7699999809265137,
-        "Open ITMSF": 1.7699999809265137,
-        "Volume ITMSF": 300
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -737,7 +651,7 @@
       "status": "error"
     },
     "institutional_holders": {
-      "status": "no_data"
+      "status": "error"
     }
   },
   "earnings_data": {
@@ -747,7 +661,7 @@
     },
     "calendar": {
       "status": "error",
-      "message": "'dict' object has no attribute 'empty'"
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   }
 }

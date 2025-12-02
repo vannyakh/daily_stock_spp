@@ -1,9 +1,67 @@
 {
   "ticker": "CETY",
-  "timestamp": "2025-11-20T05:01:03.263986",
+  "timestamp": "2025-12-02T04:51:19.517193",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 8,
+    "data": [
+      {
+        "Close AIFU": 2.950000047683716,
+        "High AIFU": 2.950000047683716,
+        "Low AIFU": 2.950000047683716,
+        "Open AIFU": 2.950000047683716,
+        "Volume AIFU": 0
+      },
+      {
+        "Close AIFU": 2.7799999713897705,
+        "High AIFU": 2.7899999618530273,
+        "Low AIFU": 2.7799999713897705,
+        "Open AIFU": 2.7899999618530273,
+        "Volume AIFU": 317
+      },
+      {
+        "Close AIFU": 2.6700000762939453,
+        "High AIFU": 2.6700000762939453,
+        "Low AIFU": 2.6700000762939453,
+        "Open AIFU": 2.6700000762939453,
+        "Volume AIFU": 121
+      },
+      {
+        "Close AIFU": 2.625,
+        "High AIFU": 2.625,
+        "Low AIFU": 2.625,
+        "Open AIFU": 2.625,
+        "Volume AIFU": 101
+      },
+      {
+        "Close AIFU": 2.6500000953674316,
+        "High AIFU": 2.6500000953674316,
+        "Low AIFU": 2.649899959564209,
+        "Open AIFU": 2.6500000953674316,
+        "Volume AIFU": 397
+      },
+      {
+        "Close AIFU": 2.5999999046325684,
+        "High AIFU": 2.5999999046325684,
+        "Low AIFU": 2.5999999046325684,
+        "Open AIFU": 2.5999999046325684,
+        "Volume AIFU": 105
+      },
+      {
+        "Close AIFU": 2.6500000953674316,
+        "High AIFU": 2.6500000953674316,
+        "Low AIFU": 2.6500000953674316,
+        "Open AIFU": 2.6500000953674316,
+        "Volume AIFU": 124
+      },
+      {
+        "Close AIFU": 2.6600000858306885,
+        "High AIFU": 2.6700000762939453,
+        "Low AIFU": 2.6600000858306885,
+        "Open AIFU": 2.6700000762939453,
+        "Volume AIFU": 609
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -11,15 +69,89 @@
   },
   "financials": {
     "income_statement": {
+      "status": "no_data"
+    },
+    "balance_sheet": {
+      "status": "no_data"
+    },
+    "cash_flow": {
+      "status": "no_data"
+    }
+  },
+  "options_data": {
+    "status": "error",
+    "error_message": "Too Many Requests. Rate limited. Try after a while."
+  },
+  "news_data": {
+    "news": {
       "status": "success",
-      "rows": 53,
-      "columns": [
-        "2024-12-31 00:00:00",
-        "2023-12-31 00:00:00",
-        "2022-12-31 00:00:00",
-        "2021-12-31 00:00:00",
-        "2020-12-31 00:00:00"
-      ],
+      "count": 1,
       "data": [
         {
-          
+          "id": "fa0f4208-5674-3d04-8827-c31a09ea97fe",
+          "content": {
+            "id": "fa0f4208-5674-3d04-8827-c31a09ea97fe",
+            "contentType": "STORY",
+            "title": "BC-Most Active Stocks",
+            "description": "",
+            "summary": "td class=\"col-issue\">Clean Energy Technologies Inc.",
+            "pubDate": "2025-11-25T15:30:18Z",
+            "displayTime": "2025-11-25T15:30:18Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": null,
+            "provider": {
+              "displayName": "Associated Press Finance",
+              "url": "http://www.ap.org/"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/bc-most-active-stocks-153018292.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/bc-most-active-stocks-153018292.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        }
+      ]
+    },
+    "recommendations": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  },
+  "holders_data": {
+    "major_holders": {
+      "status": "error"
+    },
+    "institutional_holders": {
+      "status": "error"
+    }
+  },
+  "earnings_data": {
+    "earnings": {
+      "status": "error",
+      "message": "'NoneType' object has no attribute 'empty'"
+    },
+    "calendar": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  }
+}

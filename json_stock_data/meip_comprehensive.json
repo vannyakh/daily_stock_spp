@@ -1,9 +1,39 @@
 {
   "ticker": "MEIP",
-  "timestamp": "2025-11-20T05:01:47.883321",
+  "timestamp": "2025-12-02T04:51:47.815887",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 4,
+    "data": [
+      {
+        "Close WNDW": 0.4000000059604645,
+        "High WNDW": 0.4000000059604645,
+        "Low WNDW": 0.4000000059604645,
+        "Open WNDW": 0.4000000059604645,
+        "Volume WNDW": 0
+      },
+      {
+        "Close WNDW": 0.4099999964237213,
+        "High WNDW": 0.4099999964237213,
+        "Low WNDW": 0.4099999964237213,
+        "Open WNDW": 0.4099999964237213,
+        "Volume WNDW": 300
+      },
+      {
+        "Close WNDW": 0.4000000059604645,
+        "High WNDW": 0.4000000059604645,
+        "Low WNDW": 0.4000000059604645,
+        "Open WNDW": 0.4000000059604645,
+        "Volume WNDW": 100
+      },
+      {
+        "Close WNDW": 0.5099999904632568,
+        "High WNDW": 0.5099999904632568,
+        "Low WNDW": 0.5099999904632568,
+        "Open WNDW": 0.5099999904632568,
+        "Volume WNDW": 100
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -520,15 +550,16 @@
       ]
     },
     "recommendations": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   },
   "holders_data": {
     "major_holders": {
-      "status": "no_data"
+      "status": "error"
     },
     "institutional_holders": {
-      "status": "no_data"
+      "status": "error"
     }
   },
   "earnings_data": {

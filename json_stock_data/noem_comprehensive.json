@@ -1,32 +1,9 @@
 {
   "ticker": "NOEM",
-  "timestamp": "2025-11-20T04:52:03.543708",
+  "timestamp": "2025-12-02T04:45:34.570873",
   "intraday_data": {
-    "status": "success",
-    "rows": 3,
-    "data": [
-      {
-        "Close": 10.300000190734863,
-        "High": 10.300000190734863,
-        "Low": 10.300000190734863,
-        "Open": 10.300000190734863,
-        "Volume": 1004
-      },
-      {
-        "Close": 10.300000190734863,
-        "High": 10.300000190734863,
-        "Low": 10.300000190734863,
-        "Open": 10.300000190734863,
-        "Volume": 1029
-      },
-      {
-        "Close": 10.25,
-        "High": 10.25,
-        "Low": 10.25,
-        "Open": 10.25,
-        "Volume": 1002
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -40,13 +17,38 @@
       "status": "no_data"
     },
     "cash_flow": {
-      "status": "success",
-      "rows": 31,
-      "columns": [
-        "2024-12-31 00:00:00",
-        "2023-12-31 00:00:00",
-        "2022-12-31 00:00:00"
-      ],
-      "data": [
-        {
-          
+      "status": "no_data"
+    }
+  },
+  "options_data": {
+    "status": "error",
+    "error_message": "Too Many Requests. Rate limited. Try after a while."
+  },
+  "news_data": {
+    "news": {
+      "status": "no_data"
+    },
+    "recommendations": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  },
+  "holders_data": {
+    "major_holders": {
+      "status": "error"
+    },
+    "institutional_holders": {
+      "status": "error"
+    }
+  },
+  "earnings_data": {
+    "earnings": {
+      "status": "error",
+      "message": "'NoneType' object has no attribute 'empty'"
+    },
+    "calendar": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  }
+}
