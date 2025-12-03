@@ -1,9 +1,46 @@
 {
   "ticker": "ZBAI",
-  "timestamp": "2025-12-02T04:51:26.529826",
+  "timestamp": "2025-12-03T05:04:32.876080",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 5,
+    "data": [
+      {
+        "Close": 6.679999828338623,
+        "High": 6.679999828338623,
+        "Low": 6.679999828338623,
+        "Open": 6.679999828338623,
+        "Volume": 302
+      },
+      {
+        "Close": 6.789999961853027,
+        "High": 6.789999961853027,
+        "Low": 6.789999961853027,
+        "Open": 6.789999961853027,
+        "Volume": 100
+      },
+      {
+        "Close": 6.789999961853027,
+        "High": 6.789999961853027,
+        "Low": 6.789999961853027,
+        "Open": 6.789999961853027,
+        "Volume": 104
+      },
+      {
+        "Close": 6.679999828338623,
+        "High": 6.679999828338623,
+        "Low": 6.679999828338623,
+        "Open": 6.679999828338623,
+        "Volume": 635
+      },
+      {
+        "Close": 6.599999904632568,
+        "High": 6.599999904632568,
+        "Low": 6.599999904632568,
+        "Open": 6.599999904632568,
+        "Volume": 168
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -29,7 +66,8 @@
       "status": "no_data"
     },
     "recommendations": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   },
   "holders_data": {

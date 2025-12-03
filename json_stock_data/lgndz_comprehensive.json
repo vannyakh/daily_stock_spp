@@ -1,6 +1,6 @@
 {
   "ticker": "LGNDZ",
-  "timestamp": "2025-12-02T05:15:11.237988",
+  "timestamp": "2025-12-03T05:35:00.392865",
   "intraday_data": {
     "status": "no_data",
     "message": "No intraday data available"
@@ -618,16 +618,30 @@
       ]
     },
     "recommendations": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
+      "status": "no_data"
     }
   },
   "holders_data": {
     "major_holders": {
-      "status": "error"
+      "status": "success",
+      "data": [
+        {
+          "Value": 3
+        }
+      ]
     },
     "institutional_holders": {
-      "status": "error"
+      "status": "success",
+      "data": [
+        {
+          "Date Reported": "2025-09-30 00:00:00",
+          "Holder": "Ancora Advisors, LLC",
+          "pctHeld": 0.0,
+          "Shares": 12000,
+          "Value": 65,
+          "pctChange": 0.0
+        }
+      ]
     }
   },
   "earnings_data": {
@@ -637,7 +651,7 @@
     },
     "calendar": {
       "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
+      "message": "'dict' object has no attribute 'empty'"
     }
   }
 }

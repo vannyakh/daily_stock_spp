@@ -1,81 +1,9 @@
 {
   "ticker": "MITP",
-  "timestamp": "2025-12-02T05:13:00.931522",
+  "timestamp": "2025-12-03T05:31:21.835279",
   "intraday_data": {
-    "status": "success",
-    "rows": 10,
-    "data": [
-      {
-        "Close MITN": 25.13990020751953,
-        "High MITN": 25.139999389648438,
-        "Low MITN": 25.13990020751953,
-        "Open MITN": 25.139999389648438,
-        "Volume MITN": 0
-      },
-      {
-        "Close MITN": 25.13990020751953,
-        "High MITN": 25.139999389648438,
-        "Low MITN": 25.13990020751953,
-        "Open MITN": 25.139999389648438,
-        "Volume MITN": 800
-      },
-      {
-        "Close MITN": 25.1481990814209,
-        "High MITN": 25.1481990814209,
-        "Low MITN": 25.1481990814209,
-        "Open MITN": 25.1481990814209,
-        "Volume MITN": 190
-      },
-      {
-        "Close MITN": 25.149999618530273,
-        "High MITN": 25.149999618530273,
-        "Low MITN": 25.149999618530273,
-        "Open MITN": 25.149999618530273,
-        "Volume MITN": 101
-      },
-      {
-        "Close MITN": 25.149999618530273,
-        "High MITN": 25.149999618530273,
-        "Low MITN": 25.149999618530273,
-        "Open MITN": 25.149999618530273,
-        "Volume MITN": 171
-      },
-      {
-        "Close MITN": 25.14590072631836,
-        "High MITN": 25.14590072631836,
-        "Low MITN": 25.14590072631836,
-        "Open MITN": 25.14590072631836,
-        "Volume MITN": 140
-      },
-      {
-        "Close MITN": 25.146099090576172,
-        "High MITN": 25.146099090576172,
-        "Low MITN": 25.146099090576172,
-        "Open MITN": 25.146099090576172,
-        "Volume MITN": 200
-      },
-      {
-        "Close MITN": 25.139999389648438,
-        "High MITN": 25.139999389648438,
-        "Low MITN": 25.139999389648438,
-        "Open MITN": 25.139999389648438,
-        "Volume MITN": 200
-      },
-      {
-        "Close MITN": 25.100000381469727,
-        "High MITN": 25.149999618530273,
-        "Low MITN": 25.100000381469727,
-        "Open MITN": 25.149999618530273,
-        "Volume MITN": 497
-      },
-      {
-        "Close MITN": 25.100000381469727,
-        "High MITN": 25.100000381469727,
-        "Low MITN": 25.100000381469727,
-        "Open MITN": 25.100000381469727,
-        "Volume MITN": 1200
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -101,7 +29,8 @@
       "status": "no_data"
     },
     "recommendations": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   },
   "holders_data": {

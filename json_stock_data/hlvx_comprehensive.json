@@ -1,13 +1,99 @@
 {
   "ticker": "HLVX",
-  "timestamp": "2025-12-02T04:45:32.211431",
+  "timestamp": "2025-12-03T04:55:34.234267",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 12,
+    "data": [
+      {
+        "Close THCH": 2.6500000953674316,
+        "High THCH": 2.6500000953674316,
+        "Low THCH": 2.569999933242798,
+        "Open THCH": 2.569999933242798,
+        "Volume THCH": 0
+      },
+      {
+        "Close THCH": 2.575000047683716,
+        "High THCH": 2.6500000953674316,
+        "Low THCH": 2.575000047683716,
+        "Open THCH": 2.630000114440918,
+        "Volume THCH": 3277
+      },
+      {
+        "Close THCH": 2.5701000690460205,
+        "High THCH": 2.5701000690460205,
+        "Low THCH": 2.5701000690460205,
+        "Open THCH": 2.5701000690460205,
+        "Volume THCH": 1092
+      },
+      {
+        "Close THCH": 2.680000066757202,
+        "High THCH": 2.680000066757202,
+        "Low THCH": 2.680000066757202,
+        "Open THCH": 2.680000066757202,
+        "Volume THCH": 690
+      },
+      {
+        "Close THCH": 2.628000020980835,
+        "High THCH": 2.628000020980835,
+        "Low THCH": 2.5999999046325684,
+        "Open THCH": 2.609999895095825,
+        "Volume THCH": 7728
+      },
+      {
+        "Close THCH": 2.5899999141693115,
+        "High THCH": 2.5899999141693115,
+        "Low THCH": 2.5899999141693115,
+        "Open THCH": 2.5899999141693115,
+        "Volume THCH": 255
+      },
+      {
+        "Close THCH": 2.640000104904175,
+        "High THCH": 2.640000104904175,
+        "Low THCH": 2.640000104904175,
+        "Open THCH": 2.640000104904175,
+        "Volume THCH": 1001
+      },
+      {
+        "Close THCH": 2.5999999046325684,
+        "High THCH": 2.5999999046325684,
+        "Low THCH": 2.5999999046325684,
+        "Open THCH": 2.5999999046325684,
+        "Volume THCH": 310
+      },
+      {
+        "Close THCH": 2.5815999507904053,
+        "High THCH": 2.600100040435791,
+        "Low THCH": 2.5815999507904053,
+        "Open THCH": 2.5999999046325684,
+        "Volume THCH": 1207
+      },
+      {
+        "Close THCH": 2.5999999046325684,
+        "High THCH": 2.5999999046325684,
+        "Low THCH": 2.5999999046325684,
+        "Open THCH": 2.5999999046325684,
+        "Volume THCH": 396
+      },
+      {
+        "Close THCH": 2.619999885559082,
+        "High THCH": 2.619999885559082,
+        "Low THCH": 2.619999885559082,
+        "Open THCH": 2.619999885559082,
+        "Volume THCH": 0
+      },
+      {
+        "Close THCH": 2.6600000858306885,
+        "High THCH": 2.6600000858306885,
+        "Low THCH": 2.6600000858306885,
+        "Open THCH": 2.6600000858306885,
+        "Volume THCH": 125
+      }
+    ]
   },
   "stock_info": {
-    "status": "error",
-    "message": "Too Many Requests. Rate limited. Try after a while."
+    "status": "success",
+    "data": {}
   },
   "financials": {
     "income_statement": {
@@ -21,8 +107,7 @@
     }
   },
   "options_data": {
-    "status": "error",
-    "error_message": "Too Many Requests. Rate limited. Try after a while."
+    "expirations": []
   },
   "news_data": {
     "news": {
@@ -398,16 +483,15 @@
       ]
     },
     "recommendations": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
+      "status": "no_data"
     }
   },
   "holders_data": {
     "major_holders": {
-      "status": "error"
+      "status": "no_data"
     },
     "institutional_holders": {
-      "status": "error"
+      "status": "no_data"
     }
   },
   "earnings_data": {
@@ -417,7 +501,7 @@
     },
     "calendar": {
       "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
+      "message": "'dict' object has no attribute 'empty'"
     }
   }
 }

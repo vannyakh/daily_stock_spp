@@ -1,13 +1,75 @@
 {
   "ticker": "ESLAW",
-  "timestamp": "2025-12-02T05:10:21.401522",
+  "timestamp": "2025-12-03T05:27:32.191386",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 1,
+    "data": [
+      {
+        "Close": 0.10999999940395355,
+        "High": 0.10999999940395355,
+        "Low": 0.10999999940395355,
+        "Open": 0.10999999940395355,
+        "Volume": 0
+      }
+    ]
   },
   "stock_info": {
-    "status": "error",
-    "message": "Too Many Requests. Rate limited. Try after a while."
+    "status": "success",
+    "data": {
+      "language": "en-US",
+      "region": "US",
+      "quoteType": "EQUITY",
+      "typeDisp": "Equity",
+      "quoteSourceName": "Delayed Quote",
+      "triggerable": true,
+      "customPriceAlertConfidence": "HIGH",
+      "currency": "USD",
+      "longName": "Estrella Immunopharma, Inc.",
+      "market": "us_market",
+      "esgPopulated": false,
+      "bookValue": -2.89,
+      "priceToBook": -0.038062282,
+      "sourceInterval": 15,
+      "exchangeDataDelayedBy": 0,
+      "tradeable": false,
+      "cryptoTradeable": false,
+      "regularMarketTime": 1764692994,
+      "exchange": "NCM",
+      "messageBoardId": "finmb_1802952199",
+      "exchangeTimezoneName": "America/New_York",
+      "exchangeTimezoneShortName": "EST",
+      "gmtOffSetMilliseconds": -18000000,
+      "regularMarketChangePercent": -22.206503,
+      "regularMarketPrice": 0.11,
+      "marketState": "PREPRE",
+      "regularMarketChange": -0.031399995,
+      "regularMarketDayHigh": 0.11,
+      "regularMarketDayRange": "0.11 - 0.11",
+      "regularMarketDayLow": 0.11,
+      "regularMarketVolume": 250,
+      "regularMarketPreviousClose": 0.1414,
+      "bid": 0.0,
+      "ask": 0.0,
+      "bidSize": 0,
+      "askSize": 0,
+      "fullExchangeName": "NasdaqCM",
+      "financialCurrency": "USD",
+      "regularMarketOpen": 0.11,
+      "fiftyTwoWeekLowChange": 0.0,
+      "fiftyTwoWeekLowChangePercent": 0.0,
+      "fiftyTwoWeekRange": "0.11 - 0.11",
+      "fiftyTwoWeekHighChange": 0.0,
+      "fiftyTwoWeekHighChangePercent": 0.0,
+      "fiftyTwoWeekLow": 0.11,
+      "fiftyTwoWeekHigh": 0.11,
+      "trailingAnnualDividendRate": 0.0,
+      "trailingAnnualDividendYield": 0.0,
+      "hasPrePostMarketData": true,
+      "priceHint": 4,
+      "displayName": "Estrella Immunopharma",
+      "symbol": "ESLAW"
+    }
   },
   "financials": {
     "income_statement": {
@@ -215,7 +277,8 @@
       ]
     },
     "recommendations": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   },
   "holders_data": {

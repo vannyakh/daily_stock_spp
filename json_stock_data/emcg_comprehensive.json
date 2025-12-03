@@ -1,13 +1,46 @@
 {
   "ticker": "EMCG",
-  "timestamp": "2025-12-02T04:48:11.772083",
+  "timestamp": "2025-12-03T05:00:06.896267",
   "intraday_data": {
     "status": "no_data",
     "message": "No intraday data available"
   },
   "stock_info": {
-    "status": "error",
-    "message": "Too Many Requests. Rate limited. Try after a while."
+    "status": "success",
+    "data": {
+      "maxAge": 86400,
+      "priceHint": 2,
+      "previousClose": 11.0,
+      "regularMarketPreviousClose": 11.0,
+      "currency": "USD",
+      "tradeable": false,
+      "quoteType": "EQUITY",
+      "symbol": "EMCG",
+      "language": "en-US",
+      "region": "US",
+      "typeDisp": "Equity",
+      "quoteSourceName": "Delayed Quote",
+      "triggerable": true,
+      "customPriceAlertConfidence": "HIGH",
+      "regularMarketChange": 0.0,
+      "hasPrePostMarketData": true,
+      "sourceInterval": 15,
+      "exchangeDataDelayedBy": 0,
+      "fullExchangeName": "NasdaqGM",
+      "regularMarketTime": 1764104400,
+      "exchange": "NGM",
+      "exchangeTimezoneName": "America/New_York",
+      "exchangeTimezoneShortName": "EST",
+      "gmtOffSetMilliseconds": -18000000,
+      "market": "us_market",
+      "esgPopulated": false,
+      "cryptoTradeable": false,
+      "regularMarketChangePercent": 0.0,
+      "regularMarketPrice": 11.0,
+      "marketState": "PREPRE",
+      "shortName": "Embrace Change Acquisition Corp",
+      "displayName": "Embrace Change"
+    }
   },
   "financials": {
     "income_statement": {
@@ -21,8 +54,7 @@
     }
   },
   "options_data": {
-    "status": "error",
-    "error_message": "Too Many Requests. Rate limited. Try after a while."
+    "expirations": []
   },
   "news_data": {
     "news": {
@@ -34,10 +66,10 @@
   },
   "holders_data": {
     "major_holders": {
-      "status": "error"
+      "status": "no_data"
     },
     "institutional_holders": {
-      "status": "error"
+      "status": "no_data"
     }
   },
   "earnings_data": {
@@ -47,7 +79,7 @@
     },
     "calendar": {
       "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
+      "message": "'dict' object has no attribute 'empty'"
     }
   }
 }

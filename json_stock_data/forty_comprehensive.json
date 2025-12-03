@@ -1,25 +1,9 @@
 {
   "ticker": "FORTY",
-  "timestamp": "2025-12-02T04:30:47.740796",
+  "timestamp": "2025-12-03T04:38:05.476834",
   "intraday_data": {
-    "status": "success",
-    "rows": 2,
-    "data": [
-      {
-        "Close": 160.0,
-        "High": 160.0,
-        "Low": 160.0,
-        "Open": 160.0,
-        "Volume": 1203
-      },
-      {
-        "Close": 160.0,
-        "High": 160.0,
-        "Low": 160.0,
-        "Open": 160.0,
-        "Volume": 199
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -578,7 +562,8 @@
       ]
     },
     "recommendations": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   },
   "holders_data": {
@@ -596,7 +581,7 @@
     },
     "calendar": {
       "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
+      "message": "'dict' object has no attribute 'empty'"
     }
   }
 }

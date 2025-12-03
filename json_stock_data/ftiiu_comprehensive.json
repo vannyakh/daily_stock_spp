@@ -1,63 +1,92 @@
 {
   "ticker": "FTIIU",
-  "timestamp": "2025-12-02T05:10:39.575073",
+  "timestamp": "2025-12-03T05:28:00.848493",
   "intraday_data": {
-    "status": "success",
-    "rows": 1,
-    "data": [
-      {
-        "Close SVREW": 0.0142000000923872,
-        "High SVREW": 0.0142000000923872,
-        "Low SVREW": 0.0142000000923872,
-        "Open SVREW": 0.0142000000923872,
-        "Volume SVREW": 0
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
-    "status": "error",
-    "message": "Too Many Requests. Rate limited. Try after a while."
+    "status": "success",
+    "data": {
+      "language": "en-US",
+      "region": "US",
+      "quoteType": "EQUITY",
+      "typeDisp": "Equity",
+      "quoteSourceName": "Delayed Quote",
+      "triggerable": true,
+      "customPriceAlertConfidence": "HIGH",
+      "currency": "USD",
+      "regularMarketChangePercent": -21.357143,
+      "regularMarketPrice": 11.01,
+      "trailingAnnualDividendRate": 0.0,
+      "trailingAnnualDividendYield": 0.0,
+      "bookValue": -2.234,
+      "fiftyDayAverage": 12.0,
+      "fiftyDayAverageChange": -0.9899998,
+      "fiftyDayAverageChangePercent": -0.08249998,
+      "twoHundredDayAverage": 11.40125,
+      "twoHundredDayAverageChange": -0.39124966,
+      "twoHundredDayAverageChangePercent": -0.034316383,
+      "priceToBook": -4.9283795,
+      "sourceInterval": 15,
+      "exchangeDataDelayedBy": 0,
+      "ipoExpectedDate": "2022-02-16",
+      "tradeable": false,
+      "cryptoTradeable": false,
+      "hasPrePostMarketData": true,
+      "firstTradeDateMilliseconds": 1645021800000,
+      "priceHint": 2,
+      "regularMarketChange": -2.99,
+      "regularMarketDayHigh": 18.0,
+      "regularMarketDayRange": "18.0 - 18.0",
+      "regularMarketDayLow": 18.0,
+      "regularMarketVolume": 2,
+      "regularMarketTime": 1764338115,
+      "shortName": "FutureTech II Acquisition Corp.",
+      "longName": "FutureTech II Acquisition Corp.",
+      "exchange": "NGM",
+      "messageBoardId": "finmb_1760720207",
+      "exchangeTimezoneName": "America/New_York",
+      "exchangeTimezoneShortName": "EST",
+      "gmtOffSetMilliseconds": -18000000,
+      "market": "us_market",
+      "esgPopulated": false,
+      "marketState": "PREPRE",
+      "regularMarketPreviousClose": 14.0,
+      "bid": 11.0,
+      "ask": 15.0,
+      "bidSize": 1600,
+      "askSize": 0,
+      "fullExchangeName": "NasdaqGM",
+      "financialCurrency": "USD",
+      "regularMarketOpen": 18.0,
+      "averageDailyVolume3Month": 0,
+      "averageDailyVolume10Day": 0,
+      "fiftyTwoWeekLowChange": 0.59000015,
+      "fiftyTwoWeekLowChangePercent": 0.056621894,
+      "fiftyTwoWeekRange": "10.42 - 18.0",
+      "fiftyTwoWeekHighChange": -6.99,
+      "fiftyTwoWeekHighChangePercent": -0.38833332,
+      "fiftyTwoWeekLow": 10.42,
+      "fiftyTwoWeekHigh": 18.0,
+      "fiftyTwoWeekChangePercent": 0.4184127,
+      "displayName": "FutureTech II",
+      "symbol": "FTIIU"
+    }
   },
   "financials": {
     "income_statement": {
       "status": "no_data"
     },
     "balance_sheet": {
-      "status": "no_data"
-    },
-    "cash_flow": {
-      "status": "no_data"
-    }
-  },
-  "options_data": {
-    "status": "error",
-    "error_message": "Too Many Requests. Rate limited. Try after a while."
-  },
-  "news_data": {
-    "news": {
-      "status": "no_data"
-    },
-    "recommendations": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
-    }
-  },
-  "holders_data": {
-    "major_holders": {
-      "status": "error"
-    },
-    "institutional_holders": {
-      "status": "error"
-    }
-  },
-  "earnings_data": {
-    "earnings": {
-      "status": "error",
-      "message": "'NoneType' object has no attribute 'empty'"
-    },
-    "calendar": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
-    }
-  }
-}
+      "status": "success",
+      "rows": 45,
+      "columns": [
+        "2024-12-31 00:00:00",
+        "2023-12-31 00:00:00",
+        "2022-12-31 00:00:00",
+        "2021-12-31 00:00:00"
+      ],
+      "data": [
+        {
+          

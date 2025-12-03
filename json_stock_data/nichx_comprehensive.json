@@ -1,13 +1,80 @@
 {
   "ticker": "NICHX",
-  "timestamp": "2025-12-02T05:09:50.760806",
+  "timestamp": "2025-12-03T05:26:44.087344",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 2,
+    "data": [
+      {
+        "Close": 26.760000228881836,
+        "High": 26.760000228881836,
+        "Low": 26.760000228881836,
+        "Open": 26.760000228881836,
+        "Volume": 0
+      },
+      {
+        "Close": 26.770000457763672,
+        "High": 26.770000457763672,
+        "Low": 26.770000457763672,
+        "Open": 26.770000457763672,
+        "Volume": 0
+      }
+    ]
   },
   "stock_info": {
-    "status": "error",
-    "message": "Too Many Requests. Rate limited. Try after a while."
+    "status": "success",
+    "data": {
+      "quoteType": "MUTUALFUND",
+      "symbol": "NICHX",
+      "language": "en-US",
+      "region": "US",
+      "typeDisp": "Fund",
+      "quoteSourceName": "Delayed Quote",
+      "triggerable": false,
+      "customPriceAlertConfidence": "NONE",
+      "currency": "USD",
+      "regularMarketTime": 1764723922,
+      "exchange": "NAS",
+      "messageBoardId": "finmb_541368958",
+      "exchangeTimezoneName": "America/New_York",
+      "exchangeTimezoneShortName": "EST",
+      "gmtOffSetMilliseconds": -18000000,
+      "market": "us_market",
+      "esgPopulated": false,
+      "fiftyTwoWeekLowChange": 0.47000122,
+      "fiftyTwoWeekLowChangePercent": 0.017870769,
+      "fiftyTwoWeekRange": "26.3 - 27.72",
+      "fiftyTwoWeekHighChange": -0.94999886,
+      "fiftyTwoWeekHighChangePercent": -0.034271244,
+      "fiftyTwoWeekLow": 26.3,
+      "fiftyTwoWeekHigh": 27.72,
+      "fiftyTwoWeekChangePercent": -2.9379785,
+      "trailingAnnualDividendRate": 0.0,
+      "trailingAnnualDividendYield": 0.0,
+      "fiftyDayAverage": 26.6144,
+      "fiftyDayAverageChange": 0.1555996,
+      "fiftyDayAverageChangePercent": 0.0058464436,
+      "twoHundredDayAverage": 26.81795,
+      "twoHundredDayAverageChange": -0.047948837,
+      "twoHundredDayAverageChangePercent": -0.0017879383,
+      "sourceInterval": 15,
+      "exchangeDataDelayedBy": 0,
+      "tradeable": false,
+      "cryptoTradeable": false,
+      "regularMarketChangePercent": 0.037369207,
+      "regularMarketPrice": 26.77,
+      "marketState": "PREPRE",
+      "hasPrePostMarketData": false,
+      "firstTradeDateMilliseconds": 1538487000000,
+      "priceHint": 2,
+      "regularMarketChange": 0.01,
+      "regularMarketPreviousClose": 26.76,
+      "fullExchangeName": "Nasdaq",
+      "averageDailyVolume3Month": 0,
+      "averageDailyVolume10Day": 0,
+      "shortName": "Variant Alternative Income Fund",
+      "longName": "Variant Alternative Income Fund LP"
+    }
   },
   "financials": {
     "income_statement": {
@@ -21,24 +88,22 @@
     }
   },
   "options_data": {
-    "status": "error",
-    "error_message": "Too Many Requests. Rate limited. Try after a while."
+    "expirations": []
   },
   "news_data": {
     "news": {
       "status": "no_data"
     },
     "recommendations": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
+      "status": "no_data"
     }
   },
   "holders_data": {
     "major_holders": {
-      "status": "error"
+      "status": "no_data"
     },
     "institutional_holders": {
-      "status": "error"
+      "status": "no_data"
     }
   },
   "earnings_data": {
@@ -48,7 +113,7 @@
     },
     "calendar": {
       "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
+      "message": "'dict' object has no attribute 'empty'"
     }
   }
 }

@@ -1,13 +1,87 @@
 {
   "ticker": "IRAAU",
-  "timestamp": "2025-12-02T05:09:53.954961",
+  "timestamp": "2025-12-03T05:26:50.524380",
   "intraday_data": {
     "status": "no_data",
     "message": "No intraday data available"
   },
   "stock_info": {
-    "status": "error",
-    "message": "Too Many Requests. Rate limited. Try after a while."
+    "status": "success",
+    "data": {
+      "address1": "Zephyr House",
+      "address2": "3rd Floor 122 Mary Street PO Box 10085",
+      "city": "George Town",
+      "zip": "KY1-1001",
+      "country": "Cayman Islands",
+      "industry": "Shell Companies",
+      "industryKey": "shell-companies",
+      "industryDisp": "Shell Companies",
+      "sector": "Financial Services",
+      "sectorKey": "financial-services",
+      "sectorDisp": "Financial Services",
+      "longBusinessSummary": "Iris Acquisition Corp does not have significant operations. It intends to effect a merger, capital stock exchange, asset acquisition, stock purchase, reorganization, or similar business combination with one or more businesses. The company was formerly known as Tribe Capital Growth Corp I and changed its name to Iris Acquisition Corp in July 2022. The company was incorporated in 2020 and is based in George Town, Cayman Islands. Iris Acquisition Corp is a subsidiary of Iris Acquisition Holdings LLC.",
+      "maxAge": 86400,
+      "priceHint": 2,
+      "previousClose": 0.0,
+      "regularMarketPreviousClose": 0.0,
+      "beta": 0.212,
+      "currency": "USD",
+      "tradeable": false,
+      "enterpriseValue": 37050116,
+      "profitMargins": 0.0,
+      "floatShares": 174457,
+      "sharesShort": 556,
+      "sharesShortPriorMonth": 556,
+      "sharesShortPreviousMonthDate": 1721001600,
+      "dateShortInterest": 1723680000,
+      "heldPercentInsiders": 0.0,
+      "heldPercentInstitutions": 0.0,
+      "shortRatio": 0.49,
+      "lastFiscalYearEnd": 1735603200,
+      "nextFiscalYearEnd": 1767139200,
+      "mostRecentQuarter": 1735603200,
+      "netIncomeToCommon": -2904299,
+      "SandP52WeekChange": 0.12205398,
+      "quoteType": "EQUITY",
+      "currentPrice": 10.7,
+      "recommendationKey": "none",
+      "totalCash": 52996,
+      "totalCashPerShare": 0.007,
+      "totalDebt": 5197220,
+      "quickRatio": 0.007,
+      "currentRatio": 0.094,
+      "returnOnAssets": -0.49554002,
+      "freeCashflow": -1850007,
+      "operatingCashflow": -3106462,
+      "grossMargins": 0.0,
+      "ebitdaMargins": 0.0,
+      "operatingMargins": 0.0,
+      "financialCurrency": "USD",
+      "symbol": "IRAAU",
+      "language": "en-US",
+      "region": "US",
+      "typeDisp": "Equity",
+      "quoteSourceName": "Delayed Quote",
+      "triggerable": true,
+      "customPriceAlertConfidence": "HIGH",
+      "marketState": "PREPRE",
+      "shortName": "Iris Acquisition Corp",
+      "regularMarketTime": 1764104400,
+      "exchange": "NGM",
+      "exchangeTimezoneName": "America/New_York",
+      "exchangeTimezoneShortName": "EST",
+      "gmtOffSetMilliseconds": -18000000,
+      "market": "us_market",
+      "esgPopulated": false,
+      "regularMarketPrice": 10.7,
+      "regularMarketChange": 10.7,
+      "fullExchangeName": "NasdaqGM",
+      "hasPrePostMarketData": true,
+      "sourceInterval": 15,
+      "exchangeDataDelayedBy": 0,
+      "cryptoTradeable": false,
+      "displayName": "Iris"
+    }
   },
   "financials": {
     "income_statement": {
@@ -21,24 +95,36 @@
     }
   },
   "options_data": {
-    "status": "error",
-    "error_message": "Too Many Requests. Rate limited. Try after a while."
+    "expirations": []
   },
   "news_data": {
     "news": {
       "status": "no_data"
     },
     "recommendations": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
+      "status": "no_data"
     }
   },
   "holders_data": {
     "major_holders": {
-      "status": "error"
+      "status": "success",
+      "data": [
+        {
+          "Value": 0.0
+        },
+        {
+          "Value": 0.0
+        },
+        {
+          "Value": 0.0
+        },
+        {
+          "Value": 0.0
+        }
+      ]
     },
     "institutional_holders": {
-      "status": "error"
+      "status": "no_data"
     }
   },
   "earnings_data": {
@@ -48,7 +134,7 @@
     },
     "calendar": {
       "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
+      "message": "'dict' object has no attribute 'empty'"
     }
   }
 }

@@ -1,46 +1,9 @@
 {
   "ticker": "EHLD",
-  "timestamp": "2025-12-02T05:00:12.564455",
+  "timestamp": "2025-12-03T05:14:19.728211",
   "intraday_data": {
-    "status": "success",
-    "rows": 5,
-    "data": [
-      {
-        "Close": 7.179999828338623,
-        "High": 7.179999828338623,
-        "Low": 7.179999828338623,
-        "Open": 7.179999828338623,
-        "Volume": 427
-      },
-      {
-        "Close": 7.099800109863281,
-        "High": 7.099800109863281,
-        "Low": 7.099800109863281,
-        "Open": 7.099800109863281,
-        "Volume": 329
-      },
-      {
-        "Close": 7.089799880981445,
-        "High": 7.089799880981445,
-        "Low": 7.089799880981445,
-        "Open": 7.089799880981445,
-        "Volume": 1089
-      },
-      {
-        "Close": 7.164999961853027,
-        "High": 7.164999961853027,
-        "Low": 7.150000095367432,
-        "Open": 7.150000095367432,
-        "Volume": 2845
-      },
-      {
-        "Close": 7.179999828338623,
-        "High": 7.179999828338623,
-        "Low": 7.179999828338623,
-        "Open": 7.179999828338623,
-        "Volume": 0
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -48,44 +11,13 @@
   },
   "financials": {
     "income_statement": {
-      "status": "no_data"
-    },
-    "balance_sheet": {
-      "status": "no_data"
-    },
-    "cash_flow": {
-      "status": "no_data"
-    }
-  },
-  "options_data": {
-    "status": "error",
-    "error_message": "Too Many Requests. Rate limited. Try after a while."
-  },
-  "news_data": {
-    "news": {
-      "status": "no_data"
-    },
-    "recommendations": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
-    }
-  },
-  "holders_data": {
-    "major_holders": {
-      "status": "error"
-    },
-    "institutional_holders": {
-      "status": "error"
-    }
-  },
-  "earnings_data": {
-    "earnings": {
-      "status": "error",
-      "message": "'NoneType' object has no attribute 'empty'"
-    },
-    "calendar": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
-    }
-  }
-}
+      "status": "success",
+      "rows": 40,
+      "columns": [
+        "2024-12-31 00:00:00",
+        "2023-12-31 00:00:00",
+        "2022-12-31 00:00:00"
+      ],
+      "data": [
+        {
+          

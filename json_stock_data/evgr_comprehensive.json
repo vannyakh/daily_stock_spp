@@ -1,13 +1,44 @@
 {
   "ticker": "EVGR",
-  "timestamp": "2025-12-02T04:45:29.450001",
+  "timestamp": "2025-12-03T04:55:26.368182",
   "intraday_data": {
     "status": "no_data",
     "message": "No intraday data available"
   },
   "stock_info": {
-    "status": "error",
-    "message": "Too Many Requests. Rate limited. Try after a while."
+    "status": "success",
+    "data": {
+      "language": "en-US",
+      "region": "US",
+      "quoteType": "EQUITY",
+      "typeDisp": "Equity",
+      "quoteSourceName": "Delayed Quote",
+      "triggerable": true,
+      "customPriceAlertConfidence": "HIGH",
+      "currency": "USD",
+      "regularMarketPrice": 11.95,
+      "marketState": "POSTPOST",
+      "regularMarketTime": 1764104400,
+      "exchange": "NGM",
+      "exchangeTimezoneName": "America/New_York",
+      "exchangeTimezoneShortName": "EST",
+      "gmtOffSetMilliseconds": -18000000,
+      "market": "us_market",
+      "esgPopulated": false,
+      "sourceInterval": 15,
+      "exchangeDataDelayedBy": 0,
+      "tradeable": false,
+      "cryptoTradeable": false,
+      "priceHint": 2,
+      "regularMarketChange": 11.95,
+      "regularMarketPreviousClose": 0.0,
+      "fullExchangeName": "NasdaqGM",
+      "financialCurrency": "USD",
+      "hasPrePostMarketData": true,
+      "shortName": "Evergreen Corporation",
+      "displayName": "Evergreen",
+      "symbol": "EVGR"
+    }
   },
   "financials": {
     "income_statement": {
@@ -29,16 +60,29 @@
       "status": "no_data"
     },
     "recommendations": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
+      "status": "no_data"
     }
   },
   "holders_data": {
     "major_holders": {
-      "status": "error"
+      "status": "success",
+      "data": [
+        {
+          "Value": 0.0
+        },
+        {
+          "Value": 0.85668
+        },
+        {
+          "Value": 0.85668
+        },
+        {
+          "Value": 25.0
+        }
+      ]
     },
     "institutional_holders": {
-      "status": "error"
+      "status": "no_data"
     }
   },
   "earnings_data": {
@@ -48,7 +92,7 @@
     },
     "calendar": {
       "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
+      "message": "'dict' object has no attribute 'empty'"
     }
   }
 }

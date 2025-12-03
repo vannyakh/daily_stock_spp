@@ -1,9 +1,9 @@
 {
   "ticker": "SFES",
-  "timestamp": "2025-12-02T05:04:49.452663",
+  "timestamp": "2025-12-03T05:20:22.202975",
   "intraday_data": {
     "status": "success",
-    "rows": 1,
+    "rows": 3,
     "data": [
       {
         "Close ODDAF": 0.054999999701976776,
@@ -11,6 +11,20 @@
         "Low ODDAF": 0.05104999989271164,
         "Open ODDAF": 0.05104999989271164,
         "Volume ODDAF": 0
+      },
+      {
+        "Close ODDAF": 0.05000000074505806,
+        "High ODDAF": 0.05000000074505806,
+        "Low ODDAF": 0.05000000074505806,
+        "Open ODDAF": 0.05000000074505806,
+        "Volume ODDAF": 4000
+      },
+      {
+        "Close ODDAF": 0.05000000074505806,
+        "High ODDAF": 0.05000000074505806,
+        "Low ODDAF": 0.05000000074505806,
+        "Open ODDAF": 0.05000000074505806,
+        "Volume ODDAF": 4000
       }
     ]
   },
@@ -125,7 +139,8 @@
       ]
     },
     "recommendations": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   },
   "holders_data": {

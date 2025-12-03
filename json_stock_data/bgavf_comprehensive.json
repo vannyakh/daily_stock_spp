@@ -1,9 +1,9 @@
 {
   "ticker": "BGAVF",
-  "timestamp": "2025-12-02T04:57:25.268697",
+  "timestamp": "2025-12-03T05:10:51.495166",
   "intraday_data": {
     "status": "success",
-    "rows": 5,
+    "rows": 6,
     "data": [
       {
         "Close": 0.02800000086426735,
@@ -39,6 +39,13 @@
         "Low": 0.02800000086426735,
         "Open": 0.02800000086426735,
         "Volume": 4000
+      },
+      {
+        "Close": 0.026000000536441803,
+        "High": 0.026000000536441803,
+        "Low": 0.026000000536441803,
+        "Open": 0.026000000536441803,
+        "Volume": 50000
       }
     ]
   },
@@ -48,89 +55,14 @@
   },
   "financials": {
     "income_statement": {
-      "status": "no_data"
-    },
-    "balance_sheet": {
-      "status": "no_data"
-    },
-    "cash_flow": {
-      "status": "no_data"
-    }
-  },
-  "options_data": {
-    "status": "error",
-    "error_message": "Too Many Requests. Rate limited. Try after a while."
-  },
-  "news_data": {
-    "news": {
       "status": "success",
-      "count": 1,
+      "rows": 40,
+      "columns": [
+        "2024-07-31 00:00:00",
+        "2023-07-31 00:00:00",
+        "2022-07-31 00:00:00",
+        "2021-07-31 00:00:00"
+      ],
       "data": [
         {
-          "id": "3984422b-ed60-3f3f-ba9e-a9c74df5f029",
-          "content": {
-            "id": "3984422b-ed60-3f3f-ba9e-a9c74df5f029",
-            "contentType": "STORY",
-            "title": "Bravada Gold Down After Closing Second Tranche of Non-Brokered Private Placement",
-            "description": "",
-            "summary": "Bravada Gold (BVA.V) was down 10% at last look Monday after it closed the second tranche of its prev",
-            "pubDate": "2025-06-23T18:47:50Z",
-            "displayTime": "2025-06-23T18:47:50Z",
-            "isHosted": true,
-            "bypassModal": false,
-            "previewUrl": null,
-            "thumbnail": null,
-            "provider": {
-              "displayName": "MT Newswires",
-              "url": "https://www.mtnewswires.com/"
-            },
-            "canonicalUrl": {
-              "url": "https://finance.yahoo.com/news/bravada-gold-down-closing-second-184750143.html",
-              "site": "finance",
-              "region": "US",
-              "lang": "en-US"
-            },
-            "clickThroughUrl": {
-              "url": "https://finance.yahoo.com/news/bravada-gold-down-closing-second-184750143.html",
-              "site": "finance",
-              "region": "US",
-              "lang": "en-US"
-            },
-            "metadata": {
-              "editorsPick": false
-            },
-            "finance": {
-              "premiumFinance": {
-                "isPremiumNews": true,
-                "isPremiumFreeNews": false
-              }
-            },
-            "storyline": null
-          }
-        }
-      ]
-    },
-    "recommendations": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
-    }
-  },
-  "holders_data": {
-    "major_holders": {
-      "status": "error"
-    },
-    "institutional_holders": {
-      "status": "error"
-    }
-  },
-  "earnings_data": {
-    "earnings": {
-      "status": "error",
-      "message": "'NoneType' object has no attribute 'empty'"
-    },
-    "calendar": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
-    }
-  }
-}
+          

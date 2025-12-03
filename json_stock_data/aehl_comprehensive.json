@@ -1,9 +1,18 @@
 {
   "ticker": "AEHL",
-  "timestamp": "2025-12-02T04:55:26.148772",
+  "timestamp": "2025-12-03T05:08:27.324052",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 1,
+    "data": [
+      {
+        "Close INKW": 0.0005000000237487257,
+        "High INKW": 0.0005000000237487257,
+        "Low INKW": 0.0005000000237487257,
+        "Open INKW": 0.0005000000237487257,
+        "Volume INKW": 300000
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -11,15 +20,192 @@
   },
   "financials": {
     "income_statement": {
+      "status": "no_data"
+    },
+    "balance_sheet": {
+      "status": "no_data"
+    },
+    "cash_flow": {
+      "status": "no_data"
+    }
+  },
+  "options_data": {
+    "status": "error",
+    "error_message": "Too Many Requests. Rate limited. Try after a while."
+  },
+  "news_data": {
+    "news": {
       "status": "success",
-      "rows": 51,
-      "columns": [
-        "2024-12-31 00:00:00",
-        "2023-12-31 00:00:00",
-        "2022-12-31 00:00:00",
-        "2021-12-31 00:00:00",
-        "2020-12-31 00:00:00"
-      ],
+      "count": 3,
       "data": [
         {
-          
+          "id": "73107de1-03fd-307d-8031-4690144e3405",
+          "content": {
+            "id": "73107de1-03fd-307d-8031-4690144e3405",
+            "contentType": "STORY",
+            "title": "Wall Street Set to Open Higher Wednesday as Key Inflation Measure Declines",
+            "description": "",
+            "summary": "US stocks look set to open higher in Wednesday's trading session after a key inflation measure unexp",
+            "pubDate": "2025-09-10T13:26:15Z",
+            "displayTime": "2025-09-10T13:26:15Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": null,
+            "provider": {
+              "displayName": "MT Newswires",
+              "url": "https://www.mtnewswires.com/"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/wall-street-set-open-higher-132615529.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/wall-street-set-open-higher-132615529.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": true,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        },
+        {
+          "id": "f58a11e7-f812-3f54-9e2f-d881e3e001b4",
+          "content": {
+            "id": "f58a11e7-f812-3f54-9e2f-d881e3e001b4",
+            "contentType": "STORY",
+            "title": "Investors Await Key Inflation Data as US Futures Mixed in Wednesday's Premarket",
+            "description": "",
+            "summary": "US stock futures were mixed in Wednesday's premarket session as investors look ahead to key inflatio",
+            "pubDate": "2025-09-10T12:13:29Z",
+            "displayTime": "2025-09-10T12:13:29Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": null,
+            "provider": {
+              "displayName": "MT Newswires",
+              "url": "https://www.mtnewswires.com/"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/investors-await-key-inflation-data-121329118.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/investors-await-key-inflation-data-121329118.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": true,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        },
+        {
+          "id": "25227aa2-4f34-379b-916c-f0547a781a97",
+          "content": {
+            "id": "25227aa2-4f34-379b-916c-f0547a781a97",
+            "contentType": "STORY",
+            "title": "Antelope Enterprise Holdings signs $50M agreement for bitcoin acquisition plan",
+            "description": "",
+            "summary": "Antelope Enterprise entered into a Securities Purchase Agreement with Streeterville Capital for a total financing amount of up to $50 million. The proceeds from this financing will be used exclusively to purchase Bitcoin, marking a major step forward in AEHL\u2018s entry into the cryptocurrency asset space. Under the terms of the Agreement, Streeterville Capital will provide capital to the Company in tranches over a period of up to 24 months, in an amount not to exceed $50 million. AEHL will use thes",
+            "pubDate": "2025-07-30T13:25:20Z",
+            "displayTime": "2025-07-30T13:25:20Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": {
+              "originalUrl": "https://media.zenfs.com/en/tipranks_452/3cf2111855037918583f13dbc4eba2b0",
+              "originalWidth": 192,
+              "originalHeight": 192,
+              "caption": "https://www.tipranks.com/news/the-fly/antelope-enterprise-holdings-signs-50m-agreement-for-bitcoin-acquisition-plan-thefly",
+              "resolutions": [
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/Xdz.Ga6GwrRZz9KbL6Qp5A--~B/aD0xOTI7dz0xOTI7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/tipranks_452/3cf2111855037918583f13dbc4eba2b0",
+                  "width": 192,
+                  "height": 192,
+                  "tag": "original"
+                },
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/MrYoj7Xawt6Owd_pDwaTuA--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/tipranks_452/3cf2111855037918583f13dbc4eba2b0",
+                  "width": 170,
+                  "height": 128,
+                  "tag": "170x128"
+                }
+              ]
+            },
+            "provider": {
+              "displayName": "TipRanks",
+              "url": "https://www.tipranks.com/"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/antelope-enterprise-holdings-signs-50m-132520094.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/antelope-enterprise-holdings-signs-50m-132520094.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        }
+      ]
+    },
+    "recommendations": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  },
+  "holders_data": {
+    "major_holders": {
+      "status": "error"
+    },
+    "institutional_holders": {
+      "status": "error"
+    }
+  },
+  "earnings_data": {
+    "earnings": {
+      "status": "error",
+      "message": "'NoneType' object has no attribute 'empty'"
+    },
+    "calendar": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  }
+}

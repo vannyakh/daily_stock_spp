@@ -1,6 +1,6 @@
 {
   "ticker": "EVOTF",
-  "timestamp": "2025-12-02T05:03:10.956518",
+  "timestamp": "2025-12-03T05:18:45.890407",
   "intraday_data": {
     "status": "no_data",
     "message": "No intraday data available"
@@ -604,39 +604,16 @@
       ]
     },
     "recommendations": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   },
   "holders_data": {
     "major_holders": {
-      "status": "success",
-      "data": [
-        {
-          "Value": 0.09974
-        },
-        {
-          "Value": 0.54683995
-        },
-        {
-          "Value": 0.60742
-        },
-        {
-          "Value": 103.0
-        }
-      ]
+      "status": "error"
     },
     "institutional_holders": {
-      "status": "success",
-      "data": [
-        {
-          "Date Reported": "2025-09-30 00:00:00",
-          "Holder": "Old Mission Capital, LLC",
-          "pctHeld": 0.0001,
-          "Shares": 15417,
-          "Value": 123490,
-          "pctChange": -0.21959999
-        }
-      ]
+      "status": "error"
     }
   },
   "earnings_data": {
@@ -646,7 +623,7 @@
     },
     "calendar": {
       "status": "error",
-      "message": "'dict' object has no attribute 'empty'"
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   }
 }

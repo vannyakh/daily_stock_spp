@@ -1,16 +1,79 @@
 {
   "ticker": "FUPBY",
-  "timestamp": "2025-12-02T05:02:27.457467",
+  "timestamp": "2025-12-03T05:17:34.371142",
   "intraday_data": {
     "status": "success",
-    "rows": 1,
+    "rows": 10,
     "data": [
       {
-        "Close": 11.170000076293945,
-        "High": 11.170000076293945,
-        "Low": 11.170000076293945,
-        "Open": 11.170000076293945,
-        "Volume": 0
+        "Close PCG-PB": 20.59000015258789,
+        "High PCG-PB": 20.59000015258789,
+        "Low PCG-PB": 20.3700008392334,
+        "Open PCG-PB": 20.3700008392334,
+        "Volume PCG-PB": 0
+      },
+      {
+        "Close PCG-PB": 20.295000076293945,
+        "High PCG-PB": 20.295000076293945,
+        "Low PCG-PB": 20.0,
+        "Open PCG-PB": 20.0,
+        "Volume PCG-PB": 500
+      },
+      {
+        "Close PCG-PB": 20.344999313354492,
+        "High PCG-PB": 20.344999313354492,
+        "Low PCG-PB": 20.344999313354492,
+        "Open PCG-PB": 20.344999313354492,
+        "Volume PCG-PB": 528
+      },
+      {
+        "Close PCG-PB": 20.59000015258789,
+        "High PCG-PB": 20.59000015258789,
+        "Low PCG-PB": 20.540000915527344,
+        "Open PCG-PB": 20.579999923706055,
+        "Volume PCG-PB": 472
+      },
+      {
+        "Close PCG-PB": 20.59000015258789,
+        "High PCG-PB": 20.59000015258789,
+        "Low PCG-PB": 20.59000015258789,
+        "Open PCG-PB": 20.59000015258789,
+        "Volume PCG-PB": 154
+      },
+      {
+        "Close PCG-PB": 20.540000915527344,
+        "High PCG-PB": 20.540000915527344,
+        "Low PCG-PB": 20.540000915527344,
+        "Open PCG-PB": 20.540000915527344,
+        "Volume PCG-PB": 500
+      },
+      {
+        "Close PCG-PB": 20.1200008392334,
+        "High PCG-PB": 20.246000289916992,
+        "Low PCG-PB": 20.1200008392334,
+        "Open PCG-PB": 20.246000289916992,
+        "Volume PCG-PB": 450
+      },
+      {
+        "Close PCG-PB": 20.100099563598633,
+        "High PCG-PB": 20.100099563598633,
+        "Low PCG-PB": 20.100099563598633,
+        "Open PCG-PB": 20.100099563598633,
+        "Volume PCG-PB": 0
+      },
+      {
+        "Close PCG-PB": 20.440000534057617,
+        "High PCG-PB": 20.440000534057617,
+        "Low PCG-PB": 20.440000534057617,
+        "Open PCG-PB": 20.440000534057617,
+        "Volume PCG-PB": 209
+      },
+      {
+        "Close PCG-PB": 20.079999923706055,
+        "High PCG-PB": 20.203800201416016,
+        "Low PCG-PB": 20.079999923706055,
+        "Open PCG-PB": 20.203800201416016,
+        "Volume PCG-PB": 304
       }
     ]
   },
@@ -477,7 +540,17 @@
       "status": "error"
     },
     "institutional_holders": {
-      "status": "error"
+      "status": "success",
+      "data": [
+        {
+          "Date Reported": "2025-03-31 00:00:00",
+          "Holder": "Rhumbline Advisers",
+          "pctHeld": 0.0,
+          "Shares": 563,
+          "Value": 6193,
+          "pctChange": 0.0
+        }
+      ]
     }
   },
   "earnings_data": {
@@ -487,7 +560,7 @@
     },
     "calendar": {
       "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
+      "message": "'dict' object has no attribute 'empty'"
     }
   }
 }

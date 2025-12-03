@@ -1,9 +1,67 @@
 {
   "ticker": "ATMCU",
-  "timestamp": "2025-12-02T05:08:28.392084",
+  "timestamp": "2025-12-03T05:24:21.305769",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 8,
+    "data": [
+      {
+        "Close": 12.079999923706055,
+        "High": 12.079999923706055,
+        "Low": 12.079999923706055,
+        "Open": 12.079999923706055,
+        "Volume": 576
+      },
+      {
+        "Close": 12.0,
+        "High": 12.0,
+        "Low": 12.0,
+        "Open": 12.0,
+        "Volume": 2589
+      },
+      {
+        "Close": 11.949999809265137,
+        "High": 11.949999809265137,
+        "Low": 11.949999809265137,
+        "Open": 11.949999809265137,
+        "Volume": 271
+      },
+      {
+        "Close": 12.1899995803833,
+        "High": 12.1899995803833,
+        "Low": 12.1899995803833,
+        "Open": 12.1899995803833,
+        "Volume": 200
+      },
+      {
+        "Close": 12.289999961853027,
+        "High": 12.289999961853027,
+        "Low": 12.289999961853027,
+        "Open": 12.289999961853027,
+        "Volume": 50
+      },
+      {
+        "Close": 12.279999732971191,
+        "High": 12.279999732971191,
+        "Low": 12.279999732971191,
+        "Open": 12.279999732971191,
+        "Volume": 400
+      },
+      {
+        "Close": 12.899999618530273,
+        "High": 12.899999618530273,
+        "Low": 12.899999618530273,
+        "Open": 12.899999618530273,
+        "Volume": 200
+      },
+      {
+        "Close": 12.279999732971191,
+        "High": 12.279999732971191,
+        "Low": 12.279999732971191,
+        "Open": 12.279999732971191,
+        "Volume": 150
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -29,16 +87,47 @@
       "status": "no_data"
     },
     "recommendations": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
+      "status": "no_data"
     }
   },
   "holders_data": {
     "major_holders": {
-      "status": "error"
+      "status": "success",
+      "data": [
+        {
+          "Value": 0.0
+        },
+        {
+          "Value": 0.0011100001
+        },
+        {
+          "Value": 0.0011100001
+        },
+        {
+          "Value": 3.0
+        }
+      ]
     },
     "institutional_holders": {
-      "status": "error"
+      "status": "success",
+      "data": [
+        {
+          "Date Reported": "2025-09-30 00:00:00",
+          "Holder": "UBS Group AG",
+          "pctHeld": 0.0007,
+          "Shares": 4553,
+          "Value": 55910,
+          "pctChange": -0.18190001
+        },
+        {
+          "Date Reported": "2025-09-30 00:00:00",
+          "Holder": "Clear Street Group Inc.",
+          "pctHeld": 0.0002,
+          "Shares": 969,
+          "Value": 11899,
+          "pctChange": 1.0
+        }
+      ]
     }
   },
   "earnings_data": {
@@ -48,7 +137,7 @@
     },
     "calendar": {
       "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
+      "message": "'dict' object has no attribute 'empty'"
     }
   }
 }

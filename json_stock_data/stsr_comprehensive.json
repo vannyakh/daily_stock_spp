@@ -1,13 +1,71 @@
 {
   "ticker": "STSR",
-  "timestamp": "2025-12-02T05:15:22.722960",
+  "timestamp": "2025-12-03T05:35:31.463278",
   "intraday_data": {
     "status": "no_data",
     "message": "No intraday data available"
   },
   "stock_info": {
-    "status": "error",
-    "message": "Too Many Requests. Rate limited. Try after a while."
+    "status": "success",
+    "data": {
+      "quoteType": "MUTUALFUND",
+      "symbol": "STSR",
+      "language": "en-US",
+      "region": "US",
+      "typeDisp": "Fund",
+      "quoteSourceName": "Delayed Quote",
+      "triggerable": false,
+      "customPriceAlertConfidence": "NONE",
+      "currency": "USD",
+      "regularMarketTime": 1757030400,
+      "exchange": "PNK",
+      "messageBoardId": "finmb_528719320",
+      "exchangeTimezoneName": "America/New_York",
+      "exchangeTimezoneShortName": "EST",
+      "gmtOffSetMilliseconds": -18000000,
+      "market": "us_market",
+      "esgPopulated": false,
+      "hasPrePostMarketData": false,
+      "firstTradeDateMilliseconds": 1757079000000,
+      "priceHint": 4,
+      "regularMarketChange": 0.0,
+      "regularMarketPreviousClose": 2.45909e-38,
+      "bid": 0.0004,
+      "fullExchangeName": "OTC Markets OTCPK",
+      "financialCurrency": "USD",
+      "averageDailyVolume3Month": 1279,
+      "averageDailyVolume10Day": 1279,
+      "fiftyTwoWeekLowChange": 0.0,
+      "fiftyTwoWeekLowChangePercent": 0.0,
+      "fiftyTwoWeekRange": "2.6249 - 2.6249",
+      "fiftyTwoWeekHighChange": 0.0,
+      "fiftyTwoWeekHighChangePercent": 0.0,
+      "fiftyTwoWeekLow": 2.6249,
+      "fiftyTwoWeekHigh": 2.6249,
+      "fiftyTwoWeekChangePercent": 0.0,
+      "trailingAnnualDividendRate": 0.0,
+      "trailingPE": 2.083254,
+      "trailingAnnualDividendYield": 0.0,
+      "epsTrailingTwelveMonths": 1.26,
+      "sharesOutstanding": 11635400,
+      "bookValue": 0.822,
+      "fiftyDayAverage": 2.6249,
+      "fiftyDayAverageChange": 0.0,
+      "marketState": "PREPRE",
+      "fiftyDayAverageChangePercent": 0.0,
+      "twoHundredDayAverage": 2.6249,
+      "twoHundredDayAverageChange": 0.0,
+      "twoHundredDayAverageChangePercent": 0.0,
+      "marketCap": 34355744,
+      "priceToBook": 3.193309,
+      "sourceInterval": 15,
+      "exchangeDataDelayedBy": 0,
+      "tradeable": false,
+      "cryptoTradeable": false,
+      "regularMarketChangePercent": 0.0,
+      "regularMarketPrice": 2.6249,
+      "displayName": "Strategic Student & Senior Housing Trust"
+    }
   },
   "financials": {
     "income_statement": {
@@ -21,24 +79,22 @@
     }
   },
   "options_data": {
-    "status": "error",
-    "error_message": "Too Many Requests. Rate limited. Try after a while."
+    "expirations": []
   },
   "news_data": {
     "news": {
       "status": "no_data"
     },
     "recommendations": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
+      "status": "no_data"
     }
   },
   "holders_data": {
     "major_holders": {
-      "status": "error"
+      "status": "no_data"
     },
     "institutional_holders": {
-      "status": "error"
+      "status": "no_data"
     }
   },
   "earnings_data": {
@@ -48,7 +104,7 @@
     },
     "calendar": {
       "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
+      "message": "'dict' object has no attribute 'empty'"
     }
   }
 }

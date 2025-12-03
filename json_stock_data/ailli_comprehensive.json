@@ -1,18 +1,9 @@
 {
   "ticker": "AILLI",
-  "timestamp": "2025-12-02T05:02:56.947868",
+  "timestamp": "2025-12-03T05:18:30.552309",
   "intraday_data": {
-    "status": "success",
-    "rows": 1,
-    "data": [
-      {
-        "Close SOCGP": 25.0,
-        "High SOCGP": 25.0,
-        "Low SOCGP": 25.0,
-        "Open SOCGP": 25.0,
-        "Volume SOCGP": 0
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -38,7 +29,8 @@
       "status": "no_data"
     },
     "recommendations": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   },
   "holders_data": {
@@ -46,7 +38,7 @@
       "status": "error"
     },
     "institutional_holders": {
-      "status": "error"
+      "status": "no_data"
     }
   },
   "earnings_data": {

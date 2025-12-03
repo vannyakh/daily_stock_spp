@@ -1,32 +1,9 @@
 {
   "ticker": "TETAA",
-  "timestamp": "2025-12-02T05:04:37.082479",
+  "timestamp": "2025-12-03T05:20:10.546600",
   "intraday_data": {
-    "status": "success",
-    "rows": 3,
-    "data": [
-      {
-        "Close ENDI": 17.200000762939453,
-        "High ENDI": 17.209999084472656,
-        "Low ENDI": 17.200000762939453,
-        "Open ENDI": 17.209999084472656,
-        "Volume ENDI": 0
-      },
-      {
-        "Close ENDI": 17.200000762939453,
-        "High ENDI": 17.200000762939453,
-        "Low ENDI": 17.200000762939453,
-        "Open ENDI": 17.200000762939453,
-        "Volume ENDI": 50
-      },
-      {
-        "Close ENDI": 17.0,
-        "High ENDI": 17.0,
-        "Low ENDI": 17.0,
-        "Open ENDI": 17.0,
-        "Volume ENDI": 750
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -49,7 +26,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

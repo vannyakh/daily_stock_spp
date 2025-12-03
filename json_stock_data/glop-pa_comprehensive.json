@@ -1,18 +1,9 @@
 {
   "ticker": "GLOP-PA",
-  "timestamp": "2025-12-02T05:03:22.801120",
+  "timestamp": "2025-12-03T05:18:57.538127",
   "intraday_data": {
-    "status": "success",
-    "rows": 1,
-    "data": [
-      {
-        "Close FREGP": 23.0,
-        "High FREGP": 23.0,
-        "Low FREGP": 23.0,
-        "Open FREGP": 23.0,
-        "Volume FREGP": 0
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -35,7 +26,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

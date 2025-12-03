@@ -1,9 +1,46 @@
 {
   "ticker": "ANSC",
-  "timestamp": "2025-12-02T04:36:36.275301",
+  "timestamp": "2025-12-03T04:45:57.312000",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 5,
+    "data": [
+      {
+        "Close": 11.119999885559082,
+        "High": 11.119999885559082,
+        "Low": 11.119999885559082,
+        "Open": 11.119999885559082,
+        "Volume": 0
+      },
+      {
+        "Close": 11.109999656677246,
+        "High": 11.109999656677246,
+        "Low": 11.109999656677246,
+        "Open": 11.109999656677246,
+        "Volume": 200000
+      },
+      {
+        "Close": 11.109999656677246,
+        "High": 11.109999656677246,
+        "Low": 11.109999656677246,
+        "Open": 11.109999656677246,
+        "Volume": 0
+      },
+      {
+        "Close": 11.119999885559082,
+        "High": 11.119999885559082,
+        "Low": 11.119999885559082,
+        "Open": 11.119999885559082,
+        "Volume": 25064
+      },
+      {
+        "Close": 11.050000190734863,
+        "High": 11.050000190734863,
+        "Low": 11.050000190734863,
+        "Open": 11.050000190734863,
+        "Volume": 140
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -29,7 +66,8 @@
       "status": "no_data"
     },
     "recommendations": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   },
   "holders_data": {

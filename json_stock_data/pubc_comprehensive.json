@@ -1,25 +1,106 @@
 {
   "ticker": "PUBC",
-  "timestamp": "2025-12-02T04:51:57.263088",
+  "timestamp": "2025-12-03T05:04:56.961975",
   "intraday_data": {
     "status": "success",
-    "rows": 0,
-    "data": []
+    "rows": 7,
+    "data": [
+      {
+        "Close ZEOX": 2.109999895095825,
+        "High ZEOX": 2.1600000858306885,
+        "Low ZEOX": 2.109999895095825,
+        "Open ZEOX": 2.1600000858306885,
+        "Volume ZEOX": 0
+      },
+      {
+        "Close ZEOX": 2.0999999046325684,
+        "High ZEOX": 2.0999999046325684,
+        "Low ZEOX": 2.0999999046325684,
+        "Open ZEOX": 2.0999999046325684,
+        "Volume ZEOX": 500
+      },
+      {
+        "Close ZEOX": 2.049999952316284,
+        "High ZEOX": 2.049999952316284,
+        "Low ZEOX": 2.049999952316284,
+        "Open ZEOX": 2.049999952316284,
+        "Volume ZEOX": 174
+      },
+      {
+        "Close ZEOX": 2.0299999713897705,
+        "High ZEOX": 2.0299999713897705,
+        "Low ZEOX": 2.0299999713897705,
+        "Open ZEOX": 2.0299999713897705,
+        "Volume ZEOX": 500
+      },
+      {
+        "Close ZEOX": 1.9600000381469727,
+        "High ZEOX": 1.9600000381469727,
+        "Low ZEOX": 1.9600000381469727,
+        "Open ZEOX": 1.9600000381469727,
+        "Volume ZEOX": 1500
+      },
+      {
+        "Close ZEOX": 2.190000057220459,
+        "High ZEOX": 2.190000057220459,
+        "Low ZEOX": 2.190000057220459,
+        "Open ZEOX": 2.190000057220459,
+        "Volume ZEOX": 200
+      },
+      {
+        "Close ZEOX": 2.190000057220459,
+        "High ZEOX": 2.190000057220459,
+        "Low ZEOX": 2.190000057220459,
+        "Open ZEOX": 2.190000057220459,
+        "Volume ZEOX": 100
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
-    "message": "argument of type 'NoneType' is not iterable"
+    "message": "Too Many Requests. Rate limited. Try after a while."
   },
   "financials": {
     "income_statement": {
-      "status": "success",
-      "rows": 44,
-      "columns": [
-        "2024-11-30 00:00:00",
-        "2023-11-30 00:00:00",
-        "2022-11-30 00:00:00",
-        "2021-11-30 00:00:00"
-      ],
-      "data": [
-        {
-          
+      "status": "no_data"
+    },
+    "balance_sheet": {
+      "status": "no_data"
+    },
+    "cash_flow": {
+      "status": "no_data"
+    }
+  },
+  "options_data": {
+    "status": "error",
+    "error_message": "Too Many Requests. Rate limited. Try after a while."
+  },
+  "news_data": {
+    "news": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    },
+    "recommendations": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  },
+  "holders_data": {
+    "major_holders": {
+      "status": "error"
+    },
+    "institutional_holders": {
+      "status": "error"
+    }
+  },
+  "earnings_data": {
+    "earnings": {
+      "status": "error",
+      "message": "'NoneType' object has no attribute 'empty'"
+    },
+    "calendar": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  }
+}

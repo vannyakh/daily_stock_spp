@@ -1,131 +1,55 @@
 {
   "ticker": "GMHS",
-  "timestamp": "2025-12-02T04:59:45.536918",
+  "timestamp": "2025-12-03T05:13:51.193907",
   "intraday_data": {
-    "status": "success",
-    "rows": 15,
-    "data": [
-      {
-        "Close": 1.0399999618530273,
-        "High": 1.0399999618530273,
-        "Low": 1.0399999618530273,
-        "Open": 1.0399999618530273,
-        "Volume": 527
-      },
-      {
-        "Close": 1.034999966621399,
-        "High": 1.034999966621399,
-        "Low": 1.034999966621399,
-        "Open": 1.034999966621399,
-        "Volume": 559
-      },
-      {
-        "Close": 1.0499999523162842,
-        "High": 1.0499999523162842,
-        "Low": 1.0499999523162842,
-        "Open": 1.0499999523162842,
-        "Volume": 200
-      },
-      {
-        "Close": 1.0499999523162842,
-        "High": 1.0499999523162842,
-        "Low": 1.0499999523162842,
-        "Open": 1.0499999523162842,
-        "Volume": 800
-      },
-      {
-        "Close": 1.0399999618530273,
-        "High": 1.0399999618530273,
-        "Low": 1.0399999618530273,
-        "Open": 1.0399999618530273,
-        "Volume": 1286
-      },
-      {
-        "Close": 1.0299999713897705,
-        "High": 1.0299999713897705,
-        "Low": 1.0299999713897705,
-        "Open": 1.0299999713897705,
-        "Volume": 1983
-      },
-      {
-        "Close": 1.0499999523162842,
-        "High": 1.0499999523162842,
-        "Low": 1.0499999523162842,
-        "Open": 1.0499999523162842,
-        "Volume": 0
-      },
-      {
-        "Close": 1.0399999618530273,
-        "High": 1.0399999618530273,
-        "Low": 1.0399999618530273,
-        "Open": 1.0399999618530273,
-        "Volume": 1350
-      },
-      {
-        "Close": 1.0390000343322754,
-        "High": 1.0390000343322754,
-        "Low": 1.0390000343322754,
-        "Open": 1.0390000343322754,
-        "Volume": 371
-      },
-      {
-        "Close": 1.0299999713897705,
-        "High": 1.0399999618530273,
-        "Low": 1.0299999713897705,
-        "Open": 1.0399999618530273,
-        "Volume": 2018
-      },
-      {
-        "Close": 1.0299999713897705,
-        "High": 1.031999945640564,
-        "Low": 1.0299999713897705,
-        "Open": 1.031999945640564,
-        "Volume": 1000
-      },
-      {
-        "Close": 1.0399999618530273,
-        "High": 1.0399999618530273,
-        "Low": 1.0399999618530273,
-        "Open": 1.0399999618530273,
-        "Volume": 877
-      },
-      {
-        "Close": 1.0399999618530273,
-        "High": 1.0399999618530273,
-        "Low": 1.0399999618530273,
-        "Open": 1.0399999618530273,
-        "Volume": 260
-      },
-      {
-        "Close": 1.0199999809265137,
-        "High": 1.0299999713897705,
-        "Low": 1.0199999809265137,
-        "Open": 1.0299999713897705,
-        "Volume": 1457
-      },
-      {
-        "Close": 0.9900000095367432,
-        "High": 0.9900000095367432,
-        "Low": 0.9894999861717224,
-        "Open": 0.9894999861717224,
-        "Volume": 1570
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
-    "message": "argument of type 'NoneType' is not iterable"
+    "message": "Too Many Requests. Rate limited. Try after a while."
   },
   "financials": {
     "income_statement": {
-      "status": "success",
-      "rows": 42,
-      "columns": [
-        "2025-06-30 00:00:00",
-        "2024-06-30 00:00:00",
-        "2023-06-30 00:00:00",
-        "2022-06-30 00:00:00"
-      ],
-      "data": [
-        {
-          
+      "status": "no_data"
+    },
+    "balance_sheet": {
+      "status": "no_data"
+    },
+    "cash_flow": {
+      "status": "no_data"
+    }
+  },
+  "options_data": {
+    "status": "error",
+    "error_message": "Too Many Requests. Rate limited. Try after a while."
+  },
+  "news_data": {
+    "news": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    },
+    "recommendations": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  },
+  "holders_data": {
+    "major_holders": {
+      "status": "error"
+    },
+    "institutional_holders": {
+      "status": "error"
+    }
+  },
+  "earnings_data": {
+    "earnings": {
+      "status": "error",
+      "message": "'NoneType' object has no attribute 'empty'"
+    },
+    "calendar": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  }
+}

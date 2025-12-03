@@ -1,9 +1,9 @@
 {
   "ticker": "CPPTL",
-  "timestamp": "2025-12-02T05:09:20.172958",
+  "timestamp": "2025-12-03T05:25:46.405339",
   "intraday_data": {
     "status": "success",
-    "rows": 4,
+    "rows": 7,
     "data": [
       {
         "Close": 12.100000381469727,
@@ -32,12 +32,108 @@
         "Low": 12.109999656677246,
         "Open": 12.109999656677246,
         "Volume": 300
+      },
+      {
+        "Close": 12.109999656677246,
+        "High": 12.109999656677246,
+        "Low": 12.109999656677246,
+        "Open": 12.109999656677246,
+        "Volume": 100
+      },
+      {
+        "Close": 12.100000381469727,
+        "High": 12.100000381469727,
+        "Low": 12.100000381469727,
+        "Open": 12.100000381469727,
+        "Volume": 200
+      },
+      {
+        "Close": 12.100000381469727,
+        "High": 12.100000381469727,
+        "Low": 12.100000381469727,
+        "Open": 12.100000381469727,
+        "Volume": 515
       }
     ]
   },
   "stock_info": {
-    "status": "error",
-    "message": "Too Many Requests. Rate limited. Try after a while."
+    "status": "success",
+    "data": {
+      "maxAge": 86400,
+      "priceHint": 2,
+      "previousClose": 12.11,
+      "open": 12.11,
+      "dayLow": 12.1,
+      "dayHigh": 12.11,
+      "regularMarketPreviousClose": 12.11,
+      "regularMarketOpen": 12.11,
+      "regularMarketDayLow": 12.1,
+      "regularMarketDayHigh": 12.11,
+      "volume": 815,
+      "regularMarketVolume": 815,
+      "averageVolume": 42189,
+      "averageVolume10days": 18251,
+      "averageDailyVolume10Day": 18251,
+      "bid": 1.21,
+      "ask": 12.13,
+      "bidSize": 300,
+      "askSize": 1270,
+      "fiftyTwoWeekLow": 10.9,
+      "fiftyTwoWeekHigh": 13.5,
+      "allTimeHigh": 14.2,
+      "allTimeLow": 8.5,
+      "fiftyDayAverage": 12.196538,
+      "twoHundredDayAverage": 12.41924,
+      "trailingAnnualDividendRate": 2.0,
+      "trailingAnnualDividendYield": 0.16515277,
+      "currency": "USD",
+      "tradeable": false,
+      "quoteType": "EQUITY",
+      "currentPrice": 12.1,
+      "recommendationKey": "none",
+      "symbol": "CPPTL",
+      "language": "en-US",
+      "region": "US",
+      "typeDisp": "Equity",
+      "quoteSourceName": "Delayed Quote",
+      "triggerable": false,
+      "customPriceAlertConfidence": "LOW",
+      "sourceInterval": 15,
+      "exchangeDataDelayedBy": 0,
+      "cryptoTradeable": false,
+      "marketState": "PREPRE",
+      "regularMarketChangePercent": -0.082570404,
+      "regularMarketPrice": 12.1,
+      "shortName": "COPPER PROPERTY CTL PASS THROUG",
+      "longName": "Copper Property CTL Pass Through Trust",
+      "exchange": "PNK",
+      "messageBoardId": "finmb_699804990",
+      "exchangeTimezoneName": "America/New_York",
+      "exchangeTimezoneShortName": "EST",
+      "gmtOffSetMilliseconds": -18000000,
+      "market": "us_market",
+      "esgPopulated": false,
+      "regularMarketTime": 1764700606,
+      "hasPrePostMarketData": false,
+      "firstTradeDateMilliseconds": 1654003800000,
+      "regularMarketChange": -0.009999275,
+      "regularMarketDayRange": "12.1 - 12.11",
+      "fullExchangeName": "OTC Markets OTCPK",
+      "averageDailyVolume3Month": 42189,
+      "fiftyTwoWeekLowChange": 1.2000008,
+      "fiftyTwoWeekLowChangePercent": 0.11009182,
+      "fiftyTwoWeekRange": "10.9 - 13.5",
+      "fiftyTwoWeekHighChange": -1.3999996,
+      "fiftyTwoWeekHighChangePercent": -0.10370368,
+      "fiftyTwoWeekChangePercent": -1.3560951,
+      "dividendDate": 1762732800,
+      "bookValue": 12.733,
+      "fiftyDayAverageChange": -0.09653759,
+      "fiftyDayAverageChangePercent": -0.007915163,
+      "twoHundredDayAverageChange": -0.31923962,
+      "twoHundredDayAverageChangePercent": -0.025705246,
+      "priceToBook": 0.9502867
+    }
   },
   "financials": {
     "income_statement": {
@@ -51,8 +147,7 @@
     }
   },
   "options_data": {
-    "status": "error",
-    "error_message": "Too Many Requests. Rate limited. Try after a while."
+    "expirations": []
   },
   "news_data": {
     "news": {
@@ -512,16 +607,25 @@
       ]
     },
     "recommendations": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
+      "status": "no_data"
     }
   },
   "holders_data": {
     "major_holders": {
-      "status": "error"
+      "status": "no_data"
     },
     "institutional_holders": {
-      "status": "error"
+      "status": "success",
+      "data": [
+        {
+          "Date Reported": "2025-09-30 00:00:00",
+          "Holder": "Ancora Advisors, LLC",
+          "pctHeld": 0.0,
+          "Shares": 64105,
+          "Value": 775670,
+          "pctChange": -0.2563
+        }
+      ]
     }
   },
   "earnings_data": {
@@ -531,7 +635,7 @@
     },
     "calendar": {
       "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
+      "message": "'dict' object has no attribute 'empty'"
     }
   }
 }

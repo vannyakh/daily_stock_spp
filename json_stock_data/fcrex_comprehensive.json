@@ -1,13 +1,79 @@
 {
   "ticker": "FCREX",
-  "timestamp": "2025-12-02T05:11:18.814055",
+  "timestamp": "2025-12-03T05:29:12.177883",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 2,
+    "data": [
+      {
+        "Close": 11.960000038146973,
+        "High": 11.960000038146973,
+        "Low": 11.960000038146973,
+        "Open": 11.960000038146973,
+        "Volume": 0
+      },
+      {
+        "Close": 11.960000038146973,
+        "High": 11.960000038146973,
+        "Low": 11.960000038146973,
+        "Open": 11.960000038146973,
+        "Volume": 0
+      }
+    ]
   },
   "stock_info": {
-    "status": "error",
-    "message": "Too Many Requests. Rate limited. Try after a while."
+    "status": "success",
+    "data": {
+      "quoteType": "MUTUALFUND",
+      "symbol": "FCREX",
+      "language": "en-US",
+      "region": "US",
+      "typeDisp": "Fund",
+      "triggerable": false,
+      "customPriceAlertConfidence": "NONE",
+      "currency": "USD",
+      "regularMarketTime": 1764723652,
+      "exchange": "NAS",
+      "messageBoardId": "finmb_528769698",
+      "exchangeTimezoneName": "America/New_York",
+      "exchangeTimezoneShortName": "EST",
+      "gmtOffSetMilliseconds": -18000000,
+      "market": "us_market",
+      "esgPopulated": false,
+      "regularMarketChangePercent": 0.0,
+      "regularMarketPrice": 11.96,
+      "hasPrePostMarketData": false,
+      "firstTradeDateMilliseconds": 1527859800000,
+      "priceHint": 2,
+      "regularMarketChange": 0.0,
+      "regularMarketPreviousClose": 11.96,
+      "fullExchangeName": "Nasdaq",
+      "averageDailyVolume3Month": 0,
+      "averageDailyVolume10Day": 0,
+      "fiftyTwoWeekLowChange": 0.0,
+      "fiftyTwoWeekLowChangePercent": 0.0,
+      "fiftyTwoWeekRange": "11.96 - 12.43",
+      "fiftyTwoWeekHighChange": -0.47000027,
+      "fiftyTwoWeekHighChangePercent": -0.037811767,
+      "fiftyTwoWeekLow": 11.96,
+      "fiftyTwoWeekHigh": 12.43,
+      "fiftyTwoWeekChangePercent": -3.7811756,
+      "trailingAnnualDividendRate": 0.0,
+      "trailingAnnualDividendYield": 0.0,
+      "shortName": "FS Credit Income Fund Class A",
+      "longName": "Fs Credit Income Fund",
+      "marketState": "PREPRE",
+      "fiftyDayAverage": 11.999,
+      "fiftyDayAverageChange": -0.038999557,
+      "fiftyDayAverageChangePercent": -0.003250234,
+      "twoHundredDayAverage": 12.0957,
+      "twoHundredDayAverageChange": -0.13570023,
+      "twoHundredDayAverageChangePercent": -0.011218881,
+      "sourceInterval": 15,
+      "exchangeDataDelayedBy": 0,
+      "tradeable": false,
+      "cryptoTradeable": false
+    }
   },
   "financials": {
     "income_statement": {
@@ -21,24 +87,22 @@
     }
   },
   "options_data": {
-    "status": "error",
-    "error_message": "Too Many Requests. Rate limited. Try after a while."
+    "expirations": []
   },
   "news_data": {
     "news": {
       "status": "no_data"
     },
     "recommendations": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
+      "status": "no_data"
     }
   },
   "holders_data": {
     "major_holders": {
-      "status": "error"
+      "status": "no_data"
     },
     "institutional_holders": {
-      "status": "error"
+      "status": "no_data"
     }
   },
   "earnings_data": {
@@ -48,7 +112,7 @@
     },
     "calendar": {
       "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
+      "message": "'dict' object has no attribute 'empty'"
     }
   }
 }

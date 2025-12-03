@@ -1,46 +1,9 @@
 {
   "ticker": "AMPGW",
-  "timestamp": "2025-12-02T05:13:01.610727",
+  "timestamp": "2025-12-03T05:31:23.499586",
   "intraday_data": {
-    "status": "success",
-    "rows": 5,
-    "data": [
-      {
-        "Close": 0.13099999725818634,
-        "High": 0.13099999725818634,
-        "Low": 0.13099999725818634,
-        "Open": 0.13099999725818634,
-        "Volume": 0
-      },
-      {
-        "Close": 0.12999999523162842,
-        "High": 0.12999999523162842,
-        "Low": 0.12999999523162842,
-        "Open": 0.12999999523162842,
-        "Volume": 3100
-      },
-      {
-        "Close": 0.13050000369548798,
-        "High": 0.13050000369548798,
-        "Low": 0.13050000369548798,
-        "Open": 0.13050000369548798,
-        "Volume": 1000
-      },
-      {
-        "Close": 0.13650000095367432,
-        "High": 0.13650000095367432,
-        "Low": 0.13650000095367432,
-        "Open": 0.13650000095367432,
-        "Volume": 700
-      },
-      {
-        "Close": 0.12999999523162842,
-        "High": 0.131400004029274,
-        "Low": 0.12999999523162842,
-        "Open": 0.131400004029274,
-        "Volume": 1422
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -679,16 +642,70 @@
       ]
     },
     "recommendations": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
+      "status": "no_data"
     }
   },
   "holders_data": {
     "major_holders": {
-      "status": "error"
+      "status": "success",
+      "data": [
+        {
+          "Value": 7
+        }
+      ]
     },
     "institutional_holders": {
-      "status": "error"
+      "status": "success",
+      "data": [
+        {
+          "Date Reported": "2025-09-30 00:00:00",
+          "Holder": "Bard Associates Inc.",
+          "pctHeld": 0.0253,
+          "Shares": 83315,
+          "Value": 14996,
+          "pctChange": -0.0066000004
+        },
+        {
+          "Date Reported": "2025-09-30 00:00:00",
+          "Holder": "Heights Capital Management, Inc                          ",
+          "pctHeld": 0.0138,
+          "Shares": 45462,
+          "Value": 8183,
+          "pctChange": -0.0257
+        },
+        {
+          "Date Reported": "2025-09-30 00:00:00",
+          "Holder": "Thompson Davis & Company Inc.",
+          "pctHeld": 0.012999999,
+          "Shares": 43000,
+          "Value": 7740,
+          "pctChange": 1.0
+        },
+        {
+          "Date Reported": "2025-09-30 00:00:00",
+          "Holder": "Clear Street Group Inc.",
+          "pctHeld": 0.012,
+          "Shares": 39600,
+          "Value": 7128,
+          "pctChange": 1.0
+        },
+        {
+          "Date Reported": "2025-09-30 00:00:00",
+          "Holder": "Citadel Advisors Llc",
+          "pctHeld": 0.0066000004,
+          "Shares": 21603,
+          "Value": 3888,
+          "pctChange": -0.053200003
+        },
+        {
+          "Date Reported": "2025-09-30 00:00:00",
+          "Holder": "UBS Group AG",
+          "pctHeld": 0.0,
+          "Shares": 22,
+          "Value": 3,
+          "pctChange": -0.9979
+        }
+      ]
     }
   },
   "earnings_data": {
@@ -698,7 +715,7 @@
     },
     "calendar": {
       "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
+      "message": "'dict' object has no attribute 'empty'"
     }
   }
 }

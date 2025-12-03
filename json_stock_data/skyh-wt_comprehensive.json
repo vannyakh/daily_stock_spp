@@ -1,9 +1,18 @@
 {
   "ticker": "SKYH-WT",
-  "timestamp": "2025-12-02T05:09:26.828081",
+  "timestamp": "2025-12-03T05:26:02.257786",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 1,
+    "data": [
+      {
+        "Close ONFOW": 0.18000000715255737,
+        "High ONFOW": 0.18000000715255737,
+        "Low ONFOW": 0.18000000715255737,
+        "Open ONFOW": 0.18000000715255737,
+        "Volume ONFOW": 0
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -215,15 +224,16 @@
       ]
     },
     "recommendations": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   },
   "holders_data": {
     "major_holders": {
-      "status": "no_data"
+      "status": "error"
     },
     "institutional_holders": {
-      "status": "no_data"
+      "status": "error"
     }
   },
   "earnings_data": {

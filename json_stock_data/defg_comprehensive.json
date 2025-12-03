@@ -1,9 +1,9 @@
 {
   "ticker": "DEFG",
-  "timestamp": "2025-12-02T04:48:42.010686",
+  "timestamp": "2025-12-03T05:00:52.140862",
   "intraday_data": {
     "status": "success",
-    "rows": 5,
+    "rows": 6,
     "data": [
       {
         "Close": 14.550000190734863,
@@ -39,12 +39,19 @@
         "Low": 13.199999809265137,
         "Open": 13.199999809265137,
         "Volume": 100
+      },
+      {
+        "Close": 14.09000015258789,
+        "High": 14.09000015258789,
+        "Low": 14.09000015258789,
+        "Open": 14.09000015258789,
+        "Volume": 57
       }
     ]
   },
   "stock_info": {
     "status": "error",
-    "message": "Too Many Requests. Rate limited. Try after a while."
+    "message": "argument of type 'NoneType' is not iterable"
   },
   "financials": {
     "income_statement": {
@@ -63,8 +70,7 @@
   },
   "news_data": {
     "news": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
+      "status": "no_data"
     },
     "recommendations": {
       "status": "error",

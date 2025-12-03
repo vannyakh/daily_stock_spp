@@ -1,6 +1,6 @@
 {
   "ticker": "TIXT",
-  "timestamp": "2025-12-02T04:32:34.402151",
+  "timestamp": "2025-12-03T04:40:25.121821",
   "intraday_data": {
     "status": "no_data",
     "message": "No intraday data available"
@@ -604,16 +604,138 @@
       ]
     },
     "recommendations": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
+      "status": "success",
+      "rows": 3,
+      "data": [
+        {
+          "period": "0m",
+          "strongBuy": 0,
+          "buy": 1,
+          "hold": 5,
+          "sell": 0,
+          "strongSell": 1
+        },
+        {
+          "period": "-1m",
+          "strongBuy": 0,
+          "buy": 1,
+          "hold": 6,
+          "sell": 1,
+          "strongSell": 1
+        },
+        {
+          "period": "-2m",
+          "strongBuy": 1,
+          "buy": 1,
+          "hold": 7,
+          "sell": 1,
+          "strongSell": 1
+        }
+      ]
     }
   },
   "holders_data": {
     "major_holders": {
-      "status": "error"
+      "status": "success",
+      "data": [
+        {
+          "Value": 0.46433
+        },
+        {
+          "Value": 0.57259
+        },
+        {
+          "Value": 1.06891
+        },
+        {
+          "Value": 130.0
+        }
+      ]
     },
     "institutional_holders": {
-      "status": "error"
+      "status": "success",
+      "data": [
+        {
+          "Date Reported": "2025-06-30 00:00:00",
+          "Holder": "Mackenzie Financial Corporation",
+          "pctHeld": 0.063200004,
+          "Shares": 8010430,
+          "Value": 34524952,
+          "pctChange": -0.0339
+        },
+        {
+          "Date Reported": "2025-09-30 00:00:00",
+          "Holder": "QV Investors Inc.",
+          "pctHeld": 0.048,
+          "Shares": 6089995,
+          "Value": 26247878,
+          "pctChange": -0.2002
+        },
+        {
+          "Date Reported": "2025-06-30 00:00:00",
+          "Holder": "ClearBridge Investments, LLC",
+          "pctHeld": 0.0395,
+          "Shares": 5009672,
+          "Value": 21591686,
+          "pctChange": -0.0574
+        },
+        {
+          "Date Reported": "2025-06-30 00:00:00",
+          "Holder": "Blackrock Inc.",
+          "pctHeld": 0.0382,
+          "Shares": 4848417,
+          "Value": 20896676,
+          "pctChange": 0.0
+        },
+        {
+          "Date Reported": "2025-06-30 00:00:00",
+          "Holder": "Medina Value Partners, LLC",
+          "pctHeld": 0.0335,
+          "Shares": 4246563,
+          "Value": 18302686,
+          "pctChange": 0.9968
+        },
+        {
+          "Date Reported": "2025-06-30 00:00:00",
+          "Holder": "Scheer, Rowlett & Associates Investment Management, Ltd.",
+          "pctHeld": 0.028900001,
+          "Shares": 3667490,
+          "Value": 15806881,
+          "pctChange": 0.024500001
+        },
+        {
+          "Date Reported": "2025-06-30 00:00:00",
+          "Holder": "Northwest & Ethical Investments L.P.",
+          "pctHeld": 0.0174,
+          "Shares": 2209937,
+          "Value": 9524828,
+          "pctChange": 0.318
+        },
+        {
+          "Date Reported": "2025-06-30 00:00:00",
+          "Holder": "Arrowstreet Capital, Limited Partnership",
+          "pctHeld": 0.0174,
+          "Shares": 2202138,
+          "Value": 9491214,
+          "pctChange": 0.0
+        },
+        {
+          "Date Reported": "2025-06-30 00:00:00",
+          "Holder": "Beutel, Goodman & Company Ltd",
+          "pctHeld": 0.0161,
+          "Shares": 2035150,
+          "Value": 8771496,
+          "pctChange": -0.031600002
+        },
+        {
+          "Date Reported": "2025-06-30 00:00:00",
+          "Holder": "Royal Bank of Canada",
+          "pctHeld": 0.0126,
+          "Shares": 1591340,
+          "Value": 6858675,
+          "pctChange": 0.8019
+        }
+      ]
     }
   },
   "earnings_data": {
@@ -623,7 +745,7 @@
     },
     "calendar": {
       "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
+      "message": "'dict' object has no attribute 'empty'"
     }
   }
 }

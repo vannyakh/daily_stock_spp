@@ -1,53 +1,10 @@
 {
   "ticker": "BAOS",
-  "timestamp": "2025-12-02T04:55:42.670488",
+  "timestamp": "2025-12-03T05:08:48.393532",
   "intraday_data": {
     "status": "success",
-    "rows": 6,
-    "data": [
-      {
-        "Close SNTG": 2.200000047683716,
-        "High SNTG": 2.2314000129699707,
-        "Low SNTG": 2.200000047683716,
-        "Open SNTG": 2.2314000129699707,
-        "Volume SNTG": 1960
-      },
-      {
-        "Close SNTG": 2.1800999641418457,
-        "High SNTG": 2.1800999641418457,
-        "Low SNTG": 2.1800999641418457,
-        "Open SNTG": 2.1800999641418457,
-        "Volume SNTG": 1954
-      },
-      {
-        "Close SNTG": 2.239500045776367,
-        "High SNTG": 2.239500045776367,
-        "Low SNTG": 2.239500045776367,
-        "Open SNTG": 2.239500045776367,
-        "Volume SNTG": 1050
-      },
-      {
-        "Close SNTG": 2.2037999629974365,
-        "High SNTG": 2.2037999629974365,
-        "Low SNTG": 2.2037999629974365,
-        "Open SNTG": 2.2037999629974365,
-        "Volume SNTG": 385
-      },
-      {
-        "Close SNTG": 2.2200000286102295,
-        "High SNTG": 2.2200000286102295,
-        "Low SNTG": 2.2200000286102295,
-        "Open SNTG": 2.2200000286102295,
-        "Volume SNTG": 375
-      },
-      {
-        "Close SNTG": 2.299999952316284,
-        "High SNTG": 2.299999952316284,
-        "Low SNTG": 2.299999952316284,
-        "Open SNTG": 2.299999952316284,
-        "Volume SNTG": 374
-      }
-    ]
+    "rows": 0,
+    "data": []
   },
   "stock_info": {
     "status": "error",
@@ -65,62 +22,24 @@
     }
   },
   "options_data": {
-    "expirations": []
+    "status": "error",
+    "error_message": "Too Many Requests. Rate limited. Try after a while."
   },
   "news_data": {
     "news": {
       "status": "no_data"
     },
     "recommendations": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   },
   "holders_data": {
     "major_holders": {
-      "status": "success",
-      "data": [
-        {
-          "Value": 0.41136003
-        },
-        {
-          "Value": 0.00841
-        },
-        {
-          "Value": 0.01429
-        },
-        {
-          "Value": 3.0
-        }
-      ]
+      "status": "error"
     },
     "institutional_holders": {
-      "status": "success",
-      "data": [
-        {
-          "Date Reported": "2025-09-30 00:00:00",
-          "Holder": "HRT Financial LP",
-          "pctHeld": 0.010299999,
-          "Shares": 15748,
-          "Value": 50551,
-          "pctChange": 0.222
-        },
-        {
-          "Date Reported": "2025-09-30 00:00:00",
-          "Holder": "UBS Group AG",
-          "pctHeld": 0.0,
-          "Shares": 10,
-          "Value": 32,
-          "pctChange": -0.9983
-        },
-        {
-          "Date Reported": "2025-09-30 00:00:00",
-          "Holder": "Osaic Holdings Inc.",
-          "pctHeld": 0.0,
-          "Shares": 13,
-          "Value": 41,
-          "pctChange": 0.0
-        }
-      ]
+      "status": "error"
     }
   },
   "earnings_data": {
@@ -130,7 +49,7 @@
     },
     "calendar": {
       "status": "error",
-      "message": "'dict' object has no attribute 'empty'"
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   }
 }

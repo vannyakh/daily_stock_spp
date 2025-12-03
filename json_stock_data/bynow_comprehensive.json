@@ -1,54 +1,80 @@
 {
   "ticker": "BYNOW",
-  "timestamp": "2025-12-02T05:09:43.898356",
+  "timestamp": "2025-12-03T05:26:26.217660",
   "intraday_data": {
     "status": "no_data",
     "message": "No intraday data available"
   },
   "stock_info": {
-    "status": "error",
-    "message": "Too Many Requests. Rate limited. Try after a while."
+    "status": "success",
+    "data": {
+      "language": "en-US",
+      "region": "US",
+      "quoteType": "EQUITY",
+      "typeDisp": "Equity",
+      "quoteSourceName": "Delayed Quote",
+      "triggerable": true,
+      "customPriceAlertConfidence": "HIGH",
+      "currency": "USD",
+      "regularMarketTime": 1764104400,
+      "exchange": "NGM",
+      "messageBoardId": "finmb_659511453",
+      "exchangeTimezoneName": "America/New_York",
+      "exchangeTimezoneShortName": "EST",
+      "gmtOffSetMilliseconds": -18000000,
+      "market": "us_market",
+      "esgPopulated": false,
+      "priceToBook": -0.015151515,
+      "sourceInterval": 15,
+      "exchangeDataDelayedBy": 0,
+      "ipoExpectedDate": "2022-04-01",
+      "tradeable": false,
+      "cryptoTradeable": false,
+      "shortName": "byNordic Acquisition Corporatio",
+      "longName": "byNordic Acquisition Corporation",
+      "regularMarketPrice": 0.03,
+      "trailingAnnualDividendRate": 0.0,
+      "trailingAnnualDividendYield": 0.0,
+      "epsTrailingTwelveMonths": -0.013,
+      "bookValue": -1.98,
+      "marketState": "PREPRE",
+      "hasPrePostMarketData": true,
+      "priceHint": 4,
+      "regularMarketChange": -0.06,
+      "regularMarketDayHigh": 0.0703,
+      "regularMarketDayRange": "0.0703 - 0.0703",
+      "regularMarketDayLow": 0.0703,
+      "regularMarketVolume": 3632,
+      "regularMarketPreviousClose": 0.09,
+      "bid": 0.0703,
+      "ask": 0.1,
+      "bidSize": 30068,
+      "askSize": 0,
+      "fullExchangeName": "NasdaqGM",
+      "financialCurrency": "USD",
+      "regularMarketOpen": 0.0703,
+      "fiftyTwoWeekLowChange": -0.040299997,
+      "fiftyTwoWeekLowChangePercent": -0.57325745,
+      "fiftyTwoWeekRange": "0.0703 - 0.0703",
+      "fiftyTwoWeekHighChange": -0.040299997,
+      "fiftyTwoWeekHighChangePercent": -0.57325745,
+      "fiftyTwoWeekLow": 0.0703,
+      "fiftyTwoWeekHigh": 0.0703,
+      "regularMarketChangePercent": -66.66667,
+      "displayName": "byNordic",
+      "symbol": "BYNOW"
+    }
   },
   "financials": {
     "income_statement": {
-      "status": "no_data"
-    },
-    "balance_sheet": {
-      "status": "no_data"
-    },
-    "cash_flow": {
-      "status": "no_data"
-    }
-  },
-  "options_data": {
-    "status": "error",
-    "error_message": "Too Many Requests. Rate limited. Try after a while."
-  },
-  "news_data": {
-    "news": {
-      "status": "no_data"
-    },
-    "recommendations": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
-    }
-  },
-  "holders_data": {
-    "major_holders": {
-      "status": "error"
-    },
-    "institutional_holders": {
-      "status": "error"
-    }
-  },
-  "earnings_data": {
-    "earnings": {
-      "status": "error",
-      "message": "'NoneType' object has no attribute 'empty'"
-    },
-    "calendar": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
-    }
-  }
-}
+      "status": "success",
+      "rows": 36,
+      "columns": [
+        "2024-12-31 00:00:00",
+        "2023-12-31 00:00:00",
+        "2022-12-31 00:00:00",
+        "2021-12-31 00:00:00"
+      ],
+      "data": [
+        {
+          

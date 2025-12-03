@@ -1,6 +1,6 @@
 {
   "ticker": "ZURA",
-  "timestamp": "2025-12-02T04:44:35.567443",
+  "timestamp": "2025-12-03T04:54:21.793972",
   "intraday_data": {
     "status": "no_data",
     "message": "No intraday data available"
@@ -642,16 +642,111 @@
       ]
     },
     "recommendations": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
+      "status": "no_data"
     }
   },
   "holders_data": {
     "major_holders": {
-      "status": "error"
+      "status": "success",
+      "data": [
+        {
+          "Value": 0.27747
+        },
+        {
+          "Value": 0.60605997
+        },
+        {
+          "Value": 0.83880997
+        },
+        {
+          "Value": 82.0
+        }
+      ]
     },
     "institutional_holders": {
-      "status": "error"
+      "status": "success",
+      "data": [
+        {
+          "Date Reported": "2025-09-30 00:00:00",
+          "Holder": "JPMORGAN CHASE & CO",
+          "pctHeld": 0.14220001,
+          "Shares": 9248398,
+          "Value": 32461876,
+          "pctChange": 0.9847
+        },
+        {
+          "Date Reported": "2025-09-30 00:00:00",
+          "Holder": "Suvretta Capital Management, LLC",
+          "pctHeld": 0.0842,
+          "Shares": 5472891,
+          "Value": 19209847,
+          "pctChange": 0.1259
+        },
+        {
+          "Date Reported": "2025-09-30 00:00:00",
+          "Holder": "VR Adviser, LLC",
+          "pctHeld": 0.0712,
+          "Shares": 4631216,
+          "Value": 16255568,
+          "pctChange": 0.0
+        },
+        {
+          "Date Reported": "2025-09-30 00:00:00",
+          "Holder": "Great Point Partners LLC",
+          "pctHeld": 0.0587,
+          "Shares": 3815930,
+          "Value": 13393914,
+          "pctChange": 0.2037
+        },
+        {
+          "Date Reported": "2025-09-30 00:00:00",
+          "Holder": "Adage Capital Partners GP L.L.C.",
+          "pctHeld": 0.0468,
+          "Shares": 3045444,
+          "Value": 10689508,
+          "pctChange": 1.0
+        },
+        {
+          "Date Reported": "2025-09-30 00:00:00",
+          "Holder": "Pfizer Inc",
+          "pctHeld": 0.045700002,
+          "Shares": 2970022,
+          "Value": 10424777,
+          "pctChange": 0.0
+        },
+        {
+          "Date Reported": "2025-09-30 00:00:00",
+          "Holder": "Braidwell LP                          ",
+          "pctHeld": 0.038,
+          "Shares": 2472806,
+          "Value": 8679549,
+          "pctChange": 0.0
+        },
+        {
+          "Date Reported": "2025-09-30 00:00:00",
+          "Holder": "Ikarian Capital, LLC",
+          "pctHeld": 0.0328,
+          "Shares": 2132322,
+          "Value": 7484450,
+          "pctChange": 1.0
+        },
+        {
+          "Date Reported": "2025-09-30 00:00:00",
+          "Holder": "Armistice Capital, LLC",
+          "pctHeld": 0.024,
+          "Shares": 1560000,
+          "Value": 5475599,
+          "pctChange": 0.0156
+        },
+        {
+          "Date Reported": "2025-09-30 00:00:00",
+          "Holder": "Affinity Asset Advisors, Llc",
+          "pctHeld": 0.0196,
+          "Shares": 1274351,
+          "Value": 4472971,
+          "pctChange": 4.706
+        }
+      ]
     }
   },
   "earnings_data": {
@@ -661,7 +756,7 @@
     },
     "calendar": {
       "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
+      "message": "'dict' object has no attribute 'empty'"
     }
   }
 }

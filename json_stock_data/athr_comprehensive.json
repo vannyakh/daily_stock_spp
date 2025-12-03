@@ -1,46 +1,9 @@
 {
   "ticker": "ATHR",
-  "timestamp": "2025-12-02T04:59:28.031728",
+  "timestamp": "2025-12-03T05:13:35.461779",
   "intraday_data": {
-    "status": "success",
-    "rows": 5,
-    "data": [
-      {
-        "Close": 5.800000190734863,
-        "High": 5.800000190734863,
-        "Low": 5.800000190734863,
-        "Open": 5.800000190734863,
-        "Volume": 336
-      },
-      {
-        "Close": 5.800099849700928,
-        "High": 5.800099849700928,
-        "Low": 5.800099849700928,
-        "Open": 5.800099849700928,
-        "Volume": 673
-      },
-      {
-        "Close": 5.954400062561035,
-        "High": 5.954400062561035,
-        "Low": 5.954400062561035,
-        "Open": 5.954400062561035,
-        "Volume": 310
-      },
-      {
-        "Close": 5.800099849700928,
-        "High": 5.800099849700928,
-        "Low": 5.800099849700928,
-        "Open": 5.800099849700928,
-        "Volume": 2595
-      },
-      {
-        "Close": 5.989999771118164,
-        "High": 5.989999771118164,
-        "Low": 5.925000190734863,
-        "Open": 5.925000190734863,
-        "Volume": 416
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -51,41 +14,13 @@
       "status": "no_data"
     },
     "balance_sheet": {
-      "status": "no_data"
-    },
-    "cash_flow": {
-      "status": "no_data"
-    }
-  },
-  "options_data": {
-    "status": "error",
-    "error_message": "Too Many Requests. Rate limited. Try after a while."
-  },
-  "news_data": {
-    "news": {
-      "status": "no_data"
-    },
-    "recommendations": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
-    }
-  },
-  "holders_data": {
-    "major_holders": {
-      "status": "error"
-    },
-    "institutional_holders": {
-      "status": "error"
-    }
-  },
-  "earnings_data": {
-    "earnings": {
-      "status": "error",
-      "message": "'NoneType' object has no attribute 'empty'"
-    },
-    "calendar": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
-    }
-  }
-}
+      "status": "success",
+      "rows": 39,
+      "columns": [
+        "2024-09-30 00:00:00",
+        "2023-09-30 00:00:00",
+        "2022-09-30 00:00:00"
+      ],
+      "data": [
+        {
+          

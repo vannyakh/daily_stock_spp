@@ -1,158 +1,118 @@
 {
   "ticker": "PCLA",
-  "timestamp": "2025-12-02T04:47:26.357635",
+  "timestamp": "2025-12-03T04:58:37.878771",
   "intraday_data": {
-    "status": "success",
-    "rows": 19,
-    "data": [
-      {
-        "Close": 0.2800000011920929,
-        "High": 0.2800000011920929,
-        "Low": 0.2800000011920929,
-        "Open": 0.2800000011920929,
-        "Volume": 36447
-      },
-      {
-        "Close": 0.30970001220703125,
-        "High": 0.30970001220703125,
-        "Low": 0.30239999294281006,
-        "Open": 0.30239999294281006,
-        "Volume": 446
-      },
-      {
-        "Close": 0.3100000023841858,
-        "High": 0.3100000023841858,
-        "Low": 0.2953999936580658,
-        "Open": 0.3100000023841858,
-        "Volume": 154
-      },
-      {
-        "Close": 0.30000001192092896,
-        "High": 0.30000001192092896,
-        "Low": 0.30000001192092896,
-        "Open": 0.30000001192092896,
-        "Volume": 2255
-      },
-      {
-        "Close": 0.2957000136375427,
-        "High": 0.2957000136375427,
-        "Low": 0.2957000136375427,
-        "Open": 0.2957000136375427,
-        "Volume": 3174
-      },
-      {
-        "Close": 0.2957000136375427,
-        "High": 0.2957000136375427,
-        "Low": 0.2957000136375427,
-        "Open": 0.2957000136375427,
-        "Volume": 207
-      },
-      {
-        "Close": 0.305400013923645,
-        "High": 0.305400013923645,
-        "Low": 0.305400013923645,
-        "Open": 0.305400013923645,
-        "Volume": 215
-      },
-      {
-        "Close": 0.2989000082015991,
-        "High": 0.2989000082015991,
-        "Low": 0.2989000082015991,
-        "Open": 0.2989000082015991,
-        "Volume": 300
-      },
-      {
-        "Close": 0.28780001401901245,
-        "High": 0.28780001401901245,
-        "Low": 0.28780001401901245,
-        "Open": 0.28780001401901245,
-        "Volume": 1856
-      },
-      {
-        "Close": 0.2962999939918518,
-        "High": 0.2962999939918518,
-        "Low": 0.2962999939918518,
-        "Open": 0.2962999939918518,
-        "Volume": 123
-      },
-      {
-        "Close": 0.2939999997615814,
-        "High": 0.2939999997615814,
-        "Low": 0.2939999997615814,
-        "Open": 0.2939999997615814,
-        "Volume": 129
-      },
-      {
-        "Close": 0.2921000123023987,
-        "High": 0.2921000123023987,
-        "Low": 0.2921000123023987,
-        "Open": 0.2921000123023987,
-        "Volume": 880
-      },
-      {
-        "Close": 0.299699991941452,
-        "High": 0.299699991941452,
-        "Low": 0.299699991941452,
-        "Open": 0.299699991941452,
-        "Volume": 113
-      },
-      {
-        "Close": 0.29260000586509705,
-        "High": 0.29260000586509705,
-        "Low": 0.29260000586509705,
-        "Open": 0.29260000586509705,
-        "Volume": 500
-      },
-      {
-        "Close": 0.2989000082015991,
-        "High": 0.2989000082015991,
-        "Low": 0.2989000082015991,
-        "Open": 0.2989000082015991,
-        "Volume": 200
-      },
-      {
-        "Close": 0.2969000041484833,
-        "High": 0.2969000041484833,
-        "Low": 0.2969000041484833,
-        "Open": 0.2969000041484833,
-        "Volume": 392
-      },
-      {
-        "Close": 0.29260000586509705,
-        "High": 0.29260000586509705,
-        "Low": 0.29260000586509705,
-        "Open": 0.29260000586509705,
-        "Volume": 527
-      },
-      {
-        "Close": 0.2930000126361847,
-        "High": 0.2930000126361847,
-        "Low": 0.2930000126361847,
-        "Open": 0.2930000126361847,
-        "Volume": 3066
-      },
-      {
-        "Close": 0.29260000586509705,
-        "High": 0.2930999994277954,
-        "Low": 0.29260000586509705,
-        "Open": 0.2930999994277954,
-        "Volume": 1134
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
-    "message": "argument of type 'NoneType' is not iterable"
+    "message": "Too Many Requests. Rate limited. Try after a while."
   },
   "financials": {
     "income_statement": {
+      "status": "no_data"
+    },
+    "balance_sheet": {
+      "status": "no_data"
+    },
+    "cash_flow": {
+      "status": "no_data"
+    }
+  },
+  "options_data": {
+    "status": "error",
+    "error_message": "Too Many Requests. Rate limited. Try after a while."
+  },
+  "news_data": {
+    "news": {
       "status": "success",
-      "rows": 41,
-      "columns": [
-        "2024-09-30 00:00:00",
-        "2023-09-30 00:00:00",
-        "2022-09-30 00:00:00"
-      ],
+      "count": 1,
       "data": [
         {
-          
+          "id": "d12cbc58-62de-3210-8bb2-8652e4e642f1",
+          "content": {
+            "id": "d12cbc58-62de-3210-8bb2-8652e4e642f1",
+            "contentType": "STORY",
+            "title": "Opening Day: Oilfield services provider Flowco jumps in market debut",
+            "description": "",
+            "summary": "Shares of oilfield services provider Flowco jumped in their market debut on Thursday, as they opened for trading 21% above their IPO price. LATEST IPOS AND DIRECT LISTINGS: Flowco (FLOC) opened on January 16 at $29.00. The provider of production optimization, artificial lift and methane abatement solutions for the oil and natural gas industry had priced its initial public offering of 17.8M shares of its Class A common stock at a public offering price of $24.00 per share. PicoCELA (PCLA) opened o",
+            "pubDate": "2025-01-21T13:50:10Z",
+            "displayTime": "2025-01-21T13:50:10Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": {
+              "originalUrl": "https://media.zenfs.com/en/tipranks_452/97c2777e2ffe0cc9b2b81596bc241d29",
+              "originalWidth": 192,
+              "originalHeight": 192,
+              "caption": "https://www.tipranks.com/news/the-fly/opening-day-oilfield-services-provider-flowco-jumps-in-market-debut",
+              "resolutions": [
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/g08Ru8DIwmm8PxfbNPjbBw--~B/aD0xOTI7dz0xOTI7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/tipranks_452/97c2777e2ffe0cc9b2b81596bc241d29",
+                  "width": 192,
+                  "height": 192,
+                  "tag": "original"
+                },
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/iR.SrWM.IPLUe0drzzg62w--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/tipranks_452/97c2777e2ffe0cc9b2b81596bc241d29",
+                  "width": 170,
+                  "height": 128,
+                  "tag": "170x128"
+                }
+              ]
+            },
+            "provider": {
+              "displayName": "TipRanks",
+              "url": "https://www.tipranks.com/"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/opening-day-oilfield-services-provider-135010163.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/opening-day-oilfield-services-provider-135010163.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        }
+      ]
+    },
+    "recommendations": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  },
+  "holders_data": {
+    "major_holders": {
+      "status": "error"
+    },
+    "institutional_holders": {
+      "status": "error"
+    }
+  },
+  "earnings_data": {
+    "earnings": {
+      "status": "error",
+      "message": "'NoneType' object has no attribute 'empty'"
+    },
+    "calendar": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  }
+}

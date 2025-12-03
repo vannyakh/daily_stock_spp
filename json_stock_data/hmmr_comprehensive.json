@@ -1,6 +1,6 @@
 {
   "ticker": "HMMR",
-  "timestamp": "2025-12-02T04:57:24.122988",
+  "timestamp": "2025-12-03T05:10:49.055483",
   "intraday_data": {
     "status": "success",
     "rows": 6,
@@ -51,47 +51,18 @@
   },
   "stock_info": {
     "status": "error",
-    "message": "Too Many Requests. Rate limited. Try after a while."
+    "message": "argument of type 'NoneType' is not iterable"
   },
   "financials": {
     "income_statement": {
-      "status": "no_data"
-    },
-    "balance_sheet": {
-      "status": "no_data"
-    },
-    "cash_flow": {
-      "status": "no_data"
-    }
-  },
-  "options_data": {
-    "status": "error",
-    "error_message": "Too Many Requests. Rate limited. Try after a while."
-  },
-  "news_data": {
-    "news": {
-      "status": "no_data"
-    },
-    "recommendations": {
-      "status": "no_data"
-    }
-  },
-  "holders_data": {
-    "major_holders": {
-      "status": "no_data"
-    },
-    "institutional_holders": {
-      "status": "no_data"
-    }
-  },
-  "earnings_data": {
-    "earnings": {
-      "status": "error",
-      "message": "'NoneType' object has no attribute 'empty'"
-    },
-    "calendar": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
-    }
-  }
-}
+      "status": "success",
+      "rows": 45,
+      "columns": [
+        "2024-07-31 00:00:00",
+        "2023-07-31 00:00:00",
+        "2022-07-31 00:00:00",
+        "2021-07-31 00:00:00"
+      ],
+      "data": [
+        {
+          

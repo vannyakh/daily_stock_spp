@@ -1,50 +1,13 @@
 {
   "ticker": "LAAB",
-  "timestamp": "2025-12-02T04:57:25.687273",
+  "timestamp": "2025-12-03T05:10:52.067970",
   "intraday_data": {
-    "status": "success",
-    "rows": 5,
-    "data": [
-      {
-        "Close BGAVF": 0.02800000086426735,
-        "High BGAVF": 0.02800000086426735,
-        "Low BGAVF": 0.02800000086426735,
-        "Open BGAVF": 0.02800000086426735,
-        "Volume BGAVF": 0
-      },
-      {
-        "Close BGAVF": 0.025100000202655792,
-        "High BGAVF": 0.025100000202655792,
-        "Low BGAVF": 0.025100000202655792,
-        "Open BGAVF": 0.025100000202655792,
-        "Volume BGAVF": 2000
-      },
-      {
-        "Close BGAVF": 0.03099999949336052,
-        "High BGAVF": 0.03099999949336052,
-        "Low BGAVF": 0.03099999949336052,
-        "Open BGAVF": 0.03099999949336052,
-        "Volume BGAVF": 57383
-      },
-      {
-        "Close BGAVF": 0.02800000086426735,
-        "High BGAVF": 0.02800000086426735,
-        "Low BGAVF": 0.02800000086426735,
-        "Open BGAVF": 0.02800000086426735,
-        "Volume BGAVF": 8720
-      },
-      {
-        "Close BGAVF": 0.02800000086426735,
-        "High BGAVF": 0.02800000086426735,
-        "Low BGAVF": 0.02800000086426735,
-        "Open BGAVF": 0.02800000086426735,
-        "Volume BGAVF": 4000
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
-    "message": "argument of type 'NoneType' is not iterable"
+    "message": "Too Many Requests. Rate limited. Try after a while."
   },
   "financials": {
     "income_statement": {
@@ -58,8 +21,7 @@
     }
   },
   "options_data": {
-    "status": "error",
-    "error_message": "Too Many Requests. Rate limited. Try after a while."
+    "expirations": []
   },
   "news_data": {
     "news": {
@@ -72,10 +34,10 @@
   },
   "holders_data": {
     "major_holders": {
-      "status": "error"
+      "status": "no_data"
     },
     "institutional_holders": {
-      "status": "error"
+      "status": "no_data"
     }
   },
   "earnings_data": {

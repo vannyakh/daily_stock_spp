@@ -1,18 +1,9 @@
 {
   "ticker": "COOTW",
-  "timestamp": "2025-12-02T05:08:32.139600",
+  "timestamp": "2025-12-03T05:24:28.356610",
   "intraday_data": {
-    "status": "success",
-    "rows": 1,
-    "data": [
-      {
-        "Close": 0.017999999225139618,
-        "High": 0.017999999225139618,
-        "Low": 0.017999999225139618,
-        "Open": 0.017999999225139618,
-        "Volume": 0
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -163,15 +154,16 @@
       ]
     },
     "recommendations": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   },
   "holders_data": {
     "major_holders": {
-      "status": "no_data"
+      "status": "error"
     },
     "institutional_holders": {
-      "status": "no_data"
+      "status": "error"
     }
   },
   "earnings_data": {

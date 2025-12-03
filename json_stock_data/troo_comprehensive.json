@@ -1,139 +1,343 @@
 {
   "ticker": "TROO",
-  "timestamp": "2025-12-02T04:41:20.869733",
+  "timestamp": "2025-12-03T04:50:49.872648",
   "intraday_data": {
-    "status": "success",
-    "rows": 16,
-    "data": [
-      {
-        "Close": 1.3700000047683716,
-        "High": 1.3700000047683716,
-        "Low": 1.3700000047683716,
-        "Open": 1.3700000047683716,
-        "Volume": 0
-      },
-      {
-        "Close": 1.2070000171661377,
-        "High": 1.2070000171661377,
-        "Low": 1.2070000171661377,
-        "Open": 1.2070000171661377,
-        "Volume": 200
-      },
-      {
-        "Close": 1.350000023841858,
-        "High": 1.350000023841858,
-        "Low": 1.350000023841858,
-        "Open": 1.350000023841858,
-        "Volume": 115
-      },
-      {
-        "Close": 1.2800999879837036,
-        "High": 1.2800999879837036,
-        "Low": 1.2800999879837036,
-        "Open": 1.2800999879837036,
-        "Volume": 184
-      },
-      {
-        "Close": 1.340000033378601,
-        "High": 1.340000033378601,
-        "Low": 1.340000033378601,
-        "Open": 1.340000033378601,
-        "Volume": 2000
-      },
-      {
-        "Close": 1.3494999408721924,
-        "High": 1.3494999408721924,
-        "Low": 1.315000057220459,
-        "Open": 1.339900016784668,
-        "Volume": 4041
-      },
-      {
-        "Close": 1.3450000286102295,
-        "High": 1.350000023841858,
-        "Low": 1.2999999523162842,
-        "Open": 1.350000023841858,
-        "Volume": 1982
-      },
-      {
-        "Close": 1.3600000143051147,
-        "High": 1.3600000143051147,
-        "Low": 1.3200000524520874,
-        "Open": 1.350000023841858,
-        "Volume": 2223
-      },
-      {
-        "Close": 1.3700000047683716,
-        "High": 1.3700000047683716,
-        "Low": 1.3700000047683716,
-        "Open": 1.3700000047683716,
-        "Volume": 120
-      },
-      {
-        "Close": 1.3700000047683716,
-        "High": 1.3700000047683716,
-        "Low": 1.3700000047683716,
-        "Open": 1.3700000047683716,
-        "Volume": 192
-      },
-      {
-        "Close": 1.3600000143051147,
-        "High": 1.3600000143051147,
-        "Low": 1.3600000143051147,
-        "Open": 1.3600000143051147,
-        "Volume": 100
-      },
-      {
-        "Close": 1.3214000463485718,
-        "High": 1.3214000463485718,
-        "Low": 1.3214000463485718,
-        "Open": 1.3214000463485718,
-        "Volume": 600
-      },
-      {
-        "Close": 1.340000033378601,
-        "High": 1.340000033378601,
-        "Low": 1.340000033378601,
-        "Open": 1.340000033378601,
-        "Volume": 2900
-      },
-      {
-        "Close": 1.350000023841858,
-        "High": 1.350000023841858,
-        "Low": 1.340000033378601,
-        "Open": 1.340000033378601,
-        "Volume": 0
-      },
-      {
-        "Close": 1.3207999467849731,
-        "High": 1.3207999467849731,
-        "Low": 1.3207999467849731,
-        "Open": 1.3207999467849731,
-        "Volume": 255
-      },
-      {
-        "Close": 1.3600000143051147,
-        "High": 1.3600000143051147,
-        "Low": 1.3600000143051147,
-        "Open": 1.3600000143051147,
-        "Volume": 232
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
-    "message": "argument of type 'NoneType' is not iterable"
+    "message": "Too Many Requests. Rate limited. Try after a while."
   },
   "financials": {
     "income_statement": {
+      "status": "no_data"
+    },
+    "balance_sheet": {
+      "status": "no_data"
+    },
+    "cash_flow": {
+      "status": "no_data"
+    }
+  },
+  "options_data": {
+    "status": "error",
+    "error_message": "Too Many Requests. Rate limited. Try after a while."
+  },
+  "news_data": {
+    "news": {
       "status": "success",
-      "rows": 52,
-      "columns": [
-        "2024-12-31 00:00:00",
-        "2023-12-31 00:00:00",
-        "2022-12-31 00:00:00",
-        "2021-12-31 00:00:00",
-        "2020-12-31 00:00:00"
-      ],
+      "count": 5,
       "data": [
         {
-          
+          "id": "538a7029-d930-3c25-a796-43d62abdcaf0",
+          "content": {
+            "id": "538a7029-d930-3c25-a796-43d62abdcaf0",
+            "contentType": "STORY",
+            "title": "TROOPS (TROO) Losses Narrowed 39% Annually, But Valuation Remains Stretched vs. Peers",
+            "description": "",
+            "summary": "TROOPS (TROO) remains unprofitable, but the company has managed to reduce its losses by an impressive 39% per year over the past five years. Shares are currently trading at $1.39, which is notably above the estimated fair value of $0.44. The Price-To-Sales Ratio of 16.9x significantly exceeds both the peer average of 4.7x and the broader US Electronic industry at 2.7x. Despite the positive trend in shrinking losses, recent share dilution and share price volatility could give investors pause...",
+            "pubDate": "2025-10-19T21:08:09Z",
+            "displayTime": "2025-10-19T21:08:09Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": {
+              "originalUrl": "https://media.zenfs.com/en/simply_wall_st__316/2bc7e9c938f83604e86f7ffd61b40d2a",
+              "originalWidth": 1194,
+              "originalHeight": 432,
+              "caption": "",
+              "resolutions": [
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/CgF_bHzIPDCsG3KwCCLvew--~B/aD00MzI7dz0xMTk0O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/simply_wall_st__316/2bc7e9c938f83604e86f7ffd61b40d2a",
+                  "width": 1194,
+                  "height": 432,
+                  "tag": "original"
+                },
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/7geuQS1twXpf0MyYyxY8GQ--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/simply_wall_st__316/2bc7e9c938f83604e86f7ffd61b40d2a",
+                  "width": 170,
+                  "height": 128,
+                  "tag": "170x128"
+                }
+              ]
+            },
+            "provider": {
+              "displayName": "Simply Wall St.",
+              "url": "https://simplywall.st/"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/troops-troo-losses-narrowed-39-210809686.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/troops-troo-losses-narrowed-39-210809686.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        },
+        {
+          "id": "add9b14b-5790-3ff0-9e50-433b0c2bd25f",
+          "content": {
+            "id": "add9b14b-5790-3ff0-9e50-433b0c2bd25f",
+            "contentType": "STORY",
+            "title": "Sector Update: Financial Stocks Mixed Thursday Afternoon",
+            "description": "",
+            "summary": "Financial stocks were mixed in Thursday afternoon trading, with the NYSE Financial Index shedding 0.",
+            "pubDate": "2025-08-14T18:02:52Z",
+            "displayTime": "2025-08-14T18:02:52Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": null,
+            "provider": {
+              "displayName": "MT Newswires",
+              "url": "https://www.mtnewswires.com/"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/sector-financial-stocks-mixed-thursday-180252357.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/sector-financial-stocks-mixed-thursday-180252357.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": true,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        },
+        {
+          "id": "47730d2d-dfd8-3266-b523-a91be28f6232",
+          "content": {
+            "id": "47730d2d-dfd8-3266-b523-a91be28f6232",
+            "contentType": "STORY",
+            "title": "Insiders with their considerable ownership were the key benefactors as TROOPS, Inc. (NASDAQ:TROO) touches US$107m market cap",
+            "description": "",
+            "summary": "NasdaqCM:TROO 1 Year Share Price vs Fair Value Explore TROOPS's Fair Values from the Community and select yours Key...",
+            "pubDate": "2025-08-13T10:12:03Z",
+            "displayTime": "2025-08-13T10:12:03Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": {
+              "originalUrl": "https://media.zenfs.com/en/simply_wall_st__316/2bc7e9c938f83604e86f7ffd61b40d2a",
+              "originalWidth": 1194,
+              "originalHeight": 432,
+              "caption": "",
+              "resolutions": [
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/CgF_bHzIPDCsG3KwCCLvew--~B/aD00MzI7dz0xMTk0O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/simply_wall_st__316/2bc7e9c938f83604e86f7ffd61b40d2a",
+                  "width": 1194,
+                  "height": 432,
+                  "tag": "original"
+                },
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/7geuQS1twXpf0MyYyxY8GQ--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/simply_wall_st__316/2bc7e9c938f83604e86f7ffd61b40d2a",
+                  "width": 170,
+                  "height": 128,
+                  "tag": "170x128"
+                }
+              ]
+            },
+            "provider": {
+              "displayName": "Simply Wall St.",
+              "url": "https://simplywall.st/"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/insiders-considerable-ownership-were-key-101203427.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/insiders-considerable-ownership-were-key-101203427.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        },
+        {
+          "id": "d0ba4ffb-0ef4-3ebf-8c82-a5b492955897",
+          "content": {
+            "id": "d0ba4ffb-0ef4-3ebf-8c82-a5b492955897",
+            "contentType": "STORY",
+            "title": "The past year for TROOPS (NASDAQ:TROO) investors has not been profitable",
+            "description": "",
+            "summary": "It's not a secret that every investor will make bad investments, from time to time. But it's not unreasonable to try to...",
+            "pubDate": "2025-07-02T12:27:00Z",
+            "displayTime": "2025-07-02T12:27:00Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": {
+              "originalUrl": "https://media.zenfs.com/en/simply_wall_st__316/2bc7e9c938f83604e86f7ffd61b40d2a",
+              "originalWidth": 1194,
+              "originalHeight": 432,
+              "caption": "",
+              "resolutions": [
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/CgF_bHzIPDCsG3KwCCLvew--~B/aD00MzI7dz0xMTk0O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/simply_wall_st__316/2bc7e9c938f83604e86f7ffd61b40d2a",
+                  "width": 1194,
+                  "height": 432,
+                  "tag": "original"
+                },
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/7geuQS1twXpf0MyYyxY8GQ--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/simply_wall_st__316/2bc7e9c938f83604e86f7ffd61b40d2a",
+                  "width": 170,
+                  "height": 128,
+                  "tag": "170x128"
+                }
+              ]
+            },
+            "provider": {
+              "displayName": "Simply Wall St.",
+              "url": "https://simplywall.st/"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/past-troops-nasdaq-troo-investors-122700467.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/past-troops-nasdaq-troo-investors-122700467.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        },
+        {
+          "id": "709e89a1-42ce-3092-8c4a-cfedca02c6bc",
+          "content": {
+            "id": "709e89a1-42ce-3092-8c4a-cfedca02c6bc",
+            "contentType": "STORY",
+            "title": "With 52% ownership, TROOPS, Inc. (NASDAQ:TROO) insiders have a lot at stake",
+            "description": "",
+            "summary": "Key Insights Insiders appear to have a vested interest in TROOPS' growth, as seen by their sizeable ownership 51% of...",
+            "pubDate": "2024-12-30T12:52:55Z",
+            "displayTime": "2024-12-30T12:52:55Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": {
+              "originalUrl": "https://media.zenfs.com/en/simply_wall_st__316/2bc7e9c938f83604e86f7ffd61b40d2a",
+              "originalWidth": 1194,
+              "originalHeight": 432,
+              "caption": "",
+              "resolutions": [
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/CgF_bHzIPDCsG3KwCCLvew--~B/aD00MzI7dz0xMTk0O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/simply_wall_st__316/2bc7e9c938f83604e86f7ffd61b40d2a",
+                  "width": 1194,
+                  "height": 432,
+                  "tag": "original"
+                },
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/7geuQS1twXpf0MyYyxY8GQ--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/simply_wall_st__316/2bc7e9c938f83604e86f7ffd61b40d2a",
+                  "width": 170,
+                  "height": 128,
+                  "tag": "170x128"
+                }
+              ]
+            },
+            "provider": {
+              "displayName": "Simply Wall St.",
+              "url": "https://simplywall.st/"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/52-ownership-troops-inc-nasdaq-125255371.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/52-ownership-troops-inc-nasdaq-125255371.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        }
+      ]
+    },
+    "recommendations": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  },
+  "holders_data": {
+    "major_holders": {
+      "status": "error"
+    },
+    "institutional_holders": {
+      "status": "error"
+    }
+  },
+  "earnings_data": {
+    "earnings": {
+      "status": "error",
+      "message": "'NoneType' object has no attribute 'empty'"
+    },
+    "calendar": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  }
+}

@@ -1,9 +1,39 @@
 {
   "ticker": "TOIIW",
-  "timestamp": "2025-12-02T05:09:13.005385",
+  "timestamp": "2025-12-03T05:25:24.289620",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 4,
+    "data": [
+      {
+        "Close": 0.14010000228881836,
+        "High": 0.14030000567436218,
+        "Low": 0.14010000228881836,
+        "Open": 0.14030000567436218,
+        "Volume": 0
+      },
+      {
+        "Close": 0.1306000053882599,
+        "High": 0.1306000053882599,
+        "Low": 0.1306000053882599,
+        "Open": 0.1306000053882599,
+        "Volume": 3209
+      },
+      {
+        "Close": 0.1225999966263771,
+        "High": 0.1225999966263771,
+        "Low": 0.11999999731779099,
+        "Open": 0.11999999731779099,
+        "Volume": 2571
+      },
+      {
+        "Close": 0.10859999805688858,
+        "High": 0.1274999976158142,
+        "Low": 0.10859999805688858,
+        "Open": 0.10999999940395355,
+        "Volume": 6406
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -604,16 +634,102 @@
       ]
     },
     "recommendations": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
+      "status": "no_data"
     }
   },
   "holders_data": {
     "major_holders": {
-      "status": "error"
+      "status": "success",
+      "data": [
+        {
+          "Value": 14
+        }
+      ]
     },
     "institutional_holders": {
-      "status": "error"
+      "status": "success",
+      "data": [
+        {
+          "Date Reported": "2025-09-30 00:00:00",
+          "Holder": "LMR Partners LLP",
+          "pctHeld": 0.1713,
+          "Shares": 1624856,
+          "Value": 176459,
+          "pctChange": 0.0
+        },
+        {
+          "Date Reported": "2025-09-30 00:00:00",
+          "Holder": "Deerfield Management Company, L.P",
+          "pctHeld": 0.1318,
+          "Shares": 1250000,
+          "Value": 135749,
+          "pctChange": 0.0
+        },
+        {
+          "Date Reported": "2025-09-30 00:00:00",
+          "Holder": "Davidson Kempner Capital Management LP",
+          "pctHeld": 0.0336,
+          "Shares": 318710,
+          "Value": 34611,
+          "pctChange": 0.0
+        },
+        {
+          "Date Reported": "2025-09-30 00:00:00",
+          "Holder": "Wolverine Asset Management, LLC",
+          "pctHeld": 0.0208,
+          "Shares": 197019,
+          "Value": 21396,
+          "pctChange": 0.028499998
+        },
+        {
+          "Date Reported": "2025-09-30 00:00:00",
+          "Holder": "Toronto Dominion Bank",
+          "pctHeld": 0.0198,
+          "Shares": 187674,
+          "Value": 20381,
+          "pctChange": 0.0
+        },
+        {
+          "Date Reported": "2025-09-30 00:00:00",
+          "Holder": "Oasis Management Co Ltd.",
+          "pctHeld": 0.0105,
+          "Shares": 100000,
+          "Value": 10859,
+          "pctChange": 1.0
+        },
+        {
+          "Date Reported": "2025-09-30 00:00:00",
+          "Holder": "Man Group PLC",
+          "pctHeld": 0.0094,
+          "Shares": 88824,
+          "Value": 9646,
+          "pctChange": 0.0
+        },
+        {
+          "Date Reported": "2025-09-30 00:00:00",
+          "Holder": "Healthcare of Ontario Pension Plan Trust Fund",
+          "pctHeld": 0.0092,
+          "Shares": 87500,
+          "Value": 9502,
+          "pctChange": 0.0
+        },
+        {
+          "Date Reported": "2025-09-30 00:00:00",
+          "Holder": "Freegulliver LLC                          ",
+          "pctHeld": 0.0081,
+          "Shares": 76993,
+          "Value": 8361,
+          "pctChange": 1.0
+        },
+        {
+          "Date Reported": "2025-09-30 00:00:00",
+          "Holder": "Alpine Global Management, LLC",
+          "pctHeld": 0.0026,
+          "Shares": 25024,
+          "Value": 2717,
+          "pctChange": 0.0
+        }
+      ]
     }
   },
   "earnings_data": {
@@ -623,7 +739,7 @@
     },
     "calendar": {
       "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
+      "message": "'dict' object has no attribute 'empty'"
     }
   }
 }

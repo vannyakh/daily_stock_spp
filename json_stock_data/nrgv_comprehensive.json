@@ -1,6 +1,6 @@
 {
   "ticker": "NRGV",
-  "timestamp": "2025-12-02T04:38:56.727805",
+  "timestamp": "2025-12-03T04:48:25.682036",
   "intraday_data": {
     "status": "no_data",
     "message": "No intraday data available"
@@ -585,16 +585,130 @@
       ]
     },
     "recommendations": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
+      "status": "success",
+      "rows": 2,
+      "data": [
+        {
+          "period": "0m",
+          "strongBuy": 0,
+          "buy": 2,
+          "hold": 0,
+          "sell": 1,
+          "strongSell": 0
+        },
+        {
+          "period": "-1m",
+          "strongBuy": 0,
+          "buy": 1,
+          "hold": 0,
+          "sell": 1,
+          "strongSell": 0
+        }
+      ]
     }
   },
   "holders_data": {
     "major_holders": {
-      "status": "error"
+      "status": "success",
+      "data": [
+        {
+          "Value": 0.14664
+        },
+        {
+          "Value": 0.35349
+        },
+        {
+          "Value": 0.41424
+        },
+        {
+          "Value": 121.0
+        }
+      ]
     },
     "institutional_holders": {
-      "status": "error"
+      "status": "success",
+      "data": [
+        {
+          "Date Reported": "2025-09-30 00:00:00",
+          "Holder": "SB Investment Advisers (UK) LTD",
+          "pctHeld": 0.1105,
+          "Shares": 18535631,
+          "Value": 61909005,
+          "pctChange": 0.0
+        },
+        {
+          "Date Reported": "2025-09-30 00:00:00",
+          "Holder": "Sailingstone Capital Partners LLC",
+          "pctHeld": 0.0414,
+          "Shares": 6947922,
+          "Value": 23206058,
+          "pctChange": -0.1534
+        },
+        {
+          "Date Reported": "2025-09-30 00:00:00",
+          "Holder": "Millennium Management Llc",
+          "pctHeld": 0.0349,
+          "Shares": 5858734,
+          "Value": 19568171,
+          "pctChange": 1.4124
+        },
+        {
+          "Date Reported": "2025-09-30 00:00:00",
+          "Holder": "Scoggin Management, LP",
+          "pctHeld": 0.0313,
+          "Shares": 5250000,
+          "Value": 17534999,
+          "pctChange": 0.75
+        },
+        {
+          "Date Reported": "2025-09-30 00:00:00",
+          "Holder": "Vanguard Group Inc",
+          "pctHeld": 0.0109,
+          "Shares": 1823443,
+          "Value": 6090299,
+          "pctChange": 0.2036
+        },
+        {
+          "Date Reported": "2025-09-30 00:00:00",
+          "Holder": "Marshall Wace LLP",
+          "pctHeld": 0.0082,
+          "Shares": 1372743,
+          "Value": 4584961,
+          "pctChange": 3.8079002
+        },
+        {
+          "Date Reported": "2025-09-30 00:00:00",
+          "Holder": "Blackrock Inc.",
+          "pctHeld": 0.007900001,
+          "Shares": 1327822,
+          "Value": 4434925,
+          "pctChange": -0.0774
+        },
+        {
+          "Date Reported": "2025-09-30 00:00:00",
+          "Holder": "Geode Capital Management, LLC",
+          "pctHeld": 0.0067000003,
+          "Shares": 1122671,
+          "Value": 3749721,
+          "pctChange": 0.1113
+        },
+        {
+          "Date Reported": "2025-09-30 00:00:00",
+          "Holder": "Castleknight Management LP",
+          "pctHeld": 0.005,
+          "Shares": 844700,
+          "Value": 2821297,
+          "pctChange": -0.3003
+        },
+        {
+          "Date Reported": "2025-09-30 00:00:00",
+          "Holder": "GSA Capital Partners LLP",
+          "pctHeld": 0.0046,
+          "Shares": 773858,
+          "Value": 2584685,
+          "pctChange": -0.4775
+        }
+      ]
     }
   },
   "earnings_data": {
@@ -604,7 +718,7 @@
     },
     "calendar": {
       "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
+      "message": "'dict' object has no attribute 'empty'"
     }
   }
 }

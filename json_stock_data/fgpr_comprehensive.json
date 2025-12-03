@@ -1,9 +1,39 @@
 {
   "ticker": "FGPR",
-  "timestamp": "2025-12-02T04:41:26.483211",
+  "timestamp": "2025-12-03T04:50:57.224352",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 4,
+    "data": [
+      {
+        "Close": 18.25,
+        "High": 18.25,
+        "Low": 18.25,
+        "Open": 18.25,
+        "Volume": 100
+      },
+      {
+        "Close": 18.389999389648438,
+        "High": 18.389999389648438,
+        "Low": 18.389999389648438,
+        "Open": 18.389999389648438,
+        "Volume": 300
+      },
+      {
+        "Close": 18.299999237060547,
+        "High": 18.299999237060547,
+        "Low": 18.299999237060547,
+        "Open": 18.299999237060547,
+        "Volume": 150
+      },
+      {
+        "Close": 18.200000762939453,
+        "High": 18.200000762939453,
+        "Low": 18.200000762939453,
+        "Open": 18.200000762939453,
+        "Volume": 217
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -21,7 +51,8 @@
     }
   },
   "options_data": {
-    "expirations": []
+    "status": "error",
+    "error_message": "Too Many Requests. Rate limited. Try after a while."
   },
   "news_data": {
     "news": {

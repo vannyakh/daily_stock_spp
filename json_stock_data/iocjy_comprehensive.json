@@ -1,25 +1,118 @@
 {
   "ticker": "IOCJY",
-  "timestamp": "2025-12-02T04:38:22.677358",
+  "timestamp": "2025-12-03T04:47:52.253271",
   "intraday_data": {
-    "status": "success",
-    "rows": 0,
-    "data": []
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
-    "message": "argument of type 'NoneType' is not iterable"
+    "message": "Too Many Requests. Rate limited. Try after a while."
   },
   "financials": {
     "income_statement": {
+      "status": "no_data"
+    },
+    "balance_sheet": {
+      "status": "no_data"
+    },
+    "cash_flow": {
+      "status": "no_data"
+    }
+  },
+  "options_data": {
+    "status": "error",
+    "error_message": "Too Many Requests. Rate limited. Try after a while."
+  },
+  "news_data": {
+    "news": {
       "status": "success",
-      "rows": 47,
-      "columns": [
-        "2024-12-31 00:00:00",
-        "2023-12-31 00:00:00",
-        "2022-12-31 00:00:00",
-        "2021-12-31 00:00:00"
-      ],
+      "count": 1,
       "data": [
         {
-          
+          "id": "c5f07cab-5dd9-301a-af16-bd9876ecba3b",
+          "content": {
+            "id": "c5f07cab-5dd9-301a-af16-bd9876ecba3b",
+            "contentType": "STORY",
+            "title": "Iochpe-Maxion SA (IOCJY) Q3 2025 Earnings Call Highlights: Strategic Gains Amidst Market ...",
+            "description": "",
+            "summary": "Despite a challenging macroeconomic environment, Iochpe-Maxion SA (IOCJY) shows resilience with growth in Europe and Asia, while navigating uncertainties in North America and South America.",
+            "pubDate": "2025-11-07T03:00:30Z",
+            "displayTime": "2025-11-07T03:00:30Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": {
+              "originalUrl": "https://media.zenfs.com/en/us.finance.gurufocus/6daf47fa173a83a8accaec53a3177908",
+              "originalWidth": 159,
+              "originalHeight": 80,
+              "caption": "",
+              "resolutions": [
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/lrFhQd2Mg4XOXsayKJ.S6A--~B/aD04MDt3PTE1OTthcHBpZD15dGFjaHlvbg--/https://media.zenfs.com/en/us.finance.gurufocus/6daf47fa173a83a8accaec53a3177908",
+                  "width": 159,
+                  "height": 80,
+                  "tag": "original"
+                },
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/a84zHwCiBh0ENrfXiKyQaQ--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/us.finance.gurufocus/6daf47fa173a83a8accaec53a3177908",
+                  "width": 170,
+                  "height": 128,
+                  "tag": "170x128"
+                }
+              ]
+            },
+            "provider": {
+              "displayName": "GuruFocus.com",
+              "url": "http://www.gurufocus.com/"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/iochpe-maxion-sa-iocjy-q3-030030039.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/iochpe-maxion-sa-iocjy-q3-030030039.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        }
+      ]
+    },
+    "recommendations": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  },
+  "holders_data": {
+    "major_holders": {
+      "status": "error"
+    },
+    "institutional_holders": {
+      "status": "error"
+    }
+  },
+  "earnings_data": {
+    "earnings": {
+      "status": "error",
+      "message": "'NoneType' object has no attribute 'empty'"
+    },
+    "calendar": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  }
+}

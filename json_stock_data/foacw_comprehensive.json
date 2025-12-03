@@ -1,13 +1,49 @@
 {
   "ticker": "FOACW",
-  "timestamp": "2025-12-02T05:09:14.605578",
+  "timestamp": "2025-12-03T05:25:32.841090",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 3,
+    "data": [
+      {
+        "Close VLDXW": 0.009999999776482582,
+        "High VLDXW": 0.009999999776482582,
+        "Low VLDXW": 0.009999999776482582,
+        "Open VLDXW": 0.009999999776482582,
+        "Volume VLDXW": 22838
+      },
+      {
+        "Close VLDXW": 0.007000000216066837,
+        "High VLDXW": 0.007000000216066837,
+        "Low VLDXW": 0.007000000216066837,
+        "Open VLDXW": 0.007000000216066837,
+        "Volume VLDXW": 9521
+      },
+      {
+        "Close VLDXW": 0.009999999776482582,
+        "High VLDXW": 0.009999999776482582,
+        "Low VLDXW": 0.009999999776482582,
+        "Open VLDXW": 0.009999999776482582,
+        "Volume VLDXW": 100
+      }
+    ]
   },
   "stock_info": {
-    "status": "error",
-    "message": "Too Many Requests. Rate limited. Try after a while."
+    "status": "success",
+    "data": {
+      "quoteType": "NONE",
+      "symbol": "FOACW",
+      "language": "en-US",
+      "region": "US",
+      "triggerable": false,
+      "customPriceAlertConfidence": "NONE",
+      "messageBoardId": "finmb_691583405",
+      "esgPopulated": false,
+      "hasPrePostMarketData": false,
+      "financialCurrency": "USD",
+      "tradeable": false,
+      "cryptoTradeable": false
+    }
   },
   "financials": {
     "income_statement": {
@@ -21,8 +57,7 @@
     }
   },
   "options_data": {
-    "status": "error",
-    "error_message": "Too Many Requests. Rate limited. Try after a while."
+    "expirations": []
   },
   "news_data": {
     "news": {
@@ -543,16 +578,15 @@
       ]
     },
     "recommendations": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
+      "status": "no_data"
     }
   },
   "holders_data": {
     "major_holders": {
-      "status": "error"
+      "status": "no_data"
     },
     "institutional_holders": {
-      "status": "error"
+      "status": "no_data"
     }
   },
   "earnings_data": {
@@ -562,7 +596,7 @@
     },
     "calendar": {
       "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
+      "message": "'dict' object has no attribute 'empty'"
     }
   }
 }

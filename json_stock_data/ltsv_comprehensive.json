@@ -1,13 +1,78 @@
 {
   "ticker": "LTSV",
-  "timestamp": "2025-12-02T05:11:21.009790",
+  "timestamp": "2025-12-03T05:29:20.660716",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 0,
+    "data": []
   },
   "stock_info": {
-    "status": "error",
-    "message": "Too Many Requests. Rate limited. Try after a while."
+    "status": "success",
+    "data": {
+      "quoteType": "MUTUALFUND",
+      "symbol": "LTSV",
+      "language": "en-US",
+      "region": "US",
+      "typeDisp": "Fund",
+      "quoteSourceName": "Delayed Quote",
+      "triggerable": false,
+      "customPriceAlertConfidence": "NONE",
+      "currency": "USD",
+      "shortName": "LIGHTSTONE VALUE PLUS REIT IV I",
+      "hasPrePostMarketData": false,
+      "firstTradeDateMilliseconds": 1762439400000,
+      "priceHint": 4,
+      "regularMarketChange": -0.123000145,
+      "regularMarketDayHigh": 3.6925,
+      "regularMarketDayRange": "3.6925 - 3.6925",
+      "regularMarketDayLow": 3.6925,
+      "regularMarketVolume": 8000,
+      "regularMarketPreviousClose": 3.673,
+      "bid": 0.035,
+      "bidSize": 71000,
+      "fullExchangeName": "OTC Markets OTCPK",
+      "financialCurrency": "USD",
+      "regularMarketOpen": 3.6925,
+      "averageDailyVolume3Month": 2231,
+      "averageDailyVolume10Day": 2231,
+      "fiftyTwoWeekLowChange": 0.54999995,
+      "fiftyTwoWeekLowChangePercent": 0.18333332,
+      "fiftyTwoWeekRange": "3.0 - 3.6925",
+      "fiftyTwoWeekHighChange": -0.14250016,
+      "fiftyTwoWeekHighChangePercent": -0.038591783,
+      "fiftyTwoWeekLow": 3.0,
+      "fiftyTwoWeekHigh": 3.6925,
+      "fiftyTwoWeekChangePercent": -18.322897,
+      "trailingAnnualDividendRate": 0.0,
+      "trailingAnnualDividendYield": 0.0,
+      "epsTrailingTwelveMonths": -0.32,
+      "sharesOutstanding": 8200000,
+      "bookValue": 2.211,
+      "fiftyDayAverage": 3.4076667,
+      "fiftyDayAverageChange": 0.14233327,
+      "fiftyDayAverageChangePercent": 0.041768543,
+      "twoHundredDayAverage": 3.4076667,
+      "twoHundredDayAverageChange": 0.14233327,
+      "twoHundredDayAverageChangePercent": 0.041768543,
+      "marketCap": 29465000,
+      "marketState": "PREPRE",
+      "regularMarketTime": 1762981200,
+      "exchange": "PNK",
+      "messageBoardId": "finmb_278293904",
+      "exchangeTimezoneName": "America/New_York",
+      "exchangeTimezoneShortName": "EST",
+      "gmtOffSetMilliseconds": -18000000,
+      "market": "us_market",
+      "esgPopulated": false,
+      "regularMarketChangePercent": -3.3487651,
+      "regularMarketPrice": 3.55,
+      "priceToBook": 1.6056083,
+      "sourceInterval": 15,
+      "exchangeDataDelayedBy": 0,
+      "tradeable": false,
+      "cryptoTradeable": false,
+      "displayName": "Lightstone Value Plus REIT IV"
+    }
   },
   "financials": {
     "income_statement": {
@@ -21,24 +86,22 @@
     }
   },
   "options_data": {
-    "status": "error",
-    "error_message": "Too Many Requests. Rate limited. Try after a while."
+    "expirations": []
   },
   "news_data": {
     "news": {
       "status": "no_data"
     },
     "recommendations": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
+      "status": "no_data"
     }
   },
   "holders_data": {
     "major_holders": {
-      "status": "error"
+      "status": "no_data"
     },
     "institutional_holders": {
-      "status": "error"
+      "status": "no_data"
     }
   },
   "earnings_data": {
@@ -48,7 +111,7 @@
     },
     "calendar": {
       "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
+      "message": "'dict' object has no attribute 'empty'"
     }
   }
 }

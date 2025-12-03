@@ -1,88 +1,9 @@
 {
   "ticker": "CFSB",
-  "timestamp": "2025-12-02T04:48:40.972762",
+  "timestamp": "2025-12-03T05:00:49.748039",
   "intraday_data": {
-    "status": "success",
-    "rows": 11,
-    "data": [
-      {
-        "Close NXN": 12.25,
-        "High NXN": 12.25,
-        "Low NXN": 12.25,
-        "Open NXN": 12.25,
-        "Volume NXN": 0
-      },
-      {
-        "Close NXN": 12.119999885559082,
-        "High NXN": 12.119999885559082,
-        "Low NXN": 12.119999885559082,
-        "Open NXN": 12.119999885559082,
-        "Volume NXN": 430
-      },
-      {
-        "Close NXN": 12.15999984741211,
-        "High NXN": 12.15999984741211,
-        "Low NXN": 12.15999984741211,
-        "Open NXN": 12.15999984741211,
-        "Volume NXN": 558
-      },
-      {
-        "Close NXN": 12.170000076293945,
-        "High NXN": 12.170000076293945,
-        "Low NXN": 12.170000076293945,
-        "Open NXN": 12.170000076293945,
-        "Volume NXN": 313
-      },
-      {
-        "Close NXN": 12.170000076293945,
-        "High NXN": 12.170000076293945,
-        "Low NXN": 12.170000076293945,
-        "Open NXN": 12.170000076293945,
-        "Volume NXN": 902
-      },
-      {
-        "Close NXN": 12.170000076293945,
-        "High NXN": 12.170000076293945,
-        "Low NXN": 12.170000076293945,
-        "Open NXN": 12.170000076293945,
-        "Volume NXN": 144
-      },
-      {
-        "Close NXN": 12.180000305175781,
-        "High NXN": 12.180000305175781,
-        "Low NXN": 12.180000305175781,
-        "Open NXN": 12.180000305175781,
-        "Volume NXN": 437
-      },
-      {
-        "Close NXN": 12.114999771118164,
-        "High NXN": 12.114999771118164,
-        "Low NXN": 12.114999771118164,
-        "Open NXN": 12.114999771118164,
-        "Volume NXN": 446
-      },
-      {
-        "Close NXN": 12.119999885559082,
-        "High NXN": 12.119999885559082,
-        "Low NXN": 12.119999885559082,
-        "Open NXN": 12.119999885559082,
-        "Volume NXN": 100
-      },
-      {
-        "Close NXN": 12.098699569702148,
-        "High NXN": 12.098699569702148,
-        "Low NXN": 12.098699569702148,
-        "Open NXN": 12.098699569702148,
-        "Volume NXN": 445
-      },
-      {
-        "Close NXN": 12.15999984741211,
-        "High NXN": 12.15999984741211,
-        "Low NXN": 12.15999984741211,
-        "Open NXN": 12.15999984741211,
-        "Volume NXN": 269
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -355,7 +276,8 @@
       ]
     },
     "recommendations": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   },
   "holders_data": {

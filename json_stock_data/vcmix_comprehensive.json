@@ -1,78 +1,64 @@
 {
   "ticker": "VCMIX",
-  "timestamp": "2025-12-02T05:15:30.077069",
+  "timestamp": "2025-12-03T05:35:50.657923",
   "intraday_data": {
-    "status": "success",
-    "rows": 9,
-    "data": [
-      {
-        "Close GNL-PB": 22.214000701904297,
-        "High GNL-PB": 22.214000701904297,
-        "Low GNL-PB": 22.214000701904297,
-        "Open GNL-PB": 22.214000701904297,
-        "Volume GNL-PB": 0
-      },
-      {
-        "Close GNL-PB": 22.299999237060547,
-        "High GNL-PB": 22.299999237060547,
-        "Low GNL-PB": 22.299999237060547,
-        "Open GNL-PB": 22.299999237060547,
-        "Volume GNL-PB": 116
-      },
-      {
-        "Close GNL-PB": 22.149999618530273,
-        "High GNL-PB": 22.149999618530273,
-        "Low GNL-PB": 22.149999618530273,
-        "Open GNL-PB": 22.149999618530273,
-        "Volume GNL-PB": 523
-      },
-      {
-        "Close GNL-PB": 22.046600341796875,
-        "High GNL-PB": 22.046600341796875,
-        "Low GNL-PB": 22.020000457763672,
-        "Open GNL-PB": 22.020000457763672,
-        "Volume GNL-PB": 411
-      },
-      {
-        "Close GNL-PB": 21.950000762939453,
-        "High GNL-PB": 21.969999313354492,
-        "Low GNL-PB": 21.950000762939453,
-        "Open GNL-PB": 21.959999084472656,
-        "Volume GNL-PB": 470
-      },
-      {
-        "Close GNL-PB": 21.510000228881836,
-        "High GNL-PB": 21.520000457763672,
-        "Low GNL-PB": 21.510000228881836,
-        "Open GNL-PB": 21.510000228881836,
-        "Volume GNL-PB": 500
-      },
-      {
-        "Close GNL-PB": 21.514999389648438,
-        "High GNL-PB": 21.520000457763672,
-        "Low GNL-PB": 21.510000228881836,
-        "Open GNL-PB": 21.520000457763672,
-        "Volume GNL-PB": 761
-      },
-      {
-        "Close GNL-PB": 21.3799991607666,
-        "High GNL-PB": 21.520000457763672,
-        "Low GNL-PB": 21.3799991607666,
-        "Open GNL-PB": 21.520000457763672,
-        "Volume GNL-PB": 1583
-      },
-      {
-        "Close GNL-PB": 21.389999389648438,
-        "High GNL-PB": 21.389999389648438,
-        "Low GNL-PB": 21.3700008392334,
-        "Open GNL-PB": 21.3700008392334,
-        "Volume GNL-PB": 2859
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
-    "status": "error",
-    "message": "Too Many Requests. Rate limited. Try after a while."
+    "status": "success",
+    "data": {
+      "quoteType": "MUTUALFUND",
+      "symbol": "VCMIX",
+      "language": "en-US",
+      "region": "US",
+      "typeDisp": "Fund",
+      "quoteSourceName": "Delayed Quote",
+      "triggerable": false,
+      "customPriceAlertConfidence": "NONE",
+      "currency": "USD",
+      "fiftyDayAverage": 23.8844,
+      "fiftyDayAverageChange": -0.1644001,
+      "fiftyDayAverageChangePercent": -0.0068831583,
+      "twoHundredDayAverage": 24.18105,
+      "twoHundredDayAverageChange": -0.46105003,
+      "twoHundredDayAverageChangePercent": -0.019066585,
+      "sourceInterval": 15,
+      "exchangeDataDelayedBy": 0,
+      "tradeable": false,
+      "cryptoTradeable": false,
+      "hasPrePostMarketData": false,
+      "firstTradeDateMilliseconds": 1341840600000,
+      "priceHint": 2,
+      "regularMarketChange": -0.01,
+      "regularMarketPreviousClose": 23.73,
+      "fullExchangeName": "Nasdaq",
+      "averageDailyVolume3Month": 0,
+      "averageDailyVolume10Day": 0,
+      "fiftyTwoWeekLowChange": 0.099998474,
+      "fiftyTwoWeekLowChangePercent": 0.0042336355,
+      "fiftyTwoWeekRange": "23.62 - 24.83",
+      "fiftyTwoWeekHighChange": -1.1100006,
+      "fiftyTwoWeekHighChangePercent": -0.044704013,
+      "fiftyTwoWeekLow": 23.62,
+      "fiftyTwoWeekHigh": 24.83,
+      "fiftyTwoWeekChangePercent": -4.3916225,
+      "trailingAnnualDividendRate": 0.0,
+      "trailingAnnualDividendYield": 0.0,
+      "shortName": "Versus Capital Multi-Manager Re",
+      "longName": "Versus Capital Real Estate Fund LLC",
+      "marketState": "PREPRE",
+      "regularMarketChangePercent": -0.04214075,
+      "regularMarketPrice": 23.72,
+      "regularMarketTime": 1764723928,
+      "exchange": "NAS",
+      "messageBoardId": "finmb_154147602",
+      "exchangeTimezoneName": "America/New_York",
+      "exchangeTimezoneShortName": "EST",
+      "gmtOffSetMilliseconds": -18000000,
+      "market": "us_market",
+      "esgPopulated": false
+    }
   },
   "financials": {
     "income_statement": {
@@ -86,24 +72,22 @@
     }
   },
   "options_data": {
-    "status": "error",
-    "error_message": "Too Many Requests. Rate limited. Try after a while."
+    "expirations": []
   },
   "news_data": {
     "news": {
       "status": "no_data"
     },
     "recommendations": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
+      "status": "no_data"
     }
   },
   "holders_data": {
     "major_holders": {
-      "status": "error"
+      "status": "no_data"
     },
     "institutional_holders": {
-      "status": "error"
+      "status": "no_data"
     }
   },
   "earnings_data": {
@@ -113,7 +97,7 @@
     },
     "calendar": {
       "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
+      "message": "'dict' object has no attribute 'empty'"
     }
   }
 }

@@ -1,9 +1,39 @@
 {
   "ticker": "JFBRW",
-  "timestamp": "2025-12-02T05:10:50.421386",
+  "timestamp": "2025-12-03T05:28:20.840778",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 4,
+    "data": [
+      {
+        "Close": 0.01899999938905239,
+        "High": 0.01899999938905239,
+        "Low": 0.01899999938905239,
+        "Open": 0.01899999938905239,
+        "Volume": 0
+      },
+      {
+        "Close": 0.01979999989271164,
+        "High": 0.01979999989271164,
+        "Low": 0.01979999989271164,
+        "Open": 0.01979999989271164,
+        "Volume": 2008
+      },
+      {
+        "Close": 0.020099999383091927,
+        "High": 0.020600000396370888,
+        "Low": 0.01979999989271164,
+        "Open": 0.01979999989271164,
+        "Volume": 2600
+      },
+      {
+        "Close": 0.02070000022649765,
+        "High": 0.02070000022649765,
+        "Low": 0.020600000396370888,
+        "Open": 0.020600000396370888,
+        "Volume": 200
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -154,7 +184,8 @@
       ]
     },
     "recommendations": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   },
   "holders_data": {

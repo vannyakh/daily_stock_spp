@@ -1,39 +1,9 @@
 {
   "ticker": "NUKKW",
-  "timestamp": "2025-12-02T05:08:12.369195",
+  "timestamp": "2025-12-03T05:24:06.879486",
   "intraday_data": {
-    "status": "success",
-    "rows": 4,
-    "data": [
-      {
-        "Close MSPRZ": 0.029999999329447746,
-        "High MSPRZ": 0.029999999329447746,
-        "Low MSPRZ": 0.029999999329447746,
-        "Open MSPRZ": 0.029999999329447746,
-        "Volume MSPRZ": 415
-      },
-      {
-        "Close MSPRZ": 0.015200000256299973,
-        "High MSPRZ": 0.015200000256299973,
-        "Low MSPRZ": 0.015200000256299973,
-        "Open MSPRZ": 0.015200000256299973,
-        "Volume MSPRZ": 1063
-      },
-      {
-        "Close MSPRZ": 0.029999999329447746,
-        "High MSPRZ": 0.029999999329447746,
-        "Low MSPRZ": 0.026100000366568565,
-        "Open MSPRZ": 0.026100000366568565,
-        "Volume MSPRZ": 200
-      },
-      {
-        "Close MSPRZ": 0.03500000014901161,
-        "High MSPRZ": 0.03500000014901161,
-        "Low MSPRZ": 0.029999999329447746,
-        "Open MSPRZ": 0.029999999329447746,
-        "Volume MSPRZ": 4328
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -41,108 +11,14 @@
   },
   "financials": {
     "income_statement": {
-      "status": "no_data"
-    },
-    "balance_sheet": {
-      "status": "no_data"
-    },
-    "cash_flow": {
-      "status": "no_data"
-    }
-  },
-  "options_data": {
-    "status": "error",
-    "error_message": "Too Many Requests. Rate limited. Try after a while."
-  },
-  "news_data": {
-    "news": {
       "status": "success",
-      "count": 1,
+      "rows": 51,
+      "columns": [
+        "2024-09-30 00:00:00",
+        "2023-09-30 00:00:00",
+        "2022-09-30 00:00:00",
+        "2021-09-30 00:00:00"
+      ],
       "data": [
         {
-          "id": "42e98012-3458-3792-afb0-3b89f1652272",
-          "content": {
-            "id": "42e98012-3458-3792-afb0-3b89f1652272",
-            "contentType": "STORY",
-            "title": "Nukkleus, Mandragola establish joint venture for infrastructure modernization",
-            "description": "",
-            "summary": "Nukkleus (NUKK), together with Mandragola announced the establishment of a strategic joint venture focused on commercial and defense-oriented infrastructure modernization. Under the new venture, Nukkleus and Mandragola intend to establish advanced manufacturing zones in both the Baltics and Israel, designed to support civil and defense aviation needs. Plans also include the development of a NATO-compliant logistics hub in Riga in cooperation with additional regional partners, as well as faciliti",
-            "pubDate": "2025-08-30T12:55:42Z",
-            "displayTime": "2025-08-30T12:55:42Z",
-            "isHosted": true,
-            "bypassModal": false,
-            "previewUrl": null,
-            "thumbnail": {
-              "originalUrl": "https://media.zenfs.com/en/tipranks_452/9f42828689b51f4a121456ec717e5d5f",
-              "originalWidth": 192,
-              "originalHeight": 192,
-              "caption": "https://www.tipranks.com/news/the-fly/nukkleus-mandragola-establish-joint-venture-for-infrastructure-modernization-thefly",
-              "resolutions": [
-                {
-                  "url": "https://s.yimg.com/uu/api/res/1.2/eaf_KlyOKOmW17xf3F8d1A--~B/aD0xOTI7dz0xOTI7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/tipranks_452/9f42828689b51f4a121456ec717e5d5f",
-                  "width": 192,
-                  "height": 192,
-                  "tag": "original"
-                },
-                {
-                  "url": "https://s.yimg.com/uu/api/res/1.2/SAQuzmpyKPDqkvTVzsS_ig--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/tipranks_452/9f42828689b51f4a121456ec717e5d5f",
-                  "width": 170,
-                  "height": 128,
-                  "tag": "170x128"
-                }
-              ]
-            },
-            "provider": {
-              "displayName": "TipRanks",
-              "url": "https://www.tipranks.com/"
-            },
-            "canonicalUrl": {
-              "url": "https://finance.yahoo.com/news/nukkleus-mandragola-establish-joint-venture-125542369.html",
-              "site": "finance",
-              "region": "US",
-              "lang": "en-US"
-            },
-            "clickThroughUrl": {
-              "url": "https://finance.yahoo.com/news/nukkleus-mandragola-establish-joint-venture-125542369.html",
-              "site": "finance",
-              "region": "US",
-              "lang": "en-US"
-            },
-            "metadata": {
-              "editorsPick": false
-            },
-            "finance": {
-              "premiumFinance": {
-                "isPremiumNews": false,
-                "isPremiumFreeNews": false
-              }
-            },
-            "storyline": null
-          }
-        }
-      ]
-    },
-    "recommendations": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
-    }
-  },
-  "holders_data": {
-    "major_holders": {
-      "status": "error"
-    },
-    "institutional_holders": {
-      "status": "error"
-    }
-  },
-  "earnings_data": {
-    "earnings": {
-      "status": "error",
-      "message": "'NoneType' object has no attribute 'empty'"
-    },
-    "calendar": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
-    }
-  }
-}
+          

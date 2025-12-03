@@ -1,22 +1,62 @@
 {
   "ticker": "PMFAX",
-  "timestamp": "2025-12-02T05:15:26.502841",
+  "timestamp": "2025-12-03T05:35:37.012106",
   "intraday_data": {
-    "status": "success",
-    "rows": 1,
-    "data": [
-      {
-        "Close": 10.140000343322754,
-        "High": 10.140000343322754,
-        "Low": 10.140000343322754,
-        "Open": 10.140000343322754,
-        "Volume": 0
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
-    "status": "error",
-    "message": "Too Many Requests. Rate limited. Try after a while."
+    "status": "success",
+    "data": {
+      "quoteType": "MUTUALFUND",
+      "symbol": "PMFAX",
+      "language": "en-US",
+      "region": "US",
+      "typeDisp": "Fund",
+      "quoteSourceName": "Delayed Quote",
+      "triggerable": false,
+      "customPriceAlertConfidence": "NONE",
+      "currency": "USD",
+      "marketState": "PREPRE",
+      "shortName": "PIMCO Flexible Municipal Income",
+      "longName": "PIMCO Flexible Municipal Income Fund",
+      "tradeable": false,
+      "cryptoTradeable": false,
+      "regularMarketChangePercent": -0.19723864,
+      "regularMarketPrice": 10.12,
+      "regularMarketPreviousClose": 10.14,
+      "fullExchangeName": "Nasdaq",
+      "fiftyTwoWeekLowChange": 0.46000004,
+      "fiftyTwoWeekLowChangePercent": 0.047619052,
+      "fiftyTwoWeekRange": "9.66 - 10.57",
+      "fiftyTwoWeekHighChange": -0.4499998,
+      "fiftyTwoWeekHighChangePercent": -0.042573303,
+      "fiftyTwoWeekLow": 9.66,
+      "fiftyTwoWeekHigh": 10.57,
+      "fiftyTwoWeekChangePercent": -3.977275,
+      "trailingAnnualDividendRate": 0.0,
+      "trailingAnnualDividendYield": 0.0,
+      "fiftyDayAverage": 10.1724,
+      "fiftyDayAverageChange": -0.05240059,
+      "fiftyDayAverageChangePercent": -0.005151251,
+      "twoHundredDayAverage": 10.0269,
+      "twoHundredDayAverageChange": 0.093099594,
+      "twoHundredDayAverageChangePercent": 0.009284982,
+      "sourceInterval": 15,
+      "exchangeDataDelayedBy": 0,
+      "hasPrePostMarketData": false,
+      "firstTradeDateMilliseconds": 1568122200000,
+      "priceHint": 2,
+      "regularMarketChange": -0.02,
+      "regularMarketTime": 1764723740,
+      "exchange": "NAS",
+      "messageBoardId": "finmb_545391060",
+      "exchangeTimezoneName": "America/New_York",
+      "exchangeTimezoneShortName": "EST",
+      "gmtOffSetMilliseconds": -18000000,
+      "market": "us_market",
+      "esgPopulated": false
+    }
   },
   "financials": {
     "income_statement": {
@@ -30,24 +70,22 @@
     }
   },
   "options_data": {
-    "status": "error",
-    "error_message": "Too Many Requests. Rate limited. Try after a while."
+    "expirations": []
   },
   "news_data": {
     "news": {
       "status": "no_data"
     },
     "recommendations": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
+      "status": "no_data"
     }
   },
   "holders_data": {
     "major_holders": {
-      "status": "error"
+      "status": "no_data"
     },
     "institutional_holders": {
-      "status": "error"
+      "status": "no_data"
     }
   },
   "earnings_data": {
@@ -57,7 +95,7 @@
     },
     "calendar": {
       "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
+      "message": "'dict' object has no attribute 'empty'"
     }
   }
 }

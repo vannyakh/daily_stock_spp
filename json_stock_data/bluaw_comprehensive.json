@@ -1,13 +1,42 @@
 {
   "ticker": "BLUAW",
-  "timestamp": "2025-12-02T05:15:33.832946",
+  "timestamp": "2025-12-03T05:36:02.646703",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 2,
+    "data": [
+      {
+        "Close TLSIW": 1.350000023841858,
+        "High TLSIW": 1.350000023841858,
+        "Low TLSIW": 1.350000023841858,
+        "Open TLSIW": 1.350000023841858,
+        "Volume TLSIW": 0
+      },
+      {
+        "Close TLSIW": 1.2799999713897705,
+        "High TLSIW": 1.2799999713897705,
+        "Low TLSIW": 1.159999966621399,
+        "Open TLSIW": 1.2799999713897705,
+        "Volume TLSIW": 904
+      }
+    ]
   },
   "stock_info": {
-    "status": "error",
-    "message": "Too Many Requests. Rate limited. Try after a while."
+    "status": "success",
+    "data": {
+      "quoteType": "NONE",
+      "symbol": "BLUAW",
+      "language": "en-US",
+      "region": "US",
+      "triggerable": false,
+      "customPriceAlertConfidence": "NONE",
+      "tradeable": false,
+      "cryptoTradeable": false,
+      "messageBoardId": "finmb_700178182",
+      "esgPopulated": false,
+      "hasPrePostMarketData": false,
+      "financialCurrency": "USD"
+    }
   },
   "financials": {
     "income_statement": {
@@ -21,24 +50,22 @@
     }
   },
   "options_data": {
-    "status": "error",
-    "error_message": "Too Many Requests. Rate limited. Try after a while."
+    "expirations": []
   },
   "news_data": {
     "news": {
       "status": "no_data"
     },
     "recommendations": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
+      "status": "no_data"
     }
   },
   "holders_data": {
     "major_holders": {
-      "status": "error"
+      "status": "no_data"
     },
     "institutional_holders": {
-      "status": "error"
+      "status": "no_data"
     }
   },
   "earnings_data": {
@@ -48,7 +75,7 @@
     },
     "calendar": {
       "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
+      "message": "'dict' object has no attribute 'empty'"
     }
   }
 }
