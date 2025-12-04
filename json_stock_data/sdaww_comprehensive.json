@@ -1,9 +1,39 @@
 {
   "ticker": "SDAWW",
-  "timestamp": "2025-12-03T05:23:35.879706",
+  "timestamp": "2025-12-04T04:45:09.884692",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 4,
+    "data": [
+      {
+        "Close": 0.04500000178813934,
+        "High": 0.050999999046325684,
+        "Low": 0.04500000178813934,
+        "Open": 0.050999999046325684,
+        "Volume": 0
+      },
+      {
+        "Close": 0.045099999755620956,
+        "High": 0.045099999755620956,
+        "Low": 0.04500000178813934,
+        "Open": 0.04500000178813934,
+        "Volume": 1500
+      },
+      {
+        "Close": 0.045099999755620956,
+        "High": 0.045099999755620956,
+        "Low": 0.045099999755620956,
+        "Open": 0.045099999755620956,
+        "Volume": 0
+      },
+      {
+        "Close": 0.045099999755620956,
+        "High": 0.045099999755620956,
+        "Low": 0.045099999755620956,
+        "Open": 0.045099999755620956,
+        "Volume": 2000
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -21,7 +51,8 @@
     }
   },
   "options_data": {
-    "expirations": []
+    "status": "error",
+    "error_message": "Too Many Requests. Rate limited. Try after a while."
   },
   "news_data": {
     "news": {

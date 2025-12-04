@@ -1,23 +1,16 @@
 {
   "ticker": "GUER",
-  "timestamp": "2025-12-03T05:05:58.362900",
+  "timestamp": "2025-12-04T04:36:40.211099",
   "intraday_data": {
     "status": "success",
-    "rows": 7,
+    "rows": 6,
     "data": [
-      {
-        "Close": 2.6500000953674316,
-        "High": 2.6500000953674316,
-        "Low": 2.6500000953674316,
-        "Open": 2.6500000953674316,
-        "Volume": 0
-      },
       {
         "Close": 2.2799999713897705,
         "High": 2.2899999618530273,
         "Low": 2.2799999713897705,
         "Open": 2.2899999618530273,
-        "Volume": 300
+        "Volume": 0
       },
       {
         "Close": 2.2699999809265137,
@@ -62,14 +55,44 @@
   },
   "financials": {
     "income_statement": {
-      "status": "success",
-      "rows": 46,
-      "columns": [
-        "2024-12-31 00:00:00",
-        "2023-12-31 00:00:00",
-        "2022-12-31 00:00:00",
-        "2021-12-31 00:00:00"
-      ],
-      "data": [
-        {
-          
+      "status": "no_data"
+    },
+    "balance_sheet": {
+      "status": "no_data"
+    },
+    "cash_flow": {
+      "status": "no_data"
+    }
+  },
+  "options_data": {
+    "status": "error",
+    "error_message": "Too Many Requests. Rate limited. Try after a while."
+  },
+  "news_data": {
+    "news": {
+      "status": "no_data"
+    },
+    "recommendations": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  },
+  "holders_data": {
+    "major_holders": {
+      "status": "error"
+    },
+    "institutional_holders": {
+      "status": "error"
+    }
+  },
+  "earnings_data": {
+    "earnings": {
+      "status": "error",
+      "message": "'NoneType' object has no attribute 'empty'"
+    },
+    "calendar": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  }
+}

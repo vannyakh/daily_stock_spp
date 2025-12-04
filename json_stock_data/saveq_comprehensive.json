@@ -1,25 +1,13 @@
 {
   "ticker": "SAVEQ",
-  "timestamp": "2025-12-03T04:59:46.510757",
+  "timestamp": "2025-12-04T04:33:56.993375",
   "intraday_data": {
     "status": "no_data",
     "message": "No intraday data available"
   },
   "stock_info": {
-    "status": "success",
-    "data": {
-      "quoteType": "NONE",
-      "symbol": "SAVEQ",
-      "language": "en-US",
-      "region": "US",
-      "triggerable": false,
-      "customPriceAlertConfidence": "NONE",
-      "tradeable": false,
-      "cryptoTradeable": false,
-      "hasPrePostMarketData": false,
-      "financialCurrency": "USD",
-      "esgPopulated": false
-    }
+    "status": "error",
+    "message": "Too Many Requests. Rate limited. Try after a while."
   },
   "financials": {
     "income_statement": {
@@ -33,7 +21,8 @@
     }
   },
   "options_data": {
-    "expirations": []
+    "status": "error",
+    "error_message": "Too Many Requests. Rate limited. Try after a while."
   },
   "news_data": {
     "news": {
@@ -463,9 +452,9 @@
           }
         },
         {
-          "id": "d94128a8-3402-337f-b8a5-f0d03e50a52c",
+          "id": "2182ffda-908e-39a6-b904-3dafad3f24db",
           "content": {
-            "id": "d94128a8-3402-337f-b8a5-f0d03e50a52c",
+            "id": "2182ffda-908e-39a6-b904-3dafad3f24db",
             "contentType": "STORY",
             "title": "Spirit Airlines to furlough 270 pilots, demote 140 more on downsized schedule",
             "description": "",
@@ -476,19 +465,19 @@
             "bypassModal": false,
             "previewUrl": null,
             "thumbnail": {
-              "originalUrl": "https://media.zenfs.com/en/reuters-finance.com/2fa1700f92330f0d6b0549033b583dfc",
+              "originalUrl": "https://media.zenfs.com/en/reuters.com/b8454741dd0e38b44441b5bf28a7583e",
               "originalWidth": 800,
               "originalHeight": 534,
-              "caption": "",
+              "caption": "Spirit commercial airliner prepares to land in San Diego",
               "resolutions": [
                 {
-                  "url": "https://s.yimg.com/uu/api/res/1.2/MnqDgfAJy.lKQlYZWXMkTA--~B/aD01MzQ7dz04MDA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/reuters-finance.com/2fa1700f92330f0d6b0549033b583dfc",
+                  "url": "https://s.yimg.com/uu/api/res/1.2/RBQgJN_5pwhEcCQ90OLPAQ--~B/aD01MzQ7dz04MDA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/reuters.com/b8454741dd0e38b44441b5bf28a7583e",
                   "width": 800,
                   "height": 534,
                   "tag": "original"
                 },
                 {
-                  "url": "https://s.yimg.com/uu/api/res/1.2/b4ZE4Q7C6i1OH1xuYWQlBQ--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/reuters-finance.com/2fa1700f92330f0d6b0549033b583dfc",
+                  "url": "https://s.yimg.com/uu/api/res/1.2/8UyCj598Z9KIlcBEgmVymw--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/reuters.com/b8454741dd0e38b44441b5bf28a7583e",
                   "width": 170,
                   "height": 128,
                   "tag": "170x128"
@@ -497,16 +486,16 @@
             },
             "provider": {
               "displayName": "Reuters",
-              "url": "http://www.reuters.com/"
+              "url": "https://www.reuters.com/"
             },
             "canonicalUrl": {
-              "url": "https://finance.yahoo.com/news/spirit-airlines-furlough-270-pilots-181634135.html",
+              "url": "https://finance.yahoo.com/news/spirit-airlines-furlough-270-pilots-181634704.html",
               "site": "finance",
               "region": "US",
               "lang": "en-US"
             },
             "clickThroughUrl": {
-              "url": "https://finance.yahoo.com/news/spirit-airlines-furlough-270-pilots-181634135.html",
+              "url": "https://finance.yahoo.com/news/spirit-airlines-furlough-270-pilots-181634704.html",
               "site": "finance",
               "region": "US",
               "lang": "en-US"
@@ -648,15 +637,16 @@
       ]
     },
     "recommendations": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   },
   "holders_data": {
     "major_holders": {
-      "status": "no_data"
+      "status": "error"
     },
     "institutional_holders": {
-      "status": "no_data"
+      "status": "error"
     }
   },
   "earnings_data": {
@@ -666,7 +656,7 @@
     },
     "calendar": {
       "status": "error",
-      "message": "'dict' object has no attribute 'empty'"
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   }
 }

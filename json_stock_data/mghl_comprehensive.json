@@ -1,16 +1,37 @@
 {
   "ticker": "MGHL",
-  "timestamp": "2025-12-03T05:21:15.296077",
+  "timestamp": "2025-12-04T04:43:54.959206",
   "intraday_data": {
     "status": "success",
-    "rows": 1,
+    "rows": 4,
     "data": [
       {
         "Close GMZP": 0.0003000000142492354,
         "High GMZP": 0.0003000000142492354,
         "Low GMZP": 0.0003000000142492354,
         "Open GMZP": 0.0003000000142492354,
-        "Volume GMZP": 1000000
+        "Volume GMZP": 0
+      },
+      {
+        "Close GMZP": 0.0003000000142492354,
+        "High GMZP": 0.0003000000142492354,
+        "Low GMZP": 0.0003000000142492354,
+        "Open GMZP": 0.0003000000142492354,
+        "Volume GMZP": 20000
+      },
+      {
+        "Close GMZP": 0.0003000000142492354,
+        "High GMZP": 0.0003000000142492354,
+        "Low GMZP": 0.0003000000142492354,
+        "Open GMZP": 0.0003000000142492354,
+        "Volume GMZP": 340000
+      },
+      {
+        "Close GMZP": 0.0003000000142492354,
+        "High GMZP": 0.0003000000142492354,
+        "Low GMZP": 0.0003000000142492354,
+        "Open GMZP": 0.0003000000142492354,
+        "Volume GMZP": 2660000
       }
     ]
   },
@@ -20,13 +41,44 @@
   },
   "financials": {
     "income_statement": {
-      "status": "success",
-      "rows": 33,
-      "columns": [
-        "2022-12-31 00:00:00",
-        "2021-12-31 00:00:00",
-        "2020-12-31 00:00:00"
-      ],
-      "data": [
-        {
-          
+      "status": "no_data"
+    },
+    "balance_sheet": {
+      "status": "no_data"
+    },
+    "cash_flow": {
+      "status": "no_data"
+    }
+  },
+  "options_data": {
+    "status": "error",
+    "error_message": "Too Many Requests. Rate limited. Try after a while."
+  },
+  "news_data": {
+    "news": {
+      "status": "no_data"
+    },
+    "recommendations": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  },
+  "holders_data": {
+    "major_holders": {
+      "status": "error"
+    },
+    "institutional_holders": {
+      "status": "error"
+    }
+  },
+  "earnings_data": {
+    "earnings": {
+      "status": "error",
+      "message": "'NoneType' object has no attribute 'empty'"
+    },
+    "calendar": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  }
+}

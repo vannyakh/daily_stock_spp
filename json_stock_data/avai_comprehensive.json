@@ -1,9 +1,46 @@
 {
   "ticker": "AVAI",
-  "timestamp": "2025-12-03T04:57:53.886414",
+  "timestamp": "2025-12-04T04:33:08.251625",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 5,
+    "data": [
+      {
+        "Close": 0.28999999165534973,
+        "High": 0.28999999165534973,
+        "Low": 0.28999999165534973,
+        "Open": 0.28999999165534973,
+        "Volume": 0
+      },
+      {
+        "Close": 0.2800000011920929,
+        "High": 0.2800000011920929,
+        "Low": 0.2800000011920929,
+        "Open": 0.2800000011920929,
+        "Volume": 1000
+      },
+      {
+        "Close": 0.2799000144004822,
+        "High": 0.2799000144004822,
+        "Low": 0.2799000144004822,
+        "Open": 0.2799000144004822,
+        "Volume": 100
+      },
+      {
+        "Close": 0.2800000011920929,
+        "High": 0.2800000011920929,
+        "Low": 0.2800000011920929,
+        "Open": 0.2800000011920929,
+        "Volume": 123
+      },
+      {
+        "Close": 0.2800000011920929,
+        "High": 0.2800000011920929,
+        "Low": 0.2800000011920929,
+        "Open": 0.2800000011920929,
+        "Volume": 2500
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -11,15 +48,44 @@
   },
   "financials": {
     "income_statement": {
-      "status": "success",
-      "rows": 42,
-      "columns": [
-        "2025-03-31 00:00:00",
-        "2024-03-31 00:00:00",
-        "2023-03-31 00:00:00",
-        "2022-03-31 00:00:00",
-        "2021-03-31 00:00:00"
-      ],
-      "data": [
-        {
-          
+      "status": "no_data"
+    },
+    "balance_sheet": {
+      "status": "no_data"
+    },
+    "cash_flow": {
+      "status": "no_data"
+    }
+  },
+  "options_data": {
+    "status": "error",
+    "error_message": "Too Many Requests. Rate limited. Try after a while."
+  },
+  "news_data": {
+    "news": {
+      "status": "no_data"
+    },
+    "recommendations": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  },
+  "holders_data": {
+    "major_holders": {
+      "status": "error"
+    },
+    "institutional_holders": {
+      "status": "error"
+    }
+  },
+  "earnings_data": {
+    "earnings": {
+      "status": "error",
+      "message": "'NoneType' object has no attribute 'empty'"
+    },
+    "calendar": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  }
+}

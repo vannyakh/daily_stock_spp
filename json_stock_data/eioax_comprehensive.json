@@ -1,9 +1,25 @@
 {
   "ticker": "EIOAX",
-  "timestamp": "2025-12-03T05:30:04.082628",
+  "timestamp": "2025-12-04T04:47:21.979460",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 2,
+    "data": [
+      {
+        "Close CNROX": 5.980000019073486,
+        "High CNROX": 5.980000019073486,
+        "Low CNROX": 5.980000019073486,
+        "Open CNROX": 5.980000019073486,
+        "Volume CNROX": 0
+      },
+      {
+        "Close CNROX": 5.96999979019165,
+        "High CNROX": 5.96999979019165,
+        "Low CNROX": 5.96999979019165,
+        "Open CNROX": 5.96999979019165,
+        "Volume CNROX": 0
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -21,7 +37,8 @@
     }
   },
   "options_data": {
-    "expirations": []
+    "status": "error",
+    "error_message": "Too Many Requests. Rate limited. Try after a while."
   },
   "news_data": {
     "news": {

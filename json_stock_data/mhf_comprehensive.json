@@ -1,9 +1,32 @@
 {
   "ticker": "MHF",
-  "timestamp": "2025-12-03T04:52:38.394598",
+  "timestamp": "2025-12-04T04:31:04.195875",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 3,
+    "data": [
+      {
+        "Close CRAWA": 83.0,
+        "High CRAWA": 85.25,
+        "Low CRAWA": 83.0,
+        "Open CRAWA": 85.25,
+        "Volume CRAWA": 0
+      },
+      {
+        "Close CRAWA": 83.0,
+        "High CRAWA": 83.0,
+        "Low CRAWA": 83.0,
+        "Open CRAWA": 83.0,
+        "Volume CRAWA": 44
+      },
+      {
+        "Close CRAWA": 86.52999877929688,
+        "High CRAWA": 86.52999877929688,
+        "Low CRAWA": 86.52999877929688,
+        "Open CRAWA": 86.52999877929688,
+        "Volume CRAWA": 108
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -48,7 +71,7 @@
     },
     "calendar": {
       "status": "error",
-      "message": "'dict' object has no attribute 'empty'"
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   }
 }

@@ -1,6 +1,6 @@
 {
   "ticker": "JNPR",
-  "timestamp": "2025-12-03T04:21:34.451504",
+  "timestamp": "2025-12-04T04:18:02.155140",
   "intraday_data": {
     "status": "no_data",
     "message": "No intraday data available"
@@ -21,7 +21,8 @@
     }
   },
   "options_data": {
-    "expirations": []
+    "status": "error",
+    "error_message": "Too Many Requests. Rate limited. Try after a while."
   },
   "news_data": {
     "news": {
@@ -630,7 +631,7 @@
       "status": "error"
     },
     "institutional_holders": {
-      "status": "no_data"
+      "status": "error"
     }
   },
   "earnings_data": {

@@ -1,9 +1,53 @@
 {
   "ticker": "CSWCZ",
-  "timestamp": "2025-12-03T05:33:18.144485",
+  "timestamp": "2025-12-04T04:48:50.454448",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 6,
+    "data": [
+      {
+        "Close SWKHL": 25.65999984741211,
+        "High SWKHL": 25.65999984741211,
+        "Low SWKHL": 25.65999984741211,
+        "Open SWKHL": 25.65999984741211,
+        "Volume SWKHL": 0
+      },
+      {
+        "Close SWKHL": 25.670000076293945,
+        "High SWKHL": 25.670000076293945,
+        "Low SWKHL": 25.670000076293945,
+        "Open SWKHL": 25.670000076293945,
+        "Volume SWKHL": 100
+      },
+      {
+        "Close SWKHL": 25.714399337768555,
+        "High SWKHL": 25.714399337768555,
+        "Low SWKHL": 25.698999404907227,
+        "Open SWKHL": 25.700000762939453,
+        "Volume SWKHL": 1591
+      },
+      {
+        "Close SWKHL": 25.670000076293945,
+        "High SWKHL": 25.670000076293945,
+        "Low SWKHL": 25.670000076293945,
+        "Open SWKHL": 25.670000076293945,
+        "Volume SWKHL": 100
+      },
+      {
+        "Close SWKHL": 25.68000030517578,
+        "High SWKHL": 25.68000030517578,
+        "Low SWKHL": 25.68000030517578,
+        "Open SWKHL": 25.68000030517578,
+        "Volume SWKHL": 200
+      },
+      {
+        "Close SWKHL": 25.68000030517578,
+        "High SWKHL": 25.68000030517578,
+        "Low SWKHL": 25.68000030517578,
+        "Open SWKHL": 25.68000030517578,
+        "Volume SWKHL": 200
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -21,7 +65,8 @@
     }
   },
   "options_data": {
-    "expirations": []
+    "status": "error",
+    "error_message": "Too Many Requests. Rate limited. Try after a while."
   },
   "news_data": {
     "news": {
@@ -34,10 +79,10 @@
   },
   "holders_data": {
     "major_holders": {
-      "status": "no_data"
+      "status": "error"
     },
     "institutional_holders": {
-      "status": "no_data"
+      "status": "error"
     }
   },
   "earnings_data": {
@@ -47,7 +92,7 @@
     },
     "calendar": {
       "status": "error",
-      "message": "'dict' object has no attribute 'empty'"
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   }
 }

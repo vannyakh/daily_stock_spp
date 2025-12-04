@@ -1,114 +1,13 @@
 {
   "ticker": "ME",
-  "timestamp": "2025-12-03T04:55:38.871124",
+  "timestamp": "2025-12-04T04:32:25.187990",
   "intraday_data": {
     "status": "no_data",
     "message": "No intraday data available"
   },
   "stock_info": {
-    "status": "success",
-    "data": {
-      "address1": "349 Oyster Point Boulevard",
-      "city": "South San Francisco",
-      "state": "CA",
-      "zip": "94080",
-      "country": "United States",
-      "phone": "650 938 6300",
-      "website": "https://www.23andme.com",
-      "industry": "Diagnostics & Research",
-      "industryKey": "diagnostics-research",
-      "industryDisp": "Diagnostics & Research",
-      "sector": "Healthcare",
-      "sectorKey": "healthcare",
-      "sectorDisp": "Healthcare",
-      "longBusinessSummary": "23andMe Holding Co. operates as a consumer genetics testing company in the United States, the United Kingdom, Canada, and internationally. The company operates in two segments, Consumer and Research Services, and Therapeutics. The Consumer and Research Services segment provides personal genome service (PGS) that consists of a suite of genetic reports, including information on customers' genetic ancestral origins, personal genetic health risks, and chances of passing on certain rare carrier conditions to their children, as well as reports on how genetics can impact responses to medications. This segments also operates Lemonaid telehealth platform to access affiliated licensed healthcare professionals for medical consultation and treatment for various common conditions; and offers research services. The Therapeutics segment focuses on the development of novel therapies; and research and development of programs in various therapeutic areas, such as oncology, immunological and inflammatory diseases, and other disease areas, as well as engages in the out-licensing of intellectual property associated with identified drug targets and expenses related to the discovery and development of therapeutic product candidates. This segment also comprises a therapeutics product portfolio, including 23ME-00610 (P006), a humanized monoclonal antibody that interfere with the ability of CD200R1 to interact with CD200 in cancer cells; GSK6097608, an immuno-oncology program for targeting CD96; and 23ME-01473 is an immuno-oncology antibody program that targets the ULBP6 proteins in the NKG2D pathway. The company has collaboration with Mirador Therapeutics to advance mirador's precision medicines for immunology and inflammation. 23andMe Holding Co. was founded in 2006 and is headquartered in South San Francisco, California. On March 23, 2025, 23andMe Holding Co., along with its affiliates, filed a voluntary petition for reorganization under Chapter 11 in the U.S. Bankruptcy Court for the Eastern District of Missouri.",
-      "fullTimeEmployees": 560,
-      "auditRisk": 8,
-      "boardRisk": 10,
-      "compensationRisk": 8,
-      "shareHolderRightsRisk": 10,
-      "overallRisk": 10,
-      "governanceEpochDate": 1740787200,
-      "compensationAsOfEpochDate": 1735603200,
-      "maxAge": 86400,
-      "priceHint": 4,
-      "previousClose": 0.0,
-      "regularMarketPreviousClose": 0.0,
-      "payoutRatio": 0.0,
-      "beta": 1.195,
-      "currency": "USD",
-      "tradeable": false,
-      "enterpriseValue": 1032483,
-      "profitMargins": -1.86982,
-      "floatShares": 16100962,
-      "sharesShort": 1785471,
-      "sharesShortPriorMonth": 1392481,
-      "sharesShortPreviousMonthDate": 1739491200,
-      "dateShortInterest": 1741910400,
-      "sharesPercentSharesOut": 0.066599995,
-      "heldPercentInsiders": 0.17265,
-      "heldPercentInstitutions": 0.26075,
-      "shortRatio": 3.82,
-      "shortPercentOfFloat": 0.0943,
-      "lastFiscalYearEnd": 1711843200,
-      "nextFiscalYearEnd": 1743379200,
-      "mostRecentQuarter": 1735603200,
-      "netIncomeToCommon": -426188000,
-      "enterpriseToRevenue": 0.005,
-      "enterpriseToEbitda": -0.005,
-      "SandP52WeekChange": 0.12205398,
-      "quoteType": "EQUITY",
-      "currentPrice": 0.6063,
-      "targetHighPrice": 2.08,
-      "targetLowPrice": 2.08,
-      "targetMeanPrice": 2.08,
-      "targetMedianPrice": 2.08,
-      "recommendationKey": "none",
-      "numberOfAnalystOpinions": 1,
-      "totalCash": 79350000,
-      "totalCashPerShare": 2.958,
-      "ebitda": -219668992,
-      "totalDebt": 60544000,
-      "quickRatio": 0.739,
-      "currentRatio": 1.054,
-      "totalRevenue": 208775008,
-      "debtToEquity": 96.531,
-      "revenuePerShare": 8.269,
-      "returnOnAssets": -0.33181998,
-      "returnOnEquity": -1.9376199,
-      "grossProfits": 110720000,
-      "freeCashflow": -32560876,
-      "operatingCashflow": -154638000,
-      "revenueGrowth": 0.347,
-      "grossMargins": 0.53033,
-      "ebitdaMargins": -1.05218,
-      "operatingMargins": -0.41869,
-      "financialCurrency": "USD",
-      "symbol": "ME",
-      "language": "en-US",
-      "region": "US",
-      "typeDisp": "Equity",
-      "quoteSourceName": "Delayed Quote",
-      "triggerable": true,
-      "customPriceAlertConfidence": "HIGH",
-      "regularMarketPrice": 0.6063,
-      "marketState": "POSTPOST",
-      "shortName": "23andMe Holding Co.",
-      "hasPrePostMarketData": true,
-      "regularMarketChange": 0.6063,
-      "fullExchangeName": "NasdaqCM",
-      "regularMarketTime": 1764104400,
-      "exchange": "NCM",
-      "exchangeTimezoneName": "America/New_York",
-      "exchangeTimezoneShortName": "EST",
-      "gmtOffSetMilliseconds": -18000000,
-      "market": "us_market",
-      "esgPopulated": false,
-      "sourceInterval": 15,
-      "exchangeDataDelayedBy": 0,
-      "cryptoTradeable": false,
-      "displayName": "23andMe Holding"
-    }
+    "status": "error",
+    "message": "Too Many Requests. Rate limited. Try after a while."
   },
   "financials": {
     "income_statement": {
@@ -122,7 +21,8 @@
     }
   },
   "options_data": {
-    "expirations": []
+    "status": "error",
+    "error_message": "Too Many Requests. Rate limited. Try after a while."
   },
   "news_data": {
     "news": {
@@ -742,40 +642,16 @@
       ]
     },
     "recommendations": {
-      "status": "success",
-      "rows": 1,
-      "data": [
-        {
-          "period": "0m",
-          "strongBuy": 0,
-          "buy": 0,
-          "hold": 0,
-          "sell": 0,
-          "strongSell": 1
-        }
-      ]
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   },
   "holders_data": {
     "major_holders": {
-      "status": "success",
-      "data": [
-        {
-          "Value": 0.17265
-        },
-        {
-          "Value": 0.26075
-        },
-        {
-          "Value": 0.31516
-        },
-        {
-          "Value": 84.0
-        }
-      ]
+      "status": "error"
     },
     "institutional_holders": {
-      "status": "no_data"
+      "status": "error"
     }
   },
   "earnings_data": {
@@ -785,7 +661,7 @@
     },
     "calendar": {
       "status": "error",
-      "message": "'dict' object has no attribute 'empty'"
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   }
 }

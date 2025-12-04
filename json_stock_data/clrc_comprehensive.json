@@ -1,92 +1,13 @@
 {
   "ticker": "CLRC",
-  "timestamp": "2025-12-03T04:59:34.113082",
+  "timestamp": "2025-12-04T04:33:54.741749",
   "intraday_data": {
     "status": "no_data",
     "message": "No intraday data available"
   },
   "stock_info": {
-    "status": "success",
-    "data": {
-      "address1": "25 Bedford Square",
-      "city": "London",
-      "zip": "WC1B 3HH",
-      "country": "United Kingdom",
-      "phone": "44 73 0847 5096",
-      "website": "https://www.climate-rock.com",
-      "industry": "Shell Companies",
-      "industryKey": "shell-companies",
-      "industryDisp": "Shell Companies",
-      "sector": "Financial Services",
-      "sectorKey": "financial-services",
-      "sectorDisp": "Financial Services",
-      "longBusinessSummary": "ClimateRock focuses on effecting a merger, share exchange, asset acquisition, share purchase, reorganization, or similar business combination with one or more businesses. It intends to pursue an initial business combination within climate change, environment, renewable energy and emerging, and clean technologies. The company was incorporated in 2021 and is based in London, the United Kingdom.",
-      "maxAge": 86400,
-      "priceHint": 2,
-      "previousClose": 0.0,
-      "regularMarketPreviousClose": 0.0,
-      "payoutRatio": 0.0,
-      "beta": -0.013,
-      "currency": "USD",
-      "tradeable": false,
-      "enterpriseValue": 58597992,
-      "profitMargins": 0.0,
-      "floatShares": 1490084,
-      "sharesShort": 982,
-      "sharesShortPriorMonth": 261,
-      "sharesShortPreviousMonthDate": 1739491200,
-      "dateShortInterest": 1741910400,
-      "sharesPercentSharesOut": 0.0002,
-      "heldPercentInsiders": 0.50403,
-      "heldPercentInstitutions": 0.52499,
-      "shortRatio": 3.14,
-      "shortPercentOfFloat": 0.0004,
-      "lastFiscalYearEnd": 1703980800,
-      "nextFiscalYearEnd": 1735603200,
-      "mostRecentQuarter": 1727654400,
-      "earningsQuarterlyGrowth": 5.511,
-      "netIncomeToCommon": -510860,
-      "SandP52WeekChange": 0.12205398,
-      "quoteType": "EQUITY",
-      "currentPrice": 12.0,
-      "recommendationKey": "none",
-      "totalCash": 3708,
-      "totalCashPerShare": 0.001,
-      "totalDebt": 3931005,
-      "quickRatio": 0.001,
-      "currentRatio": 0.005,
-      "returnOnAssets": -0.04374,
-      "freeCashflow": -989173,
-      "operatingCashflow": -1736220,
-      "earningsGrowth": 5.672,
-      "grossMargins": 0.0,
-      "ebitdaMargins": 0.0,
-      "operatingMargins": 0.0,
-      "financialCurrency": "USD",
-      "symbol": "CLRC",
-      "language": "en-US",
-      "region": "US",
-      "typeDisp": "Equity",
-      "quoteSourceName": "Delayed Quote",
-      "triggerable": true,
-      "customPriceAlertConfidence": "HIGH",
-      "regularMarketTime": 1764104400,
-      "exchange": "NGM",
-      "exchangeTimezoneName": "America/New_York",
-      "exchangeTimezoneShortName": "EST",
-      "gmtOffSetMilliseconds": -18000000,
-      "market": "us_market",
-      "esgPopulated": false,
-      "marketState": "POSTPOST",
-      "shortName": "ClimateRock",
-      "regularMarketPrice": 12.0,
-      "hasPrePostMarketData": true,
-      "regularMarketChange": 12.0,
-      "fullExchangeName": "NasdaqGM",
-      "sourceInterval": 15,
-      "exchangeDataDelayedBy": 0,
-      "cryptoTradeable": false
-    }
+    "status": "error",
+    "message": "Too Many Requests. Rate limited. Try after a while."
   },
   "financials": {
     "income_statement": {
@@ -100,36 +21,24 @@
     }
   },
   "options_data": {
-    "expirations": []
+    "status": "error",
+    "error_message": "Too Many Requests. Rate limited. Try after a while."
   },
   "news_data": {
     "news": {
       "status": "no_data"
     },
     "recommendations": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   },
   "holders_data": {
     "major_holders": {
-      "status": "success",
-      "data": [
-        {
-          "Value": 0.50403
-        },
-        {
-          "Value": 0.52499
-        },
-        {
-          "Value": 1.05852
-        },
-        {
-          "Value": 15.0
-        }
-      ]
+      "status": "error"
     },
     "institutional_holders": {
-      "status": "no_data"
+      "status": "error"
     }
   },
   "earnings_data": {
@@ -139,7 +48,7 @@
     },
     "calendar": {
       "status": "error",
-      "message": "'dict' object has no attribute 'empty'"
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   }
 }

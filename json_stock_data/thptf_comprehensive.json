@@ -1,13 +1,29 @@
 {
   "ticker": "THPTF",
-  "timestamp": "2025-12-03T05:19:19.790721",
+  "timestamp": "2025-12-04T04:42:57.505255",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 2,
+    "data": [
+      {
+        "Close ERLFF": 1.659999966621399,
+        "High ERLFF": 1.659999966621399,
+        "Low ERLFF": 1.659999966621399,
+        "Open ERLFF": 1.659999966621399,
+        "Volume ERLFF": 0
+      },
+      {
+        "Close ERLFF": 1.7000000476837158,
+        "High ERLFF": 1.7000000476837158,
+        "Low ERLFF": 1.7000000476837158,
+        "Open ERLFF": 1.7000000476837158,
+        "Volume ERLFF": 0
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
-    "message": "Too Many Requests. Rate limited. Try after a while."
+    "message": "argument of type 'NoneType' is not iterable"
   },
   "financials": {
     "income_statement": {
@@ -29,15 +45,16 @@
       "status": "no_data"
     },
     "recommendations": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   },
   "holders_data": {
     "major_holders": {
-      "status": "no_data"
+      "status": "error"
     },
     "institutional_holders": {
-      "status": "no_data"
+      "status": "error"
     }
   },
   "earnings_data": {
@@ -47,7 +64,7 @@
     },
     "calendar": {
       "status": "error",
-      "message": "'dict' object has no attribute 'empty'"
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   }
 }

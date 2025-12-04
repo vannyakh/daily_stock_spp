@@ -1,87 +1,99 @@
 {
   "ticker": "LFLYW",
-  "timestamp": "2025-12-03T05:35:55.904060",
+  "timestamp": "2025-12-04T04:49:35.540593",
   "intraday_data": {
     "status": "no_data",
     "message": "No intraday data available"
   },
   "stock_info": {
-    "status": "success",
-    "data": {
-      "maxAge": 86400,
-      "priceHint": 4,
-      "previousClose": 0.0095,
-      "open": 0.004,
-      "dayLow": 0.004,
-      "dayHigh": 0.004,
-      "regularMarketPreviousClose": 0.0095,
-      "regularMarketOpen": 0.004,
-      "regularMarketDayLow": 0.004,
-      "regularMarketDayHigh": 0.004,
-      "volume": 1350,
-      "regularMarketVolume": 1350,
-      "bid": 0.004,
-      "ask": 0.0095,
-      "bidSize": 63250,
-      "askSize": 13880,
-      "fiftyTwoWeekLow": 0.004,
-      "fiftyTwoWeekHigh": 0.004,
-      "trailingAnnualDividendRate": 0.0,
-      "trailingAnnualDividendYield": 0.0,
-      "currency": "USD",
-      "tradeable": false,
-      "quoteType": "EQUITY",
-      "currentPrice": 0.004,
-      "recommendationKey": "none",
-      "financialCurrency": "USD",
-      "symbol": "LFLYW",
-      "language": "en-US",
-      "region": "US",
-      "typeDisp": "Equity",
-      "quoteSourceName": "Delayed Quote",
-      "triggerable": true,
-      "customPriceAlertConfidence": "HIGH",
-      "regularMarketTime": 1759521117,
-      "exchange": "NCM",
-      "messageBoardId": "finmb_228613419",
-      "exchangeTimezoneName": "America/New_York",
-      "exchangeTimezoneShortName": "EST",
-      "gmtOffSetMilliseconds": -18000000,
-      "market": "us_market",
-      "esgPopulated": false,
-      "marketState": "PREPRE",
-      "regularMarketChangePercent": -57.894733,
-      "regularMarketPrice": 0.004,
-      "longName": "Leafly Holdings, Inc.",
-      "hasPrePostMarketData": true,
-      "regularMarketChange": -0.0055,
-      "regularMarketDayRange": "0.004 - 0.004",
-      "fullExchangeName": "NasdaqCM",
-      "fiftyTwoWeekLowChange": 0.0,
-      "fiftyTwoWeekLowChangePercent": 0.0,
-      "fiftyTwoWeekRange": "0.004 - 0.004",
-      "fiftyTwoWeekHighChange": 0.0,
-      "fiftyTwoWeekHighChangePercent": 0.0,
-      "epsTrailingTwelveMonths": -0.103,
-      "bookValue": -5.386,
-      "priceToBook": -0.0007426662,
-      "sourceInterval": 15,
-      "exchangeDataDelayedBy": 0,
-      "cryptoTradeable": false,
-      "displayName": "Leafly"
-    }
+    "status": "error",
+    "message": "Too Many Requests. Rate limited. Try after a while."
   },
   "financials": {
     "income_statement": {
+      "status": "no_data"
+    },
+    "balance_sheet": {
+      "status": "no_data"
+    },
+    "cash_flow": {
+      "status": "no_data"
+    }
+  },
+  "options_data": {
+    "status": "error",
+    "error_message": "Too Many Requests. Rate limited. Try after a while."
+  },
+  "news_data": {
+    "news": {
       "status": "success",
-      "rows": 42,
-      "columns": [
-        "2024-12-31 00:00:00",
-        "2023-12-31 00:00:00",
-        "2022-12-31 00:00:00",
-        "2021-12-31 00:00:00",
-        "2020-12-31 00:00:00"
-      ],
+      "count": 1,
       "data": [
         {
-          
+          "id": "07e694c2-4bbb-3a29-8cb4-0a99fd574dc9",
+          "content": {
+            "id": "07e694c2-4bbb-3a29-8cb4-0a99fd574dc9",
+            "contentType": "STORY",
+            "title": "Weekly Roundup on the Cannabis Sector & Psychedelic Sector",
+            "description": "",
+            "summary": "Key Takeaways; Cannabis Sector Ascend Wellness secured $15 million to boost growth Leafly Holdings transitioned to OTC trading after Nasdaq delisting High Tide expanded into Germany with strategic acquisition Key Takeaways; Psychedelic Sector MindMed provided investor update with detailed plans for 2025 and beyond Awakn secured unsecured credit facility to support research and development Below [\u2026]",
+            "pubDate": "2025-01-20T15:48:56Z",
+            "displayTime": "2025-01-20T15:48:56Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": null,
+            "provider": {
+              "displayName": "Market Exclusive",
+              "url": "https://marketexclusive.com/"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/weekly-roundup-cannabis-sector-psychedelic-154856336.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/weekly-roundup-cannabis-sector-psychedelic-154856336.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        }
+      ]
+    },
+    "recommendations": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  },
+  "holders_data": {
+    "major_holders": {
+      "status": "error"
+    },
+    "institutional_holders": {
+      "status": "error"
+    }
+  },
+  "earnings_data": {
+    "earnings": {
+      "status": "error",
+      "message": "'NoneType' object has no attribute 'empty'"
+    },
+    "calendar": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  }
+}

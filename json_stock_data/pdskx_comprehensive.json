@@ -1,80 +1,29 @@
 {
   "ticker": "PDSKX",
-  "timestamp": "2025-12-03T05:25:45.887042",
+  "timestamp": "2025-12-04T04:46:02.884387",
   "intraday_data": {
     "status": "success",
     "rows": 2,
     "data": [
-      {
-        "Close": 27.360000610351562,
-        "High": 27.360000610351562,
-        "Low": 27.360000610351562,
-        "Open": 27.360000610351562,
-        "Volume": 0
-      },
       {
         "Close": 27.34000015258789,
         "High": 27.34000015258789,
         "Low": 27.34000015258789,
         "Open": 27.34000015258789,
         "Volume": 0
+      },
+      {
+        "Close": 27.3799991607666,
+        "High": 27.3799991607666,
+        "Low": 27.3799991607666,
+        "Open": 27.3799991607666,
+        "Volume": 0
       }
     ]
   },
   "stock_info": {
-    "status": "success",
-    "data": {
-      "quoteType": "MUTUALFUND",
-      "symbol": "PDSKX",
-      "language": "en-US",
-      "region": "US",
-      "typeDisp": "Fund",
-      "quoteSourceName": "Delayed Quote",
-      "triggerable": false,
-      "customPriceAlertConfidence": "NONE",
-      "currency": "USD",
-      "shortName": "Principal Diversified Select Re",
-      "longName": "Principal Diversified Select Real Asset Fund",
-      "marketState": "PREPRE",
-      "trailingAnnualDividendRate": 0.0,
-      "trailingAnnualDividendYield": 0.0,
-      "fiftyDayAverage": 27.0548,
-      "fiftyDayAverageChange": 0.28520012,
-      "fiftyDayAverageChangePercent": 0.010541572,
-      "twoHundredDayAverage": 26.4652,
-      "twoHundredDayAverageChange": 0.8747997,
-      "twoHundredDayAverageChangePercent": 0.033054717,
-      "sourceInterval": 15,
-      "exchangeDataDelayedBy": 0,
-      "tradeable": false,
-      "cryptoTradeable": false,
-      "regularMarketChangePercent": -0.07309941,
-      "regularMarketPrice": 27.34,
-      "regularMarketTime": 1764723738,
-      "exchange": "NAS",
-      "messageBoardId": "finmb_595371563",
-      "exchangeTimezoneName": "America/New_York",
-      "exchangeTimezoneShortName": "EST",
-      "gmtOffSetMilliseconds": -18000000,
-      "market": "us_market",
-      "esgPopulated": false,
-      "hasPrePostMarketData": false,
-      "firstTradeDateMilliseconds": 1561469400000,
-      "priceHint": 2,
-      "regularMarketChange": -0.02,
-      "regularMarketPreviousClose": 27.36,
-      "fullExchangeName": "Nasdaq",
-      "averageDailyVolume3Month": 0,
-      "averageDailyVolume10Day": 0,
-      "fiftyTwoWeekLowChange": 1.9799995,
-      "fiftyTwoWeekLowChangePercent": 0.07807569,
-      "fiftyTwoWeekRange": "25.36 - 27.45",
-      "fiftyTwoWeekHighChange": -0.11000061,
-      "fiftyTwoWeekHighChangePercent": -0.0040073083,
-      "fiftyTwoWeekLow": 25.36,
-      "fiftyTwoWeekHigh": 27.45,
-      "fiftyTwoWeekChangePercent": 3.793621
-    }
+    "status": "error",
+    "message": "Too Many Requests. Rate limited. Try after a while."
   },
   "financials": {
     "income_statement": {
@@ -88,22 +37,24 @@
     }
   },
   "options_data": {
-    "expirations": []
+    "status": "error",
+    "error_message": "Too Many Requests. Rate limited. Try after a while."
   },
   "news_data": {
     "news": {
       "status": "no_data"
     },
     "recommendations": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   },
   "holders_data": {
     "major_holders": {
-      "status": "no_data"
+      "status": "error"
     },
     "institutional_holders": {
-      "status": "no_data"
+      "status": "error"
     }
   },
   "earnings_data": {
@@ -113,7 +64,7 @@
     },
     "calendar": {
       "status": "error",
-      "message": "'dict' object has no attribute 'empty'"
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   }
 }

@@ -1,6 +1,6 @@
 {
   "ticker": "FATBW",
-  "timestamp": "2025-12-03T05:29:01.651919",
+  "timestamp": "2025-12-04T04:47:04.301185",
   "intraday_data": {
     "status": "no_data",
     "message": "No intraday data available"
@@ -648,25 +648,10 @@
   },
   "holders_data": {
     "major_holders": {
-      "status": "success",
-      "data": [
-        {
-          "Value": 1
-        }
-      ]
+      "status": "error"
     },
     "institutional_holders": {
-      "status": "success",
-      "data": [
-        {
-          "Date Reported": "2025-06-30 00:00:00",
-          "Holder": "Citadel Advisors Llc",
-          "pctHeld": 0.025,
-          "Shares": 45091,
-          "Value": 133018,
-          "pctChange": 1.0
-        }
-      ]
+      "status": "error"
     }
   },
   "earnings_data": {
@@ -676,7 +661,7 @@
     },
     "calendar": {
       "status": "error",
-      "message": "'dict' object has no attribute 'empty'"
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   }
 }

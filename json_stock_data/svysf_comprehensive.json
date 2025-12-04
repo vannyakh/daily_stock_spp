@@ -1,18 +1,9 @@
 {
   "ticker": "SVYSF",
-  "timestamp": "2025-12-03T05:16:50.656909",
+  "timestamp": "2025-12-04T04:41:55.671311",
   "intraday_data": {
-    "status": "success",
-    "rows": 1,
-    "data": [
-      {
-        "Close": 32.5,
-        "High": 32.5,
-        "Low": 32.5,
-        "Open": 32.5,
-        "Volume": 0
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -30,7 +21,8 @@
     }
   },
   "options_data": {
-    "expirations": []
+    "status": "error",
+    "error_message": "Too Many Requests. Rate limited. Try after a while."
   },
   "news_data": {
     "news": {

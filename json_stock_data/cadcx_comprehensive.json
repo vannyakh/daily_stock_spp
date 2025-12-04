@@ -1,80 +1,13 @@
 {
   "ticker": "CADCX",
-  "timestamp": "2025-12-03T05:29:11.138379",
+  "timestamp": "2025-12-04T04:47:05.943901",
   "intraday_data": {
-    "status": "success",
-    "rows": 2,
-    "data": [
-      {
-        "Close": 24.770000457763672,
-        "High": 24.770000457763672,
-        "Low": 24.770000457763672,
-        "Open": 24.770000457763672,
-        "Volume": 0
-      },
-      {
-        "Close": 24.770000457763672,
-        "High": 24.770000457763672,
-        "Low": 24.770000457763672,
-        "Open": 24.770000457763672,
-        "Volume": 0
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
-    "status": "success",
-    "data": {
-      "quoteType": "MUTUALFUND",
-      "symbol": "CADCX",
-      "language": "en-US",
-      "region": "US",
-      "typeDisp": "Fund",
-      "quoteSourceName": "Delayed Quote",
-      "triggerable": false,
-      "customPriceAlertConfidence": "NONE",
-      "currency": "USD",
-      "regularMarketChangePercent": -0.040355124,
-      "regularMarketPrice": 24.77,
-      "marketState": "PREPRE",
-      "fiftyDayAverage": 24.9278,
-      "fiftyDayAverageChange": -0.15779877,
-      "fiftyDayAverageChangePercent": -0.0063302326,
-      "twoHundredDayAverage": 24.8296,
-      "twoHundredDayAverageChange": -0.059598923,
-      "twoHundredDayAverageChangePercent": -0.0024003175,
-      "sourceInterval": 15,
-      "exchangeDataDelayedBy": 0,
-      "tradeable": false,
-      "cryptoTradeable": false,
-      "shortName": "CION Ares Diversified Credit Fu",
-      "longName": "Cion Ares Diversified Credit Fund",
-      "regularMarketTime": 1764723611,
-      "exchange": "NAS",
-      "messageBoardId": "finmb_370520884",
-      "exchangeTimezoneName": "America/New_York",
-      "exchangeTimezoneShortName": "EST",
-      "gmtOffSetMilliseconds": -18000000,
-      "market": "us_market",
-      "esgPopulated": false,
-      "hasPrePostMarketData": false,
-      "firstTradeDateMilliseconds": 1499779800000,
-      "priceHint": 2,
-      "regularMarketChange": -0.01,
-      "regularMarketPreviousClose": 24.78,
-      "fullExchangeName": "Nasdaq",
-      "averageDailyVolume3Month": 0,
-      "averageDailyVolume10Day": 0,
-      "fiftyTwoWeekLowChange": 0.4300003,
-      "fiftyTwoWeekLowChangePercent": 0.017666405,
-      "fiftyTwoWeekRange": "24.34 - 25.02",
-      "fiftyTwoWeekHighChange": -0.25,
-      "fiftyTwoWeekHighChangePercent": -0.009992006,
-      "fiftyTwoWeekLow": 24.34,
-      "fiftyTwoWeekHigh": 25.02,
-      "fiftyTwoWeekChangePercent": -0.8406699,
-      "trailingAnnualDividendRate": 0.0,
-      "trailingAnnualDividendYield": 0.0
-    }
+    "status": "error",
+    "message": "Too Many Requests. Rate limited. Try after a while."
   },
   "financials": {
     "income_statement": {
@@ -88,22 +21,24 @@
     }
   },
   "options_data": {
-    "expirations": []
+    "status": "error",
+    "error_message": "Too Many Requests. Rate limited. Try after a while."
   },
   "news_data": {
     "news": {
       "status": "no_data"
     },
     "recommendations": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   },
   "holders_data": {
     "major_holders": {
-      "status": "no_data"
+      "status": "error"
     },
     "institutional_holders": {
-      "status": "no_data"
+      "status": "error"
     }
   },
   "earnings_data": {
@@ -113,7 +48,7 @@
     },
     "calendar": {
       "status": "error",
-      "message": "'dict' object has no attribute 'empty'"
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   }
 }

@@ -1,13 +1,113 @@
 {
   "ticker": "IPB",
-  "timestamp": "2025-12-03T05:13:10.846633",
+  "timestamp": "2025-12-04T04:40:17.447569",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 4,
+    "data": [
+      {
+        "Close": 26.649999618530273,
+        "High": 26.649999618530273,
+        "Low": 26.649999618530273,
+        "Open": 26.649999618530273,
+        "Volume": 0
+      },
+      {
+        "Close": 26.399999618530273,
+        "High": 26.399999618530273,
+        "Low": 26.399999618530273,
+        "Open": 26.399999618530273,
+        "Volume": 100
+      },
+      {
+        "Close": 26.49720001220703,
+        "High": 26.49720001220703,
+        "Low": 26.49720001220703,
+        "Open": 26.49720001220703,
+        "Volume": 190
+      },
+      {
+        "Close": 26.06999969482422,
+        "High": 26.06999969482422,
+        "Low": 26.010000228881836,
+        "Open": 26.010000228881836,
+        "Volume": 110
+      }
+    ]
   },
   "stock_info": {
-    "status": "error",
-    "message": "Too Many Requests. Rate limited. Try after a while."
+    "status": "success",
+    "data": {
+      "maxAge": 86400,
+      "priceHint": 2,
+      "previousClose": 26.4972,
+      "open": 26.01,
+      "dayLow": 26.01,
+      "dayHigh": 26.07,
+      "regularMarketPreviousClose": 26.4972,
+      "regularMarketOpen": 26.01,
+      "regularMarketDayLow": 26.01,
+      "regularMarketDayHigh": 26.07,
+      "volume": 800,
+      "regularMarketVolume": 800,
+      "averageVolume": 1424,
+      "averageVolume10days": 690,
+      "averageDailyVolume10Day": 690,
+      "bid": 26.01,
+      "ask": 26.63,
+      "bidSize": 100,
+      "askSize": 200,
+      "fiftyTwoWeekLow": 24.83,
+      "fiftyTwoWeekHigh": 27.6,
+      "allTimeHigh": 33.88,
+      "allTimeLow": 10.5,
+      "fiftyDayAverage": 26.2134,
+      "twoHundredDayAverage": 25.7781,
+      "currency": "USD",
+      "tradeable": false,
+      "quoteType": "EQUITY",
+      "symbol": "IPB",
+      "language": "en-US",
+      "region": "US",
+      "typeDisp": "Equity",
+      "quoteSourceName": "Delayed Quote",
+      "triggerable": true,
+      "customPriceAlertConfidence": "HIGH",
+      "regularMarketTime": 1764792620,
+      "exchange": "NYQ",
+      "messageBoardId": "finmb_137706420",
+      "exchangeTimezoneName": "America/New_York",
+      "exchangeTimezoneShortName": "EST",
+      "marketState": "POSTPOST",
+      "gmtOffSetMilliseconds": -18000000,
+      "market": "us_market",
+      "esgPopulated": false,
+      "regularMarketChangePercent": -1.61225,
+      "regularMarketPrice": 26.07,
+      "hasPrePostMarketData": true,
+      "shortName": "Merrill Lynch & Co., Inc. 6.051",
+      "longName": "Merrill Lynch Depositor Inc.",
+      "regularMarketChange": -0.4272,
+      "regularMarketDayRange": "26.01 - 26.07",
+      "fullExchangeName": "NYSE",
+      "averageDailyVolume3Month": 1424,
+      "fiftyTwoWeekLowChange": 1.2399998,
+      "fiftyTwoWeekLowChangePercent": 0.04993958,
+      "fiftyTwoWeekRange": "24.83 - 27.6",
+      "fiftyTwoWeekHighChange": -1.5300007,
+      "fiftyTwoWeekHighChangePercent": -0.055434808,
+      "fiftyTwoWeekChangePercent": 1.9622922,
+      "dividendDate": 1766361600,
+      "fiftyDayAverageChange": -0.14340019,
+      "fiftyDayAverageChangePercent": -0.005470492,
+      "twoHundredDayAverageChange": 0.29190063,
+      "twoHundredDayAverageChangePercent": 0.011323591,
+      "sourceInterval": 15,
+      "exchangeDataDelayedBy": 0,
+      "firstTradeDateMilliseconds": 1074609000000,
+      "cryptoTradeable": false,
+      "displayName": "Merrill Lynch Depositor"
+    }
   },
   "financials": {
     "income_statement": {
@@ -21,8 +121,7 @@
     }
   },
   "options_data": {
-    "status": "error",
-    "error_message": "Too Many Requests. Rate limited. Try after a while."
+    "expirations": []
   },
   "news_data": {
     "news": {

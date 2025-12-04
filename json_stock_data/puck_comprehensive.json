@@ -1,94 +1,54 @@
 {
   "ticker": "PUCK",
-  "timestamp": "2025-12-03T04:57:04.977398",
+  "timestamp": "2025-12-04T04:32:47.174580",
   "intraday_data": {
     "status": "no_data",
     "message": "No intraday data available"
   },
   "stock_info": {
-    "status": "success",
-    "data": {
-      "language": "en-US",
-      "region": "US",
-      "quoteType": "EQUITY",
-      "typeDisp": "Equity",
-      "quoteSourceName": "Delayed Quote",
-      "triggerable": false,
-      "customPriceAlertConfidence": "LOW",
-      "currency": "USD",
-      "marketState": "POSTPOST",
-      "regularMarketChangePercent": 0.0,
-      "regularMarketPrice": 11.0,
-      "fiftyTwoWeekLowChange": 0.119999886,
-      "fiftyTwoWeekLowChangePercent": 0.011029401,
-      "fiftyTwoWeekRange": "10.88 - 13.45",
-      "fiftyTwoWeekHighChange": -2.4499998,
-      "fiftyTwoWeekHighChangePercent": -0.18215612,
-      "fiftyTwoWeekLow": 10.88,
-      "fiftyTwoWeekHigh": 13.45,
-      "fiftyTwoWeekChangePercent": -0.09082556,
-      "earningsTimestampStart": 1751918400,
-      "earningsTimestampEnd": 1752782400,
-      "isEarningsDateEstimate": true,
-      "trailingAnnualDividendRate": 0.0,
-      "trailingAnnualDividendYield": 0.0,
-      "epsTrailingTwelveMonths": -0.3,
-      "sharesOutstanding": 7459267,
-      "bookValue": -1.865,
-      "fiftyDayAverage": 12.4965,
-      "fiftyDayAverageChange": -1.4965,
-      "fiftyDayAverageChangePercent": -0.11975353,
-      "twoHundredDayAverage": 12.63627,
-      "twoHundredDayAverageChange": -1.6362696,
-      "twoHundredDayAverageChangePercent": -0.12948993,
-      "marketCap": 82051936,
-      "priceToBook": -5.8981233,
-      "sourceInterval": 15,
-      "exchangeDataDelayedBy": 0,
-      "ipoExpectedDate": "2021-03-26",
-      "tradeable": false,
-      "cryptoTradeable": false,
-      "regularMarketTime": 1764622800,
-      "exchange": "PNK",
-      "messageBoardId": "finmb_701012832",
-      "exchangeTimezoneName": "America/New_York",
-      "exchangeTimezoneShortName": "EST",
-      "gmtOffSetMilliseconds": -18000000,
-      "market": "us_market",
-      "esgPopulated": false,
-      "shortName": "Goal Acquisitions Corp.",
-      "longName": "Goal Acquisitions Corp.",
-      "hasPrePostMarketData": false,
-      "firstTradeDateMilliseconds": 1616765400000,
-      "priceHint": 2,
-      "regularMarketChange": 0.0,
-      "regularMarketDayHigh": 12.26,
-      "regularMarketDayRange": "12.26 - 12.26",
-      "regularMarketDayLow": 12.26,
-      "regularMarketVolume": 1,
-      "regularMarketPreviousClose": 11.0,
-      "bid": 12.3,
-      "ask": 13.99,
-      "bidSize": 371,
-      "askSize": 100,
-      "fullExchangeName": "OTC Markets OTCPK",
-      "financialCurrency": "USD",
-      "regularMarketOpen": 12.26,
-      "averageDailyVolume3Month": 14,
-      "averageDailyVolume10Day": 90,
-      "displayName": "Goal Acquisitions",
-      "symbol": "PUCK"
-    }
+    "status": "error",
+    "message": "Too Many Requests. Rate limited. Try after a while."
   },
   "financials": {
     "income_statement": {
-      "status": "success",
-      "rows": 36,
-      "columns": [
-        "2023-12-31 00:00:00",
-        "2022-12-31 00:00:00",
-        "2021-12-31 00:00:00"
-      ],
-      "data": [
-        {
-          
+      "status": "no_data"
+    },
+    "balance_sheet": {
+      "status": "no_data"
+    },
+    "cash_flow": {
+      "status": "no_data"
+    }
+  },
+  "options_data": {
+    "status": "error",
+    "error_message": "Too Many Requests. Rate limited. Try after a while."
+  },
+  "news_data": {
+    "news": {
+      "status": "no_data"
+    },
+    "recommendations": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  },
+  "holders_data": {
+    "major_holders": {
+      "status": "error"
+    },
+    "institutional_holders": {
+      "status": "error"
+    }
+  },
+  "earnings_data": {
+    "earnings": {
+      "status": "error",
+      "message": "'NoneType' object has no attribute 'empty'"
+    },
+    "calendar": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  }
+}

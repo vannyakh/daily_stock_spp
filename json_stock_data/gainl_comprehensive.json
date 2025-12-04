@@ -1,83 +1,29 @@
 {
   "ticker": "GAINL",
-  "timestamp": "2025-12-03T05:19:21.225565",
+  "timestamp": "2025-12-04T04:42:56.961476",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 2,
+    "data": [
+      {
+        "Close ERLFF": 1.659999966621399,
+        "High ERLFF": 1.659999966621399,
+        "Low ERLFF": 1.659999966621399,
+        "Open ERLFF": 1.659999966621399,
+        "Volume ERLFF": 0
+      },
+      {
+        "Close ERLFF": 1.7000000476837158,
+        "High ERLFF": 1.7000000476837158,
+        "Low ERLFF": 1.7000000476837158,
+        "Open ERLFF": 1.7000000476837158,
+        "Volume ERLFF": 0
+      }
+    ]
   },
   "stock_info": {
-    "status": "success",
-    "data": {
-      "maxAge": 86400,
-      "priceHint": 2,
-      "previousClose": 25.185,
-      "open": 25.36,
-      "dayLow": 25.1901,
-      "dayHigh": 25.36,
-      "regularMarketPreviousClose": 25.185,
-      "regularMarketOpen": 25.36,
-      "regularMarketDayLow": 25.1901,
-      "regularMarketDayHigh": 25.36,
-      "volume": 10544,
-      "regularMarketVolume": 10544,
-      "averageVolume": 4651,
-      "averageVolume10days": 6970,
-      "averageDailyVolume10Day": 6970,
-      "bid": 25.08,
-      "ask": 25.13,
-      "bidSize": 1,
-      "askSize": 2,
-      "fiftyTwoWeekLow": 25.1,
-      "fiftyTwoWeekHigh": 26.34,
-      "allTimeHigh": 27.13,
-      "allTimeLow": 24.55,
-      "fiftyDayAverage": 25.57688,
-      "twoHundredDayAverage": 25.595354,
-      "currency": "USD",
-      "tradeable": false,
-      "quoteType": "EQUITY",
-      "symbol": "GAINL",
-      "language": "en-US",
-      "region": "US",
-      "typeDisp": "Equity",
-      "quoteSourceName": "Delayed Quote",
-      "triggerable": true,
-      "customPriceAlertConfidence": "HIGH",
-      "longName": "Gladstone Investment Corporation 8.00% Notes due 2028",
-      "regularMarketTime": 1764709200,
-      "shortName": "Gladstone Investment Corporatio",
-      "exchange": "NMS",
-      "messageBoardId": "finmb_21880789",
-      "exchangeTimezoneName": "America/New_York",
-      "exchangeTimezoneShortName": "EST",
-      "gmtOffSetMilliseconds": -18000000,
-      "market": "us_market",
-      "esgPopulated": false,
-      "marketState": "PREPRE",
-      "regularMarketChangePercent": 0.059958227,
-      "regularMarketPrice": 25.2001,
-      "fiftyTwoWeekLowChange": 0.10009956,
-      "fiftyTwoWeekLowChangePercent": 0.0039880304,
-      "fiftyTwoWeekRange": "25.1 - 26.34",
-      "fiftyTwoWeekHighChange": -1.1399002,
-      "fiftyTwoWeekHighChangePercent": -0.043276392,
-      "fiftyTwoWeekChangePercent": -2.4706662,
-      "dividendDate": 1761955200,
-      "fiftyDayAverageChange": -0.37677956,
-      "fiftyDayAverageChangePercent": -0.014731256,
-      "twoHundredDayAverageChange": -0.39525414,
-      "twoHundredDayAverageChangePercent": -0.015442417,
-      "sourceInterval": 15,
-      "exchangeDataDelayedBy": 0,
-      "ipoExpectedDate": "2023-06-02",
-      "cryptoTradeable": false,
-      "hasPrePostMarketData": true,
-      "firstTradeDateMilliseconds": 1685712600000,
-      "regularMarketChange": 0.015100479,
-      "regularMarketDayRange": "25.1901 - 25.36",
-      "fullExchangeName": "NasdaqGS",
-      "averageDailyVolume3Month": 4651
-    }
+    "status": "error",
+    "message": "Too Many Requests. Rate limited. Try after a while."
   },
   "financials": {
     "income_statement": {
@@ -91,22 +37,24 @@
     }
   },
   "options_data": {
-    "expirations": []
+    "status": "error",
+    "error_message": "Too Many Requests. Rate limited. Try after a while."
   },
   "news_data": {
     "news": {
       "status": "no_data"
     },
     "recommendations": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   },
   "holders_data": {
     "major_holders": {
-      "status": "no_data"
+      "status": "error"
     },
     "institutional_holders": {
-      "status": "no_data"
+      "status": "error"
     }
   },
   "earnings_data": {
@@ -116,7 +64,7 @@
     },
     "calendar": {
       "status": "error",
-      "message": "'dict' object has no attribute 'empty'"
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   }
 }

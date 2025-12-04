@@ -1,29 +1,13 @@
 {
   "ticker": "IROHU",
-  "timestamp": "2025-12-03T05:26:40.916594",
+  "timestamp": "2025-12-04T04:46:19.385199",
   "intraday_data": {
     "status": "no_data",
     "message": "No intraday data available"
   },
   "stock_info": {
-    "status": "success",
-    "data": {
-      "maxAge": 86400,
-      "priceHint": 2,
-      "previousClose": 9.86,
-      "regularMarketPreviousClose": 9.86,
-      "currency": "USD",
-      "tradeable": false,
-      "exchange": "NGM",
-      "quoteType": "EQUITY",
-      "symbol": "IROHU",
-      "underlyingSymbol": "IROHU",
-      "shortName": "Iron Horse Acquisitions Corp.",
-      "timeZoneFullName": "America/New_York",
-      "timeZoneShortName": "EST",
-      "uuid": "11a7fa63-8415-3c4d-867f-4ecc1f705618",
-      "gmtOffSetMilliseconds": -18000000
-    }
+    "status": "error",
+    "message": "Too Many Requests. Rate limited. Try after a while."
   },
   "financials": {
     "income_statement": {
@@ -37,22 +21,24 @@
     }
   },
   "options_data": {
-    "expirations": []
+    "status": "error",
+    "error_message": "Too Many Requests. Rate limited. Try after a while."
   },
   "news_data": {
     "news": {
       "status": "no_data"
     },
     "recommendations": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   },
   "holders_data": {
     "major_holders": {
-      "status": "no_data"
+      "status": "error"
     },
     "institutional_holders": {
-      "status": "no_data"
+      "status": "error"
     }
   },
   "earnings_data": {
@@ -62,7 +48,7 @@
     },
     "calendar": {
       "status": "error",
-      "message": "'dict' object has no attribute 'empty'"
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   }
 }

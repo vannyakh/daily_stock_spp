@@ -1,6 +1,6 @@
 {
   "ticker": "ESGRP",
-  "timestamp": "2025-12-03T05:18:18.866703",
+  "timestamp": "2025-12-04T04:42:23.728368",
   "intraday_data": {
     "status": "no_data",
     "message": "No intraday data available"
@@ -21,7 +21,8 @@
     }
   },
   "options_data": {
-    "expirations": []
+    "status": "error",
+    "error_message": "Too Many Requests. Rate limited. Try after a while."
   },
   "news_data": {
     "news": {
@@ -403,10 +404,10 @@
   },
   "holders_data": {
     "major_holders": {
-      "status": "no_data"
+      "status": "error"
     },
     "institutional_holders": {
-      "status": "no_data"
+      "status": "error"
     }
   },
   "earnings_data": {
@@ -416,7 +417,7 @@
     },
     "calendar": {
       "status": "error",
-      "message": "'dict' object has no attribute 'empty'"
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   }
 }

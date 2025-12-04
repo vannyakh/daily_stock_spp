@@ -1,39 +1,9 @@
 {
   "ticker": "SRGZ",
-  "timestamp": "2025-12-03T05:11:05.073869",
+  "timestamp": "2025-12-04T04:39:16.487516",
   "intraday_data": {
-    "status": "success",
-    "rows": 4,
-    "data": [
-      {
-        "Close BRWC": 0.4000000059604645,
-        "High BRWC": 0.4000000059604645,
-        "Low BRWC": 0.4000000059604645,
-        "Open BRWC": 0.4000000059604645,
-        "Volume BRWC": 0
-      },
-      {
-        "Close BRWC": 0.4000000059604645,
-        "High BRWC": 0.4000000059604645,
-        "Low BRWC": 0.4000000059604645,
-        "Open BRWC": 0.4000000059604645,
-        "Volume BRWC": 16001
-      },
-      {
-        "Close BRWC": 0.4099999964237213,
-        "High BRWC": 0.4099999964237213,
-        "Low BRWC": 0.4099999964237213,
-        "Open BRWC": 0.4099999964237213,
-        "Volume BRWC": 20000
-      },
-      {
-        "Close BRWC": 0.44999998807907104,
-        "High BRWC": 0.44999998807907104,
-        "Low BRWC": 0.44999998807907104,
-        "Open BRWC": 0.44999998807907104,
-        "Volume BRWC": 2500
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -41,15 +11,44 @@
   },
   "financials": {
     "income_statement": {
-      "status": "success",
-      "rows": 42,
-      "columns": [
-        "2025-04-30 00:00:00",
-        "2024-04-30 00:00:00",
-        "2023-04-30 00:00:00",
-        "2022-04-30 00:00:00",
-        "2021-04-30 00:00:00"
-      ],
-      "data": [
-        {
-          
+      "status": "no_data"
+    },
+    "balance_sheet": {
+      "status": "no_data"
+    },
+    "cash_flow": {
+      "status": "no_data"
+    }
+  },
+  "options_data": {
+    "status": "error",
+    "error_message": "Too Many Requests. Rate limited. Try after a while."
+  },
+  "news_data": {
+    "news": {
+      "status": "no_data"
+    },
+    "recommendations": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  },
+  "holders_data": {
+    "major_holders": {
+      "status": "error"
+    },
+    "institutional_holders": {
+      "status": "error"
+    }
+  },
+  "earnings_data": {
+    "earnings": {
+      "status": "error",
+      "message": "'NoneType' object has no attribute 'empty'"
+    },
+    "calendar": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  }
+}

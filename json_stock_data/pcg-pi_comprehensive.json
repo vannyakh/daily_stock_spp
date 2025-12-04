@@ -1,18 +1,9 @@
 {
   "ticker": "PCG-PI",
-  "timestamp": "2025-12-03T05:18:03.832577",
+  "timestamp": "2025-12-04T04:42:19.663375",
   "intraday_data": {
-    "status": "success",
-    "rows": 1,
-    "data": [
-      {
-        "Close": 16.849899291992188,
-        "High": 16.850000381469727,
-        "Low": 16.809999465942383,
-        "Open": 16.84000015258789,
-        "Volume": 1617
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -44,10 +35,10 @@
   },
   "holders_data": {
     "major_holders": {
-      "status": "no_data"
+      "status": "error"
     },
     "institutional_holders": {
-      "status": "no_data"
+      "status": "error"
     }
   },
   "earnings_data": {
@@ -57,7 +48,7 @@
     },
     "calendar": {
       "status": "error",
-      "message": "'dict' object has no attribute 'empty'"
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   }
 }

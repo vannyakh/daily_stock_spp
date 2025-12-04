@@ -1,95 +1,13 @@
 {
   "ticker": "IVCA",
-  "timestamp": "2025-12-03T04:55:41.293832",
+  "timestamp": "2025-12-04T04:32:25.985092",
   "intraday_data": {
     "status": "no_data",
     "message": "No intraday data available"
   },
   "stock_info": {
-    "status": "success",
-    "data": {
-      "address1": "Century Yard",
-      "address2": "Cricket Square Elgin Avenue PO Box 1111",
-      "city": "George Town",
-      "zip": "KY1-1102",
-      "country": "Cayman Islands",
-      "phone": "302 738 7210",
-      "website": "https://www.investcorpspac.com/india",
-      "industry": "Shell Companies",
-      "industryKey": "shell-companies",
-      "industryDisp": "Shell Companies",
-      "sector": "Financial Services",
-      "sectorKey": "financial-services",
-      "sectorDisp": "Financial Services",
-      "longBusinessSummary": "Investcorp AI Acquisition Corp. does not have significant operations. It focuses on effecting a merger, capital stock exchange, asset acquisition, stock purchase, reorganization, or other similar business combination with one or more businesses. The company was formerly known as Investcorp India Acquisition Corp and changed its name to Investcorp AI Acquisition Corp. in October 2024. Investcorp AI Acquisition Corp. was incorporated in 2021 and is based in George Town, the Cayman Islands.",
-      "maxAge": 86400,
-      "priceHint": 2,
-      "previousClose": 12.0,
-      "regularMarketPreviousClose": 12.0,
-      "payoutRatio": 0.0,
-      "beta": -0.001,
-      "currency": "USD",
-      "tradeable": false,
-      "enterpriseValue": 89751712,
-      "profitMargins": 0.0,
-      "floatShares": 1475384,
-      "sharesShort": 994,
-      "sharesShortPriorMonth": 597,
-      "sharesShortPreviousMonthDate": 1741910400,
-      "dateShortInterest": 1744675200,
-      "sharesPercentSharesOut": 0.0001,
-      "heldPercentInsiders": 0.0,
-      "heldPercentInstitutions": 0.21808,
-      "shortRatio": 0.72,
-      "shortPercentOfFloat": 0.0007,
-      "lastFiscalYearEnd": 1735603200,
-      "nextFiscalYearEnd": 1767139200,
-      "mostRecentQuarter": 1735603200,
-      "earningsQuarterlyGrowth": -0.744,
-      "netIncomeToCommon": 2326207,
-      "SandP52WeekChange": 0.12205398,
-      "quoteType": "EQUITY",
-      "currentPrice": 12.0,
-      "recommendationKey": "none",
-      "totalCash": 1032598,
-      "totalCashPerShare": 0.13,
-      "totalDebt": 3240000,
-      "quickRatio": 0.201,
-      "currentRatio": 0.201,
-      "returnOnAssets": -0.019170001,
-      "freeCashflow": -3351,
-      "operatingCashflow": -734179,
-      "earningsGrowth": -0.476,
-      "grossMargins": 0.0,
-      "ebitdaMargins": 0.0,
-      "operatingMargins": 0.0,
-      "financialCurrency": "USD",
-      "symbol": "IVCA",
-      "language": "en-US",
-      "region": "US",
-      "typeDisp": "Equity",
-      "quoteSourceName": "Delayed Quote",
-      "triggerable": true,
-      "customPriceAlertConfidence": "HIGH",
-      "marketState": "POSTPOST",
-      "regularMarketChangePercent": 0.0,
-      "regularMarketPrice": 12.0,
-      "sourceInterval": 15,
-      "exchangeDataDelayedBy": 0,
-      "cryptoTradeable": false,
-      "shortName": "Investcorp AI Acquisition Corp.",
-      "hasPrePostMarketData": true,
-      "regularMarketChange": 0.0,
-      "fullExchangeName": "NasdaqGM",
-      "exchange": "NGM",
-      "exchangeTimezoneName": "America/New_York",
-      "exchangeTimezoneShortName": "EST",
-      "gmtOffSetMilliseconds": -18000000,
-      "market": "us_market",
-      "esgPopulated": false,
-      "regularMarketTime": 1764104400,
-      "displayName": "Investcorp AI"
-    }
+    "status": "error",
+    "message": "Too Many Requests. Rate limited. Try after a while."
   },
   "financials": {
     "income_statement": {
@@ -103,36 +21,24 @@
     }
   },
   "options_data": {
-    "expirations": []
+    "status": "error",
+    "error_message": "Too Many Requests. Rate limited. Try after a while."
   },
   "news_data": {
     "news": {
       "status": "no_data"
     },
     "recommendations": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   },
   "holders_data": {
     "major_holders": {
-      "status": "success",
-      "data": [
-        {
-          "Value": 0.0
-        },
-        {
-          "Value": 0.21808
-        },
-        {
-          "Value": 0.21808
-        },
-        {
-          "Value": 16.0
-        }
-      ]
+      "status": "error"
     },
     "institutional_holders": {
-      "status": "no_data"
+      "status": "error"
     }
   },
   "earnings_data": {
@@ -142,7 +48,7 @@
     },
     "calendar": {
       "status": "error",
-      "message": "'dict' object has no attribute 'empty'"
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   }
 }

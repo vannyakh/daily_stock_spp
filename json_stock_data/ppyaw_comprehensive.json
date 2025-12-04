@@ -1,117 +1,54 @@
 {
   "ticker": "PPYAW",
-  "timestamp": "2025-12-03T05:36:17.424615",
+  "timestamp": "2025-12-04T04:49:39.962239",
   "intraday_data": {
     "status": "no_data",
     "message": "No intraday data available"
   },
   "stock_info": {
-    "status": "success",
-    "data": {
-      "address1": "2201 Broadway",
-      "address2": "Suite 705",
-      "city": "Oakland",
-      "state": "CA",
-      "zip": "94612",
-      "country": "United States",
-      "phone": "510 214 3750",
-      "website": "https://www.papayagrowth.com",
-      "industry": "Shell Companies",
-      "industryKey": "shell-companies",
-      "industryDisp": "Shell Companies",
-      "sector": "Financial Services",
-      "sectorKey": "financial-services",
-      "sectorDisp": "Financial Services",
-      "longBusinessSummary": "Papaya Growth Opportunity Corp. I does not have significant operations. It focuses on effecting a merger, share exchange, asset acquisition, stock purchase, recapitalization, reorganization, or other similar business combination with one or more businesses or entities. The company was incorporated in 2021 and is based in Oakland, California.",
-      "maxAge": 86400,
-      "priceHint": 4,
-      "previousClose": 0.0111,
-      "open": 0.0111,
-      "dayLow": 0.0111,
-      "dayHigh": 0.0111,
-      "regularMarketPreviousClose": 0.0111,
-      "regularMarketOpen": 0.0111,
-      "regularMarketDayLow": 0.0111,
-      "regularMarketDayHigh": 0.0111,
-      "beta": -0.027,
-      "volume": 1000,
-      "regularMarketVolume": 1000,
-      "bid": 0.0263,
-      "ask": 0.0669,
-      "bidSize": 0,
-      "askSize": 0,
-      "fiftyTwoWeekLow": 0.0111,
-      "fiftyTwoWeekHigh": 0.0111,
-      "trailingAnnualDividendRate": 0.0,
-      "trailingAnnualDividendYield": 0.0,
-      "currency": "USD",
-      "tradeable": false,
-      "profitMargins": 0.0,
-      "floatShares": 1334866,
-      "bookValue": -2.603,
-      "netIncomeToCommon": -916655,
-      "SandP52WeekChange": 0.12205398,
-      "quoteType": "EQUITY",
-      "currentPrice": 0.0111,
-      "recommendationKey": "none",
-      "totalCash": 5576,
-      "totalCashPerShare": 0.001,
-      "totalDebt": 4000000,
-      "quickRatio": 0.001,
-      "currentRatio": 0.007,
-      "returnOnAssets": -0.063769996,
-      "freeCashflow": -356971,
-      "operatingCashflow": -1361282,
-      "earningsGrowth": -0.998,
-      "grossMargins": 0.0,
-      "ebitdaMargins": 0.0,
-      "operatingMargins": 0.0,
-      "financialCurrency": "USD",
-      "symbol": "PPYAW",
-      "language": "en-US",
-      "region": "US",
-      "typeDisp": "Equity",
-      "quoteSourceName": "Delayed Quote",
-      "triggerable": true,
-      "customPriceAlertConfidence": "HIGH",
-      "regularMarketTime": 1759930205,
-      "exchange": "NCM",
-      "messageBoardId": "finmb_1758272575",
-      "exchangeTimezoneName": "America/New_York",
-      "exchangeTimezoneShortName": "EST",
-      "gmtOffSetMilliseconds": -18000000,
-      "market": "us_market",
-      "esgPopulated": false,
-      "priceToBook": -0.0042643105,
-      "sourceInterval": 15,
-      "exchangeDataDelayedBy": 0,
-      "ipoExpectedDate": "2022-03-04",
-      "cryptoTradeable": false,
-      "shortName": "Papaya Growth Opportunity Corp.",
-      "longName": "Papaya Growth Opportunity Corp. I",
-      "regularMarketPrice": 0.0111,
-      "marketState": "PREPRE",
-      "hasPrePostMarketData": true,
-      "regularMarketChange": 0.0,
-      "regularMarketDayRange": "0.0111 - 0.0111",
-      "fullExchangeName": "NasdaqCM",
-      "fiftyTwoWeekLowChange": 0.0,
-      "fiftyTwoWeekLowChangePercent": 0.0,
-      "fiftyTwoWeekRange": "0.0111 - 0.0111",
-      "fiftyTwoWeekHighChange": 0.0,
-      "fiftyTwoWeekHighChangePercent": 0.0,
-      "regularMarketChangePercent": 0.0
-    }
+    "status": "error",
+    "message": "Too Many Requests. Rate limited. Try after a while."
   },
   "financials": {
     "income_statement": {
-      "status": "success",
-      "rows": 32,
-      "columns": [
-        "2024-12-31 00:00:00",
-        "2023-12-31 00:00:00",
-        "2022-12-31 00:00:00"
-      ],
-      "data": [
-        {
-          
+      "status": "no_data"
+    },
+    "balance_sheet": {
+      "status": "no_data"
+    },
+    "cash_flow": {
+      "status": "no_data"
+    }
+  },
+  "options_data": {
+    "status": "error",
+    "error_message": "Too Many Requests. Rate limited. Try after a while."
+  },
+  "news_data": {
+    "news": {
+      "status": "no_data"
+    },
+    "recommendations": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  },
+  "holders_data": {
+    "major_holders": {
+      "status": "error"
+    },
+    "institutional_holders": {
+      "status": "error"
+    }
+  },
+  "earnings_data": {
+    "earnings": {
+      "status": "error",
+      "message": "'NoneType' object has no attribute 'empty'"
+    },
+    "calendar": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  }
+}

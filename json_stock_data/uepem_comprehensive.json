@@ -1,32 +1,9 @@
 {
   "ticker": "UEPEM",
-  "timestamp": "2025-12-03T05:17:23.344145",
+  "timestamp": "2025-12-04T04:42:06.728891",
   "intraday_data": {
-    "status": "success",
-    "rows": 3,
-    "data": [
-      {
-        "Close": 66.37000274658203,
-        "High": 66.37000274658203,
-        "Low": 66.37000274658203,
-        "Open": 66.37000274658203,
-        "Volume": 100
-      },
-      {
-        "Close": 65.80000305175781,
-        "High": 65.80000305175781,
-        "Low": 65.80000305175781,
-        "Open": 65.80000305175781,
-        "Volume": 103
-      },
-      {
-        "Close": 65.80000305175781,
-        "High": 65.80000305175781,
-        "Low": 65.80000305175781,
-        "Open": 65.80000305175781,
-        "Volume": 100
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -52,7 +29,8 @@
       "status": "no_data"
     },
     "recommendations": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   },
   "holders_data": {

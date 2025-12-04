@@ -1,13 +1,85 @@
 {
   "ticker": "OTRKP",
-  "timestamp": "2025-12-03T05:34:26.695533",
+  "timestamp": "2025-12-04T04:49:13.534963",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 10,
+    "data": [
+      {
+        "Close PNFPP": 25.149999618530273,
+        "High PNFPP": 25.149999618530273,
+        "Low PNFPP": 25.149999618530273,
+        "Open PNFPP": 25.149999618530273,
+        "Volume PNFPP": 0
+      },
+      {
+        "Close PNFPP": 25.200000762939453,
+        "High PNFPP": 25.200000762939453,
+        "Low PNFPP": 25.200000762939453,
+        "Open PNFPP": 25.200000762939453,
+        "Volume PNFPP": 89
+      },
+      {
+        "Close PNFPP": 25.200000762939453,
+        "High PNFPP": 25.200000762939453,
+        "Low PNFPP": 25.200000762939453,
+        "Open PNFPP": 25.200000762939453,
+        "Volume PNFPP": 73
+      },
+      {
+        "Close PNFPP": 25.149999618530273,
+        "High PNFPP": 25.149999618530273,
+        "Low PNFPP": 25.149999618530273,
+        "Open PNFPP": 25.149999618530273,
+        "Volume PNFPP": 800
+      },
+      {
+        "Close PNFPP": 25.149999618530273,
+        "High PNFPP": 25.149999618530273,
+        "Low PNFPP": 25.149999618530273,
+        "Open PNFPP": 25.149999618530273,
+        "Volume PNFPP": 0
+      },
+      {
+        "Close PNFPP": 25.200000762939453,
+        "High PNFPP": 25.200000762939453,
+        "Low PNFPP": 25.200000762939453,
+        "Open PNFPP": 25.200000762939453,
+        "Volume PNFPP": 645
+      },
+      {
+        "Close PNFPP": 24.95009994506836,
+        "High PNFPP": 24.95009994506836,
+        "Low PNFPP": 24.95009994506836,
+        "Open PNFPP": 24.95009994506836,
+        "Volume PNFPP": 1135
+      },
+      {
+        "Close PNFPP": 24.968000411987305,
+        "High PNFPP": 24.968000411987305,
+        "Low PNFPP": 24.968000411987305,
+        "Open PNFPP": 24.968000411987305,
+        "Volume PNFPP": 774
+      },
+      {
+        "Close PNFPP": 25.0585994720459,
+        "High PNFPP": 25.0585994720459,
+        "Low PNFPP": 25.0585994720459,
+        "Open PNFPP": 25.0585994720459,
+        "Volume PNFPP": 395
+      },
+      {
+        "Close PNFPP": 25.17009925842285,
+        "High PNFPP": 25.17009925842285,
+        "Low PNFPP": 25.17009925842285,
+        "Open PNFPP": 25.17009925842285,
+        "Volume PNFPP": 1497
+      }
+    ]
   },
   "stock_info": {
-    "status": "success",
-    "data": {}
+    "status": "error",
+    "message": "Too Many Requests. Rate limited. Try after a while."
   },
   "financials": {
     "income_statement": {
@@ -21,7 +93,8 @@
     }
   },
   "options_data": {
-    "expirations": []
+    "status": "error",
+    "error_message": "Too Many Requests. Rate limited. Try after a while."
   },
   "news_data": {
     "news": {
@@ -603,15 +676,16 @@
       ]
     },
     "recommendations": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   },
   "holders_data": {
     "major_holders": {
-      "status": "no_data"
+      "status": "error"
     },
     "institutional_holders": {
-      "status": "no_data"
+      "status": "error"
     }
   },
   "earnings_data": {
@@ -621,7 +695,7 @@
     },
     "calendar": {
       "status": "error",
-      "message": "'dict' object has no attribute 'empty'"
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   }
 }

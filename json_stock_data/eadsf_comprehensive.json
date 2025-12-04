@@ -1,13 +1,22 @@
 {
   "ticker": "EADSF",
-  "timestamp": "2025-12-03T05:15:07.728487",
+  "timestamp": "2025-12-04T04:41:17.229726",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 1,
+    "data": [
+      {
+        "Close BUDFF": 61.5,
+        "High BUDFF": 61.5,
+        "Low BUDFF": 61.5,
+        "Open BUDFF": 61.5,
+        "Volume BUDFF": 0
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
-    "message": "Too Many Requests. Rate limited. Try after a while."
+    "message": "argument of type 'NoneType' is not iterable"
   },
   "financials": {
     "income_statement": {
@@ -17,15 +26,631 @@
       "status": "no_data"
     },
     "cash_flow": {
+      "status": "no_data"
+    }
+  },
+  "options_data": {
+    "status": "error",
+    "error_message": "Too Many Requests. Rate limited. Try after a while."
+  },
+  "news_data": {
+    "news": {
       "status": "success",
-      "rows": 48,
-      "columns": [
-        "2024-12-31 00:00:00",
-        "2023-12-31 00:00:00",
-        "2022-12-31 00:00:00",
-        "2021-12-31 00:00:00",
-        "2020-12-31 00:00:00"
-      ],
+      "count": 10,
       "data": [
         {
-          
+          "id": "7f7af5af-8d71-3b2d-ac69-c4bec7c31ec1",
+          "content": {
+            "id": "7f7af5af-8d71-3b2d-ac69-c4bec7c31ec1",
+            "contentType": "VIDEO",
+            "title": "American Eagle, Marvell, Softbank: Trending stocks",
+            "description": "<p>High-street retailers American Eagle (<a data-i13n=\"cpos:1;pos:1\" href=\"https://finance.yahoo.com/quote/AEO\">AEO</a>) and Zara owner <a data-i13n=\"cpos:2;pos:1\" href=\"https://uk.finance.yahoo.com/quote/ITX.MC/\">Inditex</a> see shares surge on earnings beats. Boeing (<a data-i13n=\"cpos:3;pos:1\" href=\"https://finance.yahoo.com/quote/BA\">BA</a>) rival Airbus (<a data-i13n=\"cpos:4;pos:1\" href=\"https://finance.yahoo.com/quote/AIR.PA\">AIR.PA</a>) rebounds after a selloff caused by a string of aircraft issues this week. Marvell (<a data-i13n=\"cpos:5;pos:1\" href=\"https://finance.yahoo.com/quote/MRVL\">MRVL</a>), Softbank (<a data-i13n=\"cpos:6;pos:1\" href=\"https://finance.yahoo.com/quote/9984.T\">9984.T</a>) and Crowdstrike (<a data-i13n=\"cpos:7;pos:1\" href=\"https://finance.yahoo.com/quote/CRWD\">CRWD</a>) are some of the tech stocks making big moves this morning - Ramzan Karmali tells you why.</p>\n<p>For more live coverage of the markets, watch the full episode of <em>Market Sunrise</em> and visit<a data-i13n=\"cpos:8;pos:1\" href=\"https://finance.yahoo.com/\"> Yahoo Finance</a>.</p>",
+            "summary": "High-street retailers American Eagle (AEO) and Zara owner Inditex see shares surge on earnings beats. Boeing (BA) rival Airbus (AIR.PA) rebounds after a selloff caused by a string of aircraft issues this week. Marvell (MRVL), Softbank (9984.T) and Crowdstrike (CRWD) are some of the tech stocks making big moves this morning - Ramzan Karmali tells you why. For more live coverage of the markets, watch the full episode of Market Sunrise and visit Yahoo Finance.",
+            "pubDate": "2025-12-03T13:27:55Z",
+            "displayTime": "",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": {
+              "originalUrl": "https://s.yimg.com/os/creatr-uploaded-images/2025-12/5672e0b0-d047-11f0-9edf-dd4c1cd73f47",
+              "originalWidth": 4244,
+              "originalHeight": 2389,
+              "caption": "",
+              "resolutions": [
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/zFbXjSOl51WnKkua5UKs5A--~B/aD0yMzg5O3c9NDI0NDthcHBpZD15dGFjaHlvbg--/https://s.yimg.com/os/creatr-uploaded-images/2025-12/5672e0b0-d047-11f0-9edf-dd4c1cd73f47",
+                  "width": 4244,
+                  "height": 2389,
+                  "tag": "original"
+                },
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/FIyckJmaf2bd61wKqDryZg--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://s.yimg.com/os/creatr-uploaded-images/2025-12/5672e0b0-d047-11f0-9edf-dd4c1cd73f47",
+                  "width": 170,
+                  "height": 128,
+                  "tag": "170x128"
+                }
+              ]
+            },
+            "provider": {
+              "displayName": "Yahoo Finance Video",
+              "url": "https://finance.yahoo.com/"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/video/american-eagle-marvell-softbank-trending-132755266.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/video/american-eagle-marvell-softbank-trending-132755266.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": true
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        },
+        {
+          "id": "1242ae79-ccae-31c2-ae39-5c91b215007f",
+          "content": {
+            "id": "1242ae79-ccae-31c2-ae39-5c91b215007f",
+            "contentType": "STORY",
+            "title": "Airbus Cuts Its Delivery Outlook. Why the Stock Is Up.",
+            "description": "",
+            "summary": "STOCKSTOWATCHTODAY BLOG  Building airplanes hasn\u2019t been easy lately.  On Wednesday, Boeing peer Airbus cut its full-year delivery forecast by 30 planes. It now expects to deliver about 790 jets in 2025, down from prior guidance, given in October, for 820 jets.",
+            "pubDate": "2025-12-03T21:15:00Z",
+            "displayTime": "2025-12-03T21:15:00Z",
+            "isHosted": false,
+            "bypassModal": false,
+            "previewUrl": "https://finance.yahoo.com/m/1242ae79-ccae-31c2-ae39-5c91b215007f/airbus-cuts-its-delivery.html",
+            "thumbnail": {
+              "originalUrl": "https://media.zenfs.com/en/Barrons.com/dcd099386b759128a619c91acb7b843c",
+              "originalWidth": 1280,
+              "originalHeight": 640,
+              "caption": "",
+              "resolutions": [
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/G5U1IOhF85IYHu.PXBaSFQ--~B/aD02NDA7dz0xMjgwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/Barrons.com/dcd099386b759128a619c91acb7b843c",
+                  "width": 1280,
+                  "height": 640,
+                  "tag": "original"
+                },
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/EOg97Mg03VIZiufQKqQBQg--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/Barrons.com/dcd099386b759128a619c91acb7b843c",
+                  "width": 170,
+                  "height": 128,
+                  "tag": "170x128"
+                }
+              ]
+            },
+            "provider": {
+              "displayName": "Barrons.com",
+              "url": "http://www.barrons.com/"
+            },
+            "canonicalUrl": {
+              "url": "https://www.barrons.com/articles/airbus-stock-plane-delivery-outlook-1459a3d9?siteid=yhoof2&yptr=yahoo",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": null,
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        },
+        {
+          "id": "59a6a3ca-a9b7-3a62-861a-d622e7ebaede",
+          "content": {
+            "id": "59a6a3ca-a9b7-3a62-861a-d622e7ebaede",
+            "contentType": "STORY",
+            "title": "Airbus Stock Surges Despite Cut To Delivery Forecast",
+            "description": "",
+            "summary": "Airbus cuts its commercial plane delivery target for the year amid A320 issues, provides update on financial forecast.",
+            "pubDate": "2025-12-03T21:13:44Z",
+            "displayTime": "2025-12-03T21:13:44Z",
+            "isHosted": false,
+            "bypassModal": false,
+            "previewUrl": "https://finance.yahoo.com/m/59a6a3ca-a9b7-3a62-861a-d622e7ebaede/airbus-stock-surges-despite.html",
+            "thumbnail": {
+              "originalUrl": "https://media.zenfs.com/en/ibd.com/20b6d91a71ee9d433391813c1ba0ffd1",
+              "originalWidth": 1065,
+              "originalHeight": 600,
+              "caption": "",
+              "resolutions": [
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/2Xf16cFX0CMydgHw0S2rYQ--~B/aD02MDA7dz0xMDY1O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/ibd.com/20b6d91a71ee9d433391813c1ba0ffd1",
+                  "width": 1065,
+                  "height": 600,
+                  "tag": "original"
+                },
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/0LO6llNXPvQ2yUWpv9X81w--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/ibd.com/20b6d91a71ee9d433391813c1ba0ffd1",
+                  "width": 170,
+                  "height": 128,
+                  "tag": "170x128"
+                }
+              ]
+            },
+            "provider": {
+              "displayName": "Investor's Business Daily",
+              "url": "http://www.investors.com/"
+            },
+            "canonicalUrl": {
+              "url": "https://www.investors.com/news/airbus-stock-delivery-forecast-2025-a320-recall-eadsy/?src=A00220&yptr=yahoo",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": null,
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        },
+        {
+          "id": "608b3b4d-c394-3c39-8189-707c8a9c0692",
+          "content": {
+            "id": "608b3b4d-c394-3c39-8189-707c8a9c0692",
+            "contentType": "STORY",
+            "title": "Airbus Cuts Jet Target After A320 Quality Issues",
+            "description": "",
+            "summary": "Financial guidance holds despite delivery setback",
+            "pubDate": "2025-12-03T19:29:05Z",
+            "displayTime": "2025-12-03T19:29:05Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": {
+              "originalUrl": "https://media.zenfs.com/en/us.finance.gurufocus/e1356557dc6ed78875fdb2b91289fdf0",
+              "originalWidth": 400,
+              "originalHeight": 400,
+              "caption": "",
+              "resolutions": [
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/mmFsdjMgZu8.Zg3akyklHA--~B/aD00MDA7dz00MDA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/us.finance.gurufocus/e1356557dc6ed78875fdb2b91289fdf0",
+                  "width": 400,
+                  "height": 400,
+                  "tag": "original"
+                },
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/GP.NthQ0kAofWuDwL0O8dA--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/us.finance.gurufocus/e1356557dc6ed78875fdb2b91289fdf0",
+                  "width": 170,
+                  "height": 128,
+                  "tag": "170x128"
+                }
+              ]
+            },
+            "provider": {
+              "displayName": "GuruFocus.com",
+              "url": "http://www.gurufocus.com/"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/airbus-cuts-jet-target-a320-192905620.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/airbus-cuts-jet-target-a320-192905620.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        },
+        {
+          "id": "1a93b27e-0a9a-3e7d-a9aa-7235480670ec",
+          "content": {
+            "id": "1a93b27e-0a9a-3e7d-a9aa-7235480670ec",
+            "contentType": "STORY",
+            "title": "Boeing Ordered by FTC to Divest Spirit Assets Ahead of Merger",
+            "description": "",
+            "summary": "The regulator is asking Boeing to sell Spirit businesses that supply products to Airbus, as well as Spirit\u2019s Malaysian aerostructures business Subang.",
+            "pubDate": "2025-12-03T18:02:00Z",
+            "displayTime": "2025-12-03T18:02:00Z",
+            "isHosted": false,
+            "bypassModal": false,
+            "previewUrl": "https://finance.yahoo.com/m/1a93b27e-0a9a-3e7d-a9aa-7235480670ec/boeing-ordered-by-ftc-to.html",
+            "thumbnail": {
+              "originalUrl": "https://media.zenfs.com/en/wsj.com/c6aeebe5d1f4f01dce50ddd21158bd32",
+              "originalWidth": 1280,
+              "originalHeight": 640,
+              "caption": "",
+              "resolutions": [
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/2aBY9cctqGrEBFZ81J7KwQ--~B/aD02NDA7dz0xMjgwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/wsj.com/c6aeebe5d1f4f01dce50ddd21158bd32",
+                  "width": 1280,
+                  "height": 640,
+                  "tag": "original"
+                },
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/.Dce30EXCopi6P5HJZJQTg--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/wsj.com/c6aeebe5d1f4f01dce50ddd21158bd32",
+                  "width": 170,
+                  "height": 128,
+                  "tag": "170x128"
+                }
+              ]
+            },
+            "provider": {
+              "displayName": "The Wall Street Journal",
+              "url": "http://www.wsj.com/"
+            },
+            "canonicalUrl": {
+              "url": "https://www.wsj.com/business/airlines/boeing-ordered-by-ftc-to-divest-spirit-assets-ahead-of-merger-790d89e4?siteid=yhoof2&yptr=yahoo",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": null,
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        },
+        {
+          "id": "d0e328a3-5b35-3bb2-a51c-bbc1e36e52f6",
+          "content": {
+            "id": "d0e328a3-5b35-3bb2-a51c-bbc1e36e52f6",
+            "contentType": "STORY",
+            "title": "Airbus Reduces 2025 Delivery Target: Is Your Aerospace ETF Still Safe?",
+            "description": "",
+            "summary": "Airbus' reduction of its 2025 delivery target raises fresh questions for aerospace ETFs, as A320 quality issues shake investor confidence.",
+            "pubDate": "2025-12-03T17:58:00Z",
+            "displayTime": "2025-12-03T17:58:00Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": {
+              "originalUrl": "https://media.zenfs.com/en/zacks.com/3d38d5113a7890f4406134aa21f3dafa",
+              "originalWidth": 620,
+              "originalHeight": 413,
+              "caption": "",
+              "resolutions": [
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/n38PYMgMVLxhfH.JD0Alfg--~B/aD00MTM7dz02MjA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/zacks.com/3d38d5113a7890f4406134aa21f3dafa",
+                  "width": 620,
+                  "height": 413,
+                  "tag": "original"
+                },
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/k_ZTNrJiR1ROruoAk4U2wg--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/zacks.com/3d38d5113a7890f4406134aa21f3dafa",
+                  "width": 170,
+                  "height": 128,
+                  "tag": "170x128"
+                }
+              ]
+            },
+            "provider": {
+              "displayName": "Zacks",
+              "url": "http://www.zacks.com/"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/airbus-reduces-2025-delivery-target-175800488.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/airbus-reduces-2025-delivery-target-175800488.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        },
+        {
+          "id": "980e9f8c-13a8-3a86-a429-e165417d710e",
+          "content": {
+            "id": "980e9f8c-13a8-3a86-a429-e165417d710e",
+            "contentType": "VIDEO",
+            "title": "Airbus Lowers Delivery Targets Due to Slew of Issues",
+            "description": "Airbus has lowered its delivery target for the year due to supply and worker shortages and a quality issue with aircraft panels from a Spanish supplier. It is also updating software on 6,000 A320 jets.\nThe company now aims to hand over about 790 aircraft, 30 fewer than its original goal. These setbacks have hurt the stock too. Bloomberg's Benedikt Kammel reports.",
+            "summary": "Airbus has lowered its delivery target for the year due to supply and worker shortages and a quality issue with aircraft panels from a Spanish supplier. It is also updating software on 6,000 A320 jets. The company now aims to hand over about 790 aircraft, 30 fewer than its original goal. These setbacks have hurt the stock too. Bloomberg's Benedikt Kammel reports.",
+            "pubDate": "2025-12-03T17:42:40Z",
+            "displayTime": "",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": {
+              "originalUrl": "https://media.zenfs.com/en/bloomberg_markets_video_2/949b88d6b3e8420dea7bc2c97daa4769",
+              "originalWidth": 1280,
+              "originalHeight": 720,
+              "caption": "",
+              "resolutions": [
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/1U_Iost9.Ph9JIkbdMIEGQ--~B/aD03MjA7dz0xMjgwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/bloomberg_markets_video_2/949b88d6b3e8420dea7bc2c97daa4769",
+                  "width": 1280,
+                  "height": 720,
+                  "tag": "original"
+                },
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/O7A9hmK_9KNgrii2OJHxGg--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/bloomberg_markets_video_2/949b88d6b3e8420dea7bc2c97daa4769",
+                  "width": 170,
+                  "height": 128,
+                  "tag": "170x128"
+                }
+              ]
+            },
+            "provider": {
+              "displayName": "Bloomberg",
+              "url": "https://www.bloomberg.com/"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/video/airbus-lowers-delivery-targets-due-174240809.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/video/airbus-lowers-delivery-targets-due-174240809.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        },
+        {
+          "id": "0017afd8-eef1-3a85-80bd-b5e98554ffb4",
+          "content": {
+            "id": "0017afd8-eef1-3a85-80bd-b5e98554ffb4",
+            "contentType": "STORY",
+            "title": "Fortunes Shift as Airbus Stumbles and Boeing Regains Its Footing",
+            "description": "",
+            "summary": "European plane maker cuts delivery goal after quality problem with A320, as U.S. rival is set to boost deliveries.",
+            "pubDate": "2025-12-03T16:54:00Z",
+            "displayTime": "2025-12-03T16:54:00Z",
+            "isHosted": false,
+            "bypassModal": false,
+            "previewUrl": "https://finance.yahoo.com/m/0017afd8-eef1-3a85-80bd-b5e98554ffb4/fortunes-shift-as-airbus.html",
+            "thumbnail": {
+              "originalUrl": "https://media.zenfs.com/en/wsj.com/8990f90b6055f7da748e97a2d36696d0",
+              "originalWidth": 1280,
+              "originalHeight": 640,
+              "caption": "",
+              "resolutions": [
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/h96GFB8D2UrouwdYk8aoTw--~B/aD02NDA7dz0xMjgwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/wsj.com/8990f90b6055f7da748e97a2d36696d0",
+                  "width": 1280,
+                  "height": 640,
+                  "tag": "original"
+                },
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/lNbuc_2jU7NLRjEJpmzrBA--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/wsj.com/8990f90b6055f7da748e97a2d36696d0",
+                  "width": 170,
+                  "height": 128,
+                  "tag": "170x128"
+                }
+              ]
+            },
+            "provider": {
+              "displayName": "The Wall Street Journal",
+              "url": "http://www.wsj.com/"
+            },
+            "canonicalUrl": {
+              "url": "https://www.wsj.com/business/airlines/airbus-cuts-plane-delivery-goal-due-to-a320-fuselage-quality-issue-6d58adde?siteid=yhoof2&yptr=yahoo",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": null,
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        },
+        {
+          "id": "93d1f81e-59cd-3381-b877-4ee9c68fbf94",
+          "content": {
+            "id": "93d1f81e-59cd-3381-b877-4ee9c68fbf94",
+            "contentType": "STORY",
+            "title": "Why Astronics (ATRO) Stock Is Falling Today",
+            "description": "",
+            "summary": "Shares of aerospace and defense technology solutions provider Astronics Corporation (NASDAQ:ATRO) fell 4.3% in the morning session after news surfaced that major aircraft manufacturer Airbus cut its 2025 delivery target, signaling potential headwinds for the aerospace supply chain. Airbus lowered its aircraft delivery forecast for 2025 after finding a new quality problem with fuselage panels on its A320-family planes. This issue was expected to disrupt production well into the next year. The com",
+            "pubDate": "2025-12-03T16:47:01Z",
+            "displayTime": "2025-12-03T16:47:01Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": {
+              "originalUrl": "https://media.zenfs.com/en/stockstory_922/ed47772e83f06bb0a057642c50fe3fc6",
+              "originalWidth": 1400,
+              "originalHeight": 700,
+              "caption": "ATRO Cover Image",
+              "resolutions": [
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/QmGtqpufcHgmuUOQxm1Ueg--~B/aD03MDA7dz0xNDAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/stockstory_922/ed47772e83f06bb0a057642c50fe3fc6",
+                  "width": 1400,
+                  "height": 700,
+                  "tag": "original"
+                },
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/qebOw2Ym3.o0sOxLwdgxrQ--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/stockstory_922/ed47772e83f06bb0a057642c50fe3fc6",
+                  "width": 170,
+                  "height": 128,
+                  "tag": "170x128"
+                }
+              ]
+            },
+            "provider": {
+              "displayName": "StockStory",
+              "url": "https://stockstory.org/"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/why-astronics-atro-stock-falling-164701309.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/why-astronics-atro-stock-falling-164701309.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        },
+        {
+          "id": "655a973a-8ce3-3d04-8924-6c7edbf0843b",
+          "content": {
+            "id": "655a973a-8ce3-3d04-8924-6c7edbf0843b",
+            "contentType": "STORY",
+            "title": "Why Is Airbus Stock Up Today?",
+            "description": "",
+            "summary": "With all the bad news priced-in, is Airbus stock finally cheap enough to buy?",
+            "pubDate": "2025-12-03T16:44:48Z",
+            "displayTime": "2025-12-03T16:44:48Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": {
+              "originalUrl": "https://media.zenfs.com/en/motleyfool.com/1f2a17ba0883507fe9cc24fefc3fda46",
+              "originalWidth": 1400,
+              "originalHeight": 876,
+              "caption": "Airbus A320 take off.",
+              "resolutions": [
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/6bNzbVKDYtrC7tqmaKfXXA--~B/aD04NzY7dz0xNDAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/motleyfool.com/1f2a17ba0883507fe9cc24fefc3fda46",
+                  "width": 1400,
+                  "height": 876,
+                  "tag": "original"
+                },
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/EAmfgA9rK8Zzr2pq1TOE3Q--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/motleyfool.com/1f2a17ba0883507fe9cc24fefc3fda46",
+                  "width": 170,
+                  "height": 128,
+                  "tag": "170x128"
+                }
+              ]
+            },
+            "provider": {
+              "displayName": "Motley Fool",
+              "url": "http://www.fool.com/"
+            },
+            "canonicalUrl": {
+              "url": "https://www.fool.com/investing/2025/12/03/why-is-airbus-stock-up-today/",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/why-airbus-stock-today-162448172.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        }
+      ]
+    },
+    "recommendations": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  },
+  "holders_data": {
+    "major_holders": {
+      "status": "error"
+    },
+    "institutional_holders": {
+      "status": "error"
+    }
+  },
+  "earnings_data": {
+    "earnings": {
+      "status": "error",
+      "message": "'NoneType' object has no attribute 'empty'"
+    },
+    "calendar": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  }
+}

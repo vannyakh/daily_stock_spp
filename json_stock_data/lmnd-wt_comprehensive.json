@@ -1,75 +1,78 @@
 {
   "ticker": "LMND-WT",
-  "timestamp": "2025-12-03T05:29:19.720425",
+  "timestamp": "2025-12-04T04:47:08.594351",
   "intraday_data": {
     "status": "success",
-    "rows": 0,
-    "data": []
+    "rows": 9,
+    "data": [
+      {
+        "Close GPMT-PA": 19.709999084472656,
+        "High GPMT-PA": 19.72800064086914,
+        "Low GPMT-PA": 19.709999084472656,
+        "Open GPMT-PA": 19.72800064086914,
+        "Volume GPMT-PA": 0
+      },
+      {
+        "Close GPMT-PA": 19.690000534057617,
+        "High GPMT-PA": 19.709999084472656,
+        "Low GPMT-PA": 19.690000534057617,
+        "Open GPMT-PA": 19.709999084472656,
+        "Volume GPMT-PA": 251
+      },
+      {
+        "Close GPMT-PA": 19.600000381469727,
+        "High GPMT-PA": 19.600000381469727,
+        "Low GPMT-PA": 19.600000381469727,
+        "Open GPMT-PA": 19.600000381469727,
+        "Volume GPMT-PA": 205
+      },
+      {
+        "Close GPMT-PA": 19.549999237060547,
+        "High GPMT-PA": 19.549999237060547,
+        "Low GPMT-PA": 19.549999237060547,
+        "Open GPMT-PA": 19.549999237060547,
+        "Volume GPMT-PA": 172
+      },
+      {
+        "Close GPMT-PA": 19.610000610351562,
+        "High GPMT-PA": 19.610000610351562,
+        "Low GPMT-PA": 19.610000610351562,
+        "Open GPMT-PA": 19.610000610351562,
+        "Volume GPMT-PA": 280
+      },
+      {
+        "Close GPMT-PA": 19.670000076293945,
+        "High GPMT-PA": 19.670000076293945,
+        "Low GPMT-PA": 19.65999984741211,
+        "Open GPMT-PA": 19.65999984741211,
+        "Volume GPMT-PA": 246
+      },
+      {
+        "Close GPMT-PA": 19.610000610351562,
+        "High GPMT-PA": 19.610000610351562,
+        "Low GPMT-PA": 19.610000610351562,
+        "Open GPMT-PA": 19.610000610351562,
+        "Volume GPMT-PA": 0
+      },
+      {
+        "Close GPMT-PA": 19.700000762939453,
+        "High GPMT-PA": 19.700000762939453,
+        "Low GPMT-PA": 19.700000762939453,
+        "Open GPMT-PA": 19.700000762939453,
+        "Volume GPMT-PA": 229
+      },
+      {
+        "Close GPMT-PA": 19.719999313354492,
+        "High GPMT-PA": 19.719999313354492,
+        "Low GPMT-PA": 19.719999313354492,
+        "Open GPMT-PA": 19.719999313354492,
+        "Volume GPMT-PA": 100
+      }
+    ]
   },
   "stock_info": {
-    "status": "success",
-    "data": {
-      "maxAge": 86400,
-      "priceHint": 4,
-      "previousClose": 0.0503,
-      "open": 0.055,
-      "dayLow": 0.0451,
-      "dayHigh": 0.0502,
-      "regularMarketPreviousClose": 0.0503,
-      "regularMarketOpen": 0.055,
-      "regularMarketDayLow": 0.0451,
-      "regularMarketDayHigh": 0.0502,
-      "volume": 49197,
-      "regularMarketVolume": 49197,
-      "bid": 0.055,
-      "ask": 0.06,
-      "bidSize": 10,
-      "askSize": 35,
-      "fiftyTwoWeekLow": 0.0451,
-      "fiftyTwoWeekHigh": 0.0502,
-      "trailingAnnualDividendRate": 0.0,
-      "trailingAnnualDividendYield": 0.0,
-      "currency": "USD",
-      "tradeable": false,
-      "quoteType": "EQUITY",
-      "currentPrice": 0.047,
-      "recommendationKey": "none",
-      "financialCurrency": "USD",
-      "symbol": "LMND-WT",
-      "language": "en-US",
-      "region": "US",
-      "typeDisp": "Equity",
-      "quoteSourceName": "Delayed Quote",
-      "triggerable": true,
-      "customPriceAlertConfidence": "HIGH",
-      "fiftyTwoWeekLowChange": 0.0018999986,
-      "fiftyTwoWeekLowChangePercent": 0.042128574,
-      "fiftyTwoWeekRange": "0.0451 - 0.0502",
-      "fiftyTwoWeekHighChange": -0.003200002,
-      "fiftyTwoWeekHighChangePercent": -0.06374506,
-      "bookValue": 6.913,
-      "priceToBook": 0.0067987847,
-      "sourceInterval": 15,
-      "exchangeDataDelayedBy": 0,
-      "cryptoTradeable": false,
-      "longName": "Lemonade, Inc.",
-      "regularMarketTime": 1764707440,
-      "exchange": "ASE",
-      "messageBoardId": "finmb_318829603",
-      "exchangeTimezoneName": "America/New_York",
-      "exchangeTimezoneShortName": "EST",
-      "gmtOffSetMilliseconds": -18000000,
-      "market": "us_market",
-      "esgPopulated": false,
-      "regularMarketChangePercent": -6.5606365,
-      "regularMarketPrice": 0.047,
-      "hasPrePostMarketData": true,
-      "regularMarketChange": -0.0033,
-      "regularMarketDayRange": "0.0451 - 0.0502",
-      "fullExchangeName": "NYSE American",
-      "marketState": "PREPRE",
-      "displayName": "Lemonade"
-    }
+    "status": "error",
+    "message": "Too Many Requests. Rate limited. Try after a while."
   },
   "financials": {
     "income_statement": {
@@ -83,7 +86,8 @@
     }
   },
   "options_data": {
-    "expirations": []
+    "status": "error",
+    "error_message": "Too Many Requests. Rate limited. Try after a while."
   },
   "news_data": {
     "news": {
@@ -703,97 +707,16 @@
       ]
     },
     "recommendations": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   },
   "holders_data": {
     "major_holders": {
-      "status": "no_data"
+      "status": "error"
     },
     "institutional_holders": {
-      "status": "success",
-      "data": [
-        {
-          "Date Reported": "2025-09-30 00:00:00",
-          "Holder": "Wolverine Asset Management, LLC",
-          "pctHeld": 0.0,
-          "Shares": 10654,
-          "Value": 500,
-          "pctChange": 1.7752
-        },
-        {
-          "Date Reported": "2025-09-30 00:00:00",
-          "Holder": "Greenland Capital Management LP                          ",
-          "pctHeld": 0.0,
-          "Shares": 125000,
-          "Value": 5874,
-          "pctChange": 0.0
-        },
-        {
-          "Date Reported": "2025-09-30 00:00:00",
-          "Holder": "Linden Advisors LP",
-          "pctHeld": 0.0,
-          "Shares": 324359,
-          "Value": 15244,
-          "pctChange": 0.0
-        },
-        {
-          "Date Reported": "2025-09-30 00:00:00",
-          "Holder": "LMR Partners LLP",
-          "pctHeld": 0.0,
-          "Shares": 290978,
-          "Value": 13675,
-          "pctChange": 0.0
-        },
-        {
-          "Date Reported": "2025-09-30 00:00:00",
-          "Holder": "Heights Capital Management, Inc                          ",
-          "pctHeld": 0.0,
-          "Shares": 88946,
-          "Value": 4180,
-          "pctChange": 0.0
-        },
-        {
-          "Date Reported": "2025-09-30 00:00:00",
-          "Holder": "Tenor Capital Management Co., L.p.",
-          "pctHeld": 0.0,
-          "Shares": 50242,
-          "Value": 2361,
-          "pctChange": 0.0
-        },
-        {
-          "Date Reported": "2025-09-30 00:00:00",
-          "Holder": "Jane Street Group, LLC",
-          "pctHeld": 0.0,
-          "Shares": 33333,
-          "Value": 1566,
-          "pctChange": 0.0
-        },
-        {
-          "Date Reported": "2025-09-30 00:00:00",
-          "Holder": "Morgan Stanley",
-          "pctHeld": 0.0,
-          "Shares": 3582,
-          "Value": 168,
-          "pctChange": 0.0
-        },
-        {
-          "Date Reported": "2025-09-30 00:00:00",
-          "Holder": "UBS Group AG",
-          "pctHeld": 0.0,
-          "Shares": 743,
-          "Value": 34,
-          "pctChange": 0.0277
-        },
-        {
-          "Date Reported": "2025-09-30 00:00:00",
-          "Holder": "Toronto Dominion Bank",
-          "pctHeld": 0.0,
-          "Shares": 100,
-          "Value": 4,
-          "pctChange": 1.0
-        }
-      ]
+      "status": "error"
     }
   },
   "earnings_data": {
@@ -803,7 +726,7 @@
     },
     "calendar": {
       "status": "error",
-      "message": "'dict' object has no attribute 'empty'"
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   }
 }

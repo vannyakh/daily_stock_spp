@@ -1,667 +1,76 @@
 {
   "ticker": "FCNCB",
-  "timestamp": "2025-12-03T05:15:59.978574",
+  "timestamp": "2025-12-04T04:41:36.852233",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 7,
+    "data": [
+      {
+        "Close": 1621.0999755859375,
+        "High": 1621.0999755859375,
+        "Low": 1621.0999755859375,
+        "Open": 1621.0999755859375,
+        "Volume": 0
+      },
+      {
+        "Close": 1601.0,
+        "High": 1601.010009765625,
+        "Low": 1601.0,
+        "Open": 1601.010009765625,
+        "Volume": 4
+      },
+      {
+        "Close": 1601.0,
+        "High": 1601.0,
+        "Low": 1601.0,
+        "Open": 1601.0,
+        "Volume": 4
+      },
+      {
+        "Close": 1646.0,
+        "High": 1646.0,
+        "Low": 1646.0,
+        "Open": 1646.0,
+        "Volume": 1
+      },
+      {
+        "Close": 1646.0,
+        "High": 1646.0,
+        "Low": 1646.0,
+        "Open": 1646.0,
+        "Volume": 1
+      },
+      {
+        "Close": 1650.0,
+        "High": 1650.0,
+        "Low": 1649.949951171875,
+        "Open": 1649.949951171875,
+        "Volume": 2
+      },
+      {
+        "Close": 1645.0,
+        "High": 1645.0,
+        "Low": 1645.0,
+        "Open": 1645.0,
+        "Volume": 2
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
-    "message": "Too Many Requests. Rate limited. Try after a while."
+    "message": "argument of type 'NoneType' is not iterable"
   },
   "financials": {
     "income_statement": {
-      "status": "no_data"
-    },
-    "balance_sheet": {
-      "status": "no_data"
-    },
-    "cash_flow": {
-      "status": "no_data"
-    }
-  },
-  "options_data": {
-    "status": "error",
-    "error_message": "Too Many Requests. Rate limited. Try after a while."
-  },
-  "news_data": {
-    "news": {
       "status": "success",
-      "count": 10,
+      "rows": 45,
+      "columns": [
+        "2024-12-31 00:00:00",
+        "2023-12-31 00:00:00",
+        "2022-12-31 00:00:00",
+        "2021-12-31 00:00:00",
+        "2020-12-31 00:00:00"
+      ],
       "data": [
         {
-          "id": "440e5214-a2f0-3358-b7a3-737e677226b3",
-          "content": {
-            "id": "440e5214-a2f0-3358-b7a3-737e677226b3",
-            "contentType": "STORY",
-            "title": "2 Mid-Cap Stocks with Solid Fundamentals and 1 We Turn Down",
-            "description": "",
-            "summary": "Mid-cap stocks often strike the right balance between having proven business models and market opportunities that can support $100 billion corporations. However, they face intense competition from scaled industry giants and can be disrupted by new innovative players vying for a slice of the pie.",
-            "pubDate": "2025-12-02T04:35:53Z",
-            "displayTime": "2025-12-02T04:35:53Z",
-            "isHosted": true,
-            "bypassModal": false,
-            "previewUrl": null,
-            "thumbnail": {
-              "originalUrl": "https://media.zenfs.com/en/stockstory_922/c5dc19b24613bf0ade9e600e40fc6d37",
-              "originalWidth": 1400,
-              "originalHeight": 700,
-              "caption": "SPXC Cover Image",
-              "resolutions": [
-                {
-                  "url": "https://s.yimg.com/uu/api/res/1.2/DXs5laOFov3laNwBkeaK2w--~B/aD03MDA7dz0xNDAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/stockstory_922/c5dc19b24613bf0ade9e600e40fc6d37",
-                  "width": 1400,
-                  "height": 700,
-                  "tag": "original"
-                },
-                {
-                  "url": "https://s.yimg.com/uu/api/res/1.2/P8tXQmmGaOHQxdEAHVEI7g--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/stockstory_922/c5dc19b24613bf0ade9e600e40fc6d37",
-                  "width": 170,
-                  "height": 128,
-                  "tag": "170x128"
-                }
-              ]
-            },
-            "provider": {
-              "displayName": "StockStory",
-              "url": "https://stockstory.org/"
-            },
-            "canonicalUrl": {
-              "url": "https://finance.yahoo.com/news/2-mid-cap-stocks-solid-043553737.html",
-              "site": "finance",
-              "region": "US",
-              "lang": "en-US"
-            },
-            "clickThroughUrl": {
-              "url": "https://finance.yahoo.com/news/2-mid-cap-stocks-solid-043553737.html",
-              "site": "finance",
-              "region": "US",
-              "lang": "en-US"
-            },
-            "metadata": {
-              "editorsPick": false
-            },
-            "finance": {
-              "premiumFinance": {
-                "isPremiumNews": false,
-                "isPremiumFreeNews": false
-              }
-            },
-            "storyline": null
-          }
-        },
-        {
-          "id": "753db7b3-fb0f-3094-ad9f-fb4ea5019fc3",
-          "content": {
-            "id": "753db7b3-fb0f-3094-ad9f-fb4ea5019fc3",
-            "contentType": "STORY",
-            "title": "QCR Holdings, Pinnacle Financial Partners, CVB Financial, Bank OZK, and First Citizens BancShares Shares Skyrocket, What You Need To Know",
-            "description": "",
-            "summary": "A number of stocks jumped in the afternoon session after comments from a key Federal Reserve official boosted hopes for an interest rate cut. New York Federal Reserve President John Williams stated he sees \u201croom for a further adjustment\u201d in the near term, sparking a significant market rally. Following his remarks, the probability of the central bank cutting rates at its December meeting jumped from 39% to over 73%, according to the CME FedWatch tool. This positive sentiment provided relief to ma",
-            "pubDate": "2025-11-21T23:06:28Z",
-            "displayTime": "2025-11-21T23:06:28Z",
-            "isHosted": true,
-            "bypassModal": false,
-            "previewUrl": null,
-            "thumbnail": {
-              "originalUrl": "https://media.zenfs.com/en/stockstory_922/df5b4420c6384729c32355e8f3b91c39",
-              "originalWidth": 1400,
-              "originalHeight": 700,
-              "caption": "QCRH Cover Image",
-              "resolutions": [
-                {
-                  "url": "https://s.yimg.com/uu/api/res/1.2/w8LgVyr7tsysqkD5vlbgtg--~B/aD03MDA7dz0xNDAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/stockstory_922/df5b4420c6384729c32355e8f3b91c39",
-                  "width": 1400,
-                  "height": 700,
-                  "tag": "original"
-                },
-                {
-                  "url": "https://s.yimg.com/uu/api/res/1.2/rAx2aOBKW4XIziWoNWaedw--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/stockstory_922/df5b4420c6384729c32355e8f3b91c39",
-                  "width": 170,
-                  "height": 128,
-                  "tag": "170x128"
-                }
-              ]
-            },
-            "provider": {
-              "displayName": "StockStory",
-              "url": "https://stockstory.org/"
-            },
-            "canonicalUrl": {
-              "url": "https://finance.yahoo.com/news/qcr-holdings-pinnacle-financial-partners-230628327.html",
-              "site": "finance",
-              "region": "US",
-              "lang": "en-US"
-            },
-            "clickThroughUrl": {
-              "url": "https://finance.yahoo.com/news/qcr-holdings-pinnacle-financial-partners-230628327.html",
-              "site": "finance",
-              "region": "US",
-              "lang": "en-US"
-            },
-            "metadata": {
-              "editorsPick": false
-            },
-            "finance": {
-              "premiumFinance": {
-                "isPremiumNews": false,
-                "isPremiumFreeNews": false
-              }
-            },
-            "storyline": null
-          }
-        },
-        {
-          "id": "f837c46e-686c-3a86-890f-c6d717b52404",
-          "content": {
-            "id": "f837c46e-686c-3a86-890f-c6d717b52404",
-            "contentType": "STORY",
-            "title": "Is First Citizens BancShares Attractively Priced After 18.7% Drop on Regulatory News?",
-            "description": "",
-            "summary": "Wondering if First Citizens BancShares is a hidden gem or an overpriced pick? You are not alone, and there is plenty to unpack when it comes to the stock's value. The stock has seen dramatic shifts, with the share price swinging from a 235.6% gain over five years to an 18.7% drop in the last year. This hints at both past growth potential and recent caution among investors. Some of the recent movement has come after industry-level headlines, notably around regulatory changes and the outlook...",
-            "pubDate": "2025-11-20T02:14:19Z",
-            "displayTime": "2025-11-20T02:14:19Z",
-            "isHosted": true,
-            "bypassModal": false,
-            "previewUrl": null,
-            "thumbnail": {
-              "originalUrl": "https://media.zenfs.com/en/simply_wall_st__316/a192a90509b207df974cc973e0c18172",
-              "originalWidth": 1194,
-              "originalHeight": 432,
-              "caption": "",
-              "resolutions": [
-                {
-                  "url": "https://s.yimg.com/uu/api/res/1.2/eRZics5K7nTfD4zTk6CnaQ--~B/aD00MzI7dz0xMTk0O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/simply_wall_st__316/a192a90509b207df974cc973e0c18172",
-                  "width": 1194,
-                  "height": 432,
-                  "tag": "original"
-                },
-                {
-                  "url": "https://s.yimg.com/uu/api/res/1.2/K.r7FRqtC9ek89mvUMnUtQ--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/simply_wall_st__316/a192a90509b207df974cc973e0c18172",
-                  "width": 170,
-                  "height": 128,
-                  "tag": "170x128"
-                }
-              ]
-            },
-            "provider": {
-              "displayName": "Simply Wall St.",
-              "url": "https://simplywall.st/"
-            },
-            "canonicalUrl": {
-              "url": "https://finance.yahoo.com/news/first-citizens-bancshares-attractively-priced-021419409.html",
-              "site": "finance",
-              "region": "US",
-              "lang": "en-US"
-            },
-            "clickThroughUrl": {
-              "url": "https://finance.yahoo.com/news/first-citizens-bancshares-attractively-priced-021419409.html",
-              "site": "finance",
-              "region": "US",
-              "lang": "en-US"
-            },
-            "metadata": {
-              "editorsPick": false
-            },
-            "finance": {
-              "premiumFinance": {
-                "isPremiumNews": false,
-                "isPremiumFreeNews": false
-              }
-            },
-            "storyline": null
-          }
-        },
-        {
-          "id": "264c681c-815e-30fa-8410-7da929f2c24a",
-          "content": {
-            "id": "264c681c-815e-30fa-8410-7da929f2c24a",
-            "contentType": "STORY",
-            "title": "Could First Citizens BancShares\u2019 (FCNC.A) Latest Capital Raise Reshape Its Approach to Growth and Liquidity?",
-            "description": "",
-            "summary": "First Citizens BancShares recently completed and announced a US$500 million fixed-income offering of non-convertible depositary shares, while also appointing Lee Erby as region head for Northern California at its wealth division. This capital raise provides additional financial flexibility for the company, suggesting a focus on supporting growth initiatives and reinforcing its liquidity position. We will look at how the fixed-income offering may alter First Citizens BancShares' investment...",
-            "pubDate": "2025-11-19T22:11:38Z",
-            "displayTime": "2025-11-19T22:11:38Z",
-            "isHosted": true,
-            "bypassModal": false,
-            "previewUrl": null,
-            "thumbnail": {
-              "originalUrl": "https://media.zenfs.com/en/simply_wall_st__316/a192a90509b207df974cc973e0c18172",
-              "originalWidth": 1194,
-              "originalHeight": 432,
-              "caption": "",
-              "resolutions": [
-                {
-                  "url": "https://s.yimg.com/uu/api/res/1.2/eRZics5K7nTfD4zTk6CnaQ--~B/aD00MzI7dz0xMTk0O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/simply_wall_st__316/a192a90509b207df974cc973e0c18172",
-                  "width": 1194,
-                  "height": 432,
-                  "tag": "original"
-                },
-                {
-                  "url": "https://s.yimg.com/uu/api/res/1.2/K.r7FRqtC9ek89mvUMnUtQ--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/simply_wall_st__316/a192a90509b207df974cc973e0c18172",
-                  "width": 170,
-                  "height": 128,
-                  "tag": "170x128"
-                }
-              ]
-            },
-            "provider": {
-              "displayName": "Simply Wall St.",
-              "url": "https://simplywall.st/"
-            },
-            "canonicalUrl": {
-              "url": "https://finance.yahoo.com/news/could-first-citizens-bancshares-fcnc-221138506.html",
-              "site": "finance",
-              "region": "US",
-              "lang": "en-US"
-            },
-            "clickThroughUrl": {
-              "url": "https://finance.yahoo.com/news/could-first-citizens-bancshares-fcnc-221138506.html",
-              "site": "finance",
-              "region": "US",
-              "lang": "en-US"
-            },
-            "metadata": {
-              "editorsPick": false
-            },
-            "finance": {
-              "premiumFinance": {
-                "isPremiumNews": false,
-                "isPremiumFreeNews": false
-              }
-            },
-            "storyline": null
-          }
-        },
-        {
-          "id": "98c483b5-845e-3be0-b8ee-a64b3a3d7543",
-          "content": {
-            "id": "98c483b5-845e-3be0-b8ee-a64b3a3d7543",
-            "contentType": "STORY",
-            "title": "What Catalysts Could Shift the Narrative for First Citizens After Analyst Reactions to New Guidance?",
-            "description": "",
-            "summary": "First Citizens BancShares has seen its consensus analyst price target edge up slightly, rising from $2,155 to $2,158.85 after the latest round of earnings reports and management guidance. This modest increase reflects ongoing confidence in the bank\u2019s proactive approach to navigating market uncertainty and strengthening client relationships. Stay tuned to see how investors and analysts continue to interpret new developments in the changing narrative surrounding First Citizens BancShares. Stay...",
-            "pubDate": "2025-11-19T20:10:21Z",
-            "displayTime": "2025-11-19T20:10:21Z",
-            "isHosted": true,
-            "bypassModal": false,
-            "previewUrl": null,
-            "thumbnail": {
-              "originalUrl": "https://media.zenfs.com/en/simply_wall_st__316/a192a90509b207df974cc973e0c18172",
-              "originalWidth": 1194,
-              "originalHeight": 432,
-              "caption": "",
-              "resolutions": [
-                {
-                  "url": "https://s.yimg.com/uu/api/res/1.2/eRZics5K7nTfD4zTk6CnaQ--~B/aD00MzI7dz0xMTk0O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/simply_wall_st__316/a192a90509b207df974cc973e0c18172",
-                  "width": 1194,
-                  "height": 432,
-                  "tag": "original"
-                },
-                {
-                  "url": "https://s.yimg.com/uu/api/res/1.2/K.r7FRqtC9ek89mvUMnUtQ--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/simply_wall_st__316/a192a90509b207df974cc973e0c18172",
-                  "width": 170,
-                  "height": 128,
-                  "tag": "170x128"
-                }
-              ]
-            },
-            "provider": {
-              "displayName": "Simply Wall St.",
-              "url": "https://simplywall.st/"
-            },
-            "canonicalUrl": {
-              "url": "https://finance.yahoo.com/news/catalysts-could-shift-narrative-first-201021967.html",
-              "site": "finance",
-              "region": "US",
-              "lang": "en-US"
-            },
-            "clickThroughUrl": {
-              "url": "https://finance.yahoo.com/news/catalysts-could-shift-narrative-first-201021967.html",
-              "site": "finance",
-              "region": "US",
-              "lang": "en-US"
-            },
-            "metadata": {
-              "editorsPick": false
-            },
-            "finance": {
-              "premiumFinance": {
-                "isPremiumNews": false,
-                "isPremiumFreeNews": false
-              }
-            },
-            "storyline": null
-          }
-        },
-        {
-          "id": "60a41b04-dbd4-3b38-8340-36392c01003c",
-          "content": {
-            "id": "60a41b04-dbd4-3b38-8340-36392c01003c",
-            "contentType": "STORY",
-            "title": "First Citizens BancShares (FCNCA): Assessing Valuation After Recent Share Price Momentum",
-            "description": "",
-            "summary": "First Citizens BancShares (FCNC.A) stock has caught some attention recently, with shares ticking slightly higher over the past week. Investors might be taking a closer look at its valuation, given recent market moves and underlying company fundamentals. See our latest analysis for First Citizens BancShares. With First Citizens BancShares\u2019 share price edging up 6.8% over the last month, momentum seems to be building again after a choppy quarter. While the one-year total shareholder return is...",
-            "pubDate": "2025-11-12T05:09:19Z",
-            "displayTime": "2025-11-12T05:09:19Z",
-            "isHosted": true,
-            "bypassModal": false,
-            "previewUrl": null,
-            "thumbnail": {
-              "originalUrl": "https://media.zenfs.com/en/simply_wall_st__316/a192a90509b207df974cc973e0c18172",
-              "originalWidth": 1194,
-              "originalHeight": 432,
-              "caption": "",
-              "resolutions": [
-                {
-                  "url": "https://s.yimg.com/uu/api/res/1.2/eRZics5K7nTfD4zTk6CnaQ--~B/aD00MzI7dz0xMTk0O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/simply_wall_st__316/a192a90509b207df974cc973e0c18172",
-                  "width": 1194,
-                  "height": 432,
-                  "tag": "original"
-                },
-                {
-                  "url": "https://s.yimg.com/uu/api/res/1.2/K.r7FRqtC9ek89mvUMnUtQ--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/simply_wall_st__316/a192a90509b207df974cc973e0c18172",
-                  "width": 170,
-                  "height": 128,
-                  "tag": "170x128"
-                }
-              ]
-            },
-            "provider": {
-              "displayName": "Simply Wall St.",
-              "url": "https://simplywall.st/"
-            },
-            "canonicalUrl": {
-              "url": "https://finance.yahoo.com/news/first-citizens-bancshares-fcnca-assessing-050919359.html",
-              "site": "finance",
-              "region": "US",
-              "lang": "en-US"
-            },
-            "clickThroughUrl": {
-              "url": "https://finance.yahoo.com/news/first-citizens-bancshares-fcnca-assessing-050919359.html",
-              "site": "finance",
-              "region": "US",
-              "lang": "en-US"
-            },
-            "metadata": {
-              "editorsPick": false
-            },
-            "finance": {
-              "premiumFinance": {
-                "isPremiumNews": false,
-                "isPremiumFreeNews": false
-              }
-            },
-            "storyline": null
-          }
-        },
-        {
-          "id": "b83a68d3-5df4-3031-a30e-6222ae669b6f",
-          "content": {
-            "id": "b83a68d3-5df4-3031-a30e-6222ae669b6f",
-            "contentType": "STORY",
-            "title": "What Midland\u2019s $5 Million Write-Off Teaches About the Next Phase of the Trucking Slow Down",
-            "description": "",
-            "summary": "Trucking\u2019s pain is spreading beyond freight rates and diesel prices \u2014 it\u2019s now hitting the banks. In its third-quarter earnings release, Midland States Bancorp revealed that trucking industry woes triggered $5 million in equipment finance charge-offs for the quarter, prompting the Illinois-based lender to walk away from equipment financing altogether. That decision wasn\u2019t made lightly. [\u2026] The post What Midland\u2019s $5 Million Write-Off Teaches About the Next Phase of the Trucking Slow Down appeare",
-            "pubDate": "2025-11-06T15:33:37Z",
-            "displayTime": "2025-11-06T15:33:37Z",
-            "isHosted": true,
-            "bypassModal": false,
-            "previewUrl": null,
-            "thumbnail": {
-              "originalUrl": "https://media.zenfs.com/en/freightwaves_373/8e5ce6d2de3438d333ee9027b1016d36",
-              "originalWidth": 11546,
-              "originalHeight": 6495,
-              "caption": "",
-              "resolutions": [
-                {
-                  "url": "https://s.yimg.com/uu/api/res/1.2/afPW3dxgyXpyVihvgIEs0g--~B/aD02NDk1O3c9MTE1NDY7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/freightwaves_373/8e5ce6d2de3438d333ee9027b1016d36",
-                  "width": 11546,
-                  "height": 6495,
-                  "tag": "original"
-                },
-                {
-                  "url": "https://s.yimg.com/uu/api/res/1.2/ueIxISvEP3DIPMElYNHhCQ--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/freightwaves_373/8e5ce6d2de3438d333ee9027b1016d36",
-                  "width": 170,
-                  "height": 128,
-                  "tag": "170x128"
-                }
-              ]
-            },
-            "provider": {
-              "displayName": "FreightWaves",
-              "url": "https://www.freightwaves.com"
-            },
-            "canonicalUrl": {
-              "url": "https://finance.yahoo.com/news/midland-5-million-write-off-153337390.html",
-              "site": "finance",
-              "region": "US",
-              "lang": "en-US"
-            },
-            "clickThroughUrl": {
-              "url": "https://finance.yahoo.com/news/midland-5-million-write-off-153337390.html",
-              "site": "finance",
-              "region": "US",
-              "lang": "en-US"
-            },
-            "metadata": {
-              "editorsPick": false
-            },
-            "finance": {
-              "premiumFinance": {
-                "isPremiumNews": false,
-                "isPremiumFreeNews": false
-              }
-            },
-            "storyline": null
-          }
-        },
-        {
-          "id": "cd0917bf-1b2f-3c64-8e00-5c02dbdd58ae",
-          "content": {
-            "id": "cd0917bf-1b2f-3c64-8e00-5c02dbdd58ae",
-            "contentType": "STORY",
-            "title": "How Analysts See the First Citizens BancShares Story Shifting Amid Market Uncertainty",
-            "description": "",
-            "summary": "First Citizens BancShares recently saw its fair value estimate lowered modestly, with analysts adjusting their outlook in response to a mix of positive and cautionary signals from the latest results. The price target now reflects slightly greater perceived risks; however, ongoing strength in loan growth and fund banking activity underpins a sense of resilience for the bank. Stay tuned to discover how you can track these evolving updates and stay ahead of shifts in the stock's narrative. Stay...",
-            "pubDate": "2025-11-02T13:09:44Z",
-            "displayTime": "2025-11-02T13:09:44Z",
-            "isHosted": true,
-            "bypassModal": false,
-            "previewUrl": null,
-            "thumbnail": {
-              "originalUrl": "https://media.zenfs.com/en/simply_wall_st__316/a192a90509b207df974cc973e0c18172",
-              "originalWidth": 1194,
-              "originalHeight": 432,
-              "caption": "",
-              "resolutions": [
-                {
-                  "url": "https://s.yimg.com/uu/api/res/1.2/eRZics5K7nTfD4zTk6CnaQ--~B/aD00MzI7dz0xMTk0O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/simply_wall_st__316/a192a90509b207df974cc973e0c18172",
-                  "width": 1194,
-                  "height": 432,
-                  "tag": "original"
-                },
-                {
-                  "url": "https://s.yimg.com/uu/api/res/1.2/K.r7FRqtC9ek89mvUMnUtQ--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/simply_wall_st__316/a192a90509b207df974cc973e0c18172",
-                  "width": 170,
-                  "height": 128,
-                  "tag": "170x128"
-                }
-              ]
-            },
-            "provider": {
-              "displayName": "Simply Wall St.",
-              "url": "https://simplywall.st/"
-            },
-            "canonicalUrl": {
-              "url": "https://finance.yahoo.com/news/analysts-see-first-citizens-bancshares-130944392.html",
-              "site": "finance",
-              "region": "US",
-              "lang": "en-US"
-            },
-            "clickThroughUrl": {
-              "url": "https://finance.yahoo.com/news/analysts-see-first-citizens-bancshares-130944392.html",
-              "site": "finance",
-              "region": "US",
-              "lang": "en-US"
-            },
-            "metadata": {
-              "editorsPick": false
-            },
-            "finance": {
-              "premiumFinance": {
-                "isPremiumNews": false,
-                "isPremiumFreeNews": false
-              }
-            },
-            "storyline": null
-          }
-        },
-        {
-          "id": "94f77487-306a-3db3-9a48-e772a06d22d5",
-          "content": {
-            "id": "94f77487-306a-3db3-9a48-e772a06d22d5",
-            "contentType": "STORY",
-            "title": "3 Market-Beating Stocks with Promising Prospects",
-            "description": "",
-            "summary": "The best-performing stocks typically have robust sales growth, increasing margins, and rising returns on capital, and those that can maintain this trifecta year in and year out often become the legends of the investing world.",
-            "pubDate": "2025-10-31T04:39:40Z",
-            "displayTime": "2025-10-31T04:39:40Z",
-            "isHosted": true,
-            "bypassModal": false,
-            "previewUrl": null,
-            "thumbnail": {
-              "originalUrl": "https://media.zenfs.com/en/stockstory_922/3a2a1c7d186ab334fda549bbd94ffd9e",
-              "originalWidth": 1400,
-              "originalHeight": 700,
-              "caption": "STX Cover Image",
-              "resolutions": [
-                {
-                  "url": "https://s.yimg.com/uu/api/res/1.2/l3liX1mxWsfVz83imHhung--~B/aD03MDA7dz0xNDAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/stockstory_922/3a2a1c7d186ab334fda549bbd94ffd9e",
-                  "width": 1400,
-                  "height": 700,
-                  "tag": "original"
-                },
-                {
-                  "url": "https://s.yimg.com/uu/api/res/1.2/QdlymGQ0VbEEo_Yx.U7.9w--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/stockstory_922/3a2a1c7d186ab334fda549bbd94ffd9e",
-                  "width": 170,
-                  "height": 128,
-                  "tag": "170x128"
-                }
-              ]
-            },
-            "provider": {
-              "displayName": "StockStory",
-              "url": "https://stockstory.org/"
-            },
-            "canonicalUrl": {
-              "url": "https://finance.yahoo.com/news/3-market-beating-stocks-promising-043940067.html",
-              "site": "finance",
-              "region": "US",
-              "lang": "en-US"
-            },
-            "clickThroughUrl": {
-              "url": "https://finance.yahoo.com/news/3-market-beating-stocks-promising-043940067.html",
-              "site": "finance",
-              "region": "US",
-              "lang": "en-US"
-            },
-            "metadata": {
-              "editorsPick": false
-            },
-            "finance": {
-              "premiumFinance": {
-                "isPremiumNews": false,
-                "isPremiumFreeNews": false
-              }
-            },
-            "storyline": null
-          }
-        },
-        {
-          "id": "38ae687c-5cdb-4b03-9fbf-dd0c185c1b3b",
-          "content": {
-            "id": "38ae687c-5cdb-4b03-9fbf-dd0c185c1b3b",
-            "contentType": "STORY",
-            "title": "Jamie Dimon warned of 'cockroaches' in the financial system. Fed Chair Powell doesn't see a 'broader' problem.",
-            "description": "",
-            "summary": "Concerns in credit markets have percolated in recent weeks. Fed Chair Jay Powell isn't concerned that they may be indicative of broader problems.",
-            "pubDate": "2025-10-30T14:09:36Z",
-            "displayTime": "2025-11-02T20:30:46Z",
-            "isHosted": true,
-            "bypassModal": false,
-            "previewUrl": null,
-            "thumbnail": {
-              "originalUrl": "https://s.yimg.com/os/creatr-uploaded-images/2025-10/529b36e0-b58f-11f0-9778-ba374cbb990e",
-              "originalWidth": 5446,
-              "originalHeight": 3631,
-              "caption": "",
-              "resolutions": [
-                {
-                  "url": "https://s.yimg.com/uu/api/res/1.2/3LsQ.y3VXOJLV18gd5DeeQ--~B/aD0zNjMxO3c9NTQ0NjthcHBpZD15dGFjaHlvbg--/https://s.yimg.com/os/creatr-uploaded-images/2025-10/529b36e0-b58f-11f0-9778-ba374cbb990e",
-                  "width": 5446,
-                  "height": 3631,
-                  "tag": "original"
-                },
-                {
-                  "url": "https://s.yimg.com/uu/api/res/1.2/wsHkdMAyXznRoEtHvCQHZg--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://s.yimg.com/os/creatr-uploaded-images/2025-10/529b36e0-b58f-11f0-9778-ba374cbb990e",
-                  "width": 170,
-                  "height": 128,
-                  "tag": "170x128"
-                }
-              ]
-            },
-            "provider": {
-              "displayName": "Yahoo Finance",
-              "url": "http://finance.yahoo.com/"
-            },
-            "canonicalUrl": {
-              "url": "https://finance.yahoo.com/news/jamie-dimon-warned-of-cockroaches-in-the-financial-system-fed-chair-powell-doesnt-see-a-broader-problem-140936956.html",
-              "site": "finance",
-              "region": "US",
-              "lang": "en-US"
-            },
-            "clickThroughUrl": {
-              "url": "https://finance.yahoo.com/news/jamie-dimon-warned-of-cockroaches-in-the-financial-system-fed-chair-powell-doesnt-see-a-broader-problem-140936956.html",
-              "site": "finance",
-              "region": "US",
-              "lang": "en-US"
-            },
-            "metadata": {
-              "editorsPick": false
-            },
-            "finance": {
-              "premiumFinance": {
-                "isPremiumNews": false,
-                "isPremiumFreeNews": false
-              }
-            },
-            "storyline": null
-          }
-        }
-      ]
-    },
-    "recommendations": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
-    }
-  },
-  "holders_data": {
-    "major_holders": {
-      "status": "error"
-    },
-    "institutional_holders": {
-      "status": "error"
-    }
-  },
-  "earnings_data": {
-    "earnings": {
-      "status": "error",
-      "message": "'NoneType' object has no attribute 'empty'"
-    },
-    "calendar": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
-    }
-  }
-}
+          

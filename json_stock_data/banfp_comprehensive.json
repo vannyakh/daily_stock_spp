@@ -1,82 +1,13 @@
 {
   "ticker": "BANFP",
-  "timestamp": "2025-12-03T05:32:55.433298",
+  "timestamp": "2025-12-04T04:48:45.656496",
   "intraday_data": {
     "status": "no_data",
     "message": "No intraday data available"
   },
   "stock_info": {
-    "status": "success",
-    "data": {
-      "maxAge": 86400,
-      "priceHint": 2,
-      "previousClose": 26.26,
-      "open": 26.15,
-      "dayLow": 26.2,
-      "dayHigh": 26.2,
-      "regularMarketPreviousClose": 26.26,
-      "regularMarketOpen": 26.15,
-      "regularMarketDayLow": 26.2,
-      "regularMarketDayHigh": 26.2,
-      "volume": 156,
-      "regularMarketVolume": 156,
-      "averageVolume": 726,
-      "averageVolume10days": 300,
-      "averageDailyVolume10Day": 300,
-      "bid": 0.0,
-      "ask": 0.0,
-      "bidSize": 0,
-      "askSize": 0,
-      "fiftyTwoWeekLow": 25.45,
-      "fiftyTwoWeekHigh": 29.45,
-      "allTimeHigh": 37.43,
-      "allTimeLow": 17.11,
-      "fiftyDayAverage": 26.1318,
-      "twoHundredDayAverage": 26.06765,
-      "currency": "USD",
-      "tradeable": false,
-      "quoteType": "EQUITY",
-      "symbol": "BANFP",
-      "language": "en-US",
-      "region": "US",
-      "typeDisp": "Equity",
-      "quoteSourceName": "Delayed Quote",
-      "triggerable": true,
-      "customPriceAlertConfidence": "HIGH",
-      "shortName": "BancFirst Corporation - 7.2% Cu",
-      "longName": "BFC Capital Trust II PFD TR 7.20%",
-      "regularMarketTime": 1764709200,
-      "exchange": "NMS",
-      "messageBoardId": "finmb_9176929",
-      "exchangeTimezoneName": "America/New_York",
-      "exchangeTimezoneShortName": "EST",
-      "gmtOffSetMilliseconds": -18000000,
-      "market": "us_market",
-      "esgPopulated": false,
-      "regularMarketChangePercent": 0.0,
-      "regularMarketPrice": 26.26,
-      "marketState": "PREPRE",
-      "hasPrePostMarketData": true,
-      "firstTradeDateMilliseconds": 1079447400000,
-      "regularMarketChange": 0.0,
-      "regularMarketDayRange": "26.2 - 26.2",
-      "fullExchangeName": "NasdaqGS",
-      "averageDailyVolume3Month": 726,
-      "fiftyTwoWeekLowChange": 0.80999947,
-      "fiftyTwoWeekLowChangePercent": 0.03182709,
-      "fiftyTwoWeekRange": "25.45 - 29.45",
-      "fiftyTwoWeekHighChange": -3.1900005,
-      "fiftyTwoWeekHighChangePercent": -0.1083192,
-      "fiftyTwoWeekChangePercent": 1.5503883,
-      "dividendDate": 1768435200,
-      "fiftyDayAverageChange": 0.12820053,
-      "fiftyDayAverageChangePercent": 0.0049059205,
-      "twoHundredDayAverageChange": 0.19235039,
-      "twoHundredDayAverageChangePercent": 0.0073788925,
-      "sourceInterval": 15,
-      "exchangeDataDelayedBy": 0,
-      "cryptoTradeable": false
-    }
+    "status": "error",
+    "message": "Too Many Requests. Rate limited. Try after a while."
   },
   "financials": {
     "income_statement": {
@@ -90,22 +21,24 @@
     }
   },
   "options_data": {
-    "expirations": []
+    "status": "error",
+    "error_message": "Too Many Requests. Rate limited. Try after a while."
   },
   "news_data": {
     "news": {
       "status": "no_data"
     },
     "recommendations": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   },
   "holders_data": {
     "major_holders": {
-      "status": "no_data"
+      "status": "error"
     },
     "institutional_holders": {
-      "status": "no_data"
+      "status": "error"
     }
   },
   "earnings_data": {
@@ -115,7 +48,7 @@
     },
     "calendar": {
       "status": "error",
-      "message": "'dict' object has no attribute 'empty'"
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   }
 }

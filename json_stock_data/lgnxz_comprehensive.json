@@ -1,6 +1,6 @@
 {
   "ticker": "LGNXZ",
-  "timestamp": "2025-12-03T05:35:00.332994",
+  "timestamp": "2025-12-04T04:49:21.985356",
   "intraday_data": {
     "status": "no_data",
     "message": "No intraday data available"
@@ -21,7 +21,8 @@
     }
   },
   "options_data": {
-    "expirations": []
+    "status": "error",
+    "error_message": "Too Many Requests. Rate limited. Try after a while."
   },
   "news_data": {
     "news": {
@@ -617,30 +618,16 @@
       ]
     },
     "recommendations": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   },
   "holders_data": {
     "major_holders": {
-      "status": "success",
-      "data": [
-        {
-          "Value": 2
-        }
-      ]
+      "status": "error"
     },
     "institutional_holders": {
-      "status": "success",
-      "data": [
-        {
-          "Date Reported": "2025-09-30 00:00:00",
-          "Holder": "VANGUARD INDEX FUNDS-Vanguard Extended Market Index Fund",
-          "pctHeld": 0.0,
-          "Shares": 395811,
-          "Value": 474,
-          "pctChange": 0.0
-        }
-      ]
+      "status": "error"
     }
   },
   "earnings_data": {
@@ -650,7 +637,7 @@
     },
     "calendar": {
       "status": "error",
-      "message": "'dict' object has no attribute 'empty'"
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   }
 }

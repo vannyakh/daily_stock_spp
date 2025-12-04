@@ -1,106 +1,637 @@
 {
   "ticker": "GLAXF",
-  "timestamp": "2025-12-03T05:15:23.978564",
+  "timestamp": "2025-12-04T04:41:24.861666",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 3,
+    "data": [
+      {
+        "Close GLCNF": 5.079999923706055,
+        "High GLCNF": 5.079999923706055,
+        "Low GLCNF": 5.079999923706055,
+        "Open GLCNF": 5.079999923706055,
+        "Volume GLCNF": 0
+      },
+      {
+        "Close GLCNF": 5.110000133514404,
+        "High GLCNF": 5.110000133514404,
+        "Low GLCNF": 5.110000133514404,
+        "Open GLCNF": 5.110000133514404,
+        "Volume GLCNF": 1000
+      },
+      {
+        "Close GLCNF": 5.099999904632568,
+        "High GLCNF": 5.099999904632568,
+        "Low GLCNF": 5.099999904632568,
+        "Open GLCNF": 5.099999904632568,
+        "Volume GLCNF": 200
+      }
+    ]
   },
   "stock_info": {
-    "status": "success",
-    "data": {
-      "language": "en-US",
-      "region": "US",
-      "quoteType": "EQUITY",
-      "typeDisp": "Equity",
-      "quoteSourceName": "Delayed Quote",
-      "triggerable": false,
-      "customPriceAlertConfidence": "LOW",
-      "currency": "USD",
-      "earningsTimestamp": 1761768000,
-      "earningsTimestampStart": 1761768000,
-      "earningsTimestampEnd": 1761768000,
-      "earningsCallTimestampStart": 1761739200,
-      "earningsCallTimestampEnd": 1761739200,
-      "isEarningsDateEstimate": false,
-      "trailingAnnualDividendRate": 0.64,
-      "trailingPE": 13.215909,
-      "dividendRate": 0.84,
-      "trailingAnnualDividendYield": 0.027373824,
-      "dividendYield": 3.62,
-      "epsTrailingTwelveMonths": 1.76,
-      "epsForward": 2.2,
-      "sharesOutstanding": 4037622107,
-      "bookValue": 4.011,
-      "fiftyDayAverage": 22.0056,
-      "fiftyDayAverageChange": 1.2544003,
-      "fiftyDayAverageChangePercent": 0.057003684,
-      "twoHundredDayAverage": 19.81735,
-      "twoHundredDayAverageChange": 3.4426498,
-      "twoHundredDayAverageChangePercent": 0.17371897,
-      "marketCap": 96231137280,
-      "forwardPE": 10.572727,
-      "priceToBook": 5.7990522,
-      "sourceInterval": 15,
-      "exchangeDataDelayedBy": 0,
-      "prevName": "GlaxoSmithKline plc",
-      "nameChangeDate": "2025-12-02",
-      "tradeable": false,
-      "cryptoTradeable": false,
-      "regularMarketTime": 1764622800,
-      "exchange": "PNK",
-      "messageBoardId": "finmb_275442",
-      "exchangeTimezoneName": "America/New_York",
-      "exchangeTimezoneShortName": "EST",
-      "gmtOffSetMilliseconds": -18000000,
-      "market": "us_market",
-      "esgPopulated": false,
-      "hasPrePostMarketData": false,
-      "firstTradeDateMilliseconds": 1262701800000,
-      "priceHint": 2,
-      "regularMarketChange": -0.11999893,
-      "regularMarketDayHigh": 23.0,
-      "regularMarketDayRange": "23.0 - 23.0",
-      "regularMarketDayLow": 23.0,
-      "regularMarketVolume": 120,
-      "regularMarketPreviousClose": 23.38,
-      "bid": 22.55,
-      "ask": 25.0,
-      "bidSize": 300,
-      "askSize": 300,
-      "fullExchangeName": "OTC Markets OTCPK",
-      "financialCurrency": "GBP",
-      "regularMarketOpen": 23.0,
-      "averageDailyVolume3Month": 2865,
-      "averageDailyVolume10Day": 2560,
-      "fiftyTwoWeekLowChange": 7.7200003,
-      "fiftyTwoWeekLowChangePercent": 0.4967825,
-      "fiftyTwoWeekRange": "15.54 - 24.0",
-      "fiftyTwoWeekHighChange": -0.7399998,
-      "fiftyTwoWeekHighChangePercent": -0.030833324,
-      "fiftyTwoWeekLow": 15.54,
-      "fiftyTwoWeekHigh": 24.0,
-      "fiftyTwoWeekChangePercent": 43.369175,
-      "dividendDate": 1570665600,
-      "regularMarketChangePercent": -0.51325464,
-      "regularMarketPrice": 23.26,
-      "marketState": "PREPRE",
-      "shortName": "GSK plc",
-      "longName": "GSK plc",
-      "displayName": "GSK",
-      "symbol": "GLAXF",
-      "trailingPegRatio": 0.4055
-    }
+    "status": "error",
+    "message": "Too Many Requests. Rate limited. Try after a while."
   },
   "financials": {
     "income_statement": {
+      "status": "no_data"
+    },
+    "balance_sheet": {
+      "status": "no_data"
+    },
+    "cash_flow": {
+      "status": "no_data"
+    }
+  },
+  "options_data": {
+    "status": "error",
+    "error_message": "Too Many Requests. Rate limited. Try after a while."
+  },
+  "news_data": {
+    "news": {
       "status": "success",
-      "rows": 49,
-      "columns": [
-        "2024-12-31 00:00:00",
-        "2023-12-31 00:00:00",
-        "2022-12-31 00:00:00",
-        "2021-12-31 00:00:00"
-      ],
+      "count": 10,
       "data": [
         {
-          
+          "id": "ec08dd10-f6f9-314b-81b2-2e701c29bf0d",
+          "content": {
+            "id": "ec08dd10-f6f9-314b-81b2-2e701c29bf0d",
+            "contentType": "STORY",
+            "title": "Here's Why GSK (GSK) is a Strong Growth Stock",
+            "description": "",
+            "summary": "Wondering how to pick strong, market-beating stocks for your investment portfolio? Look no further than the Zacks Style Scores.",
+            "pubDate": "2025-12-03T14:45:02Z",
+            "displayTime": "2025-12-03T14:45:02Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": {
+              "originalUrl": "https://media.zenfs.com/en/zacks.com/ac90b3d74679f6d01a122aa033d8a9a4",
+              "originalWidth": 900,
+              "originalHeight": 600,
+              "caption": "",
+              "resolutions": [
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/9naTdeJlVMX28sdlDpLdrQ--~B/aD02MDA7dz05MDA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/zacks.com/ac90b3d74679f6d01a122aa033d8a9a4",
+                  "width": 900,
+                  "height": 600,
+                  "tag": "original"
+                },
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/FPwXGsyxPV4rpg4GqtBI5w--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/zacks.com/ac90b3d74679f6d01a122aa033d8a9a4",
+                  "width": 170,
+                  "height": 128,
+                  "tag": "170x128"
+                }
+              ]
+            },
+            "provider": {
+              "displayName": "Zacks",
+              "url": "http://www.zacks.com/"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/heres-why-gsk-gsk-strong-144502098.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/heres-why-gsk-gsk-strong-144502098.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        },
+        {
+          "id": "3dc83157-8765-31d3-9628-2e2237b8b389",
+          "content": {
+            "id": "3dc83157-8765-31d3-9628-2e2237b8b389",
+            "contentType": "STORY",
+            "title": "3 Top-Ranked Dividend Stocks: A Smarter Way to Boost Your Retirement Income",
+            "description": "",
+            "summary": "The traditional retirement planning approaches no longer cover all expenses in nest egg years. So what can retirees do? Thankfully, there are alternative investments that provide steady, higher-rate income streams to replace dwindling bond yields.",
+            "pubDate": "2025-12-02T14:10:02Z",
+            "displayTime": "2025-12-02T14:10:02Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": {
+              "originalUrl": "https://media.zenfs.com/en/zacks.com/078b2d95159d12a337f09f2519ff10ba",
+              "originalWidth": 900,
+              "originalHeight": 745,
+              "caption": "",
+              "resolutions": [
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/UPInF06X6fJkTqeimnpZuQ--~B/aD03NDU7dz05MDA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/zacks.com/078b2d95159d12a337f09f2519ff10ba",
+                  "width": 900,
+                  "height": 745,
+                  "tag": "original"
+                },
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/20SdF7C_2QejUI3qrU3Dww--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/zacks.com/078b2d95159d12a337f09f2519ff10ba",
+                  "width": 170,
+                  "height": 128,
+                  "tag": "170x128"
+                }
+              ]
+            },
+            "provider": {
+              "displayName": "Zacks",
+              "url": "http://www.zacks.com/"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/3-top-ranked-dividend-stocks-141002264.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/3-top-ranked-dividend-stocks-141002264.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        },
+        {
+          "id": "1ec57c89-3dd1-39bf-b80f-8afaed02c243",
+          "content": {
+            "id": "1ec57c89-3dd1-39bf-b80f-8afaed02c243",
+            "contentType": "STORY",
+            "title": "Top Analyst Reports for Palantir, Philip Morris & TotalEnergies",
+            "description": "",
+            "summary": "Palantir surges as its AI platforms and defense projects lift momentum, while analyst reports track shifts across tobacco, energy and microcaps.",
+            "pubDate": "2025-12-01T21:21:00Z",
+            "displayTime": "2025-12-01T21:21:00Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": {
+              "originalUrl": "https://media.zenfs.com/en/zacks.com/cd9ed8cf63fa5a7bc41c5e977c67cccb",
+              "originalWidth": 635,
+              "originalHeight": 400,
+              "caption": "",
+              "resolutions": [
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/xO8TFJMeqtG5lE09xfpLAw--~B/aD00MDA7dz02MzU7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/zacks.com/cd9ed8cf63fa5a7bc41c5e977c67cccb",
+                  "width": 635,
+                  "height": 400,
+                  "tag": "original"
+                },
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/zaf1.klTi5tn7GDWpwXO9Q--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/zacks.com/cd9ed8cf63fa5a7bc41c5e977c67cccb",
+                  "width": 170,
+                  "height": 128,
+                  "tag": "170x128"
+                }
+              ]
+            },
+            "provider": {
+              "displayName": "Zacks",
+              "url": "http://www.zacks.com/"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/top-analyst-reports-palantir-philip-212100552.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/top-analyst-reports-palantir-philip-212100552.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        },
+        {
+          "id": "71d78307-8333-38b7-a187-bed1d6ff521a",
+          "content": {
+            "id": "71d78307-8333-38b7-a187-bed1d6ff521a",
+            "contentType": "STORY",
+            "title": "How Recent Developments Are Rewriting the Story for GSK",
+            "description": "",
+            "summary": "GSK\u2019s fair value estimate has increased from \u00a318.07 to \u00a318.27, indicating a minor but notable shift in analysts\u2019 outlook for the stock. This upward revision reflects a blend of optimism and caution as industry watchers respond to incremental changes in the company\u2019s valuation. Stay tuned to learn how you can keep up with the evolving perspectives shaping GSK\u2019s investment narrative in this fast-moving sector. Stay updated as the Fair Value for GSK shifts by adding it to your watchlist or...",
+            "pubDate": "2025-11-29T12:11:03Z",
+            "displayTime": "2025-11-29T12:11:03Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": {
+              "originalUrl": "https://media.zenfs.com/en/simply_wall_st__316/a99782b24065c2e10ff5cc21f6727f48",
+              "originalWidth": 1194,
+              "originalHeight": 432,
+              "caption": "",
+              "resolutions": [
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/sD871knG1Uc7O_uc1EPUcA--~B/aD00MzI7dz0xMTk0O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/simply_wall_st__316/a99782b24065c2e10ff5cc21f6727f48",
+                  "width": 1194,
+                  "height": 432,
+                  "tag": "original"
+                },
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/vICWFiLhuT1RGIab4SNoRg--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/simply_wall_st__316/a99782b24065c2e10ff5cc21f6727f48",
+                  "width": 170,
+                  "height": 128,
+                  "tag": "170x128"
+                }
+              ]
+            },
+            "provider": {
+              "displayName": "Simply Wall St.",
+              "url": "https://simplywall.st/"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/recent-developments-rewriting-story-gsk-121103099.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/recent-developments-rewriting-story-gsk-121103099.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        },
+        {
+          "id": "f7d46626-0d75-303c-af88-1b4e9f162f45",
+          "content": {
+            "id": "f7d46626-0d75-303c-af88-1b4e9f162f45",
+            "contentType": "STORY",
+            "title": "U.S. Negotiates Lower Prices for Ozempic and 14 Other Drugs",
+            "description": "",
+            "summary": "The U.S. government negotiated lower prices in the federal Medicare program for 15 high-selling medicines including Ozempic, widening an effort to rein in drug costs.  The new prices, which will take effect in 2027, shave 38% to 85% off the list prices for drugs for diseases including asthma, cancer and diabetes.  The reductions are estimated to save Medicare, the health-insurance program for the elderly, $12 billion.",
+            "pubDate": "2025-11-26T00:22:00Z",
+            "displayTime": "2025-11-26T00:22:00Z",
+            "isHosted": false,
+            "bypassModal": false,
+            "previewUrl": "https://finance.yahoo.com/m/f7d46626-0d75-303c-af88-1b4e9f162f45/u-s-negotiates-lower-prices.html",
+            "thumbnail": {
+              "originalUrl": "https://media.zenfs.com/en/wsj.com/547cf94797ff94b0e2e9fc4177a5f0cc",
+              "originalWidth": 1280,
+              "originalHeight": 640,
+              "caption": "",
+              "resolutions": [
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/oEln8btdQ_jVlVpCczticA--~B/aD02NDA7dz0xMjgwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/wsj.com/547cf94797ff94b0e2e9fc4177a5f0cc",
+                  "width": 1280,
+                  "height": 640,
+                  "tag": "original"
+                },
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/WnqBQo7n8RUmJZ5b24aeng--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/wsj.com/547cf94797ff94b0e2e9fc4177a5f0cc",
+                  "width": 170,
+                  "height": 128,
+                  "tag": "170x128"
+                }
+              ]
+            },
+            "provider": {
+              "displayName": "The Wall Street Journal",
+              "url": "http://www.wsj.com/"
+            },
+            "canonicalUrl": {
+              "url": "https://www.wsj.com/health/pharma/u-s-negotiates-lower-prices-for-ozempic-and-14-other-drugs-c410e72c?siteid=yhoof2&yptr=yahoo",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": null,
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        },
+        {
+          "id": "4e018320-7835-32e3-a40b-4c9328c08657",
+          "content": {
+            "id": "4e018320-7835-32e3-a40b-4c9328c08657",
+            "contentType": "STORY",
+            "title": "BofA upgrades Novartis and GSK as pivotal data, new launches approach",
+            "description": "",
+            "summary": "Investing.com -- Bank of America (BofA) has turned more constructive on two of Europe\u2019s largest drugmakers, upgrading Novartis to Buy and GSK to Neutral as both companies approach a heavy year of product launches and pivotal readouts that could define their mid-term growth paths.",
+            "pubDate": "2025-11-25T09:14:49Z",
+            "displayTime": "2025-11-25T09:14:49Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": null,
+            "provider": {
+              "displayName": "Investing.com",
+              "url": "https://www.investing.com/"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/bofa-upgrades-novartis-gsk-pivotal-091449154.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/bofa-upgrades-novartis-gsk-pivotal-091449154.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        },
+        {
+          "id": "c22e79f5-e3e9-314b-8fce-7cd0a2192068",
+          "content": {
+            "id": "c22e79f5-e3e9-314b-8fce-7cd0a2192068",
+            "contentType": "STORY",
+            "title": "Update: CureVac Q3 Earnings, Revenue Fall; German Regulators Clear BioNTech Acquisition",
+            "description": "",
+            "summary": "(Update to add German regulators' clearance of BioNTech acquisition in the sixth and seventh paragra",
+            "pubDate": "2025-11-24T13:12:41Z",
+            "displayTime": "2025-11-24T13:12:41Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": null,
+            "provider": {
+              "displayName": "MT Newswires",
+              "url": "https://www.mtnewswires.com/"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/curevac-q3-earnings-revenue-fall-131241380.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/curevac-q3-earnings-revenue-fall-131241380.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": true,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        },
+        {
+          "id": "67348a92-fe4e-33f8-8ba4-1ad8a88007c9",
+          "content": {
+            "id": "67348a92-fe4e-33f8-8ba4-1ad8a88007c9",
+            "contentType": "STORY",
+            "title": "GSK Shares Surge 31% in 2025 Amid Vaccine Breakthroughs Is There Still Value?",
+            "description": "",
+            "summary": "Wondering if GSK could be a hidden value opportunity or just another stock riding pharma\u2019s global upswing? You are in the right place for a deep dive into what the numbers really say. GSK\u2019s shares have climbed 31.3% so far this year and are up nearly 40% over the past 12 months. This puts a bright spotlight on its growth and changing risk profile. The buzz around GSK this year has been fueled by positive developments in its pipeline, strategic partnerships, and growing...",
+            "pubDate": "2025-11-23T13:14:22Z",
+            "displayTime": "2025-11-23T13:14:22Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": {
+              "originalUrl": "https://media.zenfs.com/en/simply_wall_st__316/a99782b24065c2e10ff5cc21f6727f48",
+              "originalWidth": 1194,
+              "originalHeight": 432,
+              "caption": "",
+              "resolutions": [
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/sD871knG1Uc7O_uc1EPUcA--~B/aD00MzI7dz0xMTk0O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/simply_wall_st__316/a99782b24065c2e10ff5cc21f6727f48",
+                  "width": 1194,
+                  "height": 432,
+                  "tag": "original"
+                },
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/vICWFiLhuT1RGIab4SNoRg--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/simply_wall_st__316/a99782b24065c2e10ff5cc21f6727f48",
+                  "width": 170,
+                  "height": 128,
+                  "tag": "170x128"
+                }
+              ]
+            },
+            "provider": {
+              "displayName": "Simply Wall St.",
+              "url": "https://simplywall.st/"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/gsk-shares-surge-31-2025-131422093.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/gsk-shares-surge-31-2025-131422093.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        },
+        {
+          "id": "e797a5f4-4d3e-3a1f-8906-879198beeed3",
+          "content": {
+            "id": "e797a5f4-4d3e-3a1f-8906-879198beeed3",
+            "contentType": "STORY",
+            "title": "AnaptysBio Reverses Higher After Trading Legal Barbs With Pharma Giant GSK",
+            "description": "",
+            "summary": "AnaptysBio stock reversed higher Friday after the biotech company and GSK filed competing lawsuits against one another over a licensing deal.",
+            "pubDate": "2025-11-21T21:46:26Z",
+            "displayTime": "2025-11-21T21:46:26Z",
+            "isHosted": false,
+            "bypassModal": false,
+            "previewUrl": "https://finance.yahoo.com/m/e797a5f4-4d3e-3a1f-8906-879198beeed3/anaptysbio-reverses-higher.html",
+            "thumbnail": {
+              "originalUrl": "https://media.zenfs.com/en/ibd.com/fb96bfd48edba054b2a4d75e773c25ee",
+              "originalWidth": 1000,
+              "originalHeight": 563,
+              "caption": "",
+              "resolutions": [
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/zLm1bT8n.YuzM1U39BIqVQ--~B/aD01NjM7dz0xMDAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/ibd.com/fb96bfd48edba054b2a4d75e773c25ee",
+                  "width": 1000,
+                  "height": 563,
+                  "tag": "original"
+                },
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/B.cGqP_RdKwqoXdaAnB_Xw--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/ibd.com/fb96bfd48edba054b2a4d75e773c25ee",
+                  "width": 170,
+                  "height": 128,
+                  "tag": "170x128"
+                }
+              ]
+            },
+            "provider": {
+              "displayName": "Investor's Business Daily",
+              "url": "http://www.investors.com/"
+            },
+            "canonicalUrl": {
+              "url": "https://www.investors.com/news/technology/gsk-anaptysbio-licensing-deal-lawsuits-tesaro-jemperli/?src=A00220&yptr=yahoo",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": null,
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        },
+        {
+          "id": "f9b725a0-70ec-3d7c-b6ad-57019bb16362",
+          "content": {
+            "id": "f9b725a0-70ec-3d7c-b6ad-57019bb16362",
+            "contentType": "STORY",
+            "title": "Fighting Cancer With 'Smart Bombs.' What New Treatments Mean For Wall Street.",
+            "description": "",
+            "summary": "Targeted chemotherapy is here. So-called antibody drug conjugates could flip the toxic paradigm on its ear, helping more patients.",
+            "pubDate": "2025-11-21T19:37:45Z",
+            "displayTime": "2025-11-21T19:37:45Z",
+            "isHosted": false,
+            "bypassModal": false,
+            "previewUrl": "https://finance.yahoo.com/m/f9b725a0-70ec-3d7c-b6ad-57019bb16362/fighting-cancer-with-smart.html",
+            "thumbnail": {
+              "originalUrl": "https://media.zenfs.com/en/ibd.com/237de1ebdaae3c2cd271d4caaa7f01d0",
+              "originalWidth": 1000,
+              "originalHeight": 563,
+              "caption": "",
+              "resolutions": [
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/sdaHHaRPbj932zUjixvmMw--~B/aD01NjM7dz0xMDAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/ibd.com/237de1ebdaae3c2cd271d4caaa7f01d0",
+                  "width": 1000,
+                  "height": 563,
+                  "tag": "original"
+                },
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/z3afx8FYKhq5nFofDPgQvw--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/ibd.com/237de1ebdaae3c2cd271d4caaa7f01d0",
+                  "width": 170,
+                  "height": 128,
+                  "tag": "170x128"
+                }
+              ]
+            },
+            "provider": {
+              "displayName": "Investor's Business Daily",
+              "url": "http://www.investors.com/"
+            },
+            "canonicalUrl": {
+              "url": "https://www.investors.com/news/technology/biotech-stocks-antibody-drug-conjugates-adcs-cancer-treatment-chemotherapy/?src=A00220&yptr=yahoo",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": null,
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        }
+      ]
+    },
+    "recommendations": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  },
+  "holders_data": {
+    "major_holders": {
+      "status": "error"
+    },
+    "institutional_holders": {
+      "status": "error"
+    }
+  },
+  "earnings_data": {
+    "earnings": {
+      "status": "error",
+      "message": "'NoneType' object has no attribute 'empty'"
+    },
+    "calendar": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  }
+}

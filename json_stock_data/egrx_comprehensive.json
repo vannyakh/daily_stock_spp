@@ -1,6 +1,6 @@
 {
   "ticker": "EGRX",
-  "timestamp": "2025-12-03T05:20:34.414988",
+  "timestamp": "2025-12-04T04:43:35.496241",
   "intraday_data": {
     "status": "no_data",
     "message": "No intraday data available"
@@ -29,16 +29,47 @@
       "status": "no_data"
     },
     "recommendations": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
+      "status": "no_data"
     }
   },
   "holders_data": {
     "major_holders": {
-      "status": "error"
+      "status": "success",
+      "data": [
+        {
+          "Value": 0.11638
+        },
+        {
+          "Value": 0.55202
+        },
+        {
+          "Value": 0.62473
+        },
+        {
+          "Value": 7.0
+        }
+      ]
     },
     "institutional_holders": {
-      "status": "error"
+      "status": "success",
+      "data": [
+        {
+          "Date Reported": "2025-09-30 00:00:00",
+          "Holder": "Stanley-Laman Group, Ltd.",
+          "pctHeld": 0.00090000004,
+          "Shares": 12000,
+          "Value": 8399,
+          "pctChange": 0.0
+        },
+        {
+          "Date Reported": "2025-09-30 00:00:00",
+          "Holder": "Archer Investment Corp",
+          "pctHeld": 0.0,
+          "Shares": 350,
+          "Value": 244,
+          "pctChange": 0.0
+        }
+      ]
     }
   },
   "earnings_data": {
@@ -48,7 +79,7 @@
     },
     "calendar": {
       "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
+      "message": "'dict' object has no attribute 'empty'"
     }
   }
 }

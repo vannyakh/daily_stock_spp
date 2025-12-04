@@ -1,103 +1,70 @@
 {
   "ticker": "MLECW",
-  "timestamp": "2025-12-03T05:26:45.073968",
+  "timestamp": "2025-12-04T04:46:19.914344",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 2,
+    "data": [
+      {
+        "Close NICHX": 26.770000457763672,
+        "High NICHX": 26.770000457763672,
+        "Low NICHX": 26.770000457763672,
+        "Open NICHX": 26.770000457763672,
+        "Volume NICHX": 0
+      },
+      {
+        "Close NICHX": 26.770000457763672,
+        "High NICHX": 26.770000457763672,
+        "Low NICHX": 26.770000457763672,
+        "Open NICHX": 26.770000457763672,
+        "Volume NICHX": 0
+      }
+    ]
   },
   "stock_info": {
-    "status": "success",
-    "data": {
-      "address1": "89 Nexus Way",
-      "address2": "Camana Bay",
-      "city": "Grand Cayman",
-      "zip": "KY1-9009",
-      "country": "Cayman Islands",
-      "website": "https://www.moolecscience.com",
-      "industry": "Biotechnology",
-      "industryKey": "biotechnology",
-      "industryDisp": "Biotechnology",
-      "sector": "Healthcare",
-      "sectorKey": "healthcare",
-      "sectorDisp": "Healthcare",
-      "longBusinessSummary": "Moolec Science SA, a science-based ingredient company, engages in developing ingredients for food, pet food, animal feed, and dietary supplements using molecular farming technology in Cayman Islands and internationally. It produces animal proteins in plants to heal the meat production system. The company is based in Grand Cayman, Cayman Islands.",
-      "maxAge": 86400,
-      "priceHint": 4,
-      "previousClose": 0.0,
-      "open": 0.0116,
-      "dayLow": 0.0115,
-      "dayHigh": 0.0115,
-      "regularMarketPreviousClose": 0.0,
-      "regularMarketOpen": 0.0116,
-      "regularMarketDayLow": 0.0115,
-      "regularMarketDayHigh": 0.0115,
-      "volume": 29,
-      "regularMarketVolume": 29,
-      "bid": 0.0,
-      "ask": 0.0,
-      "bidSize": 0,
-      "askSize": 0,
-      "fiftyTwoWeekLow": 0.0115,
-      "fiftyTwoWeekHigh": 0.0115,
-      "trailingAnnualDividendRate": 0.0,
-      "trailingAnnualDividendYield": "NaN",
-      "currency": "USD",
-      "tradeable": false,
-      "profitMargins": 0.0,
-      "bookValue": 0.699,
-      "priceToBook": 0.016452074,
-      "SandP52WeekChange": 0.12205398,
-      "quoteType": "EQUITY",
-      "currentPrice": 0.0115,
-      "recommendationKey": "none",
-      "grossMargins": 0.0,
-      "ebitdaMargins": 0.0,
-      "operatingMargins": 0.0,
-      "financialCurrency": "USD",
-      "symbol": "MLECW",
-      "language": "en-US",
-      "region": "US",
-      "typeDisp": "Equity",
-      "quoteSourceName": "Delayed Quote",
-      "triggerable": true,
-      "customPriceAlertConfidence": "HIGH",
-      "marketState": "PREPRE",
-      "regularMarketChangePercent": 0.0,
-      "regularMarketPrice": 0.0115,
-      "sourceInterval": 15,
-      "exchangeDataDelayedBy": 0,
-      "ipoExpectedDate": "2023-01-03",
-      "cryptoTradeable": false,
-      "shortName": "Moolec Science SA Warrant",
-      "longName": "Moolec Science SA",
-      "hasPrePostMarketData": true,
-      "regularMarketChange": 0.0115,
-      "regularMarketDayRange": "0.0115 - 0.0115",
-      "fullExchangeName": "NasdaqCM",
-      "fiftyTwoWeekLowChange": 0.0,
-      "fiftyTwoWeekLowChangePercent": 0.0,
-      "fiftyTwoWeekRange": "0.0115 - 0.0115",
-      "fiftyTwoWeekHighChange": 0.0,
-      "fiftyTwoWeekHighChangePercent": 0.0,
-      "exchange": "NCM",
-      "messageBoardId": "finmb_1940369528",
-      "exchangeTimezoneName": "America/New_York",
-      "exchangeTimezoneShortName": "EST",
-      "gmtOffSetMilliseconds": -18000000,
-      "market": "us_market",
-      "esgPopulated": false,
-      "regularMarketTime": 1764340273
-    }
+    "status": "error",
+    "message": "Too Many Requests. Rate limited. Try after a while."
   },
   "financials": {
     "income_statement": {
-      "status": "success",
-      "rows": 55,
-      "columns": [
-        "2024-06-30 00:00:00",
-        "2023-06-30 00:00:00",
-        "2022-06-30 00:00:00"
-      ],
-      "data": [
-        {
-          
+      "status": "no_data"
+    },
+    "balance_sheet": {
+      "status": "no_data"
+    },
+    "cash_flow": {
+      "status": "no_data"
+    }
+  },
+  "options_data": {
+    "status": "error",
+    "error_message": "Too Many Requests. Rate limited. Try after a while."
+  },
+  "news_data": {
+    "news": {
+      "status": "no_data"
+    },
+    "recommendations": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  },
+  "holders_data": {
+    "major_holders": {
+      "status": "error"
+    },
+    "institutional_holders": {
+      "status": "error"
+    }
+  },
+  "earnings_data": {
+    "earnings": {
+      "status": "error",
+      "message": "'NoneType' object has no attribute 'empty'"
+    },
+    "calendar": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  }
+}

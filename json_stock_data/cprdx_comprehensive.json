@@ -1,79 +1,13 @@
 {
   "ticker": "CPRDX",
-  "timestamp": "2025-12-03T05:25:42.686940",
+  "timestamp": "2025-12-04T04:46:02.338655",
   "intraday_data": {
-    "status": "success",
-    "rows": 2,
-    "data": [
-      {
-        "Close": 11.380000114440918,
-        "High": 11.380000114440918,
-        "Low": 11.380000114440918,
-        "Open": 11.380000114440918,
-        "Volume": 0
-      },
-      {
-        "Close": 11.380000114440918,
-        "High": 11.380000114440918,
-        "Low": 11.380000114440918,
-        "Open": 11.380000114440918,
-        "Volume": 0
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
-    "status": "success",
-    "data": {
-      "quoteType": "MUTUALFUND",
-      "symbol": "CPRDX",
-      "language": "en-US",
-      "region": "US",
-      "typeDisp": "Fund",
-      "quoteSourceName": "Delayed Quote",
-      "triggerable": false,
-      "customPriceAlertConfidence": "NONE",
-      "currency": "USD",
-      "longName": "Clarion Partners Real Estate Income Fund Inc.",
-      "regularMarketTime": 1764723634,
-      "exchange": "NAS",
-      "messageBoardId": "finmb_595845334",
-      "exchangeTimezoneName": "America/New_York",
-      "exchangeTimezoneShortName": "EST",
-      "gmtOffSetMilliseconds": -18000000,
-      "market": "us_market",
-      "esgPopulated": false,
-      "hasPrePostMarketData": false,
-      "firstTradeDateMilliseconds": 1569850200000,
-      "priceHint": 2,
-      "regularMarketChange": 0.0,
-      "regularMarketPreviousClose": 11.38,
-      "fullExchangeName": "Nasdaq",
-      "fiftyDayAverage": 11.4484,
-      "fiftyDayAverageChange": -0.06839943,
-      "fiftyDayAverageChangePercent": -0.0059745843,
-      "twoHundredDayAverage": 11.52375,
-      "twoHundredDayAverageChange": -0.14375019,
-      "twoHundredDayAverageChangePercent": -0.012474254,
-      "sourceInterval": 15,
-      "exchangeDataDelayedBy": 0,
-      "tradeable": false,
-      "cryptoTradeable": false,
-      "fiftyTwoWeekLowChange": 0.0,
-      "fiftyTwoWeekLowChangePercent": 0.0,
-      "fiftyTwoWeekRange": "11.38 - 11.66",
-      "fiftyTwoWeekHighChange": -0.27999973,
-      "fiftyTwoWeekHighChangePercent": -0.0240137,
-      "fiftyTwoWeekLow": 11.38,
-      "fiftyTwoWeekHigh": 11.66,
-      "fiftyTwoWeekChangePercent": -2.1496117,
-      "trailingAnnualDividendRate": 0.0,
-      "trailingAnnualDividendYield": 0.0,
-      "regularMarketChangePercent": 0.0,
-      "regularMarketPrice": 11.38,
-      "marketState": "PREPRE",
-      "shortName": "Clarion Partners Real Estate In",
-      "displayName": "Clarion Partners Real Estate Income Fund"
-    }
+    "status": "error",
+    "message": "Too Many Requests. Rate limited. Try after a while."
   },
   "financials": {
     "income_statement": {
@@ -87,7 +21,8 @@
     }
   },
   "options_data": {
-    "expirations": []
+    "status": "error",
+    "error_message": "Too Many Requests. Rate limited. Try after a while."
   },
   "news_data": {
     "news": {
@@ -158,15 +93,16 @@
       ]
     },
     "recommendations": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   },
   "holders_data": {
     "major_holders": {
-      "status": "no_data"
+      "status": "error"
     },
     "institutional_holders": {
-      "status": "no_data"
+      "status": "error"
     }
   },
   "earnings_data": {
@@ -176,7 +112,7 @@
     },
     "calendar": {
       "status": "error",
-      "message": "'dict' object has no attribute 'empty'"
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   }
 }

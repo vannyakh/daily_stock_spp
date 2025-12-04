@@ -1,60 +1,9 @@
 {
   "ticker": "DGZ",
-  "timestamp": "2025-12-03T05:34:32.375585",
+  "timestamp": "2025-12-04T04:49:14.682207",
   "intraday_data": {
-    "status": "success",
-    "rows": 7,
-    "data": [
-      {
-        "Close": 5.310100078582764,
-        "High": 5.310100078582764,
-        "Low": 5.310100078582764,
-        "Open": 5.310100078582764,
-        "Volume": 630
-      },
-      {
-        "Close": 5.449399948120117,
-        "High": 5.449399948120117,
-        "Low": 5.310100078582764,
-        "Open": 5.310100078582764,
-        "Volume": 0
-      },
-      {
-        "Close": 5.550000190734863,
-        "High": 5.550000190734863,
-        "Low": 5.550000190734863,
-        "Open": 5.550000190734863,
-        "Volume": 585
-      },
-      {
-        "Close": 5.550000190734863,
-        "High": 5.550000190734863,
-        "Low": 5.550000190734863,
-        "Open": 5.550000190734863,
-        "Volume": 183
-      },
-      {
-        "Close": 5.517499923706055,
-        "High": 5.517499923706055,
-        "Low": 5.517499923706055,
-        "Open": 5.517499923706055,
-        "Volume": 590
-      },
-      {
-        "Close": 5.539999961853027,
-        "High": 5.539999961853027,
-        "Low": 5.539999961853027,
-        "Open": 5.539999961853027,
-        "Volume": 203
-      },
-      {
-        "Close": 5.524899959564209,
-        "High": 5.599999904632568,
-        "Low": 5.524899959564209,
-        "Open": 5.599999904632568,
-        "Volume": 611
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -72,7 +21,8 @@
     }
   },
   "options_data": {
-    "expirations": []
+    "status": "error",
+    "error_message": "Too Many Requests. Rate limited. Try after a while."
   },
   "news_data": {
     "news": {
@@ -654,7 +604,8 @@
       ]
     },
     "recommendations": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   },
   "holders_data": {
@@ -662,7 +613,7 @@
       "status": "error"
     },
     "institutional_holders": {
-      "status": "no_data"
+      "status": "error"
     }
   },
   "earnings_data": {
@@ -672,7 +623,7 @@
     },
     "calendar": {
       "status": "error",
-      "message": "'dict' object has no attribute 'empty'"
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   }
 }

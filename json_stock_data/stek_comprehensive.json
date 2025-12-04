@@ -1,16 +1,16 @@
 {
   "ticker": "STEK",
-  "timestamp": "2025-12-03T05:08:13.941038",
+  "timestamp": "2025-12-04T04:37:55.523351",
   "intraday_data": {
     "status": "success",
-    "rows": 2,
+    "rows": 3,
     "data": [
       {
         "Close CBIH": 0.0005000000237487257,
         "High CBIH": 0.0005000000237487257,
         "Low CBIH": 0.0005000000237487257,
         "Open CBIH": 0.0005000000237487257,
-        "Volume CBIH": 5500
+        "Volume CBIH": 0
       },
       {
         "Close CBIH": 0.0006000000284984708,
@@ -18,6 +18,13 @@
         "Low CBIH": 0.0006000000284984708,
         "Open CBIH": 0.0006000000284984708,
         "Volume CBIH": 417334
+      },
+      {
+        "Close CBIH": 0.0006000000284984708,
+        "High CBIH": 0.0006000000284984708,
+        "Low CBIH": 0.0006000000284984708,
+        "Open CBIH": 0.0006000000284984708,
+        "Volume CBIH": 0
       }
     ]
   },
@@ -45,7 +52,8 @@
       "status": "no_data"
     },
     "recommendations": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   },
   "holders_data": {

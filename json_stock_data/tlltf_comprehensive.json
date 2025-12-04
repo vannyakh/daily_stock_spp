@@ -1,53 +1,9 @@
 {
   "ticker": "TLLTF",
-  "timestamp": "2025-12-03T05:10:51.524864",
+  "timestamp": "2025-12-04T04:39:12.653353",
   "intraday_data": {
-    "status": "success",
-    "rows": 6,
-    "data": [
-      {
-        "Close BGAVF": 0.02800000086426735,
-        "High BGAVF": 0.02800000086426735,
-        "Low BGAVF": 0.02800000086426735,
-        "Open BGAVF": 0.02800000086426735,
-        "Volume BGAVF": 0
-      },
-      {
-        "Close BGAVF": 0.025100000202655792,
-        "High BGAVF": 0.025100000202655792,
-        "Low BGAVF": 0.025100000202655792,
-        "Open BGAVF": 0.025100000202655792,
-        "Volume BGAVF": 2000
-      },
-      {
-        "Close BGAVF": 0.03099999949336052,
-        "High BGAVF": 0.03099999949336052,
-        "Low BGAVF": 0.03099999949336052,
-        "Open BGAVF": 0.03099999949336052,
-        "Volume BGAVF": 57383
-      },
-      {
-        "Close BGAVF": 0.02800000086426735,
-        "High BGAVF": 0.02800000086426735,
-        "Low BGAVF": 0.02800000086426735,
-        "Open BGAVF": 0.02800000086426735,
-        "Volume BGAVF": 8720
-      },
-      {
-        "Close BGAVF": 0.02800000086426735,
-        "High BGAVF": 0.02800000086426735,
-        "Low BGAVF": 0.02800000086426735,
-        "Open BGAVF": 0.02800000086426735,
-        "Volume BGAVF": 4000
-      },
-      {
-        "Close BGAVF": 0.026000000536441803,
-        "High BGAVF": 0.026000000536441803,
-        "Low BGAVF": 0.026000000536441803,
-        "Open BGAVF": 0.026000000536441803,
-        "Volume BGAVF": 50000
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -55,15 +11,44 @@
   },
   "financials": {
     "income_statement": {
-      "status": "success",
-      "rows": 62,
-      "columns": [
-        "2024-12-31 00:00:00",
-        "2023-12-31 00:00:00",
-        "2022-12-31 00:00:00",
-        "2021-12-31 00:00:00",
-        "2020-12-31 00:00:00"
-      ],
-      "data": [
-        {
-          
+      "status": "no_data"
+    },
+    "balance_sheet": {
+      "status": "no_data"
+    },
+    "cash_flow": {
+      "status": "no_data"
+    }
+  },
+  "options_data": {
+    "status": "error",
+    "error_message": "Too Many Requests. Rate limited. Try after a while."
+  },
+  "news_data": {
+    "news": {
+      "status": "no_data"
+    },
+    "recommendations": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  },
+  "holders_data": {
+    "major_holders": {
+      "status": "error"
+    },
+    "institutional_holders": {
+      "status": "error"
+    }
+  },
+  "earnings_data": {
+    "earnings": {
+      "status": "error",
+      "message": "'NoneType' object has no attribute 'empty'"
+    },
+    "calendar": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  }
+}

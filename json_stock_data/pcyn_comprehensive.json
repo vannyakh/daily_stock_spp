@@ -1,9 +1,18 @@
 {
   "ticker": "PCYN",
-  "timestamp": "2025-12-03T05:21:01.865127",
+  "timestamp": "2025-12-04T04:43:48.107387",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 1,
+    "data": [
+      {
+        "Close PAANF": 0.29589998722076416,
+        "High PAANF": 0.29589998722076416,
+        "Low PAANF": 0.29589998722076416,
+        "Open PAANF": 0.29589998722076416,
+        "Volume PAANF": 0
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -17,14 +26,102 @@
       "status": "no_data"
     },
     "cash_flow": {
+      "status": "no_data"
+    }
+  },
+  "options_data": {
+    "status": "error",
+    "error_message": "Too Many Requests. Rate limited. Try after a while."
+  },
+  "news_data": {
+    "news": {
       "status": "success",
-      "rows": 45,
-      "columns": [
-        "2024-06-30 00:00:00",
-        "2023-06-30 00:00:00",
-        "2022-06-30 00:00:00",
-        "2021-06-30 00:00:00"
-      ],
+      "count": 1,
       "data": [
         {
-          
+          "id": "3a12c213-0e60-3622-a8a8-3faaca13a524",
+          "content": {
+            "id": "3a12c213-0e60-3622-a8a8-3faaca13a524",
+            "contentType": "STORY",
+            "title": "Procyon acquires Connecticut RIA Wooster Corthell",
+            "description": "",
+            "summary": "The acquisition increases Procyon\u2019s total assets under management to around $8bn.",
+            "pubDate": "2025-07-09T14:49:03Z",
+            "displayTime": "2025-07-09T14:49:03Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": {
+              "originalUrl": "https://media.zenfs.com/en/private_banker_international_938/81d3cc52b386c0e97dd6039ad763afa0",
+              "originalWidth": 1440,
+              "originalHeight": 810,
+              "caption": "Procyon is an independent registered investment advisory firm. Credit: Pormezz/Shutterstock.",
+              "resolutions": [
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/JCsN3.SnwpBPrjYc4hii1w--~B/aD04MTA7dz0xNDQwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/private_banker_international_938/81d3cc52b386c0e97dd6039ad763afa0",
+                  "width": 1440,
+                  "height": 810,
+                  "tag": "original"
+                },
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/0JAFN9tVhQevD3oaiaXePQ--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/private_banker_international_938/81d3cc52b386c0e97dd6039ad763afa0",
+                  "width": 170,
+                  "height": 128,
+                  "tag": "170x128"
+                }
+              ]
+            },
+            "provider": {
+              "displayName": "Private Banker International",
+              "url": "https://www.globaldata.com/"
+            },
+            "canonicalUrl": {
+              "url": "https://www.privatebankerinternational.com/news/procyon-acquires-connecticut-ria-wooster/",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/procyon-acquires-connecticut-ria-wooster-144903854.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        }
+      ]
+    },
+    "recommendations": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  },
+  "holders_data": {
+    "major_holders": {
+      "status": "error"
+    },
+    "institutional_holders": {
+      "status": "error"
+    }
+  },
+  "earnings_data": {
+    "earnings": {
+      "status": "error",
+      "message": "'NoneType' object has no attribute 'empty'"
+    },
+    "calendar": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  }
+}

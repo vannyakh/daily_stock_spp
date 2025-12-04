@@ -1,64 +1,29 @@
 {
   "ticker": "VCMIX",
-  "timestamp": "2025-12-03T05:35:50.657923",
+  "timestamp": "2025-12-04T04:49:34.087649",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 2,
+    "data": [
+      {
+        "Close": 23.719999313354492,
+        "High": 23.719999313354492,
+        "Low": 23.719999313354492,
+        "Open": 23.719999313354492,
+        "Volume": 0
+      },
+      {
+        "Close": 23.739999771118164,
+        "High": 23.739999771118164,
+        "Low": 23.739999771118164,
+        "Open": 23.739999771118164,
+        "Volume": 0
+      }
+    ]
   },
   "stock_info": {
-    "status": "success",
-    "data": {
-      "quoteType": "MUTUALFUND",
-      "symbol": "VCMIX",
-      "language": "en-US",
-      "region": "US",
-      "typeDisp": "Fund",
-      "quoteSourceName": "Delayed Quote",
-      "triggerable": false,
-      "customPriceAlertConfidence": "NONE",
-      "currency": "USD",
-      "fiftyDayAverage": 23.8844,
-      "fiftyDayAverageChange": -0.1644001,
-      "fiftyDayAverageChangePercent": -0.0068831583,
-      "twoHundredDayAverage": 24.18105,
-      "twoHundredDayAverageChange": -0.46105003,
-      "twoHundredDayAverageChangePercent": -0.019066585,
-      "sourceInterval": 15,
-      "exchangeDataDelayedBy": 0,
-      "tradeable": false,
-      "cryptoTradeable": false,
-      "hasPrePostMarketData": false,
-      "firstTradeDateMilliseconds": 1341840600000,
-      "priceHint": 2,
-      "regularMarketChange": -0.01,
-      "regularMarketPreviousClose": 23.73,
-      "fullExchangeName": "Nasdaq",
-      "averageDailyVolume3Month": 0,
-      "averageDailyVolume10Day": 0,
-      "fiftyTwoWeekLowChange": 0.099998474,
-      "fiftyTwoWeekLowChangePercent": 0.0042336355,
-      "fiftyTwoWeekRange": "23.62 - 24.83",
-      "fiftyTwoWeekHighChange": -1.1100006,
-      "fiftyTwoWeekHighChangePercent": -0.044704013,
-      "fiftyTwoWeekLow": 23.62,
-      "fiftyTwoWeekHigh": 24.83,
-      "fiftyTwoWeekChangePercent": -4.3916225,
-      "trailingAnnualDividendRate": 0.0,
-      "trailingAnnualDividendYield": 0.0,
-      "shortName": "Versus Capital Multi-Manager Re",
-      "longName": "Versus Capital Real Estate Fund LLC",
-      "marketState": "PREPRE",
-      "regularMarketChangePercent": -0.04214075,
-      "regularMarketPrice": 23.72,
-      "regularMarketTime": 1764723928,
-      "exchange": "NAS",
-      "messageBoardId": "finmb_154147602",
-      "exchangeTimezoneName": "America/New_York",
-      "exchangeTimezoneShortName": "EST",
-      "gmtOffSetMilliseconds": -18000000,
-      "market": "us_market",
-      "esgPopulated": false
-    }
+    "status": "error",
+    "message": "Too Many Requests. Rate limited. Try after a while."
   },
   "financials": {
     "income_statement": {
@@ -72,22 +37,24 @@
     }
   },
   "options_data": {
-    "expirations": []
+    "status": "error",
+    "error_message": "Too Many Requests. Rate limited. Try after a while."
   },
   "news_data": {
     "news": {
       "status": "no_data"
     },
     "recommendations": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   },
   "holders_data": {
     "major_holders": {
-      "status": "no_data"
+      "status": "error"
     },
     "institutional_holders": {
-      "status": "no_data"
+      "status": "error"
     }
   },
   "earnings_data": {
@@ -97,7 +64,7 @@
     },
     "calendar": {
       "status": "error",
-      "message": "'dict' object has no attribute 'empty'"
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   }
 }

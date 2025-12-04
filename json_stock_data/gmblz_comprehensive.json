@@ -1,9 +1,25 @@
 {
   "ticker": "GMBLZ",
-  "timestamp": "2025-12-03T05:28:41.659854",
+  "timestamp": "2025-12-04T04:46:58.585274",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 2,
+    "data": [
+      {
+        "Close SRRIX": 55.59000015258789,
+        "High SRRIX": 55.59000015258789,
+        "Low SRRIX": 55.59000015258789,
+        "Open SRRIX": 55.59000015258789,
+        "Volume SRRIX": 0
+      },
+      {
+        "Close SRRIX": 55.619998931884766,
+        "High SRRIX": 55.619998931884766,
+        "Low SRRIX": 55.619998931884766,
+        "Open SRRIX": 55.619998931884766,
+        "Volume SRRIX": 0
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -17,13 +33,38 @@
       "status": "no_data"
     },
     "cash_flow": {
-      "status": "success",
-      "rows": 63,
-      "columns": [
-        "2023-06-30 00:00:00",
-        "2022-06-30 00:00:00",
-        "2021-06-30 00:00:00"
-      ],
-      "data": [
-        {
-          
+      "status": "no_data"
+    }
+  },
+  "options_data": {
+    "status": "error",
+    "error_message": "Too Many Requests. Rate limited. Try after a while."
+  },
+  "news_data": {
+    "news": {
+      "status": "no_data"
+    },
+    "recommendations": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  },
+  "holders_data": {
+    "major_holders": {
+      "status": "error"
+    },
+    "institutional_holders": {
+      "status": "error"
+    }
+  },
+  "earnings_data": {
+    "earnings": {
+      "status": "error",
+      "message": "'NoneType' object has no attribute 'empty'"
+    },
+    "calendar": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  }
+}

@@ -1,97 +1,43 @@
 {
   "ticker": "HTFC",
-  "timestamp": "2025-12-03T05:35:45.009006",
+  "timestamp": "2025-12-04T04:49:33.223958",
   "intraday_data": {
     "status": "success",
-    "rows": 2,
+    "rows": 4,
     "data": [
       {
-        "Close HTFB": 25.100000381469727,
-        "High HTFB": 25.100000381469727,
-        "Low HTFB": 25.100000381469727,
-        "Open HTFB": 25.100000381469727,
-        "Volume HTFB": 0
+        "Close": 24.940000534057617,
+        "High": 24.940000534057617,
+        "Low": 24.940000534057617,
+        "Open": 24.940000534057617,
+        "Volume": 0
       },
       {
-        "Close HTFB": 25.100000381469727,
-        "High HTFB": 25.100000381469727,
-        "Low HTFB": 25.100000381469727,
-        "Open HTFB": 25.100000381469727,
-        "Volume HTFB": 100
+        "Close": 24.799999237060547,
+        "High": 24.799999237060547,
+        "Low": 24.799999237060547,
+        "Open": 24.799999237060547,
+        "Volume": 285
+      },
+      {
+        "Close": 24.785999298095703,
+        "High": 24.785999298095703,
+        "Low": 24.785999298095703,
+        "Open": 24.785999298095703,
+        "Volume": 0
+      },
+      {
+        "Close": 24.889999389648438,
+        "High": 24.889999389648438,
+        "Low": 24.889999389648438,
+        "Open": 24.889999389648438,
+        "Volume": 125
       }
     ]
   },
   "stock_info": {
-    "status": "success",
-    "data": {
-      "maxAge": 86400,
-      "priceHint": 2,
-      "previousClose": 24.76,
-      "open": 24.94,
-      "dayLow": 24.8,
-      "dayHigh": 24.94,
-      "regularMarketPreviousClose": 24.76,
-      "regularMarketOpen": 24.94,
-      "regularMarketDayLow": 24.8,
-      "regularMarketDayHigh": 24.94,
-      "volume": 770,
-      "regularMarketVolume": 770,
-      "averageVolume": 1377,
-      "averageVolume10days": 1560,
-      "averageDailyVolume10Day": 1560,
-      "bid": 0.0,
-      "ask": 0.0,
-      "bidSize": 100,
-      "askSize": 300,
-      "fiftyTwoWeekLow": 23.84,
-      "fiftyTwoWeekHigh": 24.96,
-      "allTimeHigh": 25.99,
-      "allTimeLow": 21.8,
-      "fiftyDayAverage": 24.79218,
-      "twoHundredDayAverage": 24.60478,
-      "currency": "USD",
-      "tradeable": false,
-      "quoteType": "EQUITY",
-      "symbol": "HTFC",
-      "language": "en-US",
-      "region": "US",
-      "typeDisp": "Equity",
-      "quoteSourceName": "Delayed Quote",
-      "triggerable": true,
-      "customPriceAlertConfidence": "HIGH",
-      "regularMarketChangePercent": 0.161547,
-      "regularMarketPrice": 24.8,
-      "marketState": "PREPRE",
-      "regularMarketTime": 1764707141,
-      "exchange": "NYQ",
-      "messageBoardId": "finmb_99798146",
-      "exchangeTimezoneName": "America/New_York",
-      "exchangeTimezoneShortName": "EST",
-      "gmtOffSetMilliseconds": -18000000,
-      "market": "us_market",
-      "esgPopulated": false,
-      "fiftyDayAverageChange": 0.007820129,
-      "fiftyDayAverageChangePercent": 0.00031542729,
-      "twoHundredDayAverageChange": 0.19521904,
-      "twoHundredDayAverageChangePercent": 0.007934191,
-      "sourceInterval": 15,
-      "exchangeDataDelayedBy": 0,
-      "cryptoTradeable": false,
-      "regularMarketChange": 0.039999,
-      "regularMarketDayRange": "24.8 - 24.94",
-      "fullExchangeName": "NYSE",
-      "averageDailyVolume3Month": 1377,
-      "fiftyTwoWeekLowChange": 0.9599991,
-      "fiftyTwoWeekLowChangePercent": 0.040268417,
-      "fiftyTwoWeekRange": "23.84 - 24.96",
-      "fiftyTwoWeekHighChange": -0.15999985,
-      "fiftyTwoWeekHighChangePercent": -0.0064102504,
-      "fiftyTwoWeekChangePercent": 1.6837835,
-      "dividendDate": 1767052800,
-      "hasPrePostMarketData": true,
-      "firstTradeDateMilliseconds": 1656423000000,
-      "shortName": "Horizon Technology Finance Corp"
-    }
+    "status": "error",
+    "message": "Too Many Requests. Rate limited. Try after a while."
   },
   "financials": {
     "income_statement": {
@@ -105,22 +51,24 @@
     }
   },
   "options_data": {
-    "expirations": []
+    "status": "error",
+    "error_message": "Too Many Requests. Rate limited. Try after a while."
   },
   "news_data": {
     "news": {
       "status": "no_data"
     },
     "recommendations": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   },
   "holders_data": {
     "major_holders": {
-      "status": "no_data"
+      "status": "error"
     },
     "institutional_holders": {
-      "status": "no_data"
+      "status": "error"
     }
   },
   "earnings_data": {
@@ -130,7 +78,7 @@
     },
     "calendar": {
       "status": "error",
-      "message": "'dict' object has no attribute 'empty'"
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   }
 }

@@ -1,83 +1,14 @@
 {
   "ticker": "GREEL",
-  "timestamp": "2025-12-03T05:25:48.534692",
+  "timestamp": "2025-12-04T04:46:03.336312",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 0,
+    "data": []
   },
   "stock_info": {
-    "status": "success",
-    "data": {
-      "maxAge": 86400,
-      "priceHint": 2,
-      "previousClose": 16.69,
-      "open": 16.89,
-      "dayLow": 16.89,
-      "dayHigh": 17.0,
-      "regularMarketPreviousClose": 16.69,
-      "regularMarketOpen": 16.89,
-      "regularMarketDayLow": 16.89,
-      "regularMarketDayHigh": 17.0,
-      "volume": 780,
-      "regularMarketVolume": 780,
-      "averageVolume": 5322,
-      "averageVolume10days": 3610,
-      "averageDailyVolume10Day": 3610,
-      "bid": 14.0,
-      "ask": 17.8,
-      "bidSize": 1,
-      "askSize": 1,
-      "fiftyTwoWeekLow": 6.33,
-      "fiftyTwoWeekHigh": 17.98,
-      "allTimeHigh": 25.425,
-      "allTimeLow": 0.55,
-      "fiftyDayAverage": 13.80904,
-      "twoHundredDayAverage": 9.562635,
-      "currency": "USD",
-      "tradeable": false,
-      "quoteType": "EQUITY",
-      "symbol": "GREEL",
-      "language": "en-US",
-      "region": "US",
-      "typeDisp": "Equity",
-      "quoteSourceName": "Delayed Quote",
-      "triggerable": true,
-      "customPriceAlertConfidence": "HIGH",
-      "marketState": "PREPRE",
-      "fiftyTwoWeekChangePercent": 60.789978,
-      "dividendDate": 1761868800,
-      "fiftyDayAverageChange": 3.19096,
-      "fiftyDayAverageChangePercent": 0.23107761,
-      "twoHundredDayAverageChange": 7.4373646,
-      "twoHundredDayAverageChangePercent": 0.7777526,
-      "sourceInterval": 15,
-      "exchangeDataDelayedBy": 0,
-      "ipoExpectedDate": "2021-10-14",
-      "cryptoTradeable": false,
-      "hasPrePostMarketData": true,
-      "firstTradeDateMilliseconds": 1634218200000,
-      "regularMarketChange": 0.30999947,
-      "regularMarketDayRange": "16.89 - 17.0",
-      "fullExchangeName": "NasdaqGS",
-      "averageDailyVolume3Month": 5322,
-      "fiftyTwoWeekLowChange": 10.67,
-      "fiftyTwoWeekLowChangePercent": 1.685624,
-      "fiftyTwoWeekRange": "6.33 - 17.98",
-      "fiftyTwoWeekHighChange": -0.97999954,
-      "fiftyTwoWeekHighChangePercent": -0.054504983,
-      "regularMarketTime": 1764709200,
-      "exchange": "NMS",
-      "messageBoardId": "finmb_703924699",
-      "exchangeTimezoneName": "America/New_York",
-      "exchangeTimezoneShortName": "EST",
-      "gmtOffSetMilliseconds": -18000000,
-      "market": "us_market",
-      "esgPopulated": false,
-      "shortName": "Greenidge Generation Holdings I",
-      "longName": "Greenidge Generation Holdings Inc. 8.50% Senior Notes due 2026",
-      "regularMarketChangePercent": 1.8573964,
-      "regularMarketPrice": 17.0
-    }
+    "status": "error",
+    "message": "Too Many Requests. Rate limited. Try after a while."
   },
   "financials": {
     "income_statement": {
@@ -91,22 +22,24 @@
     }
   },
   "options_data": {
-    "expirations": []
+    "status": "error",
+    "error_message": "Too Many Requests. Rate limited. Try after a while."
   },
   "news_data": {
     "news": {
       "status": "no_data"
     },
     "recommendations": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   },
   "holders_data": {
     "major_holders": {
-      "status": "no_data"
+      "status": "error"
     },
     "institutional_holders": {
-      "status": "no_data"
+      "status": "error"
     }
   },
   "earnings_data": {
@@ -116,7 +49,7 @@
     },
     "calendar": {
       "status": "error",
-      "message": "'dict' object has no attribute 'empty'"
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   }
 }

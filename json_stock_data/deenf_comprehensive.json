@@ -1,60 +1,13 @@
 {
   "ticker": "DEENF",
-  "timestamp": "2025-12-03T05:34:29.552889",
+  "timestamp": "2025-12-04T04:49:14.101686",
   "intraday_data": {
     "status": "no_data",
     "message": "No intraday data available"
   },
   "stock_info": {
-    "status": "success",
-    "data": {
-      "maxAge": 86400,
-      "priceHint": 4,
-      "previousClose": 0.0001,
-      "open": 3.0,
-      "dayLow": 3.0,
-      "dayHigh": 3.0,
-      "regularMarketPreviousClose": 0.0001,
-      "regularMarketOpen": 3.0,
-      "regularMarketDayLow": 3.0,
-      "regularMarketDayHigh": 3.0,
-      "volume": 100,
-      "regularMarketVolume": 100,
-      "fiftyTwoWeekLow": 3.0,
-      "fiftyTwoWeekHigh": 3.0,
-      "tradeable": false,
-      "quoteType": "ETF",
-      "symbol": "DEENF",
-      "language": "en-US",
-      "region": "US",
-      "typeDisp": "ETF",
-      "quoteSourceName": "Delayed Quote",
-      "triggerable": false,
-      "customPriceAlertConfidence": "LOW",
-      "regularMarketTime": 1759160008,
-      "exchange": "PNK",
-      "messageBoardId": "finmb_44239053",
-      "exchangeTimezoneName": "America/New_York",
-      "exchangeTimezoneShortName": "EST",
-      "gmtOffSetMilliseconds": -18000000,
-      "market": "us_market",
-      "esgPopulated": false,
-      "marketState": "PREPRE",
-      "regularMarketChangePercent": 100.003334,
-      "regularMarketPrice": 3.0,
-      "hasPrePostMarketData": false,
-      "regularMarketChange": 2.9999,
-      "regularMarketDayRange": "3.0 - 3.0",
-      "fullExchangeName": "OTC Markets OTCPK",
-      "fiftyTwoWeekLowChange": 0.0,
-      "fiftyTwoWeekLowChangePercent": 0.0,
-      "fiftyTwoWeekRange": "3.0 - 3.0",
-      "fiftyTwoWeekHighChange": 0.0,
-      "fiftyTwoWeekHighChangePercent": 0.0,
-      "sourceInterval": 15,
-      "exchangeDataDelayedBy": 0,
-      "cryptoTradeable": false
-    }
+    "status": "error",
+    "message": "Too Many Requests. Rate limited. Try after a while."
   },
   "financials": {
     "income_statement": {
@@ -76,15 +29,16 @@
       "status": "no_data"
     },
     "recommendations": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   },
   "holders_data": {
     "major_holders": {
-      "status": "no_data"
+      "status": "error"
     },
     "institutional_holders": {
-      "status": "no_data"
+      "status": "error"
     }
   },
   "earnings_data": {
@@ -94,7 +48,7 @@
     },
     "calendar": {
       "status": "error",
-      "message": "'dict' object has no attribute 'empty'"
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   }
 }

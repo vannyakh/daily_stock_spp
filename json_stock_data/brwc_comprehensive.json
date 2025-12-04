@@ -1,39 +1,9 @@
 {
   "ticker": "BRWC",
-  "timestamp": "2025-12-03T05:11:05.163668",
+  "timestamp": "2025-12-04T04:39:15.919481",
   "intraday_data": {
-    "status": "success",
-    "rows": 4,
-    "data": [
-      {
-        "Close": 0.4000000059604645,
-        "High": 0.4000000059604645,
-        "Low": 0.4000000059604645,
-        "Open": 0.4000000059604645,
-        "Volume": 0
-      },
-      {
-        "Close": 0.4000000059604645,
-        "High": 0.4000000059604645,
-        "Low": 0.4000000059604645,
-        "Open": 0.4000000059604645,
-        "Volume": 16001
-      },
-      {
-        "Close": 0.4099999964237213,
-        "High": 0.4099999964237213,
-        "Low": 0.4099999964237213,
-        "Open": 0.4099999964237213,
-        "Volume": 20000
-      },
-      {
-        "Close": 0.44999998807907104,
-        "High": 0.44999998807907104,
-        "Low": 0.44999998807907104,
-        "Open": 0.44999998807907104,
-        "Volume": 2500
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -41,13 +11,44 @@
   },
   "financials": {
     "income_statement": {
-      "status": "success",
-      "rows": 37,
-      "columns": [
-        "2024-07-31 00:00:00",
-        "2023-07-31 00:00:00",
-        "2022-07-31 00:00:00"
-      ],
-      "data": [
-        {
-          
+      "status": "no_data"
+    },
+    "balance_sheet": {
+      "status": "no_data"
+    },
+    "cash_flow": {
+      "status": "no_data"
+    }
+  },
+  "options_data": {
+    "status": "error",
+    "error_message": "Too Many Requests. Rate limited. Try after a while."
+  },
+  "news_data": {
+    "news": {
+      "status": "no_data"
+    },
+    "recommendations": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  },
+  "holders_data": {
+    "major_holders": {
+      "status": "error"
+    },
+    "institutional_holders": {
+      "status": "error"
+    }
+  },
+  "earnings_data": {
+    "earnings": {
+      "status": "error",
+      "message": "'NoneType' object has no attribute 'empty'"
+    },
+    "calendar": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  }
+}

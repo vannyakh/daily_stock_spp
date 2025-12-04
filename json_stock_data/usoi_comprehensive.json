@@ -1,82 +1,13 @@
 {
   "ticker": "USOI",
-  "timestamp": "2025-12-03T05:34:26.692109",
+  "timestamp": "2025-12-04T04:49:13.249913",
   "intraday_data": {
     "status": "no_data",
     "message": "No intraday data available"
   },
   "stock_info": {
-    "status": "success",
-    "data": {
-      "language": "en-US",
-      "region": "US",
-      "quoteType": "ETF",
-      "typeDisp": "ETF",
-      "quoteSourceName": "Nasdaq Real Time Price",
-      "triggerable": true,
-      "customPriceAlertConfidence": "HIGH",
-      "currency": "USD",
-      "longName": "UBS ETRACS Crude Oil Shares Covered Call ETN",
-      "postMarketTime": 1764722304,
-      "regularMarketTime": 1764709200,
-      "exchange": "NGM",
-      "messageBoardId": "finmb_429652484",
-      "exchangeTimezoneName": "America/New_York",
-      "exchangeTimezoneShortName": "EST",
-      "gmtOffSetMilliseconds": -18000000,
-      "market": "us_market",
-      "esgPopulated": false,
-      "hasPrePostMarketData": true,
-      "firstTradeDateMilliseconds": 1493213400000,
-      "priceHint": 2,
-      "postMarketChangePercent": 0.041486118,
-      "postMarketPrice": 48.23,
-      "postMarketChange": 0.020000458,
-      "regularMarketChange": -0.6100006,
-      "regularMarketDayHigh": 48.75,
-      "regularMarketDayRange": "48.1563 - 48.75",
-      "regularMarketDayLow": 48.1563,
-      "regularMarketVolume": 62102,
-      "regularMarketPreviousClose": 48.82,
-      "bid": 48.06,
-      "ask": 48.65,
-      "bidSize": 1,
-      "askSize": 1,
-      "fullExchangeName": "NasdaqGM",
-      "regularMarketOpen": 48.4665,
-      "averageDailyVolume3Month": 61024,
-      "averageDailyVolume10Day": 63630,
-      "fiftyDayAverage": 49.48186,
-      "fiftyDayAverageChange": -1.271862,
-      "fiftyDayAverageChangePercent": -0.025703602,
-      "twoHundredDayAverage": 53.82011,
-      "twoHundredDayAverageChange": -5.610111,
-      "twoHundredDayAverageChangePercent": -0.1042382,
-      "netExpenseRatio": 0.85,
-      "sourceInterval": 15,
-      "exchangeDataDelayedBy": 0,
-      "tradeable": false,
-      "cryptoTradeable": false,
-      "fiftyTwoWeekLowChange": 1.2099991,
-      "fiftyTwoWeekLowChangePercent": 0.025744662,
-      "fiftyTwoWeekRange": "47.0 - 68.01",
-      "fiftyTwoWeekHighChange": -19.800003,
-      "fiftyTwoWeekHighChangePercent": -0.2911337,
-      "fiftyTwoWeekLow": 47.0,
-      "fiftyTwoWeekHigh": 68.01,
-      "fiftyTwoWeekChangePercent": -23.717546,
-      "dividendDate": 1545782400,
-      "dividendYield": 29.29,
-      "ytdReturn": -5.73399,
-      "trailingThreeMonthReturns": 2.79304,
-      "trailingThreeMonthNavReturns": 2.79304,
-      "netAssets": 287196608.0,
-      "regularMarketChangePercent": -1.2494892,
-      "regularMarketPrice": 48.21,
-      "marketState": "PREPRE",
-      "shortName": "ETRACS Crude Oil Shares Covered",
-      "symbol": "USOI"
-    }
+    "status": "error",
+    "message": "Too Many Requests. Rate limited. Try after a while."
   },
   "financials": {
     "income_statement": {
@@ -90,22 +21,24 @@
     }
   },
   "options_data": {
-    "expirations": []
+    "status": "error",
+    "error_message": "Too Many Requests. Rate limited. Try after a while."
   },
   "news_data": {
     "news": {
       "status": "no_data"
     },
     "recommendations": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   },
   "holders_data": {
     "major_holders": {
-      "status": "no_data"
+      "status": "error"
     },
     "institutional_holders": {
-      "status": "no_data"
+      "status": "error"
     }
   },
   "earnings_data": {
@@ -115,7 +48,7 @@
     },
     "calendar": {
       "status": "error",
-      "message": "'dict' object has no attribute 'empty'"
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   }
 }

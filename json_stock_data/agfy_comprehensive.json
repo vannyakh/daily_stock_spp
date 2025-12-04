@@ -1,88 +1,9 @@
 {
   "ticker": "AGFY",
-  "timestamp": "2025-12-03T04:59:19.699814",
+  "timestamp": "2025-12-04T04:33:49.345357",
   "intraday_data": {
-    "status": "success",
-    "rows": 11,
-    "data": [
-      {
-        "Close LOMLF": 0.20000000298023224,
-        "High LOMLF": 0.20000000298023224,
-        "Low LOMLF": 0.20000000298023224,
-        "Open LOMLF": 0.20000000298023224,
-        "Volume LOMLF": 0
-      },
-      {
-        "Close LOMLF": 0.20000000298023224,
-        "High LOMLF": 0.20000000298023224,
-        "Low LOMLF": 0.20000000298023224,
-        "Open LOMLF": 0.20000000298023224,
-        "Volume LOMLF": 5500
-      },
-      {
-        "Close LOMLF": 0.19609999656677246,
-        "High LOMLF": 0.19609999656677246,
-        "Low LOMLF": 0.19609999656677246,
-        "Open LOMLF": 0.19609999656677246,
-        "Volume LOMLF": 194500
-      },
-      {
-        "Close LOMLF": 0.20600000023841858,
-        "High LOMLF": 0.20600000023841858,
-        "Low LOMLF": 0.20600000023841858,
-        "Open LOMLF": 0.20600000023841858,
-        "Volume LOMLF": 10000
-      },
-      {
-        "Close LOMLF": 0.19589999318122864,
-        "High LOMLF": 0.19589999318122864,
-        "Low LOMLF": 0.19589999318122864,
-        "Open LOMLF": 0.19589999318122864,
-        "Volume LOMLF": 4223
-      },
-      {
-        "Close LOMLF": 0.20000000298023224,
-        "High LOMLF": 0.20000000298023224,
-        "Low LOMLF": 0.20000000298023224,
-        "Open LOMLF": 0.20000000298023224,
-        "Volume LOMLF": 15000
-      },
-      {
-        "Close LOMLF": 0.20489999651908875,
-        "High LOMLF": 0.20489999651908875,
-        "Low LOMLF": 0.20489999651908875,
-        "Open LOMLF": 0.20489999651908875,
-        "Volume LOMLF": 4750
-      },
-      {
-        "Close LOMLF": 0.20250000059604645,
-        "High LOMLF": 0.20250000059604645,
-        "Low LOMLF": 0.20250000059604645,
-        "Open LOMLF": 0.20250000059604645,
-        "Volume LOMLF": 1000
-      },
-      {
-        "Close LOMLF": 0.20250000059604645,
-        "High LOMLF": 0.20250000059604645,
-        "Low LOMLF": 0.20250000059604645,
-        "Open LOMLF": 0.20250000059604645,
-        "Volume LOMLF": 19000
-      },
-      {
-        "Close LOMLF": 0.19499999284744263,
-        "High LOMLF": 0.19629999995231628,
-        "Low LOMLF": 0.19499999284744263,
-        "Open LOMLF": 0.19629999995231628,
-        "Volume LOMLF": 34490
-      },
-      {
-        "Close LOMLF": 0.19699999690055847,
-        "High LOMLF": 0.19699999690055847,
-        "Low LOMLF": 0.19699999690055847,
-        "Open LOMLF": 0.19699999690055847,
-        "Volume LOMLF": 14000
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -100,7 +21,8 @@
     }
   },
   "options_data": {
-    "expirations": []
+    "status": "error",
+    "error_message": "Too Many Requests. Rate limited. Try after a while."
   },
   "news_data": {
     "news": {
@@ -341,10 +263,10 @@
   },
   "holders_data": {
     "major_holders": {
-      "status": "no_data"
+      "status": "error"
     },
     "institutional_holders": {
-      "status": "no_data"
+      "status": "error"
     }
   },
   "earnings_data": {

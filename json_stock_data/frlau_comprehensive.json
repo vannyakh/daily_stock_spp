@@ -1,46 +1,9 @@
 {
   "ticker": "FRLAU",
-  "timestamp": "2025-12-03T05:28:05.099368",
+  "timestamp": "2025-12-04T04:46:47.715718",
   "intraday_data": {
-    "status": "success",
-    "rows": 5,
-    "data": [
-      {
-        "Close KLTOW": 0.15000000596046448,
-        "High KLTOW": 0.15000000596046448,
-        "Low KLTOW": 0.15000000596046448,
-        "Open KLTOW": 0.15000000596046448,
-        "Volume KLTOW": 0
-      },
-      {
-        "Close KLTOW": 0.14949999749660492,
-        "High KLTOW": 0.14990000426769257,
-        "Low KLTOW": 0.14949999749660492,
-        "Open KLTOW": 0.14949999749660492,
-        "Volume KLTOW": 1319
-      },
-      {
-        "Close KLTOW": 0.13030000030994415,
-        "High KLTOW": 0.13030000030994415,
-        "Low KLTOW": 0.13030000030994415,
-        "Open KLTOW": 0.13030000030994415,
-        "Volume KLTOW": 1327
-      },
-      {
-        "Close KLTOW": 0.14169999957084656,
-        "High KLTOW": 0.14169999957084656,
-        "Low KLTOW": 0.14169999957084656,
-        "Open KLTOW": 0.14169999957084656,
-        "Volume KLTOW": 2496
-      },
-      {
-        "Close KLTOW": 0.14480000734329224,
-        "High KLTOW": 0.15399999916553497,
-        "Low KLTOW": 0.14470000565052032,
-        "Open KLTOW": 0.14480000734329224,
-        "Volume KLTOW": 1307
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -63,7 +26,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

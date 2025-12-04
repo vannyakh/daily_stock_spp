@@ -1,81 +1,13 @@
 {
   "ticker": "TFSA",
-  "timestamp": "2025-12-03T05:13:26.847760",
+  "timestamp": "2025-12-04T04:40:22.400700",
   "intraday_data": {
     "status": "no_data",
     "message": "No intraday data available"
   },
   "stock_info": {
-    "status": "success",
-    "data": {
-      "maxAge": 86400,
-      "priceHint": 2,
-      "previousClose": 24.925,
-      "open": 24.95,
-      "dayLow": 24.925,
-      "dayHigh": 24.9499,
-      "regularMarketPreviousClose": 24.925,
-      "regularMarketOpen": 24.95,
-      "regularMarketDayLow": 24.925,
-      "regularMarketDayHigh": 24.9499,
-      "volume": 355,
-      "regularMarketVolume": 355,
-      "averageVolume": 606,
-      "averageVolume10days": 670,
-      "averageDailyVolume10Day": 670,
-      "bid": 25.0,
-      "ask": 25.88,
-      "bidSize": 300,
-      "askSize": 100,
-      "fiftyTwoWeekLow": 23.28,
-      "fiftyTwoWeekHigh": 26.85,
-      "allTimeHigh": 27.58,
-      "allTimeLow": 19.41,
-      "fiftyDayAverage": 24.77434,
-      "twoHundredDayAverage": 24.63833,
-      "currency": "USD",
-      "tradeable": false,
-      "quoteType": "EQUITY",
-      "symbol": "TFSA",
-      "language": "en-US",
-      "region": "US",
-      "typeDisp": "Equity",
-      "quoteSourceName": "Delayed Quote",
-      "triggerable": true,
-      "customPriceAlertConfidence": "HIGH",
-      "regularMarketChange": 0.0,
-      "regularMarketDayRange": "24.925 - 24.9499",
-      "hasPrePostMarketData": true,
-      "firstTradeDateMilliseconds": 1613053800000,
-      "fiftyDayAverageChange": 0.15065956,
-      "fiftyDayAverageChangePercent": 0.0060812747,
-      "twoHundredDayAverageChange": 0.28666878,
-      "twoHundredDayAverageChangePercent": 0.011635073,
-      "sourceInterval": 15,
-      "exchangeDataDelayedBy": 0,
-      "fullExchangeName": "NYSE",
-      "averageDailyVolume3Month": 606,
-      "fiftyTwoWeekLowChange": 1.6449986,
-      "fiftyTwoWeekLowChangePercent": 0.07066145,
-      "fiftyTwoWeekRange": "23.28 - 26.85",
-      "fiftyTwoWeekHighChange": -1.9250011,
-      "fiftyTwoWeekHighChangePercent": -0.07169464,
-      "fiftyTwoWeekChangePercent": 2.1516442,
-      "dividendDate": 1767052800,
-      "regularMarketTime": 1764090650,
-      "exchange": "NYQ",
-      "messageBoardId": "finmb_286423235",
-      "exchangeTimezoneName": "America/New_York",
-      "exchangeTimezoneShortName": "EST",
-      "gmtOffSetMilliseconds": -18000000,
-      "market": "us_market",
-      "esgPopulated": false,
-      "cryptoTradeable": false,
-      "regularMarketChangePercent": 0.0,
-      "regularMarketPrice": 24.925,
-      "marketState": "PREPRE",
-      "shortName": "Terra Income Fund 6, LLC 7.00% "
-    }
+    "status": "error",
+    "message": "Too Many Requests. Rate limited. Try after a while."
   },
   "financials": {
     "income_statement": {
@@ -89,22 +21,24 @@
     }
   },
   "options_data": {
-    "expirations": []
+    "status": "error",
+    "error_message": "Too Many Requests. Rate limited. Try after a while."
   },
   "news_data": {
     "news": {
       "status": "no_data"
     },
     "recommendations": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   },
   "holders_data": {
     "major_holders": {
-      "status": "no_data"
+      "status": "error"
     },
     "institutional_holders": {
-      "status": "no_data"
+      "status": "error"
     }
   },
   "earnings_data": {
@@ -114,7 +48,7 @@
     },
     "calendar": {
       "status": "error",
-      "message": "'dict' object has no attribute 'empty'"
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   }
 }

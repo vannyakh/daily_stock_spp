@@ -1,30 +1,23 @@
 {
   "ticker": "FZMD",
-  "timestamp": "2025-12-03T05:20:26.321854",
+  "timestamp": "2025-12-04T04:43:30.654264",
   "intraday_data": {
     "status": "success",
-    "rows": 3,
+    "rows": 2,
     "data": [
       {
-        "Close PMDI": 1.9800000190734863,
-        "High PMDI": 1.9800000190734863,
-        "Low PMDI": 1.9800000190734863,
-        "Open PMDI": 1.9800000190734863,
-        "Volume PMDI": 0
+        "Close WBSR": 0.029999999329447746,
+        "High WBSR": 0.029999999329447746,
+        "Low WBSR": 0.029999999329447746,
+        "Open WBSR": 0.029999999329447746,
+        "Volume WBSR": 0
       },
       {
-        "Close PMDI": 1.9500000476837158,
-        "High PMDI": 1.9700000286102295,
-        "Low PMDI": 1.9500000476837158,
-        "Open PMDI": 1.9700000286102295,
-        "Volume PMDI": 212
-      },
-      {
-        "Close PMDI": 1.8700000047683716,
-        "High PMDI": 1.8700000047683716,
-        "Low PMDI": 1.8700000047683716,
-        "Open PMDI": 1.8700000047683716,
-        "Volume PMDI": 41
+        "Close WBSR": 0.029999999329447746,
+        "High WBSR": 0.029999999329447746,
+        "Low WBSR": 0.029999999329447746,
+        "Open WBSR": 0.029999999329447746,
+        "Volume WBSR": 33333
       }
     ]
   },
@@ -40,13 +33,38 @@
       "status": "no_data"
     },
     "cash_flow": {
-      "status": "success",
-      "rows": 47,
-      "columns": [
-        "2022-12-31 00:00:00",
-        "2021-12-31 00:00:00",
-        "2020-12-31 00:00:00"
-      ],
-      "data": [
-        {
-          
+      "status": "no_data"
+    }
+  },
+  "options_data": {
+    "status": "error",
+    "error_message": "Too Many Requests. Rate limited. Try after a while."
+  },
+  "news_data": {
+    "news": {
+      "status": "no_data"
+    },
+    "recommendations": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  },
+  "holders_data": {
+    "major_holders": {
+      "status": "error"
+    },
+    "institutional_holders": {
+      "status": "error"
+    }
+  },
+  "earnings_data": {
+    "earnings": {
+      "status": "error",
+      "message": "'NoneType' object has no attribute 'empty'"
+    },
+    "calendar": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  }
+}

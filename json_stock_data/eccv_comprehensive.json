@@ -1,9 +1,35 @@
 {
   "ticker": "ECCV",
-  "timestamp": "2025-12-03T05:29:57.946063",
+  "timestamp": "2025-12-04T04:47:19.442378",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 2,
+    "data": [
+      {
+        "Close ECC-PD": 19.40999984741211,
+        "Close": 23.5,
+        "High ECC-PD": 19.40999984741211,
+        "High": 23.5,
+        "Low ECC-PD": 19.40999984741211,
+        "Low": 23.5,
+        "Open ECC-PD": 19.40999984741211,
+        "Open": 23.5,
+        "Volume ECC-PD": 0.0,
+        "Volume": 0.0
+      },
+      {
+        "Close ECC-PD": 19.459999084472656,
+        "Close": 23.559999465942383,
+        "High ECC-PD": 19.459999084472656,
+        "High": 23.559999465942383,
+        "Low ECC-PD": 19.459999084472656,
+        "Low": 23.559999465942383,
+        "Open ECC-PD": 19.459999084472656,
+        "Open": 23.559999465942383,
+        "Volume ECC-PD": 641.0,
+        "Volume": 200.0
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -26,7 +52,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

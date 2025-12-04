@@ -1,60 +1,9 @@
 {
   "ticker": "DGP",
-  "timestamp": "2025-12-03T05:34:32.229066",
+  "timestamp": "2025-12-04T04:49:14.901664",
   "intraday_data": {
-    "status": "success",
-    "rows": 7,
-    "data": [
-      {
-        "Close DGZ": 5.310100078582764,
-        "High DGZ": 5.310100078582764,
-        "Low DGZ": 5.310100078582764,
-        "Open DGZ": 5.310100078582764,
-        "Volume DGZ": 630
-      },
-      {
-        "Close DGZ": 5.449399948120117,
-        "High DGZ": 5.449399948120117,
-        "Low DGZ": 5.310100078582764,
-        "Open DGZ": 5.310100078582764,
-        "Volume DGZ": 0
-      },
-      {
-        "Close DGZ": 5.550000190734863,
-        "High DGZ": 5.550000190734863,
-        "Low DGZ": 5.550000190734863,
-        "Open DGZ": 5.550000190734863,
-        "Volume DGZ": 585
-      },
-      {
-        "Close DGZ": 5.550000190734863,
-        "High DGZ": 5.550000190734863,
-        "Low DGZ": 5.550000190734863,
-        "Open DGZ": 5.550000190734863,
-        "Volume DGZ": 183
-      },
-      {
-        "Close DGZ": 5.517499923706055,
-        "High DGZ": 5.517499923706055,
-        "Low DGZ": 5.517499923706055,
-        "Open DGZ": 5.517499923706055,
-        "Volume DGZ": 590
-      },
-      {
-        "Close DGZ": 5.539999961853027,
-        "High DGZ": 5.539999961853027,
-        "Low DGZ": 5.539999961853027,
-        "Open DGZ": 5.539999961853027,
-        "Volume DGZ": 203
-      },
-      {
-        "Close DGZ": 5.524899959564209,
-        "High DGZ": 5.599999904632568,
-        "Low DGZ": 5.524899959564209,
-        "Open DGZ": 5.599999904632568,
-        "Volume DGZ": 611
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -72,7 +21,8 @@
     }
   },
   "options_data": {
-    "expirations": []
+    "status": "error",
+    "error_message": "Too Many Requests. Rate limited. Try after a while."
   },
   "news_data": {
     "news": {
@@ -678,10 +628,10 @@
   },
   "holders_data": {
     "major_holders": {
-      "status": "no_data"
+      "status": "error"
     },
     "institutional_holders": {
-      "status": "no_data"
+      "status": "error"
     }
   },
   "earnings_data": {

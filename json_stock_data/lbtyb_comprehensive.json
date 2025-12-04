@@ -1,157 +1,638 @@
 {
   "ticker": "LBTYB",
-  "timestamp": "2025-12-03T05:17:10.281588",
+  "timestamp": "2025-12-04T04:42:01.422324",
   "intraday_data": {
-    "status": "success",
-    "rows": 7,
-    "data": [
-      {
-        "Close": 11.524999618530273,
-        "High": 11.524999618530273,
-        "Low": 11.15999984741211,
-        "Open": 11.170000076293945,
-        "Volume": 1527
-      },
-      {
-        "Close": 11.649999618530273,
-        "High": 11.649999618530273,
-        "Low": 11.649999618530273,
-        "Open": 11.649999618530273,
-        "Volume": 646
-      },
-      {
-        "Close": 11.149999618530273,
-        "High": 11.210000038146973,
-        "Low": 11.149999618530273,
-        "Open": 11.210000038146973,
-        "Volume": 489
-      },
-      {
-        "Close": 11.920000076293945,
-        "High": 11.920000076293945,
-        "Low": 11.510000228881836,
-        "Open": 11.510000228881836,
-        "Volume": 202
-      },
-      {
-        "Close": 11.725000381469727,
-        "High": 11.725000381469727,
-        "Low": 11.725000381469727,
-        "Open": 11.725000381469727,
-        "Volume": 223
-      },
-      {
-        "Close": 11.40999984741211,
-        "High": 11.40999984741211,
-        "Low": 11.40999984741211,
-        "Open": 11.40999984741211,
-        "Volume": 321
-      },
-      {
-        "Close": 11.229999542236328,
-        "High": 11.229999542236328,
-        "Low": 11.229999542236328,
-        "Open": 11.229999542236328,
-        "Volume": 103
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
-    "status": "success",
-    "data": {
-      "language": "en-US",
-      "region": "US",
-      "quoteType": "EQUITY",
-      "typeDisp": "Equity",
-      "quoteSourceName": "Nasdaq Real Time Price",
-      "triggerable": true,
-      "customPriceAlertConfidence": "HIGH",
-      "currency": "USD",
-      "earningsTimestamp": 1771421400,
-      "earningsTimestampStart": 1771421400,
-      "earningsTimestampEnd": 1771421400,
-      "earningsCallTimestampStart": 1771423200,
-      "earningsCallTimestampEnd": 1771423200,
-      "isEarningsDateEstimate": false,
-      "trailingAnnualDividendRate": 0.0,
-      "trailingAnnualDividendYield": 0.0,
-      "epsTrailingTwelveMonths": -5.91,
-      "sharesOutstanding": 12968658,
-      "bookValue": 37.74,
-      "fiftyDayAverage": 11.1932,
-      "fiftyDayAverageChange": 0.03679943,
-      "fiftyDayAverageChangePercent": 0.0032876595,
-      "twoHundredDayAverage": 10.81515,
-      "twoHundredDayAverageChange": 0.41484928,
-      "twoHundredDayAverageChangePercent": 0.038358163,
-      "marketCap": 3782028544,
-      "priceToBook": 0.29756224,
-      "sourceInterval": 15,
-      "exchangeDataDelayedBy": 0,
-      "prevName": "Liberty Global plc",
-      "nameChangeDate": "2025-12-02",
-      "tradeable": false,
-      "cryptoTradeable": false,
-      "postMarketTime": 1764709804,
-      "regularMarketTime": 1764709200,
-      "exchange": "NMS",
-      "messageBoardId": "finmb_9956099",
-      "exchangeTimezoneName": "America/New_York",
-      "exchangeTimezoneShortName": "EST",
-      "gmtOffSetMilliseconds": -18000000,
-      "market": "us_market",
-      "esgPopulated": false,
-      "hasPrePostMarketData": true,
-      "firstTradeDateMilliseconds": 1086787800000,
-      "priceHint": 2,
-      "postMarketChangePercent": 1.513803,
-      "postMarketPrice": 11.4,
-      "postMarketChange": 0.17000008,
-      "regularMarketChange": -0.29500008,
-      "regularMarketDayHigh": 11.92,
-      "regularMarketDayRange": "11.15 - 11.92",
-      "regularMarketDayLow": 11.15,
-      "regularMarketVolume": 1996,
-      "regularMarketPreviousClose": 11.525,
-      "bid": 0.0,
-      "ask": 0.0,
-      "bidSize": 0,
-      "askSize": 0,
-      "fullExchangeName": "NasdaqGS",
-      "financialCurrency": "USD",
-      "regularMarketOpen": 11.65,
-      "averageDailyVolume3Month": 479,
-      "averageDailyVolume10Day": 1540,
-      "fiftyTwoWeekLowChange": 2.08,
-      "fiftyTwoWeekLowChangePercent": 0.2273224,
-      "fiftyTwoWeekRange": "9.15 - 14.91",
-      "fiftyTwoWeekHighChange": -3.6800003,
-      "fiftyTwoWeekHighChangePercent": -0.24681424,
-      "fiftyTwoWeekLow": 9.15,
-      "fiftyTwoWeekHigh": 14.91,
-      "fiftyTwoWeekChangePercent": -21.137642,
-      "regularMarketChangePercent": -2.5596538,
-      "regularMarketPrice": 11.23,
-      "marketState": "PREPRE",
-      "shortName": "Liberty Global Ltd.",
-      "longName": "Liberty Global Ltd.",
-      "symbol": "LBTYB"
-    }
+    "status": "error",
+    "message": "Too Many Requests. Rate limited. Try after a while."
   },
   "financials": {
     "income_statement": {
       "status": "no_data"
     },
     "balance_sheet": {
+      "status": "no_data"
+    },
+    "cash_flow": {
+      "status": "no_data"
+    }
+  },
+  "options_data": {
+    "status": "error",
+    "error_message": "Too Many Requests. Rate limited. Try after a while."
+  },
+  "news_data": {
+    "news": {
       "status": "success",
-      "rows": 67,
-      "columns": [
-        "2024-12-31 00:00:00",
-        "2023-12-31 00:00:00",
-        "2022-12-31 00:00:00",
-        "2021-12-31 00:00:00",
-        "2020-12-31 00:00:00"
-      ],
+      "count": 10,
       "data": [
         {
-          
+          "id": "c4929828-2c72-300a-90c4-11b0adc47432",
+          "content": {
+            "id": "c4929828-2c72-300a-90c4-11b0adc47432",
+            "contentType": "STORY",
+            "title": "Liberty Global (LBTY.A): Losses Grow 41.1% Annually, Deep Value Narrative Faces Margin Doubts",
+            "description": "",
+            "summary": "Liberty Global (LBTY.A) reported another unprofitable year, with net losses accelerating at an annual rate of 41.1% over the past five years. Revenue is on track to decline 1.8% per year over the next three years, and shares currently trade at $11, significantly below an estimated fair value of $70.5. While the company remains unprofitable and net profit margins have yet to show improvement, investors are weighing the appeal of a depressed valuation against persistent earnings headwinds. See...",
+            "pubDate": "2025-11-01T08:10:40Z",
+            "displayTime": "2025-11-01T08:10:40Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": {
+              "originalUrl": "https://media.zenfs.com/en/simply_wall_st__316/19f76a60863d44060a2fa89fcabe1a3e",
+              "originalWidth": 1194,
+              "originalHeight": 432,
+              "caption": "",
+              "resolutions": [
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/RgX76A_Uhkjd1.qf8BBW8g--~B/aD00MzI7dz0xMTk0O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/simply_wall_st__316/19f76a60863d44060a2fa89fcabe1a3e",
+                  "width": 1194,
+                  "height": 432,
+                  "tag": "original"
+                },
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/.z8BKtu_PAHrrzSxFgk0ww--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/simply_wall_st__316/19f76a60863d44060a2fa89fcabe1a3e",
+                  "width": 170,
+                  "height": 128,
+                  "tag": "170x128"
+                }
+              ]
+            },
+            "provider": {
+              "displayName": "Simply Wall St.",
+              "url": "https://simplywall.st/"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/liberty-global-lbty-losses-grow-081040727.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/liberty-global-lbty-losses-grow-081040727.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        },
+        {
+          "id": "cd87e584-888c-3662-b624-9593090c0539",
+          "content": {
+            "id": "cd87e584-888c-3662-b624-9593090c0539",
+            "contentType": "STORY",
+            "title": "Liberty Global Ltd (LBTYA) Q3 2025 Earnings Call Highlights: Strategic Refinancing and ...",
+            "description": "",
+            "summary": "Liberty Global Ltd (LBTYA) showcases strategic financial maneuvers and broadband expansion, despite facing revenue challenges and competitive market dynamics.",
+            "pubDate": "2025-10-30T20:32:51Z",
+            "displayTime": "2025-10-30T20:32:51Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": {
+              "originalUrl": "https://media.zenfs.com/en/us.finance.gurufocus/f359357d29c59f72e4b3a0e9b826c0d6",
+              "originalWidth": 367,
+              "originalHeight": 367,
+              "caption": "",
+              "resolutions": [
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/1nS5mJ3y3m4I_r4nidYK8Q--~B/aD0zNjc7dz0zNjc7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/us.finance.gurufocus/f359357d29c59f72e4b3a0e9b826c0d6",
+                  "width": 367,
+                  "height": 367,
+                  "tag": "original"
+                },
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/wmINfgDElLi.rWPF3pgJUw--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/us.finance.gurufocus/f359357d29c59f72e4b3a0e9b826c0d6",
+                  "width": 170,
+                  "height": 128,
+                  "tag": "170x128"
+                }
+              ]
+            },
+            "provider": {
+              "displayName": "GuruFocus.com",
+              "url": "http://www.gurufocus.com/"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/liberty-global-ltd-lbtya-q3-203251482.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/liberty-global-ltd-lbtya-q3-203251482.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        },
+        {
+          "id": "a9efdf76-ae5a-32db-9e93-258ba334d843",
+          "content": {
+            "id": "a9efdf76-ae5a-32db-9e93-258ba334d843",
+            "contentType": "STORY",
+            "title": "John Malone Stepping Down as Chairman of Liberty Media, Liberty Global",
+            "description": "",
+            "summary": "Malone, who earned the nickname \u201cCable Cowboy,\u201d will become chairman emeritus of both companies and remain a controlling shareholder.",
+            "pubDate": "2025-10-29T19:20:00Z",
+            "displayTime": "2025-10-29T19:20:00Z",
+            "isHosted": false,
+            "bypassModal": false,
+            "previewUrl": "https://finance.yahoo.com/m/a9efdf76-ae5a-32db-9e93-258ba334d843/john-malone-stepping-down-as.html",
+            "thumbnail": {
+              "originalUrl": "https://media.zenfs.com/en/wsj.com/2530b64e62a489424586cf229f1f4cfd",
+              "originalWidth": 1280,
+              "originalHeight": 640,
+              "caption": "",
+              "resolutions": [
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/ispw7KZTgfheBlu.AWY5dw--~B/aD02NDA7dz0xMjgwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/wsj.com/2530b64e62a489424586cf229f1f4cfd",
+                  "width": 1280,
+                  "height": 640,
+                  "tag": "original"
+                },
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/cet6I4iWu3TzcDc6NrDKRw--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/wsj.com/2530b64e62a489424586cf229f1f4cfd",
+                  "width": 170,
+                  "height": 128,
+                  "tag": "170x128"
+                }
+              ]
+            },
+            "provider": {
+              "displayName": "The Wall Street Journal",
+              "url": "http://www.wsj.com/"
+            },
+            "canonicalUrl": {
+              "url": "https://www.wsj.com/business/media/john-malone-stepping-down-as-chairman-of-liberty-media-liberty-global-be50f7d5?siteid=yhoof2&yptr=yahoo",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": null,
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        },
+        {
+          "id": "1214957b-362d-322d-a8a0-a403ea70debd",
+          "content": {
+            "id": "1214957b-362d-322d-a8a0-a403ea70debd",
+            "contentType": "STORY",
+            "title": "Liberty Global (LBTY.A): Assessing Valuation After Recent Share Price Decline",
+            "description": "",
+            "summary": "Liberty Global (LBTY.A) shares have recently been moving as investors digest the company\u2019s multi-month performance and fundamentals. Factors such as annual revenue growth, recent stock returns, and ongoing business initiatives have been drawing renewed attention to its valuation. See our latest analysis for Liberty Global. Liberty Global\u2019s share price has slipped in recent weeks, with a 1-day drop of 2.49 percent following a 7-day slide of 10.20 percent, and a 1-month share price return of...",
+            "pubDate": "2025-10-11T09:10:20Z",
+            "displayTime": "2025-10-11T09:10:20Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": {
+              "originalUrl": "https://media.zenfs.com/en/simply_wall_st__316/19f76a60863d44060a2fa89fcabe1a3e",
+              "originalWidth": 1194,
+              "originalHeight": 432,
+              "caption": "",
+              "resolutions": [
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/RgX76A_Uhkjd1.qf8BBW8g--~B/aD00MzI7dz0xMTk0O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/simply_wall_st__316/19f76a60863d44060a2fa89fcabe1a3e",
+                  "width": 1194,
+                  "height": 432,
+                  "tag": "original"
+                },
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/.z8BKtu_PAHrrzSxFgk0ww--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/simply_wall_st__316/19f76a60863d44060a2fa89fcabe1a3e",
+                  "width": 170,
+                  "height": 128,
+                  "tag": "170x128"
+                }
+              ]
+            },
+            "provider": {
+              "displayName": "Simply Wall St.",
+              "url": "https://simplywall.st/"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/liberty-global-lbty-assessing-valuation-091020111.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/liberty-global-lbty-assessing-valuation-091020111.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        },
+        {
+          "id": "102edcfe-14a5-3c35-b4fd-60fba6e70d12",
+          "content": {
+            "id": "102edcfe-14a5-3c35-b4fd-60fba6e70d12",
+            "contentType": "STORY",
+            "title": "Walmart Stock Will Rise on AI Deployment, Analyst Says. Plus, McDonald\u2019s, Scholastic, and More.",
+            "description": "",
+            "summary": "RESEARCH REPORTS  These reports, excerpted and edited by Barron\u2019s, were issued recently by investment and research firms. The reports are a sampling of analysts\u2019 thinking; they should not be considered the views or recommendations of Barron\u2019s.",
+            "pubDate": "2025-09-06T00:30:00Z",
+            "displayTime": "2025-09-06T00:30:00Z",
+            "isHosted": false,
+            "bypassModal": false,
+            "previewUrl": "https://finance.yahoo.com/m/102edcfe-14a5-3c35-b4fd-60fba6e70d12/walmart-stock-will-rise-on-ai.html",
+            "thumbnail": {
+              "originalUrl": "https://media.zenfs.com/en/Barrons.com/bf76eacf61ad04a64a8d80705adedd19",
+              "originalWidth": 1280,
+              "originalHeight": 640,
+              "caption": "",
+              "resolutions": [
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/L833CYzdMETz3CvajEOo3A--~B/aD02NDA7dz0xMjgwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/Barrons.com/bf76eacf61ad04a64a8d80705adedd19",
+                  "width": 1280,
+                  "height": 640,
+                  "tag": "original"
+                },
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/s0VbyDxhWF8_S6Ys4Vr0Tg--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/Barrons.com/bf76eacf61ad04a64a8d80705adedd19",
+                  "width": 170,
+                  "height": 128,
+                  "tag": "170x128"
+                }
+              ]
+            },
+            "provider": {
+              "displayName": "Barrons.com",
+              "url": "http://www.barrons.com/"
+            },
+            "canonicalUrl": {
+              "url": "https://www.barrons.com/articles/walmart-stock-will-rise-on-ai-deployment-analyst-says-plus-mcdonalds-scholastic-and-more-d91a8162?siteid=yhoof2&yptr=yahoo",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": null,
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        },
+        {
+          "id": "644ba400-d871-3989-9107-6bc9cec57359",
+          "content": {
+            "id": "644ba400-d871-3989-9107-6bc9cec57359",
+            "contentType": "STORY",
+            "title": "Liberty Global Second Quarter 2025 Earnings: Revenues Beat Expectations, EPS Lags",
+            "description": "",
+            "summary": "Liberty Global ( NASDAQ:LBTY.A ) Second Quarter 2025 Results Key Financial Results Revenue: US$1.27b (up 20% from 2Q...",
+            "pubDate": "2025-08-03T12:19:52Z",
+            "displayTime": "2025-08-03T12:19:52Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": {
+              "originalUrl": "https://media.zenfs.com/en/simply_wall_st__316/78a8c60a6283aea0450523395306d38c",
+              "originalWidth": 945,
+              "originalHeight": 636,
+              "caption": "",
+              "resolutions": [
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/5Vpve0Pc2F3m_L3fs2p_dQ--~B/aD02MzY7dz05NDU7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/simply_wall_st__316/78a8c60a6283aea0450523395306d38c",
+                  "width": 945,
+                  "height": 636,
+                  "tag": "original"
+                },
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/5K6kmrQzRk.k.11fs9N_QA--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/simply_wall_st__316/78a8c60a6283aea0450523395306d38c",
+                  "width": 170,
+                  "height": 128,
+                  "tag": "170x128"
+                }
+              ]
+            },
+            "provider": {
+              "displayName": "Simply Wall St.",
+              "url": "https://simplywall.st/"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/liberty-global-second-quarter-2025-121952133.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/liberty-global-second-quarter-2025-121952133.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        },
+        {
+          "id": "e7b867b1-ddda-3178-b171-6a518d36a2dd",
+          "content": {
+            "id": "e7b867b1-ddda-3178-b171-6a518d36a2dd",
+            "contentType": "STORY",
+            "title": "Liberty Global Ltd (LBTYA) Q2 2025 Earnings Call Highlights: Strategic Moves and Financial ...",
+            "description": "",
+            "summary": "Liberty Global Ltd (LBTYA) navigates competitive pressures with strategic initiatives and financial resilience, despite mixed market conditions.",
+            "pubDate": "2025-08-02T07:10:54Z",
+            "displayTime": "2025-08-02T07:10:54Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": {
+              "originalUrl": "https://media.zenfs.com/en/us.finance.gurufocus/f359357d29c59f72e4b3a0e9b826c0d6",
+              "originalWidth": 367,
+              "originalHeight": 367,
+              "caption": "",
+              "resolutions": [
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/1nS5mJ3y3m4I_r4nidYK8Q--~B/aD0zNjc7dz0zNjc7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/us.finance.gurufocus/f359357d29c59f72e4b3a0e9b826c0d6",
+                  "width": 367,
+                  "height": 367,
+                  "tag": "original"
+                },
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/wmINfgDElLi.rWPF3pgJUw--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/us.finance.gurufocus/f359357d29c59f72e4b3a0e9b826c0d6",
+                  "width": 170,
+                  "height": 128,
+                  "tag": "170x128"
+                }
+              ]
+            },
+            "provider": {
+              "displayName": "GuruFocus.com",
+              "url": "http://www.gurufocus.com/"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/liberty-global-ltd-lbtya-q2-071054301.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/liberty-global-ltd-lbtya-q2-071054301.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        },
+        {
+          "id": "c4318c93-496a-3dc2-88bb-c435fca3439b",
+          "content": {
+            "id": "c4318c93-496a-3dc2-88bb-c435fca3439b",
+            "contentType": "STORY",
+            "title": "Liberty Global says Virgin Media O2 will still play role in consolidation",
+            "description": "",
+            "summary": "LONDON (Reuters) -Liberty Global said Britain's Virgin Media O2 - its joint venture with Telefonica - would still play a role in fibre consolidation after the Spanish company said a plan to spin off the network had been scrapped.  \"I do see us playing a role in altnet (alternative fibre networks) consolidation, which was one of the main benefits of the Netco project that we were exploring together,\" Chief Executive Mike Fries told analysts after the group reported second-quarter results on Friday.",
+            "pubDate": "2025-08-01T14:03:50Z",
+            "displayTime": "2025-08-01T14:03:50Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": null,
+            "provider": {
+              "displayName": "Reuters",
+              "url": "http://www.reuters.com/"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/liberty-global-says-virgin-media-140350279.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/liberty-global-says-virgin-media-140350279.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        },
+        {
+          "id": "d296d96b-8212-33a1-ac59-98f554f87975",
+          "content": {
+            "id": "d296d96b-8212-33a1-ac59-98f554f87975",
+            "contentType": "STORY",
+            "title": "Virgin Media O2's plan to spin off infrastructure is scrapped, Telefonica CEO says",
+            "description": "",
+            "summary": "MADRID (Reuters) -The plan to spin off joint venture Virgin Media O2's fixed network in Britain had been scrapped, Telefonica's Chief Executive Marc Murtra told Reuters on Wednesday.  Virgin Media O2, which is jointly owned by Liberty Global and Telefonica, had said last year it wanted to spin off its fixed network into a subsidiary called NetCo.",
+            "pubDate": "2025-07-30T12:01:25Z",
+            "displayTime": "2025-07-30T12:01:25Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": {
+              "originalUrl": "https://media.zenfs.com/en/reuters-finance.com/5533b1aa07277b61890d03b79de3a98e",
+              "originalWidth": 800,
+              "originalHeight": 533,
+              "caption": "Telefonica evaluates cutting 4,000 to 5,000 job in Spain, El Confidencial says",
+              "resolutions": [
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/CTdINl76xGKz9rGYktVEaA--~B/aD01MzM7dz04MDA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/reuters-finance.com/5533b1aa07277b61890d03b79de3a98e",
+                  "width": 800,
+                  "height": 533,
+                  "tag": "original"
+                },
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/u6_LRNbSTYSQUIceF.ckFA--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/reuters-finance.com/5533b1aa07277b61890d03b79de3a98e",
+                  "width": 170,
+                  "height": 128,
+                  "tag": "170x128"
+                }
+              ]
+            },
+            "provider": {
+              "displayName": "Reuters",
+              "url": "http://www.reuters.com/"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/virgin-media-o2s-plan-spin-120125160.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/virgin-media-o2s-plan-spin-120125160.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        },
+        {
+          "id": "118e44f8-d25d-3504-9b33-6e45e9b78068",
+          "content": {
+            "id": "118e44f8-d25d-3504-9b33-6e45e9b78068",
+            "contentType": "STORY",
+            "title": "Amidst increasing losses, Investors bid up Liberty Global (NASDAQ:LBTY.A) 3.7% this past week",
+            "description": "",
+            "summary": "In order to justify the effort of selecting individual stocks, it's worth striving to beat the returns from a market...",
+            "pubDate": "2025-07-24T12:37:15Z",
+            "displayTime": "2025-07-24T12:37:15Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": {
+              "originalUrl": "https://media.zenfs.com/en/simply_wall_st__316/19f76a60863d44060a2fa89fcabe1a3e",
+              "originalWidth": 1194,
+              "originalHeight": 432,
+              "caption": "",
+              "resolutions": [
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/RgX76A_Uhkjd1.qf8BBW8g--~B/aD00MzI7dz0xMTk0O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/simply_wall_st__316/19f76a60863d44060a2fa89fcabe1a3e",
+                  "width": 1194,
+                  "height": 432,
+                  "tag": "original"
+                },
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/.z8BKtu_PAHrrzSxFgk0ww--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/simply_wall_st__316/19f76a60863d44060a2fa89fcabe1a3e",
+                  "width": 170,
+                  "height": 128,
+                  "tag": "170x128"
+                }
+              ]
+            },
+            "provider": {
+              "displayName": "Simply Wall St.",
+              "url": "https://simplywall.st/"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/amidst-increasing-losses-investors-bid-123715387.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/amidst-increasing-losses-investors-bid-123715387.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        }
+      ]
+    },
+    "recommendations": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  },
+  "holders_data": {
+    "major_holders": {
+      "status": "error"
+    },
+    "institutional_holders": {
+      "status": "error"
+    }
+  },
+  "earnings_data": {
+    "earnings": {
+      "status": "error",
+      "message": "'NoneType' object has no attribute 'empty'"
+    },
+    "calendar": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  }
+}
