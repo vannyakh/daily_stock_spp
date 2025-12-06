@@ -1,6 +1,6 @@
 {
   "ticker": "SCWO",
-  "timestamp": "2025-12-04T04:32:43.971473",
+  "timestamp": "2025-12-06T04:50:13.685911",
   "intraday_data": {
     "status": "no_data",
     "message": "No intraday data available"
@@ -520,16 +520,111 @@
       ]
     },
     "recommendations": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
+      "status": "no_data"
     }
   },
   "holders_data": {
     "major_holders": {
-      "status": "error"
+      "status": "success",
+      "data": [
+        {
+          "Value": 0.3505
+        },
+        {
+          "Value": 0.08902001
+        },
+        {
+          "Value": 0.13707
+        },
+        {
+          "Value": 74.0
+        }
+      ]
     },
     "institutional_holders": {
-      "status": "error"
+      "status": "success",
+      "data": [
+        {
+          "Date Reported": "2025-09-30 00:00:00",
+          "Holder": "Vanguard Group Inc",
+          "pctHeld": 0.025899999,
+          "Shares": 3280889,
+          "Value": 885183,
+          "pctChange": 0.0241
+        },
+        {
+          "Date Reported": "2025-09-30 00:00:00",
+          "Holder": "Hamilton Lane Advisors Llc",
+          "pctHeld": 0.0128,
+          "Shares": 1620282,
+          "Value": 437152,
+          "pctChange": 0.0
+        },
+        {
+          "Date Reported": "2025-09-30 00:00:00",
+          "Holder": "Icon Wealth Advisors, LLC",
+          "pctHeld": 0.0093,
+          "Shares": 1179112,
+          "Value": 318124,
+          "pctChange": 0.0064
+        },
+        {
+          "Date Reported": "2025-09-30 00:00:00",
+          "Holder": "Millennium Management Llc",
+          "pctHeld": 0.0086,
+          "Shares": 1084003,
+          "Value": 292464,
+          "pctChange": -0.090299994
+        },
+        {
+          "Date Reported": "2025-09-30 00:00:00",
+          "Holder": "D.A. Davidson & Co.",
+          "pctHeld": 0.008,
+          "Shares": 1012894,
+          "Value": 273278,
+          "pctChange": 0.3752
+        },
+        {
+          "Date Reported": "2025-09-30 00:00:00",
+          "Holder": "Geode Capital Management, LLC",
+          "pctHeld": 0.0069,
+          "Shares": 876462,
+          "Value": 236469,
+          "pctChange": 0.0218
+        },
+        {
+          "Date Reported": "2025-09-30 00:00:00",
+          "Holder": "Blackrock Inc.",
+          "pctHeld": 0.0063,
+          "Shares": 792835,
+          "Value": 213906,
+          "pctChange": -0.45080003
+        },
+        {
+          "Date Reported": "2025-09-30 00:00:00",
+          "Holder": "CAPTRUST Financial Advisors",
+          "pctHeld": 0.0057,
+          "Shares": 726886,
+          "Value": 196113,
+          "pctChange": -0.00059999997
+        },
+        {
+          "Date Reported": "2025-09-30 00:00:00",
+          "Holder": "Sentinel Trust Company, LBA",
+          "pctHeld": 0.0032,
+          "Shares": 401300,
+          "Value": 108270,
+          "pctChange": 0.0
+        },
+        {
+          "Date Reported": "2025-09-30 00:00:00",
+          "Holder": "Raymond James Financial, Inc.",
+          "pctHeld": 0.0031,
+          "Shares": 390238,
+          "Value": 105286,
+          "pctChange": 0.019299999
+        }
+      ]
     }
   },
   "earnings_data": {
@@ -539,7 +634,7 @@
     },
     "calendar": {
       "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
+      "message": "'dict' object has no attribute 'empty'"
     }
   }
 }

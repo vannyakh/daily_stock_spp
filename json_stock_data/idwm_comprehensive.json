@@ -1,93 +1,30 @@
 {
   "ticker": "IDWM",
-  "timestamp": "2025-12-04T04:43:22.217960",
+  "timestamp": "2025-12-06T05:18:32.844718",
   "intraday_data": {
     "status": "success",
-    "rows": 12,
+    "rows": 3,
     "data": [
       {
-        "Close AVLNF": 0.04280000180006027,
-        "High AVLNF": 0.04280000180006027,
-        "Low AVLNF": 0.04280000180006027,
-        "Open AVLNF": 0.04280000180006027,
-        "Volume AVLNF": 0
+        "Close": 35.0,
+        "High": 35.125,
+        "Low": 35.0,
+        "Open": 35.125,
+        "Volume": 0
       },
       {
-        "Close AVLNF": 0.041999999433755875,
-        "High AVLNF": 0.041999999433755875,
-        "Low AVLNF": 0.041999999433755875,
-        "Open AVLNF": 0.041999999433755875,
-        "Volume AVLNF": 2400
+        "Close": 42.0,
+        "High": 42.0,
+        "Low": 42.0,
+        "Open": 42.0,
+        "Volume": 2
       },
       {
-        "Close AVLNF": 0.04270000010728836,
-        "High AVLNF": 0.04270000010728836,
-        "Low AVLNF": 0.04270000010728836,
-        "Open AVLNF": 0.04270000010728836,
-        "Volume AVLNF": 14379
-      },
-      {
-        "Close AVLNF": 0.04280000180006027,
-        "High AVLNF": 0.04280000180006027,
-        "Low AVLNF": 0.04280000180006027,
-        "Open AVLNF": 0.04280000180006027,
-        "Volume AVLNF": 30000
-      },
-      {
-        "Close AVLNF": 0.0430000014603138,
-        "High AVLNF": 0.0430000014603138,
-        "Low AVLNF": 0.0430000014603138,
-        "Open AVLNF": 0.0430000014603138,
-        "Volume AVLNF": 40000
-      },
-      {
-        "Close AVLNF": 0.04340000078082085,
-        "High AVLNF": 0.04340000078082085,
-        "Low AVLNF": 0.04340000078082085,
-        "Open AVLNF": 0.04340000078082085,
-        "Volume AVLNF": 105000
-      },
-      {
-        "Close AVLNF": 0.04340000078082085,
-        "High AVLNF": 0.04340000078082085,
-        "Low AVLNF": 0.04340000078082085,
-        "Open AVLNF": 0.04340000078082085,
-        "Volume AVLNF": 17000
-      },
-      {
-        "Close AVLNF": 0.0430000014603138,
-        "High AVLNF": 0.0430000014603138,
-        "Low AVLNF": 0.0430000014603138,
-        "Open AVLNF": 0.0430000014603138,
-        "Volume AVLNF": 10000
-      },
-      {
-        "Close AVLNF": 0.03999999910593033,
-        "High AVLNF": 0.03999999910593033,
-        "Low AVLNF": 0.03999999910593033,
-        "Open AVLNF": 0.03999999910593033,
-        "Volume AVLNF": 21500
-      },
-      {
-        "Close AVLNF": 0.03999999910593033,
-        "High AVLNF": 0.03999999910593033,
-        "Low AVLNF": 0.03999999910593033,
-        "Open AVLNF": 0.03999999910593033,
-        "Volume AVLNF": 2000
-      },
-      {
-        "Close AVLNF": 0.03999999910593033,
-        "High AVLNF": 0.03999999910593033,
-        "Low AVLNF": 0.03999999910593033,
-        "Open AVLNF": 0.03999999910593033,
-        "Volume AVLNF": 36942
-      },
-      {
-        "Close AVLNF": 0.03999999910593033,
-        "High AVLNF": 0.03999999910593033,
-        "Low AVLNF": 0.03999999910593033,
-        "Open AVLNF": 0.03999999910593033,
-        "Volume AVLNF": 5000
+        "Close": 35.0,
+        "High": 35.0,
+        "Low": 35.0,
+        "Open": 35.0,
+        "Volume": 1
       }
     ]
   },
@@ -103,12 +40,38 @@
       "status": "no_data"
     },
     "cash_flow": {
-      "status": "success",
-      "rows": 51,
-      "columns": [
-        "2022-10-31 00:00:00",
-        "2021-10-31 00:00:00"
-      ],
-      "data": [
-        {
-          
+      "status": "no_data"
+    }
+  },
+  "options_data": {
+    "status": "error",
+    "error_message": "Too Many Requests. Rate limited. Try after a while."
+  },
+  "news_data": {
+    "news": {
+      "status": "no_data"
+    },
+    "recommendations": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  },
+  "holders_data": {
+    "major_holders": {
+      "status": "error"
+    },
+    "institutional_holders": {
+      "status": "error"
+    }
+  },
+  "earnings_data": {
+    "earnings": {
+      "status": "error",
+      "message": "'NoneType' object has no attribute 'empty'"
+    },
+    "calendar": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  }
+}

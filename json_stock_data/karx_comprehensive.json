@@ -1,46 +1,9 @@
 {
   "ticker": "KARX",
-  "timestamp": "2025-12-04T04:47:57.427761",
+  "timestamp": "2025-12-06T05:31:05.639147",
   "intraday_data": {
-    "status": "success",
-    "rows": 5,
-    "data": [
-      {
-        "Close MNSBP": 25.0,
-        "High MNSBP": 25.0,
-        "Low MNSBP": 25.0,
-        "Open MNSBP": 25.0,
-        "Volume MNSBP": 0
-      },
-      {
-        "Close MNSBP": 24.975000381469727,
-        "High MNSBP": 24.975000381469727,
-        "Low MNSBP": 24.975000381469727,
-        "Open MNSBP": 24.975000381469727,
-        "Volume MNSBP": 100
-      },
-      {
-        "Close MNSBP": 24.975000381469727,
-        "High MNSBP": 24.975000381469727,
-        "Low MNSBP": 24.975000381469727,
-        "Open MNSBP": 24.975000381469727,
-        "Volume MNSBP": 178
-      },
-      {
-        "Close MNSBP": 24.949499130249023,
-        "High MNSBP": 24.949499130249023,
-        "Low MNSBP": 24.940000534057617,
-        "Open MNSBP": 24.940000534057617,
-        "Volume MNSBP": 346
-      },
-      {
-        "Close MNSBP": 24.850000381469727,
-        "High MNSBP": 24.850000381469727,
-        "Low MNSBP": 24.850000381469727,
-        "Open MNSBP": 24.850000381469727,
-        "Volume MNSBP": 120
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -54,14 +17,37 @@
       "status": "no_data"
     },
     "cash_flow": {
-      "status": "success",
-      "rows": 52,
-      "columns": [
-        "2025-05-31 00:00:00",
-        "2024-05-31 00:00:00",
-        "2023-05-31 00:00:00",
-        "2022-05-31 00:00:00"
-      ],
-      "data": [
-        {
-          
+      "status": "no_data"
+    }
+  },
+  "options_data": {
+    "status": "error",
+    "error_message": "Too Many Requests. Rate limited. Try after a while."
+  },
+  "news_data": {
+    "news": {
+      "status": "no_data"
+    },
+    "recommendations": {
+      "status": "no_data"
+    }
+  },
+  "holders_data": {
+    "major_holders": {
+      "status": "no_data"
+    },
+    "institutional_holders": {
+      "status": "no_data"
+    }
+  },
+  "earnings_data": {
+    "earnings": {
+      "status": "error",
+      "message": "'NoneType' object has no attribute 'empty'"
+    },
+    "calendar": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  }
+}

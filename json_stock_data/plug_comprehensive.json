@@ -1,25 +1,648 @@
 {
   "ticker": "PLUG",
-  "timestamp": "2025-12-04T04:22:38.260526",
+  "timestamp": "2025-12-06T04:23:16.388367",
   "intraday_data": {
     "status": "no_data",
     "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
-    "message": "argument of type 'NoneType' is not iterable"
+    "message": "Too Many Requests. Rate limited. Try after a while."
   },
   "financials": {
     "income_statement": {
+      "status": "no_data"
+    },
+    "balance_sheet": {
+      "status": "no_data"
+    },
+    "cash_flow": {
+      "status": "no_data"
+    }
+  },
+  "options_data": {
+    "status": "error",
+    "error_message": "Too Many Requests. Rate limited. Try after a while."
+  },
+  "news_data": {
+    "news": {
       "status": "success",
-      "rows": 50,
-      "columns": [
-        "2024-12-31 00:00:00",
-        "2023-12-31 00:00:00",
-        "2022-12-31 00:00:00",
-        "2021-12-31 00:00:00",
-        "2020-12-31 00:00:00"
-      ],
+      "count": 10,
       "data": [
         {
-          
+          "id": "f536f32a-007a-3b67-9f4f-c550ecb4837b",
+          "content": {
+            "id": "f536f32a-007a-3b67-9f4f-c550ecb4837b",
+            "contentType": "STORY",
+            "title": "BC-Most Active Stocks",
+            "description": "",
+            "summary": "Nu Holdings Ltd. 52,107,207 17.73",
+            "pubDate": "2025-12-05T15:30:17Z",
+            "displayTime": "2025-12-05T15:30:17Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": null,
+            "provider": {
+              "displayName": "Associated Press Finance",
+              "url": "http://www.ap.org/"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/bc-most-active-stocks-153017410.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/bc-most-active-stocks-153017410.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        },
+        {
+          "id": "928d5f15-9386-3fa6-bb5f-01f5b914e23b",
+          "content": {
+            "id": "928d5f15-9386-3fa6-bb5f-01f5b914e23b",
+            "contentType": "STORY",
+            "title": "Why Plug Power Stock Popped This Week",
+            "description": "",
+            "summary": "Temperatures may be dropping, but investors are warming up to this hydrogen stock.",
+            "pubDate": "2025-12-05T10:20:00Z",
+            "displayTime": "2025-12-05T10:20:00Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": {
+              "originalUrl": "https://media.zenfs.com/en/motleyfool.com/d2bc8920b0f7be778a1b8ad9caf77c8e",
+              "originalWidth": 1200,
+              "originalHeight": 801,
+              "caption": "investor celebrates while looking at laptop.",
+              "resolutions": [
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/_ucSbpKzZ7yx3zFe3HUjGQ--~B/aD04MDE7dz0xMjAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/motleyfool.com/d2bc8920b0f7be778a1b8ad9caf77c8e",
+                  "width": 1200,
+                  "height": 801,
+                  "tag": "original"
+                },
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/YzQJw28sxNDLzN6vk5qbKQ--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/motleyfool.com/d2bc8920b0f7be778a1b8ad9caf77c8e",
+                  "width": 170,
+                  "height": 128,
+                  "tag": "170x128"
+                }
+              ]
+            },
+            "provider": {
+              "displayName": "Motley Fool",
+              "url": "http://www.fool.com/"
+            },
+            "canonicalUrl": {
+              "url": "https://www.fool.com/investing/2025/12/05/why-plug-power-stock-popped-this-week/",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/why-plug-power-stock-popped-102000166.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        },
+        {
+          "id": "765e68a8-1db0-3b12-846c-9323a3fb352c",
+          "content": {
+            "id": "765e68a8-1db0-3b12-846c-9323a3fb352c",
+            "contentType": "STORY",
+            "title": "Plug Power Inc. (PLUG): A\u00a0Bull\u00a0Case Theory",
+            "description": "",
+            "summary": "We came across a bullish thesis on Plug Power Inc. on Stock Pursuit\u2019s Substack. In this article, we will summarize the bulls\u2019 thesis on PLUG. Plug Power Inc.\u2019s share was trading at $2.01 as of November 28th. Plug Power Inc. develops hydrogen fuel cells product solutions in North America, Europe, Asia, and internationally. Hydrogen fuel cells are emerging as a critical solution [\u2026]",
+            "pubDate": "2025-12-04T17:18:07Z",
+            "displayTime": "2025-12-04T17:18:07Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": {
+              "originalUrl": "https://media.zenfs.com/en/insidermonkey.com/27dbb8c725c1ec30bd08ef1b9d789751",
+              "originalWidth": 768,
+              "originalHeight": 576,
+              "caption": "",
+              "resolutions": [
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/JuPi3cRuGbZQ8nkqyJ3z1g--~B/aD01NzY7dz03Njg7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/insidermonkey.com/27dbb8c725c1ec30bd08ef1b9d789751",
+                  "width": 768,
+                  "height": 576,
+                  "tag": "original"
+                },
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/jpLEcnQTV.syF64ZWruSzw--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/insidermonkey.com/27dbb8c725c1ec30bd08ef1b9d789751",
+                  "width": 170,
+                  "height": 128,
+                  "tag": "170x128"
+                }
+              ]
+            },
+            "provider": {
+              "displayName": "Insider Monkey",
+              "url": "http://www.insidermonkey.com"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/plug-power-inc-plug-bull-171807095.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/plug-power-inc-plug-bull-171807095.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        },
+        {
+          "id": "bf167a50-51c4-3f7f-8244-f8a19d0b869a",
+          "content": {
+            "id": "bf167a50-51c4-3f7f-8244-f8a19d0b869a",
+            "contentType": "STORY",
+            "title": "Plug Power (PLUG): Valuation Check After New NASA Liquid Hydrogen Supply Milestone",
+            "description": "",
+            "summary": "Plug Power (PLUG) just hit a new milestone, officially starting liquid hydrogen deliveries to NASA under its first supply contract with the space agency, a small dollar deal but a big strategic signal. See our latest analysis for Plug Power. The NASA win and recent outreach to Asia Pacific investors have helped sentiment, with a 9.9% 1 day share price return and a strong 90 day share price rebound. However, the 3 year total shareholder return of about negative 85% shows longer term holders...",
+            "pubDate": "2025-12-03T21:13:21Z",
+            "displayTime": "2025-12-03T21:13:21Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": {
+              "originalUrl": "https://media.zenfs.com/en/simply_wall_st__316/16016486ecb815bcffeea7a1908fff4e",
+              "originalWidth": 1194,
+              "originalHeight": 432,
+              "caption": "",
+              "resolutions": [
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/OB1nfJ1XGlebSq696rWQeQ--~B/aD00MzI7dz0xMTk0O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/simply_wall_st__316/16016486ecb815bcffeea7a1908fff4e",
+                  "width": 1194,
+                  "height": 432,
+                  "tag": "original"
+                },
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/Wf_nidPzsGYN6Y5cvLFvWg--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/simply_wall_st__316/16016486ecb815bcffeea7a1908fff4e",
+                  "width": 170,
+                  "height": 128,
+                  "tag": "170x128"
+                }
+              ]
+            },
+            "provider": {
+              "displayName": "Simply Wall St.",
+              "url": "https://simplywall.st/"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/plug-power-plug-valuation-check-211321587.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/plug-power-plug-valuation-check-211321587.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        },
+        {
+          "id": "c9898259-e47c-326c-8ca5-94b8e2024073",
+          "content": {
+            "id": "c9898259-e47c-326c-8ca5-94b8e2024073",
+            "contentType": "STORY",
+            "title": "NASA Calls, Plug Answers: A Turning Point for Hydrogen?",
+            "description": "",
+            "summary": "Plug Power has secured a strategic contract to supply liquid hydrogen to NASA facilities, which serves as a major validation of its green energy infrastructure.",
+            "pubDate": "2025-12-03T18:07:00Z",
+            "displayTime": "2025-12-03T18:07:00Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": {
+              "originalUrl": "https://media.zenfs.com/en/marketbeat_955/540c08aedfdfd33704db0e82e33d7d13",
+              "originalWidth": 1200,
+              "originalHeight": 675,
+              "caption": "Plug Power hydrogen facility with glowing pipeline network.",
+              "resolutions": [
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/KyqPUzvaX3Dr1zH4hxnrig--~B/aD02NzU7dz0xMjAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/marketbeat_955/540c08aedfdfd33704db0e82e33d7d13",
+                  "width": 1200,
+                  "height": 675,
+                  "tag": "original"
+                },
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/uhHtdlUvDB0OQKQ7.hizZw--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/marketbeat_955/540c08aedfdfd33704db0e82e33d7d13",
+                  "width": 170,
+                  "height": 128,
+                  "tag": "170x128"
+                }
+              ]
+            },
+            "provider": {
+              "displayName": "MarketBeat",
+              "url": "https://www.marketbeat.com/"
+            },
+            "canonicalUrl": {
+              "url": "https://www.marketbeat.com/originals/nasa-calls-plug-answers-a-turning-point-for-hydrogen/?utm_source=yahoofinance&utm_medium=yahoofinance",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/nasa-calls-plug-answers-turning-180700421.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        },
+        {
+          "id": "40d2bba7-2045-3286-a6a8-4b6376a2b048",
+          "content": {
+            "id": "40d2bba7-2045-3286-a6a8-4b6376a2b048",
+            "contentType": "STORY",
+            "title": "Plug Power (PLUG) Surges 9.9% on NASA Million-Dollar Deal",
+            "description": "",
+            "summary": "We recently published 10 Stocks Stealing the Spotlight Early as Christmas Looms. Plug Power Inc. (NASDAQ:PLUG) is one of the top performers on Tuesday. Plug Power saw its share prices jump by 9.90 percent on Tuesday to finish at $2.11 apiece as investor sentiment was boosted by the start of its supply of hydrogen fuel [\u2026]",
+            "pubDate": "2025-12-03T15:43:23Z",
+            "displayTime": "2025-12-03T15:43:23Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": {
+              "originalUrl": "https://media.zenfs.com/en/insidermonkey.com/1f427f528ebeeeb56fcd50a9c921a8af",
+              "originalWidth": 1280,
+              "originalHeight": 853,
+              "caption": "Plug Power (PLUG) Surges 9.9% on NASA Million-Dollar Deal",
+              "resolutions": [
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/rkytIjdufHZ6Zp4S8_x9NQ--~B/aD04NTM7dz0xMjgwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/insidermonkey.com/1f427f528ebeeeb56fcd50a9c921a8af",
+                  "width": 1280,
+                  "height": 853,
+                  "tag": "original"
+                },
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/BzGLd.9Y2lNdWmpbbYg55w--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/insidermonkey.com/1f427f528ebeeeb56fcd50a9c921a8af",
+                  "width": 170,
+                  "height": 128,
+                  "tag": "170x128"
+                }
+              ]
+            },
+            "provider": {
+              "displayName": "Insider Monkey",
+              "url": "http://www.insidermonkey.com"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/plug-power-plug-surges-9-154323497.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/plug-power-plug-surges-9-154323497.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        },
+        {
+          "id": "b23133df-d7f6-3124-8757-01eb906a0e5d",
+          "content": {
+            "id": "b23133df-d7f6-3124-8757-01eb906a0e5d",
+            "contentType": "STORY",
+            "title": "If You'd Invested $100 in Plug Power 10 Years Ago, Here's How Much You'd Have Today",
+            "description": "",
+            "summary": "Plug Power has taken investors on a wild ride over the past 10 years.",
+            "pubDate": "2025-12-03T12:27:00Z",
+            "displayTime": "2025-12-03T12:27:00Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": {
+              "originalUrl": "https://media.zenfs.com/en/motleyfool.com/d2e7a39013b2f01b185d8e0f6ce7dd5a",
+              "originalWidth": 1400,
+              "originalHeight": 933,
+              "caption": "A person using a pen to point at a stock chart on a tablet.",
+              "resolutions": [
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/SctCu9QYwwKv1HGfcEUh7w--~B/aD05MzM7dz0xNDAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/motleyfool.com/d2e7a39013b2f01b185d8e0f6ce7dd5a",
+                  "width": 1400,
+                  "height": 933,
+                  "tag": "original"
+                },
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/_K.jSLT3B8.UoTVvo7VB2A--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/motleyfool.com/d2e7a39013b2f01b185d8e0f6ce7dd5a",
+                  "width": 170,
+                  "height": 128,
+                  "tag": "170x128"
+                }
+              ]
+            },
+            "provider": {
+              "displayName": "Motley Fool",
+              "url": "http://www.fool.com/"
+            },
+            "canonicalUrl": {
+              "url": "https://www.fool.com/investing/2025/12/03/if-youd-invested-100-in-plug-power-10-years-ago-he/",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/youd-invested-100-plug-power-122700742.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        },
+        {
+          "id": "b7dde9bc-cc0f-345c-8b00-b5e52fef50e7",
+          "content": {
+            "id": "b7dde9bc-cc0f-345c-8b00-b5e52fef50e7",
+            "contentType": "STORY",
+            "title": "Why Plug Power (PLUG) Stock Is Up Today",
+            "description": "",
+            "summary": "Shares of fuel cell technology Plug Power (NASDAQ:PLUG) jumped 7% in the morning session after the company announced it began its first-ever contract with NASA to supply liquid hydrogen.",
+            "pubDate": "2025-12-02T16:10:42Z",
+            "displayTime": "2025-12-02T16:10:42Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": {
+              "originalUrl": "https://media.zenfs.com/en/stockstory_922/10567defcfb6d275e1519e595e458f87",
+              "originalWidth": 1400,
+              "originalHeight": 700,
+              "caption": "PLUG Cover Image",
+              "resolutions": [
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/yGAEpje9j8tS22H_eVKXdQ--~B/aD03MDA7dz0xNDAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/stockstory_922/10567defcfb6d275e1519e595e458f87",
+                  "width": 1400,
+                  "height": 700,
+                  "tag": "original"
+                },
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/0W_wfjICECAdlhn2XbsDow--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/stockstory_922/10567defcfb6d275e1519e595e458f87",
+                  "width": 170,
+                  "height": 128,
+                  "tag": "170x128"
+                }
+              ]
+            },
+            "provider": {
+              "displayName": "StockStory",
+              "url": "https://stockstory.org/"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/why-plug-power-plug-stock-161042552.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/why-plug-power-plug-stock-161042552.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        },
+        {
+          "id": "f5a366bb-47e8-3af0-b053-6d9eb355278a",
+          "content": {
+            "id": "f5a366bb-47e8-3af0-b053-6d9eb355278a",
+            "contentType": "STORY",
+            "title": "If You'd Invested $1,000 in Plug Power Stock 1 Year Ago, Here's How Much You'd Have Today",
+            "description": "",
+            "summary": "Plug Power produces hydrogen and uses it to generate clean electricity.",
+            "pubDate": "2025-12-02T16:06:00Z",
+            "displayTime": "2025-12-02T16:06:00Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": {
+              "originalUrl": "https://media.zenfs.com/en/motleyfool.com/9dca5f51f3f56bb75dccaa63e7c192e9",
+              "originalWidth": 1400,
+              "originalHeight": 934,
+              "caption": "Person looking at charts on computer.",
+              "resolutions": [
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/WjE1MCoUDeZHwFmIr1ZKlw--~B/aD05MzQ7dz0xNDAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/motleyfool.com/9dca5f51f3f56bb75dccaa63e7c192e9",
+                  "width": 1400,
+                  "height": 934,
+                  "tag": "original"
+                },
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/UNom.Fvn9nXDMusqT.4cvA--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/motleyfool.com/9dca5f51f3f56bb75dccaa63e7c192e9",
+                  "width": 170,
+                  "height": 128,
+                  "tag": "170x128"
+                }
+              ]
+            },
+            "provider": {
+              "displayName": "Motley Fool",
+              "url": "http://www.fool.com/"
+            },
+            "canonicalUrl": {
+              "url": "https://www.fool.com/investing/2025/12/02/if-invested-1k-plug-power-stock-year-ago-how-much/",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/youd-invested-1-000-plug-160600294.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        },
+        {
+          "id": "adb8efa2-1648-3fd9-8f99-739959085b97",
+          "content": {
+            "id": "adb8efa2-1648-3fd9-8f99-739959085b97",
+            "contentType": "STORY",
+            "title": "Plug Power Just Kicked Off Its NASA Contract. Should You Buy PLUG Stock Here?",
+            "description": "",
+            "summary": "Down over 50% from all-time highs, Plug Power stock offers significant upside potential to investors over the next three years, given its expanding partnerships.",
+            "pubDate": "2025-12-02T15:57:43Z",
+            "displayTime": "2025-12-02T15:57:43Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": {
+              "originalUrl": "https://media.zenfs.com/en/barchart_com_477/c27c1ad979682f047353b8001f58102b",
+              "originalWidth": 1600,
+              "originalHeight": 878,
+              "caption": "Green hydrogen by Scharfsinn via Shutterstock",
+              "resolutions": [
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/uhMqDbtanhZe9R2lc.OHRA--~B/aD04Nzg7dz0xNjAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/barchart_com_477/c27c1ad979682f047353b8001f58102b",
+                  "width": 1600,
+                  "height": 878,
+                  "tag": "original"
+                },
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/HoZRLtaLL_ZrBu0CZo6kQA--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/barchart_com_477/c27c1ad979682f047353b8001f58102b",
+                  "width": 170,
+                  "height": 128,
+                  "tag": "170x128"
+                }
+              ]
+            },
+            "provider": {
+              "displayName": "Barchart",
+              "url": "https://www.barchart.com/"
+            },
+            "canonicalUrl": {
+              "url": "https://www.barchart.com/story/news/36412544/plug-power-just-kicked-off-its-nasa-contract-should-you-buy-plug-stock-here",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/plug-power-just-kicked-off-155743791.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        }
+      ]
+    },
+    "recommendations": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  },
+  "holders_data": {
+    "major_holders": {
+      "status": "error"
+    },
+    "institutional_holders": {
+      "status": "error"
+    }
+  },
+  "earnings_data": {
+    "earnings": {
+      "status": "error",
+      "message": "'NoneType' object has no attribute 'empty'"
+    },
+    "calendar": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  }
+}

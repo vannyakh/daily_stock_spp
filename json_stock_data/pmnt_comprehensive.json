@@ -1,6 +1,6 @@
 {
   "ticker": "PMNT",
-  "timestamp": "2025-12-04T04:36:11.278272",
+  "timestamp": "2025-12-06T04:59:24.516000",
   "intraday_data": {
     "status": "no_data",
     "message": "No intraday data available"
@@ -482,16 +482,106 @@
       ]
     },
     "recommendations": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
+      "status": "success",
+      "rows": 2,
+      "data": [
+        {
+          "period": "0m",
+          "strongBuy": 1,
+          "buy": 1,
+          "hold": 0,
+          "sell": 0,
+          "strongSell": 0
+        },
+        {
+          "period": "-1m",
+          "strongBuy": 1,
+          "buy": 1,
+          "hold": 0,
+          "sell": 0,
+          "strongSell": 0
+        }
+      ]
     }
   },
   "holders_data": {
     "major_holders": {
-      "status": "error"
+      "status": "success",
+      "data": [
+        {
+          "Value": 0.5851
+        },
+        {
+          "Value": 0.24959
+        },
+        {
+          "Value": 0.60156
+        },
+        {
+          "Value": 8.0
+        }
+      ]
     },
     "institutional_holders": {
-      "status": "error"
+      "status": "success",
+      "data": [
+        {
+          "Date Reported": "2025-09-30 00:00:00",
+          "Holder": "Bard Associates Inc.",
+          "pctHeld": 0.1244,
+          "Shares": 4380000,
+          "Value": 1795799,
+          "pctChange": -0.0045
+        },
+        {
+          "Date Reported": "2025-09-30 00:00:00",
+          "Holder": "US BANCORP \\DE\\",
+          "pctHeld": 0.025799999,
+          "Shares": 910225,
+          "Value": 373192,
+          "pctChange": 0.8205
+        },
+        {
+          "Date Reported": "2025-09-30 00:00:00",
+          "Holder": "Magnus Financial Group LLC",
+          "pctHeld": 0.0047,
+          "Shares": 164979,
+          "Value": 67641,
+          "pctChange": 0.2617
+        },
+        {
+          "Date Reported": "2025-09-30 00:00:00",
+          "Holder": "Citadel Advisors Llc",
+          "pctHeld": 0.0036000002,
+          "Shares": 126151,
+          "Value": 51721,
+          "pctChange": 1.0
+        },
+        {
+          "Date Reported": "2025-09-30 00:00:00",
+          "Holder": "Jane Street Group, LLC",
+          "pctHeld": 0.00029999999,
+          "Shares": 12195,
+          "Value": 4999,
+          "pctChange": 1.0
+        },
+        {
+          "Date Reported": "2025-09-30 00:00:00",
+          "Holder": "UBS Group AG",
+          "pctHeld": 0.0001,
+          "Shares": 3463,
+          "Value": 1419,
+          "pctChange": 1.0
+        },
+        {
+          "Date Reported": "2025-09-30 00:00:00",
+          "Holder": "Osaic Holdings Inc.",
+          "pctHeld": 0.0,
+          "Shares": 1000,
+          "Value": 409,
+          "pctChange": 1.0
+        }
+      ]
     }
   },
   "earnings_data": {
@@ -501,7 +591,7 @@
     },
     "calendar": {
       "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
+      "message": "'dict' object has no attribute 'empty'"
     }
   }
 }

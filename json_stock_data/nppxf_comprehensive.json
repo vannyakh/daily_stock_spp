@@ -1,18 +1,9 @@
 {
   "ticker": "NPPXF",
-  "timestamp": "2025-12-04T04:48:42.318565",
+  "timestamp": "2025-12-06T05:33:12.964852",
   "intraday_data": {
-    "status": "success",
-    "rows": 1,
-    "data": [
-      {
-        "Close": 1.0,
-        "High": 1.0,
-        "Low": 1.0,
-        "Open": 1.0,
-        "Volume": 0
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -20,13 +11,17 @@
   },
   "financials": {
     "income_statement": {
+      "status": "no_data"
+    },
+    "balance_sheet": {
       "status": "success",
-      "rows": 44,
+      "rows": 59,
       "columns": [
         "2025-03-31 00:00:00",
         "2024-03-31 00:00:00",
         "2023-03-31 00:00:00",
-        "2022-03-31 00:00:00"
+        "2022-03-31 00:00:00",
+        "2021-03-31 00:00:00"
       ],
       "data": [
         {

@@ -1,39 +1,9 @@
 {
   "ticker": "MNTR",
-  "timestamp": "2025-12-04T04:39:23.219422",
+  "timestamp": "2025-12-06T05:08:08.937965",
   "intraday_data": {
-    "status": "success",
-    "rows": 4,
-    "data": [
-      {
-        "Close": 0.09160000085830688,
-        "High": 0.09160000085830688,
-        "Low": 0.09160000085830688,
-        "Open": 0.09160000085830688,
-        "Volume": 0
-      },
-      {
-        "Close": 0.10080000013113022,
-        "High": 0.10080000013113022,
-        "Low": 0.10080000013113022,
-        "Open": 0.10080000013113022,
-        "Volume": 10000
-      },
-      {
-        "Close": 0.0917000025510788,
-        "High": 0.0917000025510788,
-        "Low": 0.0917000025510788,
-        "Open": 0.0917000025510788,
-        "Volume": 14000
-      },
-      {
-        "Close": 0.09860000014305115,
-        "High": 0.09860000014305115,
-        "Low": 0.09860000014305115,
-        "Open": 0.09860000014305115,
-        "Volume": 0
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -44,41 +14,15 @@
       "status": "no_data"
     },
     "balance_sheet": {
-      "status": "no_data"
-    },
-    "cash_flow": {
-      "status": "no_data"
-    }
-  },
-  "options_data": {
-    "status": "error",
-    "error_message": "Too Many Requests. Rate limited. Try after a while."
-  },
-  "news_data": {
-    "news": {
-      "status": "no_data"
-    },
-    "recommendations": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
-    }
-  },
-  "holders_data": {
-    "major_holders": {
-      "status": "error"
-    },
-    "institutional_holders": {
-      "status": "error"
-    }
-  },
-  "earnings_data": {
-    "earnings": {
-      "status": "error",
-      "message": "'NoneType' object has no attribute 'empty'"
-    },
-    "calendar": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
-    }
-  }
-}
+      "status": "success",
+      "rows": 68,
+      "columns": [
+        "2024-12-31 00:00:00",
+        "2023-12-31 00:00:00",
+        "2022-12-31 00:00:00",
+        "2021-12-31 00:00:00",
+        "2020-12-31 00:00:00"
+      ],
+      "data": [
+        {
+          

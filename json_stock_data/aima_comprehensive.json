@@ -1,43 +1,13 @@
 {
   "ticker": "AIMA",
-  "timestamp": "2025-12-04T04:40:44.739599",
+  "timestamp": "2025-12-06T05:11:43.416996",
   "intraday_data": {
-    "status": "success",
-    "rows": 4,
-    "data": [
-      {
-        "Close HVII": 10.329999923706055,
-        "High HVII": 10.329999923706055,
-        "Low HVII": 10.329999923706055,
-        "Open HVII": 10.329999923706055,
-        "Volume HVII": 0
-      },
-      {
-        "Close HVII": 10.329999923706055,
-        "High HVII": 10.329999923706055,
-        "Low HVII": 10.329999923706055,
-        "Open HVII": 10.329999923706055,
-        "Volume HVII": 224
-      },
-      {
-        "Close HVII": 10.326000213623047,
-        "High HVII": 10.326000213623047,
-        "Low HVII": 10.326000213623047,
-        "Open HVII": 10.326000213623047,
-        "Volume HVII": 470
-      },
-      {
-        "Close HVII": 10.329999923706055,
-        "High HVII": 10.329999923706055,
-        "Low HVII": 10.329999923706055,
-        "Open HVII": 10.329999923706055,
-        "Volume HVII": 6102
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
-    "status": "success",
-    "data": {}
+    "status": "error",
+    "message": "Too Many Requests. Rate limited. Try after a while."
   },
   "financials": {
     "income_statement": {
@@ -51,7 +21,8 @@
     }
   },
   "options_data": {
-    "expirations": []
+    "status": "error",
+    "error_message": "Too Many Requests. Rate limited. Try after a while."
   },
   "news_data": {
     "news": {

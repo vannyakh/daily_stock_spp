@@ -1,59 +1,77 @@
 {
   "ticker": "IGPK",
-  "timestamp": "2025-12-04T04:43:49.619835",
+  "timestamp": "2025-12-06T05:19:53.803514",
   "intraday_data": {
     "status": "success",
-    "rows": 5,
+    "rows": 3,
     "data": [
       {
-        "Close WHLRP": 3.4000000953674316,
-        "High WHLRP": 3.700000047683716,
-        "Low WHLRP": 3.4000000953674316,
-        "Open WHLRP": 3.6500000953674316,
-        "Volume WHLRP": 0
+        "Close RDAR": 0.0003000000142492354,
+        "High RDAR": 0.0003000000142492354,
+        "Low RDAR": 0.0003000000142492354,
+        "Open RDAR": 0.0003000000142492354,
+        "Volume RDAR": 0
       },
       {
-        "Close WHLRP": 3.950000047683716,
-        "High WHLRP": 3.950000047683716,
-        "Low WHLRP": 3.950000047683716,
-        "Open WHLRP": 3.950000047683716,
-        "Volume WHLRP": 100
+        "Close RDAR": 0.0003000000142492354,
+        "High RDAR": 0.0003000000142492354,
+        "Low RDAR": 0.0003000000142492354,
+        "Open RDAR": 0.0003000000142492354,
+        "Volume RDAR": 1
       },
       {
-        "Close WHLRP": 3.740000009536743,
-        "High WHLRP": 3.740000009536743,
-        "Low WHLRP": 3.625,
-        "Open WHLRP": 3.625,
-        "Volume WHLRP": 300
-      },
-      {
-        "Close WHLRP": 3.75,
-        "High WHLRP": 3.75,
-        "Low WHLRP": 3.75,
-        "Open WHLRP": 3.75,
-        "Volume WHLRP": 82
-      },
-      {
-        "Close WHLRP": 3.880000114440918,
-        "High WHLRP": 3.880000114440918,
-        "Low WHLRP": 3.880000114440918,
-        "Open WHLRP": 3.880000114440918,
-        "Volume WHLRP": 200
+        "Close RDAR": 0.0003000000142492354,
+        "High RDAR": 0.0003000000142492354,
+        "Low RDAR": 0.0003000000142492354,
+        "Open RDAR": 0.0003000000142492354,
+        "Volume RDAR": 1
       }
     ]
   },
   "stock_info": {
     "status": "error",
-    "message": "argument of type 'NoneType' is not iterable"
+    "message": "Too Many Requests. Rate limited. Try after a while."
   },
   "financials": {
     "income_statement": {
-      "status": "success",
-      "rows": 32,
-      "columns": [
-        "2021-12-31 00:00:00",
-        "2020-12-31 00:00:00"
-      ],
-      "data": [
-        {
-          
+      "status": "no_data"
+    },
+    "balance_sheet": {
+      "status": "no_data"
+    },
+    "cash_flow": {
+      "status": "no_data"
+    }
+  },
+  "options_data": {
+    "status": "error",
+    "error_message": "Too Many Requests. Rate limited. Try after a while."
+  },
+  "news_data": {
+    "news": {
+      "status": "no_data"
+    },
+    "recommendations": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  },
+  "holders_data": {
+    "major_holders": {
+      "status": "error"
+    },
+    "institutional_holders": {
+      "status": "error"
+    }
+  },
+  "earnings_data": {
+    "earnings": {
+      "status": "error",
+      "message": "'NoneType' object has no attribute 'empty'"
+    },
+    "calendar": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  }
+}

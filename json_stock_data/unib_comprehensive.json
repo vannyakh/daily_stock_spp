@@ -1,9 +1,9 @@
 {
   "ticker": "UNIB",
-  "timestamp": "2025-12-04T04:32:43.303759",
+  "timestamp": "2025-12-06T04:50:10.432755",
   "intraday_data": {
     "status": "success",
-    "rows": 1,
+    "rows": 4,
     "data": [
       {
         "Close": 17.799999237060547,
@@ -11,6 +11,27 @@
         "Low": 17.799999237060547,
         "Open": 17.799999237060547,
         "Volume": 0
+      },
+      {
+        "Close": 17.799999237060547,
+        "High": 17.799999237060547,
+        "Low": 17.799999237060547,
+        "Open": 17.799999237060547,
+        "Volume": 250
+      },
+      {
+        "Close": 18.149999618530273,
+        "High": 18.149999618530273,
+        "Low": 18.149999618530273,
+        "Open": 18.149999618530273,
+        "Volume": 45
+      },
+      {
+        "Close": 18.149999618530273,
+        "High": 18.149999618530273,
+        "Low": 18.149999618530273,
+        "Open": 18.149999618530273,
+        "Volume": 155
       }
     ]
   },
@@ -35,7 +56,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

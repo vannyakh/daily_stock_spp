@@ -1,67 +1,9 @@
 {
   "ticker": "LMMY",
-  "timestamp": "2025-12-04T04:44:25.239111",
+  "timestamp": "2025-12-06T05:21:37.971701",
   "intraday_data": {
-    "status": "success",
-    "rows": 8,
-    "data": [
-      {
-        "Close": 0.5899999737739563,
-        "High": 0.5899999737739563,
-        "Low": 0.5899999737739563,
-        "Open": 0.5899999737739563,
-        "Volume": 0
-      },
-      {
-        "Close": 0.6000000238418579,
-        "High": 0.6000000238418579,
-        "Low": 0.6000000238418579,
-        "Open": 0.6000000238418579,
-        "Volume": 450
-      },
-      {
-        "Close": 0.6000000238418579,
-        "High": 0.6000000238418579,
-        "Low": 0.6000000238418579,
-        "Open": 0.6000000238418579,
-        "Volume": 1450
-      },
-      {
-        "Close": 0.625,
-        "High": 0.625,
-        "Low": 0.625,
-        "Open": 0.625,
-        "Volume": 593
-      },
-      {
-        "Close": 0.625,
-        "High": 0.625,
-        "Low": 0.625,
-        "Open": 0.625,
-        "Volume": 240
-      },
-      {
-        "Close": 0.5699999928474426,
-        "High": 0.5699999928474426,
-        "Low": 0.5699999928474426,
-        "Open": 0.5699999928474426,
-        "Volume": 400
-      },
-      {
-        "Close": 0.5249999761581421,
-        "High": 0.5249999761581421,
-        "Low": 0.5249999761581421,
-        "Open": 0.5249999761581421,
-        "Volume": 0
-      },
-      {
-        "Close": 0.5199999809265137,
-        "High": 0.5199999809265137,
-        "Low": 0.5199999809265137,
-        "Open": 0.5199999809265137,
-        "Volume": 1000
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -87,7 +29,8 @@
       "status": "no_data"
     },
     "recommendations": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   },
   "holders_data": {

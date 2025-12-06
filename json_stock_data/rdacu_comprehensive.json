@@ -1,16 +1,23 @@
 {
   "ticker": "RDACU",
-  "timestamp": "2025-12-04T04:45:43.543323",
+  "timestamp": "2025-12-06T05:25:18.499461",
   "intraday_data": {
     "status": "success",
-    "rows": 1,
+    "rows": 2,
     "data": [
       {
-        "Close": 12.399999618530273,
-        "High": 12.399999618530273,
-        "Low": 12.399999618530273,
-        "Open": 12.399999618530273,
-        "Volume": 0
+        "Close RDACR": 0.20000000298023224,
+        "High RDACR": 0.20000000298023224,
+        "Low RDACR": 0.20000000298023224,
+        "Open RDACR": 0.20000000298023224,
+        "Volume RDACR": 0
+      },
+      {
+        "Close RDACR": 0.1800999939441681,
+        "High RDACR": 0.1800999939441681,
+        "Low RDACR": 0.1800999939441681,
+        "Open RDACR": 0.1800999939441681,
+        "Volume RDACR": 100
       }
     ]
   },
@@ -23,41 +30,11 @@
       "status": "no_data"
     },
     "balance_sheet": {
-      "status": "no_data"
-    },
-    "cash_flow": {
-      "status": "no_data"
-    }
-  },
-  "options_data": {
-    "status": "error",
-    "error_message": "Too Many Requests. Rate limited. Try after a while."
-  },
-  "news_data": {
-    "news": {
-      "status": "no_data"
-    },
-    "recommendations": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
-    }
-  },
-  "holders_data": {
-    "major_holders": {
-      "status": "error"
-    },
-    "institutional_holders": {
-      "status": "error"
-    }
-  },
-  "earnings_data": {
-    "earnings": {
-      "status": "error",
-      "message": "'NoneType' object has no attribute 'empty'"
-    },
-    "calendar": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
-    }
-  }
-}
+      "status": "success",
+      "rows": 29,
+      "columns": [
+        "2024-12-31 00:00:00"
+      ],
+      "data": [
+        {
+          

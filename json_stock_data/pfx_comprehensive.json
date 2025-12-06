@@ -1,39 +1,9 @@
 {
   "ticker": "PFX",
-  "timestamp": "2025-12-04T04:32:13.601368",
+  "timestamp": "2025-12-06T04:48:51.597249",
   "intraday_data": {
-    "status": "success",
-    "rows": 4,
-    "data": [
-      {
-        "Close": 41.0,
-        "High": 41.0,
-        "Low": 41.0,
-        "Open": 41.0,
-        "Volume": 0
-      },
-      {
-        "Close": 43.40510177612305,
-        "High": 43.40510177612305,
-        "Low": 43.40510177612305,
-        "Open": 43.40510177612305,
-        "Volume": 217
-      },
-      {
-        "Close": 43.0,
-        "High": 43.0,
-        "Low": 42.875,
-        "Open": 42.875,
-        "Volume": 235
-      },
-      {
-        "Close": 43.0,
-        "High": 43.0,
-        "Low": 43.0,
-        "Open": 43.0,
-        "Volume": 208
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -653,7 +623,8 @@
       ]
     },
     "recommendations": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   },
   "holders_data": {

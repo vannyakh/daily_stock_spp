@@ -1,9 +1,32 @@
 {
   "ticker": "WAST",
-  "timestamp": "2025-12-04T04:39:37.959666",
+  "timestamp": "2025-12-06T05:08:47.944512",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 3,
+    "data": [
+      {
+        "Close": 0.03200000151991844,
+        "High": 0.03200000151991844,
+        "Low": 0.03200000151991844,
+        "Open": 0.03200000151991844,
+        "Volume": 36700
+      },
+      {
+        "Close": 0.03200000151991844,
+        "High": 0.03200000151991844,
+        "Low": 0.03200000151991844,
+        "Open": 0.03200000151991844,
+        "Volume": 1000
+      },
+      {
+        "Close": 0.029999999329447746,
+        "High": 0.029999999329447746,
+        "Low": 0.029999999329447746,
+        "Open": 0.029999999329447746,
+        "Volume": 124
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -93,7 +116,8 @@
       ]
     },
     "recommendations": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   },
   "holders_data": {

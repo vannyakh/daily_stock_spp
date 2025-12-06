@@ -1,10 +1,9 @@
 {
   "ticker": "TCMFF",
-  "timestamp": "2025-12-04T04:42:19.096138",
+  "timestamp": "2025-12-06T05:15:39.436879",
   "intraday_data": {
-    "status": "success",
-    "rows": 0,
-    "data": []
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -605,7 +604,8 @@
       ]
     },
     "recommendations": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   },
   "holders_data": {

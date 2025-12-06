@@ -1,68 +1,446 @@
 {
   "ticker": "GAMI",
-  "timestamp": "2025-12-04T04:42:52.873149",
+  "timestamp": "2025-12-06T05:17:12.451858",
   "intraday_data": {
-    "status": "success",
-    "rows": 6,
-    "data": [
-      {
-        "Close GGT-PE": 21.636899948120117,
-        "High GGT-PE": 21.636899948120117,
-        "Low GGT-PE": 21.636899948120117,
-        "Open GGT-PE": 21.636899948120117,
-        "Volume GGT-PE": 0
-      },
-      {
-        "Close GGT-PE": 21.680700302124023,
-        "High GGT-PE": 21.680700302124023,
-        "Low GGT-PE": 21.680700302124023,
-        "Open GGT-PE": 21.680700302124023,
-        "Volume GGT-PE": 500
-      },
-      {
-        "Close GGT-PE": 21.549999237060547,
-        "High GGT-PE": 21.549999237060547,
-        "Low GGT-PE": 21.530000686645508,
-        "Open GGT-PE": 21.549999237060547,
-        "Volume GGT-PE": 760
-      },
-      {
-        "Close GGT-PE": 21.549999237060547,
-        "High GGT-PE": 21.549999237060547,
-        "Low GGT-PE": 21.549999237060547,
-        "Open GGT-PE": 21.549999237060547,
-        "Volume GGT-PE": 100
-      },
-      {
-        "Close GGT-PE": 21.540000915527344,
-        "High GGT-PE": 21.540000915527344,
-        "Low GGT-PE": 21.540000915527344,
-        "Open GGT-PE": 21.540000915527344,
-        "Volume GGT-PE": 0
-      },
-      {
-        "Close GGT-PE": 21.719999313354492,
-        "High GGT-PE": 21.719999313354492,
-        "Low GGT-PE": 21.719999313354492,
-        "Open GGT-PE": 21.719999313354492,
-        "Volume GGT-PE": 302
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
-    "message": "argument of type 'NoneType' is not iterable"
+    "message": "Too Many Requests. Rate limited. Try after a while."
   },
   "financials": {
     "income_statement": {
+      "status": "no_data"
+    },
+    "balance_sheet": {
+      "status": "no_data"
+    },
+    "cash_flow": {
+      "status": "no_data"
+    }
+  },
+  "options_data": {
+    "status": "error",
+    "error_message": "Too Many Requests. Rate limited. Try after a while."
+  },
+  "news_data": {
+    "news": {
       "status": "success",
-      "rows": 47,
-      "columns": [
-        "2023-12-31 00:00:00",
-        "2022-12-31 00:00:00",
-        "2021-12-31 00:00:00",
-        "2020-12-31 00:00:00"
-      ],
+      "count": 7,
       "data": [
         {
-          
+          "id": "49a42b04-fe52-3109-8282-91c1c46324c5",
+          "content": {
+            "id": "49a42b04-fe52-3109-8282-91c1c46324c5",
+            "contentType": "STORY",
+            "title": "Mario Cibelli's Strategic Moves: A Closer Look at Remitly Global Inc's Impact",
+            "description": "",
+            "summary": "Insights from the Third Quarter 2025 13F Filing",
+            "pubDate": "2025-11-14T12:03:12Z",
+            "displayTime": "2025-11-14T12:03:12Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": {
+              "originalUrl": "https://media.zenfs.com/en/us.finance.gurufocus/bce4ae74087d228e55a4e377f4e19c60",
+              "originalWidth": 1242,
+              "originalHeight": 902,
+              "caption": "",
+              "resolutions": [
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/O0l8iSH2RfzVHVvWWr3zyQ--~B/aD05MDI7dz0xMjQyO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/us.finance.gurufocus/bce4ae74087d228e55a4e377f4e19c60",
+                  "width": 1242,
+                  "height": 902,
+                  "tag": "original"
+                },
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/3t9aSFreggAxpDaUfLcI5w--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/us.finance.gurufocus/bce4ae74087d228e55a4e377f4e19c60",
+                  "width": 170,
+                  "height": 128,
+                  "tag": "170x128"
+                }
+              ]
+            },
+            "provider": {
+              "displayName": "GuruFocus.com",
+              "url": "http://www.gurufocus.com/"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/mario-cibellis-strategic-moves-closer-120312360.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/mario-cibellis-strategic-moves-closer-120312360.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        },
+        {
+          "id": "3b260ae8-5908-3f7a-af3c-ccd7369f9c20",
+          "content": {
+            "id": "3b260ae8-5908-3f7a-af3c-ccd7369f9c20",
+            "contentType": "STORY",
+            "title": "Paramount Global: Mario Gabelli's Strategic Exit with a -0.62% Portfolio Impact",
+            "description": "",
+            "summary": "Insights into Mario Gabelli (Trades, Portfolio)'s Third Quarter 2025 Investment Moves",
+            "pubDate": "2025-11-12T23:01:42Z",
+            "displayTime": "2025-11-12T23:01:42Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": {
+              "originalUrl": "https://media.zenfs.com/en/us.finance.gurufocus/ee78ddbc6f2233700e5996a9b552fcbb",
+              "originalWidth": 1242,
+              "originalHeight": 902,
+              "caption": "",
+              "resolutions": [
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/RAR_XTsuuhH71aheYt1Jow--~B/aD05MDI7dz0xMjQyO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/us.finance.gurufocus/ee78ddbc6f2233700e5996a9b552fcbb",
+                  "width": 1242,
+                  "height": 902,
+                  "tag": "original"
+                },
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/3dAHlorDcNiovBbGaHe1Wg--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/us.finance.gurufocus/ee78ddbc6f2233700e5996a9b552fcbb",
+                  "width": 170,
+                  "height": 128,
+                  "tag": "170x128"
+                }
+              ]
+            },
+            "provider": {
+              "displayName": "GuruFocus.com",
+              "url": "http://www.gurufocus.com/"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/paramount-global-mario-gabellis-strategic-230142066.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/paramount-global-mario-gabellis-strategic-230142066.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        },
+        {
+          "id": "f6242c6e-0f44-3a0c-a711-5f623e6b4966",
+          "content": {
+            "id": "f6242c6e-0f44-3a0c-a711-5f623e6b4966",
+            "contentType": "STORY",
+            "title": "Gamco Investors: Q3 Earnings Snapshot",
+            "description": "",
+            "summary": "GREENWICH, Conn. AP) \u2014 Gamco Investors Inc. GAMI) on Friday reported profit of $15.2 million in its third quarter.",
+            "pubDate": "2025-11-07T21:22:48Z",
+            "displayTime": "2025-11-07T21:22:48Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": null,
+            "provider": {
+              "displayName": "Associated Press Finance",
+              "url": "http://www.ap.org/"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/gamco-investors-q3-earnings-snapshot-212248428.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/gamco-investors-q3-earnings-snapshot-212248428.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        },
+        {
+          "id": "2d605b53-3c3c-34b7-a8b3-b907826cfe7b",
+          "content": {
+            "id": "2d605b53-3c3c-34b7-a8b3-b907826cfe7b",
+            "contentType": "STORY",
+            "title": "How GAMCO\u2019s Push for Equal Shareholder Treatment at Lennar (LEN) Has Changed Its Investment Story",
+            "description": "",
+            "summary": "On October 13, 2025, GAMCO Investors Inc announced it had sent a letter to Lennar Corporation\u2019s board raising concerns about Lennar\u2019s recent exchange offer of Millrose Properties Class A shares, specifically urging for the inclusion or conversion of Class B shares in the transaction. This push by a major Class B shareholder draws attention to underlying shareholder rights and the potential for enhanced value creation through transaction structure adjustments. We'll explore how this investor...",
+            "pubDate": "2025-10-15T15:14:33Z",
+            "displayTime": "2025-10-15T15:14:33Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": {
+              "originalUrl": "https://media.zenfs.com/en/simply_wall_st__316/ee39867ed54fe106bb884d0e58ecef7a",
+              "originalWidth": 1194,
+              "originalHeight": 432,
+              "caption": "",
+              "resolutions": [
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/Pr4xHz3OlvY3DQvbXETOcA--~B/aD00MzI7dz0xMTk0O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/simply_wall_st__316/ee39867ed54fe106bb884d0e58ecef7a",
+                  "width": 1194,
+                  "height": 432,
+                  "tag": "original"
+                },
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/FNriafdkBzIWQwzV1ssBBA--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/simply_wall_st__316/ee39867ed54fe106bb884d0e58ecef7a",
+                  "width": 170,
+                  "height": 128,
+                  "tag": "170x128"
+                }
+              ]
+            },
+            "provider": {
+              "displayName": "Simply Wall St.",
+              "url": "https://simplywall.st/"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/gamco-push-equal-shareholder-treatment-151433186.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/gamco-push-equal-shareholder-treatment-151433186.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        },
+        {
+          "id": "7ef46b28-fe44-32f6-a2be-fc7b4b60ea0e",
+          "content": {
+            "id": "7ef46b28-fe44-32f6-a2be-fc7b4b60ea0e",
+            "contentType": "STORY",
+            "title": "Billionaire Mario Gabelli Says He\u2019s Thinking About Buying More Kraft Heinz (KHC) Shares",
+            "description": "",
+            "summary": "Mario Gabelli, GAMCO Investors chairman and CEO, said in a recent program on CNBC that he\u2019d be a \u201cbuyer\u201d of Kraft Heinz Co (NASDAQ:KHC) in pieces and he\u2019s thinking of buying the stock. He was commenting on Kraft Heinz Co (NASDAQ:KHC)\u2019s plan to split into two companies. \u201cBasically the split up pieces can be worth [\u2026]",
+            "pubDate": "2025-09-17T12:07:54Z",
+            "displayTime": "2025-09-17T12:07:54Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": {
+              "originalUrl": "https://media.zenfs.com/en/insidermonkey.com/aa2f556ddd560aec8dab6cf26f27b05f",
+              "originalWidth": 768,
+              "originalHeight": 512,
+              "caption": "",
+              "resolutions": [
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/KMknAjda2HOk62zsr1DorQ--~B/aD01MTI7dz03Njg7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/insidermonkey.com/aa2f556ddd560aec8dab6cf26f27b05f",
+                  "width": 768,
+                  "height": 512,
+                  "tag": "original"
+                },
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/YVz0ShbUNFEKSpGQvmwZEw--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/insidermonkey.com/aa2f556ddd560aec8dab6cf26f27b05f",
+                  "width": 170,
+                  "height": 128,
+                  "tag": "170x128"
+                }
+              ]
+            },
+            "provider": {
+              "displayName": "Insider Monkey",
+              "url": "http://www.insidermonkey.com"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/billionaire-mario-gabelli-says-thinking-120754905.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/billionaire-mario-gabelli-says-thinking-120754905.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        },
+        {
+          "id": "d9d844f6-06e0-3862-bb59-3eb4760e6906",
+          "content": {
+            "id": "d9d844f6-06e0-3862-bb59-3eb4760e6906",
+            "contentType": "STORY",
+            "title": "Gamco Investors: Q2 Earnings Snapshot",
+            "description": "",
+            "summary": "GREENWICH, Conn. AP) \u2014 Gamco Investors Inc. GAMI) on Tuesday reported profit of $20.8 million in its second quarter.",
+            "pubDate": "2025-08-05T21:26:45Z",
+            "displayTime": "2025-08-05T21:26:45Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": null,
+            "provider": {
+              "displayName": "Associated Press Finance",
+              "url": "http://www.ap.org/"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/gamco-investors-q2-earnings-snapshot-212645073.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/gamco-investors-q2-earnings-snapshot-212645073.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        },
+        {
+          "id": "599b75a6-30c5-3738-8e67-23fd5d317fe4",
+          "content": {
+            "id": "599b75a6-30c5-3738-8e67-23fd5d317fe4",
+            "contentType": "STORY",
+            "title": "Billionaire Mario Gabelli Says He\u2019s Bullish on This \u2018Extraordinarily\u2019 Cheap Stock",
+            "description": "",
+            "summary": "Textron Inc (NYSE:TXT) is one of the 10 Buzzing Stocks Everyone is Talking About. Mario Gabelli of GAMCO said in a recent program on CNBC that he likes industrial conglomerate Textron Inc (NYSE:TXT) shares. \u201cTextron Inc (NYSE:TXT) is important because there\u2019s 180 million shares. Scott Donnelly, who runs it, has done a terrific job. And [\u2026]",
+            "pubDate": "2025-07-23T12:02:15Z",
+            "displayTime": "2025-07-23T12:02:15Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": {
+              "originalUrl": "https://media.zenfs.com/en/insidermonkey.com/6ad9b3d6d691007650d362f7da830857",
+              "originalWidth": 600,
+              "originalHeight": 800,
+              "caption": "",
+              "resolutions": [
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/VSz490i5CZ6iEAcXxMhl5A--~B/aD04MDA7dz02MDA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/insidermonkey.com/6ad9b3d6d691007650d362f7da830857",
+                  "width": 600,
+                  "height": 800,
+                  "tag": "original"
+                },
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/C4JgB_E0bfkrdx90WkKhRQ--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/insidermonkey.com/6ad9b3d6d691007650d362f7da830857",
+                  "width": 170,
+                  "height": 128,
+                  "tag": "170x128"
+                }
+              ]
+            },
+            "provider": {
+              "displayName": "Insider Monkey",
+              "url": "http://www.insidermonkey.com"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/billionaire-mario-gabelli-says-bullish-120215775.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/billionaire-mario-gabelli-says-bullish-120215775.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        }
+      ]
+    },
+    "recommendations": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  },
+  "holders_data": {
+    "major_holders": {
+      "status": "error"
+    },
+    "institutional_holders": {
+      "status": "error"
+    }
+  },
+  "earnings_data": {
+    "earnings": {
+      "status": "error",
+      "message": "'NoneType' object has no attribute 'empty'"
+    },
+    "calendar": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  }
+}

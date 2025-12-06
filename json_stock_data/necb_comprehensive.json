@@ -1,74 +1,9 @@
 {
   "ticker": "NECB",
-  "timestamp": "2025-12-04T04:28:38.989801",
+  "timestamp": "2025-12-06T04:39:22.172023",
   "intraday_data": {
-    "status": "success",
-    "rows": 9,
-    "data": [
-      {
-        "Close HYAC": 11.300000190734863,
-        "High HYAC": 11.300000190734863,
-        "Low HYAC": 11.300000190734863,
-        "Open HYAC": 11.300000190734863,
-        "Volume HYAC": 0
-      },
-      {
-        "Close HYAC": 11.3100004196167,
-        "High HYAC": 11.3100004196167,
-        "Low HYAC": 11.3100004196167,
-        "Open HYAC": 11.3100004196167,
-        "Volume HYAC": 50000
-      },
-      {
-        "Close HYAC": 11.3100004196167,
-        "High HYAC": 11.3100004196167,
-        "Low HYAC": 11.3100004196167,
-        "Open HYAC": 11.3100004196167,
-        "Volume HYAC": 200000
-      },
-      {
-        "Close HYAC": 11.3100004196167,
-        "High HYAC": 11.3100004196167,
-        "Low HYAC": 11.3100004196167,
-        "Open HYAC": 11.3100004196167,
-        "Volume HYAC": 100000
-      },
-      {
-        "Close HYAC": 11.3100004196167,
-        "High HYAC": 11.3100004196167,
-        "Low HYAC": 11.300000190734863,
-        "Open HYAC": 11.300000190734863,
-        "Volume HYAC": 62500
-      },
-      {
-        "Close HYAC": 11.300000190734863,
-        "High HYAC": 11.305000305175781,
-        "Low HYAC": 11.300000190734863,
-        "Open HYAC": 11.305000305175781,
-        "Volume HYAC": 1432
-      },
-      {
-        "Close HYAC": 11.3100004196167,
-        "High HYAC": 11.3100004196167,
-        "Low HYAC": 11.3100004196167,
-        "Open HYAC": 11.3100004196167,
-        "Volume HYAC": 50000
-      },
-      {
-        "Close HYAC": 11.3100004196167,
-        "High HYAC": 11.3100004196167,
-        "Low HYAC": 11.3100004196167,
-        "Open HYAC": 11.3100004196167,
-        "Volume HYAC": 27621
-      },
-      {
-        "Close HYAC": 11.3100004196167,
-        "High HYAC": 11.3100004196167,
-        "Low HYAC": 11.3100004196167,
-        "Open HYAC": 11.3100004196167,
-        "Volume HYAC": 1115
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -688,7 +623,8 @@
       ]
     },
     "recommendations": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   },
   "holders_data": {

@@ -1,88 +1,9 @@
 {
   "ticker": "PMEDF",
-  "timestamp": "2025-12-04T04:43:45.454465",
+  "timestamp": "2025-12-06T05:19:42.612669",
   "intraday_data": {
-    "status": "success",
-    "rows": 11,
-    "data": [
-      {
-        "Close DTGI": 0.01590000092983246,
-        "High DTGI": 0.01600000075995922,
-        "Low DTGI": 0.01590000092983246,
-        "Open DTGI": 0.01600000075995922,
-        "Volume DTGI": 0
-      },
-      {
-        "Close DTGI": 0.01590000092983246,
-        "High DTGI": 0.01590000092983246,
-        "Low DTGI": 0.01590000092983246,
-        "Open DTGI": 0.01590000092983246,
-        "Volume DTGI": 10000
-      },
-      {
-        "Close DTGI": 0.01510000042617321,
-        "High DTGI": 0.01510000042617321,
-        "Low DTGI": 0.01510000042617321,
-        "Open DTGI": 0.01510000042617321,
-        "Volume DTGI": 30000
-      },
-      {
-        "Close DTGI": 0.014999999664723873,
-        "High DTGI": 0.01510000042617321,
-        "Low DTGI": 0.014999999664723873,
-        "Open DTGI": 0.01510000042617321,
-        "Volume DTGI": 50000
-      },
-      {
-        "Close DTGI": 0.014999999664723873,
-        "High DTGI": 0.014999999664723873,
-        "Low DTGI": 0.014999999664723873,
-        "Open DTGI": 0.014999999664723873,
-        "Volume DTGI": 347300
-      },
-      {
-        "Close DTGI": 0.014999999664723873,
-        "High DTGI": 0.014999999664723873,
-        "Low DTGI": 0.014999999664723873,
-        "Open DTGI": 0.014999999664723873,
-        "Volume DTGI": 40000
-      },
-      {
-        "Close DTGI": 0.014700000174343586,
-        "High DTGI": 0.014700000174343586,
-        "Low DTGI": 0.014700000174343586,
-        "Open DTGI": 0.014700000174343586,
-        "Volume DTGI": 3794
-      },
-      {
-        "Close DTGI": 0.014700000174343586,
-        "High DTGI": 0.014700000174343586,
-        "Low DTGI": 0.014700000174343586,
-        "Open DTGI": 0.014700000174343586,
-        "Volume DTGI": 3968
-      },
-      {
-        "Close DTGI": 0.014700000174343586,
-        "High DTGI": 0.014700000174343586,
-        "Low DTGI": 0.014700000174343586,
-        "Open DTGI": 0.014700000174343586,
-        "Volume DTGI": 6694
-      },
-      {
-        "Close DTGI": 0.014000000432133675,
-        "High DTGI": 0.014299999922513962,
-        "Low DTGI": 0.014000000432133675,
-        "Open DTGI": 0.014299999922513962,
-        "Volume DTGI": 0
-      },
-      {
-        "Close DTGI": 0.014299999922513962,
-        "High DTGI": 0.014299999922513962,
-        "Low DTGI": 0.014299999922513962,
-        "Open DTGI": 0.014299999922513962,
-        "Volume DTGI": 20000
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -153,7 +74,8 @@
       ]
     },
     "recommendations": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   },
   "holders_data": {

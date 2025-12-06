@@ -1,94 +1,54 @@
 {
   "ticker": "PMVC",
-  "timestamp": "2025-12-04T04:39:25.427852",
+  "timestamp": "2025-12-06T05:08:11.126987",
   "intraday_data": {
     "status": "no_data",
     "message": "No intraday data available"
   },
   "stock_info": {
-    "status": "success",
-    "data": {
-      "language": "en-US",
-      "region": "US",
-      "quoteType": "EQUITY",
-      "typeDisp": "Equity",
-      "quoteSourceName": "Delayed Quote",
-      "triggerable": false,
-      "customPriceAlertConfidence": "LOW",
-      "currency": "USD",
-      "earningsTimestampEnd": 1755288000,
-      "isEarningsDateEstimate": true,
-      "trailingAnnualDividendRate": 0.0,
-      "trailingPE": 15.64893,
-      "trailingAnnualDividendYield": 0.0,
-      "epsTrailingTwelveMonths": 28.04,
-      "sharesOutstanding": 73169,
-      "bookValue": 3.841,
-      "fiftyDayAverage": 438.79584,
-      "fiftyDayAverageChange": 0.00015258789,
-      "fiftyDayAverageChangePercent": 3.4774234e-07,
-      "twoHundredDayAverage": 438.79584,
-      "twoHundredDayAverageChange": 0.00015258789,
-      "twoHundredDayAverageChangePercent": 3.4774234e-07,
-      "marketCap": 64344168,
-      "priceToBook": 114.240036,
-      "sourceInterval": 15,
-      "exchangeDataDelayedBy": 0,
-      "tradeable": false,
-      "cryptoTradeable": false,
-      "marketState": "POSTPOST",
-      "regularMarketTime": 1764795600,
-      "exchange": "PNK",
-      "messageBoardId": "finmb_682442262",
-      "exchangeTimezoneName": "America/New_York",
-      "exchangeTimezoneShortName": "EST",
-      "gmtOffSetMilliseconds": -18000000,
-      "market": "us_market",
-      "esgPopulated": false,
-      "hasPrePostMarketData": false,
-      "firstTradeDateMilliseconds": 1605191400000,
-      "priceHint": 2,
-      "regularMarketChange": 0.0,
-      "shortName": "PMV Consumer Acquisition Corp.",
-      "regularMarketDayHigh": 10.02,
-      "regularMarketDayRange": "10.02 - 10.02",
-      "regularMarketDayLow": 10.02,
-      "regularMarketVolume": 1939,
-      "regularMarketPreviousClose": 438.796,
-      "bid": 0.0139,
-      "ask": 0.0,
-      "bidSize": 8,
-      "askSize": 0,
-      "fullExchangeName": "OTC Markets OTCPK",
-      "financialCurrency": "USD",
-      "regularMarketOpen": 10.04,
-      "averageDailyVolume3Month": 0,
-      "averageDailyVolume10Day": 0,
-      "fiftyTwoWeekLowChange": 428.776,
-      "fiftyTwoWeekLowChangePercent": 42.792015,
-      "fiftyTwoWeekRange": "10.02 - 438.79584",
-      "fiftyTwoWeekHighChange": 0.00015258789,
-      "fiftyTwoWeekHighChangePercent": 3.4774234e-07,
-      "fiftyTwoWeekLow": 10.02,
-      "fiftyTwoWeekHigh": 438.79584,
-      "fiftyTwoWeekChangePercent": 0.0,
-      "earningsTimestampStart": 1754942400,
-      "regularMarketChangePercent": 0.0,
-      "regularMarketPrice": 438.796,
-      "displayName": "PMV Consumer",
-      "symbol": "PMVC"
-    }
+    "status": "error",
+    "message": "Too Many Requests. Rate limited. Try after a while."
   },
   "financials": {
     "income_statement": {
-      "status": "success",
-      "rows": 38,
-      "columns": [
-        "2024-12-31 00:00:00",
-        "2023-12-31 00:00:00",
-        "2022-12-31 00:00:00",
-        "2021-12-31 00:00:00"
-      ],
-      "data": [
-        {
-          
+      "status": "no_data"
+    },
+    "balance_sheet": {
+      "status": "no_data"
+    },
+    "cash_flow": {
+      "status": "no_data"
+    }
+  },
+  "options_data": {
+    "status": "error",
+    "error_message": "Too Many Requests. Rate limited. Try after a while."
+  },
+  "news_data": {
+    "news": {
+      "status": "no_data"
+    },
+    "recommendations": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  },
+  "holders_data": {
+    "major_holders": {
+      "status": "error"
+    },
+    "institutional_holders": {
+      "status": "error"
+    }
+  },
+  "earnings_data": {
+    "earnings": {
+      "status": "error",
+      "message": "'NoneType' object has no attribute 'empty'"
+    },
+    "calendar": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  }
+}

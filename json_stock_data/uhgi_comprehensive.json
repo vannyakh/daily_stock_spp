@@ -1,53 +1,9 @@
 {
   "ticker": "UHGI",
-  "timestamp": "2025-12-04T04:45:07.266206",
+  "timestamp": "2025-12-06T05:23:32.728584",
   "intraday_data": {
-    "status": "success",
-    "rows": 6,
-    "data": [
-      {
-        "Close CDTTW": 0.010099999606609344,
-        "High CDTTW": 0.010300000198185444,
-        "Low CDTTW": 0.010099999606609344,
-        "Open CDTTW": 0.010300000198185444,
-        "Volume CDTTW": 0
-      },
-      {
-        "Close CDTTW": 0.010300000198185444,
-        "High CDTTW": 0.010300000198185444,
-        "Low CDTTW": 0.010300000198185444,
-        "Open CDTTW": 0.010300000198185444,
-        "Volume CDTTW": 5000
-      },
-      {
-        "Close CDTTW": 0.010300000198185444,
-        "High CDTTW": 0.010300000198185444,
-        "Low CDTTW": 0.010300000198185444,
-        "Open CDTTW": 0.010300000198185444,
-        "Volume CDTTW": 100
-      },
-      {
-        "Close CDTTW": 0.010300000198185444,
-        "High CDTTW": 0.010300000198185444,
-        "Low CDTTW": 0.010300000198185444,
-        "Open CDTTW": 0.010300000198185444,
-        "Volume CDTTW": 100
-      },
-      {
-        "Close CDTTW": 0.010300000198185444,
-        "High CDTTW": 0.010300000198185444,
-        "Low CDTTW": 0.010300000198185444,
-        "Open CDTTW": 0.010300000198185444,
-        "Volume CDTTW": 5100
-      },
-      {
-        "Close CDTTW": 0.01140000019222498,
-        "High CDTTW": 0.012299999594688416,
-        "Low CDTTW": 0.01140000019222498,
-        "Open CDTTW": 0.012299999594688416,
-        "Volume CDTTW": 8500
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -58,41 +14,14 @@
       "status": "no_data"
     },
     "balance_sheet": {
-      "status": "no_data"
-    },
-    "cash_flow": {
-      "status": "no_data"
-    }
-  },
-  "options_data": {
-    "status": "error",
-    "error_message": "Too Many Requests. Rate limited. Try after a while."
-  },
-  "news_data": {
-    "news": {
-      "status": "no_data"
-    },
-    "recommendations": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
-    }
-  },
-  "holders_data": {
-    "major_holders": {
-      "status": "error"
-    },
-    "institutional_holders": {
-      "status": "error"
-    }
-  },
-  "earnings_data": {
-    "earnings": {
-      "status": "error",
-      "message": "'NoneType' object has no attribute 'empty'"
-    },
-    "calendar": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
-    }
-  }
-}
+      "status": "success",
+      "rows": 33,
+      "columns": [
+        "2025-07-31 00:00:00",
+        "2024-07-31 00:00:00",
+        "2023-07-31 00:00:00",
+        "2022-07-31 00:00:00"
+      ],
+      "data": [
+        {
+          

@@ -1,32 +1,9 @@
 {
   "ticker": "DHCC",
-  "timestamp": "2025-12-04T04:38:28.082606",
+  "timestamp": "2025-12-06T05:05:38.774565",
   "intraday_data": {
-    "status": "success",
-    "rows": 3,
-    "data": [
-      {
-        "Close BBLR": 0.005799999926239252,
-        "High BBLR": 0.005799999926239252,
-        "Low BBLR": 0.005799999926239252,
-        "Open BBLR": 0.005799999926239252,
-        "Volume BBLR": 0
-      },
-      {
-        "Close BBLR": 0.005799999926239252,
-        "High BBLR": 0.005799999926239252,
-        "Low BBLR": 0.005799999926239252,
-        "Open BBLR": 0.005799999926239252,
-        "Volume BBLR": 40
-      },
-      {
-        "Close BBLR": 0.005799999926239252,
-        "High BBLR": 0.005799999926239252,
-        "Low BBLR": 0.005799999926239252,
-        "Open BBLR": 0.005799999926239252,
-        "Volume BBLR": 10000
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -37,15 +14,41 @@
       "status": "no_data"
     },
     "balance_sheet": {
-      "status": "success",
-      "rows": 52,
-      "columns": [
-        "2024-12-31 00:00:00",
-        "2023-12-31 00:00:00",
-        "2022-12-31 00:00:00",
-        "2021-12-31 00:00:00",
-        "2020-12-31 00:00:00"
-      ],
-      "data": [
-        {
-          
+      "status": "no_data"
+    },
+    "cash_flow": {
+      "status": "no_data"
+    }
+  },
+  "options_data": {
+    "status": "error",
+    "error_message": "Too Many Requests. Rate limited. Try after a while."
+  },
+  "news_data": {
+    "news": {
+      "status": "no_data"
+    },
+    "recommendations": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  },
+  "holders_data": {
+    "major_holders": {
+      "status": "error"
+    },
+    "institutional_holders": {
+      "status": "error"
+    }
+  },
+  "earnings_data": {
+    "earnings": {
+      "status": "error",
+      "message": "'NoneType' object has no attribute 'empty'"
+    },
+    "calendar": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  }
+}

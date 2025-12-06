@@ -1,25 +1,9 @@
 {
   "ticker": "SFDL",
-  "timestamp": "2025-12-04T04:32:22.432298",
+  "timestamp": "2025-12-06T04:49:14.384084",
   "intraday_data": {
-    "status": "success",
-    "rows": 2,
-    "data": [
-      {
-        "Close": 31.510000228881836,
-        "High": 31.510000228881836,
-        "Low": 31.510000228881836,
-        "Open": 31.510000228881836,
-        "Volume": 0
-      },
-      {
-        "Close": 31.510000228881836,
-        "High": 31.510000228881836,
-        "Low": 31.510000228881836,
-        "Open": 31.510000228881836,
-        "Volume": 118
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -376,7 +360,8 @@
       ]
     },
     "recommendations": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   },
   "holders_data": {

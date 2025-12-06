@@ -1,9 +1,46 @@
 {
   "ticker": "TRTX-PC",
-  "timestamp": "2025-12-04T04:47:00.540135",
+  "timestamp": "2025-12-06T05:28:46.873610",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 5,
+    "data": [
+      {
+        "Close NEWTZ": 25.024999618530273,
+        "High NEWTZ": 25.024999618530273,
+        "Low NEWTZ": 25.024999618530273,
+        "Open NEWTZ": 25.024999618530273,
+        "Volume NEWTZ": 0
+      },
+      {
+        "Close NEWTZ": 25.01020050048828,
+        "High NEWTZ": 25.01020050048828,
+        "Low NEWTZ": 25.010000228881836,
+        "Open NEWTZ": 25.010000228881836,
+        "Volume NEWTZ": 1100
+      },
+      {
+        "Close NEWTZ": 25.030000686645508,
+        "High NEWTZ": 25.030000686645508,
+        "Low NEWTZ": 25.030000686645508,
+        "Open NEWTZ": 25.030000686645508,
+        "Volume NEWTZ": 349
+      },
+      {
+        "Close NEWTZ": 25.041000366210938,
+        "High NEWTZ": 25.041000366210938,
+        "Low NEWTZ": 25.02400016784668,
+        "Open NEWTZ": 25.02400016784668,
+        "Volume NEWTZ": 1547
+      },
+      {
+        "Close NEWTZ": 25.06999969482422,
+        "High NEWTZ": 25.06999969482422,
+        "Low NEWTZ": 25.06999969482422,
+        "Open NEWTZ": 25.06999969482422,
+        "Volume NEWTZ": 0
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -623,7 +660,8 @@
       ]
     },
     "recommendations": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   },
   "holders_data": {

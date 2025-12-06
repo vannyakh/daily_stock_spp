@@ -1,6 +1,6 @@
 {
   "ticker": "PMCB",
-  "timestamp": "2025-12-04T04:36:58.365276",
+  "timestamp": "2025-12-06T05:01:30.061457",
   "intraday_data": {
     "status": "no_data",
     "message": "No intraday data available"
@@ -27,8 +27,50 @@
   "news_data": {
     "news": {
       "status": "success",
-      "count": 1,
+      "count": 2,
       "data": [
+        {
+          "id": "aaed0713-4479-3c01-84d9-d2675183a87f",
+          "content": {
+            "id": "aaed0713-4479-3c01-84d9-d2675183a87f",
+            "contentType": "STORY",
+            "title": "BC-Most Active Stocks",
+            "description": "",
+            "summary": "Nu Holdings Ltd. 26,237,161 17.815",
+            "pubDate": "2025-12-04T15:30:17Z",
+            "displayTime": "2025-12-04T15:30:17Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": null,
+            "provider": {
+              "displayName": "Associated Press Finance",
+              "url": "http://www.ap.org/"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/bc-most-active-stocks-153017065.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/bc-most-active-stocks-153017065.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        },
         {
           "id": "b57ae3af-d8fd-3e80-8b84-f591ffdca348",
           "content": {
@@ -93,15 +135,16 @@
       ]
     },
     "recommendations": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   },
   "holders_data": {
     "major_holders": {
-      "status": "no_data"
+      "status": "error"
     },
     "institutional_holders": {
-      "status": "no_data"
+      "status": "error"
     }
   },
   "earnings_data": {

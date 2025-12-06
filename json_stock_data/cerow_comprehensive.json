@@ -1,9 +1,18 @@
 {
   "ticker": "CEROW",
-  "timestamp": "2025-12-04T04:46:45.477839",
+  "timestamp": "2025-12-06T05:28:06.954571",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 1,
+    "data": [
+      {
+        "Close": 0.009100000374019146,
+        "High": 0.009100000374019146,
+        "Low": 0.009100000374019146,
+        "Open": 0.009100000374019146,
+        "Volume": 0
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -257,7 +266,8 @@
       ]
     },
     "recommendations": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   },
   "holders_data": {

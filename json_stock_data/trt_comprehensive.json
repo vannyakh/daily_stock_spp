@@ -1,25 +1,9 @@
 {
   "ticker": "TRT",
-  "timestamp": "2025-12-04T04:35:38.526744",
+  "timestamp": "2025-12-06T04:57:57.628570",
   "intraday_data": {
-    "status": "success",
-    "rows": 2,
-    "data": [
-      {
-        "Close JSDA": 0.19670000672340393,
-        "High JSDA": 0.19670000672340393,
-        "Low JSDA": 0.19670000672340393,
-        "Open JSDA": 0.19670000672340393,
-        "Volume JSDA": 0
-      },
-      {
-        "Close JSDA": 0.1850000023841858,
-        "High JSDA": 0.1850000023841858,
-        "Low JSDA": 0.1850000023841858,
-        "Open JSDA": 0.1850000023841858,
-        "Volume JSDA": 5000
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -33,38 +17,15 @@
       "status": "no_data"
     },
     "cash_flow": {
-      "status": "no_data"
-    }
-  },
-  "options_data": {
-    "status": "error",
-    "error_message": "Too Many Requests. Rate limited. Try after a while."
-  },
-  "news_data": {
-    "news": {
-      "status": "no_data"
-    },
-    "recommendations": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
-    }
-  },
-  "holders_data": {
-    "major_holders": {
-      "status": "error"
-    },
-    "institutional_holders": {
-      "status": "error"
-    }
-  },
-  "earnings_data": {
-    "earnings": {
-      "status": "error",
-      "message": "'NoneType' object has no attribute 'empty'"
-    },
-    "calendar": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
-    }
-  }
-}
+      "status": "success",
+      "rows": 60,
+      "columns": [
+        "2025-06-30 00:00:00",
+        "2024-06-30 00:00:00",
+        "2023-06-30 00:00:00",
+        "2022-06-30 00:00:00",
+        "2021-06-30 00:00:00"
+      ],
+      "data": [
+        {
+          

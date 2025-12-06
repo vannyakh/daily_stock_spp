@@ -1,13 +1,36 @@
 {
   "ticker": "PFXNZ",
-  "timestamp": "2025-12-04T04:45:50.159510",
+  "timestamp": "2025-12-06T05:25:35.811223",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 3,
+    "data": [
+      {
+        "Close": 23.431299209594727,
+        "High": 23.431299209594727,
+        "Low": 23.431299209594727,
+        "Open": 23.431299209594727,
+        "Volume": 0
+      },
+      {
+        "Close": 23.412500381469727,
+        "High": 23.412500381469727,
+        "Low": 23.412500381469727,
+        "Open": 23.412500381469727,
+        "Volume": 216
+      },
+      {
+        "Close": 23.459999084472656,
+        "High": 23.5,
+        "Low": 23.459999084472656,
+        "Open": 23.5,
+        "Volume": 249
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
-    "message": "argument of type 'NoneType' is not iterable"
+    "message": "Too Many Requests. Rate limited. Try after a while."
   },
   "financials": {
     "income_statement": {
@@ -29,8 +52,7 @@
       "status": "no_data"
     },
     "recommendations": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
+      "status": "no_data"
     }
   },
   "holders_data": {
