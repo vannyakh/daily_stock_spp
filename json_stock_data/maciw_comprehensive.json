@@ -1,9 +1,18 @@
 {
   "ticker": "MACIW",
-  "timestamp": "2025-12-06T05:22:09.019740",
+  "timestamp": "2025-12-07T05:07:01.219695",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 1,
+    "data": [
+      {
+        "Close": 0.15970000624656677,
+        "High": 0.15970000624656677,
+        "Low": 0.15970000624656677,
+        "Open": 0.15970000624656677,
+        "Volume": 0
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -295,7 +304,7 @@
     },
     "calendar": {
       "status": "error",
-      "message": "'dict' object has no attribute 'empty'"
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   }
 }

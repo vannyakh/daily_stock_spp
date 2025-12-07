@@ -1,9 +1,32 @@
 {
   "ticker": "BMBN",
-  "timestamp": "2025-12-06T04:47:51.244075",
+  "timestamp": "2025-12-07T04:46:49.778507",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 3,
+    "data": [
+      {
+        "Close": 32.25,
+        "High": 32.25,
+        "Low": 32.25,
+        "Open": 32.25,
+        "Volume": 0
+      },
+      {
+        "Close": 35.0,
+        "High": 35.0,
+        "Low": 34.25,
+        "Open": 34.25,
+        "Volume": 591
+      },
+      {
+        "Close": 35.0,
+        "High": 35.0,
+        "Low": 35.0,
+        "Open": 35.0,
+        "Volume": 1409
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -26,8 +49,7 @@
   },
   "news_data": {
     "news": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
+      "status": "no_data"
     },
     "recommendations": {
       "status": "error",

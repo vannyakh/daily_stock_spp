@@ -1,23 +1,16 @@
 {
   "ticker": "BRGO",
-  "timestamp": "2025-12-06T05:09:43.557262",
+  "timestamp": "2025-12-07T05:00:02.201126",
   "intraday_data": {
     "status": "success",
-    "rows": 2,
+    "rows": 1,
     "data": [
-      {
-        "Close CTKYY": 0.0142000000923872,
-        "High CTKYY": 0.0142000000923872,
-        "Low CTKYY": 0.0142000000923872,
-        "Open CTKYY": 0.0142000000923872,
-        "Volume CTKYY": 0
-      },
       {
         "Close CTKYY": 0.013700000010430813,
         "High CTKYY": 0.013700000010430813,
         "Low CTKYY": 0.013700000010430813,
         "Open CTKYY": 0.013700000010430813,
-        "Volume CTKYY": 35
+        "Volume CTKYY": 0
       }
     ]
   },
@@ -45,7 +38,8 @@
       "status": "no_data"
     },
     "recommendations": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   },
   "holders_data": {

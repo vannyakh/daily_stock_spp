@@ -1,9 +1,74 @@
 {
   "ticker": "PAXH",
-  "timestamp": "2025-12-06T05:08:31.712907",
+  "timestamp": "2025-12-07T04:59:18.744106",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 9,
+    "data": [
+      {
+        "Close NGTF": 0.06499999761581421,
+        "High NGTF": 0.06499999761581421,
+        "Low NGTF": 0.06499999761581421,
+        "Open NGTF": 0.06499999761581421,
+        "Volume NGTF": 0
+      },
+      {
+        "Close NGTF": 0.06499999761581421,
+        "High NGTF": 0.06499999761581421,
+        "Low NGTF": 0.06499999761581421,
+        "Open NGTF": 0.06499999761581421,
+        "Volume NGTF": 24800
+      },
+      {
+        "Close NGTF": 0.06499999761581421,
+        "High NGTF": 0.06499999761581421,
+        "Low NGTF": 0.06499999761581421,
+        "Open NGTF": 0.06499999761581421,
+        "Volume NGTF": 10000
+      },
+      {
+        "Close NGTF": 0.06599999964237213,
+        "High NGTF": 0.06599999964237213,
+        "Low NGTF": 0.06599999964237213,
+        "Open NGTF": 0.06599999964237213,
+        "Volume NGTF": 10650
+      },
+      {
+        "Close NGTF": 0.06310000270605087,
+        "High NGTF": 0.06589999794960022,
+        "Low NGTF": 0.06310000270605087,
+        "Open NGTF": 0.06589999794960022,
+        "Volume NGTF": 46278
+      },
+      {
+        "Close NGTF": 0.0625,
+        "High NGTF": 0.0625,
+        "Low NGTF": 0.0625,
+        "Open NGTF": 0.0625,
+        "Volume NGTF": 10000
+      },
+      {
+        "Close NGTF": 0.06350000202655792,
+        "High NGTF": 0.06350000202655792,
+        "Low NGTF": 0.06350000202655792,
+        "Open NGTF": 0.06350000202655792,
+        "Volume NGTF": 10000
+      },
+      {
+        "Close NGTF": 0.06300000101327896,
+        "High NGTF": 0.06300000101327896,
+        "Low NGTF": 0.06300000101327896,
+        "Open NGTF": 0.06300000101327896,
+        "Volume NGTF": 10000
+      },
+      {
+        "Close NGTF": 0.06499999761581421,
+        "High NGTF": 0.06499999761581421,
+        "Low NGTF": 0.06499999761581421,
+        "Open NGTF": 0.06499999761581421,
+        "Volume NGTF": 600
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -14,15 +79,41 @@
       "status": "no_data"
     },
     "balance_sheet": {
-      "status": "success",
-      "rows": 40,
-      "columns": [
-        "2025-05-31 00:00:00",
-        "2024-05-31 00:00:00",
-        "2023-05-31 00:00:00",
-        "2022-05-31 00:00:00",
-        "2021-05-31 00:00:00"
-      ],
-      "data": [
-        {
-          
+      "status": "no_data"
+    },
+    "cash_flow": {
+      "status": "no_data"
+    }
+  },
+  "options_data": {
+    "status": "error",
+    "error_message": "Too Many Requests. Rate limited. Try after a while."
+  },
+  "news_data": {
+    "news": {
+      "status": "no_data"
+    },
+    "recommendations": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  },
+  "holders_data": {
+    "major_holders": {
+      "status": "error"
+    },
+    "institutional_holders": {
+      "status": "error"
+    }
+  },
+  "earnings_data": {
+    "earnings": {
+      "status": "error",
+      "message": "'NoneType' object has no attribute 'empty'"
+    },
+    "calendar": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  }
+}

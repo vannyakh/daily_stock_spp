@@ -1,25 +1,9 @@
 {
   "ticker": "BDL",
-  "timestamp": "2025-12-06T04:54:16.534339",
+  "timestamp": "2025-12-07T04:50:51.642807",
   "intraday_data": {
-    "status": "success",
-    "rows": 2,
-    "data": [
-      {
-        "Close": 30.450000762939453,
-        "High": 30.450000762939453,
-        "Low": 30.329999923706055,
-        "Open": 30.329999923706055,
-        "Volume": 0
-      },
-      {
-        "Close": 30.450000762939453,
-        "High": 30.450000762939453,
-        "Low": 30.450000762939453,
-        "Open": 30.450000762939453,
-        "Volume": 0
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -475,8 +459,7 @@
       ]
     },
     "recommendations": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
+      "status": "no_data"
     }
   },
   "holders_data": {

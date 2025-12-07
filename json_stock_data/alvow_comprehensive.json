@@ -1,53 +1,9 @@
 {
   "ticker": "ALVOW",
-  "timestamp": "2025-12-06T05:28:08.623951",
+  "timestamp": "2025-12-07T05:10:26.571677",
   "intraday_data": {
-    "status": "success",
-    "rows": 6,
-    "data": [
-      {
-        "Close": 0.7128000259399414,
-        "High": 0.7128000259399414,
-        "Low": 0.7128000259399414,
-        "Open": 0.7128000259399414,
-        "Volume": 0
-      },
-      {
-        "Close": 0.6499999761581421,
-        "High": 0.6499999761581421,
-        "Low": 0.6499999761581421,
-        "Open": 0.6499999761581421,
-        "Volume": 1440
-      },
-      {
-        "Close": 0.6499999761581421,
-        "High": 0.6499999761581421,
-        "Low": 0.6499999761581421,
-        "Open": 0.6499999761581421,
-        "Volume": 4333
-      },
-      {
-        "Close": 0.6499999761581421,
-        "High": 0.6499999761581421,
-        "Low": 0.6499999761581421,
-        "Open": 0.6499999761581421,
-        "Volume": 3371
-      },
-      {
-        "Close": 0.6499999761581421,
-        "High": 0.6499999761581421,
-        "Low": 0.6499999761581421,
-        "Open": 0.6499999761581421,
-        "Volume": 4420
-      },
-      {
-        "Close": 0.6499999761581421,
-        "High": 0.6499999761581421,
-        "Low": 0.6499000191688538,
-        "Open": 0.6499000191688538,
-        "Volume": 0
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -648,7 +604,8 @@
       ]
     },
     "recommendations": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   },
   "holders_data": {

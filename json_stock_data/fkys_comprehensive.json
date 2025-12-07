@@ -1,30 +1,16 @@
 {
   "ticker": "FKYS",
-  "timestamp": "2025-12-06T04:49:38.347643",
+  "timestamp": "2025-12-07T04:47:55.308865",
   "intraday_data": {
     "status": "success",
-    "rows": 3,
+    "rows": 1,
     "data": [
-      {
-        "Close": 17.0,
-        "High": 17.0,
-        "Low": 17.0,
-        "Open": 17.0,
-        "Volume": 0
-      },
-      {
-        "Close": 17.200000762939453,
-        "High": 17.200000762939453,
-        "Low": 17.200000762939453,
-        "Open": 17.200000762939453,
-        "Volume": 300
-      },
       {
         "Close": 17.25,
         "High": 17.25,
         "Low": 17.25,
         "Open": 17.25,
-        "Volume": 1100
+        "Volume": 0
       }
     ]
   },
@@ -139,7 +125,8 @@
       ]
     },
     "recommendations": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   },
   "holders_data": {

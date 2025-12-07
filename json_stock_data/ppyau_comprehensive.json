@@ -1,9 +1,46 @@
 {
   "ticker": "PPYAU",
-  "timestamp": "2025-12-06T05:35:54.821242",
+  "timestamp": "2025-12-07T05:14:49.983340",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 5,
+    "data": [
+      {
+        "Close PGYWW": 0.38499999046325684,
+        "High PGYWW": 0.38499999046325684,
+        "Low PGYWW": 0.38499999046325684,
+        "Open PGYWW": 0.38499999046325684,
+        "Volume PGYWW": 0
+      },
+      {
+        "Close PGYWW": 0.41999998688697815,
+        "High PGYWW": 0.41999998688697815,
+        "Low PGYWW": 0.41999998688697815,
+        "Open PGYWW": 0.41999998688697815,
+        "Volume PGYWW": 1100
+      },
+      {
+        "Close PGYWW": 0.38999998569488525,
+        "High PGYWW": 0.38999998569488525,
+        "Low PGYWW": 0.38999998569488525,
+        "Open PGYWW": 0.38999998569488525,
+        "Volume PGYWW": 200
+      },
+      {
+        "Close PGYWW": 0.41990000009536743,
+        "High PGYWW": 0.41990000009536743,
+        "Low PGYWW": 0.41990000009536743,
+        "Open PGYWW": 0.41990000009536743,
+        "Volume PGYWW": 1000
+      },
+      {
+        "Close PGYWW": 0.38999998569488525,
+        "High PGYWW": 0.38999998569488525,
+        "Low PGYWW": 0.38999998569488525,
+        "Open PGYWW": 0.38999998569488525,
+        "Volume PGYWW": 1900
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -11,13 +48,44 @@
   },
   "financials": {
     "income_statement": {
-      "status": "success",
-      "rows": 32,
-      "columns": [
-        "2024-12-31 00:00:00",
-        "2023-12-31 00:00:00",
-        "2022-12-31 00:00:00"
-      ],
-      "data": [
-        {
-          
+      "status": "no_data"
+    },
+    "balance_sheet": {
+      "status": "no_data"
+    },
+    "cash_flow": {
+      "status": "no_data"
+    }
+  },
+  "options_data": {
+    "status": "error",
+    "error_message": "Too Many Requests. Rate limited. Try after a while."
+  },
+  "news_data": {
+    "news": {
+      "status": "no_data"
+    },
+    "recommendations": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  },
+  "holders_data": {
+    "major_holders": {
+      "status": "error"
+    },
+    "institutional_holders": {
+      "status": "error"
+    }
+  },
+  "earnings_data": {
+    "earnings": {
+      "status": "error",
+      "message": "'NoneType' object has no attribute 'empty'"
+    },
+    "calendar": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  }
+}

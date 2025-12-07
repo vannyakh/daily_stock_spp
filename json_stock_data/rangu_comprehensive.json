@@ -1,9 +1,25 @@
 {
   "ticker": "RANGU",
-  "timestamp": "2025-12-06T05:25:20.321107",
+  "timestamp": "2025-12-07T05:08:57.184572",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 2,
+    "data": [
+      {
+        "Close WLACW": 3.350100040435791,
+        "High WLACW": 3.350100040435791,
+        "Low WLACW": 3.3499999046325684,
+        "Open WLACW": 3.3499999046325684,
+        "Volume WLACW": 0
+      },
+      {
+        "Close WLACW": 3.380000114440918,
+        "High WLACW": 3.4000000953674316,
+        "Low WLACW": 3.380000114440918,
+        "Open WLACW": 3.4000000953674316,
+        "Volume WLACW": 167
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -29,7 +45,8 @@
       "status": "no_data"
     },
     "recommendations": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   },
   "holders_data": {

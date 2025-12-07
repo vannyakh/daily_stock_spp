@@ -1,13 +1,22 @@
 {
   "ticker": "EMMA",
-  "timestamp": "2025-12-06T05:09:16.423217",
+  "timestamp": "2025-12-07T04:59:44.882964",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 1,
+    "data": [
+      {
+        "Close SLDC": 0.0015999999595806003,
+        "High SLDC": 0.0015999999595806003,
+        "Low SLDC": 0.0015999999595806003,
+        "Open SLDC": 0.0015999999595806003,
+        "Volume SLDC": 0
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
-    "message": "argument of type 'NoneType' is not iterable"
+    "message": "Too Many Requests. Rate limited. Try after a while."
   },
   "financials": {
     "income_statement": {
@@ -26,7 +35,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",
@@ -38,7 +48,7 @@
       "status": "error"
     },
     "institutional_holders": {
-      "status": "no_data"
+      "status": "error"
     }
   },
   "earnings_data": {

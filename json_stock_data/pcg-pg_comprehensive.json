@@ -1,9 +1,25 @@
 {
   "ticker": "PCG-PG",
-  "timestamp": "2025-12-06T05:15:37.296597",
+  "timestamp": "2025-12-07T05:03:27.468992",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 2,
+    "data": [
+      {
+        "Close": 17.300100326538086,
+        "High": 17.300100326538086,
+        "Low": 17.300100326538086,
+        "Open": 17.300100326538086,
+        "Volume": 226
+      },
+      {
+        "Close": 18.34440040588379,
+        "High": 18.34440040588379,
+        "Low": 18.34440040588379,
+        "Open": 18.34440040588379,
+        "Volume": 175
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -29,7 +45,8 @@
       "status": "no_data"
     },
     "recommendations": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   },
   "holders_data": {

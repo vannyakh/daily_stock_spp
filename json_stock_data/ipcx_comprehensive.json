@@ -1,32 +1,9 @@
 {
   "ticker": "IPCX",
-  "timestamp": "2025-12-06T05:12:05.239611",
+  "timestamp": "2025-12-07T05:01:25.477602",
   "intraday_data": {
-    "status": "success",
-    "rows": 3,
-    "data": [
-      {
-        "Close": 10.100000381469727,
-        "High": 10.100000381469727,
-        "Low": 10.095000267028809,
-        "Open": 10.100000381469727,
-        "Volume": 0
-      },
-      {
-        "Close": 10.09000015258789,
-        "High": 10.09000015258789,
-        "Low": 10.09000015258789,
-        "Open": 10.09000015258789,
-        "Volume": 7970
-      },
-      {
-        "Close": 10.079999923706055,
-        "High": 10.085000038146973,
-        "Low": 10.079999923706055,
-        "Open": 10.085000038146973,
-        "Volume": 11263
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -37,105 +14,11 @@
       "status": "no_data"
     },
     "balance_sheet": {
-      "status": "no_data"
-    },
-    "cash_flow": {
-      "status": "no_data"
-    }
-  },
-  "options_data": {
-    "status": "error",
-    "error_message": "Too Many Requests. Rate limited. Try after a while."
-  },
-  "news_data": {
-    "news": {
       "status": "success",
-      "count": 1,
+      "rows": 32,
+      "columns": [
+        "2024-12-31 00:00:00"
+      ],
       "data": [
         {
-          "id": "481777e7-5ed4-3217-a3e2-03dacd9ab8ad",
-          "content": {
-            "id": "481777e7-5ed4-3217-a3e2-03dacd9ab8ad",
-            "contentType": "STORY",
-            "title": "Retail investors account for 58% of Inflection Point Acquisition Corp. III's (NASDAQ:IPCX) ownership, while hedge funds account for 23%",
-            "description": "",
-            "summary": "NasdaqGM:IPCX 1 Year Share Price vs Fair Value Explore Inflection Point Acquisition III's Fair Values from the...",
-            "pubDate": "2025-08-16T12:26:42Z",
-            "displayTime": "2025-08-16T12:26:42Z",
-            "isHosted": true,
-            "bypassModal": false,
-            "previewUrl": null,
-            "thumbnail": {
-              "originalUrl": "https://media.zenfs.com/en/simply_wall_st__316/4470f143ba4f4c0e99553a639759c619",
-              "originalWidth": 1194,
-              "originalHeight": 432,
-              "caption": "",
-              "resolutions": [
-                {
-                  "url": "https://s.yimg.com/uu/api/res/1.2/6aUxsyZINKOU9.9KrHnBOA--~B/aD00MzI7dz0xMTk0O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/simply_wall_st__316/4470f143ba4f4c0e99553a639759c619",
-                  "width": 1194,
-                  "height": 432,
-                  "tag": "original"
-                },
-                {
-                  "url": "https://s.yimg.com/uu/api/res/1.2/50CFm8d8WWbAzkmx4kxXiA--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/simply_wall_st__316/4470f143ba4f4c0e99553a639759c619",
-                  "width": 170,
-                  "height": 128,
-                  "tag": "170x128"
-                }
-              ]
-            },
-            "provider": {
-              "displayName": "Simply Wall St.",
-              "url": "https://simplywall.st/"
-            },
-            "canonicalUrl": {
-              "url": "https://finance.yahoo.com/news/retail-investors-account-58-inflection-122642768.html",
-              "site": "finance",
-              "region": "US",
-              "lang": "en-US"
-            },
-            "clickThroughUrl": {
-              "url": "https://finance.yahoo.com/news/retail-investors-account-58-inflection-122642768.html",
-              "site": "finance",
-              "region": "US",
-              "lang": "en-US"
-            },
-            "metadata": {
-              "editorsPick": false
-            },
-            "finance": {
-              "premiumFinance": {
-                "isPremiumNews": false,
-                "isPremiumFreeNews": false
-              }
-            },
-            "storyline": null
-          }
-        }
-      ]
-    },
-    "recommendations": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
-    }
-  },
-  "holders_data": {
-    "major_holders": {
-      "status": "error"
-    },
-    "institutional_holders": {
-      "status": "error"
-    }
-  },
-  "earnings_data": {
-    "earnings": {
-      "status": "error",
-      "message": "'NoneType' object has no attribute 'empty'"
-    },
-    "calendar": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
-    }
-  }
-}
+          

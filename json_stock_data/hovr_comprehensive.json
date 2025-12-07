@@ -1,9 +1,39 @@
 {
   "ticker": "HOVR",
-  "timestamp": "2025-12-06T04:57:20.764207",
+  "timestamp": "2025-12-07T04:52:47.453104",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 4,
+    "data": [
+      {
+        "Close RAIN": 5.96999979019165,
+        "High RAIN": 5.96999979019165,
+        "Low RAIN": 5.960000038146973,
+        "Open RAIN": 5.960000038146973,
+        "Volume RAIN": 0
+      },
+      {
+        "Close RAIN": 5.7179999351501465,
+        "High RAIN": 5.7179999351501465,
+        "Low RAIN": 5.7179999351501465,
+        "Open RAIN": 5.7179999351501465,
+        "Volume RAIN": 180
+      },
+      {
+        "Close RAIN": 5.679999828338623,
+        "High RAIN": 5.679999828338623,
+        "Low RAIN": 5.679999828338623,
+        "Open RAIN": 5.679999828338623,
+        "Volume RAIN": 1084
+      },
+      {
+        "Close RAIN": 5.679999828338623,
+        "High RAIN": 5.679999828338623,
+        "Low RAIN": 5.679999828338623,
+        "Open RAIN": 5.679999828338623,
+        "Volume RAIN": 1426
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -93,7 +123,8 @@
       ]
     },
     "recommendations": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   },
   "holders_data": {

@@ -1,6 +1,6 @@
 {
   "ticker": "MNUFF",
-  "timestamp": "2025-12-06T05:36:02.092817",
+  "timestamp": "2025-12-07T05:14:57.167320",
   "intraday_data": {
     "status": "no_data",
     "message": "No intraday data available"
@@ -648,24 +648,10 @@
   },
   "holders_data": {
     "major_holders": {
-      "status": "success",
-      "data": [
-        {
-          "Value": 0.0
-        },
-        {
-          "Value": 0.16939
-        },
-        {
-          "Value": 0.16939
-        },
-        {
-          "Value": 9.0
-        }
-      ]
+      "status": "error"
     },
     "institutional_holders": {
-      "status": "no_data"
+      "status": "error"
     }
   },
   "earnings_data": {
@@ -675,7 +661,7 @@
     },
     "calendar": {
       "status": "error",
-      "message": "'dict' object has no attribute 'empty'"
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   }
 }

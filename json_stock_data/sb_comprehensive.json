@@ -1,9 +1,32 @@
 {
   "ticker": "SB",
-  "timestamp": "2025-12-06T04:38:09.729080",
+  "timestamp": "2025-12-07T04:40:49.111245",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 3,
+    "data": [
+      {
+        "Close GPAT": 10.649999618530273,
+        "High GPAT": 10.65999984741211,
+        "Low GPAT": 10.649999618530273,
+        "Open GPAT": 10.65999984741211,
+        "Volume GPAT": 0
+      },
+      {
+        "Close GPAT": 10.654999732971191,
+        "High GPAT": 10.654999732971191,
+        "Low GPAT": 10.649999618530273,
+        "Open GPAT": 10.649999618530273,
+        "Volume GPAT": 965
+      },
+      {
+        "Close GPAT": 10.654999732971191,
+        "High GPAT": 10.654999732971191,
+        "Low GPAT": 10.649999618530273,
+        "Open GPAT": 10.649999618530273,
+        "Volume GPAT": 210
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -623,7 +646,8 @@
       ]
     },
     "recommendations": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   },
   "holders_data": {

@@ -1,64 +1,13 @@
 {
   "ticker": "FMCKM",
-  "timestamp": "2025-12-06T05:16:52.177418",
+  "timestamp": "2025-12-07T05:04:09.896055",
   "intraday_data": {
-    "status": "success",
-    "rows": 7,
-    "data": [
-      {
-        "Close GLOP-PC": 25.6299991607666,
-        "High GLOP-PC": 25.6299991607666,
-        "Low GLOP-PC": 25.6299991607666,
-        "Open GLOP-PC": 25.6299991607666,
-        "Volume GLOP-PC": 0
-      },
-      {
-        "Close GLOP-PC": 25.799999237060547,
-        "High GLOP-PC": 25.799999237060547,
-        "Low GLOP-PC": 25.799999237060547,
-        "Open GLOP-PC": 25.799999237060547,
-        "Volume GLOP-PC": 108
-      },
-      {
-        "Close GLOP-PC": 25.84000015258789,
-        "High GLOP-PC": 25.84000015258789,
-        "Low GLOP-PC": 25.84000015258789,
-        "Open GLOP-PC": 25.84000015258789,
-        "Volume GLOP-PC": 203
-      },
-      {
-        "Close GLOP-PC": 25.82080078125,
-        "High GLOP-PC": 25.82080078125,
-        "Low GLOP-PC": 25.82080078125,
-        "Open GLOP-PC": 25.82080078125,
-        "Volume GLOP-PC": 100
-      },
-      {
-        "Close GLOP-PC": 25.820899963378906,
-        "High GLOP-PC": 25.820899963378906,
-        "Low GLOP-PC": 25.820899963378906,
-        "Open GLOP-PC": 25.820899963378906,
-        "Volume GLOP-PC": 100
-      },
-      {
-        "Close GLOP-PC": 25.799999237060547,
-        "High GLOP-PC": 25.799999237060547,
-        "Low GLOP-PC": 25.799999237060547,
-        "Open GLOP-PC": 25.799999237060547,
-        "Volume GLOP-PC": 100
-      },
-      {
-        "Close GLOP-PC": 25.940000534057617,
-        "High GLOP-PC": 25.940000534057617,
-        "Low GLOP-PC": 25.940000534057617,
-        "Open GLOP-PC": 25.940000534057617,
-        "Volume GLOP-PC": 100
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
-    "message": "argument of type 'NoneType' is not iterable"
+    "message": "Too Many Requests. Rate limited. Try after a while."
   },
   "financials": {
     "income_statement": {
@@ -644,8 +593,7 @@
       ]
     },
     "recommendations": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
+      "status": "no_data"
     }
   },
   "holders_data": {

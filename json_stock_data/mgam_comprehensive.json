@@ -1,25 +1,9 @@
 {
   "ticker": "MGAM",
-  "timestamp": "2025-12-06T05:09:55.201077",
+  "timestamp": "2025-12-07T05:00:10.129293",
   "intraday_data": {
-    "status": "success",
-    "rows": 2,
-    "data": [
-      {
-        "Close": 0.11999999731779099,
-        "High": 0.11999999731779099,
-        "Low": 0.11999999731779099,
-        "Open": 0.11999999731779099,
-        "Volume": 0
-      },
-      {
-        "Close": 0.125,
-        "High": 0.125,
-        "Low": 0.125,
-        "Open": 0.125,
-        "Volume": 1724
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -231,7 +215,8 @@
       ]
     },
     "recommendations": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   },
   "holders_data": {
