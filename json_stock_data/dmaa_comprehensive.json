@@ -1,10 +1,46 @@
 {
   "ticker": "DMAA",
-  "timestamp": "2025-12-07T05:00:55.294492",
+  "timestamp": "2025-12-09T04:38:11.270339",
   "intraday_data": {
     "status": "success",
-    "rows": 0,
-    "data": []
+    "rows": 5,
+    "data": [
+      {
+        "Close": 10.350000381469727,
+        "High": 10.350000381469727,
+        "Low": 10.350000381469727,
+        "Open": 10.350000381469727,
+        "Volume": 0
+      },
+      {
+        "Close": 10.353400230407715,
+        "High": 10.354999542236328,
+        "Low": 10.350000381469727,
+        "Open": 10.354999542236328,
+        "Volume": 3600
+      },
+      {
+        "Close": 10.350000381469727,
+        "High": 10.350000381469727,
+        "Low": 10.350000381469727,
+        "Open": 10.350000381469727,
+        "Volume": 100
+      },
+      {
+        "Close": 10.350000381469727,
+        "High": 10.350000381469727,
+        "Low": 10.350000381469727,
+        "Open": 10.350000381469727,
+        "Volume": 100
+      },
+      {
+        "Close": 10.350000381469727,
+        "High": 10.350000381469727,
+        "Low": 10.350000381469727,
+        "Open": 10.350000381469727,
+        "Volume": 102
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -15,11 +51,105 @@
       "status": "no_data"
     },
     "balance_sheet": {
+      "status": "no_data"
+    },
+    "cash_flow": {
+      "status": "no_data"
+    }
+  },
+  "options_data": {
+    "status": "error",
+    "error_message": "Too Many Requests. Rate limited. Try after a while."
+  },
+  "news_data": {
+    "news": {
       "status": "success",
-      "rows": 33,
-      "columns": [
-        "2024-12-31 00:00:00"
-      ],
+      "count": 1,
       "data": [
         {
-          
+          "id": "b1d93821-dacb-3401-af0a-19b6ae9c2810",
+          "content": {
+            "id": "b1d93821-dacb-3401-af0a-19b6ae9c2810",
+            "contentType": "STORY",
+            "title": "Drugs Made In America Acquisition Corp. (NASDAQ:DMAA) is definitely on the radar of institutional investors who own 38% of the company",
+            "description": "",
+            "summary": "NasdaqGM:DMAA 1 Year Share Price vs Fair Value Explore Drugs Made In America Acquisition's Fair Values from the...",
+            "pubDate": "2025-08-16T14:29:54Z",
+            "displayTime": "2025-08-16T14:29:54Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": {
+              "originalUrl": "https://media.zenfs.com/en/simply_wall_st__316/f88d3d8c5618aa88ce2627c2a1cda340",
+              "originalWidth": 1194,
+              "originalHeight": 432,
+              "caption": "",
+              "resolutions": [
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/SSw8naZrBB1tKswm10P8gw--~B/aD00MzI7dz0xMTk0O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/simply_wall_st__316/f88d3d8c5618aa88ce2627c2a1cda340",
+                  "width": 1194,
+                  "height": 432,
+                  "tag": "original"
+                },
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/79qko4F_hdhwRlGyEfLjcw--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/simply_wall_st__316/f88d3d8c5618aa88ce2627c2a1cda340",
+                  "width": 170,
+                  "height": 128,
+                  "tag": "170x128"
+                }
+              ]
+            },
+            "provider": {
+              "displayName": "Simply Wall St.",
+              "url": "https://simplywall.st/"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/drugs-made-america-acquisition-corp-142954902.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/drugs-made-america-acquisition-corp-142954902.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        }
+      ]
+    },
+    "recommendations": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  },
+  "holders_data": {
+    "major_holders": {
+      "status": "error"
+    },
+    "institutional_holders": {
+      "status": "error"
+    }
+  },
+  "earnings_data": {
+    "earnings": {
+      "status": "error",
+      "message": "'NoneType' object has no attribute 'empty'"
+    },
+    "calendar": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  }
+}

@@ -1,88 +1,9 @@
 {
   "ticker": "GNFT",
-  "timestamp": "2025-12-07T04:44:51.112801",
+  "timestamp": "2025-12-09T04:28:08.755855",
   "intraday_data": {
-    "status": "success",
-    "rows": 11,
-    "data": [
-      {
-        "Close AXR": 23.520000457763672,
-        "High AXR": 23.520000457763672,
-        "Low AXR": 23.520000457763672,
-        "Open AXR": 23.520000457763672,
-        "Volume AXR": 0
-      },
-      {
-        "Close AXR": 21.729999542236328,
-        "High AXR": 21.729999542236328,
-        "Low AXR": 21.729999542236328,
-        "Open AXR": 21.729999542236328,
-        "Volume AXR": 186
-      },
-      {
-        "Close AXR": 21.688899993896484,
-        "High AXR": 21.688899993896484,
-        "Low AXR": 21.688899993896484,
-        "Open AXR": 21.688899993896484,
-        "Volume AXR": 728
-      },
-      {
-        "Close AXR": 21.25,
-        "High AXR": 21.312000274658203,
-        "Low AXR": 21.200000762939453,
-        "Open AXR": 21.312000274658203,
-        "Volume AXR": 1292
-      },
-      {
-        "Close AXR": 21.239999771118164,
-        "High AXR": 21.239999771118164,
-        "Low AXR": 21.239999771118164,
-        "Open AXR": 21.239999771118164,
-        "Volume AXR": 1282
-      },
-      {
-        "Close AXR": 21.229999542236328,
-        "High AXR": 21.229999542236328,
-        "Low AXR": 21.229999542236328,
-        "Open AXR": 21.229999542236328,
-        "Volume AXR": 572
-      },
-      {
-        "Close AXR": 21.200000762939453,
-        "High AXR": 21.200000762939453,
-        "Low AXR": 21.200000762939453,
-        "Open AXR": 21.200000762939453,
-        "Volume AXR": 399
-      },
-      {
-        "Close AXR": 21.399200439453125,
-        "High AXR": 21.649999618530273,
-        "Low AXR": 21.396400451660156,
-        "Open AXR": 21.396400451660156,
-        "Volume AXR": 1265
-      },
-      {
-        "Close AXR": 21.649999618530273,
-        "High AXR": 21.65999984741211,
-        "Low AXR": 21.209299087524414,
-        "Open AXR": 21.270000457763672,
-        "Volume AXR": 3953
-      },
-      {
-        "Close AXR": 21.3799991607666,
-        "High AXR": 21.3799991607666,
-        "Low AXR": 21.3799991607666,
-        "Open AXR": 21.3799991607666,
-        "Volume AXR": 157
-      },
-      {
-        "Close AXR": 21.44529914855957,
-        "High AXR": 21.44529914855957,
-        "Low AXR": 21.44529914855957,
-        "Open AXR": 21.44529914855957,
-        "Volume AXR": 166
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -531,15 +452,16 @@
       ]
     },
     "recommendations": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   },
   "holders_data": {
     "major_holders": {
-      "status": "no_data"
+      "status": "error"
     },
     "institutional_holders": {
-      "status": "no_data"
+      "status": "error"
     }
   },
   "earnings_data": {

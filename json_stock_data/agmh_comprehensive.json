@@ -1,9 +1,39 @@
 {
   "ticker": "AGMH",
-  "timestamp": "2025-12-07T04:52:19.931273",
+  "timestamp": "2025-12-09T04:32:44.335273",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 4,
+    "data": [
+      {
+        "Close POCI": 4.190000057220459,
+        "High POCI": 4.190000057220459,
+        "Low POCI": 4.190000057220459,
+        "Open POCI": 4.190000057220459,
+        "Volume POCI": 0
+      },
+      {
+        "Close POCI": 4.190000057220459,
+        "High POCI": 4.190000057220459,
+        "Low POCI": 4.190000057220459,
+        "Open POCI": 4.190000057220459,
+        "Volume POCI": 70
+      },
+      {
+        "Close POCI": 4.150000095367432,
+        "High POCI": 4.150000095367432,
+        "Low POCI": 4.150000095367432,
+        "Open POCI": 4.150000095367432,
+        "Volume POCI": 1102
+      },
+      {
+        "Close POCI": 4.150000095367432,
+        "High POCI": 4.150000095367432,
+        "Low POCI": 4.150000095367432,
+        "Open POCI": 4.150000095367432,
+        "Volume POCI": 1202
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -177,15 +207,16 @@
       ]
     },
     "recommendations": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   },
   "holders_data": {
     "major_holders": {
-      "status": "no_data"
+      "status": "error"
     },
     "institutional_holders": {
-      "status": "no_data"
+      "status": "error"
     }
   },
   "earnings_data": {

@@ -1,51 +1,23 @@
 {
   "ticker": "ATMCW",
-  "timestamp": "2025-12-07T05:08:38.667254",
+  "timestamp": "2025-12-09T04:43:13.003008",
   "intraday_data": {
     "status": "success",
-    "rows": 6,
+    "rows": 2,
     "data": [
-      {
-        "Close": 0.07000000029802322,
-        "High": 0.07000000029802322,
-        "Low": 0.07000000029802322,
-        "Open": 0.07000000029802322,
-        "Volume": 0
-      },
-      {
-        "Close": 0.07000000029802322,
-        "High": 0.07000000029802322,
-        "Low": 0.07000000029802322,
-        "Open": 0.07000000029802322,
-        "Volume": 2000
-      },
       {
         "Close": 0.07090000063180923,
         "High": 0.07100000232458115,
         "Low": 0.07090000063180923,
         "Open": 0.07100000232458115,
-        "Volume": 2000
+        "Volume": 0
       },
       {
-        "Close": 0.07000000029802322,
-        "High": 0.07000000029802322,
-        "Low": 0.07000000029802322,
-        "Open": 0.07000000029802322,
-        "Volume": 1223
-      },
-      {
-        "Close": 0.07000000029802322,
-        "High": 0.07000000029802322,
-        "Low": 0.07000000029802322,
-        "Open": 0.07000000029802322,
-        "Volume": 1073
-      },
-      {
-        "Close": 0.07000000029802322,
-        "High": 0.07000000029802322,
-        "Low": 0.07000000029802322,
-        "Open": 0.07000000029802322,
-        "Volume": 100
+        "Close": 0.07010000199079514,
+        "High": 0.07010000199079514,
+        "Low": 0.07010000199079514,
+        "Open": 0.07010000199079514,
+        "Volume": 694740
       }
     ]
   },
@@ -61,13 +33,38 @@
       "status": "no_data"
     },
     "cash_flow": {
-      "status": "success",
-      "rows": 30,
-      "columns": [
-        "2024-12-31 00:00:00",
-        "2023-12-31 00:00:00",
-        "2022-12-31 00:00:00"
-      ],
-      "data": [
-        {
-          
+      "status": "no_data"
+    }
+  },
+  "options_data": {
+    "status": "error",
+    "error_message": "Too Many Requests. Rate limited. Try after a while."
+  },
+  "news_data": {
+    "news": {
+      "status": "no_data"
+    },
+    "recommendations": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  },
+  "holders_data": {
+    "major_holders": {
+      "status": "error"
+    },
+    "institutional_holders": {
+      "status": "error"
+    }
+  },
+  "earnings_data": {
+    "earnings": {
+      "status": "error",
+      "message": "'NoneType' object has no attribute 'empty'"
+    },
+    "calendar": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  }
+}

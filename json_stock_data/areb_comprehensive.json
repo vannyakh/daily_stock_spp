@@ -1,18 +1,9 @@
 {
   "ticker": "AREB",
-  "timestamp": "2025-12-07T04:57:53.376056",
+  "timestamp": "2025-12-09T04:36:14.598230",
   "intraday_data": {
-    "status": "success",
-    "rows": 1,
-    "data": [
-      {
-        "Close BUDZ": 0.04039999842643738,
-        "High BUDZ": 0.04039999842643738,
-        "Low BUDZ": 0.04039999842643738,
-        "Open BUDZ": 0.04039999842643738,
-        "Volume BUDZ": 0
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -195,7 +186,7 @@
       "status": "error"
     },
     "institutional_holders": {
-      "status": "error"
+      "status": "no_data"
     }
   },
   "earnings_data": {
@@ -205,7 +196,7 @@
     },
     "calendar": {
       "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
+      "message": "'dict' object has no attribute 'empty'"
     }
   }
 }

@@ -1,108 +1,25 @@
 {
   "ticker": "PPCB",
-  "timestamp": "2025-12-07T05:00:04.258492",
+  "timestamp": "2025-12-09T04:37:37.972796",
   "intraday_data": {
     "status": "success",
-    "rows": 1,
-    "data": [
-      {
-        "Close LEEN": 0.15000000596046448,
-        "High LEEN": 0.15000000596046448,
-        "Low LEEN": 0.15000000596046448,
-        "Open LEEN": 0.15000000596046448,
-        "Volume LEEN": 0
-      }
-    ]
+    "rows": 0,
+    "data": []
   },
   "stock_info": {
     "status": "error",
-    "message": "Too Many Requests. Rate limited. Try after a while."
+    "message": "argument of type 'NoneType' is not iterable"
   },
   "financials": {
     "income_statement": {
-      "status": "no_data"
-    },
-    "balance_sheet": {
-      "status": "no_data"
-    },
-    "cash_flow": {
-      "status": "no_data"
-    }
-  },
-  "options_data": {
-    "status": "error",
-    "error_message": "Too Many Requests. Rate limited. Try after a while."
-  },
-  "news_data": {
-    "news": {
       "status": "success",
-      "count": 1,
+      "rows": 45,
+      "columns": [
+        "2025-06-30 00:00:00",
+        "2024-06-30 00:00:00",
+        "2023-06-30 00:00:00",
+        "2022-06-30 00:00:00"
+      ],
       "data": [
         {
-          "id": "9a8e2b9f-a4c0-3d56-ad23-b387b09fdc38",
-          "content": {
-            "id": "9a8e2b9f-a4c0-3d56-ad23-b387b09fdc38",
-            "contentType": "STORY",
-            "title": "BC-Most Active Stocks",
-            "description": "",
-            "summary": "Gibo Holdings Ltd. 62,368,609 0.0297",
-            "pubDate": "2025-08-18T14:30:20Z",
-            "displayTime": "2025-08-18T14:30:20Z",
-            "isHosted": true,
-            "bypassModal": false,
-            "previewUrl": null,
-            "thumbnail": null,
-            "provider": {
-              "displayName": "Associated Press Finance",
-              "url": "http://www.ap.org/"
-            },
-            "canonicalUrl": {
-              "url": "https://finance.yahoo.com/news/bc-most-active-stocks-143020443.html",
-              "site": "finance",
-              "region": "US",
-              "lang": "en-US"
-            },
-            "clickThroughUrl": {
-              "url": "https://finance.yahoo.com/news/bc-most-active-stocks-143020443.html",
-              "site": "finance",
-              "region": "US",
-              "lang": "en-US"
-            },
-            "metadata": {
-              "editorsPick": false
-            },
-            "finance": {
-              "premiumFinance": {
-                "isPremiumNews": false,
-                "isPremiumFreeNews": false
-              }
-            },
-            "storyline": null
-          }
-        }
-      ]
-    },
-    "recommendations": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
-    }
-  },
-  "holders_data": {
-    "major_holders": {
-      "status": "error"
-    },
-    "institutional_holders": {
-      "status": "error"
-    }
-  },
-  "earnings_data": {
-    "earnings": {
-      "status": "error",
-      "message": "'NoneType' object has no attribute 'empty'"
-    },
-    "calendar": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
-    }
-  }
-}
+          

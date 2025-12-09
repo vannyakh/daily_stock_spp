@@ -1,25 +1,590 @@
 {
   "ticker": "UNLYF",
-  "timestamp": "2025-12-07T05:01:57.829059",
+  "timestamp": "2025-12-09T04:38:53.231726",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 1,
+    "data": [
+      {
+        "Close": 56.599998474121094,
+        "High": 56.599998474121094,
+        "Low": 56.599998474121094,
+        "Open": 56.599998474121094,
+        "Volume": 0
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
-    "message": "argument of type 'NoneType' is not iterable"
+    "message": "Too Many Requests. Rate limited. Try after a while."
   },
   "financials": {
     "income_statement": {
+      "status": "no_data"
+    },
+    "balance_sheet": {
+      "status": "no_data"
+    },
+    "cash_flow": {
+      "status": "no_data"
+    }
+  },
+  "options_data": {
+    "status": "error",
+    "error_message": "Too Many Requests. Rate limited. Try after a while."
+  },
+  "news_data": {
+    "news": {
       "status": "success",
-      "rows": 50,
-      "columns": [
-        "2024-12-31 00:00:00",
-        "2023-12-31 00:00:00",
-        "2022-12-31 00:00:00",
-        "2021-12-31 00:00:00",
-        "2020-12-31 00:00:00"
-      ],
+      "count": 10,
       "data": [
         {
-          
+          "id": "987a4358-f659-32f3-888a-fe017df7b9c0",
+          "content": {
+            "id": "987a4358-f659-32f3-888a-fe017df7b9c0",
+            "contentType": "STORY",
+            "title": "FTSE 100 dips as Unilever falls amid Magnum split",
+            "description": "",
+            "summary": "The ice cream maker rose 1.8% in Amsterdam.",
+            "pubDate": "2025-12-08T17:33:55Z",
+            "displayTime": "2025-12-08T17:33:55Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": {
+              "originalUrl": "https://media.zenfs.com/en/snappa.ukfinance/6fa56169219cecbe0f8ffd0a3e0621be",
+              "originalWidth": 4496,
+              "originalHeight": 2529,
+              "caption": "",
+              "resolutions": [
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/nbN0yalIAgq06Xblria5Xg--~B/aD0yNTI5O3c9NDQ5NjthcHBpZD15dGFjaHlvbg--/https://media.zenfs.com/en/snappa.ukfinance/6fa56169219cecbe0f8ffd0a3e0621be",
+                  "width": 4496,
+                  "height": 2529,
+                  "tag": "original"
+                },
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/sbdvt2c4FDbo8650S5XAdg--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/snappa.ukfinance/6fa56169219cecbe0f8ffd0a3e0621be",
+                  "width": 170,
+                  "height": 128,
+                  "tag": "170x128"
+                }
+              ]
+            },
+            "provider": {
+              "displayName": "PA Media: Money",
+              "url": "https://www.pressassociation.com/"
+            },
+            "canonicalUrl": {
+              "url": "https://uk.finance.yahoo.com/news/ftse-100-dips-unilever-falls-173355691.html",
+              "site": "finance",
+              "region": "GB",
+              "lang": "en-GB"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/ftse-100-dips-unilever-falls-173355691.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        },
+        {
+          "id": "f8598c7f-e0f1-3ac7-8902-59a457049b8f",
+          "content": {
+            "id": "f8598c7f-e0f1-3ac7-8902-59a457049b8f",
+            "contentType": "STORY",
+            "title": "Magnum's $7.9 Billion Ice Cream Breakup Sends Ripples Through Global Markets",
+            "description": "",
+            "summary": "Unilever's spinoff gambles on growth, dodges benchmarks, and dares to go solo in a health-obsessed world",
+            "pubDate": "2025-12-08T17:29:16Z",
+            "displayTime": "2025-12-08T17:29:16Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": {
+              "originalUrl": "https://media.zenfs.com/en/us.finance.gurufocus/7a51789369f1a39faf91cadf1455b489",
+              "originalWidth": 400,
+              "originalHeight": 400,
+              "caption": "",
+              "resolutions": [
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/k7YS8VAa3mOw82tjKr1hWA--~B/aD00MDA7dz00MDA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/us.finance.gurufocus/7a51789369f1a39faf91cadf1455b489",
+                  "width": 400,
+                  "height": 400,
+                  "tag": "original"
+                },
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/UuDS8ajn4mFqOj_RQa.IBw--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/us.finance.gurufocus/7a51789369f1a39faf91cadf1455b489",
+                  "width": 170,
+                  "height": 128,
+                  "tag": "170x128"
+                }
+              ]
+            },
+            "provider": {
+              "displayName": "GuruFocus.com",
+              "url": "http://www.gurufocus.com/"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/magnums-7-9-billion-ice-172916944.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/magnums-7-9-billion-ice-172916944.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        },
+        {
+          "id": "fb753248-6f0a-3611-a698-9ec747bb3bc7",
+          "content": {
+            "id": "fb753248-6f0a-3611-a698-9ec747bb3bc7",
+            "contentType": "STORY",
+            "title": "European Equities Close Mixed in Monday Trading; German Manufacturing Surges in October",
+            "description": "",
+            "summary": "The European stock markets closed mixed in Monday trading as The Stoxx Europe declined 0.07%, German",
+            "pubDate": "2025-12-08T17:13:03Z",
+            "displayTime": "2025-12-08T17:13:03Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": null,
+            "provider": {
+              "displayName": "MT Newswires",
+              "url": "https://www.mtnewswires.com/"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/european-equities-close-mixed-monday-171303601.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/european-equities-close-mixed-monday-171303601.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": true,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        },
+        {
+          "id": "687c18bd-fad7-30d3-96fb-2de51e8c5b20",
+          "content": {
+            "id": "687c18bd-fad7-30d3-96fb-2de51e8c5b20",
+            "contentType": "STORY",
+            "title": "Update: Market Chatter: Unilever-Owned Ben & Jerry's Chair Says She Won't Quit Ahead of Magnum Unit Listing",
+            "description": "",
+            "summary": "(Updates with The Magnum Ice Cream response in the fifth and sixth paragraphs.) Unilever-owned (U",
+            "pubDate": "2025-12-08T17:07:41Z",
+            "displayTime": "2025-12-08T17:07:41Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": null,
+            "provider": {
+              "displayName": "MT Newswires",
+              "url": "https://www.mtnewswires.com/"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/market-chatter-unilever-owned-ben-170741215.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/market-chatter-unilever-owned-ben-170741215.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": true,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        },
+        {
+          "id": "be225b90-1655-348f-a9fd-55c2613b801a",
+          "content": {
+            "id": "be225b90-1655-348f-a9fd-55c2613b801a",
+            "contentType": "STORY",
+            "title": "A Really Big Ice-Cream Float: Ben & Jerry\u2019s Maker Goes Public",
+            "description": "",
+            "summary": "Magnum Ice Cream, the company behind Ben & Jerry\u2019s and Breyers, made its long-awaited debut as a standalone company after completing its spinoff from Unilever.  Shares of Magnum on Euronext Amsterdam, its primary listing exchange, were little changed from their Friday reference price.  The listing values Magnum at around $9.1 billion, making it the world\u2019s largest ice-cream company, Euronext said.",
+            "pubDate": "2025-12-08T16:15:54Z",
+            "displayTime": "2025-12-08T16:15:54Z",
+            "isHosted": false,
+            "bypassModal": false,
+            "previewUrl": "https://finance.yahoo.com/m/be225b90-1655-348f-a9fd-55c2613b801a/a-really-big-ice-cream-float-.html",
+            "thumbnail": {
+              "originalUrl": "https://media.zenfs.com/en/wsj.com/bb9adb9d409643a59fa768bf4357cb4c",
+              "originalWidth": 1280,
+              "originalHeight": 640,
+              "caption": "",
+              "resolutions": [
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/9pOUJ0etzxS3mlMbXXoBmw--~B/aD02NDA7dz0xMjgwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/wsj.com/bb9adb9d409643a59fa768bf4357cb4c",
+                  "width": 1280,
+                  "height": 640,
+                  "tag": "original"
+                },
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/FmIM6uEXtb7XPSiewWcY_Q--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/wsj.com/bb9adb9d409643a59fa768bf4357cb4c",
+                  "width": 170,
+                  "height": 128,
+                  "tag": "170x128"
+                }
+              ]
+            },
+            "provider": {
+              "displayName": "The Wall Street Journal",
+              "url": "http://www.wsj.com/"
+            },
+            "canonicalUrl": {
+              "url": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-12-08-2025/card/ben-jerry-s-maker-rises-in-debut-of-unilever-ice-cream-spinoff-9BISz5HBLYpeHt5m1Vtj?siteid=yhoof2&yptr=yahoo",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": null,
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        },
+        {
+          "id": "ccb78e5a-3566-3af1-85ac-ba649d9a3d65",
+          "content": {
+            "id": "ccb78e5a-3566-3af1-85ac-ba649d9a3d65",
+            "contentType": "STORY",
+            "title": "European Equities Traded in the US as ADRs Little Changed in Monday Trading",
+            "description": "",
+            "summary": "European equities traded in the US as American depositary receipts were little changed late Monday m",
+            "pubDate": "2025-12-08T16:01:54Z",
+            "displayTime": "2025-12-08T16:01:54Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": null,
+            "provider": {
+              "displayName": "MT Newswires",
+              "url": "https://www.mtnewswires.com/"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/european-equities-traded-us-adrs-160154675.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/european-equities-traded-us-adrs-160154675.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": true,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        },
+        {
+          "id": "c2761063-4142-3f3c-88d1-dee3338568a3",
+          "content": {
+            "id": "c2761063-4142-3f3c-88d1-dee3338568a3",
+            "contentType": "STORY",
+            "title": "TMICC begins new life as global ice-cream leader in positive stock market debut",
+            "description": "",
+            "summary": "The long-awaited demerger from Unilever sets course toward achieving 3-5% medium term organic sales growth target.",
+            "pubDate": "2025-12-08T14:14:06Z",
+            "displayTime": "2025-12-08T14:14:06Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": {
+              "originalUrl": "https://media.zenfs.com/en/just_food_692/02bce4daaada0c9cc82f1c00c99f40b9",
+              "originalWidth": 1440,
+              "originalHeight": 810,
+              "caption": "https://www.shutterstock.com/image-photo/jakarta-indonesia-july-18-2022-magnum-2179593127",
+              "resolutions": [
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/PpcxWbNsEiib_guVtQFCSA--~B/aD04MTA7dz0xNDQwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/just_food_692/02bce4daaada0c9cc82f1c00c99f40b9",
+                  "width": 1440,
+                  "height": 810,
+                  "tag": "original"
+                },
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/L7JcOuDX16evI77xl4ftlA--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/just_food_692/02bce4daaada0c9cc82f1c00c99f40b9",
+                  "width": 170,
+                  "height": 128,
+                  "tag": "170x128"
+                }
+              ]
+            },
+            "provider": {
+              "displayName": "Just Food",
+              "url": "https://www.globaldata.com/"
+            },
+            "canonicalUrl": {
+              "url": "https://www.just-food.com/features/tmicc-begins-new-life-as-global-ice-cream-leader-in-positive-stock-market-debut/",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/tmicc-begins-life-global-ice-141406822.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        },
+        {
+          "id": "e230538a-8b6d-313a-b082-66fece84df48",
+          "content": {
+            "id": "e230538a-8b6d-313a-b082-66fece84df48",
+            "contentType": "STORY",
+            "title": "Market Chatter: Unilever-Owned Ben & Jerry's Chair Says She Won't Quit Ahead of Magnum Unit Listing",
+            "description": "",
+            "summary": "Unilever-owned (UL) Ben & Jerry's chair Anuradha Mittal said she has no plans to step down as Unilev",
+            "pubDate": "2025-12-08T13:36:00Z",
+            "displayTime": "2025-12-08T13:36:00Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": null,
+            "provider": {
+              "displayName": "MT Newswires",
+              "url": "https://www.mtnewswires.com/"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/market-chatter-unilever-owned-ben-133600806.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/market-chatter-unilever-owned-ben-133600806.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": true,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        },
+        {
+          "id": "4ca9048f-64d0-3fc8-9879-582cc11adbb0",
+          "content": {
+            "id": "4ca9048f-64d0-3fc8-9879-582cc11adbb0",
+            "contentType": "STORY",
+            "title": "Ben & Jerry\u2019s founder says brand \u2018will suffer\u2019 under Magnum",
+            "description": "",
+            "summary": "Ben & Jerry\u2019s co-founder has said the ice cream brand \u201cwill suffer\u201d if it remains part of Magnum.",
+            "pubDate": "2025-12-08T13:03:38Z",
+            "displayTime": "2025-12-08T13:03:38Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": {
+              "originalUrl": "https://media.zenfs.com/en/the_telegraph_818/78e56d403b8d254d2ac5606a1ab71f1a",
+              "originalWidth": 2500,
+              "originalHeight": 1563,
+              "caption": "Peter ter Kulve, CEO of The Magnum Ice Cream Company (TMICC), hits the opening gong at Euronext in Amsterdam",
+              "resolutions": [
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/2nDaVwn2ekfaHgQUYp5GZQ--~B/aD0xNTYzO3c9MjUwMDthcHBpZD15dGFjaHlvbg--/https://media.zenfs.com/en/the_telegraph_818/78e56d403b8d254d2ac5606a1ab71f1a",
+                  "width": 2500,
+                  "height": 1563,
+                  "tag": "original"
+                },
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/rBbq7E52vSbJaPowWhV7Tg--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/the_telegraph_818/78e56d403b8d254d2ac5606a1ab71f1a",
+                  "width": 170,
+                  "height": 128,
+                  "tag": "170x128"
+                }
+              ]
+            },
+            "provider": {
+              "displayName": "The Telegraph",
+              "url": "http://www.telegraph.co.uk/"
+            },
+            "canonicalUrl": {
+              "url": "https://uk.finance.yahoo.com/news/ben-jerry-feud-overshadows-magnum-115744338.html",
+              "site": "finance",
+              "region": "GB",
+              "lang": "en-GB"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/ben-jerry-feud-overshadows-magnum-115744338.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        },
+        {
+          "id": "d38415c8-187d-30b1-9b05-ceda4a109e10",
+          "content": {
+            "id": "d38415c8-187d-30b1-9b05-ceda4a109e10",
+            "contentType": "STORY",
+            "title": "Magnum Ice Cream Hits $9 Billion Market Capitalization on Trading Debut",
+            "description": "",
+            "summary": "Shares opened slightly higher than their initial pricing on Amsterdam\u2019s Euronext, before retreating.",
+            "pubDate": "2025-12-08T11:45:00Z",
+            "displayTime": "2025-12-08T11:45:00Z",
+            "isHosted": false,
+            "bypassModal": false,
+            "previewUrl": "https://finance.yahoo.com/m/d38415c8-187d-30b1-9b05-ceda4a109e10/magnum-ice-cream-hits-9.html",
+            "thumbnail": {
+              "originalUrl": "https://media.zenfs.com/en/wsj.com/9036f37e8cb137ffafe195baef623e90",
+              "originalWidth": 1280,
+              "originalHeight": 640,
+              "caption": "",
+              "resolutions": [
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/9V6BGo40ICZJUAm4.Z0rbA--~B/aD02NDA7dz0xMjgwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/wsj.com/9036f37e8cb137ffafe195baef623e90",
+                  "width": 1280,
+                  "height": 640,
+                  "tag": "original"
+                },
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/R2hRitABn3egxCxtmbvJtg--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/wsj.com/9036f37e8cb137ffafe195baef623e90",
+                  "width": 170,
+                  "height": 128,
+                  "tag": "170x128"
+                }
+              ]
+            },
+            "provider": {
+              "displayName": "The Wall Street Journal",
+              "url": "http://www.wsj.com/"
+            },
+            "canonicalUrl": {
+              "url": "https://www.wsj.com/business/retail/shares-in-magnum-ice-cream-rise-on-euronext-debut-b8103de1?siteid=yhoof2&yptr=yahoo",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": null,
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        }
+      ]
+    },
+    "recommendations": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  },
+  "holders_data": {
+    "major_holders": {
+      "status": "error"
+    },
+    "institutional_holders": {
+      "status": "error"
+    }
+  },
+  "earnings_data": {
+    "earnings": {
+      "status": "error",
+      "message": "'NoneType' object has no attribute 'empty'"
+    },
+    "calendar": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  }
+}

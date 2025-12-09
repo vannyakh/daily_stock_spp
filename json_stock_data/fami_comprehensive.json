@@ -1,61 +1,133 @@
 {
   "ticker": "FAMI",
-  "timestamp": "2025-12-07T04:58:12.996817",
+  "timestamp": "2025-12-09T04:36:29.166305",
   "intraday_data": {
     "status": "success",
-    "rows": 5,
+    "rows": 2,
     "data": [
       {
-        "Close": 1.4801000356674194,
-        "High": 1.5800000429153442,
-        "Low": 1.4801000356674194,
-        "Open": 1.5800000429153442,
-        "Volume": 1522
-      },
-      {
-        "Close": 1.4900000095367432,
-        "High": 1.4900000095367432,
-        "Low": 1.4900000095367432,
-        "Open": 1.4900000095367432,
-        "Volume": 578
-      },
-      {
         "Close": 1.5,
         "High": 1.5,
         "Low": 1.5,
         "Open": 1.5,
-        "Volume": 319
+        "Volume": 360
       },
       {
         "Close": 1.5,
-        "High": 1.5,
+        "High": 1.5099999904632568,
         "Low": 1.5,
         "Open": 1.5,
-        "Volume": 289
-      },
-      {
-        "Close": 1.5199999809265137,
-        "High": 1.5199999809265137,
-        "Low": 1.5049999952316284,
-        "Open": 1.5049999952316284,
-        "Volume": 513
+        "Volume": 995
       }
     ]
   },
   "stock_info": {
     "status": "error",
-    "message": "argument of type 'NoneType' is not iterable"
+    "message": "Too Many Requests. Rate limited. Try after a while."
   },
   "financials": {
     "income_statement": {
+      "status": "no_data"
+    },
+    "balance_sheet": {
+      "status": "no_data"
+    },
+    "cash_flow": {
+      "status": "no_data"
+    }
+  },
+  "options_data": {
+    "status": "error",
+    "error_message": "Too Many Requests. Rate limited. Try after a while."
+  },
+  "news_data": {
+    "news": {
       "status": "success",
-      "rows": 51,
-      "columns": [
-        "2024-09-30 00:00:00",
-        "2023-09-30 00:00:00",
-        "2022-09-30 00:00:00",
-        "2021-09-30 00:00:00"
-      ],
+      "count": 1,
       "data": [
         {
-          
+          "id": "b7978857-35d6-3695-9dd9-1d205f1c43b6",
+          "content": {
+            "id": "b7978857-35d6-3695-9dd9-1d205f1c43b6",
+            "contentType": "STORY",
+            "title": "Farmmi Full Year 2024 Earnings: US$0.66 loss per share (vs US$0.70 profit in FY 2023)",
+            "description": "",
+            "summary": "Farmmi ( NASDAQ:FAMI ) Full Year 2024 Results Key Financial Results Revenue: US$64.1m (down 42% from FY 2023). Net...",
+            "pubDate": "2025-01-27T10:51:22Z",
+            "displayTime": "2025-01-27T10:51:22Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": {
+              "originalUrl": "https://media.zenfs.com/en/simply_wall_st__316/78a8c60a6283aea0450523395306d38c",
+              "originalWidth": 945,
+              "originalHeight": 636,
+              "caption": "",
+              "resolutions": [
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/5Vpve0Pc2F3m_L3fs2p_dQ--~B/aD02MzY7dz05NDU7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/simply_wall_st__316/78a8c60a6283aea0450523395306d38c",
+                  "width": 945,
+                  "height": 636,
+                  "tag": "original"
+                },
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/5K6kmrQzRk.k.11fs9N_QA--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/simply_wall_st__316/78a8c60a6283aea0450523395306d38c",
+                  "width": 170,
+                  "height": 128,
+                  "tag": "170x128"
+                }
+              ]
+            },
+            "provider": {
+              "displayName": "Simply Wall St.",
+              "url": "https://simplywall.st/"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/farmmi-full-2024-earnings-us-105122465.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/farmmi-full-2024-earnings-us-105122465.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        }
+      ]
+    },
+    "recommendations": {
+      "status": "no_data"
+    }
+  },
+  "holders_data": {
+    "major_holders": {
+      "status": "error"
+    },
+    "institutional_holders": {
+      "status": "error"
+    }
+  },
+  "earnings_data": {
+    "earnings": {
+      "status": "error",
+      "message": "'NoneType' object has no attribute 'empty'"
+    },
+    "calendar": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  }
+}

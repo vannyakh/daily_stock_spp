@@ -1,16 +1,23 @@
 {
   "ticker": "BH",
-  "timestamp": "2025-12-07T05:04:20.152600",
+  "timestamp": "2025-12-09T04:40:26.486053",
   "intraday_data": {
     "status": "success",
-    "rows": 1,
+    "rows": 2,
     "data": [
       {
-        "Close KELYB": 8.789999961853027,
-        "High KELYB": 8.789999961853027,
-        "Low KELYB": 8.789999961853027,
-        "Open KELYB": 8.789999961853027,
+        "Close KELYB": 8.989999771118164,
+        "High KELYB": 8.989999771118164,
+        "Low KELYB": 8.989999771118164,
+        "Open KELYB": 8.989999771118164,
         "Volume KELYB": 0
+      },
+      {
+        "Close KELYB": 9.140000343322754,
+        "High KELYB": 9.140000343322754,
+        "Low KELYB": 9.140000343322754,
+        "Open KELYB": 9.140000343322754,
+        "Volume KELYB": 249
       }
     ]
   },
@@ -594,15 +601,16 @@
       ]
     },
     "recommendations": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   },
   "holders_data": {
     "major_holders": {
-      "status": "no_data"
+      "status": "error"
     },
     "institutional_holders": {
-      "status": "no_data"
+      "status": "error"
     }
   },
   "earnings_data": {

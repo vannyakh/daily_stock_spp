@@ -1,16 +1,23 @@
 {
   "ticker": "DIT",
-  "timestamp": "2025-12-07T04:48:21.593643",
+  "timestamp": "2025-12-09T04:30:22.526259",
   "intraday_data": {
     "status": "success",
-    "rows": 1,
+    "rows": 2,
     "data": [
       {
-        "Close": 113.05000305175781,
-        "High": 113.5,
-        "Low": 113.05000305175781,
-        "Open": 113.5,
-        "Volume": 0
+        "Close PHCI": 8.300000190734863,
+        "High PHCI": 8.300000190734863,
+        "Low PHCI": 8.300000190734863,
+        "Open PHCI": 8.300000190734863,
+        "Volume PHCI": 0
+      },
+      {
+        "Close PHCI": 8.5,
+        "High PHCI": 8.5,
+        "Low PHCI": 8.5,
+        "Open PHCI": 8.5,
+        "Volume PHCI": 2
       }
     ]
   },
@@ -285,15 +292,16 @@
       ]
     },
     "recommendations": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   },
   "holders_data": {
     "major_holders": {
-      "status": "no_data"
+      "status": "error"
     },
     "institutional_holders": {
-      "status": "no_data"
+      "status": "error"
     }
   },
   "earnings_data": {

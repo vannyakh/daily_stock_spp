@@ -1,46 +1,9 @@
 {
   "ticker": "EQMEF",
-  "timestamp": "2025-12-07T04:52:51.104741",
+  "timestamp": "2025-12-09T04:33:00.567546",
   "intraday_data": {
-    "status": "success",
-    "rows": 5,
-    "data": [
-      {
-        "Close": 0.18809999525547028,
-        "High": 0.18809999525547028,
-        "Low": 0.18809999525547028,
-        "Open": 0.18809999525547028,
-        "Volume": 0
-      },
-      {
-        "Close": 0.18080000579357147,
-        "High": 0.18080000579357147,
-        "Low": 0.18080000579357147,
-        "Open": 0.18080000579357147,
-        "Volume": 9000
-      },
-      {
-        "Close": 0.17659999430179596,
-        "High": 0.17659999430179596,
-        "Low": 0.17659999430179596,
-        "Open": 0.17659999430179596,
-        "Volume": 31000
-      },
-      {
-        "Close": 0.1809999942779541,
-        "High": 0.1809999942779541,
-        "Low": 0.1809999942779541,
-        "Open": 0.1809999942779541,
-        "Volume": 5530
-      },
-      {
-        "Close": 0.17000000178813934,
-        "High": 0.17000000178813934,
-        "Low": 0.17000000178813934,
-        "Open": 0.17000000178813934,
-        "Volume": 1000
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -130,7 +93,8 @@
       ]
     },
     "recommendations": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   },
   "holders_data": {

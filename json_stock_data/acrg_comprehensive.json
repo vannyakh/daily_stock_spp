@@ -1,23 +1,16 @@
 {
   "ticker": "ACRG",
-  "timestamp": "2025-12-07T04:49:00.267249",
+  "timestamp": "2025-12-09T04:30:44.001930",
   "intraday_data": {
     "status": "success",
-    "rows": 2,
+    "rows": 1,
     "data": [
       {
-        "Close": 5.039999961853027,
-        "High": 5.039999961853027,
-        "Low": 5.039999961853027,
-        "Open": 5.039999961853027,
-        "Volume": 0
-      },
-      {
-        "Close": 5.039999961853027,
+        "Close": 5.050000190734863,
         "High": 5.050000190734863,
-        "Low": 5.039999961853027,
+        "Low": 5.050000190734863,
         "Open": 5.050000190734863,
-        "Volume": 200
+        "Volume": 0
       }
     ]
   },
@@ -27,15 +20,43 @@
   },
   "financials": {
     "income_statement": {
-      "status": "success",
-      "rows": 45,
-      "columns": [
-        "2024-12-31 00:00:00",
-        "2023-12-31 00:00:00",
-        "2022-12-31 00:00:00",
-        "2021-12-31 00:00:00",
-        "2020-12-31 00:00:00"
-      ],
-      "data": [
-        {
-          
+      "status": "no_data"
+    },
+    "balance_sheet": {
+      "status": "no_data"
+    },
+    "cash_flow": {
+      "status": "no_data"
+    }
+  },
+  "options_data": {
+    "status": "error",
+    "error_message": "Too Many Requests. Rate limited. Try after a while."
+  },
+  "news_data": {
+    "news": {
+      "status": "no_data"
+    },
+    "recommendations": {
+      "status": "no_data"
+    }
+  },
+  "holders_data": {
+    "major_holders": {
+      "status": "error"
+    },
+    "institutional_holders": {
+      "status": "error"
+    }
+  },
+  "earnings_data": {
+    "earnings": {
+      "status": "error",
+      "message": "'NoneType' object has no attribute 'empty'"
+    },
+    "calendar": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  }
+}

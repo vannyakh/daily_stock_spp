@@ -1,125 +1,667 @@
 {
   "ticker": "SNV-PD",
-  "timestamp": "2025-12-07T05:03:23.140487",
+  "timestamp": "2025-12-09T04:39:51.212941",
   "intraday_data": {
-    "status": "success",
-    "rows": 14,
-    "data": [
-      {
-        "Close": 25.3700008392334,
-        "High": 25.3700008392334,
-        "Low": 25.3700008392334,
-        "Open": 25.3700008392334,
-        "Volume": 0
-      },
-      {
-        "Close": 25.3799991607666,
-        "High": 25.409900665283203,
-        "Low": 25.300100326538086,
-        "Open": 25.3700008392334,
-        "Volume": 2605
-      },
-      {
-        "Close": 25.399999618530273,
-        "High": 25.399999618530273,
-        "Low": 25.399999618530273,
-        "Open": 25.399999618530273,
-        "Volume": 1132
-      },
-      {
-        "Close": 25.399999618530273,
-        "High": 25.399999618530273,
-        "Low": 25.399999618530273,
-        "Open": 25.399999618530273,
-        "Volume": 289
-      },
-      {
-        "Close": 25.399999618530273,
-        "High": 25.399999618530273,
-        "Low": 25.399999618530273,
-        "Open": 25.399999618530273,
-        "Volume": 120
-      },
-      {
-        "Close": 25.3700008392334,
-        "High": 25.3799991607666,
-        "Low": 25.3700008392334,
-        "Open": 25.3799991607666,
-        "Volume": 781
-      },
-      {
-        "Close": 25.420900344848633,
-        "High": 25.420900344848633,
-        "Low": 25.420900344848633,
-        "Open": 25.420900344848633,
-        "Volume": 320
-      },
-      {
-        "Close": 25.31999969482422,
-        "High": 25.31999969482422,
-        "Low": 25.31999969482422,
-        "Open": 25.31999969482422,
-        "Volume": 110
-      },
-      {
-        "Close": 25.361299514770508,
-        "High": 25.361299514770508,
-        "Low": 25.361299514770508,
-        "Open": 25.361299514770508,
-        "Volume": 1412
-      },
-      {
-        "Close": 25.3799991607666,
-        "High": 25.3799991607666,
-        "Low": 25.3799991607666,
-        "Open": 25.3799991607666,
-        "Volume": 140
-      },
-      {
-        "Close": 25.329999923706055,
-        "High": 25.329999923706055,
-        "Low": 25.329999923706055,
-        "Open": 25.329999923706055,
-        "Volume": 356
-      },
-      {
-        "Close": 25.3700008392334,
-        "High": 25.3700008392334,
-        "Low": 25.3700008392334,
-        "Open": 25.3700008392334,
-        "Volume": 295
-      },
-      {
-        "Close": 25.3700008392334,
-        "High": 25.3700008392334,
-        "Low": 25.3700008392334,
-        "Open": 25.3700008392334,
-        "Volume": 249
-      },
-      {
-        "Close": 25.3700008392334,
-        "High": 25.3700008392334,
-        "Low": 25.3700008392334,
-        "Open": 25.3700008392334,
-        "Volume": 130
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
-    "message": "argument of type 'NoneType' is not iterable"
+    "message": "Too Many Requests. Rate limited. Try after a while."
   },
   "financials": {
     "income_statement": {
+      "status": "no_data"
+    },
+    "balance_sheet": {
+      "status": "no_data"
+    },
+    "cash_flow": {
+      "status": "no_data"
+    }
+  },
+  "options_data": {
+    "status": "error",
+    "error_message": "Too Many Requests. Rate limited. Try after a while."
+  },
+  "news_data": {
+    "news": {
       "status": "success",
-      "rows": 40,
-      "columns": [
-        "2024-12-31 00:00:00",
-        "2023-12-31 00:00:00",
-        "2022-12-31 00:00:00",
-        "2021-12-31 00:00:00",
-        "2020-12-31 00:00:00"
-      ],
+      "count": 10,
       "data": [
         {
-          
+          "id": "b19ddc19-6240-381b-b940-ad6d299e40c4",
+          "content": {
+            "id": "b19ddc19-6240-381b-b940-ad6d299e40c4",
+            "contentType": "STORY",
+            "title": "As Synovus Preps for a Major Merger, One Fund Buys Up $7.5 Million in Stock",
+            "description": "",
+            "summary": "A merger-driven scale jump may be the catalyst Synovus investors have been waiting for\u2014but only if the bank can execute.",
+            "pubDate": "2025-12-05T00:59:40Z",
+            "displayTime": "2025-12-05T00:59:40Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": {
+              "originalUrl": "https://media.zenfs.com/en/motleyfool.com/0fa990b14f17bb2b976e65e5c2750f93",
+              "originalWidth": 1401,
+              "originalHeight": 1251,
+              "caption": "",
+              "resolutions": [
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/h2Ia8ph5y6.wr_qNjlKftg--~B/aD0xMjUxO3c9MTQwMTthcHBpZD15dGFjaHlvbg--/https://media.zenfs.com/en/motleyfool.com/0fa990b14f17bb2b976e65e5c2750f93",
+                  "width": 1401,
+                  "height": 1251,
+                  "tag": "original"
+                },
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/9TAtl8eyrwPirD819blmUg--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/motleyfool.com/0fa990b14f17bb2b976e65e5c2750f93",
+                  "width": 170,
+                  "height": 128,
+                  "tag": "170x128"
+                }
+              ]
+            },
+            "provider": {
+              "displayName": "Motley Fool",
+              "url": "http://www.fool.com/"
+            },
+            "canonicalUrl": {
+              "url": "https://www.fool.com/coverage/filings/2025/12/04/as-synovus-preps-for-a-major-merger-one-fund-buys-up-usd7-5-million-in-stock/",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/synovus-preps-major-merger-one-005940996.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        },
+        {
+          "id": "39d2fc1a-eb1c-3996-a36b-804fdea52ec6",
+          "content": {
+            "id": "39d2fc1a-eb1c-3996-a36b-804fdea52ec6",
+            "contentType": "STORY",
+            "title": "Is Synovus Financial (SNV) Undervalued? A Fresh Look at the Bank\u2019s Current Valuation",
+            "description": "",
+            "summary": "Synovus Financial (SNV) shares have been on the move, showing a 7% gain over the past month after a period of mixed performance. Investors are keeping an eye on how recent trends could influence the bank\u2019s valuation. See our latest analysis for Synovus Financial. After a bumpy start to the year, Synovus Financial has regained momentum with a recent 7% lift in its share price over the past month, trading at $48.77. While the 1-year total shareholder return is still down by 12%, long-term...",
+            "pubDate": "2025-11-26T22:07:55Z",
+            "displayTime": "2025-11-26T22:07:55Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": {
+              "originalUrl": "https://media.zenfs.com/en/simply_wall_st__316/75a6275a0d81fd5fbc47ebecee672e4c",
+              "originalWidth": 1194,
+              "originalHeight": 432,
+              "caption": "",
+              "resolutions": [
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/RvXBP6irJOcli7EUS_oYYw--~B/aD00MzI7dz0xMTk0O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/simply_wall_st__316/75a6275a0d81fd5fbc47ebecee672e4c",
+                  "width": 1194,
+                  "height": 432,
+                  "tag": "original"
+                },
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/McnRbZ1GDkEwVdEg.M3tyg--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/simply_wall_st__316/75a6275a0d81fd5fbc47ebecee672e4c",
+                  "width": 170,
+                  "height": 128,
+                  "tag": "170x128"
+                }
+              ]
+            },
+            "provider": {
+              "displayName": "Simply Wall St.",
+              "url": "https://simplywall.st/"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/synovus-financial-snv-undervalued-fresh-220755334.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/synovus-financial-snv-undervalued-fresh-220755334.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        },
+        {
+          "id": "628b6a97-c492-3ec5-bd7a-b641ce666817",
+          "content": {
+            "id": "628b6a97-c492-3ec5-bd7a-b641ce666817",
+            "contentType": "STORY",
+            "title": "Synovus Secures Federal Regulatory Approval for Merger With Pinnacle",
+            "description": "",
+            "summary": "SNV moves closer to its $8.6B merger with PNFP after securing Federal Reserve approval and targeting a Jan. 1, 2026, close.",
+            "pubDate": "2025-11-26T14:46:00Z",
+            "displayTime": "2025-11-26T14:46:00Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": {
+              "originalUrl": "https://media.zenfs.com/en/zacks.com/5167b486bdd0f986aff26dac3fff825f",
+              "originalWidth": 620,
+              "originalHeight": 413,
+              "caption": "",
+              "resolutions": [
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/eiI8XvueFrWWvD.ii2bEoA--~B/aD00MTM7dz02MjA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/zacks.com/5167b486bdd0f986aff26dac3fff825f",
+                  "width": 620,
+                  "height": 413,
+                  "tag": "original"
+                },
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/orYqaqiO5IRszzVtwWMYrg--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/zacks.com/5167b486bdd0f986aff26dac3fff825f",
+                  "width": 170,
+                  "height": 128,
+                  "tag": "170x128"
+                }
+              ]
+            },
+            "provider": {
+              "displayName": "Zacks",
+              "url": "http://www.zacks.com/"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/synovus-secures-federal-regulatory-approval-144600603.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/synovus-secures-federal-regulatory-approval-144600603.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        },
+        {
+          "id": "8204fd06-90c7-3940-b8af-1cc55a8c5a5b",
+          "content": {
+            "id": "8204fd06-90c7-3940-b8af-1cc55a8c5a5b",
+            "contentType": "STORY",
+            "title": "1 Small-Cap Stock to Consider Right Now and 2 Facing Challenges",
+            "description": "",
+            "summary": "Investors looking for hidden gems should keep an eye on small-cap stocks because they\u2019re frequently overlooked by Wall Street. Many opportunities exist in this part of the market, but it is also a high-risk, high-reward environment due to the lack of reliable analyst price targets.",
+            "pubDate": "2025-11-24T04:38:26Z",
+            "displayTime": "2025-11-24T04:38:26Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": {
+              "originalUrl": "https://media.zenfs.com/en/stockstory_922/ac9701e7c9f4c844410a887e0d1f40bf",
+              "originalWidth": 1400,
+              "originalHeight": 700,
+              "caption": "CARG Cover Image",
+              "resolutions": [
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/f_RjYjI25WTs1h2pB3NEHg--~B/aD03MDA7dz0xNDAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/stockstory_922/ac9701e7c9f4c844410a887e0d1f40bf",
+                  "width": 1400,
+                  "height": 700,
+                  "tag": "original"
+                },
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/qfBIDdsb_rsUdm7oiB8hyA--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/stockstory_922/ac9701e7c9f4c844410a887e0d1f40bf",
+                  "width": 170,
+                  "height": 128,
+                  "tag": "170x128"
+                }
+              ]
+            },
+            "provider": {
+              "displayName": "StockStory",
+              "url": "https://stockstory.org/"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/1-small-cap-stock-consider-043826088.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/1-small-cap-stock-consider-043826088.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        },
+        {
+          "id": "22c159bc-ad9b-365d-8559-e68b80bb7e58",
+          "content": {
+            "id": "22c159bc-ad9b-365d-8559-e68b80bb7e58",
+            "contentType": "STORY",
+            "title": "BancFirst, Zions Bancorporation, Synovus Financial, Prosperity Bancshares, and Origin Bancorp Shares Skyrocket, What You Need To Know",
+            "description": "",
+            "summary": "A number of stocks jumped in the afternoon session after comments from a key Federal Reserve official boosted hopes for an interest rate cut. New York Federal Reserve President John Williams stated he sees \u201croom for a further adjustment\u201d in the near term, sparking a significant market rally. Following his remarks, the probability of the central bank cutting rates at its December meeting jumped from 39% to over 73%, according to the CME FedWatch tool. This positive sentiment provided relief to ma",
+            "pubDate": "2025-11-21T23:00:54Z",
+            "displayTime": "2025-11-21T23:00:54Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": {
+              "originalUrl": "https://media.zenfs.com/en/stockstory_922/9dc4c2238c171a8e5d8180bc91d2528f",
+              "originalWidth": 1400,
+              "originalHeight": 700,
+              "caption": "BANF Cover Image",
+              "resolutions": [
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/hfTJOwB7BgqhZIfZBQJQYQ--~B/aD03MDA7dz0xNDAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/stockstory_922/9dc4c2238c171a8e5d8180bc91d2528f",
+                  "width": 1400,
+                  "height": 700,
+                  "tag": "original"
+                },
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/vgIBSiB9v0aeI8rRA0eC2A--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/stockstory_922/9dc4c2238c171a8e5d8180bc91d2528f",
+                  "width": 170,
+                  "height": 128,
+                  "tag": "170x128"
+                }
+              ]
+            },
+            "provider": {
+              "displayName": "StockStory",
+              "url": "https://stockstory.org/"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/bancfirst-zions-bancorporation-synovus-financial-230054864.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/bancfirst-zions-bancorporation-synovus-financial-230054864.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        },
+        {
+          "id": "20797a68-fbc7-32dc-b70d-80c092e06d68",
+          "content": {
+            "id": "20797a68-fbc7-32dc-b70d-80c092e06d68",
+            "contentType": "STORY",
+            "title": "A Look Back at Regional Banks Stocks\u2019 Q3 Earnings: Synovus Financial (NYSE:SNV) Vs The Rest Of The Pack",
+            "description": "",
+            "summary": "Wrapping up Q3 earnings, we look at the numbers and key takeaways for the regional banks stocks, including Synovus Financial (NYSE:SNV) and its peers.",
+            "pubDate": "2025-11-20T03:36:37Z",
+            "displayTime": "2025-11-20T03:36:37Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": {
+              "originalUrl": "https://media.zenfs.com/en/stockstory_922/81397fe071219fffcc5c7c52fff3c46a",
+              "originalWidth": 1400,
+              "originalHeight": 700,
+              "caption": "SNV Cover Image",
+              "resolutions": [
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/ATHTZc2Z5Ski0LdWe3m2Ig--~B/aD03MDA7dz0xNDAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/stockstory_922/81397fe071219fffcc5c7c52fff3c46a",
+                  "width": 1400,
+                  "height": 700,
+                  "tag": "original"
+                },
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/Jez2VVXKhSLgfATELKw7PQ--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/stockstory_922/81397fe071219fffcc5c7c52fff3c46a",
+                  "width": 170,
+                  "height": 128,
+                  "tag": "170x128"
+                }
+              ]
+            },
+            "provider": {
+              "displayName": "StockStory",
+              "url": "https://stockstory.org/"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/look-back-regional-banks-stocks-033637316.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/look-back-regional-banks-stocks-033637316.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        },
+        {
+          "id": "ae1e5ea3-f90c-37a8-b90e-d5f6881b390a",
+          "content": {
+            "id": "ae1e5ea3-f90c-37a8-b90e-d5f6881b390a",
+            "contentType": "STORY",
+            "title": "Top 3 Dividend Stocks To Consider For Your Portfolio",
+            "description": "",
+            "summary": "As the U.S. stock market experiences mixed movements with technology shares rebounding and the Dow Jones Industrial Average declining for a second consecutive day, investors are closely watching economic indicators following a prolonged government shutdown. In such uncertain times, dividend stocks can provide a measure of stability and income, making them an attractive option for those looking to bolster their portfolios amidst fluctuating market conditions.",
+            "pubDate": "2025-11-14T17:32:16Z",
+            "displayTime": "2025-11-14T17:32:16Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": {
+              "originalUrl": "https://media.zenfs.com/en/simply_wall_st__316/a192a90509b207df974cc973e0c18172",
+              "originalWidth": 1194,
+              "originalHeight": 432,
+              "caption": "",
+              "resolutions": [
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/eRZics5K7nTfD4zTk6CnaQ--~B/aD00MzI7dz0xMTk0O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/simply_wall_st__316/a192a90509b207df974cc973e0c18172",
+                  "width": 1194,
+                  "height": 432,
+                  "tag": "original"
+                },
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/K.r7FRqtC9ek89mvUMnUtQ--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/simply_wall_st__316/a192a90509b207df974cc973e0c18172",
+                  "width": 170,
+                  "height": 128,
+                  "tag": "170x128"
+                }
+              ]
+            },
+            "provider": {
+              "displayName": "Simply Wall St.",
+              "url": "https://simplywall.st/"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/top-3-dividend-stocks-consider-173216443.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/top-3-dividend-stocks-consider-173216443.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        },
+        {
+          "id": "52fb1679-bb88-3841-adeb-c46de5727324",
+          "content": {
+            "id": "52fb1679-bb88-3841-adeb-c46de5727324",
+            "contentType": "STORY",
+            "title": "Synovus (SNV) Up 4.5% Since Last Earnings Report: Can It Continue?",
+            "description": "",
+            "summary": "Synovus (SNV) reported earnings 30 days ago. What's next for the stock? We take a look at earnings estimates for some clues.",
+            "pubDate": "2025-11-14T16:30:06Z",
+            "displayTime": "2025-11-14T16:30:06Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": {
+              "originalUrl": "https://media.zenfs.com/en/zacks.com/a41b81fe729c761f3f94f42ff348f70c",
+              "originalWidth": 900,
+              "originalHeight": 602,
+              "caption": "",
+              "resolutions": [
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/XFzKRSTb2_xUaLSOCP9.Bg--~B/aD02MDI7dz05MDA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/zacks.com/a41b81fe729c761f3f94f42ff348f70c",
+                  "width": 900,
+                  "height": 602,
+                  "tag": "original"
+                },
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/AOCGBukgn6XxK_SF5qswVA--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/zacks.com/a41b81fe729c761f3f94f42ff348f70c",
+                  "width": 170,
+                  "height": 128,
+                  "tag": "170x128"
+                }
+              ]
+            },
+            "provider": {
+              "displayName": "Zacks",
+              "url": "http://www.zacks.com/"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/synovus-snv-4-5-since-163006618.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/synovus-snv-4-5-since-163006618.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        },
+        {
+          "id": "9f6a365a-5242-38b3-8eca-5e5975b98508",
+          "content": {
+            "id": "9f6a365a-5242-38b3-8eca-5e5975b98508",
+            "contentType": "STORY",
+            "title": "Synovus Financial (SNV): Assessing Current Valuation After Recent Share Price Declines",
+            "description": "",
+            "summary": "Synovus Financial (SNV) shares have edged up slightly in recent trading, gaining just under 1% and closing at $44.64. Investors are watching how the stock performs after a difficult month, as shares are down 8% over that period. See our latest analysis for Synovus Financial. Despite a tough stretch recently, Synovus Financial's 1-year total shareholder return is down just 6.7%, while its five-year total return stands out at more than 100%. Although the short-term share price return has...",
+            "pubDate": "2025-11-02T18:11:36Z",
+            "displayTime": "2025-11-02T18:11:36Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": {
+              "originalUrl": "https://media.zenfs.com/en/simply_wall_st__316/75a6275a0d81fd5fbc47ebecee672e4c",
+              "originalWidth": 1194,
+              "originalHeight": 432,
+              "caption": "",
+              "resolutions": [
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/RvXBP6irJOcli7EUS_oYYw--~B/aD00MzI7dz0xMTk0O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/simply_wall_st__316/75a6275a0d81fd5fbc47ebecee672e4c",
+                  "width": 1194,
+                  "height": 432,
+                  "tag": "original"
+                },
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/McnRbZ1GDkEwVdEg.M3tyg--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/simply_wall_st__316/75a6275a0d81fd5fbc47ebecee672e4c",
+                  "width": 170,
+                  "height": 128,
+                  "tag": "170x128"
+                }
+              ]
+            },
+            "provider": {
+              "displayName": "Simply Wall St.",
+              "url": "https://simplywall.st/"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/synovus-financial-snv-assessing-current-181136380.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/synovus-financial-snv-assessing-current-181136380.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        },
+        {
+          "id": "164e2313-78e6-3bbe-8c8e-2e434b6c024e",
+          "content": {
+            "id": "164e2313-78e6-3bbe-8c8e-2e434b6c024e",
+            "contentType": "STORY",
+            "title": "Here's Why Synovus Financial (SNV) is a Strong Value Stock",
+            "description": "",
+            "summary": "The Zacks Style Scores offers investors a way to easily find top-rated stocks based on their investing style. Here's why you should take advantage.",
+            "pubDate": "2025-10-30T13:40:03Z",
+            "displayTime": "2025-10-30T13:40:03Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": {
+              "originalUrl": "https://media.zenfs.com/en/zacks.com/e8e4b0344809eaac6d73c9fd25fd180a",
+              "originalWidth": 900,
+              "originalHeight": 600,
+              "caption": "",
+              "resolutions": [
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/7h8ntzJXcDOdVmDKQ08gRg--~B/aD02MDA7dz05MDA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/zacks.com/e8e4b0344809eaac6d73c9fd25fd180a",
+                  "width": 900,
+                  "height": 600,
+                  "tag": "original"
+                },
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/HPPe9cVpY.5CDqgVwfXxLg--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/zacks.com/e8e4b0344809eaac6d73c9fd25fd180a",
+                  "width": 170,
+                  "height": 128,
+                  "tag": "170x128"
+                }
+              ]
+            },
+            "provider": {
+              "displayName": "Zacks",
+              "url": "http://www.zacks.com/"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/heres-why-synovus-financial-snv-134003696.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/heres-why-synovus-financial-snv-134003696.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        }
+      ]
+    },
+    "recommendations": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  },
+  "holders_data": {
+    "major_holders": {
+      "status": "error"
+    },
+    "institutional_holders": {
+      "status": "error"
+    }
+  },
+  "earnings_data": {
+    "earnings": {
+      "status": "error",
+      "message": "'NoneType' object has no attribute 'empty'"
+    },
+    "calendar": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  }
+}

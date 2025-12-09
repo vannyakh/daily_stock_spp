@@ -1,32 +1,9 @@
 {
   "ticker": "MITI",
-  "timestamp": "2025-12-07T04:57:26.285650",
+  "timestamp": "2025-12-09T04:35:57.835772",
   "intraday_data": {
-    "status": "success",
-    "rows": 3,
-    "data": [
-      {
-        "Close": 0.10100000351667404,
-        "High": 0.10270000249147415,
-        "Low": 0.10100000351667404,
-        "Open": 0.10270000249147415,
-        "Volume": 0
-      },
-      {
-        "Close": 0.10999999940395355,
-        "High": 0.10999999940395355,
-        "Low": 0.10999999940395355,
-        "Open": 0.10999999940395355,
-        "Volume": 17600
-      },
-      {
-        "Close": 0.11400000005960464,
-        "High": 0.11400000005960464,
-        "Low": 0.11400000005960464,
-        "Open": 0.11400000005960464,
-        "Volume": 358
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -52,7 +29,8 @@
       "status": "no_data"
     },
     "recommendations": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   },
   "holders_data": {

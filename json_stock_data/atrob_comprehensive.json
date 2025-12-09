@@ -1,6 +1,6 @@
 {
   "ticker": "ATROB",
-  "timestamp": "2025-12-07T05:04:21.301588",
+  "timestamp": "2025-12-09T04:40:27.501593",
   "intraday_data": {
     "status": "no_data",
     "message": "No intraday data available"
@@ -651,7 +651,17 @@
       "status": "error"
     },
     "institutional_holders": {
-      "status": "error"
+      "status": "success",
+      "data": [
+        {
+          "Date Reported": "2025-06-30 00:00:00",
+          "Holder": "FNY Investment Advisers, LLC",
+          "pctHeld": 0.0,
+          "Shares": 67,
+          "Value": 3437,
+          "pctChange": 0.0
+        }
+      ]
     }
   },
   "earnings_data": {
@@ -661,7 +671,7 @@
     },
     "calendar": {
       "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
+      "message": "'dict' object has no attribute 'empty'"
     }
   }
 }

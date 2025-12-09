@@ -1,39 +1,9 @@
 {
   "ticker": "RAIN",
-  "timestamp": "2025-12-07T04:52:47.784679",
+  "timestamp": "2025-12-09T04:32:58.639483",
   "intraday_data": {
-    "status": "success",
-    "rows": 4,
-    "data": [
-      {
-        "Close": 5.96999979019165,
-        "High": 5.96999979019165,
-        "Low": 5.960000038146973,
-        "Open": 5.960000038146973,
-        "Volume": 0
-      },
-      {
-        "Close": 5.7179999351501465,
-        "High": 5.7179999351501465,
-        "Low": 5.7179999351501465,
-        "Open": 5.7179999351501465,
-        "Volume": 180
-      },
-      {
-        "Close": 5.679999828338623,
-        "High": 5.679999828338623,
-        "Low": 5.679999828338623,
-        "Open": 5.679999828338623,
-        "Volume": 1084
-      },
-      {
-        "Close": 5.679999828338623,
-        "High": 5.679999828338623,
-        "Low": 5.679999828338623,
-        "Open": 5.679999828338623,
-        "Volume": 1426
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -123,7 +93,8 @@
       ]
     },
     "recommendations": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   },
   "holders_data": {

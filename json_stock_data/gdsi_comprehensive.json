@@ -1,9 +1,32 @@
 {
   "ticker": "GDSI",
-  "timestamp": "2025-12-07T05:06:11.598233",
+  "timestamp": "2025-12-09T04:41:41.197566",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 3,
+    "data": [
+      {
+        "Close CLCS": 0.3799999952316284,
+        "High CLCS": 0.3799999952316284,
+        "Low CLCS": 0.3799999952316284,
+        "Open CLCS": 0.3799999952316284,
+        "Volume CLCS": 0
+      },
+      {
+        "Close CLCS": 0.3799999952316284,
+        "High CLCS": 0.3799999952316284,
+        "Low CLCS": 0.3799999952316284,
+        "Open CLCS": 0.3799999952316284,
+        "Volume CLCS": 7400
+      },
+      {
+        "Close CLCS": 0.3700000047683716,
+        "High CLCS": 0.3700000047683716,
+        "Low CLCS": 0.3700000047683716,
+        "Open CLCS": 0.3700000047683716,
+        "Volume CLCS": 5228
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -11,13 +34,44 @@
   },
   "financials": {
     "income_statement": {
-      "status": "success",
-      "rows": 44,
-      "columns": [
-        "2022-12-31 00:00:00",
-        "2021-12-31 00:00:00",
-        "2020-12-31 00:00:00"
-      ],
-      "data": [
-        {
-          
+      "status": "no_data"
+    },
+    "balance_sheet": {
+      "status": "no_data"
+    },
+    "cash_flow": {
+      "status": "no_data"
+    }
+  },
+  "options_data": {
+    "status": "error",
+    "error_message": "Too Many Requests. Rate limited. Try after a while."
+  },
+  "news_data": {
+    "news": {
+      "status": "no_data"
+    },
+    "recommendations": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  },
+  "holders_data": {
+    "major_holders": {
+      "status": "error"
+    },
+    "institutional_holders": {
+      "status": "error"
+    }
+  },
+  "earnings_data": {
+    "earnings": {
+      "status": "error",
+      "message": "'NoneType' object has no attribute 'empty'"
+    },
+    "calendar": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  }
+}

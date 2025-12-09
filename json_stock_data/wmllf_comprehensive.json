@@ -1,9 +1,39 @@
 {
   "ticker": "WMLLF",
-  "timestamp": "2025-12-07T04:54:49.668346",
+  "timestamp": "2025-12-09T04:34:18.567798",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 4,
+    "data": [
+      {
+        "Close": 0.06880000233650208,
+        "High": 0.06880000233650208,
+        "Low": 0.06880000233650208,
+        "Open": 0.06880000233650208,
+        "Volume": 0
+      },
+      {
+        "Close": 0.061799999326467514,
+        "High": 0.061799999326467514,
+        "Low": 0.061799999326467514,
+        "Open": 0.061799999326467514,
+        "Volume": 63800
+      },
+      {
+        "Close": 0.06069999933242798,
+        "High": 0.06069999933242798,
+        "Low": 0.060600001364946365,
+        "Open": 0.060600001364946365,
+        "Volume": 40000
+      },
+      {
+        "Close": 0.061799999326467514,
+        "High": 0.061799999326467514,
+        "Low": 0.061799999326467514,
+        "Open": 0.061799999326467514,
+        "Volume": 10000
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -520,15 +550,16 @@
       ]
     },
     "recommendations": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   },
   "holders_data": {
     "major_holders": {
-      "status": "no_data"
+      "status": "error"
     },
     "institutional_holders": {
-      "status": "no_data"
+      "status": "error"
     }
   },
   "earnings_data": {

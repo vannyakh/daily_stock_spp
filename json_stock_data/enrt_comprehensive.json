@@ -1,25 +1,9 @@
 {
   "ticker": "ENRT",
-  "timestamp": "2025-12-07T04:59:25.952244",
+  "timestamp": "2025-12-09T04:37:12.951492",
   "intraday_data": {
-    "status": "success",
-    "rows": 2,
-    "data": [
-      {
-        "Close": 0.11999999731779099,
-        "High": 0.11999999731779099,
-        "Low": 0.11999999731779099,
-        "Open": 0.11999999731779099,
-        "Volume": 0
-      },
-      {
-        "Close": 0.11999999731779099,
-        "High": 0.11999999731779099,
-        "Low": 0.11999999731779099,
-        "Open": 0.11999999731779099,
-        "Volume": 2200
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -45,7 +29,8 @@
       "status": "no_data"
     },
     "recommendations": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   },
   "holders_data": {

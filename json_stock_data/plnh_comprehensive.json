@@ -1,10 +1,9 @@
 {
   "ticker": "PLNH",
-  "timestamp": "2025-12-07T04:46:36.923176",
+  "timestamp": "2025-12-09T04:29:15.726515",
   "intraday_data": {
-    "status": "success",
-    "rows": 0,
-    "data": []
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -15,105 +14,15 @@
       "status": "no_data"
     },
     "balance_sheet": {
-      "status": "no_data"
-    },
-    "cash_flow": {
-      "status": "no_data"
-    }
-  },
-  "options_data": {
-    "status": "error",
-    "error_message": "Too Many Requests. Rate limited. Try after a while."
-  },
-  "news_data": {
-    "news": {
       "status": "success",
-      "count": 1,
+      "rows": 75,
+      "columns": [
+        "2024-12-31 00:00:00",
+        "2023-12-31 00:00:00",
+        "2022-12-31 00:00:00",
+        "2021-12-31 00:00:00",
+        "2020-12-31 00:00:00"
+      ],
       "data": [
         {
-          "id": "b06ef0d2-7e70-3a18-a090-d25f570a29c2",
-          "content": {
-            "id": "b06ef0d2-7e70-3a18-a090-d25f570a29c2",
-            "contentType": "STORY",
-            "title": "TSX Penny Stocks To Watch In May 2025",
-            "description": "",
-            "summary": "As trade tensions ease with new agreements and the Federal Reserve maintains its interest rate, the Canadian market is experiencing a period of cautious optimism. This backdrop creates a unique opportunity for investors to explore smaller or newer companies that might be overlooked in more stable times. While \"penny stocks\" may seem like an outdated term, they continue to represent potential value, especially when these companies are built on solid financial foundations and demonstrate...",
-            "pubDate": "2025-05-15T19:09:10Z",
-            "displayTime": "2025-05-15T19:09:10Z",
-            "isHosted": true,
-            "bypassModal": false,
-            "previewUrl": null,
-            "thumbnail": {
-              "originalUrl": "https://media.zenfs.com/en/simply_wall_st__316/fd5474a7eee0c5f442903b68fe63249b",
-              "originalWidth": 1194,
-              "originalHeight": 432,
-              "caption": "",
-              "resolutions": [
-                {
-                  "url": "https://s.yimg.com/uu/api/res/1.2/TLyt5D16lsSwRjJRVjlUTA--~B/aD00MzI7dz0xMTk0O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/simply_wall_st__316/fd5474a7eee0c5f442903b68fe63249b",
-                  "width": 1194,
-                  "height": 432,
-                  "tag": "original"
-                },
-                {
-                  "url": "https://s.yimg.com/uu/api/res/1.2/PogKoFkj.Bi2muTuZmcSEQ--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/simply_wall_st__316/fd5474a7eee0c5f442903b68fe63249b",
-                  "width": 170,
-                  "height": 128,
-                  "tag": "170x128"
-                }
-              ]
-            },
-            "provider": {
-              "displayName": "Simply Wall St.",
-              "url": "https://simplywall.st/"
-            },
-            "canonicalUrl": {
-              "url": "https://finance.yahoo.com/news/tsx-penny-stocks-watch-may-190910087.html",
-              "site": "finance",
-              "region": "US",
-              "lang": "en-US"
-            },
-            "clickThroughUrl": {
-              "url": "https://finance.yahoo.com/news/tsx-penny-stocks-watch-may-190910087.html",
-              "site": "finance",
-              "region": "US",
-              "lang": "en-US"
-            },
-            "metadata": {
-              "editorsPick": false
-            },
-            "finance": {
-              "premiumFinance": {
-                "isPremiumNews": false,
-                "isPremiumFreeNews": false
-              }
-            },
-            "storyline": null
-          }
-        }
-      ]
-    },
-    "recommendations": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
-    }
-  },
-  "holders_data": {
-    "major_holders": {
-      "status": "error"
-    },
-    "institutional_holders": {
-      "status": "error"
-    }
-  },
-  "earnings_data": {
-    "earnings": {
-      "status": "error",
-      "message": "'NoneType' object has no attribute 'empty'"
-    },
-    "calendar": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
-    }
-  }
-}
+          

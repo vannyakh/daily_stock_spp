@@ -1,16 +1,23 @@
 {
   "ticker": "WTMA",
-  "timestamp": "2025-12-07T04:51:41.149911",
+  "timestamp": "2025-12-09T04:32:20.469346",
   "intraday_data": {
     "status": "success",
-    "rows": 1,
+    "rows": 2,
     "data": [
       {
-        "Close": 10.0,
-        "High": 10.0,
-        "Low": 10.0,
-        "Open": 10.0,
+        "Close": 12.0,
+        "High": 12.0,
+        "Low": 12.0,
+        "Open": 12.0,
         "Volume": 0
+      },
+      {
+        "Close": 11.75,
+        "High": 11.75,
+        "Low": 11.75,
+        "Open": 11.75,
+        "Volume": 400
       }
     ]
   },
@@ -26,13 +33,38 @@
       "status": "no_data"
     },
     "cash_flow": {
-      "status": "success",
-      "rows": 34,
-      "columns": [
-        "2024-12-31 00:00:00",
-        "2023-12-31 00:00:00",
-        "2022-12-31 00:00:00"
-      ],
-      "data": [
-        {
-          
+      "status": "no_data"
+    }
+  },
+  "options_data": {
+    "status": "error",
+    "error_message": "Too Many Requests. Rate limited. Try after a while."
+  },
+  "news_data": {
+    "news": {
+      "status": "no_data"
+    },
+    "recommendations": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  },
+  "holders_data": {
+    "major_holders": {
+      "status": "error"
+    },
+    "institutional_holders": {
+      "status": "error"
+    }
+  },
+  "earnings_data": {
+    "earnings": {
+      "status": "error",
+      "message": "'NoneType' object has no attribute 'empty'"
+    },
+    "calendar": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  }
+}

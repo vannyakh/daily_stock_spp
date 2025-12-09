@@ -1,88 +1,9 @@
 {
   "ticker": "AXR",
-  "timestamp": "2025-12-07T04:44:51.184286",
+  "timestamp": "2025-12-09T04:28:09.056189",
   "intraday_data": {
-    "status": "success",
-    "rows": 11,
-    "data": [
-      {
-        "Close": 23.520000457763672,
-        "High": 23.520000457763672,
-        "Low": 23.520000457763672,
-        "Open": 23.520000457763672,
-        "Volume": 0
-      },
-      {
-        "Close": 21.729999542236328,
-        "High": 21.729999542236328,
-        "Low": 21.729999542236328,
-        "Open": 21.729999542236328,
-        "Volume": 186
-      },
-      {
-        "Close": 21.688899993896484,
-        "High": 21.688899993896484,
-        "Low": 21.688899993896484,
-        "Open": 21.688899993896484,
-        "Volume": 728
-      },
-      {
-        "Close": 21.25,
-        "High": 21.312000274658203,
-        "Low": 21.200000762939453,
-        "Open": 21.312000274658203,
-        "Volume": 1292
-      },
-      {
-        "Close": 21.239999771118164,
-        "High": 21.239999771118164,
-        "Low": 21.239999771118164,
-        "Open": 21.239999771118164,
-        "Volume": 1282
-      },
-      {
-        "Close": 21.229999542236328,
-        "High": 21.229999542236328,
-        "Low": 21.229999542236328,
-        "Open": 21.229999542236328,
-        "Volume": 572
-      },
-      {
-        "Close": 21.200000762939453,
-        "High": 21.200000762939453,
-        "Low": 21.200000762939453,
-        "Open": 21.200000762939453,
-        "Volume": 399
-      },
-      {
-        "Close": 21.399200439453125,
-        "High": 21.649999618530273,
-        "Low": 21.396400451660156,
-        "Open": 21.396400451660156,
-        "Volume": 1265
-      },
-      {
-        "Close": 21.649999618530273,
-        "High": 21.65999984741211,
-        "Low": 21.209299087524414,
-        "Open": 21.270000457763672,
-        "Volume": 3953
-      },
-      {
-        "Close": 21.3799991607666,
-        "High": 21.3799991607666,
-        "Low": 21.3799991607666,
-        "Open": 21.3799991607666,
-        "Volume": 157
-      },
-      {
-        "Close": 21.44529914855957,
-        "High": 21.44529914855957,
-        "Low": 21.44529914855957,
-        "Open": 21.44529914855957,
-        "Volume": 166
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -721,15 +642,16 @@
       ]
     },
     "recommendations": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   },
   "holders_data": {
     "major_holders": {
-      "status": "no_data"
+      "status": "error"
     },
     "institutional_holders": {
-      "status": "no_data"
+      "status": "error"
     }
   },
   "earnings_data": {
@@ -739,7 +661,7 @@
     },
     "calendar": {
       "status": "error",
-      "message": "'dict' object has no attribute 'empty'"
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   }
 }

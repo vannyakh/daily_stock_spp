@@ -1,9 +1,18 @@
 {
   "ticker": "FMCCL",
-  "timestamp": "2025-12-07T05:04:02.763021",
+  "timestamp": "2025-12-09T04:40:16.367720",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 1,
+    "data": [
+      {
+        "Close": 20.0,
+        "High": 20.0,
+        "Low": 20.0,
+        "Open": 20.0,
+        "Volume": 0
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -593,7 +602,8 @@
       ]
     },
     "recommendations": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   },
   "holders_data": {

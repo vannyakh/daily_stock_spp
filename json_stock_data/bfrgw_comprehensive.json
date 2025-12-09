@@ -1,46 +1,9 @@
 {
   "ticker": "BFRGW",
-  "timestamp": "2025-12-07T05:09:28.686219",
+  "timestamp": "2025-12-09T04:43:47.601711",
   "intraday_data": {
-    "status": "success",
-    "rows": 5,
-    "data": [
-      {
-        "Close": 0.3147999942302704,
-        "High": 0.3147999942302704,
-        "Low": 0.3147999942302704,
-        "Open": 0.3147999942302704,
-        "Volume": 0
-      },
-      {
-        "Close": 0.3549000024795532,
-        "High": 0.3549000024795532,
-        "Low": 0.3549000024795532,
-        "Open": 0.3549000024795532,
-        "Volume": 1050
-      },
-      {
-        "Close": 0.3797000050544739,
-        "High": 0.3799999952316284,
-        "Low": 0.3797000050544739,
-        "Open": 0.3797999918460846,
-        "Volume": 2000
-      },
-      {
-        "Close": 0.3799000084400177,
-        "High": 0.3799999952316284,
-        "Low": 0.33000001311302185,
-        "Open": 0.33000001311302185,
-        "Volume": 600
-      },
-      {
-        "Close": 0.38999998569488525,
-        "High": 0.38999998569488525,
-        "Low": 0.38999998569488525,
-        "Open": 0.38999998569488525,
-        "Volume": 937
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -313,7 +276,7 @@
     },
     "calendar": {
       "status": "error",
-      "message": "'dict' object has no attribute 'empty'"
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   }
 }
