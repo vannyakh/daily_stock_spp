@@ -1,78 +1,22 @@
 {
   "ticker": "GIGGW",
-  "timestamp": "2025-12-09T04:42:30.005433",
+  "timestamp": "2025-12-10T05:21:03.435821",
   "intraday_data": {
     "status": "success",
-    "rows": 9,
+    "rows": 1,
     "data": [
       {
-        "Close": 0.4004000127315521,
-        "High": 0.5109000205993652,
-        "Low": 0.4004000127315521,
-        "Open": 0.5109000205993652,
-        "Volume": 11042
-      },
-      {
-        "Close": 0.40049999952316284,
-        "High": 0.44999998807907104,
-        "Low": 0.40049999952316284,
-        "Open": 0.44999998807907104,
-        "Volume": 1200
-      },
-      {
-        "Close": 0.4099999964237213,
-        "High": 0.4099999964237213,
-        "Low": 0.4099999964237213,
-        "Open": 0.4099999964237213,
-        "Volume": 133
-      },
-      {
-        "Close": 0.41999998688697815,
-        "High": 0.41999998688697815,
-        "Low": 0.41999998688697815,
-        "Open": 0.41999998688697815,
-        "Volume": 1400
-      },
-      {
-        "Close": 0.4300000071525574,
-        "High": 0.4300000071525574,
-        "Low": 0.4300000071525574,
-        "Open": 0.4300000071525574,
-        "Volume": 7700
-      },
-      {
-        "Close": 0.41990000009536743,
-        "High": 0.41999998688697815,
-        "Low": 0.41990000009536743,
-        "Open": 0.41999998688697815,
-        "Volume": 3748
-      },
-      {
-        "Close": 0.42010000348091125,
-        "High": 0.42010000348091125,
-        "Low": 0.41999998688697815,
-        "Open": 0.41999998688697815,
-        "Volume": 9726
-      },
-      {
-        "Close": 0.41280001401901245,
-        "High": 0.41280001401901245,
-        "Low": 0.41280001401901245,
-        "Open": 0.41280001401901245,
-        "Volume": 5971
-      },
-      {
-        "Close": 0.4124000072479248,
-        "High": 0.414000004529953,
-        "Low": 0.4101000130176544,
-        "Open": 0.414000004529953,
-        "Volume": 9206
+        "Close NTWOW": 0.3499999940395355,
+        "High NTWOW": 0.3499999940395355,
+        "Low NTWOW": 0.3499999940395355,
+        "Open NTWOW": 0.3499999940395355,
+        "Volume NTWOW": 0
       }
     ]
   },
   "stock_info": {
     "status": "error",
-    "message": "argument of type 'NoneType' is not iterable"
+    "message": "Too Many Requests. Rate limited. Try after a while."
   },
   "financials": {
     "income_statement": {
@@ -94,7 +38,8 @@
       "status": "no_data"
     },
     "recommendations": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   },
   "holders_data": {

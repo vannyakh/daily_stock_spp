@@ -1,89 +1,553 @@
 {
   "ticker": "MESA",
-  "timestamp": "2025-12-09T04:31:29.603506",
+  "timestamp": "2025-12-10T04:58:01.356149",
   "intraday_data": {
-    "status": "success",
-    "rows": 9,
-    "data": [
-      {
-        "Close CPBI": 16.36079978942871,
-        "High CPBI": 16.36479949951172,
-        "Low CPBI": 16.36079978942871,
-        "Open CPBI": 16.36479949951172,
-        "Volume CPBI": 0
-      },
-      {
-        "Close CPBI": 16.360000610351562,
-        "High CPBI": 16.361799240112305,
-        "Low CPBI": 16.360000610351562,
-        "Open CPBI": 16.361799240112305,
-        "Volume CPBI": 564
-      },
-      {
-        "Close CPBI": 16.360000610351562,
-        "High CPBI": 16.360000610351562,
-        "Low CPBI": 16.360000610351562,
-        "Open CPBI": 16.360000610351562,
-        "Volume CPBI": 269
-      },
-      {
-        "Close CPBI": 16.36009979248047,
-        "High CPBI": 16.36009979248047,
-        "Low CPBI": 16.360000610351562,
-        "Open CPBI": 16.360000610351562,
-        "Volume CPBI": 975
-      },
-      {
-        "Close CPBI": 16.309999465942383,
-        "High CPBI": 16.309999465942383,
-        "Low CPBI": 16.309999465942383,
-        "Open CPBI": 16.309999465942383,
-        "Volume CPBI": 894
-      },
-      {
-        "Close CPBI": 16.260000228881836,
-        "High CPBI": 16.260000228881836,
-        "Low CPBI": 16.260000228881836,
-        "Open CPBI": 16.260000228881836,
-        "Volume CPBI": 239
-      },
-      {
-        "Close CPBI": 16.299999237060547,
-        "High CPBI": 16.299999237060547,
-        "Low CPBI": 16.299999237060547,
-        "Open CPBI": 16.299999237060547,
-        "Volume CPBI": 324
-      },
-      {
-        "Close CPBI": 16.299999237060547,
-        "High CPBI": 16.299999237060547,
-        "Low CPBI": 16.299999237060547,
-        "Open CPBI": 16.299999237060547,
-        "Volume CPBI": 212
-      },
-      {
-        "Close CPBI": 16.3700008392334,
-        "High CPBI": 16.3700008392334,
-        "Low CPBI": 16.360000610351562,
-        "Open CPBI": 16.360000610351562,
-        "Volume CPBI": 650
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
-    "message": "argument of type 'NoneType' is not iterable"
+    "message": "Too Many Requests. Rate limited. Try after a while."
   },
   "financials": {
     "income_statement": {
+      "status": "no_data"
+    },
+    "balance_sheet": {
+      "status": "no_data"
+    },
+    "cash_flow": {
+      "status": "no_data"
+    }
+  },
+  "options_data": {
+    "status": "error",
+    "error_message": "Too Many Requests. Rate limited. Try after a while."
+  },
+  "news_data": {
+    "news": {
       "status": "success",
-      "rows": 49,
-      "columns": [
-        "2024-09-30 00:00:00",
-        "2023-09-30 00:00:00",
-        "2022-09-30 00:00:00",
-        "2021-09-30 00:00:00"
-      ],
+      "count": 10,
       "data": [
         {
-          
+          "id": "427d8292-6e2c-364c-9c4b-16ec7cd26457",
+          "content": {
+            "id": "427d8292-6e2c-364c-9c4b-16ec7cd26457",
+            "contentType": "STORY",
+            "title": "Mesa Air: Fiscal Q4 Earnings Snapshot",
+            "description": "",
+            "summary": "PHOENIX (AP) \u2014 Mesa Air Group Inc. MESA) on Friday reported a loss of $14.1 million in its fiscal fourth quarter. The Phoenix-based company said it had a loss of 34 cents per share.",
+            "pubDate": "2025-11-21T12:16:38Z",
+            "displayTime": "2025-11-21T12:16:38Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": null,
+            "provider": {
+              "displayName": "Associated Press Finance",
+              "url": "http://www.ap.org/"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/mesa-air-fiscal-q4-earnings-121638020.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/mesa-air-fiscal-q4-earnings-121638020.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        },
+        {
+          "id": "16fd3b69-f26d-30c9-a13e-d202c6a94427",
+          "content": {
+            "id": "16fd3b69-f26d-30c9-a13e-d202c6a94427",
+            "contentType": "STORY",
+            "title": "Mesa Air: Fiscal Q3 Earnings Snapshot",
+            "description": "",
+            "summary": "PHOENIX (AP) \u2014 Mesa Air Group Inc. MESA) on Wednesday reported earnings of $20.9 million in its fiscal third quarter. The Phoenix-based company said it had profit of 50 cents per share.",
+            "pubDate": "2025-08-13T11:19:08Z",
+            "displayTime": "2025-08-13T11:19:08Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": null,
+            "provider": {
+              "displayName": "Associated Press Finance",
+              "url": "http://www.ap.org/"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/mesa-air-fiscal-q3-earnings-111908177.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/mesa-air-fiscal-q3-earnings-111908177.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        },
+        {
+          "id": "1eed6f15-9240-3f4e-b3a6-bafab17c0daa",
+          "content": {
+            "id": "1eed6f15-9240-3f4e-b3a6-bafab17c0daa",
+            "contentType": "STORY",
+            "title": "Mesa Air: Fiscal Q2 Earnings Snapshot",
+            "description": "",
+            "summary": "PHOENIX (AP) \u2014 Mesa Air Group Inc. MESA) on Tuesday reported a loss of $58.6 million in its fiscal second quarter. On a per-share basis, the Phoenix-based company said it had a loss of $1.42.",
+            "pubDate": "2025-05-20T20:29:01Z",
+            "displayTime": "2025-05-20T20:29:01Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": null,
+            "provider": {
+              "displayName": "Associated Press Finance",
+              "url": "http://www.ap.org/"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/mesa-air-fiscal-q2-earnings-202901339.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/mesa-air-fiscal-q2-earnings-202901339.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        },
+        {
+          "id": "d30dfc2c-9783-37e9-93cb-8c5743295a5f",
+          "content": {
+            "id": "d30dfc2c-9783-37e9-93cb-8c5743295a5f",
+            "contentType": "STORY",
+            "title": "Mesa Air: Fiscal Q1 Earnings Snapshot",
+            "description": "",
+            "summary": "PHOENIX (AP) \u2014 Mesa Air Group Inc. MESA) on Monday reported a loss of $114.6 million in its fiscal first quarter. The Phoenix-based company said it had a loss of $2.77 per share.",
+            "pubDate": "2025-05-19T15:03:04Z",
+            "displayTime": "2025-05-19T15:03:04Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": null,
+            "provider": {
+              "displayName": "Associated Press Finance",
+              "url": "http://www.ap.org/"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/mesa-air-fiscal-q1-earnings-150304947.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/mesa-air-fiscal-q1-earnings-150304947.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        },
+        {
+          "id": "44be359c-219d-3eec-8c29-5523e288a111",
+          "content": {
+            "id": "44be359c-219d-3eec-8c29-5523e288a111",
+            "contentType": "STORY",
+            "title": "Two Struggling Airlines Just Merged to Create a $1.9B Powerhouse--Here's What Investors Need to Know",
+            "description": "",
+            "summary": "Mesa Air and Republic Airways are joining forces, wiping debt and betting big on a unified regional flight empire.",
+            "pubDate": "2025-04-07T19:47:50Z",
+            "displayTime": "2025-04-07T19:47:50Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": {
+              "originalUrl": "https://media.zenfs.com/en/us.finance.gurufocus/dfb9834566fc05133dda7085b07cb9be",
+              "originalWidth": 500,
+              "originalHeight": 500,
+              "caption": "",
+              "resolutions": [
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/XnBkGd72QFXyv5CFzdKnsQ--~B/aD01MDA7dz01MDA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/us.finance.gurufocus/dfb9834566fc05133dda7085b07cb9be",
+                  "width": 500,
+                  "height": 500,
+                  "tag": "original"
+                },
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/QDlExsDdMi8G7vxkLksBsg--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/us.finance.gurufocus/dfb9834566fc05133dda7085b07cb9be",
+                  "width": 170,
+                  "height": 128,
+                  "tag": "170x128"
+                }
+              ]
+            },
+            "provider": {
+              "displayName": "GuruFocus.com",
+              "url": "http://www.gurufocus.com/"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/two-struggling-airlines-just-merged-194750751.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/two-struggling-airlines-just-merged-194750751.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        },
+        {
+          "id": "7977ced6-0482-30db-b5cc-2cd4a22d8915",
+          "content": {
+            "id": "7977ced6-0482-30db-b5cc-2cd4a22d8915",
+            "contentType": "STORY",
+            "title": "Mesa Air Strikes All-Stock Deal to Merge With Republic Airways",
+            "description": "",
+            "summary": "Mesa Air's (MESA) shares jumped intraday Monday after the Mesa Airlines parent agreed to merge with",
+            "pubDate": "2025-04-07T15:25:59Z",
+            "displayTime": "2025-04-07T15:25:59Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": {
+              "originalUrl": "https://media.zenfs.com/en/mt_newswires_premium_news_706/cd4c59d93fac2b2890c94826bd93d85c",
+              "originalWidth": 1000,
+              "originalHeight": 667,
+              "caption": "airline4 - Shutterstock",
+              "resolutions": [
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/Nm0g1y_0F00KrBhL.STRfg--~B/aD02Njc7dz0xMDAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/mt_newswires_premium_news_706/cd4c59d93fac2b2890c94826bd93d85c",
+                  "width": 1000,
+                  "height": 667,
+                  "tag": "original"
+                },
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/b9ZbI0.P5pltCTO5c2qkDA--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/mt_newswires_premium_news_706/cd4c59d93fac2b2890c94826bd93d85c",
+                  "width": 170,
+                  "height": 128,
+                  "tag": "170x128"
+                }
+              ]
+            },
+            "provider": {
+              "displayName": "MT Newswires",
+              "url": "https://www.mtnewswires.com/"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/mesa-air-strikes-stock-deal-152559529.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/mesa-air-strikes-stock-deal-152559529.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": true,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        },
+        {
+          "id": "d233565a-48aa-3fb4-ad27-b9225c0e77ec",
+          "content": {
+            "id": "d233565a-48aa-3fb4-ad27-b9225c0e77ec",
+            "contentType": "STORY",
+            "title": "Mesa Air Group Stock Soars as Regional Carrier Agrees To Merge With Republic Airways",
+            "description": "",
+            "summary": "Mesa Air Group shares soared Monday morning on news the carrier had agreed to merge with fellow regional carrier Republic Airways in an all-stock transaction.",
+            "pubDate": "2025-04-07T13:57:46Z",
+            "displayTime": "2025-04-07T13:57:46Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": {
+              "originalUrl": "https://media.zenfs.com/en/investopedia_245/fc0e9ebcf9138d66ba49ebf127fa70be",
+              "originalWidth": 5000,
+              "originalHeight": 3335,
+              "caption": "Angus Mordant / Bloomberg / Getty Images",
+              "resolutions": [
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/pHB4TQwm4uQUbnokyIdkEw--~B/aD0zMzM1O3c9NTAwMDthcHBpZD15dGFjaHlvbg--/https://media.zenfs.com/en/investopedia_245/fc0e9ebcf9138d66ba49ebf127fa70be",
+                  "width": 5000,
+                  "height": 3335,
+                  "tag": "original"
+                },
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/Z5Ru5EeKIZbMgCWmsQx2Iw--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/investopedia_245/fc0e9ebcf9138d66ba49ebf127fa70be",
+                  "width": 170,
+                  "height": 128,
+                  "tag": "170x128"
+                }
+              ]
+            },
+            "provider": {
+              "displayName": "Investopedia",
+              "url": "https://www.investopedia.com/"
+            },
+            "canonicalUrl": {
+              "url": "https://www.investopedia.com/mesa-air-group-stock-soars-as-regional-carrier-agrees-to-merge-with-republic-airways-11710110",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/mesa-air-group-stock-soars-135746363.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        },
+        {
+          "id": "a0f29428-fc3e-315d-92ba-7a8ff1c79a30",
+          "content": {
+            "id": "a0f29428-fc3e-315d-92ba-7a8ff1c79a30",
+            "contentType": "STORY",
+            "title": "Regional airlines Republic Airways, Mesa Air Group are combining in an all-stock deal",
+            "description": "",
+            "summary": "Republic Airways and Mesa Air Group Inc. are combining in an all-stock deal that will create a regional airline with access to more planes to service routes.  Specific financial terms of the deal weren't disclosed in a statement Monday.  Republic, started in 1974, has a fleet of more than 240 Embraer 170/175 aircraft and carried about 17.5 million passengers on more than 300,000 flights last year.",
+            "pubDate": "2025-04-07T12:50:46Z",
+            "displayTime": "2025-04-07T12:50:46Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": {
+              "originalUrl": "https://media.zenfs.com/en/ap_finance_articles_694/01e7c241fbb81178ebce81777eea5b87",
+              "originalWidth": 3360,
+              "originalHeight": 2240,
+              "caption": "FILE - A Republic Airways jet is seen at Ronald Reagan Washington National Airport in Arlington, Va., June 2, 2021. (AP Photo/Jenny Kane, File)",
+              "resolutions": [
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/1BnHcbOlrIcTh1R7wme_kg--~B/aD0yMjQwO3c9MzM2MDthcHBpZD15dGFjaHlvbg--/https://media.zenfs.com/en/ap_finance_articles_694/01e7c241fbb81178ebce81777eea5b87",
+                  "width": 3360,
+                  "height": 2240,
+                  "tag": "original"
+                },
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/ZkqBq3ZQIKPtAEEo33U0ng--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/ap_finance_articles_694/01e7c241fbb81178ebce81777eea5b87",
+                  "width": 170,
+                  "height": 128,
+                  "tag": "170x128"
+                }
+              ]
+            },
+            "provider": {
+              "displayName": "Associated Press Finance",
+              "url": "http://www.ap.org/"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/regional-airlines-republic-airways-mesa-125046353.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/regional-airlines-republic-airways-mesa-125046353.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        },
+        {
+          "id": "899eb7c3-5d7c-375c-8b1a-33f7a6f3d8c2",
+          "content": {
+            "id": "899eb7c3-5d7c-375c-8b1a-33f7a6f3d8c2",
+            "contentType": "STORY",
+            "title": "Mesa Air, Republic Airways in merger deal to create larger regional airline",
+            "description": "",
+            "summary": "The combined company, which would operate as Republic Airways Holdings Inc, will have a single fleet of about 310 Embraer 170/175 aircraft.  Republic shareholders would own 88% of the combined company, while Mesa's would own a minimum of 6% and up to 12% depending on meeting certain pre-closing criteria.  The combined company is expected to remain listed on the Nasdaq under a new ticker symbol \"RJET\".",
+            "pubDate": "2025-04-07T12:04:12Z",
+            "displayTime": "2025-04-07T12:04:12Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": null,
+            "provider": {
+              "displayName": "Reuters",
+              "url": "https://www.reuters.com/"
+            },
+            "canonicalUrl": {
+              "url": "https://ca.finance.yahoo.com/news/mesa-air-republic-airways-merger-120412729.html",
+              "site": "finance",
+              "region": "CA",
+              "lang": "en-CA"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/mesa-air-republic-airways-merger-120412729.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        },
+        {
+          "id": "9dd37575-9e2c-3da0-bb7c-244548c4acd0",
+          "content": {
+            "id": "9dd37575-9e2c-3da0-bb7c-244548c4acd0",
+            "contentType": "STORY",
+            "title": "Mesa Air Group to Merge With Republic Airways in All-Stock Transaction",
+            "description": "",
+            "summary": "Mesa Air Group Inc (MESA) and Republic Airways Holdings said Monday that they have entered into a de",
+            "pubDate": "2025-04-07T11:30:42Z",
+            "displayTime": "2025-04-07T11:30:42Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": null,
+            "provider": {
+              "displayName": "MT Newswires",
+              "url": "https://www.mtnewswires.com/"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/mesa-air-group-merge-republic-113042662.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/mesa-air-group-merge-republic-113042662.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": true,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        }
+      ]
+    },
+    "recommendations": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  },
+  "holders_data": {
+    "major_holders": {
+      "status": "error"
+    },
+    "institutional_holders": {
+      "status": "error"
+    }
+  },
+  "earnings_data": {
+    "earnings": {
+      "status": "error",
+      "message": "'NoneType' object has no attribute 'empty'"
+    },
+    "calendar": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  }
+}

@@ -1,18 +1,9 @@
 {
   "ticker": "DHCC",
-  "timestamp": "2025-12-09T04:36:01.863619",
+  "timestamp": "2025-12-10T05:07:15.091515",
   "intraday_data": {
-    "status": "success",
-    "rows": 1,
-    "data": [
-      {
-        "Close BBLR": 0.006300000008195639,
-        "High BBLR": 0.006300000008195639,
-        "Low BBLR": 0.006300000008195639,
-        "Open BBLR": 0.006300000008195639,
-        "Volume BBLR": 0
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -35,7 +26,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

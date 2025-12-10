@@ -1,6 +1,6 @@
 {
   "ticker": "INFIQ",
-  "timestamp": "2025-12-09T04:41:47.332362",
+  "timestamp": "2025-12-10T05:19:36.376317",
   "intraday_data": {
     "status": "no_data",
     "message": "No intraday data available"
@@ -35,10 +35,34 @@
   },
   "holders_data": {
     "major_holders": {
-      "status": "error"
+      "status": "success",
+      "data": [
+        {
+          "Value": 0.0
+        },
+        {
+          "Value": 1.0000001e-05
+        },
+        {
+          "Value": 1.0000001e-05
+        },
+        {
+          "Value": 1.0
+        }
+      ]
     },
     "institutional_holders": {
-      "status": "error"
+      "status": "success",
+      "data": [
+        {
+          "Date Reported": "2025-09-30 00:00:00",
+          "Holder": "Hantz Financial Services, Inc.                          ",
+          "pctHeld": 0.0,
+          "Shares": 500,
+          "Value": 0,
+          "pctChange": 1.0
+        }
+      ]
     }
   },
   "earnings_data": {
@@ -48,7 +72,7 @@
     },
     "calendar": {
       "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
+      "message": "'dict' object has no attribute 'empty'"
     }
   }
 }

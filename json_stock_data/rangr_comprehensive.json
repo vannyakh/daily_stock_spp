@@ -1,13 +1,43 @@
 {
   "ticker": "RANGR",
-  "timestamp": "2025-12-09T04:43:25.277647",
+  "timestamp": "2025-12-10T05:22:58.186505",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 4,
+    "data": [
+      {
+        "Close": 0.44999998807907104,
+        "High": 0.44999998807907104,
+        "Low": 0.44999998807907104,
+        "Open": 0.44999998807907104,
+        "Volume": 0
+      },
+      {
+        "Close": 0.44999998807907104,
+        "High": 0.44999998807907104,
+        "Low": 0.44999998807907104,
+        "Open": 0.44999998807907104,
+        "Volume": 200
+      },
+      {
+        "Close": 0.44999998807907104,
+        "High": 0.44999998807907104,
+        "Low": 0.44999998807907104,
+        "Open": 0.44999998807907104,
+        "Volume": 100
+      },
+      {
+        "Close": 0.44999998807907104,
+        "High": 0.44999998807907104,
+        "Low": 0.44999998807907104,
+        "Open": 0.44999998807907104,
+        "Volume": 200
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
-    "message": "Too Many Requests. Rate limited. Try after a while."
+    "message": "argument of type 'NoneType' is not iterable"
   },
   "financials": {
     "income_statement": {
@@ -29,15 +59,16 @@
       "status": "no_data"
     },
     "recommendations": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   },
   "holders_data": {
     "major_holders": {
-      "status": "no_data"
+      "status": "error"
     },
     "institutional_holders": {
-      "status": "no_data"
+      "status": "error"
     }
   },
   "earnings_data": {

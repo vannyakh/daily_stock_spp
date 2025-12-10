@@ -1,25 +1,9 @@
 {
   "ticker": "NCNA",
-  "timestamp": "2025-12-09T04:35:59.198334",
+  "timestamp": "2025-12-10T05:07:10.637187",
   "intraday_data": {
-    "status": "success",
-    "rows": 2,
-    "data": [
-      {
-        "Close URZEF": 0.27160000801086426,
-        "High URZEF": 0.27250000834465027,
-        "Low URZEF": 0.27160000801086426,
-        "Open URZEF": 0.27250000834465027,
-        "Volume URZEF": 0
-      },
-      {
-        "Close URZEF": 0.27000001072883606,
-        "High URZEF": 0.27000001072883606,
-        "Low URZEF": 0.27000001072883606,
-        "Open URZEF": 0.27000001072883606,
-        "Volume URZEF": 0
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -45,6 +29,48 @@
       "status": "success",
       "count": 10,
       "data": [
+        {
+          "id": "87d361aa-2a38-302c-8e2d-135b6a75dba9",
+          "content": {
+            "id": "87d361aa-2a38-302c-8e2d-135b6a75dba9",
+            "contentType": "STORY",
+            "title": "European Equities Traded in the US as American Depositary Receipts Rise in Tuesday Trading",
+            "description": "",
+            "summary": "European equities traded in the US as American depositary receipts were trending modestly higher lat",
+            "pubDate": "2025-12-09T16:06:53Z",
+            "displayTime": "2025-12-09T16:06:53Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": null,
+            "provider": {
+              "displayName": "MT Newswires",
+              "url": "https://www.mtnewswires.com/"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/european-equities-traded-us-american-160653931.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/european-equities-traded-us-american-160653931.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": true,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        },
         {
           "id": "aa0b102b-e840-337b-9c3d-80d9ddafb05a",
           "content": {
@@ -422,48 +448,6 @@
             },
             "storyline": null
           }
-        },
-        {
-          "id": "08ac4fc2-aac8-3757-9a63-72f5bb4739fd",
-          "content": {
-            "id": "08ac4fc2-aac8-3757-9a63-72f5bb4739fd",
-            "contentType": "STORY",
-            "title": "European Equities Traded in the US as American Depositary Receipts Rise in Wednesday Trading",
-            "description": "",
-            "summary": "European equities traded in the US as American depositary receipts were tracking higher late Wednesd",
-            "pubDate": "2025-10-22T15:10:52Z",
-            "displayTime": "2025-10-22T15:10:52Z",
-            "isHosted": true,
-            "bypassModal": false,
-            "previewUrl": null,
-            "thumbnail": null,
-            "provider": {
-              "displayName": "MT Newswires",
-              "url": "https://www.mtnewswires.com/"
-            },
-            "canonicalUrl": {
-              "url": "https://finance.yahoo.com/news/european-equities-traded-us-american-151052030.html",
-              "site": "finance",
-              "region": "US",
-              "lang": "en-US"
-            },
-            "clickThroughUrl": {
-              "url": "https://finance.yahoo.com/news/european-equities-traded-us-american-151052030.html",
-              "site": "finance",
-              "region": "US",
-              "lang": "en-US"
-            },
-            "metadata": {
-              "editorsPick": false
-            },
-            "finance": {
-              "premiumFinance": {
-                "isPremiumNews": true,
-                "isPremiumFreeNews": false
-              }
-            },
-            "storyline": null
-          }
         }
       ]
     },
@@ -474,10 +458,10 @@
   },
   "holders_data": {
     "major_holders": {
-      "status": "no_data"
+      "status": "error"
     },
     "institutional_holders": {
-      "status": "no_data"
+      "status": "error"
     }
   },
   "earnings_data": {

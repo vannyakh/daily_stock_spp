@@ -1,9 +1,9 @@
 {
   "ticker": "GSPI",
-  "timestamp": "2025-12-09T04:37:19.087391",
+  "timestamp": "2025-12-10T05:10:04.602763",
   "intraday_data": {
     "status": "success",
-    "rows": 2,
+    "rows": 4,
     "data": [
       {
         "Close": 0.0010000000474974513,
@@ -17,6 +17,20 @@
         "High": 0.0010000000474974513,
         "Low": 0.0010000000474974513,
         "Open": 0.0010000000474974513,
+        "Volume": 10000
+      },
+      {
+        "Close": 0.0010999999940395355,
+        "High": 0.0010999999940395355,
+        "Low": 0.0010999999940395355,
+        "Open": 0.0010999999940395355,
+        "Volume": 745580
+      },
+      {
+        "Close": 0.0010999999940395355,
+        "High": 0.0010999999940395355,
+        "Low": 0.0010999999940395355,
+        "Open": 0.0010999999940395355,
         "Volume": 10000
       }
     ]
@@ -42,7 +56,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

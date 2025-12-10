@@ -1,9 +1,25 @@
 {
   "ticker": "NVNXF",
-  "timestamp": "2025-12-09T04:40:40.134568",
+  "timestamp": "2025-12-10T05:17:15.908774",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 2,
+    "data": [
+      {
+        "Close": 0.2709999978542328,
+        "High": 0.2709999978542328,
+        "Low": 0.2709999978542328,
+        "Open": 0.2709999978542328,
+        "Volume": 15000
+      },
+      {
+        "Close": 0.2800000011920929,
+        "High": 0.2800000011920929,
+        "Low": 0.2800000011920929,
+        "Open": 0.2800000011920929,
+        "Volume": 1108
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -642,7 +658,8 @@
       ]
     },
     "recommendations": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   },
   "holders_data": {

@@ -1,9 +1,32 @@
 {
   "ticker": "BYNOW",
-  "timestamp": "2025-12-09T04:43:59.483960",
+  "timestamp": "2025-12-10T05:24:07.679359",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 3,
+    "data": [
+      {
+        "Close": 0.07000000029802322,
+        "High": 0.07000000029802322,
+        "Low": 0.07000000029802322,
+        "Open": 0.07000000029802322,
+        "Volume": 0
+      },
+      {
+        "Close": 0.07000000029802322,
+        "High": 0.07000000029802322,
+        "Low": 0.07000000029802322,
+        "Open": 0.07000000029802322,
+        "Volume": 0
+      },
+      {
+        "Close": 0.07000000029802322,
+        "High": 0.07000000029802322,
+        "Low": 0.07000000029802322,
+        "Open": 0.07000000029802322,
+        "Volume": 3000
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -29,7 +52,8 @@
       "status": "no_data"
     },
     "recommendations": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   },
   "holders_data": {

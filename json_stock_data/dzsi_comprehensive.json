@@ -1,33 +1,118 @@
 {
   "ticker": "DZSI",
-  "timestamp": "2025-12-09T04:32:45.476634",
+  "timestamp": "2025-12-10T05:00:28.452868",
   "intraday_data": {
-    "status": "success",
-    "rows": 1,
-    "data": [
-      {
-        "Close PCSV": 0.1031000018119812,
-        "High PCSV": 0.10324999690055847,
-        "Low PCSV": 0.1031000018119812,
-        "Open PCSV": 0.10324999690055847,
-        "Volume PCSV": 0
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
-    "message": "argument of type 'NoneType' is not iterable"
+    "message": "Too Many Requests. Rate limited. Try after a while."
   },
   "financials": {
     "income_statement": {
+      "status": "no_data"
+    },
+    "balance_sheet": {
+      "status": "no_data"
+    },
+    "cash_flow": {
+      "status": "no_data"
+    }
+  },
+  "options_data": {
+    "status": "error",
+    "error_message": "Too Many Requests. Rate limited. Try after a while."
+  },
+  "news_data": {
+    "news": {
       "status": "success",
-      "rows": 50,
-      "columns": [
-        "2023-12-31 00:00:00",
-        "2022-12-31 00:00:00",
-        "2021-12-31 00:00:00",
-        "2020-12-31 00:00:00"
-      ],
+      "count": 1,
       "data": [
         {
-          
+          "id": "f4edac3f-b05f-3da7-ac4c-0f3e430039f7",
+          "content": {
+            "id": "f4edac3f-b05f-3da7-ac4c-0f3e430039f7",
+            "contentType": "STORY",
+            "title": "Lantronix closes strategic acquisition of DZS\u2019s NetComm IoT portfolio",
+            "description": "",
+            "summary": "Lantronix )(LTRX) announced that it has finalized its acquisition of NetComm Wireless Pty, a subsidiary of DZS (DZSI), for all of its enterprise Internet of Things business assets for $6.5 million in cash, together with assumptions of certain liabilities. This strategic acquisition complements Lantronix\u2019s focus on the Enterprise and Smart City vertical markets and has the potential to expand its next-generation 5G capabilities. By integrating this new IoT portfolio, Lantronix enhances its connec",
+            "pubDate": "2024-12-27T12:05:27Z",
+            "displayTime": "2024-12-27T12:05:27Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": {
+              "originalUrl": "https://media.zenfs.com/en/tipranks_452/491da6df90b36b0e569ed47b05db7f8b",
+              "originalWidth": 192,
+              "originalHeight": 192,
+              "caption": "https://www.tipranks.com/news/the-fly/lantronix-closes-strategic-acquisition-of-dzss-netcomm-iot-portfolio",
+              "resolutions": [
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/ost70TvWqeYPMqN7BYyOtw--~B/aD0xOTI7dz0xOTI7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/tipranks_452/491da6df90b36b0e569ed47b05db7f8b",
+                  "width": 192,
+                  "height": 192,
+                  "tag": "original"
+                },
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/BKARuCp7SYjXrKe28RjpqA--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/tipranks_452/491da6df90b36b0e569ed47b05db7f8b",
+                  "width": 170,
+                  "height": 128,
+                  "tag": "170x128"
+                }
+              ]
+            },
+            "provider": {
+              "displayName": "TipRanks",
+              "url": "https://www.tipranks.com/"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/lantronix-closes-strategic-acquisition-dzs-120527793.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/lantronix-closes-strategic-acquisition-dzs-120527793.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        }
+      ]
+    },
+    "recommendations": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  },
+  "holders_data": {
+    "major_holders": {
+      "status": "error"
+    },
+    "institutional_holders": {
+      "status": "error"
+    }
+  },
+  "earnings_data": {
+    "earnings": {
+      "status": "error",
+      "message": "'NoneType' object has no attribute 'empty'"
+    },
+    "calendar": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  }
+}

@@ -1,10 +1,9 @@
 {
   "ticker": "AILLM",
-  "timestamp": "2025-12-09T04:40:08.973258",
+  "timestamp": "2025-12-10T05:16:08.841536",
   "intraday_data": {
-    "status": "success",
-    "rows": 0,
-    "data": []
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -27,7 +26,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

@@ -1,9 +1,25 @@
 {
   "ticker": "NETDW",
-  "timestamp": "2025-12-09T04:42:49.309144",
+  "timestamp": "2025-12-10T05:21:44.486738",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 2,
+    "data": [
+      {
+        "Close SDAWW": 0.04500000178813934,
+        "High SDAWW": 0.04500000178813934,
+        "Low SDAWW": 0.04500000178813934,
+        "Open SDAWW": 0.04500000178813934,
+        "Volume SDAWW": 0
+      },
+      {
+        "Close SDAWW": 0.04500000178813934,
+        "High SDAWW": 0.048900000751018524,
+        "Low SDAWW": 0.04500000178813934,
+        "Open SDAWW": 0.048900000751018524,
+        "Volume SDAWW": 3863
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -135,7 +151,8 @@
       ]
     },
     "recommendations": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   },
   "holders_data": {
@@ -153,7 +170,7 @@
     },
     "calendar": {
       "status": "error",
-      "message": "'dict' object has no attribute 'empty'"
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   }
 }

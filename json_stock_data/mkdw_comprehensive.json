@@ -1,9 +1,60 @@
 {
   "ticker": "MKDW",
-  "timestamp": "2025-12-09T04:34:59.388944",
+  "timestamp": "2025-12-10T05:05:02.078318",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 7,
+    "data": [
+      {
+        "Close ASRE": 0.020999999716877937,
+        "High ASRE": 0.020999999716877937,
+        "Low ASRE": 0.020999999716877937,
+        "Open ASRE": 0.020999999716877937,
+        "Volume ASRE": 0
+      },
+      {
+        "Close ASRE": 0.01850000023841858,
+        "High ASRE": 0.01850000023841858,
+        "Low ASRE": 0.01850000023841858,
+        "Open ASRE": 0.01850000023841858,
+        "Volume ASRE": 15000
+      },
+      {
+        "Close ASRE": 0.017799999564886093,
+        "High ASRE": 0.017799999564886093,
+        "Low ASRE": 0.017000000923871994,
+        "Open ASRE": 0.017000000923871994,
+        "Volume ASRE": 10100
+      },
+      {
+        "Close ASRE": 0.017799999564886093,
+        "High ASRE": 0.017799999564886093,
+        "Low ASRE": 0.017799999564886093,
+        "Open ASRE": 0.017799999564886093,
+        "Volume ASRE": 3571
+      },
+      {
+        "Close ASRE": 0.015300000086426735,
+        "High ASRE": 0.015300000086426735,
+        "Low ASRE": 0.015300000086426735,
+        "Open ASRE": 0.015300000086426735,
+        "Volume ASRE": 2000
+      },
+      {
+        "Close ASRE": 0.014000000432133675,
+        "High ASRE": 0.014000000432133675,
+        "Low ASRE": 0.014000000432133675,
+        "Open ASRE": 0.014000000432133675,
+        "Volume ASRE": 20000
+      },
+      {
+        "Close ASRE": 0.013899999670684338,
+        "High ASRE": 0.014000000432133675,
+        "Low ASRE": 0.013899999670684338,
+        "Open ASRE": 0.014000000432133675,
+        "Volume ASRE": 30000
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -11,14 +62,44 @@
   },
   "financials": {
     "income_statement": {
-      "status": "success",
-      "rows": 41,
-      "columns": [
-        "2024-12-31 00:00:00",
-        "2023-12-31 00:00:00",
-        "2022-12-31 00:00:00",
-        "2021-12-31 00:00:00"
-      ],
-      "data": [
-        {
-          
+      "status": "no_data"
+    },
+    "balance_sheet": {
+      "status": "no_data"
+    },
+    "cash_flow": {
+      "status": "no_data"
+    }
+  },
+  "options_data": {
+    "status": "error",
+    "error_message": "Too Many Requests. Rate limited. Try after a while."
+  },
+  "news_data": {
+    "news": {
+      "status": "no_data"
+    },
+    "recommendations": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  },
+  "holders_data": {
+    "major_holders": {
+      "status": "error"
+    },
+    "institutional_holders": {
+      "status": "error"
+    }
+  },
+  "earnings_data": {
+    "earnings": {
+      "status": "error",
+      "message": "'NoneType' object has no attribute 'empty'"
+    },
+    "calendar": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  }
+}

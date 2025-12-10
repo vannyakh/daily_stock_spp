@@ -1,6 +1,6 @@
 {
   "ticker": "ROHCY",
-  "timestamp": "2025-12-09T04:18:51.238721",
+  "timestamp": "2025-12-10T04:32:09.770724",
   "intraday_data": {
     "status": "success",
     "rows": 1,
@@ -163,15 +163,16 @@
       ]
     },
     "recommendations": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   },
   "holders_data": {
     "major_holders": {
-      "status": "no_data"
+      "status": "error"
     },
     "institutional_holders": {
-      "status": "no_data"
+      "status": "error"
     }
   },
   "earnings_data": {
@@ -181,7 +182,7 @@
     },
     "calendar": {
       "status": "error",
-      "message": "'dict' object has no attribute 'empty'"
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   }
 }

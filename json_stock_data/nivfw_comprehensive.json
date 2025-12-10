@@ -1,9 +1,25 @@
 {
   "ticker": "NIVFW",
-  "timestamp": "2025-12-09T04:43:25.542376",
+  "timestamp": "2025-12-10T05:23:00.422238",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 2,
+    "data": [
+      {
+        "Close": 0.02239999920129776,
+        "High": 0.02239999920129776,
+        "Low": 0.02239999920129776,
+        "Open": 0.02239999920129776,
+        "Volume": 0
+      },
+      {
+        "Close": 0.022299999371170998,
+        "High": 0.022299999371170998,
+        "Low": 0.022299999371170998,
+        "Open": 0.022299999371170998,
+        "Volume": 19000
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -29,15 +45,16 @@
       "status": "no_data"
     },
     "recommendations": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   },
   "holders_data": {
     "major_holders": {
-      "status": "no_data"
+      "status": "error"
     },
     "institutional_holders": {
-      "status": "no_data"
+      "status": "error"
     }
   },
   "earnings_data": {

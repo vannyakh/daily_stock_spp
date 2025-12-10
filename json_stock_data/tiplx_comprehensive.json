@@ -1,10 +1,17 @@
 {
   "ticker": "TIPLX",
-  "timestamp": "2025-12-09T04:45:55.622221",
+  "timestamp": "2025-12-10T05:28:40.453803",
   "intraday_data": {
     "status": "success",
-    "rows": 1,
+    "rows": 2,
     "data": [
+      {
+        "Close": 24.239999771118164,
+        "High": 24.239999771118164,
+        "Low": 24.239999771118164,
+        "Open": 24.239999771118164,
+        "Volume": 0
+      },
       {
         "Close": 24.239999771118164,
         "High": 24.239999771118164,
@@ -38,7 +45,8 @@
       "status": "no_data"
     },
     "recommendations": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   },
   "holders_data": {

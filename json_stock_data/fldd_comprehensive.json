@@ -1,9 +1,25 @@
 {
   "ticker": "FLDD",
-  "timestamp": "2025-12-09T04:28:22.487167",
+  "timestamp": "2025-12-10T04:51:32.567157",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 2,
+    "data": [
+      {
+        "Close IBAC": 10.479999542236328,
+        "High IBAC": 10.479999542236328,
+        "Low IBAC": 10.449999809265137,
+        "Open IBAC": 10.449999809265137,
+        "Volume IBAC": 0
+      },
+      {
+        "Close IBAC": 10.479999542236328,
+        "High IBAC": 10.479999542236328,
+        "Low IBAC": 10.479999542236328,
+        "Open IBAC": 10.479999542236328,
+        "Volume IBAC": 1
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -154,8 +170,7 @@
       ]
     },
     "recommendations": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
+      "status": "no_data"
     }
   },
   "holders_data": {

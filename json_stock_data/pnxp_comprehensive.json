@@ -1,39 +1,9 @@
 {
   "ticker": "PNXP",
-  "timestamp": "2025-12-09T04:35:54.660951",
+  "timestamp": "2025-12-10T05:07:01.938140",
   "intraday_data": {
-    "status": "success",
-    "rows": 4,
-    "data": [
-      {
-        "Close": 0.002300000051036477,
-        "High": 0.002300000051036477,
-        "Low": 0.002300000051036477,
-        "Open": 0.002300000051036477,
-        "Volume": 0
-      },
-      {
-        "Close": 0.0027000000700354576,
-        "High": 0.0027000000700354576,
-        "Low": 0.0027000000700354576,
-        "Open": 0.0027000000700354576,
-        "Volume": 108000
-      },
-      {
-        "Close": 0.003000000026077032,
-        "High": 0.003000000026077032,
-        "Low": 0.003000000026077032,
-        "Open": 0.003000000026077032,
-        "Volume": 370370
-      },
-      {
-        "Close": 0.0031999999191612005,
-        "High": 0.0031999999191612005,
-        "Low": 0.0031999999191612005,
-        "Open": 0.0031999999191612005,
-        "Volume": 10000
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -41,43 +11,14 @@
   },
   "financials": {
     "income_statement": {
-      "status": "no_data"
-    },
-    "balance_sheet": {
-      "status": "no_data"
-    },
-    "cash_flow": {
-      "status": "no_data"
-    }
-  },
-  "options_data": {
-    "status": "error",
-    "error_message": "Too Many Requests. Rate limited. Try after a while."
-  },
-  "news_data": {
-    "news": {
-      "status": "no_data"
-    },
-    "recommendations": {
-      "status": "no_data"
-    }
-  },
-  "holders_data": {
-    "major_holders": {
-      "status": "error"
-    },
-    "institutional_holders": {
-      "status": "error"
-    }
-  },
-  "earnings_data": {
-    "earnings": {
-      "status": "error",
-      "message": "'NoneType' object has no attribute 'empty'"
-    },
-    "calendar": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
-    }
-  }
-}
+      "status": "success",
+      "rows": 49,
+      "columns": [
+        "2025-01-31 00:00:00",
+        "2024-01-31 00:00:00",
+        "2023-01-31 00:00:00",
+        "2022-01-31 00:00:00"
+      ],
+      "data": [
+        {
+          

@@ -1,6 +1,6 @@
 {
   "ticker": "AITRR",
-  "timestamp": "2025-12-09T04:42:12.388151",
+  "timestamp": "2025-12-10T05:20:24.006578",
   "intraday_data": {
     "status": "no_data",
     "message": "No intraday data available"
@@ -21,24 +21,48 @@
     }
   },
   "options_data": {
-    "status": "error",
-    "error_message": "Too Many Requests. Rate limited. Try after a while."
+    "expirations": []
   },
   "news_data": {
     "news": {
       "status": "no_data"
     },
     "recommendations": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
+      "status": "no_data"
     }
   },
   "holders_data": {
     "major_holders": {
-      "status": "error"
+      "status": "no_data"
     },
     "institutional_holders": {
-      "status": "error"
+      "status": "success",
+      "data": [
+        {
+          "Date Reported": "2025-06-30 00:00:00",
+          "Holder": "HGC Investment Management Inc.",
+          "pctHeld": 0.0,
+          "Shares": 129311,
+          "Value": 19396,
+          "pctChange": 0.0
+        },
+        {
+          "Date Reported": "2025-06-30 00:00:00",
+          "Holder": "RiverNorth Capital Management, LLC",
+          "pctHeld": 0.0,
+          "Shares": 26934,
+          "Value": 4040,
+          "pctChange": 0.0
+        },
+        {
+          "Date Reported": "2025-06-30 00:00:00",
+          "Holder": "Flow Traders U.S. LLC",
+          "pctHeld": 0.0,
+          "Shares": 10244,
+          "Value": 1536,
+          "pctChange": -0.040599998
+        }
+      ]
     }
   },
   "earnings_data": {
@@ -48,7 +72,7 @@
     },
     "calendar": {
       "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
+      "message": "'dict' object has no attribute 'empty'"
     }
   }
 }

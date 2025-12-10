@@ -1,18 +1,9 @@
 {
   "ticker": "MCLE",
-  "timestamp": "2025-12-09T04:41:09.259692",
+  "timestamp": "2025-12-10T05:18:16.134203",
   "intraday_data": {
-    "status": "success",
-    "rows": 1,
-    "data": [
-      {
-        "Close ERKH": 13.75,
-        "High ERKH": 13.75,
-        "Low ERKH": 13.75,
-        "Open ERKH": 13.75,
-        "Volume ERKH": 0
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -26,38 +17,14 @@
       "status": "no_data"
     },
     "cash_flow": {
-      "status": "no_data"
-    }
-  },
-  "options_data": {
-    "status": "error",
-    "error_message": "Too Many Requests. Rate limited. Try after a while."
-  },
-  "news_data": {
-    "news": {
-      "status": "no_data"
-    },
-    "recommendations": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
-    }
-  },
-  "holders_data": {
-    "major_holders": {
-      "status": "error"
-    },
-    "institutional_holders": {
-      "status": "error"
-    }
-  },
-  "earnings_data": {
-    "earnings": {
-      "status": "error",
-      "message": "'NoneType' object has no attribute 'empty'"
-    },
-    "calendar": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
-    }
-  }
-}
+      "status": "success",
+      "rows": 33,
+      "columns": [
+        "2024-09-30 00:00:00",
+        "2023-09-30 00:00:00",
+        "2022-09-30 00:00:00",
+        "2021-09-30 00:00:00"
+      ],
+      "data": [
+        {
+          

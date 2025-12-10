@@ -1,6 +1,6 @@
 {
   "ticker": "INDB",
-  "timestamp": "2025-12-09T04:19:28.204466",
+  "timestamp": "2025-12-10T04:33:22.336840",
   "intraday_data": {
     "status": "no_data",
     "message": "No intraday data available"
@@ -642,16 +642,130 @@
       ]
     },
     "recommendations": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
+      "status": "success",
+      "rows": 2,
+      "data": [
+        {
+          "period": "0m",
+          "strongBuy": 1,
+          "buy": 2,
+          "hold": 1,
+          "sell": 0,
+          "strongSell": 0
+        },
+        {
+          "period": "-1m",
+          "strongBuy": 0,
+          "buy": 2,
+          "hold": 2,
+          "sell": 0,
+          "strongSell": 0
+        }
+      ]
     }
   },
   "holders_data": {
     "major_holders": {
-      "status": "error"
+      "status": "success",
+      "data": [
+        {
+          "Value": 0.00773
+        },
+        {
+          "Value": 0.85859
+        },
+        {
+          "Value": 0.86528
+        },
+        {
+          "Value": 404.0
+        }
+      ]
     },
     "institutional_holders": {
-      "status": "error"
+      "status": "success",
+      "data": [
+        {
+          "Date Reported": "2025-09-30 00:00:00",
+          "Holder": "Blackrock Inc.",
+          "pctHeld": 0.1415,
+          "Shares": 7013963,
+          "Value": 521067317,
+          "pctChange": 0.13949999
+        },
+        {
+          "Date Reported": "2025-09-30 00:00:00",
+          "Holder": "Vanguard Group Inc",
+          "pctHeld": 0.119899996,
+          "Shares": 5943817,
+          "Value": 441566170,
+          "pctChange": 0.1486
+        },
+        {
+          "Date Reported": "2025-09-30 00:00:00",
+          "Holder": "Dimensional Fund Advisors LP",
+          "pctHeld": 0.052600004,
+          "Shares": 2606415,
+          "Value": 193630572,
+          "pctChange": 0.106400006
+        },
+        {
+          "Date Reported": "2025-09-30 00:00:00",
+          "Holder": "State Street Corporation",
+          "pctHeld": 0.0515,
+          "Shares": 2555676,
+          "Value": 189861172,
+          "pctChange": 0.139
+        },
+        {
+          "Date Reported": "2025-09-30 00:00:00",
+          "Holder": "Alliancebernstein L.P.",
+          "pctHeld": 0.0344,
+          "Shares": 1705743,
+          "Value": 126719649,
+          "pctChange": 0.0015
+        },
+        {
+          "Date Reported": "2025-09-30 00:00:00",
+          "Holder": "Geode Capital Management, LLC",
+          "pctHeld": 0.024500001,
+          "Shares": 1212189,
+          "Value": 90053521,
+          "pctChange": 0.1555
+        },
+        {
+          "Date Reported": "2025-09-30 00:00:00",
+          "Holder": "Macquarie Group Limited",
+          "pctHeld": 0.023699999,
+          "Shares": 1173681,
+          "Value": 87192762,
+          "pctChange": 0.082600005
+        },
+        {
+          "Date Reported": "2025-09-30 00:00:00",
+          "Holder": "Deprince, Race & Zollo, Inc.",
+          "pctHeld": 0.0208,
+          "Shares": 1032540,
+          "Value": 76707397,
+          "pctChange": -0.0070999996
+        },
+        {
+          "Date Reported": "2025-09-30 00:00:00",
+          "Holder": "Verition Fund Management, LLC",
+          "pctHeld": 0.0191,
+          "Shares": 946006,
+          "Value": 70278786,
+          "pctChange": 0.1765
+        },
+        {
+          "Date Reported": "2025-09-30 00:00:00",
+          "Holder": "Victory Capital Management Inc.",
+          "pctHeld": 0.0173,
+          "Shares": 858683,
+          "Value": 63791560,
+          "pctChange": -0.0523
+        }
+      ]
     }
   },
   "earnings_data": {
@@ -661,7 +775,7 @@
     },
     "calendar": {
       "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
+      "message": "'dict' object has no attribute 'empty'"
     }
   }
 }

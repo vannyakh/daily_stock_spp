@@ -1,9 +1,74 @@
 {
   "ticker": "ATROB",
-  "timestamp": "2025-12-09T04:40:27.501593",
+  "timestamp": "2025-12-10T05:16:49.935493",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 9,
+    "data": [
+      {
+        "Close CMRE-PD": 27.270000457763672,
+        "High CMRE-PD": 27.270000457763672,
+        "Low CMRE-PD": 27.270000457763672,
+        "Open CMRE-PD": 27.270000457763672,
+        "Volume CMRE-PD": 0
+      },
+      {
+        "Close CMRE-PD": 27.325000762939453,
+        "High CMRE-PD": 27.5,
+        "Low CMRE-PD": 27.325000762939453,
+        "Open CMRE-PD": 27.479999542236328,
+        "Volume CMRE-PD": 1652
+      },
+      {
+        "Close CMRE-PD": 27.260000228881836,
+        "High CMRE-PD": 27.260000228881836,
+        "Low CMRE-PD": 27.260000228881836,
+        "Open CMRE-PD": 27.260000228881836,
+        "Volume CMRE-PD": 0
+      },
+      {
+        "Close CMRE-PD": 27.0,
+        "High CMRE-PD": 27.299999237060547,
+        "Low CMRE-PD": 27.0,
+        "Open CMRE-PD": 27.299999237060547,
+        "Volume CMRE-PD": 2000
+      },
+      {
+        "Close CMRE-PD": 27.059999465942383,
+        "High CMRE-PD": 27.059999465942383,
+        "Low CMRE-PD": 27.010000228881836,
+        "Open CMRE-PD": 27.020000457763672,
+        "Volume CMRE-PD": 424
+      },
+      {
+        "Close CMRE-PD": 27.079999923706055,
+        "High CMRE-PD": 27.079999923706055,
+        "Low CMRE-PD": 27.079999923706055,
+        "Open CMRE-PD": 27.079999923706055,
+        "Volume CMRE-PD": 100
+      },
+      {
+        "Close CMRE-PD": 27.0,
+        "High CMRE-PD": 27.020000457763672,
+        "Low CMRE-PD": 27.0,
+        "Open CMRE-PD": 27.020000457763672,
+        "Volume CMRE-PD": 837
+      },
+      {
+        "Close CMRE-PD": 27.100000381469727,
+        "High CMRE-PD": 27.100000381469727,
+        "Low CMRE-PD": 27.100000381469727,
+        "Open CMRE-PD": 27.100000381469727,
+        "Volume CMRE-PD": 266
+      },
+      {
+        "Close CMRE-PD": 27.110000610351562,
+        "High CMRE-PD": 27.110000610351562,
+        "Low CMRE-PD": 27.110000610351562,
+        "Open CMRE-PD": 27.110000610351562,
+        "Volume CMRE-PD": 108
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -651,17 +716,7 @@
       "status": "error"
     },
     "institutional_holders": {
-      "status": "success",
-      "data": [
-        {
-          "Date Reported": "2025-06-30 00:00:00",
-          "Holder": "FNY Investment Advisers, LLC",
-          "pctHeld": 0.0,
-          "Shares": 67,
-          "Value": 3437,
-          "pctChange": 0.0
-        }
-      ]
+      "status": "error"
     }
   },
   "earnings_data": {
@@ -671,7 +726,7 @@
     },
     "calendar": {
       "status": "error",
-      "message": "'dict' object has no attribute 'empty'"
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   }
 }

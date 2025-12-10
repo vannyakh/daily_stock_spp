@@ -1,25 +1,9 @@
 {
   "ticker": "SILEF",
-  "timestamp": "2025-12-09T04:41:15.389872",
+  "timestamp": "2025-12-10T05:18:29.156891",
   "intraday_data": {
-    "status": "success",
-    "rows": 2,
-    "data": [
-      {
-        "Close SCYYF": 0.10849999636411667,
-        "High SCYYF": 0.10849999636411667,
-        "Low SCYYF": 0.10849999636411667,
-        "Open SCYYF": 0.10849999636411667,
-        "Volume SCYYF": 0
-      },
-      {
-        "Close SCYYF": 0.10000000149011612,
-        "High SCYYF": 0.10000000149011612,
-        "Low SCYYF": 0.10000000149011612,
-        "Open SCYYF": 0.10000000149011612,
-        "Volume SCYYF": 15007
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -109,7 +93,8 @@
       ]
     },
     "recommendations": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   },
   "holders_data": {
