@@ -1,9 +1,39 @@
 {
   "ticker": "FBYDW",
-  "timestamp": "2025-12-10T05:20:07.858325",
+  "timestamp": "2025-12-13T05:04:34.944052",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 4,
+    "data": [
+      {
+        "Close": 1.7000000476837158,
+        "High": 1.7000000476837158,
+        "Low": 1.7000000476837158,
+        "Open": 1.7000000476837158,
+        "Volume": 0
+      },
+      {
+        "Close": 1.0299999713897705,
+        "High": 1.0299999713897705,
+        "Low": 1.0299999713897705,
+        "Open": 1.0299999713897705,
+        "Volume": 0
+      },
+      {
+        "Close": 1.3250000476837158,
+        "High": 1.3250000476837158,
+        "Low": 1.3250000476837158,
+        "Open": 1.3250000476837158,
+        "Volume": 3039
+      },
+      {
+        "Close": 1.2999999523162842,
+        "High": 1.309999942779541,
+        "Low": 1.2999999523162842,
+        "Open": 1.309999942779541,
+        "Volume": 800
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -11,108 +41,14 @@
   },
   "financials": {
     "income_statement": {
-      "status": "no_data"
-    },
-    "balance_sheet": {
-      "status": "no_data"
-    },
-    "cash_flow": {
-      "status": "no_data"
-    }
-  },
-  "options_data": {
-    "status": "error",
-    "error_message": "Too Many Requests. Rate limited. Try after a while."
-  },
-  "news_data": {
-    "news": {
       "status": "success",
-      "count": 1,
+      "rows": 52,
+      "columns": [
+        "2024-12-31 00:00:00",
+        "2023-12-31 00:00:00",
+        "2022-12-31 00:00:00",
+        "2021-12-31 00:00:00"
+      ],
       "data": [
         {
-          "id": "a2507155-e3a0-39a2-a556-a0ecaa6b167c",
-          "content": {
-            "id": "a2507155-e3a0-39a2-a556-a0ecaa6b167c",
-            "contentType": "STORY",
-            "title": "Falcon's Beyond Global Second Quarter 2025 Earnings: EPS: US$0.30 (vs US$0.10 in 2Q 2024)",
-            "description": "",
-            "summary": "NasdaqGM:FBYD 1 Year Share Price vs Fair Value Explore Falcon's Beyond Global's Fair Values from the Community and...",
-            "pubDate": "2025-08-16T13:41:40Z",
-            "displayTime": "2025-08-16T13:41:40Z",
-            "isHosted": true,
-            "bypassModal": false,
-            "previewUrl": null,
-            "thumbnail": {
-              "originalUrl": "https://media.zenfs.com/en/simply_wall_st__316/78a8c60a6283aea0450523395306d38c",
-              "originalWidth": 945,
-              "originalHeight": 636,
-              "caption": "",
-              "resolutions": [
-                {
-                  "url": "https://s.yimg.com/uu/api/res/1.2/5Vpve0Pc2F3m_L3fs2p_dQ--~B/aD02MzY7dz05NDU7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/simply_wall_st__316/78a8c60a6283aea0450523395306d38c",
-                  "width": 945,
-                  "height": 636,
-                  "tag": "original"
-                },
-                {
-                  "url": "https://s.yimg.com/uu/api/res/1.2/5K6kmrQzRk.k.11fs9N_QA--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/simply_wall_st__316/78a8c60a6283aea0450523395306d38c",
-                  "width": 170,
-                  "height": 128,
-                  "tag": "170x128"
-                }
-              ]
-            },
-            "provider": {
-              "displayName": "Simply Wall St.",
-              "url": "https://simplywall.st/"
-            },
-            "canonicalUrl": {
-              "url": "https://finance.yahoo.com/news/falcons-beyond-global-second-quarter-134140714.html",
-              "site": "finance",
-              "region": "US",
-              "lang": "en-US"
-            },
-            "clickThroughUrl": {
-              "url": "https://finance.yahoo.com/news/falcons-beyond-global-second-quarter-134140714.html",
-              "site": "finance",
-              "region": "US",
-              "lang": "en-US"
-            },
-            "metadata": {
-              "editorsPick": false
-            },
-            "finance": {
-              "premiumFinance": {
-                "isPremiumNews": false,
-                "isPremiumFreeNews": false
-              }
-            },
-            "storyline": null
-          }
-        }
-      ]
-    },
-    "recommendations": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
-    }
-  },
-  "holders_data": {
-    "major_holders": {
-      "status": "error"
-    },
-    "institutional_holders": {
-      "status": "error"
-    }
-  },
-  "earnings_data": {
-    "earnings": {
-      "status": "error",
-      "message": "'NoneType' object has no attribute 'empty'"
-    },
-    "calendar": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
-    }
-  }
-}
+          

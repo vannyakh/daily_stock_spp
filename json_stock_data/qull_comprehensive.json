@@ -1,22 +1,22 @@
 {
   "ticker": "QULL",
-  "timestamp": "2025-12-10T05:27:33.017249",
+  "timestamp": "2025-12-13T05:10:51.993858",
   "intraday_data": {
     "status": "success",
     "rows": 2,
     "data": [
       {
-        "Close": 56.264198303222656,
-        "High": 56.97809982299805,
-        "Low": 56.264198303222656,
-        "Open": 56.97809982299805,
+        "Close": 56.882999420166016,
+        "High": 57.694000244140625,
+        "Low": 56.882999420166016,
+        "Open": 56.970001220703125,
         "Volume": 0
       },
       {
-        "Close": 56.290000915527344,
-        "High": 56.290000915527344,
-        "Low": 56.264198303222656,
-        "Open": 56.264198303222656,
+        "Close": 56.882999420166016,
+        "High": 57.694000244140625,
+        "Low": 56.882999420166016,
+        "Open": 57.694000244140625,
         "Volume": 0
       }
     ]
@@ -37,14 +37,16 @@
     }
   },
   "options_data": {
-    "expirations": []
+    "status": "error",
+    "error_message": "Too Many Requests. Rate limited. Try after a while."
   },
   "news_data": {
     "news": {
       "status": "no_data"
     },
     "recommendations": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   },
   "holders_data": {

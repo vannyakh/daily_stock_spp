@@ -1,25 +1,676 @@
 {
   "ticker": "JDCMF",
-  "timestamp": "2025-12-10T05:13:49.734767",
+  "timestamp": "2025-12-13T04:58:44.553918",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 1,
+    "data": [
+      {
+        "Close": 13.100000381469727,
+        "High": 13.100000381469727,
+        "Low": 13.100000381469727,
+        "Open": 13.100000381469727,
+        "Volume": 0
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
-    "message": "argument of type 'NoneType' is not iterable"
+    "message": "Too Many Requests. Rate limited. Try after a while."
   },
   "financials": {
     "income_statement": {
+      "status": "no_data"
+    },
+    "balance_sheet": {
+      "status": "no_data"
+    },
+    "cash_flow": {
+      "status": "no_data"
+    }
+  },
+  "options_data": {
+    "status": "error",
+    "error_message": "Too Many Requests. Rate limited. Try after a while."
+  },
+  "news_data": {
+    "news": {
       "status": "success",
-      "rows": 54,
-      "columns": [
-        "2024-12-31 00:00:00",
-        "2023-12-31 00:00:00",
-        "2022-12-31 00:00:00",
-        "2021-12-31 00:00:00",
-        "2020-12-31 00:00:00"
-      ],
+      "count": 10,
       "data": [
         {
-          
+          "id": "abd13d12-e39d-3785-bd6a-6c4c7a782b01",
+          "content": {
+            "id": "abd13d12-e39d-3785-bd6a-6c4c7a782b01",
+            "contentType": "STORY",
+            "title": "JD.com pledges $3.12 billion housing support for couriers",
+            "description": "",
+            "summary": "JD.com, one of China's largest e-commerce firms, pledged 22 billion yuan ($3.12 billion) in housing support for its army of \u200bcouriers, as competition intensifies in the instant retail market.  JD.com's move, announced in \u200ca post on its official WeChat account on Friday, follows a similar promise from food delivery firm \u200cMeituan.  Last month, Meituan said it would invest 10 billion yuan over the next five years to build a more comprehensive welfare system for its delivery riders.",
+            "pubDate": "2025-12-12T03:58:39Z",
+            "displayTime": "2025-12-12T03:58:39Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": {
+              "originalUrl": "https://media.zenfs.com/en/reuters-finance.com/af8a257a45325e41ab9581ec0e84e144",
+              "originalWidth": 800,
+              "originalHeight": 534,
+              "caption": "",
+              "resolutions": [
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/tJ5LoIM7KY3tlRfDgr1JUw--~B/aD01MzQ7dz04MDA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/reuters-finance.com/af8a257a45325e41ab9581ec0e84e144",
+                  "width": 800,
+                  "height": 534,
+                  "tag": "original"
+                },
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/1Fp3ZivaeQ6iDVK8BgrdYw--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/reuters-finance.com/af8a257a45325e41ab9581ec0e84e144",
+                  "width": 170,
+                  "height": 128,
+                  "tag": "170x128"
+                }
+              ]
+            },
+            "provider": {
+              "displayName": "Reuters",
+              "url": "http://www.reuters.com/"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/jd-com-pledges-3-12-035839968.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/jd-com-pledges-3-12-035839968.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        },
+        {
+          "id": "1ef18108-3b28-375f-915a-ddacdce7bcab",
+          "content": {
+            "id": "1ef18108-3b28-375f-915a-ddacdce7bcab",
+            "contentType": "STORY",
+            "title": "Italy ties JD.com\u2019s Ceconomy deal to strict data safeguards",
+            "description": "",
+            "summary": "The decree states that personal data should not be shared on a large scale with entities outside the European Union.",
+            "pubDate": "2025-12-10T09:40:58Z",
+            "displayTime": "2025-12-10T09:40:58Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": {
+              "originalUrl": "https://media.zenfs.com/en/retail_insight_network_724/8e46b9ae4f681a4bf117258c757d72ac",
+              "originalWidth": 1440,
+              "originalHeight": 810,
+              "caption": "JD.com",
+              "resolutions": [
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/cV0ZSsawbZqcznV8A0Brdw--~B/aD04MTA7dz0xNDQwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/retail_insight_network_724/8e46b9ae4f681a4bf117258c757d72ac",
+                  "width": 1440,
+                  "height": 810,
+                  "tag": "original"
+                },
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/WSoJyssXoqFizYv6uslWzQ--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/retail_insight_network_724/8e46b9ae4f681a4bf117258c757d72ac",
+                  "width": 170,
+                  "height": 128,
+                  "tag": "170x128"
+                }
+              ]
+            },
+            "provider": {
+              "displayName": "Retail Insight Network",
+              "url": "https://www.globaldata.com/"
+            },
+            "canonicalUrl": {
+              "url": "https://www.retail-insight-network.com/news/jd-com-ceconomy-strict-data-safeguards/",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/italy-ties-jd-com-ceconomy-094058561.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        },
+        {
+          "id": "76462bea-1a18-3350-a28c-7d232d939337",
+          "content": {
+            "id": "76462bea-1a18-3350-a28c-7d232d939337",
+            "contentType": "STORY",
+            "title": "JD.com buys into Hong Kong Central tower as Lai Sun offloads US$450 million stake",
+            "description": "",
+            "summary": "JD.com has agreed to acquire a stake in a major office tower in Hong Kong's Central district, mirroring a property move by its rival Alibaba Group Holding and offering a financial lift to the cash-strapped developer Lai Sun Development. Lai Sun Development and its parent Lai Sun Garment entered into an agreement with Jasmine Investment Development IV Limited, an investment entity of JD.com, to sell its 50 per cent stake in the China Construction Bank Tower for HK$3.5 billion (US$450 million), ac",
+            "pubDate": "2025-12-10T09:30:00Z",
+            "displayTime": "2025-12-10T09:30:00Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": {
+              "originalUrl": "https://media.zenfs.com/en/south_china_morning_post_us_228/0275d5ff263bdcfbf25b0fda01d53358",
+              "originalWidth": 2000,
+              "originalHeight": 1333,
+              "caption": "",
+              "resolutions": [
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/XdT978s.yR9fB4BC9wCHQA--~B/aD0xMzMzO3c9MjAwMDthcHBpZD15dGFjaHlvbg--/https://media.zenfs.com/en/south_china_morning_post_us_228/0275d5ff263bdcfbf25b0fda01d53358",
+                  "width": 2000,
+                  "height": 1333,
+                  "tag": "original"
+                },
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/YEHHbifns.xRRqieqRYWTg--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/south_china_morning_post_us_228/0275d5ff263bdcfbf25b0fda01d53358",
+                  "width": 170,
+                  "height": 128,
+                  "tag": "170x128"
+                }
+              ]
+            },
+            "provider": {
+              "displayName": "South China Morning Post",
+              "url": "https://www.scmp.com/"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/jd-com-buys-hong-kong-093000599.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/jd-com-buys-hong-kong-093000599.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        },
+        {
+          "id": "70632ada-bbf7-324e-8dc7-c0a1605758dc",
+          "content": {
+            "id": "70632ada-bbf7-324e-8dc7-c0a1605758dc",
+            "contentType": "STORY",
+            "title": "Is JD.com Offering Value After a 59% Five Year Share Price Slide?",
+            "description": "",
+            "summary": "If you have been wondering whether JD.com at around $29.70 is a bargain or a value trap, you are not alone. This stock has been quietly rebuilding its story while much of the market looks elsewhere. Despite a rough longer term ride, with shares down 22.8% over the last year and 58.9% over five years, the recent moves have been relatively muted, slipping 1.2% over the last week and 6.6% in the past month as investors reassess both growth potential and risk. Sentiment around JD.com has been...",
+            "pubDate": "2025-12-10T00:10:46Z",
+            "displayTime": "2025-12-10T00:10:46Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": {
+              "originalUrl": "https://media.zenfs.com/en/simply_wall_st__316/55db137e8fb9da1d02f3184a40c85dcc",
+              "originalWidth": 1194,
+              "originalHeight": 432,
+              "caption": "",
+              "resolutions": [
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/ll9CIQWb.oofhMeIjnJPtA--~B/aD00MzI7dz0xMTk0O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/simply_wall_st__316/55db137e8fb9da1d02f3184a40c85dcc",
+                  "width": 1194,
+                  "height": 432,
+                  "tag": "original"
+                },
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/NfONrS5KgFGvRfpX2Zq4_w--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/simply_wall_st__316/55db137e8fb9da1d02f3184a40c85dcc",
+                  "width": 170,
+                  "height": 128,
+                  "tag": "170x128"
+                }
+              ]
+            },
+            "provider": {
+              "displayName": "Simply Wall St.",
+              "url": "https://simplywall.st/"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/jd-com-offering-value-59-001046576.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/jd-com-offering-value-59-001046576.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        },
+        {
+          "id": "a4965729-bc27-3881-9b1e-cfb93289a31e",
+          "content": {
+            "id": "a4965729-bc27-3881-9b1e-cfb93289a31e",
+            "contentType": "STORY",
+            "title": "JD.com Inc\u2019s (JD) JD Cloud Launched AIGC Content Generation Platform",
+            "description": "",
+            "summary": "\u200bJD.com, Inc. (NASDAQ:JD) is one of the Cheap NASDAQ Stocks to Buy Now. On December 3, JD.com, Inc.\u2019s (NASDAQ:JD) subsidiary JD Cloud announced the launch of an AIGC content generation platform, called JD Cloud Lingjing. \u200bThe platform is an enterprise-level one-stop AIGC platform that has all the latest services from models, including Vidu, Paiwo AI, [\u2026]",
+            "pubDate": "2025-12-09T16:39:10Z",
+            "displayTime": "2025-12-09T16:39:10Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": {
+              "originalUrl": "https://media.zenfs.com/en/insidermonkey.com/11672800d1aa4c2d3d6ec0e023f94406",
+              "originalWidth": 1456,
+              "originalHeight": 816,
+              "caption": "",
+              "resolutions": [
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/Ky3qbUNTj1lahjZCkFH3Rg--~B/aD04MTY7dz0xNDU2O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/insidermonkey.com/11672800d1aa4c2d3d6ec0e023f94406",
+                  "width": 1456,
+                  "height": 816,
+                  "tag": "original"
+                },
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/rbEjprUOl7p0rGXUqFb0Mw--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/insidermonkey.com/11672800d1aa4c2d3d6ec0e023f94406",
+                  "width": 170,
+                  "height": 128,
+                  "tag": "170x128"
+                }
+              ]
+            },
+            "provider": {
+              "displayName": "Insider Monkey",
+              "url": "http://www.insidermonkey.com"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/jd-com-inc-jd-jd-163910023.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/jd-com-inc-jd-jd-163910023.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        },
+        {
+          "id": "af71de67-35fd-3310-a27b-761aa7a6b034",
+          "content": {
+            "id": "af71de67-35fd-3310-a27b-761aa7a6b034",
+            "contentType": "STORY",
+            "title": "Italy sets tough terms on personal data protection to clear Chinese JD.com's takeover of Ceconomy",
+            "description": "",
+            "summary": "ROME, Dec 9 (Reuters) - Italy has set tough terms on personal data protection to clear Chinese e-commerce giant JD.com's takeover of \u200bGerman electronics retailer Ceconomy, a government decree seen by Reuters showed \u200con Tuesday.",
+            "pubDate": "2025-12-09T14:28:50Z",
+            "displayTime": "2025-12-09T14:28:50Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": {
+              "originalUrl": "https://media.zenfs.com/en/reuters.com/ac894cd7a0465567dd617a9d30cc91d4",
+              "originalWidth": 800,
+              "originalHeight": 533,
+              "caption": "JD.COM logo is seen in this illustration taken, February 11, 2025. REUTERS/Dado Ruvic/Illustration",
+              "resolutions": [
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/B9xuhdXJWjUo9d5bhCp4hg--~B/aD01MzM7dz04MDA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/reuters.com/ac894cd7a0465567dd617a9d30cc91d4",
+                  "width": 800,
+                  "height": 533,
+                  "tag": "original"
+                },
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/sFIt5f9JxVSlD0xwu4X18g--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/reuters.com/ac894cd7a0465567dd617a9d30cc91d4",
+                  "width": 170,
+                  "height": 128,
+                  "tag": "170x128"
+                }
+              ]
+            },
+            "provider": {
+              "displayName": "Reuters",
+              "url": "https://www.reuters.com/"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/italy-sets-tough-terms-personal-142850176.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/italy-sets-tough-terms-personal-142850176.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        },
+        {
+          "id": "f1be7db1-1456-3cc2-a677-0c58c465f8f0",
+          "content": {
+            "id": "f1be7db1-1456-3cc2-a677-0c58c465f8f0",
+            "contentType": "STORY",
+            "title": "Here Are Tuesday\u2019s Top Wall Street Analyst Research Calls: Agilent, Alibaba, Delta Air Lines, Intel, JD.com, Micron Technology, Reddit and More",
+            "description": "",
+            "summary": "Pre-Market Stock Futures: The futures are trading flat on Tuesday after we opened the week on the downside, with all major indices finishing the day lower. With the Federal Reserve meeting this week, investors are playing a wait-and-see game before bidding stocks higher to ensure there will indeed be a 25-basis-point cut. Wall Street will ... Here Are Tuesday\u2019s Top Wall Street Analyst Research Calls: Agilent, Alibaba, Delta Air Lines, Intel, JD.com, Micron Technology, Reddit and More",
+            "pubDate": "2025-12-09T14:15:02Z",
+            "displayTime": "2025-12-09T14:15:02Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": {
+              "originalUrl": "https://media.zenfs.com/en/24_7_wall_st__718/8338f370f249766d037be2988fc68cf3",
+              "originalWidth": 1366,
+              "originalHeight": 768,
+              "caption": "",
+              "resolutions": [
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/rQsklOiFPrAMYcPU_B5KaQ--~B/aD03Njg7dz0xMzY2O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/24_7_wall_st__718/8338f370f249766d037be2988fc68cf3",
+                  "width": 1366,
+                  "height": 768,
+                  "tag": "original"
+                },
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/kX.TMZobkuC6CbzBK6mlRw--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/24_7_wall_st__718/8338f370f249766d037be2988fc68cf3",
+                  "width": 170,
+                  "height": 128,
+                  "tag": "170x128"
+                }
+              ]
+            },
+            "provider": {
+              "displayName": "24/7 Wall St.",
+              "url": "https://247wallst.com/"
+            },
+            "canonicalUrl": {
+              "url": "https://247wallst.com/investing/2025/12/09/here-are-tuesdays-top-wall-street-analyst-research-calls-agilent-alibaba-delta-air-lines-intel-jd-com-micron-technology-redditt-and-more/",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/tuesday-top-wall-street-analyst-141502576.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        },
+        {
+          "id": "b633696e-2b33-3e3f-93c7-196e783c9ba1",
+          "content": {
+            "id": "b633696e-2b33-3e3f-93c7-196e783c9ba1",
+            "contentType": "STORY",
+            "title": "JD.com, Inc. (JD) is Attracting Investor Attention: Here is What You Should Know",
+            "description": "",
+            "summary": "JD.com (JD) has received quite a bit of attention from Zacks.com users lately. Therefore, it is wise to be aware of the facts that can impact the stock's prospects.",
+            "pubDate": "2025-12-09T14:00:04Z",
+            "displayTime": "2025-12-09T14:00:04Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": {
+              "originalUrl": "https://media.zenfs.com/en/zacks.com/3d7c5b2146ac04ffd51752e17ff2a619",
+              "originalWidth": 900,
+              "originalHeight": 506,
+              "caption": "",
+              "resolutions": [
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/132juehTNIyEUn7pK7.GPA--~B/aD01MDY7dz05MDA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/zacks.com/3d7c5b2146ac04ffd51752e17ff2a619",
+                  "width": 900,
+                  "height": 506,
+                  "tag": "original"
+                },
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/ntuaEXebAoViSP2xpnvkrA--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/zacks.com/3d7c5b2146ac04ffd51752e17ff2a619",
+                  "width": 170,
+                  "height": 128,
+                  "tag": "170x128"
+                }
+              ]
+            },
+            "provider": {
+              "displayName": "Zacks",
+              "url": "http://www.zacks.com/"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/jd-com-inc-jd-attracting-140004907.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/jd-com-inc-jd-attracting-140004907.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        },
+        {
+          "id": "c32bea8f-63e8-3dfc-b33e-c27d0e00e5f9",
+          "content": {
+            "id": "c32bea8f-63e8-3dfc-b33e-c27d0e00e5f9",
+            "contentType": "STORY",
+            "title": "Can JD's Surging User Base Power Its Next Phase of Revenue Growth?",
+            "description": "",
+            "summary": "With users and shopping frequency surging, JD.com tests whether this momentum can fuel its next revenue phase.",
+            "pubDate": "2025-12-08T15:00:00Z",
+            "displayTime": "2025-12-08T15:00:00Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": {
+              "originalUrl": "https://media.zenfs.com/en/zacks.com/fa3b216c116a24f7614ebcf2be53b701",
+              "originalWidth": 635,
+              "originalHeight": 400,
+              "caption": "",
+              "resolutions": [
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/dzHzD1hWJKOqS2CR0NcCjA--~B/aD00MDA7dz02MzU7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/zacks.com/fa3b216c116a24f7614ebcf2be53b701",
+                  "width": 635,
+                  "height": 400,
+                  "tag": "original"
+                },
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/mVMa6Sv1ZDCFH7QeBbLtQw--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/zacks.com/fa3b216c116a24f7614ebcf2be53b701",
+                  "width": 170,
+                  "height": 128,
+                  "tag": "170x128"
+                }
+              ]
+            },
+            "provider": {
+              "displayName": "Zacks",
+              "url": "http://www.zacks.com/"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/jds-surging-user-power-next-150000882.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/jds-surging-user-power-next-150000882.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        },
+        {
+          "id": "a46e9d25-a383-37f4-bab4-80d13d84abcd",
+          "content": {
+            "id": "a46e9d25-a383-37f4-bab4-80d13d84abcd",
+            "contentType": "STORY",
+            "title": "JD.com, Inc. (NASDAQ:JD) most popular amongst retail investors who own 46% of the shares, institutions hold 42%",
+            "description": "",
+            "summary": "Key Insights The considerable ownership by retail investors in JD.com indicates that they collectively have a greater...",
+            "pubDate": "2025-12-08T13:00:16Z",
+            "displayTime": "2025-12-08T13:00:16Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": {
+              "originalUrl": "https://media.zenfs.com/en/simply_wall_st__316/55db137e8fb9da1d02f3184a40c85dcc",
+              "originalWidth": 1194,
+              "originalHeight": 432,
+              "caption": "",
+              "resolutions": [
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/ll9CIQWb.oofhMeIjnJPtA--~B/aD00MzI7dz0xMTk0O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/simply_wall_st__316/55db137e8fb9da1d02f3184a40c85dcc",
+                  "width": 1194,
+                  "height": 432,
+                  "tag": "original"
+                },
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/NfONrS5KgFGvRfpX2Zq4_w--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/simply_wall_st__316/55db137e8fb9da1d02f3184a40c85dcc",
+                  "width": 170,
+                  "height": 128,
+                  "tag": "170x128"
+                }
+              ]
+            },
+            "provider": {
+              "displayName": "Simply Wall St.",
+              "url": "https://simplywall.st/"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/jd-com-inc-nasdaq-jd-130016814.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/jd-com-inc-nasdaq-jd-130016814.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        }
+      ]
+    },
+    "recommendations": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  },
+  "holders_data": {
+    "major_holders": {
+      "status": "error"
+    },
+    "institutional_holders": {
+      "status": "error"
+    }
+  },
+  "earnings_data": {
+    "earnings": {
+      "status": "error",
+      "message": "'NoneType' object has no attribute 'empty'"
+    },
+    "calendar": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  }
+}

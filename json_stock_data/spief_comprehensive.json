@@ -1,9 +1,74 @@
 {
   "ticker": "SPIEF",
-  "timestamp": "2025-12-10T05:11:22.532359",
+  "timestamp": "2025-12-13T04:56:40.444433",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 9,
+    "data": [
+      {
+        "Close USL": 33.303001403808594,
+        "High USL": 33.303001403808594,
+        "Low USL": 33.303001403808594,
+        "Open USL": 33.303001403808594,
+        "Volume USL": 388
+      },
+      {
+        "Close USL": 33.323699951171875,
+        "High USL": 33.323699951171875,
+        "Low USL": 33.323699951171875,
+        "Open USL": 33.323699951171875,
+        "Volume USL": 108
+      },
+      {
+        "Close USL": 33.311500549316406,
+        "High USL": 33.311500549316406,
+        "Low USL": 33.311500549316406,
+        "Open USL": 33.311500549316406,
+        "Volume USL": 144
+      },
+      {
+        "Close USL": 33.209999084472656,
+        "High USL": 33.29999923706055,
+        "Low USL": 33.209999084472656,
+        "Open USL": 33.29999923706055,
+        "Volume USL": 575
+      },
+      {
+        "Close USL": 33.32899856567383,
+        "High USL": 33.32899856567383,
+        "Low USL": 33.32899856567383,
+        "Open USL": 33.32899856567383,
+        "Volume USL": 878
+      },
+      {
+        "Close USL": 33.227500915527344,
+        "High USL": 33.227500915527344,
+        "Low USL": 33.227500915527344,
+        "Open USL": 33.227500915527344,
+        "Volume USL": 337
+      },
+      {
+        "Close USL": 33.54499816894531,
+        "High USL": 33.54499816894531,
+        "Low USL": 33.275001525878906,
+        "Open USL": 33.279998779296875,
+        "Volume USL": 0
+      },
+      {
+        "Close USL": 33.2400016784668,
+        "High USL": 33.2400016784668,
+        "Low USL": 33.2400016784668,
+        "Open USL": 33.2400016784668,
+        "Volume USL": 430
+      },
+      {
+        "Close USL": 33.30500030517578,
+        "High USL": 33.47999954223633,
+        "Low USL": 33.30500030517578,
+        "Open USL": 33.459999084472656,
+        "Volume USL": 984
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -29,39 +94,16 @@
       "status": "no_data"
     },
     "recommendations": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   },
   "holders_data": {
     "major_holders": {
-      "status": "success",
-      "data": [
-        {
-          "Value": 0.0
-        },
-        {
-          "Value": 0.000120000004
-        },
-        {
-          "Value": 0.000120000004
-        },
-        {
-          "Value": 2.0
-        }
-      ]
+      "status": "error"
     },
     "institutional_holders": {
-      "status": "success",
-      "data": [
-        {
-          "Date Reported": "2024-12-31 00:00:00",
-          "Holder": "Tucker Asset Management LLC                          ",
-          "pctHeld": 0.0,
-          "Shares": 84,
-          "Value": 0,
-          "pctChange": 1.0
-        }
-      ]
+      "status": "error"
     }
   },
   "earnings_data": {
@@ -71,7 +113,7 @@
     },
     "calendar": {
       "status": "error",
-      "message": "'dict' object has no attribute 'empty'"
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   }
 }

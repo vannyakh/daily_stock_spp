@@ -1,6 +1,6 @@
 {
   "ticker": "DSHKP",
-  "timestamp": "2025-12-10T05:27:18.038348",
+  "timestamp": "2025-12-13T05:10:41.775731",
   "intraday_data": {
     "status": "no_data",
     "message": "No intraday data available"
@@ -74,39 +74,16 @@
       ]
     },
     "recommendations": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   },
   "holders_data": {
     "major_holders": {
-      "status": "success",
-      "data": [
-        {
-          "Value": 0.0
-        },
-        {
-          "Value": 0.0
-        },
-        {
-          "Value": 0.0
-        },
-        {
-          "Value": 0.0
-        }
-      ]
+      "status": "error"
     },
     "institutional_holders": {
-      "status": "success",
-      "data": [
-        {
-          "Date Reported": "2022-09-30 00:00:00",
-          "Holder": "Northern Lights Fd Tr-Altegris/AACA Opportunistic Real Estate Fd",
-          "pctHeld": 0.0091,
-          "Shares": 12112,
-          "Value": 154306,
-          "pctChange": 0.0
-        }
-      ]
+      "status": "error"
     }
   },
   "earnings_data": {
@@ -116,7 +93,7 @@
     },
     "calendar": {
       "status": "error",
-      "message": "'dict' object has no attribute 'empty'"
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   }
 }

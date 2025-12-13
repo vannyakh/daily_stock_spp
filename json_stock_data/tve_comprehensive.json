@@ -1,83 +1,43 @@
 {
   "ticker": "TVE",
-  "timestamp": "2025-12-10T05:18:16.476409",
+  "timestamp": "2025-12-13T05:02:47.254265",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 4,
+    "data": [
+      {
+        "Close BNSOF": 1.5199999809265137,
+        "High BNSOF": 1.5199999809265137,
+        "Low BNSOF": 1.5199999809265137,
+        "Open BNSOF": 1.5199999809265137,
+        "Volume BNSOF": 300
+      },
+      {
+        "Close BNSOF": 2.0399999618530273,
+        "High BNSOF": 2.0399999618530273,
+        "Low BNSOF": 2.0299999713897705,
+        "Open BNSOF": 2.0299999713897705,
+        "Volume BNSOF": 300
+      },
+      {
+        "Close BNSOF": 2.0799999237060547,
+        "High BNSOF": 2.0799999237060547,
+        "Low BNSOF": 2.0799999237060547,
+        "Open BNSOF": 2.0799999237060547,
+        "Volume BNSOF": 200
+      },
+      {
+        "Close BNSOF": 2.1500000953674316,
+        "High BNSOF": 2.1500000953674316,
+        "Low BNSOF": 2.1500000953674316,
+        "Open BNSOF": 2.1500000953674316,
+        "Volume BNSOF": 300
+      }
+    ]
   },
   "stock_info": {
-    "status": "success",
-    "data": {
-      "language": "en-US",
-      "region": "US",
-      "quoteType": "EQUITY",
-      "typeDisp": "Equity",
-      "triggerable": true,
-      "customPriceAlertConfidence": "HIGH",
-      "currency": "USD",
-      "postMarketTime": 1765314363,
-      "regularMarketTime": 1765314002,
-      "exchange": "NYQ",
-      "messageBoardId": "finmb_246757",
-      "exchangeTimezoneName": "America/New_York",
-      "exchangeTimezoneShortName": "EST",
-      "gmtOffSetMilliseconds": -18000000,
-      "market": "us_market",
-      "esgPopulated": false,
-      "twoHundredDayAverageChangePercent": 0.03224657,
-      "marketCap": 12752250,
-      "forwardPE": 15.27673,
-      "sourceInterval": 15,
-      "exchangeDataDelayedBy": 0,
-      "averageAnalystRating": "2.1 - Buy",
-      "tradeable": false,
-      "cryptoTradeable": false,
-      "shortName": "Tennessee Valley Authority",
-      "longName": "Tennessee Valley Authority PARRS A 2029",
-      "regularMarketChangePercent": 0.123663,
-      "regularMarketPrice": 24.29,
-      "marketState": "PREPRE",
-      "hasPrePostMarketData": true,
-      "firstTradeDateMilliseconds": 927120600000,
-      "priceHint": 2,
-      "postMarketChangePercent": 0.0,
-      "postMarketPrice": 24.29,
-      "postMarketChange": 0.0,
-      "regularMarketChange": 0.0300007,
-      "regularMarketDayHigh": 24.29,
-      "regularMarketDayRange": "24.1811 - 24.29",
-      "regularMarketDayLow": 24.1811,
-      "regularMarketVolume": 3379,
-      "regularMarketPreviousClose": 24.26,
-      "bid": 24.18,
-      "ask": 24.27,
-      "bidSize": 100,
-      "askSize": 600,
-      "fullExchangeName": "NYSE",
-      "financialCurrency": "USD",
-      "regularMarketOpen": 24.26,
-      "averageDailyVolume3Month": 18198,
-      "averageDailyVolume10Day": 11410,
-      "fiftyTwoWeekLowChange": 2.1800003,
-      "fiftyTwoWeekLowChangePercent": 0.09859793,
-      "fiftyTwoWeekRange": "22.11 - 25.3",
-      "fiftyTwoWeekHighChange": -1.0099983,
-      "fiftyTwoWeekHighChangePercent": -0.039920885,
-      "fiftyTwoWeekLow": 22.11,
-      "fiftyTwoWeekHigh": 25.3,
-      "fiftyTwoWeekChangePercent": 7.9661727,
-      "dividendDate": 1762128000,
-      "epsForward": 1.59,
-      "epsCurrentYear": 1.13,
-      "priceEpsCurrentYear": 21.495577,
-      "sharesOutstanding": 525000,
-      "fiftyDayAverage": 24.082,
-      "fiftyDayAverageChange": 0.20800018,
-      "fiftyDayAverageChangePercent": 0.008637164,
-      "twoHundredDayAverage": 23.5312,
-      "twoHundredDayAverageChange": 0.7588005,
-      "symbol": "TVE"
-    }
+    "status": "error",
+    "message": "Too Many Requests. Rate limited. Try after a while."
   },
   "financials": {
     "income_statement": {
@@ -91,7 +51,8 @@
     }
   },
   "options_data": {
-    "expirations": []
+    "status": "error",
+    "error_message": "Too Many Requests. Rate limited. Try after a while."
   },
   "news_data": {
     "news": {

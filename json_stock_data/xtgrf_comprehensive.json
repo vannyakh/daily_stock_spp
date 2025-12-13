@@ -1,32 +1,9 @@
 {
   "ticker": "XTGRF",
-  "timestamp": "2025-12-10T04:57:41.338340",
+  "timestamp": "2025-12-13T04:44:34.132486",
   "intraday_data": {
-    "status": "success",
-    "rows": 3,
-    "data": [
-      {
-        "Close": 2.490000009536743,
-        "High": 2.490000009536743,
-        "Low": 2.490000009536743,
-        "Open": 2.490000009536743,
-        "Volume": 0
-      },
-      {
-        "Close": 2.490000009536743,
-        "High": 2.490000009536743,
-        "Low": 2.490000009536743,
-        "Open": 2.490000009536743,
-        "Volume": 800
-      },
-      {
-        "Close": 2.490000009536743,
-        "High": 2.490000009536743,
-        "Low": 2.490000009536743,
-        "Open": 2.490000009536743,
-        "Volume": 1000
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -52,15 +29,16 @@
       "status": "no_data"
     },
     "recommendations": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   },
   "holders_data": {
     "major_holders": {
-      "status": "no_data"
+      "status": "error"
     },
     "institutional_holders": {
-      "status": "no_data"
+      "status": "error"
     }
   },
   "earnings_data": {

@@ -1,60 +1,9 @@
 {
   "ticker": "VRAYQ",
-  "timestamp": "2025-12-10T05:19:40.282672",
+  "timestamp": "2025-12-13T05:04:09.129661",
   "intraday_data": {
-    "status": "success",
-    "rows": 7,
-    "data": [
-      {
-        "Close BZRD": 0.054999999701976776,
-        "High BZRD": 0.054999999701976776,
-        "Low BZRD": 0.054999999701976776,
-        "Open BZRD": 0.054999999701976776,
-        "Volume BZRD": 0
-      },
-      {
-        "Close BZRD": 0.054999999701976776,
-        "High BZRD": 0.054999999701976776,
-        "Low BZRD": 0.054999999701976776,
-        "Open BZRD": 0.054999999701976776,
-        "Volume BZRD": 10000
-      },
-      {
-        "Close BZRD": 0.0697999969124794,
-        "High BZRD": 0.0697999969124794,
-        "Low BZRD": 0.0697999969124794,
-        "Open BZRD": 0.0697999969124794,
-        "Volume BZRD": 1000
-      },
-      {
-        "Close BZRD": 0.054999999701976776,
-        "High BZRD": 0.054999999701976776,
-        "Low BZRD": 0.054999999701976776,
-        "Open BZRD": 0.054999999701976776,
-        "Volume BZRD": 3000
-      },
-      {
-        "Close BZRD": 0.054999999701976776,
-        "High BZRD": 0.054999999701976776,
-        "Low BZRD": 0.054999999701976776,
-        "Open BZRD": 0.054999999701976776,
-        "Volume BZRD": 10000
-      },
-      {
-        "Close BZRD": 0.054999999701976776,
-        "High BZRD": 0.054999999701976776,
-        "Low BZRD": 0.054999999701976776,
-        "Open BZRD": 0.054999999701976776,
-        "Volume BZRD": 20926
-      },
-      {
-        "Close BZRD": 0.054999999701976776,
-        "High BZRD": 0.054999999701976776,
-        "Low BZRD": 0.054999999701976776,
-        "Open BZRD": 0.054999999701976776,
-        "Volume BZRD": 325
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -89,7 +38,7 @@
       "status": "error"
     },
     "institutional_holders": {
-      "status": "error"
+      "status": "no_data"
     }
   },
   "earnings_data": {
@@ -99,7 +48,7 @@
     },
     "calendar": {
       "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
+      "message": "'dict' object has no attribute 'empty'"
     }
   }
 }

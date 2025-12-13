@@ -1,9 +1,25 @@
 {
   "ticker": "TOGI",
-  "timestamp": "2025-12-10T05:09:11.861512",
+  "timestamp": "2025-12-13T04:54:53.361839",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 2,
+    "data": [
+      {
+        "Close REOS": 0.0035000001080334187,
+        "High REOS": 0.0035000001080334187,
+        "Low REOS": 0.0035000001080334187,
+        "Open REOS": 0.0035000001080334187,
+        "Volume REOS": 0
+      },
+      {
+        "Close REOS": 0.0034000000450760126,
+        "High REOS": 0.0034000000450760126,
+        "Low REOS": 0.0034000000450760126,
+        "Open REOS": 0.0034000000450760126,
+        "Volume REOS": 400
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -29,7 +45,8 @@
       "status": "no_data"
     },
     "recommendations": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   },
   "holders_data": {

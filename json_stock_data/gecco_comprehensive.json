@@ -1,9 +1,53 @@
 {
   "ticker": "GECCO",
-  "timestamp": "2025-12-10T05:22:01.754146",
+  "timestamp": "2025-12-13T05:06:13.001088",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 6,
+    "data": [
+      {
+        "Close": 25.290000915527344,
+        "High": 25.292299270629883,
+        "Low": 25.290000915527344,
+        "Open": 25.292299270629883,
+        "Volume": 0
+      },
+      {
+        "Close": 25.290000915527344,
+        "High": 25.290000915527344,
+        "Low": 25.290000915527344,
+        "Open": 25.290000915527344,
+        "Volume": 115
+      },
+      {
+        "Close": 25.31999969482422,
+        "High": 25.31999969482422,
+        "Low": 25.309999465942383,
+        "Open": 25.309999465942383,
+        "Volume": 300
+      },
+      {
+        "Close": 25.25,
+        "High": 25.25,
+        "Low": 25.25,
+        "Open": 25.25,
+        "Volume": 100
+      },
+      {
+        "Close": 25.250999450683594,
+        "High": 25.250999450683594,
+        "Low": 25.250999450683594,
+        "Open": 25.250999450683594,
+        "Volume": 544
+      },
+      {
+        "Close": 25.299999237060547,
+        "High": 25.299999237060547,
+        "Low": 25.25,
+        "Open": 25.25,
+        "Volume": 1481123
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -29,7 +73,8 @@
       "status": "no_data"
     },
     "recommendations": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   },
   "holders_data": {

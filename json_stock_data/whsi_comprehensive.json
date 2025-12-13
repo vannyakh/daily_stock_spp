@@ -1,9 +1,88 @@
 {
   "ticker": "WHSI",
-  "timestamp": "2025-12-10T05:18:56.654762",
+  "timestamp": "2025-12-13T05:03:24.599338",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 11,
+    "data": [
+      {
+        "Close BRLL": 0.0013000000035390258,
+        "High BRLL": 0.0013000000035390258,
+        "Low BRLL": 0.0013000000035390258,
+        "Open BRLL": 0.0013000000035390258,
+        "Volume BRLL": 0
+      },
+      {
+        "Close BRLL": 0.0012000000569969416,
+        "High BRLL": 0.0012000000569969416,
+        "Low BRLL": 0.0012000000569969416,
+        "Open BRLL": 0.0012000000569969416,
+        "Volume BRLL": 546099
+      },
+      {
+        "Close BRLL": 0.0012000000569969416,
+        "High BRLL": 0.0012000000569969416,
+        "Low BRLL": 0.0012000000569969416,
+        "Open BRLL": 0.0012000000569969416,
+        "Volume BRLL": 10000
+      },
+      {
+        "Close BRLL": 0.0012000000569969416,
+        "High BRLL": 0.0012000000569969416,
+        "Low BRLL": 0.0012000000569969416,
+        "Open BRLL": 0.0012000000569969416,
+        "Volume BRLL": 10000
+      },
+      {
+        "Close BRLL": 0.0013000000035390258,
+        "High BRLL": 0.0013000000035390258,
+        "Low BRLL": 0.0013000000035390258,
+        "Open BRLL": 0.0013000000035390258,
+        "Volume BRLL": 1200
+      },
+      {
+        "Close BRLL": 0.0013000000035390258,
+        "High BRLL": 0.0013000000035390258,
+        "Low BRLL": 0.0013000000035390258,
+        "Open BRLL": 0.0013000000035390258,
+        "Volume BRLL": 3000
+      },
+      {
+        "Close BRLL": 0.001500000013038516,
+        "High BRLL": 0.001500000013038516,
+        "Low BRLL": 0.0013000000035390258,
+        "Open BRLL": 0.0013000000035390258,
+        "Volume BRLL": 93300
+      },
+      {
+        "Close BRLL": 0.0013000000035390258,
+        "High BRLL": 0.0013000000035390258,
+        "Low BRLL": 0.0013000000035390258,
+        "Open BRLL": 0.0013000000035390258,
+        "Volume BRLL": 20000
+      },
+      {
+        "Close BRLL": 0.0013000000035390258,
+        "High BRLL": 0.0013000000035390258,
+        "Low BRLL": 0.0013000000035390258,
+        "Open BRLL": 0.0013000000035390258,
+        "Volume BRLL": 2000
+      },
+      {
+        "Close BRLL": 0.0010999999940395355,
+        "High BRLL": 0.0010999999940395355,
+        "Low BRLL": 0.0010999999940395355,
+        "Open BRLL": 0.0010999999940395355,
+        "Volume BRLL": 58400
+      },
+      {
+        "Close BRLL": 0.0010999999940395355,
+        "High BRLL": 0.0010999999940395355,
+        "Low BRLL": 0.0010999999940395355,
+        "Open BRLL": 0.0010999999940395355,
+        "Volume BRLL": 31600
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -11,13 +90,44 @@
   },
   "financials": {
     "income_statement": {
-      "status": "success",
-      "rows": 54,
-      "columns": [
-        "2023-06-30 00:00:00",
-        "2022-06-30 00:00:00",
-        "2021-06-30 00:00:00"
-      ],
-      "data": [
-        {
-          
+      "status": "no_data"
+    },
+    "balance_sheet": {
+      "status": "no_data"
+    },
+    "cash_flow": {
+      "status": "no_data"
+    }
+  },
+  "options_data": {
+    "status": "error",
+    "error_message": "Too Many Requests. Rate limited. Try after a while."
+  },
+  "news_data": {
+    "news": {
+      "status": "no_data"
+    },
+    "recommendations": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  },
+  "holders_data": {
+    "major_holders": {
+      "status": "error"
+    },
+    "institutional_holders": {
+      "status": "error"
+    }
+  },
+  "earnings_data": {
+    "earnings": {
+      "status": "error",
+      "message": "'NoneType' object has no attribute 'empty'"
+    },
+    "calendar": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  }
+}

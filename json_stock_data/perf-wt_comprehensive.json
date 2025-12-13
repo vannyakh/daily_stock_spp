@@ -1,9 +1,18 @@
 {
   "ticker": "PERF-WT",
-  "timestamp": "2025-12-10T05:25:26.040058",
+  "timestamp": "2025-12-13T05:09:09.284264",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 1,
+    "data": [
+      {
+        "Close": 0.030500000342726707,
+        "High": 0.030500000342726707,
+        "Low": 0.030500000342726707,
+        "Open": 0.030500000342726707,
+        "Volume": 0
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -29,7 +38,8 @@
       "status": "no_data"
     },
     "recommendations": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   },
   "holders_data": {

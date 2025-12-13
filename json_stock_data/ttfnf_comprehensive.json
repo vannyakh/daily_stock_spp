@@ -1,33 +1,643 @@
 {
   "ticker": "TTFNF",
-  "timestamp": "2025-12-10T05:13:26.608481",
+  "timestamp": "2025-12-13T04:58:26.707949",
   "intraday_data": {
-    "status": "success",
-    "rows": 1,
-    "data": [
-      {
-        "Close UNLYF": 63.67499923706055,
-        "High UNLYF": 63.67499923706055,
-        "Low UNLYF": 63.67499923706055,
-        "Open UNLYF": 63.67499923706055,
-        "Volume UNLYF": 0
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
-    "message": "argument of type 'NoneType' is not iterable"
+    "message": "Too Many Requests. Rate limited. Try after a while."
   },
   "financials": {
     "income_statement": {
+      "status": "no_data"
+    },
+    "balance_sheet": {
+      "status": "no_data"
+    },
+    "cash_flow": {
+      "status": "no_data"
+    }
+  },
+  "options_data": {
+    "status": "error",
+    "error_message": "Too Many Requests. Rate limited. Try after a while."
+  },
+  "news_data": {
+    "news": {
       "status": "success",
-      "rows": 46,
-      "columns": [
-        "2024-12-31 00:00:00",
-        "2023-12-31 00:00:00",
-        "2022-12-31 00:00:00",
-        "2021-12-31 00:00:00"
-      ],
+      "count": 10,
       "data": [
         {
-          
+          "id": "210c63df-e801-3a93-be8b-a2ab0d20eae9",
+          "content": {
+            "id": "210c63df-e801-3a93-be8b-a2ab0d20eae9",
+            "contentType": "STORY",
+            "title": "Oil Sinks Despite Rate Cuts and Tanker Seizures",
+            "description": "",
+            "summary": "Oil sentiment has turned sour despite a Fed rate cut and the Trump administration\u2019s aggressive tanker seizures.",
+            "pubDate": "2025-12-12T15:30:00Z",
+            "displayTime": "2025-12-12T15:30:00Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": {
+              "originalUrl": "https://media.zenfs.com/en/oilprice.com/cfe62fa1e4780d4f5a3bfe121bb85f70",
+              "originalWidth": 718,
+              "originalHeight": 300,
+              "caption": "",
+              "resolutions": [
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/tFTd.V6zC9DBAfjl4QoV1w--~B/aD0zMDA7dz03MTg7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/oilprice.com/cfe62fa1e4780d4f5a3bfe121bb85f70",
+                  "width": 718,
+                  "height": 300,
+                  "tag": "original"
+                },
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/kzFdPxfAEB16QGDNuJIDow--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/oilprice.com/cfe62fa1e4780d4f5a3bfe121bb85f70",
+                  "width": 170,
+                  "height": 128,
+                  "tag": "170x128"
+                }
+              ]
+            },
+            "provider": {
+              "displayName": "Oilprice.com",
+              "url": "http://oilprice.com"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/oil-sinks-despite-rate-cuts-153000094.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/oil-sinks-despite-rate-cuts-153000094.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        },
+        {
+          "id": "e1b71033-0d34-365d-ae21-550e7b60f8b8",
+          "content": {
+            "id": "e1b71033-0d34-365d-ae21-550e7b60f8b8",
+            "contentType": "STORY",
+            "title": "Jefferies downgrades Galp as TotalEnergies takes control of Mopane",
+            "description": "",
+            "summary": "Investing.com --- Jefferies downgraded Galp Energia to Hold after TotalEnergies took over operatorship of the Mopane discovery in Namibia which leaves the Portuguese group with only long term optionality from the project. The price target was cut 29% to \u20ac15, reflecting sharp reductions to sum of the parts and discounted cash flow valuations.",
+            "pubDate": "2025-12-12T14:07:29Z",
+            "displayTime": "2025-12-12T14:07:29Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": null,
+            "provider": {
+              "displayName": "Investing.com",
+              "url": "https://www.investing.com/"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/jefferies-downgrades-galp-totalenergies-takes-140729179.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/jefferies-downgrades-galp-totalenergies-takes-140729179.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        },
+        {
+          "id": "0d946bb3-95fa-302b-9c5b-393e4f5c804d",
+          "content": {
+            "id": "0d946bb3-95fa-302b-9c5b-393e4f5c804d",
+            "contentType": "STORY",
+            "title": "TotalEnergies SE (TTE) Signs a Joint Development Agreement With Japanese Companies",
+            "description": "",
+            "summary": "\u200bTotalEnergies SE (NYSE:TTE) is one of the Cheap NYSE Stocks to Buy Now. On December 2, TotalEnergies SE (NYSE:TTE) announced signing a joint development and operating agreement with TES, Osaka Gas, Toho Gas, and ITOCHU. The agreement grants these Japanese companies a 33.3% stake in the Live Oak project. \u200bThe Live Oak project, which is [\u2026]",
+            "pubDate": "2025-12-11T12:32:51Z",
+            "displayTime": "2025-12-11T12:32:51Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": {
+              "originalUrl": "https://media.zenfs.com/en/insidermonkey.com/d38a7cbc4ddfe069f3d71302e0da4bed",
+              "originalWidth": 1456,
+              "originalHeight": 816,
+              "caption": "",
+              "resolutions": [
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/faI62KoYnitFaqPfqslNCw--~B/aD04MTY7dz0xNDU2O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/insidermonkey.com/d38a7cbc4ddfe069f3d71302e0da4bed",
+                  "width": 1456,
+                  "height": 816,
+                  "tag": "original"
+                },
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/0FUueT5ibf57M__WdNSNMg--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/insidermonkey.com/d38a7cbc4ddfe069f3d71302e0da4bed",
+                  "width": 170,
+                  "height": 128,
+                  "tag": "170x128"
+                }
+              ]
+            },
+            "provider": {
+              "displayName": "Insider Monkey",
+              "url": "http://www.insidermonkey.com"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/totalenergies-se-tte-signs-joint-123251644.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/totalenergies-se-tte-signs-joint-123251644.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        },
+        {
+          "id": "28001d1b-35aa-3fee-9993-cf469da42135",
+          "content": {
+            "id": "28001d1b-35aa-3fee-9993-cf469da42135",
+            "contentType": "STORY",
+            "title": "$1,000 in TotalEnergies Turned Into $2,400 Over Ten Years but Trailed the S&P 500",
+            "description": "",
+            "summary": "TotalEnergies (NYSE: TTE) has delivered a story of extremes over the past decade. The French energy giant navigated a devastating pandemic crash, rode the 2022 energy crisis to record profits, and now finds itself in a post-boom cooldown while attempting a gradual pivot toward renewable energy. For dividend investors, the question is whether that 5.92% ... $1,000 in TotalEnergies Turned Into $2,400 Over Ten Years but Trailed the S&P 500",
+            "pubDate": "2025-12-10T17:08:35Z",
+            "displayTime": "2025-12-10T17:08:35Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": {
+              "originalUrl": "https://media.zenfs.com/en/24_7_wall_st__718/a4c0146b505643c74db6882298caf82b",
+              "originalWidth": 1376,
+              "originalHeight": 768,
+              "caption": "",
+              "resolutions": [
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/SgHJ0OTGI5yzTNVADESfPQ--~B/aD03Njg7dz0xMzc2O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/24_7_wall_st__718/a4c0146b505643c74db6882298caf82b",
+                  "width": 1376,
+                  "height": 768,
+                  "tag": "original"
+                },
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/m..qTo8CglH.Ks2YhRwRqQ--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/24_7_wall_st__718/a4c0146b505643c74db6882298caf82b",
+                  "width": 170,
+                  "height": 128,
+                  "tag": "170x128"
+                }
+              ]
+            },
+            "provider": {
+              "displayName": "24/7 Wall St.",
+              "url": "https://247wallst.com/"
+            },
+            "canonicalUrl": {
+              "url": "https://247wallst.com/investing/2025/12/10/1000-in-totalenergies-turned-into-2400-over-ten-years-but-trailed-the-sp-500/",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/1-000-totalenergies-turned-2-170835805.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        },
+        {
+          "id": "fedd9331-2ccd-3e52-9f4f-f129c497b26e",
+          "content": {
+            "id": "fedd9331-2ccd-3e52-9f4f-f129c497b26e",
+            "contentType": "STORY",
+            "title": "3 No-Brainer High-Yield Energy Stocks to Buy With $2,000 Right Now",
+            "description": "",
+            "summary": "If you are looking for income-generating energy stocks, Chevron, TotalEnergies, and Enterprise Products Partners are all top options.",
+            "pubDate": "2025-12-10T13:01:00Z",
+            "displayTime": "2025-12-10T13:01:00Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": {
+              "originalUrl": "https://media.zenfs.com/en/motleyfool.com/0598ba7c01f5e262e9b8032d52261a44",
+              "originalWidth": 1400,
+              "originalHeight": 929,
+              "caption": "Two people working on an oil well that is being drilled.",
+              "resolutions": [
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/YRIHmIlFEpfMXFQ62uopzA--~B/aD05Mjk7dz0xNDAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/motleyfool.com/0598ba7c01f5e262e9b8032d52261a44",
+                  "width": 1400,
+                  "height": 929,
+                  "tag": "original"
+                },
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/hoFZe3OcgnxYCoie_NGNfA--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/motleyfool.com/0598ba7c01f5e262e9b8032d52261a44",
+                  "width": 170,
+                  "height": 128,
+                  "tag": "170x128"
+                }
+              ]
+            },
+            "provider": {
+              "displayName": "Motley Fool",
+              "url": "http://www.fool.com/"
+            },
+            "canonicalUrl": {
+              "url": "https://www.fool.com/investing/2025/12/10/3-no-brainer-high-yield-energy-stocks-to-buy-with/",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/3-no-brainer-high-yield-130100215.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        },
+        {
+          "id": "5e9b4bde-b890-3f73-942a-16fd626625e1",
+          "content": {
+            "id": "5e9b4bde-b890-3f73-942a-16fd626625e1",
+            "contentType": "STORY",
+            "title": "TotalEnergies Takes Control of Namibia\u2019s Largest Oil Discoveries",
+            "description": "",
+            "summary": "TotalEnergies has agreed to acquire operatorship and a 40 percent stake in Namibia\u2019s PEL 83, positioning the company to lead development of both the Mopane and Venus discoveries.",
+            "pubDate": "2025-12-10T10:00:00Z",
+            "displayTime": "2025-12-10T10:00:00Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": {
+              "originalUrl": "https://media.zenfs.com/en/oilprice.com/7fe068ad8bff550b52e06a4e513c10c1",
+              "originalWidth": 718,
+              "originalHeight": 300,
+              "caption": "",
+              "resolutions": [
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/9BF.3FUgh.GQHdYpzK_gbA--~B/aD0zMDA7dz03MTg7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/oilprice.com/7fe068ad8bff550b52e06a4e513c10c1",
+                  "width": 718,
+                  "height": 300,
+                  "tag": "original"
+                },
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/7ykRNaKOsez.DgzBX2LNfg--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/oilprice.com/7fe068ad8bff550b52e06a4e513c10c1",
+                  "width": 170,
+                  "height": 128,
+                  "tag": "170x128"
+                }
+              ]
+            },
+            "provider": {
+              "displayName": "Oilprice.com",
+              "url": "http://oilprice.com"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/totalenergies-takes-control-namibia-largest-100000024.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/totalenergies-takes-control-namibia-largest-100000024.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        },
+        {
+          "id": "277425a1-41cc-3327-acae-c4b0bb13481d",
+          "content": {
+            "id": "277425a1-41cc-3327-acae-c4b0bb13481d",
+            "contentType": "STORY",
+            "title": "TotalEnergies in deal for Namibia offshore oil field",
+            "description": "",
+            "summary": "TotalEnergies said Tuesday it had reached a deal to become a partner in the Mopane oil field off the coast of Namibia, where exploration remains underway.The deal will see TotalEnergies take a 40 percent stake in the petroleum exploration licence that includes Mopane.",
+            "pubDate": "2025-12-09T15:51:43Z",
+            "displayTime": "2025-12-09T15:51:43Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": {
+              "originalUrl": "https://media.zenfs.com/en/afp.com/c1bc7a7329e9159af497a9fe3174bcee",
+              "originalWidth": 768,
+              "originalHeight": 511,
+              "caption": "TotalEnergies will join Portuguese firm Galp to operate Namibia's Mopane oil field, which could contain at least 10 billion barrels, according to estimates (Christophe ARCHAMBAULT)",
+              "resolutions": [
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/Sv9dtRC0ZO_bNaWl2osrwA--~B/aD01MTE7dz03Njg7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/afp.com/c1bc7a7329e9159af497a9fe3174bcee",
+                  "width": 768,
+                  "height": 511,
+                  "tag": "original"
+                },
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/uCvDCuFYnfI.0tfnHyzyrQ--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/afp.com/c1bc7a7329e9159af497a9fe3174bcee",
+                  "width": 170,
+                  "height": 128,
+                  "tag": "170x128"
+                }
+              ]
+            },
+            "provider": {
+              "displayName": "AFP",
+              "url": "http://www.afp.com/"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/totalenergies-deal-namibia-offshore-oil-155143061.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/totalenergies-deal-namibia-offshore-oil-155143061.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        },
+        {
+          "id": "5326db78-f6ca-3a73-8484-dc9308b60f9a",
+          "content": {
+            "id": "5326db78-f6ca-3a73-8484-dc9308b60f9a",
+            "contentType": "STORY",
+            "title": "TotalEnergies and Galp enter asset swap deal in Namibia",
+            "description": "",
+            "summary": "TotalEnergies will acquire a 40% operated interest in PEL 83, which includes the Mopane oil discovery in Namibia's Orange Basin.",
+            "pubDate": "2025-12-09T14:45:43Z",
+            "displayTime": "2025-12-09T14:45:43Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": {
+              "originalUrl": "https://media.zenfs.com/en/offshore_technology_431/58e5c61c8cbc7c82ee42bb42c7e0e719",
+              "originalWidth": 1440,
+              "originalHeight": 810,
+              "caption": "TotalEnergies and Galp will launch a two-year exploration and appraisal campaign",
+              "resolutions": [
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/vLbwS8LG411o5ACZBynMuQ--~B/aD04MTA7dz0xNDQwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/offshore_technology_431/58e5c61c8cbc7c82ee42bb42c7e0e719",
+                  "width": 1440,
+                  "height": 810,
+                  "tag": "original"
+                },
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/32UXzwVv57lgJ11huPkqPw--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/offshore_technology_431/58e5c61c8cbc7c82ee42bb42c7e0e719",
+                  "width": 170,
+                  "height": 128,
+                  "tag": "170x128"
+                }
+              ]
+            },
+            "provider": {
+              "displayName": "Offshore Technology",
+              "url": "https://www.globaldata.com/"
+            },
+            "canonicalUrl": {
+              "url": "https://www.offshore-technology.com/news/totalenergies-galp-asset-swap-deal/",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/totalenergies-galp-enter-asset-swap-144543268.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        },
+        {
+          "id": "74cd0b85-5aa1-3fbc-8ac8-2d3b4eaa3e1a",
+          "content": {
+            "id": "74cd0b85-5aa1-3fbc-8ac8-2d3b4eaa3e1a",
+            "contentType": "STORY",
+            "title": "TotalEnergies to Partner with Galp Energia on Mopane Discovery in Namibia",
+            "description": "",
+            "summary": "The energy major will acquire a 40% stake in Galp Energia\u2019s license, ending speculation over which suitor would participate in one of the most significant discoveries in recent years.",
+            "pubDate": "2025-12-09T12:52:00Z",
+            "displayTime": "2025-12-09T12:52:00Z",
+            "isHosted": false,
+            "bypassModal": false,
+            "previewUrl": "https://finance.yahoo.com/m/74cd0b85-5aa1-3fbc-8ac8-2d3b4eaa3e1a/totalenergies-to-partner-with.html",
+            "thumbnail": {
+              "originalUrl": "https://media.zenfs.com/en/wsj.com/9bccf68d3363bc02df49de4f63eb4bb0",
+              "originalWidth": 1280,
+              "originalHeight": 640,
+              "caption": "",
+              "resolutions": [
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/C0i8vkrQjSIeloQ1IYMoNw--~B/aD02NDA7dz0xMjgwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/wsj.com/9bccf68d3363bc02df49de4f63eb4bb0",
+                  "width": 1280,
+                  "height": 640,
+                  "tag": "original"
+                },
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/cBowQ3.UkN.QFpuplb8wHg--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/wsj.com/9bccf68d3363bc02df49de4f63eb4bb0",
+                  "width": 170,
+                  "height": 128,
+                  "tag": "170x128"
+                }
+              ]
+            },
+            "provider": {
+              "displayName": "The Wall Street Journal",
+              "url": "http://www.wsj.com/"
+            },
+            "canonicalUrl": {
+              "url": "https://www.wsj.com/business/energy-oil/totalenergies-to-partner-with-galp-energia-on-mopane-discovery-in-namibia-04320f9f?siteid=yhoof2&yptr=yahoo",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": null,
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        },
+        {
+          "id": "7fedd1f5-2123-3a3a-bdab-2954910ce97e",
+          "content": {
+            "id": "7fedd1f5-2123-3a3a-bdab-2954910ce97e",
+            "contentType": "STORY",
+            "title": "Shell Wins Path Into South Africa\u2019s Block 2C as PetroSA Approves Farm In",
+            "description": "",
+            "summary": "South Africa\u2019s state-owned PetroSA has approved a landmark farm-in deal that would give Shell Offshore a 60% operating stake in Block 2C, strengthening the oil major\u2019s position in the increasingly strategic Orange Basin",
+            "pubDate": "2025-12-08T20:02:26Z",
+            "displayTime": "2025-12-08T20:02:26Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": {
+              "originalUrl": "https://media.zenfs.com/en/oilprice.com/7443a71abbb5db041151b68218156cdd",
+              "originalWidth": 718,
+              "originalHeight": 300,
+              "caption": "",
+              "resolutions": [
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/jPh_oHE4c40XPNlhYPWy1A--~B/aD0zMDA7dz03MTg7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/oilprice.com/7443a71abbb5db041151b68218156cdd",
+                  "width": 718,
+                  "height": 300,
+                  "tag": "original"
+                },
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/Pv_VaywepM7D4toXUiOfnQ--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/oilprice.com/7443a71abbb5db041151b68218156cdd",
+                  "width": 170,
+                  "height": 128,
+                  "tag": "170x128"
+                }
+              ]
+            },
+            "provider": {
+              "displayName": "Oilprice.com",
+              "url": "http://oilprice.com"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/shell-wins-path-south-africa-200226746.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/shell-wins-path-south-africa-200226746.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        }
+      ]
+    },
+    "recommendations": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  },
+  "holders_data": {
+    "major_holders": {
+      "status": "error"
+    },
+    "institutional_holders": {
+      "status": "error"
+    }
+  },
+  "earnings_data": {
+    "earnings": {
+      "status": "error",
+      "message": "'NoneType' object has no attribute 'empty'"
+    },
+    "calendar": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  }
+}

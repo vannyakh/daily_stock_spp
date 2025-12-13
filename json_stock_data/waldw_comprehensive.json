@@ -1,9 +1,18 @@
 {
   "ticker": "WALDW",
-  "timestamp": "2025-12-10T05:24:52.833334",
+  "timestamp": "2025-12-13T05:08:49.887095",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 1,
+    "data": [
+      {
+        "Close": 0.03590000048279762,
+        "High": 0.03999999910593033,
+        "Low": 0.03590000048279762,
+        "Open": 0.03590000048279762,
+        "Volume": 0
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -623,16 +632,15 @@
       ]
     },
     "recommendations": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
+      "status": "no_data"
     }
   },
   "holders_data": {
     "major_holders": {
-      "status": "error"
+      "status": "no_data"
     },
     "institutional_holders": {
-      "status": "error"
+      "status": "no_data"
     }
   },
   "earnings_data": {

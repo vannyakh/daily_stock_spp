@@ -1,6 +1,6 @@
 {
   "ticker": "OCLN",
-  "timestamp": "2025-12-10T05:07:23.882115",
+  "timestamp": "2025-12-13T04:53:27.659179",
   "intraday_data": {
     "status": "no_data",
     "message": "No intraday data available"
@@ -29,39 +29,16 @@
       "status": "no_data"
     },
     "recommendations": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   },
   "holders_data": {
     "major_holders": {
-      "status": "success",
-      "data": [
-        {
-          "Value": 0.01868
-        },
-        {
-          "Value": 0.0
-        },
-        {
-          "Value": 0.0
-        },
-        {
-          "Value": 0.0
-        }
-      ]
+      "status": "error"
     },
     "institutional_holders": {
-      "status": "success",
-      "data": [
-        {
-          "Date Reported": "2023-03-31 00:00:00",
-          "Holder": "Front Row Advisors LLC",
-          "pctHeld": 0.0,
-          "Shares": 1,
-          "Value": 0,
-          "pctChange": 1.0
-        }
-      ]
+      "status": "error"
     }
   },
   "earnings_data": {
@@ -71,7 +48,7 @@
     },
     "calendar": {
       "status": "error",
-      "message": "'dict' object has no attribute 'empty'"
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   }
 }
