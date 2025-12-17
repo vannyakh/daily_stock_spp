@@ -1,95 +1,9 @@
 {
   "ticker": "SAML",
-  "timestamp": "2025-12-13T04:55:50.357046",
+  "timestamp": "2025-12-17T05:10:57.017416",
   "intraday_data": {
-    "status": "success",
-    "rows": 12,
-    "data": [
-      {
-        "Close VISM": 0.00419999985024333,
-        "High VISM": 0.00419999985024333,
-        "Low VISM": 0.00419999985024333,
-        "Open VISM": 0.00419999985024333,
-        "Volume VISM": 0
-      },
-      {
-        "Close VISM": 0.0052999998442828655,
-        "High VISM": 0.0052999998442828655,
-        "Low VISM": 0.0052999998442828655,
-        "Open VISM": 0.0052999998442828655,
-        "Volume VISM": 2500
-      },
-      {
-        "Close VISM": 0.004999999888241291,
-        "High VISM": 0.004999999888241291,
-        "Low VISM": 0.004999999888241291,
-        "Open VISM": 0.004999999888241291,
-        "Volume VISM": 2574
-      },
-      {
-        "Close VISM": 0.004999999888241291,
-        "High VISM": 0.004999999888241291,
-        "Low VISM": 0.004999999888241291,
-        "Open VISM": 0.004999999888241291,
-        "Volume VISM": 1987500
-      },
-      {
-        "Close VISM": 0.005200000014156103,
-        "High VISM": 0.005200000014156103,
-        "Low VISM": 0.005200000014156103,
-        "Open VISM": 0.005200000014156103,
-        "Volume VISM": 15000
-      },
-      {
-        "Close VISM": 0.005200000014156103,
-        "High VISM": 0.005200000014156103,
-        "Low VISM": 0.005200000014156103,
-        "Open VISM": 0.005200000014156103,
-        "Volume VISM": 19042
-      },
-      {
-        "Close VISM": 0.0044999998062849045,
-        "High VISM": 0.0044999998062849045,
-        "Low VISM": 0.0044999998062849045,
-        "Open VISM": 0.0044999998062849045,
-        "Volume VISM": 15
-      },
-      {
-        "Close VISM": 0.005799999926239252,
-        "High VISM": 0.005799999926239252,
-        "Low VISM": 0.005799999926239252,
-        "Open VISM": 0.005799999926239252,
-        "Volume VISM": 53539
-      },
-      {
-        "Close VISM": 0.007000000216066837,
-        "High VISM": 0.007000000216066837,
-        "Low VISM": 0.007000000216066837,
-        "Open VISM": 0.007000000216066837,
-        "Volume VISM": 140000
-      },
-      {
-        "Close VISM": 0.007199999876320362,
-        "High VISM": 0.007199999876320362,
-        "Low VISM": 0.007199999876320362,
-        "Open VISM": 0.007199999876320362,
-        "Volume VISM": 5000
-      },
-      {
-        "Close VISM": 0.007199999876320362,
-        "High VISM": 0.007199999876320362,
-        "Low VISM": 0.007199999876320362,
-        "Open VISM": 0.007199999876320362,
-        "Volume VISM": 20000
-      },
-      {
-        "Close VISM": 0.006899999920278788,
-        "High VISM": 0.006899999920278788,
-        "Low VISM": 0.006899999920278788,
-        "Open VISM": 0.006899999920278788,
-        "Volume VISM": 20000
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -100,14 +14,41 @@
       "status": "no_data"
     },
     "balance_sheet": {
-      "status": "success",
-      "rows": 42,
-      "columns": [
-        "2023-12-31 00:00:00",
-        "2022-12-31 00:00:00",
-        "2021-12-31 00:00:00",
-        "2020-12-31 00:00:00"
-      ],
-      "data": [
-        {
-          
+      "status": "no_data"
+    },
+    "cash_flow": {
+      "status": "no_data"
+    }
+  },
+  "options_data": {
+    "status": "error",
+    "error_message": "Too Many Requests. Rate limited. Try after a while."
+  },
+  "news_data": {
+    "news": {
+      "status": "no_data"
+    },
+    "recommendations": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  },
+  "holders_data": {
+    "major_holders": {
+      "status": "error"
+    },
+    "institutional_holders": {
+      "status": "error"
+    }
+  },
+  "earnings_data": {
+    "earnings": {
+      "status": "error",
+      "message": "'NoneType' object has no attribute 'empty'"
+    },
+    "calendar": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  }
+}

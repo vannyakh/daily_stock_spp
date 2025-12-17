@@ -1,10 +1,9 @@
 {
   "ticker": "PHIL",
-  "timestamp": "2025-12-13T04:51:21.013015",
+  "timestamp": "2025-12-17T05:05:47.058286",
   "intraday_data": {
-    "status": "success",
-    "rows": 0,
-    "data": []
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -30,7 +29,8 @@
       "status": "no_data"
     },
     "recommendations": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   },
   "holders_data": {

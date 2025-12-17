@@ -1,9 +1,46 @@
 {
   "ticker": "GRST",
-  "timestamp": "2025-12-13T04:54:10.743241",
+  "timestamp": "2025-12-17T05:08:53.917257",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 5,
+    "data": [
+      {
+        "Close": 0.00039999998989515007,
+        "High": 0.00039999998989515007,
+        "Low": 0.00039999998989515007,
+        "Open": 0.00039999998989515007,
+        "Volume": 0
+      },
+      {
+        "Close": 0.00039999998989515007,
+        "High": 0.00039999998989515007,
+        "Low": 0.00039999998989515007,
+        "Open": 0.00039999998989515007,
+        "Volume": 10000
+      },
+      {
+        "Close": 0.0005000000237487257,
+        "High": 0.0005000000237487257,
+        "Low": 0.0005000000237487257,
+        "Open": 0.0005000000237487257,
+        "Volume": 80000
+      },
+      {
+        "Close": 0.0005000000237487257,
+        "High": 0.0005000000237487257,
+        "Low": 0.0005000000237487257,
+        "Open": 0.0005000000237487257,
+        "Volume": 500000
+      },
+      {
+        "Close": 0.0005000000237487257,
+        "High": 0.0005000000237487257,
+        "Low": 0.0005000000237487257,
+        "Open": 0.0005000000237487257,
+        "Volume": 73456
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -29,7 +66,8 @@
       "status": "no_data"
     },
     "recommendations": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   },
   "holders_data": {

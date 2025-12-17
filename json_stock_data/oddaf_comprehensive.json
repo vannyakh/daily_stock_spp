@@ -1,16 +1,23 @@
 {
   "ticker": "ODDAF",
-  "timestamp": "2025-12-13T05:02:43.228753",
+  "timestamp": "2025-12-17T05:18:35.954953",
   "intraday_data": {
     "status": "success",
-    "rows": 1,
+    "rows": 2,
     "data": [
       {
-        "Close": 0.035999998450279236,
-        "High": 0.035999998450279236,
-        "Low": 0.035999998450279236,
-        "Open": 0.035999998450279236,
-        "Volume": 0
+        "Close SFES": 0.7200000286102295,
+        "High SFES": 0.7200000286102295,
+        "Low SFES": 0.7200000286102295,
+        "Open SFES": 0.7200000286102295,
+        "Volume SFES": 0
+      },
+      {
+        "Close SFES": 0.7200000286102295,
+        "High SFES": 0.7200000286102295,
+        "Low SFES": 0.7200000286102295,
+        "Open SFES": 0.7200000286102295,
+        "Volume SFES": 250
       }
     ]
   },
@@ -247,7 +254,8 @@
       ]
     },
     "recommendations": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   },
   "holders_data": {

@@ -1,9 +1,25 @@
 {
   "ticker": "UBOH",
-  "timestamp": "2025-12-13T05:02:16.653416",
+  "timestamp": "2025-12-17T05:18:11.330223",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 2,
+    "data": [
+      {
+        "Close OFED": 15.0,
+        "High OFED": 15.010000228881836,
+        "Low OFED": 15.0,
+        "Open OFED": 15.010000228881836,
+        "Volume OFED": 600
+      },
+      {
+        "Close OFED": 15.0,
+        "High OFED": 15.0,
+        "Low OFED": 15.0,
+        "Open OFED": 15.0,
+        "Volume OFED": 52
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -93,8 +109,7 @@
       ]
     },
     "recommendations": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
+      "status": "no_data"
     }
   },
   "holders_data": {

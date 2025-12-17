@@ -1,9 +1,39 @@
 {
   "ticker": "CHHE",
-  "timestamp": "2025-12-13T04:50:12.226638",
+  "timestamp": "2025-12-17T05:04:27.383787",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 4,
+    "data": [
+      {
+        "Close VAUCF": 0.125,
+        "High VAUCF": 0.125,
+        "Low VAUCF": 0.125,
+        "Open VAUCF": 0.125,
+        "Volume VAUCF": 0
+      },
+      {
+        "Close VAUCF": 0.12200000137090683,
+        "High VAUCF": 0.12200000137090683,
+        "Low VAUCF": 0.12200000137090683,
+        "Open VAUCF": 0.12200000137090683,
+        "Volume VAUCF": 2000
+      },
+      {
+        "Close VAUCF": 0.12099999934434891,
+        "High VAUCF": 0.12099999934434891,
+        "Low VAUCF": 0.12099999934434891,
+        "Open VAUCF": 0.12099999934434891,
+        "Volume VAUCF": 14517
+      },
+      {
+        "Close VAUCF": 0.12110000103712082,
+        "High VAUCF": 0.12110000103712082,
+        "Low VAUCF": 0.12110000103712082,
+        "Open VAUCF": 0.12110000103712082,
+        "Volume VAUCF": 3500
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -29,15 +59,16 @@
       "status": "no_data"
     },
     "recommendations": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   },
   "holders_data": {
     "major_holders": {
-      "status": "no_data"
+      "status": "error"
     },
     "institutional_holders": {
-      "status": "no_data"
+      "status": "error"
     }
   },
   "earnings_data": {

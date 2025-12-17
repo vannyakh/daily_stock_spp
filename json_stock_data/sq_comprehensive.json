@@ -1,53 +1,9 @@
 {
   "ticker": "SQ",
-  "timestamp": "2025-12-13T04:58:46.356957",
+  "timestamp": "2025-12-17T05:14:16.874234",
   "intraday_data": {
-    "status": "success",
-    "rows": 6,
-    "data": [
-      {
-        "Close RLXXF": 40.40999984741211,
-        "High RLXXF": 40.40999984741211,
-        "Low RLXXF": 40.40999984741211,
-        "Open RLXXF": 40.40999984741211,
-        "Volume RLXXF": 0
-      },
-      {
-        "Close RLXXF": 40.400001525878906,
-        "High RLXXF": 40.400001525878906,
-        "Low RLXXF": 40.400001525878906,
-        "Open RLXXF": 40.400001525878906,
-        "Volume RLXXF": 100
-      },
-      {
-        "Close RLXXF": 40.400001525878906,
-        "High RLXXF": 40.400001525878906,
-        "Low RLXXF": 40.400001525878906,
-        "Open RLXXF": 40.400001525878906,
-        "Volume RLXXF": 100
-      },
-      {
-        "Close RLXXF": 40.4900016784668,
-        "High RLXXF": 40.4900016784668,
-        "Low RLXXF": 40.4900016784668,
-        "Open RLXXF": 40.4900016784668,
-        "Volume RLXXF": 200
-      },
-      {
-        "Close RLXXF": 40.45000076293945,
-        "High RLXXF": 40.45000076293945,
-        "Low RLXXF": 40.45000076293945,
-        "Open RLXXF": 40.45000076293945,
-        "Volume RLXXF": 444
-      },
-      {
-        "Close RLXXF": 39.709999084472656,
-        "High RLXXF": 39.709999084472656,
-        "Low RLXXF": 39.709999084472656,
-        "Open RLXXF": 39.709999084472656,
-        "Volume RLXXF": 194
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -666,7 +622,8 @@
       ]
     },
     "recommendations": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   },
   "holders_data": {

@@ -1,6 +1,6 @@
 {
   "ticker": "HRBR",
-  "timestamp": "2025-12-13T04:55:43.357121",
+  "timestamp": "2025-12-17T05:10:51.785793",
   "intraday_data": {
     "status": "no_data",
     "message": "No intraday data available"
@@ -29,16 +29,39 @@
       "status": "no_data"
     },
     "recommendations": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
+      "status": "no_data"
     }
   },
   "holders_data": {
     "major_holders": {
-      "status": "error"
+      "status": "success",
+      "data": [
+        {
+          "Value": 0.62468
+        },
+        {
+          "Value": 0.00034000003
+        },
+        {
+          "Value": 0.00092
+        },
+        {
+          "Value": 2.0
+        }
+      ]
     },
     "institutional_holders": {
-      "status": "error"
+      "status": "success",
+      "data": [
+        {
+          "Date Reported": "2025-09-30 00:00:00",
+          "Holder": "Williams Jones Wealth Management, LLC.",
+          "pctHeld": 0.00029999999,
+          "Shares": 20000,
+          "Value": 17000,
+          "pctChange": 0.0
+        }
+      ]
     }
   },
   "earnings_data": {
@@ -48,7 +71,7 @@
     },
     "calendar": {
       "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
+      "message": "'dict' object has no attribute 'empty'"
     }
   }
 }

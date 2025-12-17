@@ -1,25 +1,648 @@
 {
   "ticker": "GCI",
-  "timestamp": "2025-12-13T04:30:07.702756",
+  "timestamp": "2025-12-17T04:41:47.171499",
   "intraday_data": {
     "status": "no_data",
     "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
-    "message": "argument of type 'NoneType' is not iterable"
+    "message": "Too Many Requests. Rate limited. Try after a while."
   },
   "financials": {
     "income_statement": {
+      "status": "no_data"
+    },
+    "balance_sheet": {
+      "status": "no_data"
+    },
+    "cash_flow": {
+      "status": "no_data"
+    }
+  },
+  "options_data": {
+    "status": "error",
+    "error_message": "Too Many Requests. Rate limited. Try after a while."
+  },
+  "news_data": {
+    "news": {
       "status": "success",
-      "rows": 50,
-      "columns": [
-        "2024-12-31 00:00:00",
-        "2023-12-31 00:00:00",
-        "2022-12-31 00:00:00",
-        "2021-12-31 00:00:00",
-        "2020-12-31 00:00:00"
-      ],
+      "count": 10,
       "data": [
         {
-          
+          "id": "b6b14cb2-034c-3054-acce-d786dea75f26",
+          "content": {
+            "id": "b6b14cb2-034c-3054-acce-d786dea75f26",
+            "contentType": "STORY",
+            "title": "At US$5.02, Is USA TODAY Co., Inc. (NYSE:TDAY) Worth Looking At Closely?",
+            "description": "",
+            "summary": "USA TODAY Co., Inc. ( NYSE:TDAY ), is not the largest company out there, but it saw a significant share price rise of...",
+            "pubDate": "2025-11-27T17:41:10Z",
+            "displayTime": "2025-11-27T17:41:10Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": {
+              "originalUrl": "https://media.zenfs.com/en/simply_wall_st__316/46d63f861174685d9a6bcebf459c180a",
+              "originalWidth": 1194,
+              "originalHeight": 432,
+              "caption": "",
+              "resolutions": [
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/pf0EMe6xPTl3mfT3rrcvzw--~B/aD00MzI7dz0xMTk0O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/simply_wall_st__316/46d63f861174685d9a6bcebf459c180a",
+                  "width": 1194,
+                  "height": 432,
+                  "tag": "original"
+                },
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/E47fEI3jBkYOj76P9uvBQQ--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/simply_wall_st__316/46d63f861174685d9a6bcebf459c180a",
+                  "width": 170,
+                  "height": 128,
+                  "tag": "170x128"
+                }
+              ]
+            },
+            "provider": {
+              "displayName": "Simply Wall St.",
+              "url": "https://simplywall.st/"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/us-5-02-usa-today-174110948.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/us-5-02-usa-today-174110948.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        },
+        {
+          "id": "20597103-6a18-347a-a4b0-2d3bf1138e09",
+          "content": {
+            "id": "20597103-6a18-347a-a4b0-2d3bf1138e09",
+            "contentType": "STORY",
+            "title": "We Don\u2019t Think Gannett's (NYSE:GCI) Earnings Should Make Shareholders Too Comfortable",
+            "description": "",
+            "summary": "Shareholders were pleased with the recent earnings report from Gannett Co., Inc. ( NYSE:GCI ). Despite this, we feel...",
+            "pubDate": "2025-11-07T11:10:00Z",
+            "displayTime": "2025-11-07T11:10:00Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": {
+              "originalUrl": "https://media.zenfs.com/en/simply_wall_st__316/46d63f861174685d9a6bcebf459c180a",
+              "originalWidth": 1194,
+              "originalHeight": 432,
+              "caption": "",
+              "resolutions": [
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/pf0EMe6xPTl3mfT3rrcvzw--~B/aD00MzI7dz0xMTk0O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/simply_wall_st__316/46d63f861174685d9a6bcebf459c180a",
+                  "width": 1194,
+                  "height": 432,
+                  "tag": "original"
+                },
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/E47fEI3jBkYOj76P9uvBQQ--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/simply_wall_st__316/46d63f861174685d9a6bcebf459c180a",
+                  "width": 170,
+                  "height": 128,
+                  "tag": "170x128"
+                }
+              ]
+            },
+            "provider": {
+              "displayName": "Simply Wall St.",
+              "url": "https://simplywall.st/"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/don-t-think-gannetts-nyse-111000233.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/don-t-think-gannetts-nyse-111000233.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        },
+        {
+          "id": "fc14a861-d94c-3655-80da-23acad94268b",
+          "content": {
+            "id": "fc14a861-d94c-3655-80da-23acad94268b",
+            "contentType": "STORY",
+            "title": "Gannett (GCI) Margins Buoyed by $28.5M One-Off Gain, Casting Doubt on Earnings Quality",
+            "description": "",
+            "summary": "Gannett (GCI) just turned the corner to profitability over the past year, but forward-looking guidance suggests headwinds ahead. Earnings are forecast to decline at an annual rate of 32.8% over the next three years and revenue is expected to decrease 2.9% per year for the same period. Margins are healthier thanks to a recent one-off gain of $28.5 million. However, the company\u2019s streak of 68.2% annual earnings growth over the last five years appears unlikely to continue as forward estimates...",
+            "pubDate": "2025-11-01T22:07:27Z",
+            "displayTime": "2025-11-01T22:07:27Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": {
+              "originalUrl": "https://media.zenfs.com/en/simply_wall_st__316/46d63f861174685d9a6bcebf459c180a",
+              "originalWidth": 1194,
+              "originalHeight": 432,
+              "caption": "",
+              "resolutions": [
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/pf0EMe6xPTl3mfT3rrcvzw--~B/aD00MzI7dz0xMTk0O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/simply_wall_st__316/46d63f861174685d9a6bcebf459c180a",
+                  "width": 1194,
+                  "height": 432,
+                  "tag": "original"
+                },
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/E47fEI3jBkYOj76P9uvBQQ--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/simply_wall_st__316/46d63f861174685d9a6bcebf459c180a",
+                  "width": 170,
+                  "height": 128,
+                  "tag": "170x128"
+                }
+              ]
+            },
+            "provider": {
+              "displayName": "Simply Wall St.",
+              "url": "https://simplywall.st/"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/gannett-gci-margins-buoyed-28-220727804.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/gannett-gci-margins-buoyed-28-220727804.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        },
+        {
+          "id": "b2545f35-42bf-3d8e-bf68-de69a7210b40",
+          "content": {
+            "id": "b2545f35-42bf-3d8e-bf68-de69a7210b40",
+            "contentType": "STORY",
+            "title": "Gannett Co Inc (GCI) Q3 2025 Earnings Call Highlights: Digital Revenue Milestones and Strategic ...",
+            "description": "",
+            "summary": "Gannett Co Inc (GCI) reduces debt, boosts digital revenue, and secures a pivotal AI deal with Microsoft amidst revenue challenges.",
+            "pubDate": "2025-10-30T20:26:47Z",
+            "displayTime": "2025-10-30T20:26:47Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": {
+              "originalUrl": "https://media.zenfs.com/en/us.finance.gurufocus/3599a8ddb9653c1931d4d90c88d2fdd6",
+              "originalWidth": 400,
+              "originalHeight": 400,
+              "caption": "",
+              "resolutions": [
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/cFqkZ3Z6n5RVsj23CbxX.Q--~B/aD00MDA7dz00MDA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/us.finance.gurufocus/3599a8ddb9653c1931d4d90c88d2fdd6",
+                  "width": 400,
+                  "height": 400,
+                  "tag": "original"
+                },
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/zhDwCM2RQxtr63Hf1Bqw1A--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/us.finance.gurufocus/3599a8ddb9653c1931d4d90c88d2fdd6",
+                  "width": 170,
+                  "height": 128,
+                  "tag": "170x128"
+                }
+              ]
+            },
+            "provider": {
+              "displayName": "GuruFocus.com",
+              "url": "http://www.gurufocus.com/"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/gannett-co-inc-gci-q3-202647687.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/gannett-co-inc-gci-q3-202647687.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        },
+        {
+          "id": "6fde1f96-040d-32f4-9bca-03e9927042a7",
+          "content": {
+            "id": "6fde1f96-040d-32f4-9bca-03e9927042a7",
+            "contentType": "STORY",
+            "title": "Gannett: Q3 Earnings Snapshot",
+            "description": "",
+            "summary": "PITTSFORD, N.Y. (AP) \u2014 Gannett Co., Inc. GCI) on Thursday reported a loss of $39.2 million in its third quarter. On a per-share basis, the Pittsford, New York-based company said it had a loss of 27 cents.",
+            "pubDate": "2025-10-30T12:12:23Z",
+            "displayTime": "2025-10-30T12:12:23Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": null,
+            "provider": {
+              "displayName": "Associated Press Finance",
+              "url": "http://www.ap.org/"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/gannett-q3-earnings-snapshot-121223700.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/gannett-q3-earnings-snapshot-121223700.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        },
+        {
+          "id": "3e8e3000-978f-39ad-8cac-cb31e114a000",
+          "content": {
+            "id": "3e8e3000-978f-39ad-8cac-cb31e114a000",
+            "contentType": "STORY",
+            "title": "Gannett's (NYSE:GCI) investors will be pleased with their strong 143% return over the last five years",
+            "description": "",
+            "summary": "When you buy a stock there is always a possibility that it could drop 100%. But on a lighter note, a good company can...",
+            "pubDate": "2025-09-04T14:14:31Z",
+            "displayTime": "2025-09-04T14:14:31Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": {
+              "originalUrl": "https://media.zenfs.com/en/simply_wall_st__316/46d63f861174685d9a6bcebf459c180a",
+              "originalWidth": 1194,
+              "originalHeight": 432,
+              "caption": "",
+              "resolutions": [
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/pf0EMe6xPTl3mfT3rrcvzw--~B/aD00MzI7dz0xMTk0O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/simply_wall_st__316/46d63f861174685d9a6bcebf459c180a",
+                  "width": 1194,
+                  "height": 432,
+                  "tag": "original"
+                },
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/E47fEI3jBkYOj76P9uvBQQ--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/simply_wall_st__316/46d63f861174685d9a6bcebf459c180a",
+                  "width": 170,
+                  "height": 128,
+                  "tag": "170x128"
+                }
+              ]
+            },
+            "provider": {
+              "displayName": "Simply Wall St.",
+              "url": "https://simplywall.st/"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/gannetts-nyse-gci-investors-pleased-141431240.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/gannetts-nyse-gci-investors-pleased-141431240.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        },
+        {
+          "id": "2cfe7c87-05c0-357f-baed-f78f274e8d9a",
+          "content": {
+            "id": "2cfe7c87-05c0-357f-baed-f78f274e8d9a",
+            "contentType": "STORY",
+            "title": "Gannett (NYSE:GCI) Is Posting Solid Earnings, But It Is Not All Good News",
+            "description": "",
+            "summary": "NYSE:GCI 1 Year Share Price vs Fair Value Explore Gannett's Fair Values from the Community and select yours...",
+            "pubDate": "2025-08-08T13:49:35Z",
+            "displayTime": "2025-08-08T13:49:35Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": {
+              "originalUrl": "https://media.zenfs.com/en/simply_wall_st__316/46d63f861174685d9a6bcebf459c180a",
+              "originalWidth": 1194,
+              "originalHeight": 432,
+              "caption": "",
+              "resolutions": [
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/pf0EMe6xPTl3mfT3rrcvzw--~B/aD00MzI7dz0xMTk0O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/simply_wall_st__316/46d63f861174685d9a6bcebf459c180a",
+                  "width": 1194,
+                  "height": 432,
+                  "tag": "original"
+                },
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/E47fEI3jBkYOj76P9uvBQQ--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/simply_wall_st__316/46d63f861174685d9a6bcebf459c180a",
+                  "width": 170,
+                  "height": 128,
+                  "tag": "170x128"
+                }
+              ]
+            },
+            "provider": {
+              "displayName": "Simply Wall St.",
+              "url": "https://simplywall.st/"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/gannett-nyse-gci-posting-solid-134935428.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/gannett-nyse-gci-posting-solid-134935428.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        },
+        {
+          "id": "68002ba9-703f-3046-bcfc-5f06d9ea1415",
+          "content": {
+            "id": "68002ba9-703f-3046-bcfc-5f06d9ea1415",
+            "contentType": "STORY",
+            "title": "Gannett (GCI) Showed Recovery from Q1 Lows",
+            "description": "",
+            "summary": "Miller Value Partners, an investment management company, released its \u201cDeep Value Strategy\u201d second-quarter 2025 investor letter. A copy of the letter can be downloaded here. The first half of the year mirrored 2020, with tariff and Covid fears driving the VIX Index over 50 and the U.S. Economic Policy Uncertainty Index reaching an all-time high. [\u2026]",
+            "pubDate": "2025-08-08T13:10:45Z",
+            "displayTime": "2025-08-08T13:10:45Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": {
+              "originalUrl": "https://media.zenfs.com/en/insidermonkey.com/828108594ba4bc94488a86a38c90d380",
+              "originalWidth": 768,
+              "originalHeight": 430,
+              "caption": "15 AI Stocks Taking Wall Street by Storm",
+              "resolutions": [
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/my0GllUJucSoO6am6jHbAg--~B/aD00MzA7dz03Njg7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/insidermonkey.com/828108594ba4bc94488a86a38c90d380",
+                  "width": 768,
+                  "height": 430,
+                  "tag": "original"
+                },
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/0mUUoQwKpZXOdpCYsakEbA--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/insidermonkey.com/828108594ba4bc94488a86a38c90d380",
+                  "width": 170,
+                  "height": 128,
+                  "tag": "170x128"
+                }
+              ]
+            },
+            "provider": {
+              "displayName": "Insider Monkey",
+              "url": "http://www.insidermonkey.com"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/gannett-gci-showed-recovery-q1-131045790.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/gannett-gci-showed-recovery-q1-131045790.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        },
+        {
+          "id": "a89f2d6b-c358-3bb7-95c7-efeb97de15ca",
+          "content": {
+            "id": "a89f2d6b-c358-3bb7-95c7-efeb97de15ca",
+            "contentType": "STORY",
+            "title": "Gannett Second Quarter 2025 Earnings: EPS Beats Expectations, Revenues Lag",
+            "description": "",
+            "summary": "Gannett ( NYSE:GCI ) Second Quarter 2025 Results Key Financial Results Revenue: US$584.9m (down 8.6% from 2Q 2024). Net...",
+            "pubDate": "2025-08-03T14:42:33Z",
+            "displayTime": "2025-08-03T14:42:33Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": {
+              "originalUrl": "https://media.zenfs.com/en/simply_wall_st__316/78a8c60a6283aea0450523395306d38c",
+              "originalWidth": 945,
+              "originalHeight": 636,
+              "caption": "",
+              "resolutions": [
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/5Vpve0Pc2F3m_L3fs2p_dQ--~B/aD02MzY7dz05NDU7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/simply_wall_st__316/78a8c60a6283aea0450523395306d38c",
+                  "width": 945,
+                  "height": 636,
+                  "tag": "original"
+                },
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/5K6kmrQzRk.k.11fs9N_QA--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/simply_wall_st__316/78a8c60a6283aea0450523395306d38c",
+                  "width": 170,
+                  "height": 128,
+                  "tag": "170x128"
+                }
+              ]
+            },
+            "provider": {
+              "displayName": "Simply Wall St.",
+              "url": "https://simplywall.st/"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/gannett-second-quarter-2025-earnings-144233729.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/gannett-second-quarter-2025-earnings-144233729.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        },
+        {
+          "id": "ccd66255-0572-3f2f-a9a4-44989955a852",
+          "content": {
+            "id": "ccd66255-0572-3f2f-a9a4-44989955a852",
+            "contentType": "STORY",
+            "title": "Gannett Co Inc (GCI) Q2 2025 Earnings Call Highlights: Strategic Moves and Financial Gains Amid ...",
+            "description": "",
+            "summary": "Gannett Co Inc (GCI) reports significant EBITDA and cash flow growth, while navigating revenue declines and leveraging AI partnerships for future gains.",
+            "pubDate": "2025-08-01T11:00:39Z",
+            "displayTime": "2025-08-01T11:00:39Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": {
+              "originalUrl": "https://media.zenfs.com/en/us.finance.gurufocus/3599a8ddb9653c1931d4d90c88d2fdd6",
+              "originalWidth": 400,
+              "originalHeight": 400,
+              "caption": "",
+              "resolutions": [
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/cFqkZ3Z6n5RVsj23CbxX.Q--~B/aD00MDA7dz00MDA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/us.finance.gurufocus/3599a8ddb9653c1931d4d90c88d2fdd6",
+                  "width": 400,
+                  "height": 400,
+                  "tag": "original"
+                },
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/zhDwCM2RQxtr63Hf1Bqw1A--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/us.finance.gurufocus/3599a8ddb9653c1931d4d90c88d2fdd6",
+                  "width": 170,
+                  "height": 128,
+                  "tag": "170x128"
+                }
+              ]
+            },
+            "provider": {
+              "displayName": "GuruFocus.com",
+              "url": "http://www.gurufocus.com/"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/gannett-co-inc-gci-q2-110039368.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/gannett-co-inc-gci-q2-110039368.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        }
+      ]
+    },
+    "recommendations": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  },
+  "holders_data": {
+    "major_holders": {
+      "status": "error"
+    },
+    "institutional_holders": {
+      "status": "error"
+    }
+  },
+  "earnings_data": {
+    "earnings": {
+      "status": "error",
+      "message": "'NoneType' object has no attribute 'empty'"
+    },
+    "calendar": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  }
+}

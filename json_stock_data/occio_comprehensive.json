@@ -1,37 +1,23 @@
 {
   "ticker": "OCCIO",
-  "timestamp": "2025-12-13T05:06:17.233091",
+  "timestamp": "2025-12-17T05:22:27.883480",
   "intraday_data": {
     "status": "success",
-    "rows": 4,
+    "rows": 2,
     "data": [
       {
-        "Close OCCIN": 24.6200008392334,
-        "High OCCIN": 24.6200008392334,
-        "Low OCCIN": 24.6200008392334,
-        "Open OCCIN": 24.6200008392334,
-        "Volume OCCIN": 0
+        "Close": 25.019899368286133,
+        "High": 25.019899368286133,
+        "Low": 25.019899368286133,
+        "Open": 25.019899368286133,
+        "Volume": 0
       },
       {
-        "Close OCCIN": 24.6200008392334,
-        "High OCCIN": 24.6200008392334,
-        "Low OCCIN": 24.6200008392334,
-        "Open OCCIN": 24.6200008392334,
-        "Volume OCCIN": 471
-      },
-      {
-        "Close OCCIN": 24.43000030517578,
-        "High OCCIN": 24.43000030517578,
-        "Low OCCIN": 24.43000030517578,
-        "Open OCCIN": 24.43000030517578,
-        "Volume OCCIN": 105
-      },
-      {
-        "Close OCCIN": 24.5,
-        "High OCCIN": 24.5,
-        "Low OCCIN": 24.5,
-        "Open OCCIN": 24.5,
-        "Volume OCCIN": 115
+        "Close": 25.009899139404297,
+        "High": 25.009899139404297,
+        "Low": 25.009899139404297,
+        "Open": 25.009899139404297,
+        "Volume": 230
       }
     ]
   },
@@ -59,15 +45,16 @@
       "status": "no_data"
     },
     "recommendations": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   },
   "holders_data": {
     "major_holders": {
-      "status": "no_data"
+      "status": "error"
     },
     "institutional_holders": {
-      "status": "no_data"
+      "status": "error"
     }
   },
   "earnings_data": {

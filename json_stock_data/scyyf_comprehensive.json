@@ -1,25 +1,9 @@
 {
   "ticker": "SCYYF",
-  "timestamp": "2025-12-13T05:02:59.974642",
+  "timestamp": "2025-12-17T05:18:50.970014",
   "intraday_data": {
-    "status": "success",
-    "rows": 2,
-    "data": [
-      {
-        "Close": 0.0949999988079071,
-        "High": 0.0949999988079071,
-        "Low": 0.0949999988079071,
-        "Open": 0.0949999988079071,
-        "Volume": 0
-      },
-      {
-        "Close": 0.10849999636411667,
-        "High": 0.10849999636411667,
-        "Low": 0.10849999636411667,
-        "Open": 0.10849999636411667,
-        "Volume": 150
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -292,16 +276,15 @@
       ]
     },
     "recommendations": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
+      "status": "no_data"
     }
   },
   "holders_data": {
     "major_holders": {
-      "status": "error"
+      "status": "no_data"
     },
     "institutional_holders": {
-      "status": "error"
+      "status": "no_data"
     }
   },
   "earnings_data": {

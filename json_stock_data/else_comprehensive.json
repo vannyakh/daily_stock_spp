@@ -1,23 +1,16 @@
 {
   "ticker": "ELSE",
-  "timestamp": "2025-12-13T04:48:59.662647",
+  "timestamp": "2025-12-17T05:03:10.328588",
   "intraday_data": {
     "status": "success",
-    "rows": 2,
+    "rows": 1,
     "data": [
       {
-        "Close": 4.550000190734863,
-        "High": 4.550000190734863,
-        "Low": 4.550000190734863,
-        "Open": 4.550000190734863,
-        "Volume": 0
-      },
-      {
-        "Close": 4.475800037384033,
-        "High": 4.475800037384033,
-        "Low": 4.475800037384033,
-        "Open": 4.475800037384033,
-        "Volume": 1490
+        "Close AASP": 5.0,
+        "High AASP": 5.0,
+        "Low AASP": 5.0,
+        "Open AASP": 5.0,
+        "Volume AASP": 400
       }
     ]
   },
@@ -27,15 +20,45 @@
   },
   "financials": {
     "income_statement": {
-      "status": "success",
-      "rows": 42,
-      "columns": [
-        "2024-12-31 00:00:00",
-        "2023-12-31 00:00:00",
-        "2022-12-31 00:00:00",
-        "2021-12-31 00:00:00",
-        "2020-12-31 00:00:00"
-      ],
-      "data": [
-        {
-          
+      "status": "no_data"
+    },
+    "balance_sheet": {
+      "status": "no_data"
+    },
+    "cash_flow": {
+      "status": "no_data"
+    }
+  },
+  "options_data": {
+    "status": "error",
+    "error_message": "Too Many Requests. Rate limited. Try after a while."
+  },
+  "news_data": {
+    "news": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    },
+    "recommendations": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  },
+  "holders_data": {
+    "major_holders": {
+      "status": "error"
+    },
+    "institutional_holders": {
+      "status": "error"
+    }
+  },
+  "earnings_data": {
+    "earnings": {
+      "status": "error",
+      "message": "'NoneType' object has no attribute 'empty'"
+    },
+    "calendar": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  }
+}

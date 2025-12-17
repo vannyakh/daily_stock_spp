@@ -1,9 +1,32 @@
 {
   "ticker": "MGAM",
-  "timestamp": "2025-12-13T04:56:15.850633",
+  "timestamp": "2025-12-17T05:11:27.865861",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 3,
+    "data": [
+      {
+        "Close": 0.11999999731779099,
+        "High": 0.11999999731779099,
+        "Low": 0.11999999731779099,
+        "Open": 0.11999999731779099,
+        "Volume": 0
+      },
+      {
+        "Close": 0.11999999731779099,
+        "High": 0.11999999731779099,
+        "Low": 0.11999999731779099,
+        "Open": 0.11999999731779099,
+        "Volume": 300
+      },
+      {
+        "Close": 0.11999999731779099,
+        "High": 0.11999999731779099,
+        "Low": 0.11999999731779099,
+        "Open": 0.11999999731779099,
+        "Volume": 100
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -215,7 +238,8 @@
       ]
     },
     "recommendations": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   },
   "holders_data": {

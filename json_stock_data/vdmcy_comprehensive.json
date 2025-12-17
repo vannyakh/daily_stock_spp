@@ -1,39 +1,9 @@
 {
   "ticker": "VDMCY",
-  "timestamp": "2025-12-13T04:16:24.505199",
+  "timestamp": "2025-12-17T04:25:53.034207",
   "intraday_data": {
-    "status": "success",
-    "rows": 4,
-    "data": [
-      {
-        "Close": 7.909999847412109,
-        "High": 7.909999847412109,
-        "Low": 7.909999847412109,
-        "Open": 7.909999847412109,
-        "Volume": 0
-      },
-      {
-        "Close": 7.909999847412109,
-        "High": 7.909999847412109,
-        "Low": 7.909999847412109,
-        "Open": 7.909999847412109,
-        "Volume": 2500
-      },
-      {
-        "Close": 7.989999771118164,
-        "High": 7.989999771118164,
-        "Low": 7.989999771118164,
-        "Open": 7.989999771118164,
-        "Volume": 100
-      },
-      {
-        "Close": 7.860000133514404,
-        "High": 7.860000133514404,
-        "Low": 7.860000133514404,
-        "Open": 7.860000133514404,
-        "Volume": 500
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -672,7 +642,8 @@
       ]
     },
     "recommendations": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   },
   "holders_data": {

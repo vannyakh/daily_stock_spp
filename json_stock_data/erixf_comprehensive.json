@@ -1,34 +1,648 @@
 {
   "ticker": "ERIXF",
-  "timestamp": "2025-12-13T04:59:07.639638",
+  "timestamp": "2025-12-17T05:14:34.523001",
   "intraday_data": {
-    "status": "success",
-    "rows": 1,
-    "data": [
-      {
-        "Close": 9.5,
-        "High": 9.5,
-        "Low": 9.5,
-        "Open": 9.5,
-        "Volume": 100
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
-    "message": "argument of type 'NoneType' is not iterable"
+    "message": "Too Many Requests. Rate limited. Try after a while."
   },
   "financials": {
     "income_statement": {
+      "status": "no_data"
+    },
+    "balance_sheet": {
+      "status": "no_data"
+    },
+    "cash_flow": {
+      "status": "no_data"
+    }
+  },
+  "options_data": {
+    "status": "error",
+    "error_message": "Too Many Requests. Rate limited. Try after a while."
+  },
+  "news_data": {
+    "news": {
       "status": "success",
-      "rows": 50,
-      "columns": [
-        "2024-12-31 00:00:00",
-        "2023-12-31 00:00:00",
-        "2022-12-31 00:00:00",
-        "2021-12-31 00:00:00",
-        "2020-12-31 00:00:00"
-      ],
+      "count": 10,
       "data": [
         {
-          
+          "id": "931f3383-0cf7-3fad-a47c-729e9d67c67c",
+          "content": {
+            "id": "931f3383-0cf7-3fad-a47c-729e9d67c67c",
+            "contentType": "STORY",
+            "title": "Does Ericsson\u2019s 67.6% Three Year Surge Still Leave Room for Long Term Value?",
+            "description": "",
+            "summary": "Wondering if Telefonaktiebolaget LM Ericsson is quietly trading below what it is really worth? This breakdown is for you if you are trying to separate genuine value from just another telecom name on your watchlist. The share price is roughly flat year to date at around kr89.6, with a 1 year gain of 3.3% but a much stronger 67.6% rise over 3 years. This hints that the real story has been unfolding over a longer horizon than the last few weeks. Recent headlines have focused on Ericsson\u2019s push...",
+            "pubDate": "2025-12-17T04:25:57Z",
+            "displayTime": "2025-12-17T04:25:57Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": {
+              "originalUrl": "https://media.zenfs.com/en/simply_wall_st__316/de3693c96ca28c16427680d76341d044",
+              "originalWidth": 1194,
+              "originalHeight": 432,
+              "caption": "",
+              "resolutions": [
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/d4E4P3C1gbs8FgjLBwQDxQ--~B/aD00MzI7dz0xMTk0O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/simply_wall_st__316/de3693c96ca28c16427680d76341d044",
+                  "width": 1194,
+                  "height": 432,
+                  "tag": "original"
+                },
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/19mEYbgmykgD1r0IMOjPKQ--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/simply_wall_st__316/de3693c96ca28c16427680d76341d044",
+                  "width": 170,
+                  "height": 128,
+                  "tag": "170x128"
+                }
+              ]
+            },
+            "provider": {
+              "displayName": "Simply Wall St.",
+              "url": "https://simplywall.st/"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/does-ericsson-67-6-three-042557300.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/does-ericsson-67-6-three-042557300.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        },
+        {
+          "id": "7803b996-e14f-3fe0-890f-7b547912ae09",
+          "content": {
+            "id": "7803b996-e14f-3fe0-890f-7b547912ae09",
+            "contentType": "STORY",
+            "title": "Ericsson (OM:ERIC B) Valuation Check After 3-Year Outperformance and Recent Share Price Rebound",
+            "description": "",
+            "summary": "Telefonaktiebolaget LM Ericsson (OM:ERIC B) has quietly outperformed over the past 3 years, with total returns above 65%, even as annual revenue and net income have recently edged slightly lower. See our latest analysis for Telefonaktiebolaget LM Ericsson. Over the past year, the share price has been choppy, with a slightly negative year to date share price return. However, a strong 90 day share price return of 20.11% suggests momentum is rebuilding and supports the 3 year total shareholder...",
+            "pubDate": "2025-12-16T20:07:19Z",
+            "displayTime": "2025-12-16T20:07:19Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": {
+              "originalUrl": "https://media.zenfs.com/en/simply_wall_st__316/de3693c96ca28c16427680d76341d044",
+              "originalWidth": 1194,
+              "originalHeight": 432,
+              "caption": "",
+              "resolutions": [
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/d4E4P3C1gbs8FgjLBwQDxQ--~B/aD00MzI7dz0xMTk0O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/simply_wall_st__316/de3693c96ca28c16427680d76341d044",
+                  "width": 1194,
+                  "height": 432,
+                  "tag": "original"
+                },
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/19mEYbgmykgD1r0IMOjPKQ--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/simply_wall_st__316/de3693c96ca28c16427680d76341d044",
+                  "width": 170,
+                  "height": 128,
+                  "tag": "170x128"
+                }
+              ]
+            },
+            "provider": {
+              "displayName": "Simply Wall St.",
+              "url": "https://simplywall.st/"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/ericsson-om-eric-b-valuation-200719872.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/ericsson-om-eric-b-valuation-200719872.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        },
+        {
+          "id": "f16b3d6d-635d-388a-88d9-3d430bc3d9fe",
+          "content": {
+            "id": "f16b3d6d-635d-388a-88d9-3d430bc3d9fe",
+            "contentType": "STORY",
+            "title": "European Equities Traded in the US as American Depositary Receipts Fall in Tuesday Trading",
+            "description": "",
+            "summary": "European equities traded in the US as American depositary receipts tracked lower late Tuesday mornin",
+            "pubDate": "2025-12-16T16:02:25Z",
+            "displayTime": "2025-12-16T16:02:25Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": null,
+            "provider": {
+              "displayName": "MT Newswires",
+              "url": "https://www.mtnewswires.com/"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/european-equities-traded-us-american-160225710.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/european-equities-traded-us-american-160225710.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": true,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        },
+        {
+          "id": "bf7b5557-b313-3169-88e1-cd88a772b2ed",
+          "content": {
+            "id": "bf7b5557-b313-3169-88e1-cd88a772b2ed",
+            "contentType": "STORY",
+            "title": "Is Ericsson (ERIC) Stock Undervalued Right Now?",
+            "description": "",
+            "summary": "Here at Zacks, our focus is on the proven Zacks Rank system, which emphasizes earnings estimates and estimate revisions to find great stocks. Nevertheless, we are always paying attention to the latest value, growth, and momentum trends to underscore strong picks.",
+            "pubDate": "2025-12-16T14:40:04Z",
+            "displayTime": "2025-12-16T14:40:04Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": {
+              "originalUrl": "https://media.zenfs.com/en/zacks.com/e8e4b0344809eaac6d73c9fd25fd180a",
+              "originalWidth": 900,
+              "originalHeight": 600,
+              "caption": "",
+              "resolutions": [
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/7h8ntzJXcDOdVmDKQ08gRg--~B/aD02MDA7dz05MDA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/zacks.com/e8e4b0344809eaac6d73c9fd25fd180a",
+                  "width": 900,
+                  "height": 600,
+                  "tag": "original"
+                },
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/HPPe9cVpY.5CDqgVwfXxLg--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/zacks.com/e8e4b0344809eaac6d73c9fd25fd180a",
+                  "width": 170,
+                  "height": 128,
+                  "tag": "170x128"
+                }
+              ]
+            },
+            "provider": {
+              "displayName": "Zacks",
+              "url": "http://www.zacks.com/"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/ericsson-eric-stock-undervalued-now-144004053.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/ericsson-eric-stock-undervalued-now-144004053.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        },
+        {
+          "id": "f651aacd-7dd3-3f53-9823-0409c8b90d07",
+          "content": {
+            "id": "f651aacd-7dd3-3f53-9823-0409c8b90d07",
+            "contentType": "STORY",
+            "title": "How Recent Developments Are Rewriting The Ericsson Investment Story",
+            "description": "",
+            "summary": "Telefonaktiebolaget LM Ericsson's latest narrative centers on a price target framework that has shifted more in tone than in numbers, as analysts recalibrate their views on execution risks and growth prospects. With the fair value estimate anchored around SEK 87.4 per share and a slightly higher discount rate hinting at a touch more caution on risk, the long term revenue outlook remains broadly unchanged. This underscores a tug of war between optimism on operational delivery and skepticism...",
+            "pubDate": "2025-12-10T03:15:15Z",
+            "displayTime": "2025-12-10T03:15:15Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": {
+              "originalUrl": "https://media.zenfs.com/en/simply_wall_st__316/de3693c96ca28c16427680d76341d044",
+              "originalWidth": 1194,
+              "originalHeight": 432,
+              "caption": "",
+              "resolutions": [
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/d4E4P3C1gbs8FgjLBwQDxQ--~B/aD00MzI7dz0xMTk0O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/simply_wall_st__316/de3693c96ca28c16427680d76341d044",
+                  "width": 1194,
+                  "height": 432,
+                  "tag": "original"
+                },
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/19mEYbgmykgD1r0IMOjPKQ--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/simply_wall_st__316/de3693c96ca28c16427680d76341d044",
+                  "width": 170,
+                  "height": 128,
+                  "tag": "170x128"
+                }
+              ]
+            },
+            "provider": {
+              "displayName": "Simply Wall St.",
+              "url": "https://simplywall.st/"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/recent-developments-rewriting-ericsson-investment-031515282.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/recent-developments-rewriting-ericsson-investment-031515282.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        },
+        {
+          "id": "82d1df96-9620-319d-b36a-e504bf89ffd3",
+          "content": {
+            "id": "82d1df96-9620-319d-b36a-e504bf89ffd3",
+            "contentType": "STORY",
+            "title": "ERIC or MSI: Which Is the Better Value Stock Right Now?",
+            "description": "",
+            "summary": "ERIC vs. MSI: Which Stock Is the Better Value Option?",
+            "pubDate": "2025-12-08T16:40:04Z",
+            "displayTime": "2025-12-08T16:40:04Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": {
+              "originalUrl": "https://media.zenfs.com/en/zacks.com/ac90b3d74679f6d01a122aa033d8a9a4",
+              "originalWidth": 900,
+              "originalHeight": 600,
+              "caption": "",
+              "resolutions": [
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/9naTdeJlVMX28sdlDpLdrQ--~B/aD02MDA7dz05MDA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/zacks.com/ac90b3d74679f6d01a122aa033d8a9a4",
+                  "width": 900,
+                  "height": 600,
+                  "tag": "original"
+                },
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/FPwXGsyxPV4rpg4GqtBI5w--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/zacks.com/ac90b3d74679f6d01a122aa033d8a9a4",
+                  "width": 170,
+                  "height": 128,
+                  "tag": "170x128"
+                }
+              ]
+            },
+            "provider": {
+              "displayName": "Zacks",
+              "url": "http://www.zacks.com/"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/eric-msi-better-value-stock-164004585.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/eric-msi-better-value-stock-164004585.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        },
+        {
+          "id": "691b6387-e7c7-3c31-9390-629edc40a3b8",
+          "content": {
+            "id": "691b6387-e7c7-3c31-9390-629edc40a3b8",
+            "contentType": "STORY",
+            "title": "Assessing Ericsson (OM:ERIC B) Valuation: Diverging Signals from Narrative and DCF Models",
+            "description": "",
+            "summary": "Telefonaktiebolaget LM Ericsson (OM:ERIC B) shares have seen some movement this week, catching the attention of investors curious about the forces shaping the telecom giant\u2019s current valuation. The company\u2019s recent history shows both competitive challenges as well as long-term technology bets. See our latest analysis for Telefonaktiebolaget LM Ericsson. While Telefonaktiebolaget LM Ericsson\u2019s share price pulled back 4.3% over the past month, it still shows notable momentum with a 21% share...",
+            "pubDate": "2025-11-28T20:05:14Z",
+            "displayTime": "2025-11-28T20:05:14Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": {
+              "originalUrl": "https://media.zenfs.com/en/simply_wall_st__316/de3693c96ca28c16427680d76341d044",
+              "originalWidth": 1194,
+              "originalHeight": 432,
+              "caption": "",
+              "resolutions": [
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/d4E4P3C1gbs8FgjLBwQDxQ--~B/aD00MzI7dz0xMTk0O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/simply_wall_st__316/de3693c96ca28c16427680d76341d044",
+                  "width": 1194,
+                  "height": 432,
+                  "tag": "original"
+                },
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/19mEYbgmykgD1r0IMOjPKQ--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/simply_wall_st__316/de3693c96ca28c16427680d76341d044",
+                  "width": 170,
+                  "height": 128,
+                  "tag": "170x128"
+                }
+              ]
+            },
+            "provider": {
+              "displayName": "Simply Wall St.",
+              "url": "https://simplywall.st/"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/assessing-ericsson-om-eric-b-200514537.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/assessing-ericsson-om-eric-b-200514537.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        },
+        {
+          "id": "1e61f6c8-c535-3060-b1a5-b519afa23678",
+          "content": {
+            "id": "1e61f6c8-c535-3060-b1a5-b519afa23678",
+            "contentType": "STORY",
+            "title": "Is Ericsson\u2019s Valuation Attractive After New 5G Partnerships and a 6.1% Stock Gain?",
+            "description": "",
+            "summary": "Curious whether Telefonaktiebolaget LM Ericsson is a bargain or just getting started? Here is a breakdown of the value angle, whether you are looking for a smart buy or simply want to avoid overpaying. The stock has climbed 6.1% over the past year and is up 54.4% over three years, although price movements have been fairly flat over the past month. Recent headlines highlight Ericsson\u2019s ongoing push into 5G infrastructure and new global partnerships, which has brought investor attention back...",
+            "pubDate": "2025-11-28T16:08:51Z",
+            "displayTime": "2025-11-28T16:08:51Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": {
+              "originalUrl": "https://media.zenfs.com/en/simply_wall_st__316/de3693c96ca28c16427680d76341d044",
+              "originalWidth": 1194,
+              "originalHeight": 432,
+              "caption": "",
+              "resolutions": [
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/d4E4P3C1gbs8FgjLBwQDxQ--~B/aD00MzI7dz0xMTk0O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/simply_wall_st__316/de3693c96ca28c16427680d76341d044",
+                  "width": 1194,
+                  "height": 432,
+                  "tag": "original"
+                },
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/19mEYbgmykgD1r0IMOjPKQ--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/simply_wall_st__316/de3693c96ca28c16427680d76341d044",
+                  "width": 170,
+                  "height": 128,
+                  "tag": "170x128"
+                }
+              ]
+            },
+            "provider": {
+              "displayName": "Simply Wall St.",
+              "url": "https://simplywall.st/"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/ericsson-valuation-attractive-5g-partnerships-160851996.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/ericsson-valuation-attractive-5g-partnerships-160851996.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        },
+        {
+          "id": "9fdcd1c9-19e6-38dd-adc8-15a7a860e0f6",
+          "content": {
+            "id": "9fdcd1c9-19e6-38dd-adc8-15a7a860e0f6",
+            "contentType": "STORY",
+            "title": "Exclusive-Huawei, ZTE seal 5G deals in Vietnam after US tariffs, as ties with China warm\u200b",
+            "description": "",
+            "summary": "HANOI (Reuters) -China's leading telecommunication firms Huawei and ZTE have won a string of contracts this year to supply 5G equipment in Vietnam, in another sign of Hanoi's strengthening bonds with Beijing, stirring concern among Western officials, seven people with direct knowledge of \u200bthe situation told Reuters.  For years, Vietnam was seen as reluctant to use Chinese technology in sensitive infrastructure, but in recent months it has embraced Chinese tech \u200ccompanies as sometimes frosty relations with its northern neighbour have warmed while ties with Washington have soured over tariffs on Vietnamese goods.",
+            "pubDate": "2025-11-28T00:36:22Z",
+            "displayTime": "2025-11-28T00:36:22Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": {
+              "originalUrl": "https://media.zenfs.com/en/reuters-finance.com/6669677399d9b1c0386dd436fd607372",
+              "originalWidth": 800,
+              "originalHeight": 533,
+              "caption": "Internet Expo at the World Internet Conference in Wuzhen town",
+              "resolutions": [
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/5u4MUTB6Zqc99kM5BGP7gQ--~B/aD01MzM7dz04MDA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/reuters-finance.com/6669677399d9b1c0386dd436fd607372",
+                  "width": 800,
+                  "height": 533,
+                  "tag": "original"
+                },
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/yanAh5mQ_vVolmSmICvJKg--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/reuters-finance.com/6669677399d9b1c0386dd436fd607372",
+                  "width": 170,
+                  "height": 128,
+                  "tag": "170x128"
+                }
+              ]
+            },
+            "provider": {
+              "displayName": "Reuters",
+              "url": "http://www.reuters.com/"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/exclusive-huawei-zte-seal-5g-003622183.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/exclusive-huawei-zte-seal-5g-003622183.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        },
+        {
+          "id": "edf16cdf-ac66-36ec-bf10-8530d74df057",
+          "content": {
+            "id": "edf16cdf-ac66-36ec-bf10-8530d74df057",
+            "contentType": "STORY",
+            "title": "Should Value Investors Buy Ericsson (ERIC) Stock?",
+            "description": "",
+            "summary": "Here at Zacks, our focus is on the proven Zacks Rank system, which emphasizes earnings estimates and estimate revisions to find great stocks. Nevertheless, we are always paying attention to the latest value, growth, and momentum trends to underscore strong picks.",
+            "pubDate": "2025-11-27T14:40:04Z",
+            "displayTime": "2025-11-27T14:40:04Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": {
+              "originalUrl": "https://media.zenfs.com/en/zacks.com/26a86d59f0e8f1e82a35a92ae5684cd9",
+              "originalWidth": 900,
+              "originalHeight": 845,
+              "caption": "",
+              "resolutions": [
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/gUf3JPAiwp3PVjuDKftvaA--~B/aD04NDU7dz05MDA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/zacks.com/26a86d59f0e8f1e82a35a92ae5684cd9",
+                  "width": 900,
+                  "height": 845,
+                  "tag": "original"
+                },
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/eCx50FHAThtC2odHVlyBEw--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/zacks.com/26a86d59f0e8f1e82a35a92ae5684cd9",
+                  "width": 170,
+                  "height": 128,
+                  "tag": "170x128"
+                }
+              ]
+            },
+            "provider": {
+              "displayName": "Zacks",
+              "url": "http://www.zacks.com/"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/value-investors-buy-ericsson-eric-144004827.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/value-investors-buy-ericsson-eric-144004827.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        }
+      ]
+    },
+    "recommendations": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  },
+  "holders_data": {
+    "major_holders": {
+      "status": "error"
+    },
+    "institutional_holders": {
+      "status": "error"
+    }
+  },
+  "earnings_data": {
+    "earnings": {
+      "status": "error",
+      "message": "'NoneType' object has no attribute 'empty'"
+    },
+    "calendar": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  }
+}

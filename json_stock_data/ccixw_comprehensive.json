@@ -1,9 +1,39 @@
 {
   "ticker": "CCIXW",
-  "timestamp": "2025-12-13T05:04:37.923205",
+  "timestamp": "2025-12-17T05:20:30.900179",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 4,
+    "data": [
+      {
+        "Close CCIXU": 10.609999656677246,
+        "High CCIXU": 10.609999656677246,
+        "Low CCIXU": 10.609999656677246,
+        "Open CCIXU": 10.609999656677246,
+        "Volume CCIXU": 0
+      },
+      {
+        "Close CCIXU": 10.609999656677246,
+        "High CCIXU": 10.609999656677246,
+        "Low CCIXU": 10.609999656677246,
+        "Open CCIXU": 10.609999656677246,
+        "Volume CCIXU": 200
+      },
+      {
+        "Close CCIXU": 10.75,
+        "High CCIXU": 10.75,
+        "Low CCIXU": 10.75,
+        "Open CCIXU": 10.75,
+        "Volume CCIXU": 0
+      },
+      {
+        "Close CCIXU": 10.75,
+        "High CCIXU": 10.75,
+        "Low CCIXU": 10.75,
+        "Open CCIXU": 10.75,
+        "Volume CCIXU": 100
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -271,7 +301,8 @@
       ]
     },
     "recommendations": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   },
   "holders_data": {

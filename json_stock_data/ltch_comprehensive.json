@@ -1,9 +1,46 @@
 {
   "ticker": "LTCH",
-  "timestamp": "2025-12-13T04:48:53.781260",
+  "timestamp": "2025-12-17T05:03:03.035883",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 5,
+    "data": [
+      {
+        "Close EQTRF": 0.17389999330043793,
+        "High EQTRF": 0.17389999330043793,
+        "Low EQTRF": 0.17389999330043793,
+        "Open EQTRF": 0.17389999330043793,
+        "Volume EQTRF": 0
+      },
+      {
+        "Close EQTRF": 0.17389999330043793,
+        "High EQTRF": 0.17389999330043793,
+        "Low EQTRF": 0.17389999330043793,
+        "Open EQTRF": 0.17389999330043793,
+        "Volume EQTRF": 6470
+      },
+      {
+        "Close EQTRF": 0.16689999401569366,
+        "High EQTRF": 0.16689999401569366,
+        "Low EQTRF": 0.16689999401569366,
+        "Open EQTRF": 0.16689999401569366,
+        "Volume EQTRF": 11000
+      },
+      {
+        "Close EQTRF": 0.16500000655651093,
+        "High EQTRF": 0.16500000655651093,
+        "Low EQTRF": 0.16500000655651093,
+        "Open EQTRF": 0.16500000655651093,
+        "Volume EQTRF": 10000
+      },
+      {
+        "Close EQTRF": 0.16030000150203705,
+        "High EQTRF": 0.16030000150203705,
+        "Low EQTRF": 0.16030000150203705,
+        "Open EQTRF": 0.16030000150203705,
+        "Volume EQTRF": 9800
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -29,15 +66,16 @@
       "status": "no_data"
     },
     "recommendations": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   },
   "holders_data": {
     "major_holders": {
-      "status": "no_data"
+      "status": "error"
     },
     "institutional_holders": {
-      "status": "no_data"
+      "status": "error"
     }
   },
   "earnings_data": {

@@ -1,67 +1,9 @@
 {
   "ticker": "LFMDP",
-  "timestamp": "2025-12-13T05:11:08.676976",
+  "timestamp": "2025-12-17T05:27:51.734731",
   "intraday_data": {
-    "status": "success",
-    "rows": 8,
-    "data": [
-      {
-        "Close": 22.600000381469727,
-        "High": 22.600000381469727,
-        "Low": 22.600000381469727,
-        "Open": 22.600000381469727,
-        "Volume": 0
-      },
-      {
-        "Close": 22.5,
-        "High": 22.5,
-        "Low": 22.5,
-        "Open": 22.5,
-        "Volume": 342
-      },
-      {
-        "Close": 22.5,
-        "High": 22.520000457763672,
-        "Low": 22.5,
-        "Open": 22.520000457763672,
-        "Volume": 237
-      },
-      {
-        "Close": 22.4950008392334,
-        "High": 22.4950008392334,
-        "Low": 22.4950008392334,
-        "Open": 22.4950008392334,
-        "Volume": 153
-      },
-      {
-        "Close": 22.34000015258789,
-        "High": 22.34000015258789,
-        "Low": 22.34000015258789,
-        "Open": 22.34000015258789,
-        "Volume": 347
-      },
-      {
-        "Close": 21.989999771118164,
-        "High": 21.989999771118164,
-        "Low": 21.989999771118164,
-        "Open": 21.989999771118164,
-        "Volume": 400
-      },
-      {
-        "Close": 21.989999771118164,
-        "High": 21.989999771118164,
-        "Low": 21.989999771118164,
-        "Open": 21.989999771118164,
-        "Volume": 321
-      },
-      {
-        "Close": 22.768299102783203,
-        "High": 22.768299102783203,
-        "Low": 22.768299102783203,
-        "Open": 22.768299102783203,
-        "Volume": 202
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -681,7 +623,8 @@
       ]
     },
     "recommendations": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   },
   "holders_data": {

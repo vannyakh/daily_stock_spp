@@ -1,9 +1,32 @@
 {
   "ticker": "IBACR",
-  "timestamp": "2025-12-13T05:07:10.536903",
+  "timestamp": "2025-12-17T05:23:21.094635",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 3,
+    "data": [
+      {
+        "Close": 0.07010000199079514,
+        "High": 0.07010000199079514,
+        "Low": 0.06260000169277191,
+        "Open": 0.07000000029802322,
+        "Volume": 0
+      },
+      {
+        "Close": 0.07999999821186066,
+        "High": 0.07999999821186066,
+        "Low": 0.06260000169277191,
+        "Open": 0.07000000029802322,
+        "Volume": 1900
+      },
+      {
+        "Close": 0.07999999821186066,
+        "High": 0.07999999821186066,
+        "Low": 0.07999999821186066,
+        "Open": 0.07999999821186066,
+        "Volume": 0
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -93,8 +116,7 @@
       ]
     },
     "recommendations": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
+      "status": "no_data"
     }
   },
   "holders_data": {
