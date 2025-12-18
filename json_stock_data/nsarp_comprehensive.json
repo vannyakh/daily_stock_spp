@@ -1,18 +1,9 @@
 {
   "ticker": "NSARP",
-  "timestamp": "2025-12-17T05:23:04.674267",
+  "timestamp": "2025-12-18T04:48:37.719915",
   "intraday_data": {
-    "status": "success",
-    "rows": 1,
-    "data": [
-      {
-        "Close NSARO": 80.0,
-        "High NSARO": 80.0,
-        "Low NSARO": 80.0,
-        "Open NSARO": 80.0,
-        "Volume NSARO": 0
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -35,7 +26,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

@@ -1,25 +1,9 @@
 {
   "ticker": "RDACU",
-  "timestamp": "2025-12-17T05:23:14.721329",
+  "timestamp": "2025-12-18T04:48:41.280439",
   "intraday_data": {
-    "status": "success",
-    "rows": 2,
-    "data": [
-      {
-        "Close RDACR": 0.20029999315738678,
-        "High RDACR": 0.20999999344348907,
-        "Low RDACR": 0.20029999315738678,
-        "Open RDACR": 0.20999999344348907,
-        "Volume RDACR": 0
-      },
-      {
-        "Close RDACR": 0.20000000298023224,
-        "High RDACR": 0.20000000298023224,
-        "Low RDACR": 0.20000000298023224,
-        "Open RDACR": 0.20000000298023224,
-        "Volume RDACR": 598
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -42,7 +26,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

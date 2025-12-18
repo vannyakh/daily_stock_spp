@@ -1,9 +1,18 @@
 {
   "ticker": "CSDX",
-  "timestamp": "2025-12-17T05:23:33.573584",
+  "timestamp": "2025-12-18T04:48:49.046615",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 1,
+    "data": [
+      {
+        "Close": 0.1500999927520752,
+        "High": 0.1500999927520752,
+        "Low": 0.1500999927520752,
+        "Open": 0.1500999927520752,
+        "Volume": 2000
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -26,7 +35,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

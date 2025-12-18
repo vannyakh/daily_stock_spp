@@ -1,32 +1,9 @@
 {
   "ticker": "RMHI",
-  "timestamp": "2025-12-17T05:29:00.032990",
+  "timestamp": "2025-12-18T04:50:47.643660",
   "intraday_data": {
-    "status": "success",
-    "rows": 3,
-    "data": [
-      {
-        "Close": 2.7799999713897705,
-        "High": 2.7799999713897705,
-        "Low": 2.7799999713897705,
-        "Open": 2.7799999713897705,
-        "Volume": 0
-      },
-      {
-        "Close": 2.799999952316284,
-        "High": 2.799999952316284,
-        "Low": 2.799999952316284,
-        "Open": 2.799999952316284,
-        "Volume": 500
-      },
-      {
-        "Close": 2.819999933242798,
-        "High": 2.819999933242798,
-        "Low": 2.819999933242798,
-        "Open": 2.819999933242798,
-        "Volume": 400
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -49,7 +26,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

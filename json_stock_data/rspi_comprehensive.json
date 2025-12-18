@@ -1,57 +1,13 @@
 {
   "ticker": "RSPI",
-  "timestamp": "2025-12-17T05:11:13.356449",
+  "timestamp": "2025-12-18T04:43:14.103273",
   "intraday_data": {
-    "status": "success",
-    "rows": 6,
-    "data": [
-      {
-        "Close ATVK": 0.01889999955892563,
-        "High ATVK": 0.01889999955892563,
-        "Low ATVK": 0.01889999955892563,
-        "Open ATVK": 0.01889999955892563,
-        "Volume ATVK": 0
-      },
-      {
-        "Close ATVK": 0.01720000058412552,
-        "High ATVK": 0.01720000058412552,
-        "Low ATVK": 0.01720000058412552,
-        "Open ATVK": 0.01720000058412552,
-        "Volume ATVK": 21790
-      },
-      {
-        "Close ATVK": 0.01850000023841858,
-        "High ATVK": 0.01850000023841858,
-        "Low ATVK": 0.01850000023841858,
-        "Open ATVK": 0.01850000023841858,
-        "Volume ATVK": 75174
-      },
-      {
-        "Close ATVK": 0.016100000590085983,
-        "High ATVK": 0.016100000590085983,
-        "Low ATVK": 0.016100000590085983,
-        "Open ATVK": 0.016100000590085983,
-        "Volume ATVK": 1110
-      },
-      {
-        "Close ATVK": 0.017999999225139618,
-        "High ATVK": 0.017999999225139618,
-        "Low ATVK": 0.017999999225139618,
-        "Open ATVK": 0.017999999225139618,
-        "Volume ATVK": 5000
-      },
-      {
-        "Close ATVK": 0.01850000023841858,
-        "High ATVK": 0.01850000023841858,
-        "Low ATVK": 0.01850000023841858,
-        "Open ATVK": 0.01850000023841858,
-        "Volume ATVK": 54174
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
-    "message": "argument of type 'NoneType' is not iterable"
+    "message": "Too Many Requests. Rate limited. Try after a while."
   },
   "financials": {
     "income_statement": {
@@ -73,7 +29,8 @@
       "status": "no_data"
     },
     "recommendations": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   },
   "holders_data": {

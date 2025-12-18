@@ -1,10 +1,18 @@
 {
   "ticker": "OFSSH",
-  "timestamp": "2025-12-17T05:31:15.970572",
+  "timestamp": "2025-12-18T04:51:38.878858",
   "intraday_data": {
     "status": "success",
-    "rows": 0,
-    "data": []
+    "rows": 1,
+    "data": [
+      {
+        "Close": 23.428300857543945,
+        "High": 23.428300857543945,
+        "Low": 23.428300857543945,
+        "Open": 23.428300857543945,
+        "Volume": 0
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -27,7 +35,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

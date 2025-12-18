@@ -1,36 +1,13 @@
 {
   "ticker": "ESHAR",
-  "timestamp": "2025-12-17T05:25:15.850252",
+  "timestamp": "2025-12-18T04:49:23.860031",
   "intraday_data": {
-    "status": "success",
-    "rows": 3,
-    "data": [
-      {
-        "Close": 0.15000000596046448,
-        "High": 0.15000000596046448,
-        "Low": 0.15000000596046448,
-        "Open": 0.15000000596046448,
-        "Volume": 0
-      },
-      {
-        "Close": 0.1023000031709671,
-        "High": 0.1023000031709671,
-        "Low": 0.1023000031709671,
-        "Open": 0.1023000031709671,
-        "Volume": 168
-      },
-      {
-        "Close": 0.15000000596046448,
-        "High": 0.15000000596046448,
-        "Low": 0.09009999781847,
-        "Open": 0.09009999781847,
-        "Volume": 100
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
-    "message": "argument of type 'NoneType' is not iterable"
+    "message": "Too Many Requests. Rate limited. Try after a while."
   },
   "financials": {
     "income_statement": {
@@ -49,71 +26,8 @@
   },
   "news_data": {
     "news": {
-      "status": "success",
-      "count": 1,
-      "data": [
-        {
-          "id": "0e5f20ba-9853-3dd2-9b09-e62b2cb8fc4d",
-          "content": {
-            "id": "0e5f20ba-9853-3dd2-9b09-e62b2cb8fc4d",
-            "contentType": "STORY",
-            "title": "ESH Acquisition Corp. (NASDAQ:ESHA) is largely controlled by institutional shareholders who own 52% of the company",
-            "description": "",
-            "summary": "Key Insights Institutions' substantial holdings in ESH Acquisition implies that they have significant influence over...",
-            "pubDate": "2025-02-10T12:47:14Z",
-            "displayTime": "2025-02-10T12:47:14Z",
-            "isHosted": true,
-            "bypassModal": false,
-            "previewUrl": null,
-            "thumbnail": {
-              "originalUrl": "https://media.zenfs.com/en/simply_wall_st__316/f88d3d8c5618aa88ce2627c2a1cda340",
-              "originalWidth": 1194,
-              "originalHeight": 432,
-              "caption": "",
-              "resolutions": [
-                {
-                  "url": "https://s.yimg.com/uu/api/res/1.2/SSw8naZrBB1tKswm10P8gw--~B/aD00MzI7dz0xMTk0O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/simply_wall_st__316/f88d3d8c5618aa88ce2627c2a1cda340",
-                  "width": 1194,
-                  "height": 432,
-                  "tag": "original"
-                },
-                {
-                  "url": "https://s.yimg.com/uu/api/res/1.2/79qko4F_hdhwRlGyEfLjcw--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/simply_wall_st__316/f88d3d8c5618aa88ce2627c2a1cda340",
-                  "width": 170,
-                  "height": 128,
-                  "tag": "170x128"
-                }
-              ]
-            },
-            "provider": {
-              "displayName": "Simply Wall St.",
-              "url": "https://simplywall.st/"
-            },
-            "canonicalUrl": {
-              "url": "https://finance.yahoo.com/news/esh-acquisition-corp-nasdaq-esha-124714790.html",
-              "site": "finance",
-              "region": "US",
-              "lang": "en-US"
-            },
-            "clickThroughUrl": {
-              "url": "https://finance.yahoo.com/news/esh-acquisition-corp-nasdaq-esha-124714790.html",
-              "site": "finance",
-              "region": "US",
-              "lang": "en-US"
-            },
-            "metadata": {
-              "editorsPick": false
-            },
-            "finance": {
-              "premiumFinance": {
-                "isPremiumNews": false,
-                "isPremiumFreeNews": false
-              }
-            },
-            "storyline": null
-          }
-        }
-      ]
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

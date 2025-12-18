@@ -1,9 +1,53 @@
 {
   "ticker": "SCCD",
-  "timestamp": "2025-12-17T05:22:23.147179",
+  "timestamp": "2025-12-18T04:48:20.697053",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 6,
+    "data": [
+      {
+        "Close SCCF": 23.450000762939453,
+        "High SCCF": 23.450000762939453,
+        "Low SCCF": 23.450000762939453,
+        "Open SCCF": 23.450000762939453,
+        "Volume SCCF": 0
+      },
+      {
+        "Close SCCF": 22.940000534057617,
+        "High SCCF": 22.940000534057617,
+        "Low SCCF": 22.899999618530273,
+        "Open SCCF": 22.899999618530273,
+        "Volume SCCF": 923
+      },
+      {
+        "Close SCCF": 23.030099868774414,
+        "High SCCF": 23.030099868774414,
+        "Low SCCF": 23.030099868774414,
+        "Open SCCF": 23.030099868774414,
+        "Volume SCCF": 859
+      },
+      {
+        "Close SCCF": 23.06999969482422,
+        "High SCCF": 23.06999969482422,
+        "Low SCCF": 23.06999969482422,
+        "Open SCCF": 23.06999969482422,
+        "Volume SCCF": 0
+      },
+      {
+        "Close SCCF": 23.030000686645508,
+        "High SCCF": 23.030000686645508,
+        "Low SCCF": 23.030000686645508,
+        "Open SCCF": 23.030000686645508,
+        "Volume SCCF": 269
+      },
+      {
+        "Close SCCF": 22.8700008392334,
+        "High SCCF": 22.8700008392334,
+        "Low SCCF": 22.860000610351562,
+        "Open SCCF": 22.860000610351562,
+        "Volume SCCF": 973
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -26,7 +70,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

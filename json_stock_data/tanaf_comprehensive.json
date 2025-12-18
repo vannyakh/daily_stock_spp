@@ -1,81 +1,9 @@
 {
   "ticker": "TANAF",
-  "timestamp": "2025-12-17T05:22:58.594268",
+  "timestamp": "2025-12-18T04:48:34.543525",
   "intraday_data": {
-    "status": "success",
-    "rows": 10,
-    "data": [
-      {
-        "Close": 0.5,
-        "High": 0.5,
-        "Low": 0.5,
-        "Open": 0.5,
-        "Volume": 0
-      },
-      {
-        "Close": 0.30000001192092896,
-        "High": 0.30000001192092896,
-        "Low": 0.30000001192092896,
-        "Open": 0.30000001192092896,
-        "Volume": 30000
-      },
-      {
-        "Close": 0.25,
-        "High": 0.25,
-        "Low": 0.25,
-        "Open": 0.25,
-        "Volume": 30000
-      },
-      {
-        "Close": 0.25,
-        "High": 0.25,
-        "Low": 0.25,
-        "Open": 0.25,
-        "Volume": 20000
-      },
-      {
-        "Close": 0.25,
-        "High": 0.25,
-        "Low": 0.25,
-        "Open": 0.25,
-        "Volume": 50000
-      },
-      {
-        "Close": 0.25,
-        "High": 0.25,
-        "Low": 0.25,
-        "Open": 0.25,
-        "Volume": 30000
-      },
-      {
-        "Close": 0.25,
-        "High": 0.25,
-        "Low": 0.25,
-        "Open": 0.25,
-        "Volume": 20000
-      },
-      {
-        "Close": 0.47510001063346863,
-        "High": 0.47510001063346863,
-        "Low": 0.47510001063346863,
-        "Open": 0.47510001063346863,
-        "Volume": 1000
-      },
-      {
-        "Close": 0.6000000238418579,
-        "High": 0.6000000238418579,
-        "Low": 0.6000000238418579,
-        "Open": 0.6000000238418579,
-        "Volume": 1
-      },
-      {
-        "Close": 0.5,
-        "High": 0.5,
-        "Low": 0.5,
-        "Open": 0.5,
-        "Volume": 3279
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -98,10 +26,12 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   },
   "holders_data": {

@@ -1,6 +1,6 @@
 {
   "ticker": "MSSAR",
-  "timestamp": "2025-12-17T05:25:35.099602",
+  "timestamp": "2025-12-18T04:49:29.274231",
   "intraday_data": {
     "status": "success",
     "rows": 1,
@@ -9,14 +9,14 @@
         "Close SPKLW": 0.32989999651908875,
         "High SPKLW": 0.33000001311302185,
         "Low SPKLW": 0.32989999651908875,
-        "Open SPKLW": 0.33000001311302185,
-        "Volume SPKLW": 0
+        "Open SPKLW": 0.32989999651908875,
+        "Volume SPKLW": 2040
       }
     ]
   },
   "stock_info": {
     "status": "error",
-    "message": "argument of type 'NoneType' is not iterable"
+    "message": "Too Many Requests. Rate limited. Try after a while."
   },
   "financials": {
     "income_statement": {
@@ -35,7 +35,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

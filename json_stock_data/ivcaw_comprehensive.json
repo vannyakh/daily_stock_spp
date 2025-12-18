@@ -1,9 +1,25 @@
 {
   "ticker": "IVCAW",
-  "timestamp": "2025-12-17T05:25:28.236398",
+  "timestamp": "2025-12-18T04:49:28.039175",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 2,
+    "data": [
+      {
+        "Close DRMAW": 0.01899999938905239,
+        "High DRMAW": 0.01899999938905239,
+        "Low DRMAW": 0.01899999938905239,
+        "Open DRMAW": 0.01899999938905239,
+        "Volume DRMAW": 0
+      },
+      {
+        "Close DRMAW": 0.02500000037252903,
+        "High DRMAW": 0.02500000037252903,
+        "Low DRMAW": 0.02500000037252903,
+        "Open DRMAW": 0.02500000037252903,
+        "Volume DRMAW": 100
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -26,7 +42,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

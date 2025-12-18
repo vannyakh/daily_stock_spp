@@ -1,39 +1,9 @@
 {
   "ticker": "HUDAU",
-  "timestamp": "2025-12-17T05:25:43.966438",
+  "timestamp": "2025-12-18T04:49:34.458082",
   "intraday_data": {
-    "status": "success",
-    "rows": 4,
-    "data": [
-      {
-        "Close ONMDW": 0.13169999420642853,
-        "High ONMDW": 0.13169999420642853,
-        "Low ONMDW": 0.13169999420642853,
-        "Open ONMDW": 0.13169999420642853,
-        "Volume ONMDW": 0
-      },
-      {
-        "Close ONMDW": 0.1257999986410141,
-        "High ONMDW": 0.1257999986410141,
-        "Low ONMDW": 0.1257999986410141,
-        "Open ONMDW": 0.1257999986410141,
-        "Volume ONMDW": 2140
-      },
-      {
-        "Close ONMDW": 0.17260000109672546,
-        "High ONMDW": 0.17260000109672546,
-        "Low ONMDW": 0.15649999678134918,
-        "Open ONMDW": 0.17260000109672546,
-        "Volume ONMDW": 0
-      },
-      {
-        "Close ONMDW": 0.16750000417232513,
-        "High ONMDW": 0.16750000417232513,
-        "Low ONMDW": 0.16750000417232513,
-        "Open ONMDW": 0.16750000417232513,
-        "Volume ONMDW": 1089
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -56,7 +26,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

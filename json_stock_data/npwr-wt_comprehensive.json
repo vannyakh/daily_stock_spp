@@ -1,25 +1,9 @@
 {
   "ticker": "NPWR-WT",
-  "timestamp": "2025-12-17T05:21:47.347453",
+  "timestamp": "2025-12-18T04:48:05.926998",
   "intraday_data": {
-    "status": "success",
-    "rows": 2,
-    "data": [
-      {
-        "Close": 0.6995000243186951,
-        "High": 0.6995000243186951,
-        "Low": 0.6261000037193298,
-        "Open": 0.6261000037193298,
-        "Volume": 0
-      },
-      {
-        "Close": 0.7200000286102295,
-        "High": 0.7200000286102295,
-        "Low": 0.7200000286102295,
-        "Open": 0.7200000286102295,
-        "Volume": 100
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -42,7 +26,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

@@ -1,18 +1,9 @@
 {
   "ticker": "JWSWF",
-  "timestamp": "2025-12-17T05:24:09.469143",
+  "timestamp": "2025-12-18T04:49:01.686990",
   "intraday_data": {
-    "status": "success",
-    "rows": 1,
-    "data": [
-      {
-        "Close": 0.06499999761581421,
-        "High": 0.06499999761581421,
-        "Low": 0.06499999761581421,
-        "Open": 0.06499999761581421,
-        "Volume": 0
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -35,7 +26,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

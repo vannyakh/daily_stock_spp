@@ -1,179 +1,34 @@
 {
   "ticker": "NCRA",
-  "timestamp": "2025-12-17T05:03:53.069828",
+  "timestamp": "2025-12-18T04:39:51.640600",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 1,
+    "data": [
+      {
+        "Close NMEX": 0.1899999976158142,
+        "High NMEX": 0.1899999976158142,
+        "Low NMEX": 0.1899999976158142,
+        "Open NMEX": 0.1899999976158142,
+        "Volume NMEX": 0
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
-    "message": "Too Many Requests. Rate limited. Try after a while."
+    "message": "argument of type 'NoneType' is not iterable"
   },
   "financials": {
     "income_statement": {
-      "status": "no_data"
-    },
-    "balance_sheet": {
-      "status": "no_data"
-    },
-    "cash_flow": {
-      "status": "no_data"
-    }
-  },
-  "options_data": {
-    "status": "error",
-    "error_message": "Too Many Requests. Rate limited. Try after a while."
-  },
-  "news_data": {
-    "news": {
       "status": "success",
-      "count": 2,
+      "rows": 44,
+      "columns": [
+        "2024-12-31 00:00:00",
+        "2023-12-31 00:00:00",
+        "2022-12-31 00:00:00",
+        "2021-12-31 00:00:00",
+        "2020-12-31 00:00:00"
+      ],
       "data": [
         {
-          "id": "aa82bc80-b442-3cf6-b6fb-bd58467ea4d5",
-          "content": {
-            "id": "aa82bc80-b442-3cf6-b6fb-bd58467ea4d5",
-            "contentType": "STORY",
-            "title": "3 Promising Penny Stocks With Market Caps Over $20M",
-            "description": "",
-            "summary": "Major stock indexes in the United States have recently experienced a pullback, with technology shares leading the decline. Despite these broader market challenges, certain investment opportunities remain attractive, particularly within the realm of penny stocks. While often associated with smaller or newer companies, penny stocks can offer significant growth potential when backed by strong financials. In this article, we will explore several such stocks that stand out for their financial...",
-            "pubDate": "2025-11-04T18:05:11Z",
-            "displayTime": "2025-11-04T18:05:11Z",
-            "isHosted": true,
-            "bypassModal": false,
-            "previewUrl": null,
-            "thumbnail": {
-              "originalUrl": "https://media.zenfs.com/en/simply_wall_st__316/2b615bb0216a492e754128412857f305",
-              "originalWidth": 1194,
-              "originalHeight": 432,
-              "caption": "",
-              "resolutions": [
-                {
-                  "url": "https://s.yimg.com/uu/api/res/1.2/fZxxC7WFAddugsI0.C6IZw--~B/aD00MzI7dz0xMTk0O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/simply_wall_st__316/2b615bb0216a492e754128412857f305",
-                  "width": 1194,
-                  "height": 432,
-                  "tag": "original"
-                },
-                {
-                  "url": "https://s.yimg.com/uu/api/res/1.2/FiWMhIU1r.JPHCUDRXdqDg--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/simply_wall_st__316/2b615bb0216a492e754128412857f305",
-                  "width": 170,
-                  "height": 128,
-                  "tag": "170x128"
-                }
-              ]
-            },
-            "provider": {
-              "displayName": "Simply Wall St.",
-              "url": "https://simplywall.st/"
-            },
-            "canonicalUrl": {
-              "url": "https://finance.yahoo.com/news/3-promising-penny-stocks-market-180511913.html",
-              "site": "finance",
-              "region": "US",
-              "lang": "en-US"
-            },
-            "clickThroughUrl": {
-              "url": "https://finance.yahoo.com/news/3-promising-penny-stocks-market-180511913.html",
-              "site": "finance",
-              "region": "US",
-              "lang": "en-US"
-            },
-            "metadata": {
-              "editorsPick": false
-            },
-            "finance": {
-              "premiumFinance": {
-                "isPremiumNews": false,
-                "isPremiumFreeNews": false
-              }
-            },
-            "storyline": null
-          }
-        },
-        {
-          "id": "63786b5c-d2a3-35aa-aba2-a3987f8c3c07",
-          "content": {
-            "id": "63786b5c-d2a3-35aa-aba2-a3987f8c3c07",
-            "contentType": "STORY",
-            "title": "Nocera Second Quarter 2025 Earnings: US$0.034 loss per share (vs US$0.026 loss in 2Q 2024)",
-            "description": "",
-            "summary": "Nocera ( NASDAQ:NCRA ) Second Quarter 2025 Results Key Financial Results Revenue: US$3.97m (down 41% from 2Q 2024). Net...",
-            "pubDate": "2025-08-16T12:23:00Z",
-            "displayTime": "2025-08-16T12:23:00Z",
-            "isHosted": true,
-            "bypassModal": false,
-            "previewUrl": null,
-            "thumbnail": {
-              "originalUrl": "https://media.zenfs.com/en/simply_wall_st__316/78a8c60a6283aea0450523395306d38c",
-              "originalWidth": 945,
-              "originalHeight": 636,
-              "caption": "",
-              "resolutions": [
-                {
-                  "url": "https://s.yimg.com/uu/api/res/1.2/5Vpve0Pc2F3m_L3fs2p_dQ--~B/aD02MzY7dz05NDU7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/simply_wall_st__316/78a8c60a6283aea0450523395306d38c",
-                  "width": 945,
-                  "height": 636,
-                  "tag": "original"
-                },
-                {
-                  "url": "https://s.yimg.com/uu/api/res/1.2/5K6kmrQzRk.k.11fs9N_QA--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/simply_wall_st__316/78a8c60a6283aea0450523395306d38c",
-                  "width": 170,
-                  "height": 128,
-                  "tag": "170x128"
-                }
-              ]
-            },
-            "provider": {
-              "displayName": "Simply Wall St.",
-              "url": "https://simplywall.st/"
-            },
-            "canonicalUrl": {
-              "url": "https://finance.yahoo.com/news/nocera-second-quarter-2025-earnings-122300091.html",
-              "site": "finance",
-              "region": "US",
-              "lang": "en-US"
-            },
-            "clickThroughUrl": {
-              "url": "https://finance.yahoo.com/news/nocera-second-quarter-2025-earnings-122300091.html",
-              "site": "finance",
-              "region": "US",
-              "lang": "en-US"
-            },
-            "metadata": {
-              "editorsPick": false
-            },
-            "finance": {
-              "premiumFinance": {
-                "isPremiumNews": false,
-                "isPremiumFreeNews": false
-              }
-            },
-            "storyline": null
-          }
-        }
-      ]
-    },
-    "recommendations": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
-    }
-  },
-  "holders_data": {
-    "major_holders": {
-      "status": "error"
-    },
-    "institutional_holders": {
-      "status": "error"
-    }
-  },
-  "earnings_data": {
-    "earnings": {
-      "status": "error",
-      "message": "'NoneType' object has no attribute 'empty'"
-    },
-    "calendar": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
-    }
-  }
-}
+          

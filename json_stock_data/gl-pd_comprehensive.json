@@ -1,9 +1,39 @@
 {
   "ticker": "GL-PD",
-  "timestamp": "2025-12-17T05:29:23.241495",
+  "timestamp": "2025-12-18T04:50:56.399158",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 4,
+    "data": [
+      {
+        "Close KGCRF": 1.659999966621399,
+        "High KGCRF": 1.659999966621399,
+        "Low KGCRF": 1.659999966621399,
+        "Open KGCRF": 1.659999966621399,
+        "Volume KGCRF": 0
+      },
+      {
+        "Close KGCRF": 1.659999966621399,
+        "High KGCRF": 1.659999966621399,
+        "Low KGCRF": 1.659999966621399,
+        "Open KGCRF": 1.659999966621399,
+        "Volume KGCRF": 500
+      },
+      {
+        "Close KGCRF": 1.7400000095367432,
+        "High KGCRF": 1.7400000095367432,
+        "Low KGCRF": 1.7400000095367432,
+        "Open KGCRF": 1.7400000095367432,
+        "Volume KGCRF": 0
+      },
+      {
+        "Close KGCRF": 1.7400000095367432,
+        "High KGCRF": 1.7400000095367432,
+        "Low KGCRF": 1.7400000095367432,
+        "Open KGCRF": 1.7400000095367432,
+        "Volume KGCRF": 279
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -26,7 +56,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

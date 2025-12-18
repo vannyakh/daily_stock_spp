@@ -1,53 +1,9 @@
 {
   "ticker": "ASPCU",
-  "timestamp": "2025-12-17T05:24:32.649746",
+  "timestamp": "2025-12-18T04:49:09.322418",
   "intraday_data": {
-    "status": "success",
-    "rows": 6,
-    "data": [
-      {
-        "Close": 11.0,
-        "High": 11.0,
-        "Low": 11.0,
-        "Open": 11.0,
-        "Volume": 202
-      },
-      {
-        "Close": 11.0,
-        "High": 11.0,
-        "Low": 11.0,
-        "Open": 11.0,
-        "Volume": 280
-      },
-      {
-        "Close": 11.0,
-        "High": 11.0,
-        "Low": 11.0,
-        "Open": 11.0,
-        "Volume": 290
-      },
-      {
-        "Close": 11.0,
-        "High": 11.0,
-        "Low": 11.0,
-        "Open": 11.0,
-        "Volume": 121
-      },
-      {
-        "Close": 11.0,
-        "High": 11.0,
-        "Low": 11.0,
-        "Open": 11.0,
-        "Volume": 103
-      },
-      {
-        "Close": 11.0,
-        "High": 11.0,
-        "Low": 11.0,
-        "Open": 11.0,
-        "Volume": 160
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -70,10 +26,12 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   },
   "holders_data": {

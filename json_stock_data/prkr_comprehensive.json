@@ -1,18 +1,10 @@
 {
   "ticker": "PRKR",
-  "timestamp": "2025-12-17T04:55:51.876237",
+  "timestamp": "2025-12-18T04:36:01.764656",
   "intraday_data": {
     "status": "success",
-    "rows": 1,
-    "data": [
-      {
-        "Close RSKIA": 16.5,
-        "High RSKIA": 16.5,
-        "Low RSKIA": 16.5,
-        "Open RSKIA": 16.5,
-        "Volume RSKIA": 0
-      }
-    ]
+    "rows": 0,
+    "data": []
   },
   "stock_info": {
     "status": "error",
@@ -26,15 +18,83 @@
       "status": "no_data"
     },
     "cash_flow": {
+      "status": "no_data"
+    }
+  },
+  "options_data": {
+    "status": "error",
+    "error_message": "Too Many Requests. Rate limited. Try after a while."
+  },
+  "news_data": {
+    "news": {
       "status": "success",
-      "rows": 44,
-      "columns": [
-        "2024-12-31 00:00:00",
-        "2023-12-31 00:00:00",
-        "2022-12-31 00:00:00",
-        "2021-12-31 00:00:00",
-        "2020-12-31 00:00:00"
-      ],
+      "count": 1,
       "data": [
         {
-          
+          "id": "1cb0c909-2592-3869-a13e-f1de2f7dd893",
+          "content": {
+            "id": "1cb0c909-2592-3869-a13e-f1de2f7dd893",
+            "contentType": "STORY",
+            "title": "Qualcomm Patent Ruling Challenged as ParkerVision Seeks Faster Appeal",
+            "description": "",
+            "summary": "Qualcomm (QCOM) and its unit, Qualcomm Atheros, are facing a motion from ParkerVision, which on Tues",
+            "pubDate": "2025-10-14T12:42:47Z",
+            "displayTime": "2025-10-14T12:42:47Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": null,
+            "provider": {
+              "displayName": "MT Newswires",
+              "url": "https://www.mtnewswires.com/"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/qualcomm-patent-ruling-challenged-parkervision-124247486.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/qualcomm-patent-ruling-challenged-parkervision-124247486.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": true,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        }
+      ]
+    },
+    "recommendations": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  },
+  "holders_data": {
+    "major_holders": {
+      "status": "error"
+    },
+    "institutional_holders": {
+      "status": "error"
+    }
+  },
+  "earnings_data": {
+    "earnings": {
+      "status": "error",
+      "message": "'NoneType' object has no attribute 'empty'"
+    },
+    "calendar": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  }
+}

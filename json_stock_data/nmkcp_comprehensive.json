@@ -1,9 +1,25 @@
 {
   "ticker": "NMKCP",
-  "timestamp": "2025-12-17T05:23:37.404824",
+  "timestamp": "2025-12-18T04:48:50.895142",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 2,
+    "data": [
+      {
+        "Close NMKBP": 61.0,
+        "High NMKBP": 61.0,
+        "Low NMKBP": 61.0,
+        "Open NMKBP": 61.0,
+        "Volume NMKBP": 0
+      },
+      {
+        "Close NMKBP": 60.9900016784668,
+        "High NMKBP": 60.9900016784668,
+        "Low NMKBP": 60.9900016784668,
+        "Open NMKBP": 60.9900016784668,
+        "Volume NMKBP": 25
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -26,7 +42,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

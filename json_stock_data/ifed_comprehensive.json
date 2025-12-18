@@ -1,46 +1,9 @@
 {
   "ticker": "IFED",
-  "timestamp": "2025-12-17T05:27:35.832408",
+  "timestamp": "2025-12-18T04:50:14.756235",
   "intraday_data": {
-    "status": "success",
-    "rows": 5,
-    "data": [
-      {
-        "Close HDLB": 15.25,
-        "High HDLB": 15.25,
-        "Low HDLB": 15.25,
-        "Open HDLB": 15.25,
-        "Volume HDLB": 0
-      },
-      {
-        "Close HDLB": 15.289199829101562,
-        "High HDLB": 15.289199829101562,
-        "Low HDLB": 15.1899995803833,
-        "Open HDLB": 15.1899995803833,
-        "Volume HDLB": 295
-      },
-      {
-        "Close HDLB": 15.04990005493164,
-        "High HDLB": 15.04990005493164,
-        "Low HDLB": 15.04990005493164,
-        "Open HDLB": 15.04990005493164,
-        "Volume HDLB": 637
-      },
-      {
-        "Close HDLB": 14.979999542236328,
-        "High HDLB": 14.979999542236328,
-        "Low HDLB": 14.979999542236328,
-        "Open HDLB": 14.979999542236328,
-        "Volume HDLB": 250
-      },
-      {
-        "Close HDLB": 15.015399932861328,
-        "High HDLB": 15.015399932861328,
-        "Low HDLB": 14.97599983215332,
-        "Open HDLB": 14.97599983215332,
-        "Volume HDLB": 201
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -63,7 +26,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

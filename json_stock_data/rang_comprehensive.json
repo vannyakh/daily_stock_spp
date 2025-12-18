@@ -1,39 +1,9 @@
 {
   "ticker": "RANG",
-  "timestamp": "2025-12-17T04:52:17.880187",
+  "timestamp": "2025-12-18T04:34:16.896602",
   "intraday_data": {
-    "status": "success",
-    "rows": 4,
-    "data": [
-      {
-        "Close": 10.416799545288086,
-        "High": 10.416799545288086,
-        "Low": 10.416799545288086,
-        "Open": 10.416799545288086,
-        "Volume": 0
-      },
-      {
-        "Close": 10.399999618530273,
-        "High": 10.399999618530273,
-        "Low": 10.399999618530273,
-        "Open": 10.399999618530273,
-        "Volume": 1700
-      },
-      {
-        "Close": 10.399999618530273,
-        "High": 10.399999618530273,
-        "Low": 10.395000457763672,
-        "Open": 10.395000457763672,
-        "Volume": 44602
-      },
-      {
-        "Close": 10.399999618530273,
-        "High": 10.399999618530273,
-        "Low": 10.399999618530273,
-        "Open": 10.399999618530273,
-        "Volume": 2500
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -59,7 +29,8 @@
       "status": "no_data"
     },
     "recommendations": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   },
   "holders_data": {

@@ -1,18 +1,9 @@
 {
   "ticker": "PMVCW",
-  "timestamp": "2025-12-17T05:23:41.821571",
+  "timestamp": "2025-12-18T04:48:52.550608",
   "intraday_data": {
-    "status": "success",
-    "rows": 1,
-    "data": [
-      {
-        "Close CTLPP": 55.0,
-        "High CTLPP": 55.0,
-        "Low CTLPP": 55.0,
-        "Open CTLPP": 55.0,
-        "Volume CTLPP": 486
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -35,7 +26,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

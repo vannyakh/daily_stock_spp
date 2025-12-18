@@ -1,60 +1,9 @@
 {
   "ticker": "JTKWY",
-  "timestamp": "2025-12-17T05:16:11.860669",
+  "timestamp": "2025-12-18T04:45:34.378005",
   "intraday_data": {
-    "status": "success",
-    "rows": 7,
-    "data": [
-      {
-        "Close": 4.150000095367432,
-        "High": 4.150000095367432,
-        "Low": 4.150000095367432,
-        "Open": 4.150000095367432,
-        "Volume": 0
-      },
-      {
-        "Close": 4.150000095367432,
-        "High": 4.199999809265137,
-        "Low": 4.150000095367432,
-        "Open": 4.199999809265137,
-        "Volume": 572
-      },
-      {
-        "Close": 4.25,
-        "High": 4.25,
-        "Low": 4.230000019073486,
-        "Open": 4.230000019073486,
-        "Volume": 254
-      },
-      {
-        "Close": 4.21999979019165,
-        "High": 4.21999979019165,
-        "Low": 4.21999979019165,
-        "Open": 4.21999979019165,
-        "Volume": 20
-      },
-      {
-        "Close": 4.190000057220459,
-        "High": 4.21999979019165,
-        "Low": 4.190000057220459,
-        "Open": 4.21999979019165,
-        "Volume": 1480
-      },
-      {
-        "Close": 4.119999885559082,
-        "High": 4.119999885559082,
-        "Low": 4.119999885559082,
-        "Open": 4.119999885559082,
-        "Volume": 42
-      },
-      {
-        "Close": 4.199999809265137,
-        "High": 4.199999809265137,
-        "Low": 4.199999809265137,
-        "Open": 4.199999809265137,
-        "Volume": 150
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -693,7 +642,8 @@
       ]
     },
     "recommendations": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   },
   "holders_data": {

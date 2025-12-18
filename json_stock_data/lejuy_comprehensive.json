@@ -1,60 +1,9 @@
 {
   "ticker": "LEJUY",
-  "timestamp": "2025-12-17T05:10:18.980169",
+  "timestamp": "2025-12-18T04:42:51.422148",
   "intraday_data": {
-    "status": "success",
-    "rows": 7,
-    "data": [
-      {
-        "Close KEGS": 0.00039999998989515007,
-        "High KEGS": 0.00039999998989515007,
-        "Low KEGS": 0.00039999998989515007,
-        "Open KEGS": 0.00039999998989515007,
-        "Volume KEGS": 2283966
-      },
-      {
-        "Close KEGS": 0.00039999998989515007,
-        "High KEGS": 0.00039999998989515007,
-        "Low KEGS": 0.00039999998989515007,
-        "Open KEGS": 0.00039999998989515007,
-        "Volume KEGS": 486686
-      },
-      {
-        "Close KEGS": 0.00039999998989515007,
-        "High KEGS": 0.00039999998989515007,
-        "Low KEGS": 0.00039999998989515007,
-        "Open KEGS": 0.00039999998989515007,
-        "Volume KEGS": 20000
-      },
-      {
-        "Close KEGS": 0.0005000000237487257,
-        "High KEGS": 0.0005000000237487257,
-        "Low KEGS": 0.0005000000237487257,
-        "Open KEGS": 0.0005000000237487257,
-        "Volume KEGS": 82515
-      },
-      {
-        "Close KEGS": 0.0005000000237487257,
-        "High KEGS": 0.0005000000237487257,
-        "Low KEGS": 0.0005000000237487257,
-        "Open KEGS": 0.0005000000237487257,
-        "Volume KEGS": 2091196
-      },
-      {
-        "Close KEGS": 0.0005000000237487257,
-        "High KEGS": 0.0005000000237487257,
-        "Low KEGS": 0.0005000000237487257,
-        "Open KEGS": 0.0005000000237487257,
-        "Volume KEGS": 90847
-      },
-      {
-        "Close KEGS": 0.0005000000237487257,
-        "High KEGS": 0.0005000000237487257,
-        "Low KEGS": 0.0005000000237487257,
-        "Open KEGS": 0.0005000000237487257,
-        "Volume KEGS": 2000349
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -77,7 +26,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

@@ -1,53 +1,9 @@
 {
   "ticker": "ICCRW",
-  "timestamp": "2025-12-17T05:28:45.796280",
+  "timestamp": "2025-12-18T04:50:41.685958",
   "intraday_data": {
-    "status": "success",
-    "rows": 6,
-    "data": [
-      {
-        "Close NCPLW": 0.03500000014901161,
-        "High NCPLW": 0.03500000014901161,
-        "Low NCPLW": 0.03500000014901161,
-        "Open NCPLW": 0.03500000014901161,
-        "Volume NCPLW": 0
-      },
-      {
-        "Close NCPLW": 0.04050000011920929,
-        "High NCPLW": 0.04050000011920929,
-        "Low NCPLW": 0.04050000011920929,
-        "Open NCPLW": 0.04050000011920929,
-        "Volume NCPLW": 0
-      },
-      {
-        "Close NCPLW": 0.04560000076889992,
-        "High NCPLW": 0.04560000076889992,
-        "Low NCPLW": 0.04560000076889992,
-        "Open NCPLW": 0.04560000076889992,
-        "Volume NCPLW": 2000
-      },
-      {
-        "Close NCPLW": 0.03999999910593033,
-        "High NCPLW": 0.03999999910593033,
-        "Low NCPLW": 0.03999999910593033,
-        "Open NCPLW": 0.03999999910593033,
-        "Volume NCPLW": 212
-      },
-      {
-        "Close NCPLW": 0.03999999910593033,
-        "High NCPLW": 0.03999999910593033,
-        "Low NCPLW": 0.03999999910593033,
-        "Open NCPLW": 0.03999999910593033,
-        "Volume NCPLW": 2101
-      },
-      {
-        "Close NCPLW": 0.03999999910593033,
-        "High NCPLW": 0.03999999910593033,
-        "Low NCPLW": 0.03999999910593033,
-        "Open NCPLW": 0.03999999910593033,
-        "Volume NCPLW": 101
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -70,7 +26,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

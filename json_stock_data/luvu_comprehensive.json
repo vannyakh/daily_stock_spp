@@ -1,18 +1,9 @@
 {
   "ticker": "LUVU",
-  "timestamp": "2025-12-17T05:08:26.149243",
+  "timestamp": "2025-12-18T04:41:57.508434",
   "intraday_data": {
-    "status": "success",
-    "rows": 1,
-    "data": [
-      {
-        "Close": 0.04390000179409981,
-        "High": 0.04390000179409981,
-        "Low": 0.04390000179409981,
-        "Open": 0.04390000179409981,
-        "Volume": 0
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -38,7 +29,8 @@
       "status": "no_data"
     },
     "recommendations": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   },
   "holders_data": {

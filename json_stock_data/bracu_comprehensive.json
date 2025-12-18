@@ -1,60 +1,9 @@
 {
   "ticker": "BRACU",
-  "timestamp": "2025-12-17T05:25:51.464959",
+  "timestamp": "2025-12-18T04:49:37.327694",
   "intraday_data": {
-    "status": "success",
-    "rows": 7,
-    "data": [
-      {
-        "Close MSAIW": 0.08009999990463257,
-        "High MSAIW": 0.08500000089406967,
-        "Low MSAIW": 0.08009999990463257,
-        "Open MSAIW": 0.08009999990463257,
-        "Volume MSAIW": 0
-      },
-      {
-        "Close MSAIW": 0.08799999952316284,
-        "High MSAIW": 0.08799999952316284,
-        "Low MSAIW": 0.08799999952316284,
-        "Open MSAIW": 0.08799999952316284,
-        "Volume MSAIW": 10088
-      },
-      {
-        "Close MSAIW": 0.0860000029206276,
-        "High MSAIW": 0.0860000029206276,
-        "Low MSAIW": 0.0860000029206276,
-        "Open MSAIW": 0.0860000029206276,
-        "Volume MSAIW": 700
-      },
-      {
-        "Close MSAIW": 0.07010000199079514,
-        "High MSAIW": 0.07010000199079514,
-        "Low MSAIW": 0.07010000199079514,
-        "Open MSAIW": 0.07010000199079514,
-        "Volume MSAIW": 3064
-      },
-      {
-        "Close MSAIW": 0.08240000158548355,
-        "High MSAIW": 0.08240000158548355,
-        "Low MSAIW": 0.08240000158548355,
-        "Open MSAIW": 0.08240000158548355,
-        "Volume MSAIW": 3536
-      },
-      {
-        "Close MSAIW": 0.07909999787807465,
-        "High MSAIW": 0.07909999787807465,
-        "Low MSAIW": 0.07909999787807465,
-        "Open MSAIW": 0.07909999787807465,
-        "Volume MSAIW": 200
-      },
-      {
-        "Close MSAIW": 0.07890000194311142,
-        "High MSAIW": 0.07890000194311142,
-        "Low MSAIW": 0.07890000194311142,
-        "Open MSAIW": 0.07890000194311142,
-        "Volume MSAIW": 2001
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -77,7 +26,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

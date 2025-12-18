@@ -1,39 +1,9 @@
 {
   "ticker": "PAANF",
-  "timestamp": "2025-12-17T05:19:13.055941",
+  "timestamp": "2025-12-18T04:47:00.185789",
   "intraday_data": {
-    "status": "success",
-    "rows": 4,
-    "data": [
-      {
-        "Close RDAR": 0.0003000000142492354,
-        "High RDAR": 0.0003000000142492354,
-        "Low RDAR": 0.0003000000142492354,
-        "Open RDAR": 0.0003000000142492354,
-        "Volume RDAR": 0
-      },
-      {
-        "Close RDAR": 0.0003000000142492354,
-        "High RDAR": 0.0003000000142492354,
-        "Low RDAR": 0.0003000000142492354,
-        "Open RDAR": 0.0003000000142492354,
-        "Volume RDAR": 1000000
-      },
-      {
-        "Close RDAR": 0.0003000000142492354,
-        "High RDAR": 0.0003000000142492354,
-        "Low RDAR": 0.0003000000142492354,
-        "Open RDAR": 0.0003000000142492354,
-        "Volume RDAR": 500000
-      },
-      {
-        "Close RDAR": 0.0003000000142492354,
-        "High RDAR": 0.0003000000142492354,
-        "Low RDAR": 0.0003000000142492354,
-        "Open RDAR": 0.0003000000142492354,
-        "Volume RDAR": 2670402
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -104,7 +74,8 @@
       ]
     },
     "recommendations": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   },
   "holders_data": {

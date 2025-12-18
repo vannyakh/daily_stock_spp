@@ -1,37 +1,16 @@
 {
   "ticker": "BANC-PF",
-  "timestamp": "2025-12-17T05:27:08.332337",
+  "timestamp": "2025-12-18T04:50:04.602636",
   "intraday_data": {
     "status": "success",
-    "rows": 4,
+    "rows": 1,
     "data": [
       {
-        "Close GIGGF": 0.052000001072883606,
-        "High GIGGF": 0.05350000038743019,
-        "Low GIGGF": 0.052000001072883606,
-        "Open GIGGF": 0.05350000038743019,
+        "Close GIGGF": 0.054999999701976776,
+        "High GIGGF": 0.054999999701976776,
+        "Low GIGGF": 0.054999999701976776,
+        "Open GIGGF": 0.054999999701976776,
         "Volume GIGGF": 0
-      },
-      {
-        "Close GIGGF": 0.054999999701976776,
-        "High GIGGF": 0.054999999701976776,
-        "Low GIGGF": 0.054999999701976776,
-        "Open GIGGF": 0.054999999701976776,
-        "Volume GIGGF": 20000
-      },
-      {
-        "Close GIGGF": 0.054999999701976776,
-        "High GIGGF": 0.054999999701976776,
-        "Low GIGGF": 0.054999999701976776,
-        "Open GIGGF": 0.054999999701976776,
-        "Volume GIGGF": 10000
-      },
-      {
-        "Close GIGGF": 0.054999999701976776,
-        "High GIGGF": 0.054999999701976776,
-        "Low GIGGF": 0.054999999701976776,
-        "Open GIGGF": 0.054999999701976776,
-        "Volume GIGGF": 20000
       }
     ]
   },
@@ -41,15 +20,45 @@
   },
   "financials": {
     "income_statement": {
-      "status": "success",
-      "rows": 42,
-      "columns": [
-        "2024-12-31 00:00:00",
-        "2023-12-31 00:00:00",
-        "2022-12-31 00:00:00",
-        "2021-12-31 00:00:00",
-        "2020-12-31 00:00:00"
-      ],
-      "data": [
-        {
-          
+      "status": "no_data"
+    },
+    "balance_sheet": {
+      "status": "no_data"
+    },
+    "cash_flow": {
+      "status": "no_data"
+    }
+  },
+  "options_data": {
+    "status": "error",
+    "error_message": "Too Many Requests. Rate limited. Try after a while."
+  },
+  "news_data": {
+    "news": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    },
+    "recommendations": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  },
+  "holders_data": {
+    "major_holders": {
+      "status": "error"
+    },
+    "institutional_holders": {
+      "status": "error"
+    }
+  },
+  "earnings_data": {
+    "earnings": {
+      "status": "error",
+      "message": "'NoneType' object has no attribute 'empty'"
+    },
+    "calendar": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  }
+}

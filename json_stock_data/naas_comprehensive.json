@@ -1,67 +1,9 @@
 {
   "ticker": "NAAS",
-  "timestamp": "2025-12-17T05:02:35.496698",
+  "timestamp": "2025-12-18T04:39:11.794229",
   "intraday_data": {
-    "status": "success",
-    "rows": 8,
-    "data": [
-      {
-        "Close CHKR": 0.4399999976158142,
-        "High CHKR": 0.4399999976158142,
-        "Low CHKR": 0.4399999976158142,
-        "Open CHKR": 0.4399999976158142,
-        "Volume CHKR": 0
-      },
-      {
-        "Close CHKR": 0.42500001192092896,
-        "High CHKR": 0.42500001192092896,
-        "Low CHKR": 0.42500001192092896,
-        "Open CHKR": 0.42500001192092896,
-        "Volume CHKR": 140
-      },
-      {
-        "Close CHKR": 0.43880000710487366,
-        "High CHKR": 0.43880000710487366,
-        "Low CHKR": 0.43880000710487366,
-        "Open CHKR": 0.43880000710487366,
-        "Volume CHKR": 3000
-      },
-      {
-        "Close CHKR": 0.4399999976158142,
-        "High CHKR": 0.4399999976158142,
-        "Low CHKR": 0.4399999976158142,
-        "Open CHKR": 0.4399999976158142,
-        "Volume CHKR": 4000
-      },
-      {
-        "Close CHKR": 0.4399999976158142,
-        "High CHKR": 0.4399999976158142,
-        "Low CHKR": 0.4399999976158142,
-        "Open CHKR": 0.4399999976158142,
-        "Volume CHKR": 1006
-      },
-      {
-        "Close CHKR": 0.4300000071525574,
-        "High CHKR": 0.4300000071525574,
-        "Low CHKR": 0.4300000071525574,
-        "Open CHKR": 0.4300000071525574,
-        "Volume CHKR": 5000
-      },
-      {
-        "Close CHKR": 0.4205000102519989,
-        "High CHKR": 0.4205000102519989,
-        "Low CHKR": 0.4205000102519989,
-        "Open CHKR": 0.4205000102519989,
-        "Volume CHKR": 300
-      },
-      {
-        "Close CHKR": 0.4205000102519989,
-        "High CHKR": 0.4205000102519989,
-        "Low CHKR": 0.4205000102519989,
-        "Open CHKR": 0.4205000102519989,
-        "Volume CHKR": 4375
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -72,15 +14,41 @@
       "status": "no_data"
     },
     "balance_sheet": {
-      "status": "success",
-      "rows": 88,
-      "columns": [
-        "2024-12-31 00:00:00",
-        "2023-12-31 00:00:00",
-        "2022-12-31 00:00:00",
-        "2021-12-31 00:00:00",
-        "2020-12-31 00:00:00"
-      ],
-      "data": [
-        {
-          
+      "status": "no_data"
+    },
+    "cash_flow": {
+      "status": "no_data"
+    }
+  },
+  "options_data": {
+    "status": "error",
+    "error_message": "Too Many Requests. Rate limited. Try after a while."
+  },
+  "news_data": {
+    "news": {
+      "status": "no_data"
+    },
+    "recommendations": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  },
+  "holders_data": {
+    "major_holders": {
+      "status": "error"
+    },
+    "institutional_holders": {
+      "status": "error"
+    }
+  },
+  "earnings_data": {
+    "earnings": {
+      "status": "error",
+      "message": "'NoneType' object has no attribute 'empty'"
+    },
+    "calendar": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  }
+}

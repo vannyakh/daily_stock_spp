@@ -1,9 +1,18 @@
 {
   "ticker": "BBLGW",
-  "timestamp": "2025-12-17T05:28:46.292053",
+  "timestamp": "2025-12-18T04:50:41.285345",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 1,
+    "data": [
+      {
+        "Close": 22.0,
+        "High": 22.0,
+        "Low": 22.0,
+        "Open": 22.0,
+        "Volume": 0
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -26,52 +35,8 @@
   },
   "news_data": {
     "news": {
-      "status": "success",
-      "count": 1,
-      "data": [
-        {
-          "id": "8b5371ee-9dd8-3ef3-86fd-a25d7b9583b5",
-          "content": {
-            "id": "8b5371ee-9dd8-3ef3-86fd-a25d7b9583b5",
-            "contentType": "STORY",
-            "title": "BC-Most Active Stocks",
-            "description": "",
-            "summary": "td class=\"col-issue\">Next Technology Holding Inc.",
-            "pubDate": "2025-09-04T14:30:16Z",
-            "displayTime": "2025-09-04T14:30:16Z",
-            "isHosted": true,
-            "bypassModal": false,
-            "previewUrl": null,
-            "thumbnail": null,
-            "provider": {
-              "displayName": "Associated Press Finance",
-              "url": "http://www.ap.org/"
-            },
-            "canonicalUrl": {
-              "url": "https://finance.yahoo.com/news/bc-most-active-stocks-143016200.html",
-              "site": "finance",
-              "region": "US",
-              "lang": "en-US"
-            },
-            "clickThroughUrl": {
-              "url": "https://finance.yahoo.com/news/bc-most-active-stocks-143016200.html",
-              "site": "finance",
-              "region": "US",
-              "lang": "en-US"
-            },
-            "metadata": {
-              "editorsPick": false
-            },
-            "finance": {
-              "premiumFinance": {
-                "isPremiumNews": false,
-                "isPremiumFreeNews": false
-              }
-            },
-            "storyline": null
-          }
-        }
-      ]
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

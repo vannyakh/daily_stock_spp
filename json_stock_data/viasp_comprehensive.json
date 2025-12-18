@@ -1,9 +1,46 @@
 {
   "ticker": "VIASP",
-  "timestamp": "2025-12-17T05:28:26.978405",
+  "timestamp": "2025-12-18T04:50:34.226625",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 5,
+    "data": [
+      {
+        "Close": 25.510700225830078,
+        "High": 25.510700225830078,
+        "Low": 25.510700225830078,
+        "Open": 25.510700225830078,
+        "Volume": 0
+      },
+      {
+        "Close": 25.510000228881836,
+        "High": 25.510099411010742,
+        "Low": 25.510000228881836,
+        "Open": 25.510099411010742,
+        "Volume": 210
+      },
+      {
+        "Close": 25.5,
+        "High": 25.5,
+        "Low": 25.5,
+        "Open": 25.5,
+        "Volume": 516
+      },
+      {
+        "Close": 25.578399658203125,
+        "High": 25.578399658203125,
+        "Low": 25.578399658203125,
+        "Open": 25.578399658203125,
+        "Volume": 451
+      },
+      {
+        "Close": 25.579999923706055,
+        "High": 25.579999923706055,
+        "Low": 25.572099685668945,
+        "Open": 25.572099685668945,
+        "Volume": 661
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -26,7 +63,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

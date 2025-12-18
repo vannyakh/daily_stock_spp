@@ -1,16 +1,30 @@
 {
   "ticker": "QNTO",
-  "timestamp": "2025-12-17T05:01:44.340782",
+  "timestamp": "2025-12-18T04:38:48.702688",
   "intraday_data": {
     "status": "success",
-    "rows": 1,
+    "rows": 3,
     "data": [
       {
-        "Close CNFN": 2.200000047683716,
-        "High CNFN": 2.200000047683716,
-        "Low CNFN": 2.200000047683716,
-        "Open CNFN": 2.200000047683716,
-        "Volume CNFN": 0
+        "Close": 10.710000038146973,
+        "High": 10.710000038146973,
+        "Low": 10.609999656677246,
+        "Open": 10.609999656677246,
+        "Volume": 0
+      },
+      {
+        "Close": 10.600000381469727,
+        "High": 10.600000381469727,
+        "Low": 10.600000381469727,
+        "Open": 10.600000381469727,
+        "Volume": 250
+      },
+      {
+        "Close": 10.600000381469727,
+        "High": 10.600000381469727,
+        "Low": 10.600000381469727,
+        "Open": 10.600000381469727,
+        "Volume": 0
       }
     ]
   },
@@ -20,15 +34,44 @@
   },
   "financials": {
     "income_statement": {
-      "status": "success",
-      "rows": 42,
-      "columns": [
-        "2024-12-31 00:00:00",
-        "2023-12-31 00:00:00",
-        "2022-12-31 00:00:00",
-        "2021-12-31 00:00:00",
-        "2020-12-31 00:00:00"
-      ],
-      "data": [
-        {
-          
+      "status": "no_data"
+    },
+    "balance_sheet": {
+      "status": "no_data"
+    },
+    "cash_flow": {
+      "status": "no_data"
+    }
+  },
+  "options_data": {
+    "status": "error",
+    "error_message": "Too Many Requests. Rate limited. Try after a while."
+  },
+  "news_data": {
+    "news": {
+      "status": "no_data"
+    },
+    "recommendations": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  },
+  "holders_data": {
+    "major_holders": {
+      "status": "error"
+    },
+    "institutional_holders": {
+      "status": "error"
+    }
+  },
+  "earnings_data": {
+    "earnings": {
+      "status": "error",
+      "message": "'NoneType' object has no attribute 'empty'"
+    },
+    "calendar": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  }
+}

@@ -1,18 +1,9 @@
 {
   "ticker": "YHNAR",
-  "timestamp": "2025-12-17T05:31:24.225114",
+  "timestamp": "2025-12-18T04:51:42.363919",
   "intraday_data": {
-    "status": "success",
-    "rows": 1,
-    "data": [
-      {
-        "Close": 0.13689999282360077,
-        "High": 0.13689999282360077,
-        "Low": 0.13689999282360077,
-        "Open": 0.13689999282360077,
-        "Volume": 0
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -35,7 +26,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

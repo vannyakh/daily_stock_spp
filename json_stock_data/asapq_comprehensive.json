@@ -1,16 +1,16 @@
 {
   "ticker": "ASAPQ",
-  "timestamp": "2025-12-17T05:20:01.576975",
+  "timestamp": "2025-12-18T04:47:23.205240",
   "intraday_data": {
     "status": "success",
-    "rows": 4,
+    "rows": 5,
     "data": [
       {
         "Close BZRD": 0.05000000074505806,
         "High BZRD": 0.05000000074505806,
         "Low BZRD": 0.05000000074505806,
         "Open BZRD": 0.05000000074505806,
-        "Volume BZRD": 1000
+        "Volume BZRD": 0
       },
       {
         "Close BZRD": 0.05000000074505806,
@@ -32,6 +32,13 @@
         "Low BZRD": 0.07490000128746033,
         "Open BZRD": 0.07490000128746033,
         "Volume BZRD": 100
+      },
+      {
+        "Close BZRD": 0.08460000157356262,
+        "High BZRD": 0.08460000157356262,
+        "Low BZRD": 0.08460000157356262,
+        "Open BZRD": 0.08460000157356262,
+        "Volume BZRD": 7925
       }
     ]
   },
@@ -59,7 +66,8 @@
       "status": "no_data"
     },
     "recommendations": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   },
   "holders_data": {

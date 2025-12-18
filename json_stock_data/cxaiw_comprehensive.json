@@ -1,9 +1,18 @@
 {
   "ticker": "CXAIW",
-  "timestamp": "2025-12-17T05:26:36.258621",
+  "timestamp": "2025-12-18T04:49:52.950799",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 1,
+    "data": [
+      {
+        "Close RSVRW": 0.262800008058548,
+        "High RSVRW": 0.262800008058548,
+        "Low RSVRW": 0.262800008058548,
+        "Open RSVRW": 0.262800008058548,
+        "Volume RSVRW": 0
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -26,52 +35,8 @@
   },
   "news_data": {
     "news": {
-      "status": "success",
-      "count": 1,
-      "data": [
-        {
-          "id": "b8b80f42-54fe-3d35-bbbe-59a362567072",
-          "content": {
-            "id": "b8b80f42-54fe-3d35-bbbe-59a362567072",
-            "contentType": "STORY",
-            "title": "CXApp Inc (CXAI) Q3 2025 Earnings Call Highlights: Global Expansion and Strong Margins Amid ...",
-            "description": "",
-            "summary": "CXApp Inc (CXAI) showcases significant global reach and robust financial performance, despite facing revenue and operational challenges.",
-            "pubDate": "2025-11-13T07:01:26Z",
-            "displayTime": "2025-11-13T07:01:26Z",
-            "isHosted": true,
-            "bypassModal": false,
-            "previewUrl": null,
-            "thumbnail": null,
-            "provider": {
-              "displayName": "GuruFocus.com",
-              "url": "http://www.gurufocus.com/"
-            },
-            "canonicalUrl": {
-              "url": "https://finance.yahoo.com/news/cxapp-inc-cxai-q3-2025-070126081.html",
-              "site": "finance",
-              "region": "US",
-              "lang": "en-US"
-            },
-            "clickThroughUrl": {
-              "url": "https://finance.yahoo.com/news/cxapp-inc-cxai-q3-2025-070126081.html",
-              "site": "finance",
-              "region": "US",
-              "lang": "en-US"
-            },
-            "metadata": {
-              "editorsPick": false
-            },
-            "finance": {
-              "premiumFinance": {
-                "isPremiumNews": false,
-                "isPremiumFreeNews": false
-              }
-            },
-            "storyline": null
-          }
-        }
-      ]
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

@@ -1,18 +1,9 @@
 {
   "ticker": "NSARO",
-  "timestamp": "2025-12-17T05:23:04.609789",
+  "timestamp": "2025-12-18T04:48:37.794016",
   "intraday_data": {
-    "status": "success",
-    "rows": 1,
-    "data": [
-      {
-        "Close": 80.0,
-        "High": 80.0,
-        "Low": 80.0,
-        "Open": 80.0,
-        "Volume": 0
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -35,7 +26,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",
