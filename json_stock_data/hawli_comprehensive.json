@@ -1,13 +1,106 @@
 {
   "ticker": "HAWLI",
-  "timestamp": "2025-12-18T04:48:37.352393",
+  "timestamp": "2025-12-19T05:25:01.171694",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 13,
+    "data": [
+      {
+        "Close SPMA": 25.15999984741211,
+        "High SPMA": 25.15999984741211,
+        "Low SPMA": 25.15999984741211,
+        "Open SPMA": 25.15999984741211,
+        "Volume SPMA": 0
+      },
+      {
+        "Close SPMA": 25.22599983215332,
+        "High SPMA": 25.22599983215332,
+        "Low SPMA": 25.22599983215332,
+        "Open SPMA": 25.22599983215332,
+        "Volume SPMA": 100
+      },
+      {
+        "Close SPMA": 25.256000518798828,
+        "High SPMA": 25.256000518798828,
+        "Low SPMA": 25.256000518798828,
+        "Open SPMA": 25.256000518798828,
+        "Volume SPMA": 260
+      },
+      {
+        "Close SPMA": 25.22960090637207,
+        "High SPMA": 25.22960090637207,
+        "Low SPMA": 25.22960090637207,
+        "Open SPMA": 25.22960090637207,
+        "Volume SPMA": 160
+      },
+      {
+        "Close SPMA": 25.16010093688965,
+        "High SPMA": 25.16010093688965,
+        "Low SPMA": 25.16010093688965,
+        "Open SPMA": 25.16010093688965,
+        "Volume SPMA": 100
+      },
+      {
+        "Close SPMA": 25.15999984741211,
+        "High SPMA": 25.15999984741211,
+        "Low SPMA": 25.15999984741211,
+        "Open SPMA": 25.15999984741211,
+        "Volume SPMA": 105
+      },
+      {
+        "Close SPMA": 25.15999984741211,
+        "High SPMA": 25.15999984741211,
+        "Low SPMA": 25.15999984741211,
+        "Open SPMA": 25.15999984741211,
+        "Volume SPMA": 0
+      },
+      {
+        "Close SPMA": 25.190000534057617,
+        "High SPMA": 25.190000534057617,
+        "Low SPMA": 25.190000534057617,
+        "Open SPMA": 25.190000534057617,
+        "Volume SPMA": 1169
+      },
+      {
+        "Close SPMA": 25.15999984741211,
+        "High SPMA": 25.15999984741211,
+        "Low SPMA": 25.15999984741211,
+        "Open SPMA": 25.15999984741211,
+        "Volume SPMA": 333
+      },
+      {
+        "Close SPMA": 25.200000762939453,
+        "High SPMA": 25.200000762939453,
+        "Low SPMA": 25.200000762939453,
+        "Open SPMA": 25.200000762939453,
+        "Volume SPMA": 0
+      },
+      {
+        "Close SPMA": 25.190000534057617,
+        "High SPMA": 25.239999771118164,
+        "Low SPMA": 25.190000534057617,
+        "Open SPMA": 25.239999771118164,
+        "Volume SPMA": 1062
+      },
+      {
+        "Close SPMA": 25.25,
+        "High SPMA": 25.25,
+        "Low SPMA": 25.25,
+        "Open SPMA": 25.25,
+        "Volume SPMA": 103
+      },
+      {
+        "Close SPMA": 25.280000686645508,
+        "High SPMA": 25.280000686645508,
+        "Low SPMA": 25.280000686645508,
+        "Open SPMA": 25.280000686645508,
+        "Volume SPMA": 125
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
-    "message": "Too Many Requests. Rate limited. Try after a while."
+    "message": "argument of type 'NoneType' is not iterable"
   },
   "financials": {
     "income_statement": {
@@ -26,8 +119,7 @@
   },
   "news_data": {
     "news": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
+      "status": "no_data"
     },
     "recommendations": {
       "status": "error",
@@ -49,7 +141,7 @@
     },
     "calendar": {
       "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
+      "message": "'dict' object has no attribute 'empty'"
     }
   }
 }

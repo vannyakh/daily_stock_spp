@@ -1,29 +1,13 @@
 {
   "ticker": "BHILW",
-  "timestamp": "2025-12-18T04:48:23.229750",
+  "timestamp": "2025-12-19T05:24:21.611340",
   "intraday_data": {
-    "status": "success",
-    "rows": 2,
-    "data": [
-      {
-        "Close OCCIO": 25.009899139404297,
-        "High OCCIO": 25.009899139404297,
-        "Low OCCIO": 25.009899139404297,
-        "Open OCCIO": 25.009899139404297,
-        "Volume OCCIO": 0
-      },
-      {
-        "Close OCCIO": 24.909400939941406,
-        "High OCCIO": 24.909400939941406,
-        "Low OCCIO": 24.909400939941406,
-        "Open OCCIO": 24.909400939941406,
-        "Volume OCCIO": 228
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
-    "message": "argument of type 'NoneType' is not iterable"
+    "message": "Too Many Requests. Rate limited. Try after a while."
   },
   "financials": {
     "income_statement": {
@@ -42,8 +26,7 @@
   },
   "news_data": {
     "news": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
+      "status": "no_data"
     },
     "recommendations": {
       "status": "error",

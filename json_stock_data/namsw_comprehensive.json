@@ -1,18 +1,10 @@
 {
   "ticker": "NAMSW",
-  "timestamp": "2025-12-18T04:47:41.081014",
+  "timestamp": "2025-12-19T05:22:45.135114",
   "intraday_data": {
     "status": "success",
-    "rows": 1,
-    "data": [
-      {
-        "Close": 22.25,
-        "High": 22.5,
-        "Low": 22.25,
-        "Open": 22.5,
-        "Volume": 0
-      }
-    ]
+    "rows": 0,
+    "data": []
   },
   "stock_info": {
     "status": "error",
@@ -646,94 +638,16 @@
       ]
     },
     "recommendations": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   },
   "holders_data": {
     "major_holders": {
-      "status": "success",
-      "data": [
-        {
-          "Value": 9
-        }
-      ]
+      "status": "error"
     },
     "institutional_holders": {
-      "status": "success",
-      "data": [
-        {
-          "Date Reported": "2025-09-30 00:00:00",
-          "Holder": "Frazier Life Sciences Management, L.P.                          ",
-          "pctHeld": 0.1088,
-          "Shares": 500333,
-          "Value": 11132409,
-          "pctChange": 0.0
-        },
-        {
-          "Date Reported": "2025-09-30 00:00:00",
-          "Holder": "RA Capital Management, L.P.",
-          "pctHeld": 0.0725,
-          "Shares": 333333,
-          "Value": 7416659,
-          "pctChange": 0.0
-        },
-        {
-          "Date Reported": "2025-09-30 00:00:00",
-          "Holder": "Affinity Asset Advisors, Llc",
-          "pctHeld": 0.0533,
-          "Shares": 245000,
-          "Value": 5451250,
-          "pctChange": 0.0
-        },
-        {
-          "Date Reported": "2025-09-30 00:00:00",
-          "Holder": "Bain Capital Life Sciences Investors, LLC",
-          "pctHeld": 0.0217,
-          "Shares": 100000,
-          "Value": 2225000,
-          "pctChange": 0.0
-        },
-        {
-          "Date Reported": "2025-09-30 00:00:00",
-          "Holder": "Deerfield Management Company, L.P",
-          "pctHeld": 0.0202,
-          "Shares": 92787,
-          "Value": 2064510,
-          "pctChange": 0.0
-        },
-        {
-          "Date Reported": "2025-09-30 00:00:00",
-          "Holder": "Laurion Capital Management, LP",
-          "pctHeld": 0.0036000002,
-          "Shares": 16666,
-          "Value": 370818,
-          "pctChange": 0.0
-        },
-        {
-          "Date Reported": "2025-09-30 00:00:00",
-          "Holder": "Vestcor Inc",
-          "pctHeld": 0.0021,
-          "Shares": 9632,
-          "Value": 214312,
-          "pctChange": 0.0
-        },
-        {
-          "Date Reported": "2025-09-30 00:00:00",
-          "Holder": "CIBC Private Wealth Group, LLC",
-          "pctHeld": 0.00029999999,
-          "Shares": 1250,
-          "Value": 27812,
-          "pctChange": -0.5833
-        },
-        {
-          "Date Reported": "2025-09-30 00:00:00",
-          "Holder": "UBS Group AG",
-          "pctHeld": 0.0001,
-          "Shares": 512,
-          "Value": 11392,
-          "pctChange": -0.48439997
-        }
-      ]
+      "status": "error"
     }
   },
   "earnings_data": {
@@ -743,7 +657,7 @@
     },
     "calendar": {
       "status": "error",
-      "message": "'dict' object has no attribute 'empty'"
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   }
 }

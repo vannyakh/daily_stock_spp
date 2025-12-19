@@ -1,18 +1,9 @@
 {
   "ticker": "LPAAU",
-  "timestamp": "2025-12-18T04:47:29.089315",
+  "timestamp": "2025-12-19T05:22:17.147896",
   "intraday_data": {
-    "status": "success",
-    "rows": 1,
-    "data": [
-      {
-        "Close CAPNR": 0.23399999737739563,
-        "High CAPNR": 0.23399999737739563,
-        "Low CAPNR": 0.22599999606609344,
-        "Open CAPNR": 0.22599999606609344,
-        "Volume CAPNR": 0
-      }
-    ]
+    "status": "error",
+    "message": "No objects to concatenate"
   },
   "stock_info": {
     "status": "error",
@@ -35,7 +26,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

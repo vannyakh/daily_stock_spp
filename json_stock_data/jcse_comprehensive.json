@@ -1,9 +1,25 @@
 {
   "ticker": "JCSE",
-  "timestamp": "2025-12-18T04:40:57.537554",
+  "timestamp": "2025-12-19T05:08:36.664595",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 2,
+    "data": [
+      {
+        "Close": 1.100000023841858,
+        "High": 1.100000023841858,
+        "Low": 1.100000023841858,
+        "Open": 1.100000023841858,
+        "Volume": 389
+      },
+      {
+        "Close": 1.1045000553131104,
+        "High": 1.1045000553131104,
+        "Low": 1.1045000553131104,
+        "Open": 1.1045000553131104,
+        "Volume": 1257
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -14,15 +30,105 @@
       "status": "no_data"
     },
     "balance_sheet": {
+      "status": "no_data"
+    },
+    "cash_flow": {
+      "status": "no_data"
+    }
+  },
+  "options_data": {
+    "status": "error",
+    "error_message": "Too Many Requests. Rate limited. Try after a while."
+  },
+  "news_data": {
+    "news": {
       "status": "success",
-      "rows": 74,
-      "columns": [
-        "2024-12-31 00:00:00",
-        "2023-12-31 00:00:00",
-        "2022-12-31 00:00:00",
-        "2021-12-31 00:00:00",
-        "2020-12-31 00:00:00"
-      ],
+      "count": 1,
       "data": [
         {
-          
+          "id": "fda77cd0-ecd0-3746-bf65-8f00d7b12039",
+          "content": {
+            "id": "fda77cd0-ecd0-3746-bf65-8f00d7b12039",
+            "contentType": "STORY",
+            "title": "JE Cleantech Holdings to Sell Singapore Industrial Property for SGD7.39 Million",
+            "description": "",
+            "summary": "JE Cleantech Holdings Limited ( (JCSE) ) has issued an announcement. JE Cleantech Holdings Limited has announced an agreement to sell its industrial property in Singapore for SGD7.39 million. The sale, expected to complete by June 2025, is anticipated to generate a net gain of approximately SGD3.7 million over the property\u2019s book value. The transaction is expected to enhance operational efficiencies by consolidating manufacturing and dishwashing operations, leading to cost savings and improved m",
+            "pubDate": "2024-12-19T11:31:06Z",
+            "displayTime": "2024-12-19T11:31:06Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": {
+              "originalUrl": "https://media.zenfs.com/en/tipranks_452/8930dffd5678eba8c60d76d85784e312",
+              "originalWidth": 192,
+              "originalHeight": 192,
+              "caption": "https://www.tipranks.com/news/company-announcements/je-cleantech-holdings-to-sell-singapore-industrial-property-for-sgd7-39-million",
+              "resolutions": [
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/EBXwKAyoHLv99HmdFeB_4Q--~B/aD0xOTI7dz0xOTI7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/tipranks_452/8930dffd5678eba8c60d76d85784e312",
+                  "width": 192,
+                  "height": 192,
+                  "tag": "original"
+                },
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/_8L9Tk6WzKZQW2liayhkcA--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/tipranks_452/8930dffd5678eba8c60d76d85784e312",
+                  "width": 170,
+                  "height": 128,
+                  "tag": "170x128"
+                }
+              ]
+            },
+            "provider": {
+              "displayName": "TipRanks",
+              "url": "https://www.tipranks.com/"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/je-cleantech-holdings-sell-singapore-113106559.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/je-cleantech-holdings-sell-singapore-113106559.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        }
+      ]
+    },
+    "recommendations": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  },
+  "holders_data": {
+    "major_holders": {
+      "status": "error"
+    },
+    "institutional_holders": {
+      "status": "error"
+    }
+  },
+  "earnings_data": {
+    "earnings": {
+      "status": "error",
+      "message": "'NoneType' object has no attribute 'empty'"
+    },
+    "calendar": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  }
+}

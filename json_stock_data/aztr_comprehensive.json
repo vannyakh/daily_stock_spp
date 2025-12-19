@@ -1,39 +1,9 @@
 {
   "ticker": "AZTR",
-  "timestamp": "2025-12-18T04:42:13.401706",
+  "timestamp": "2025-12-19T05:11:14.767361",
   "intraday_data": {
-    "status": "success",
-    "rows": 4,
-    "data": [
-      {
-        "Close GRST": 0.00039999998989515007,
-        "High GRST": 0.00039999998989515007,
-        "Low GRST": 0.00039999998989515007,
-        "Open GRST": 0.00039999998989515007,
-        "Volume GRST": 0
-      },
-      {
-        "Close GRST": 0.0005000000237487257,
-        "High GRST": 0.0005000000237487257,
-        "Low GRST": 0.0005000000237487257,
-        "Open GRST": 0.0005000000237487257,
-        "Volume GRST": 80000
-      },
-      {
-        "Close GRST": 0.0005000000237487257,
-        "High GRST": 0.0005000000237487257,
-        "Low GRST": 0.0005000000237487257,
-        "Open GRST": 0.0005000000237487257,
-        "Volume GRST": 500000
-      },
-      {
-        "Close GRST": 0.0005000000237487257,
-        "High GRST": 0.0005000000237487257,
-        "Low GRST": 0.0005000000237487257,
-        "Open GRST": 0.0005000000237487257,
-        "Volume GRST": 73456
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -41,14 +11,234 @@
   },
   "financials": {
     "income_statement": {
+      "status": "no_data"
+    },
+    "balance_sheet": {
+      "status": "no_data"
+    },
+    "cash_flow": {
+      "status": "no_data"
+    }
+  },
+  "options_data": {
+    "status": "error",
+    "error_message": "Too Many Requests. Rate limited. Try after a while."
+  },
+  "news_data": {
+    "news": {
       "status": "success",
-      "rows": 44,
-      "columns": [
-        "2024-12-31 00:00:00",
-        "2023-12-31 00:00:00",
-        "2022-12-31 00:00:00",
-        "2021-12-31 00:00:00"
-      ],
+      "count": 4,
       "data": [
         {
-          
+          "id": "3e7e44d7-7242-3807-99fb-9b9d8cfd8aaf",
+          "content": {
+            "id": "3e7e44d7-7242-3807-99fb-9b9d8cfd8aaf",
+            "contentType": "STORY",
+            "title": "Wall Street Set to Open Higher Monday as Investors Look Ahead to a Week of Earnings Reports",
+            "description": "",
+            "summary": "US stocks look set to open higher in Monday's trading session ahead of a raft of earnings coming out",
+            "pubDate": "2025-10-20T13:27:01Z",
+            "displayTime": "2025-10-20T13:27:01Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": null,
+            "provider": {
+              "displayName": "MT Newswires",
+              "url": "https://www.mtnewswires.com/"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/wall-street-set-open-higher-132701910.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/wall-street-set-open-higher-132701910.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": true,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        },
+        {
+          "id": "eb66fc22-8605-3223-be2c-eba134aa1729",
+          "content": {
+            "id": "eb66fc22-8605-3223-be2c-eba134aa1729",
+            "contentType": "STORY",
+            "title": "Why Is Azitra (AZTR) Stock Soaring Today",
+            "description": "",
+            "summary": "AZTR: Azitra Soars After First Patient Dosed in FDA Fast Track Trial",
+            "pubDate": "2025-08-27T20:44:20Z",
+            "displayTime": "2025-08-27T20:44:20Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": {
+              "originalUrl": "https://media.zenfs.com/en/us.finance.gurufocus/aef6c126378d890dec52d5001bcdc798",
+              "originalWidth": 2127,
+              "originalHeight": 985,
+              "caption": "",
+              "resolutions": [
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/byCsy4nkNOvZDvi8SXXxAQ--~B/aD05ODU7dz0yMTI3O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/us.finance.gurufocus/aef6c126378d890dec52d5001bcdc798",
+                  "width": 2127,
+                  "height": 985,
+                  "tag": "original"
+                },
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/iePCeLBGtabze6adDwe0mw--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/us.finance.gurufocus/aef6c126378d890dec52d5001bcdc798",
+                  "width": 170,
+                  "height": 128,
+                  "tag": "170x128"
+                }
+              ]
+            },
+            "provider": {
+              "displayName": "GuruFocus.com",
+              "url": "http://www.gurufocus.com/"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/why-azitra-aztr-stock-soaring-204420581.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/why-azitra-aztr-stock-soaring-204420581.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        },
+        {
+          "id": "e1d6b8ea-5f4b-31b7-91ab-bc33654cb969",
+          "content": {
+            "id": "e1d6b8ea-5f4b-31b7-91ab-bc33654cb969",
+            "contentType": "STORY",
+            "title": "Sector Update: Health Care Stocks Mixed Late Afternoon",
+            "description": "",
+            "summary": "Health care stocks were mixed late Wednesday afternoon, with the NYSE Health Care Index adding 0.1%",
+            "pubDate": "2025-08-27T19:41:55Z",
+            "displayTime": "2025-08-27T19:41:55Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": null,
+            "provider": {
+              "displayName": "MT Newswires",
+              "url": "https://www.mtnewswires.com/"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/sector-health-care-stocks-mixed-194155126.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/sector-health-care-stocks-mixed-194155126.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": true,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        },
+        {
+          "id": "a515b589-f115-3d89-bf5a-593a77d0a2e1",
+          "content": {
+            "id": "a515b589-f115-3d89-bf5a-593a77d0a2e1",
+            "contentType": "STORY",
+            "title": "Sector Update: Health Care Stocks Advance Wednesday Afternoon",
+            "description": "",
+            "summary": "Health care stocks rose Wednesday afternoon with the NYSE Health Care Index adding 0.2% and the Heal",
+            "pubDate": "2025-08-27T17:59:06Z",
+            "displayTime": "2025-08-27T17:59:06Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": null,
+            "provider": {
+              "displayName": "MT Newswires",
+              "url": "https://www.mtnewswires.com/"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/sector-health-care-stocks-advance-175906934.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/sector-health-care-stocks-advance-175906934.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": true,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        }
+      ]
+    },
+    "recommendations": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  },
+  "holders_data": {
+    "major_holders": {
+      "status": "error"
+    },
+    "institutional_holders": {
+      "status": "error"
+    }
+  },
+  "earnings_data": {
+    "earnings": {
+      "status": "error",
+      "message": "'NoneType' object has no attribute 'empty'"
+    },
+    "calendar": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  }
+}

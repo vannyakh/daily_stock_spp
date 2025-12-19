@@ -1,9 +1,18 @@
 {
   "ticker": "BAKR",
-  "timestamp": "2025-12-18T04:51:43.248595",
+  "timestamp": "2025-12-19T05:33:33.064152",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 1,
+    "data": [
+      {
+        "Close": 5.5,
+        "High": 5.5,
+        "Low": 5.5,
+        "Open": 5.5,
+        "Volume": 100
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -26,8 +35,7 @@
   },
   "news_data": {
     "news": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
+      "status": "no_data"
     },
     "recommendations": {
       "status": "error",

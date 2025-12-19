@@ -1,25 +1,118 @@
 {
   "ticker": "OVTZ",
-  "timestamp": "2025-12-18T04:41:29.693384",
+  "timestamp": "2025-12-19T05:09:42.880960",
   "intraday_data": {
     "status": "no_data",
     "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
-    "message": "argument of type 'NoneType' is not iterable"
+    "message": "Too Many Requests. Rate limited. Try after a while."
   },
   "financials": {
     "income_statement": {
+      "status": "no_data"
+    },
+    "balance_sheet": {
+      "status": "no_data"
+    },
+    "cash_flow": {
+      "status": "no_data"
+    }
+  },
+  "options_data": {
+    "status": "error",
+    "error_message": "Too Many Requests. Rate limited. Try after a while."
+  },
+  "news_data": {
+    "news": {
       "status": "success",
-      "rows": 43,
-      "columns": [
-        "2024-12-31 00:00:00",
-        "2023-12-31 00:00:00",
-        "2022-12-31 00:00:00",
-        "2021-12-31 00:00:00",
-        "2020-12-31 00:00:00"
-      ],
+      "count": 1,
       "data": [
         {
-          
+          "id": "dda768af-2f70-32d1-8682-10f040ba5cab",
+          "content": {
+            "id": "dda768af-2f70-32d1-8682-10f040ba5cab",
+            "contentType": "STORY",
+            "title": "Oculus Founder Palmer Luckey's 'Lord Of The Rings'-Inspired Digital Bank Hits $2 Billion Valuation With Backing From Founders Fund",
+            "description": "",
+            "summary": "Palmer Luckey is making another big bet: this time, not in virtual reality or military defense, but digital finance. The Anduril CEO and Oculus founder has launched Erebor, a digital bank that already holds a valuation of $2 billion as it raises at least $225 million in funding, Business Insider reports. Venture firms Founders Fund and 8VC, led by Peter Thiel and Joe Lonsdale, respectively, are backing the project, according to sources with knowledge of the deal who spoke with Business Insider.",
+            "pubDate": "2025-07-19T01:09:37Z",
+            "displayTime": "2025-07-19T01:09:37Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": {
+              "originalUrl": "https://media.zenfs.com/en/Benzinga/8e366ffde1438103072b50e6dd03ec87",
+              "originalWidth": 937,
+              "originalHeight": 527,
+              "caption": "Oculus Founder Palmer Luckey's 'Lord Of The Rings'-Inspired Digital Bank Hits $2 Billion Valuation With Backing From Founders Fund",
+              "resolutions": [
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/aYbkygT4RLXSPxBK5eQ60g--~B/aD01Mjc7dz05Mzc7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/Benzinga/8e366ffde1438103072b50e6dd03ec87",
+                  "width": 937,
+                  "height": 527,
+                  "tag": "original"
+                },
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/zJVuZltwuUkpRb8_GzAarw--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/Benzinga/8e366ffde1438103072b50e6dd03ec87",
+                  "width": 170,
+                  "height": 128,
+                  "tag": "170x128"
+                }
+              ]
+            },
+            "provider": {
+              "displayName": "Benzinga",
+              "url": "http://www.benzinga.com/"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/oculus-founder-palmer-luckeys-lord-010937681.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/oculus-founder-palmer-luckeys-lord-010937681.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        }
+      ]
+    },
+    "recommendations": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  },
+  "holders_data": {
+    "major_holders": {
+      "status": "error"
+    },
+    "institutional_holders": {
+      "status": "error"
+    }
+  },
+  "earnings_data": {
+    "earnings": {
+      "status": "error",
+      "message": "'NoneType' object has no attribute 'empty'"
+    },
+    "calendar": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  }
+}

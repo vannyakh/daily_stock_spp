@@ -1,9 +1,25 @@
 {
   "ticker": "PRIF-PJ",
-  "timestamp": "2025-12-18T04:50:35.857267",
+  "timestamp": "2025-12-19T05:30:32.737256",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 2,
+    "data": [
+      {
+        "Close": 24.132699966430664,
+        "High": 24.132699966430664,
+        "Low": 24.132699966430664,
+        "Open": 24.132699966430664,
+        "Volume": 0
+      },
+      {
+        "Close": 24.1299991607666,
+        "High": 24.1299991607666,
+        "Low": 24.1299991607666,
+        "Open": 24.1299991607666,
+        "Volume": 1256
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -26,8 +42,7 @@
   },
   "news_data": {
     "news": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
+      "status": "no_data"
     },
     "recommendations": {
       "status": "error",

@@ -1,23 +1,16 @@
 {
   "ticker": "ATGFF",
-  "timestamp": "2025-12-18T04:45:28.957456",
+  "timestamp": "2025-12-19T05:17:56.051301",
   "intraday_data": {
     "status": "success",
-    "rows": 3,
+    "rows": 5,
     "data": [
-      {
-        "Close": 30.049999237060547,
-        "High": 30.049999237060547,
-        "Low": 30.049999237060547,
-        "Open": 30.049999237060547,
-        "Volume": 0
-      },
       {
         "Close": 29.600000381469727,
         "High": 29.600000381469727,
         "Low": 29.600000381469727,
         "Open": 29.600000381469727,
-        "Volume": 100
+        "Volume": 0
       },
       {
         "Close": 29.700000762939453,
@@ -25,6 +18,27 @@
         "Low": 29.700000762939453,
         "Open": 29.709999084472656,
         "Volume": 1100
+      },
+      {
+        "Close": 30.06999969482422,
+        "High": 30.06999969482422,
+        "Low": 30.06999969482422,
+        "Open": 30.06999969482422,
+        "Volume": 100
+      },
+      {
+        "Close": 30.139999389648438,
+        "High": 30.139999389648438,
+        "Low": 30.139999389648438,
+        "Open": 30.139999389648438,
+        "Volume": 1000
+      },
+      {
+        "Close": 30.1200008392334,
+        "High": 30.1200008392334,
+        "Low": 30.1200008392334,
+        "Open": 30.1200008392334,
+        "Volume": 100
       }
     ]
   },
@@ -608,15 +622,16 @@
       ]
     },
     "recommendations": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   },
   "holders_data": {
     "major_holders": {
-      "status": "no_data"
+      "status": "error"
     },
     "institutional_holders": {
-      "status": "no_data"
+      "status": "error"
     }
   },
   "earnings_data": {

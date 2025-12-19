@@ -1,9 +1,39 @@
 {
   "ticker": "AILIM",
-  "timestamp": "2025-12-18T04:45:45.150350",
+  "timestamp": "2025-12-19T05:18:35.311420",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 4,
+    "data": [
+      {
+        "Close SRG-PA": 24.3700008392334,
+        "High SRG-PA": 24.3700008392334,
+        "Low SRG-PA": 24.3700008392334,
+        "Open SRG-PA": 24.3700008392334,
+        "Volume SRG-PA": 377
+      },
+      {
+        "Close SRG-PA": 24.440000534057617,
+        "High SRG-PA": 24.440000534057617,
+        "Low SRG-PA": 24.440000534057617,
+        "Open SRG-PA": 24.440000534057617,
+        "Volume SRG-PA": 100
+      },
+      {
+        "Close SRG-PA": 24.43000030517578,
+        "High SRG-PA": 24.43000030517578,
+        "Low SRG-PA": 24.43000030517578,
+        "Open SRG-PA": 24.43000030517578,
+        "Volume SRG-PA": 0
+      },
+      {
+        "Close SRG-PA": 24.407100677490234,
+        "High SRG-PA": 24.407100677490234,
+        "Low SRG-PA": 24.3700008392334,
+        "Open SRG-PA": 24.407100677490234,
+        "Volume SRG-PA": 1650
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -29,15 +59,16 @@
       "status": "no_data"
     },
     "recommendations": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   },
   "holders_data": {
     "major_holders": {
-      "status": "no_data"
+      "status": "error"
     },
     "institutional_holders": {
-      "status": "no_data"
+      "status": "error"
     }
   },
   "earnings_data": {

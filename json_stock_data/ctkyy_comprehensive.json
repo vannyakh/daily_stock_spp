@@ -1,32 +1,9 @@
 {
   "ticker": "CTKYY",
-  "timestamp": "2025-12-18T04:43:16.649989",
+  "timestamp": "2025-12-19T05:13:25.311299",
   "intraday_data": {
-    "status": "success",
-    "rows": 3,
-    "data": [
-      {
-        "Close": 0.014999999664723873,
-        "High": 0.014999999664723873,
-        "Low": 0.014999999664723873,
-        "Open": 0.014999999664723873,
-        "Volume": 0
-      },
-      {
-        "Close": 0.01510000042617321,
-        "High": 0.01510000042617321,
-        "Low": 0.01510000042617321,
-        "Open": 0.01510000042617321,
-        "Volume": 1
-      },
-      {
-        "Close": 0.020099999383091927,
-        "High": 0.020099999383091927,
-        "Low": 0.020099999383091927,
-        "Open": 0.020099999383091927,
-        "Volume": 23
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -58,10 +35,10 @@
   },
   "holders_data": {
     "major_holders": {
-      "status": "no_data"
+      "status": "error"
     },
     "institutional_holders": {
-      "status": "no_data"
+      "status": "error"
     }
   },
   "earnings_data": {
@@ -71,7 +48,7 @@
     },
     "calendar": {
       "status": "error",
-      "message": "'dict' object has no attribute 'empty'"
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   }
 }

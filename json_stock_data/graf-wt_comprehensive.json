@@ -1,13 +1,36 @@
 {
   "ticker": "GRAF-WT",
-  "timestamp": "2025-12-18T04:49:24.438908",
+  "timestamp": "2025-12-19T05:27:10.944615",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 3,
+    "data": [
+      {
+        "Close": 0.44999998807907104,
+        "High": 0.44999998807907104,
+        "Low": 0.44999998807907104,
+        "Open": 0.44999998807907104,
+        "Volume": 0
+      },
+      {
+        "Close": 0.44999998807907104,
+        "High": 0.44999998807907104,
+        "Low": 0.44999998807907104,
+        "Open": 0.44999998807907104,
+        "Volume": 100000
+      },
+      {
+        "Close": 0.4643999934196472,
+        "High": 0.5,
+        "Low": 0.4643999934196472,
+        "Open": 0.4799000024795532,
+        "Volume": 21583
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
-    "message": "argument of type 'NoneType' is not iterable"
+    "message": "Too Many Requests. Rate limited. Try after a while."
   },
   "financials": {
     "income_statement": {
@@ -26,8 +49,7 @@
   },
   "news_data": {
     "news": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
+      "status": "no_data"
     },
     "recommendations": {
       "status": "error",

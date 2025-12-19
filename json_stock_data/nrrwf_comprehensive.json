@@ -1,39 +1,9 @@
 {
   "ticker": "NRRWF",
-  "timestamp": "2025-12-18T04:42:13.363456",
+  "timestamp": "2025-12-19T05:11:14.784284",
   "intraday_data": {
-    "status": "success",
-    "rows": 4,
-    "data": [
-      {
-        "Close GRST": 0.00039999998989515007,
-        "High GRST": 0.00039999998989515007,
-        "Low GRST": 0.00039999998989515007,
-        "Open GRST": 0.00039999998989515007,
-        "Volume GRST": 0
-      },
-      {
-        "Close GRST": 0.0005000000237487257,
-        "High GRST": 0.0005000000237487257,
-        "Low GRST": 0.0005000000237487257,
-        "Open GRST": 0.0005000000237487257,
-        "Volume GRST": 80000
-      },
-      {
-        "Close GRST": 0.0005000000237487257,
-        "High GRST": 0.0005000000237487257,
-        "Low GRST": 0.0005000000237487257,
-        "Open GRST": 0.0005000000237487257,
-        "Volume GRST": 500000
-      },
-      {
-        "Close GRST": 0.0005000000237487257,
-        "High GRST": 0.0005000000237487257,
-        "Low GRST": 0.0005000000237487257,
-        "Open GRST": 0.0005000000237487257,
-        "Volume GRST": 73456
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -56,7 +26,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

@@ -1,74 +1,10 @@
 {
   "ticker": "OMQS",
-  "timestamp": "2025-12-18T04:42:12.812817",
+  "timestamp": "2025-12-19T05:11:12.847748",
   "intraday_data": {
     "status": "success",
-    "rows": 9,
-    "data": [
-      {
-        "Close NUGN": 0.0024999999441206455,
-        "High NUGN": 0.0024999999441206455,
-        "Low NUGN": 0.0024999999441206455,
-        "Open NUGN": 0.0024999999441206455,
-        "Volume NUGN": 0
-      },
-      {
-        "Close NUGN": 0.0024999999441206455,
-        "High NUGN": 0.0024999999441206455,
-        "Low NUGN": 0.0024999999441206455,
-        "Open NUGN": 0.0024999999441206455,
-        "Volume NUGN": 60000
-      },
-      {
-        "Close NUGN": 0.0024999999441206455,
-        "High NUGN": 0.0024999999441206455,
-        "Low NUGN": 0.0024999999441206455,
-        "Open NUGN": 0.0024999999441206455,
-        "Volume NUGN": 70000
-      },
-      {
-        "Close NUGN": 0.0024999999441206455,
-        "High NUGN": 0.0024999999441206455,
-        "Low NUGN": 0.0024999999441206455,
-        "Open NUGN": 0.0024999999441206455,
-        "Volume NUGN": 70000
-      },
-      {
-        "Close NUGN": 0.0024999999441206455,
-        "High NUGN": 0.0024999999441206455,
-        "Low NUGN": 0.0024999999441206455,
-        "Open NUGN": 0.0024999999441206455,
-        "Volume NUGN": 60000
-      },
-      {
-        "Close NUGN": 0.0024999999441206455,
-        "High NUGN": 0.0024999999441206455,
-        "Low NUGN": 0.0024999999441206455,
-        "Open NUGN": 0.0024999999441206455,
-        "Volume NUGN": 70000
-      },
-      {
-        "Close NUGN": 0.0026000000070780516,
-        "High NUGN": 0.0026000000070780516,
-        "Low NUGN": 0.0024999999441206455,
-        "Open NUGN": 0.0024999999441206455,
-        "Volume NUGN": 170000
-      },
-      {
-        "Close NUGN": 0.0026000000070780516,
-        "High NUGN": 0.0026000000070780516,
-        "Low NUGN": 0.0026000000070780516,
-        "Open NUGN": 0.0026000000070780516,
-        "Volume NUGN": 100000
-      },
-      {
-        "Close NUGN": 0.0026000000070780516,
-        "High NUGN": 0.0026000000070780516,
-        "Low NUGN": 0.0026000000070780516,
-        "Open NUGN": 0.0026000000070780516,
-        "Volume NUGN": 0
-      }
-    ]
+    "rows": 0,
+    "data": []
   },
   "stock_info": {
     "status": "error",
@@ -76,15 +12,44 @@
   },
   "financials": {
     "income_statement": {
-      "status": "success",
-      "rows": 49,
-      "columns": [
-        "2024-12-31 00:00:00",
-        "2023-12-31 00:00:00",
-        "2022-12-31 00:00:00",
-        "2021-12-31 00:00:00",
-        "2020-12-31 00:00:00"
-      ],
-      "data": [
-        {
-          
+      "status": "no_data"
+    },
+    "balance_sheet": {
+      "status": "no_data"
+    },
+    "cash_flow": {
+      "status": "no_data"
+    }
+  },
+  "options_data": {
+    "status": "error",
+    "error_message": "Too Many Requests. Rate limited. Try after a while."
+  },
+  "news_data": {
+    "news": {
+      "status": "no_data"
+    },
+    "recommendations": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  },
+  "holders_data": {
+    "major_holders": {
+      "status": "error"
+    },
+    "institutional_holders": {
+      "status": "error"
+    }
+  },
+  "earnings_data": {
+    "earnings": {
+      "status": "error",
+      "message": "'NoneType' object has no attribute 'empty'"
+    },
+    "calendar": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  }
+}

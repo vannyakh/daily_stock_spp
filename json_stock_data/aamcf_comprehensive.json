@@ -1,24 +1,140 @@
 {
   "ticker": "AAMCF",
-  "timestamp": "2025-12-18T04:50:45.007226",
+  "timestamp": "2025-12-19T05:30:55.784609",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 12,
+    "data": [
+      {
+        "Close BEPJ": 25.25,
+        "High BEPJ": 25.25,
+        "Low BEPJ": 25.25,
+        "Open BEPJ": 25.25,
+        "Volume BEPJ": 0
+      },
+      {
+        "Close BEPJ": 25.25,
+        "High BEPJ": 25.25,
+        "Low BEPJ": 25.25,
+        "Open BEPJ": 25.25,
+        "Volume BEPJ": 2550
+      },
+      {
+        "Close BEPJ": 25.155000686645508,
+        "High BEPJ": 25.155000686645508,
+        "Low BEPJ": 25.155000686645508,
+        "Open BEPJ": 25.155000686645508,
+        "Volume BEPJ": 675
+      },
+      {
+        "Close BEPJ": 25.239999771118164,
+        "High BEPJ": 25.239999771118164,
+        "Low BEPJ": 25.239999771118164,
+        "Open BEPJ": 25.239999771118164,
+        "Volume BEPJ": 1564
+      },
+      {
+        "Close BEPJ": 25.18000030517578,
+        "High BEPJ": 25.18000030517578,
+        "Low BEPJ": 25.18000030517578,
+        "Open BEPJ": 25.18000030517578,
+        "Volume BEPJ": 150
+      },
+      {
+        "Close BEPJ": 25.239999771118164,
+        "High BEPJ": 25.239999771118164,
+        "Low BEPJ": 25.239999771118164,
+        "Open BEPJ": 25.239999771118164,
+        "Volume BEPJ": 129
+      },
+      {
+        "Close BEPJ": 25.25,
+        "High BEPJ": 25.25,
+        "Low BEPJ": 25.25,
+        "Open BEPJ": 25.25,
+        "Volume BEPJ": 0
+      },
+      {
+        "Close BEPJ": 25.209999084472656,
+        "High BEPJ": 25.209999084472656,
+        "Low BEPJ": 25.209999084472656,
+        "Open BEPJ": 25.209999084472656,
+        "Volume BEPJ": 207
+      },
+      {
+        "Close BEPJ": 25.299999237060547,
+        "High BEPJ": 25.299999237060547,
+        "Low BEPJ": 25.280000686645508,
+        "Open BEPJ": 25.290000915527344,
+        "Volume BEPJ": 1034
+      },
+      {
+        "Close BEPJ": 25.204999923706055,
+        "High BEPJ": 25.204999923706055,
+        "Low BEPJ": 25.204999923706055,
+        "Open BEPJ": 25.204999923706055,
+        "Volume BEPJ": 311
+      },
+      {
+        "Close BEPJ": 25.360000610351562,
+        "High BEPJ": 25.479999542236328,
+        "Low BEPJ": 25.299999237060547,
+        "Open BEPJ": 25.299999237060547,
+        "Volume BEPJ": 2065
+      },
+      {
+        "Close BEPJ": 25.299999237060547,
+        "High BEPJ": 25.299999237060547,
+        "Low BEPJ": 25.299999237060547,
+        "Open BEPJ": 25.299999237060547,
+        "Volume BEPJ": 100
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
-    "message": "argument of type 'NoneType' is not iterable"
+    "message": "Too Many Requests. Rate limited. Try after a while."
   },
   "financials": {
     "income_statement": {
-      "status": "success",
-      "rows": 49,
-      "columns": [
-        "2023-12-31 00:00:00",
-        "2022-12-31 00:00:00",
-        "2021-12-31 00:00:00",
-        "2020-12-31 00:00:00"
-      ],
-      "data": [
-        {
-          
+      "status": "no_data"
+    },
+    "balance_sheet": {
+      "status": "no_data"
+    },
+    "cash_flow": {
+      "status": "no_data"
+    }
+  },
+  "options_data": {
+    "status": "error",
+    "error_message": "Too Many Requests. Rate limited. Try after a while."
+  },
+  "news_data": {
+    "news": {
+      "status": "no_data"
+    },
+    "recommendations": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  },
+  "holders_data": {
+    "major_holders": {
+      "status": "error"
+    },
+    "institutional_holders": {
+      "status": "error"
+    }
+  },
+  "earnings_data": {
+    "earnings": {
+      "status": "error",
+      "message": "'NoneType' object has no attribute 'empty'"
+    },
+    "calendar": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  }
+}

@@ -1,25 +1,9 @@
 {
   "ticker": "BRKH",
-  "timestamp": "2025-12-18T04:46:19.799854",
+  "timestamp": "2025-12-19T05:19:40.441774",
   "intraday_data": {
-    "status": "success",
-    "rows": 2,
-    "data": [
-      {
-        "Close FGPRB": 180.0,
-        "High FGPRB": 180.0,
-        "Low FGPRB": 180.0,
-        "Open FGPRB": 180.0,
-        "Volume FGPRB": 0
-      },
-      {
-        "Close FGPRB": 180.0,
-        "High FGPRB": 180.0,
-        "Low FGPRB": 180.0,
-        "Open FGPRB": 180.0,
-        "Volume FGPRB": 11
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -42,7 +26,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

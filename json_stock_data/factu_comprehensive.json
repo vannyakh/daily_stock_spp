@@ -1,9 +1,18 @@
 {
   "ticker": "FACTU",
-  "timestamp": "2025-12-18T04:47:32.089116",
+  "timestamp": "2025-12-19T05:22:24.091231",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 1,
+    "data": [
+      {
+        "Close": 10.5600004196167,
+        "High": 10.5600004196167,
+        "Low": 10.5600004196167,
+        "Open": 10.5600004196167,
+        "Volume": 0
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -93,7 +102,8 @@
       ]
     },
     "recommendations": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   },
   "holders_data": {

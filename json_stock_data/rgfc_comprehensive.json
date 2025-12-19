@@ -1,6 +1,6 @@
 {
   "ticker": "RGFC",
-  "timestamp": "2025-12-18T04:42:42.447658",
+  "timestamp": "2025-12-19T05:12:14.516927",
   "intraday_data": {
     "status": "no_data",
     "message": "No intraday data available"
@@ -38,17 +38,7 @@
       "status": "error"
     },
     "institutional_holders": {
-      "status": "success",
-      "data": [
-        {
-          "Date Reported": "2024-12-31 00:00:00",
-          "Holder": "B. Riley Financial, Inc.",
-          "pctHeld": 0.045,
-          "Shares": 78373,
-          "Value": 5486,
-          "pctChange": 0.0
-        }
-      ]
+      "status": "error"
     }
   },
   "earnings_data": {
@@ -58,7 +48,7 @@
     },
     "calendar": {
       "status": "error",
-      "message": "'dict' object has no attribute 'empty'"
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   }
 }
