@@ -1,44 +1,16 @@
 {
   "ticker": "AUMN",
-  "timestamp": "2025-12-19T05:12:18.438953",
+  "timestamp": "2025-12-20T05:00:42.913113",
   "intraday_data": {
     "status": "success",
     "rows": 10,
     "data": [
       {
-        "Close": 0.32499998807907104,
-        "High": 0.32499998807907104,
-        "Low": 0.32499998807907104,
-        "Open": 0.32499998807907104,
-        "Volume": 0
-      },
-      {
-        "Close": 0.32260000705718994,
-        "High": 0.3226499855518341,
-        "Low": 0.32260000705718994,
-        "Open": 0.3226499855518341,
-        "Volume": 1491
-      },
-      {
-        "Close": 0.32499998807907104,
-        "High": 0.32499998807907104,
-        "Low": 0.32499998807907104,
-        "Open": 0.32499998807907104,
-        "Volume": 7500
-      },
-      {
-        "Close": 0.32499998807907104,
-        "High": 0.32499998807907104,
-        "Low": 0.32499998807907104,
-        "Open": 0.32499998807907104,
-        "Volume": 0
-      },
-      {
         "Close": 0.3199999928474426,
         "High": 0.3199999928474426,
         "Low": 0.3199999928474426,
         "Open": 0.3199999928474426,
-        "Volume": 241
+        "Volume": 0
       },
       {
         "Close": 0.3199999928474426,
@@ -74,6 +46,34 @@
         "Low": 0.32100000977516174,
         "Open": 0.32100000977516174,
         "Volume": 100
+      },
+      {
+        "Close": 0.3199999928474426,
+        "High": 0.3199999928474426,
+        "Low": 0.3199999928474426,
+        "Open": 0.3199999928474426,
+        "Volume": 1032
+      },
+      {
+        "Close": 0.31209999322891235,
+        "High": 0.3199999928474426,
+        "Low": 0.31209999322891235,
+        "Open": 0.3199999928474426,
+        "Volume": 17467
+      },
+      {
+        "Close": 0.32199999690055847,
+        "High": 0.32199999690055847,
+        "Low": 0.32199999690055847,
+        "Open": 0.32199999690055847,
+        "Volume": 3000
+      },
+      {
+        "Close": 0.31200000643730164,
+        "High": 0.31200000643730164,
+        "Low": 0.31200000643730164,
+        "Open": 0.31200000643730164,
+        "Volume": 261
       }
     ]
   },
@@ -230,15 +230,16 @@
       ]
     },
     "recommendations": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   },
   "holders_data": {
     "major_holders": {
-      "status": "no_data"
+      "status": "error"
     },
     "institutional_holders": {
-      "status": "no_data"
+      "status": "error"
     }
   },
   "earnings_data": {
@@ -248,7 +249,7 @@
     },
     "calendar": {
       "status": "error",
-      "message": "'dict' object has no attribute 'empty'"
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   }
 }

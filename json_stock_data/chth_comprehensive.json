@@ -1,22 +1,13 @@
 {
   "ticker": "CHTH",
-  "timestamp": "2025-12-19T05:20:08.124212",
+  "timestamp": "2025-12-20T05:08:45.732835",
   "intraday_data": {
-    "status": "success",
-    "rows": 1,
-    "data": [
-      {
-        "Close": 0.009999999776482582,
-        "High": 0.009999999776482582,
-        "Low": 0.009999999776482582,
-        "Open": 0.009999999776482582,
-        "Volume": 8475
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
-    "message": "Too Many Requests. Rate limited. Try after a while."
+    "message": "argument of type 'NoneType' is not iterable"
   },
   "financials": {
     "income_statement": {
@@ -167,7 +158,7 @@
       "status": "error"
     },
     "institutional_holders": {
-      "status": "no_data"
+      "status": "error"
     }
   },
   "earnings_data": {

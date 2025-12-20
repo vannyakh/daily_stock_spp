@@ -1,25 +1,9 @@
 {
   "ticker": "GSTX",
-  "timestamp": "2025-12-19T05:07:28.108151",
+  "timestamp": "2025-12-20T04:55:57.790067",
   "intraday_data": {
-    "status": "success",
-    "rows": 2,
-    "data": [
-      {
-        "Close": 0.019600000232458115,
-        "High": 0.019600000232458115,
-        "Low": 0.019600000232458115,
-        "Open": 0.019600000232458115,
-        "Volume": 0
-      },
-      {
-        "Close": 0.019999999552965164,
-        "High": 0.019999999552965164,
-        "Low": 0.019999999552965164,
-        "Open": 0.019999999552965164,
-        "Volume": 0
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -45,7 +29,8 @@
       "status": "no_data"
     },
     "recommendations": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   },
   "holders_data": {

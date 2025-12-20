@@ -1,117 +1,54 @@
 {
   "ticker": "NXN",
-  "timestamp": "2025-12-19T05:01:44.045326",
+  "timestamp": "2025-12-20T04:50:27.743712",
   "intraday_data": {
-    "status": "success",
-    "rows": 13,
-    "data": [
-      {
-        "Close": 11.989999771118164,
-        "High": 11.989999771118164,
-        "Low": 11.989999771118164,
-        "Open": 11.989999771118164,
-        "Volume": 0
-      },
-      {
-        "Close": 12.000900268554688,
-        "High": 12.000900268554688,
-        "Low": 12.000900268554688,
-        "Open": 12.000900268554688,
-        "Volume": 316
-      },
-      {
-        "Close": 12.081299781799316,
-        "High": 12.081299781799316,
-        "Low": 12.079000473022461,
-        "Open": 12.079000473022461,
-        "Volume": 3083
-      },
-      {
-        "Close": 12.079999923706055,
-        "High": 12.08549976348877,
-        "Low": 12.079999923706055,
-        "Open": 12.079999923706055,
-        "Volume": 417
-      },
-      {
-        "Close": 12.079999923706055,
-        "High": 12.079999923706055,
-        "Low": 12.079999923706055,
-        "Open": 12.079999923706055,
-        "Volume": 231
-      },
-      {
-        "Close": 12.085599899291992,
-        "High": 12.085599899291992,
-        "Low": 12.085599899291992,
-        "Open": 12.085599899291992,
-        "Volume": 406
-      },
-      {
-        "Close": 12.085000038146973,
-        "High": 12.085000038146973,
-        "Low": 12.085000038146973,
-        "Open": 12.085000038146973,
-        "Volume": 346
-      },
-      {
-        "Close": 12.079999923706055,
-        "High": 12.079999923706055,
-        "Low": 12.079999923706055,
-        "Open": 12.079999923706055,
-        "Volume": 235
-      },
-      {
-        "Close": 12.079999923706055,
-        "High": 12.079999923706055,
-        "Low": 12.079999923706055,
-        "Open": 12.079999923706055,
-        "Volume": 224
-      },
-      {
-        "Close": 12.09000015258789,
-        "High": 12.09000015258789,
-        "Low": 12.09000015258789,
-        "Open": 12.09000015258789,
-        "Volume": 1258
-      },
-      {
-        "Close": 12.029999732971191,
-        "High": 12.029999732971191,
-        "Low": 12.029999732971191,
-        "Open": 12.029999732971191,
-        "Volume": 124
-      },
-      {
-        "Close": 12.067299842834473,
-        "High": 12.109999656677246,
-        "Low": 12.067299842834473,
-        "Open": 12.109999656677246,
-        "Volume": 1310
-      },
-      {
-        "Close": 12.100000381469727,
-        "High": 12.100000381469727,
-        "Low": 12.100000381469727,
-        "Open": 12.100000381469727,
-        "Volume": 812
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
-    "message": "argument of type 'NoneType' is not iterable"
+    "message": "Too Many Requests. Rate limited. Try after a while."
   },
   "financials": {
     "income_statement": {
-      "status": "success",
-      "rows": 29,
-      "columns": [
-        "2025-02-28 00:00:00",
-        "2024-02-29 00:00:00",
-        "2023-02-28 00:00:00",
-        "2021-03-31 00:00:00"
-      ],
-      "data": [
-        {
-          
+      "status": "no_data"
+    },
+    "balance_sheet": {
+      "status": "no_data"
+    },
+    "cash_flow": {
+      "status": "no_data"
+    }
+  },
+  "options_data": {
+    "status": "error",
+    "error_message": "Too Many Requests. Rate limited. Try after a while."
+  },
+  "news_data": {
+    "news": {
+      "status": "no_data"
+    },
+    "recommendations": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  },
+  "holders_data": {
+    "major_holders": {
+      "status": "error"
+    },
+    "institutional_holders": {
+      "status": "error"
+    }
+  },
+  "earnings_data": {
+    "earnings": {
+      "status": "error",
+      "message": "'NoneType' object has no attribute 'empty'"
+    },
+    "calendar": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  }
+}

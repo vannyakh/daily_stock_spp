@@ -1,6 +1,6 @@
 {
   "ticker": "EMPG",
-  "timestamp": "2025-12-19T05:14:22.993794",
+  "timestamp": "2025-12-20T05:02:49.026957",
   "intraday_data": {
     "status": "no_data",
     "message": "No intraday data available"
@@ -177,16 +177,63 @@
       ]
     },
     "recommendations": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
+      "status": "no_data"
     }
   },
   "holders_data": {
     "major_holders": {
-      "status": "error"
+      "status": "success",
+      "data": [
+        {
+          "Value": 0.64816004
+        },
+        {
+          "Value": 0.0057
+        },
+        {
+          "Value": 0.016210001
+        },
+        {
+          "Value": 5.0
+        }
+      ]
     },
     "institutional_holders": {
-      "status": "error"
+      "status": "success",
+      "data": [
+        {
+          "Date Reported": "2025-09-30 00:00:00",
+          "Holder": "Quadrature Capital Ltd",
+          "pctHeld": 0.003,
+          "Shares": 23854,
+          "Value": 414105,
+          "pctChange": 1.0
+        },
+        {
+          "Date Reported": "2025-09-30 00:00:00",
+          "Holder": "HRT Financial LP",
+          "pctHeld": 0.0023999999,
+          "Shares": 19086,
+          "Value": 331332,
+          "pctChange": 1.0
+        },
+        {
+          "Date Reported": "2025-09-30 00:00:00",
+          "Holder": "Barclays Plc",
+          "pctHeld": 0.0001,
+          "Shares": 988,
+          "Value": 17151,
+          "pctChange": 1.0
+        },
+        {
+          "Date Reported": "2025-09-30 00:00:00",
+          "Holder": "UBS Group AG",
+          "pctHeld": 0.0,
+          "Shares": 343,
+          "Value": 5954,
+          "pctChange": 1.0
+        }
+      ]
     }
   },
   "earnings_data": {
@@ -196,7 +243,7 @@
     },
     "calendar": {
       "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
+      "message": "'dict' object has no attribute 'empty'"
     }
   }
 }

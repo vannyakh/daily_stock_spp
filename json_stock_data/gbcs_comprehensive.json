@@ -1,55 +1,62 @@
 {
   "ticker": "GBCS",
-  "timestamp": "2025-12-19T05:20:25.498772",
+  "timestamp": "2025-12-20T05:09:04.292516",
   "intraday_data": {
     "status": "success",
-    "rows": 0,
-    "data": []
+    "rows": 5,
+    "data": [
+      {
+        "Close WHLRD": 37.5,
+        "High WHLRD": 37.5,
+        "Low WHLRD": 37.5,
+        "Open WHLRD": 37.5,
+        "Volume WHLRD": 0
+      },
+      {
+        "Close WHLRD": 37.790000915527344,
+        "High WHLRD": 37.790000915527344,
+        "Low WHLRD": 37.790000915527344,
+        "Open WHLRD": 37.790000915527344,
+        "Volume WHLRD": 103
+      },
+      {
+        "Close WHLRD": 37.97999954223633,
+        "High WHLRD": 38.099998474121094,
+        "Low WHLRD": 37.97999954223633,
+        "Open WHLRD": 38.099998474121094,
+        "Volume WHLRD": 417
+      },
+      {
+        "Close WHLRD": 38.0,
+        "High WHLRD": 38.0,
+        "Low WHLRD": 38.0,
+        "Open WHLRD": 38.0,
+        "Volume WHLRD": 200
+      },
+      {
+        "Close WHLRD": 38.0,
+        "High WHLRD": 38.0,
+        "Low WHLRD": 38.0,
+        "Open WHLRD": 38.0,
+        "Volume WHLRD": 827
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
-    "message": "Too Many Requests. Rate limited. Try after a while."
+    "message": "argument of type 'NoneType' is not iterable"
   },
   "financials": {
     "income_statement": {
-      "status": "no_data"
-    },
-    "balance_sheet": {
-      "status": "no_data"
-    },
-    "cash_flow": {
-      "status": "no_data"
-    }
-  },
-  "options_data": {
-    "status": "error",
-    "error_message": "Too Many Requests. Rate limited. Try after a while."
-  },
-  "news_data": {
-    "news": {
-      "status": "no_data"
-    },
-    "recommendations": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
-    }
-  },
-  "holders_data": {
-    "major_holders": {
-      "status": "error"
-    },
-    "institutional_holders": {
-      "status": "error"
-    }
-  },
-  "earnings_data": {
-    "earnings": {
-      "status": "error",
-      "message": "'NoneType' object has no attribute 'empty'"
-    },
-    "calendar": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
-    }
-  }
-}
+      "status": "success",
+      "rows": 55,
+      "columns": [
+        "2024-12-31 00:00:00",
+        "2023-12-31 00:00:00",
+        "2022-12-31 00:00:00",
+        "2021-12-31 00:00:00",
+        "2020-12-31 00:00:00"
+      ],
+      "data": [
+        {
+          

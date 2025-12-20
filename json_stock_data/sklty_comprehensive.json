@@ -1,9 +1,32 @@
 {
   "ticker": "SKLTY",
-  "timestamp": "2025-12-19T04:32:16.551535",
+  "timestamp": "2025-12-20T04:22:00.523273",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 3,
+    "data": [
+      {
+        "Close": 30.549999237060547,
+        "High": 30.549999237060547,
+        "Low": 30.549999237060547,
+        "Open": 30.549999237060547,
+        "Volume": 0
+      },
+      {
+        "Close": 30.5,
+        "High": 30.5,
+        "Low": 30.5,
+        "Open": 30.5,
+        "Volume": 100
+      },
+      {
+        "Close": 30.719999313354492,
+        "High": 30.719999313354492,
+        "Low": 30.719999313354492,
+        "Open": 30.719999313354492,
+        "Volume": 100
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -642,7 +665,8 @@
       ]
     },
     "recommendations": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   },
   "holders_data": {

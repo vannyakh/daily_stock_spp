@@ -1,9 +1,18 @@
 {
   "ticker": "IVCAU",
-  "timestamp": "2025-12-19T05:27:17.738057",
+  "timestamp": "2025-12-20T05:16:00.841397",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 1,
+    "data": [
+      {
+        "Close DRMAW": 0.01860000006854534,
+        "High DRMAW": 0.01860000006854534,
+        "Low DRMAW": 0.01860000006854534,
+        "Open DRMAW": 0.01860000006854534,
+        "Volume DRMAW": 0
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -29,7 +38,8 @@
       "status": "no_data"
     },
     "recommendations": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   },
   "holders_data": {
