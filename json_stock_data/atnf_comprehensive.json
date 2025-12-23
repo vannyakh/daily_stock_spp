@@ -1,22 +1,13 @@
 {
   "ticker": "ATNF",
-  "timestamp": "2025-12-20T04:58:21.586470",
+  "timestamp": "2025-12-23T05:48:07.968346",
   "intraday_data": {
-    "status": "success",
-    "rows": 1,
-    "data": [
-      {
-        "Close AAMTF": 0.25,
-        "High AAMTF": 0.25,
-        "Low AAMTF": 0.25,
-        "Open AAMTF": 0.25,
-        "Volume AAMTF": 0
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
-    "message": "argument of type 'NoneType' is not iterable"
+    "message": "Too Many Requests. Rate limited. Try after a while."
   },
   "financials": {
     "income_statement": {
@@ -651,8 +642,7 @@
       ]
     },
     "recommendations": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
+      "status": "no_data"
     }
   },
   "holders_data": {

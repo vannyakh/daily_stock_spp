@@ -1,39 +1,9 @@
 {
   "ticker": "STCB",
-  "timestamp": "2025-12-20T04:50:04.564070",
+  "timestamp": "2025-12-23T05:32:56.854710",
   "intraday_data": {
-    "status": "success",
-    "rows": 4,
-    "data": [
-      {
-        "Close": 0.02800000086426735,
-        "High": 0.02800000086426735,
-        "Low": 0.02800000086426735,
-        "Open": 0.02800000086426735,
-        "Volume": 12000
-      },
-      {
-        "Close": 0.025200000032782555,
-        "High": 0.025200000032782555,
-        "Low": 0.025200000032782555,
-        "Open": 0.025200000032782555,
-        "Volume": 10000
-      },
-      {
-        "Close": 0.02800000086426735,
-        "High": 0.02800000086426735,
-        "Low": 0.02800000086426735,
-        "Open": 0.02800000086426735,
-        "Volume": 25000
-      },
-      {
-        "Close": 0.02419999986886978,
-        "High": 0.02419999986886978,
-        "Low": 0.02419999986886978,
-        "Open": 0.02419999986886978,
-        "Volume": 27000
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -142,7 +112,7 @@
     },
     "calendar": {
       "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
+      "message": "'dict' object has no attribute 'empty'"
     }
   }
 }

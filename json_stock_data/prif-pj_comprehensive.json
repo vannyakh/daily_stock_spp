@@ -1,53 +1,9 @@
 {
   "ticker": "PRIF-PJ",
-  "timestamp": "2025-12-20T05:19:18.691485",
+  "timestamp": "2025-12-23T06:25:07.905513",
   "intraday_data": {
-    "status": "success",
-    "rows": 6,
-    "data": [
-      {
-        "Close": 24.1299991607666,
-        "High": 24.1299991607666,
-        "Low": 24.1299991607666,
-        "Open": 24.1299991607666,
-        "Volume": 0
-      },
-      {
-        "Close": 24.074800491333008,
-        "High": 24.074800491333008,
-        "Low": 24.074800491333008,
-        "Open": 24.074800491333008,
-        "Volume": 117
-      },
-      {
-        "Close": 24.099899291992188,
-        "High": 24.099899291992188,
-        "Low": 24.099899291992188,
-        "Open": 24.099899291992188,
-        "Volume": 290
-      },
-      {
-        "Close": 24.040000915527344,
-        "High": 24.040000915527344,
-        "Low": 24.040000915527344,
-        "Open": 24.040000915527344,
-        "Volume": 212
-      },
-      {
-        "Close": 24.07159996032715,
-        "High": 24.075000762939453,
-        "Low": 24.07159996032715,
-        "Open": 24.075000762939453,
-        "Volume": 239
-      },
-      {
-        "Close": 24.075000762939453,
-        "High": 24.100000381469727,
-        "Low": 24.075000762939453,
-        "Open": 24.100000381469727,
-        "Volume": 393
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -55,44 +11,14 @@
   },
   "financials": {
     "income_statement": {
-      "status": "no_data"
-    },
-    "balance_sheet": {
-      "status": "no_data"
-    },
-    "cash_flow": {
-      "status": "no_data"
-    }
-  },
-  "options_data": {
-    "status": "error",
-    "error_message": "Too Many Requests. Rate limited. Try after a while."
-  },
-  "news_data": {
-    "news": {
-      "status": "no_data"
-    },
-    "recommendations": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
-    }
-  },
-  "holders_data": {
-    "major_holders": {
-      "status": "error"
-    },
-    "institutional_holders": {
-      "status": "error"
-    }
-  },
-  "earnings_data": {
-    "earnings": {
-      "status": "error",
-      "message": "'NoneType' object has no attribute 'empty'"
-    },
-    "calendar": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
-    }
-  }
-}
+      "status": "success",
+      "rows": 40,
+      "columns": [
+        "2025-06-30 00:00:00",
+        "2024-06-30 00:00:00",
+        "2023-06-30 00:00:00",
+        "2022-06-30 00:00:00"
+      ],
+      "data": [
+        {
+          

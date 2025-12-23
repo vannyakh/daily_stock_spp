@@ -1,50 +1,13 @@
 {
   "ticker": "DTII",
-  "timestamp": "2025-12-20T05:01:20.162823",
+  "timestamp": "2025-12-23T05:53:18.335183",
   "intraday_data": {
-    "status": "success",
-    "rows": 5,
-    "data": [
-      {
-        "Close": 0.013000000268220901,
-        "High": 0.013000000268220901,
-        "Low": 0.013000000268220901,
-        "Open": 0.013000000268220901,
-        "Volume": 0
-      },
-      {
-        "Close": 0.00860000029206276,
-        "High": 0.010999999940395355,
-        "Low": 0.00860000029206276,
-        "Open": 0.010999999940395355,
-        "Volume": 55500
-      },
-      {
-        "Close": 0.00860000029206276,
-        "High": 0.00860000029206276,
-        "Low": 0.00860000029206276,
-        "Open": 0.00860000029206276,
-        "Volume": 100
-      },
-      {
-        "Close": 0.013000000268220901,
-        "High": 0.013000000268220901,
-        "Low": 0.013000000268220901,
-        "Open": 0.013000000268220901,
-        "Volume": 11001
-      },
-      {
-        "Close": 0.014999999664723873,
-        "High": 0.014999999664723873,
-        "Low": 0.014999999664723873,
-        "Open": 0.014999999664723873,
-        "Volume": 8999
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
-    "message": "argument of type 'NoneType' is not iterable"
+    "message": "Too Many Requests. Rate limited. Try after a while."
   },
   "financials": {
     "income_statement": {
@@ -66,8 +29,7 @@
       "status": "no_data"
     },
     "recommendations": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
+      "status": "no_data"
     }
   },
   "holders_data": {

@@ -1,46 +1,9 @@
 {
   "ticker": "XOSWW",
-  "timestamp": "2025-12-20T05:13:19.171112",
+  "timestamp": "2025-12-23T06:14:32.891794",
   "intraday_data": {
-    "status": "success",
-    "rows": 5,
-    "data": [
-      {
-        "Close OPFI-WT": 1.6074999570846558,
-        "High OPFI-WT": 1.6074999570846558,
-        "Low OPFI-WT": 1.6074999570846558,
-        "Open OPFI-WT": 1.6074999570846558,
-        "Volume OPFI-WT": 0
-      },
-      {
-        "Close OPFI-WT": 1.5794999599456787,
-        "High OPFI-WT": 1.5794999599456787,
-        "Low OPFI-WT": 1.5794999599456787,
-        "Open OPFI-WT": 1.5794999599456787,
-        "Volume OPFI-WT": 949
-      },
-      {
-        "Close OPFI-WT": 1.559999942779541,
-        "High OPFI-WT": 1.559999942779541,
-        "Low OPFI-WT": 1.559999942779541,
-        "Open OPFI-WT": 1.559999942779541,
-        "Volume OPFI-WT": 2000
-      },
-      {
-        "Close OPFI-WT": 1.5413000583648682,
-        "High OPFI-WT": 1.5413000583648682,
-        "Low OPFI-WT": 1.5413000583648682,
-        "Open OPFI-WT": 1.5413000583648682,
-        "Volume OPFI-WT": 3873
-      },
-      {
-        "Close OPFI-WT": 1.590000033378601,
-        "High OPFI-WT": 1.590000033378601,
-        "Low OPFI-WT": 1.5299999713897705,
-        "Open OPFI-WT": 1.5299999713897705,
-        "Volume OPFI-WT": 0
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -519,15 +482,16 @@
       ]
     },
     "recommendations": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   },
   "holders_data": {
     "major_holders": {
-      "status": "no_data"
+      "status": "error"
     },
     "institutional_holders": {
-      "status": "no_data"
+      "status": "error"
     }
   },
   "earnings_data": {

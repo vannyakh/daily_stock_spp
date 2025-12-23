@@ -1,10 +1,9 @@
 {
   "ticker": "PAVM",
-  "timestamp": "2025-12-20T04:57:13.230417",
+  "timestamp": "2025-12-23T05:45:59.408895",
   "intraday_data": {
-    "status": "success",
-    "rows": 0,
-    "data": []
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -28,7 +27,7 @@
   "news_data": {
     "news": {
       "status": "success",
-      "count": 7,
+      "count": 8,
       "data": [
         {
           "id": "b34d2a93-6eb5-35dc-b5cb-5f371d7bfb19",
@@ -456,11 +455,16 @@
             },
             "storyline": null
           }
+        },
+        {
+          "id": "eac977e8-5e1a-3201-a590-bca1ea5bf0e2",
+          "content": null
         }
       ]
     },
     "recommendations": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   },
   "holders_data": {

@@ -1,25 +1,9 @@
 {
   "ticker": "EIOAX",
-  "timestamp": "2025-12-20T05:17:33.049514",
+  "timestamp": "2025-12-23T06:21:55.146585",
   "intraday_data": {
-    "status": "success",
-    "rows": 2,
-    "data": [
-      {
-        "Close": 8.6899995803833,
-        "High": 8.6899995803833,
-        "Low": 8.6899995803833,
-        "Open": 8.6899995803833,
-        "Volume": 0
-      },
-      {
-        "Close": 8.6899995803833,
-        "High": 8.6899995803833,
-        "Low": 8.6899995803833,
-        "Open": 8.6899995803833,
-        "Volume": 0
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -37,8 +21,7 @@
     }
   },
   "options_data": {
-    "status": "error",
-    "error_message": "Too Many Requests. Rate limited. Try after a while."
+    "expirations": []
   },
   "news_data": {
     "news": {
@@ -64,7 +47,7 @@
     },
     "calendar": {
       "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
+      "message": "'dict' object has no attribute 'empty'"
     }
   }
 }

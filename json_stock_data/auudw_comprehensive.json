@@ -1,9 +1,32 @@
 {
   "ticker": "AUUDW",
-  "timestamp": "2025-12-20T05:14:09.125388",
+  "timestamp": "2025-12-23T06:15:57.471681",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 3,
+    "data": [
+      {
+        "Close": 0.025699999183416367,
+        "High": 0.025699999183416367,
+        "Low": 0.025699999183416367,
+        "Open": 0.025699999183416367,
+        "Volume": 0
+      },
+      {
+        "Close": 0.0272000003606081,
+        "High": 0.0272000003606081,
+        "Low": 0.0272000003606081,
+        "Open": 0.0272000003606081,
+        "Volume": 600
+      },
+      {
+        "Close": 0.02850000001490116,
+        "High": 0.02850000001490116,
+        "Low": 0.02850000001490116,
+        "Open": 0.02850000001490116,
+        "Volume": 3374
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -29,62 +52,16 @@
       "status": "no_data"
     },
     "recommendations": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   },
   "holders_data": {
     "major_holders": {
-      "status": "success",
-      "data": [
-        {
-          "Value": 5
-        }
-      ]
+      "status": "error"
     },
     "institutional_holders": {
-      "status": "success",
-      "data": [
-        {
-          "Date Reported": "2025-09-30 00:00:00",
-          "Holder": "Citadel Advisors Llc",
-          "pctHeld": 0.0207,
-          "Shares": 72697,
-          "Value": 1708,
-          "pctChange": -0.030199999
-        },
-        {
-          "Date Reported": "2025-09-30 00:00:00",
-          "Holder": "Creative Planning",
-          "pctHeld": 0.0042,
-          "Shares": 14820,
-          "Value": 348,
-          "pctChange": 0.0
-        },
-        {
-          "Date Reported": "2025-09-30 00:00:00",
-          "Holder": "Two Sigma Securities, LLC",
-          "pctHeld": 0.0038,
-          "Shares": 13213,
-          "Value": 310,
-          "pctChange": 1.0
-        },
-        {
-          "Date Reported": "2025-09-30 00:00:00",
-          "Holder": "UBS Group AG",
-          "pctHeld": 0.0002,
-          "Shares": 838,
-          "Value": 19,
-          "pctChange": -0.368
-        },
-        {
-          "Date Reported": "2025-09-30 00:00:00",
-          "Holder": "Mather Group, LLC",
-          "pctHeld": 0.0,
-          "Shares": 30,
-          "Value": 0,
-          "pctChange": 1.0
-        }
-      ]
+      "status": "error"
     }
   },
   "earnings_data": {
@@ -94,7 +71,7 @@
     },
     "calendar": {
       "status": "error",
-      "message": "'dict' object has no attribute 'empty'"
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   }
 }

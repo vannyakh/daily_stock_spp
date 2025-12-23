@@ -1,9 +1,46 @@
 {
   "ticker": "LIVE",
-  "timestamp": "2025-12-20T04:52:19.626440",
+  "timestamp": "2025-12-23T05:36:59.898927",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 5,
+    "data": [
+      {
+        "Close": 16.110000610351562,
+        "High": 16.110000610351562,
+        "Low": 16.110000610351562,
+        "Open": 16.110000610351562,
+        "Volume": 0
+      },
+      {
+        "Close": 15.954999923706055,
+        "High": 15.954999923706055,
+        "Low": 15.787300109863281,
+        "Open": 15.787300109863281,
+        "Volume": 320
+      },
+      {
+        "Close": 15.919500350952148,
+        "High": 15.919500350952148,
+        "Low": 15.919500350952148,
+        "Open": 15.919500350952148,
+        "Volume": 313
+      },
+      {
+        "Close": 15.625,
+        "High": 15.625,
+        "Low": 15.625,
+        "Open": 15.625,
+        "Volume": 168
+      },
+      {
+        "Close": 15.539999961853027,
+        "High": 15.539999961853027,
+        "Low": 15.539999961853027,
+        "Open": 15.539999961853027,
+        "Volume": 120
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -27,7 +64,7 @@
   "news_data": {
     "news": {
       "status": "success",
-      "count": 8,
+      "count": 7,
       "data": [
         {
           "id": "cfe8d887-5fae-3b92-9abe-ef7d1063bd36",
@@ -398,72 +435,12 @@
             },
             "storyline": null
           }
-        },
-        {
-          "id": "7ba374e4-ebb4-3c60-b88c-08c5f86e59cf",
-          "content": {
-            "id": "7ba374e4-ebb4-3c60-b88c-08c5f86e59cf",
-            "contentType": "STORY",
-            "title": "Live Ventures Full Year 2024 Earnings: US$8.48 loss per share (vs US$0.033 loss in FY 2023)",
-            "description": "",
-            "summary": "Live Ventures ( NASDAQ:LIVE ) Full Year 2024 Results Key Financial Results Revenue: US$472.8m (up 33% from FY 2023...",
-            "pubDate": "2024-12-21T12:27:35Z",
-            "displayTime": "2024-12-21T12:27:35Z",
-            "isHosted": true,
-            "bypassModal": false,
-            "previewUrl": null,
-            "thumbnail": {
-              "originalUrl": "https://media.zenfs.com/en/simply_wall_st__316/78a8c60a6283aea0450523395306d38c",
-              "originalWidth": 945,
-              "originalHeight": 636,
-              "caption": "",
-              "resolutions": [
-                {
-                  "url": "https://s.yimg.com/uu/api/res/1.2/5Vpve0Pc2F3m_L3fs2p_dQ--~B/aD02MzY7dz05NDU7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/simply_wall_st__316/78a8c60a6283aea0450523395306d38c",
-                  "width": 945,
-                  "height": 636,
-                  "tag": "original"
-                },
-                {
-                  "url": "https://s.yimg.com/uu/api/res/1.2/5K6kmrQzRk.k.11fs9N_QA--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/simply_wall_st__316/78a8c60a6283aea0450523395306d38c",
-                  "width": 170,
-                  "height": 128,
-                  "tag": "170x128"
-                }
-              ]
-            },
-            "provider": {
-              "displayName": "Simply Wall St.",
-              "url": "https://simplywall.st/"
-            },
-            "canonicalUrl": {
-              "url": "https://finance.yahoo.com/news/live-ventures-full-2024-earnings-122735168.html",
-              "site": "finance",
-              "region": "US",
-              "lang": "en-US"
-            },
-            "clickThroughUrl": {
-              "url": "https://finance.yahoo.com/news/live-ventures-full-2024-earnings-122735168.html",
-              "site": "finance",
-              "region": "US",
-              "lang": "en-US"
-            },
-            "metadata": {
-              "editorsPick": false
-            },
-            "finance": {
-              "premiumFinance": {
-                "isPremiumNews": false,
-                "isPremiumFreeNews": false
-              }
-            },
-            "storyline": null
-          }
         }
       ]
     },
     "recommendations": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   },
   "holders_data": {

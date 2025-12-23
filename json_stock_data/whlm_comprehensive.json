@@ -1,23 +1,16 @@
 {
   "ticker": "WHLM",
-  "timestamp": "2025-12-20T05:08:59.234783",
+  "timestamp": "2025-12-23T06:07:00.480357",
   "intraday_data": {
     "status": "success",
-    "rows": 2,
+    "rows": 1,
     "data": [
       {
-        "Close": 3.5199999809265137,
-        "High": 3.5199999809265137,
-        "Low": 3.5199999809265137,
-        "Open": 3.5199999809265137,
+        "Close": 3.5,
+        "High": 3.5,
+        "Low": 3.5,
+        "Open": 3.5,
         "Volume": 0
-      },
-      {
-        "Close": 3.5199999809265137,
-        "High": 3.5199999809265137,
-        "Low": 3.5199999809265137,
-        "Open": 3.5199999809265137,
-        "Volume": 492
       }
     ]
   },
@@ -45,7 +38,8 @@
       "status": "no_data"
     },
     "recommendations": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   },
   "holders_data": {

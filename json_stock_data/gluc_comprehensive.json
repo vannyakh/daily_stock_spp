@@ -1,9 +1,18 @@
 {
   "ticker": "GLUC",
-  "timestamp": "2025-12-20T05:09:21.462485",
+  "timestamp": "2025-12-23T06:07:49.027566",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 1,
+    "data": [
+      {
+        "Close": 0.1264999955892563,
+        "High": 0.1264999955892563,
+        "Low": 0.1264999955892563,
+        "Open": 0.1264999955892563,
+        "Volume": 0
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -48,7 +57,7 @@
     },
     "calendar": {
       "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
+      "message": "'dict' object has no attribute 'empty'"
     }
   }
 }

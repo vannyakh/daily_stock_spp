@@ -1,662 +1,76 @@
 {
   "ticker": "CTA-PA",
-  "timestamp": "2025-12-20T04:13:29.954497",
+  "timestamp": "2025-12-23T04:29:29.245688",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 7,
+    "data": [
+      {
+        "Close": 53.099998474121094,
+        "High": 53.099998474121094,
+        "Low": 53.099998474121094,
+        "Open": 53.099998474121094,
+        "Volume": 210
+      },
+      {
+        "Close": 54.4900016784668,
+        "High": 54.4900016784668,
+        "Low": 54.4900016784668,
+        "Open": 54.4900016784668,
+        "Volume": 452
+      },
+      {
+        "Close": 54.3671989440918,
+        "High": 54.3671989440918,
+        "Low": 54.3671989440918,
+        "Open": 54.3671989440918,
+        "Volume": 300
+      },
+      {
+        "Close": 53.5099983215332,
+        "High": 53.5099983215332,
+        "Low": 53.5099983215332,
+        "Open": 53.5099983215332,
+        "Volume": 200
+      },
+      {
+        "Close": 53.560001373291016,
+        "High": 53.560001373291016,
+        "Low": 53.560001373291016,
+        "Open": 53.560001373291016,
+        "Volume": 103
+      },
+      {
+        "Close": 53.630001068115234,
+        "High": 53.630001068115234,
+        "Low": 53.630001068115234,
+        "Open": 53.630001068115234,
+        "Volume": 273
+      },
+      {
+        "Close": 54.4900016784668,
+        "High": 54.4900016784668,
+        "Low": 54.4900016784668,
+        "Open": 54.4900016784668,
+        "Volume": 299
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
-    "message": "Too Many Requests. Rate limited. Try after a while."
+    "message": "argument of type 'NoneType' is not iterable"
   },
   "financials": {
     "income_statement": {
-      "status": "no_data"
-    },
-    "balance_sheet": {
-      "status": "no_data"
-    },
-    "cash_flow": {
-      "status": "no_data"
-    }
-  },
-  "options_data": {
-    "status": "error",
-    "error_message": "Too Many Requests. Rate limited. Try after a while."
-  },
-  "news_data": {
-    "news": {
       "status": "success",
-      "count": 10,
+      "rows": 48,
+      "columns": [
+        "2024-12-31 00:00:00",
+        "2023-12-31 00:00:00",
+        "2022-12-31 00:00:00",
+        "2021-12-31 00:00:00",
+        "2020-12-31 00:00:00"
+      ],
       "data": [
         {
-          "id": "5a2640d2-949d-30fa-abad-1c4f310727a0",
-          "content": {
-            "id": "5a2640d2-949d-30fa-abad-1c4f310727a0",
-            "contentType": "STORY",
-            "title": "Mission Produce Rides Mexico Supply Boost: How Long Can It Last?",
-            "description": "",
-            "summary": "AVO gains from stronger Mexican and Peruvian avocado supply, boosting volumes and pricing flexibility.",
-            "pubDate": "2025-12-18T18:55:00Z",
-            "displayTime": "2025-12-18T18:55:00Z",
-            "isHosted": true,
-            "bypassModal": false,
-            "previewUrl": null,
-            "thumbnail": {
-              "originalUrl": "https://media.zenfs.com/en/zacks.com/b9a173a4afe012731f77a49ebc212110",
-              "originalWidth": 635,
-              "originalHeight": 400,
-              "caption": "",
-              "resolutions": [
-                {
-                  "url": "https://s.yimg.com/uu/api/res/1.2/SIEThGgAM4yxp6iKeUZqLA--~B/aD00MDA7dz02MzU7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/zacks.com/b9a173a4afe012731f77a49ebc212110",
-                  "width": 635,
-                  "height": 400,
-                  "tag": "original"
-                },
-                {
-                  "url": "https://s.yimg.com/uu/api/res/1.2/WgIXsFAbR5tLbOi_pUFrKg--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/zacks.com/b9a173a4afe012731f77a49ebc212110",
-                  "width": 170,
-                  "height": 128,
-                  "tag": "170x128"
-                }
-              ]
-            },
-            "provider": {
-              "displayName": "Zacks",
-              "url": "http://www.zacks.com/"
-            },
-            "canonicalUrl": {
-              "url": "https://finance.yahoo.com/news/mission-produce-rides-mexico-supply-185500300.html",
-              "site": "finance",
-              "region": "US",
-              "lang": "en-US"
-            },
-            "clickThroughUrl": {
-              "url": "https://finance.yahoo.com/news/mission-produce-rides-mexico-supply-185500300.html",
-              "site": "finance",
-              "region": "US",
-              "lang": "en-US"
-            },
-            "metadata": {
-              "editorsPick": false
-            },
-            "finance": {
-              "premiumFinance": {
-                "isPremiumNews": false,
-                "isPremiumFreeNews": false
-              }
-            },
-            "storyline": null
-          }
-        },
-        {
-          "id": "97b1729d-a947-3f71-b8a4-4e138085799c",
-          "content": {
-            "id": "97b1729d-a947-3f71-b8a4-4e138085799c",
-            "contentType": "STORY",
-            "title": "Assessing Corteva\u2019s (CTVA) Valuation After Its Recent Share Price Momentum Rebuild",
-            "description": "",
-            "summary": "Corteva (CTVA) has quietly outperformed the broader market this year, and investors are starting to notice the shift in sentiment. The stock\u2019s steady gains invite a closer look at what is driving the move. See our latest analysis for Corteva. That steady climb to a recent share price of $66.43, along with a strong year to date share price return of 17.91 percent and an 18.97 percent total shareholder return over the past year, suggests momentum is gradually rebuilding as investors warm to...",
-            "pubDate": "2025-12-18T08:13:44Z",
-            "displayTime": "2025-12-18T08:13:44Z",
-            "isHosted": true,
-            "bypassModal": false,
-            "previewUrl": null,
-            "thumbnail": {
-              "originalUrl": "https://media.zenfs.com/en/simply_wall_st__316/a3ab99500bb842820119e0d737ca7bfe",
-              "originalWidth": 1194,
-              "originalHeight": 432,
-              "caption": "",
-              "resolutions": [
-                {
-                  "url": "https://s.yimg.com/uu/api/res/1.2/7derraoEURMov0.kYFmzQw--~B/aD00MzI7dz0xMTk0O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/simply_wall_st__316/a3ab99500bb842820119e0d737ca7bfe",
-                  "width": 1194,
-                  "height": 432,
-                  "tag": "original"
-                },
-                {
-                  "url": "https://s.yimg.com/uu/api/res/1.2/5nRevN7LB3YsMfhOwKjWoQ--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/simply_wall_st__316/a3ab99500bb842820119e0d737ca7bfe",
-                  "width": 170,
-                  "height": 128,
-                  "tag": "170x128"
-                }
-              ]
-            },
-            "provider": {
-              "displayName": "Simply Wall St.",
-              "url": "https://simplywall.st/"
-            },
-            "canonicalUrl": {
-              "url": "https://finance.yahoo.com/news/assessing-corteva-ctva-valuation-recent-081344890.html",
-              "site": "finance",
-              "region": "US",
-              "lang": "en-US"
-            },
-            "clickThroughUrl": {
-              "url": "https://finance.yahoo.com/news/assessing-corteva-ctva-valuation-recent-081344890.html",
-              "site": "finance",
-              "region": "US",
-              "lang": "en-US"
-            },
-            "metadata": {
-              "editorsPick": false
-            },
-            "finance": {
-              "premiumFinance": {
-                "isPremiumNews": false,
-                "isPremiumFreeNews": false
-              }
-            },
-            "storyline": null
-          }
-        },
-        {
-          "id": "4668a4d8-605c-3d7a-8e48-338065d8571b",
-          "content": {
-            "id": "4668a4d8-605c-3d7a-8e48-338065d8571b",
-            "contentType": "STORY",
-            "title": "Mission Produce Faces Headwinds Before Q4 Earnings: Buy, Hold or Sell?",
-            "description": "",
-            "summary": "AVO prepares to post Q4 results with expected sales and EPS declines, facing tariff uncertainties, softer demand and margin challenges despite volume gains.",
-            "pubDate": "2025-12-16T16:58:00Z",
-            "displayTime": "2025-12-16T16:58:00Z",
-            "isHosted": true,
-            "bypassModal": false,
-            "previewUrl": null,
-            "thumbnail": {
-              "originalUrl": "https://media.zenfs.com/en/zacks.com/ff2f54589adb234ef2c275fd153560fa",
-              "originalWidth": 620,
-              "originalHeight": 413,
-              "caption": "",
-              "resolutions": [
-                {
-                  "url": "https://s.yimg.com/uu/api/res/1.2/eZARSmtuq_AsVIX2MmgZEQ--~B/aD00MTM7dz02MjA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/zacks.com/ff2f54589adb234ef2c275fd153560fa",
-                  "width": 620,
-                  "height": 413,
-                  "tag": "original"
-                },
-                {
-                  "url": "https://s.yimg.com/uu/api/res/1.2/2T3d_LM.EkuhkXRyW6Leqw--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/zacks.com/ff2f54589adb234ef2c275fd153560fa",
-                  "width": 170,
-                  "height": 128,
-                  "tag": "170x128"
-                }
-              ]
-            },
-            "provider": {
-              "displayName": "Zacks",
-              "url": "http://www.zacks.com/"
-            },
-            "canonicalUrl": {
-              "url": "https://finance.yahoo.com/news/mission-produce-faces-headwinds-q4-165800604.html",
-              "site": "finance",
-              "region": "US",
-              "lang": "en-US"
-            },
-            "clickThroughUrl": {
-              "url": "https://finance.yahoo.com/news/mission-produce-faces-headwinds-q4-165800604.html",
-              "site": "finance",
-              "region": "US",
-              "lang": "en-US"
-            },
-            "metadata": {
-              "editorsPick": false
-            },
-            "finance": {
-              "premiumFinance": {
-                "isPremiumNews": false,
-                "isPremiumFreeNews": false
-              }
-            },
-            "storyline": null
-          }
-        },
-        {
-          "id": "7a4bd98a-2c2c-3f86-b7d6-b7c95d6084b5",
-          "content": {
-            "id": "7a4bd98a-2c2c-3f86-b7d6-b7c95d6084b5",
-            "contentType": "STORY",
-            "title": "With 86% ownership of the shares, Corteva, Inc. (NYSE:CTVA) is heavily dominated by institutional owners",
-            "description": "",
-            "summary": "Key Insights Given the large stake in the stock by institutions, Corteva's stock price might be vulnerable to their...",
-            "pubDate": "2025-12-09T12:00:10Z",
-            "displayTime": "2025-12-09T12:00:10Z",
-            "isHosted": true,
-            "bypassModal": false,
-            "previewUrl": null,
-            "thumbnail": {
-              "originalUrl": "https://media.zenfs.com/en/simply_wall_st__316/a3ab99500bb842820119e0d737ca7bfe",
-              "originalWidth": 1194,
-              "originalHeight": 432,
-              "caption": "",
-              "resolutions": [
-                {
-                  "url": "https://s.yimg.com/uu/api/res/1.2/7derraoEURMov0.kYFmzQw--~B/aD00MzI7dz0xMTk0O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/simply_wall_st__316/a3ab99500bb842820119e0d737ca7bfe",
-                  "width": 1194,
-                  "height": 432,
-                  "tag": "original"
-                },
-                {
-                  "url": "https://s.yimg.com/uu/api/res/1.2/5nRevN7LB3YsMfhOwKjWoQ--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/simply_wall_st__316/a3ab99500bb842820119e0d737ca7bfe",
-                  "width": 170,
-                  "height": 128,
-                  "tag": "170x128"
-                }
-              ]
-            },
-            "provider": {
-              "displayName": "Simply Wall St.",
-              "url": "https://simplywall.st/"
-            },
-            "canonicalUrl": {
-              "url": "https://finance.yahoo.com/news/86-ownership-shares-corteva-inc-120010004.html",
-              "site": "finance",
-              "region": "US",
-              "lang": "en-US"
-            },
-            "clickThroughUrl": {
-              "url": "https://finance.yahoo.com/news/86-ownership-shares-corteva-inc-120010004.html",
-              "site": "finance",
-              "region": "US",
-              "lang": "en-US"
-            },
-            "metadata": {
-              "editorsPick": false
-            },
-            "finance": {
-              "premiumFinance": {
-                "isPremiumNews": false,
-                "isPremiumFreeNews": false
-              }
-            },
-            "storyline": null
-          }
-        },
-        {
-          "id": "96ee7dec-6d56-344e-9a02-adeea021cf6f",
-          "content": {
-            "id": "96ee7dec-6d56-344e-9a02-adeea021cf6f",
-            "contentType": "STORY",
-            "title": "Trump Will Give Farmers $12 Billion. The Stocks That Could Get a Boost\u2014Ones That Won\u2019t.",
-            "description": "",
-            "summary": "President Donald Trump is going to help American farmers.  It might not help American investors, though\u2014shares of agricultural equipment makers were falling after his remarks.  Monday, Trump announced $12 billion in aid to U.S. farmers, who are beset by rising costs and trade uncertainty, including $11 billion in \u201cbridge\u201d payments.",
-            "pubDate": "2025-12-08T21:09:00Z",
-            "displayTime": "2025-12-08T21:09:00Z",
-            "isHosted": false,
-            "bypassModal": false,
-            "previewUrl": "https://finance.yahoo.com/m/96ee7dec-6d56-344e-9a02-adeea021cf6f/trump-will-give-farmers-12.html",
-            "thumbnail": {
-              "originalUrl": "https://media.zenfs.com/en/Barrons.com/315070f1e2a60d895cd146b70c243b95",
-              "originalWidth": 1280,
-              "originalHeight": 640,
-              "caption": "",
-              "resolutions": [
-                {
-                  "url": "https://s.yimg.com/uu/api/res/1.2/DBk8lOg2OOh7tPw8h6F8.Q--~B/aD02NDA7dz0xMjgwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/Barrons.com/315070f1e2a60d895cd146b70c243b95",
-                  "width": 1280,
-                  "height": 640,
-                  "tag": "original"
-                },
-                {
-                  "url": "https://s.yimg.com/uu/api/res/1.2/zs7n9xBTndJ4co7yEcIW.A--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/Barrons.com/315070f1e2a60d895cd146b70c243b95",
-                  "width": 170,
-                  "height": 128,
-                  "tag": "170x128"
-                }
-              ]
-            },
-            "provider": {
-              "displayName": "Barrons.com",
-              "url": "http://www.barrons.com/"
-            },
-            "canonicalUrl": {
-              "url": "https://www.barrons.com/articles/trump-farm-aid-deere-corteva-stock-c8022bf3?siteid=yhoof2&yptr=yahoo",
-              "site": "finance",
-              "region": "US",
-              "lang": "en-US"
-            },
-            "clickThroughUrl": null,
-            "metadata": {
-              "editorsPick": false
-            },
-            "finance": {
-              "premiumFinance": {
-                "isPremiumNews": false,
-                "isPremiumFreeNews": false
-              }
-            },
-            "storyline": null
-          }
-        },
-        {
-          "id": "912b5a4e-f8fa-3254-9c1e-9de0e84d6f4a",
-          "content": {
-            "id": "912b5a4e-f8fa-3254-9c1e-9de0e84d6f4a",
-            "contentType": "STORY",
-            "title": "Ripening Facilities Fuel Growth: But Can AVO Keep Up Efficiency?",
-            "description": "",
-            "summary": "Mission Produce is leveraging its expanding ripening network to deliver high-quality avocados globally, though maintaining efficiency as it scales will be key.",
-            "pubDate": "2025-12-08T16:06:00Z",
-            "displayTime": "2025-12-08T16:06:00Z",
-            "isHosted": true,
-            "bypassModal": false,
-            "previewUrl": null,
-            "thumbnail": {
-              "originalUrl": "https://media.zenfs.com/en/zacks.com/b468af9c62761fd7de1b1659981927d7",
-              "originalWidth": 620,
-              "originalHeight": 327,
-              "caption": "",
-              "resolutions": [
-                {
-                  "url": "https://s.yimg.com/uu/api/res/1.2/kYiBUgswfSaa4JSRqEqq1w--~B/aD0zMjc7dz02MjA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/zacks.com/b468af9c62761fd7de1b1659981927d7",
-                  "width": 620,
-                  "height": 327,
-                  "tag": "original"
-                },
-                {
-                  "url": "https://s.yimg.com/uu/api/res/1.2/H2ONP4MmaxdINkWz_Q5_kg--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/zacks.com/b468af9c62761fd7de1b1659981927d7",
-                  "width": 170,
-                  "height": 128,
-                  "tag": "170x128"
-                }
-              ]
-            },
-            "provider": {
-              "displayName": "Zacks",
-              "url": "http://www.zacks.com/"
-            },
-            "canonicalUrl": {
-              "url": "https://finance.yahoo.com/news/ripening-facilities-fuel-growth-avo-160600958.html",
-              "site": "finance",
-              "region": "US",
-              "lang": "en-US"
-            },
-            "clickThroughUrl": {
-              "url": "https://finance.yahoo.com/news/ripening-facilities-fuel-growth-avo-160600958.html",
-              "site": "finance",
-              "region": "US",
-              "lang": "en-US"
-            },
-            "metadata": {
-              "editorsPick": false
-            },
-            "finance": {
-              "premiumFinance": {
-                "isPremiumNews": false,
-                "isPremiumFreeNews": false
-              }
-            },
-            "storyline": null
-          }
-        },
-        {
-          "id": "1dac9809-a84b-30dd-b6ca-c89cc3f25bbb",
-          "content": {
-            "id": "1dac9809-a84b-30dd-b6ca-c89cc3f25bbb",
-            "contentType": "STORY",
-            "title": "A Look At The Fair Value Of Corteva, Inc. (NYSE:CTVA)",
-            "description": "",
-            "summary": "Key Insights The projected fair value for Corteva is US$63.76 based on 2 Stage Free Cash Flow to Equity Corteva's...",
-            "pubDate": "2025-12-04T14:00:07Z",
-            "displayTime": "2025-12-04T14:00:07Z",
-            "isHosted": true,
-            "bypassModal": false,
-            "previewUrl": null,
-            "thumbnail": {
-              "originalUrl": "https://media.zenfs.com/en/simply_wall_st__316/a3ab99500bb842820119e0d737ca7bfe",
-              "originalWidth": 1194,
-              "originalHeight": 432,
-              "caption": "",
-              "resolutions": [
-                {
-                  "url": "https://s.yimg.com/uu/api/res/1.2/7derraoEURMov0.kYFmzQw--~B/aD00MzI7dz0xMTk0O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/simply_wall_st__316/a3ab99500bb842820119e0d737ca7bfe",
-                  "width": 1194,
-                  "height": 432,
-                  "tag": "original"
-                },
-                {
-                  "url": "https://s.yimg.com/uu/api/res/1.2/5nRevN7LB3YsMfhOwKjWoQ--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/simply_wall_st__316/a3ab99500bb842820119e0d737ca7bfe",
-                  "width": 170,
-                  "height": 128,
-                  "tag": "170x128"
-                }
-              ]
-            },
-            "provider": {
-              "displayName": "Simply Wall St.",
-              "url": "https://simplywall.st/"
-            },
-            "canonicalUrl": {
-              "url": "https://finance.yahoo.com/news/look-fair-value-corteva-inc-140007851.html",
-              "site": "finance",
-              "region": "US",
-              "lang": "en-US"
-            },
-            "clickThroughUrl": {
-              "url": "https://finance.yahoo.com/news/look-fair-value-corteva-inc-140007851.html",
-              "site": "finance",
-              "region": "US",
-              "lang": "en-US"
-            },
-            "metadata": {
-              "editorsPick": false
-            },
-            "finance": {
-              "premiumFinance": {
-                "isPremiumNews": false,
-                "isPremiumFreeNews": false
-              }
-            },
-            "storyline": null
-          }
-        },
-        {
-          "id": "0b1f5610-98e7-3944-a1b0-096102e7ea27",
-          "content": {
-            "id": "0b1f5610-98e7-3944-a1b0-096102e7ea27",
-            "contentType": "STORY",
-            "title": "Avocado Demand Up: Is Mission Produce Set to Become a Global Leader?",
-            "description": "",
-            "summary": "AVO leverages global scale, strong sourcing and rising demand to strengthen its role in the expanding avocado market.",
-            "pubDate": "2025-12-01T15:49:00Z",
-            "displayTime": "2025-12-01T15:49:00Z",
-            "isHosted": true,
-            "bypassModal": false,
-            "previewUrl": null,
-            "thumbnail": {
-              "originalUrl": "https://media.zenfs.com/en/zacks.com/b468af9c62761fd7de1b1659981927d7",
-              "originalWidth": 620,
-              "originalHeight": 327,
-              "caption": "",
-              "resolutions": [
-                {
-                  "url": "https://s.yimg.com/uu/api/res/1.2/kYiBUgswfSaa4JSRqEqq1w--~B/aD0zMjc7dz02MjA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/zacks.com/b468af9c62761fd7de1b1659981927d7",
-                  "width": 620,
-                  "height": 327,
-                  "tag": "original"
-                },
-                {
-                  "url": "https://s.yimg.com/uu/api/res/1.2/H2ONP4MmaxdINkWz_Q5_kg--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/zacks.com/b468af9c62761fd7de1b1659981927d7",
-                  "width": 170,
-                  "height": 128,
-                  "tag": "170x128"
-                }
-              ]
-            },
-            "provider": {
-              "displayName": "Zacks",
-              "url": "http://www.zacks.com/"
-            },
-            "canonicalUrl": {
-              "url": "https://finance.yahoo.com/news/avocado-demand-mission-produce-set-154900323.html",
-              "site": "finance",
-              "region": "US",
-              "lang": "en-US"
-            },
-            "clickThroughUrl": {
-              "url": "https://finance.yahoo.com/news/avocado-demand-mission-produce-set-154900323.html",
-              "site": "finance",
-              "region": "US",
-              "lang": "en-US"
-            },
-            "metadata": {
-              "editorsPick": false
-            },
-            "finance": {
-              "premiumFinance": {
-                "isPremiumNews": false,
-                "isPremiumFreeNews": false
-              }
-            },
-            "storyline": null
-          }
-        },
-        {
-          "id": "aa61a87a-3691-3642-820b-aa099689f309",
-          "content": {
-            "id": "aa61a87a-3691-3642-820b-aa099689f309",
-            "contentType": "STORY",
-            "title": "Insiders At Corteva Sold US$6.9m In Stock, Alluding To Potential Weakness",
-            "description": "",
-            "summary": "Many Corteva, Inc. ( NYSE:CTVA ) insiders ditched their stock over the past year, which may be of interest to the...",
-            "pubDate": "2025-11-30T13:00:10Z",
-            "displayTime": "2025-11-30T13:00:10Z",
-            "isHosted": true,
-            "bypassModal": false,
-            "previewUrl": null,
-            "thumbnail": {
-              "originalUrl": "https://media.zenfs.com/en/simply_wall_st__316/a3ab99500bb842820119e0d737ca7bfe",
-              "originalWidth": 1194,
-              "originalHeight": 432,
-              "caption": "",
-              "resolutions": [
-                {
-                  "url": "https://s.yimg.com/uu/api/res/1.2/7derraoEURMov0.kYFmzQw--~B/aD00MzI7dz0xMTk0O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/simply_wall_st__316/a3ab99500bb842820119e0d737ca7bfe",
-                  "width": 1194,
-                  "height": 432,
-                  "tag": "original"
-                },
-                {
-                  "url": "https://s.yimg.com/uu/api/res/1.2/5nRevN7LB3YsMfhOwKjWoQ--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/simply_wall_st__316/a3ab99500bb842820119e0d737ca7bfe",
-                  "width": 170,
-                  "height": 128,
-                  "tag": "170x128"
-                }
-              ]
-            },
-            "provider": {
-              "displayName": "Simply Wall St.",
-              "url": "https://simplywall.st/"
-            },
-            "canonicalUrl": {
-              "url": "https://finance.yahoo.com/news/insiders-corteva-sold-us-6-130010376.html",
-              "site": "finance",
-              "region": "US",
-              "lang": "en-US"
-            },
-            "clickThroughUrl": {
-              "url": "https://finance.yahoo.com/news/insiders-corteva-sold-us-6-130010376.html",
-              "site": "finance",
-              "region": "US",
-              "lang": "en-US"
-            },
-            "metadata": {
-              "editorsPick": false
-            },
-            "finance": {
-              "premiumFinance": {
-                "isPremiumNews": false,
-                "isPremiumFreeNews": false
-              }
-            },
-            "storyline": null
-          }
-        },
-        {
-          "id": "01d58569-184a-3008-b846-83842cf739c1",
-          "content": {
-            "id": "01d58569-184a-3008-b846-83842cf739c1",
-            "contentType": "STORY",
-            "title": "Are Corteva, Inc.'s (NYSE:CTVA) Mixed Financials Driving The Negative Sentiment?",
-            "description": "",
-            "summary": "Corteva (NYSE:CTVA) has had a rough three months with its share price down 12%. We, however decided to study the...",
-            "pubDate": "2025-11-26T11:00:52Z",
-            "displayTime": "2025-11-26T11:00:52Z",
-            "isHosted": true,
-            "bypassModal": false,
-            "previewUrl": null,
-            "thumbnail": {
-              "originalUrl": "https://media.zenfs.com/en/simply_wall_st__316/a3ab99500bb842820119e0d737ca7bfe",
-              "originalWidth": 1194,
-              "originalHeight": 432,
-              "caption": "",
-              "resolutions": [
-                {
-                  "url": "https://s.yimg.com/uu/api/res/1.2/7derraoEURMov0.kYFmzQw--~B/aD00MzI7dz0xMTk0O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/simply_wall_st__316/a3ab99500bb842820119e0d737ca7bfe",
-                  "width": 1194,
-                  "height": 432,
-                  "tag": "original"
-                },
-                {
-                  "url": "https://s.yimg.com/uu/api/res/1.2/5nRevN7LB3YsMfhOwKjWoQ--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/simply_wall_st__316/a3ab99500bb842820119e0d737ca7bfe",
-                  "width": 170,
-                  "height": 128,
-                  "tag": "170x128"
-                }
-              ]
-            },
-            "provider": {
-              "displayName": "Simply Wall St.",
-              "url": "https://simplywall.st/"
-            },
-            "canonicalUrl": {
-              "url": "https://finance.yahoo.com/news/corteva-inc-nyse-ctva-mixed-110052446.html",
-              "site": "finance",
-              "region": "US",
-              "lang": "en-US"
-            },
-            "clickThroughUrl": {
-              "url": "https://finance.yahoo.com/news/corteva-inc-nyse-ctva-mixed-110052446.html",
-              "site": "finance",
-              "region": "US",
-              "lang": "en-US"
-            },
-            "metadata": {
-              "editorsPick": false
-            },
-            "finance": {
-              "premiumFinance": {
-                "isPremiumNews": false,
-                "isPremiumFreeNews": false
-              }
-            },
-            "storyline": null
-          }
-        }
-      ]
-    },
-    "recommendations": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
-    }
-  },
-  "holders_data": {
-    "major_holders": {
-      "status": "error"
-    },
-    "institutional_holders": {
-      "status": "error"
-    }
-  },
-  "earnings_data": {
-    "earnings": {
-      "status": "error",
-      "message": "'NoneType' object has no attribute 'empty'"
-    },
-    "calendar": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
-    }
-  }
-}
+          

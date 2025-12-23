@@ -1,39 +1,9 @@
 {
   "ticker": "CORZW",
-  "timestamp": "2025-12-20T05:15:48.954646",
+  "timestamp": "2025-12-23T06:18:50.307896",
   "intraday_data": {
-    "status": "success",
-    "rows": 4,
-    "data": [
-      {
-        "Close WALDW": 0.03350000083446503,
-        "High WALDW": 0.03350000083446503,
-        "Low WALDW": 0.03350000083446503,
-        "Open WALDW": 0.03350000083446503,
-        "Volume WALDW": 0
-      },
-      {
-        "Close WALDW": 0.03350000083446503,
-        "High WALDW": 0.03350000083446503,
-        "Low WALDW": 0.03350000083446503,
-        "Open WALDW": 0.03350000083446503,
-        "Volume WALDW": 3000
-      },
-      {
-        "Close WALDW": 0.03269999846816063,
-        "High WALDW": 0.03269999846816063,
-        "Low WALDW": 0.03269999846816063,
-        "Open WALDW": 0.03269999846816063,
-        "Volume WALDW": 288
-      },
-      {
-        "Close WALDW": 0.03999999910593033,
-        "High WALDW": 0.03999999910593033,
-        "Low WALDW": 0.03999999910593033,
-        "Open WALDW": 0.03999999910593033,
-        "Volume WALDW": 3000
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -667,7 +637,8 @@
       ]
     },
     "recommendations": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   },
   "holders_data": {
