@@ -1,9 +1,32 @@
 {
   "ticker": "CUBWW",
-  "timestamp": "2025-12-23T06:12:09.826293",
+  "timestamp": "2025-12-24T04:51:37.060007",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 3,
+    "data": [
+      {
+        "Close": 0.1770000010728836,
+        "High": 0.1770000010728836,
+        "Low": 0.1770000010728836,
+        "Open": 0.1770000010728836,
+        "Volume": 0
+      },
+      {
+        "Close": 0.18490000069141388,
+        "High": 0.18610000610351562,
+        "Low": 0.1696999967098236,
+        "Open": 0.18610000610351562,
+        "Volume": 6100
+      },
+      {
+        "Close": 0.1988999992609024,
+        "High": 0.19900000095367432,
+        "Low": 0.1988999992609024,
+        "Open": 0.1988999992609024,
+        "Volume": 4600
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -26,7 +49,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

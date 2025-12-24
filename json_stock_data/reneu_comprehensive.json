@@ -1,18 +1,9 @@
 {
   "ticker": "RENEU",
-  "timestamp": "2025-12-23T06:15:06.394876",
+  "timestamp": "2025-12-24T04:52:12.327209",
   "intraday_data": {
-    "status": "success",
-    "rows": 1,
-    "data": [
-      {
-        "Close NVNIW": 0.05510000139474869,
-        "High NVNIW": 0.05510000139474869,
-        "Low NVNIW": 0.05510000139474869,
-        "Open NVNIW": 0.05510000139474869,
-        "Volume NVNIW": 0
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -35,7 +26,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

@@ -1,9 +1,18 @@
 {
   "ticker": "ALRTF",
-  "timestamp": "2025-12-23T05:51:21.738931",
+  "timestamp": "2025-12-24T04:46:04.909029",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 1,
+    "data": [
+      {
+        "Close": 0.014999999664723873,
+        "High": 0.01549999974668026,
+        "Low": 0.014999999664723873,
+        "Open": 0.01549999974668026,
+        "Volume": 0
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -29,7 +38,8 @@
       "status": "no_data"
     },
     "recommendations": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   },
   "holders_data": {

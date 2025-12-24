@@ -1,9 +1,25 @@
 {
   "ticker": "EMCGW",
-  "timestamp": "2025-12-23T06:18:21.100759",
+  "timestamp": "2025-12-24T04:52:54.459043",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 2,
+    "data": [
+      {
+        "Close EVTWF": 0.03999999910593033,
+        "High EVTWF": 0.03999999910593033,
+        "Low EVTWF": 0.03999999910593033,
+        "Open EVTWF": 0.03999999910593033,
+        "Volume EVTWF": 0
+      },
+      {
+        "Close EVTWF": 0.04500000178813934,
+        "High EVTWF": 0.04500000178813934,
+        "Low EVTWF": 0.04500000178813934,
+        "Open EVTWF": 0.04500000178813934,
+        "Volume EVTWF": 10000
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -26,7 +42,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

@@ -1,13 +1,43 @@
 {
   "ticker": "HTFC",
-  "timestamp": "2025-12-23T06:29:54.258694",
+  "timestamp": "2025-12-24T04:55:16.104354",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 4,
+    "data": [
+      {
+        "Close HTFB": 24.899999618530273,
+        "High HTFB": 24.899999618530273,
+        "Low HTFB": 24.899999618530273,
+        "Open HTFB": 24.899999618530273,
+        "Volume HTFB": 0
+      },
+      {
+        "Close HTFB": 24.899999618530273,
+        "High HTFB": 24.899999618530273,
+        "Low HTFB": 24.899999618530273,
+        "Open HTFB": 24.899999618530273,
+        "Volume HTFB": 388
+      },
+      {
+        "Close HTFB": 24.900100708007812,
+        "High HTFB": 24.900100708007812,
+        "Low HTFB": 24.900100708007812,
+        "Open HTFB": 24.900100708007812,
+        "Volume HTFB": 100
+      },
+      {
+        "Close HTFB": 24.899999618530273,
+        "High HTFB": 24.899999618530273,
+        "Low HTFB": 24.899999618530273,
+        "Open HTFB": 24.899999618530273,
+        "Volume HTFB": 0
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
-    "message": "Too Many Requests. Rate limited. Try after a while."
+    "message": "argument of type 'NoneType' is not iterable"
   },
   "financials": {
     "income_statement": {
@@ -26,7 +56,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

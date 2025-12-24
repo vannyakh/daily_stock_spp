@@ -1,9 +1,53 @@
 {
   "ticker": "ACZT",
-  "timestamp": "2025-12-23T06:13:35.175586",
+  "timestamp": "2025-12-24T04:51:52.944953",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 6,
+    "data": [
+      {
+        "Close PDPA": 25.200000762939453,
+        "High PDPA": 25.200000762939453,
+        "Low PDPA": 25.1875,
+        "Open PDPA": 25.1875,
+        "Volume PDPA": 0
+      },
+      {
+        "Close PDPA": 25.167999267578125,
+        "High PDPA": 25.167999267578125,
+        "Low PDPA": 25.149999618530273,
+        "Open PDPA": 25.149999618530273,
+        "Volume PDPA": 404
+      },
+      {
+        "Close PDPA": 25.200000762939453,
+        "High PDPA": 25.200000762939453,
+        "Low PDPA": 25.170000076293945,
+        "Open PDPA": 25.170000076293945,
+        "Volume PDPA": 670
+      },
+      {
+        "Close PDPA": 25.229900360107422,
+        "High PDPA": 25.229900360107422,
+        "Low PDPA": 25.229900360107422,
+        "Open PDPA": 25.229900360107422,
+        "Volume PDPA": 0
+      },
+      {
+        "Close PDPA": 25.229999542236328,
+        "High PDPA": 25.229999542236328,
+        "Low PDPA": 25.229999542236328,
+        "Open PDPA": 25.229999542236328,
+        "Volume PDPA": 140
+      },
+      {
+        "Close PDPA": 25.27440071105957,
+        "High PDPA": 25.27440071105957,
+        "Low PDPA": 25.27440071105957,
+        "Open PDPA": 25.27440071105957,
+        "Volume PDPA": 200
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -26,7 +70,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

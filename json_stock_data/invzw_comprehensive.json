@@ -1,9 +1,116 @@
 {
   "ticker": "INVZW",
-  "timestamp": "2025-12-23T06:17:56.800935",
+  "timestamp": "2025-12-24T04:52:49.382410",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 15,
+    "data": [
+      {
+        "Close": 0.026100000366568565,
+        "High": 0.026100000366568565,
+        "Low": 0.026100000366568565,
+        "Open": 0.026100000366568565,
+        "Volume": 0
+      },
+      {
+        "Close": 0.026000000536441803,
+        "High": 0.026000000536441803,
+        "Low": 0.026000000536441803,
+        "Open": 0.026000000536441803,
+        "Volume": 4005
+      },
+      {
+        "Close": 0.026000000536441803,
+        "High": 0.026000000536441803,
+        "Low": 0.026000000536441803,
+        "Open": 0.026000000536441803,
+        "Volume": 260
+      },
+      {
+        "Close": 0.026000000536441803,
+        "High": 0.026000000536441803,
+        "Low": 0.026000000536441803,
+        "Open": 0.026000000536441803,
+        "Volume": 100
+      },
+      {
+        "Close": 0.025100000202655792,
+        "High": 0.025100000202655792,
+        "Low": 0.025100000202655792,
+        "Open": 0.025100000202655792,
+        "Volume": 1140
+      },
+      {
+        "Close": 0.02500000037252903,
+        "High": 0.02500000037252903,
+        "Low": 0.02500000037252903,
+        "Open": 0.02500000037252903,
+        "Volume": 24400
+      },
+      {
+        "Close": 0.02500000037252903,
+        "High": 0.02500000037252903,
+        "Low": 0.02500000037252903,
+        "Open": 0.02500000037252903,
+        "Volume": 24400
+      },
+      {
+        "Close": 0.027400000020861626,
+        "High": 0.027400000020861626,
+        "Low": 0.027400000020861626,
+        "Open": 0.027400000020861626,
+        "Volume": 29265
+      },
+      {
+        "Close": 0.026499999687075615,
+        "High": 0.026499999687075615,
+        "Low": 0.026499999687075615,
+        "Open": 0.026499999687075615,
+        "Volume": 17986
+      },
+      {
+        "Close": 0.027000000700354576,
+        "High": 0.027000000700354576,
+        "Low": 0.027000000700354576,
+        "Open": 0.027000000700354576,
+        "Volume": 490
+      },
+      {
+        "Close": 0.027000000700354576,
+        "High": 0.027300000190734863,
+        "Low": 0.027000000700354576,
+        "Open": 0.027300000190734863,
+        "Volume": 1485
+      },
+      {
+        "Close": 0.027000000700354576,
+        "High": 0.027000000700354576,
+        "Low": 0.026900000870227814,
+        "Open": 0.026900000870227814,
+        "Volume": 990
+      },
+      {
+        "Close": 0.027000000700354576,
+        "High": 0.027000000700354576,
+        "Low": 0.027000000700354576,
+        "Open": 0.027000000700354576,
+        "Volume": 595
+      },
+      {
+        "Close": 0.02889999933540821,
+        "High": 0.02889999933540821,
+        "Low": 0.0272000003606081,
+        "Open": 0.0272000003606081,
+        "Volume": 990
+      },
+      {
+        "Close": 0.026900000870227814,
+        "High": 0.02889999933540821,
+        "Low": 0.026900000870227814,
+        "Open": 0.02889999933540821,
+        "Volume": 695
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -17,15 +124,39 @@
       "status": "no_data"
     },
     "cash_flow": {
-      "status": "success",
-      "rows": 55,
-      "columns": [
-        "2024-12-31 00:00:00",
-        "2023-12-31 00:00:00",
-        "2022-12-31 00:00:00",
-        "2021-12-31 00:00:00",
-        "2020-12-31 00:00:00"
-      ],
-      "data": [
-        {
-          
+      "status": "no_data"
+    }
+  },
+  "options_data": {
+    "status": "error",
+    "error_message": "Too Many Requests. Rate limited. Try after a while."
+  },
+  "news_data": {
+    "news": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    },
+    "recommendations": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  },
+  "holders_data": {
+    "major_holders": {
+      "status": "error"
+    },
+    "institutional_holders": {
+      "status": "error"
+    }
+  },
+  "earnings_data": {
+    "earnings": {
+      "status": "error",
+      "message": "'NoneType' object has no attribute 'empty'"
+    },
+    "calendar": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  }
+}

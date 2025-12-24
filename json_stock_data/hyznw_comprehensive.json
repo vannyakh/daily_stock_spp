@@ -1,9 +1,39 @@
 {
   "ticker": "HYZNW",
-  "timestamp": "2025-12-23T06:21:24.021295",
+  "timestamp": "2025-12-24T04:53:30.042854",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 4,
+    "data": [
+      {
+        "Close BTBDW": 0.1080000028014183,
+        "High BTBDW": 0.1080000028014183,
+        "Low BTBDW": 0.1080000028014183,
+        "Open BTBDW": 0.1080000028014183,
+        "Volume BTBDW": 0
+      },
+      {
+        "Close BTBDW": 0.13089999556541443,
+        "High BTBDW": 0.13089999556541443,
+        "Low BTBDW": 0.13089999556541443,
+        "Open BTBDW": 0.13089999556541443,
+        "Volume BTBDW": 500
+      },
+      {
+        "Close BTBDW": 0.10119999945163727,
+        "High BTBDW": 0.10119999945163727,
+        "Low BTBDW": 0.10119999945163727,
+        "Open BTBDW": 0.10119999945163727,
+        "Volume BTBDW": 400
+      },
+      {
+        "Close BTBDW": 0.10000000149011612,
+        "High BTBDW": 0.10000000149011612,
+        "Low BTBDW": 0.10000000149011612,
+        "Open BTBDW": 0.10000000149011612,
+        "Volume BTBDW": 0
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -26,7 +56,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

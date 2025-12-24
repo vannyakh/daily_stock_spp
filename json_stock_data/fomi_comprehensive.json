@@ -1,60 +1,9 @@
 {
   "ticker": "FOMI",
-  "timestamp": "2025-12-23T05:45:37.249771",
+  "timestamp": "2025-12-24T04:44:31.492866",
   "intraday_data": {
-    "status": "success",
-    "rows": 7,
-    "data": [
-      {
-        "Close OMH": 0.8102999925613403,
-        "High OMH": 0.8102999925613403,
-        "Low OMH": 0.8102999925613403,
-        "Open OMH": 0.8102999925613403,
-        "Volume OMH": 1380
-      },
-      {
-        "Close OMH": 0.8700000047683716,
-        "High OMH": 0.8700000047683716,
-        "Low OMH": 0.8700000047683716,
-        "Open OMH": 0.8700000047683716,
-        "Volume OMH": 330
-      },
-      {
-        "Close OMH": 0.8700000047683716,
-        "High OMH": 0.8700000047683716,
-        "Low OMH": 0.8644000291824341,
-        "Open OMH": 0.8646000027656555,
-        "Volume OMH": 1780
-      },
-      {
-        "Close OMH": 0.8399999737739563,
-        "High OMH": 0.8399999737739563,
-        "Low OMH": 0.8399999737739563,
-        "Open OMH": 0.8399999737739563,
-        "Volume OMH": 0
-      },
-      {
-        "Close OMH": 0.8021000027656555,
-        "High OMH": 0.8129000067710876,
-        "Low OMH": 0.800000011920929,
-        "Open OMH": 0.8105999827384949,
-        "Volume OMH": 5924
-      },
-      {
-        "Close OMH": 0.8001000285148621,
-        "High OMH": 0.8001000285148621,
-        "Low OMH": 0.8001000285148621,
-        "Open OMH": 0.8001000285148621,
-        "Volume OMH": 403
-      },
-      {
-        "Close OMH": 0.8100000023841858,
-        "High OMH": 0.8100000023841858,
-        "Low OMH": 0.8100000023841858,
-        "Open OMH": 0.8100000023841858,
-        "Volume OMH": 100
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -68,14 +17,38 @@
       "status": "no_data"
     },
     "cash_flow": {
-      "status": "success",
-      "rows": 38,
-      "columns": [
-        "2024-04-30 00:00:00",
-        "2023-04-30 00:00:00",
-        "2022-04-30 00:00:00",
-        "2021-04-30 00:00:00"
-      ],
-      "data": [
-        {
-          
+      "status": "no_data"
+    }
+  },
+  "options_data": {
+    "status": "error",
+    "error_message": "Too Many Requests. Rate limited. Try after a while."
+  },
+  "news_data": {
+    "news": {
+      "status": "no_data"
+    },
+    "recommendations": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  },
+  "holders_data": {
+    "major_holders": {
+      "status": "error"
+    },
+    "institutional_holders": {
+      "status": "error"
+    }
+  },
+  "earnings_data": {
+    "earnings": {
+      "status": "error",
+      "message": "'NoneType' object has no attribute 'empty'"
+    },
+    "calendar": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  }
+}

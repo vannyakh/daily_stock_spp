@@ -1,9 +1,9 @@
 {
   "ticker": "MHNC",
-  "timestamp": "2025-12-23T06:25:31.890323",
+  "timestamp": "2025-12-24T04:54:20.972015",
   "intraday_data": {
     "status": "success",
-    "rows": 6,
+    "rows": 9,
     "data": [
       {
         "Close": 15.778900146484375,
@@ -45,7 +45,28 @@
         "High": 15.75,
         "Low": 15.75,
         "Open": 15.75,
-        "Volume": 5316
+        "Volume": 0
+      },
+      {
+        "Close": 15.845000267028809,
+        "High": 15.845000267028809,
+        "Low": 15.845000267028809,
+        "Open": 15.845000267028809,
+        "Volume": 1166
+      },
+      {
+        "Close": 15.750100135803223,
+        "High": 15.750100135803223,
+        "Low": 15.75,
+        "Open": 15.75,
+        "Volume": 2154
+      },
+      {
+        "Close": 15.75,
+        "High": 15.75,
+        "Low": 15.75,
+        "Open": 15.75,
+        "Volume": 5387
       }
     ]
   },
@@ -70,7 +91,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",
@@ -92,7 +114,7 @@
     },
     "calendar": {
       "status": "error",
-      "message": "'dict' object has no attribute 'empty'"
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   }
 }

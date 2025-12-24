@@ -1,9 +1,25 @@
 {
   "ticker": "IWML",
-  "timestamp": "2025-12-23T06:23:11.063603",
+  "timestamp": "2025-12-24T04:53:52.172515",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 2,
+    "data": [
+      {
+        "Close IWDL": 48.62779998779297,
+        "High IWDL": 48.62779998779297,
+        "Low IWDL": 48.599998474121094,
+        "Open IWDL": 48.599998474121094,
+        "Volume IWDL": 0
+      },
+      {
+        "Close IWDL": 48.70970153808594,
+        "High IWDL": 48.709999084472656,
+        "Low IWDL": 48.70970153808594,
+        "Open IWDL": 48.709999084472656,
+        "Volume IWDL": 100
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -26,7 +42,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

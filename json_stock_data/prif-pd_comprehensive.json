@@ -1,9 +1,23 @@
 {
   "ticker": "PRIF-PD",
-  "timestamp": "2025-12-23T06:25:08.708318",
+  "timestamp": "2025-12-24T04:54:15.111239",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 1,
+    "data": [
+      {
+        "Close": 24.68000030517578,
+        "Close PRIF-PK": 21.459999084472656,
+        "High": 24.68000030517578,
+        "High PRIF-PK": 21.459999084472656,
+        "Low": 24.68000030517578,
+        "Low PRIF-PK": 21.459999084472656,
+        "Open": 24.68000030517578,
+        "Open PRIF-PK": 21.459999084472656,
+        "Volume": 344.0,
+        "Volume PRIF-PK": 459.0
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -26,7 +40,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

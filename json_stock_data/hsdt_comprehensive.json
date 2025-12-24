@@ -1,9 +1,32 @@
 {
   "ticker": "HSDT",
-  "timestamp": "2025-12-23T05:50:47.215649",
+  "timestamp": "2025-12-24T04:45:55.975533",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 3,
+    "data": [
+      {
+        "Close OWPC": 0.030300000682473183,
+        "High OWPC": 0.030300000682473183,
+        "Low OWPC": 0.030300000682473183,
+        "Open OWPC": 0.030300000682473183,
+        "Volume OWPC": 1534
+      },
+      {
+        "Close OWPC": 0.03280000016093254,
+        "High OWPC": 0.03280000016093254,
+        "Low OWPC": 0.03280000016093254,
+        "Open OWPC": 0.03280000016093254,
+        "Volume OWPC": 250
+      },
+      {
+        "Close OWPC": 0.030799999833106995,
+        "High OWPC": 0.030799999833106995,
+        "Low OWPC": 0.030799999833106995,
+        "Open OWPC": 0.030799999833106995,
+        "Volume OWPC": 14801
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -580,8 +603,7 @@
       ]
     },
     "recommendations": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
+      "status": "no_data"
     }
   },
   "holders_data": {
@@ -599,7 +621,7 @@
     },
     "calendar": {
       "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
+      "message": "'dict' object has no attribute 'empty'"
     }
   }
 }

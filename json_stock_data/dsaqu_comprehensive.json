@@ -1,9 +1,46 @@
 {
   "ticker": "DSAQU",
-  "timestamp": "2025-12-23T06:18:18.756083",
+  "timestamp": "2025-12-24T04:52:53.574096",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 5,
+    "data": [
+      {
+        "Close ANGHW": 0.012500000186264515,
+        "High ANGHW": 0.012500000186264515,
+        "Low ANGHW": 0.012299999594688416,
+        "Open ANGHW": 0.012299999594688416,
+        "Volume ANGHW": 0
+      },
+      {
+        "Close ANGHW": 0.014299999922513962,
+        "High ANGHW": 0.014299999922513962,
+        "Low ANGHW": 0.014299999922513962,
+        "Open ANGHW": 0.014299999922513962,
+        "Volume ANGHW": 333
+      },
+      {
+        "Close ANGHW": 0.012299999594688416,
+        "High ANGHW": 0.012299999594688416,
+        "Low ANGHW": 0.012299999594688416,
+        "Open ANGHW": 0.012299999594688416,
+        "Volume ANGHW": 0
+      },
+      {
+        "Close ANGHW": 0.013299999758601189,
+        "High ANGHW": 0.013299999758601189,
+        "Low ANGHW": 0.013299999758601189,
+        "Open ANGHW": 0.013299999758601189,
+        "Volume ANGHW": 2100
+      },
+      {
+        "Close ANGHW": 0.014299999922513962,
+        "High ANGHW": 0.014299999922513962,
+        "Low ANGHW": 0.014299999922513962,
+        "Open ANGHW": 0.014299999922513962,
+        "Volume ANGHW": 200
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -26,7 +63,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

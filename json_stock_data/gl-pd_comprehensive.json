@@ -1,9 +1,18 @@
 {
   "ticker": "GL-PD",
-  "timestamp": "2025-12-23T06:26:43.447844",
+  "timestamp": "2025-12-24T04:54:34.911497",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 1,
+    "data": [
+      {
+        "Close AILIO": 70.0,
+        "High AILIO": 70.0,
+        "Low AILIO": 70.0,
+        "Open AILIO": 70.0,
+        "Volume AILIO": 200
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -26,7 +35,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

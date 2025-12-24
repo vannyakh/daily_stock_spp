@@ -1,53 +1,9 @@
 {
   "ticker": "DESLF",
-  "timestamp": "2025-12-23T06:25:30.306852",
+  "timestamp": "2025-12-24T04:54:20.479108",
   "intraday_data": {
-    "status": "success",
-    "rows": 6,
-    "data": [
-      {
-        "Close MHNC": 15.778900146484375,
-        "High MHNC": 15.778900146484375,
-        "Low MHNC": 15.75,
-        "Open MHNC": 15.75,
-        "Volume MHNC": 0
-      },
-      {
-        "Close MHNC": 15.84529972076416,
-        "High MHNC": 15.84529972076416,
-        "Low MHNC": 15.84529972076416,
-        "Open MHNC": 15.84529972076416,
-        "Volume MHNC": 265
-      },
-      {
-        "Close MHNC": 15.800000190734863,
-        "High MHNC": 15.800000190734863,
-        "Low MHNC": 15.800000190734863,
-        "Open MHNC": 15.800000190734863,
-        "Volume MHNC": 1008
-      },
-      {
-        "Close MHNC": 15.75,
-        "High MHNC": 15.75,
-        "Low MHNC": 15.75,
-        "Open MHNC": 15.75,
-        "Volume MHNC": 411
-      },
-      {
-        "Close MHNC": 15.75,
-        "High MHNC": 15.75,
-        "Low MHNC": 15.75,
-        "Open MHNC": 15.75,
-        "Volume MHNC": 4989
-      },
-      {
-        "Close MHNC": 15.75,
-        "High MHNC": 15.75,
-        "Low MHNC": 15.75,
-        "Open MHNC": 15.75,
-        "Volume MHNC": 5316
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -70,7 +26,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

@@ -1,18 +1,9 @@
 {
   "ticker": "RVPHW",
-  "timestamp": "2025-12-23T06:17:29.523113",
+  "timestamp": "2025-12-24T04:52:43.031360",
   "intraday_data": {
-    "status": "success",
-    "rows": 1,
-    "data": [
-      {
-        "Close OWSCX": 19.610000610351562,
-        "High OWSCX": 19.610000610351562,
-        "Low OWSCX": 19.610000610351562,
-        "Open OWSCX": 19.610000610351562,
-        "Volume OWSCX": 0
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -35,7 +26,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

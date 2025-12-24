@@ -1,9 +1,18 @@
 {
   "ticker": "RMHI",
-  "timestamp": "2025-12-23T06:26:02.266465",
+  "timestamp": "2025-12-24T04:54:26.497592",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 1,
+    "data": [
+      {
+        "Close TAX": 29.09000015258789,
+        "High TAX": 29.09000015258789,
+        "Low TAX": 29.09000015258789,
+        "Open TAX": 29.09000015258789,
+        "Volume TAX": 0
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -26,7 +35,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

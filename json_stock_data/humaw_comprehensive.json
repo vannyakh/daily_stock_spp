@@ -1,9 +1,123 @@
 {
   "ticker": "HUMAW",
-  "timestamp": "2025-12-23T06:17:14.465836",
+  "timestamp": "2025-12-24T04:52:38.706485",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 16,
+    "data": [
+      {
+        "Close": 0.11500000208616257,
+        "High": 0.11500000208616257,
+        "Low": 0.11500000208616257,
+        "Open": 0.11500000208616257,
+        "Volume": 0
+      },
+      {
+        "Close": 0.10999999940395355,
+        "High": 0.10999999940395355,
+        "Low": 0.10999999940395355,
+        "Open": 0.10999999940395355,
+        "Volume": 120
+      },
+      {
+        "Close": 0.10000000149011612,
+        "High": 0.10939999669790268,
+        "Low": 0.10000000149011612,
+        "Open": 0.10000000149011612,
+        "Volume": 28000
+      },
+      {
+        "Close": 0.12710000574588776,
+        "High": 0.12710000574588776,
+        "Low": 0.12710000574588776,
+        "Open": 0.12710000574588776,
+        "Volume": 0
+      },
+      {
+        "Close": 0.11599999666213989,
+        "High": 0.11599999666213989,
+        "Low": 0.11599999666213989,
+        "Open": 0.11599999666213989,
+        "Volume": 1000
+      },
+      {
+        "Close": 0.10000000149011612,
+        "High": 0.10429999977350235,
+        "Low": 0.10000000149011612,
+        "Open": 0.10429999977350235,
+        "Volume": 15350
+      },
+      {
+        "Close": 0.10000000149011612,
+        "High": 0.10000000149011612,
+        "Low": 0.10000000149011612,
+        "Open": 0.10000000149011612,
+        "Volume": 231
+      },
+      {
+        "Close": 0.09910000115633011,
+        "High": 0.09910000115633011,
+        "Low": 0.09009999781847,
+        "Open": 0.09009999781847,
+        "Volume": 5743
+      },
+      {
+        "Close": 0.10000000149011612,
+        "High": 0.10000000149011612,
+        "Low": 0.10000000149011612,
+        "Open": 0.10000000149011612,
+        "Volume": 292
+      },
+      {
+        "Close": 0.1289999932050705,
+        "High": 0.1289999932050705,
+        "Low": 0.1289999932050705,
+        "Open": 0.1289999932050705,
+        "Volume": 1361
+      },
+      {
+        "Close": 0.12409999966621399,
+        "High": 0.12409999966621399,
+        "Low": 0.12409999966621399,
+        "Open": 0.12409999966621399,
+        "Volume": 300
+      },
+      {
+        "Close": 0.10000000149011612,
+        "High": 0.10000000149011612,
+        "Low": 0.10000000149011612,
+        "Open": 0.10000000149011612,
+        "Volume": 29850
+      },
+      {
+        "Close": 0.10000000149011612,
+        "High": 0.10000000149011612,
+        "Low": 0.10000000149011612,
+        "Open": 0.10000000149011612,
+        "Volume": 150
+      },
+      {
+        "Close": 0.10000000149011612,
+        "High": 0.10000000149011612,
+        "Low": 0.10000000149011612,
+        "Open": 0.10000000149011612,
+        "Volume": 27265
+      },
+      {
+        "Close": 0.11010000109672546,
+        "High": 0.11010000109672546,
+        "Low": 0.10530000180006027,
+        "Open": 0.10530000180006027,
+        "Volume": 25700
+      },
+      {
+        "Close": 0.10000000149011612,
+        "High": 0.10530000180006027,
+        "Low": 0.10000000149011612,
+        "Open": 0.10530000180006027,
+        "Volume": 11400
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -14,15 +128,42 @@
       "status": "no_data"
     },
     "balance_sheet": {
-      "status": "success",
-      "rows": 59,
-      "columns": [
-        "2024-12-31 00:00:00",
-        "2023-12-31 00:00:00",
-        "2022-12-31 00:00:00",
-        "2021-12-31 00:00:00",
-        "2020-12-31 00:00:00"
-      ],
-      "data": [
-        {
-          
+      "status": "no_data"
+    },
+    "cash_flow": {
+      "status": "no_data"
+    }
+  },
+  "options_data": {
+    "status": "error",
+    "error_message": "Too Many Requests. Rate limited. Try after a while."
+  },
+  "news_data": {
+    "news": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    },
+    "recommendations": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  },
+  "holders_data": {
+    "major_holders": {
+      "status": "error"
+    },
+    "institutional_holders": {
+      "status": "error"
+    }
+  },
+  "earnings_data": {
+    "earnings": {
+      "status": "error",
+      "message": "'NoneType' object has no attribute 'empty'"
+    },
+    "calendar": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  }
+}

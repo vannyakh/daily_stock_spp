@@ -1,9 +1,23 @@
 {
   "ticker": "HYAC-WT",
-  "timestamp": "2025-12-23T06:13:34.281705",
+  "timestamp": "2025-12-24T04:51:51.851210",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 1,
+    "data": [
+      {
+        "Close": 1.5099999904632568,
+        "Close SDAWW": 0.03519999980926514,
+        "High": 1.649899959564209,
+        "High SDAWW": 0.05000000074505806,
+        "Low": 1.5099999904632568,
+        "Low SDAWW": 0.03519999980926514,
+        "Open": 1.5099999904632568,
+        "Open SDAWW": 0.03799999877810478,
+        "Volume": 2000.0,
+        "Volume SDAWW": 0.0
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -26,7 +40,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

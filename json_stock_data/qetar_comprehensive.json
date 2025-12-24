@@ -1,13 +1,50 @@
 {
   "ticker": "QETAR",
-  "timestamp": "2025-12-23T06:15:42.570935",
+  "timestamp": "2025-12-24T04:52:19.948915",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 5,
+    "data": [
+      {
+        "Close": 1.8899999856948853,
+        "High": 1.9199999570846558,
+        "Low": 1.8899999856948853,
+        "Open": 1.9199999570846558,
+        "Volume": 0
+      },
+      {
+        "Close": 1.9299999475479126,
+        "High": 1.940000057220459,
+        "Low": 1.899999976158142,
+        "Open": 1.899999976158142,
+        "Volume": 602
+      },
+      {
+        "Close": 1.8700000047683716,
+        "High": 1.9199999570846558,
+        "Low": 1.8700000047683716,
+        "Open": 1.9199999570846558,
+        "Volume": 1711
+      },
+      {
+        "Close": 1.8600000143051147,
+        "High": 1.8600000143051147,
+        "Low": 1.8600000143051147,
+        "Open": 1.8600000143051147,
+        "Volume": 1000
+      },
+      {
+        "Close": 1.9700000286102295,
+        "High": 1.9700000286102295,
+        "Low": 1.9700000286102295,
+        "Open": 1.9700000286102295,
+        "Volume": 202
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
-    "message": "Too Many Requests. Rate limited. Try after a while."
+    "message": "argument of type 'NoneType' is not iterable"
   },
   "financials": {
     "income_statement": {
@@ -26,7 +63,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

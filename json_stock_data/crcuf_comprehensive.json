@@ -1,39 +1,9 @@
 {
   "ticker": "CRCUF",
-  "timestamp": "2025-12-23T05:35:29.469841",
+  "timestamp": "2025-12-24T04:41:47.895031",
   "intraday_data": {
-    "status": "success",
-    "rows": 4,
-    "data": [
-      {
-        "Close": 0.32749998569488525,
-        "High": 0.32749998569488525,
-        "Low": 0.32749998569488525,
-        "Open": 0.32749998569488525,
-        "Volume": 0
-      },
-      {
-        "Close": 0.32749998569488525,
-        "High": 0.32749998569488525,
-        "Low": 0.32749998569488525,
-        "Open": 0.32749998569488525,
-        "Volume": 500
-      },
-      {
-        "Close": 0.32749998569488525,
-        "High": 0.32749998569488525,
-        "Low": 0.32749998569488525,
-        "Open": 0.32749998569488525,
-        "Volume": 3500
-      },
-      {
-        "Close": 0.32749998569488525,
-        "High": 0.32749998569488525,
-        "Low": 0.32749998569488525,
-        "Open": 0.32749998569488525,
-        "Volume": 1000
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -207,16 +177,15 @@
       ]
     },
     "recommendations": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
+      "status": "no_data"
     }
   },
   "holders_data": {
     "major_holders": {
-      "status": "error"
+      "status": "no_data"
     },
     "institutional_holders": {
-      "status": "error"
+      "status": "no_data"
     }
   },
   "earnings_data": {

@@ -1,9 +1,9 @@
 {
   "ticker": "PFFL",
-  "timestamp": "2025-12-23T06:23:03.258830",
+  "timestamp": "2025-12-24T04:53:51.272256",
   "intraday_data": {
     "status": "success",
-    "rows": 2,
+    "rows": 3,
     "data": [
       {
         "Close": 8.350000381469727,
@@ -17,7 +17,14 @@
         "High": 8.277400016784668,
         "Low": 8.270000457763672,
         "Open": 8.270000457763672,
-        "Volume": 400
+        "Volume": 277
+      },
+      {
+        "Close": 8.27079963684082,
+        "High": 8.27079963684082,
+        "Low": 8.260000228881836,
+        "Open": 8.260000228881836,
+        "Volume": 1194
       }
     ]
   },
@@ -42,7 +49,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

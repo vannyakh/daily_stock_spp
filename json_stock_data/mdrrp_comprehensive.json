@@ -1,18 +1,9 @@
 {
   "ticker": "MDRRP",
-  "timestamp": "2025-12-23T06:21:12.850068",
+  "timestamp": "2025-12-24T04:53:28.247464",
   "intraday_data": {
-    "status": "success",
-    "rows": 1,
-    "data": [
-      {
-        "Close GIPRW": 0.05079999938607216,
-        "High GIPRW": 0.05079999938607216,
-        "Low GIPRW": 0.050700001418590546,
-        "Open GIPRW": 0.050700001418590546,
-        "Volume GIPRW": 0
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -35,7 +26,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

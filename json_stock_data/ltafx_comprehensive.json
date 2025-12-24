@@ -1,9 +1,25 @@
 {
   "ticker": "LTAFX",
-  "timestamp": "2025-12-23T06:26:08.103026",
+  "timestamp": "2025-12-24T04:54:27.883908",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 2,
+    "data": [
+      {
+        "Close LTCFX": 12.930000305175781,
+        "High LTCFX": 12.930000305175781,
+        "Low LTCFX": 12.930000305175781,
+        "Open LTCFX": 12.930000305175781,
+        "Volume LTCFX": 0
+      },
+      {
+        "Close LTCFX": 12.859999656677246,
+        "High LTCFX": 12.859999656677246,
+        "Low LTCFX": 12.859999656677246,
+        "Open LTCFX": 12.859999656677246,
+        "Volume LTCFX": 0
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -26,7 +42,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

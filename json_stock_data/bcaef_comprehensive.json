@@ -1,6 +1,6 @@
 {
   "ticker": "BCAEF",
-  "timestamp": "2025-12-23T06:27:35.605180",
+  "timestamp": "2025-12-24T04:54:46.422093",
   "intraday_data": {
     "status": "no_data",
     "message": "No intraday data available"
@@ -26,7 +26,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",
@@ -48,7 +49,7 @@
     },
     "calendar": {
       "status": "error",
-      "message": "'dict' object has no attribute 'empty'"
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   }
 }

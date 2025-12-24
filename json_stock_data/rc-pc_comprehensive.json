@@ -1,9 +1,25 @@
 {
   "ticker": "RC-PC",
-  "timestamp": "2025-12-23T06:22:34.216448",
+  "timestamp": "2025-12-24T04:53:44.405795",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 2,
+    "data": [
+      {
+        "Close": 13.960000038146973,
+        "High": 13.960000038146973,
+        "Low": 13.960000038146973,
+        "Open": 13.960000038146973,
+        "Volume": 0
+      },
+      {
+        "Close": 13.949999809265137,
+        "High": 13.949999809265137,
+        "Low": 13.949999809265137,
+        "Open": 13.949999809265137,
+        "Volume": 358
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -14,15 +30,42 @@
       "status": "no_data"
     },
     "balance_sheet": {
-      "status": "success",
-      "rows": 57,
-      "columns": [
-        "2024-12-31 00:00:00",
-        "2023-12-31 00:00:00",
-        "2022-12-31 00:00:00",
-        "2021-12-31 00:00:00",
-        "2020-12-31 00:00:00"
-      ],
-      "data": [
-        {
-          
+      "status": "no_data"
+    },
+    "cash_flow": {
+      "status": "no_data"
+    }
+  },
+  "options_data": {
+    "status": "error",
+    "error_message": "Too Many Requests. Rate limited. Try after a while."
+  },
+  "news_data": {
+    "news": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    },
+    "recommendations": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  },
+  "holders_data": {
+    "major_holders": {
+      "status": "error"
+    },
+    "institutional_holders": {
+      "status": "error"
+    }
+  },
+  "earnings_data": {
+    "earnings": {
+      "status": "error",
+      "message": "'NoneType' object has no attribute 'empty'"
+    },
+    "calendar": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  }
+}

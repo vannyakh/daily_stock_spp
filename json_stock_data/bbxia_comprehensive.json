@@ -1,39 +1,9 @@
 {
   "ticker": "BBXIA",
-  "timestamp": "2025-12-23T05:26:07.506993",
+  "timestamp": "2025-12-24T04:39:22.568873",
   "intraday_data": {
-    "status": "success",
-    "rows": 4,
-    "data": [
-      {
-        "Close": 3.6500000953674316,
-        "High": 3.6500000953674316,
-        "Low": 3.6500000953674316,
-        "Open": 3.6500000953674316,
-        "Volume": 0
-      },
-      {
-        "Close": 3.700000047683716,
-        "High": 3.700000047683716,
-        "Low": 3.700000047683716,
-        "Open": 3.700000047683716,
-        "Volume": 400
-      },
-      {
-        "Close": 3.5,
-        "High": 3.6500000953674316,
-        "Low": 3.5,
-        "Open": 3.6500000953674316,
-        "Volume": 553
-      },
-      {
-        "Close": 3.5,
-        "High": 3.5,
-        "Low": 3.5,
-        "Open": 3.5,
-        "Volume": 100
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -47,14 +17,38 @@
       "status": "no_data"
     },
     "cash_flow": {
-      "status": "success",
-      "rows": 62,
-      "columns": [
-        "2024-12-31 00:00:00",
-        "2023-12-31 00:00:00",
-        "2022-12-31 00:00:00",
-        "2021-12-31 00:00:00"
-      ],
-      "data": [
-        {
-          
+      "status": "no_data"
+    }
+  },
+  "options_data": {
+    "status": "error",
+    "error_message": "Too Many Requests. Rate limited. Try after a while."
+  },
+  "news_data": {
+    "news": {
+      "status": "no_data"
+    },
+    "recommendations": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  },
+  "holders_data": {
+    "major_holders": {
+      "status": "error"
+    },
+    "institutional_holders": {
+      "status": "error"
+    }
+  },
+  "earnings_data": {
+    "earnings": {
+      "status": "error",
+      "message": "'NoneType' object has no attribute 'empty'"
+    },
+    "calendar": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  }
+}

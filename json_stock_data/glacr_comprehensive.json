@@ -1,32 +1,9 @@
 {
   "ticker": "GLACR",
-  "timestamp": "2025-12-23T06:13:17.804885",
+  "timestamp": "2025-12-24T04:51:50.108674",
   "intraday_data": {
-    "status": "success",
-    "rows": 3,
-    "data": [
-      {
-        "Close CDTTW": 0.008999999612569809,
-        "High CDTTW": 0.008999999612569809,
-        "Low CDTTW": 0.008999999612569809,
-        "Open CDTTW": 0.008999999612569809,
-        "Volume CDTTW": 0
-      },
-      {
-        "Close CDTTW": 0.00930000003427267,
-        "High CDTTW": 0.009399999864399433,
-        "Low CDTTW": 0.008899999782443047,
-        "Open CDTTW": 0.008899999782443047,
-        "Volume CDTTW": 24249
-      },
-      {
-        "Close CDTTW": 0.007300000172108412,
-        "High CDTTW": 0.008100000210106373,
-        "Low CDTTW": 0.007300000172108412,
-        "Open CDTTW": 0.008100000210106373,
-        "Volume CDTTW": 19690
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -49,7 +26,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

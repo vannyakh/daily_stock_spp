@@ -1,53 +1,9 @@
 {
   "ticker": "ZNOGW",
-  "timestamp": "2025-12-23T06:16:12.153935",
+  "timestamp": "2025-12-24T04:52:25.798284",
   "intraday_data": {
-    "status": "success",
-    "rows": 6,
-    "data": [
-      {
-        "Close CSDX": 0.25,
-        "High CSDX": 0.25,
-        "Low CSDX": 0.25,
-        "Open CSDX": 0.25,
-        "Volume CSDX": 0
-      },
-      {
-        "Close CSDX": 0.25,
-        "High CSDX": 0.25,
-        "Low CSDX": 0.25,
-        "Open CSDX": 0.25,
-        "Volume CSDX": 800
-      },
-      {
-        "Close CSDX": 0.25,
-        "High CSDX": 0.25,
-        "Low CSDX": 0.25,
-        "Open CSDX": 0.25,
-        "Volume CSDX": 2500
-      },
-      {
-        "Close CSDX": 0.25,
-        "High CSDX": 0.25,
-        "Low CSDX": 0.23499999940395355,
-        "Open CSDX": 0.23499999940395355,
-        "Volume CSDX": 9747
-      },
-      {
-        "Close CSDX": 0.23999999463558197,
-        "High CSDX": 0.23999999463558197,
-        "Low CSDX": 0.23999999463558197,
-        "Open CSDX": 0.23999999463558197,
-        "Volume CSDX": 10000
-      },
-      {
-        "Close CSDX": 0.23999999463558197,
-        "High CSDX": 0.23999999463558197,
-        "Low CSDX": 0.23999999463558197,
-        "Open CSDX": 0.23999999463558197,
-        "Volume CSDX": 7500
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -70,7 +26,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

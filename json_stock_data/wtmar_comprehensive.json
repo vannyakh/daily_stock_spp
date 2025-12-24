@@ -1,18 +1,9 @@
 {
   "ticker": "WTMAR",
-  "timestamp": "2025-12-23T06:12:00.327583",
+  "timestamp": "2025-12-24T04:51:34.815669",
   "intraday_data": {
-    "status": "success",
-    "rows": 1,
-    "data": [
-      {
-        "Close": 0.5400000214576721,
-        "High": 0.5400000214576721,
-        "Low": 0.5400000214576721,
-        "Open": 0.5400000214576721,
-        "Volume": 0
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -35,7 +26,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

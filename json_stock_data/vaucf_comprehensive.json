@@ -1,9 +1,46 @@
 {
   "ticker": "VAUCF",
-  "timestamp": "2025-12-23T05:42:35.243633",
+  "timestamp": "2025-12-24T04:43:43.191366",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 5,
+    "data": [
+      {
+        "Close": 0.1264999955892563,
+        "High": 0.1264999955892563,
+        "Low": 0.1264999955892563,
+        "Open": 0.1264999955892563,
+        "Volume": 0
+      },
+      {
+        "Close": 0.1289999932050705,
+        "High": 0.1289999932050705,
+        "Low": 0.1289999932050705,
+        "Open": 0.1289999932050705,
+        "Volume": 20000
+      },
+      {
+        "Close": 0.12200000137090683,
+        "High": 0.12200000137090683,
+        "Low": 0.12200000137090683,
+        "Open": 0.12200000137090683,
+        "Volume": 6000
+      },
+      {
+        "Close": 0.125,
+        "High": 0.125,
+        "Low": 0.125,
+        "Open": 0.125,
+        "Volume": 5000
+      },
+      {
+        "Close": 0.125,
+        "High": 0.125,
+        "Low": 0.125,
+        "Open": 0.125,
+        "Volume": 15000
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -11,14 +48,44 @@
   },
   "financials": {
     "income_statement": {
-      "status": "success",
-      "rows": 38,
-      "columns": [
-        "2024-10-31 00:00:00",
-        "2023-10-31 00:00:00",
-        "2022-10-31 00:00:00",
-        "2021-10-31 00:00:00"
-      ],
-      "data": [
-        {
-          
+      "status": "no_data"
+    },
+    "balance_sheet": {
+      "status": "no_data"
+    },
+    "cash_flow": {
+      "status": "no_data"
+    }
+  },
+  "options_data": {
+    "status": "error",
+    "error_message": "Too Many Requests. Rate limited. Try after a while."
+  },
+  "news_data": {
+    "news": {
+      "status": "no_data"
+    },
+    "recommendations": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  },
+  "holders_data": {
+    "major_holders": {
+      "status": "error"
+    },
+    "institutional_holders": {
+      "status": "error"
+    }
+  },
+  "earnings_data": {
+    "earnings": {
+      "status": "error",
+      "message": "'NoneType' object has no attribute 'empty'"
+    },
+    "calendar": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  }
+}

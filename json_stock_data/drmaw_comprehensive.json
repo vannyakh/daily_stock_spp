@@ -1,9 +1,32 @@
 {
   "ticker": "DRMAW",
-  "timestamp": "2025-12-23T06:19:13.356399",
+  "timestamp": "2025-12-24T04:53:04.973158",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 3,
+    "data": [
+      {
+        "Close": 0.01899999938905239,
+        "High": 0.01899999938905239,
+        "Low": 0.01860000006854534,
+        "Open": 0.01899999938905239,
+        "Volume": 0
+      },
+      {
+        "Close": 0.01860000006854534,
+        "High": 0.01860000006854534,
+        "Low": 0.01860000006854534,
+        "Open": 0.01860000006854534,
+        "Volume": 1813
+      },
+      {
+        "Close": 0.01860000006854534,
+        "High": 0.01860000006854534,
+        "Low": 0.01860000006854534,
+        "Open": 0.01860000006854534,
+        "Volume": 4666
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -26,7 +49,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

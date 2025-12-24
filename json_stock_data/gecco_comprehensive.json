@@ -1,9 +1,9 @@
 {
   "ticker": "GECCO",
-  "timestamp": "2025-12-23T06:14:02.411763",
+  "timestamp": "2025-12-24T04:51:58.487901",
   "intraday_data": {
     "status": "success",
-    "rows": 2,
+    "rows": 5,
     "data": [
       {
         "Close": 24.92009925842285,
@@ -18,6 +18,27 @@
         "Low": 24.979999542236328,
         "Open": 24.979999542236328,
         "Volume": 1002
+      },
+      {
+        "Close": 24.979999542236328,
+        "High": 24.979999542236328,
+        "Low": 24.979999542236328,
+        "Open": 24.979999542236328,
+        "Volume": 175
+      },
+      {
+        "Close": 24.986799240112305,
+        "High": 24.986799240112305,
+        "Low": 24.979999542236328,
+        "Open": 24.979999542236328,
+        "Volume": 235
+      },
+      {
+        "Close": 24.96500015258789,
+        "High": 24.96500015258789,
+        "Low": 24.96500015258789,
+        "Open": 24.96500015258789,
+        "Volume": 101
       }
     ]
   },
@@ -42,10 +63,12 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   },
   "holders_data": {

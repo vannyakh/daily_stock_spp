@@ -1,32 +1,9 @@
 {
   "ticker": "ATHA",
-  "timestamp": "2025-12-23T05:39:42.648759",
+  "timestamp": "2025-12-24T04:42:55.690821",
   "intraday_data": {
-    "status": "success",
-    "rows": 3,
-    "data": [
-      {
-        "Close LCGMF": 0.164000004529953,
-        "High LCGMF": 0.164000004529953,
-        "Low LCGMF": 0.164000004529953,
-        "Open LCGMF": 0.164000004529953,
-        "Volume LCGMF": 0
-      },
-      {
-        "Close LCGMF": 0.164000004529953,
-        "High LCGMF": 0.164000004529953,
-        "Low LCGMF": 0.164000004529953,
-        "Open LCGMF": 0.164000004529953,
-        "Volume LCGMF": 10000
-      },
-      {
-        "Close LCGMF": 0.164000004529953,
-        "High LCGMF": 0.164000004529953,
-        "Low LCGMF": 0.164000004529953,
-        "Open LCGMF": 0.164000004529953,
-        "Volume LCGMF": 7000
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -364,7 +341,8 @@
       ]
     },
     "recommendations": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   },
   "holders_data": {

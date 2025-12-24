@@ -1,9 +1,25 @@
 {
   "ticker": "YHNAU",
-  "timestamp": "2025-12-23T06:30:14.011444",
+  "timestamp": "2025-12-24T04:55:20.371367",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 2,
+    "data": [
+      {
+        "Close": 10.545000076293945,
+        "High": 10.550000190734863,
+        "Low": 10.545000076293945,
+        "Open": 10.550000190734863,
+        "Volume": 0
+      },
+      {
+        "Close": 10.550000190734863,
+        "High": 10.550000190734863,
+        "Low": 10.550000190734863,
+        "Open": 10.550000190734863,
+        "Volume": 474
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -26,7 +42,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

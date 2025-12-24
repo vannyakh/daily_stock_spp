@@ -1,53 +1,9 @@
 {
   "ticker": "CSDX",
-  "timestamp": "2025-12-23T06:16:11.118685",
+  "timestamp": "2025-12-24T04:52:25.504804",
   "intraday_data": {
-    "status": "success",
-    "rows": 6,
-    "data": [
-      {
-        "Close": 0.25,
-        "High": 0.25,
-        "Low": 0.25,
-        "Open": 0.25,
-        "Volume": 0
-      },
-      {
-        "Close": 0.25,
-        "High": 0.25,
-        "Low": 0.25,
-        "Open": 0.25,
-        "Volume": 800
-      },
-      {
-        "Close": 0.25,
-        "High": 0.25,
-        "Low": 0.25,
-        "Open": 0.25,
-        "Volume": 2500
-      },
-      {
-        "Close": 0.25,
-        "High": 0.25,
-        "Low": 0.23499999940395355,
-        "Open": 0.23499999940395355,
-        "Volume": 9747
-      },
-      {
-        "Close": 0.23999999463558197,
-        "High": 0.23999999463558197,
-        "Low": 0.23999999463558197,
-        "Open": 0.23999999463558197,
-        "Volume": 10000
-      },
-      {
-        "Close": 0.23999999463558197,
-        "High": 0.23999999463558197,
-        "Low": 0.23999999463558197,
-        "Open": 0.23999999463558197,
-        "Volume": 7500
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -70,7 +26,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

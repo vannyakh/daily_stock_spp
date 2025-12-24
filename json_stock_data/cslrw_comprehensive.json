@@ -1,9 +1,18 @@
 {
   "ticker": "CSLRW",
-  "timestamp": "2025-12-23T06:21:48.218217",
+  "timestamp": "2025-12-24T04:53:34.851297",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 1,
+    "data": [
+      {
+        "Close BNAIW": 0.03200000151991844,
+        "High BNAIW": 0.03200000151991844,
+        "Low BNAIW": 0.031099999323487282,
+        "Open BNAIW": 0.031099999323487282,
+        "Volume BNAIW": 0
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -26,71 +35,8 @@
   },
   "news_data": {
     "news": {
-      "status": "success",
-      "count": 1,
-      "data": [
-        {
-          "id": "d0e94834-5d09-3d22-9d88-6365ceadf9ea",
-          "content": {
-            "id": "d0e94834-5d09-3d22-9d88-6365ceadf9ea",
-            "contentType": "STORY",
-            "title": "Complete Solaria, Inc. (NASDAQ:CSLR): Is Breakeven Near?",
-            "description": "",
-            "summary": "Complete Solaria, Inc. ( NASDAQ:CSLR ) is possibly approaching a major achievement in its business, so we would like to...",
-            "pubDate": "2025-02-14T10:42:31Z",
-            "displayTime": "2025-02-14T10:42:31Z",
-            "isHosted": true,
-            "bypassModal": false,
-            "previewUrl": null,
-            "thumbnail": {
-              "originalUrl": "https://media.zenfs.com/en/simply_wall_st__316/e18325c660d04f2fe88569956b7babe1",
-              "originalWidth": 1194,
-              "originalHeight": 432,
-              "caption": "",
-              "resolutions": [
-                {
-                  "url": "https://s.yimg.com/uu/api/res/1.2/kpZnHWmVXh9fa.5MJ5otJg--~B/aD00MzI7dz0xMTk0O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/simply_wall_st__316/e18325c660d04f2fe88569956b7babe1",
-                  "width": 1194,
-                  "height": 432,
-                  "tag": "original"
-                },
-                {
-                  "url": "https://s.yimg.com/uu/api/res/1.2/XKqpKrexo.eIcaZ7trUhBg--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/simply_wall_st__316/e18325c660d04f2fe88569956b7babe1",
-                  "width": 170,
-                  "height": 128,
-                  "tag": "170x128"
-                }
-              ]
-            },
-            "provider": {
-              "displayName": "Simply Wall St.",
-              "url": "https://simplywall.st/"
-            },
-            "canonicalUrl": {
-              "url": "https://finance.yahoo.com/news/complete-solaria-inc-nasdaq-cslr-104231012.html",
-              "site": "finance",
-              "region": "US",
-              "lang": "en-US"
-            },
-            "clickThroughUrl": {
-              "url": "https://finance.yahoo.com/news/complete-solaria-inc-nasdaq-cslr-104231012.html",
-              "site": "finance",
-              "region": "US",
-              "lang": "en-US"
-            },
-            "metadata": {
-              "editorsPick": false
-            },
-            "finance": {
-              "premiumFinance": {
-                "isPremiumNews": false,
-                "isPremiumFreeNews": false
-              }
-            },
-            "storyline": null
-          }
-        }
-      ]
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

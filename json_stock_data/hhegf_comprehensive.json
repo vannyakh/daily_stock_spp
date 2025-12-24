@@ -1,53 +1,9 @@
 {
   "ticker": "HHEGF",
-  "timestamp": "2025-12-23T06:21:58.391113",
+  "timestamp": "2025-12-24T04:53:37.554656",
   "intraday_data": {
-    "status": "success",
-    "rows": 6,
-    "data": [
-      {
-        "Close METCZ": 25.239999771118164,
-        "High METCZ": 25.270000457763672,
-        "Low METCZ": 25.239999771118164,
-        "Open METCZ": 25.270000457763672,
-        "Volume METCZ": 0
-      },
-      {
-        "Close METCZ": 25.239999771118164,
-        "High METCZ": 25.239999771118164,
-        "Low METCZ": 25.239999771118164,
-        "Open METCZ": 25.239999771118164,
-        "Volume METCZ": 314
-      },
-      {
-        "Close METCZ": 25.248699188232422,
-        "High METCZ": 25.248699188232422,
-        "Low METCZ": 25.239999771118164,
-        "Open METCZ": 25.239999771118164,
-        "Volume METCZ": 947
-      },
-      {
-        "Close METCZ": 25.239999771118164,
-        "High METCZ": 25.239999771118164,
-        "Low METCZ": 25.239999771118164,
-        "Open METCZ": 25.239999771118164,
-        "Volume METCZ": 324
-      },
-      {
-        "Close METCZ": 25.239999771118164,
-        "High METCZ": 25.239999771118164,
-        "Low METCZ": 25.239999771118164,
-        "Open METCZ": 25.239999771118164,
-        "Volume METCZ": 608
-      },
-      {
-        "Close METCZ": 25.239999771118164,
-        "High METCZ": 25.239999771118164,
-        "Low METCZ": 25.239999771118164,
-        "Open METCZ": 25.239999771118164,
-        "Volume METCZ": 178
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -70,7 +26,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

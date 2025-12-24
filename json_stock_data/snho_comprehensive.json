@@ -1,9 +1,32 @@
 {
   "ticker": "SNHO",
-  "timestamp": "2025-12-23T06:09:21.697281",
+  "timestamp": "2025-12-24T04:50:52.126380",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 3,
+    "data": [
+      {
+        "Close WTII": 0.0005000000237487257,
+        "High WTII": 0.0005000000237487257,
+        "Low WTII": 0.0005000000237487257,
+        "Open WTII": 0.0005000000237487257,
+        "Volume WTII": 0
+      },
+      {
+        "Close WTII": 0.0005000000237487257,
+        "High WTII": 0.0005000000237487257,
+        "Low WTII": 0.0005000000237487257,
+        "Open WTII": 0.0005000000237487257,
+        "Volume WTII": 52631
+      },
+      {
+        "Close WTII": 0.0005000000237487257,
+        "High WTII": 0.0005000000237487257,
+        "Low WTII": 0.0005000000237487257,
+        "Open WTII": 0.0005000000237487257,
+        "Volume WTII": 223
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -21,14 +44,16 @@
     }
   },
   "options_data": {
-    "expirations": []
+    "status": "error",
+    "error_message": "Too Many Requests. Rate limited. Try after a while."
   },
   "news_data": {
     "news": {
       "status": "no_data"
     },
     "recommendations": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   },
   "holders_data": {
