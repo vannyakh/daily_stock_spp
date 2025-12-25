@@ -1,32 +1,9 @@
 {
   "ticker": "SCCD",
-  "timestamp": "2025-12-24T04:51:58.048328",
+  "timestamp": "2025-12-25T05:22:10.015167",
   "intraday_data": {
-    "status": "success",
-    "rows": 3,
-    "data": [
-      {
-        "Close": 24.25,
-        "High": 24.5,
-        "Low": 24.239999771118164,
-        "Open": 24.5,
-        "Volume": 0
-      },
-      {
-        "Close": 24.239999771118164,
-        "High": 24.239999771118164,
-        "Low": 24.239999771118164,
-        "Open": 24.239999771118164,
-        "Volume": 230
-      },
-      {
-        "Close": 24.041500091552734,
-        "High": 24.041500091552734,
-        "Low": 24.041500091552734,
-        "Open": 24.041500091552734,
-        "Volume": 401
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -49,8 +26,7 @@
   },
   "news_data": {
     "news": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
+      "status": "no_data"
     },
     "recommendations": {
       "status": "error",

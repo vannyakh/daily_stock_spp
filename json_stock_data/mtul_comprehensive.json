@@ -1,9 +1,25 @@
 {
   "ticker": "MTUL",
-  "timestamp": "2025-12-24T04:53:51.628213",
+  "timestamp": "2025-12-25T05:27:03.730421",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 2,
+    "data": [
+      {
+        "Close": 39.327701568603516,
+        "High": 39.327701568603516,
+        "Low": 39.03160095214844,
+        "Open": 39.03160095214844,
+        "Volume": 0
+      },
+      {
+        "Close": 39.634700775146484,
+        "High": 39.634700775146484,
+        "Low": 39.327701568603516,
+        "Open": 39.327701568603516,
+        "Volume": 0
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -26,8 +42,7 @@
   },
   "news_data": {
     "news": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
+      "status": "no_data"
     },
     "recommendations": {
       "status": "error",

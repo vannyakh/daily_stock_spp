@@ -1,13 +1,22 @@
 {
   "ticker": "OXLCL",
-  "timestamp": "2025-12-24T04:54:03.913740",
+  "timestamp": "2025-12-25T05:27:34.935555",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 1,
+    "data": [
+      {
+        "Close": 24.085599899291992,
+        "High": 24.099899291992188,
+        "Low": 24.085599899291992,
+        "Open": 24.09000015258789,
+        "Volume": 0
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
-    "message": "argument of type 'NoneType' is not iterable"
+    "message": "Too Many Requests. Rate limited. Try after a while."
   },
   "financials": {
     "income_statement": {
@@ -26,8 +35,7 @@
   },
   "news_data": {
     "news": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
+      "status": "no_data"
     },
     "recommendations": {
       "status": "error",

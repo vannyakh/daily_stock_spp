@@ -1,6 +1,6 @@
 {
   "ticker": "GRWLF",
-  "timestamp": "2025-12-24T04:51:10.582077",
+  "timestamp": "2025-12-25T05:20:20.342819",
   "intraday_data": {
     "status": "no_data",
     "message": "No intraday data available"
@@ -642,15 +642,16 @@
       ]
     },
     "recommendations": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   },
   "holders_data": {
     "major_holders": {
-      "status": "no_data"
+      "status": "error"
     },
     "institutional_holders": {
-      "status": "no_data"
+      "status": "error"
     }
   },
   "earnings_data": {
@@ -660,7 +661,7 @@
     },
     "calendar": {
       "status": "error",
-      "message": "'dict' object has no attribute 'empty'"
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   }
 }

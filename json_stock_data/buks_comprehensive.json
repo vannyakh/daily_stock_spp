@@ -1,74 +1,9 @@
 {
   "ticker": "BUKS",
-  "timestamp": "2025-12-24T04:38:49.513195",
+  "timestamp": "2025-12-25T04:55:33.095152",
   "intraday_data": {
-    "status": "success",
-    "rows": 9,
-    "data": [
-      {
-        "Close RPMT": 0.4000000059604645,
-        "High RPMT": 0.4000000059604645,
-        "Low RPMT": 0.4000000059604645,
-        "Open RPMT": 0.4000000059604645,
-        "Volume RPMT": 0
-      },
-      {
-        "Close RPMT": 0.4000000059604645,
-        "High RPMT": 0.4000000059604645,
-        "Low RPMT": 0.4000000059604645,
-        "Open RPMT": 0.4000000059604645,
-        "Volume RPMT": 23600
-      },
-      {
-        "Close RPMT": 0.4000000059604645,
-        "High RPMT": 0.4000000059604645,
-        "Low RPMT": 0.4000000059604645,
-        "Open RPMT": 0.4000000059604645,
-        "Volume RPMT": 1200
-      },
-      {
-        "Close RPMT": 0.4196999967098236,
-        "High RPMT": 0.4196999967098236,
-        "Low RPMT": 0.4196999967098236,
-        "Open RPMT": 0.4196999967098236,
-        "Volume RPMT": 100
-      },
-      {
-        "Close RPMT": 0.3950999975204468,
-        "High RPMT": 0.3950999975204468,
-        "Low RPMT": 0.3950999975204468,
-        "Open RPMT": 0.3950999975204468,
-        "Volume RPMT": 2500
-      },
-      {
-        "Close RPMT": 0.3702999949455261,
-        "High RPMT": 0.38519999384880066,
-        "Low RPMT": 0.3702999949455261,
-        "Open RPMT": 0.38519999384880066,
-        "Volume RPMT": 17600
-      },
-      {
-        "Close RPMT": 0.4099999964237213,
-        "High RPMT": 0.4099999964237213,
-        "Low RPMT": 0.4099999964237213,
-        "Open RPMT": 0.4099999964237213,
-        "Volume RPMT": 100
-      },
-      {
-        "Close RPMT": 0.36000001430511475,
-        "High RPMT": 0.36000001430511475,
-        "Low RPMT": 0.36000001430511475,
-        "Open RPMT": 0.36000001430511475,
-        "Volume RPMT": 2500
-      },
-      {
-        "Close RPMT": 0.36000001430511475,
-        "High RPMT": 0.36000001430511475,
-        "Low RPMT": 0.36000001430511475,
-        "Open RPMT": 0.36000001430511475,
-        "Volume RPMT": 5000
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -91,7 +26,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

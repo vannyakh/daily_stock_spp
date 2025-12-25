@@ -1,9 +1,39 @@
 {
   "ticker": "LGMK",
-  "timestamp": "2025-12-24T04:45:40.664316",
+  "timestamp": "2025-12-25T05:09:13.952326",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 4,
+    "data": [
+      {
+        "Close": 0.7099999785423279,
+        "High": 0.7099999785423279,
+        "Low": 0.7099999785423279,
+        "Open": 0.7099999785423279,
+        "Volume": 0
+      },
+      {
+        "Close": 0.7099999785423279,
+        "High": 0.7099999785423279,
+        "Low": 0.7099999785423279,
+        "Open": 0.7099999785423279,
+        "Volume": 7
+      },
+      {
+        "Close": 0.7099999785423279,
+        "High": 0.7099999785423279,
+        "Low": 0.7099999785423279,
+        "Open": 0.7099999785423279,
+        "Volume": 133
+      },
+      {
+        "Close": 0.7099999785423279,
+        "High": 0.7099999785423279,
+        "Low": 0.7099999785423279,
+        "Open": 0.7099999785423279,
+        "Volume": 4
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -439,15 +469,16 @@
       ]
     },
     "recommendations": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   },
   "holders_data": {
     "major_holders": {
-      "status": "no_data"
+      "status": "error"
     },
     "institutional_holders": {
-      "status": "no_data"
+      "status": "error"
     }
   },
   "earnings_data": {

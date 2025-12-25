@@ -1,9 +1,39 @@
 {
   "ticker": "CMRX",
-  "timestamp": "2025-12-24T04:35:54.808448",
+  "timestamp": "2025-12-25T04:49:34.232213",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 4,
+    "data": [
+      {
+        "Close HYAC": 11.390000343322754,
+        "High HYAC": 11.390000343322754,
+        "Low HYAC": 11.390000343322754,
+        "Open HYAC": 11.390000343322754,
+        "Volume HYAC": 0
+      },
+      {
+        "Close HYAC": 11.390000343322754,
+        "High HYAC": 11.390000343322754,
+        "Low HYAC": 11.390000343322754,
+        "Open HYAC": 11.390000343322754,
+        "Volume HYAC": 0
+      },
+      {
+        "Close HYAC": 11.376799583435059,
+        "High HYAC": 11.376799583435059,
+        "Low HYAC": 11.376799583435059,
+        "Open HYAC": 11.376799583435059,
+        "Volume HYAC": 200
+      },
+      {
+        "Close HYAC": 11.380000114440918,
+        "High HYAC": 11.380000114440918,
+        "Low HYAC": 11.380000114440918,
+        "Open HYAC": 11.380000114440918,
+        "Volume HYAC": 406
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -623,15 +653,16 @@
       ]
     },
     "recommendations": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   },
   "holders_data": {
     "major_holders": {
-      "status": "no_data"
+      "status": "error"
     },
     "institutional_holders": {
-      "status": "no_data"
+      "status": "error"
     }
   },
   "earnings_data": {

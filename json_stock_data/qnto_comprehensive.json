@@ -1,23 +1,16 @@
 {
   "ticker": "QNTO",
-  "timestamp": "2025-12-24T04:42:25.343755",
+  "timestamp": "2025-12-25T05:02:50.293226",
   "intraday_data": {
     "status": "success",
-    "rows": 2,
+    "rows": 1,
     "data": [
       {
-        "Close LUDG": 0.07000000029802322,
-        "High LUDG": 0.07000000029802322,
-        "Low LUDG": 0.07000000029802322,
-        "Open LUDG": 0.07000000029802322,
-        "Volume LUDG": 0
-      },
-      {
-        "Close LUDG": 0.04309999942779541,
-        "High LUDG": 0.04309999942779541,
-        "Low LUDG": 0.04309999942779541,
-        "Open LUDG": 0.04309999942779541,
-        "Volume LUDG": 944
+        "Close CNFN": 1.5800000429153442,
+        "High CNFN": 1.5800000429153442,
+        "Low CNFN": 1.5800000429153442,
+        "Open CNFN": 1.5800000429153442,
+        "Volume CNFN": 0
       }
     ]
   },
@@ -33,15 +26,38 @@
       "status": "no_data"
     },
     "cash_flow": {
-      "status": "success",
-      "rows": 64,
-      "columns": [
-        "2024-12-31 00:00:00",
-        "2023-12-31 00:00:00",
-        "2022-12-31 00:00:00",
-        "2021-12-31 00:00:00",
-        "2020-12-31 00:00:00"
-      ],
-      "data": [
-        {
-          
+      "status": "no_data"
+    }
+  },
+  "options_data": {
+    "status": "error",
+    "error_message": "Too Many Requests. Rate limited. Try after a while."
+  },
+  "news_data": {
+    "news": {
+      "status": "no_data"
+    },
+    "recommendations": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  },
+  "holders_data": {
+    "major_holders": {
+      "status": "error"
+    },
+    "institutional_holders": {
+      "status": "error"
+    }
+  },
+  "earnings_data": {
+    "earnings": {
+      "status": "error",
+      "message": "'NoneType' object has no attribute 'empty'"
+    },
+    "calendar": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  }
+}

@@ -1,15 +1,22 @@
 {
   "ticker": "SIMAW",
-  "timestamp": "2025-12-24T04:51:06.239618",
+  "timestamp": "2025-12-25T05:20:10.592415",
   "intraday_data": {
     "status": "success",
-    "rows": 1,
+    "rows": 2,
     "data": [
       {
         "Close": 0.25999999046325684,
         "High": 0.25999999046325684,
         "Low": 0.21050000190734863,
         "Open": 0.21050000190734863,
+        "Volume": 0
+      },
+      {
+        "Close": 0.2599000036716461,
+        "High": 0.2599000036716461,
+        "Low": 0.2599000036716461,
+        "Open": 0.2599000036716461,
         "Volume": 0
       }
     ]
@@ -38,7 +45,8 @@
       "status": "no_data"
     },
     "recommendations": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   },
   "holders_data": {

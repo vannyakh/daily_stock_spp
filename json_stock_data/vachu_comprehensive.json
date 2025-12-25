@@ -1,9 +1,18 @@
 {
   "ticker": "VACHU",
-  "timestamp": "2025-12-24T04:51:06.691435",
+  "timestamp": "2025-12-25T05:20:11.318301",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 1,
+    "data": [
+      {
+        "Close": 10.989999771118164,
+        "High": 10.989999771118164,
+        "Low": 10.989999771118164,
+        "Open": 10.989999771118164,
+        "Volume": 0
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -93,16 +102,15 @@
       ]
     },
     "recommendations": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
+      "status": "no_data"
     }
   },
   "holders_data": {
     "major_holders": {
-      "status": "error"
+      "status": "no_data"
     },
     "institutional_holders": {
-      "status": "error"
+      "status": "no_data"
     }
   },
   "earnings_data": {

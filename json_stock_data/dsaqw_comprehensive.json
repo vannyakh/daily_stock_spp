@@ -1,46 +1,9 @@
 {
   "ticker": "DSAQW",
-  "timestamp": "2025-12-24T04:52:53.554757",
+  "timestamp": "2025-12-25T05:24:32.101937",
   "intraday_data": {
-    "status": "success",
-    "rows": 5,
-    "data": [
-      {
-        "Close ANGHW": 0.012500000186264515,
-        "High ANGHW": 0.012500000186264515,
-        "Low ANGHW": 0.012299999594688416,
-        "Open ANGHW": 0.012299999594688416,
-        "Volume ANGHW": 0
-      },
-      {
-        "Close ANGHW": 0.014299999922513962,
-        "High ANGHW": 0.014299999922513962,
-        "Low ANGHW": 0.014299999922513962,
-        "Open ANGHW": 0.014299999922513962,
-        "Volume ANGHW": 333
-      },
-      {
-        "Close ANGHW": 0.012299999594688416,
-        "High ANGHW": 0.012299999594688416,
-        "Low ANGHW": 0.012299999594688416,
-        "Open ANGHW": 0.012299999594688416,
-        "Volume ANGHW": 0
-      },
-      {
-        "Close ANGHW": 0.013299999758601189,
-        "High ANGHW": 0.013299999758601189,
-        "Low ANGHW": 0.013299999758601189,
-        "Open ANGHW": 0.013299999758601189,
-        "Volume ANGHW": 2100
-      },
-      {
-        "Close ANGHW": 0.014299999922513962,
-        "High ANGHW": 0.014299999922513962,
-        "Low ANGHW": 0.014299999922513962,
-        "Open ANGHW": 0.014299999922513962,
-        "Volume ANGHW": 200
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -48,45 +11,12 @@
   },
   "financials": {
     "income_statement": {
-      "status": "no_data"
-    },
-    "balance_sheet": {
-      "status": "no_data"
-    },
-    "cash_flow": {
-      "status": "no_data"
-    }
-  },
-  "options_data": {
-    "status": "error",
-    "error_message": "Too Many Requests. Rate limited. Try after a while."
-  },
-  "news_data": {
-    "news": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
-    },
-    "recommendations": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
-    }
-  },
-  "holders_data": {
-    "major_holders": {
-      "status": "error"
-    },
-    "institutional_holders": {
-      "status": "error"
-    }
-  },
-  "earnings_data": {
-    "earnings": {
-      "status": "error",
-      "message": "'NoneType' object has no attribute 'empty'"
-    },
-    "calendar": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
-    }
-  }
-}
+      "status": "success",
+      "rows": 33,
+      "columns": [
+        "2023-12-31 00:00:00",
+        "2022-12-31 00:00:00"
+      ],
+      "data": [
+        {
+          

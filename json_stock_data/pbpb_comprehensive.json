@@ -1,6 +1,6 @@
 {
   "ticker": "PBPB",
-  "timestamp": "2025-12-24T04:35:59.707706",
+  "timestamp": "2025-12-25T04:49:42.836432",
   "intraday_data": {
     "status": "no_data",
     "message": "No intraday data available"
@@ -92,7 +92,7 @@
       "enterpriseToRevenue": 1.384,
       "enterpriseToEbitda": 25.092,
       "52WeekChange": 0.594041,
-      "SandP52WeekChange": 0.13927746,
+      "SandP52WeekChange": 0.14446163,
       "exchange": "NMS",
       "quoteType": "EQUITY",
       "symbol": "PBPB",
@@ -142,7 +142,8 @@
     }
   },
   "options_data": {
-    "expirations": []
+    "status": "error",
+    "error_message": "Too Many Requests. Rate limited. Try after a while."
   },
   "news_data": {
     "news": {
@@ -762,146 +763,16 @@
       ]
     },
     "recommendations": {
-      "status": "success",
-      "rows": 4,
-      "data": [
-        {
-          "period": "0m",
-          "strongBuy": 0,
-          "buy": 0,
-          "hold": 3,
-          "sell": 0,
-          "strongSell": 0
-        },
-        {
-          "period": "-1m",
-          "strongBuy": 0,
-          "buy": 0,
-          "hold": 4,
-          "sell": 0,
-          "strongSell": 0
-        },
-        {
-          "period": "-2m",
-          "strongBuy": 0,
-          "buy": 3,
-          "hold": 1,
-          "sell": 0,
-          "strongSell": 0
-        },
-        {
-          "period": "-3m",
-          "strongBuy": 0,
-          "buy": 3,
-          "hold": 1,
-          "sell": 0,
-          "strongSell": 0
-        }
-      ]
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   },
   "holders_data": {
     "major_holders": {
-      "status": "success",
-      "data": [
-        {
-          "Value": 0.10821
-        },
-        {
-          "Value": 0.88579005
-        },
-        {
-          "Value": 0.99327004
-        },
-        {
-          "Value": 168.0
-        }
-      ]
+      "status": "error"
     },
     "institutional_holders": {
-      "status": "success",
-      "data": [
-        {
-          "Date Reported": "2025-06-30 00:00:00",
-          "Holder": "Nierenberg Investment Management Company, Inc.",
-          "pctHeld": 0.098500006,
-          "Shares": 2980564,
-          "Value": 51027258,
-          "pctChange": 0.0
-        },
-        {
-          "Date Reported": "2025-06-30 00:00:00",
-          "Holder": "Blackrock Inc.",
-          "pctHeld": 0.0626,
-          "Shares": 1894202,
-          "Value": 32428739,
-          "pctChange": -0.0458
-        },
-        {
-          "Date Reported": "2025-06-30 00:00:00",
-          "Holder": "Portolan Capital Management, LLC",
-          "pctHeld": 0.0551,
-          "Shares": 1667702,
-          "Value": 28551059,
-          "pctChange": 0.30629998
-        },
-        {
-          "Date Reported": "2025-06-30 00:00:00",
-          "Holder": "Vanguard Group Inc",
-          "pctHeld": 0.047,
-          "Shares": 1423239,
-          "Value": 24365852,
-          "pctChange": 0.00090000004
-        },
-        {
-          "Date Reported": "2025-06-30 00:00:00",
-          "Holder": "Renaissance Technologies, LLC",
-          "pctHeld": 0.0368,
-          "Shares": 1113554,
-          "Value": 19064045,
-          "pctChange": -0.0116
-        },
-        {
-          "Date Reported": "2025-06-30 00:00:00",
-          "Holder": "First Eagle Investment Management, LLC",
-          "pctHeld": 0.0327,
-          "Shares": 989028,
-          "Value": 16932160,
-          "pctChange": -0.011
-        },
-        {
-          "Date Reported": "2025-06-30 00:00:00",
-          "Holder": "Punch & Associates Investment Management, Inc.",
-          "pctHeld": 0.0315,
-          "Shares": 954334,
-          "Value": 16338198,
-          "pctChange": 0.1397
-        },
-        {
-          "Date Reported": "2025-06-30 00:00:00",
-          "Holder": "Western Standard, LLC",
-          "pctHeld": 0.0307,
-          "Shares": 927593,
-          "Value": 15880392,
-          "pctChange": 0.32259998
-        },
-        {
-          "Date Reported": "2025-06-30 00:00:00",
-          "Holder": "Heartland Advisors Inc.",
-          "pctHeld": 0.0253,
-          "Shares": 765700,
-          "Value": 13108784,
-          "pctChange": -0.0013
-        },
-        {
-          "Date Reported": "2025-06-30 00:00:00",
-          "Holder": "Monimus Capital Management, LP                          ",
-          "pctHeld": 0.0222,
-          "Shares": 671095,
-          "Value": 11489146,
-          "pctChange": 0.32639998
-        }
-      ]
+      "status": "error"
     }
   },
   "earnings_data": {
@@ -911,7 +782,7 @@
     },
     "calendar": {
       "status": "error",
-      "message": "'dict' object has no attribute 'empty'"
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   }
 }

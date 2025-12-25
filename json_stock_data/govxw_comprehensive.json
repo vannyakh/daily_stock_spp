@@ -1,127 +1,343 @@
 {
   "ticker": "GOVXW",
-  "timestamp": "2025-12-24T04:51:11.196539",
+  "timestamp": "2025-12-25T05:20:20.620136",
   "intraday_data": {
     "status": "no_data",
     "message": "No intraday data available"
   },
   "stock_info": {
-    "status": "success",
-    "data": {
-      "address1": "1900 Lake Park Drive",
-      "address2": "Suite 380",
-      "city": "Smyrna",
-      "state": "GA",
-      "zip": "30080",
-      "country": "United States",
-      "phone": "(678) 384-7220",
-      "fax": "(678) 384-7281",
-      "website": "https://www.geovax.com",
-      "industry": "Biotechnology",
-      "industryKey": "biotechnology",
-      "industryDisp": "Biotechnology",
-      "sector": "Healthcare",
-      "sectorKey": "healthcare",
-      "sectorDisp": "Healthcare",
-      "longBusinessSummary": "GeoVax Labs, Inc., a clinical-stage biotechnology company, develops human vaccines and immunotherapies against infectious diseases and solid tumor cancers using novel proprietary platforms in the United States. The company is developing various preventive vaccines against (COVID-19), human immunodeficiency virus (HIV); Zika virus; malaria; and hemorrhagic fever viruses, such as Ebola, Sudan, Marburg, and Lassa, as well as therapeutic vaccines for HIV, chronic Hepatitis B infections, and solid tumor cancers. It also developing GEO-CM04S1, a vaccine candidate that is in Phase 2 clinical trial for the treatment of preventive COVID-19; Gedeptin, a novel patented product/technology for the treatment of solid tumors, and Phase 1/2 clinical trial for the treatment of advanced head and neck squamous cell carcinoma; and GEO-CM02, a pan-coronavirus vaccine. In addition, the company offers GEO-MVA-MUC1, a vaccine candidate, which is in preclinical trial for the treatment of solid tumor cancers; GEO-ZM02, a vaccine candidate, which is in preclinical trial for the treatment of Zika; GEO-EMO1-Z, which is in preclinical trial for the treatment of Ebola Zaire; GEO-EMO1-S, which is in preclinical trial for the treatment of Ebola Sudan; GEO-MM01 treatment for marburg; and GEO-MVA for the treatment of Mpox and small pox. It has collaboration and partnership agreements with the National Institute of Allergy and Infectious Diseases of the National Institutes of Health; U.S. Department of Defense; and the Burnet Institute. GeoVax Labs, Inc. was incorporated in 1988 and is headquartered in Smyrna, Georgia.",
-      "fullTimeEmployees": 17,
-      "compensationAsOfEpochDate": 1735603200,
-      "maxAge": 86400,
-      "priceHint": 4,
-      "previousClose": 0.0046,
-      "open": 0.0054,
-      "dayLow": 0.0035,
-      "dayHigh": 0.0054,
-      "regularMarketPreviousClose": 0.0046,
-      "regularMarketOpen": 0.0054,
-      "regularMarketDayLow": 0.0035,
-      "regularMarketDayHigh": 0.0054,
-      "beta": 3.573,
-      "volume": 94445,
-      "regularMarketVolume": 94445,
-      "bid": 0.0,
-      "ask": 0.0,
-      "bidSize": 0,
-      "askSize": 0,
-      "fiftyTwoWeekLow": 0.0035,
-      "fiftyTwoWeekHigh": 0.0054,
-      "trailingAnnualDividendRate": 0.0,
-      "trailingAnnualDividendYield": 0.0,
-      "currency": "USD",
-      "tradeable": false,
-      "profitMargins": 0.0,
-      "floatShares": 19929851,
-      "bookValue": 0.177,
-      "priceToBook": 0.019774012,
-      "netIncomeToCommon": -24805556,
-      "SandP52WeekChange": 0.13927746,
-      "quoteType": "EQUITY",
-      "currentPrice": 0.0035,
-      "recommendationKey": "none",
-      "totalCash": 3093862,
-      "totalCashPerShare": 0.122,
-      "ebitda": -24937280,
-      "totalDebt": 0,
-      "quickRatio": 1.434,
-      "currentRatio": 2.03,
-      "totalRevenue": 6143044,
-      "revenuePerShare": 0.568,
-      "returnOnAssets": -3.31151,
-      "returnOnEquity": -96.90238,
-      "grossProfits": -18951548,
-      "freeCashflow": -18248606,
-      "operatingCashflow": -27350812,
-      "revenueGrowth": 1.835,
-      "grossMargins": 0.0,
-      "ebitdaMargins": 0.0,
-      "operatingMargins": -6.35811,
-      "financialCurrency": "USD",
-      "symbol": "GOVXW",
-      "language": "en-US",
-      "region": "US",
-      "typeDisp": "Equity",
-      "quoteSourceName": "Delayed Quote",
-      "triggerable": true,
-      "customPriceAlertConfidence": "HIGH",
-      "regularMarketChangePercent": -23.913,
-      "regularMarketPrice": 0.0035,
-      "sourceInterval": 15,
-      "exchangeDataDelayedBy": 0,
-      "cryptoTradeable": false,
-      "shortName": "GeoVax Labs, Inc.",
-      "longName": "GeoVax Labs, Inc.",
-      "regularMarketChange": -0.0011,
-      "regularMarketDayRange": "0.0035 - 0.0054",
-      "fullExchangeName": "NasdaqCM",
-      "fiftyTwoWeekLowChange": 0.0,
-      "fiftyTwoWeekLowChangePercent": 0.0,
-      "fiftyTwoWeekRange": "0.0035 - 0.0054",
-      "fiftyTwoWeekHighChange": -0.0019,
-      "fiftyTwoWeekHighChangePercent": -0.35185185,
-      "hasPrePostMarketData": true,
-      "marketState": "POSTPOST",
-      "regularMarketTime": 1758916800,
-      "exchange": "NCM",
-      "messageBoardId": "finmb_12056751",
-      "exchangeTimezoneName": "America/New_York",
-      "exchangeTimezoneShortName": "EST",
-      "gmtOffSetMilliseconds": -18000000,
-      "market": "us_market",
-      "esgPopulated": false,
-      "displayName": "GeoVax Labs"
-    }
+    "status": "error",
+    "message": "Too Many Requests. Rate limited. Try after a while."
   },
   "financials": {
     "income_statement": {
+      "status": "no_data"
+    },
+    "balance_sheet": {
+      "status": "no_data"
+    },
+    "cash_flow": {
+      "status": "no_data"
+    }
+  },
+  "options_data": {
+    "status": "error",
+    "error_message": "Too Many Requests. Rate limited. Try after a while."
+  },
+  "news_data": {
+    "news": {
       "status": "success",
-      "rows": 36,
-      "columns": [
-        "2024-12-31 00:00:00",
-        "2023-12-31 00:00:00",
-        "2022-12-31 00:00:00",
-        "2021-12-31 00:00:00",
-        "2020-12-31 00:00:00"
-      ],
+      "count": 5,
       "data": [
         {
-          
+          "id": "86f32224-faa0-3cab-8ede-f7a3aedc1b6e",
+          "content": {
+            "id": "86f32224-faa0-3cab-8ede-f7a3aedc1b6e",
+            "contentType": "STORY",
+            "title": "GeoVax Labs (GOVX) Upgraded to Buy: What Does It Mean for the Stock?",
+            "description": "",
+            "summary": "GeoVax Labs (GOVX) might move higher on growing optimism about its earnings prospects, which is reflected by its upgrade to a Zacks Rank #2 (Buy).",
+            "pubDate": "2025-08-20T16:00:03Z",
+            "displayTime": "2025-08-20T16:00:03Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": {
+              "originalUrl": "https://media.zenfs.com/en/zacks.com/1a018a29aef5adbf5b4319f32058e209",
+              "originalWidth": 900,
+              "originalHeight": 600,
+              "caption": "",
+              "resolutions": [
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/nxwFIPS2ImeTQYZMYlnAgg--~B/aD02MDA7dz05MDA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/zacks.com/1a018a29aef5adbf5b4319f32058e209",
+                  "width": 900,
+                  "height": 600,
+                  "tag": "original"
+                },
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/wWH_bZ_Pg8IIFWiHu6880A--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/zacks.com/1a018a29aef5adbf5b4319f32058e209",
+                  "width": 170,
+                  "height": 128,
+                  "tag": "170x128"
+                }
+              ]
+            },
+            "provider": {
+              "displayName": "Zacks",
+              "url": "http://www.zacks.com/"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/geovax-labs-govx-upgraded-buy-160003002.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/geovax-labs-govx-upgraded-buy-160003002.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        },
+        {
+          "id": "fcfddb9c-cdcb-3926-a1ce-24eadb2a52c1",
+          "content": {
+            "id": "fcfddb9c-cdcb-3926-a1ce-24eadb2a52c1",
+            "contentType": "STORY",
+            "title": "Geovax Labs Inc (GOVX) Q2 2025 Earnings Call Highlights: Revenue Surge and Strategic ...",
+            "description": "",
+            "summary": "Geovax Labs Inc (GOVX) reports significant revenue growth and strategic advancements, despite facing increased expenses and funding uncertainties.",
+            "pubDate": "2025-07-29T07:04:31Z",
+            "displayTime": "2025-07-29T07:04:31Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": {
+              "originalUrl": "https://media.zenfs.com/en/us.finance.gurufocus/4d9fd76354ca391047e936b89b7b9164",
+              "originalWidth": 500,
+              "originalHeight": 500,
+              "caption": "",
+              "resolutions": [
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/NoNQ_8pAguU9FT.UV_xk2w--~B/aD01MDA7dz01MDA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/us.finance.gurufocus/4d9fd76354ca391047e936b89b7b9164",
+                  "width": 500,
+                  "height": 500,
+                  "tag": "original"
+                },
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/6dInhEm5dMJURzPx.KZQxw--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/us.finance.gurufocus/4d9fd76354ca391047e936b89b7b9164",
+                  "width": 170,
+                  "height": 128,
+                  "tag": "170x128"
+                }
+              ]
+            },
+            "provider": {
+              "displayName": "GuruFocus.com",
+              "url": "http://www.gurufocus.com/"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/geovax-labs-inc-govx-q2-070431078.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/geovax-labs-inc-govx-q2-070431078.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        },
+        {
+          "id": "cd96745d-13d0-39d6-97f9-b04da39a2aaf",
+          "content": {
+            "id": "cd96745d-13d0-39d6-97f9-b04da39a2aaf",
+            "contentType": "STORY",
+            "title": "GeoVax Labs price target lowered to $14 from $18 at D. Boral Capital",
+            "description": "",
+            "summary": "D. Boral Capital lowered the firm\u2019s price target on GeoVax Labs (GOVX) to $14 from $18 and keeps a Buy rating on the shares. GeoVax has encountered a significant challenge following the termination of its BARDA-funded Phase 2b clinical trial for the GEO-CM04S1 COVID-19 vaccine, the firm says. This decision, made for the government\u2019s convenience, halts a pivotal study that was set to evaluate GEO-CM04S1 against an approved mRNA vaccine in a 10,000-participant trial under Project NextGen. The abru",
+            "pubDate": "2025-04-16T14:15:23Z",
+            "displayTime": "2025-04-16T14:15:23Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": {
+              "originalUrl": "https://media.zenfs.com/en/tipranks_452/1e5c62569304a546b8f4bd9cc2d706a2",
+              "originalWidth": 192,
+              "originalHeight": 192,
+              "caption": "https://www.tipranks.com/news/the-fly/geovax-labs-price-target-lowered-to-14-from-18-at-d-boral-capital",
+              "resolutions": [
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/8UXduVDD554L.fL21Hrlzg--~B/aD0xOTI7dz0xOTI7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/tipranks_452/1e5c62569304a546b8f4bd9cc2d706a2",
+                  "width": 192,
+                  "height": 192,
+                  "tag": "original"
+                },
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/MXl9DVD2e.w34dhQOkCXCA--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/tipranks_452/1e5c62569304a546b8f4bd9cc2d706a2",
+                  "width": 170,
+                  "height": 128,
+                  "tag": "170x128"
+                }
+              ]
+            },
+            "provider": {
+              "displayName": "TipRanks",
+              "url": "https://www.tipranks.com/"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/geovax-labs-price-target-lowered-141523619.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/geovax-labs-price-target-lowered-141523619.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        },
+        {
+          "id": "e355dc11-5640-34be-84aa-493f6108f1d4",
+          "content": {
+            "id": "e355dc11-5640-34be-84aa-493f6108f1d4",
+            "contentType": "STORY",
+            "title": "Sector Update: Health Care Stocks Retreat Late Afternoon",
+            "description": "",
+            "summary": "Health care stocks declined late Tuesday afternoon with the NYSE Health Care Index shedding 0.7% and",
+            "pubDate": "2025-04-15T19:58:44Z",
+            "displayTime": "2025-04-15T19:58:44Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": null,
+            "provider": {
+              "displayName": "MT Newswires",
+              "url": "https://www.mtnewswires.com/"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/sector-health-care-stocks-retreat-195844612.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/sector-health-care-stocks-retreat-195844612.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": true,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        },
+        {
+          "id": "63a0a695-159f-3903-91ed-632161264bfa",
+          "content": {
+            "id": "63a0a695-159f-3903-91ed-632161264bfa",
+            "contentType": "STORY",
+            "title": "Geovax Labs Inc (GOVX) Q4 2024 Earnings Call Highlights: Strategic Advances Amid Financial ...",
+            "description": "",
+            "summary": "Geovax Labs Inc (GOVX) secures a $400 million award for COVID-19 vaccine development while navigating financial hurdles and global partnerships.",
+            "pubDate": "2025-03-28T07:03:13Z",
+            "displayTime": "2025-03-28T07:03:13Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": {
+              "originalUrl": "https://media.zenfs.com/en/us.finance.gurufocus/4d9fd76354ca391047e936b89b7b9164",
+              "originalWidth": 500,
+              "originalHeight": 500,
+              "caption": "",
+              "resolutions": [
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/NoNQ_8pAguU9FT.UV_xk2w--~B/aD01MDA7dz01MDA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/us.finance.gurufocus/4d9fd76354ca391047e936b89b7b9164",
+                  "width": 500,
+                  "height": 500,
+                  "tag": "original"
+                },
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/6dInhEm5dMJURzPx.KZQxw--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/us.finance.gurufocus/4d9fd76354ca391047e936b89b7b9164",
+                  "width": 170,
+                  "height": 128,
+                  "tag": "170x128"
+                }
+              ]
+            },
+            "provider": {
+              "displayName": "GuruFocus.com",
+              "url": "http://www.gurufocus.com/"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/geovax-labs-inc-govx-q4-070313586.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/geovax-labs-inc-govx-q4-070313586.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        }
+      ]
+    },
+    "recommendations": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  },
+  "holders_data": {
+    "major_holders": {
+      "status": "error"
+    },
+    "institutional_holders": {
+      "status": "error"
+    }
+  },
+  "earnings_data": {
+    "earnings": {
+      "status": "error",
+      "message": "'NoneType' object has no attribute 'empty'"
+    },
+    "calendar": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  }
+}

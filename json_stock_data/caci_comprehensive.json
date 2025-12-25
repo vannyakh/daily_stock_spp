@@ -1,32 +1,9 @@
 {
   "ticker": "CACI",
-  "timestamp": "2025-12-24T04:26:13.752348",
+  "timestamp": "2025-12-25T04:30:44.597930",
   "intraday_data": {
-    "status": "success",
-    "rows": 3,
-    "data": [
-      {
-        "Close PTBRY": 11.1899995803833,
-        "High PTBRY": 11.1899995803833,
-        "Low PTBRY": 11.1899995803833,
-        "Open PTBRY": 11.1899995803833,
-        "Volume PTBRY": 18
-      },
-      {
-        "Close PTBRY": 11.15999984741211,
-        "High PTBRY": 11.1899995803833,
-        "Low PTBRY": 11.15999984741211,
-        "Open PTBRY": 11.1899995803833,
-        "Volume PTBRY": 47
-      },
-      {
-        "Close PTBRY": 11.869999885559082,
-        "High PTBRY": 11.869999885559082,
-        "Low PTBRY": 11.869999885559082,
-        "Open PTBRY": 11.869999885559082,
-        "Volume PTBRY": 45
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -646,7 +623,8 @@
       ]
     },
     "recommendations": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   },
   "holders_data": {

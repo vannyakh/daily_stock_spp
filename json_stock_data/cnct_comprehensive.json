@@ -1,9 +1,18 @@
 {
   "ticker": "CNCT",
-  "timestamp": "2025-12-24T04:50:44.625515",
+  "timestamp": "2025-12-25T05:19:23.540139",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 1,
+    "data": [
+      {
+        "Close IWAL": 0.013700000010430813,
+        "High IWAL": 0.013700000010430813,
+        "Low IWAL": 0.013700000010430813,
+        "Open IWAL": 0.013700000010430813,
+        "Volume IWAL": 20000
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -26,7 +35,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

@@ -1,46 +1,9 @@
 {
   "ticker": "UEPEM",
-  "timestamp": "2025-12-24T04:48:57.919331",
+  "timestamp": "2025-12-25T05:15:51.438814",
   "intraday_data": {
-    "status": "success",
-    "rows": 5,
-    "data": [
-      {
-        "Close": 65.75,
-        "High": 65.75,
-        "Low": 65.75,
-        "Open": 65.75,
-        "Volume": 0
-      },
-      {
-        "Close": 67.0,
-        "High": 67.0,
-        "Low": 67.0,
-        "Open": 67.0,
-        "Volume": 50
-      },
-      {
-        "Close": 66.25,
-        "High": 66.25,
-        "Low": 66.25,
-        "Open": 66.25,
-        "Volume": 100
-      },
-      {
-        "Close": 67.0,
-        "High": 67.0,
-        "Low": 67.0,
-        "Open": 67.0,
-        "Volume": 150
-      },
-      {
-        "Close": 68.0,
-        "High": 68.0,
-        "Low": 68.0,
-        "Open": 68.0,
-        "Volume": 200
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -54,15 +17,38 @@
       "status": "no_data"
     },
     "cash_flow": {
-      "status": "success",
-      "rows": 50,
-      "columns": [
-        "2024-12-31 00:00:00",
-        "2023-12-31 00:00:00",
-        "2022-12-31 00:00:00",
-        "2021-12-31 00:00:00",
-        "2020-12-31 00:00:00"
-      ],
-      "data": [
-        {
-          
+      "status": "no_data"
+    }
+  },
+  "options_data": {
+    "status": "error",
+    "error_message": "Too Many Requests. Rate limited. Try after a while."
+  },
+  "news_data": {
+    "news": {
+      "status": "no_data"
+    },
+    "recommendations": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  },
+  "holders_data": {
+    "major_holders": {
+      "status": "error"
+    },
+    "institutional_holders": {
+      "status": "error"
+    }
+  },
+  "earnings_data": {
+    "earnings": {
+      "status": "error",
+      "message": "'NoneType' object has no attribute 'empty'"
+    },
+    "calendar": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  }
+}

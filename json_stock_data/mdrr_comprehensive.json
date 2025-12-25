@@ -1,9 +1,18 @@
 {
   "ticker": "MDRR",
-  "timestamp": "2025-12-24T04:43:21.441771",
+  "timestamp": "2025-12-25T05:04:43.085476",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 1,
+    "data": [
+      {
+        "Close": 11.800000190734863,
+        "High": 11.800000190734863,
+        "Low": 11.800000190734863,
+        "Open": 11.800000190734863,
+        "Volume": 1552
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -581,15 +590,16 @@
       ]
     },
     "recommendations": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   },
   "holders_data": {
     "major_holders": {
-      "status": "no_data"
+      "status": "error"
     },
     "institutional_holders": {
-      "status": "no_data"
+      "status": "error"
     }
   },
   "earnings_data": {

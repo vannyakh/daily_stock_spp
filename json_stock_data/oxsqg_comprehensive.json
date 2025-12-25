@@ -1,9 +1,32 @@
 {
   "ticker": "OXSQG",
-  "timestamp": "2025-12-24T04:53:48.555520",
+  "timestamp": "2025-12-25T05:26:55.427406",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 3,
+    "data": [
+      {
+        "Close": 24.25,
+        "High": 24.25,
+        "Low": 24.25,
+        "Open": 24.25,
+        "Volume": 337
+      },
+      {
+        "Close": 24.359899520874023,
+        "High": 24.360000610351562,
+        "Low": 24.359399795532227,
+        "Open": 24.360000610351562,
+        "Volume": 1604
+      },
+      {
+        "Close": 24.34000015258789,
+        "High": 24.34000015258789,
+        "Low": 24.329999923706055,
+        "Open": 24.329999923706055,
+        "Volume": 332
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -26,8 +49,7 @@
   },
   "news_data": {
     "news": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
+      "status": "no_data"
     },
     "recommendations": {
       "status": "error",
