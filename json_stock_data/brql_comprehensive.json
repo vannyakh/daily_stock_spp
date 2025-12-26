@@ -1,51 +1,16 @@
 {
   "ticker": "BRQL",
-  "timestamp": "2025-12-25T05:25:10.252539",
+  "timestamp": "2025-12-26T05:20:32.353803",
   "intraday_data": {
     "status": "success",
-    "rows": 6,
+    "rows": 1,
     "data": [
       {
-        "Close": 0.5400000214576721,
-        "High": 0.5400000214576721,
-        "Low": 0.5400000214576721,
-        "Open": 0.5400000214576721,
+        "Close": 0.550000011920929,
+        "High": 0.550000011920929,
+        "Low": 0.550000011920929,
+        "Open": 0.550000011920929,
         "Volume": 0
-      },
-      {
-        "Close": 0.5,
-        "High": 0.5,
-        "Low": 0.5,
-        "Open": 0.5,
-        "Volume": 1000
-      },
-      {
-        "Close": 0.550000011920929,
-        "High": 0.550000011920929,
-        "Low": 0.550000011920929,
-        "Open": 0.550000011920929,
-        "Volume": 125
-      },
-      {
-        "Close": 0.8600000143051147,
-        "High": 0.8600000143051147,
-        "Low": 0.8600000143051147,
-        "Open": 0.8600000143051147,
-        "Volume": 2892
-      },
-      {
-        "Close": 0.949999988079071,
-        "High": 1.0199999809265137,
-        "Low": 0.949999988079071,
-        "Open": 1.0199999809265137,
-        "Volume": 7208
-      },
-      {
-        "Close": 0.550000011920929,
-        "High": 0.550000011920929,
-        "Low": 0.550000011920929,
-        "Open": 0.550000011920929,
-        "Volume": 900
       }
     ]
   },
@@ -55,13 +20,44 @@
   },
   "financials": {
     "income_statement": {
-      "status": "success",
-      "rows": 41,
-      "columns": [
-        "2024-12-31 00:00:00",
-        "2023-12-31 00:00:00",
-        "2022-12-31 00:00:00"
-      ],
-      "data": [
-        {
-          
+      "status": "no_data"
+    },
+    "balance_sheet": {
+      "status": "no_data"
+    },
+    "cash_flow": {
+      "status": "no_data"
+    }
+  },
+  "options_data": {
+    "status": "error",
+    "error_message": "Too Many Requests. Rate limited. Try after a while."
+  },
+  "news_data": {
+    "news": {
+      "status": "no_data"
+    },
+    "recommendations": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  },
+  "holders_data": {
+    "major_holders": {
+      "status": "error"
+    },
+    "institutional_holders": {
+      "status": "error"
+    }
+  },
+  "earnings_data": {
+    "earnings": {
+      "status": "error",
+      "message": "'NoneType' object has no attribute 'empty'"
+    },
+    "calendar": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  }
+}

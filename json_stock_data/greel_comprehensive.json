@@ -1,9 +1,18 @@
 {
   "ticker": "GREEL",
-  "timestamp": "2025-12-25T05:23:35.929002",
+  "timestamp": "2025-12-26T05:19:11.732493",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 1,
+    "data": [
+      {
+        "Close": 18.290000915527344,
+        "High": 18.290000915527344,
+        "Low": 18.290000915527344,
+        "Open": 18.290000915527344,
+        "Volume": 0
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -29,7 +38,8 @@
       "status": "no_data"
     },
     "recommendations": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   },
   "holders_data": {

@@ -1,9 +1,53 @@
 {
   "ticker": "BHST",
-  "timestamp": "2025-12-25T04:56:38.184917",
+  "timestamp": "2025-12-26T04:54:47.851091",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 6,
+    "data": [
+      {
+        "Close": 5.320099830627441,
+        "High": 5.320099830627441,
+        "Low": 5.320099830627441,
+        "Open": 5.320099830627441,
+        "Volume": 0
+      },
+      {
+        "Close": 5.514999866485596,
+        "High": 5.514999866485596,
+        "Low": 5.514999866485596,
+        "Open": 5.514999866485596,
+        "Volume": 439
+      },
+      {
+        "Close": 5.557499885559082,
+        "High": 5.557499885559082,
+        "Low": 5.557499885559082,
+        "Open": 5.557499885559082,
+        "Volume": 534
+      },
+      {
+        "Close": 5.690000057220459,
+        "High": 5.690000057220459,
+        "Low": 5.690000057220459,
+        "Open": 5.690000057220459,
+        "Volume": 109
+      },
+      {
+        "Close": 5.519999980926514,
+        "High": 5.519999980926514,
+        "Low": 5.519999980926514,
+        "Open": 5.519999980926514,
+        "Volume": 2241
+      },
+      {
+        "Close": 5.585000038146973,
+        "High": 5.599999904632568,
+        "Low": 5.579999923706055,
+        "Open": 5.599999904632568,
+        "Volume": 1083
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -642,7 +686,8 @@
       ]
     },
     "recommendations": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   },
   "holders_data": {

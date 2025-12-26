@@ -1,9 +1,18 @@
 {
   "ticker": "AETHF",
-  "timestamp": "2025-12-25T05:10:42.814902",
+  "timestamp": "2025-12-26T05:07:15.264541",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 1,
+    "data": [
+      {
+        "Close SONX": 0.12999999523162842,
+        "High SONX": 0.12999999523162842,
+        "Low SONX": 0.12999999523162842,
+        "Open SONX": 0.12999999523162842,
+        "Volume SONX": 0
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -29,7 +38,8 @@
       "status": "no_data"
     },
     "recommendations": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   },
   "holders_data": {

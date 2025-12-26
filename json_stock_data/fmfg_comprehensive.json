@@ -1,81 +1,9 @@
 {
   "ticker": "FMFG",
-  "timestamp": "2025-12-25T04:59:31.721332",
+  "timestamp": "2025-12-26T04:57:13.750256",
   "intraday_data": {
-    "status": "success",
-    "rows": 10,
-    "data": [
-      {
-        "Close CCEL": 3.859999895095825,
-        "High CCEL": 3.859999895095825,
-        "Low CCEL": 3.859999895095825,
-        "Open CCEL": 3.859999895095825,
-        "Volume CCEL": 711
-      },
-      {
-        "Close CCEL": 3.7100000381469727,
-        "High CCEL": 3.7100000381469727,
-        "Low CCEL": 3.6449999809265137,
-        "Open CCEL": 3.6449999809265137,
-        "Volume CCEL": 309
-      },
-      {
-        "Close CCEL": 3.7200000286102295,
-        "High CCEL": 3.7200000286102295,
-        "Low CCEL": 3.6452999114990234,
-        "Open CCEL": 3.6452999114990234,
-        "Volume CCEL": 1611
-      },
-      {
-        "Close CCEL": 3.6449999809265137,
-        "High CCEL": 3.6449999809265137,
-        "Low CCEL": 3.6449999809265137,
-        "Open CCEL": 3.6449999809265137,
-        "Volume CCEL": 250
-      },
-      {
-        "Close CCEL": 3.5799999237060547,
-        "High CCEL": 3.5799999237060547,
-        "Low CCEL": 3.5799999237060547,
-        "Open CCEL": 3.5799999237060547,
-        "Volume CCEL": 208
-      },
-      {
-        "Close CCEL": 3.5899999141693115,
-        "High CCEL": 3.5899999141693115,
-        "Low CCEL": 3.569999933242798,
-        "Open CCEL": 3.569999933242798,
-        "Volume CCEL": 809
-      },
-      {
-        "Close CCEL": 3.819999933242798,
-        "High CCEL": 3.819999933242798,
-        "Low CCEL": 3.819999933242798,
-        "Open CCEL": 3.819999933242798,
-        "Volume CCEL": 347
-      },
-      {
-        "Close CCEL": 3.5899999141693115,
-        "High CCEL": 3.5999999046325684,
-        "Low CCEL": 3.5899999141693115,
-        "Open CCEL": 3.5999999046325684,
-        "Volume CCEL": 439
-      },
-      {
-        "Close CCEL": 3.6847000122070312,
-        "High CCEL": 3.6847000122070312,
-        "Low CCEL": 3.6847000122070312,
-        "Open CCEL": 3.6847000122070312,
-        "Volume CCEL": 232
-      },
-      {
-        "Close CCEL": 3.450000047683716,
-        "High CCEL": 3.450000047683716,
-        "Low CCEL": 3.450000047683716,
-        "Open CCEL": 3.450000047683716,
-        "Volume CCEL": 0
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -83,44 +11,14 @@
   },
   "financials": {
     "income_statement": {
-      "status": "no_data"
-    },
-    "balance_sheet": {
-      "status": "no_data"
-    },
-    "cash_flow": {
-      "status": "no_data"
-    }
-  },
-  "options_data": {
-    "status": "error",
-    "error_message": "Too Many Requests. Rate limited. Try after a while."
-  },
-  "news_data": {
-    "news": {
-      "status": "no_data"
-    },
-    "recommendations": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
-    }
-  },
-  "holders_data": {
-    "major_holders": {
-      "status": "error"
-    },
-    "institutional_holders": {
-      "status": "error"
-    }
-  },
-  "earnings_data": {
-    "earnings": {
-      "status": "error",
-      "message": "'NoneType' object has no attribute 'empty'"
-    },
-    "calendar": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
-    }
-  }
-}
+      "status": "success",
+      "rows": 35,
+      "columns": [
+        "2024-12-31 00:00:00",
+        "2023-12-31 00:00:00",
+        "2022-12-31 00:00:00",
+        "2021-12-31 00:00:00"
+      ],
+      "data": [
+        {
+          

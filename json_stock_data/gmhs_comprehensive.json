@@ -1,9 +1,39 @@
 {
   "ticker": "GMHS",
-  "timestamp": "2025-12-25T05:12:57.354672",
+  "timestamp": "2025-12-26T05:09:21.278956",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 4,
+    "data": [
+      {
+        "Close": 1.0099999904632568,
+        "High": 1.0099999904632568,
+        "Low": 1.0099999904632568,
+        "Open": 1.0099999904632568,
+        "Volume": 185
+      },
+      {
+        "Close": 1.0099999904632568,
+        "High": 1.0099999904632568,
+        "Low": 1.0099999904632568,
+        "Open": 1.0099999904632568,
+        "Volume": 107
+      },
+      {
+        "Close": 1.0099999904632568,
+        "High": 1.0099999904632568,
+        "Low": 1.0099999904632568,
+        "Open": 1.0099999904632568,
+        "Volume": 404
+      },
+      {
+        "Close": 1.0,
+        "High": 1.0,
+        "Low": 1.0,
+        "Open": 1.0,
+        "Volume": 200
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -404,10 +434,10 @@
   },
   "holders_data": {
     "major_holders": {
-      "status": "no_data"
+      "status": "error"
     },
     "institutional_holders": {
-      "status": "no_data"
+      "status": "error"
     }
   },
   "earnings_data": {
@@ -417,7 +447,7 @@
     },
     "calendar": {
       "status": "error",
-      "message": "'dict' object has no attribute 'empty'"
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   }
 }

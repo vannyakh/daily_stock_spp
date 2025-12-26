@@ -1,9 +1,53 @@
 {
   "ticker": "GIGGW",
-  "timestamp": "2025-12-25T05:21:20.544178",
+  "timestamp": "2025-12-26T05:17:05.988110",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 6,
+    "data": [
+      {
+        "Close": 0.42500001192092896,
+        "High": 0.42500001192092896,
+        "Low": 0.42500001192092896,
+        "Open": 0.42500001192092896,
+        "Volume": 0
+      },
+      {
+        "Close": 0.42500001192092896,
+        "High": 0.42500001192092896,
+        "Low": 0.42500001192092896,
+        "Open": 0.42500001192092896,
+        "Volume": 689
+      },
+      {
+        "Close": 0.4399999976158142,
+        "High": 0.44440001249313354,
+        "Low": 0.4399999976158142,
+        "Open": 0.4399999976158142,
+        "Volume": 20603
+      },
+      {
+        "Close": 0.42500001192092896,
+        "High": 0.42500001192092896,
+        "Low": 0.42500001192092896,
+        "Open": 0.42500001192092896,
+        "Volume": 279
+      },
+      {
+        "Close": 0.4099999964237213,
+        "High": 0.42500001192092896,
+        "Low": 0.4099999964237213,
+        "Open": 0.42500001192092896,
+        "Volume": 2380
+      },
+      {
+        "Close": 0.4099999964237213,
+        "High": 0.4099999964237213,
+        "Low": 0.4099999964237213,
+        "Open": 0.4099999964237213,
+        "Volume": 1000
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -26,7 +70,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

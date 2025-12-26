@@ -1,9 +1,32 @@
 {
   "ticker": "EONR-WT",
-  "timestamp": "2025-12-25T05:26:19.550034",
+  "timestamp": "2025-12-26T05:21:34.482746",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 3,
+    "data": [
+      {
+        "Close": 0.04740000143647194,
+        "High": 0.04740000143647194,
+        "Low": 0.04740000143647194,
+        "Open": 0.04740000143647194,
+        "Volume": 0
+      },
+      {
+        "Close": 0.04740000143647194,
+        "High": 0.04740000143647194,
+        "Low": 0.04740000143647194,
+        "Open": 0.04740000143647194,
+        "Volume": 1500
+      },
+      {
+        "Close": 0.04769999906420708,
+        "High": 0.04769999906420708,
+        "Low": 0.040800001472234726,
+        "Open": 0.040800001472234726,
+        "Volume": 21100
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -219,7 +242,8 @@
       ]
     },
     "recommendations": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   },
   "holders_data": {

@@ -1,51 +1,16 @@
 {
   "ticker": "FACTU",
-  "timestamp": "2025-12-25T05:20:14.972343",
+  "timestamp": "2025-12-26T05:16:09.229684",
   "intraday_data": {
     "status": "success",
-    "rows": 11,
+    "rows": 6,
     "data": [
-      {
-        "Close BACQR": 0.7996000051498413,
-        "High BACQR": 0.7996000051498413,
-        "Low BACQR": 0.7996000051498413,
-        "Open BACQR": 0.7996000051498413,
-        "Volume BACQR": 0
-      },
-      {
-        "Close BACQR": 0.800000011920929,
-        "High BACQR": 0.800000011920929,
-        "Low BACQR": 0.800000011920929,
-        "Open BACQR": 0.800000011920929,
-        "Volume BACQR": 1063
-      },
-      {
-        "Close BACQR": 0.7800999879837036,
-        "High BACQR": 0.7800999879837036,
-        "Low BACQR": 0.75,
-        "Open BACQR": 0.7799999713897705,
-        "Volume BACQR": 9100
-      },
-      {
-        "Close BACQR": 0.7400000095367432,
-        "High BACQR": 0.7700999975204468,
-        "Low BACQR": 0.7400000095367432,
-        "Open BACQR": 0.7700999975204468,
-        "Volume BACQR": 2309
-      },
-      {
-        "Close BACQR": 0.7900000214576721,
-        "High BACQR": 0.7900000214576721,
-        "Low BACQR": 0.7900000214576721,
-        "Open BACQR": 0.7900000214576721,
-        "Volume BACQR": 0
-      },
       {
         "Close BACQR": 0.8299999833106995,
         "High BACQR": 0.8299999833106995,
         "Low BACQR": 0.8299999833106995,
         "Open BACQR": 0.8299999833106995,
-        "Volume BACQR": 5741
+        "Volume BACQR": 0
       },
       {
         "Close BACQR": 0.8248999714851379,
@@ -86,112 +51,18 @@
   },
   "stock_info": {
     "status": "error",
-    "message": "Too Many Requests. Rate limited. Try after a while."
+    "message": "argument of type 'NoneType' is not iterable"
   },
   "financials": {
     "income_statement": {
       "status": "no_data"
     },
     "balance_sheet": {
-      "status": "no_data"
-    },
-    "cash_flow": {
-      "status": "no_data"
-    }
-  },
-  "options_data": {
-    "status": "error",
-    "error_message": "Too Many Requests. Rate limited. Try after a while."
-  },
-  "news_data": {
-    "news": {
       "status": "success",
-      "count": 1,
+      "rows": 32,
+      "columns": [
+        "2024-12-31 00:00:00"
+      ],
       "data": [
         {
-          "id": "cee6ed8a-891f-3ffc-b8a5-fa46266947cc",
-          "content": {
-            "id": "cee6ed8a-891f-3ffc-b8a5-fa46266947cc",
-            "contentType": "STORY",
-            "title": "FACT II Acquisition Corp's (NASDAQ:FACT) largest shareholders are individual investors with 35% ownership, institutions own 26%",
-            "description": "",
-            "summary": "Key Insights Significant control over FACT II Acquisition by individual investors implies that the general public has...",
-            "pubDate": "2025-03-29T13:34:19Z",
-            "displayTime": "2025-03-29T13:34:19Z",
-            "isHosted": true,
-            "bypassModal": false,
-            "previewUrl": null,
-            "thumbnail": {
-              "originalUrl": "https://media.zenfs.com/en/simply_wall_st__316/4470f143ba4f4c0e99553a639759c619",
-              "originalWidth": 1194,
-              "originalHeight": 432,
-              "caption": "",
-              "resolutions": [
-                {
-                  "url": "https://s.yimg.com/uu/api/res/1.2/6aUxsyZINKOU9.9KrHnBOA--~B/aD00MzI7dz0xMTk0O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/simply_wall_st__316/4470f143ba4f4c0e99553a639759c619",
-                  "width": 1194,
-                  "height": 432,
-                  "tag": "original"
-                },
-                {
-                  "url": "https://s.yimg.com/uu/api/res/1.2/50CFm8d8WWbAzkmx4kxXiA--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/simply_wall_st__316/4470f143ba4f4c0e99553a639759c619",
-                  "width": 170,
-                  "height": 128,
-                  "tag": "170x128"
-                }
-              ]
-            },
-            "provider": {
-              "displayName": "Simply Wall St.",
-              "url": "https://simplywall.st/"
-            },
-            "canonicalUrl": {
-              "url": "https://finance.yahoo.com/news/fact-ii-acquisition-corps-nasdaq-133419075.html",
-              "site": "finance",
-              "region": "US",
-              "lang": "en-US"
-            },
-            "clickThroughUrl": {
-              "url": "https://finance.yahoo.com/news/fact-ii-acquisition-corps-nasdaq-133419075.html",
-              "site": "finance",
-              "region": "US",
-              "lang": "en-US"
-            },
-            "metadata": {
-              "editorsPick": false
-            },
-            "finance": {
-              "premiumFinance": {
-                "isPremiumNews": false,
-                "isPremiumFreeNews": false
-              }
-            },
-            "storyline": null
-          }
-        }
-      ]
-    },
-    "recommendations": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
-    }
-  },
-  "holders_data": {
-    "major_holders": {
-      "status": "error"
-    },
-    "institutional_holders": {
-      "status": "error"
-    }
-  },
-  "earnings_data": {
-    "earnings": {
-      "status": "error",
-      "message": "'NoneType' object has no attribute 'empty'"
-    },
-    "calendar": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
-    }
-  }
-}
+          

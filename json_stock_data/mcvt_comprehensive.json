@@ -1,10 +1,9 @@
 {
   "ticker": "MCVT",
-  "timestamp": "2025-12-25T05:04:23.517167",
+  "timestamp": "2025-12-26T05:01:38.857981",
   "intraday_data": {
-    "status": "success",
-    "rows": 0,
-    "data": []
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -643,7 +642,8 @@
       ]
     },
     "recommendations": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   },
   "holders_data": {

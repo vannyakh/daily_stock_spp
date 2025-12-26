@@ -1,9 +1,18 @@
 {
   "ticker": "FXC",
-  "timestamp": "2025-12-25T05:12:27.862534",
+  "timestamp": "2025-12-26T05:08:52.538338",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 1,
+    "data": [
+      {
+        "Close KTN": 26.700000762939453,
+        "High KTN": 26.700000762939453,
+        "Low KTN": 26.700000762939453,
+        "Open KTN": 26.700000762939453,
+        "Volume KTN": 0
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -154,15 +163,16 @@
       ]
     },
     "recommendations": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   },
   "holders_data": {
     "major_holders": {
-      "status": "no_data"
+      "status": "error"
     },
     "institutional_holders": {
-      "status": "no_data"
+      "status": "error"
     }
   },
   "earnings_data": {

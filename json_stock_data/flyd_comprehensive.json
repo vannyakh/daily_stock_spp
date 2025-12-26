@@ -1,65 +1,16 @@
 {
   "ticker": "FLYD",
-  "timestamp": "2025-12-25T05:29:45.255655",
+  "timestamp": "2025-12-26T05:24:26.310624",
   "intraday_data": {
     "status": "success",
-    "rows": 9,
+    "rows": 2,
     "data": [
-      {
-        "Close": 5.840000152587891,
-        "High": 5.840000152587891,
-        "Low": 5.840000152587891,
-        "Open": 5.840000152587891,
-        "Volume": 0
-      },
-      {
-        "Close": 5.829999923706055,
-        "High": 5.829999923706055,
-        "Low": 5.829999923706055,
-        "Open": 5.829999923706055,
-        "Volume": 100
-      },
-      {
-        "Close": 5.840000152587891,
-        "High": 5.840000152587891,
-        "Low": 5.840000152587891,
-        "Open": 5.840000152587891,
-        "Volume": 100
-      },
-      {
-        "Close": 5.849999904632568,
-        "High": 5.849999904632568,
-        "Low": 5.849999904632568,
-        "Open": 5.849999904632568,
-        "Volume": 185
-      },
-      {
-        "Close": 5.940000057220459,
-        "High": 5.940000057220459,
-        "Low": 5.940000057220459,
-        "Open": 5.940000057220459,
-        "Volume": 206
-      },
-      {
-        "Close": 5.920000076293945,
-        "High": 5.920000076293945,
-        "Low": 5.920000076293945,
-        "Open": 5.920000076293945,
-        "Volume": 135
-      },
-      {
-        "Close": 5.929999828338623,
-        "High": 5.929999828338623,
-        "Low": 5.929999828338623,
-        "Open": 5.929999828338623,
-        "Volume": 0
-      },
       {
         "Close": 5.889999866485596,
         "High": 5.889999866485596,
         "Low": 5.889999866485596,
         "Open": 5.889999866485596,
-        "Volume": 101
+        "Volume": 0
       },
       {
         "Close": 5.878600120544434,
@@ -94,15 +45,16 @@
       "status": "no_data"
     },
     "recommendations": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   },
   "holders_data": {
     "major_holders": {
-      "status": "no_data"
+      "status": "error"
     },
     "institutional_holders": {
-      "status": "no_data"
+      "status": "error"
     }
   },
   "earnings_data": {
@@ -112,7 +64,7 @@
     },
     "calendar": {
       "status": "error",
-      "message": "'dict' object has no attribute 'empty'"
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   }
 }

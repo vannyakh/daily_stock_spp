@@ -1,13 +1,57 @@
 {
   "ticker": "BBAAY",
-  "timestamp": "2025-12-25T05:26:47.563437",
+  "timestamp": "2025-12-26T05:21:58.084220",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 6,
+    "data": [
+      {
+        "Close RITM-PD": 24.690000534057617,
+        "High RITM-PD": 24.690000534057617,
+        "Low RITM-PD": 24.690000534057617,
+        "Open RITM-PD": 24.690000534057617,
+        "Volume RITM-PD": 0
+      },
+      {
+        "Close RITM-PD": 24.683000564575195,
+        "High RITM-PD": 24.683000564575195,
+        "Low RITM-PD": 24.683000564575195,
+        "Open RITM-PD": 24.683000564575195,
+        "Volume RITM-PD": 347
+      },
+      {
+        "Close RITM-PD": 24.709999084472656,
+        "High RITM-PD": 24.709999084472656,
+        "Low RITM-PD": 24.709999084472656,
+        "Open RITM-PD": 24.709999084472656,
+        "Volume RITM-PD": 296
+      },
+      {
+        "Close RITM-PD": 24.67009925842285,
+        "High RITM-PD": 24.67009925842285,
+        "Low RITM-PD": 24.670000076293945,
+        "Open RITM-PD": 24.670000076293945,
+        "Volume RITM-PD": 1297
+      },
+      {
+        "Close RITM-PD": 24.68000030517578,
+        "High RITM-PD": 24.68000030517578,
+        "Low RITM-PD": 24.68000030517578,
+        "Open RITM-PD": 24.68000030517578,
+        "Volume RITM-PD": 601
+      },
+      {
+        "Close RITM-PD": 24.68000030517578,
+        "High RITM-PD": 24.68000030517578,
+        "Low RITM-PD": 24.68000030517578,
+        "Open RITM-PD": 24.68000030517578,
+        "Volume RITM-PD": 0
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
-    "message": "Too Many Requests. Rate limited. Try after a while."
+    "message": "argument of type 'NoneType' is not iterable"
   },
   "financials": {
     "income_statement": {
@@ -29,8 +73,7 @@
       "status": "no_data"
     },
     "recommendations": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
+      "status": "no_data"
     }
   },
   "holders_data": {

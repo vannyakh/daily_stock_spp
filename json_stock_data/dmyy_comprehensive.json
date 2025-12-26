@@ -1,60 +1,9 @@
 {
   "ticker": "DMYY",
-  "timestamp": "2025-12-25T05:00:59.967133",
+  "timestamp": "2025-12-26T04:58:43.640734",
   "intraday_data": {
-    "status": "success",
-    "rows": 7,
-    "data": [
-      {
-        "Close": 13.0,
-        "High": 13.0,
-        "Low": 13.0,
-        "Open": 13.0,
-        "Volume": 0
-      },
-      {
-        "Close": 12.649999618530273,
-        "High": 12.649999618530273,
-        "Low": 12.649999618530273,
-        "Open": 12.649999618530273,
-        "Volume": 300
-      },
-      {
-        "Close": 12.979999542236328,
-        "High": 12.979999542236328,
-        "Low": 12.979999542236328,
-        "Open": 12.979999542236328,
-        "Volume": 39
-      },
-      {
-        "Close": 12.899999618530273,
-        "High": 12.899999618530273,
-        "Low": 12.899999618530273,
-        "Open": 12.899999618530273,
-        "Volume": 50
-      },
-      {
-        "Close": 13.0,
-        "High": 13.0,
-        "Low": 12.979999542236328,
-        "Open": 12.979999542236328,
-        "Volume": 569
-      },
-      {
-        "Close": 13.0,
-        "High": 13.0,
-        "Low": 13.0,
-        "Open": 13.0,
-        "Volume": 100
-      },
-      {
-        "Close": 12.539999961853027,
-        "High": 12.539999961853027,
-        "Low": 12.539999961853027,
-        "Open": 12.539999961853027,
-        "Volume": 1
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -144,7 +93,8 @@
       ]
     },
     "recommendations": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   },
   "holders_data": {

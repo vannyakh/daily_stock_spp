@@ -1,25 +1,9 @@
 {
   "ticker": "AILLN",
-  "timestamp": "2025-12-25T05:16:42.730871",
+  "timestamp": "2025-12-26T05:12:47.460636",
   "intraday_data": {
-    "status": "success",
-    "rows": 2,
-    "data": [
-      {
-        "Close AILLM": 81.0199966430664,
-        "High AILLM": 81.0199966430664,
-        "Low AILLM": 81.0199966430664,
-        "Open AILLM": 81.0199966430664,
-        "Volume AILLM": 0
-      },
-      {
-        "Close AILLM": 79.2699966430664,
-        "High AILLM": 79.2699966430664,
-        "Low AILLM": 79.2699966430664,
-        "Open AILLM": 79.2699966430664,
-        "Volume AILLM": 150
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -45,7 +29,8 @@
       "status": "no_data"
     },
     "recommendations": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   },
   "holders_data": {

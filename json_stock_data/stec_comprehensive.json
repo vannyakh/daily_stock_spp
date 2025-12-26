@@ -1,6 +1,6 @@
 {
   "ticker": "STEC",
-  "timestamp": "2025-12-25T05:03:52.005494",
+  "timestamp": "2025-12-26T05:01:12.109193",
   "intraday_data": {
     "status": "no_data",
     "message": "No intraday data available"
@@ -74,47 +74,16 @@
       ]
     },
     "recommendations": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   },
   "holders_data": {
     "major_holders": {
-      "status": "success",
-      "data": [
-        {
-          "Value": 0.0
-        },
-        {
-          "Value": 3.0000001e-05
-        },
-        {
-          "Value": 3.0000001e-05
-        },
-        {
-          "Value": 2.0
-        }
-      ]
+      "status": "error"
     },
     "institutional_holders": {
-      "status": "success",
-      "data": [
-        {
-          "Date Reported": "2025-09-30 00:00:00",
-          "Holder": "Rhumbline Advisers",
-          "pctHeld": 0.0,
-          "Shares": 2410,
-          "Value": 3687,
-          "pctChange": 0.0
-        },
-        {
-          "Date Reported": "2025-09-30 00:00:00",
-          "Holder": "Clear Street Group Inc.",
-          "pctHeld": 0.0,
-          "Shares": 100,
-          "Value": 152,
-          "pctChange": 1.0
-        }
-      ]
+      "status": "error"
     }
   },
   "earnings_data": {
@@ -124,7 +93,7 @@
     },
     "calendar": {
       "status": "error",
-      "message": "'dict' object has no attribute 'empty'"
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   }
 }

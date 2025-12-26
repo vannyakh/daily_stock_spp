@@ -1,16 +1,21 @@
 {
   "ticker": "QNTO",
-  "timestamp": "2025-12-25T05:02:50.293226",
+  "timestamp": "2025-12-26T05:00:25.017810",
   "intraday_data": {
     "status": "success",
     "rows": 1,
     "data": [
       {
-        "Close CNFN": 1.5800000429153442,
-        "High CNFN": 1.5800000429153442,
-        "Low CNFN": 1.5800000429153442,
-        "Open CNFN": 1.5800000429153442,
-        "Volume CNFN": 0
+        "Close": 11.5,
+        "Close WKSP": 2.365000009536743,
+        "High": 11.5,
+        "High WKSP": 2.365000009536743,
+        "Low": 11.5,
+        "Low WKSP": 2.365000009536743,
+        "Open": 11.5,
+        "Open WKSP": 2.365000009536743,
+        "Volume": 100.0,
+        "Volume WKSP": 557.0
       }
     ]
   },
@@ -35,7 +40,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

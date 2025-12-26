@@ -1,60 +1,9 @@
 {
   "ticker": "AAGR",
-  "timestamp": "2025-12-25T05:11:33.095229",
+  "timestamp": "2025-12-26T05:08:00.344209",
   "intraday_data": {
-    "status": "success",
-    "rows": 7,
-    "data": [
-      {
-        "Close NSTM": 0.024000000208616257,
-        "High NSTM": 0.024000000208616257,
-        "Low NSTM": 0.024000000208616257,
-        "Open NSTM": 0.024000000208616257,
-        "Volume NSTM": 0
-      },
-      {
-        "Close NSTM": 0.017999999225139618,
-        "High NSTM": 0.017999999225139618,
-        "Low NSTM": 0.017999999225139618,
-        "Open NSTM": 0.017999999225139618,
-        "Volume NSTM": 20000
-      },
-      {
-        "Close NSTM": 0.012500000186264515,
-        "High NSTM": 0.014999999664723873,
-        "Low NSTM": 0.012500000186264515,
-        "Open NSTM": 0.014999999664723873,
-        "Volume NSTM": 109895
-      },
-      {
-        "Close NSTM": 0.012000000104308128,
-        "High NSTM": 0.012000000104308128,
-        "Low NSTM": 0.012000000104308128,
-        "Open NSTM": 0.012000000104308128,
-        "Volume NSTM": 30000
-      },
-      {
-        "Close NSTM": 0.009999999776482582,
-        "High NSTM": 0.009999999776482582,
-        "Low NSTM": 0.009999999776482582,
-        "Open NSTM": 0.009999999776482582,
-        "Volume NSTM": 15000
-      },
-      {
-        "Close NSTM": 0.009999999776482582,
-        "High NSTM": 0.009999999776482582,
-        "Low NSTM": 0.009999999776482582,
-        "Open NSTM": 0.009999999776482582,
-        "Volume NSTM": 12500
-      },
-      {
-        "Close NSTM": 0.014999999664723873,
-        "High NSTM": 0.014999999664723873,
-        "Low NSTM": 0.014999999664723873,
-        "Open NSTM": 0.014999999664723873,
-        "Volume NSTM": 29250
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -65,41 +14,13 @@
       "status": "no_data"
     },
     "balance_sheet": {
-      "status": "no_data"
-    },
-    "cash_flow": {
-      "status": "no_data"
-    }
-  },
-  "options_data": {
-    "status": "error",
-    "error_message": "Too Many Requests. Rate limited. Try after a while."
-  },
-  "news_data": {
-    "news": {
-      "status": "no_data"
-    },
-    "recommendations": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
-    }
-  },
-  "holders_data": {
-    "major_holders": {
-      "status": "error"
-    },
-    "institutional_holders": {
-      "status": "error"
-    }
-  },
-  "earnings_data": {
-    "earnings": {
-      "status": "error",
-      "message": "'NoneType' object has no attribute 'empty'"
-    },
-    "calendar": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
-    }
-  }
-}
+      "status": "success",
+      "rows": 63,
+      "columns": [
+        "2023-12-31 00:00:00",
+        "2022-12-31 00:00:00",
+        "2021-12-31 00:00:00"
+      ],
+      "data": [
+        {
+          

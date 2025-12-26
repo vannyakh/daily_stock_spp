@@ -1,34 +1,643 @@
 {
   "ticker": "FNMAO",
-  "timestamp": "2025-12-25T05:16:53.151479",
+  "timestamp": "2025-12-26T05:12:55.062009",
   "intraday_data": {
-    "status": "success",
-    "rows": 1,
-    "data": [
-      {
-        "Close FNMAG": 26.75,
-        "High FNMAG": 26.75,
-        "Low FNMAG": 26.75,
-        "Open FNMAG": 26.75,
-        "Volume FNMAG": 0
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
-    "message": "argument of type 'NoneType' is not iterable"
+    "message": "Too Many Requests. Rate limited. Try after a while."
   },
   "financials": {
     "income_statement": {
+      "status": "no_data"
+    },
+    "balance_sheet": {
+      "status": "no_data"
+    },
+    "cash_flow": {
+      "status": "no_data"
+    }
+  },
+  "options_data": {
+    "status": "error",
+    "error_message": "Too Many Requests. Rate limited. Try after a while."
+  },
+  "news_data": {
+    "news": {
       "status": "success",
-      "rows": 25,
-      "columns": [
-        "2024-12-31 00:00:00",
-        "2023-12-31 00:00:00",
-        "2022-12-31 00:00:00",
-        "2021-12-31 00:00:00",
-        "2020-12-31 00:00:00"
-      ],
+      "count": 10,
       "data": [
         {
-          
+          "id": "03aa5ac7-75d3-3de0-ae5d-1258ee583c41",
+          "content": {
+            "id": "03aa5ac7-75d3-3de0-ae5d-1258ee583c41",
+            "contentType": "STORY",
+            "title": "Did Senate Probe of Climate Risk Ratings Just Shift Fannie Mae\u2019s (FNMA) Investment Narrative?",
+            "description": "",
+            "summary": "Earlier this week, three US senators opened an inquiry into whether Fannie Mae\u2019s continued reliance on Demotech insurance ratings may expose it to greater climate-related insurer failure risks, demanding detailed disclosures on mortgages backed by Demotech-rated insurers. By signaling concern over how insurer strength is assessed, the inquiry highlights that climate risk is increasingly being treated as a core element of mortgage credit quality rather than a peripheral issue. We will now...",
+            "pubDate": "2025-12-25T09:09:13Z",
+            "displayTime": "2025-12-25T09:09:13Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": {
+              "originalUrl": "https://media.zenfs.com/en/simply_wall_st__316/0107d648e19bcd04135981178abf00cb",
+              "originalWidth": 1194,
+              "originalHeight": 432,
+              "caption": "",
+              "resolutions": [
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/HbBcRqmcQDbUzr9ugTsjEA--~B/aD00MzI7dz0xMTk0O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/simply_wall_st__316/0107d648e19bcd04135981178abf00cb",
+                  "width": 1194,
+                  "height": 432,
+                  "tag": "original"
+                },
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/G9I8pUAqTkmKu8FNqdcsBg--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/simply_wall_st__316/0107d648e19bcd04135981178abf00cb",
+                  "width": 170,
+                  "height": 128,
+                  "tag": "170x128"
+                }
+              ]
+            },
+            "provider": {
+              "displayName": "Simply Wall St.",
+              "url": "https://simplywall.st/"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/did-senate-probe-climate-risk-090913589.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/did-senate-probe-climate-risk-090913589.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        },
+        {
+          "id": "d7df4300-42b8-3f76-96cd-8e4d54c6be86",
+          "content": {
+            "id": "d7df4300-42b8-3f76-96cd-8e4d54c6be86",
+            "contentType": "STORY",
+            "title": "US Lawmakers Launch Probe Into Key Insurance Rating Firm in Florida",
+            "description": "",
+            "summary": "In a letter\u00a0sent Tuesday to Fannie Mae acting Chief Executive Officer Peter Akwaboah and Freddie Mac\u00a0CEO Kenny Smith, the three Democratic lawmakers questioned why the government-backed mortgage giants continue to accept Demotech ratings as sufficient proof of insurer financial strength, despite\u00a0evidence\u00a0that insurers carrying those ratings have failed at unusually high rates.  In a separate letter, they pressed Demotech on its own finances and why, in 2022, it suddenly\u00a0threatened to downgrade\u00a0the ratings of up to 27 insurance companies.",
+            "pubDate": "2025-12-23T17:41:56Z",
+            "displayTime": "2025-12-23T17:41:56Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": {
+              "originalUrl": "https://media.zenfs.com/en/bloomberg_holding_pen_162/a290dbfb9d96b50386126c602d1e7254",
+              "originalWidth": 2000,
+              "originalHeight": 1333,
+              "caption": "",
+              "resolutions": [
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/CRHj_vzlPnAOj99hlBOdpg--~B/aD0xMzMzO3c9MjAwMDthcHBpZD15dGFjaHlvbg--/https://media.zenfs.com/en/bloomberg_holding_pen_162/a290dbfb9d96b50386126c602d1e7254",
+                  "width": 2000,
+                  "height": 1333,
+                  "tag": "original"
+                },
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/kriVob.syuSC0dQLrX0kJg--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/bloomberg_holding_pen_162/a290dbfb9d96b50386126c602d1e7254",
+                  "width": 170,
+                  "height": 128,
+                  "tag": "170x128"
+                }
+              ]
+            },
+            "provider": {
+              "displayName": "Bloomberg",
+              "url": "https://www.bloomberg.com/company"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/us-lawmakers-launch-probe-key-174156666.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/us-lawmakers-launch-probe-key-174156666.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        },
+        {
+          "id": "fff86c45-5214-3223-8093-450e9c9900cc",
+          "content": {
+            "id": "fff86c45-5214-3223-8093-450e9c9900cc",
+            "contentType": "STORY",
+            "title": "Women\u2019s steady climb to CEO jobs and board seats is stalling amid a perfect storm of politics, economic uncertainty, and changing management tracks",
+            "description": "",
+            "summary": "Women are at risk of losing ground in their hard-earned representation in corporate America.",
+            "pubDate": "2025-12-23T16:10:13Z",
+            "displayTime": "2025-12-23T16:10:13Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": {
+              "originalUrl": "https://media.zenfs.com/en/fortune_175/3cc2dd3101058ee0c76d6126ff384f7e",
+              "originalWidth": 2048,
+              "originalHeight": 1365,
+              "caption": "Women's rise to CEO jobs and board seats is stalling thanks to a complex combination of political, economic, and business trends.",
+              "resolutions": [
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/ycrb2K9VgHpQc0OjibySXA--~B/aD0xMzY1O3c9MjA0ODthcHBpZD15dGFjaHlvbg--/https://media.zenfs.com/en/fortune_175/3cc2dd3101058ee0c76d6126ff384f7e",
+                  "width": 2048,
+                  "height": 1365,
+                  "tag": "original"
+                },
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/NPIPyU5gUHEBo3MNz7iViA--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/fortune_175/3cc2dd3101058ee0c76d6126ff384f7e",
+                  "width": 170,
+                  "height": 128,
+                  "tag": "170x128"
+                }
+              ]
+            },
+            "provider": {
+              "displayName": "Fortune",
+              "url": "http://fortune.com/"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/women-steady-climb-ceo-jobs-161013690.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/women-steady-climb-ceo-jobs-161013690.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        },
+        {
+          "id": "e4f4e070-c66d-398b-b7a3-1b2ed91478ec",
+          "content": {
+            "id": "e4f4e070-c66d-398b-b7a3-1b2ed91478ec",
+            "contentType": "STORY",
+            "title": "This Real Estate Stock Is Yielding 12% (Legally)",
+            "description": "",
+            "summary": "This REIT offers a really high dividend yield.",
+            "pubDate": "2025-12-23T07:35:00Z",
+            "displayTime": "2025-12-23T07:35:00Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": {
+              "originalUrl": "https://media.zenfs.com/en/motleyfool.com/7eea84b53394673bd475767370b7e5d9",
+              "originalWidth": 1400,
+              "originalHeight": 1001,
+              "caption": "A person in a suit holding out a fan of cash.",
+              "resolutions": [
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/E.8_tE8ybyzHWDsswfT7Fg--~B/aD0xMDAxO3c9MTQwMDthcHBpZD15dGFjaHlvbg--/https://media.zenfs.com/en/motleyfool.com/7eea84b53394673bd475767370b7e5d9",
+                  "width": 1400,
+                  "height": 1001,
+                  "tag": "original"
+                },
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/PdopSh6wq4djw6rFWVoIig--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/motleyfool.com/7eea84b53394673bd475767370b7e5d9",
+                  "width": 170,
+                  "height": 128,
+                  "tag": "170x128"
+                }
+              ]
+            },
+            "provider": {
+              "displayName": "Motley Fool",
+              "url": "http://www.fool.com/"
+            },
+            "canonicalUrl": {
+              "url": "https://www.fool.com/investing/2025/12/23/this-real-estate-stock-is-yielding-12-legally/",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/real-estate-stock-yielding-12-073500581.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        },
+        {
+          "id": "0f623e39-d438-34b8-a9c8-38017bc22852",
+          "content": {
+            "id": "0f623e39-d438-34b8-a9c8-38017bc22852",
+            "contentType": "STORY",
+            "title": "Does Fannie Mae\u2019s 2700% Surge Still Leave Room for Opportunity in 2025?",
+            "description": "",
+            "summary": "Wondering if Federal National Mortgage Association is still a bargain after that huge run up, or if the easy money has already been made? This article will walk you through what the current price really implies. After climbing 299.3% over the past year and a massive 2716.7% over three years, the stock has cooled slightly recently, with a 5.6% pullback over the last month and a modest 0.4% gain in the past week. Those moves have come against a backdrop of ongoing debate around government...",
+            "pubDate": "2025-12-20T07:07:06Z",
+            "displayTime": "2025-12-20T07:07:06Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": {
+              "originalUrl": "https://media.zenfs.com/en/simply_wall_st__316/0107d648e19bcd04135981178abf00cb",
+              "originalWidth": 1194,
+              "originalHeight": 432,
+              "caption": "",
+              "resolutions": [
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/HbBcRqmcQDbUzr9ugTsjEA--~B/aD00MzI7dz0xMTk0O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/simply_wall_st__316/0107d648e19bcd04135981178abf00cb",
+                  "width": 1194,
+                  "height": 432,
+                  "tag": "original"
+                },
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/G9I8pUAqTkmKu8FNqdcsBg--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/simply_wall_st__316/0107d648e19bcd04135981178abf00cb",
+                  "width": 170,
+                  "height": 128,
+                  "tag": "170x128"
+                }
+              ]
+            },
+            "provider": {
+              "displayName": "Simply Wall St.",
+              "url": "https://simplywall.st/"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/does-fannie-mae-2700-surge-070706270.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/does-fannie-mae-2700-surge-070706270.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        },
+        {
+          "id": "8bdfe37d-bcb3-33d1-b85f-3acd93386c68",
+          "content": {
+            "id": "8bdfe37d-bcb3-33d1-b85f-3acd93386c68",
+            "contentType": "STORY",
+            "title": "Jefferies initiates mortgage finance sector, flags scale as key to recovery",
+            "description": "",
+            "summary": "Investing.com -- Jefferies on Friday initiated coverage of the U.S. mortgage finance sector, saying scale will be a key differentiator as mortgage activity moves toward normalization over the next several years.",
+            "pubDate": "2025-12-19T12:38:28Z",
+            "displayTime": "2025-12-19T12:38:28Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": null,
+            "provider": {
+              "displayName": "Investing.com",
+              "url": "https://www.investing.com/"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/jefferies-initiates-mortgage-finance-sector-123828301.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/jefferies-initiates-mortgage-finance-sector-123828301.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        },
+        {
+          "id": "bb9975ce-8c64-396a-b248-b665799f7a7a",
+          "content": {
+            "id": "bb9975ce-8c64-396a-b248-b665799f7a7a",
+            "contentType": "STORY",
+            "title": "Fannie, Freddie Frenzy Faces Brutal Reality Check",
+            "description": "",
+            "summary": "Trump's IPO dream could stall until 2027--and retail traders may be the last to see it coming.",
+            "pubDate": "2025-12-18T17:02:03Z",
+            "displayTime": "2025-12-18T17:02:03Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": {
+              "originalUrl": "https://media.zenfs.com/en/us.finance.gurufocus/3f53395fcea5549a1ffedf08443bb7ee",
+              "originalWidth": 400,
+              "originalHeight": 400,
+              "caption": "",
+              "resolutions": [
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/IDdNNE4ThTbMTkIOHM6iug--~B/aD00MDA7dz00MDA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/us.finance.gurufocus/3f53395fcea5549a1ffedf08443bb7ee",
+                  "width": 400,
+                  "height": 400,
+                  "tag": "original"
+                },
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/kuEBfUvm4qx7N069inECsw--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/us.finance.gurufocus/3f53395fcea5549a1ffedf08443bb7ee",
+                  "width": 170,
+                  "height": 128,
+                  "tag": "170x128"
+                }
+              ]
+            },
+            "provider": {
+              "displayName": "GuruFocus.com",
+              "url": "http://www.gurufocus.com/"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/fannie-freddie-frenzy-faces-brutal-170203281.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/fannie-freddie-frenzy-faces-brutal-170203281.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        },
+        {
+          "id": "c826882c-b1e8-395c-879c-f384327aa13f",
+          "content": {
+            "id": "c826882c-b1e8-395c-879c-f384327aa13f",
+            "contentType": "STORY",
+            "title": "Wall Street Gets a Taste of Blockbuster Stock-Market Debuts Ahead",
+            "description": "",
+            "summary": "Wall Street is getting a glimpse of what could be the biggest year ever for IPOs in the U.S.  After four years of choppiness in the market for new stock offerings, bankers and investors are bracing for a slate of blockbuster listings in 2026\u2014and wondering if the market can handle the torrent.  Medline\u2019s  stock market debut Wednesday could offer an early gauge of whether investors will be up for it.",
+            "pubDate": "2025-12-17T21:22:00Z",
+            "displayTime": "2025-12-17T21:22:00Z",
+            "isHosted": false,
+            "bypassModal": false,
+            "previewUrl": "https://finance.yahoo.com/m/c826882c-b1e8-395c-879c-f384327aa13f/wall-street-gets-a-taste-of.html",
+            "thumbnail": {
+              "originalUrl": "https://media.zenfs.com/en/wsj.com/9934d823e9437aeef32492fc3b2fdad2",
+              "originalWidth": 1280,
+              "originalHeight": 640,
+              "caption": "",
+              "resolutions": [
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/.gi_nYSmHdPTlgK1RQ62VA--~B/aD02NDA7dz0xMjgwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/wsj.com/9934d823e9437aeef32492fc3b2fdad2",
+                  "width": 1280,
+                  "height": 640,
+                  "tag": "original"
+                },
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/sIbD3IapVo_jXCpgdHTsKA--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/wsj.com/9934d823e9437aeef32492fc3b2fdad2",
+                  "width": 170,
+                  "height": 128,
+                  "tag": "170x128"
+                }
+              ]
+            },
+            "provider": {
+              "displayName": "The Wall Street Journal",
+              "url": "http://www.wsj.com/"
+            },
+            "canonicalUrl": {
+              "url": "https://www.wsj.com/finance/stocks/ipos-2026-openai-spacex-freddie-fannie-e9085e32?siteid=yhoof2&yptr=yahoo",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": null,
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        },
+        {
+          "id": "29571a29-d83f-3709-9887-e1c2ba93eae3",
+          "content": {
+            "id": "29571a29-d83f-3709-9887-e1c2ba93eae3",
+            "contentType": "STORY",
+            "title": "'Big Short' investor Michael Burry has broken his silence. Here's what he's revealed in 7 weeks of speaking freely.",
+            "description": "",
+            "summary": "Michael Burry of \"The Big Short\" fame has sounded the alarm on an AI bubble, dismissed bitcoin as \"worthless,\" and revisited his GameStop bet.",
+            "pubDate": "2025-12-17T11:07:04Z",
+            "displayTime": "2025-12-17T11:07:04Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": {
+              "originalUrl": "https://media.zenfs.com/en/business_insider_articles_888/1db065cec379719b296cf63ed5edebb3",
+              "originalWidth": 2000,
+              "originalHeight": 1500,
+              "caption": "Photo collage featuring Michael Burry",
+              "resolutions": [
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/_prdmM8FyGpjxrHXft6gzw--~B/aD0xNTAwO3c9MjAwMDthcHBpZD15dGFjaHlvbg--/https://media.zenfs.com/en/business_insider_articles_888/1db065cec379719b296cf63ed5edebb3",
+                  "width": 2000,
+                  "height": 1500,
+                  "tag": "original"
+                },
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/0wUtxaJpgtQe6qk8WDW2Yw--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/business_insider_articles_888/1db065cec379719b296cf63ed5edebb3",
+                  "width": 170,
+                  "height": 128,
+                  "tag": "170x128"
+                }
+              ]
+            },
+            "provider": {
+              "displayName": "Business Insider",
+              "url": "https://www.businessinsider.com/"
+            },
+            "canonicalUrl": {
+              "url": "https://www.businessinsider.com/big-short-michael-burry-substack-ai-bubble-stock-picks-bitcoin-2025-12",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/big-short-investor-michael-burry-110704814.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        },
+        {
+          "id": "4fcbafc3-9b88-35c7-a780-4c62c458a9c4",
+          "content": {
+            "id": "4fcbafc3-9b88-35c7-a780-4c62c458a9c4",
+            "contentType": "STORY",
+            "title": "Fannie Mae (FNMA): Valuation Check as Conservatorship Exit Speculation and MBS Expansion Gain Traction",
+            "description": "",
+            "summary": "Federal National Mortgage Association (FNMA) is back in focus as investors parse fresh hints that Fannie Mae and its sibling Freddie Mac could be edging closer to an eventual exit from government conservatorship. See our latest analysis for Federal National Mortgage Association. Those moves sit against a volatile tape, with the latest share price at $10.85, a roughly 18.8 percent 30 day share price return but a 22.8 percent 90 day pullback. The 1 year total shareholder return above 300...",
+            "pubDate": "2025-12-17T11:06:41Z",
+            "displayTime": "2025-12-17T11:06:41Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": {
+              "originalUrl": "https://media.zenfs.com/en/simply_wall_st__316/0107d648e19bcd04135981178abf00cb",
+              "originalWidth": 1194,
+              "originalHeight": 432,
+              "caption": "",
+              "resolutions": [
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/HbBcRqmcQDbUzr9ugTsjEA--~B/aD00MzI7dz0xMTk0O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/simply_wall_st__316/0107d648e19bcd04135981178abf00cb",
+                  "width": 1194,
+                  "height": 432,
+                  "tag": "original"
+                },
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/G9I8pUAqTkmKu8FNqdcsBg--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/simply_wall_st__316/0107d648e19bcd04135981178abf00cb",
+                  "width": 170,
+                  "height": 128,
+                  "tag": "170x128"
+                }
+              ]
+            },
+            "provider": {
+              "displayName": "Simply Wall St.",
+              "url": "https://simplywall.st/"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/fannie-mae-fnma-valuation-check-110641712.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/fannie-mae-fnma-valuation-check-110641712.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        }
+      ]
+    },
+    "recommendations": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  },
+  "holders_data": {
+    "major_holders": {
+      "status": "error"
+    },
+    "institutional_holders": {
+      "status": "error"
+    }
+  },
+  "earnings_data": {
+    "earnings": {
+      "status": "error",
+      "message": "'NoneType' object has no attribute 'empty'"
+    },
+    "calendar": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  }
+}

@@ -1,51 +1,30 @@
 {
   "ticker": "XHLD",
-  "timestamp": "2025-12-25T05:12:41.957102",
+  "timestamp": "2025-12-26T05:09:04.220221",
   "intraday_data": {
     "status": "success",
-    "rows": 6,
+    "rows": 3,
     "data": [
       {
-        "Close ATHR": 6.379899978637695,
-        "High ATHR": 6.379899978637695,
-        "Low ATHR": 6.070000171661377,
-        "Open ATHR": 6.070000171661377,
-        "Volume ATHR": 0
+        "Close LOKV": 10.279999732971191,
+        "High LOKV": 10.279999732971191,
+        "Low LOKV": 10.279999732971191,
+        "Open LOKV": 10.279999732971191,
+        "Volume LOKV": 0
       },
       {
-        "Close ATHR": 6.170000076293945,
-        "High ATHR": 6.170000076293945,
-        "Low ATHR": 6.170000076293945,
-        "Open ATHR": 6.170000076293945,
-        "Volume ATHR": 259
+        "Close LOKV": 10.280099868774414,
+        "High LOKV": 10.286800384521484,
+        "Low LOKV": 10.279999732971191,
+        "Open LOKV": 10.279999732971191,
+        "Volume LOKV": 300
       },
       {
-        "Close ATHR": 6.130000114440918,
-        "High ATHR": 6.130000114440918,
-        "Low ATHR": 6.130000114440918,
-        "Open ATHR": 6.130000114440918,
-        "Volume ATHR": 296
-      },
-      {
-        "Close ATHR": 6.079999923706055,
-        "High ATHR": 6.079999923706055,
-        "Low ATHR": 6.079999923706055,
-        "Open ATHR": 6.079999923706055,
-        "Volume ATHR": 458
-      },
-      {
-        "Close ATHR": 6.050000190734863,
-        "High ATHR": 6.050000190734863,
-        "Low ATHR": 6.050000190734863,
-        "Open ATHR": 6.050000190734863,
-        "Volume ATHR": 811
-      },
-      {
-        "Close ATHR": 6.074999809265137,
-        "High ATHR": 6.074999809265137,
-        "Low ATHR": 6.074999809265137,
-        "Open ATHR": 6.074999809265137,
-        "Volume ATHR": 621
+        "Close LOKV": 10.282500267028809,
+        "High LOKV": 10.282500267028809,
+        "Low LOKV": 10.282500267028809,
+        "Open LOKV": 10.282500267028809,
+        "Volume LOKV": 200
       }
     ]
   },
@@ -58,13 +37,86 @@
       "status": "no_data"
     },
     "balance_sheet": {
+      "status": "no_data"
+    },
+    "cash_flow": {
+      "status": "no_data"
+    }
+  },
+  "options_data": {
+    "status": "error",
+    "error_message": "Too Many Requests. Rate limited. Try after a while."
+  },
+  "news_data": {
+    "news": {
       "status": "success",
-      "rows": 51,
-      "columns": [
-        "2024-12-31 00:00:00",
-        "2023-12-31 00:00:00",
-        "2022-12-31 00:00:00"
-      ],
+      "count": 1,
       "data": [
         {
-          
+          "id": "5799c084-a25c-3aae-8c9e-744cbe0c35d9",
+          "content": {
+            "id": "5799c084-a25c-3aae-8c9e-744cbe0c35d9",
+            "contentType": "STORY",
+            "title": "BC-Most Active Stocks",
+            "description": "",
+            "summary": "EPWK Holdings Ltd. 21,353,609 0.0834",
+            "pubDate": "2025-10-28T14:30:18Z",
+            "displayTime": "2025-10-28T14:30:18Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": null,
+            "provider": {
+              "displayName": "Associated Press Finance",
+              "url": "http://www.ap.org/"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/bc-most-active-stocks-143018120.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/bc-most-active-stocks-143018120.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        }
+      ]
+    },
+    "recommendations": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  },
+  "holders_data": {
+    "major_holders": {
+      "status": "error"
+    },
+    "institutional_holders": {
+      "status": "error"
+    }
+  },
+  "earnings_data": {
+    "earnings": {
+      "status": "error",
+      "message": "'NoneType' object has no attribute 'empty'"
+    },
+    "calendar": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  }
+}

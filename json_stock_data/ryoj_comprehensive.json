@@ -1,9 +1,39 @@
 {
   "ticker": "RYOJ",
-  "timestamp": "2025-12-25T05:13:07.654700",
+  "timestamp": "2025-12-26T05:09:30.921374",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 4,
+    "data": [
+      {
+        "Close": 3.4800000190734863,
+        "High": 3.4800000190734863,
+        "Low": 3.4800000190734863,
+        "Open": 3.4800000190734863,
+        "Volume": 0
+      },
+      {
+        "Close": 3.4000000953674316,
+        "High": 3.4000000953674316,
+        "Low": 3.4000000953674316,
+        "Open": 3.4000000953674316,
+        "Volume": 0
+      },
+      {
+        "Close": 3.390000104904175,
+        "High": 3.390000104904175,
+        "Low": 3.390000104904175,
+        "Open": 3.390000104904175,
+        "Volume": 1758
+      },
+      {
+        "Close": 3.319999933242798,
+        "High": 3.319999933242798,
+        "Low": 3.319999933242798,
+        "Open": 3.319999933242798,
+        "Volume": 588
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -11,12 +41,89 @@
   },
   "financials": {
     "income_statement": {
+      "status": "no_data"
+    },
+    "balance_sheet": {
+      "status": "no_data"
+    },
+    "cash_flow": {
+      "status": "no_data"
+    }
+  },
+  "options_data": {
+    "status": "error",
+    "error_message": "Too Many Requests. Rate limited. Try after a while."
+  },
+  "news_data": {
+    "news": {
       "status": "success",
-      "rows": 45,
-      "columns": [
-        "2024-12-31 00:00:00",
-        "2023-12-31 00:00:00"
-      ],
+      "count": 1,
       "data": [
         {
-          
+          "id": "33577aa6-96ca-376f-aa47-5f9ee7b5a456",
+          "content": {
+            "id": "33577aa6-96ca-376f-aa47-5f9ee7b5a456",
+            "contentType": "STORY",
+            "title": "Investors Parse Earnings Reports With US Equity Futures Flat Tuesday Pre-Bell",
+            "description": "",
+            "summary": "US stock futures were little changed in Tuesday's premarket session as investors parsed pre-market e",
+            "pubDate": "2025-10-21T12:09:51Z",
+            "displayTime": "2025-10-21T12:09:51Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": null,
+            "provider": {
+              "displayName": "MT Newswires",
+              "url": "https://www.mtnewswires.com/"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/investors-parse-earnings-reports-us-120951187.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/investors-parse-earnings-reports-us-120951187.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": true,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        }
+      ]
+    },
+    "recommendations": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  },
+  "holders_data": {
+    "major_holders": {
+      "status": "error"
+    },
+    "institutional_holders": {
+      "status": "error"
+    }
+  },
+  "earnings_data": {
+    "earnings": {
+      "status": "error",
+      "message": "'NoneType' object has no attribute 'empty'"
+    },
+    "calendar": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  }
+}

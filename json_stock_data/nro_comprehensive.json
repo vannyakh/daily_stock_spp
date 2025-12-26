@@ -1,9 +1,18 @@
 {
   "ticker": "NRO",
-  "timestamp": "2025-12-25T04:53:37.678307",
+  "timestamp": "2025-12-26T04:52:07.182601",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 1,
+    "data": [
+      {
+        "Close RRACF": 11.890000343322754,
+        "High RRACF": 11.890000343322754,
+        "Low RRACF": 11.890000343322754,
+        "Open RRACF": 11.890000343322754,
+        "Volume RRACF": 0
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -29,7 +38,8 @@
       "status": "no_data"
     },
     "recommendations": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   },
   "holders_data": {

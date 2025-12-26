@@ -1,9 +1,39 @@
 {
   "ticker": "LIVE",
-  "timestamp": "2025-12-25T05:02:23.560523",
+  "timestamp": "2025-12-26T05:00:00.297347",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 4,
+    "data": [
+      {
+        "Close": 15.75,
+        "High": 15.75,
+        "Low": 15.75,
+        "Open": 15.75,
+        "Volume": 0
+      },
+      {
+        "Close": 16.0,
+        "High": 16.0,
+        "Low": 16.0,
+        "Open": 16.0,
+        "Volume": 513
+      },
+      {
+        "Close": 16.030000686645508,
+        "High": 16.030000686645508,
+        "Low": 16.030000686645508,
+        "Open": 16.030000686645508,
+        "Volume": 251
+      },
+      {
+        "Close": 16.25,
+        "High": 16.25,
+        "Low": 16.25,
+        "Open": 16.25,
+        "Volume": 423
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -402,7 +432,8 @@
       ]
     },
     "recommendations": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   },
   "holders_data": {
