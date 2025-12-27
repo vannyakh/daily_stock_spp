@@ -1,25 +1,9 @@
 {
   "ticker": "GAB-PG",
-  "timestamp": "2025-12-26T05:12:16.723879",
+  "timestamp": "2025-12-27T04:44:31.617857",
   "intraday_data": {
-    "status": "success",
-    "rows": 2,
-    "data": [
-      {
-        "Close": 20.850000381469727,
-        "High": 20.850000381469727,
-        "Low": 20.850000381469727,
-        "Open": 20.850000381469727,
-        "Volume": 0
-      },
-      {
-        "Close": 20.849899291992188,
-        "High": 20.849899291992188,
-        "Low": 20.849899291992188,
-        "Open": 20.849899291992188,
-        "Volume": 201
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -42,7 +26,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

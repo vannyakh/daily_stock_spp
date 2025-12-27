@@ -1,18 +1,9 @@
 {
   "ticker": "WELWF",
-  "timestamp": "2025-12-26T05:16:55.816073",
+  "timestamp": "2025-12-27T04:46:28.437210",
   "intraday_data": {
-    "status": "success",
-    "rows": 1,
-    "data": [
-      {
-        "Close KVACW": 0.050999999046325684,
-        "High KVACW": 0.050999999046325684,
-        "Low KVACW": 0.050999999046325684,
-        "Open KVACW": 0.050999999046325684,
-        "Volume KVACW": 0
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -35,7 +26,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

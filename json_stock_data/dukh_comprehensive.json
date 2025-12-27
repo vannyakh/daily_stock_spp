@@ -1,18 +1,9 @@
 {
   "ticker": "DUKH",
-  "timestamp": "2025-12-26T05:11:22.487286",
+  "timestamp": "2025-12-27T04:44:08.973449",
   "intraday_data": {
-    "status": "success",
-    "rows": 1,
-    "data": [
-      {
-        "Close": 24.385400772094727,
-        "High": 24.409900665283203,
-        "Low": 24.385400772094727,
-        "Open": 24.409900665283203,
-        "Volume": 0
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -35,7 +26,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

@@ -1,46 +1,9 @@
 {
   "ticker": "SEAL-PB",
-  "timestamp": "2025-12-26T05:21:42.983546",
+  "timestamp": "2025-12-27T04:48:33.540792",
   "intraday_data": {
-    "status": "success",
-    "rows": 5,
-    "data": [
-      {
-        "Close": 25.840599060058594,
-        "High": 25.840599060058594,
-        "Low": 25.840599060058594,
-        "Open": 25.840599060058594,
-        "Volume": 0
-      },
-      {
-        "Close": 25.799999237060547,
-        "High": 25.829999923706055,
-        "Low": 25.799999237060547,
-        "Open": 25.829999923706055,
-        "Volume": 488
-      },
-      {
-        "Close": 25.799999237060547,
-        "High": 25.799999237060547,
-        "Low": 25.799999237060547,
-        "Open": 25.799999237060547,
-        "Volume": 550
-      },
-      {
-        "Close": 25.825000762939453,
-        "High": 25.825000762939453,
-        "Low": 25.825000762939453,
-        "Open": 25.825000762939453,
-        "Volume": 315
-      },
-      {
-        "Close": 25.82309913635254,
-        "High": 25.82309913635254,
-        "Low": 25.82309913635254,
-        "Open": 25.82309913635254,
-        "Volume": 0
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -63,7 +26,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

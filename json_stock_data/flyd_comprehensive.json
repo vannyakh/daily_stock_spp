@@ -1,25 +1,9 @@
 {
   "ticker": "FLYD",
-  "timestamp": "2025-12-26T05:24:26.310624",
+  "timestamp": "2025-12-27T04:49:46.827563",
   "intraday_data": {
-    "status": "success",
-    "rows": 2,
-    "data": [
-      {
-        "Close": 5.889999866485596,
-        "High": 5.889999866485596,
-        "Low": 5.889999866485596,
-        "Open": 5.889999866485596,
-        "Volume": 0
-      },
-      {
-        "Close": 5.878600120544434,
-        "High": 5.880000114440918,
-        "Low": 5.878600120544434,
-        "Open": 5.880000114440918,
-        "Volume": 223
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -42,7 +26,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

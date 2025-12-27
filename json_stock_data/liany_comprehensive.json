@@ -1,9 +1,18 @@
 {
   "ticker": "LIANY",
-  "timestamp": "2025-12-26T05:19:24.672308",
+  "timestamp": "2025-12-27T04:47:33.968333",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 1,
+    "data": [
+      {
+        "Close": 0.09749999642372131,
+        "High": 0.09749999642372131,
+        "Low": 0.09749999642372131,
+        "Open": 0.09749999642372131,
+        "Volume": 0
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -26,7 +35,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

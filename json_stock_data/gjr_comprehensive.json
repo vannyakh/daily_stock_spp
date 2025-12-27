@@ -1,67 +1,9 @@
 {
   "ticker": "GJR",
-  "timestamp": "2025-12-26T05:09:57.564117",
+  "timestamp": "2025-12-27T04:43:32.381185",
   "intraday_data": {
-    "status": "success",
-    "rows": 8,
-    "data": [
-      {
-        "Close CGEH": 5.119999885559082,
-        "High CGEH": 5.239999771118164,
-        "Low CGEH": 5.019999980926514,
-        "Open CGEH": 5.119999885559082,
-        "Volume CGEH": 0
-      },
-      {
-        "Close CGEH": 5.119999885559082,
-        "High CGEH": 5.119999885559082,
-        "Low CGEH": 5.119999885559082,
-        "Open CGEH": 5.119999885559082,
-        "Volume CGEH": 724
-      },
-      {
-        "Close CGEH": 5.099999904632568,
-        "High CGEH": 5.099999904632568,
-        "Low CGEH": 5.079999923706055,
-        "Open CGEH": 5.079999923706055,
-        "Volume CGEH": 3756
-      },
-      {
-        "Close CGEH": 5.190000057220459,
-        "High CGEH": 5.190000057220459,
-        "Low CGEH": 5.099999904632568,
-        "Open CGEH": 5.099999904632568,
-        "Volume CGEH": 1103
-      },
-      {
-        "Close CGEH": 5.190000057220459,
-        "High CGEH": 5.190000057220459,
-        "Low CGEH": 5.190000057220459,
-        "Open CGEH": 5.190000057220459,
-        "Volume CGEH": 309
-      },
-      {
-        "Close CGEH": 5.150000095367432,
-        "High CGEH": 5.150000095367432,
-        "Low CGEH": 5.150000095367432,
-        "Open CGEH": 5.150000095367432,
-        "Volume CGEH": 4825
-      },
-      {
-        "Close CGEH": 5.099999904632568,
-        "High CGEH": 5.099999904632568,
-        "Low CGEH": 5.099999904632568,
-        "Open CGEH": 5.099999904632568,
-        "Volume CGEH": 190
-      },
-      {
-        "Close CGEH": 5.150000095367432,
-        "High CGEH": 5.150000095367432,
-        "Low CGEH": 5.150000095367432,
-        "Open CGEH": 5.150000095367432,
-        "Volume CGEH": 750
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -84,7 +26,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

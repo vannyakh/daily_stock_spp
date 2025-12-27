@@ -1,9 +1,18 @@
 {
   "ticker": "KACRF",
-  "timestamp": "2025-12-26T05:20:26.022266",
+  "timestamp": "2025-12-27T04:48:01.668242",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 1,
+    "data": [
+      {
+        "Close CINGW": 0.058800000697374344,
+        "High CINGW": 0.058800000697374344,
+        "Low CINGW": 0.058800000697374344,
+        "Open CINGW": 0.058800000697374344,
+        "Volume CINGW": 0
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -26,7 +35,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

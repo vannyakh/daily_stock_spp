@@ -1,9 +1,18 @@
 {
   "ticker": "ESSI",
-  "timestamp": "2025-12-26T05:15:38.284011",
+  "timestamp": "2025-12-27T04:45:57.903774",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 1,
+    "data": [
+      {
+        "Close": 0.011099999770522118,
+        "High": 0.011099999770522118,
+        "Low": 0.011099999770522118,
+        "Open": 0.011099999770522118,
+        "Volume": 0
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -26,7 +35,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

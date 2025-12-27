@@ -1,9 +1,23 @@
 {
   "ticker": "TRINI",
-  "timestamp": "2025-12-26T05:18:10.401248",
+  "timestamp": "2025-12-27T04:46:59.263660",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 1,
+    "data": [
+      {
+        "Close NUKKW": 0.13600000739097595,
+        "Close": 25.359899520874023,
+        "High NUKKW": 0.13600000739097595,
+        "High": 25.359899520874023,
+        "Low NUKKW": 0.13600000739097595,
+        "Low": 25.359899520874023,
+        "Open NUKKW": 0.13600000739097595,
+        "Open": 25.359899520874023,
+        "Volume NUKKW": 300.0,
+        "Volume": 0.0
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -26,7 +40,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

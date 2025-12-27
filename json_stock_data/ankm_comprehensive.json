@@ -1,9 +1,18 @@
 {
   "ticker": "ANKM",
-  "timestamp": "2025-12-26T05:19:20.847199",
+  "timestamp": "2025-12-27T04:47:32.740925",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 1,
+    "data": [
+      {
+        "Close PVOZ": 87.0,
+        "High PVOZ": 87.0,
+        "Low PVOZ": 87.0,
+        "Open PVOZ": 87.0,
+        "Volume PVOZ": 100
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -26,7 +35,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

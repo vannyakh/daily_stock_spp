@@ -1,9 +1,32 @@
 {
   "ticker": "CAPV",
-  "timestamp": "2025-12-26T05:14:53.536767",
+  "timestamp": "2025-12-27T04:45:38.242041",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 3,
+    "data": [
+      {
+        "Close AMMX": 0.11219999939203262,
+        "High AMMX": 0.11219999939203262,
+        "Low AMMX": 0.11219999939203262,
+        "Open AMMX": 0.11219999939203262,
+        "Volume AMMX": 0
+      },
+      {
+        "Close AMMX": 0.11219999939203262,
+        "High AMMX": 0.11219999939203262,
+        "Low AMMX": 0.11219999939203262,
+        "Open AMMX": 0.11219999939203262,
+        "Volume AMMX": 17500
+      },
+      {
+        "Close AMMX": 0.10999999940395355,
+        "High AMMX": 0.10999999940395355,
+        "Low AMMX": 0.10999999940395355,
+        "Open AMMX": 0.10999999940395355,
+        "Volume AMMX": 450
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -26,7 +49,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

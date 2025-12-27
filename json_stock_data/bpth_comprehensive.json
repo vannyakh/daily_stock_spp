@@ -1,53 +1,9 @@
 {
   "ticker": "BPTH",
-  "timestamp": "2025-12-26T05:05:58.847343",
+  "timestamp": "2025-12-27T04:41:32.326203",
   "intraday_data": {
-    "status": "success",
-    "rows": 6,
-    "data": [
-      {
-        "Close CNET": 1.2299000024795532,
-        "High CNET": 1.2400000095367432,
-        "Low CNET": 1.2050000429153442,
-        "Open CNET": 1.2400000095367432,
-        "Volume CNET": 3147
-      },
-      {
-        "Close CNET": 1.2300000190734863,
-        "High CNET": 1.2300000190734863,
-        "Low CNET": 1.2300000190734863,
-        "Open CNET": 1.2300000190734863,
-        "Volume CNET": 0
-      },
-      {
-        "Close CNET": 1.190000057220459,
-        "High CNET": 1.190000057220459,
-        "Low CNET": 1.190000057220459,
-        "Open CNET": 1.190000057220459,
-        "Volume CNET": 344
-      },
-      {
-        "Close CNET": 1.1900999546051025,
-        "High CNET": 1.1900999546051025,
-        "Low CNET": 1.1900999546051025,
-        "Open CNET": 1.1900999546051025,
-        "Volume CNET": 490
-      },
-      {
-        "Close CNET": 1.1912000179290771,
-        "High CNET": 1.1912000179290771,
-        "Low CNET": 1.1912000179290771,
-        "Open CNET": 1.1912000179290771,
-        "Volume CNET": 224
-      },
-      {
-        "Close CNET": 1.190000057220459,
-        "High CNET": 1.1928999423980713,
-        "Low CNET": 1.190000057220459,
-        "Open CNET": 1.1928999423980713,
-        "Volume CNET": 294
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -118,7 +74,8 @@
       ]
     },
     "recommendations": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   },
   "holders_data": {

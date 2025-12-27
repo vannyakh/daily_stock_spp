@@ -1,9 +1,60 @@
 {
   "ticker": "DTLAP",
-  "timestamp": "2025-12-26T05:20:57.069896",
+  "timestamp": "2025-12-27T04:48:13.957662",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 7,
+    "data": [
+      {
+        "Close NEWTH": 25.339799880981445,
+        "High NEWTH": 25.339799880981445,
+        "Low NEWTH": 25.339799880981445,
+        "Open NEWTH": 25.339799880981445,
+        "Volume NEWTH": 0
+      },
+      {
+        "Close NEWTH": 25.3700008392334,
+        "High NEWTH": 25.3700008392334,
+        "Low NEWTH": 25.3700008392334,
+        "Open NEWTH": 25.3700008392334,
+        "Volume NEWTH": 517
+      },
+      {
+        "Close NEWTH": 25.389799118041992,
+        "High NEWTH": 25.389999389648438,
+        "Low NEWTH": 25.385000228881836,
+        "Open NEWTH": 25.385000228881836,
+        "Volume NEWTH": 890
+      },
+      {
+        "Close NEWTH": 25.385000228881836,
+        "High NEWTH": 25.389999389648438,
+        "Low NEWTH": 25.385000228881836,
+        "Open NEWTH": 25.389999389648438,
+        "Volume NEWTH": 250
+      },
+      {
+        "Close NEWTH": 25.3799991607666,
+        "High NEWTH": 25.38800048828125,
+        "Low NEWTH": 25.3799991607666,
+        "Open NEWTH": 25.38800048828125,
+        "Volume NEWTH": 2113
+      },
+      {
+        "Close NEWTH": 25.389999389648438,
+        "High NEWTH": 25.389999389648438,
+        "Low NEWTH": 25.389999389648438,
+        "Open NEWTH": 25.389999389648438,
+        "Volume NEWTH": 104
+      },
+      {
+        "Close NEWTH": 25.389999389648438,
+        "High NEWTH": 25.43160057067871,
+        "Low NEWTH": 25.389999389648438,
+        "Open NEWTH": 25.43160057067871,
+        "Volume NEWTH": 2100
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -26,10 +77,12 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   },
   "holders_data": {

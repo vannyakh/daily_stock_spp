@@ -1,9 +1,46 @@
 {
   "ticker": "LGSP",
-  "timestamp": "2025-12-26T05:16:39.536455",
+  "timestamp": "2025-12-27T04:46:23.030567",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 5,
+    "data": [
+      {
+        "Close PBMWW": 0.02329999953508377,
+        "High PBMWW": 0.02329999953508377,
+        "Low PBMWW": 0.02329999953508377,
+        "Open PBMWW": 0.02329999953508377,
+        "Volume PBMWW": 0
+      },
+      {
+        "Close PBMWW": 0.021800000220537186,
+        "High PBMWW": 0.021800000220537186,
+        "Low PBMWW": 0.021800000220537186,
+        "Open PBMWW": 0.021800000220537186,
+        "Volume PBMWW": 300
+      },
+      {
+        "Close PBMWW": 0.016200000420212746,
+        "High PBMWW": 0.016200000420212746,
+        "Low PBMWW": 0.016200000420212746,
+        "Open PBMWW": 0.016200000420212746,
+        "Volume PBMWW": 2005
+      },
+      {
+        "Close PBMWW": 0.01889999955892563,
+        "High PBMWW": 0.01889999955892563,
+        "Low PBMWW": 0.01889999955892563,
+        "Open PBMWW": 0.01889999955892563,
+        "Volume PBMWW": 1401
+      },
+      {
+        "Close PBMWW": 0.021700000390410423,
+        "High PBMWW": 0.021700000390410423,
+        "Low PBMWW": 0.021700000390410423,
+        "Open PBMWW": 0.021700000390410423,
+        "Volume PBMWW": 116
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -26,7 +63,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

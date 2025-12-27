@@ -1,9 +1,25 @@
 {
   "ticker": "NMPRY",
-  "timestamp": "2025-12-26T05:21:44.528538",
+  "timestamp": "2025-12-27T04:48:33.159723",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 2,
+    "data": [
+      {
+        "Close NMPGY": 5.460000038146973,
+        "High NMPGY": 5.460000038146973,
+        "Low NMPGY": 5.460000038146973,
+        "Open NMPGY": 5.460000038146973,
+        "Volume NMPGY": 100
+      },
+      {
+        "Close NMPGY": 5.400000095367432,
+        "High NMPGY": 5.400000095367432,
+        "Low NMPGY": 5.400000095367432,
+        "Open NMPGY": 5.400000095367432,
+        "Volume NMPGY": 900
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -26,7 +42,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

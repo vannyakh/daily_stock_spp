@@ -1,9 +1,53 @@
 {
   "ticker": "OBDE",
-  "timestamp": "2025-12-26T05:12:56.981606",
+  "timestamp": "2025-12-27T04:44:47.465422",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 6,
+    "data": [
+      {
+        "Close GDV-PH": 22.56999969482422,
+        "High GDV-PH": 22.56999969482422,
+        "Low GDV-PH": 22.56999969482422,
+        "Open GDV-PH": 22.56999969482422,
+        "Volume GDV-PH": 0
+      },
+      {
+        "Close GDV-PH": 22.500099182128906,
+        "High GDV-PH": 22.565000534057617,
+        "Low GDV-PH": 22.5,
+        "Open GDV-PH": 22.5,
+        "Volume GDV-PH": 1400
+      },
+      {
+        "Close GDV-PH": 22.479999542236328,
+        "High GDV-PH": 22.479999542236328,
+        "Low GDV-PH": 22.479999542236328,
+        "Open GDV-PH": 22.479999542236328,
+        "Volume GDV-PH": 100
+      },
+      {
+        "Close GDV-PH": 22.42840003967285,
+        "High GDV-PH": 22.42840003967285,
+        "Low GDV-PH": 22.42840003967285,
+        "Open GDV-PH": 22.42840003967285,
+        "Volume GDV-PH": 400
+      },
+      {
+        "Close GDV-PH": 22.440000534057617,
+        "High GDV-PH": 22.440000534057617,
+        "Low GDV-PH": 22.440000534057617,
+        "Open GDV-PH": 22.440000534057617,
+        "Volume GDV-PH": 201
+      },
+      {
+        "Close GDV-PH": 22.465499877929688,
+        "High GDV-PH": 22.465499877929688,
+        "Low GDV-PH": 22.465499877929688,
+        "Open GDV-PH": 22.465499877929688,
+        "Volume GDV-PH": 100
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -26,7 +70,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

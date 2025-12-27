@@ -1,32 +1,9 @@
 {
   "ticker": "OXLCZ",
-  "timestamp": "2025-12-26T05:22:39.027837",
+  "timestamp": "2025-12-27T04:48:58.475171",
   "intraday_data": {
-    "status": "success",
-    "rows": 3,
-    "data": [
-      {
-        "Close": 24.389999389648438,
-        "High": 24.389999389648438,
-        "Low": 24.389999389648438,
-        "Open": 24.389999389648438,
-        "Volume": 0
-      },
-      {
-        "Close": 24.36989974975586,
-        "High": 24.3700008392334,
-        "Low": 24.350000381469727,
-        "Open": 24.3700008392334,
-        "Volume": 1562
-      },
-      {
-        "Close": 24.31999969482422,
-        "High": 24.326000213623047,
-        "Low": 24.312000274658203,
-        "Open": 24.326000213623047,
-        "Volume": 2738
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -49,7 +26,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

@@ -1,9 +1,39 @@
 {
   "ticker": "TCRG",
-  "timestamp": "2025-12-26T05:16:57.343213",
+  "timestamp": "2025-12-27T04:46:29.785069",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 4,
+    "data": [
+      {
+        "Close ADSEW": 0.7900000214576721,
+        "High ADSEW": 0.7900000214576721,
+        "Low ADSEW": 0.7900000214576721,
+        "Open ADSEW": 0.7900000214576721,
+        "Volume ADSEW": 0
+      },
+      {
+        "Close ADSEW": 0.7900000214576721,
+        "High ADSEW": 0.7900000214576721,
+        "Low ADSEW": 0.7900000214576721,
+        "Open ADSEW": 0.7900000214576721,
+        "Volume ADSEW": 564
+      },
+      {
+        "Close ADSEW": 0.7300000190734863,
+        "High ADSEW": 0.7300000190734863,
+        "Low ADSEW": 0.7300000190734863,
+        "Open ADSEW": 0.7300000190734863,
+        "Volume ADSEW": 1518
+      },
+      {
+        "Close ADSEW": 0.800000011920929,
+        "High ADSEW": 0.800000011920929,
+        "Low ADSEW": 0.730400025844574,
+        "Open ADSEW": 0.730400025844574,
+        "Volume ADSEW": 2455
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -26,7 +56,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

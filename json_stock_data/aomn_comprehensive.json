@@ -1,46 +1,9 @@
 {
   "ticker": "AOMN",
-  "timestamp": "2025-12-26T05:20:59.098234",
+  "timestamp": "2025-12-27T04:48:15.187462",
   "intraday_data": {
-    "status": "success",
-    "rows": 5,
-    "data": [
-      {
-        "Close": 25.230100631713867,
-        "High": 25.354999542236328,
-        "Low": 25.229999542236328,
-        "Open": 25.32379913330078,
-        "Volume": 2906
-      },
-      {
-        "Close": 25.337600708007812,
-        "High": 25.337600708007812,
-        "Low": 25.239999771118164,
-        "Open": 25.239999771118164,
-        "Volume": 300
-      },
-      {
-        "Close": 25.354999542236328,
-        "High": 25.354999542236328,
-        "Low": 25.25,
-        "Open": 25.354999542236328,
-        "Volume": 553
-      },
-      {
-        "Close": 25.349000930786133,
-        "High": 25.364999771118164,
-        "Low": 25.250099182128906,
-        "Open": 25.364999771118164,
-        "Volume": 700
-      },
-      {
-        "Close": 25.354999542236328,
-        "High": 25.375,
-        "Low": 25.270000457763672,
-        "Open": 25.375,
-        "Volume": 400
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -63,7 +26,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

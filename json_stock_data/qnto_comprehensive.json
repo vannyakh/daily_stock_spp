@@ -1,23 +1,9 @@
 {
   "ticker": "QNTO",
-  "timestamp": "2025-12-26T05:00:25.017810",
+  "timestamp": "2025-12-27T04:38:18.579206",
   "intraday_data": {
-    "status": "success",
-    "rows": 1,
-    "data": [
-      {
-        "Close": 11.5,
-        "Close WKSP": 2.365000009536743,
-        "High": 11.5,
-        "High WKSP": 2.365000009536743,
-        "Low": 11.5,
-        "Low WKSP": 2.365000009536743,
-        "Open": 11.5,
-        "Open WKSP": 2.365000009536743,
-        "Volume": 100.0,
-        "Volume WKSP": 557.0
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -40,8 +26,7 @@
   },
   "news_data": {
     "news": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
+      "status": "no_data"
     },
     "recommendations": {
       "status": "error",

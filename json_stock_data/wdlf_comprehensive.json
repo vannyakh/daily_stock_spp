@@ -1,18 +1,9 @@
 {
   "ticker": "WDLF",
-  "timestamp": "2025-12-26T05:14:52.572754",
+  "timestamp": "2025-12-27T04:45:37.184769",
   "intraday_data": {
-    "status": "success",
-    "rows": 1,
-    "data": [
-      {
-        "Close": 0.00039999998989515007,
-        "High": 0.00039999998989515007,
-        "Low": 0.00039999998989515007,
-        "Open": 0.00039999998989515007,
-        "Volume": 0
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -35,7 +26,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

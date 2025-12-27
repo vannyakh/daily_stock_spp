@@ -1,9 +1,25 @@
 {
   "ticker": "CTHR",
-  "timestamp": "2025-12-26T05:05:16.370787",
+  "timestamp": "2025-12-27T04:41:05.163599",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 2,
+    "data": [
+      {
+        "Close CBMJ": 0.020999999716877937,
+        "High CBMJ": 0.020999999716877937,
+        "Low CBMJ": 0.020999999716877937,
+        "Open CBMJ": 0.020999999716877937,
+        "Volume CBMJ": 0
+      },
+      {
+        "Close CBMJ": 0.02250000089406967,
+        "High CBMJ": 0.02250000089406967,
+        "Low CBMJ": 0.02250000089406967,
+        "Open CBMJ": 0.02250000089406967,
+        "Volume CBMJ": 7010
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -29,15 +45,16 @@
       "status": "no_data"
     },
     "recommendations": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   },
   "holders_data": {
     "major_holders": {
-      "status": "no_data"
+      "status": "error"
     },
     "institutional_holders": {
-      "status": "no_data"
+      "status": "error"
     }
   },
   "earnings_data": {

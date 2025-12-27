@@ -1,9 +1,39 @@
 {
   "ticker": "NOTE-WT",
-  "timestamp": "2025-12-26T05:17:59.490096",
+  "timestamp": "2025-12-27T04:46:56.035442",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 4,
+    "data": [
+      {
+        "Close DMXCF": 0.7749999761581421,
+        "High DMXCF": 0.7749999761581421,
+        "Low DMXCF": 0.7749999761581421,
+        "Open DMXCF": 0.7749999761581421,
+        "Volume DMXCF": 0
+      },
+      {
+        "Close DMXCF": 0.7799999713897705,
+        "High DMXCF": 0.7799999713897705,
+        "Low DMXCF": 0.7799999713897705,
+        "Open DMXCF": 0.7799999713897705,
+        "Volume DMXCF": 2500
+      },
+      {
+        "Close DMXCF": 0.8618000149726868,
+        "High DMXCF": 0.8618000149726868,
+        "Low DMXCF": 0.8618000149726868,
+        "Open DMXCF": 0.8618000149726868,
+        "Volume DMXCF": 250
+      },
+      {
+        "Close DMXCF": 0.8399999737739563,
+        "High DMXCF": 0.8399999737739563,
+        "Low DMXCF": 0.8399999737739563,
+        "Open DMXCF": 0.8399999737739563,
+        "Volume DMXCF": 1000
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -26,7 +56,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

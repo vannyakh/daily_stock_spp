@@ -1,13 +1,29 @@
 {
   "ticker": "CNO-PA",
-  "timestamp": "2025-12-26T05:22:16.634155",
+  "timestamp": "2025-12-27T04:48:48.930657",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 2,
+    "data": [
+      {
+        "Close": 19.1299991607666,
+        "High": 19.1299991607666,
+        "Low": 19.1299991607666,
+        "Open": 19.1299991607666,
+        "Volume": 0
+      },
+      {
+        "Close": 19.1299991607666,
+        "High": 19.1299991607666,
+        "Low": 19.1299991607666,
+        "Open": 19.1299991607666,
+        "Volume": 0
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
-    "message": "Too Many Requests. Rate limited. Try after a while."
+    "message": "argument of type 'NoneType' is not iterable"
   },
   "financials": {
     "income_statement": {
@@ -26,7 +42,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

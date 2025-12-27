@@ -1,9 +1,25 @@
 {
   "ticker": "NMPGY",
-  "timestamp": "2025-12-26T05:21:42.415590",
+  "timestamp": "2025-12-27T04:48:33.342769",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 2,
+    "data": [
+      {
+        "Close": 5.460000038146973,
+        "High": 5.460000038146973,
+        "Low": 5.460000038146973,
+        "Open": 5.460000038146973,
+        "Volume": 100
+      },
+      {
+        "Close": 5.400000095367432,
+        "High": 5.400000095367432,
+        "Low": 5.400000095367432,
+        "Open": 5.400000095367432,
+        "Volume": 900
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -26,7 +42,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

@@ -1,46 +1,9 @@
 {
   "ticker": "SEAC",
-  "timestamp": "2025-12-26T05:14:33.967222",
+  "timestamp": "2025-12-27T04:45:28.723500",
   "intraday_data": {
-    "status": "success",
-    "rows": 5,
-    "data": [
-      {
-        "Close PMDI": 1.7100000381469727,
-        "High PMDI": 1.7100000381469727,
-        "Low PMDI": 1.7100000381469727,
-        "Open PMDI": 1.7100000381469727,
-        "Volume PMDI": 0
-      },
-      {
-        "Close PMDI": 1.7100000381469727,
-        "High PMDI": 1.7100000381469727,
-        "Low PMDI": 1.7100000381469727,
-        "Open PMDI": 1.7100000381469727,
-        "Volume PMDI": 1203
-      },
-      {
-        "Close PMDI": 1.75,
-        "High PMDI": 1.75,
-        "Low PMDI": 1.75,
-        "Open PMDI": 1.75,
-        "Volume PMDI": 700
-      },
-      {
-        "Close PMDI": 1.6399999856948853,
-        "High PMDI": 1.649999976158142,
-        "Low PMDI": 1.6399999856948853,
-        "Open PMDI": 1.649999976158142,
-        "Volume PMDI": 125
-      },
-      {
-        "Close PMDI": 1.6399999856948853,
-        "High PMDI": 1.6399999856948853,
-        "Low PMDI": 1.6399999856948853,
-        "Open PMDI": 1.6399999856948853,
-        "Volume PMDI": 380
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -63,7 +26,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

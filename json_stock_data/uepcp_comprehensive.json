@@ -1,10 +1,25 @@
 {
   "ticker": "UEPCP",
-  "timestamp": "2025-12-26T05:11:57.523550",
+  "timestamp": "2025-12-27T04:44:24.518792",
   "intraday_data": {
     "status": "success",
-    "rows": 0,
-    "data": []
+    "rows": 2,
+    "data": [
+      {
+        "Close FMCCI": 18.799999237060547,
+        "High FMCCI": 18.799999237060547,
+        "Low FMCCI": 18.799999237060547,
+        "Open FMCCI": 18.799999237060547,
+        "Volume FMCCI": 0
+      },
+      {
+        "Close FMCCI": 18.799999237060547,
+        "High FMCCI": 18.799999237060547,
+        "Low FMCCI": 18.799999237060547,
+        "Open FMCCI": 18.799999237060547,
+        "Volume FMCCI": 50
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -27,7 +42,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

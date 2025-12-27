@@ -1,9 +1,32 @@
 {
   "ticker": "MDNC",
-  "timestamp": "2025-12-26T05:17:28.939405",
+  "timestamp": "2025-12-27T04:46:43.934396",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 3,
+    "data": [
+      {
+        "Close LANV-WT": 0.01549999974668026,
+        "High LANV-WT": 0.01549999974668026,
+        "Low LANV-WT": 0.01549999974668026,
+        "Open LANV-WT": 0.01549999974668026,
+        "Volume LANV-WT": 0
+      },
+      {
+        "Close LANV-WT": 0.011699999682605267,
+        "High LANV-WT": 0.014999999664723873,
+        "Low LANV-WT": 0.011699999682605267,
+        "Open LANV-WT": 0.014999999664723873,
+        "Volume LANV-WT": 850
+      },
+      {
+        "Close LANV-WT": 0.013399999588727951,
+        "High LANV-WT": 0.013399999588727951,
+        "Low LANV-WT": 0.013399999588727951,
+        "Open LANV-WT": 0.013399999588727951,
+        "Volume LANV-WT": 10000
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -26,7 +49,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

@@ -1,9 +1,46 @@
 {
   "ticker": "CCEL",
-  "timestamp": "2025-12-26T04:57:13.746555",
+  "timestamp": "2025-12-27T04:36:35.659301",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 5,
+    "data": [
+      {
+        "Close": 3.450000047683716,
+        "High": 3.450000047683716,
+        "Low": 3.450000047683716,
+        "Open": 3.450000047683716,
+        "Volume": 0
+      },
+      {
+        "Close": 3.4500999450683594,
+        "High": 3.4500999450683594,
+        "Low": 3.450000047683716,
+        "Open": 3.450000047683716,
+        "Volume": 920
+      },
+      {
+        "Close": 3.47160005569458,
+        "High": 3.47160005569458,
+        "Low": 3.47160005569458,
+        "Open": 3.47160005569458,
+        "Volume": 634
+      },
+      {
+        "Close": 3.4749999046325684,
+        "High": 3.4749999046325684,
+        "Low": 3.4749999046325684,
+        "Open": 3.4749999046325684,
+        "Volume": 210
+      },
+      {
+        "Close": 3.486299991607666,
+        "High": 3.486299991607666,
+        "Low": 3.486299991607666,
+        "Open": 3.486299991607666,
+        "Volume": 355
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -14,14 +51,105 @@
       "status": "no_data"
     },
     "balance_sheet": {
+      "status": "no_data"
+    },
+    "cash_flow": {
+      "status": "no_data"
+    }
+  },
+  "options_data": {
+    "status": "error",
+    "error_message": "Too Many Requests. Rate limited. Try after a while."
+  },
+  "news_data": {
+    "news": {
       "status": "success",
-      "rows": 77,
-      "columns": [
-        "2024-11-30 00:00:00",
-        "2023-11-30 00:00:00",
-        "2022-11-30 00:00:00",
-        "2021-11-30 00:00:00"
-      ],
+      "count": 1,
       "data": [
         {
-          
+          "id": "31a140c6-af8e-370f-825b-ea2d2f3cb98b",
+          "content": {
+            "id": "31a140c6-af8e-370f-825b-ea2d2f3cb98b",
+            "contentType": "STORY",
+            "title": "Big banks report Q1 beats, China stops taking Boeing deliveries: Morning Buzz",
+            "description": "",
+            "summary": "The major averages were fractionally higher near noon, adding slightly to yesterday\u2019s gains as investors reacted to fresh headlines on U.S.-China trade tensions and a new round of corporate earnings. Markets are attempting to stabilize after a rocky stretch, but much of the tone is being shaped by President Trump\u2019s latest tariff decisions. After last week\u2019s escalation, he\u2019s now backing off slightly, offering temporary relief on key consumer electronics and signaling possible concessions for the",
+            "pubDate": "2025-04-16T15:59:36Z",
+            "displayTime": "2025-04-16T15:59:36Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": {
+              "originalUrl": "https://media.zenfs.com/en/tipranks_452/a324531d6c2434960c8f527655fc132d",
+              "originalWidth": 192,
+              "originalHeight": 192,
+              "caption": "https://www.tipranks.com/news/the-fly/big-banks-report-q1-beats-china-stops-taking-boeing-deliveries-morning-buzz",
+              "resolutions": [
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/GEbGfKDlNyQIwFRP6pl5pA--~B/aD0xOTI7dz0xOTI7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/tipranks_452/a324531d6c2434960c8f527655fc132d",
+                  "width": 192,
+                  "height": 192,
+                  "tag": "original"
+                },
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/kycKLp_I4hk439y3CpTPNg--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/tipranks_452/a324531d6c2434960c8f527655fc132d",
+                  "width": 170,
+                  "height": 128,
+                  "tag": "170x128"
+                }
+              ]
+            },
+            "provider": {
+              "displayName": "TipRanks",
+              "url": "https://www.tipranks.com/"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/big-banks-report-q1-beats-155936913.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/big-banks-report-q1-beats-155936913.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        }
+      ]
+    },
+    "recommendations": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  },
+  "holders_data": {
+    "major_holders": {
+      "status": "error"
+    },
+    "institutional_holders": {
+      "status": "error"
+    }
+  },
+  "earnings_data": {
+    "earnings": {
+      "status": "error",
+      "message": "'NoneType' object has no attribute 'empty'"
+    },
+    "calendar": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  }
+}

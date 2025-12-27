@@ -1,34 +1,64 @@
 {
   "ticker": "RC-PE",
-  "timestamp": "2025-12-26T05:21:56.742753",
+  "timestamp": "2025-12-27T04:48:37.980777",
   "intraday_data": {
     "status": "success",
     "rows": 1,
     "data": [
       {
-        "Close RC-PC": 13.800000190734863,
-        "High RC-PC": 13.800000190734863,
-        "Low RC-PC": 13.800000190734863,
-        "Open RC-PC": 13.800000190734863,
-        "Volume RC-PC": 0
+        "Close RCC": 25.024799346923828,
+        "High RCC": 25.024799346923828,
+        "Low RCC": 25.024799346923828,
+        "Open RCC": 25.024799346923828,
+        "Volume RCC": 0
       }
     ]
   },
   "stock_info": {
     "status": "error",
-    "message": "argument of type 'NoneType' is not iterable"
+    "message": "Too Many Requests. Rate limited. Try after a while."
   },
   "financials": {
     "income_statement": {
-      "status": "success",
-      "rows": 35,
-      "columns": [
-        "2024-12-31 00:00:00",
-        "2023-12-31 00:00:00",
-        "2022-12-31 00:00:00",
-        "2021-12-31 00:00:00",
-        "2020-12-31 00:00:00"
-      ],
-      "data": [
-        {
-          
+      "status": "no_data"
+    },
+    "balance_sheet": {
+      "status": "no_data"
+    },
+    "cash_flow": {
+      "status": "no_data"
+    }
+  },
+  "options_data": {
+    "status": "error",
+    "error_message": "Too Many Requests. Rate limited. Try after a while."
+  },
+  "news_data": {
+    "news": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    },
+    "recommendations": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  },
+  "holders_data": {
+    "major_holders": {
+      "status": "error"
+    },
+    "institutional_holders": {
+      "status": "error"
+    }
+  },
+  "earnings_data": {
+    "earnings": {
+      "status": "error",
+      "message": "'NoneType' object has no attribute 'empty'"
+    },
+    "calendar": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  }
+}

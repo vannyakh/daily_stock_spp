@@ -1,117 +1,55 @@
 {
   "ticker": "ASTLW",
-  "timestamp": "2025-12-26T05:16:41.204953",
+  "timestamp": "2025-12-27T04:46:23.828367",
   "intraday_data": {
-    "status": "success",
-    "rows": 13,
-    "data": [
-      {
-        "Close ARBEW": 0.10989999771118164,
-        "High ARBEW": 0.10989999771118164,
-        "Low ARBEW": 0.10989999771118164,
-        "Open ARBEW": 0.10989999771118164,
-        "Volume ARBEW": 0
-      },
-      {
-        "Close ARBEW": 0.08510000258684158,
-        "High ARBEW": 0.08510000258684158,
-        "Low ARBEW": 0.08510000258684158,
-        "Open ARBEW": 0.08510000258684158,
-        "Volume ARBEW": 1600
-      },
-      {
-        "Close ARBEW": 0.0794999971985817,
-        "High ARBEW": 0.0794999971985817,
-        "Low ARBEW": 0.0794999971985817,
-        "Open ARBEW": 0.0794999971985817,
-        "Volume ARBEW": 500
-      },
-      {
-        "Close ARBEW": 0.08510000258684158,
-        "High ARBEW": 0.08510000258684158,
-        "Low ARBEW": 0.08510000258684158,
-        "Open ARBEW": 0.08510000258684158,
-        "Volume ARBEW": 5401
-      },
-      {
-        "Close ARBEW": 0.07829999923706055,
-        "High ARBEW": 0.07829999923706055,
-        "Low ARBEW": 0.07829999923706055,
-        "Open ARBEW": 0.07829999923706055,
-        "Volume ARBEW": 390
-      },
-      {
-        "Close ARBEW": 0.0794999971985817,
-        "High ARBEW": 0.0794999971985817,
-        "Low ARBEW": 0.0794999971985817,
-        "Open ARBEW": 0.0794999971985817,
-        "Volume ARBEW": 500
-      },
-      {
-        "Close ARBEW": 0.08500000089406967,
-        "High ARBEW": 0.08500000089406967,
-        "Low ARBEW": 0.08500000089406967,
-        "Open ARBEW": 0.08500000089406967,
-        "Volume ARBEW": 2200
-      },
-      {
-        "Close ARBEW": 0.07819999754428864,
-        "High ARBEW": 0.07819999754428864,
-        "Low ARBEW": 0.07819999754428864,
-        "Open ARBEW": 0.07819999754428864,
-        "Volume ARBEW": 500
-      },
-      {
-        "Close ARBEW": 0.07840000092983246,
-        "High ARBEW": 0.07840000092983246,
-        "Low ARBEW": 0.07840000092983246,
-        "Open ARBEW": 0.07840000092983246,
-        "Volume ARBEW": 1139
-      },
-      {
-        "Close ARBEW": 0.07930000126361847,
-        "High ARBEW": 0.08510000258684158,
-        "Low ARBEW": 0.07930000126361847,
-        "Open ARBEW": 0.08510000258684158,
-        "Volume ARBEW": 2000
-      },
-      {
-        "Close ARBEW": 0.08500000089406967,
-        "High ARBEW": 0.08500000089406967,
-        "Low ARBEW": 0.08500000089406967,
-        "Open ARBEW": 0.08500000089406967,
-        "Volume ARBEW": 1600
-      },
-      {
-        "Close ARBEW": 0.08500000089406967,
-        "High ARBEW": 0.08510000258684158,
-        "Low ARBEW": 0.08500000089406967,
-        "Open ARBEW": 0.08510000258684158,
-        "Volume ARBEW": 1600
-      },
-      {
-        "Close ARBEW": 0.09989999979734421,
-        "High ARBEW": 0.09989999979734421,
-        "Low ARBEW": 0.09989999979734421,
-        "Open ARBEW": 0.09989999979734421,
-        "Volume ARBEW": 200
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
-    "message": "argument of type 'NoneType' is not iterable"
+    "message": "Too Many Requests. Rate limited. Try after a while."
   },
   "financials": {
     "income_statement": {
-      "status": "success",
-      "rows": 51,
-      "columns": [
-        "2024-03-31 00:00:00",
-        "2023-03-31 00:00:00",
-        "2022-03-31 00:00:00",
-        "2021-03-31 00:00:00"
-      ],
-      "data": [
-        {
-          
+      "status": "no_data"
+    },
+    "balance_sheet": {
+      "status": "no_data"
+    },
+    "cash_flow": {
+      "status": "no_data"
+    }
+  },
+  "options_data": {
+    "status": "error",
+    "error_message": "Too Many Requests. Rate limited. Try after a while."
+  },
+  "news_data": {
+    "news": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    },
+    "recommendations": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  },
+  "holders_data": {
+    "major_holders": {
+      "status": "error"
+    },
+    "institutional_holders": {
+      "status": "error"
+    }
+  },
+  "earnings_data": {
+    "earnings": {
+      "status": "error",
+      "message": "'NoneType' object has no attribute 'empty'"
+    },
+    "calendar": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  }
+}

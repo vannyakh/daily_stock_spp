@@ -1,18 +1,9 @@
 {
   "ticker": "FROPX",
-  "timestamp": "2025-12-26T05:21:16.053500",
+  "timestamp": "2025-12-27T04:48:21.456859",
   "intraday_data": {
-    "status": "success",
-    "rows": 1,
-    "data": [
-      {
-        "Close": 16.219999313354492,
-        "High": 16.219999313354492,
-        "Low": 16.219999313354492,
-        "Open": 16.219999313354492,
-        "Volume": 0
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -35,7 +26,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

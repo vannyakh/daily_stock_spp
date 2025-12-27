@@ -1,67 +1,9 @@
 {
   "ticker": "DRDBU",
-  "timestamp": "2025-12-26T05:18:40.191029",
+  "timestamp": "2025-12-27T04:47:14.059156",
   "intraday_data": {
-    "status": "success",
-    "rows": 8,
-    "data": [
-      {
-        "Close WLACW": 4.0,
-        "High WLACW": 4.159999847412109,
-        "Low WLACW": 4.0,
-        "Open WLACW": 4.159999847412109,
-        "Volume WLACW": 0
-      },
-      {
-        "Close WLACW": 4.085999965667725,
-        "High WLACW": 4.085999965667725,
-        "Low WLACW": 4.085999965667725,
-        "Open WLACW": 4.085999965667725,
-        "Volume WLACW": 1063
-      },
-      {
-        "Close WLACW": 4.014999866485596,
-        "High WLACW": 4.179999828338623,
-        "Low WLACW": 4.014999866485596,
-        "Open WLACW": 4.179999828338623,
-        "Volume WLACW": 1150
-      },
-      {
-        "Close WLACW": 4.170000076293945,
-        "High WLACW": 4.170000076293945,
-        "Low WLACW": 4.150000095367432,
-        "Open WLACW": 4.150000095367432,
-        "Volume WLACW": 3322
-      },
-      {
-        "Close WLACW": 4.179999828338623,
-        "High WLACW": 4.179999828338623,
-        "Low WLACW": 4.179999828338623,
-        "Open WLACW": 4.179999828338623,
-        "Volume WLACW": 1735
-      },
-      {
-        "Close WLACW": 4.170000076293945,
-        "High WLACW": 4.170000076293945,
-        "Low WLACW": 4.170000076293945,
-        "Open WLACW": 4.170000076293945,
-        "Volume WLACW": 502
-      },
-      {
-        "Close WLACW": 4.106900215148926,
-        "High WLACW": 4.179999828338623,
-        "Low WLACW": 4.106900215148926,
-        "Open WLACW": 4.106900215148926,
-        "Volume WLACW": 1456
-      },
-      {
-        "Close WLACW": 4.100200176239014,
-        "High WLACW": 4.100200176239014,
-        "Low WLACW": 4.100200176239014,
-        "Open WLACW": 4.100200176239014,
-        "Volume WLACW": 6281
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -84,7 +26,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

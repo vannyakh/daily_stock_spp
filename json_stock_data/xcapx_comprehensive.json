@@ -1,13 +1,22 @@
 {
   "ticker": "XCAPX",
-  "timestamp": "2025-12-26T05:21:51.804325",
+  "timestamp": "2025-12-27T04:48:37.161908",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 1,
+    "data": [
+      {
+        "Close": 29.469999313354492,
+        "High": 29.469999313354492,
+        "Low": 29.469999313354492,
+        "Open": 29.469999313354492,
+        "Volume": 0
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
-    "message": "Too Many Requests. Rate limited. Try after a while."
+    "message": "argument of type 'NoneType' is not iterable"
   },
   "financials": {
     "income_statement": {
@@ -26,7 +35,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

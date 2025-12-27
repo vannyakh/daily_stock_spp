@@ -1,53 +1,9 @@
 {
   "ticker": "MGHL",
-  "timestamp": "2025-12-26T05:15:15.107353",
+  "timestamp": "2025-12-27T04:45:48.483013",
   "intraday_data": {
-    "status": "success",
-    "rows": 6,
-    "data": [
-      {
-        "Close GMZP": 0.0006000000284984708,
-        "High GMZP": 0.0006000000284984708,
-        "Low GMZP": 0.0006000000284984708,
-        "Open GMZP": 0.0006000000284984708,
-        "Volume GMZP": 0
-      },
-      {
-        "Close GMZP": 0.0006000000284984708,
-        "High GMZP": 0.0006000000284984708,
-        "Low GMZP": 0.0006000000284984708,
-        "Open GMZP": 0.0006000000284984708,
-        "Volume GMZP": 280000
-      },
-      {
-        "Close GMZP": 0.0006000000284984708,
-        "High GMZP": 0.0006000000284984708,
-        "Low GMZP": 0.0006000000284984708,
-        "Open GMZP": 0.0006000000284984708,
-        "Volume GMZP": 908998
-      },
-      {
-        "Close GMZP": 0.0006000000284984708,
-        "High GMZP": 0.0006000000284984708,
-        "Low GMZP": 0.0006000000284984708,
-        "Open GMZP": 0.0006000000284984708,
-        "Volume GMZP": 500000
-      },
-      {
-        "Close GMZP": 0.0006000000284984708,
-        "High GMZP": 0.0006000000284984708,
-        "Low GMZP": 0.0006000000284984708,
-        "Open GMZP": 0.0006000000284984708,
-        "Volume GMZP": 50000
-      },
-      {
-        "Close GMZP": 0.0005000000237487257,
-        "High GMZP": 0.0005000000237487257,
-        "Low GMZP": 0.0005000000237487257,
-        "Open GMZP": 0.0005000000237487257,
-        "Volume GMZP": 3444390
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -70,7 +26,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

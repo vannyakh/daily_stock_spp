@@ -1,9 +1,32 @@
 {
   "ticker": "MVCO",
-  "timestamp": "2025-12-26T05:14:48.473852",
+  "timestamp": "2025-12-27T04:45:34.996385",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 3,
+    "data": [
+      {
+        "Close GLUC": 0.17489999532699585,
+        "High GLUC": 0.17489999532699585,
+        "Low GLUC": 0.17489999532699585,
+        "Open GLUC": 0.17489999532699585,
+        "Volume GLUC": 0
+      },
+      {
+        "Close GLUC": 0.17489999532699585,
+        "High GLUC": 0.17489999532699585,
+        "Low GLUC": 0.17489999532699585,
+        "Open GLUC": 0.17489999532699585,
+        "Volume GLUC": 2613
+      },
+      {
+        "Close GLUC": 0.17489999532699585,
+        "High GLUC": 0.17489999532699585,
+        "Low GLUC": 0.17489999532699585,
+        "Open GLUC": 0.17489999532699585,
+        "Volume GLUC": 3
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -26,10 +49,12 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   },
   "holders_data": {

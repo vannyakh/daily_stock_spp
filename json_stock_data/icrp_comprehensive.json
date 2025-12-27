@@ -1,53 +1,9 @@
 {
   "ticker": "ICRP",
-  "timestamp": "2025-12-26T05:25:02.876206",
+  "timestamp": "2025-12-27T04:50:06.260149",
   "intraday_data": {
-    "status": "success",
-    "rows": 6,
-    "data": [
-      {
-        "Close QTZM": 2.75,
-        "High QTZM": 2.75,
-        "Low QTZM": 2.75,
-        "Open QTZM": 2.75,
-        "Volume QTZM": 0
-      },
-      {
-        "Close QTZM": 2.799999952316284,
-        "High QTZM": 2.799999952316284,
-        "Low QTZM": 2.799999952316284,
-        "Open QTZM": 2.799999952316284,
-        "Volume QTZM": 100
-      },
-      {
-        "Close QTZM": 2.9000000953674316,
-        "High QTZM": 2.9000000953674316,
-        "Low QTZM": 2.7899999618530273,
-        "Open QTZM": 2.7899999618530273,
-        "Volume QTZM": 2600
-      },
-      {
-        "Close QTZM": 2.890000104904175,
-        "High QTZM": 2.890000104904175,
-        "Low QTZM": 2.890000104904175,
-        "Open QTZM": 2.890000104904175,
-        "Volume QTZM": 1805
-      },
-      {
-        "Close QTZM": 2.869999885559082,
-        "High QTZM": 2.869999885559082,
-        "Low QTZM": 2.869999885559082,
-        "Open QTZM": 2.869999885559082,
-        "Volume QTZM": 100
-      },
-      {
-        "Close QTZM": 2.9000000953674316,
-        "High QTZM": 2.9000000953674316,
-        "Low QTZM": 2.9000000953674316,
-        "Open QTZM": 2.9000000953674316,
-        "Volume QTZM": 100
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -70,7 +26,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

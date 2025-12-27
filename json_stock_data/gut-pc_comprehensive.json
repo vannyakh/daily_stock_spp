@@ -1,46 +1,9 @@
 {
   "ticker": "GUT-PC",
-  "timestamp": "2025-12-26T05:13:32.638508",
+  "timestamp": "2025-12-27T04:45:02.875648",
   "intraday_data": {
-    "status": "success",
-    "rows": 5,
-    "data": [
-      {
-        "Close": 22.200000762939453,
-        "High": 22.200000762939453,
-        "Low": 22.200000762939453,
-        "Open": 22.200000762939453,
-        "Volume": 0
-      },
-      {
-        "Close": 22.030000686645508,
-        "High": 22.059999465942383,
-        "Low": 22.030000686645508,
-        "Open": 22.059999465942383,
-        "Volume": 236
-      },
-      {
-        "Close": 22.170000076293945,
-        "High": 22.170000076293945,
-        "Low": 22.170000076293945,
-        "Open": 22.170000076293945,
-        "Volume": 379
-      },
-      {
-        "Close": 22.191299438476562,
-        "High": 22.191299438476562,
-        "Low": 22.191299438476562,
-        "Open": 22.191299438476562,
-        "Volume": 450
-      },
-      {
-        "Close": 22.170000076293945,
-        "High": 22.170000076293945,
-        "Low": 22.170000076293945,
-        "Open": 22.170000076293945,
-        "Volume": 138
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -63,7 +26,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

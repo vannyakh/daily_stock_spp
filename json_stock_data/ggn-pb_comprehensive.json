@@ -1,32 +1,9 @@
 {
   "ticker": "GGN-PB",
-  "timestamp": "2025-12-26T05:13:22.746832",
+  "timestamp": "2025-12-27T04:44:58.797013",
   "intraday_data": {
-    "status": "success",
-    "rows": 3,
-    "data": [
-      {
-        "Close": 20.860000610351562,
-        "High": 20.860000610351562,
-        "Low": 20.860000610351562,
-        "Open": 20.860000610351562,
-        "Volume": 0
-      },
-      {
-        "Close": 20.829999923706055,
-        "High": 20.829999923706055,
-        "Low": 20.829999923706055,
-        "Open": 20.829999923706055,
-        "Volume": 150
-      },
-      {
-        "Close": 20.800100326538086,
-        "High": 20.800100326538086,
-        "Low": 20.799999237060547,
-        "Open": 20.799999237060547,
-        "Volume": 604
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -49,7 +26,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

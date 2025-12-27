@@ -1,24 +1,127 @@
 {
   "ticker": "PHTCF",
-  "timestamp": "2025-12-26T05:12:16.117400",
+  "timestamp": "2025-12-27T04:44:31.177845",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 10,
+    "data": [
+      {
+        "Close EPR-PG": 20.1200008392334,
+        "High EPR-PG": 20.1200008392334,
+        "Low EPR-PG": 20.1200008392334,
+        "Open EPR-PG": 20.1200008392334,
+        "Volume EPR-PG": 0
+      },
+      {
+        "Close EPR-PG": 20.200000762939453,
+        "High EPR-PG": 20.200000762939453,
+        "Low EPR-PG": 20.200000762939453,
+        "Open EPR-PG": 20.200000762939453,
+        "Volume EPR-PG": 100
+      },
+      {
+        "Close EPR-PG": 20.210100173950195,
+        "High EPR-PG": 20.229999542236328,
+        "Low EPR-PG": 20.210100173950195,
+        "Open EPR-PG": 20.229999542236328,
+        "Volume EPR-PG": 400
+      },
+      {
+        "Close EPR-PG": 20.229999542236328,
+        "High EPR-PG": 20.229999542236328,
+        "Low EPR-PG": 20.229999542236328,
+        "Open EPR-PG": 20.229999542236328,
+        "Volume EPR-PG": 107
+      },
+      {
+        "Close EPR-PG": 20.18000030517578,
+        "High EPR-PG": 20.190000534057617,
+        "Low EPR-PG": 20.18000030517578,
+        "Open EPR-PG": 20.190000534057617,
+        "Volume EPR-PG": 276
+      },
+      {
+        "Close EPR-PG": 20.25,
+        "High EPR-PG": 20.25,
+        "Low EPR-PG": 20.25,
+        "Open EPR-PG": 20.25,
+        "Volume EPR-PG": 401
+      },
+      {
+        "Close EPR-PG": 20.299999237060547,
+        "High EPR-PG": 20.299999237060547,
+        "Low EPR-PG": 20.299999237060547,
+        "Open EPR-PG": 20.299999237060547,
+        "Volume EPR-PG": 100
+      },
+      {
+        "Close EPR-PG": 20.20009994506836,
+        "High EPR-PG": 20.20009994506836,
+        "Low EPR-PG": 20.20009994506836,
+        "Open EPR-PG": 20.20009994506836,
+        "Volume EPR-PG": 200
+      },
+      {
+        "Close EPR-PG": 20.450000762939453,
+        "High EPR-PG": 20.450000762939453,
+        "Low EPR-PG": 20.450000762939453,
+        "Open EPR-PG": 20.450000762939453,
+        "Volume EPR-PG": 356
+      },
+      {
+        "Close EPR-PG": 20.434999465942383,
+        "High EPR-PG": 20.450000762939453,
+        "Low EPR-PG": 20.434999465942383,
+        "Open EPR-PG": 20.450000762939453,
+        "Volume EPR-PG": 834
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
-    "message": "argument of type 'NoneType' is not iterable"
+    "message": "Too Many Requests. Rate limited. Try after a while."
   },
   "financials": {
     "income_statement": {
-      "status": "success",
-      "rows": 65,
-      "columns": [
-        "2024-12-31 00:00:00",
-        "2023-12-31 00:00:00",
-        "2022-12-31 00:00:00",
-        "2021-12-31 00:00:00"
-      ],
-      "data": [
-        {
-          
+      "status": "no_data"
+    },
+    "balance_sheet": {
+      "status": "no_data"
+    },
+    "cash_flow": {
+      "status": "no_data"
+    }
+  },
+  "options_data": {
+    "status": "error",
+    "error_message": "Too Many Requests. Rate limited. Try after a while."
+  },
+  "news_data": {
+    "news": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    },
+    "recommendations": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  },
+  "holders_data": {
+    "major_holders": {
+      "status": "error"
+    },
+    "institutional_holders": {
+      "status": "error"
+    }
+  },
+  "earnings_data": {
+    "earnings": {
+      "status": "error",
+      "message": "'NoneType' object has no attribute 'empty'"
+    },
+    "calendar": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  }
+}

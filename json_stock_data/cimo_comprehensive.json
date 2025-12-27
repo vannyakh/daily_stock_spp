@@ -1,25 +1,9 @@
 {
   "ticker": "CIMO",
-  "timestamp": "2025-12-26T05:18:52.749483",
+  "timestamp": "2025-12-27T04:47:20.385498",
   "intraday_data": {
-    "status": "success",
-    "rows": 2,
-    "data": [
-      {
-        "Close": 25.39940071105957,
-        "High": 25.39940071105957,
-        "Low": 25.39940071105957,
-        "Open": 25.39940071105957,
-        "Volume": 0
-      },
-      {
-        "Close": 25.420000076293945,
-        "High": 25.420000076293945,
-        "Low": 25.420000076293945,
-        "Open": 25.420000076293945,
-        "Volume": 205
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -42,7 +26,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

@@ -1,53 +1,9 @@
 {
   "ticker": "TRTN-PC",
-  "timestamp": "2025-12-26T05:23:06.661849",
+  "timestamp": "2025-12-27T04:49:10.493841",
   "intraday_data": {
-    "status": "success",
-    "rows": 6,
-    "data": [
-      {
-        "Close": 25.260000228881836,
-        "High": 25.260000228881836,
-        "Low": 25.260000228881836,
-        "Open": 25.260000228881836,
-        "Volume": 0
-      },
-      {
-        "Close": 25.25,
-        "High": 25.25,
-        "Low": 25.25,
-        "Open": 25.25,
-        "Volume": 296
-      },
-      {
-        "Close": 25.139999389648438,
-        "High": 25.18000030517578,
-        "Low": 25.139999389648438,
-        "Open": 25.149999618530273,
-        "Volume": 856
-      },
-      {
-        "Close": 25.1299991607666,
-        "High": 25.1299991607666,
-        "Low": 25.1299991607666,
-        "Open": 25.1299991607666,
-        "Volume": 154
-      },
-      {
-        "Close": 25.190000534057617,
-        "High": 25.190000534057617,
-        "Low": 25.190000534057617,
-        "Open": 25.190000534057617,
-        "Volume": 221
-      },
-      {
-        "Close": 25.18000030517578,
-        "High": 25.18000030517578,
-        "Low": 25.18000030517578,
-        "Open": 25.18000030517578,
-        "Volume": 500
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -70,7 +26,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

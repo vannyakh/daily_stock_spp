@@ -1,9 +1,18 @@
 {
   "ticker": "IWDL",
-  "timestamp": "2025-12-26T05:22:11.563325",
+  "timestamp": "2025-12-27T04:48:46.266437",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 1,
+    "data": [
+      {
+        "Close": 49.04140090942383,
+        "High": 49.127601623535156,
+        "Low": 49.04140090942383,
+        "Open": 49.127601623535156,
+        "Volume": 0
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -26,7 +35,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

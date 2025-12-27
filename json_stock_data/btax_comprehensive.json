@@ -1,9 +1,32 @@
 {
   "ticker": "BTAX",
-  "timestamp": "2025-12-26T05:07:39.803500",
+  "timestamp": "2025-12-27T04:42:23.827328",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 3,
+    "data": [
+      {
+        "Close EBZT": 0.1670999974012375,
+        "High EBZT": 0.1670999974012375,
+        "Low EBZT": 0.1670999974012375,
+        "Open EBZT": 0.1670999974012375,
+        "Volume EBZT": 0
+      },
+      {
+        "Close EBZT": 0.17550000548362732,
+        "High EBZT": 0.17550000548362732,
+        "Low EBZT": 0.17550000548362732,
+        "Open EBZT": 0.17550000548362732,
+        "Volume EBZT": 5200
+      },
+      {
+        "Close EBZT": 0.1671999990940094,
+        "High EBZT": 0.1671999990940094,
+        "Low EBZT": 0.1671999990940094,
+        "Open EBZT": 0.1671999990940094,
+        "Volume EBZT": 3000
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -14,14 +37,41 @@
       "status": "no_data"
     },
     "balance_sheet": {
-      "status": "success",
-      "rows": 46,
-      "columns": [
-        "2023-12-31 00:00:00",
-        "2022-12-31 00:00:00",
-        "2021-12-31 00:00:00",
-        "2020-12-31 00:00:00"
-      ],
-      "data": [
-        {
-          
+      "status": "no_data"
+    },
+    "cash_flow": {
+      "status": "no_data"
+    }
+  },
+  "options_data": {
+    "status": "error",
+    "error_message": "Too Many Requests. Rate limited. Try after a while."
+  },
+  "news_data": {
+    "news": {
+      "status": "no_data"
+    },
+    "recommendations": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  },
+  "holders_data": {
+    "major_holders": {
+      "status": "error"
+    },
+    "institutional_holders": {
+      "status": "error"
+    }
+  },
+  "earnings_data": {
+    "earnings": {
+      "status": "error",
+      "message": "'NoneType' object has no attribute 'empty'"
+    },
+    "calendar": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  }
+}

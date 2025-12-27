@@ -1,9 +1,9 @@
 {
   "ticker": "TKMO",
-  "timestamp": "2025-12-26T05:15:26.154881",
+  "timestamp": "2025-12-27T04:45:50.387174",
   "intraday_data": {
     "status": "success",
-    "rows": 3,
+    "rows": 1,
     "data": [
       {
         "Close": 9.999999747378752e-05,
@@ -11,20 +11,6 @@
         "Low": 9.999999747378752e-05,
         "Open": 9.999999747378752e-05,
         "Volume": 0
-      },
-      {
-        "Close": 9.999999747378752e-05,
-        "High": 9.999999747378752e-05,
-        "Low": 9.999999747378752e-05,
-        "Open": 9.999999747378752e-05,
-        "Volume": 100000
-      },
-      {
-        "Close": 9.999999747378752e-05,
-        "High": 9.999999747378752e-05,
-        "Low": 9.999999747378752e-05,
-        "Open": 9.999999747378752e-05,
-        "Volume": 1010000
       }
     ]
   },
@@ -49,18 +35,20 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   },
   "holders_data": {
     "major_holders": {
-      "status": "no_data"
+      "status": "error"
     },
     "institutional_holders": {
-      "status": "no_data"
+      "status": "error"
     }
   },
   "earnings_data": {

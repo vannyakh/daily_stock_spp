@@ -1,25 +1,9 @@
 {
   "ticker": "CNLHP",
-  "timestamp": "2025-12-26T05:13:41.713553",
+  "timestamp": "2025-12-27T04:45:06.400356",
   "intraday_data": {
-    "status": "success",
-    "rows": 2,
-    "data": [
-      {
-        "Close": 37.7400016784668,
-        "High": 37.7400016784668,
-        "Low": 37.7400016784668,
-        "Open": 37.7400016784668,
-        "Volume": 0
-      },
-      {
-        "Close": 37.75,
-        "High": 37.75,
-        "Low": 37.75,
-        "Open": 37.75,
-        "Volume": 800
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -42,7 +26,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

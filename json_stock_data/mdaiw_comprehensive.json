@@ -1,74 +1,9 @@
 {
   "ticker": "MDAIW",
-  "timestamp": "2025-12-26T05:19:48.511385",
+  "timestamp": "2025-12-27T04:47:43.710568",
   "intraday_data": {
-    "status": "success",
-    "rows": 9,
-    "data": [
-      {
-        "Close": 0.43700000643730164,
-        "High": 0.43700000643730164,
-        "Low": 0.43700000643730164,
-        "Open": 0.43700000643730164,
-        "Volume": 0
-      },
-      {
-        "Close": 0.41670000553131104,
-        "High": 0.41670000553131104,
-        "Low": 0.41670000553131104,
-        "Open": 0.41670000553131104,
-        "Volume": 200
-      },
-      {
-        "Close": 0.4300000071525574,
-        "High": 0.4300000071525574,
-        "Low": 0.4300000071525574,
-        "Open": 0.4300000071525574,
-        "Volume": 400
-      },
-      {
-        "Close": 0.41999998688697815,
-        "High": 0.4300000071525574,
-        "Low": 0.41999998688697815,
-        "Open": 0.4300000071525574,
-        "Volume": 1280
-      },
-      {
-        "Close": 0.41999998688697815,
-        "High": 0.41999998688697815,
-        "Low": 0.41999998688697815,
-        "Open": 0.41999998688697815,
-        "Volume": 214
-      },
-      {
-        "Close": 0.4099000096321106,
-        "High": 0.4099999964237213,
-        "Low": 0.4056999981403351,
-        "Open": 0.4056999981403351,
-        "Volume": 3170
-      },
-      {
-        "Close": 0.44999998807907104,
-        "High": 0.44999998807907104,
-        "Low": 0.44999998807907104,
-        "Open": 0.44999998807907104,
-        "Volume": 2138
-      },
-      {
-        "Close": 0.41999998688697815,
-        "High": 0.41999998688697815,
-        "Low": 0.41999998688697815,
-        "Open": 0.41999998688697815,
-        "Volume": 100
-      },
-      {
-        "Close": 0.4099999964237213,
-        "High": 0.4099999964237213,
-        "Low": 0.4099999964237213,
-        "Open": 0.4099999964237213,
-        "Volume": 404
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -79,14 +14,42 @@
       "status": "no_data"
     },
     "balance_sheet": {
-      "status": "success",
-      "rows": 57,
-      "columns": [
-        "2024-12-31 00:00:00",
-        "2023-12-31 00:00:00",
-        "2022-12-31 00:00:00",
-        "2021-12-31 00:00:00"
-      ],
-      "data": [
-        {
-          
+      "status": "no_data"
+    },
+    "cash_flow": {
+      "status": "no_data"
+    }
+  },
+  "options_data": {
+    "status": "error",
+    "error_message": "Too Many Requests. Rate limited. Try after a while."
+  },
+  "news_data": {
+    "news": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    },
+    "recommendations": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  },
+  "holders_data": {
+    "major_holders": {
+      "status": "error"
+    },
+    "institutional_holders": {
+      "status": "error"
+    }
+  },
+  "earnings_data": {
+    "earnings": {
+      "status": "error",
+      "message": "'NoneType' object has no attribute 'empty'"
+    },
+    "calendar": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  }
+}

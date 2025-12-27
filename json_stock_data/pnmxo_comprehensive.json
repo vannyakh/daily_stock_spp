@@ -1,67 +1,9 @@
 {
   "ticker": "PNMXO",
-  "timestamp": "2025-12-26T05:24:07.607640",
+  "timestamp": "2025-12-27T04:49:39.076312",
   "intraday_data": {
-    "status": "success",
-    "rows": 8,
-    "data": [
-      {
-        "Close SIGIP": 16.799999237060547,
-        "High SIGIP": 16.799999237060547,
-        "Low SIGIP": 16.799999237060547,
-        "Open SIGIP": 16.799999237060547,
-        "Volume SIGIP": 0
-      },
-      {
-        "Close SIGIP": 16.799999237060547,
-        "High SIGIP": 16.799999237060547,
-        "Low SIGIP": 16.799999237060547,
-        "Open SIGIP": 16.799999237060547,
-        "Volume SIGIP": 287
-      },
-      {
-        "Close SIGIP": 16.81999969482422,
-        "High SIGIP": 16.83989906311035,
-        "Low SIGIP": 16.81999969482422,
-        "Open SIGIP": 16.83989906311035,
-        "Volume SIGIP": 1545
-      },
-      {
-        "Close SIGIP": 16.84000015258789,
-        "High SIGIP": 16.84000015258789,
-        "Low SIGIP": 16.83989906311035,
-        "Open SIGIP": 16.84000015258789,
-        "Volume SIGIP": 650
-      },
-      {
-        "Close SIGIP": 16.799999237060547,
-        "High SIGIP": 16.799999237060547,
-        "Low SIGIP": 16.799999237060547,
-        "Open SIGIP": 16.799999237060547,
-        "Volume SIGIP": 1817
-      },
-      {
-        "Close SIGIP": 16.899999618530273,
-        "High SIGIP": 16.899999618530273,
-        "Low SIGIP": 16.84000015258789,
-        "Open SIGIP": 16.8700008392334,
-        "Volume SIGIP": 4045
-      },
-      {
-        "Close SIGIP": 16.84000015258789,
-        "High SIGIP": 16.84000015258789,
-        "Low SIGIP": 16.84000015258789,
-        "Open SIGIP": 16.84000015258789,
-        "Volume SIGIP": 346
-      },
-      {
-        "Close SIGIP": 16.850000381469727,
-        "High SIGIP": 16.850000381469727,
-        "Low SIGIP": 16.850000381469727,
-        "Open SIGIP": 16.850000381469727,
-        "Volume SIGIP": 201
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -84,7 +26,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

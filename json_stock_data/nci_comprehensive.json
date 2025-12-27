@@ -1,6 +1,6 @@
 {
   "ticker": "NCI",
-  "timestamp": "2025-12-26T05:02:24.060483",
+  "timestamp": "2025-12-27T04:39:27.266484",
   "intraday_data": {
     "status": "no_data",
     "message": "No intraday data available"
@@ -154,47 +154,16 @@
       ]
     },
     "recommendations": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   },
   "holders_data": {
     "major_holders": {
-      "status": "success",
-      "data": [
-        {
-          "Value": 0.78301
-        },
-        {
-          "Value": 0.0083099995
-        },
-        {
-          "Value": 0.03832
-        },
-        {
-          "Value": 3.0
-        }
-      ]
+      "status": "error"
     },
     "institutional_holders": {
-      "status": "success",
-      "data": [
-        {
-          "Date Reported": "2025-09-30 00:00:00",
-          "Holder": "HRT Financial LP",
-          "pctHeld": 0.0075,
-          "Shares": 26000,
-          "Value": 35360,
-          "pctChange": 1.0
-        },
-        {
-          "Date Reported": "2025-09-30 00:00:00",
-          "Holder": "Clear Street Group Inc.",
-          "pctHeld": 0.0004,
-          "Shares": 1400,
-          "Value": 1904,
-          "pctChange": 1.0
-        }
-      ]
+      "status": "error"
     }
   },
   "earnings_data": {
@@ -204,7 +173,7 @@
     },
     "calendar": {
       "status": "error",
-      "message": "'dict' object has no attribute 'empty'"
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   }
 }

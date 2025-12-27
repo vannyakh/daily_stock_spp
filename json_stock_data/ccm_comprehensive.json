@@ -1,18 +1,9 @@
 {
   "ticker": "CCM",
-  "timestamp": "2025-12-26T05:01:20.416656",
+  "timestamp": "2025-12-27T04:38:49.764360",
   "intraday_data": {
-    "status": "success",
-    "rows": 1,
-    "data": [
-      {
-        "Close GWSO": 0.21299999952316284,
-        "High GWSO": 0.21299999952316284,
-        "Low GWSO": 0.21299999952316284,
-        "Open GWSO": 0.21299999952316284,
-        "Volume GWSO": 0
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -461,7 +452,8 @@
       ]
     },
     "recommendations": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   },
   "holders_data": {

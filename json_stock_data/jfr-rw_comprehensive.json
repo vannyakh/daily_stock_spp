@@ -1,18 +1,9 @@
 {
   "ticker": "JFR-RW",
-  "timestamp": "2025-12-26T05:23:08.444206",
+  "timestamp": "2025-12-27T04:49:11.764568",
   "intraday_data": {
-    "status": "success",
-    "rows": 1,
-    "data": [
-      {
-        "Close MFICL": 25.198999404907227,
-        "High MFICL": 25.198999404907227,
-        "Low MFICL": 25.190000534057617,
-        "Open MFICL": 25.190000534057617,
-        "Volume MFICL": 0
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -35,7 +26,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

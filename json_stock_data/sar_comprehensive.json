@@ -1,9 +1,131 @@
 {
   "ticker": "SAR",
-  "timestamp": "2025-12-26T04:47:57.038639",
+  "timestamp": "2025-12-27T04:31:27.615218",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 10,
+    "data": [
+      {
+        "Close NPCE": 16.049999237060547,
+        "Close RRBI": 74.48999786376953,
+        "High NPCE": 16.049999237060547,
+        "High RRBI": 74.48999786376953,
+        "Low NPCE": 16.049999237060547,
+        "Low RRBI": 74.48999786376953,
+        "Open NPCE": 16.049999237060547,
+        "Open RRBI": 74.48999786376953,
+        "Volume NPCE": 501.0,
+        "Volume RRBI": 120.0
+      },
+      {
+        "Close NPCE": 15.989999771118164,
+        "Close RRBI": 73.5999984741211,
+        "High NPCE": 15.989999771118164,
+        "High RRBI": 73.5999984741211,
+        "Low NPCE": 15.989999771118164,
+        "Low RRBI": 73.5999984741211,
+        "Open NPCE": 15.989999771118164,
+        "Open RRBI": 73.5999984741211,
+        "Volume NPCE": 324.0,
+        "Volume RRBI": 272.0
+      },
+      {
+        "Close NPCE": 16.03499984741211,
+        "Close RRBI": 73.29000091552734,
+        "High NPCE": 16.03499984741211,
+        "High RRBI": 73.29000091552734,
+        "Low NPCE": 16.03499984741211,
+        "Low RRBI": 73.29000091552734,
+        "Open NPCE": 16.03499984741211,
+        "Open RRBI": 73.29000091552734,
+        "Volume NPCE": 318.0,
+        "Volume RRBI": 522.0
+      },
+      {
+        "Close NPCE": 16.1299991607666,
+        "Close RRBI": 73.54000091552734,
+        "High NPCE": 16.1299991607666,
+        "High RRBI": 73.54000091552734,
+        "Low NPCE": 16.1200008392334,
+        "Low RRBI": 73.54000091552734,
+        "Open NPCE": 16.1200008392334,
+        "Open RRBI": 73.54000091552734,
+        "Volume NPCE": 321.0,
+        "Volume RRBI": 118.0
+      },
+      {
+        "Close NPCE": 16.06999969482422,
+        "Close RRBI": 73.36000061035156,
+        "High NPCE": 16.084999084472656,
+        "High RRBI": 73.43000030517578,
+        "Low NPCE": 16.06999969482422,
+        "Low RRBI": 73.36000061035156,
+        "Open NPCE": 16.084999084472656,
+        "Open RRBI": 73.43000030517578,
+        "Volume NPCE": 763.0,
+        "Volume RRBI": 262.0
+      },
+      {
+        "Close NPCE": 16.059999465942383,
+        "Close RRBI": 73.42500305175781,
+        "High NPCE": 16.059999465942383,
+        "High RRBI": 73.42500305175781,
+        "Low NPCE": 16.049999237060547,
+        "Low RRBI": 73.42500305175781,
+        "Open NPCE": 16.059999465942383,
+        "Open RRBI": 73.42500305175781,
+        "Volume NPCE": 1412.0,
+        "Volume RRBI": 212.0
+      },
+      {
+        "Close NPCE": 16.049999237060547,
+        "Close RRBI": 73.45999908447266,
+        "High NPCE": 16.049999237060547,
+        "High RRBI": 73.45999908447266,
+        "Low NPCE": 16.049999237060547,
+        "Low RRBI": 73.45999908447266,
+        "Open NPCE": 16.049999237060547,
+        "Open RRBI": 73.45999908447266,
+        "Volume NPCE": 676.0,
+        "Volume RRBI": 203.0
+      },
+      {
+        "Close NPCE": 16.030000686645508,
+        "Close RRBI": 73.47000122070312,
+        "High NPCE": 16.030000686645508,
+        "High RRBI": 73.47000122070312,
+        "Low NPCE": 16.020000457763672,
+        "Low RRBI": 73.47000122070312,
+        "Open NPCE": 16.020000457763672,
+        "Open RRBI": 73.47000122070312,
+        "Volume NPCE": 1554.0,
+        "Volume RRBI": 473.0
+      },
+      {
+        "Close NPCE": 16.03499984741211,
+        "Close RRBI": 73.55000305175781,
+        "High NPCE": 16.040000915527344,
+        "High RRBI": 73.55000305175781,
+        "Low NPCE": 16.030000686645508,
+        "Low RRBI": 73.55000305175781,
+        "Open NPCE": 16.030000686645508,
+        "Open RRBI": 73.55000305175781,
+        "Volume NPCE": 2935.0,
+        "Volume RRBI": 435.0
+      },
+      {
+        "Close NPCE": 16.030000686645508,
+        "Close RRBI": 73.375,
+        "High NPCE": 16.030000686645508,
+        "High RRBI": 73.375,
+        "Low NPCE": 16.014999389648438,
+        "Low RRBI": 73.375,
+        "Open NPCE": 16.020000457763672,
+        "Open RRBI": 73.375,
+        "Volume NPCE": 5849.0,
+        "Volume RRBI": 566.0
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -585,7 +707,8 @@
       ]
     },
     "recommendations": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   },
   "holders_data": {

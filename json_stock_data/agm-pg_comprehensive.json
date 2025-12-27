@@ -1,69 +1,113 @@
 {
   "ticker": "AGM-PG",
-  "timestamp": "2025-12-26T05:24:48.937738",
+  "timestamp": "2025-12-27T04:49:57.825746",
   "intraday_data": {
     "status": "success",
-    "rows": 6,
+    "rows": 8,
     "data": [
       {
-        "Close": 18.0,
-        "High": 18.0,
-        "Low": 18.0,
-        "Open": 18.0,
-        "Volume": 0
+        "Close UZD": 19.944732666015625,
+        "High UZD": 19.944732666015625,
+        "Low UZD": 19.944732666015625,
+        "Open UZD": 19.944732666015625,
+        "Volume UZD": 0
       },
       {
-        "Close": 18.010000228881836,
-        "High": 18.010000228881836,
-        "Low": 18.0,
-        "Open": 18.0,
-        "Volume": 300
+        "Close UZD": 19.899999618530273,
+        "High UZD": 19.899999618530273,
+        "Low UZD": 19.899999618530273,
+        "Open UZD": 19.899999618530273,
+        "Volume UZD": 814
       },
       {
-        "Close": 18.030000686645508,
-        "High": 18.030000686645508,
-        "Low": 18.030000686645508,
-        "Open": 18.030000686645508,
-        "Volume": 102
+        "Close UZD": 19.950000762939453,
+        "High UZD": 19.950000762939453,
+        "Low UZD": 19.950000762939453,
+        "Open UZD": 19.950000762939453,
+        "Volume UZD": 131
       },
       {
-        "Close": 18.010000228881836,
-        "High": 18.010000228881836,
-        "Low": 18.010000228881836,
-        "Open": 18.010000228881836,
-        "Volume": 245
+        "Close UZD": 19.850000381469727,
+        "High UZD": 19.899999618530273,
+        "Low UZD": 19.850000381469727,
+        "Open UZD": 19.899999618530273,
+        "Volume UZD": 3297
       },
       {
-        "Close": 17.960899353027344,
-        "High": 17.960899353027344,
-        "Low": 17.960899353027344,
-        "Open": 17.960899353027344,
-        "Volume": 543
+        "Close UZD": 19.850000381469727,
+        "High UZD": 19.850000381469727,
+        "Low UZD": 19.850000381469727,
+        "Open UZD": 19.850000381469727,
+        "Volume UZD": 371
       },
       {
-        "Close": 18.020000457763672,
-        "High": 18.020000457763672,
-        "Low": 18.020000457763672,
-        "Open": 18.020000457763672,
-        "Volume": 0
+        "Close UZD": 19.809999465942383,
+        "High UZD": 19.809999465942383,
+        "Low UZD": 19.809999465942383,
+        "Open UZD": 19.809999465942383,
+        "Volume UZD": 653
+      },
+      {
+        "Close UZD": 19.8700008392334,
+        "High UZD": 19.8700008392334,
+        "Low UZD": 19.8700008392334,
+        "Open UZD": 19.8700008392334,
+        "Volume UZD": 118
+      },
+      {
+        "Close UZD": 19.860000610351562,
+        "High UZD": 19.8700008392334,
+        "Low UZD": 19.69499969482422,
+        "Open UZD": 19.69499969482422,
+        "Volume UZD": 515
       }
     ]
   },
   "stock_info": {
     "status": "error",
-    "message": "argument of type 'NoneType' is not iterable"
+    "message": "Too Many Requests. Rate limited. Try after a while."
   },
   "financials": {
     "income_statement": {
-      "status": "success",
-      "rows": 32,
-      "columns": [
-        "2024-12-31 00:00:00",
-        "2023-12-31 00:00:00",
-        "2022-12-31 00:00:00",
-        "2021-12-31 00:00:00",
-        "2020-12-31 00:00:00"
-      ],
-      "data": [
-        {
-          
+      "status": "no_data"
+    },
+    "balance_sheet": {
+      "status": "no_data"
+    },
+    "cash_flow": {
+      "status": "no_data"
+    }
+  },
+  "options_data": {
+    "status": "error",
+    "error_message": "Too Many Requests. Rate limited. Try after a while."
+  },
+  "news_data": {
+    "news": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    },
+    "recommendations": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  },
+  "holders_data": {
+    "major_holders": {
+      "status": "error"
+    },
+    "institutional_holders": {
+      "status": "error"
+    }
+  },
+  "earnings_data": {
+    "earnings": {
+      "status": "error",
+      "message": "'NoneType' object has no attribute 'empty'"
+    },
+    "calendar": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  }
+}

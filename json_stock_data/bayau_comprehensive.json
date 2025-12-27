@@ -1,18 +1,9 @@
 {
   "ticker": "BAYAU",
-  "timestamp": "2025-12-26T05:17:44.258363",
+  "timestamp": "2025-12-27T04:46:49.464835",
   "intraday_data": {
-    "status": "success",
-    "rows": 1,
-    "data": [
-      {
-        "Close CAPTW": 0.02199999988079071,
-        "High CAPTW": 0.02199999988079071,
-        "Low CAPTW": 0.02199999988079071,
-        "Open CAPTW": 0.02199999988079071,
-        "Volume CAPTW": 0
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -35,7 +26,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

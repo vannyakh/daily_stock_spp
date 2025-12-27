@@ -1,39 +1,127 @@
 {
   "ticker": "CDZIP",
-  "timestamp": "2025-12-26T05:25:28.235674",
+  "timestamp": "2025-12-27T04:50:16.743836",
   "intraday_data": {
     "status": "success",
-    "rows": 1,
+    "rows": 10,
     "data": [
       {
-        "Close": 19.34079933166504,
-        "Close T-PA": 20.174999237060547,
-        "High": 19.370100021362305,
-        "High T-PA": 20.174999237060547,
-        "Low": 19.34079933166504,
-        "Low T-PA": 20.174999237060547,
-        "Open": 19.3700008392334,
-        "Open T-PA": 20.174999237060547,
-        "Volume": 457.0,
-        "Volume T-PA": 112.0
+        "Close": 19.5,
+        "High": 19.5,
+        "Low": 19.5,
+        "Open": 19.5,
+        "Volume": 0
+      },
+      {
+        "Close": 19.499900817871094,
+        "High": 19.5,
+        "Low": 19.499900817871094,
+        "Open": 19.5,
+        "Volume": 4700
+      },
+      {
+        "Close": 19.482999801635742,
+        "High": 19.5,
+        "Low": 19.482999801635742,
+        "Open": 19.5,
+        "Volume": 1850
+      },
+      {
+        "Close": 19.499000549316406,
+        "High": 19.499000549316406,
+        "Low": 19.481199264526367,
+        "Open": 19.481199264526367,
+        "Volume": 859
+      },
+      {
+        "Close": 19.499900817871094,
+        "High": 19.499900817871094,
+        "Low": 19.499900817871094,
+        "Open": 19.499900817871094,
+        "Volume": 252
+      },
+      {
+        "Close": 19.459999084472656,
+        "High": 19.459999084472656,
+        "Low": 19.450000762939453,
+        "Open": 19.457000732421875,
+        "Volume": 630
+      },
+      {
+        "Close": 19.5,
+        "High": 19.5,
+        "Low": 19.489999771118164,
+        "Open": 19.489999771118164,
+        "Volume": 510
+      },
+      {
+        "Close": 19.5,
+        "High": 19.5,
+        "Low": 19.5,
+        "Open": 19.5,
+        "Volume": 2830
+      },
+      {
+        "Close": 19.472000122070312,
+        "High": 19.472000122070312,
+        "Low": 19.472000122070312,
+        "Open": 19.472000122070312,
+        "Volume": 196
+      },
+      {
+        "Close": 19.499900817871094,
+        "High": 19.499900817871094,
+        "Low": 19.499900817871094,
+        "Open": 19.499900817871094,
+        "Volume": 575
       }
     ]
   },
   "stock_info": {
     "status": "error",
-    "message": "argument of type 'NoneType' is not iterable"
+    "message": "Too Many Requests. Rate limited. Try after a while."
   },
   "financials": {
     "income_statement": {
-      "status": "success",
-      "rows": 47,
-      "columns": [
-        "2024-12-31 00:00:00",
-        "2023-12-31 00:00:00",
-        "2022-12-31 00:00:00",
-        "2021-12-31 00:00:00",
-        "2020-12-31 00:00:00"
-      ],
-      "data": [
-        {
-          
+      "status": "no_data"
+    },
+    "balance_sheet": {
+      "status": "no_data"
+    },
+    "cash_flow": {
+      "status": "no_data"
+    }
+  },
+  "options_data": {
+    "status": "error",
+    "error_message": "Too Many Requests. Rate limited. Try after a while."
+  },
+  "news_data": {
+    "news": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    },
+    "recommendations": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  },
+  "holders_data": {
+    "major_holders": {
+      "status": "error"
+    },
+    "institutional_holders": {
+      "status": "error"
+    }
+  },
+  "earnings_data": {
+    "earnings": {
+      "status": "error",
+      "message": "'NoneType' object has no attribute 'empty'"
+    },
+    "calendar": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  }
+}

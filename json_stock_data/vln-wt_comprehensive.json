@@ -1,9 +1,25 @@
 {
   "ticker": "VLN-WT",
-  "timestamp": "2025-12-26T05:20:28.562247",
+  "timestamp": "2025-12-27T04:48:02.407479",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 2,
+    "data": [
+      {
+        "Close": 0.05000000074505806,
+        "High": 0.05000000074505806,
+        "Low": 0.05000000074505806,
+        "Open": 0.05000000074505806,
+        "Volume": 0
+      },
+      {
+        "Close": 0.04780000075697899,
+        "High": 0.04780000075697899,
+        "Low": 0.04780000075697899,
+        "Open": 0.04780000075697899,
+        "Volume": 100
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -26,7 +42,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

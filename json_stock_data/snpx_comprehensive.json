@@ -1,46 +1,9 @@
 {
   "ticker": "SNPX",
-  "timestamp": "2025-12-26T05:05:24.305865",
+  "timestamp": "2025-12-27T04:41:09.471807",
   "intraday_data": {
-    "status": "success",
-    "rows": 5,
-    "data": [
-      {
-        "Close": 34.411399841308594,
-        "High": 34.411399841308594,
-        "Low": 34.349998474121094,
-        "Open": 34.349998474121094,
-        "Volume": 0
-      },
-      {
-        "Close": 34.5,
-        "High": 34.5,
-        "Low": 34.5,
-        "Open": 34.5,
-        "Volume": 419
-      },
-      {
-        "Close": 34.7599983215332,
-        "High": 34.7599983215332,
-        "Low": 34.7599983215332,
-        "Open": 34.7599983215332,
-        "Volume": 190
-      },
-      {
-        "Close": 34.512001037597656,
-        "High": 34.512001037597656,
-        "Low": 34.512001037597656,
-        "Open": 34.512001037597656,
-        "Volume": 412
-      },
-      {
-        "Close": 34.5900993347168,
-        "High": 34.5900993347168,
-        "Low": 34.59000015258789,
-        "Open": 34.59000015258789,
-        "Volume": 255
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -63,7 +26,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

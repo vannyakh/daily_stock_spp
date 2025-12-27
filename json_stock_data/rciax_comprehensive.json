@@ -1,18 +1,9 @@
 {
   "ticker": "RCIAX",
-  "timestamp": "2025-12-26T05:21:29.816853",
+  "timestamp": "2025-12-27T04:48:26.957686",
   "intraday_data": {
-    "status": "success",
-    "rows": 1,
-    "data": [
-      {
-        "Close": 9.069999694824219,
-        "High": 9.069999694824219,
-        "Low": 9.069999694824219,
-        "Open": 9.069999694824219,
-        "Volume": 0
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -35,7 +26,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

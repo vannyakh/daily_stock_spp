@@ -1,9 +1,18 @@
 {
   "ticker": "CAPNU",
-  "timestamp": "2025-12-26T05:15:59.969754",
+  "timestamp": "2025-12-27T04:46:07.318742",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 1,
+    "data": [
+      {
+        "Close CAPNR": 0.19740000367164612,
+        "High CAPNR": 0.19740000367164612,
+        "Low CAPNR": 0.18000000715255737,
+        "Open CAPNR": 0.18000000715255737,
+        "Volume CAPNR": 0
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -26,7 +35,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

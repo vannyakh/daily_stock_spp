@@ -1,16 +1,30 @@
 {
   "ticker": "AILLP",
-  "timestamp": "2025-12-26T05:12:54.670774",
+  "timestamp": "2025-12-27T04:44:46.541221",
   "intraday_data": {
     "status": "success",
-    "rows": 1,
+    "rows": 3,
     "data": [
       {
-        "Close FNMFM": 25.5,
-        "High FNMFM": 25.5,
-        "Low FNMFM": 25.5,
-        "Open FNMFM": 25.5,
-        "Volume FNMFM": 0
+        "Close FNMAO": 20.389999389648438,
+        "High FNMAO": 20.389999389648438,
+        "Low FNMAO": 20.3799991607666,
+        "Open FNMAO": 20.3799991607666,
+        "Volume FNMAO": 0
+      },
+      {
+        "Close FNMAO": 20.399999618530273,
+        "High FNMAO": 21.18000030517578,
+        "Low FNMAO": 20.399999618530273,
+        "Open FNMAO": 21.18000030517578,
+        "Volume FNMAO": 1000
+      },
+      {
+        "Close FNMAO": 21.399999618530273,
+        "High FNMAO": 21.399999618530273,
+        "Low FNMAO": 21.399999618530273,
+        "Open FNMAO": 21.399999618530273,
+        "Volume FNMAO": 59
       }
     ]
   },
@@ -35,7 +49,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

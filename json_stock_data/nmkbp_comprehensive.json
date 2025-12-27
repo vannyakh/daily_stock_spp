@@ -1,9 +1,18 @@
 {
   "ticker": "NMKBP",
-  "timestamp": "2025-12-26T05:18:59.810101",
+  "timestamp": "2025-12-27T04:47:23.572784",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 1,
+    "data": [
+      {
+        "Close": 62.0,
+        "High": 62.0,
+        "Low": 62.0,
+        "Open": 62.0,
+        "Volume": 0
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -26,7 +35,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

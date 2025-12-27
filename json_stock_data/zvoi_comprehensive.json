@@ -1,9 +1,18 @@
 {
   "ticker": "ZVOI",
-  "timestamp": "2025-12-26T05:15:29.961532",
+  "timestamp": "2025-12-27T04:45:54.669753",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 1,
+    "data": [
+      {
+        "Close MLLOF": 0.16979999840259552,
+        "High MLLOF": 0.16979999840259552,
+        "Low MLLOF": 0.16979999840259552,
+        "Open MLLOF": 0.16979999840259552,
+        "Volume MLLOF": 0
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -26,7 +35,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

@@ -1,39 +1,9 @@
 {
   "ticker": "FNGO",
-  "timestamp": "2025-12-26T05:24:19.973892",
+  "timestamp": "2025-12-27T04:49:44.470436",
   "intraday_data": {
-    "status": "success",
-    "rows": 4,
-    "data": [
-      {
-        "Close": 120.5697021484375,
-        "High": 120.5697021484375,
-        "Low": 120.5697021484375,
-        "Open": 120.5697021484375,
-        "Volume": 1960
-      },
-      {
-        "Close": 121.21990203857422,
-        "High": 121.21990203857422,
-        "Low": 120.5199966430664,
-        "Open": 120.5199966430664,
-        "Volume": 377
-      },
-      {
-        "Close": 120.77999877929688,
-        "High": 120.77999877929688,
-        "Low": 120.77999877929688,
-        "Open": 120.77999877929688,
-        "Volume": 431
-      },
-      {
-        "Close": 121.31639862060547,
-        "High": 121.31639862060547,
-        "Low": 120.94000244140625,
-        "Open": 120.94000244140625,
-        "Volume": 306
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -56,7 +26,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

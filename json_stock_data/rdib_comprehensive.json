@@ -1,37 +1,30 @@
 {
   "ticker": "RDIB",
-  "timestamp": "2025-12-26T05:14:00.975827",
+  "timestamp": "2025-12-27T04:45:12.928407",
   "intraday_data": {
     "status": "success",
-    "rows": 4,
+    "rows": 3,
     "data": [
       {
-        "Close": 11.109999656677246,
-        "High": 11.109999656677246,
-        "Low": 11.109999656677246,
-        "Open": 11.109999656677246,
+        "Close": 12.039999961853027,
+        "High": 12.039999961853027,
+        "Low": 12.039999961853027,
+        "Open": 12.039999961853027,
         "Volume": 0
       },
       {
-        "Close": 11.0,
-        "High": 11.0,
-        "Low": 11.0,
-        "Open": 11.0,
-        "Volume": 1050
+        "Close": 11.850000381469727,
+        "High": 11.850000381469727,
+        "Low": 11.850000381469727,
+        "Open": 11.850000381469727,
+        "Volume": 177
       },
       {
-        "Close": 11.300000190734863,
-        "High": 11.300000190734863,
-        "Low": 11.300000190734863,
-        "Open": 11.300000190734863,
-        "Volume": 163
-      },
-      {
-        "Close": 11.300000190734863,
-        "High": 11.300000190734863,
-        "Low": 11.300000190734863,
-        "Open": 11.300000190734863,
-        "Volume": 251
+        "Close": 11.520000457763672,
+        "High": 11.520000457763672,
+        "Low": 11.520000457763672,
+        "Open": 11.520000457763672,
+        "Volume": 208
       }
     ]
   },
@@ -44,15 +37,42 @@
       "status": "no_data"
     },
     "balance_sheet": {
-      "status": "success",
-      "rows": 88,
-      "columns": [
-        "2024-12-31 00:00:00",
-        "2023-12-31 00:00:00",
-        "2022-12-31 00:00:00",
-        "2021-12-31 00:00:00",
-        "2020-12-31 00:00:00"
-      ],
-      "data": [
-        {
-          
+      "status": "no_data"
+    },
+    "cash_flow": {
+      "status": "no_data"
+    }
+  },
+  "options_data": {
+    "status": "error",
+    "error_message": "Too Many Requests. Rate limited. Try after a while."
+  },
+  "news_data": {
+    "news": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    },
+    "recommendations": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  },
+  "holders_data": {
+    "major_holders": {
+      "status": "error"
+    },
+    "institutional_holders": {
+      "status": "error"
+    }
+  },
+  "earnings_data": {
+    "earnings": {
+      "status": "error",
+      "message": "'NoneType' object has no attribute 'empty'"
+    },
+    "calendar": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  }
+}

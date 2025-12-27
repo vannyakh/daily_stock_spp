@@ -1,25 +1,9 @@
 {
   "ticker": "AEVA-WT",
-  "timestamp": "2025-12-26T05:19:24.010049",
+  "timestamp": "2025-12-27T04:47:33.070444",
   "intraday_data": {
-    "status": "success",
-    "rows": 2,
-    "data": [
-      {
-        "Close REVBW": 0.008100000210106373,
-        "High REVBW": 0.008100000210106373,
-        "Low REVBW": 0.008100000210106373,
-        "Open REVBW": 0.008100000210106373,
-        "Volume REVBW": 0
-      },
-      {
-        "Close REVBW": 0.008200000040233135,
-        "High REVBW": 0.008200000040233135,
-        "Low REVBW": 0.008100000210106373,
-        "Open REVBW": 0.008100000210106373,
-        "Volume REVBW": 1790
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -42,7 +26,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

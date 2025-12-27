@@ -1,25 +1,9 @@
 {
   "ticker": "SAT",
-  "timestamp": "2025-12-26T05:24:26.941717",
+  "timestamp": "2025-12-27T04:49:47.218306",
   "intraday_data": {
-    "status": "success",
-    "rows": 2,
-    "data": [
-      {
-        "Close SAY": 25.299999237060547,
-        "High SAY": 25.34000015258789,
-        "Low SAY": 25.299999237060547,
-        "Open SAY": 25.33839988708496,
-        "Volume SAY": 0
-      },
-      {
-        "Close SAY": 25.270099639892578,
-        "High SAY": 25.270099639892578,
-        "Low SAY": 25.270099639892578,
-        "Open SAY": 25.270099639892578,
-        "Volume SAY": 1117
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -42,7 +26,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

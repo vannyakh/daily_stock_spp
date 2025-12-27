@@ -1,9 +1,18 @@
 {
   "ticker": "XXAAU",
-  "timestamp": "2025-12-26T05:25:01.781043",
+  "timestamp": "2025-12-27T04:50:05.690990",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 1,
+    "data": [
+      {
+        "Close REGCO": 22.399999618530273,
+        "High REGCO": 22.399999618530273,
+        "Low REGCO": 22.399999618530273,
+        "Open REGCO": 22.399999618530273,
+        "Volume REGCO": 0
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -26,7 +35,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

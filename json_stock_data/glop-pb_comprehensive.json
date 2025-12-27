@@ -1,9 +1,39 @@
 {
   "ticker": "GLOP-PB",
-  "timestamp": "2025-12-26T05:13:07.789086",
+  "timestamp": "2025-12-27T04:44:52.285846",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 4,
+    "data": [
+      {
+        "Close": 25.75,
+        "High": 25.75,
+        "Low": 25.75,
+        "Open": 25.75,
+        "Volume": 967
+      },
+      {
+        "Close": 25.700000762939453,
+        "High": 25.700000762939453,
+        "Low": 25.700000762939453,
+        "Open": 25.700000762939453,
+        "Volume": 400
+      },
+      {
+        "Close": 25.700000762939453,
+        "High": 25.700000762939453,
+        "Low": 25.700000762939453,
+        "Open": 25.700000762939453,
+        "Volume": 199
+      },
+      {
+        "Close": 25.739999771118164,
+        "High": 25.739999771118164,
+        "Low": 25.739999771118164,
+        "Open": 25.739999771118164,
+        "Volume": 102
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -26,7 +56,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

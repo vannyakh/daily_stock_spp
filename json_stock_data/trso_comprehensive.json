@@ -1,6 +1,6 @@
 {
   "ticker": "TRSO",
-  "timestamp": "2025-12-26T05:19:11.481066",
+  "timestamp": "2025-12-27T04:47:28.020958",
   "intraday_data": {
     "status": "no_data",
     "message": "No intraday data available"
@@ -11,14 +11,45 @@
   },
   "financials": {
     "income_statement": {
-      "status": "success",
-      "rows": 46,
-      "columns": [
-        "2024-11-30 00:00:00",
-        "2023-11-30 00:00:00",
-        "2022-11-30 00:00:00",
-        "2021-11-30 00:00:00"
-      ],
-      "data": [
-        {
-          
+      "status": "no_data"
+    },
+    "balance_sheet": {
+      "status": "no_data"
+    },
+    "cash_flow": {
+      "status": "no_data"
+    }
+  },
+  "options_data": {
+    "status": "error",
+    "error_message": "Too Many Requests. Rate limited. Try after a while."
+  },
+  "news_data": {
+    "news": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    },
+    "recommendations": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  },
+  "holders_data": {
+    "major_holders": {
+      "status": "error"
+    },
+    "institutional_holders": {
+      "status": "error"
+    }
+  },
+  "earnings_data": {
+    "earnings": {
+      "status": "error",
+      "message": "'NoneType' object has no attribute 'empty'"
+    },
+    "calendar": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  }
+}

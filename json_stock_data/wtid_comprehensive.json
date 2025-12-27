@@ -1,9 +1,18 @@
 {
   "ticker": "WTID",
-  "timestamp": "2025-12-26T05:24:23.099532",
+  "timestamp": "2025-12-27T04:49:45.417163",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 1,
+    "data": [
+      {
+        "Close": 12.010100364685059,
+        "High": 12.010100364685059,
+        "Low": 12.010100364685059,
+        "Open": 12.010100364685059,
+        "Volume": 0
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -26,71 +35,8 @@
   },
   "news_data": {
     "news": {
-      "status": "success",
-      "count": 1,
-      "data": [
-        {
-          "id": "490cde3b-dfd7-35ac-9644-03f9fa4398ba",
-          "content": {
-            "id": "490cde3b-dfd7-35ac-9644-03f9fa4398ba",
-            "contentType": "STORY",
-            "title": "Can Oil Prices Rally in 2026? ETFs in Focus",
-            "description": "",
-            "summary": "Oil prices slid to four-year lows on ceasefire hopes, China weakness, and oversupply fears, putting inverse ETFs like SCO in focus for bearish investors.",
-            "pubDate": "2025-12-17T15:00:00Z",
-            "displayTime": "2025-12-17T15:00:00Z",
-            "isHosted": true,
-            "bypassModal": false,
-            "previewUrl": null,
-            "thumbnail": {
-              "originalUrl": "https://media.zenfs.com/en/zacks.com/3716a975dd2f30690b902745c1f03c4b",
-              "originalWidth": 620,
-              "originalHeight": 465,
-              "caption": "",
-              "resolutions": [
-                {
-                  "url": "https://s.yimg.com/uu/api/res/1.2/X6hOobay6_vEdpSLwfe5hw--~B/aD00NjU7dz02MjA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/zacks.com/3716a975dd2f30690b902745c1f03c4b",
-                  "width": 620,
-                  "height": 465,
-                  "tag": "original"
-                },
-                {
-                  "url": "https://s.yimg.com/uu/api/res/1.2/6vOHIM_4xSsErWguCiCn4g--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/zacks.com/3716a975dd2f30690b902745c1f03c4b",
-                  "width": 170,
-                  "height": 128,
-                  "tag": "170x128"
-                }
-              ]
-            },
-            "provider": {
-              "displayName": "Zacks",
-              "url": "http://www.zacks.com/"
-            },
-            "canonicalUrl": {
-              "url": "https://finance.yahoo.com/news/oil-prices-rally-2026-etfs-150000589.html",
-              "site": "finance",
-              "region": "US",
-              "lang": "en-US"
-            },
-            "clickThroughUrl": {
-              "url": "https://finance.yahoo.com/news/oil-prices-rally-2026-etfs-150000589.html",
-              "site": "finance",
-              "region": "US",
-              "lang": "en-US"
-            },
-            "metadata": {
-              "editorsPick": false
-            },
-            "finance": {
-              "premiumFinance": {
-                "isPremiumNews": false,
-                "isPremiumFreeNews": false
-              }
-            },
-            "storyline": null
-          }
-        }
-      ]
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

@@ -1,46 +1,9 @@
 {
   "ticker": "BYFC",
-  "timestamp": "2025-12-26T04:56:25.702567",
+  "timestamp": "2025-12-27T04:36:07.097073",
   "intraday_data": {
-    "status": "success",
-    "rows": 5,
-    "data": [
-      {
-        "Close": 6.03000020980835,
-        "High": 6.03000020980835,
-        "Low": 6.0,
-        "Open": 6.0,
-        "Volume": 0
-      },
-      {
-        "Close": 6.159999847412109,
-        "High": 6.159999847412109,
-        "Low": 6.159999847412109,
-        "Open": 6.159999847412109,
-        "Volume": 136
-      },
-      {
-        "Close": 6.190000057220459,
-        "High": 6.190000057220459,
-        "Low": 6.190000057220459,
-        "Open": 6.190000057220459,
-        "Volume": 200
-      },
-      {
-        "Close": 6.10699987411499,
-        "High": 6.230000019073486,
-        "Low": 6.090000152587891,
-        "Open": 6.230000019073486,
-        "Volume": 5103
-      },
-      {
-        "Close": 6.054999828338623,
-        "High": 6.054999828338623,
-        "Low": 6.054999828338623,
-        "Open": 6.054999828338623,
-        "Volume": 131
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -63,71 +26,8 @@
   },
   "news_data": {
     "news": {
-      "status": "success",
-      "count": 1,
-      "data": [
-        {
-          "id": "8ad58987-d063-3259-be42-75a047d8b324",
-          "content": {
-            "id": "8ad58987-d063-3259-be42-75a047d8b324",
-            "contentType": "STORY",
-            "title": "Broadway Financial (NASDAQ:BYFC shareholders incur further losses as stock declines 12% this week, taking three-year losses to 48%",
-            "description": "",
-            "summary": "Broadway Financial Corporation ( NASDAQ:BYFC ) shareholders should be happy to see the share price up 19% in the last...",
-            "pubDate": "2025-01-24T13:55:52Z",
-            "displayTime": "2025-01-24T13:55:52Z",
-            "isHosted": true,
-            "bypassModal": false,
-            "previewUrl": null,
-            "thumbnail": {
-              "originalUrl": "https://media.zenfs.com/en/simply_wall_st__316/0107d648e19bcd04135981178abf00cb",
-              "originalWidth": 1194,
-              "originalHeight": 432,
-              "caption": "",
-              "resolutions": [
-                {
-                  "url": "https://s.yimg.com/uu/api/res/1.2/HbBcRqmcQDbUzr9ugTsjEA--~B/aD00MzI7dz0xMTk0O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/simply_wall_st__316/0107d648e19bcd04135981178abf00cb",
-                  "width": 1194,
-                  "height": 432,
-                  "tag": "original"
-                },
-                {
-                  "url": "https://s.yimg.com/uu/api/res/1.2/G9I8pUAqTkmKu8FNqdcsBg--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/simply_wall_st__316/0107d648e19bcd04135981178abf00cb",
-                  "width": 170,
-                  "height": 128,
-                  "tag": "170x128"
-                }
-              ]
-            },
-            "provider": {
-              "displayName": "Simply Wall St.",
-              "url": "https://simplywall.st/"
-            },
-            "canonicalUrl": {
-              "url": "https://finance.yahoo.com/news/broadway-financial-nasdaq-byfc-shareholders-135552348.html",
-              "site": "finance",
-              "region": "US",
-              "lang": "en-US"
-            },
-            "clickThroughUrl": {
-              "url": "https://finance.yahoo.com/news/broadway-financial-nasdaq-byfc-shareholders-135552348.html",
-              "site": "finance",
-              "region": "US",
-              "lang": "en-US"
-            },
-            "metadata": {
-              "editorsPick": false
-            },
-            "finance": {
-              "premiumFinance": {
-                "isPremiumNews": false,
-                "isPremiumFreeNews": false
-              }
-            },
-            "storyline": null
-          }
-        }
-      ]
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

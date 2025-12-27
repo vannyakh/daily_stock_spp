@@ -1,9 +1,18 @@
 {
   "ticker": "GAINN",
-  "timestamp": "2025-12-26T05:24:31.992051",
+  "timestamp": "2025-12-27T04:49:49.541659",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 1,
+    "data": [
+      {
+        "Close": 25.200000762939453,
+        "High": 25.200000762939453,
+        "Low": 25.200000762939453,
+        "Open": 25.200000762939453,
+        "Volume": 0
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -26,7 +35,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

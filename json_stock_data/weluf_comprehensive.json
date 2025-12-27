@@ -1,9 +1,39 @@
 {
   "ticker": "WELUF",
-  "timestamp": "2025-12-26T05:16:56.075739",
+  "timestamp": "2025-12-27T04:46:28.997590",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 4,
+    "data": [
+      {
+        "Close SATLW": 0.3774999976158142,
+        "High SATLW": 0.3774999976158142,
+        "Low SATLW": 0.3774999976158142,
+        "Open SATLW": 0.3774999976158142,
+        "Volume SATLW": 0
+      },
+      {
+        "Close SATLW": 0.37299999594688416,
+        "High SATLW": 0.37299999594688416,
+        "Low SATLW": 0.37299999594688416,
+        "Open SATLW": 0.37299999594688416,
+        "Volume SATLW": 182
+      },
+      {
+        "Close SATLW": 0.32679998874664307,
+        "High SATLW": 0.32679998874664307,
+        "Low SATLW": 0.32679998874664307,
+        "Open SATLW": 0.32679998874664307,
+        "Volume SATLW": 550
+      },
+      {
+        "Close SATLW": 0.3375000059604645,
+        "High SATLW": 0.3375000059604645,
+        "Low SATLW": 0.3375000059604645,
+        "Open SATLW": 0.3375000059604645,
+        "Volume SATLW": 102
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -26,7 +56,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",
