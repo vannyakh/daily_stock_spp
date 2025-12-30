@@ -1,25 +1,9 @@
 {
   "ticker": "ZNOGW",
-  "timestamp": "2025-12-27T04:47:21.271322",
+  "timestamp": "2025-12-30T04:54:26.371188",
   "intraday_data": {
-    "status": "success",
-    "rows": 2,
-    "data": [
-      {
-        "Close CSDX": 0.28999999165534973,
-        "High CSDX": 0.28999999165534973,
-        "Low CSDX": 0.28999999165534973,
-        "Open CSDX": 0.28999999165534973,
-        "Volume CSDX": 0
-      },
-      {
-        "Close CSDX": 0.28999999165534973,
-        "High CSDX": 0.28999999165534973,
-        "Low CSDX": 0.28999999165534973,
-        "Open CSDX": 0.28999999165534973,
-        "Volume CSDX": 2500
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -30,42 +14,15 @@
       "status": "no_data"
     },
     "balance_sheet": {
-      "status": "no_data"
-    },
-    "cash_flow": {
-      "status": "no_data"
-    }
-  },
-  "options_data": {
-    "status": "error",
-    "error_message": "Too Many Requests. Rate limited. Try after a while."
-  },
-  "news_data": {
-    "news": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
-    },
-    "recommendations": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
-    }
-  },
-  "holders_data": {
-    "major_holders": {
-      "status": "error"
-    },
-    "institutional_holders": {
-      "status": "error"
-    }
-  },
-  "earnings_data": {
-    "earnings": {
-      "status": "error",
-      "message": "'NoneType' object has no attribute 'empty'"
-    },
-    "calendar": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
-    }
-  }
-}
+      "status": "success",
+      "rows": 51,
+      "columns": [
+        "2024-12-31 00:00:00",
+        "2023-12-31 00:00:00",
+        "2022-12-31 00:00:00",
+        "2021-12-31 00:00:00",
+        "2020-12-31 00:00:00"
+      ],
+      "data": [
+        {
+          

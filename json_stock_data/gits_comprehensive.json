@@ -1,9 +1,23 @@
 {
   "ticker": "GITS",
-  "timestamp": "2025-12-27T04:40:03.208935",
+  "timestamp": "2025-12-30T04:47:20.256555",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 1,
+    "data": [
+      {
+        "Close BLMH": 0.6029999852180481,
+        "Close": 0.6816999912261963,
+        "High BLMH": 0.6029999852180481,
+        "High": 0.7350999712944031,
+        "Low BLMH": 0.6029999852180481,
+        "Low": 0.6816999912261963,
+        "Open BLMH": 0.6029999852180481,
+        "Open": 0.6816999912261963,
+        "Volume BLMH": 0.0,
+        "Volume": 1533.0
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -135,7 +149,7 @@
     },
     "calendar": {
       "status": "error",
-      "message": "'dict' object has no attribute 'empty'"
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   }
 }

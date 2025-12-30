@@ -1,9 +1,25 @@
 {
   "ticker": "HAWLN",
-  "timestamp": "2025-12-27T04:45:05.031509",
+  "timestamp": "2025-12-30T04:52:08.781226",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 2,
+    "data": [
+      {
+        "Close CAS": 25.06999969482422,
+        "High CAS": 25.06999969482422,
+        "Low CAS": 25.06999969482422,
+        "Open CAS": 25.06999969482422,
+        "Volume CAS": 0
+      },
+      {
+        "Close CAS": 24.968000411987305,
+        "High CAS": 24.968000411987305,
+        "Low CAS": 24.961000442504883,
+        "Open CAS": 24.961000442504883,
+        "Volume CAS": 140
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -30,7 +46,8 @@
       "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   },
   "holders_data": {

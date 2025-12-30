@@ -1,10 +1,32 @@
 {
   "ticker": "GPFT",
-  "timestamp": "2025-12-27T04:45:41.415187",
+  "timestamp": "2025-12-30T04:52:46.117969",
   "intraday_data": {
     "status": "success",
-    "rows": 0,
-    "data": []
+    "rows": 3,
+    "data": [
+      {
+        "Close TKOI": 0.014100000262260437,
+        "High TKOI": 0.014100000262260437,
+        "Low TKOI": 0.014100000262260437,
+        "Open TKOI": 0.014100000262260437,
+        "Volume TKOI": 0
+      },
+      {
+        "Close TKOI": 0.014100000262260437,
+        "High TKOI": 0.014100000262260437,
+        "Low TKOI": 0.014100000262260437,
+        "Open TKOI": 0.014100000262260437,
+        "Volume TKOI": 5000
+      },
+      {
+        "Close TKOI": 0.012199999764561653,
+        "High TKOI": 0.012199999764561653,
+        "Low TKOI": 0.012199999764561653,
+        "Open TKOI": 0.012199999764561653,
+        "Volume TKOI": 35
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -15,42 +37,12 @@
       "status": "no_data"
     },
     "balance_sheet": {
-      "status": "no_data"
-    },
-    "cash_flow": {
-      "status": "no_data"
-    }
-  },
-  "options_data": {
-    "status": "error",
-    "error_message": "Too Many Requests. Rate limited. Try after a while."
-  },
-  "news_data": {
-    "news": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
-    },
-    "recommendations": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
-    }
-  },
-  "holders_data": {
-    "major_holders": {
-      "status": "error"
-    },
-    "institutional_holders": {
-      "status": "error"
-    }
-  },
-  "earnings_data": {
-    "earnings": {
-      "status": "error",
-      "message": "'NoneType' object has no attribute 'empty'"
-    },
-    "calendar": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
-    }
-  }
-}
+      "status": "success",
+      "rows": 59,
+      "columns": [
+        "2021-12-31 00:00:00",
+        "2020-12-31 00:00:00"
+      ],
+      "data": [
+        {
+          

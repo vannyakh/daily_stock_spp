@@ -1,132 +1,55 @@
 {
   "ticker": "BCEFF",
-  "timestamp": "2025-12-27T04:49:41.438111",
+  "timestamp": "2025-12-30T04:56:45.908859",
   "intraday_data": {
-    "status": "success",
-    "rows": 15,
-    "data": [
-      {
-        "Close HBANM": 22.100000381469727,
-        "High HBANM": 22.137699127197266,
-        "Low HBANM": 22.068099975585938,
-        "Open HBANM": 22.137699127197266,
-        "Volume HBANM": 0
-      },
-      {
-        "Close HBANM": 22.077600479125977,
-        "High HBANM": 22.077600479125977,
-        "Low HBANM": 22.077600479125977,
-        "Open HBANM": 22.077600479125977,
-        "Volume HBANM": 554
-      },
-      {
-        "Close HBANM": 22.070100784301758,
-        "High HBANM": 22.070100784301758,
-        "Low HBANM": 22.06999969482422,
-        "Open HBANM": 22.06999969482422,
-        "Volume HBANM": 1628
-      },
-      {
-        "Close HBANM": 22.06999969482422,
-        "High HBANM": 22.06999969482422,
-        "Low HBANM": 22.06999969482422,
-        "Open HBANM": 22.06999969482422,
-        "Volume HBANM": 304
-      },
-      {
-        "Close HBANM": 22.06999969482422,
-        "High HBANM": 22.06999969482422,
-        "Low HBANM": 22.06999969482422,
-        "Open HBANM": 22.06999969482422,
-        "Volume HBANM": 203
-      },
-      {
-        "Close HBANM": 22.049999237060547,
-        "High HBANM": 22.06999969482422,
-        "Low HBANM": 22.049999237060547,
-        "Open HBANM": 22.06999969482422,
-        "Volume HBANM": 1732
-      },
-      {
-        "Close HBANM": 22.110000610351562,
-        "High HBANM": 22.110000610351562,
-        "Low HBANM": 22.110000610351562,
-        "Open HBANM": 22.110000610351562,
-        "Volume HBANM": 229
-      },
-      {
-        "Close HBANM": 22.030000686645508,
-        "High HBANM": 22.030000686645508,
-        "Low HBANM": 22.030000686645508,
-        "Open HBANM": 22.030000686645508,
-        "Volume HBANM": 202
-      },
-      {
-        "Close HBANM": 22.093799591064453,
-        "High HBANM": 22.093799591064453,
-        "Low HBANM": 22.093799591064453,
-        "Open HBANM": 22.093799591064453,
-        "Volume HBANM": 323
-      },
-      {
-        "Close HBANM": 22.11520004272461,
-        "High HBANM": 22.11520004272461,
-        "Low HBANM": 22.11520004272461,
-        "Open HBANM": 22.11520004272461,
-        "Volume HBANM": 780
-      },
-      {
-        "Close HBANM": 22.105100631713867,
-        "High HBANM": 22.105100631713867,
-        "Low HBANM": 22.105100631713867,
-        "Open HBANM": 22.105100631713867,
-        "Volume HBANM": 467
-      },
-      {
-        "Close HBANM": 22.1200008392334,
-        "High HBANM": 22.1200008392334,
-        "Low HBANM": 22.1200008392334,
-        "Open HBANM": 22.1200008392334,
-        "Volume HBANM": 1089
-      },
-      {
-        "Close HBANM": 22.086999893188477,
-        "High HBANM": 22.086999893188477,
-        "Low HBANM": 22.086999893188477,
-        "Open HBANM": 22.086999893188477,
-        "Volume HBANM": 200
-      },
-      {
-        "Close HBANM": 22.15999984741211,
-        "High HBANM": 22.15999984741211,
-        "Low HBANM": 22.15999984741211,
-        "Open HBANM": 22.15999984741211,
-        "Volume HBANM": 906
-      },
-      {
-        "Close HBANM": 22.129499435424805,
-        "High HBANM": 22.129499435424805,
-        "Low HBANM": 22.129499435424805,
-        "Open HBANM": 22.129499435424805,
-        "Volume HBANM": 129
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
-    "message": "argument of type 'NoneType' is not iterable"
+    "message": "Too Many Requests. Rate limited. Try after a while."
   },
   "financials": {
     "income_statement": {
-      "status": "success",
-      "rows": 55,
-      "columns": [
-        "2024-12-31 00:00:00",
-        "2023-12-31 00:00:00",
-        "2022-12-31 00:00:00",
-        "2021-12-31 00:00:00",
-        "2020-12-31 00:00:00"
-      ],
-      "data": [
-        {
-          
+      "status": "no_data"
+    },
+    "balance_sheet": {
+      "status": "no_data"
+    },
+    "cash_flow": {
+      "status": "no_data"
+    }
+  },
+  "options_data": {
+    "status": "error",
+    "error_message": "Too Many Requests. Rate limited. Try after a while."
+  },
+  "news_data": {
+    "news": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    },
+    "recommendations": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  },
+  "holders_data": {
+    "major_holders": {
+      "status": "error"
+    },
+    "institutional_holders": {
+      "status": "error"
+    }
+  },
+  "earnings_data": {
+    "earnings": {
+      "status": "error",
+      "message": "'NoneType' object has no attribute 'empty'"
+    },
+    "calendar": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  }
+}

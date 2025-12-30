@@ -1,9 +1,10 @@
 {
   "ticker": "NICH",
-  "timestamp": "2025-12-27T04:42:58.357923",
+  "timestamp": "2025-12-30T04:50:04.900478",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 0,
+    "data": []
   },
   "stock_info": {
     "status": "error",
@@ -26,7 +27,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

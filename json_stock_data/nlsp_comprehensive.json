@@ -1,18 +1,9 @@
 {
   "ticker": "NLSP",
-  "timestamp": "2025-12-27T04:40:53.027935",
+  "timestamp": "2025-12-30T04:48:09.560473",
   "intraday_data": {
-    "status": "success",
-    "rows": 1,
-    "data": [
-      {
-        "Close CPMD": 0.006000000052154064,
-        "High CPMD": 0.006000000052154064,
-        "Low CPMD": 0.006000000052154064,
-        "Open CPMD": 0.006000000052154064,
-        "Volume CPMD": 0
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -163,7 +154,8 @@
       ]
     },
     "recommendations": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   },
   "holders_data": {

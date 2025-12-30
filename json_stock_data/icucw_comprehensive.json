@@ -1,23 +1,23 @@
 {
   "ticker": "ICUCW",
-  "timestamp": "2025-12-27T04:50:10.239564",
+  "timestamp": "2025-12-30T04:57:14.632733",
   "intraday_data": {
     "status": "success",
     "rows": 2,
     "data": [
       {
-        "Close": 0.010700000450015068,
-        "High": 0.010700000450015068,
-        "Low": 0.010700000450015068,
-        "Open": 0.010700000450015068,
-        "Volume": 9475
+        "Close": 0.011300000362098217,
+        "High": 0.011300000362098217,
+        "Low": 0.011300000362098217,
+        "Open": 0.011300000362098217,
+        "Volume": 0
       },
       {
         "Close": 0.011300000362098217,
         "High": 0.011300000362098217,
         "Low": 0.011300000362098217,
         "Open": 0.011300000362098217,
-        "Volume": 1791
+        "Volume": 130
       }
     ]
   },
@@ -30,15 +30,42 @@
       "status": "no_data"
     },
     "balance_sheet": {
-      "status": "success",
-      "rows": 51,
-      "columns": [
-        "2024-12-31 00:00:00",
-        "2023-12-31 00:00:00",
-        "2022-12-31 00:00:00",
-        "2021-12-31 00:00:00",
-        "2020-12-31 00:00:00"
-      ],
-      "data": [
-        {
-          
+      "status": "no_data"
+    },
+    "cash_flow": {
+      "status": "no_data"
+    }
+  },
+  "options_data": {
+    "status": "error",
+    "error_message": "Too Many Requests. Rate limited. Try after a while."
+  },
+  "news_data": {
+    "news": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    },
+    "recommendations": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  },
+  "holders_data": {
+    "major_holders": {
+      "status": "error"
+    },
+    "institutional_holders": {
+      "status": "error"
+    }
+  },
+  "earnings_data": {
+    "earnings": {
+      "status": "error",
+      "message": "'NoneType' object has no attribute 'empty'"
+    },
+    "calendar": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  }
+}

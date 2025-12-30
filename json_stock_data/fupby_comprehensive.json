@@ -1,78 +1,29 @@
 {
   "ticker": "FUPBY",
-  "timestamp": "2025-12-27T04:44:29.893506",
+  "timestamp": "2025-12-30T04:51:33.633299",
   "intraday_data": {
     "status": "success",
-    "rows": 9,
+    "rows": 2,
     "data": [
       {
-        "Close PCG-PB": 20.299999237060547,
-        "High PCG-PB": 20.299999237060547,
-        "Low PCG-PB": 20.299999237060547,
-        "Open PCG-PB": 20.299999237060547,
-        "Volume PCG-PB": 0
+        "Close": 11.180000305175781,
+        "High": 11.180000305175781,
+        "Low": 11.180000305175781,
+        "Open": 11.180000305175781,
+        "Volume": 0
       },
       {
-        "Close PCG-PB": 19.826000213623047,
-        "High PCG-PB": 19.826000213623047,
-        "Low PCG-PB": 19.826000213623047,
-        "Open PCG-PB": 19.826000213623047,
-        "Volume PCG-PB": 100
-      },
-      {
-        "Close PCG-PB": 19.962200164794922,
-        "High PCG-PB": 19.962200164794922,
-        "Low PCG-PB": 19.962200164794922,
-        "Open PCG-PB": 19.962200164794922,
-        "Volume PCG-PB": 125
-      },
-      {
-        "Close PCG-PB": 19.709999084472656,
-        "High PCG-PB": 19.989999771118164,
-        "Low PCG-PB": 19.709999084472656,
-        "Open PCG-PB": 19.989999771118164,
-        "Volume PCG-PB": 250
-      },
-      {
-        "Close PCG-PB": 19.999900817871094,
-        "High PCG-PB": 19.999900817871094,
-        "Low PCG-PB": 19.999900817871094,
-        "Open PCG-PB": 19.999900817871094,
-        "Volume PCG-PB": 225
-      },
-      {
-        "Close PCG-PB": 19.709999084472656,
-        "High PCG-PB": 19.709999084472656,
-        "Low PCG-PB": 19.709999084472656,
-        "Open PCG-PB": 19.709999084472656,
-        "Volume PCG-PB": 150
-      },
-      {
-        "Close PCG-PB": 19.854999542236328,
-        "High PCG-PB": 20.0,
-        "Low PCG-PB": 19.854999542236328,
-        "Open PCG-PB": 19.854999542236328,
-        "Volume PCG-PB": 1264
-      },
-      {
-        "Close PCG-PB": 19.860000610351562,
-        "High PCG-PB": 19.860000610351562,
-        "Low PCG-PB": 19.860000610351562,
-        "Open PCG-PB": 19.860000610351562,
-        "Volume PCG-PB": 110
-      },
-      {
-        "Close PCG-PB": 20.3439998626709,
-        "High PCG-PB": 20.3439998626709,
-        "Low PCG-PB": 20.3439998626709,
-        "Open PCG-PB": 20.3439998626709,
-        "Volume PCG-PB": 250
+        "Close": 10.949999809265137,
+        "High": 10.949999809265137,
+        "Low": 10.949999809265137,
+        "Open": 10.949999809265137,
+        "Volume": 1000
       }
     ]
   },
   "stock_info": {
     "status": "error",
-    "message": "argument of type 'NoneType' is not iterable"
+    "message": "Too Many Requests. Rate limited. Try after a while."
   },
   "financials": {
     "income_statement": {
@@ -101,10 +52,10 @@
   },
   "holders_data": {
     "major_holders": {
-      "status": "no_data"
+      "status": "error"
     },
     "institutional_holders": {
-      "status": "no_data"
+      "status": "error"
     }
   },
   "earnings_data": {
@@ -114,7 +65,7 @@
     },
     "calendar": {
       "status": "error",
-      "message": "'dict' object has no attribute 'empty'"
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   }
 }

@@ -1,32 +1,9 @@
 {
   "ticker": "CBDL",
-  "timestamp": "2025-12-27T04:42:12.044690",
+  "timestamp": "2025-12-30T04:49:22.674499",
   "intraday_data": {
-    "status": "success",
-    "rows": 3,
-    "data": [
-      {
-        "Close": 9.999999747378752e-05,
-        "High": 9.999999747378752e-05,
-        "Low": 9.999999747378752e-05,
-        "Open": 9.999999747378752e-05,
-        "Volume": 0
-      },
-      {
-        "Close": 9.999999747378752e-05,
-        "High": 9.999999747378752e-05,
-        "Low": 9.999999747378752e-05,
-        "Open": 9.999999747378752e-05,
-        "Volume": 25
-      },
-      {
-        "Close": 0.00019999999494757503,
-        "High": 0.00019999999494757503,
-        "Low": 0.00019999999494757503,
-        "Open": 0.00019999999494757503,
-        "Volume": 559000
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -52,7 +29,8 @@
       "status": "no_data"
     },
     "recommendations": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   },
   "holders_data": {

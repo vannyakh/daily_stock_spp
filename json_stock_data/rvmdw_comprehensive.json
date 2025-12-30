@@ -1,55 +1,55 @@
 {
   "ticker": "RVMDW",
-  "timestamp": "2025-12-27T04:48:24.308646",
+  "timestamp": "2025-12-30T04:55:30.811935",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 4,
+    "data": [
+      {
+        "Close": 0.9300000071525574,
+        "High": 0.9300000071525574,
+        "Low": 0.9300000071525574,
+        "Open": 0.9300000071525574,
+        "Volume": 0
+      },
+      {
+        "Close": 0.949999988079071,
+        "High": 0.949999988079071,
+        "Low": 0.949999988079071,
+        "Open": 0.949999988079071,
+        "Volume": 473
+      },
+      {
+        "Close": 0.9287999868392944,
+        "High": 0.9287999868392944,
+        "Low": 0.9287999868392944,
+        "Open": 0.9287999868392944,
+        "Volume": 900
+      },
+      {
+        "Close": 0.9200000166893005,
+        "High": 0.9200000166893005,
+        "Low": 0.9200000166893005,
+        "Open": 0.9200000166893005,
+        "Volume": 404
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
-    "message": "Too Many Requests. Rate limited. Try after a while."
+    "message": "argument of type 'NoneType' is not iterable"
   },
   "financials": {
     "income_statement": {
-      "status": "no_data"
-    },
-    "balance_sheet": {
-      "status": "no_data"
-    },
-    "cash_flow": {
-      "status": "no_data"
-    }
-  },
-  "options_data": {
-    "status": "error",
-    "error_message": "Too Many Requests. Rate limited. Try after a while."
-  },
-  "news_data": {
-    "news": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
-    },
-    "recommendations": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
-    }
-  },
-  "holders_data": {
-    "major_holders": {
-      "status": "error"
-    },
-    "institutional_holders": {
-      "status": "error"
-    }
-  },
-  "earnings_data": {
-    "earnings": {
-      "status": "error",
-      "message": "'NoneType' object has no attribute 'empty'"
-    },
-    "calendar": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
-    }
-  }
-}
+      "status": "success",
+      "rows": 39,
+      "columns": [
+        "2024-12-31 00:00:00",
+        "2023-12-31 00:00:00",
+        "2022-12-31 00:00:00",
+        "2021-12-31 00:00:00",
+        "2020-12-31 00:00:00"
+      ],
+      "data": [
+        {
+          

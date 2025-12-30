@@ -1,57 +1,55 @@
 {
   "ticker": "SYH",
-  "timestamp": "2025-12-27T04:43:11.729104",
+  "timestamp": "2025-12-30T04:50:15.684752",
   "intraday_data": {
     "status": "no_data",
     "message": "No intraday data available"
   },
   "stock_info": {
-    "status": "success",
-    "data": {
-      "quoteType": "ECNQUOTE",
-      "symbol": "SYH",
-      "language": "en-US",
-      "region": "US",
-      "typeDisp": "ECNQUOTE",
-      "quoteSourceName": "Delayed Quote",
-      "triggerable": true,
-      "customPriceAlertConfidence": "HIGH",
-      "marketState": "POSTPOST",
-      "hasPrePostMarketData": false,
-      "firstTradeDateMilliseconds": 839511000000,
-      "priceHint": 2,
-      "fullExchangeName": "NasdaqGS",
-      "averageDailyVolume3Month": 147938,
-      "exchange": "NMS",
-      "exchangeTimezoneName": "America/New_York",
-      "exchangeTimezoneShortName": "EST",
-      "gmtOffSetMilliseconds": -18000000,
-      "market": "us_market",
-      "esgPopulated": false,
-      "averageDailyVolume10Day": 147938,
-      "fiftyTwoWeekRange": "0.385 - 0.41",
-      "fiftyTwoWeekLow": 0.385,
-      "fiftyTwoWeekHigh": 0.41,
-      "fiftyTwoWeekChangePercent": 0.0,
-      "fiftyDayAverage": 0.39,
-      "twoHundredDayAverage": 0.39,
-      "sourceInterval": 15,
-      "exchangeDataDelayedBy": 0,
-      "tradeable": false,
-      "cryptoTradeable": false,
-      "longName": "Mountain&Sea Health Inc",
-      "displayName": "Mountain&Sea Health"
-    }
+    "status": "error",
+    "message": "Too Many Requests. Rate limited. Try after a while."
   },
   "financials": {
     "income_statement": {
-      "status": "success",
-      "rows": 39,
-      "columns": [
-        "2024-06-30 00:00:00",
-        "2023-06-30 00:00:00",
-        "2022-06-30 00:00:00"
-      ],
-      "data": [
-        {
-          
+      "status": "no_data"
+    },
+    "balance_sheet": {
+      "status": "no_data"
+    },
+    "cash_flow": {
+      "status": "no_data"
+    }
+  },
+  "options_data": {
+    "status": "error",
+    "error_message": "Too Many Requests. Rate limited. Try after a while."
+  },
+  "news_data": {
+    "news": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    },
+    "recommendations": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  },
+  "holders_data": {
+    "major_holders": {
+      "status": "error"
+    },
+    "institutional_holders": {
+      "status": "error"
+    }
+  },
+  "earnings_data": {
+    "earnings": {
+      "status": "error",
+      "message": "'NoneType' object has no attribute 'empty'"
+    },
+    "calendar": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  }
+}

@@ -1,13 +1,55 @@
 {
   "ticker": "TPIC",
-  "timestamp": "2025-12-27T04:36:03.351095",
+  "timestamp": "2025-12-30T04:43:19.978283",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 1,
+    "data": [
+      {
+        "Close AVAI": 0.2919999957084656,
+        "High AVAI": 0.2919999957084656,
+        "Low AVAI": 0.2919999957084656,
+        "Open AVAI": 0.2919999957084656,
+        "Volume AVAI": 0
+      }
+    ]
   },
   "stock_info": {
-    "status": "error",
-    "message": "Too Many Requests. Rate limited. Try after a while."
+    "status": "success",
+    "data": {
+      "maxAge": 86400,
+      "priceHint": 4,
+      "previousClose": 0.1271,
+      "regularMarketPreviousClose": 0.1271,
+      "currency": "USD",
+      "tradeable": false,
+      "quoteType": "EQUITY",
+      "symbol": "TPIC",
+      "language": "en-US",
+      "region": "US",
+      "typeDisp": "Equity",
+      "quoteSourceName": "Delayed Quote",
+      "triggerable": true,
+      "customPriceAlertConfidence": "HIGH",
+      "shortName": "TPI Composites, Inc.",
+      "regularMarketChangePercent": 0.0,
+      "regularMarketPrice": 0.1271,
+      "marketState": "POSTPOST",
+      "regularMarketTime": 1764104400,
+      "exchange": "NGM",
+      "exchangeTimezoneName": "America/New_York",
+      "exchangeTimezoneShortName": "EST",
+      "gmtOffSetMilliseconds": -18000000,
+      "market": "us_market",
+      "esgPopulated": false,
+      "sourceInterval": 15,
+      "exchangeDataDelayedBy": 0,
+      "cryptoTradeable": false,
+      "hasPrePostMarketData": true,
+      "regularMarketChange": 0.0,
+      "fullExchangeName": "NasdaqGM",
+      "displayName": "TPI Composites"
+    }
   },
   "financials": {
     "income_statement": {
@@ -21,8 +63,97 @@
     }
   },
   "options_data": {
-    "status": "error",
-    "error_message": "Too Many Requests. Rate limited. Try after a while."
+    "expirations": [
+      "2026-02-20"
+    ],
+    "expiration_2026-02-20": {
+      "calls_count": 3,
+      "puts_count": 2,
+      "calls": [
+        {
+          "contractSymbol": "TPIC260220C00002500",
+          "lastTradeDate": "2025-08-08 18:58:57+00:00",
+          "strike": 2.5,
+          "lastPrice": 0.05,
+          "bid": 0.0,
+          "ask": 0.0,
+          "change": 0.0,
+          "percentChange": 0.0,
+          "volume": 40.0,
+          "openInterest": 0,
+          "impliedVolatility": 0.500005,
+          "inTheMoney": false,
+          "contractSize": "REGULAR",
+          "currency": "USD"
+        },
+        {
+          "contractSymbol": "TPIC260220C00005000",
+          "lastTradeDate": "2025-08-14 19:04:31+00:00",
+          "strike": 5.0,
+          "lastPrice": 0.05,
+          "bid": 0.0,
+          "ask": 0.0,
+          "change": 0.0,
+          "percentChange": 0.0,
+          "volume": 10.0,
+          "openInterest": 67,
+          "impliedVolatility": 0.500005,
+          "inTheMoney": false,
+          "contractSize": "REGULAR",
+          "currency": "USD"
+        },
+        {
+          "contractSymbol": "TPIC260220C00007500",
+          "lastTradeDate": "2025-08-14 15:42:57+00:00",
+          "strike": 7.5,
+          "lastPrice": 0.05,
+          "bid": NaN,
+          "ask": 0.0,
+          "change": 0.0,
+          "percentChange": 0.0,
+          "volume": NaN,
+          "openInterest": 0,
+          "impliedVolatility": 0.500005,
+          "inTheMoney": false,
+          "contractSize": "REGULAR",
+          "currency": "USD"
+        }
+      ],
+      "puts": [
+        {
+          "contractSymbol": "TPIC260220P00002500",
+          "lastTradeDate": "2025-08-15 14:15:28+00:00",
+          "strike": 2.5,
+          "lastPrice": 2.32,
+          "bid": 0.0,
+          "ask": 0.0,
+          "change": 0.0,
+          "percentChange": 0.0,
+          "volume": 5.0,
+          "openInterest": 0,
+          "impliedVolatility": 1.0000000000000003e-05,
+          "inTheMoney": true,
+          "contractSize": "REGULAR",
+          "currency": "USD"
+        },
+        {
+          "contractSymbol": "TPIC260220P00005000",
+          "lastTradeDate": "2025-06-23 15:57:39+00:00",
+          "strike": 5.0,
+          "lastPrice": 4.0,
+          "bid": 4.1,
+          "ask": 5.1,
+          "change": 0.0,
+          "percentChange": 0.0,
+          "volume": NaN,
+          "openInterest": 0,
+          "impliedVolatility": 0.0,
+          "inTheMoney": true,
+          "contractSize": "REGULAR",
+          "currency": "USD"
+        }
+      ]
+    }
   },
   "news_data": {
     "news": {

@@ -1,55 +1,68 @@
 {
   "ticker": "CGEH",
-  "timestamp": "2025-12-27T04:43:32.367477",
+  "timestamp": "2025-12-30T04:50:36.764907",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 6,
+    "data": [
+      {
+        "Close HDLMY": 52.2400016784668,
+        "High HDLMY": 52.2400016784668,
+        "Low HDLMY": 52.2400016784668,
+        "Open HDLMY": 52.2400016784668,
+        "Volume HDLMY": 0
+      },
+      {
+        "Close HDLMY": 52.119998931884766,
+        "High HDLMY": 52.119998931884766,
+        "Low HDLMY": 52.119998931884766,
+        "Open HDLMY": 52.119998931884766,
+        "Volume HDLMY": 750
+      },
+      {
+        "Close HDLMY": 52.31999969482422,
+        "High HDLMY": 52.31999969482422,
+        "Low HDLMY": 52.31999969482422,
+        "Open HDLMY": 52.31999969482422,
+        "Volume HDLMY": 1000
+      },
+      {
+        "Close HDLMY": 52.38999938964844,
+        "High HDLMY": 52.38999938964844,
+        "Low HDLMY": 52.38999938964844,
+        "Open HDLMY": 52.38999938964844,
+        "Volume HDLMY": 18
+      },
+      {
+        "Close HDLMY": 52.29999923706055,
+        "High HDLMY": 52.29999923706055,
+        "Low HDLMY": 52.29999923706055,
+        "Open HDLMY": 52.29999923706055,
+        "Volume HDLMY": 15
+      },
+      {
+        "Close HDLMY": 52.29999923706055,
+        "High HDLMY": 52.29999923706055,
+        "Low HDLMY": 52.29999923706055,
+        "Open HDLMY": 52.29999923706055,
+        "Volume HDLMY": 428
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
-    "message": "Too Many Requests. Rate limited. Try after a while."
+    "message": "argument of type 'NoneType' is not iterable"
   },
   "financials": {
     "income_statement": {
-      "status": "no_data"
-    },
-    "balance_sheet": {
-      "status": "no_data"
-    },
-    "cash_flow": {
-      "status": "no_data"
-    }
-  },
-  "options_data": {
-    "status": "error",
-    "error_message": "Too Many Requests. Rate limited. Try after a while."
-  },
-  "news_data": {
-    "news": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
-    },
-    "recommendations": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
-    }
-  },
-  "holders_data": {
-    "major_holders": {
-      "status": "error"
-    },
-    "institutional_holders": {
-      "status": "error"
-    }
-  },
-  "earnings_data": {
-    "earnings": {
-      "status": "error",
-      "message": "'NoneType' object has no attribute 'empty'"
-    },
-    "calendar": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
-    }
-  }
-}
+      "status": "success",
+      "rows": 45,
+      "columns": [
+        "2025-03-31 00:00:00",
+        "2024-03-31 00:00:00",
+        "2022-03-31 00:00:00",
+        "2021-03-31 00:00:00"
+      ],
+      "data": [
+        {
+          

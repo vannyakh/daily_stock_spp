@@ -1,9 +1,39 @@
 {
   "ticker": "TBLAW",
-  "timestamp": "2025-12-27T04:47:44.618498",
+  "timestamp": "2025-12-30T04:54:49.818738",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 4,
+    "data": [
+      {
+        "Close": 0.05260000005364418,
+        "High": 0.05920000001788139,
+        "Low": 0.05260000005364418,
+        "Open": 0.05920000001788139,
+        "Volume": 0
+      },
+      {
+        "Close": 0.05400000140070915,
+        "High": 0.05400000140070915,
+        "Low": 0.05400000140070915,
+        "Open": 0.05400000140070915,
+        "Volume": 4100
+      },
+      {
+        "Close": 0.05299999937415123,
+        "High": 0.05299999937415123,
+        "Low": 0.05299999937415123,
+        "Open": 0.05299999937415123,
+        "Volume": 1200
+      },
+      {
+        "Close": 0.05310000106692314,
+        "High": 0.05550000071525574,
+        "Low": 0.05310000106692314,
+        "Open": 0.05550000071525574,
+        "Volume": 6819
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -11,45 +41,15 @@
   },
   "financials": {
     "income_statement": {
-      "status": "no_data"
-    },
-    "balance_sheet": {
-      "status": "no_data"
-    },
-    "cash_flow": {
-      "status": "no_data"
-    }
-  },
-  "options_data": {
-    "status": "error",
-    "error_message": "Too Many Requests. Rate limited. Try after a while."
-  },
-  "news_data": {
-    "news": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
-    },
-    "recommendations": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
-    }
-  },
-  "holders_data": {
-    "major_holders": {
-      "status": "error"
-    },
-    "institutional_holders": {
-      "status": "error"
-    }
-  },
-  "earnings_data": {
-    "earnings": {
-      "status": "error",
-      "message": "'NoneType' object has no attribute 'empty'"
-    },
-    "calendar": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
-    }
-  }
-}
+      "status": "success",
+      "rows": 38,
+      "columns": [
+        "2024-12-31 00:00:00",
+        "2023-12-31 00:00:00",
+        "2022-12-31 00:00:00",
+        "2021-12-31 00:00:00",
+        "2020-12-31 00:00:00"
+      ],
+      "data": [
+        {
+          

@@ -1,9 +1,32 @@
 {
   "ticker": "ARTL",
-  "timestamp": "2025-12-27T04:41:28.121102",
+  "timestamp": "2025-12-30T04:48:40.500466",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 3,
+    "data": [
+      {
+        "Close HGYN": 0.020999999716877937,
+        "High HGYN": 0.020999999716877937,
+        "Low HGYN": 0.020999999716877937,
+        "Open HGYN": 0.020999999716877937,
+        "Volume HGYN": 0
+      },
+      {
+        "Close HGYN": 0.039000000804662704,
+        "High HGYN": 0.039000000804662704,
+        "Low HGYN": 0.039000000804662704,
+        "Open HGYN": 0.039000000804662704,
+        "Volume HGYN": 1300
+      },
+      {
+        "Close HGYN": 0.041600000113248825,
+        "High HGYN": 0.041600000113248825,
+        "Low HGYN": 0.041600000113248825,
+        "Open HGYN": 0.041600000113248825,
+        "Volume HGYN": 100
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -238,7 +261,8 @@
       ]
     },
     "recommendations": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   },
   "holders_data": {

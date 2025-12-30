@@ -1,9 +1,32 @@
 {
   "ticker": "IVHI",
-  "timestamp": "2025-12-27T04:42:59.770260",
+  "timestamp": "2025-12-30T04:50:06.291346",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 3,
+    "data": [
+      {
+        "Close": 0.15000000596046448,
+        "High": 0.15000000596046448,
+        "Low": 0.15000000596046448,
+        "Open": 0.15000000596046448,
+        "Volume": 0
+      },
+      {
+        "Close": 0.14000000059604645,
+        "High": 0.14000000059604645,
+        "Low": 0.14000000059604645,
+        "Open": 0.14000000059604645,
+        "Volume": 10000
+      },
+      {
+        "Close": 0.14000000059604645,
+        "High": 0.14000000059604645,
+        "Low": 0.14000000059604645,
+        "Open": 0.14000000059604645,
+        "Volume": 0
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -26,7 +49,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

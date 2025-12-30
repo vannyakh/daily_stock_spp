@@ -1,6 +1,6 @@
 {
   "ticker": "AUVIQ",
-  "timestamp": "2025-12-27T04:46:03.647413",
+  "timestamp": "2025-12-30T04:53:07.405361",
   "intraday_data": {
     "status": "no_data",
     "message": "No intraday data available"
@@ -21,11 +21,13 @@
     }
   },
   "options_data": {
-    "expirations": []
+    "status": "error",
+    "error_message": "Too Many Requests. Rate limited. Try after a while."
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

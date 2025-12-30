@@ -1,51 +1,240 @@
 {
   "ticker": "CCIX",
-  "timestamp": "2025-12-27T04:31:17.342869",
+  "timestamp": "2025-12-30T04:38:29.960689",
   "intraday_data": {
-    "status": "success",
-    "rows": 4,
-    "data": [
-      {
-        "Close": 10.640000343322754,
-        "High": 10.640000343322754,
-        "Low": 10.640000343322754,
-        "Open": 10.640000343322754,
-        "Volume": 0
-      },
-      {
-        "Close": 10.625,
-        "High": 10.625,
-        "Low": 10.625,
-        "Open": 10.625,
-        "Volume": 0
-      },
-      {
-        "Close": 10.638799667358398,
-        "High": 10.638799667358398,
-        "Low": 10.638799667358398,
-        "Open": 10.638799667358398,
-        "Volume": 213
-      },
-      {
-        "Close": 10.600000381469727,
-        "High": 10.600000381469727,
-        "Low": 10.600000381469727,
-        "Open": 10.600000381469727,
-        "Volume": 3428
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
-    "message": "argument of type 'NoneType' is not iterable"
+    "message": "Too Many Requests. Rate limited. Try after a while."
   },
   "financials": {
     "income_statement": {
+      "status": "no_data"
+    },
+    "balance_sheet": {
+      "status": "no_data"
+    },
+    "cash_flow": {
+      "status": "no_data"
+    }
+  },
+  "options_data": {
+    "status": "error",
+    "error_message": "Too Many Requests. Rate limited. Try after a while."
+  },
+  "news_data": {
+    "news": {
       "status": "success",
-      "rows": 31,
-      "columns": [
-        "2024-12-31 00:00:00"
-      ],
+      "count": 3,
       "data": [
         {
-          
+          "id": "bf438576-ae23-3dca-929e-3be39bec6812",
+          "content": {
+            "id": "bf438576-ae23-3dca-929e-3be39bec6812",
+            "contentType": "STORY",
+            "title": "Cardano Price Analysis: Will Grayscale\u2019s Latest ETF Filing Drive ADA to $1?",
+            "description": "",
+            "summary": "Cardano\u2019s 10% weekly timeframe price decline stabilized near $0.82 on Saturday after Grayscale filed registration statements with the SEC for new ADA and Polkado (DOT) exchange-traded funds. The proposed ADA ETF will trade on NYSE Arca under the ticker GADA, tracking CoinDesk\u2019s Cardano Price Index (ADX). Grayscale\u2019s S-1 Cardano ETF ...",
+            "pubDate": "2025-08-30T21:18:40Z",
+            "displayTime": "2025-08-30T21:18:40Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": {
+              "originalUrl": "https://media.zenfs.com/en/coinspeaker_us_106/62dab8aa35fd9a1274e5991075647786",
+              "originalWidth": 768,
+              "originalHeight": 431,
+              "caption": "",
+              "resolutions": [
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/L7mRZ2epuegFrDipO9O6sQ--~B/aD00MzE7dz03Njg7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/coinspeaker_us_106/62dab8aa35fd9a1274e5991075647786",
+                  "width": 768,
+                  "height": 431,
+                  "tag": "original"
+                },
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/WTBq11Z7FJILcRbwk5qKNQ--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/coinspeaker_us_106/62dab8aa35fd9a1274e5991075647786",
+                  "width": 170,
+                  "height": 128,
+                  "tag": "170x128"
+                }
+              ]
+            },
+            "provider": {
+              "displayName": "Coinspeaker",
+              "url": "https://www.coinspeaker.com/"
+            },
+            "canonicalUrl": {
+              "url": "https://www.coinspeaker.com/cardano-price-analysis-will-grayscales-latest-etf-filing-drive-ada-to-1/",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/cardano-price-analysis-grayscale-latest-211840654.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        },
+        {
+          "id": "5f553c78-6741-3f65-bc53-407c27605e34",
+          "content": {
+            "id": "5f553c78-6741-3f65-bc53-407c27605e34",
+            "contentType": "STORY",
+            "title": "Self-Driving Truck Startup Plus Goes Public In $1.2B SPAC Merger, Backed By Wall Street Titan Michael Klein And Hyundai",
+            "description": "",
+            "summary": "Plus Automation last week announced it would merge with special purpose acquisition company Churchill Capital Corp IX (NASDAQ:CCIX) that values the startup at $1.2 billion and brings $300 million in fresh capital for its push into autonomous trucking by 2027. According to Plus Automation, the merger provides the resources needed to scale its factory-integrated autonomous trucking model. After closing, the combined company will operate as PlusAI and prioritize deployment through its global origin",
+            "pubDate": "2025-06-14T18:00:52Z",
+            "displayTime": "2025-06-14T18:00:52Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": {
+              "originalUrl": "https://media.zenfs.com/en/Benzinga/a4552138a0a0132eb8167d93548b5a23",
+              "originalWidth": 1000,
+              "originalHeight": 563,
+              "caption": "Self-Driving Truck Startup Plus Goes Public In $1.2B SPAC Merger, Backed By Wall Street Titan Michael Klein And Hyundai",
+              "resolutions": [
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/owUguX9VM6jNQ4Y.cBhAvg--~B/aD01NjM7dz0xMDAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/Benzinga/a4552138a0a0132eb8167d93548b5a23",
+                  "width": 1000,
+                  "height": 563,
+                  "tag": "original"
+                },
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/.JDK8k5_3JAFRjvhZpy0jA--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/Benzinga/a4552138a0a0132eb8167d93548b5a23",
+                  "width": 170,
+                  "height": 128,
+                  "tag": "170x128"
+                }
+              ]
+            },
+            "provider": {
+              "displayName": "Benzinga",
+              "url": "http://www.benzinga.com/"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/self-driving-truck-startup-plus-180052291.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/self-driving-truck-startup-plus-180052291.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        },
+        {
+          "id": "73c9e565-b8a4-39b5-a7e8-a4e08953e4d6",
+          "content": {
+            "id": "73c9e565-b8a4-39b5-a7e8-a4e08953e4d6",
+            "contentType": "STORY",
+            "title": "Institutional investors own a significant stake of 41% in Churchill Capital Corp IX (NASDAQ:CCIX)",
+            "description": "",
+            "summary": "Key Insights Institutions' substantial holdings in Churchill Capital Corp IX implies that they have significant...",
+            "pubDate": "2025-05-17T12:38:42Z",
+            "displayTime": "2025-05-17T12:38:42Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": {
+              "originalUrl": "https://media.zenfs.com/en/simply_wall_st__316/f88d3d8c5618aa88ce2627c2a1cda340",
+              "originalWidth": 1194,
+              "originalHeight": 432,
+              "caption": "",
+              "resolutions": [
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/SSw8naZrBB1tKswm10P8gw--~B/aD00MzI7dz0xMTk0O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/simply_wall_st__316/f88d3d8c5618aa88ce2627c2a1cda340",
+                  "width": 1194,
+                  "height": 432,
+                  "tag": "original"
+                },
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/79qko4F_hdhwRlGyEfLjcw--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/simply_wall_st__316/f88d3d8c5618aa88ce2627c2a1cda340",
+                  "width": 170,
+                  "height": 128,
+                  "tag": "170x128"
+                }
+              ]
+            },
+            "provider": {
+              "displayName": "Simply Wall St.",
+              "url": "https://simplywall.st/"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/institutional-investors-own-significant-stake-123842341.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/institutional-investors-own-significant-stake-123842341.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        }
+      ]
+    },
+    "recommendations": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  },
+  "holders_data": {
+    "major_holders": {
+      "status": "error"
+    },
+    "institutional_holders": {
+      "status": "error"
+    }
+  },
+  "earnings_data": {
+    "earnings": {
+      "status": "error",
+      "message": "'NoneType' object has no attribute 'empty'"
+    },
+    "calendar": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  }
+}

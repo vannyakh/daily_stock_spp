@@ -1,18 +1,9 @@
 {
   "ticker": "LIXT",
-  "timestamp": "2025-12-27T04:40:59.011558",
+  "timestamp": "2025-12-30T04:48:15.892187",
   "intraday_data": {
-    "status": "success",
-    "rows": 1,
-    "data": [
-      {
-        "Close MVNC": 0.023399999365210533,
-        "High MVNC": 0.023399999365210533,
-        "Low MVNC": 0.023399999365210533,
-        "Open MVNC": 0.023399999365210533,
-        "Volume MVNC": 0
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -163,7 +154,8 @@
       ]
     },
     "recommendations": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   },
   "holders_data": {

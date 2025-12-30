@@ -1,9 +1,46 @@
 {
   "ticker": "SMPNY",
-  "timestamp": "2025-12-27T04:20:47.658417",
+  "timestamp": "2025-12-30T04:27:35.611426",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 5,
+    "data": [
+      {
+        "Close": 16.940000534057617,
+        "High": 16.940000534057617,
+        "Low": 16.940000534057617,
+        "Open": 16.940000534057617,
+        "Volume": 0
+      },
+      {
+        "Close": 17.0,
+        "High": 17.0,
+        "Low": 17.0,
+        "Open": 17.0,
+        "Volume": 100
+      },
+      {
+        "Close": 17.0,
+        "High": 17.0,
+        "Low": 17.0,
+        "Open": 17.0,
+        "Volume": 100
+      },
+      {
+        "Close": 17.0,
+        "High": 17.0,
+        "Low": 17.0,
+        "Open": 17.0,
+        "Volume": 500
+      },
+      {
+        "Close": 16.979999542236328,
+        "High": 16.979999542236328,
+        "Low": 16.979999542236328,
+        "Open": 16.979999542236328,
+        "Volume": 176
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -604,7 +641,8 @@
       ]
     },
     "recommendations": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   },
   "holders_data": {

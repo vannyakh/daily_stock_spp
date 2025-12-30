@@ -1,25 +1,9 @@
 {
   "ticker": "HANNF",
-  "timestamp": "2025-12-27T04:36:39.069725",
+  "timestamp": "2025-12-30T04:43:56.167698",
   "intraday_data": {
-    "status": "success",
-    "rows": 2,
-    "data": [
-      {
-        "Close": 0.6200000047683716,
-        "High": 0.6200000047683716,
-        "Low": 0.6200000047683716,
-        "Open": 0.6200000047683716,
-        "Volume": 0
-      },
-      {
-        "Close": 0.6753000020980835,
-        "High": 0.6753000020980835,
-        "Low": 0.6753000020980835,
-        "Open": 0.6753000020980835,
-        "Volume": 1000
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -414,7 +398,8 @@
       ]
     },
     "recommendations": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   },
   "holders_data": {

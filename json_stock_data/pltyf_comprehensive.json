@@ -1,32 +1,9 @@
 {
   "ticker": "PLTYF",
-  "timestamp": "2025-12-27T04:42:42.795320",
+  "timestamp": "2025-12-30T04:49:53.473241",
   "intraday_data": {
-    "status": "success",
-    "rows": 3,
-    "data": [
-      {
-        "Close KOAN": 0.0034000000450760126,
-        "High KOAN": 0.0034000000450760126,
-        "Low KOAN": 0.0034000000450760126,
-        "Open KOAN": 0.0034000000450760126,
-        "Volume KOAN": 0
-      },
-      {
-        "Close KOAN": 0.0035000001080334187,
-        "High KOAN": 0.0035000001080334187,
-        "Low KOAN": 0.0035000001080334187,
-        "Open KOAN": 0.0035000001080334187,
-        "Volume KOAN": 262474
-      },
-      {
-        "Close KOAN": 0.0032999999821186066,
-        "High KOAN": 0.0032999999821186066,
-        "Low KOAN": 0.0032999999821186066,
-        "Open KOAN": 0.0032999999821186066,
-        "Volume KOAN": 120000
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -49,7 +26,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

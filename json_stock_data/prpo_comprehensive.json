@@ -1,46 +1,9 @@
 {
   "ticker": "PRPO",
-  "timestamp": "2025-12-27T04:40:05.592222",
+  "timestamp": "2025-12-30T04:47:21.420836",
   "intraday_data": {
-    "status": "success",
-    "rows": 5,
-    "data": [
-      {
-        "Close": 24.600000381469727,
-        "High": 24.600000381469727,
-        "Low": 24.600000381469727,
-        "Open": 24.600000381469727,
-        "Volume": 3199
-      },
-      {
-        "Close": 23.5,
-        "High": 23.5,
-        "Low": 23.5,
-        "Open": 23.5,
-        "Volume": 104
-      },
-      {
-        "Close": 23.239999771118164,
-        "High": 23.239999771118164,
-        "Low": 23.239999771118164,
-        "Open": 23.239999771118164,
-        "Volume": 987
-      },
-      {
-        "Close": 23.76420021057129,
-        "High": 23.76420021057129,
-        "Low": 23.76420021057129,
-        "Open": 23.76420021057129,
-        "Volume": 549
-      },
-      {
-        "Close": 23.760000228881836,
-        "High": 23.760000228881836,
-        "Low": 23.760000228881836,
-        "Open": 23.760000228881836,
-        "Volume": 182
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -679,7 +642,8 @@
       ]
     },
     "recommendations": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   },
   "holders_data": {

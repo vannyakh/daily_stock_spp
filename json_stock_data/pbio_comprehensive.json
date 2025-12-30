@@ -1,9 +1,18 @@
 {
   "ticker": "PBIO",
-  "timestamp": "2025-12-27T04:42:46.242167",
+  "timestamp": "2025-12-30T04:49:55.586879",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 1,
+    "data": [
+      {
+        "Close PTOS": 0.00860000029206276,
+        "High PTOS": 0.00860000029206276,
+        "Low PTOS": 0.00860000029206276,
+        "Open PTOS": 0.00860000029206276,
+        "Volume PTOS": 0
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -26,7 +35,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

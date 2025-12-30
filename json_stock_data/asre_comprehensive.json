@@ -1,54 +1,33 @@
 {
   "ticker": "ASRE",
-  "timestamp": "2025-12-27T04:40:13.008871",
+  "timestamp": "2025-12-30T04:47:28.523773",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 1,
+    "data": [
+      {
+        "Close FXBY": 23.25,
+        "High FXBY": 23.25,
+        "Low FXBY": 23.25,
+        "Open FXBY": 23.25,
+        "Volume FXBY": 0
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
-    "message": "Too Many Requests. Rate limited. Try after a while."
+    "message": "argument of type 'NoneType' is not iterable"
   },
   "financials": {
     "income_statement": {
-      "status": "no_data"
-    },
-    "balance_sheet": {
-      "status": "no_data"
-    },
-    "cash_flow": {
-      "status": "no_data"
-    }
-  },
-  "options_data": {
-    "status": "error",
-    "error_message": "Too Many Requests. Rate limited. Try after a while."
-  },
-  "news_data": {
-    "news": {
-      "status": "no_data"
-    },
-    "recommendations": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
-    }
-  },
-  "holders_data": {
-    "major_holders": {
-      "status": "error"
-    },
-    "institutional_holders": {
-      "status": "error"
-    }
-  },
-  "earnings_data": {
-    "earnings": {
-      "status": "error",
-      "message": "'NoneType' object has no attribute 'empty'"
-    },
-    "calendar": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
-    }
-  }
-}
+      "status": "success",
+      "rows": 49,
+      "columns": [
+        "2024-08-31 00:00:00",
+        "2023-08-31 00:00:00",
+        "2022-08-31 00:00:00",
+        "2021-08-31 00:00:00"
+      ],
+      "data": [
+        {
+          

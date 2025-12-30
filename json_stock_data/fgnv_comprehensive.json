@@ -1,13 +1,43 @@
 {
   "ticker": "FGNV",
-  "timestamp": "2025-12-27T04:37:30.204622",
+  "timestamp": "2025-12-30T04:44:45.348266",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 4,
+    "data": [
+      {
+        "Close HFBL": 17.43000030517578,
+        "High HFBL": 17.43000030517578,
+        "Low HFBL": 17.43000030517578,
+        "Open HFBL": 17.43000030517578,
+        "Volume HFBL": 0
+      },
+      {
+        "Close HFBL": 16.149999618530273,
+        "High HFBL": 16.149999618530273,
+        "Low HFBL": 16.149999618530273,
+        "Open HFBL": 16.149999618530273,
+        "Volume HFBL": 749
+      },
+      {
+        "Close HFBL": 16.739999771118164,
+        "High HFBL": 16.770000457763672,
+        "Low HFBL": 16.739999771118164,
+        "Open HFBL": 16.770000457763672,
+        "Volume HFBL": 2290
+      },
+      {
+        "Close HFBL": 16.690000534057617,
+        "High HFBL": 16.690000534057617,
+        "Low HFBL": 16.690000534057617,
+        "Open HFBL": 16.690000534057617,
+        "Volume HFBL": 115
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
-    "message": "Too Many Requests. Rate limited. Try after a while."
+    "message": "argument of type 'NoneType' is not iterable"
   },
   "financials": {
     "income_statement": {
@@ -29,7 +59,8 @@
       "status": "no_data"
     },
     "recommendations": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   },
   "holders_data": {

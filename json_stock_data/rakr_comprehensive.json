@@ -1,18 +1,9 @@
 {
   "ticker": "RAKR",
-  "timestamp": "2025-12-27T04:42:40.481331",
+  "timestamp": "2025-12-30T04:49:51.334857",
   "intraday_data": {
-    "status": "success",
-    "rows": 1,
-    "data": [
-      {
-        "Close": 0.02539999969303608,
-        "High": 0.02539999969303608,
-        "Low": 0.02539999969303608,
-        "Open": 0.02539999969303608,
-        "Volume": 0
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -35,7 +26,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

@@ -1,26 +1,71 @@
 {
   "ticker": "SABSW",
-  "timestamp": "2025-12-27T04:47:54.284834",
+  "timestamp": "2025-12-30T04:54:59.080515",
   "intraday_data": {
     "status": "success",
-    "rows": 0,
-    "data": []
+    "rows": 2,
+    "data": [
+      {
+        "Close FLYX-WT": 0.2915000021457672,
+        "High FLYX-WT": 0.2915000021457672,
+        "Low FLYX-WT": 0.2915000021457672,
+        "Open FLYX-WT": 0.2915000021457672,
+        "Volume FLYX-WT": 0
+      },
+      {
+        "Close FLYX-WT": 0.2847999930381775,
+        "High FLYX-WT": 0.2847999930381775,
+        "Low FLYX-WT": 0.2847999930381775,
+        "Open FLYX-WT": 0.2847999930381775,
+        "Volume FLYX-WT": 400
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
-    "message": "argument of type 'NoneType' is not iterable"
+    "message": "Too Many Requests. Rate limited. Try after a while."
   },
   "financials": {
     "income_statement": {
-      "status": "success",
-      "rows": 40,
-      "columns": [
-        "2024-12-31 00:00:00",
-        "2023-12-31 00:00:00",
-        "2022-12-31 00:00:00",
-        "2021-12-31 00:00:00",
-        "2020-12-31 00:00:00"
-      ],
-      "data": [
-        {
-          
+      "status": "no_data"
+    },
+    "balance_sheet": {
+      "status": "no_data"
+    },
+    "cash_flow": {
+      "status": "no_data"
+    }
+  },
+  "options_data": {
+    "status": "error",
+    "error_message": "Too Many Requests. Rate limited. Try after a while."
+  },
+  "news_data": {
+    "news": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    },
+    "recommendations": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  },
+  "holders_data": {
+    "major_holders": {
+      "status": "error"
+    },
+    "institutional_holders": {
+      "status": "error"
+    }
+  },
+  "earnings_data": {
+    "earnings": {
+      "status": "error",
+      "message": "'NoneType' object has no attribute 'empty'"
+    },
+    "calendar": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  }
+}
