@@ -1,9 +1,25 @@
 {
   "ticker": "ISMCF",
-  "timestamp": "2025-12-30T04:54:25.059492",
+  "timestamp": "2025-12-31T05:46:28.507863",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 2,
+    "data": [
+      {
+        "Close": 710.7778930664062,
+        "High": 712.8563232421875,
+        "Low": 710.7778930664062,
+        "Open": 712.8563232421875,
+        "Volume": 292
+      },
+      {
+        "Close": 710.4749755859375,
+        "High": 713.4569702148438,
+        "Low": 710.4749755859375,
+        "Open": 713.4569702148438,
+        "Volume": 383
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -26,8 +42,7 @@
   },
   "news_data": {
     "news": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
+      "status": "no_data"
     },
     "recommendations": {
       "status": "error",

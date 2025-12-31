@@ -1,34 +1,667 @@
 {
   "ticker": "RSMDF",
-  "timestamp": "2025-12-30T04:51:08.008063",
+  "timestamp": "2025-12-31T05:34:50.559363",
   "intraday_data": {
-    "status": "success",
-    "rows": 1,
-    "data": [
-      {
-        "Close ERIXF": 9.630000114440918,
-        "High ERIXF": 9.630000114440918,
-        "Low ERIXF": 9.630000114440918,
-        "Open ERIXF": 9.630000114440918,
-        "Volume ERIXF": 0
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
-    "message": "argument of type 'NoneType' is not iterable"
+    "message": "Too Many Requests. Rate limited. Try after a while."
   },
   "financials": {
     "income_statement": {
+      "status": "no_data"
+    },
+    "balance_sheet": {
+      "status": "no_data"
+    },
+    "cash_flow": {
+      "status": "no_data"
+    }
+  },
+  "options_data": {
+    "status": "error",
+    "error_message": "Too Many Requests. Rate limited. Try after a while."
+  },
+  "news_data": {
+    "news": {
       "status": "success",
-      "rows": 51,
-      "columns": [
-        "2025-06-30 00:00:00",
-        "2024-06-30 00:00:00",
-        "2023-06-30 00:00:00",
-        "2022-06-30 00:00:00",
-        "2021-06-30 00:00:00"
-      ],
+      "count": 10,
       "data": [
         {
-          
+          "id": "7b3508ca-763c-3dd3-a4fa-1308f2936dec",
+          "content": {
+            "id": "7b3508ca-763c-3dd3-a4fa-1308f2936dec",
+            "contentType": "STORY",
+            "title": "Is ResMed (RMD) a Solid Growth Stock? 3 Reasons to Think \"Yes\"",
+            "description": "",
+            "summary": "ResMed (RMD) is well positioned to outperform the market, as it exhibits above-average growth in financials.",
+            "pubDate": "2025-12-30T17:45:03Z",
+            "displayTime": "2025-12-30T17:45:03Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": {
+              "originalUrl": "https://media.zenfs.com/en/zacks.com/d2f7ed3d1940141716bfd200f5c94c6b",
+              "originalWidth": 900,
+              "originalHeight": 711,
+              "caption": "",
+              "resolutions": [
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/eeFsK50..hTdRBoBNDEyoA--~B/aD03MTE7dz05MDA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/zacks.com/d2f7ed3d1940141716bfd200f5c94c6b",
+                  "width": 900,
+                  "height": 711,
+                  "tag": "original"
+                },
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/sgfeS33aHDXh6DZ3gYwjVQ--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/zacks.com/d2f7ed3d1940141716bfd200f5c94c6b",
+                  "width": 170,
+                  "height": 128,
+                  "tag": "170x128"
+                }
+              ]
+            },
+            "provider": {
+              "displayName": "Zacks",
+              "url": "http://www.zacks.com/"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/resmed-rmd-solid-growth-stock-174503943.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/resmed-rmd-solid-growth-stock-174503943.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        },
+        {
+          "id": "5aa81f29-4a16-3f35-9012-705bf2d743a6",
+          "content": {
+            "id": "5aa81f29-4a16-3f35-9012-705bf2d743a6",
+            "contentType": "STORY",
+            "title": "BSX vs. RMD: Which Medical Device Stock Is the Stronger Play Now?",
+            "description": "",
+            "summary": "Boston Scientific edges out Resmed as WATCHMAN momentum, EP gains and acquisitions fuel stronger recent price performance in a growing medical device market.",
+            "pubDate": "2025-12-30T13:20:00Z",
+            "displayTime": "2025-12-30T13:20:00Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": {
+              "originalUrl": "https://media.zenfs.com/en/zacks.com/9c1d11cd27737fac4805145de6e5eee0",
+              "originalWidth": 635,
+              "originalHeight": 400,
+              "caption": "",
+              "resolutions": [
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/B7EfA6ERTo_QO90H15uyXw--~B/aD00MDA7dz02MzU7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/zacks.com/9c1d11cd27737fac4805145de6e5eee0",
+                  "width": 635,
+                  "height": 400,
+                  "tag": "original"
+                },
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/VT27QYZpgF8G3bYXe5qpmg--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/zacks.com/9c1d11cd27737fac4805145de6e5eee0",
+                  "width": 170,
+                  "height": 128,
+                  "tag": "170x128"
+                }
+              ]
+            },
+            "provider": {
+              "displayName": "Zacks",
+              "url": "http://www.zacks.com/"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/bsx-vs-rmd-medical-device-132000925.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/bsx-vs-rmd-medical-device-132000925.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        },
+        {
+          "id": "0b85c5d4-79c1-3a84-90e6-32cc0e84d5c0",
+          "content": {
+            "id": "0b85c5d4-79c1-3a84-90e6-32cc0e84d5c0",
+            "contentType": "STORY",
+            "title": "Buy These 5 Low-Leverage Stocks Amid a Reversal of Santa Claus Rally",
+            "description": "",
+            "summary": "A stalled Santa Claus rally has investors rotating to stability, spotlighting low-leverage names like Resmed that may hold up better amid tech-led volatility.",
+            "pubDate": "2025-12-30T13:20:00Z",
+            "displayTime": "2025-12-30T13:20:00Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": {
+              "originalUrl": "https://media.zenfs.com/en/zacks.com/11b5fbdd2160f220199b8f17b9bc290e",
+              "originalWidth": 620,
+              "originalHeight": 411,
+              "caption": "",
+              "resolutions": [
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/JxF30o4n54a3_xYQeZrUZA--~B/aD00MTE7dz02MjA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/zacks.com/11b5fbdd2160f220199b8f17b9bc290e",
+                  "width": 620,
+                  "height": 411,
+                  "tag": "original"
+                },
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/zA_P1C7OSR2EFMxeqZP12Q--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/zacks.com/11b5fbdd2160f220199b8f17b9bc290e",
+                  "width": 170,
+                  "height": 128,
+                  "tag": "170x128"
+                }
+              ]
+            },
+            "provider": {
+              "displayName": "Zacks",
+              "url": "http://www.zacks.com/"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/buy-5-low-leverage-stocks-132000915.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/buy-5-low-leverage-stocks-132000915.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        },
+        {
+          "id": "9acf8fe7-7944-3034-8a1a-68e296babdcc",
+          "content": {
+            "id": "9acf8fe7-7944-3034-8a1a-68e296babdcc",
+            "contentType": "STORY",
+            "title": "3 Stocks Likely to Gain From Rising HSA Contribution & Medicare Premium",
+            "description": "",
+            "summary": "Rising HSA limits and higher Medicare premiums in 2026 could lift demand for chronic care devices from DexCom, ResMed and Masimo.",
+            "pubDate": "2025-12-30T12:33:00Z",
+            "displayTime": "2025-12-30T12:33:00Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": {
+              "originalUrl": "https://media.zenfs.com/en/zacks.com/6e7a581172a57923b1e9381146e28fb5",
+              "originalWidth": 620,
+              "originalHeight": 413,
+              "caption": "",
+              "resolutions": [
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/.gb6XNijFKw.G0R_D0zzsw--~B/aD00MTM7dz02MjA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/zacks.com/6e7a581172a57923b1e9381146e28fb5",
+                  "width": 620,
+                  "height": 413,
+                  "tag": "original"
+                },
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/fvE48nVh_seOKewnoQD0uQ--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/zacks.com/6e7a581172a57923b1e9381146e28fb5",
+                  "width": 170,
+                  "height": 128,
+                  "tag": "170x128"
+                }
+              ]
+            },
+            "provider": {
+              "displayName": "Zacks",
+              "url": "http://www.zacks.com/"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/3-stocks-likely-gain-rising-123300029.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/3-stocks-likely-gain-rising-123300029.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        },
+        {
+          "id": "3efce4c6-d783-3691-adcb-d9931a396fb4",
+          "content": {
+            "id": "3efce4c6-d783-3691-adcb-d9931a396fb4",
+            "contentType": "STORY",
+            "title": "1 Cash-Heavy Stock to Consider Right Now and 2 We Avoid",
+            "description": "",
+            "summary": "Companies with more cash than debt can be financially resilient, but that doesn\u2019t mean they\u2019re all strong investments. Some lack leverage because they struggle to grow or generate consistent profits, making them unattractive borrowers.",
+            "pubDate": "2025-12-29T04:36:46Z",
+            "displayTime": "2025-12-29T04:36:46Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": {
+              "originalUrl": "https://media.zenfs.com/en/stockstory_922/93e11111511bf592182c73fd68b9e592",
+              "originalWidth": 2400,
+              "originalHeight": 1601,
+              "caption": "WDAY Cover Image",
+              "resolutions": [
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/k0JCXxwnOUxq6XrMvrEBkQ--~B/aD0xNjAxO3c9MjQwMDthcHBpZD15dGFjaHlvbg--/https://media.zenfs.com/en/stockstory_922/93e11111511bf592182c73fd68b9e592",
+                  "width": 2400,
+                  "height": 1601,
+                  "tag": "original"
+                },
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/U3B0UJQPII3t1zMJGx8f3g--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/stockstory_922/93e11111511bf592182c73fd68b9e592",
+                  "width": 170,
+                  "height": 128,
+                  "tag": "170x128"
+                }
+              ]
+            },
+            "provider": {
+              "displayName": "StockStory",
+              "url": "https://stockstory.org/"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/1-cash-heavy-stock-consider-043646651.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/1-cash-heavy-stock-consider-043646651.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        },
+        {
+          "id": "28c8a84c-c1bb-3292-b1af-f49d3b744593",
+          "content": {
+            "id": "28c8a84c-c1bb-3292-b1af-f49d3b744593",
+            "contentType": "STORY",
+            "title": "1 Cash-Producing Stock Worth Your Attention and 2 We Brush Off",
+            "description": "",
+            "summary": "While strong cash flow is a key indicator of stability, it doesn\u2019t always translate to superior returns. Some cash-heavy businesses struggle with inefficient spending, slowing demand, or weak competitive positioning.",
+            "pubDate": "2025-12-22T04:37:51Z",
+            "displayTime": "2025-12-22T04:37:51Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": {
+              "originalUrl": "https://media.zenfs.com/en/stockstory_922/601738337ca4d41345ba70564a5f82b8",
+              "originalWidth": 1400,
+              "originalHeight": 700,
+              "caption": "WDFC Cover Image",
+              "resolutions": [
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/0tO8PmN5ixOZKOAvV3Lq1A--~B/aD03MDA7dz0xNDAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/stockstory_922/601738337ca4d41345ba70564a5f82b8",
+                  "width": 1400,
+                  "height": 700,
+                  "tag": "original"
+                },
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/yHi53z42Z5RrZbp.5SeYpQ--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/stockstory_922/601738337ca4d41345ba70564a5f82b8",
+                  "width": 170,
+                  "height": 128,
+                  "tag": "170x128"
+                }
+              ]
+            },
+            "provider": {
+              "displayName": "StockStory",
+              "url": "https://stockstory.org/"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/1-cash-producing-stock-worth-043751677.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/1-cash-producing-stock-worth-043751677.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        },
+        {
+          "id": "8fb62778-87a9-3dbc-9397-862d701ffad2",
+          "content": {
+            "id": "8fb62778-87a9-3dbc-9397-862d701ffad2",
+            "contentType": "STORY",
+            "title": "ResMed (RMD): Revisiting Valuation After Recent Share Price Pullback",
+            "description": "",
+            "summary": "ResMed (RMD) has quietly drifted lower over the past week, but the stock is still up this year, which raises a straightforward question for investors: is this dip an opportunity or a warning? See our latest analysis for ResMed. That recent pullback, including a 7 day share price return of minus 2.21 percent and a 90 day share price return of minus 10.01 percent, looks more like cooling momentum than a broken story. This is particularly the case with the year to date share price still higher...",
+            "pubDate": "2025-12-18T01:12:59Z",
+            "displayTime": "2025-12-18T01:12:59Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": {
+              "originalUrl": "https://media.zenfs.com/en/simply_wall_st__316/b23fe2923663ce315e2ef7ba313db8b9",
+              "originalWidth": 1194,
+              "originalHeight": 432,
+              "caption": "",
+              "resolutions": [
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/oY9vQNBdaHAXW3k6VZJztA--~B/aD00MzI7dz0xMTk0O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/simply_wall_st__316/b23fe2923663ce315e2ef7ba313db8b9",
+                  "width": 1194,
+                  "height": 432,
+                  "tag": "original"
+                },
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/npf9YXyOXQRZI_peTMjDiQ--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/simply_wall_st__316/b23fe2923663ce315e2ef7ba313db8b9",
+                  "width": 170,
+                  "height": 128,
+                  "tag": "170x128"
+                }
+              ]
+            },
+            "provider": {
+              "displayName": "Simply Wall St.",
+              "url": "https://simplywall.st/"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/resmed-rmd-revisiting-valuation-recent-011259742.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/resmed-rmd-revisiting-valuation-recent-011259742.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        },
+        {
+          "id": "85fd790a-27b5-3c8b-b13e-e42cad70db2f",
+          "content": {
+            "id": "85fd790a-27b5-3c8b-b13e-e42cad70db2f",
+            "contentType": "STORY",
+            "title": "2 Healthcare Stocks on Our Watchlist and 1 We Brush Off",
+            "description": "",
+            "summary": "From novel pharmaceuticals to telemedicine, most healthcare companies are on a mission to drive better patient outcomes. Players catalyzing medical advancements have benefited from elevated demand, and their momentum is only rising as the industry has posted a 15.6% gain over the past six months, beating the S&P 500 by 1.7 percentage points.",
+            "pubDate": "2025-12-17T04:35:11Z",
+            "displayTime": "2025-12-17T04:35:11Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": {
+              "originalUrl": "https://media.zenfs.com/en/stockstory_922/f0a7c7170a2138eadddc0bd971521e8f",
+              "originalWidth": 1400,
+              "originalHeight": 700,
+              "caption": "RMD Cover Image",
+              "resolutions": [
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/DeseSFkveHs9jlXQ.qCTkA--~B/aD03MDA7dz0xNDAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/stockstory_922/f0a7c7170a2138eadddc0bd971521e8f",
+                  "width": 1400,
+                  "height": 700,
+                  "tag": "original"
+                },
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/.Sz9hVjiNaOKQ93qPu3lWw--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/stockstory_922/f0a7c7170a2138eadddc0bd971521e8f",
+                  "width": 170,
+                  "height": 128,
+                  "tag": "170x128"
+                }
+              ]
+            },
+            "provider": {
+              "displayName": "StockStory",
+              "url": "https://stockstory.org/"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/2-healthcare-stocks-watchlist-1-043511105.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/2-healthcare-stocks-watchlist-1-043511105.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        },
+        {
+          "id": "6fc88ece-a660-3c7b-bbc6-b735b602eda8",
+          "content": {
+            "id": "6fc88ece-a660-3c7b-bbc6-b735b602eda8",
+            "contentType": "STORY",
+            "title": "Mick Farrell named chair of AdvaMed board",
+            "description": "",
+            "summary": "The Resmed CEO will serve a two-year term on the medtech lobbying group\u2019s board.",
+            "pubDate": "2025-12-12T09:32:58Z",
+            "displayTime": "2025-12-12T09:32:58Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": {
+              "originalUrl": "https://media.zenfs.com/en/medtech_dive_335/ca10a10ba9836a538d463d8b3f87e230",
+              "originalWidth": 1600,
+              "originalHeight": 900,
+              "caption": "Resmed CEO Mick Farrell speaks at The MedTech Conference on Oct. 7, 2025 in San Diego.",
+              "resolutions": [
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/6fi68KaY_lg9hkNo7laweQ--~B/aD05MDA7dz0xNjAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/medtech_dive_335/ca10a10ba9836a538d463d8b3f87e230",
+                  "width": 1600,
+                  "height": 900,
+                  "tag": "original"
+                },
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/Pp3AJPKeOENa_TSXoFj3Mw--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/medtech_dive_335/ca10a10ba9836a538d463d8b3f87e230",
+                  "width": 170,
+                  "height": 128,
+                  "tag": "170x128"
+                }
+              ]
+            },
+            "provider": {
+              "displayName": "MedTech Dive",
+              "url": "https://medtechdive.com/"
+            },
+            "canonicalUrl": {
+              "url": "https://www.medtechdive.com/news/mick-farrell-chair-advamed-board/807755/",
+              "site": "news",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://www.yahoo.com/news/articles/mick-farrell-named-chair-advamed-093258988.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        },
+        {
+          "id": "c950a695-ed51-30db-852e-b9bf0787eaea",
+          "content": {
+            "id": "c950a695-ed51-30db-852e-b9bf0787eaea",
+            "contentType": "STORY",
+            "title": "RMD Stock Set to Gain From FDA Clearance of AI-Enabled Smart Comfort",
+            "description": "",
+            "summary": "Resmed gains FDA's nod for Smart Comfort, an AI-driven CPAP tool boosting sleep therapy personalization and adherence.",
+            "pubDate": "2025-12-09T12:26:00Z",
+            "displayTime": "2025-12-09T12:26:00Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": {
+              "originalUrl": "https://media.zenfs.com/en/zacks.com/9c1d11cd27737fac4805145de6e5eee0",
+              "originalWidth": 635,
+              "originalHeight": 400,
+              "caption": "",
+              "resolutions": [
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/B7EfA6ERTo_QO90H15uyXw--~B/aD00MDA7dz02MzU7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/zacks.com/9c1d11cd27737fac4805145de6e5eee0",
+                  "width": 635,
+                  "height": 400,
+                  "tag": "original"
+                },
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/VT27QYZpgF8G3bYXe5qpmg--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/zacks.com/9c1d11cd27737fac4805145de6e5eee0",
+                  "width": 170,
+                  "height": 128,
+                  "tag": "170x128"
+                }
+              ]
+            },
+            "provider": {
+              "displayName": "Zacks",
+              "url": "http://www.zacks.com/"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/rmd-stock-set-gain-fda-122600901.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/rmd-stock-set-gain-fda-122600901.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        }
+      ]
+    },
+    "recommendations": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  },
+  "holders_data": {
+    "major_holders": {
+      "status": "error"
+    },
+    "institutional_holders": {
+      "status": "error"
+    }
+  },
+  "earnings_data": {
+    "earnings": {
+      "status": "error",
+      "message": "'NoneType' object has no attribute 'empty'"
+    },
+    "calendar": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  }
+}

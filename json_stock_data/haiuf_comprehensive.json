@@ -1,9 +1,18 @@
 {
   "ticker": "HAIUF",
-  "timestamp": "2025-12-30T04:53:41.592095",
+  "timestamp": "2025-12-31T05:43:57.641580",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 1,
+    "data": [
+      {
+        "Close HVIIU": 10.609999656677246,
+        "High HVIIU": 10.609999656677246,
+        "Low HVIIU": 10.609999656677246,
+        "Open HVIIU": 10.609999656677246,
+        "Volume HVIIU": 0
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -26,8 +35,7 @@
   },
   "news_data": {
     "news": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
+      "status": "no_data"
     },
     "recommendations": {
       "status": "error",
@@ -49,7 +57,7 @@
     },
     "calendar": {
       "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
+      "message": "'dict' object has no attribute 'empty'"
     }
   }
 }

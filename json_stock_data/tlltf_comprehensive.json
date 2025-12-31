@@ -1,39 +1,9 @@
 {
   "ticker": "TLLTF",
-  "timestamp": "2025-12-30T04:49:10.647724",
+  "timestamp": "2025-12-31T05:28:15.660275",
   "intraday_data": {
-    "status": "success",
-    "rows": 4,
-    "data": [
-      {
-        "Close CHEV": 5.019999980926514,
-        "High CHEV": 5.019999980926514,
-        "Low CHEV": 5.019999980926514,
-        "Open CHEV": 5.019999980926514,
-        "Volume CHEV": 0
-      },
-      {
-        "Close CHEV": 5.039999961853027,
-        "High CHEV": 5.039999961853027,
-        "Low CHEV": 5.039999961853027,
-        "Open CHEV": 5.039999961853027,
-        "Volume CHEV": 400
-      },
-      {
-        "Close CHEV": 5.25,
-        "High CHEV": 5.25,
-        "Low CHEV": 5.25,
-        "Open CHEV": 5.25,
-        "Volume CHEV": 100
-      },
-      {
-        "Close CHEV": 5.199999809265137,
-        "High CHEV": 5.199999809265137,
-        "Low CHEV": 5.199999809265137,
-        "Open CHEV": 5.199999809265137,
-        "Volume CHEV": 820
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -56,7 +26,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

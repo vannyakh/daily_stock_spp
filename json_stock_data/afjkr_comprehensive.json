@@ -1,46 +1,9 @@
 {
   "ticker": "AFJKR",
-  "timestamp": "2025-12-30T04:53:22.403422",
+  "timestamp": "2025-12-31T05:42:46.984843",
   "intraday_data": {
-    "status": "success",
-    "rows": 5,
-    "data": [
-      {
-        "Close": 0.47999998927116394,
-        "High": 0.47999998927116394,
-        "Low": 0.47999998927116394,
-        "Open": 0.47999998927116394,
-        "Volume": 0
-      },
-      {
-        "Close": 0.4025000035762787,
-        "High": 0.4025000035762787,
-        "Low": 0.4025000035762787,
-        "Open": 0.4025000035762787,
-        "Volume": 1004
-      },
-      {
-        "Close": 0.37299999594688416,
-        "High": 0.3743000030517578,
-        "Low": 0.37299999594688416,
-        "Open": 0.3743000030517578,
-        "Volume": 500
-      },
-      {
-        "Close": 0.3930000066757202,
-        "High": 0.3930000066757202,
-        "Low": 0.3930000066757202,
-        "Open": 0.3930000066757202,
-        "Volume": 100
-      },
-      {
-        "Close": 0.4399999976158142,
-        "High": 0.4399999976158142,
-        "Low": 0.4399999976158142,
-        "Open": 0.4399999976158142,
-        "Volume": 100
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -63,8 +26,71 @@
   },
   "news_data": {
     "news": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
+      "status": "success",
+      "count": 1,
+      "data": [
+        {
+          "id": "813f9254-1e16-4ecb-8fe4-89c264d96e36",
+          "content": {
+            "id": "813f9254-1e16-4ecb-8fe4-89c264d96e36",
+            "contentType": "STORY",
+            "title": "Trending tickers: GameStop, Amazon, Aimei Health, Berkeley and Anglo American",
+            "description": "",
+            "summary": "The latest investor updates on stocks that are trending on Wednesday.",
+            "pubDate": "2025-12-10T09:19:58Z",
+            "displayTime": "2025-12-10T09:19:58Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": {
+              "originalUrl": "https://s.yimg.com/os/creatr-uploaded-images/2025-11/51aa45f0-cc32-11f0-8dd7-cc108c17f604",
+              "originalWidth": 3915,
+              "originalHeight": 2610,
+              "caption": "",
+              "resolutions": [
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/c_6pRrbZAh83Cqaq.5A5Kw--~B/aD0yNjEwO3c9MzkxNTthcHBpZD15dGFjaHlvbg--/https://s.yimg.com/os/creatr-uploaded-images/2025-11/51aa45f0-cc32-11f0-8dd7-cc108c17f604",
+                  "width": 3915,
+                  "height": 2610,
+                  "tag": "original"
+                },
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/s5gXHiDGGB27u9Ndwcnb5A--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://s.yimg.com/os/creatr-uploaded-images/2025-11/51aa45f0-cc32-11f0-8dd7-cc108c17f604",
+                  "width": 170,
+                  "height": 128,
+                  "tag": "170x128"
+                }
+              ]
+            },
+            "provider": {
+              "displayName": "Yahoo Finance UK",
+              "url": "http://uk.finance.yahoo.com/"
+            },
+            "canonicalUrl": {
+              "url": "https://uk.finance.yahoo.com/news/gamestop-amazon-aimei-health-berkeley-anglo-american-trending-tickers-091958750.html",
+              "site": "finance",
+              "region": "GB",
+              "lang": "en-GB"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/gamestop-amazon-aimei-health-berkeley-anglo-american-trending-tickers-091958750.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        }
+      ]
     },
     "recommendations": {
       "status": "error",

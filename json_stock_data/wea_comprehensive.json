@@ -1,81 +1,9 @@
 {
   "ticker": "WEA",
-  "timestamp": "2025-12-30T04:41:46.922287",
+  "timestamp": "2025-12-31T05:07:43.714114",
   "intraday_data": {
-    "status": "success",
-    "rows": 10,
-    "data": [
-      {
-        "Close ECBK": 17.315000534057617,
-        "High ECBK": 17.315000534057617,
-        "Low ECBK": 17.315000534057617,
-        "Open ECBK": 17.315000534057617,
-        "Volume ECBK": 0
-      },
-      {
-        "Close ECBK": 17.329999923706055,
-        "High ECBK": 17.329999923706055,
-        "Low ECBK": 17.329999923706055,
-        "Open ECBK": 17.329999923706055,
-        "Volume ECBK": 103
-      },
-      {
-        "Close ECBK": 17.423200607299805,
-        "High ECBK": 17.423200607299805,
-        "Low ECBK": 17.423200607299805,
-        "Open ECBK": 17.423200607299805,
-        "Volume ECBK": 100
-      },
-      {
-        "Close ECBK": 17.399999618530273,
-        "High ECBK": 17.399999618530273,
-        "Low ECBK": 17.399999618530273,
-        "Open ECBK": 17.399999618530273,
-        "Volume ECBK": 111
-      },
-      {
-        "Close ECBK": 17.399999618530273,
-        "High ECBK": 17.399999618530273,
-        "Low ECBK": 17.399999618530273,
-        "Open ECBK": 17.399999618530273,
-        "Volume ECBK": 324
-      },
-      {
-        "Close ECBK": 17.399999618530273,
-        "High ECBK": 17.399999618530273,
-        "Low ECBK": 17.399999618530273,
-        "Open ECBK": 17.399999618530273,
-        "Volume ECBK": 67
-      },
-      {
-        "Close ECBK": 17.399999618530273,
-        "High ECBK": 17.399999618530273,
-        "Low ECBK": 17.399999618530273,
-        "Open ECBK": 17.399999618530273,
-        "Volume ECBK": 102
-      },
-      {
-        "Close ECBK": 17.3700008392334,
-        "High ECBK": 17.3700008392334,
-        "Low ECBK": 17.3700008392334,
-        "Open ECBK": 17.3700008392334,
-        "Volume ECBK": 152
-      },
-      {
-        "Close ECBK": 17.360000610351562,
-        "High ECBK": 17.360000610351562,
-        "Low ECBK": 17.360000610351562,
-        "Open ECBK": 17.360000610351562,
-        "Volume ECBK": 335
-      },
-      {
-        "Close ECBK": 17.270000457763672,
-        "High ECBK": 17.270000457763672,
-        "Low ECBK": 17.270000457763672,
-        "Open ECBK": 17.270000457763672,
-        "Volume ECBK": 217
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -86,14 +14,41 @@
       "status": "no_data"
     },
     "balance_sheet": {
-      "status": "success",
-      "rows": 30,
-      "columns": [
-        "2024-12-31 00:00:00",
-        "2023-12-31 00:00:00",
-        "2022-12-31 00:00:00",
-        "2021-12-31 00:00:00"
-      ],
-      "data": [
-        {
-          
+      "status": "no_data"
+    },
+    "cash_flow": {
+      "status": "no_data"
+    }
+  },
+  "options_data": {
+    "status": "error",
+    "error_message": "Too Many Requests. Rate limited. Try after a while."
+  },
+  "news_data": {
+    "news": {
+      "status": "no_data"
+    },
+    "recommendations": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  },
+  "holders_data": {
+    "major_holders": {
+      "status": "error"
+    },
+    "institutional_holders": {
+      "status": "error"
+    }
+  },
+  "earnings_data": {
+    "earnings": {
+      "status": "error",
+      "message": "'NoneType' object has no attribute 'empty'"
+    },
+    "calendar": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  }
+}

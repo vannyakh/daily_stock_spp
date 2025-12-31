@@ -1,18 +1,9 @@
 {
   "ticker": "HRGN",
-  "timestamp": "2025-12-30T04:44:32.907425",
+  "timestamp": "2025-12-31T05:15:20.920370",
   "intraday_data": {
-    "status": "success",
-    "rows": 1,
-    "data": [
-      {
-        "Close LEAT": 9.329999923706055,
-        "High LEAT": 9.329999923706055,
-        "Low LEAT": 9.329999923706055,
-        "Open LEAT": 9.329999923706055,
-        "Volume LEAT": 0
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -35,7 +26,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

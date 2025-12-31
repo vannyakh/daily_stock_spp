@@ -1,9 +1,9 @@
 {
   "ticker": "PBSV",
-  "timestamp": "2025-12-30T04:46:50.443897",
+  "timestamp": "2025-12-31T05:21:34.546214",
   "intraday_data": {
     "status": "success",
-    "rows": 12,
+    "rows": 19,
     "data": [
       {
         "Close SNSE": 9.0,
@@ -88,6 +88,55 @@
         "Low SNSE": 8.875,
         "Open SNSE": 8.875,
         "Volume SNSE": 184
+      },
+      {
+        "Close SNSE": 8.710000038146973,
+        "High SNSE": 8.710000038146973,
+        "Low SNSE": 8.710000038146973,
+        "Open SNSE": 8.710000038146973,
+        "Volume SNSE": 231
+      },
+      {
+        "Close SNSE": 8.670100212097168,
+        "High SNSE": 8.670100212097168,
+        "Low SNSE": 8.670100212097168,
+        "Open SNSE": 8.670100212097168,
+        "Volume SNSE": 669
+      },
+      {
+        "Close SNSE": 8.800000190734863,
+        "High SNSE": 8.800000190734863,
+        "Low SNSE": 8.800000190734863,
+        "Open SNSE": 8.800000190734863,
+        "Volume SNSE": 205
+      },
+      {
+        "Close SNSE": 8.800000190734863,
+        "High SNSE": 8.800000190734863,
+        "Low SNSE": 8.800000190734863,
+        "Open SNSE": 8.800000190734863,
+        "Volume SNSE": 751
+      },
+      {
+        "Close SNSE": 8.770000457763672,
+        "High SNSE": 8.770000457763672,
+        "Low SNSE": 8.770000457763672,
+        "Open SNSE": 8.770000457763672,
+        "Volume SNSE": 236
+      },
+      {
+        "Close SNSE": 8.770000457763672,
+        "High SNSE": 8.770000457763672,
+        "Low SNSE": 8.770000457763672,
+        "Open SNSE": 8.770000457763672,
+        "Volume SNSE": 253
+      },
+      {
+        "Close SNSE": 8.846799850463867,
+        "High SNSE": 8.846799850463867,
+        "Low SNSE": 8.846799850463867,
+        "Open SNSE": 8.846799850463867,
+        "Volume SNSE": 175
       }
     ]
   },
@@ -100,14 +149,41 @@
       "status": "no_data"
     },
     "balance_sheet": {
-      "status": "success",
-      "rows": 56,
-      "columns": [
-        "2024-10-31 00:00:00",
-        "2023-10-31 00:00:00",
-        "2022-10-31 00:00:00",
-        "2021-10-31 00:00:00"
-      ],
-      "data": [
-        {
-          
+      "status": "no_data"
+    },
+    "cash_flow": {
+      "status": "no_data"
+    }
+  },
+  "options_data": {
+    "status": "error",
+    "error_message": "Too Many Requests. Rate limited. Try after a while."
+  },
+  "news_data": {
+    "news": {
+      "status": "no_data"
+    },
+    "recommendations": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  },
+  "holders_data": {
+    "major_holders": {
+      "status": "error"
+    },
+    "institutional_holders": {
+      "status": "error"
+    }
+  },
+  "earnings_data": {
+    "earnings": {
+      "status": "error",
+      "message": "'NoneType' object has no attribute 'empty'"
+    },
+    "calendar": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  }
+}

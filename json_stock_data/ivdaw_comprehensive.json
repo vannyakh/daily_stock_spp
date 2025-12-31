@@ -1,9 +1,25 @@
 {
   "ticker": "IVDAW",
-  "timestamp": "2025-12-30T04:55:41.195682",
+  "timestamp": "2025-12-31T05:51:04.263955",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 2,
+    "data": [
+      {
+        "Close": 0.07999999821186066,
+        "High": 0.07999999821186066,
+        "Low": 0.07999999821186066,
+        "Open": 0.07999999821186066,
+        "Volume": 0
+      },
+      {
+        "Close": 0.12200000137090683,
+        "High": 0.12200000137090683,
+        "Low": 0.11999999731779099,
+        "Open": 0.11999999731779099,
+        "Volume": 1000
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -11,45 +27,14 @@
   },
   "financials": {
     "income_statement": {
-      "status": "no_data"
-    },
-    "balance_sheet": {
-      "status": "no_data"
-    },
-    "cash_flow": {
-      "status": "no_data"
-    }
-  },
-  "options_data": {
-    "status": "error",
-    "error_message": "Too Many Requests. Rate limited. Try after a while."
-  },
-  "news_data": {
-    "news": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
-    },
-    "recommendations": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
-    }
-  },
-  "holders_data": {
-    "major_holders": {
-      "status": "error"
-    },
-    "institutional_holders": {
-      "status": "error"
-    }
-  },
-  "earnings_data": {
-    "earnings": {
-      "status": "error",
-      "message": "'NoneType' object has no attribute 'empty'"
-    },
-    "calendar": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
-    }
-  }
-}
+      "status": "success",
+      "rows": 38,
+      "columns": [
+        "2024-12-31 00:00:00",
+        "2023-12-31 00:00:00",
+        "2022-12-31 00:00:00",
+        "2021-12-31 00:00:00"
+      ],
+      "data": [
+        {
+          

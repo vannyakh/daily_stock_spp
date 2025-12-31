@@ -1,53 +1,9 @@
 {
   "ticker": "PHYUF",
-  "timestamp": "2025-12-30T04:54:05.804634",
+  "timestamp": "2025-12-31T05:45:23.460781",
   "intraday_data": {
-    "status": "success",
-    "rows": 6,
-    "data": [
-      {
-        "Close SES-WT": 0.23600000143051147,
-        "High SES-WT": 0.23600000143051147,
-        "Low SES-WT": 0.23600000143051147,
-        "Open SES-WT": 0.23600000143051147,
-        "Volume SES-WT": 0
-      },
-      {
-        "Close SES-WT": 0.23229999840259552,
-        "High SES-WT": 0.23229999840259552,
-        "Low SES-WT": 0.23229999840259552,
-        "Open SES-WT": 0.23229999840259552,
-        "Volume SES-WT": 500
-      },
-      {
-        "Close SES-WT": 0.23000000417232513,
-        "High SES-WT": 0.23000000417232513,
-        "Low SES-WT": 0.23000000417232513,
-        "Open SES-WT": 0.23000000417232513,
-        "Volume SES-WT": 542
-      },
-      {
-        "Close SES-WT": 0.17100000381469727,
-        "High SES-WT": 0.20000000298023224,
-        "Low SES-WT": 0.17100000381469727,
-        "Open SES-WT": 0.20000000298023224,
-        "Volume SES-WT": 9675
-      },
-      {
-        "Close SES-WT": 0.15000000596046448,
-        "High SES-WT": 0.1599999964237213,
-        "Low SES-WT": 0.15000000596046448,
-        "Open SES-WT": 0.1599999964237213,
-        "Volume SES-WT": 5203
-      },
-      {
-        "Close SES-WT": 0.17319999635219574,
-        "High SES-WT": 0.17319999635219574,
-        "Low SES-WT": 0.1526000052690506,
-        "Open SES-WT": 0.16249999403953552,
-        "Volume SES-WT": 1895
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -61,39 +17,12 @@
       "status": "no_data"
     },
     "cash_flow": {
-      "status": "no_data"
-    }
-  },
-  "options_data": {
-    "status": "error",
-    "error_message": "Too Many Requests. Rate limited. Try after a while."
-  },
-  "news_data": {
-    "news": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
-    },
-    "recommendations": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
-    }
-  },
-  "holders_data": {
-    "major_holders": {
-      "status": "error"
-    },
-    "institutional_holders": {
-      "status": "error"
-    }
-  },
-  "earnings_data": {
-    "earnings": {
-      "status": "error",
-      "message": "'NoneType' object has no attribute 'empty'"
-    },
-    "calendar": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
-    }
-  }
-}
+      "status": "success",
+      "rows": 38,
+      "columns": [
+        "2023-12-31 00:00:00",
+        "2022-12-31 00:00:00"
+      ],
+      "data": [
+        {
+          

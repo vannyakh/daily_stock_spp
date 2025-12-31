@@ -1,74 +1,9 @@
 {
   "ticker": "CORZW",
-  "timestamp": "2025-12-30T04:55:00.036031",
+  "timestamp": "2025-12-31T05:48:35.198844",
   "intraday_data": {
-    "status": "success",
-    "rows": 9,
-    "data": [
-      {
-        "Close": 9.449999809265137,
-        "High": 9.449999809265137,
-        "Low": 9.449999809265137,
-        "Open": 9.449999809265137,
-        "Volume": 6921
-      },
-      {
-        "Close": 8.869999885559082,
-        "High": 8.890000343322754,
-        "Low": 8.869999885559082,
-        "Open": 8.890000343322754,
-        "Volume": 6297
-      },
-      {
-        "Close": 8.739999771118164,
-        "High": 8.760000228881836,
-        "Low": 8.739999771118164,
-        "Open": 8.75,
-        "Volume": 4629
-      },
-      {
-        "Close": 8.74470043182373,
-        "High": 8.74470043182373,
-        "Low": 8.74470043182373,
-        "Open": 8.74470043182373,
-        "Volume": 1520
-      },
-      {
-        "Close": 8.730199813842773,
-        "High": 8.730199813842773,
-        "Low": 8.710000038146973,
-        "Open": 8.730199813842773,
-        "Volume": 3308
-      },
-      {
-        "Close": 8.8100004196167,
-        "High": 8.8100004196167,
-        "Low": 8.8100004196167,
-        "Open": 8.8100004196167,
-        "Volume": 447
-      },
-      {
-        "Close": 8.740599632263184,
-        "High": 8.740599632263184,
-        "Low": 8.740599632263184,
-        "Open": 8.740599632263184,
-        "Volume": 278
-      },
-      {
-        "Close": 8.930399894714355,
-        "High": 8.930399894714355,
-        "Low": 8.930399894714355,
-        "Open": 8.930399894714355,
-        "Volume": 155
-      },
-      {
-        "Close": 8.890000343322754,
-        "High": 8.890000343322754,
-        "Low": 8.859999656677246,
-        "Open": 8.869999885559082,
-        "Volume": 6870
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -76,45 +11,14 @@
   },
   "financials": {
     "income_statement": {
-      "status": "no_data"
-    },
-    "balance_sheet": {
-      "status": "no_data"
-    },
-    "cash_flow": {
-      "status": "no_data"
-    }
-  },
-  "options_data": {
-    "status": "error",
-    "error_message": "Too Many Requests. Rate limited. Try after a while."
-  },
-  "news_data": {
-    "news": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
-    },
-    "recommendations": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
-    }
-  },
-  "holders_data": {
-    "major_holders": {
-      "status": "error"
-    },
-    "institutional_holders": {
-      "status": "error"
-    }
-  },
-  "earnings_data": {
-    "earnings": {
-      "status": "error",
-      "message": "'NoneType' object has no attribute 'empty'"
-    },
-    "calendar": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
-    }
-  }
-}
+      "status": "success",
+      "rows": 48,
+      "columns": [
+        "2024-12-31 00:00:00",
+        "2023-12-31 00:00:00",
+        "2022-12-31 00:00:00",
+        "2021-12-31 00:00:00"
+      ],
+      "data": [
+        {
+          

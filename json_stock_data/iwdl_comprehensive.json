@@ -1,21 +1,23 @@
 {
   "ticker": "IWDL",
-  "timestamp": "2025-12-30T04:55:52.056514",
+  "timestamp": "2025-12-31T05:51:43.349742",
   "intraday_data": {
     "status": "success",
-    "rows": 1,
+    "rows": 2,
     "data": [
       {
-        "Close": 48.75170135498047,
-        "Close IWML": 24.141799926757812,
-        "High": 49.04140090942383,
-        "High IWML": 24.5,
-        "Low": 48.75170135498047,
-        "Low IWML": 24.141799926757812,
-        "Open": 49.04140090942383,
-        "Open IWML": 24.5,
-        "Volume": 0,
-        "Volume IWML": 0
+        "Close MTUL": 38.72200012207031,
+        "High MTUL": 39.373199462890625,
+        "Low MTUL": 38.72200012207031,
+        "Open MTUL": 39.373199462890625,
+        "Volume MTUL": 0
+      },
+      {
+        "Close MTUL": 38.42509841918945,
+        "High MTUL": 38.72200012207031,
+        "Low MTUL": 38.42509841918945,
+        "Open MTUL": 38.72200012207031,
+        "Volume MTUL": 102
       }
     ]
   },
@@ -40,8 +42,7 @@
   },
   "news_data": {
     "news": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
+      "status": "no_data"
     },
     "recommendations": {
       "status": "error",
@@ -63,7 +64,7 @@
     },
     "calendar": {
       "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
+      "message": "'dict' object has no attribute 'empty'"
     }
   }
 }

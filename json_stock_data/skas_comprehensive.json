@@ -1,16 +1,65 @@
 {
   "ticker": "SKAS",
-  "timestamp": "2025-12-30T04:47:40.491126",
+  "timestamp": "2025-12-31T05:23:56.818202",
   "intraday_data": {
     "status": "success",
-    "rows": 1,
+    "rows": 8,
     "data": [
       {
-        "Close": 6.75,
-        "High": 6.75,
-        "Low": 6.75,
-        "Open": 6.75,
-        "Volume": 0
+        "Close XCRT": 0.008500000461935997,
+        "High XCRT": 0.008500000461935997,
+        "Low XCRT": 0.008500000461935997,
+        "Open XCRT": 0.008500000461935997,
+        "Volume XCRT": 0
+      },
+      {
+        "Close XCRT": 0.008799999952316284,
+        "High XCRT": 0.008799999952316284,
+        "Low XCRT": 0.008799999952316284,
+        "Open XCRT": 0.008799999952316284,
+        "Volume XCRT": 8700
+      },
+      {
+        "Close XCRT": 0.008799999952316284,
+        "High XCRT": 0.008799999952316284,
+        "Low XCRT": 0.008799999952316284,
+        "Open XCRT": 0.008799999952316284,
+        "Volume XCRT": 11300
+      },
+      {
+        "Close XCRT": 0.00839999970048666,
+        "High XCRT": 0.00839999970048666,
+        "Low XCRT": 0.00839999970048666,
+        "Open XCRT": 0.00839999970048666,
+        "Volume XCRT": 11898
+      },
+      {
+        "Close XCRT": 0.008899999782443047,
+        "High XCRT": 0.008899999782443047,
+        "Low XCRT": 0.008899999782443047,
+        "Open XCRT": 0.008899999782443047,
+        "Volume XCRT": 9990
+      },
+      {
+        "Close XCRT": 0.008899999782443047,
+        "High XCRT": 0.008899999782443047,
+        "Low XCRT": 0.008899999782443047,
+        "Open XCRT": 0.008899999782443047,
+        "Volume XCRT": 10000
+      },
+      {
+        "Close XCRT": 0.00839999970048666,
+        "High XCRT": 0.008799999952316284,
+        "Low XCRT": 0.00839999970048666,
+        "Open XCRT": 0.008799999952316284,
+        "Volume XCRT": 60000
+      },
+      {
+        "Close XCRT": 0.007000000216066837,
+        "High XCRT": 0.008100000210106373,
+        "Low XCRT": 0.006399999838322401,
+        "Open XCRT": 0.008100000210106373,
+        "Volume XCRT": 34750
       }
     ]
   },
@@ -23,15 +72,41 @@
       "status": "no_data"
     },
     "balance_sheet": {
-      "status": "success",
-      "rows": 67,
-      "columns": [
-        "2024-12-31 00:00:00",
-        "2023-12-31 00:00:00",
-        "2022-12-31 00:00:00",
-        "2021-12-31 00:00:00",
-        "2020-12-31 00:00:00"
-      ],
-      "data": [
-        {
-          
+      "status": "no_data"
+    },
+    "cash_flow": {
+      "status": "no_data"
+    }
+  },
+  "options_data": {
+    "status": "error",
+    "error_message": "Too Many Requests. Rate limited. Try after a while."
+  },
+  "news_data": {
+    "news": {
+      "status": "no_data"
+    },
+    "recommendations": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  },
+  "holders_data": {
+    "major_holders": {
+      "status": "error"
+    },
+    "institutional_holders": {
+      "status": "error"
+    }
+  },
+  "earnings_data": {
+    "earnings": {
+      "status": "error",
+      "message": "'NoneType' object has no attribute 'empty'"
+    },
+    "calendar": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  }
+}

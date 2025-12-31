@@ -1,13 +1,29 @@
 {
   "ticker": "GBNY",
-  "timestamp": "2025-12-30T04:52:26.527457",
+  "timestamp": "2025-12-31T05:39:28.529654",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 2,
+    "data": [
+      {
+        "Close": 17.75,
+        "High": 17.75,
+        "Low": 17.75,
+        "Open": 17.75,
+        "Volume": 1000
+      },
+      {
+        "Close": 17.760000228881836,
+        "High": 17.760000228881836,
+        "Low": 17.760000228881836,
+        "Open": 17.760000228881836,
+        "Volume": 49
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
-    "message": "argument of type 'NoneType' is not iterable"
+    "message": "Too Many Requests. Rate limited. Try after a while."
   },
   "financials": {
     "income_statement": {
@@ -26,8 +42,7 @@
   },
   "news_data": {
     "news": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
+      "status": "no_data"
     },
     "recommendations": {
       "status": "error",

@@ -1,9 +1,9 @@
 {
   "ticker": "LTRYW",
-  "timestamp": "2025-12-30T04:53:56.317596",
+  "timestamp": "2025-12-31T05:44:49.247164",
   "intraday_data": {
     "status": "success",
-    "rows": 1,
+    "rows": 2,
     "data": [
       {
         "Close GECCI": 25.070100784301758,
@@ -11,6 +11,13 @@
         "Low GECCI": 25.070100784301758,
         "Open GECCI": 25.070100784301758,
         "Volume GECCI": 1436
+      },
+      {
+        "Close GECCI": 25.18000030517578,
+        "High GECCI": 25.18000030517578,
+        "Low GECCI": 25.18000030517578,
+        "Open GECCI": 25.18000030517578,
+        "Volume GECCI": 160
       }
     ]
   },
@@ -23,42 +30,14 @@
       "status": "no_data"
     },
     "balance_sheet": {
-      "status": "no_data"
-    },
-    "cash_flow": {
-      "status": "no_data"
-    }
-  },
-  "options_data": {
-    "status": "error",
-    "error_message": "Too Many Requests. Rate limited. Try after a while."
-  },
-  "news_data": {
-    "news": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
-    },
-    "recommendations": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
-    }
-  },
-  "holders_data": {
-    "major_holders": {
-      "status": "error"
-    },
-    "institutional_holders": {
-      "status": "error"
-    }
-  },
-  "earnings_data": {
-    "earnings": {
-      "status": "error",
-      "message": "'NoneType' object has no attribute 'empty'"
-    },
-    "calendar": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
-    }
-  }
-}
+      "status": "success",
+      "rows": 56,
+      "columns": [
+        "2024-12-31 00:00:00",
+        "2023-12-31 00:00:00",
+        "2022-12-31 00:00:00",
+        "2021-12-31 00:00:00"
+      ],
+      "data": [
+        {
+          

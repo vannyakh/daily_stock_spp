@@ -1,9 +1,32 @@
 {
   "ticker": "GJT",
-  "timestamp": "2025-12-30T04:50:08.552298",
+  "timestamp": "2025-12-31T05:31:19.620422",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 3,
+    "data": [
+      {
+        "Close": 23.149999618530273,
+        "High": 23.149999618530273,
+        "Low": 23.149999618530273,
+        "Open": 23.149999618530273,
+        "Volume": 0
+      },
+      {
+        "Close": 23.360000610351562,
+        "High": 23.360000610351562,
+        "Low": 23.260000228881836,
+        "Open": 23.260000228881836,
+        "Volume": 300
+      },
+      {
+        "Close": 23.360000610351562,
+        "High": 23.360000610351562,
+        "Low": 23.149999618530273,
+        "Open": 23.149999618530273,
+        "Volume": 0
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -26,8 +49,7 @@
   },
   "news_data": {
     "news": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
+      "status": "no_data"
     },
     "recommendations": {
       "status": "error",
@@ -39,7 +61,7 @@
       "status": "error"
     },
     "institutional_holders": {
-      "status": "error"
+      "status": "no_data"
     }
   },
   "earnings_data": {
@@ -49,7 +71,7 @@
     },
     "calendar": {
       "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
+      "message": "'dict' object has no attribute 'empty'"
     }
   }
 }

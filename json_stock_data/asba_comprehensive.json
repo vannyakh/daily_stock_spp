@@ -1,9 +1,9 @@
 {
   "ticker": "ASBA",
-  "timestamp": "2025-12-30T04:56:27.493749",
+  "timestamp": "2025-12-31T05:53:51.139636",
   "intraday_data": {
     "status": "success",
-    "rows": 20,
+    "rows": 26,
     "data": [
       {
         "Close": 24.999900817871094,
@@ -144,12 +144,54 @@
         "Low": 25.049999237060547,
         "Open": 25.100000381469727,
         "Volume": 3304
+      },
+      {
+        "Close": 24.889999389648438,
+        "High": 25.100000381469727,
+        "Low": 24.889999389648438,
+        "Open": 25.100000381469727,
+        "Volume": 580
+      },
+      {
+        "Close": 24.950000762939453,
+        "High": 24.950000762939453,
+        "Low": 24.950000762939453,
+        "Open": 24.950000762939453,
+        "Volume": 1600
+      },
+      {
+        "Close": 24.958200454711914,
+        "High": 25.0,
+        "Low": 24.958200454711914,
+        "Open": 25.0,
+        "Volume": 2211
+      },
+      {
+        "Close": 25.100000381469727,
+        "High": 25.100000381469727,
+        "Low": 25.06999969482422,
+        "Open": 25.06999969482422,
+        "Volume": 600
+      },
+      {
+        "Close": 25.100000381469727,
+        "High": 25.100000381469727,
+        "Low": 25.100000381469727,
+        "Open": 25.100000381469727,
+        "Volume": 238
+      },
+      {
+        "Close": 25.0,
+        "High": 25.049999237060547,
+        "Low": 25.0,
+        "Open": 25.049999237060547,
+        "Volume": 2124
       }
     ]
   },
   "stock_info": {
     "status": "error",
-    "message": "argument of type 'NoneType' is not iterable"
+    "message": "Too Many Requests. Rate limited. Try after a while."
   },
   "financials": {
     "income_statement": {
@@ -168,8 +210,7 @@
   },
   "news_data": {
     "news": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
+      "status": "no_data"
     },
     "recommendations": {
       "status": "error",

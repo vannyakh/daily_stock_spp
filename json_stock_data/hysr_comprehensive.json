@@ -1,107 +1,25 @@
 {
   "ticker": "HYSR",
-  "timestamp": "2025-12-30T04:41:15.462539",
+  "timestamp": "2025-12-31T05:06:14.345573",
   "intraday_data": {
-    "status": "success",
-    "rows": 3,
-    "data": [
-      {
-        "Close BMN": 26.049999237060547,
-        "Close": 0.027000000700354576,
-        "Close ORGN": 0.20430000126361847,
-        "High BMN": 26.049999237060547,
-        "High": 0.027499999850988388,
-        "High ORGN": 0.2045000046491623,
-        "Low BMN": 26.049999237060547,
-        "Low": 0.027000000700354576,
-        "Low ORGN": 0.20000000298023224,
-        "Open BMN": 26.049999237060547,
-        "Open": 0.027000000700354576,
-        "Open ORGN": 0.20000000298023224,
-        "Volume BMN": 0.0,
-        "Volume": 0.0,
-        "Volume ORGN": 157117.0
-      },
-      {
-        "Close BMN": 26.0,
-        "Close": 0.025599999353289604,
-        "Close ORGN": 0.20329999923706055,
-        "High BMN": 26.0,
-        "High": 0.025599999353289604,
-        "High ORGN": 0.20329999923706055,
-        "Low BMN": 26.0,
-        "Low": 0.025599999353289604,
-        "Low ORGN": 0.20329999923706055,
-        "Open BMN": 26.0,
-        "Open": 0.025599999353289604,
-        "Open ORGN": 0.20329999923706055,
-        "Volume BMN": 670.0,
-        "Volume": 1000.0,
-        "Volume ORGN": 0.0
-      },
-      {
-        "Close BMN": 26.09000015258789,
-        "Close": 0.02630000002682209,
-        "Close ORGN": 0.20350000262260437,
-        "High BMN": 26.09000015258789,
-        "High": 0.02630000002682209,
-        "High ORGN": 0.20350000262260437,
-        "Low BMN": 26.09000015258789,
-        "Low": 0.02630000002682209,
-        "Low ORGN": 0.20350000262260437,
-        "Open BMN": 26.09000015258789,
-        "Open": 0.02630000002682209,
-        "Open ORGN": 0.20350000262260437,
-        "Volume BMN": 197.0,
-        "Volume": 50000.0,
-        "Volume ORGN": 3339.0
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
-    "message": "argument of type 'NoneType' is not iterable"
+    "message": "Too Many Requests. Rate limited. Try after a while."
   },
   "financials": {
     "income_statement": {
-      "status": "no_data"
-    },
-    "balance_sheet": {
-      "status": "no_data"
-    },
-    "cash_flow": {
-      "status": "no_data"
-    }
-  },
-  "options_data": {
-    "status": "error",
-    "error_message": "Too Many Requests. Rate limited. Try after a while."
-  },
-  "news_data": {
-    "news": {
-      "status": "no_data"
-    },
-    "recommendations": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
-    }
-  },
-  "holders_data": {
-    "major_holders": {
-      "status": "error"
-    },
-    "institutional_holders": {
-      "status": "error"
-    }
-  },
-  "earnings_data": {
-    "earnings": {
-      "status": "error",
-      "message": "'NoneType' object has no attribute 'empty'"
-    },
-    "calendar": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
-    }
-  }
-}
+      "status": "success",
+      "rows": 45,
+      "columns": [
+        "2025-06-30 00:00:00",
+        "2024-06-30 00:00:00",
+        "2023-06-30 00:00:00",
+        "2022-06-30 00:00:00",
+        "2021-06-30 00:00:00"
+      ],
+      "data": [
+        {
+          

@@ -1,60 +1,9 @@
 {
   "ticker": "NECB",
-  "timestamp": "2025-12-30T04:39:02.140144",
+  "timestamp": "2025-12-31T05:00:09.894255",
   "intraday_data": {
-    "status": "success",
-    "rows": 7,
-    "data": [
-      {
-        "Close HYAC": 11.430000305175781,
-        "High HYAC": 11.430000305175781,
-        "Low HYAC": 11.430000305175781,
-        "Open HYAC": 11.430000305175781,
-        "Volume HYAC": 0
-      },
-      {
-        "Close HYAC": 11.380000114440918,
-        "High HYAC": 11.380000114440918,
-        "Low HYAC": 11.380000114440918,
-        "Open HYAC": 11.380000114440918,
-        "Volume HYAC": 1700
-      },
-      {
-        "Close HYAC": 11.359999656677246,
-        "High HYAC": 11.380000114440918,
-        "Low HYAC": 11.359999656677246,
-        "Open HYAC": 11.380000114440918,
-        "Volume HYAC": 30096
-      },
-      {
-        "Close HYAC": 11.369999885559082,
-        "High HYAC": 11.369999885559082,
-        "Low HYAC": 11.369999885559082,
-        "Open HYAC": 11.369999885559082,
-        "Volume HYAC": 100
-      },
-      {
-        "Close HYAC": 11.380000114440918,
-        "High HYAC": 11.380000114440918,
-        "Low HYAC": 11.380000114440918,
-        "Open HYAC": 11.380000114440918,
-        "Volume HYAC": 15002
-      },
-      {
-        "Close HYAC": 11.380000114440918,
-        "High HYAC": 11.380000114440918,
-        "Low HYAC": 11.380000114440918,
-        "Open HYAC": 11.380000114440918,
-        "Volume HYAC": 1100
-      },
-      {
-        "Close HYAC": 11.380000114440918,
-        "High HYAC": 11.380000114440918,
-        "Low HYAC": 11.369999885559082,
-        "Open HYAC": 11.380000114440918,
-        "Volume HYAC": 8826
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -674,7 +623,8 @@
       ]
     },
     "recommendations": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   },
   "holders_data": {

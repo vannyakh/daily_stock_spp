@@ -1,9 +1,25 @@
 {
   "ticker": "ADMQ",
-  "timestamp": "2025-12-30T04:52:38.776384",
+  "timestamp": "2025-12-31T05:40:11.442885",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 2,
+    "data": [
+      {
+        "Close": 0.04100000113248825,
+        "High": 0.041999999433755875,
+        "Low": 0.04100000113248825,
+        "Open": 0.041999999433755875,
+        "Volume": 0
+      },
+      {
+        "Close": 0.04010000079870224,
+        "High": 0.04010000079870224,
+        "Low": 0.04010000079870224,
+        "Open": 0.04010000079870224,
+        "Volume": 10500
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -26,8 +42,7 @@
   },
   "news_data": {
     "news": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
+      "status": "no_data"
     },
     "recommendations": {
       "status": "error",

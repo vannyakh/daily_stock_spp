@@ -1,25 +1,9 @@
 {
   "ticker": "COUV",
-  "timestamp": "2025-12-30T04:52:53.452556",
+  "timestamp": "2025-12-31T05:41:05.708205",
   "intraday_data": {
-    "status": "success",
-    "rows": 2,
-    "data": [
-      {
-        "Close GMBL": 0.23999999463558197,
-        "High GMBL": 0.23999999463558197,
-        "Low GMBL": 0.23999999463558197,
-        "Open GMBL": 0.23999999463558197,
-        "Volume GMBL": 0
-      },
-      {
-        "Close GMBL": 0.3677999973297119,
-        "High GMBL": 0.3677999973297119,
-        "Low GMBL": 0.3677999973297119,
-        "Open GMBL": 0.3677999973297119,
-        "Volume GMBL": 500
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -42,8 +26,7 @@
   },
   "news_data": {
     "news": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
+      "status": "no_data"
     },
     "recommendations": {
       "status": "error",
@@ -55,7 +38,7 @@
       "status": "error"
     },
     "institutional_holders": {
-      "status": "no_data"
+      "status": "error"
     }
   },
   "earnings_data": {

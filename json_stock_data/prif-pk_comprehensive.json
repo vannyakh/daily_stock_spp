@@ -1,32 +1,9 @@
 {
   "ticker": "PRIF-PK",
-  "timestamp": "2025-12-30T04:56:13.977639",
+  "timestamp": "2025-12-31T05:53:02.782752",
   "intraday_data": {
-    "status": "success",
-    "rows": 3,
-    "data": [
-      {
-        "Close PRIF-PL": 24.079999923706055,
-        "High PRIF-PL": 24.079999923706055,
-        "Low PRIF-PL": 24.079999923706055,
-        "Open PRIF-PL": 24.079999923706055,
-        "Volume PRIF-PL": 0
-      },
-      {
-        "Close PRIF-PL": 24.09000015258789,
-        "High PRIF-PL": 24.09000015258789,
-        "Low PRIF-PL": 24.09000015258789,
-        "Open PRIF-PL": 24.09000015258789,
-        "Volume PRIF-PL": 1000
-      },
-      {
-        "Close PRIF-PL": 24.079999923706055,
-        "High PRIF-PL": 24.079999923706055,
-        "Low PRIF-PL": 24.079999923706055,
-        "Open PRIF-PL": 24.079999923706055,
-        "Volume PRIF-PL": 219
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -40,39 +17,15 @@
       "status": "no_data"
     },
     "cash_flow": {
-      "status": "no_data"
-    }
-  },
-  "options_data": {
-    "status": "error",
-    "error_message": "Too Many Requests. Rate limited. Try after a while."
-  },
-  "news_data": {
-    "news": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
-    },
-    "recommendations": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
-    }
-  },
-  "holders_data": {
-    "major_holders": {
-      "status": "error"
-    },
-    "institutional_holders": {
-      "status": "error"
-    }
-  },
-  "earnings_data": {
-    "earnings": {
-      "status": "error",
-      "message": "'NoneType' object has no attribute 'empty'"
-    },
-    "calendar": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
-    }
-  }
-}
+      "status": "success",
+      "rows": 47,
+      "columns": [
+        "2025-06-30 00:00:00",
+        "2024-06-30 00:00:00",
+        "2023-06-30 00:00:00",
+        "2022-06-30 00:00:00",
+        "2021-06-30 00:00:00"
+      ],
+      "data": [
+        {
+          

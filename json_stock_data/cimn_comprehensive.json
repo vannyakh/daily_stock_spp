@@ -1,32 +1,9 @@
 {
   "ticker": "CIMN",
-  "timestamp": "2025-12-30T04:54:24.236265",
+  "timestamp": "2025-12-31T05:46:26.703368",
   "intraday_data": {
-    "status": "success",
-    "rows": 3,
-    "data": [
-      {
-        "Close": 25.139999389648438,
-        "High": 25.139999389648438,
-        "Low": 25.139999389648438,
-        "Open": 25.139999389648438,
-        "Volume": 0
-      },
-      {
-        "Close": 25.309999465942383,
-        "High": 25.309999465942383,
-        "Low": 25.270000457763672,
-        "Open": 25.270000457763672,
-        "Volume": 2650
-      },
-      {
-        "Close": 25.309999465942383,
-        "High": 25.309999465942383,
-        "Low": 25.309999465942383,
-        "Open": 25.309999465942383,
-        "Volume": 486
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -49,8 +26,7 @@
   },
   "news_data": {
     "news": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
+      "status": "no_data"
     },
     "recommendations": {
       "status": "error",

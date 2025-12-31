@@ -1,46 +1,9 @@
 {
   "ticker": "PEB-PG",
-  "timestamp": "2025-12-30T04:56:21.247443",
+  "timestamp": "2025-12-31T05:53:29.123168",
   "intraday_data": {
-    "status": "success",
-    "rows": 5,
-    "data": [
-      {
-        "Close CUBB": 22.149999618530273,
-        "High CUBB": 22.149999618530273,
-        "Low CUBB": 22.149999618530273,
-        "Open CUBB": 22.149999618530273,
-        "Volume CUBB": 0
-      },
-      {
-        "Close CUBB": 22.170000076293945,
-        "High CUBB": 22.170000076293945,
-        "Low CUBB": 22.170000076293945,
-        "Open CUBB": 22.170000076293945,
-        "Volume CUBB": 130
-      },
-      {
-        "Close CUBB": 22.149999618530273,
-        "High CUBB": 22.149999618530273,
-        "Low CUBB": 22.149999618530273,
-        "Open CUBB": 22.149999618530273,
-        "Volume CUBB": 114
-      },
-      {
-        "Close CUBB": 22.190000534057617,
-        "High CUBB": 22.190000534057617,
-        "Low CUBB": 22.170000076293945,
-        "Open CUBB": 22.170000076293945,
-        "Volume CUBB": 538
-      },
-      {
-        "Close CUBB": 22.190000534057617,
-        "High CUBB": 22.190000534057617,
-        "Low CUBB": 22.190000534057617,
-        "Open CUBB": 22.190000534057617,
-        "Volume CUBB": 100
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -48,45 +11,14 @@
   },
   "financials": {
     "income_statement": {
-      "status": "no_data"
-    },
-    "balance_sheet": {
-      "status": "no_data"
-    },
-    "cash_flow": {
-      "status": "no_data"
-    }
-  },
-  "options_data": {
-    "status": "error",
-    "error_message": "Too Many Requests. Rate limited. Try after a while."
-  },
-  "news_data": {
-    "news": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
-    },
-    "recommendations": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
-    }
-  },
-  "holders_data": {
-    "major_holders": {
-      "status": "error"
-    },
-    "institutional_holders": {
-      "status": "error"
-    }
-  },
-  "earnings_data": {
-    "earnings": {
-      "status": "error",
-      "message": "'NoneType' object has no attribute 'empty'"
-    },
-    "calendar": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
-    }
-  }
-}
+      "status": "success",
+      "rows": 50,
+      "columns": [
+        "2024-12-31 00:00:00",
+        "2023-12-31 00:00:00",
+        "2022-12-31 00:00:00",
+        "2021-12-31 00:00:00"
+      ],
+      "data": [
+        {
+          

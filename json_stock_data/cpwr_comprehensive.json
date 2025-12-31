@@ -1,9 +1,46 @@
 {
   "ticker": "CPWR",
-  "timestamp": "2025-12-30T04:52:48.858081",
+  "timestamp": "2025-12-31T05:40:48.314838",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 5,
+    "data": [
+      {
+        "Close": 0.016300000250339508,
+        "High": 0.016300000250339508,
+        "Low": 0.016300000250339508,
+        "Open": 0.016300000250339508,
+        "Volume": 0
+      },
+      {
+        "Close": 0.016300000250339508,
+        "High": 0.016300000250339508,
+        "Low": 0.016300000250339508,
+        "Open": 0.016300000250339508,
+        "Volume": 100000
+      },
+      {
+        "Close": 0.016300000250339508,
+        "High": 0.016300000250339508,
+        "Low": 0.016300000250339508,
+        "Open": 0.016300000250339508,
+        "Volume": 50000
+      },
+      {
+        "Close": 0.016300000250339508,
+        "High": 0.016300000250339508,
+        "Low": 0.016300000250339508,
+        "Open": 0.016300000250339508,
+        "Volume": 14475
+      },
+      {
+        "Close": 0.016300000250339508,
+        "High": 0.016300000250339508,
+        "Low": 0.016300000250339508,
+        "Open": 0.016300000250339508,
+        "Volume": 4500
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -17,39 +54,13 @@
       "status": "no_data"
     },
     "cash_flow": {
-      "status": "no_data"
-    }
-  },
-  "options_data": {
-    "status": "error",
-    "error_message": "Too Many Requests. Rate limited. Try after a while."
-  },
-  "news_data": {
-    "news": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
-    },
-    "recommendations": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
-    }
-  },
-  "holders_data": {
-    "major_holders": {
-      "status": "error"
-    },
-    "institutional_holders": {
-      "status": "error"
-    }
-  },
-  "earnings_data": {
-    "earnings": {
-      "status": "error",
-      "message": "'NoneType' object has no attribute 'empty'"
-    },
-    "calendar": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
-    }
-  }
-}
+      "status": "success",
+      "rows": 29,
+      "columns": [
+        "2023-12-31 00:00:00",
+        "2022-12-31 00:00:00",
+        "2021-12-31 00:00:00"
+      ],
+      "data": [
+        {
+          

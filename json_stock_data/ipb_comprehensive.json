@@ -1,32 +1,9 @@
 {
   "ticker": "IPB",
-  "timestamp": "2025-12-30T04:50:07.280557",
+  "timestamp": "2025-12-31T05:31:14.576860",
   "intraday_data": {
-    "status": "success",
-    "rows": 3,
-    "data": [
-      {
-        "Close PYT": 23.31999969482422,
-        "High PYT": 23.47010040283203,
-        "Low PYT": 23.31999969482422,
-        "Open PYT": 23.469999313354492,
-        "Volume PYT": 0
-      },
-      {
-        "Close PYT": 23.476699829101562,
-        "High PYT": 23.489999771118164,
-        "Low PYT": 23.469999313354492,
-        "Open PYT": 23.489999771118164,
-        "Volume PYT": 3100
-      },
-      {
-        "Close PYT": 23.469999313354492,
-        "High PYT": 23.469999313354492,
-        "Low PYT": 23.469999313354492,
-        "Open PYT": 23.469999313354492,
-        "Volume PYT": 100
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -49,8 +26,7 @@
   },
   "news_data": {
     "news": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
+      "status": "no_data"
     },
     "recommendations": {
       "status": "error",

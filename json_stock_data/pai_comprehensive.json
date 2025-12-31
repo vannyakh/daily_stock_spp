@@ -1,46 +1,9 @@
 {
   "ticker": "PAI",
-  "timestamp": "2025-12-30T04:42:04.996205",
+  "timestamp": "2025-12-31T05:08:32.252204",
   "intraday_data": {
-    "status": "success",
-    "rows": 5,
-    "data": [
-      {
-        "Close": 12.619999885559082,
-        "High": 12.619999885559082,
-        "Low": 12.619999885559082,
-        "Open": 12.619999885559082,
-        "Volume": 0
-      },
-      {
-        "Close": 12.518799781799316,
-        "High": 12.518799781799316,
-        "Low": 12.518799781799316,
-        "Open": 12.518799781799316,
-        "Volume": 113
-      },
-      {
-        "Close": 12.613100051879883,
-        "High": 12.613100051879883,
-        "Low": 12.613100051879883,
-        "Open": 12.613100051879883,
-        "Volume": 696
-      },
-      {
-        "Close": 12.5600004196167,
-        "High": 12.5600004196167,
-        "Low": 12.5600004196167,
-        "Open": 12.5600004196167,
-        "Volume": 358
-      },
-      {
-        "Close": 12.5649995803833,
-        "High": 12.5649995803833,
-        "Low": 12.5649995803833,
-        "Open": 12.5649995803833,
-        "Volume": 753
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -66,7 +29,8 @@
       "status": "no_data"
     },
     "recommendations": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   },
   "holders_data": {

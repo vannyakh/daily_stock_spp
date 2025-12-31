@@ -1,6 +1,6 @@
 {
   "ticker": "KIRK",
-  "timestamp": "2025-12-30T04:46:05.097602",
+  "timestamp": "2025-12-31T05:19:33.730864",
   "intraday_data": {
     "status": "no_data",
     "message": "No intraday data available"
@@ -604,15 +604,16 @@
       ]
     },
     "recommendations": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   },
   "holders_data": {
     "major_holders": {
-      "status": "no_data"
+      "status": "error"
     },
     "institutional_holders": {
-      "status": "no_data"
+      "status": "error"
     }
   },
   "earnings_data": {
@@ -622,7 +623,7 @@
     },
     "calendar": {
       "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
+      "message": "'dict' object has no attribute 'empty'"
     }
   }
 }

@@ -1,9 +1,25 @@
 {
   "ticker": "FRFXF",
-  "timestamp": "2025-12-30T04:51:20.768445",
+  "timestamp": "2025-12-31T05:35:36.400823",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 2,
+    "data": [
+      {
+        "Close": 23.260000228881836,
+        "High": 23.260000228881836,
+        "Low": 23.260000228881836,
+        "Open": 23.260000228881836,
+        "Volume": 100
+      },
+      {
+        "Close": 23.260000228881836,
+        "High": 23.260000228881836,
+        "Low": 23.25,
+        "Open": 23.260000228881836,
+        "Volume": 900
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -17,39 +33,14 @@
       "status": "no_data"
     },
     "cash_flow": {
-      "status": "no_data"
-    }
-  },
-  "options_data": {
-    "status": "error",
-    "error_message": "Too Many Requests. Rate limited. Try after a while."
-  },
-  "news_data": {
-    "news": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
-    },
-    "recommendations": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
-    }
-  },
-  "holders_data": {
-    "major_holders": {
-      "status": "error"
-    },
-    "institutional_holders": {
-      "status": "error"
-    }
-  },
-  "earnings_data": {
-    "earnings": {
-      "status": "error",
-      "message": "'NoneType' object has no attribute 'empty'"
-    },
-    "calendar": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
-    }
-  }
-}
+      "status": "success",
+      "rows": 60,
+      "columns": [
+        "2024-12-31 00:00:00",
+        "2023-12-31 00:00:00",
+        "2022-12-31 00:00:00",
+        "2021-12-31 00:00:00"
+      ],
+      "data": [
+        {
+          

@@ -1,74 +1,9 @@
 {
   "ticker": "SMREF",
-  "timestamp": "2025-12-30T04:47:58.831963",
+  "timestamp": "2025-12-31T05:24:45.881197",
   "intraday_data": {
-    "status": "success",
-    "rows": 9,
-    "data": [
-      {
-        "Close STEK": 0.0010999999940395355,
-        "High STEK": 0.0010999999940395355,
-        "Low STEK": 0.0010999999940395355,
-        "Open STEK": 0.0010999999940395355,
-        "Volume STEK": 0
-      },
-      {
-        "Close STEK": 0.0010999999940395355,
-        "High STEK": 0.0010999999940395355,
-        "Low STEK": 0.0010999999940395355,
-        "Open STEK": 0.0010999999940395355,
-        "Volume STEK": 2520000
-      },
-      {
-        "Close STEK": 0.0010000000474974513,
-        "High STEK": 0.0010000000474974513,
-        "Low STEK": 0.0010000000474974513,
-        "Open STEK": 0.0010000000474974513,
-        "Volume STEK": 1000000
-      },
-      {
-        "Close STEK": 0.0010000000474974513,
-        "High STEK": 0.0010000000474974513,
-        "Low STEK": 0.0010000000474974513,
-        "Open STEK": 0.0010000000474974513,
-        "Volume STEK": 1000000
-      },
-      {
-        "Close STEK": 0.0010000000474974513,
-        "High STEK": 0.0010000000474974513,
-        "Low STEK": 0.0010000000474974513,
-        "Open STEK": 0.0010000000474974513,
-        "Volume STEK": 10000
-      },
-      {
-        "Close STEK": 0.0010000000474974513,
-        "High STEK": 0.0010000000474974513,
-        "Low STEK": 0.0010000000474974513,
-        "Open STEK": 0.0010000000474974513,
-        "Volume STEK": 99965
-      },
-      {
-        "Close STEK": 0.0008999999845400453,
-        "High STEK": 0.0008999999845400453,
-        "Low STEK": 0.0008999999845400453,
-        "Open STEK": 0.0008999999845400453,
-        "Volume STEK": 4
-      },
-      {
-        "Close STEK": 0.0008999999845400453,
-        "High STEK": 0.0008999999845400453,
-        "Low STEK": 0.0008999999845400453,
-        "Open STEK": 0.0008999999845400453,
-        "Volume STEK": 560328
-      },
-      {
-        "Close STEK": 0.0008999999845400453,
-        "High STEK": 0.0008999999845400453,
-        "Low STEK": 0.0008999999845400453,
-        "Open STEK": 0.0008999999845400453,
-        "Volume STEK": 30000
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -158,7 +93,8 @@
       ]
     },
     "recommendations": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   },
   "holders_data": {
@@ -166,7 +102,7 @@
       "status": "error"
     },
     "institutional_holders": {
-      "status": "error"
+      "status": "no_data"
     }
   },
   "earnings_data": {

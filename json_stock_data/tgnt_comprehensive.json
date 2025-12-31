@@ -1,9 +1,25 @@
 {
   "ticker": "TGNT",
-  "timestamp": "2025-12-30T04:52:43.219334",
+  "timestamp": "2025-12-31T05:40:28.934890",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 2,
+    "data": [
+      {
+        "Close": 0.021199999377131462,
+        "High": 0.021199999377131462,
+        "Low": 0.021199999377131462,
+        "Open": 0.021199999377131462,
+        "Volume": 0
+      },
+      {
+        "Close": 0.019999999552965164,
+        "High": 0.019999999552965164,
+        "Low": 0.019999999552965164,
+        "Open": 0.019999999552965164,
+        "Volume": 10000
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -26,8 +42,7 @@
   },
   "news_data": {
     "news": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
+      "status": "no_data"
     },
     "recommendations": {
       "status": "error",

@@ -1,25 +1,9 @@
 {
   "ticker": "BSLKW",
-  "timestamp": "2025-12-30T04:53:36.438200",
+  "timestamp": "2025-12-31T05:43:39.757861",
   "intraday_data": {
-    "status": "success",
-    "rows": 2,
-    "data": [
-      {
-        "Close SBXD-WT": 0.3199999928474426,
-        "High SBXD-WT": 0.3199999928474426,
-        "Low SBXD-WT": 0.3199999928474426,
-        "Open SBXD-WT": 0.3199999928474426,
-        "Volume SBXD-WT": 0
-      },
-      {
-        "Close SBXD-WT": 0.3197000026702881,
-        "High SBXD-WT": 0.3197999894618988,
-        "Low SBXD-WT": 0.3197000026702881,
-        "Open SBXD-WT": 0.3197999894618988,
-        "Volume SBXD-WT": 388
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -27,45 +11,14 @@
   },
   "financials": {
     "income_statement": {
-      "status": "no_data"
-    },
-    "balance_sheet": {
-      "status": "no_data"
-    },
-    "cash_flow": {
-      "status": "no_data"
-    }
-  },
-  "options_data": {
-    "status": "error",
-    "error_message": "Too Many Requests. Rate limited. Try after a while."
-  },
-  "news_data": {
-    "news": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
-    },
-    "recommendations": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
-    }
-  },
-  "holders_data": {
-    "major_holders": {
-      "status": "error"
-    },
-    "institutional_holders": {
-      "status": "error"
-    }
-  },
-  "earnings_data": {
-    "earnings": {
-      "status": "error",
-      "message": "'NoneType' object has no attribute 'empty'"
-    },
-    "calendar": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
-    }
-  }
-}
+      "status": "success",
+      "rows": 43,
+      "columns": [
+        "2024-12-31 00:00:00",
+        "2023-12-31 00:00:00",
+        "2022-12-31 00:00:00",
+        "2021-12-31 00:00:00"
+      ],
+      "data": [
+        {
+          

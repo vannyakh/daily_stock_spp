@@ -1,53 +1,9 @@
 {
   "ticker": "STEC",
-  "timestamp": "2025-12-30T04:46:02.595519",
+  "timestamp": "2025-12-31T05:19:27.460090",
   "intraday_data": {
-    "status": "success",
-    "rows": 6,
-    "data": [
-      {
-        "Close CXXIF": 0.33000001311302185,
-        "High CXXIF": 0.33000001311302185,
-        "Low CXXIF": 0.33000001311302185,
-        "Open CXXIF": 0.33000001311302185,
-        "Volume CXXIF": 0
-      },
-      {
-        "Close CXXIF": 0.3499999940395355,
-        "High CXXIF": 0.3499999940395355,
-        "Low CXXIF": 0.3499999940395355,
-        "Open CXXIF": 0.3499999940395355,
-        "Volume CXXIF": 200
-      },
-      {
-        "Close CXXIF": 0.3499999940395355,
-        "High CXXIF": 0.3499999940395355,
-        "Low CXXIF": 0.3499999940395355,
-        "Open CXXIF": 0.3499999940395355,
-        "Volume CXXIF": 600
-      },
-      {
-        "Close CXXIF": 0.3499999940395355,
-        "High CXXIF": 0.3499999940395355,
-        "Low CXXIF": 0.3499999940395355,
-        "Open CXXIF": 0.3499999940395355,
-        "Volume CXXIF": 300
-      },
-      {
-        "Close CXXIF": 0.35499998927116394,
-        "High CXXIF": 0.35499998927116394,
-        "Low CXXIF": 0.35499998927116394,
-        "Open CXXIF": 0.35499998927116394,
-        "Volume CXXIF": 2500
-      },
-      {
-        "Close CXXIF": 0.33000001311302185,
-        "High CXXIF": 0.33000001311302185,
-        "Low CXXIF": 0.33000001311302185,
-        "Open CXXIF": 0.33000001311302185,
-        "Volume CXXIF": 1000
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -55,89 +11,14 @@
   },
   "financials": {
     "income_statement": {
-      "status": "no_data"
-    },
-    "balance_sheet": {
-      "status": "no_data"
-    },
-    "cash_flow": {
-      "status": "no_data"
-    }
-  },
-  "options_data": {
-    "status": "error",
-    "error_message": "Too Many Requests. Rate limited. Try after a while."
-  },
-  "news_data": {
-    "news": {
       "status": "success",
-      "count": 1,
+      "rows": 47,
+      "columns": [
+        "2024-06-30 00:00:00",
+        "2023-06-30 00:00:00",
+        "2022-06-30 00:00:00",
+        "2021-06-30 00:00:00"
+      ],
       "data": [
         {
-          "id": "73107de1-03fd-307d-8031-4690144e3405",
-          "content": {
-            "id": "73107de1-03fd-307d-8031-4690144e3405",
-            "contentType": "STORY",
-            "title": "Wall Street Set to Open Higher Wednesday as Key Inflation Measure Declines",
-            "description": "",
-            "summary": "US stocks look set to open higher in Wednesday's trading session after a key inflation measure unexp",
-            "pubDate": "2025-09-10T13:26:15Z",
-            "displayTime": "2025-09-10T13:26:15Z",
-            "isHosted": true,
-            "bypassModal": false,
-            "previewUrl": null,
-            "thumbnail": null,
-            "provider": {
-              "displayName": "MT Newswires",
-              "url": "https://www.mtnewswires.com/"
-            },
-            "canonicalUrl": {
-              "url": "https://finance.yahoo.com/news/wall-street-set-open-higher-132615529.html",
-              "site": "finance",
-              "region": "US",
-              "lang": "en-US"
-            },
-            "clickThroughUrl": {
-              "url": "https://finance.yahoo.com/news/wall-street-set-open-higher-132615529.html",
-              "site": "finance",
-              "region": "US",
-              "lang": "en-US"
-            },
-            "metadata": {
-              "editorsPick": false
-            },
-            "finance": {
-              "premiumFinance": {
-                "isPremiumNews": true,
-                "isPremiumFreeNews": false
-              }
-            },
-            "storyline": null
-          }
-        }
-      ]
-    },
-    "recommendations": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
-    }
-  },
-  "holders_data": {
-    "major_holders": {
-      "status": "error"
-    },
-    "institutional_holders": {
-      "status": "error"
-    }
-  },
-  "earnings_data": {
-    "earnings": {
-      "status": "error",
-      "message": "'NoneType' object has no attribute 'empty'"
-    },
-    "calendar": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
-    }
-  }
-}
+          

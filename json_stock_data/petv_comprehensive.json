@@ -1,25 +1,9 @@
 {
   "ticker": "PETV",
-  "timestamp": "2025-12-30T04:46:10.595677",
+  "timestamp": "2025-12-31T05:19:46.734078",
   "intraday_data": {
-    "status": "success",
-    "rows": 2,
-    "data": [
-      {
-        "Close": 1.1699999570846558,
-        "High": 1.1699999570846558,
-        "Low": 1.1699999570846558,
-        "Open": 1.1699999570846558,
-        "Volume": 0
-      },
-      {
-        "Close": 1.100000023841858,
-        "High": 1.100000023841858,
-        "Low": 1.100000023841858,
-        "Open": 1.100000023841858,
-        "Volume": 747
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -170,7 +154,7 @@
     },
     "calendar": {
       "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
+      "message": "'dict' object has no attribute 'empty'"
     }
   }
 }

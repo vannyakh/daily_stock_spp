@@ -1,63 +1,13 @@
 {
   "ticker": "NRUC",
-  "timestamp": "2025-12-30T04:50:05.864472",
+  "timestamp": "2025-12-31T05:31:09.061253",
   "intraday_data": {
-    "status": "success",
-    "rows": 4,
-    "data": [
-      {
-        "Close CTBB": 17.92009925842285,
-        "Close": 23.729999542236328,
-        "High CTBB": 17.92009925842285,
-        "High": 23.729999542236328,
-        "Low CTBB": 17.920000076293945,
-        "Low": 23.729999542236328,
-        "Open CTBB": 17.920000076293945,
-        "Open": 23.729999542236328,
-        "Volume CTBB": 0.0,
-        "Volume": 0.0
-      },
-      {
-        "Close CTBB": 18.059999465942383,
-        "Close": 23.67009925842285,
-        "High CTBB": 18.059999465942383,
-        "High": 23.67009925842285,
-        "Low CTBB": 17.930099487304688,
-        "Low": 23.670000076293945,
-        "Open CTBB": 17.97800064086914,
-        "Open": 23.670000076293945,
-        "Volume CTBB": 785.0,
-        "Volume": 338.0
-      },
-      {
-        "Close CTBB": 17.989999771118164,
-        "Close": 23.649999618530273,
-        "High CTBB": 17.989999771118164,
-        "High": 23.649999618530273,
-        "Low CTBB": 17.989999771118164,
-        "Low": 23.645000457763672,
-        "Open CTBB": 17.989999771118164,
-        "Open": 23.645000457763672,
-        "Volume CTBB": 248.0,
-        "Volume": 675.0
-      },
-      {
-        "Close CTBB": 17.979999542236328,
-        "Close": 23.649999618530273,
-        "High CTBB": 17.979999542236328,
-        "High": 23.649999618530273,
-        "Low CTBB": 17.979999542236328,
-        "Low": 23.649999618530273,
-        "Open CTBB": 17.979999542236328,
-        "Open": 23.649999618530273,
-        "Volume CTBB": 276.0,
-        "Volume": 0.0
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
-    "message": "argument of type 'NoneType' is not iterable"
+    "message": "Too Many Requests. Rate limited. Try after a while."
   },
   "financials": {
     "income_statement": {
@@ -76,8 +26,7 @@
   },
   "news_data": {
     "news": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
+      "status": "no_data"
     },
     "recommendations": {
       "status": "error",

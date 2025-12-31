@@ -1,32 +1,9 @@
 {
   "ticker": "NUWE",
-  "timestamp": "2025-12-30T04:48:15.360610",
+  "timestamp": "2025-12-31T05:25:31.771057",
   "intraday_data": {
-    "status": "success",
-    "rows": 3,
-    "data": [
-      {
-        "Close NMREF": 0.1673000007867813,
-        "High NMREF": 0.1673000007867813,
-        "Low NMREF": 0.1673000007867813,
-        "Open NMREF": 0.1673000007867813,
-        "Volume NMREF": 0
-      },
-      {
-        "Close NMREF": 0.17000000178813934,
-        "High NMREF": 0.17000000178813934,
-        "Low NMREF": 0.17000000178813934,
-        "Open NMREF": 0.17000000178813934,
-        "Volume NMREF": 5000
-      },
-      {
-        "Close NMREF": 0.17000000178813934,
-        "High NMREF": 0.17000000178813934,
-        "Low NMREF": 0.17000000178813934,
-        "Open NMREF": 0.17000000178813934,
-        "Volume NMREF": 10000
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -402,7 +379,8 @@
       ]
     },
     "recommendations": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   },
   "holders_data": {

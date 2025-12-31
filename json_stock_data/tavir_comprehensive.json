@@ -1,25 +1,9 @@
 {
   "ticker": "TAVIR",
-  "timestamp": "2025-12-30T04:53:25.912938",
+  "timestamp": "2025-12-31T05:42:57.694858",
   "intraday_data": {
-    "status": "success",
-    "rows": 2,
-    "data": [
-      {
-        "Close": 0.20180000364780426,
-        "High": 0.20180000364780426,
-        "Low": 0.20180000364780426,
-        "Open": 0.20180000364780426,
-        "Volume": 0
-      },
-      {
-        "Close": 0.22990000247955322,
-        "High": 0.22990000247955322,
-        "Low": 0.22990000247955322,
-        "Open": 0.22990000247955322,
-        "Volume": 150
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -42,8 +26,71 @@
   },
   "news_data": {
     "news": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
+      "status": "success",
+      "count": 1,
+      "data": [
+        {
+          "id": "9d7dba58-1644-3cfd-9e84-39f2eb9206ad",
+          "content": {
+            "id": "9d7dba58-1644-3cfd-9e84-39f2eb9206ad",
+            "contentType": "STORY",
+            "title": "Institutions own 28% of Tavia Acquisition Corp. (NASDAQ:TAVI) shares but individual investors control 37% of the company",
+            "description": "",
+            "summary": "Key Insights The considerable ownership by individual investors in Tavia Acquisition indicates that they collectively...",
+            "pubDate": "2025-04-02T12:22:06Z",
+            "displayTime": "2025-04-02T12:22:06Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": {
+              "originalUrl": "https://media.zenfs.com/en/simply_wall_st__316/f88d3d8c5618aa88ce2627c2a1cda340",
+              "originalWidth": 1194,
+              "originalHeight": 432,
+              "caption": "",
+              "resolutions": [
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/SSw8naZrBB1tKswm10P8gw--~B/aD00MzI7dz0xMTk0O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/simply_wall_st__316/f88d3d8c5618aa88ce2627c2a1cda340",
+                  "width": 1194,
+                  "height": 432,
+                  "tag": "original"
+                },
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/79qko4F_hdhwRlGyEfLjcw--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/simply_wall_st__316/f88d3d8c5618aa88ce2627c2a1cda340",
+                  "width": 170,
+                  "height": 128,
+                  "tag": "170x128"
+                }
+              ]
+            },
+            "provider": {
+              "displayName": "Simply Wall St.",
+              "url": "https://simplywall.st/"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/institutions-own-28-tavia-acquisition-122206391.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/institutions-own-28-tavia-acquisition-122206391.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        }
+      ]
     },
     "recommendations": {
       "status": "error",

@@ -1,30 +1,23 @@
 {
   "ticker": "TANAF",
-  "timestamp": "2025-12-30T04:54:10.933715",
+  "timestamp": "2025-12-31T05:45:40.719775",
   "intraday_data": {
     "status": "success",
-    "rows": 3,
+    "rows": 2,
     "data": [
       {
-        "Close NOEMW": 0.1550000011920929,
-        "High NOEMW": 0.1550000011920929,
-        "Low NOEMW": 0.1550000011920929,
-        "Open NOEMW": 0.1550000011920929,
-        "Volume NOEMW": 0
+        "Close TBMCR": 0.27000001072883606,
+        "High TBMCR": 0.27000001072883606,
+        "Low TBMCR": 0.26339998841285706,
+        "Open TBMCR": 0.26339998841285706,
+        "Volume TBMCR": 0
       },
       {
-        "Close NOEMW": 0.16500000655651093,
-        "High NOEMW": 0.16500000655651093,
-        "Low NOEMW": 0.16500000655651093,
-        "Open NOEMW": 0.16500000655651093,
-        "Volume NOEMW": 246
-      },
-      {
-        "Close NOEMW": 0.16500000655651093,
-        "High NOEMW": 0.17350000143051147,
-        "Low NOEMW": 0.16500000655651093,
-        "Open NOEMW": 0.16500000655651093,
-        "Volume NOEMW": 5334
+        "Close TBMCR": 0.2867000102996826,
+        "High TBMCR": 0.28679999709129333,
+        "Low TBMCR": 0.251800000667572,
+        "Open TBMCR": 0.26350000500679016,
+        "Volume TBMCR": 6400
       }
     ]
   },
@@ -34,14 +27,44 @@
   },
   "financials": {
     "income_statement": {
-      "status": "success",
-      "rows": 40,
-      "columns": [
-        "2024-12-31 00:00:00",
-        "2023-12-31 00:00:00",
-        "2022-12-31 00:00:00",
-        "2021-12-31 00:00:00"
-      ],
-      "data": [
-        {
-          
+      "status": "no_data"
+    },
+    "balance_sheet": {
+      "status": "no_data"
+    },
+    "cash_flow": {
+      "status": "no_data"
+    }
+  },
+  "options_data": {
+    "status": "error",
+    "error_message": "Too Many Requests. Rate limited. Try after a while."
+  },
+  "news_data": {
+    "news": {
+      "status": "no_data"
+    },
+    "recommendations": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  },
+  "holders_data": {
+    "major_holders": {
+      "status": "error"
+    },
+    "institutional_holders": {
+      "status": "error"
+    }
+  },
+  "earnings_data": {
+    "earnings": {
+      "status": "error",
+      "message": "'NoneType' object has no attribute 'empty'"
+    },
+    "calendar": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  }
+}

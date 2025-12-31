@@ -1,9 +1,18 @@
 {
   "ticker": "SPND",
-  "timestamp": "2025-12-30T04:46:22.421303",
+  "timestamp": "2025-12-31T05:20:19.251675",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 1,
+    "data": [
+      {
+        "Close": 3.990000009536743,
+        "High": 3.990000009536743,
+        "Low": 3.990000009536743,
+        "Open": 3.990000009536743,
+        "Volume": 0
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -29,7 +38,8 @@
       "status": "no_data"
     },
     "recommendations": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   },
   "holders_data": {

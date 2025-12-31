@@ -1,32 +1,9 @@
 {
   "ticker": "UNTCW",
-  "timestamp": "2025-12-30T04:56:30.608191",
+  "timestamp": "2025-12-31T05:54:02.697922",
   "intraday_data": {
-    "status": "success",
-    "rows": 3,
-    "data": [
-      {
-        "Close NEE-PS": 51.66999816894531,
-        "High NEE-PS": 51.66999816894531,
-        "Low NEE-PS": 51.66999816894531,
-        "Open NEE-PS": 51.66999816894531,
-        "Volume NEE-PS": 0
-      },
-      {
-        "Close NEE-PS": 51.78499984741211,
-        "High NEE-PS": 51.78499984741211,
-        "Low NEE-PS": 51.78499984741211,
-        "Open NEE-PS": 51.78499984741211,
-        "Volume NEE-PS": 393
-      },
-      {
-        "Close NEE-PS": 51.53499984741211,
-        "High NEE-PS": 51.53499984741211,
-        "Low NEE-PS": 51.53499984741211,
-        "Open NEE-PS": 51.53499984741211,
-        "Volume NEE-PS": 201
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -34,45 +11,14 @@
   },
   "financials": {
     "income_statement": {
-      "status": "no_data"
-    },
-    "balance_sheet": {
-      "status": "no_data"
-    },
-    "cash_flow": {
-      "status": "no_data"
-    }
-  },
-  "options_data": {
-    "status": "error",
-    "error_message": "Too Many Requests. Rate limited. Try after a while."
-  },
-  "news_data": {
-    "news": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
-    },
-    "recommendations": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
-    }
-  },
-  "holders_data": {
-    "major_holders": {
-      "status": "error"
-    },
-    "institutional_holders": {
-      "status": "error"
-    }
-  },
-  "earnings_data": {
-    "earnings": {
-      "status": "error",
-      "message": "'NoneType' object has no attribute 'empty'"
-    },
-    "calendar": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
-    }
-  }
-}
+      "status": "success",
+      "rows": 48,
+      "columns": [
+        "2024-12-31 00:00:00",
+        "2023-12-31 00:00:00",
+        "2022-12-31 00:00:00",
+        "2021-12-31 00:00:00"
+      ],
+      "data": [
+        {
+          

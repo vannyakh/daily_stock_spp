@@ -1,32 +1,9 @@
 {
   "ticker": "CDR-PC",
-  "timestamp": "2025-12-30T04:52:15.792609",
+  "timestamp": "2025-12-31T05:38:52.549319",
   "intraday_data": {
-    "status": "success",
-    "rows": 3,
-    "data": [
-      {
-        "Close": 17.5,
-        "High": 17.5,
-        "Low": 17.5,
-        "Open": 17.5,
-        "Volume": 102
-      },
-      {
-        "Close": 17.149999618530273,
-        "High": 17.149999618530273,
-        "Low": 17.149999618530273,
-        "Open": 17.149999618530273,
-        "Volume": 165
-      },
-      {
-        "Close": 17.170000076293945,
-        "High": 17.170000076293945,
-        "Low": 17.170000076293945,
-        "Open": 17.170000076293945,
-        "Volume": 100
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -49,12 +26,10 @@
   },
   "news_data": {
     "news": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
+      "status": "no_data"
     },
     "recommendations": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
+      "status": "no_data"
     }
   },
   "holders_data": {

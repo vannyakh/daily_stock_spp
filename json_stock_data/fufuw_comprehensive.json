@@ -1,9 +1,9 @@
 {
   "ticker": "FUFUW",
-  "timestamp": "2025-12-30T04:54:13.569805",
+  "timestamp": "2025-12-31T05:45:49.340399",
   "intraday_data": {
     "status": "success",
-    "rows": 2,
+    "rows": 3,
     "data": [
       {
         "Close": 0.20000000298023224,
@@ -17,7 +17,14 @@
         "High": 0.20000000298023224,
         "Low": 0.20000000298023224,
         "Open": 0.20000000298023224,
-        "Volume": 3809
+        "Volume": 0
+      },
+      {
+        "Close": 0.20000000298023224,
+        "High": 0.20000000298023224,
+        "Low": 0.20000000298023224,
+        "Open": 0.20000000298023224,
+        "Volume": 285
       }
     ]
   },
@@ -30,42 +37,14 @@
       "status": "no_data"
     },
     "balance_sheet": {
-      "status": "no_data"
-    },
-    "cash_flow": {
-      "status": "no_data"
-    }
-  },
-  "options_data": {
-    "status": "error",
-    "error_message": "Too Many Requests. Rate limited. Try after a while."
-  },
-  "news_data": {
-    "news": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
-    },
-    "recommendations": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
-    }
-  },
-  "holders_data": {
-    "major_holders": {
-      "status": "error"
-    },
-    "institutional_holders": {
-      "status": "error"
-    }
-  },
-  "earnings_data": {
-    "earnings": {
-      "status": "error",
-      "message": "'NoneType' object has no attribute 'empty'"
-    },
-    "calendar": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
-    }
-  }
-}
+      "status": "success",
+      "rows": 65,
+      "columns": [
+        "2024-12-31 00:00:00",
+        "2023-12-31 00:00:00",
+        "2022-12-31 00:00:00",
+        "2021-12-31 00:00:00"
+      ],
+      "data": [
+        {
+          

@@ -1,146 +1,648 @@
 {
   "ticker": "AGRO",
-  "timestamp": "2025-12-30T04:35:29.315133",
+  "timestamp": "2025-12-31T04:51:01.148040",
   "intraday_data": {
-    "status": "success",
-    "rows": 17,
-    "data": [
-      {
-        "Close SDA": 2.0799999237060547,
-        "High SDA": 2.0799999237060547,
-        "Low SDA": 2.0799999237060547,
-        "Open SDA": 2.0799999237060547,
-        "Volume SDA": 2400
-      },
-      {
-        "Close SDA": 2.0799999237060547,
-        "High SDA": 2.1700000762939453,
-        "Low SDA": 2.0799999237060547,
-        "Open SDA": 2.1500000953674316,
-        "Volume SDA": 6146
-      },
-      {
-        "Close SDA": 2.049999952316284,
-        "High SDA": 2.0899999141693115,
-        "Low SDA": 2.049999952316284,
-        "Open SDA": 2.059999942779541,
-        "Volume SDA": 1028
-      },
-      {
-        "Close SDA": 2.049999952316284,
-        "High SDA": 2.049999952316284,
-        "Low SDA": 2.049999952316284,
-        "Open SDA": 2.049999952316284,
-        "Volume SDA": 459
-      },
-      {
-        "Close SDA": 2.0899999141693115,
-        "High SDA": 2.0899999141693115,
-        "Low SDA": 2.0899999141693115,
-        "Open SDA": 2.0899999141693115,
-        "Volume SDA": 483
-      },
-      {
-        "Close SDA": 2.0399999618530273,
-        "High SDA": 2.0399999618530273,
-        "Low SDA": 2.0399999618530273,
-        "Open SDA": 2.0399999618530273,
-        "Volume SDA": 834
-      },
-      {
-        "Close SDA": 2.0596001148223877,
-        "High SDA": 2.0596001148223877,
-        "Low SDA": 2.0596001148223877,
-        "Open SDA": 2.0596001148223877,
-        "Volume SDA": 0
-      },
-      {
-        "Close SDA": 2.0450000762939453,
-        "High SDA": 2.0450000762939453,
-        "Low SDA": 2.0299999713897705,
-        "Open SDA": 2.0299999713897705,
-        "Volume SDA": 1100
-      },
-      {
-        "Close SDA": 2.0299999713897705,
-        "High SDA": 2.0299999713897705,
-        "Low SDA": 2.0299999713897705,
-        "Open SDA": 2.0299999713897705,
-        "Volume SDA": 424
-      },
-      {
-        "Close SDA": 2.0199999809265137,
-        "High SDA": 2.020699977874756,
-        "Low SDA": 2.0199999809265137,
-        "Open SDA": 2.02020001411438,
-        "Volume SDA": 1700
-      },
-      {
-        "Close SDA": 2.0199999809265137,
-        "High SDA": 2.0199999809265137,
-        "Low SDA": 2.015000104904175,
-        "Open SDA": 2.015000104904175,
-        "Volume SDA": 436
-      },
-      {
-        "Close SDA": 2.0250000953674316,
-        "High SDA": 2.0399999618530273,
-        "Low SDA": 2.0250000953674316,
-        "Open SDA": 2.0399999618530273,
-        "Volume SDA": 7006
-      },
-      {
-        "Close SDA": 2.0399999618530273,
-        "High SDA": 2.0399999618530273,
-        "Low SDA": 2.0399999618530273,
-        "Open SDA": 2.0399999618530273,
-        "Volume SDA": 0
-      },
-      {
-        "Close SDA": 2.0199999809265137,
-        "High SDA": 2.0199999809265137,
-        "Low SDA": 2.0199999809265137,
-        "Open SDA": 2.0199999809265137,
-        "Volume SDA": 827
-      },
-      {
-        "Close SDA": 2.0399999618530273,
-        "High SDA": 2.0399999618530273,
-        "Low SDA": 2.0399999618530273,
-        "Open SDA": 2.0399999618530273,
-        "Volume SDA": 412
-      },
-      {
-        "Close SDA": 2.039799928665161,
-        "High SDA": 2.0399999618530273,
-        "Low SDA": 2.0350000858306885,
-        "Open SDA": 2.0399999618530273,
-        "Volume SDA": 1636
-      },
-      {
-        "Close SDA": 2.039900064468384,
-        "High SDA": 2.0399999618530273,
-        "Low SDA": 2.039799928665161,
-        "Open SDA": 2.039900064468384,
-        "Volume SDA": 8978
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
-    "message": "argument of type 'NoneType' is not iterable"
+    "message": "Too Many Requests. Rate limited. Try after a while."
   },
   "financials": {
     "income_statement": {
+      "status": "no_data"
+    },
+    "balance_sheet": {
+      "status": "no_data"
+    },
+    "cash_flow": {
+      "status": "no_data"
+    }
+  },
+  "options_data": {
+    "status": "error",
+    "error_message": "Too Many Requests. Rate limited. Try after a while."
+  },
+  "news_data": {
+    "news": {
       "status": "success",
-      "rows": 59,
-      "columns": [
-        "2024-12-31 00:00:00",
-        "2023-12-31 00:00:00",
-        "2022-12-31 00:00:00",
-        "2021-12-31 00:00:00",
-        "2020-12-31 00:00:00"
-      ],
+      "count": 10,
       "data": [
         {
-          
+          "id": "184cd740-9c05-3436-a5e2-b956900fe082",
+          "content": {
+            "id": "184cd740-9c05-3436-a5e2-b956900fe082",
+            "contentType": "STORY",
+            "title": "Mizuho Lifts Target on Nutrien (NTR) as Sector Pressures Persist",
+            "description": "",
+            "summary": "Nutrien Ltd. (NYSE:NTR) is included among the 15 Global Dividend Stocks to Diversify Your Portfolio. On December 18, Mizuho raised its price target on Nutrien Ltd. (NYSE:NTR) to $65 from $61 and kept a Neutral rating. The move came as part of the firm\u2019s 2026 outlook for the chemicals, agriculture, and packaging sector. The analyst [\u2026]",
+            "pubDate": "2025-12-29T08:23:17Z",
+            "displayTime": "2025-12-29T08:23:17Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": {
+              "originalUrl": "https://media.zenfs.com/en/insidermonkey.com/a483201033882ba8fbcb26ee3fa554e2",
+              "originalWidth": 1456,
+              "originalHeight": 816,
+              "caption": "Mizuho Lifts Target on Nutrien (NTR) as Sector Pressures Persist",
+              "resolutions": [
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/asOG89224qEN1dC8rNpu3Q--~B/aD04MTY7dz0xNDU2O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/insidermonkey.com/a483201033882ba8fbcb26ee3fa554e2",
+                  "width": 1456,
+                  "height": 816,
+                  "tag": "original"
+                },
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/SFI4l4H.ZIp0inlK0yZ4hg--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/insidermonkey.com/a483201033882ba8fbcb26ee3fa554e2",
+                  "width": 170,
+                  "height": 128,
+                  "tag": "170x128"
+                }
+              ]
+            },
+            "provider": {
+              "displayName": "Insider Monkey",
+              "url": "http://www.insidermonkey.com"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/mizuho-lifts-target-nutrien-ntr-082317653.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/mizuho-lifts-target-nutrien-ntr-082317653.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        },
+        {
+          "id": "a1c763c9-d1cc-341c-b5cd-016951181d2a",
+          "content": {
+            "id": "a1c763c9-d1cc-341c-b5cd-016951181d2a",
+            "contentType": "STORY",
+            "title": "Assessing Adecoagro (NYSE:AGRO) After Its $300 Million Follow-On Equity Offering: Is the Stock Undervalued?",
+            "description": "",
+            "summary": "Adecoagro (NYSE:AGRO) just wrapped up a roughly $300 million follow on equity offering at about $7.25 a share, a move that reshapes its capital structure and raises fresh dilution questions. See our latest analysis for Adecoagro. The equity raise lands after a tough stretch, with the share price at $7.35 and a year to date share price return of negative 23.2 percent. However, the five year total shareholder return remains solidly positive, suggesting long term holders have still done...",
+            "pubDate": "2025-12-22T21:10:08Z",
+            "displayTime": "2025-12-22T21:10:08Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": {
+              "originalUrl": "https://media.zenfs.com/en/simply_wall_st__316/1755b5a339fe0d610102dcc34fddba34",
+              "originalWidth": 1194,
+              "originalHeight": 432,
+              "caption": "",
+              "resolutions": [
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/2PvBHvH77Ye.pw4O2mVV8A--~B/aD00MzI7dz0xMTk0O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/simply_wall_st__316/1755b5a339fe0d610102dcc34fddba34",
+                  "width": 1194,
+                  "height": 432,
+                  "tag": "original"
+                },
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/QYQq5dk60dugwe8B.tDnww--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/simply_wall_st__316/1755b5a339fe0d610102dcc34fddba34",
+                  "width": 170,
+                  "height": 128,
+                  "tag": "170x128"
+                }
+              ]
+            },
+            "provider": {
+              "displayName": "Simply Wall St.",
+              "url": "https://simplywall.st/"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/assessing-adecoagro-nyse-agro-300-211008273.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/assessing-adecoagro-nyse-agro-300-211008273.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        },
+        {
+          "id": "d74492f2-f18e-375c-9ff4-4494f7f46455",
+          "content": {
+            "id": "d74492f2-f18e-375c-9ff4-4494f7f46455",
+            "contentType": "STORY",
+            "title": "Mission Produce Stock Jumps 15% in a Month: Buy, Hold or Sell?",
+            "description": "",
+            "summary": "AVO shares rise in a month as volume growth, margin expansion and rising cash flow lift confidence despite valuation concerns.",
+            "pubDate": "2025-12-22T16:50:00Z",
+            "displayTime": "2025-12-22T16:50:00Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": {
+              "originalUrl": "https://media.zenfs.com/en/zacks.com/ff2f54589adb234ef2c275fd153560fa",
+              "originalWidth": 620,
+              "originalHeight": 413,
+              "caption": "",
+              "resolutions": [
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/eZARSmtuq_AsVIX2MmgZEQ--~B/aD00MTM7dz02MjA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/zacks.com/ff2f54589adb234ef2c275fd153560fa",
+                  "width": 620,
+                  "height": 413,
+                  "tag": "original"
+                },
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/2T3d_LM.EkuhkXRyW6Leqw--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/zacks.com/ff2f54589adb234ef2c275fd153560fa",
+                  "width": 170,
+                  "height": 128,
+                  "tag": "170x128"
+                }
+              ]
+            },
+            "provider": {
+              "displayName": "Zacks",
+              "url": "http://www.zacks.com/"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/mission-produce-stock-jumps-15-165000343.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/mission-produce-stock-jumps-15-165000343.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        },
+        {
+          "id": "5a2640d2-949d-30fa-abad-1c4f310727a0",
+          "content": {
+            "id": "5a2640d2-949d-30fa-abad-1c4f310727a0",
+            "contentType": "STORY",
+            "title": "Mission Produce Rides Mexico Supply Boost: How Long Can It Last?",
+            "description": "",
+            "summary": "AVO gains from stronger Mexican and Peruvian avocado supply, boosting volumes and pricing flexibility.",
+            "pubDate": "2025-12-18T18:55:00Z",
+            "displayTime": "2025-12-18T18:55:00Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": {
+              "originalUrl": "https://media.zenfs.com/en/zacks.com/b9a173a4afe012731f77a49ebc212110",
+              "originalWidth": 635,
+              "originalHeight": 400,
+              "caption": "",
+              "resolutions": [
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/SIEThGgAM4yxp6iKeUZqLA--~B/aD00MDA7dz02MzU7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/zacks.com/b9a173a4afe012731f77a49ebc212110",
+                  "width": 635,
+                  "height": 400,
+                  "tag": "original"
+                },
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/WgIXsFAbR5tLbOi_pUFrKg--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/zacks.com/b9a173a4afe012731f77a49ebc212110",
+                  "width": 170,
+                  "height": 128,
+                  "tag": "170x128"
+                }
+              ]
+            },
+            "provider": {
+              "displayName": "Zacks",
+              "url": "http://www.zacks.com/"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/mission-produce-rides-mexico-supply-185500300.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/mission-produce-rides-mexico-supply-185500300.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        },
+        {
+          "id": "71c7cb6a-69be-3024-9299-ff448dfea44d",
+          "content": {
+            "id": "71c7cb6a-69be-3024-9299-ff448dfea44d",
+            "contentType": "STORY",
+            "title": "Nutrien Closes Profertil Stake Sale, Advances Portfolio Strategy",
+            "description": "",
+            "summary": "NTR completes $600M sale of its Profertil stake, advancing portfolio realignment and bolstering capital moves from growth to buybacks and debt cuts.",
+            "pubDate": "2025-12-11T13:01:00Z",
+            "displayTime": "2025-12-11T13:01:00Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": {
+              "originalUrl": "https://media.zenfs.com/en/zacks.com/be4bed1645292fef1198a2da1cbcf1e5",
+              "originalWidth": 635,
+              "originalHeight": 400,
+              "caption": "",
+              "resolutions": [
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/WlQYvrQZE5F6l03Q04oMBw--~B/aD00MDA7dz02MzU7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/zacks.com/be4bed1645292fef1198a2da1cbcf1e5",
+                  "width": 635,
+                  "height": 400,
+                  "tag": "original"
+                },
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/NSwm8T5HAps1_b73to2zgg--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/zacks.com/be4bed1645292fef1198a2da1cbcf1e5",
+                  "width": 170,
+                  "height": 128,
+                  "tag": "170x128"
+                }
+              ]
+            },
+            "provider": {
+              "displayName": "Zacks",
+              "url": "http://www.zacks.com/"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/nutrien-closes-profertil-stake-sale-130100575.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/nutrien-closes-profertil-stake-sale-130100575.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        },
+        {
+          "id": "2c76ac68-6de0-3288-91c2-a3334b37029c",
+          "content": {
+            "id": "2c76ac68-6de0-3288-91c2-a3334b37029c",
+            "contentType": "STORY",
+            "title": "How Recent Analyst Shifts Are Changing the Story for Adecoagro\u2019s Valuation",
+            "description": "",
+            "summary": "Adecoagro's stock narrative is shifting as analysts have made a marginal reduction in the consensus price target, trimming it from $10.80 to $10.70. This adjustment highlights the evolving perspectives among market watchers concerning the company's outlook in the current environment. Investors should stay tuned to discover how to keep track of these narrative changes and remain informed as new insights emerge. Stay updated as the Fair Value for Adecoagro shifts by adding it to your watchlist...",
+            "pubDate": "2025-11-28T17:08:23Z",
+            "displayTime": "2025-11-28T17:08:23Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": {
+              "originalUrl": "https://media.zenfs.com/en/simply_wall_st__316/1755b5a339fe0d610102dcc34fddba34",
+              "originalWidth": 1194,
+              "originalHeight": 432,
+              "caption": "",
+              "resolutions": [
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/2PvBHvH77Ye.pw4O2mVV8A--~B/aD00MzI7dz0xMTk0O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/simply_wall_st__316/1755b5a339fe0d610102dcc34fddba34",
+                  "width": 1194,
+                  "height": 432,
+                  "tag": "original"
+                },
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/QYQq5dk60dugwe8B.tDnww--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/simply_wall_st__316/1755b5a339fe0d610102dcc34fddba34",
+                  "width": 170,
+                  "height": 128,
+                  "tag": "170x128"
+                }
+              ]
+            },
+            "provider": {
+              "displayName": "Simply Wall St.",
+              "url": "https://simplywall.st/"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/recent-analyst-shifts-changing-story-170823393.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/recent-analyst-shifts-changing-story-170823393.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        },
+        {
+          "id": "20b6063e-edf8-3383-9edd-0ce9eb1a9a75",
+          "content": {
+            "id": "20b6063e-edf8-3383-9edd-0ce9eb1a9a75",
+            "contentType": "STORY",
+            "title": "Adecoagro's (NYSE:AGRO) Shareholders Have More To Worry About Than Only Soft Earnings",
+            "description": "",
+            "summary": "Last week's earnings announcement from Adecoagro S.A. ( NYSE:AGRO ) was disappointing to investors, with a sluggish...",
+            "pubDate": "2025-11-20T10:34:32Z",
+            "displayTime": "2025-11-20T10:34:32Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": {
+              "originalUrl": "https://media.zenfs.com/en/simply_wall_st__316/1755b5a339fe0d610102dcc34fddba34",
+              "originalWidth": 1194,
+              "originalHeight": 432,
+              "caption": "",
+              "resolutions": [
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/2PvBHvH77Ye.pw4O2mVV8A--~B/aD00MzI7dz0xMTk0O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/simply_wall_st__316/1755b5a339fe0d610102dcc34fddba34",
+                  "width": 1194,
+                  "height": 432,
+                  "tag": "original"
+                },
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/QYQq5dk60dugwe8B.tDnww--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/simply_wall_st__316/1755b5a339fe0d610102dcc34fddba34",
+                  "width": 170,
+                  "height": 128,
+                  "tag": "170x128"
+                }
+              ]
+            },
+            "provider": {
+              "displayName": "Simply Wall St.",
+              "url": "https://simplywall.st/"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/adecoagros-nyse-agro-shareholders-more-103432222.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/adecoagros-nyse-agro-shareholders-more-103432222.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        },
+        {
+          "id": "08d87af3-d3c1-3435-beda-fd257db9c86b",
+          "content": {
+            "id": "08d87af3-d3c1-3435-beda-fd257db9c86b",
+            "contentType": "STORY",
+            "title": "Adecoagro SA (AGRO) Q3 2025 Earnings Call Highlights: Strategic Moves Amidst Market Challenges",
+            "description": "",
+            "summary": "Adecoagro SA (AGRO) navigates a challenging market with strategic acquisitions and operational flexibility, despite a decline in gross sales and increased net debt.",
+            "pubDate": "2025-11-20T01:01:57Z",
+            "displayTime": "2025-11-20T01:01:57Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": {
+              "originalUrl": "https://media.zenfs.com/en/us.finance.gurufocus/b4944e0531dc223386e33a3420dd5793",
+              "originalWidth": 376,
+              "originalHeight": 376,
+              "caption": "",
+              "resolutions": [
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/R2BfmrqMnuawi6RJAkoVwQ--~B/aD0zNzY7dz0zNzY7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/us.finance.gurufocus/b4944e0531dc223386e33a3420dd5793",
+                  "width": 376,
+                  "height": 376,
+                  "tag": "original"
+                },
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/TDziYFPqDeOUG_uZuy78Nw--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/us.finance.gurufocus/b4944e0531dc223386e33a3420dd5793",
+                  "width": 170,
+                  "height": 128,
+                  "tag": "170x128"
+                }
+              ]
+            },
+            "provider": {
+              "displayName": "GuruFocus.com",
+              "url": "http://www.gurufocus.com/"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/adecoagro-sa-agro-q3-2025-010157805.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/adecoagro-sa-agro-q3-2025-010157805.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        },
+        {
+          "id": "006028e2-0d08-37da-9012-8ed4ce73fc1a",
+          "content": {
+            "id": "006028e2-0d08-37da-9012-8ed4ce73fc1a",
+            "contentType": "STORY",
+            "title": "Adecoagro: Q3 Earnings Snapshot",
+            "description": "",
+            "summary": "LUXEMBOURG (AP) \u2014 Adecoagro SA (AGRO) on Tuesday reported third-quarter net income of $6.5 million. The Luxembourg-based company said it had profit of 7 cents per share. Earnings, adjusted for non-recurring costs, were 26 cents per share.",
+            "pubDate": "2025-11-11T22:19:27Z",
+            "displayTime": "2025-11-11T22:19:27Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": null,
+            "provider": {
+              "displayName": "Associated Press Finance",
+              "url": "http://www.ap.org/"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/adecoagro-q3-earnings-snapshot-221927408.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/adecoagro-q3-earnings-snapshot-221927408.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        },
+        {
+          "id": "b0428fcd-92e0-3752-9baa-3eb8d165a2eb",
+          "content": {
+            "id": "b0428fcd-92e0-3752-9baa-3eb8d165a2eb",
+            "contentType": "STORY",
+            "title": "Why Analysts See Shifting Risks and Opportunities in Adecoagro\u2019s Evolving Market Story",
+            "description": "",
+            "summary": "Adecoagro's stock has seen a recent update in its price target narrative, reflecting evolving analyst views. While the fair value remains steady at $10.80, a higher discount rate has introduced new caution to the outlook. Stay tuned to discover how to keep track of shifts in analyst sentiment and ongoing changes in the company's market narrative. Analyst Price Targets don't always capture the full story. Head over to our Company Report to find new ways to value Adecoagro. What Wall Street Has...",
+            "pubDate": "2025-11-07T22:19:12Z",
+            "displayTime": "2025-11-07T22:19:12Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": {
+              "originalUrl": "https://media.zenfs.com/en/simply_wall_st__316/1755b5a339fe0d610102dcc34fddba34",
+              "originalWidth": 1194,
+              "originalHeight": 432,
+              "caption": "",
+              "resolutions": [
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/2PvBHvH77Ye.pw4O2mVV8A--~B/aD00MzI7dz0xMTk0O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/simply_wall_st__316/1755b5a339fe0d610102dcc34fddba34",
+                  "width": 1194,
+                  "height": 432,
+                  "tag": "original"
+                },
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/QYQq5dk60dugwe8B.tDnww--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/simply_wall_st__316/1755b5a339fe0d610102dcc34fddba34",
+                  "width": 170,
+                  "height": 128,
+                  "tag": "170x128"
+                }
+              ]
+            },
+            "provider": {
+              "displayName": "Simply Wall St.",
+              "url": "https://simplywall.st/"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/why-analysts-see-shifting-risks-221912160.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/why-analysts-see-shifting-risks-221912160.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        }
+      ]
+    },
+    "recommendations": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  },
+  "holders_data": {
+    "major_holders": {
+      "status": "error"
+    },
+    "institutional_holders": {
+      "status": "error"
+    }
+  },
+  "earnings_data": {
+    "earnings": {
+      "status": "error",
+      "message": "'NoneType' object has no attribute 'empty'"
+    },
+    "calendar": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  }
+}
