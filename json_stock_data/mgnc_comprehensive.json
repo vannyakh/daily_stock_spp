@@ -1,72 +1,16 @@
 {
   "ticker": "MGNC",
-  "timestamp": "2025-12-31T05:45:39.120241",
+  "timestamp": "2026-01-01T05:13:46.263345",
   "intraday_data": {
     "status": "success",
-    "rows": 9,
+    "rows": 1,
     "data": [
-      {
-        "Close": 1.590000033378601,
-        "High": 1.590000033378601,
-        "Low": 1.590000033378601,
-        "Open": 1.590000033378601,
-        "Volume": 0
-      },
-      {
-        "Close": 1.5499999523162842,
-        "High": 1.5499999523162842,
-        "Low": 1.5499999523162842,
-        "Open": 1.5499999523162842,
-        "Volume": 8000
-      },
-      {
-        "Close": 1.5,
-        "High": 1.5,
-        "Low": 1.5,
-        "Open": 1.5,
-        "Volume": 100
-      },
-      {
-        "Close": 1.3899999856948853,
-        "High": 1.399999976158142,
-        "Low": 1.3899999856948853,
-        "Open": 1.399999976158142,
-        "Volume": 4100
-      },
-      {
-        "Close": 1.4500000476837158,
-        "High": 1.4500000476837158,
-        "Low": 1.4500000476837158,
-        "Open": 1.4500000476837158,
-        "Volume": 100
-      },
-      {
-        "Close": 1.4500000476837158,
-        "High": 1.4500000476837158,
-        "Low": 1.4500000476837158,
-        "Open": 1.4500000476837158,
-        "Volume": 100
-      },
-      {
-        "Close": 1.5499999523162842,
-        "High": 1.5499999523162842,
-        "Low": 1.5499999523162842,
-        "Open": 1.5499999523162842,
-        "Volume": 100
-      },
-      {
-        "Close": 1.590000033378601,
-        "High": 1.590000033378601,
-        "Low": 1.590000033378601,
-        "Open": 1.590000033378601,
-        "Volume": 2900
-      },
       {
         "Close": 1.4600000381469727,
         "High": 1.4600000381469727,
         "Low": 1.4500000476837158,
         "Open": 1.4600000381469727,
-        "Volume": 500
+        "Volume": 0
       }
     ]
   },
@@ -76,12 +20,45 @@
   },
   "financials": {
     "income_statement": {
-      "status": "success",
-      "rows": 32,
-      "columns": [
-        "2025-04-30 00:00:00",
-        "2024-04-30 00:00:00"
-      ],
-      "data": [
-        {
-          
+      "status": "no_data"
+    },
+    "balance_sheet": {
+      "status": "no_data"
+    },
+    "cash_flow": {
+      "status": "no_data"
+    }
+  },
+  "options_data": {
+    "status": "error",
+    "error_message": "Too Many Requests. Rate limited. Try after a while."
+  },
+  "news_data": {
+    "news": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    },
+    "recommendations": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  },
+  "holders_data": {
+    "major_holders": {
+      "status": "error"
+    },
+    "institutional_holders": {
+      "status": "error"
+    }
+  },
+  "earnings_data": {
+    "earnings": {
+      "status": "error",
+      "message": "'NoneType' object has no attribute 'empty'"
+    },
+    "calendar": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  }
+}

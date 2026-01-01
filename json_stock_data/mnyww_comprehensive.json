@@ -1,9 +1,32 @@
 {
   "ticker": "MNYWW",
-  "timestamp": "2025-12-31T05:44:35.943270",
+  "timestamp": "2026-01-01T05:13:27.858055",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 3,
+    "data": [
+      {
+        "Close RMSGW": 0.04170000180602074,
+        "High RMSGW": 0.04170000180602074,
+        "Low RMSGW": 0.041600000113248825,
+        "Open RMSGW": 0.041600000113248825,
+        "Volume RMSGW": 0
+      },
+      {
+        "Close RMSGW": 0.06870000064373016,
+        "High RMSGW": 0.06880000233650208,
+        "Low RMSGW": 0.06870000064373016,
+        "Open RMSGW": 0.06880000233650208,
+        "Volume RMSGW": 2474
+      },
+      {
+        "Close RMSGW": 0.05000000074505806,
+        "High RMSGW": 0.05000000074505806,
+        "Low RMSGW": 0.04989999905228615,
+        "Open RMSGW": 0.04989999905228615,
+        "Volume RMSGW": 647
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -11,14 +34,45 @@
   },
   "financials": {
     "income_statement": {
-      "status": "success",
-      "rows": 47,
-      "columns": [
-        "2024-12-31 00:00:00",
-        "2023-12-31 00:00:00",
-        "2022-12-31 00:00:00",
-        "2021-12-31 00:00:00"
-      ],
-      "data": [
-        {
-          
+      "status": "no_data"
+    },
+    "balance_sheet": {
+      "status": "no_data"
+    },
+    "cash_flow": {
+      "status": "no_data"
+    }
+  },
+  "options_data": {
+    "status": "error",
+    "error_message": "Too Many Requests. Rate limited. Try after a while."
+  },
+  "news_data": {
+    "news": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    },
+    "recommendations": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  },
+  "holders_data": {
+    "major_holders": {
+      "status": "error"
+    },
+    "institutional_holders": {
+      "status": "error"
+    }
+  },
+  "earnings_data": {
+    "earnings": {
+      "status": "error",
+      "message": "'NoneType' object has no attribute 'empty'"
+    },
+    "calendar": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  }
+}

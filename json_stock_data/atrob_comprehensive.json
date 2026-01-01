@@ -1,9 +1,39 @@
 {
   "ticker": "ATROB",
-  "timestamp": "2025-12-31T05:38:03.912008",
+  "timestamp": "2026-01-01T05:11:36.136036",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 4,
+    "data": [
+      {
+        "Close CMRE-PD": 27.110000610351562,
+        "High CMRE-PD": 27.110000610351562,
+        "Low CMRE-PD": 27.110000610351562,
+        "Open CMRE-PD": 27.110000610351562,
+        "Volume CMRE-PD": 0
+      },
+      {
+        "Close CMRE-PD": 27.690000534057617,
+        "High CMRE-PD": 27.690000534057617,
+        "Low CMRE-PD": 27.68000030517578,
+        "Open CMRE-PD": 27.68000030517578,
+        "Volume CMRE-PD": 200
+      },
+      {
+        "Close CMRE-PD": 27.68000030517578,
+        "High CMRE-PD": 27.68000030517578,
+        "Low CMRE-PD": 27.68000030517578,
+        "Open CMRE-PD": 27.68000030517578,
+        "Volume CMRE-PD": 172
+      },
+      {
+        "Close CMRE-PD": 27.649999618530273,
+        "High CMRE-PD": 27.649999618530273,
+        "Low CMRE-PD": 27.649999618530273,
+        "Open CMRE-PD": 27.649999618530273,
+        "Volume CMRE-PD": 0
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -11,14 +41,45 @@
   },
   "financials": {
     "income_statement": {
-      "status": "success",
-      "rows": 42,
-      "columns": [
-        "2024-12-31 00:00:00",
-        "2023-12-31 00:00:00",
-        "2022-12-31 00:00:00",
-        "2021-12-31 00:00:00"
-      ],
-      "data": [
-        {
-          
+      "status": "no_data"
+    },
+    "balance_sheet": {
+      "status": "no_data"
+    },
+    "cash_flow": {
+      "status": "no_data"
+    }
+  },
+  "options_data": {
+    "status": "error",
+    "error_message": "Too Many Requests. Rate limited. Try after a while."
+  },
+  "news_data": {
+    "news": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    },
+    "recommendations": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  },
+  "holders_data": {
+    "major_holders": {
+      "status": "error"
+    },
+    "institutional_holders": {
+      "status": "error"
+    }
+  },
+  "earnings_data": {
+    "earnings": {
+      "status": "error",
+      "message": "'NoneType' object has no attribute 'empty'"
+    },
+    "calendar": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  }
+}

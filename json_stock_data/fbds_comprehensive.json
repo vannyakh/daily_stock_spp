@@ -1,32 +1,9 @@
 {
   "ticker": "FBDS",
-  "timestamp": "2025-12-31T05:40:08.258313",
+  "timestamp": "2026-01-01T05:12:12.920835",
   "intraday_data": {
-    "status": "success",
-    "rows": 3,
-    "data": [
-      {
-        "Close SITS": 0.038100000470876694,
-        "High SITS": 0.038100000470876694,
-        "Low SITS": 0.038100000470876694,
-        "Open SITS": 0.038100000470876694,
-        "Volume SITS": 0
-      },
-      {
-        "Close SITS": 0.03999999910593033,
-        "High SITS": 0.03999999910593033,
-        "Low SITS": 0.03999999910593033,
-        "Open SITS": 0.03999999910593033,
-        "Volume SITS": 25000
-      },
-      {
-        "Close SITS": 0.03999999910593033,
-        "High SITS": 0.03999999910593033,
-        "Low SITS": 0.03999999910593033,
-        "Open SITS": 0.03999999910593033,
-        "Volume SITS": 10000
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -49,7 +26,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

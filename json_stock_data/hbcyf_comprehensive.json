@@ -1,16 +1,23 @@
 {
   "ticker": "HBCYF",
-  "timestamp": "2025-12-31T05:33:54.669208",
+  "timestamp": "2026-01-01T05:10:21.526791",
   "intraday_data": {
     "status": "success",
-    "rows": 1,
+    "rows": 2,
     "data": [
       {
         "Close": 15.75,
         "High": 15.75,
         "Low": 15.75,
         "Open": 15.75,
-        "Volume": 2000
+        "Volume": 0
+      },
+      {
+        "Close": 15.699999809265137,
+        "High": 15.699999809265137,
+        "Low": 15.699999809265137,
+        "Open": 15.699999809265137,
+        "Volume": 1000
       }
     ]
   },
@@ -20,14 +27,45 @@
   },
   "financials": {
     "income_statement": {
-      "status": "success",
-      "rows": 41,
-      "columns": [
-        "2024-12-31 00:00:00",
-        "2023-12-31 00:00:00",
-        "2022-12-31 00:00:00",
-        "2021-12-31 00:00:00"
-      ],
-      "data": [
-        {
-          
+      "status": "no_data"
+    },
+    "balance_sheet": {
+      "status": "no_data"
+    },
+    "cash_flow": {
+      "status": "no_data"
+    }
+  },
+  "options_data": {
+    "status": "error",
+    "error_message": "Too Many Requests. Rate limited. Try after a while."
+  },
+  "news_data": {
+    "news": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    },
+    "recommendations": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  },
+  "holders_data": {
+    "major_holders": {
+      "status": "error"
+    },
+    "institutional_holders": {
+      "status": "error"
+    }
+  },
+  "earnings_data": {
+    "earnings": {
+      "status": "error",
+      "message": "'NoneType' object has no attribute 'empty'"
+    },
+    "calendar": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  }
+}

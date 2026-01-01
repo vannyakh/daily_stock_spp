@@ -1,9 +1,32 @@
 {
   "ticker": "GPATU",
-  "timestamp": "2025-12-31T05:48:28.598704",
+  "timestamp": "2026-01-01T05:14:32.998633",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 3,
+    "data": [
+      {
+        "Close GPATW": 0.2329999953508377,
+        "High GPATW": 0.2329999953508377,
+        "Low GPATW": 0.2329999953508377,
+        "Open GPATW": 0.2329999953508377,
+        "Volume GPATW": 0
+      },
+      {
+        "Close GPATW": 0.2329999953508377,
+        "High GPATW": 0.2329999953508377,
+        "Low GPATW": 0.2329999953508377,
+        "Open GPATW": 0.2329999953508377,
+        "Volume GPATW": 700
+      },
+      {
+        "Close GPATW": 0.2696000039577484,
+        "High GPATW": 0.2696000039577484,
+        "Low GPATW": 0.2696000039577484,
+        "Open GPATW": 0.2696000039577484,
+        "Volume GPATW": 124
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -26,7 +49,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

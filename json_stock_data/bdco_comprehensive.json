@@ -1,18 +1,9 @@
 {
   "ticker": "BDCO",
-  "timestamp": "2025-12-31T05:13:56.606855",
+  "timestamp": "2026-01-01T05:03:17.649878",
   "intraday_data": {
-    "status": "success",
-    "rows": 1,
-    "data": [
-      {
-        "Close AIRT": 18.75,
-        "High AIRT": 18.75,
-        "Low AIRT": 18.75,
-        "Open AIRT": 18.75,
-        "Volume AIRT": 0
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -285,7 +276,8 @@
       ]
     },
     "recommendations": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   },
   "holders_data": {

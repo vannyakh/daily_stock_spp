@@ -1,32 +1,9 @@
 {
   "ticker": "FMCKP",
-  "timestamp": "2025-12-31T05:37:52.186234",
+  "timestamp": "2026-01-01T05:11:32.720162",
   "intraday_data": {
-    "status": "success",
-    "rows": 3,
-    "data": [
-      {
-        "Close": 22.75,
-        "High": 22.760000228881836,
-        "Low": 22.75,
-        "Open": 22.760000228881836,
-        "Volume": 0
-      },
-      {
-        "Close": 23.450000762939453,
-        "High": 23.450000762939453,
-        "Low": 23.450000762939453,
-        "Open": 23.450000762939453,
-        "Volume": 10
-      },
-      {
-        "Close": 22.75,
-        "High": 22.75,
-        "Low": 22.75,
-        "Open": 22.75,
-        "Volume": 300
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -37,14 +14,42 @@
       "status": "no_data"
     },
     "balance_sheet": {
-      "status": "success",
-      "rows": 42,
-      "columns": [
-        "2024-12-31 00:00:00",
-        "2023-12-31 00:00:00",
-        "2022-12-31 00:00:00",
-        "2021-12-31 00:00:00"
-      ],
-      "data": [
-        {
-          
+      "status": "no_data"
+    },
+    "cash_flow": {
+      "status": "no_data"
+    }
+  },
+  "options_data": {
+    "status": "error",
+    "error_message": "Too Many Requests. Rate limited. Try after a while."
+  },
+  "news_data": {
+    "news": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    },
+    "recommendations": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  },
+  "holders_data": {
+    "major_holders": {
+      "status": "error"
+    },
+    "institutional_holders": {
+      "status": "error"
+    }
+  },
+  "earnings_data": {
+    "earnings": {
+      "status": "error",
+      "message": "'NoneType' object has no attribute 'empty'"
+    },
+    "calendar": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  }
+}

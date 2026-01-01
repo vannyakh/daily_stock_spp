@@ -1,9 +1,25 @@
 {
   "ticker": "FMBM",
-  "timestamp": "2025-12-31T05:12:22.488938",
+  "timestamp": "2026-01-01T05:02:43.330296",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 2,
+    "data": [
+      {
+        "Close": 28.600000381469727,
+        "High": 28.600000381469727,
+        "Low": 28.600000381469727,
+        "Open": 28.600000381469727,
+        "Volume": 0
+      },
+      {
+        "Close": 28.75,
+        "High": 28.75,
+        "Low": 28.75,
+        "Open": 28.75,
+        "Volume": 457
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -11,14 +27,108 @@
   },
   "financials": {
     "income_statement": {
+      "status": "no_data"
+    },
+    "balance_sheet": {
+      "status": "no_data"
+    },
+    "cash_flow": {
+      "status": "no_data"
+    }
+  },
+  "options_data": {
+    "status": "error",
+    "error_message": "Too Many Requests. Rate limited. Try after a while."
+  },
+  "news_data": {
+    "news": {
       "status": "success",
-      "rows": 39,
-      "columns": [
-        "2024-12-31 00:00:00",
-        "2023-12-31 00:00:00",
-        "2022-12-31 00:00:00",
-        "2021-12-31 00:00:00"
-      ],
+      "count": 1,
       "data": [
         {
-          
+          "id": "1429990e-c57f-3aa9-8295-5db65baff0ba",
+          "content": {
+            "id": "1429990e-c57f-3aa9-8295-5db65baff0ba",
+            "contentType": "STORY",
+            "title": "F & M Bank Corp. (FMBM): Among Stocks Insiders Were Buying In Q1 2025",
+            "description": "",
+            "summary": "We recently published a list of 20 Stocks Insiders Were Buying In Q1 2025. In this article, we are going to take a look at where F & M Bank Corp. (OTCQX:FMBM) stands against other stocks insiders were buying in Q1 2025. About 30 minutes before the market closed Monday, the broader market index was [\u2026]",
+            "pubDate": "2025-04-01T14:04:01Z",
+            "displayTime": "2025-04-01T14:04:01Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": {
+              "originalUrl": "https://media.zenfs.com/en/insidermonkey.com/4d12d5e85b7fb3a54786a2d05ad0feed",
+              "originalWidth": 1456,
+              "originalHeight": 816,
+              "caption": "F & M Bank Corp. (FMBM): Among Stocks Insiders Were Buying In Q1 2025",
+              "resolutions": [
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/r2ndfTbLDUZU5iSUY1xhUw--~B/aD04MTY7dz0xNDU2O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/insidermonkey.com/4d12d5e85b7fb3a54786a2d05ad0feed",
+                  "width": 1456,
+                  "height": 816,
+                  "tag": "original"
+                },
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/IBLRR1pne4jtlQ1yDdFvcQ--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/insidermonkey.com/4d12d5e85b7fb3a54786a2d05ad0feed",
+                  "width": 170,
+                  "height": 128,
+                  "tag": "170x128"
+                }
+              ]
+            },
+            "provider": {
+              "displayName": "Insider Monkey",
+              "url": "http://www.insidermonkey.com"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/f-m-bank-corp-fmbm-140401625.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/f-m-bank-corp-fmbm-140401625.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        }
+      ]
+    },
+    "recommendations": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  },
+  "holders_data": {
+    "major_holders": {
+      "status": "error"
+    },
+    "institutional_holders": {
+      "status": "error"
+    }
+  },
+  "earnings_data": {
+    "earnings": {
+      "status": "error",
+      "message": "'NoneType' object has no attribute 'empty'"
+    },
+    "calendar": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  }
+}

@@ -1,32 +1,9 @@
 {
   "ticker": "CSLMR",
-  "timestamp": "2025-12-31T05:49:22.631340",
+  "timestamp": "2026-01-01T05:14:47.204232",
   "intraday_data": {
-    "status": "success",
-    "rows": 3,
-    "data": [
-      {
-        "Close LCFYW": 2.5399999618530273,
-        "High LCFYW": 2.569999933242798,
-        "Low LCFYW": 2.5399999618530273,
-        "Open LCFYW": 2.569999933242798,
-        "Volume LCFYW": 239
-      },
-      {
-        "Close LCFYW": 3.059999942779541,
-        "High LCFYW": 3.059999942779541,
-        "Low LCFYW": 3.059999942779541,
-        "Open LCFYW": 3.059999942779541,
-        "Volume LCFYW": 1448
-      },
-      {
-        "Close LCFYW": 3.0999999046325684,
-        "High LCFYW": 3.0999999046325684,
-        "Low LCFYW": 3.0999999046325684,
-        "Open LCFYW": 3.0999999046325684,
-        "Volume LCFYW": 0
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -49,7 +26,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

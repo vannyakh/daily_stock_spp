@@ -1,32 +1,9 @@
 {
   "ticker": "PW-PA",
-  "timestamp": "2025-12-31T05:52:33.509946",
+  "timestamp": "2026-01-01T05:15:39.887414",
   "intraday_data": {
-    "status": "success",
-    "rows": 3,
-    "data": [
-      {
-        "Close": 4.389999866485596,
-        "High": 4.880000114440918,
-        "Low": 4.389999866485596,
-        "Open": 4.880000114440918,
-        "Volume": 0
-      },
-      {
-        "Close": 5.949999809265137,
-        "High": 5.949999809265137,
-        "Low": 5.940000057220459,
-        "Open": 5.949999809265137,
-        "Volume": 1437
-      },
-      {
-        "Close": 6.099999904632568,
-        "High": 6.099999904632568,
-        "Low": 6.099999904632568,
-        "Open": 6.099999904632568,
-        "Volume": 482
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -49,7 +26,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

@@ -1,9 +1,39 @@
 {
   "ticker": "FFBW",
-  "timestamp": "2025-12-31T05:39:16.061008",
+  "timestamp": "2026-01-01T05:11:57.320407",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 4,
+    "data": [
+      {
+        "Close": 14.899999618530273,
+        "High": 14.899999618530273,
+        "Low": 14.899999618530273,
+        "Open": 14.899999618530273,
+        "Volume": 700
+      },
+      {
+        "Close": 14.899999618530273,
+        "High": 14.899999618530273,
+        "Low": 14.899999618530273,
+        "Open": 14.899999618530273,
+        "Volume": 100
+      },
+      {
+        "Close": 14.899999618530273,
+        "High": 14.899999618530273,
+        "Low": 14.899999618530273,
+        "Open": 14.899999618530273,
+        "Volume": 200
+      },
+      {
+        "Close": 14.920000076293945,
+        "High": 14.920000076293945,
+        "Low": 14.920000076293945,
+        "Open": 14.920000076293945,
+        "Volume": 75
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -26,7 +56,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

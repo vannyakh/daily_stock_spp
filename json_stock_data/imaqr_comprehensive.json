@@ -1,9 +1,25 @@
 {
   "ticker": "IMAQR",
-  "timestamp": "2025-12-31T05:48:23.638881",
+  "timestamp": "2026-01-01T05:14:31.608187",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 2,
+    "data": [
+      {
+        "Close SAIHW": 0.040800001472234726,
+        "High SAIHW": 0.040800001472234726,
+        "Low SAIHW": 0.040800001472234726,
+        "Open SAIHW": 0.040800001472234726,
+        "Volume SAIHW": 0
+      },
+      {
+        "Close SAIHW": 0.04270000010728836,
+        "High SAIHW": 0.04270000010728836,
+        "Low SAIHW": 0.04270000010728836,
+        "Open SAIHW": 0.04270000010728836,
+        "Volume SAIHW": 199
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -26,7 +42,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

@@ -1,9 +1,32 @@
 {
   "ticker": "OCEAW",
-  "timestamp": "2025-12-31T05:44:05.348360",
+  "timestamp": "2026-01-01T05:13:19.355404",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 3,
+    "data": [
+      {
+        "Close AMODW": 0.054999999701976776,
+        "High AMODW": 0.054999999701976776,
+        "Low AMODW": 0.054999999701976776,
+        "Open AMODW": 0.054999999701976776,
+        "Volume AMODW": 0
+      },
+      {
+        "Close AMODW": 0.05000000074505806,
+        "High AMODW": 0.05000000074505806,
+        "Low AMODW": 0.05000000074505806,
+        "Open AMODW": 0.05000000074505806,
+        "Volume AMODW": 1000
+      },
+      {
+        "Close AMODW": 0.05490000173449516,
+        "High AMODW": 0.05490000173449516,
+        "Low AMODW": 0.05490000173449516,
+        "Open AMODW": 0.05490000173449516,
+        "Volume AMODW": 2800
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -26,7 +49,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

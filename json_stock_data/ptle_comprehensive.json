@@ -1,6 +1,6 @@
 {
   "ticker": "PTLE",
-  "timestamp": "2025-12-31T05:16:18.136949",
+  "timestamp": "2026-01-01T05:04:07.658461",
   "intraday_data": {
     "status": "no_data",
     "message": "No intraday data available"
@@ -160,10 +160,10 @@
   },
   "holders_data": {
     "major_holders": {
-      "status": "no_data"
+      "status": "error"
     },
     "institutional_holders": {
-      "status": "no_data"
+      "status": "error"
     }
   },
   "earnings_data": {
@@ -173,7 +173,7 @@
     },
     "calendar": {
       "status": "error",
-      "message": "'dict' object has no attribute 'empty'"
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   }
 }

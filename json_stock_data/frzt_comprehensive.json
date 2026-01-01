@@ -1,44 +1,58 @@
 {
   "ticker": "FRZT",
-  "timestamp": "2025-12-31T05:29:52.713694",
+  "timestamp": "2026-01-01T05:09:00.030038",
   "intraday_data": {
     "status": "success",
-    "rows": 5,
+    "rows": 7,
     "data": [
       {
-        "Close BLPG": 0.035999998450279236,
-        "High BLPG": 0.035999998450279236,
-        "Low BLPG": 0.035999998450279236,
-        "Open BLPG": 0.035999998450279236,
-        "Volume BLPG": 0
+        "Close": 0.011300000362098217,
+        "High": 0.011300000362098217,
+        "Low": 0.011300000362098217,
+        "Open": 0.011300000362098217,
+        "Volume": 0
       },
       {
-        "Close BLPG": 0.03999999910593033,
-        "High BLPG": 0.03999999910593033,
-        "Low BLPG": 0.03999999910593033,
-        "Open BLPG": 0.03999999910593033,
-        "Volume BLPG": 2027
+        "Close": 0.011300000362098217,
+        "High": 0.011300000362098217,
+        "Low": 0.011300000362098217,
+        "Open": 0.011300000362098217,
+        "Volume": 19200
       },
       {
-        "Close BLPG": 0.03999999910593033,
-        "High BLPG": 0.03999999910593033,
-        "Low BLPG": 0.03999999910593033,
-        "Open BLPG": 0.03999999910593033,
-        "Volume BLPG": 5000
+        "Close": 0.01140000019222498,
+        "High": 0.01140000019222498,
+        "Low": 0.01140000019222498,
+        "Open": 0.01140000019222498,
+        "Volume": 9500
       },
       {
-        "Close BLPG": 0.03999999910593033,
-        "High BLPG": 0.03999999910593033,
-        "Low BLPG": 0.03999999910593033,
-        "Open BLPG": 0.03999999910593033,
-        "Volume BLPG": 20000
+        "Close": 0.012000000104308128,
+        "High": 0.012000000104308128,
+        "Low": 0.012000000104308128,
+        "Open": 0.012000000104308128,
+        "Volume": 39305
       },
       {
-        "Close BLPG": 0.052000001072883606,
-        "High BLPG": 0.052000001072883606,
-        "Low BLPG": 0.052000001072883606,
-        "Open BLPG": 0.052000001072883606,
-        "Volume BLPG": 145
+        "Close": 0.017899999395012856,
+        "High": 0.017899999395012856,
+        "Low": 0.017899999395012856,
+        "Open": 0.017899999395012856,
+        "Volume": 305
+      },
+      {
+        "Close": 0.009999999776482582,
+        "High": 0.010099999606609344,
+        "Low": 0.009999999776482582,
+        "Open": 0.010099999606609344,
+        "Volume": 20000
+      },
+      {
+        "Close": 0.008899999782443047,
+        "High": 0.008899999782443047,
+        "Low": 0.008899999782443047,
+        "Open": 0.008899999782443047,
+        "Volume": 47000
       }
     ]
   },
@@ -54,14 +68,38 @@
       "status": "no_data"
     },
     "cash_flow": {
-      "status": "success",
-      "rows": 42,
-      "columns": [
-        "2024-12-31 00:00:00",
-        "2023-12-31 00:00:00",
-        "2022-12-31 00:00:00",
-        "2021-12-31 00:00:00"
-      ],
-      "data": [
-        {
-          
+      "status": "no_data"
+    }
+  },
+  "options_data": {
+    "status": "error",
+    "error_message": "Too Many Requests. Rate limited. Try after a while."
+  },
+  "news_data": {
+    "news": {
+      "status": "no_data"
+    },
+    "recommendations": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  },
+  "holders_data": {
+    "major_holders": {
+      "status": "error"
+    },
+    "institutional_holders": {
+      "status": "error"
+    }
+  },
+  "earnings_data": {
+    "earnings": {
+      "status": "error",
+      "message": "'NoneType' object has no attribute 'empty'"
+    },
+    "calendar": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  }
+}

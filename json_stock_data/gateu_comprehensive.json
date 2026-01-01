@@ -1,60 +1,9 @@
 {
   "ticker": "GATEU",
-  "timestamp": "2025-12-31T05:48:40.989303",
+  "timestamp": "2026-01-01T05:14:36.972844",
   "intraday_data": {
-    "status": "success",
-    "rows": 7,
-    "data": [
-      {
-        "Close LNZAW": 0.011699999682605267,
-        "High LNZAW": 0.011699999682605267,
-        "Low LNZAW": 0.011699999682605267,
-        "Open LNZAW": 0.011699999682605267,
-        "Volume LNZAW": 0
-      },
-      {
-        "Close LNZAW": 0.013199999928474426,
-        "High LNZAW": 0.013199999928474426,
-        "Low LNZAW": 0.013199999928474426,
-        "Open LNZAW": 0.013199999928474426,
-        "Volume LNZAW": 4088
-      },
-      {
-        "Close LNZAW": 0.012400000356137753,
-        "High LNZAW": 0.012400000356137753,
-        "Low LNZAW": 0.012400000356137753,
-        "Open LNZAW": 0.012400000356137753,
-        "Volume LNZAW": 334
-      },
-      {
-        "Close LNZAW": 0.012400000356137753,
-        "High LNZAW": 0.012400000356137753,
-        "Low LNZAW": 0.012400000356137753,
-        "Open LNZAW": 0.012400000356137753,
-        "Volume LNZAW": 300
-      },
-      {
-        "Close LNZAW": 0.011699999682605267,
-        "High LNZAW": 0.011699999682605267,
-        "Low LNZAW": 0.011699999682605267,
-        "Open LNZAW": 0.011699999682605267,
-        "Volume LNZAW": 0
-      },
-      {
-        "Close LNZAW": 0.011699999682605267,
-        "High LNZAW": 0.011699999682605267,
-        "Low LNZAW": 0.011699999682605267,
-        "Open LNZAW": 0.011699999682605267,
-        "Volume LNZAW": 270
-      },
-      {
-        "Close LNZAW": 0.013000000268220901,
-        "High LNZAW": 0.013000000268220901,
-        "Low LNZAW": 0.013000000268220901,
-        "Open LNZAW": 0.013000000268220901,
-        "Volume LNZAW": 100
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -77,7 +26,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

@@ -1,33 +1,16 @@
 {
   "ticker": "RAPH",
-  "timestamp": "2025-12-31T05:19:56.200763",
+  "timestamp": "2026-01-01T05:05:28.313069",
   "intraday_data": {
     "status": "success",
-    "rows": 2,
+    "rows": 1,
     "data": [
       {
-        "Close PUBC": 0.028999999165534973,
-        "Close TRAW": 1.100000023841858,
-        "High PUBC": 0.028999999165534973,
-        "High TRAW": 1.100000023841858,
-        "Low PUBC": 0.028999999165534973,
-        "Low TRAW": 1.090399980545044,
-        "Open PUBC": 0.028999999165534973,
-        "Open TRAW": 1.090399980545044,
-        "Volume PUBC": 20000.0,
-        "Volume TRAW": 3487.0
-      },
-      {
-        "Close PUBC": 0.02800000086426735,
-        "Close TRAW": 1.059999942779541,
-        "High PUBC": 0.02800000086426735,
-        "High TRAW": 1.0700000524520874,
-        "Low PUBC": 0.02800000086426735,
-        "Low TRAW": 1.059999942779541,
-        "Open PUBC": 0.02800000086426735,
-        "Open TRAW": 1.0700000524520874,
-        "Volume PUBC": 25000.0,
-        "Volume TRAW": 1207.0
+        "Close": 1.399999976158142,
+        "High": 1.399999976158142,
+        "Low": 1.399999976158142,
+        "Open": 1.399999976158142,
+        "Volume": 1
       }
     ]
   },
@@ -55,16 +38,29 @@
       "status": "no_data"
     },
     "recommendations": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
+      "status": "no_data"
     }
   },
   "holders_data": {
     "major_holders": {
-      "status": "error"
+      "status": "success",
+      "data": [
+        {
+          "Value": 0.56071997
+        },
+        {
+          "Value": 0.0
+        },
+        {
+          "Value": 0.0
+        },
+        {
+          "Value": 0.0
+        }
+      ]
     },
     "institutional_holders": {
-      "status": "error"
+      "status": "no_data"
     }
   },
   "earnings_data": {
@@ -74,7 +70,7 @@
     },
     "calendar": {
       "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
+      "message": "'dict' object has no attribute 'empty'"
     }
   }
 }

@@ -1,9 +1,32 @@
 {
   "ticker": "IMPM",
-  "timestamp": "2025-12-31T05:40:52.417752",
+  "timestamp": "2026-01-01T05:12:25.281419",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 3,
+    "data": [
+      {
+        "Close": 0.045099999755620956,
+        "High": 0.045099999755620956,
+        "Low": 0.045099999755620956,
+        "Open": 0.045099999755620956,
+        "Volume": 0
+      },
+      {
+        "Close": 0.04529999941587448,
+        "High": 0.04529999941587448,
+        "Low": 0.04529999941587448,
+        "Open": 0.04529999941587448,
+        "Volume": 30
+      },
+      {
+        "Close": 0.04529999941587448,
+        "High": 0.04529999941587448,
+        "Low": 0.04529999941587448,
+        "Open": 0.04529999941587448,
+        "Volume": 30
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -26,10 +49,12 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   },
   "holders_data": {

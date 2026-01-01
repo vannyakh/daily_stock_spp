@@ -1,9 +1,60 @@
 {
   "ticker": "NBST",
-  "timestamp": "2025-12-31T05:39:19.005973",
+  "timestamp": "2026-01-01T05:11:57.830022",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 7,
+    "data": [
+      {
+        "Close CIZN": 7.900000095367432,
+        "High CIZN": 7.900000095367432,
+        "Low CIZN": 7.900000095367432,
+        "Open CIZN": 7.900000095367432,
+        "Volume CIZN": 0
+      },
+      {
+        "Close CIZN": 7.909999847412109,
+        "High CIZN": 7.909999847412109,
+        "Low CIZN": 7.909999847412109,
+        "Open CIZN": 7.909999847412109,
+        "Volume CIZN": 86
+      },
+      {
+        "Close CIZN": 7.909999847412109,
+        "High CIZN": 7.909999847412109,
+        "Low CIZN": 7.909999847412109,
+        "Open CIZN": 7.909999847412109,
+        "Volume CIZN": 2111
+      },
+      {
+        "Close CIZN": 7.909999847412109,
+        "High CIZN": 7.909999847412109,
+        "Low CIZN": 7.909999847412109,
+        "Open CIZN": 7.909999847412109,
+        "Volume CIZN": 1875
+      },
+      {
+        "Close CIZN": 7.909999847412109,
+        "High CIZN": 7.909999847412109,
+        "Low CIZN": 7.909999847412109,
+        "Open CIZN": 7.909999847412109,
+        "Volume CIZN": 100
+      },
+      {
+        "Close CIZN": 7.909999847412109,
+        "High CIZN": 7.909999847412109,
+        "Low CIZN": 7.909999847412109,
+        "Open CIZN": 7.909999847412109,
+        "Volume CIZN": 200
+      },
+      {
+        "Close CIZN": 7.909999847412109,
+        "High CIZN": 7.909999847412109,
+        "Low CIZN": 7.909999847412109,
+        "Open CIZN": 7.909999847412109,
+        "Volume CIZN": 100
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -11,13 +62,45 @@
   },
   "financials": {
     "income_statement": {
-      "status": "success",
-      "rows": 39,
-      "columns": [
-        "2023-12-31 00:00:00",
-        "2022-12-31 00:00:00",
-        "2021-12-31 00:00:00"
-      ],
-      "data": [
-        {
-          
+      "status": "no_data"
+    },
+    "balance_sheet": {
+      "status": "no_data"
+    },
+    "cash_flow": {
+      "status": "no_data"
+    }
+  },
+  "options_data": {
+    "status": "error",
+    "error_message": "Too Many Requests. Rate limited. Try after a while."
+  },
+  "news_data": {
+    "news": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    },
+    "recommendations": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  },
+  "holders_data": {
+    "major_holders": {
+      "status": "error"
+    },
+    "institutional_holders": {
+      "status": "error"
+    }
+  },
+  "earnings_data": {
+    "earnings": {
+      "status": "error",
+      "message": "'NoneType' object has no attribute 'empty'"
+    },
+    "calendar": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  }
+}

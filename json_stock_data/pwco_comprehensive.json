@@ -1,13 +1,29 @@
 {
   "ticker": "PWCO",
-  "timestamp": "2025-12-31T05:39:39.359095",
+  "timestamp": "2026-01-01T05:12:04.838010",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 2,
+    "data": [
+      {
+        "Close": 0.008799999952316284,
+        "High": 0.008799999952316284,
+        "Low": 0.008799999952316284,
+        "Open": 0.008799999952316284,
+        "Volume": 29000
+      },
+      {
+        "Close": 0.007499999832361937,
+        "High": 0.007499999832361937,
+        "Low": 0.007499999832361937,
+        "Open": 0.007499999832361937,
+        "Volume": 24050
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
-    "message": "Too Many Requests. Rate limited. Try after a while."
+    "message": "argument of type 'NoneType' is not iterable"
   },
   "financials": {
     "income_statement": {
@@ -26,7 +42,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

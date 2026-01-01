@@ -1,39 +1,9 @@
 {
   "ticker": "CDR-PB",
-  "timestamp": "2025-12-31T05:38:53.988747",
+  "timestamp": "2026-01-01T05:11:50.654610",
   "intraday_data": {
-    "status": "success",
-    "rows": 4,
-    "data": [
-      {
-        "Close": 18.06999969482422,
-        "High": 18.06999969482422,
-        "Low": 18.06999969482422,
-        "Open": 18.06999969482422,
-        "Volume": 114
-      },
-      {
-        "Close": 17.800100326538086,
-        "High": 17.800100326538086,
-        "Low": 17.800100326538086,
-        "Open": 17.800100326538086,
-        "Volume": 305
-      },
-      {
-        "Close": 18.040000915527344,
-        "High": 18.040000915527344,
-        "Low": 18.040000915527344,
-        "Open": 18.040000915527344,
-        "Volume": 123
-      },
-      {
-        "Close": 18.1299991607666,
-        "High": 18.1299991607666,
-        "Low": 18.1299991607666,
-        "Open": 18.1299991607666,
-        "Volume": 300
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -56,7 +26,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

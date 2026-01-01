@@ -1,16 +1,23 @@
 {
   "ticker": "OPFI-WT",
-  "timestamp": "2025-12-31T05:45:20.060479",
+  "timestamp": "2026-01-01T05:13:41.170507",
   "intraday_data": {
     "status": "success",
-    "rows": 1,
+    "rows": 2,
     "data": [
       {
         "Close LUCYW": 0.03440000116825104,
         "High LUCYW": 0.04569999873638153,
         "Low LUCYW": 0.03440000116825104,
         "Open LUCYW": 0.04569999873638153,
-        "Volume LUCYW": 1061
+        "Volume LUCYW": 0
+      },
+      {
+        "Close LUCYW": 0.04149999842047691,
+        "High LUCYW": 0.04149999842047691,
+        "Low LUCYW": 0.04149999842047691,
+        "Open LUCYW": 0.04149999842047691,
+        "Volume LUCYW": 825
       }
     ]
   },
@@ -35,7 +42,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

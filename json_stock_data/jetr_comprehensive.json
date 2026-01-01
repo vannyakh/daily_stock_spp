@@ -1,18 +1,9 @@
 {
   "ticker": "JETR",
-  "timestamp": "2025-12-31T05:40:16.097548",
+  "timestamp": "2026-01-01T05:12:14.776375",
   "intraday_data": {
-    "status": "success",
-    "rows": 1,
-    "data": [
-      {
-        "Close": 0.005100000184029341,
-        "High": 0.005100000184029341,
-        "Low": 0.005100000184029341,
-        "Open": 0.005100000184029341,
-        "Volume": 0
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -35,7 +26,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

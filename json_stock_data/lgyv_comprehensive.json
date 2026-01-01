@@ -1,9 +1,18 @@
 {
   "ticker": "LGYV",
-  "timestamp": "2025-12-31T05:39:00.276090",
+  "timestamp": "2026-01-01T05:11:52.364649",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 1,
+    "data": [
+      {
+        "Close NSRCF": 0.25,
+        "High NSRCF": 0.25,
+        "Low NSRCF": 0.25,
+        "Open NSRCF": 0.25,
+        "Volume NSRCF": 10000
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -26,7 +35,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

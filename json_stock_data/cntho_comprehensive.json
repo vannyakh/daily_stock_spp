@@ -1,9 +1,18 @@
 {
   "ticker": "CNTHO",
-  "timestamp": "2025-12-31T05:38:27.166981",
+  "timestamp": "2026-01-01T05:11:43.056398",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 1,
+    "data": [
+      {
+        "Close": 46.150001525878906,
+        "High": 46.150001525878906,
+        "Low": 46.150001525878906,
+        "Open": 46.150001525878906,
+        "Volume": 100
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -26,7 +35,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

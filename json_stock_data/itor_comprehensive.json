@@ -1,18 +1,9 @@
 {
   "ticker": "ITOR",
-  "timestamp": "2025-12-31T05:48:16.845939",
+  "timestamp": "2026-01-01T05:14:30.071711",
   "intraday_data": {
-    "status": "success",
-    "rows": 1,
-    "data": [
-      {
-        "Close SHFSW": 0.04230000078678131,
-        "High SHFSW": 0.04270000010728836,
-        "Low SHFSW": 0.04230000078678131,
-        "Open SHFSW": 0.04270000010728836,
-        "Volume SHFSW": 0
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -35,7 +26,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

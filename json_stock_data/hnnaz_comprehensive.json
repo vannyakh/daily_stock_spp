@@ -1,9 +1,18 @@
 {
   "ticker": "HNNAZ",
-  "timestamp": "2025-12-31T05:51:47.012610",
+  "timestamp": "2026-01-01T05:15:26.575883",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 1,
+    "data": [
+      {
+        "Close": 25.0,
+        "High": 25.0,
+        "Low": 25.0,
+        "Open": 25.0,
+        "Volume": 0
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -26,10 +35,12 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   },
   "holders_data": {

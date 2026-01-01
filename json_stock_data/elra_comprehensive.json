@@ -1,9 +1,46 @@
 {
   "ticker": "ELRA",
-  "timestamp": "2025-12-31T05:40:36.411203",
+  "timestamp": "2026-01-01T05:12:20.482992",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 5,
+    "data": [
+      {
+        "Close GPFT": 0.0005000000237487257,
+        "High GPFT": 0.0005000000237487257,
+        "Low GPFT": 0.0005000000237487257,
+        "Open GPFT": 0.0005000000237487257,
+        "Volume GPFT": 0
+      },
+      {
+        "Close GPFT": 0.0005000000237487257,
+        "High GPFT": 0.0005000000237487257,
+        "Low GPFT": 0.0005000000237487257,
+        "Open GPFT": 0.0005000000237487257,
+        "Volume GPFT": 65158
+      },
+      {
+        "Close GPFT": 0.0006000000284984708,
+        "High GPFT": 0.0006000000284984708,
+        "Low GPFT": 0.0005000000237487257,
+        "Open GPFT": 0.0005000000237487257,
+        "Volume GPFT": 2301610
+      },
+      {
+        "Close GPFT": 0.0006000000284984708,
+        "High GPFT": 0.0006000000284984708,
+        "Low GPFT": 0.0006000000284984708,
+        "Open GPFT": 0.0006000000284984708,
+        "Volume GPFT": 600
+      },
+      {
+        "Close GPFT": 0.0006000000284984708,
+        "High GPFT": 0.0006000000284984708,
+        "Low GPFT": 0.0006000000284984708,
+        "Open GPFT": 0.0006000000284984708,
+        "Volume GPFT": 407500
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -26,7 +63,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

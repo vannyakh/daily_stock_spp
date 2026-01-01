@@ -1,95 +1,9 @@
 {
   "ticker": "FKYS",
-  "timestamp": "2025-12-31T05:10:21.166209",
+  "timestamp": "2026-01-01T05:02:00.255434",
   "intraday_data": {
-    "status": "success",
-    "rows": 12,
-    "data": [
-      {
-        "Close": 18.5,
-        "High": 18.5,
-        "Low": 18.5,
-        "Open": 18.5,
-        "Volume": 0
-      },
-      {
-        "Close": 17.790000915527344,
-        "High": 18.010000228881836,
-        "Low": 17.790000915527344,
-        "Open": 18.010000228881836,
-        "Volume": 200
-      },
-      {
-        "Close": 17.780000686645508,
-        "High": 17.780000686645508,
-        "Low": 17.780000686645508,
-        "Open": 17.780000686645508,
-        "Volume": 100
-      },
-      {
-        "Close": 17.75,
-        "High": 17.780000686645508,
-        "Low": 17.75,
-        "Open": 17.780000686645508,
-        "Volume": 1553
-      },
-      {
-        "Close": 17.950000762939453,
-        "High": 17.950000762939453,
-        "Low": 17.950000762939453,
-        "Open": 17.950000762939453,
-        "Volume": 200
-      },
-      {
-        "Close": 18.450000762939453,
-        "High": 18.450000762939453,
-        "Low": 18.450000762939453,
-        "Open": 18.450000762939453,
-        "Volume": 15
-      },
-      {
-        "Close": 18.450000762939453,
-        "High": 18.450000762939453,
-        "Low": 18.450000762939453,
-        "Open": 18.450000762939453,
-        "Volume": 200
-      },
-      {
-        "Close": 18.5,
-        "High": 18.5,
-        "Low": 18.5,
-        "Open": 18.5,
-        "Volume": 974
-      },
-      {
-        "Close": 19.0,
-        "High": 19.0,
-        "Low": 19.0,
-        "Open": 19.0,
-        "Volume": 100
-      },
-      {
-        "Close": 19.0,
-        "High": 19.0,
-        "Low": 19.0,
-        "Open": 19.0,
-        "Volume": 100
-      },
-      {
-        "Close": 18.5,
-        "High": 18.5,
-        "Low": 18.5,
-        "Open": 18.5,
-        "Volume": 500
-      },
-      {
-        "Close": 19.0,
-        "High": 19.0,
-        "Low": 19.0,
-        "Open": 19.0,
-        "Volume": 100
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -97,131 +11,14 @@
   },
   "financials": {
     "income_statement": {
-      "status": "no_data"
-    },
-    "balance_sheet": {
-      "status": "no_data"
-    },
-    "cash_flow": {
-      "status": "no_data"
-    }
-  },
-  "options_data": {
-    "status": "error",
-    "error_message": "Too Many Requests. Rate limited. Try after a while."
-  },
-  "news_data": {
-    "news": {
       "status": "success",
-      "count": 2,
+      "rows": 36,
+      "columns": [
+        "2024-12-31 00:00:00",
+        "2023-12-31 00:00:00",
+        "2022-12-31 00:00:00",
+        "2021-12-31 00:00:00"
+      ],
       "data": [
         {
-          "id": "9d36682f-aec0-3385-8d9e-ad03f5ecbd03",
-          "content": {
-            "id": "9d36682f-aec0-3385-8d9e-ad03f5ecbd03",
-            "contentType": "STORY",
-            "title": "First Keystone: Q3 Earnings Snapshot",
-            "description": "",
-            "summary": "BERWICK, Pa. AP) \u2014 First Keystone Corp. FKYS) on Friday reported net income of $2.8 million in its third quarter.",
-            "pubDate": "2025-11-07T19:35:41Z",
-            "displayTime": "2025-11-07T19:35:41Z",
-            "isHosted": true,
-            "bypassModal": false,
-            "previewUrl": null,
-            "thumbnail": null,
-            "provider": {
-              "displayName": "Associated Press Finance",
-              "url": "http://www.ap.org/"
-            },
-            "canonicalUrl": {
-              "url": "https://finance.yahoo.com/news/first-keystone-q3-earnings-snapshot-193541575.html",
-              "site": "finance",
-              "region": "US",
-              "lang": "en-US"
-            },
-            "clickThroughUrl": {
-              "url": "https://finance.yahoo.com/news/first-keystone-q3-earnings-snapshot-193541575.html",
-              "site": "finance",
-              "region": "US",
-              "lang": "en-US"
-            },
-            "metadata": {
-              "editorsPick": false
-            },
-            "finance": {
-              "premiumFinance": {
-                "isPremiumNews": false,
-                "isPremiumFreeNews": false
-              }
-            },
-            "storyline": null
-          }
-        },
-        {
-          "id": "3a8a5b4a-45fc-3374-ad99-f35151a827c6",
-          "content": {
-            "id": "3a8a5b4a-45fc-3374-ad99-f35151a827c6",
-            "contentType": "STORY",
-            "title": "First Keystone: Q2 Earnings Snapshot",
-            "description": "",
-            "summary": "BERWICK, Pa. AP) \u2014 First Keystone Corp. FKYS) on Wednesday reported net income of $2.9 million in its second quarter.",
-            "pubDate": "2025-08-13T18:09:22Z",
-            "displayTime": "2025-08-13T18:09:22Z",
-            "isHosted": true,
-            "bypassModal": false,
-            "previewUrl": null,
-            "thumbnail": null,
-            "provider": {
-              "displayName": "Associated Press Finance",
-              "url": "http://www.ap.org/"
-            },
-            "canonicalUrl": {
-              "url": "https://finance.yahoo.com/news/first-keystone-q2-earnings-snapshot-180922336.html",
-              "site": "finance",
-              "region": "US",
-              "lang": "en-US"
-            },
-            "clickThroughUrl": {
-              "url": "https://finance.yahoo.com/news/first-keystone-q2-earnings-snapshot-180922336.html",
-              "site": "finance",
-              "region": "US",
-              "lang": "en-US"
-            },
-            "metadata": {
-              "editorsPick": false
-            },
-            "finance": {
-              "premiumFinance": {
-                "isPremiumNews": false,
-                "isPremiumFreeNews": false
-              }
-            },
-            "storyline": null
-          }
-        }
-      ]
-    },
-    "recommendations": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
-    }
-  },
-  "holders_data": {
-    "major_holders": {
-      "status": "error"
-    },
-    "institutional_holders": {
-      "status": "error"
-    }
-  },
-  "earnings_data": {
-    "earnings": {
-      "status": "error",
-      "message": "'NoneType' object has no attribute 'empty'"
-    },
-    "calendar": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
-    }
-  }
-}
+          

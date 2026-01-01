@@ -1,23 +1,30 @@
 {
   "ticker": "FUPBY",
-  "timestamp": "2025-12-31T05:36:23.545587",
+  "timestamp": "2026-01-01T05:11:05.981572",
   "intraday_data": {
     "status": "success",
-    "rows": 2,
+    "rows": 3,
     "data": [
       {
-        "Close": 11.180000305175781,
-        "High": 11.180000305175781,
-        "Low": 11.180000305175781,
-        "Open": 11.180000305175781,
-        "Volume": 0
+        "Close PCG-PB": 19.770000457763672,
+        "High PCG-PB": 19.770000457763672,
+        "Low PCG-PB": 19.770000457763672,
+        "Open PCG-PB": 19.770000457763672,
+        "Volume PCG-PB": 202
       },
       {
-        "Close": 10.949999809265137,
-        "High": 10.949999809265137,
-        "Low": 10.949999809265137,
-        "Open": 10.949999809265137,
-        "Volume": 1000
+        "Close PCG-PB": 20.100000381469727,
+        "High PCG-PB": 20.100000381469727,
+        "Low PCG-PB": 20.079999923706055,
+        "Open PCG-PB": 20.079999923706055,
+        "Volume PCG-PB": 536
+      },
+      {
+        "Close PCG-PB": 20.079999923706055,
+        "High PCG-PB": 20.079999923706055,
+        "Low PCG-PB": 19.860000610351562,
+        "Open PCG-PB": 19.860000610351562,
+        "Volume PCG-PB": 0
       }
     ]
   },
@@ -30,14 +37,42 @@
       "status": "no_data"
     },
     "balance_sheet": {
-      "status": "success",
-      "rows": 70,
-      "columns": [
-        "2024-12-31 00:00:00",
-        "2023-12-31 00:00:00",
-        "2022-12-31 00:00:00",
-        "2021-12-31 00:00:00"
-      ],
-      "data": [
-        {
-          
+      "status": "no_data"
+    },
+    "cash_flow": {
+      "status": "no_data"
+    }
+  },
+  "options_data": {
+    "status": "error",
+    "error_message": "Too Many Requests. Rate limited. Try after a while."
+  },
+  "news_data": {
+    "news": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    },
+    "recommendations": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  },
+  "holders_data": {
+    "major_holders": {
+      "status": "error"
+    },
+    "institutional_holders": {
+      "status": "error"
+    }
+  },
+  "earnings_data": {
+    "earnings": {
+      "status": "error",
+      "message": "'NoneType' object has no attribute 'empty'"
+    },
+    "calendar": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  }
+}

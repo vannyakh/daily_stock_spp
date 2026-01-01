@@ -1,9 +1,18 @@
 {
   "ticker": "GRTSQ",
-  "timestamp": "2025-12-31T05:30:53.395160",
+  "timestamp": "2026-01-01T05:09:20.435695",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 1,
+    "data": [
+      {
+        "Close CUEN": 0.20000000298023224,
+        "High CUEN": 0.20000000298023224,
+        "Low CUEN": 0.20000000298023224,
+        "Open CUEN": 0.20000000298023224,
+        "Volume CUEN": 0
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -21,7 +30,8 @@
     }
   },
   "options_data": {
-    "expirations": []
+    "status": "error",
+    "error_message": "Too Many Requests. Rate limited. Try after a while."
   },
   "news_data": {
     "news": {

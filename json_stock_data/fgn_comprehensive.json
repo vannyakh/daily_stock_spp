@@ -1,9 +1,39 @@
 {
   "ticker": "FGN",
-  "timestamp": "2025-12-31T05:44:28.595528",
+  "timestamp": "2026-01-01T05:13:26.201377",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 4,
+    "data": [
+      {
+        "Close SDAWW": 0.041999999433755875,
+        "High SDAWW": 0.041999999433755875,
+        "Low SDAWW": 0.041999999433755875,
+        "Open SDAWW": 0.041999999433755875,
+        "Volume SDAWW": 0
+      },
+      {
+        "Close SDAWW": 0.03020000085234642,
+        "High SDAWW": 0.03610000014305115,
+        "Low SDAWW": 0.03020000085234642,
+        "Open SDAWW": 0.03610000014305115,
+        "Volume SDAWW": 1172
+      },
+      {
+        "Close SDAWW": 0.03310000151395798,
+        "High SDAWW": 0.03310000151395798,
+        "Low SDAWW": 0.03310000151395798,
+        "Open SDAWW": 0.03310000151395798,
+        "Volume SDAWW": 448
+      },
+      {
+        "Close SDAWW": 0.041999999433755875,
+        "High SDAWW": 0.041999999433755875,
+        "Low SDAWW": 0.041999999433755875,
+        "Open SDAWW": 0.041999999433755875,
+        "Volume SDAWW": 200
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -26,7 +56,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

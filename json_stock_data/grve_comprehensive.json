@@ -1,9 +1,53 @@
 {
   "ticker": "GRVE",
-  "timestamp": "2025-12-31T05:29:44.849464",
+  "timestamp": "2026-01-01T05:08:57.225257",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 6,
+    "data": [
+      {
+        "Close ITOX": 0.000699999975040555,
+        "High ITOX": 0.0007999999797903001,
+        "Low ITOX": 0.000699999975040555,
+        "Open ITOX": 0.0007999999797903001,
+        "Volume ITOX": 0
+      },
+      {
+        "Close ITOX": 0.000699999975040555,
+        "High ITOX": 0.000699999975040555,
+        "Low ITOX": 0.000699999975040555,
+        "Open ITOX": 0.000699999975040555,
+        "Volume ITOX": 703738
+      },
+      {
+        "Close ITOX": 0.000699999975040555,
+        "High ITOX": 0.000699999975040555,
+        "Low ITOX": 0.000699999975040555,
+        "Open ITOX": 0.000699999975040555,
+        "Volume ITOX": 54714
+      },
+      {
+        "Close ITOX": 0.000699999975040555,
+        "High ITOX": 0.000699999975040555,
+        "Low ITOX": 0.000699999975040555,
+        "Open ITOX": 0.000699999975040555,
+        "Volume ITOX": 240000
+      },
+      {
+        "Close ITOX": 0.000699999975040555,
+        "High ITOX": 0.000699999975040555,
+        "Low ITOX": 0.000699999975040555,
+        "Open ITOX": 0.000699999975040555,
+        "Volume ITOX": 116548
+      },
+      {
+        "Close ITOX": 0.000699999975040555,
+        "High ITOX": 0.000699999975040555,
+        "Low ITOX": 0.000699999975040555,
+        "Open ITOX": 0.000699999975040555,
+        "Volume ITOX": 235143
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -17,13 +61,38 @@
       "status": "no_data"
     },
     "cash_flow": {
-      "status": "success",
-      "rows": 32,
-      "columns": [
-        "2025-03-31 00:00:00",
-        "2024-03-31 00:00:00",
-        "2023-03-31 00:00:00"
-      ],
-      "data": [
-        {
-          
+      "status": "no_data"
+    }
+  },
+  "options_data": {
+    "status": "error",
+    "error_message": "Too Many Requests. Rate limited. Try after a while."
+  },
+  "news_data": {
+    "news": {
+      "status": "no_data"
+    },
+    "recommendations": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  },
+  "holders_data": {
+    "major_holders": {
+      "status": "error"
+    },
+    "institutional_holders": {
+      "status": "error"
+    }
+  },
+  "earnings_data": {
+    "earnings": {
+      "status": "error",
+      "message": "'NoneType' object has no attribute 'empty'"
+    },
+    "calendar": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  }
+}

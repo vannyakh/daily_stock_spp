@@ -1,18 +1,9 @@
 {
   "ticker": "RGRX",
-  "timestamp": "2025-12-31T05:41:32.937042",
+  "timestamp": "2026-01-01T05:12:36.641643",
   "intraday_data": {
-    "status": "success",
-    "rows": 1,
-    "data": [
-      {
-        "Close RTSL": 0.001500000013038516,
-        "High RTSL": 0.001500000013038516,
-        "Low RTSL": 0.001500000013038516,
-        "Open RTSL": 0.001500000013038516,
-        "Volume RTSL": 40000
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -35,7 +26,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

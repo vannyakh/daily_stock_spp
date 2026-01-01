@@ -1,9 +1,18 @@
 {
   "ticker": "MGSD",
-  "timestamp": "2025-12-31T05:43:33.625235",
+  "timestamp": "2026-01-01T05:13:10.082412",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 1,
+    "data": [
+      {
+        "Close MRKY": 9.999999974752427e-07,
+        "High MRKY": 1.0,
+        "Low MRKY": 9.999999974752427e-07,
+        "Open MRKY": 9.999999974752427e-07,
+        "Volume MRKY": 2000
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -26,7 +35,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

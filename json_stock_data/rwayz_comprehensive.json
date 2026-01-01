@@ -1,10 +1,9 @@
 {
   "ticker": "RWAYZ",
-  "timestamp": "2025-12-31T05:50:47.706141",
+  "timestamp": "2026-01-01T05:15:10.178487",
   "intraday_data": {
-    "status": "success",
-    "rows": 0,
-    "data": []
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -27,7 +26,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

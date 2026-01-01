@@ -1,9 +1,9 @@
 {
   "ticker": "XXAAU",
-  "timestamp": "2025-12-31T05:56:24.708275",
+  "timestamp": "2026-01-01T05:16:45.769343",
   "intraday_data": {
     "status": "success",
-    "rows": 14,
+    "rows": 12,
     "data": [
       {
         "Close REGCO": 22.450000762939453,
@@ -11,41 +11,6 @@
         "Low REGCO": 22.450000762939453,
         "Open REGCO": 22.450000762939453,
         "Volume REGCO": 0
-      },
-      {
-        "Close REGCO": 22.429100036621094,
-        "High REGCO": 22.429100036621094,
-        "Low REGCO": 22.429100036621094,
-        "Open REGCO": 22.429100036621094,
-        "Volume REGCO": 518
-      },
-      {
-        "Close REGCO": 22.3799991607666,
-        "High REGCO": 22.3799991607666,
-        "Low REGCO": 22.3799991607666,
-        "Open REGCO": 22.3799991607666,
-        "Volume REGCO": 200
-      },
-      {
-        "Close REGCO": 22.43120002746582,
-        "High REGCO": 22.43120002746582,
-        "Low REGCO": 22.43120002746582,
-        "Open REGCO": 22.43120002746582,
-        "Volume REGCO": 1132
-      },
-      {
-        "Close REGCO": 22.350000381469727,
-        "High REGCO": 22.350000381469727,
-        "Low REGCO": 22.350000381469727,
-        "Open REGCO": 22.350000381469727,
-        "Volume REGCO": 222
-      },
-      {
-        "Close REGCO": 22.450000762939453,
-        "High REGCO": 22.450000762939453,
-        "Low REGCO": 22.450000762939453,
-        "Open REGCO": 22.450000762939453,
-        "Volume REGCO": 202
       },
       {
         "Close REGCO": 22.5,
@@ -102,12 +67,33 @@
         "Low REGCO": 22.5,
         "Open REGCO": 22.5,
         "Volume REGCO": 0
+      },
+      {
+        "Close REGCO": 22.5,
+        "High REGCO": 22.5,
+        "Low REGCO": 22.5,
+        "Open REGCO": 22.5,
+        "Volume REGCO": 201
+      },
+      {
+        "Close REGCO": 22.5,
+        "High REGCO": 22.5,
+        "Low REGCO": 22.5,
+        "Open REGCO": 22.5,
+        "Volume REGCO": 238
+      },
+      {
+        "Close REGCO": 22.5,
+        "High REGCO": 22.5,
+        "Low REGCO": 22.5,
+        "Open REGCO": 22.5,
+        "Volume REGCO": 215
       }
     ]
   },
   "stock_info": {
     "status": "error",
-    "message": "Too Many Requests. Rate limited. Try after a while."
+    "message": "argument of type 'NoneType' is not iterable"
   },
   "financials": {
     "income_statement": {
@@ -126,7 +112,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

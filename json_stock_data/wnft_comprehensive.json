@@ -1,46 +1,9 @@
 {
   "ticker": "WNFT",
-  "timestamp": "2025-12-31T05:40:55.250751",
+  "timestamp": "2026-01-01T05:12:26.178942",
   "intraday_data": {
-    "status": "success",
-    "rows": 5,
-    "data": [
-      {
-        "Close": 0.004999999888241291,
-        "High": 0.004999999888241291,
-        "Low": 0.004999999888241291,
-        "Open": 0.004999999888241291,
-        "Volume": 0
-      },
-      {
-        "Close": 0.004100000020116568,
-        "High": 0.004100000020116568,
-        "Low": 0.004100000020116568,
-        "Open": 0.004100000020116568,
-        "Volume": 197000
-      },
-      {
-        "Close": 0.004100000020116568,
-        "High": 0.004100000020116568,
-        "Low": 0.004100000020116568,
-        "Open": 0.004100000020116568,
-        "Volume": 10000
-      },
-      {
-        "Close": 0.004800000227987766,
-        "High": 0.004800000227987766,
-        "Low": 0.004800000227987766,
-        "Open": 0.004800000227987766,
-        "Volume": 1000
-      },
-      {
-        "Close": 0.004699999932199717,
-        "High": 0.004699999932199717,
-        "Low": 0.004699999932199717,
-        "Open": 0.004699999932199717,
-        "Volume": 25500
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -63,7 +26,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",
@@ -72,10 +36,10 @@
   },
   "holders_data": {
     "major_holders": {
-      "status": "no_data"
+      "status": "error"
     },
     "institutional_holders": {
-      "status": "no_data"
+      "status": "error"
     }
   },
   "earnings_data": {

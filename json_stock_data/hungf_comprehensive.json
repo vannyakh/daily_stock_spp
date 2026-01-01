@@ -1,30 +1,37 @@
 {
   "ticker": "HUNGF",
-  "timestamp": "2025-12-31T05:35:41.753261",
+  "timestamp": "2026-01-01T05:10:52.736775",
   "intraday_data": {
     "status": "success",
-    "rows": 3,
+    "rows": 4,
     "data": [
-      {
-        "Close SHECF": 31.520000457763672,
-        "High SHECF": 31.520000457763672,
-        "Low SHECF": 31.520000457763672,
-        "Open SHECF": 31.520000457763672,
-        "Volume SHECF": 0
-      },
-      {
-        "Close SHECF": 31.530000686645508,
-        "High SHECF": 31.530000686645508,
-        "Low SHECF": 31.530000686645508,
-        "Open SHECF": 31.530000686645508,
-        "Volume SHECF": 300
-      },
       {
         "Close SHECF": 31.389999389648438,
         "High SHECF": 31.389999389648438,
         "Low SHECF": 31.389999389648438,
         "Open SHECF": 31.389999389648438,
+        "Volume SHECF": 0
+      },
+      {
+        "Close SHECF": 30.899999618530273,
+        "High SHECF": 30.899999618530273,
+        "Low SHECF": 30.899999618530273,
+        "Open SHECF": 30.899999618530273,
+        "Volume SHECF": 1200
+      },
+      {
+        "Close SHECF": 30.899999618530273,
+        "High SHECF": 30.899999618530273,
+        "Low SHECF": 30.899999618530273,
+        "Open SHECF": 30.899999618530273,
         "Volume SHECF": 600
+      },
+      {
+        "Close SHECF": 31.25,
+        "High SHECF": 31.25,
+        "Low SHECF": 31.25,
+        "Open SHECF": 31.25,
+        "Volume SHECF": 0
       }
     ]
   },
@@ -49,7 +56,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

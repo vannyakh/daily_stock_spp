@@ -1,9 +1,39 @@
 {
   "ticker": "ALRTF",
-  "timestamp": "2025-12-31T05:28:05.123913",
+  "timestamp": "2026-01-01T05:08:22.223144",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 4,
+    "data": [
+      {
+        "Close": 0.014999999664723873,
+        "High": 0.014999999664723873,
+        "Low": 0.014999999664723873,
+        "Open": 0.014999999664723873,
+        "Volume": 0
+      },
+      {
+        "Close": 0.014999999664723873,
+        "High": 0.014999999664723873,
+        "Low": 0.014999999664723873,
+        "Open": 0.014999999664723873,
+        "Volume": 8889
+      },
+      {
+        "Close": 0.014999999664723873,
+        "High": 0.014999999664723873,
+        "Low": 0.014999999664723873,
+        "Open": 0.014999999664723873,
+        "Volume": 91111
+      },
+      {
+        "Close": 0.01600000075995922,
+        "High": 0.01600000075995922,
+        "Low": 0.01600000075995922,
+        "Open": 0.01600000075995922,
+        "Volume": 50000
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -29,15 +59,16 @@
       "status": "no_data"
     },
     "recommendations": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   },
   "holders_data": {
     "major_holders": {
-      "status": "no_data"
+      "status": "error"
     },
     "institutional_holders": {
-      "status": "no_data"
+      "status": "error"
     }
   },
   "earnings_data": {

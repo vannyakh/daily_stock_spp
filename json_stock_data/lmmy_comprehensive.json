@@ -1,16 +1,44 @@
 {
   "ticker": "LMMY",
-  "timestamp": "2025-12-31T05:42:25.729399",
+  "timestamp": "2026-01-01T05:12:51.880848",
   "intraday_data": {
     "status": "success",
-    "rows": 1,
+    "rows": 5,
     "data": [
       {
-        "Close": 0.30300000309944153,
-        "High": 0.30300000309944153,
-        "Low": 0.30300000309944153,
-        "Open": 0.30300000309944153,
-        "Volume": 0
+        "Close HPAIW": 0.17000000178813934,
+        "High HPAIW": 0.17000000178813934,
+        "Low HPAIW": 0.1599999964237213,
+        "Open HPAIW": 0.1599999964237213,
+        "Volume HPAIW": 0
+      },
+      {
+        "Close HPAIW": 0.17000000178813934,
+        "High HPAIW": 0.17710000276565552,
+        "Low HPAIW": 0.17000000178813934,
+        "Open HPAIW": 0.17000000178813934,
+        "Volume HPAIW": 5584
+      },
+      {
+        "Close HPAIW": 0.14890000224113464,
+        "High HPAIW": 0.15389999747276306,
+        "Low HPAIW": 0.12770000100135803,
+        "Open HPAIW": 0.15389999747276306,
+        "Volume HPAIW": 0
+      },
+      {
+        "Close HPAIW": 0.1599999964237213,
+        "High HPAIW": 0.1599999964237213,
+        "Low HPAIW": 0.1599999964237213,
+        "Open HPAIW": 0.1599999964237213,
+        "Volume HPAIW": 200
+      },
+      {
+        "Close HPAIW": 0.15919999778270721,
+        "High HPAIW": 0.15919999778270721,
+        "Low HPAIW": 0.14010000228881836,
+        "Open HPAIW": 0.14010000228881836,
+        "Volume HPAIW": 2603
       }
     ]
   },
@@ -35,7 +63,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",
@@ -44,10 +73,10 @@
   },
   "holders_data": {
     "major_holders": {
-      "status": "no_data"
+      "status": "error"
     },
     "institutional_holders": {
-      "status": "no_data"
+      "status": "error"
     }
   },
   "earnings_data": {
@@ -57,7 +86,7 @@
     },
     "calendar": {
       "status": "error",
-      "message": "'dict' object has no attribute 'empty'"
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   }
 }

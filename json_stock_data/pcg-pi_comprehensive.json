@@ -1,9 +1,53 @@
 {
   "ticker": "PCG-PI",
-  "timestamp": "2025-12-31T05:36:42.053049",
+  "timestamp": "2026-01-01T05:11:12.450791",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 6,
+    "data": [
+      {
+        "Close": 17.299999237060547,
+        "High": 17.299999237060547,
+        "Low": 17.299999237060547,
+        "Open": 17.299999237060547,
+        "Volume": 0
+      },
+      {
+        "Close": 17.399999618530273,
+        "High": 17.399999618530273,
+        "Low": 17.350000381469727,
+        "Open": 17.350000381469727,
+        "Volume": 0
+      },
+      {
+        "Close": 17.36199951171875,
+        "High": 17.36199951171875,
+        "Low": 17.299999237060547,
+        "Open": 17.299999237060547,
+        "Volume": 1468
+      },
+      {
+        "Close": 17.299999237060547,
+        "High": 17.299999237060547,
+        "Low": 17.299999237060547,
+        "Open": 17.299999237060547,
+        "Volume": 559
+      },
+      {
+        "Close": 17.299999237060547,
+        "High": 17.299999237060547,
+        "Low": 17.299999237060547,
+        "Open": 17.299999237060547,
+        "Volume": 300
+      },
+      {
+        "Close": 17.334999084472656,
+        "High": 17.334999084472656,
+        "Low": 17.299999237060547,
+        "Open": 17.299999237060547,
+        "Volume": 1954
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -26,7 +70,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

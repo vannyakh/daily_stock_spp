@@ -1,9 +1,18 @@
 {
   "ticker": "DCOMG",
-  "timestamp": "2025-12-31T05:54:24.816494",
+  "timestamp": "2026-01-01T05:16:11.545858",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 1,
+    "data": [
+      {
+        "Close EXEEL": 99.6500015258789,
+        "High EXEEL": 99.6500015258789,
+        "Low EXEEL": 99.6500015258789,
+        "Open EXEEL": 99.6500015258789,
+        "Volume EXEEL": 0
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -26,7 +35,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

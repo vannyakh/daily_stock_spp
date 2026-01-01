@@ -1,39 +1,9 @@
 {
   "ticker": "NOEMW",
-  "timestamp": "2025-12-31T05:45:39.091685",
+  "timestamp": "2026-01-01T05:13:47.068701",
   "intraday_data": {
-    "status": "success",
-    "rows": 4,
-    "data": [
-      {
-        "Close": 0.1550000011920929,
-        "High": 0.1550000011920929,
-        "Low": 0.1550000011920929,
-        "Open": 0.1550000011920929,
-        "Volume": 0
-      },
-      {
-        "Close": 0.16500000655651093,
-        "High": 0.16500000655651093,
-        "Low": 0.16500000655651093,
-        "Open": 0.16500000655651093,
-        "Volume": 246
-      },
-      {
-        "Close": 0.16500000655651093,
-        "High": 0.17350000143051147,
-        "Low": 0.16500000655651093,
-        "Open": 0.16500000655651093,
-        "Volume": 0
-      },
-      {
-        "Close": 0.16500000655651093,
-        "High": 0.16500000655651093,
-        "Low": 0.16290000081062317,
-        "Open": 0.16290000081062317,
-        "Volume": 200
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -56,11 +26,11 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
-    },
-    "recommendations": {
       "status": "error",
       "message": "Too Many Requests. Rate limited. Try after a while."
+    },
+    "recommendations": {
+      "status": "no_data"
     }
   },
   "holders_data": {

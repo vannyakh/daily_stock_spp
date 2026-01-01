@@ -1,25 +1,9 @@
 {
   "ticker": "CREVW",
-  "timestamp": "2025-12-31T05:45:42.526486",
+  "timestamp": "2026-01-01T05:13:47.457563",
   "intraday_data": {
-    "status": "success",
-    "rows": 2,
-    "data": [
-      {
-        "Close COOTW": 0.017500000074505806,
-        "High COOTW": 0.017500000074505806,
-        "Low COOTW": 0.015599999576807022,
-        "Open COOTW": 0.015699999406933784,
-        "Volume COOTW": 0
-      },
-      {
-        "Close COOTW": 0.017500000074505806,
-        "High COOTW": 0.017500000074505806,
-        "Low COOTW": 0.017500000074505806,
-        "Open COOTW": 0.017500000074505806,
-        "Volume COOTW": 0
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -42,7 +26,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

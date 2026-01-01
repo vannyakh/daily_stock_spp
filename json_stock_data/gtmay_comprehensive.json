@@ -1,18 +1,9 @@
 {
   "ticker": "GTMAY",
-  "timestamp": "2025-12-31T05:13:32.598003",
+  "timestamp": "2026-01-01T05:03:08.757843",
   "intraday_data": {
-    "status": "success",
-    "rows": 1,
-    "data": [
-      {
-        "Close": 1.3300000429153442,
-        "High": 1.3300000429153442,
-        "Low": 1.3300000429153442,
-        "Open": 1.3300000429153442,
-        "Volume": 0
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -38,15 +29,16 @@
       "status": "no_data"
     },
     "recommendations": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   },
   "holders_data": {
     "major_holders": {
-      "status": "no_data"
+      "status": "error"
     },
     "institutional_holders": {
-      "status": "no_data"
+      "status": "error"
     }
   },
   "earnings_data": {

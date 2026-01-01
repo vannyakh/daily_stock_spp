@@ -1,18 +1,9 @@
 {
   "ticker": "AMUB",
-  "timestamp": "2025-12-31T05:51:35.291880",
+  "timestamp": "2026-01-01T05:15:23.046603",
   "intraday_data": {
-    "status": "success",
-    "rows": 1,
-    "data": [
-      {
-        "Close": 18.93670082092285,
-        "High": 18.93670082092285,
-        "Low": 18.860000610351562,
-        "Open": 18.860000610351562,
-        "Volume": 259
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -35,7 +26,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

@@ -1,9 +1,60 @@
 {
   "ticker": "IONQ-WT",
-  "timestamp": "2025-12-31T05:48:27.023972",
+  "timestamp": "2026-01-01T05:14:32.534224",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 7,
+    "data": [
+      {
+        "Close": 34.3650016784668,
+        "High": 34.3650016784668,
+        "Low": 34.3650016784668,
+        "Open": 34.3650016784668,
+        "Volume": 0
+      },
+      {
+        "Close": 34.5359992980957,
+        "High": 34.5359992980957,
+        "Low": 34.5359992980957,
+        "Open": 34.5359992980957,
+        "Volume": 447
+      },
+      {
+        "Close": 34.380001068115234,
+        "High": 34.52000045776367,
+        "Low": 34.380001068115234,
+        "Open": 34.52000045776367,
+        "Volume": 307
+      },
+      {
+        "Close": 34.459999084472656,
+        "High": 34.459999084472656,
+        "Low": 34.459999084472656,
+        "Open": 34.459999084472656,
+        "Volume": 1093
+      },
+      {
+        "Close": 34.27000045776367,
+        "High": 34.27000045776367,
+        "Low": 34.27000045776367,
+        "Open": 34.27000045776367,
+        "Volume": 482
+      },
+      {
+        "Close": 33.29999923706055,
+        "High": 33.29999923706055,
+        "Low": 33.29999923706055,
+        "Open": 33.29999923706055,
+        "Volume": 430
+      },
+      {
+        "Close": 33.29999923706055,
+        "High": 33.29999923706055,
+        "Low": 33.29999923706055,
+        "Open": 33.29999923706055,
+        "Volume": 100
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -26,7 +77,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

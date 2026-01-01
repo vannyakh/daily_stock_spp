@@ -1,9 +1,25 @@
 {
   "ticker": "SWISF",
-  "timestamp": "2025-12-31T05:40:30.662168",
+  "timestamp": "2026-01-01T05:12:18.662028",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 2,
+    "data": [
+      {
+        "Close GRDAF": 0.057500001043081284,
+        "High GRDAF": 0.057500001043081284,
+        "Low GRDAF": 0.057500001043081284,
+        "Open GRDAF": 0.057500001043081284,
+        "Volume GRDAF": 1000
+      },
+      {
+        "Close GRDAF": 0.057500001043081284,
+        "High GRDAF": 0.057500001043081284,
+        "Low GRDAF": 0.057500001043081284,
+        "Open GRDAF": 0.057500001043081284,
+        "Volume GRDAF": 11000
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -17,14 +33,39 @@
       "status": "no_data"
     },
     "cash_flow": {
-      "status": "success",
-      "rows": 35,
-      "columns": [
-        "2024-12-31 00:00:00",
-        "2023-12-31 00:00:00",
-        "2022-12-31 00:00:00",
-        "2021-12-31 00:00:00"
-      ],
-      "data": [
-        {
-          
+      "status": "no_data"
+    }
+  },
+  "options_data": {
+    "status": "error",
+    "error_message": "Too Many Requests. Rate limited. Try after a while."
+  },
+  "news_data": {
+    "news": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    },
+    "recommendations": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  },
+  "holders_data": {
+    "major_holders": {
+      "status": "error"
+    },
+    "institutional_holders": {
+      "status": "error"
+    }
+  },
+  "earnings_data": {
+    "earnings": {
+      "status": "error",
+      "message": "'NoneType' object has no attribute 'empty'"
+    },
+    "calendar": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  }
+}

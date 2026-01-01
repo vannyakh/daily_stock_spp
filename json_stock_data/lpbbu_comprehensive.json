@@ -1,9 +1,39 @@
 {
   "ticker": "LPBBU",
-  "timestamp": "2025-12-31T05:43:36.490752",
+  "timestamp": "2026-01-01T05:13:10.942083",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 4,
+    "data": [
+      {
+        "Close CUBWW": 0.1509999930858612,
+        "High CUBWW": 0.1574999988079071,
+        "Low CUBWW": 0.1509999930858612,
+        "Open CUBWW": 0.1574999988079071,
+        "Volume CUBWW": 206
+      },
+      {
+        "Close CUBWW": 0.17630000412464142,
+        "High CUBWW": 0.17630000412464142,
+        "Low CUBWW": 0.17630000412464142,
+        "Open CUBWW": 0.17630000412464142,
+        "Volume CUBWW": 442
+      },
+      {
+        "Close CUBWW": 0.16439999639987946,
+        "High CUBWW": 0.17630000412464142,
+        "Low CUBWW": 0.16439999639987946,
+        "Open CUBWW": 0.17630000412464142,
+        "Volume CUBWW": 359
+      },
+      {
+        "Close CUBWW": 0.17000000178813934,
+        "High CUBWW": 0.17000000178813934,
+        "Low CUBWW": 0.1509999930858612,
+        "Open CUBWW": 0.1509999930858612,
+        "Volume CUBWW": 1280
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -14,11 +44,42 @@
       "status": "no_data"
     },
     "balance_sheet": {
-      "status": "success",
-      "rows": 30,
-      "columns": [
-        "2024-12-31 00:00:00"
-      ],
-      "data": [
-        {
-          
+      "status": "no_data"
+    },
+    "cash_flow": {
+      "status": "no_data"
+    }
+  },
+  "options_data": {
+    "status": "error",
+    "error_message": "Too Many Requests. Rate limited. Try after a while."
+  },
+  "news_data": {
+    "news": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    },
+    "recommendations": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  },
+  "holders_data": {
+    "major_holders": {
+      "status": "error"
+    },
+    "institutional_holders": {
+      "status": "error"
+    }
+  },
+  "earnings_data": {
+    "earnings": {
+      "status": "error",
+      "message": "'NoneType' object has no attribute 'empty'"
+    },
+    "calendar": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  }
+}

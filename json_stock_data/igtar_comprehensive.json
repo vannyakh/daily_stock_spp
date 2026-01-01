@@ -1,9 +1,25 @@
 {
   "ticker": "IGTAR",
-  "timestamp": "2025-12-31T05:49:32.214680",
+  "timestamp": "2026-01-01T05:14:49.702433",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 2,
+    "data": [
+      {
+        "Close": 0.12999999523162842,
+        "High": 0.13009999692440033,
+        "Low": 0.12999999523162842,
+        "Open": 0.13009999692440033,
+        "Volume": 0
+      },
+      {
+        "Close": 0.13009999692440033,
+        "High": 0.13009999692440033,
+        "Low": 0.13009999692440033,
+        "Open": 0.13009999692440033,
+        "Volume": 2600
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -26,7 +42,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

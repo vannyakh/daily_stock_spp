@@ -1,65 +1,16 @@
 {
   "ticker": "PMDI",
-  "timestamp": "2025-12-31T05:39:51.534639",
+  "timestamp": "2026-01-01T05:12:08.058659",
   "intraday_data": {
     "status": "success",
-    "rows": 8,
+    "rows": 1,
     "data": [
       {
-        "Close": 1.6399999856948853,
-        "High": 1.6699999570846558,
-        "Low": 1.6399999856948853,
-        "Open": 1.6699999570846558,
-        "Volume": 0
-      },
-      {
-        "Close": 1.6399999856948853,
-        "High": 1.6399999856948853,
-        "Low": 1.6399999856948853,
-        "Open": 1.6399999856948853,
-        "Volume": 8
-      },
-      {
-        "Close": 1.6399999856948853,
-        "High": 1.6399999856948853,
-        "Low": 1.6399999856948853,
-        "Open": 1.6399999856948853,
-        "Volume": 687
-      },
-      {
-        "Close": 1.5,
-        "High": 1.5,
-        "Low": 1.5,
-        "Open": 1.5,
-        "Volume": 3
-      },
-      {
-        "Close": 1.600000023841858,
-        "High": 1.600000023841858,
-        "Low": 1.600000023841858,
-        "Open": 1.600000023841858,
-        "Volume": 313
-      },
-      {
-        "Close": 1.690000057220459,
-        "High": 1.690000057220459,
-        "Low": 1.690000057220459,
-        "Open": 1.690000057220459,
-        "Volume": 100
-      },
-      {
-        "Close": 1.7000000476837158,
-        "High": 1.7000000476837158,
-        "Low": 1.7000000476837158,
-        "Open": 1.7000000476837158,
-        "Volume": 1413
-      },
-      {
-        "Close": 1.7000000476837158,
-        "High": 1.7000000476837158,
-        "Low": 1.7000000476837158,
-        "Open": 1.7000000476837158,
-        "Volume": 587
+        "Close ERKH": 13.800000190734863,
+        "High ERKH": 13.800000190734863,
+        "Low ERKH": 13.800000190734863,
+        "Open ERKH": 13.800000190734863,
+        "Volume ERKH": 25
       }
     ]
   },
@@ -72,14 +23,42 @@
       "status": "no_data"
     },
     "balance_sheet": {
-      "status": "success",
-      "rows": 65,
-      "columns": [
-        "2024-12-31 00:00:00",
-        "2023-12-31 00:00:00",
-        "2022-12-31 00:00:00",
-        "2021-12-31 00:00:00"
-      ],
-      "data": [
-        {
-          
+      "status": "no_data"
+    },
+    "cash_flow": {
+      "status": "no_data"
+    }
+  },
+  "options_data": {
+    "status": "error",
+    "error_message": "Too Many Requests. Rate limited. Try after a while."
+  },
+  "news_data": {
+    "news": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    },
+    "recommendations": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  },
+  "holders_data": {
+    "major_holders": {
+      "status": "error"
+    },
+    "institutional_holders": {
+      "status": "error"
+    }
+  },
+  "earnings_data": {
+    "earnings": {
+      "status": "error",
+      "message": "'NoneType' object has no attribute 'empty'"
+    },
+    "calendar": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  }
+}

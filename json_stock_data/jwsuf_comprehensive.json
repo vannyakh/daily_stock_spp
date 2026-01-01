@@ -1,23 +1,16 @@
 {
   "ticker": "JWSUF",
-  "timestamp": "2025-12-31T05:47:18.693871",
+  "timestamp": "2026-01-01T05:14:14.835911",
   "intraday_data": {
     "status": "success",
-    "rows": 3,
+    "rows": 2,
     "data": [
-      {
-        "Close JWSWF": 0.05510000139474869,
-        "High JWSWF": 0.05510000139474869,
-        "Low JWSWF": 0.05510000139474869,
-        "Open JWSWF": 0.05510000139474869,
-        "Volume JWSWF": 0
-      },
       {
         "Close JWSWF": 0.054999999701976776,
         "High JWSWF": 0.054999999701976776,
         "Low JWSWF": 0.054999999701976776,
         "Open JWSWF": 0.054999999701976776,
-        "Volume JWSWF": 700
+        "Volume JWSWF": 0
       },
       {
         "Close JWSWF": 0.054999999701976776,
@@ -40,13 +33,39 @@
       "status": "no_data"
     },
     "cash_flow": {
-      "status": "success",
-      "rows": 35,
-      "columns": [
-        "2023-12-31 00:00:00",
-        "2022-12-31 00:00:00",
-        "2021-12-31 00:00:00"
-      ],
-      "data": [
-        {
-          
+      "status": "no_data"
+    }
+  },
+  "options_data": {
+    "status": "error",
+    "error_message": "Too Many Requests. Rate limited. Try after a while."
+  },
+  "news_data": {
+    "news": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    },
+    "recommendations": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  },
+  "holders_data": {
+    "major_holders": {
+      "status": "error"
+    },
+    "institutional_holders": {
+      "status": "error"
+    }
+  },
+  "earnings_data": {
+    "earnings": {
+      "status": "error",
+      "message": "'NoneType' object has no attribute 'empty'"
+    },
+    "calendar": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  }
+}

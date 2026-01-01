@@ -1,25 +1,9 @@
 {
   "ticker": "ENDI",
-  "timestamp": "2025-12-31T05:39:31.843489",
+  "timestamp": "2026-01-01T05:12:01.292866",
   "intraday_data": {
-    "status": "success",
-    "rows": 2,
-    "data": [
-      {
-        "Close": 16.75,
-        "High": 16.75,
-        "Low": 16.75,
-        "Open": 16.75,
-        "Volume": 0
-      },
-      {
-        "Close": 16.75,
-        "High": 16.75,
-        "Low": 16.75,
-        "Open": 16.75,
-        "Volume": 124
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -42,7 +26,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

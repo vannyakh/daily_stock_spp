@@ -1,9 +1,32 @@
 {
   "ticker": "CREG",
-  "timestamp": "2025-12-31T05:25:08.107233",
+  "timestamp": "2026-01-01T05:07:21.054916",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 3,
+    "data": [
+      {
+        "Close LIMX": 1.0700000524520874,
+        "High LIMX": 1.0700000524520874,
+        "Low LIMX": 1.0700000524520874,
+        "Open LIMX": 1.0700000524520874,
+        "Volume LIMX": 100
+      },
+      {
+        "Close LIMX": 1.1799999475479126,
+        "High LIMX": 1.1799999475479126,
+        "Low LIMX": 1.1799999475479126,
+        "Open LIMX": 1.1799999475479126,
+        "Volume LIMX": 100
+      },
+      {
+        "Close LIMX": 1.1799999475479126,
+        "High LIMX": 1.1799999475479126,
+        "Low LIMX": 1.1799999475479126,
+        "Open LIMX": 1.1799999475479126,
+        "Volume LIMX": 100
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -21,7 +44,8 @@
     }
   },
   "options_data": {
-    "expirations": []
+    "status": "error",
+    "error_message": "Too Many Requests. Rate limited. Try after a while."
   },
   "news_data": {
     "news": {

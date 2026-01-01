@@ -1,9 +1,32 @@
 {
   "ticker": "CYAN",
-  "timestamp": "2025-12-31T05:28:00.159683",
+  "timestamp": "2026-01-01T05:08:20.597565",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 3,
+    "data": [
+      {
+        "Close": 0.44999998807907104,
+        "High": 0.44999998807907104,
+        "Low": 0.44999998807907104,
+        "Open": 0.44999998807907104,
+        "Volume": 0
+      },
+      {
+        "Close": 0.41999998688697815,
+        "High": 0.41999998688697815,
+        "Low": 0.41999998688697815,
+        "Open": 0.41999998688697815,
+        "Volume": 7000
+      },
+      {
+        "Close": 0.4099999964237213,
+        "High": 0.4099999964237213,
+        "Low": 0.4099999964237213,
+        "Open": 0.4099999964237213,
+        "Volume": 3000
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -29,7 +52,8 @@
       "status": "no_data"
     },
     "recommendations": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   },
   "holders_data": {

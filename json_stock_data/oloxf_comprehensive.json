@@ -1,29 +1,13 @@
 {
   "ticker": "OLOXF",
-  "timestamp": "2025-12-31T05:55:46.485939",
+  "timestamp": "2026-01-01T05:16:34.530231",
   "intraday_data": {
-    "status": "success",
-    "rows": 2,
-    "data": [
-      {
-        "Close": 3.5,
-        "High": 3.5,
-        "Low": 3.5,
-        "Open": 3.5,
-        "Volume": 0
-      },
-      {
-        "Close": 3.0999999046325684,
-        "High": 3.0999999046325684,
-        "Low": 3.0999999046325684,
-        "Open": 3.0999999046325684,
-        "Volume": 300
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
-    "message": "Too Many Requests. Rate limited. Try after a while."
+    "message": "argument of type 'NoneType' is not iterable"
   },
   "financials": {
     "income_statement": {
@@ -42,7 +26,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

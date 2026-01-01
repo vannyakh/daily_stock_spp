@@ -1,23 +1,23 @@
 {
   "ticker": "SIMA",
-  "timestamp": "2025-12-31T05:00:28.837182",
+  "timestamp": "2026-01-01T04:58:20.340871",
   "intraday_data": {
     "status": "success",
     "rows": 2,
     "data": [
       {
-        "Close": 10.585000038146973,
-        "High": 10.585000038146973,
-        "Low": 10.585000038146973,
-        "Open": 10.585000038146973,
-        "Volume": 0
-      },
-      {
         "Close": 10.579999923706055,
         "High": 10.579999923706055,
         "Low": 10.579999923706055,
         "Open": 10.579999923706055,
-        "Volume": 101
+        "Volume": 0
+      },
+      {
+        "Close": 10.59000015258789,
+        "High": 10.590399742126465,
+        "Low": 10.59000015258789,
+        "Open": 10.590100288391113,
+        "Volume": 2229
       }
     ]
   },
@@ -45,7 +45,8 @@
       "status": "no_data"
     },
     "recommendations": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   },
   "holders_data": {

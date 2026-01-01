@@ -1,60 +1,9 @@
 {
   "ticker": "CUBWU",
-  "timestamp": "2025-12-31T05:43:38.050714",
+  "timestamp": "2026-01-01T05:13:11.451922",
   "intraday_data": {
-    "status": "success",
-    "rows": 7,
-    "data": [
-      {
-        "Close": 10.829999923706055,
-        "High": 10.850000381469727,
-        "Low": 10.829999923706055,
-        "Open": 10.850000381469727,
-        "Volume": 0
-      },
-      {
-        "Close": 10.829999923706055,
-        "High": 10.829999923706055,
-        "Low": 10.829999923706055,
-        "Open": 10.829999923706055,
-        "Volume": 1
-      },
-      {
-        "Close": 10.859999656677246,
-        "High": 10.869999885559082,
-        "Low": 10.850000381469727,
-        "Open": 10.850000381469727,
-        "Volume": 800
-      },
-      {
-        "Close": 10.850000381469727,
-        "High": 10.850000381469727,
-        "Low": 10.850000381469727,
-        "Open": 10.850000381469727,
-        "Volume": 100
-      },
-      {
-        "Close": 11.0,
-        "High": 11.0,
-        "Low": 11.0,
-        "Open": 11.0,
-        "Volume": 310
-      },
-      {
-        "Close": 11.5,
-        "High": 11.9399995803833,
-        "Low": 11.5,
-        "Open": 11.5600004196167,
-        "Volume": 510
-      },
-      {
-        "Close": 12.319999694824219,
-        "High": 12.319999694824219,
-        "Low": 11.949999809265137,
-        "Open": 11.949999809265137,
-        "Volume": 201
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -77,7 +26,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

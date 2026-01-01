@@ -1,9 +1,46 @@
 {
   "ticker": "MKDWW",
-  "timestamp": "2025-12-31T05:42:46.622354",
+  "timestamp": "2026-01-01T05:12:57.195668",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 5,
+    "data": [
+      {
+        "Close MDCXW": 0.8025000095367432,
+        "High MDCXW": 0.8025000095367432,
+        "Low MDCXW": 0.75,
+        "Open MDCXW": 0.7900000214576721,
+        "Volume MDCXW": 0
+      },
+      {
+        "Close MDCXW": 0.7699999809265137,
+        "High MDCXW": 0.7699999809265137,
+        "Low MDCXW": 0.7699999809265137,
+        "Open MDCXW": 0.7699999809265137,
+        "Volume MDCXW": 0
+      },
+      {
+        "Close MDCXW": 0.7599999904632568,
+        "High MDCXW": 0.7599999904632568,
+        "Low MDCXW": 0.7599999904632568,
+        "Open MDCXW": 0.7599999904632568,
+        "Volume MDCXW": 297
+      },
+      {
+        "Close MDCXW": 0.800000011920929,
+        "High MDCXW": 0.800000011920929,
+        "Low MDCXW": 0.800000011920929,
+        "Open MDCXW": 0.800000011920929,
+        "Volume MDCXW": 3824
+      },
+      {
+        "Close MDCXW": 0.800000011920929,
+        "High MDCXW": 0.800000011920929,
+        "Low MDCXW": 0.800000011920929,
+        "Open MDCXW": 0.800000011920929,
+        "Volume MDCXW": 200
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -26,7 +63,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

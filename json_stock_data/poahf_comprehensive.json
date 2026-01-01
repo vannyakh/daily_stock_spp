@@ -1,67 +1,9 @@
 {
   "ticker": "POAHF",
-  "timestamp": "2025-12-31T05:35:11.943531",
+  "timestamp": "2026-01-01T05:10:44.553592",
   "intraday_data": {
-    "status": "success",
-    "rows": 8,
-    "data": [
-      {
-        "Close DUKH": 24.350000381469727,
-        "High DUKH": 24.350000381469727,
-        "Low DUKH": 24.350000381469727,
-        "Open DUKH": 24.350000381469727,
-        "Volume DUKH": 0
-      },
-      {
-        "Close DUKH": 24.350000381469727,
-        "High DUKH": 24.350000381469727,
-        "Low DUKH": 24.350000381469727,
-        "Open DUKH": 24.350000381469727,
-        "Volume DUKH": 186
-      },
-      {
-        "Close DUKH": 24.329999923706055,
-        "High DUKH": 24.350000381469727,
-        "Low DUKH": 24.329999923706055,
-        "Open DUKH": 24.350000381469727,
-        "Volume DUKH": 800
-      },
-      {
-        "Close DUKH": 24.398099899291992,
-        "High DUKH": 24.398099899291992,
-        "Low DUKH": 24.398099899291992,
-        "Open DUKH": 24.398099899291992,
-        "Volume DUKH": 989
-      },
-      {
-        "Close DUKH": 24.3799991607666,
-        "High DUKH": 24.3799991607666,
-        "Low DUKH": 24.3799991607666,
-        "Open DUKH": 24.3799991607666,
-        "Volume DUKH": 19
-      },
-      {
-        "Close DUKH": 24.36009979248047,
-        "High DUKH": 24.36009979248047,
-        "Low DUKH": 24.360000610351562,
-        "Open DUKH": 24.36009979248047,
-        "Volume DUKH": 2348
-      },
-      {
-        "Close DUKH": 24.375,
-        "High DUKH": 24.375,
-        "Low DUKH": 24.375,
-        "Open DUKH": 24.375,
-        "Volume DUKH": 1600
-      },
-      {
-        "Close DUKH": 24.350000381469727,
-        "High DUKH": 24.350000381469727,
-        "Low DUKH": 24.350000381469727,
-        "Open DUKH": 24.350000381469727,
-        "Volume DUKH": 400
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -72,14 +14,42 @@
       "status": "no_data"
     },
     "balance_sheet": {
-      "status": "success",
-      "rows": 61,
-      "columns": [
-        "2024-12-31 00:00:00",
-        "2023-12-31 00:00:00",
-        "2022-12-31 00:00:00",
-        "2021-12-31 00:00:00"
-      ],
-      "data": [
-        {
-          
+      "status": "no_data"
+    },
+    "cash_flow": {
+      "status": "no_data"
+    }
+  },
+  "options_data": {
+    "status": "error",
+    "error_message": "Too Many Requests. Rate limited. Try after a while."
+  },
+  "news_data": {
+    "news": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    },
+    "recommendations": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  },
+  "holders_data": {
+    "major_holders": {
+      "status": "error"
+    },
+    "institutional_holders": {
+      "status": "error"
+    }
+  },
+  "earnings_data": {
+    "earnings": {
+      "status": "error",
+      "message": "'NoneType' object has no attribute 'empty'"
+    },
+    "calendar": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  }
+}

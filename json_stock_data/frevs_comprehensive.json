@@ -1,93 +1,51 @@
 {
   "ticker": "FREVS",
-  "timestamp": "2025-12-31T05:07:58.267686",
+  "timestamp": "2026-01-01T05:01:05.573037",
   "intraday_data": {
     "status": "success",
-    "rows": 12,
+    "rows": 6,
     "data": [
       {
-        "Close VGAS": 2.450000047683716,
-        "High VGAS": 2.450000047683716,
-        "Low VGAS": 2.450000047683716,
-        "Open VGAS": 2.450000047683716,
-        "Volume VGAS": 0
+        "Close": 14.899999618530273,
+        "High": 14.899999618530273,
+        "Low": 14.899999618530273,
+        "Open": 14.899999618530273,
+        "Volume": 0
       },
       {
-        "Close VGAS": 2.4649999141693115,
-        "High VGAS": 2.4649999141693115,
-        "Low VGAS": 2.4649999141693115,
-        "Open VGAS": 2.4649999141693115,
-        "Volume VGAS": 2413
+        "Close": 15.390000343322754,
+        "High": 15.390000343322754,
+        "Low": 15.149999618530273,
+        "Open": 15.149999618530273,
+        "Volume": 201
       },
       {
-        "Close VGAS": 2.240000009536743,
-        "High VGAS": 2.240000009536743,
-        "Low VGAS": 2.240000009536743,
-        "Open VGAS": 2.240000009536743,
-        "Volume VGAS": 495
+        "Close": 15.399999618530273,
+        "High": 15.399999618530273,
+        "Low": 15.399999618530273,
+        "Open": 15.399999618530273,
+        "Volume": 100
       },
       {
-        "Close VGAS": 2.1963999271392822,
-        "High VGAS": 2.1963999271392822,
-        "Low VGAS": 2.1963999271392822,
-        "Open VGAS": 2.1963999271392822,
-        "Volume VGAS": 200
+        "Close": 15.300000190734863,
+        "High": 15.300000190734863,
+        "Low": 15.300000190734863,
+        "Open": 15.300000190734863,
+        "Volume": 758
       },
       {
-        "Close VGAS": 2.2300000190734863,
-        "High VGAS": 2.2300000190734863,
-        "Low VGAS": 2.2300000190734863,
-        "Open VGAS": 2.2300000190734863,
-        "Volume VGAS": 108
+        "Close": 15.300000190734863,
+        "High": 15.300000190734863,
+        "Low": 15.300000190734863,
+        "Open": 15.300000190734863,
+        "Volume": 500
       },
       {
-        "Close VGAS": 2.200000047683716,
-        "High VGAS": 2.2300000190734863,
-        "Low VGAS": 2.200000047683716,
-        "Open VGAS": 2.2300000190734863,
-        "Volume VGAS": 686
-      },
-      {
-        "Close VGAS": 2.200000047683716,
-        "High VGAS": 2.200000047683716,
-        "Low VGAS": 2.200000047683716,
-        "Open VGAS": 2.200000047683716,
-        "Volume VGAS": 156
-      },
-      {
-        "Close VGAS": 2.2000999450683594,
-        "High VGAS": 2.2000999450683594,
-        "Low VGAS": 2.2000999450683594,
-        "Open VGAS": 2.2000999450683594,
-        "Volume VGAS": 1323
-      },
-      {
-        "Close VGAS": 2.25,
-        "High VGAS": 2.25,
-        "Low VGAS": 2.25,
-        "Open VGAS": 2.25,
-        "Volume VGAS": 137
-      },
-      {
-        "Close VGAS": 2.2100000381469727,
-        "High VGAS": 2.2100000381469727,
-        "Low VGAS": 2.2100000381469727,
-        "Open VGAS": 2.2100000381469727,
-        "Volume VGAS": 347
-      },
-      {
-        "Close VGAS": 2.130000114440918,
-        "High VGAS": 2.130000114440918,
-        "Low VGAS": 2.130000114440918,
-        "Open VGAS": 2.130000114440918,
-        "Volume VGAS": 713
-      },
-      {
-        "Close VGAS": 2.0360000133514404,
-        "High VGAS": 2.130000114440918,
-        "Low VGAS": 2.0360000133514404,
-        "Open VGAS": 2.130000114440918,
-        "Volume VGAS": 1196
+        "Close": 15.300000190734863,
+        "High": 15.300000190734863,
+        "Low": 15.300000190734863,
+        "Open": 15.300000190734863,
+        "Volume": 100
       }
     ]
   },
@@ -115,16 +73,39 @@
       "status": "no_data"
     },
     "recommendations": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
+      "status": "no_data"
     }
   },
   "holders_data": {
     "major_holders": {
-      "status": "error"
+      "status": "success",
+      "data": [
+        {
+          "Value": 0.22312
+        },
+        {
+          "Value": 0.0
+        },
+        {
+          "Value": 0.0
+        },
+        {
+          "Value": 0.0
+        }
+      ]
     },
     "institutional_holders": {
-      "status": "error"
+      "status": "success",
+      "data": [
+        {
+          "Date Reported": "2025-07-31 00:00:00",
+          "Holder": "Tidal ETF Trust-Intelligent Real Estate ETF",
+          "pctHeld": 0.00029999999,
+          "Shares": 2365,
+          "Value": 36184,
+          "pctChange": -0.2002
+        }
+      ]
     }
   },
   "earnings_data": {
@@ -134,7 +115,7 @@
     },
     "calendar": {
       "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
+      "message": "'dict' object has no attribute 'empty'"
     }
   }
 }
