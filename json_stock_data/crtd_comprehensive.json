@@ -1,46 +1,9 @@
 {
   "ticker": "CRTD",
-  "timestamp": "2026-01-01T05:12:20.514533",
+  "timestamp": "2026-01-02T04:55:59.503703",
   "intraday_data": {
-    "status": "success",
-    "rows": 5,
-    "data": [
-      {
-        "Close GPFT": 0.0005000000237487257,
-        "High GPFT": 0.0005000000237487257,
-        "Low GPFT": 0.0005000000237487257,
-        "Open GPFT": 0.0005000000237487257,
-        "Volume GPFT": 0
-      },
-      {
-        "Close GPFT": 0.0005000000237487257,
-        "High GPFT": 0.0005000000237487257,
-        "Low GPFT": 0.0005000000237487257,
-        "Open GPFT": 0.0005000000237487257,
-        "Volume GPFT": 65158
-      },
-      {
-        "Close GPFT": 0.0006000000284984708,
-        "High GPFT": 0.0006000000284984708,
-        "Low GPFT": 0.0005000000237487257,
-        "Open GPFT": 0.0005000000237487257,
-        "Volume GPFT": 2301610
-      },
-      {
-        "Close GPFT": 0.0006000000284984708,
-        "High GPFT": 0.0006000000284984708,
-        "Low GPFT": 0.0006000000284984708,
-        "Open GPFT": 0.0006000000284984708,
-        "Volume GPFT": 600
-      },
-      {
-        "Close GPFT": 0.0006000000284984708,
-        "High GPFT": 0.0006000000284984708,
-        "Low GPFT": 0.0006000000284984708,
-        "Open GPFT": 0.0006000000284984708,
-        "Volume GPFT": 407500
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -63,8 +26,52 @@
   },
   "news_data": {
     "news": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
+      "status": "success",
+      "count": 1,
+      "data": [
+        {
+          "id": "8f969250-0382-34ca-8dbd-e03cd6e30385",
+          "content": {
+            "id": "8f969250-0382-34ca-8dbd-e03cd6e30385",
+            "contentType": "STORY",
+            "title": "Creatd: Q3 Earnings Snapshot",
+            "description": "",
+            "summary": "NEW YORK (AP) \u2014 Creatd Inc. CRTD) on Friday reported a loss of $780,000 in its third quarter. The New York-based company said it had a loss of 13 cents per share.",
+            "pubDate": "2025-11-14T22:56:32Z",
+            "displayTime": "2025-11-14T22:56:32Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": null,
+            "provider": {
+              "displayName": "Associated Press Finance",
+              "url": "http://www.ap.org/"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/creatd-q3-earnings-snapshot-225632535.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/creatd-q3-earnings-snapshot-225632535.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        }
+      ]
     },
     "recommendations": {
       "status": "error",

@@ -1,39 +1,9 @@
 {
   "ticker": "CRKN",
-  "timestamp": "2026-01-01T05:04:40.867084",
+  "timestamp": "2026-01-02T04:47:42.423306",
   "intraday_data": {
-    "status": "success",
-    "rows": 4,
-    "data": [
-      {
-        "Close SISI": 0.20499999821186066,
-        "High SISI": 0.20499999821186066,
-        "Low SISI": 0.20499999821186066,
-        "Open SISI": 0.20499999821186066,
-        "Volume SISI": 0
-      },
-      {
-        "Close SISI": 0.30000001192092896,
-        "High SISI": 0.3889000117778778,
-        "Low SISI": 0.20499999821186066,
-        "Open SISI": 0.3889000117778778,
-        "Volume SISI": 102
-      },
-      {
-        "Close SISI": 0.30000001192092896,
-        "High SISI": 0.30000001192092896,
-        "Low SISI": 0.30000001192092896,
-        "Open SISI": 0.30000001192092896,
-        "Volume SISI": 302
-      },
-      {
-        "Close SISI": 0.30000001192092896,
-        "High SISI": 0.30000001192092896,
-        "Low SISI": 0.30000001192092896,
-        "Open SISI": 0.30000001192092896,
-        "Volume SISI": 1
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -44,14 +14,41 @@
       "status": "no_data"
     },
     "balance_sheet": {
-      "status": "success",
-      "rows": 66,
-      "columns": [
-        "2024-12-31 00:00:00",
-        "2023-12-31 00:00:00",
-        "2022-12-31 00:00:00",
-        "2021-03-31 00:00:00"
-      ],
-      "data": [
-        {
-          
+      "status": "no_data"
+    },
+    "cash_flow": {
+      "status": "no_data"
+    }
+  },
+  "options_data": {
+    "status": "error",
+    "error_message": "Too Many Requests. Rate limited. Try after a while."
+  },
+  "news_data": {
+    "news": {
+      "status": "no_data"
+    },
+    "recommendations": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  },
+  "holders_data": {
+    "major_holders": {
+      "status": "error"
+    },
+    "institutional_holders": {
+      "status": "error"
+    }
+  },
+  "earnings_data": {
+    "earnings": {
+      "status": "error",
+      "message": "'NoneType' object has no attribute 'empty'"
+    },
+    "calendar": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  }
+}

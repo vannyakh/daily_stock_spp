@@ -1,10 +1,25 @@
 {
   "ticker": "MOBBW",
-  "timestamp": "2026-01-01T05:12:24.349072",
+  "timestamp": "2026-01-02T04:56:05.245458",
   "intraday_data": {
     "status": "success",
-    "rows": 0,
-    "data": []
+    "rows": 2,
+    "data": [
+      {
+        "Close BMXC": 0.02500000037252903,
+        "High BMXC": 0.02500000037252903,
+        "Low BMXC": 0.02500000037252903,
+        "Open BMXC": 0.02500000037252903,
+        "Volume BMXC": 0
+      },
+      {
+        "Close BMXC": 0.023000000044703484,
+        "High BMXC": 0.023000000044703484,
+        "Low BMXC": 0.023000000044703484,
+        "Open BMXC": 0.023000000044703484,
+        "Volume BMXC": 5000
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -12,45 +27,14 @@
   },
   "financials": {
     "income_statement": {
-      "status": "no_data"
-    },
-    "balance_sheet": {
-      "status": "no_data"
-    },
-    "cash_flow": {
-      "status": "no_data"
-    }
-  },
-  "options_data": {
-    "status": "error",
-    "error_message": "Too Many Requests. Rate limited. Try after a while."
-  },
-  "news_data": {
-    "news": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
-    },
-    "recommendations": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
-    }
-  },
-  "holders_data": {
-    "major_holders": {
-      "status": "error"
-    },
-    "institutional_holders": {
-      "status": "error"
-    }
-  },
-  "earnings_data": {
-    "earnings": {
-      "status": "error",
-      "message": "'NoneType' object has no attribute 'empty'"
-    },
-    "calendar": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
-    }
-  }
-}
+      "status": "success",
+      "rows": 52,
+      "columns": [
+        "2024-12-31 00:00:00",
+        "2023-12-31 00:00:00",
+        "2022-12-31 00:00:00",
+        "2021-12-31 00:00:00"
+      ],
+      "data": [
+        {
+          

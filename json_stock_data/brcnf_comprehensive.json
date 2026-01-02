@@ -1,46 +1,9 @@
 {
   "ticker": "BRCNF",
-  "timestamp": "2026-01-01T05:12:09.918275",
+  "timestamp": "2026-01-02T04:55:45.952474",
   "intraday_data": {
-    "status": "success",
-    "rows": 5,
-    "data": [
-      {
-        "Close": 1.190000057220459,
-        "High": 1.190000057220459,
-        "Low": 1.190000057220459,
-        "Open": 1.190000057220459,
-        "Volume": 0
-      },
-      {
-        "Close": 1.190000057220459,
-        "High": 1.190000057220459,
-        "Low": 1.190000057220459,
-        "Open": 1.190000057220459,
-        "Volume": 100
-      },
-      {
-        "Close": 1.190000057220459,
-        "High": 1.190000057220459,
-        "Low": 1.190000057220459,
-        "Open": 1.190000057220459,
-        "Volume": 100
-      },
-      {
-        "Close": 1.190000057220459,
-        "High": 1.190000057220459,
-        "Low": 1.190000057220459,
-        "Open": 1.190000057220459,
-        "Volume": 100
-      },
-      {
-        "Close": 1.190000057220459,
-        "High": 1.190000057220459,
-        "Low": 1.190000057220459,
-        "Open": 1.190000057220459,
-        "Volume": 100
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -48,45 +11,13 @@
   },
   "financials": {
     "income_statement": {
-      "status": "no_data"
-    },
-    "balance_sheet": {
-      "status": "no_data"
-    },
-    "cash_flow": {
-      "status": "no_data"
-    }
-  },
-  "options_data": {
-    "status": "error",
-    "error_message": "Too Many Requests. Rate limited. Try after a while."
-  },
-  "news_data": {
-    "news": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
-    },
-    "recommendations": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
-    }
-  },
-  "holders_data": {
-    "major_holders": {
-      "status": "error"
-    },
-    "institutional_holders": {
-      "status": "error"
-    }
-  },
-  "earnings_data": {
-    "earnings": {
-      "status": "error",
-      "message": "'NoneType' object has no attribute 'empty'"
-    },
-    "calendar": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
-    }
-  }
-}
+      "status": "success",
+      "rows": 55,
+      "columns": [
+        "2023-03-31 00:00:00",
+        "2022-03-31 00:00:00",
+        "2021-03-31 00:00:00"
+      ],
+      "data": [
+        {
+          

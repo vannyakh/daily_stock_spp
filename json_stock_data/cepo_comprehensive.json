@@ -1,9 +1,47 @@
 {
   "ticker": "CEPO",
-  "timestamp": "2026-01-01T04:59:37.656076",
+  "timestamp": "2026-01-02T04:42:38.101987",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 3,
+    "data": [
+      {
+        "Close": 10.40999984741211,
+        "Close HWBK": 34.290000915527344,
+        "High": 10.40999984741211,
+        "High HWBK": 34.290000915527344,
+        "Low": 10.40999984741211,
+        "Low HWBK": 34.290000915527344,
+        "Open": 10.40999984741211,
+        "Open HWBK": 34.290000915527344,
+        "Volume": 9151.0,
+        "Volume HWBK": 247.0
+      },
+      {
+        "Close": 10.413900375366211,
+        "Close HWBK": 34.54999923706055,
+        "High": 10.413900375366211,
+        "High HWBK": 34.54999923706055,
+        "Low": 10.40999984741211,
+        "Low HWBK": 34.54999923706055,
+        "Open": 10.40999984741211,
+        "Open HWBK": 34.54999923706055,
+        "Volume": 1111.0,
+        "Volume HWBK": 110.0
+      },
+      {
+        "Close": 10.40999984741211,
+        "Close HWBK": 34.709999084472656,
+        "High": 10.420000076293945,
+        "High HWBK": 34.709999084472656,
+        "Low": 10.40999984741211,
+        "Low HWBK": 34.709999084472656,
+        "Open": 10.40999984741211,
+        "Open HWBK": 34.709999084472656,
+        "Volume": 15892.0,
+        "Volume HWBK": 264.0
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -379,7 +417,8 @@
       ]
     },
     "recommendations": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   },
   "holders_data": {

@@ -1,25 +1,9 @@
 {
   "ticker": "WELPP",
-  "timestamp": "2026-01-01T05:11:20.595556",
+  "timestamp": "2026-01-02T04:54:44.051121",
   "intraday_data": {
-    "status": "success",
-    "rows": 2,
-    "data": [
-      {
-        "Close BATRB": 58.0,
-        "High BATRB": 58.0,
-        "Low BATRB": 58.0,
-        "Open BATRB": 58.0,
-        "Volume BATRB": 0
-      },
-      {
-        "Close BATRB": 58.25,
-        "High BATRB": 58.25,
-        "Low BATRB": 58.25,
-        "Open BATRB": 58.25,
-        "Volume BATRB": 100
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -42,8 +26,7 @@
   },
   "news_data": {
     "news": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
+      "status": "no_data"
     },
     "recommendations": {
       "status": "error",

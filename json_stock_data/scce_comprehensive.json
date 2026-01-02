@@ -1,80 +1,57 @@
 {
   "ticker": "SCCE",
-  "timestamp": "2026-01-01T05:13:33.132081",
+  "timestamp": "2026-01-02T04:57:30.589700",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 6,
+    "data": [
+      {
+        "Close": 23.110000610351562,
+        "High": 23.110000610351562,
+        "Low": 23.110000610351562,
+        "Open": 23.110000610351562,
+        "Volume": 0
+      },
+      {
+        "Close": 23.214500427246094,
+        "High": 23.214500427246094,
+        "Low": 23.214500427246094,
+        "Open": 23.214500427246094,
+        "Volume": 655
+      },
+      {
+        "Close": 23.260000228881836,
+        "High": 23.260000228881836,
+        "Low": 23.260000228881836,
+        "Open": 23.260000228881836,
+        "Volume": 200
+      },
+      {
+        "Close": 23.260000228881836,
+        "High": 23.260000228881836,
+        "Low": 23.260000228881836,
+        "Open": 23.260000228881836,
+        "Volume": 102
+      },
+      {
+        "Close": 23.149999618530273,
+        "High": 23.177499771118164,
+        "Low": 23.149999618530273,
+        "Open": 23.177499771118164,
+        "Volume": 350
+      },
+      {
+        "Close": 23.110000610351562,
+        "High": 23.15999984741211,
+        "Low": 23.110000610351562,
+        "Open": 23.15999984741211,
+        "Volume": 679
+      }
+    ]
   },
   "stock_info": {
-    "status": "success",
-    "data": {
-      "maxAge": 86400,
-      "priceHint": 2,
-      "previousClose": 23.1,
-      "open": 23.11,
-      "dayLow": 23.11,
-      "dayHigh": 23.26,
-      "regularMarketPreviousClose": 23.1,
-      "regularMarketOpen": 23.11,
-      "regularMarketDayLow": 23.11,
-      "regularMarketDayHigh": 23.26,
-      "volume": 2529,
-      "regularMarketVolume": 2529,
-      "averageVolume": 3393,
-      "averageVolume10days": 3060,
-      "averageDailyVolume10Day": 3060,
-      "bid": 23.05,
-      "ask": 23.2,
-      "bidSize": 100,
-      "askSize": 100,
-      "fiftyTwoWeekLow": 18.39,
-      "fiftyTwoWeekHigh": 23.405,
-      "allTimeHigh": 24.9,
-      "allTimeLow": 18.05,
-      "fiftyDayAverage": 23.00816,
-      "twoHundredDayAverage": 21.16018,
-      "currency": "USD",
-      "tradeable": false,
-      "quoteType": "ETF",
-      "symbol": "SCCE",
-      "language": "en-US",
-      "region": "US",
-      "typeDisp": "ETF",
-      "triggerable": true,
-      "customPriceAlertConfidence": "HIGH",
-      "regularMarketTime": 1767209514,
-      "marketState": "CLOSED",
-      "regularMarketChangePercent": 0.043291,
-      "regularMarketPrice": 23.11,
-      "shortName": "Sachem Capital Corp. 6.00% Note",
-      "exchange": "ASE",
-      "messageBoardId": "finmb_408102947",
-      "exchangeTimezoneName": "America/New_York",
-      "exchangeTimezoneShortName": "EST",
-      "gmtOffSetMilliseconds": -18000000,
-      "market": "us_market",
-      "esgPopulated": false,
-      "hasPrePostMarketData": true,
-      "firstTradeDateMilliseconds": 1646922600000,
-      "regularMarketChange": 0.0100002,
-      "regularMarketDayRange": "23.11 - 23.26",
-      "fullExchangeName": "NYSE American",
-      "averageDailyVolume3Month": 3393,
-      "fiftyTwoWeekLowChange": 4.720001,
-      "fiftyTwoWeekLowChangePercent": 0.2566613,
-      "fiftyTwoWeekRange": "18.39 - 23.405",
-      "fiftyTwoWeekHighChange": -0.29500008,
-      "fiftyTwoWeekHighChangePercent": -0.012604147,
-      "fiftyTwoWeekChangePercent": 16.666662,
-      "dividendDate": 1664496000,
-      "fiftyDayAverageChange": 0.10184097,
-      "fiftyDayAverageChangePercent": 0.004426298,
-      "twoHundredDayAverageChange": 1.9498215,
-      "twoHundredDayAverageChangePercent": 0.09214579,
-      "sourceInterval": 15,
-      "exchangeDataDelayedBy": 0,
-      "cryptoTradeable": false
-    }
+    "status": "error",
+    "message": "Too Many Requests. Rate limited. Try after a while."
   },
   "financials": {
     "income_statement": {
@@ -88,7 +65,8 @@
     }
   },
   "options_data": {
-    "expirations": []
+    "status": "error",
+    "error_message": "Too Many Requests. Rate limited. Try after a while."
   },
   "news_data": {
     "news": {

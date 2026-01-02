@@ -1,16 +1,21 @@
 {
   "ticker": "RAPH",
-  "timestamp": "2026-01-01T05:05:28.313069",
+  "timestamp": "2026-01-02T04:48:29.405623",
   "intraday_data": {
     "status": "success",
     "rows": 1,
     "data": [
       {
         "Close": 1.399999976158142,
+        "Close ZEOX": 2.690000057220459,
         "High": 1.399999976158142,
+        "High ZEOX": 2.690000057220459,
         "Low": 1.399999976158142,
+        "Low ZEOX": 2.690000057220459,
         "Open": 1.399999976158142,
-        "Volume": 1
+        "Open ZEOX": 2.690000057220459,
+        "Volume": 0.0,
+        "Volume ZEOX": 1.0
       }
     ]
   },
@@ -38,29 +43,16 @@
       "status": "no_data"
     },
     "recommendations": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   },
   "holders_data": {
     "major_holders": {
-      "status": "success",
-      "data": [
-        {
-          "Value": 0.56071997
-        },
-        {
-          "Value": 0.0
-        },
-        {
-          "Value": 0.0
-        },
-        {
-          "Value": 0.0
-        }
-      ]
+      "status": "error"
     },
     "institutional_holders": {
-      "status": "no_data"
+      "status": "error"
     }
   },
   "earnings_data": {
@@ -70,7 +62,7 @@
     },
     "calendar": {
       "status": "error",
-      "message": "'dict' object has no attribute 'empty'"
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   }
 }

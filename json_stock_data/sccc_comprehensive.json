@@ -1,81 +1,14 @@
 {
   "ticker": "SCCC",
-  "timestamp": "2026-01-01T05:13:33.190271",
+  "timestamp": "2026-01-02T04:57:30.284505",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 0,
+    "data": []
   },
   "stock_info": {
-    "status": "success",
-    "data": {
-      "maxAge": 86400,
-      "priceHint": 2,
-      "previousClose": 24.98,
-      "open": 24.99,
-      "dayLow": 24.99,
-      "dayHigh": 24.99,
-      "regularMarketPreviousClose": 24.98,
-      "regularMarketOpen": 24.99,
-      "regularMarketDayLow": 24.99,
-      "regularMarketDayHigh": 24.99,
-      "volume": 6982,
-      "regularMarketVolume": 6982,
-      "averageVolume": 5260,
-      "averageVolume10days": 11570,
-      "averageDailyVolume10Day": 11570,
-      "bid": 0.0,
-      "ask": 25.0,
-      "bidSize": 68,
-      "askSize": 9,
-      "fiftyTwoWeekLow": 23.99,
-      "fiftyTwoWeekHigh": 25.47,
-      "allTimeHigh": 26.73,
-      "allTimeLow": 21.76,
-      "fiftyDayAverage": 25.16936,
-      "twoHundredDayAverage": 24.863655,
-      "currency": "USD",
-      "tradeable": false,
-      "quoteType": "ETF",
-      "symbol": "SCCC",
-      "language": "en-US",
-      "region": "US",
-      "typeDisp": "ETF",
-      "quoteSourceName": "Delayed Quote",
-      "triggerable": true,
-      "customPriceAlertConfidence": "HIGH",
-      "marketState": "CLOSED",
-      "regularMarketTime": 1759168245,
-      "exchange": "ASE",
-      "messageBoardId": "finmb_408102947",
-      "exchangeTimezoneName": "America/New_York",
-      "exchangeTimezoneShortName": "EST",
-      "gmtOffSetMilliseconds": -18000000,
-      "market": "us_market",
-      "esgPopulated": false,
-      "shortName": "Sachem Capital Corp. 7.75% Note",
-      "hasPrePostMarketData": true,
-      "firstTradeDateMilliseconds": 1599744600000,
-      "regularMarketChange": 0.0100002,
-      "regularMarketDayRange": "24.99 - 24.99",
-      "fullExchangeName": "NYSE American",
-      "averageDailyVolume3Month": 5260,
-      "fiftyTwoWeekLowChange": 1.0,
-      "fiftyTwoWeekLowChangePercent": 0.041684035,
-      "fiftyTwoWeekRange": "23.99 - 25.47",
-      "fiftyTwoWeekHighChange": -0.47999954,
-      "fiftyTwoWeekHighChangePercent": -0.018845683,
-      "fiftyTwoWeekChangePercent": 0.32116175,
-      "dividendDate": 1656547200,
-      "regularMarketChangePercent": 0.0400329,
-      "regularMarketPrice": 24.99,
-      "fiftyDayAverageChange": -0.17935944,
-      "fiftyDayAverageChangePercent": -0.0071261027,
-      "twoHundredDayAverageChange": 0.12634468,
-      "twoHundredDayAverageChangePercent": 0.005081501,
-      "sourceInterval": 15,
-      "exchangeDataDelayedBy": 0,
-      "cryptoTradeable": false
-    }
+    "status": "error",
+    "message": "Too Many Requests. Rate limited. Try after a while."
   },
   "financials": {
     "income_statement": {
@@ -89,7 +22,8 @@
     }
   },
   "options_data": {
-    "expirations": []
+    "status": "error",
+    "error_message": "Too Many Requests. Rate limited. Try after a while."
   },
   "news_data": {
     "news": {

@@ -1,16 +1,23 @@
 {
   "ticker": "PUBC",
-  "timestamp": "2026-01-01T05:05:28.289714",
+  "timestamp": "2026-01-02T04:48:29.365663",
   "intraday_data": {
     "status": "success",
-    "rows": 1,
+    "rows": 2,
     "data": [
       {
         "Close RAPH": 1.399999976158142,
         "High RAPH": 1.399999976158142,
         "Low RAPH": 1.399999976158142,
         "Open RAPH": 1.399999976158142,
-        "Volume RAPH": 1
+        "Volume RAPH": 0
+      },
+      {
+        "Close RAPH": 1.399999976158142,
+        "High RAPH": 1.399999976158142,
+        "Low RAPH": 1.399999976158142,
+        "Open RAPH": 1.399999976158142,
+        "Volume RAPH": 0
       }
     ]
   },
@@ -47,7 +54,7 @@
       "status": "error"
     },
     "institutional_holders": {
-      "status": "no_data"
+      "status": "error"
     }
   },
   "earnings_data": {
@@ -57,7 +64,7 @@
     },
     "calendar": {
       "status": "error",
-      "message": "'dict' object has no attribute 'empty'"
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   }
 }

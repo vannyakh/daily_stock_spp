@@ -1,54 +1,53 @@
 {
   "ticker": "SRSG",
-  "timestamp": "2026-01-01T05:08:30.395005",
+  "timestamp": "2026-01-02T04:51:35.916655",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 4,
+    "data": [
+      {
+        "Close SRGZ": 0.05000000074505806,
+        "High SRGZ": 0.05000000074505806,
+        "Low SRGZ": 0.05000000074505806,
+        "Open SRGZ": 0.05000000074505806,
+        "Volume SRGZ": 0
+      },
+      {
+        "Close SRGZ": 0.05000000074505806,
+        "High SRGZ": 0.05000000074505806,
+        "Low SRGZ": 0.05000000074505806,
+        "Open SRGZ": 0.05000000074505806,
+        "Volume SRGZ": 100
+      },
+      {
+        "Close SRGZ": 0.05000000074505806,
+        "High SRGZ": 0.05000000074505806,
+        "Low SRGZ": 0.05000000074505806,
+        "Open SRGZ": 0.05000000074505806,
+        "Volume SRGZ": 100
+      },
+      {
+        "Close SRGZ": 0.05000000074505806,
+        "High SRGZ": 0.06989999860525131,
+        "Low SRGZ": 0.05000000074505806,
+        "Open SRGZ": 0.06989999860525131,
+        "Volume SRGZ": 600
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
-    "message": "Too Many Requests. Rate limited. Try after a while."
+    "message": "argument of type 'NoneType' is not iterable"
   },
   "financials": {
     "income_statement": {
-      "status": "no_data"
-    },
-    "balance_sheet": {
-      "status": "no_data"
-    },
-    "cash_flow": {
-      "status": "no_data"
-    }
-  },
-  "options_data": {
-    "status": "error",
-    "error_message": "Too Many Requests. Rate limited. Try after a while."
-  },
-  "news_data": {
-    "news": {
-      "status": "no_data"
-    },
-    "recommendations": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
-    }
-  },
-  "holders_data": {
-    "major_holders": {
-      "status": "error"
-    },
-    "institutional_holders": {
-      "status": "error"
-    }
-  },
-  "earnings_data": {
-    "earnings": {
-      "status": "error",
-      "message": "'NoneType' object has no attribute 'empty'"
-    },
-    "calendar": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
-    }
-  }
-}
+      "status": "success",
+      "rows": 38,
+      "columns": [
+        "2023-12-31 00:00:00",
+        "2022-12-31 00:00:00",
+        "2021-12-31 00:00:00"
+      ],
+      "data": [
+        {
+          

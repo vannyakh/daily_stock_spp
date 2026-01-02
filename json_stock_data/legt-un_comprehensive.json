@@ -1,58 +1,37 @@
 {
   "ticker": "LEGT-UN",
-  "timestamp": "2026-01-01T05:13:57.692412",
+  "timestamp": "2026-01-02T04:57:59.914037",
   "intraday_data": {
     "status": "success",
-    "rows": 7,
+    "rows": 4,
     "data": [
       {
-        "Close": 11.0,
-        "High": 11.0,
-        "Low": 11.0,
-        "Open": 11.0,
-        "Volume": 0
+        "Close LEGT-WT": 0.42010000348091125,
+        "High LEGT-WT": 0.42010000348091125,
+        "Low LEGT-WT": 0.42010000348091125,
+        "Open LEGT-WT": 0.42010000348091125,
+        "Volume LEGT-WT": 0
       },
       {
-        "Close": 11.0,
-        "High": 11.0,
-        "Low": 11.0,
-        "Open": 11.0,
-        "Volume": 235
+        "Close LEGT-WT": 0.41999998688697815,
+        "High LEGT-WT": 0.41999998688697815,
+        "Low LEGT-WT": 0.41999998688697815,
+        "Open LEGT-WT": 0.41999998688697815,
+        "Volume LEGT-WT": 2796
       },
       {
-        "Close": 10.930000305175781,
-        "High": 10.930000305175781,
-        "Low": 10.930000305175781,
-        "Open": 10.930000305175781,
-        "Volume": 0
+        "Close LEGT-WT": 0.41999998688697815,
+        "High LEGT-WT": 0.41999998688697815,
+        "Low LEGT-WT": 0.41999998688697815,
+        "Open LEGT-WT": 0.41999998688697815,
+        "Volume LEGT-WT": 1500
       },
       {
-        "Close": 11.199999809265137,
-        "High": 11.199999809265137,
-        "Low": 11.199999809265137,
-        "Open": 11.199999809265137,
-        "Volume": 129
-      },
-      {
-        "Close": 11.149999618530273,
-        "High": 11.149999618530273,
-        "Low": 11.0,
-        "Open": 11.149999618530273,
-        "Volume": 402
-      },
-      {
-        "Close": 11.010000228881836,
-        "High": 11.010000228881836,
-        "Low": 11.010000228881836,
-        "Open": 11.010000228881836,
-        "Volume": 108
-      },
-      {
-        "Close": 11.279999732971191,
-        "High": 11.279999732971191,
-        "Low": 11.279999732971191,
-        "Open": 11.279999732971191,
-        "Volume": 105
+        "Close LEGT-WT": 0.4101000130176544,
+        "High LEGT-WT": 0.4101000130176544,
+        "Low LEGT-WT": 0.4099999964237213,
+        "Open LEGT-WT": 0.4099999964237213,
+        "Volume LEGT-WT": 5500
       }
     ]
   },
@@ -72,7 +51,8 @@
     }
   },
   "options_data": {
-    "expirations": []
+    "status": "error",
+    "error_message": "Too Many Requests. Rate limited. Try after a while."
   },
   "news_data": {
     "news": {
@@ -443,79 +423,16 @@
       ]
     },
     "recommendations": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   },
   "holders_data": {
     "major_holders": {
-      "status": "success",
-      "data": [
-        {
-          "Value": 0.00071999995
-        },
-        {
-          "Value": 0.00674
-        },
-        {
-          "Value": 0.00675
-        },
-        {
-          "Value": 8.0
-        }
-      ]
+      "status": "error"
     },
     "institutional_holders": {
-      "status": "success",
-      "data": [
-        {
-          "Date Reported": "2025-09-30 00:00:00",
-          "Holder": "Longfellow Investment Management Co. LLC",
-          "pctHeld": 0.0,
-          "Shares": 5942,
-          "Value": 67025,
-          "pctChange": 0.0
-        },
-        {
-          "Date Reported": "2025-09-30 00:00:00",
-          "Holder": "Yakira Capital Management, Inc.",
-          "pctHeld": 0.0,
-          "Shares": 50000,
-          "Value": 563999,
-          "pctChange": 0.0
-        },
-        {
-          "Date Reported": "2025-09-30 00:00:00",
-          "Holder": "Athos Capital Ltd",
-          "pctHeld": 0.0,
-          "Shares": 25000,
-          "Value": 281999,
-          "pctChange": 0.0
-        },
-        {
-          "Date Reported": "2025-09-30 00:00:00",
-          "Holder": "Glazer Capital LLC",
-          "pctHeld": 0.0,
-          "Shares": 140,
-          "Value": 1579,
-          "pctChange": 1.0
-        },
-        {
-          "Date Reported": "2025-09-30 00:00:00",
-          "Holder": "UBS Group AG",
-          "pctHeld": 0.0,
-          "Shares": 67,
-          "Value": 755,
-          "pctChange": 0.0
-        },
-        {
-          "Date Reported": "2025-09-30 00:00:00",
-          "Holder": "Clear Street Group Inc.",
-          "pctHeld": 0.0,
-          "Shares": 9172,
-          "Value": 103460,
-          "pctChange": 1.0
-        }
-      ]
+      "status": "error"
     }
   },
   "earnings_data": {
@@ -525,7 +442,7 @@
     },
     "calendar": {
       "status": "error",
-      "message": "'dict' object has no attribute 'empty'"
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   }
 }

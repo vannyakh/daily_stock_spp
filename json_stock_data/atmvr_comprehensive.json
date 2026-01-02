@@ -1,9 +1,18 @@
 {
   "ticker": "ATMVR",
-  "timestamp": "2026-01-01T05:12:51.383353",
+  "timestamp": "2026-01-02T04:56:38.489497",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 1,
+    "data": [
+      {
+        "Close FBYDW": 2.0199999809265137,
+        "High FBYDW": 2.0299999713897705,
+        "Low FBYDW": 2.0199999809265137,
+        "Open FBYDW": 2.0299999713897705,
+        "Volume FBYDW": 0
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -26,8 +35,52 @@
   },
   "news_data": {
     "news": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
+      "status": "success",
+      "count": 1,
+      "data": [
+        {
+          "id": "33577aa6-96ca-376f-aa47-5f9ee7b5a456",
+          "content": {
+            "id": "33577aa6-96ca-376f-aa47-5f9ee7b5a456",
+            "contentType": "STORY",
+            "title": "Investors Parse Earnings Reports With US Equity Futures Flat Tuesday Pre-Bell",
+            "description": "",
+            "summary": "US stock futures were little changed in Tuesday's premarket session as investors parsed pre-market e",
+            "pubDate": "2025-10-21T12:09:51Z",
+            "displayTime": "2025-10-21T12:09:51Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": null,
+            "provider": {
+              "displayName": "MT Newswires",
+              "url": "https://www.mtnewswires.com/"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/investors-parse-earnings-reports-us-120951187.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/investors-parse-earnings-reports-us-120951187.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": true,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        }
+      ]
     },
     "recommendations": {
       "status": "error",

@@ -1,9 +1,25 @@
 {
   "ticker": "CSDX",
-  "timestamp": "2026-01-01T05:14:02.568186",
+  "timestamp": "2026-01-02T04:58:07.221856",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 2,
+    "data": [
+      {
+        "Close": 0.26499998569488525,
+        "High": 0.26499998569488525,
+        "Low": 0.26499998569488525,
+        "Open": 0.26499998569488525,
+        "Volume": 0
+      },
+      {
+        "Close": 0.20999999344348907,
+        "High": 0.20999999344348907,
+        "Low": 0.20999999344348907,
+        "Open": 0.20999999344348907,
+        "Volume": 2500
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -26,8 +42,7 @@
   },
   "news_data": {
     "news": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
+      "status": "no_data"
     },
     "recommendations": {
       "status": "error",
@@ -39,7 +54,7 @@
       "status": "error"
     },
     "institutional_holders": {
-      "status": "error"
+      "status": "no_data"
     }
   },
   "earnings_data": {

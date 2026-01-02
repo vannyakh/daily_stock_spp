@@ -1,25 +1,9 @@
 {
   "ticker": "SRRIX",
-  "timestamp": "2026-01-01T05:14:52.130397",
+  "timestamp": "2026-01-02T04:59:13.923194",
   "intraday_data": {
-    "status": "success",
-    "rows": 2,
-    "data": [
-      {
-        "Close": 55.33000183105469,
-        "High": 55.33000183105469,
-        "Low": 55.33000183105469,
-        "Open": 55.33000183105469,
-        "Volume": 0
-      },
-      {
-        "Close": 55.380001068115234,
-        "High": 55.380001068115234,
-        "Low": 55.380001068115234,
-        "Open": 55.380001068115234,
-        "Volume": 0
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -42,8 +26,7 @@
   },
   "news_data": {
     "news": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
+      "status": "no_data"
     },
     "recommendations": {
       "status": "error",

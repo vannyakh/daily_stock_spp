@@ -1,13 +1,22 @@
 {
   "ticker": "MITP",
-  "timestamp": "2026-01-01T05:15:42.645581",
+  "timestamp": "2026-01-02T05:00:04.622205",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 1,
+    "data": [
+      {
+        "Close": 25.405000686645508,
+        "High": 25.405000686645508,
+        "Low": 25.405000686645508,
+        "Open": 25.405000686645508,
+        "Volume": 0
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
-    "message": "argument of type 'NoneType' is not iterable"
+    "message": "Too Many Requests. Rate limited. Try after a while."
   },
   "financials": {
     "income_statement": {
@@ -30,8 +39,7 @@
       "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
+      "status": "no_data"
     }
   },
   "holders_data": {

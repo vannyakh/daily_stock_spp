@@ -1,24 +1,643 @@
 {
   "ticker": "FWRD",
-  "timestamp": "2026-01-01T04:54:49.196823",
+  "timestamp": "2026-01-02T04:37:45.532638",
   "intraday_data": {
     "status": "no_data",
     "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
-    "message": "argument of type 'NoneType' is not iterable"
+    "message": "Too Many Requests. Rate limited. Try after a while."
   },
   "financials": {
     "income_statement": {
+      "status": "no_data"
+    },
+    "balance_sheet": {
+      "status": "no_data"
+    },
+    "cash_flow": {
+      "status": "no_data"
+    }
+  },
+  "options_data": {
+    "status": "error",
+    "error_message": "Too Many Requests. Rate limited. Try after a while."
+  },
+  "news_data": {
+    "news": {
       "status": "success",
-      "rows": 48,
-      "columns": [
-        "2024-12-31 00:00:00",
-        "2023-12-31 00:00:00",
-        "2022-12-31 00:00:00",
-        "2021-12-31 00:00:00"
-      ],
+      "count": 10,
       "data": [
         {
-          
+          "id": "9b6dd373-494b-3d8b-afa4-2a8d9d6aa991",
+          "content": {
+            "id": "9b6dd373-494b-3d8b-afa4-2a8d9d6aa991",
+            "contentType": "STORY",
+            "title": "Shareholders in Forward Air (NASDAQ:FWRD) are in the red if they invested three years ago",
+            "description": "",
+            "summary": "As an investor, mistakes are inevitable. But you have a problem if you face massive losses more than once in a while...",
+            "pubDate": "2026-01-01T10:40:03Z",
+            "displayTime": "2026-01-01T10:40:03Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": {
+              "originalUrl": "https://media.zenfs.com/en/simply_wall_st__316/de08ce5a09ed74f962345d43f617cd22",
+              "originalWidth": 1194,
+              "originalHeight": 432,
+              "caption": "",
+              "resolutions": [
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/CGOxaHjnDUfozYQ8rIP9ZA--~B/aD00MzI7dz0xMTk0O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/simply_wall_st__316/de08ce5a09ed74f962345d43f617cd22",
+                  "width": 1194,
+                  "height": 432,
+                  "tag": "original"
+                },
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/7VgguWvPDxo4UyqNESZKrQ--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/simply_wall_st__316/de08ce5a09ed74f962345d43f617cd22",
+                  "width": 170,
+                  "height": 128,
+                  "tag": "170x128"
+                }
+              ]
+            },
+            "provider": {
+              "displayName": "Simply Wall St.",
+              "url": "https://simplywall.st/"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/shareholders-forward-air-nasdaq-fwrd-104003964.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/shareholders-forward-air-nasdaq-fwrd-104003964.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        },
+        {
+          "id": "a92fbce7-734e-3e15-934a-36895b5ac677",
+          "content": {
+            "id": "a92fbce7-734e-3e15-934a-36895b5ac677",
+            "contentType": "STORY",
+            "title": "Stocks making big moves yesterday: Uber, Revolve, Advance Auto Parts, CarGurus, and F5",
+            "description": "",
+            "summary": "Check out the companies making headlines yesterday:",
+            "pubDate": "2025-12-10T13:00:37Z",
+            "displayTime": "2025-12-10T13:00:37Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": {
+              "originalUrl": "https://media.zenfs.com/en/stockstory_922/727a6bbfc0df03ca73137e069e75f3f6",
+              "originalWidth": 1400,
+              "originalHeight": 700,
+              "caption": "UBER Cover Image",
+              "resolutions": [
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/JY.o6PKUdxNkFT_S.sxXQg--~B/aD03MDA7dz0xNDAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/stockstory_922/727a6bbfc0df03ca73137e069e75f3f6",
+                  "width": 1400,
+                  "height": 700,
+                  "tag": "original"
+                },
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/arAgV2YQ6A7ibPKE3I1VsQ--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/stockstory_922/727a6bbfc0df03ca73137e069e75f3f6",
+                  "width": 170,
+                  "height": 128,
+                  "tag": "170x128"
+                }
+              ]
+            },
+            "provider": {
+              "displayName": "StockStory",
+              "url": "https://stockstory.org/"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/stocks-making-big-moves-yesterday-130037192.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/stocks-making-big-moves-yesterday-130037192.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        },
+        {
+          "id": "1607c757-3618-3f4a-9951-01818d03297e",
+          "content": {
+            "id": "1607c757-3618-3f4a-9951-01818d03297e",
+            "contentType": "STORY",
+            "title": "Revolve Group (RVLV): Assessing Valuation After FWRD Growth, Market Share Gains and New Fashion Director Appointment",
+            "description": "",
+            "summary": "Revolve Group (RVLV) has been back on traders radar after its luxury arm FWRD reported strong gross profit growth, gained additional market share, and brought in Rosie Huntington Whiteley as Fashion Director. See our latest analysis for Revolve Group. The market has clearly noticed, with a 1 month share price return of 28.16 percent and a 90 day share price gain of 18.68 percent lifting Revolve back toward 28.40 dollars. This comes even though the 1 year total shareholder return is still down...",
+            "pubDate": "2025-12-10T12:11:09Z",
+            "displayTime": "2025-12-10T12:11:09Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": {
+              "originalUrl": "https://media.zenfs.com/en/simply_wall_st__316/bba80cef4667ee8433810d7fbee032a7",
+              "originalWidth": 1194,
+              "originalHeight": 432,
+              "caption": "",
+              "resolutions": [
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/D5RQ4IawidDVtnEYQELG0g--~B/aD00MzI7dz0xMTk0O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/simply_wall_st__316/bba80cef4667ee8433810d7fbee032a7",
+                  "width": 1194,
+                  "height": 432,
+                  "tag": "original"
+                },
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/DZPfM10zmgHZ3CJXfVb8JQ--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/simply_wall_st__316/bba80cef4667ee8433810d7fbee032a7",
+                  "width": 170,
+                  "height": 128,
+                  "tag": "170x128"
+                }
+              ]
+            },
+            "provider": {
+              "displayName": "Simply Wall St.",
+              "url": "https://simplywall.st/"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/revolve-group-rvlv-assessing-valuation-121109207.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/revolve-group-rvlv-assessing-valuation-121109207.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        },
+        {
+          "id": "55dffe39-9cd8-3ead-ad0f-2982ad941feb",
+          "content": {
+            "id": "55dffe39-9cd8-3ead-ad0f-2982ad941feb",
+            "contentType": "STORY",
+            "title": "Why Are Revolve (RVLV) Shares Soaring Today",
+            "description": "",
+            "summary": "Shares of online fashion retailer Revolve (NASDAQ:RVLV) jumped 5.3% in the afternoon session after the company's luxury fashion division, FWRD, announced it was gaining market share and expanding its leadership globally. The positive development included the appointment of Rosie Huntington-Whiteley as Fashion Director. The announcement also highlighted FWRD's recent success, with third-quarter results showing the impact of its investments. These delivered a 37% year-over-year increase in gross p",
+            "pubDate": "2025-12-09T19:16:25Z",
+            "displayTime": "2025-12-09T19:16:25Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": {
+              "originalUrl": "https://media.zenfs.com/en/stockstory_922/2099117f4279e2f3e1585f4ca146e445",
+              "originalWidth": 1400,
+              "originalHeight": 700,
+              "caption": "RVLV Cover Image",
+              "resolutions": [
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/_jbUuifpLhputRjmc_5stA--~B/aD03MDA7dz0xNDAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/stockstory_922/2099117f4279e2f3e1585f4ca146e445",
+                  "width": 1400,
+                  "height": 700,
+                  "tag": "original"
+                },
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/E5oaOAHoai71TQl8zdpPFA--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/stockstory_922/2099117f4279e2f3e1585f4ca146e445",
+                  "width": 170,
+                  "height": 128,
+                  "tag": "170x128"
+                }
+              ]
+            },
+            "provider": {
+              "displayName": "StockStory",
+              "url": "https://stockstory.org/"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/why-revolve-rvlv-shares-soaring-191625158.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/why-revolve-rvlv-shares-soaring-191625158.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        },
+        {
+          "id": "f32f9b29-09fd-39d5-9608-427f269c8958",
+          "content": {
+            "id": "f32f9b29-09fd-39d5-9608-427f269c8958",
+            "contentType": "STORY",
+            "title": "5 Transport Stocks Are Spiking After Slumps. Analysts Debate Their Future.",
+            "description": "",
+            "summary": "Collectively, the 19 stocks in IBD's Transportation-Truck industry group gained 10% for the week.",
+            "pubDate": "2025-12-03T22:40:26Z",
+            "displayTime": "2025-12-03T22:40:26Z",
+            "isHosted": false,
+            "bypassModal": false,
+            "previewUrl": "https://finance.yahoo.com/m/f32f9b29-09fd-39d5-9608-427f269c8958/5-transport-stocks-are.html",
+            "thumbnail": {
+              "originalUrl": "https://media.zenfs.com/en/ibd.com/33a3b9e70f785f3645fd751e8a348e1b",
+              "originalWidth": 1000,
+              "originalHeight": 563,
+              "caption": "",
+              "resolutions": [
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/8_OoNNKQIP2PmQsBIvOvwA--~B/aD01NjM7dz0xMDAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/ibd.com/33a3b9e70f785f3645fd751e8a348e1b",
+                  "width": 1000,
+                  "height": 563,
+                  "tag": "original"
+                },
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/6.3j0dnzBrq8ouTNSbQhPA--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/ibd.com/33a3b9e70f785f3645fd751e8a348e1b",
+                  "width": 170,
+                  "height": 128,
+                  "tag": "170x128"
+                }
+              ]
+            },
+            "provider": {
+              "displayName": "Investor's Business Daily",
+              "url": "http://www.investors.com/"
+            },
+            "canonicalUrl": {
+              "url": "https://www.investors.com/news/trucking-shipping-stocks-saia-knight-swift-old-dominion-frieght-jb-hunt-forward-air/?src=A00220&yptr=yahoo",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": null,
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        },
+        {
+          "id": "24fe1e1b-dbe9-37c1-b9a3-0509a1560eef",
+          "content": {
+            "id": "24fe1e1b-dbe9-37c1-b9a3-0509a1560eef",
+            "contentType": "STORY",
+            "title": "Is Now The Time To Look At Buying Forward Air Corporation (NASDAQ:FWRD)?",
+            "description": "",
+            "summary": "Forward Air Corporation ( NASDAQ:FWRD ), is not the largest company out there, but it saw a double-digit share price...",
+            "pubDate": "2025-11-21T10:39:13Z",
+            "displayTime": "2025-11-21T10:39:13Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": {
+              "originalUrl": "https://media.zenfs.com/en/simply_wall_st__316/de08ce5a09ed74f962345d43f617cd22",
+              "originalWidth": 1194,
+              "originalHeight": 432,
+              "caption": "",
+              "resolutions": [
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/CGOxaHjnDUfozYQ8rIP9ZA--~B/aD00MzI7dz0xMTk0O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/simply_wall_st__316/de08ce5a09ed74f962345d43f617cd22",
+                  "width": 1194,
+                  "height": 432,
+                  "tag": "original"
+                },
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/7VgguWvPDxo4UyqNESZKrQ--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/simply_wall_st__316/de08ce5a09ed74f962345d43f617cd22",
+                  "width": 170,
+                  "height": 128,
+                  "tag": "170x128"
+                }
+              ]
+            },
+            "provider": {
+              "displayName": "Simply Wall St.",
+              "url": "https://simplywall.st/"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/now-time-look-buying-forward-103913445.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/now-time-look-buying-forward-103913445.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        },
+        {
+          "id": "3f7a4b97-e11b-3fe1-9449-ae28008f0bff",
+          "content": {
+            "id": "3f7a4b97-e11b-3fe1-9449-ae28008f0bff",
+            "contentType": "STORY",
+            "title": "Forward Air Corp (FWRD) Q3 2025 Earnings Call Highlights: Strategic Progress Amid Market Challenges",
+            "description": "",
+            "summary": "Forward Air Corp (FWRD) reports steady EBITDA and significant cash flow improvements, while navigating a challenging freight environment and ongoing strategic review.",
+            "pubDate": "2025-11-08T17:01:02Z",
+            "displayTime": "2025-11-08T17:01:02Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": null,
+            "provider": {
+              "displayName": "GuruFocus.com",
+              "url": "http://www.gurufocus.com/"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/forward-air-corp-fwrd-q3-170102369.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/forward-air-corp-fwrd-q3-170102369.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        },
+        {
+          "id": "d8e32513-de97-3ec3-863c-6ec8d83ac97d",
+          "content": {
+            "id": "d8e32513-de97-3ec3-863c-6ec8d83ac97d",
+            "contentType": "STORY",
+            "title": "Forward Air operating income drops nearly 34% in Q3",
+            "description": "",
+            "summary": "An \u201cOther Operations\u201d business area captured a loss of nearly $18.3 million.",
+            "pubDate": "2025-11-06T10:55:00Z",
+            "displayTime": "2025-11-06T10:55:00Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": {
+              "originalUrl": "https://media.zenfs.com/en/trucking_dive_703/19a9ecaa6d86a5dcaf91aaefa0c8a2ec",
+              "originalWidth": 1600,
+              "originalHeight": 900,
+              "caption": "A Forward Air reefer in North Carolina. The company bounced back from a massive net loss in Q2 2024 but still posted a net loss from continuing operations in Q2 2025.",
+              "resolutions": [
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/RbaHmBpFm1IehX6PWY1DFg--~B/aD05MDA7dz0xNjAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/trucking_dive_703/19a9ecaa6d86a5dcaf91aaefa0c8a2ec",
+                  "width": 1600,
+                  "height": 900,
+                  "tag": "original"
+                },
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/Rw2RmcCVvtkjxRvYcDSe1g--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/trucking_dive_703/19a9ecaa6d86a5dcaf91aaefa0c8a2ec",
+                  "width": 170,
+                  "height": 128,
+                  "tag": "170x128"
+                }
+              ]
+            },
+            "provider": {
+              "displayName": "Trucking Dive",
+              "url": "https://www.truckingdive.com/"
+            },
+            "canonicalUrl": {
+              "url": "https://www.truckingdive.com/news/forward-air-q3-2025-operating-income-decline/804824/",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/forward-air-operating-income-drops-105500624.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        },
+        {
+          "id": "d7489cea-b167-3e61-8f02-0247cfc4b800",
+          "content": {
+            "id": "d7489cea-b167-3e61-8f02-0247cfc4b800",
+            "contentType": "STORY",
+            "title": "New Strong Sell Stocks for Nov. 6",
+            "description": "",
+            "summary": "ACHC, FWRD and CENX have been added to the Zacks Rank #5 (Strong Sell) List on Nov. 6, 2025.",
+            "pubDate": "2025-11-06T10:30:00Z",
+            "displayTime": "2025-11-06T10:30:00Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": {
+              "originalUrl": "https://media.zenfs.com/en/zacks.com/3ecb7b8f4826ee26a884371aa5efe958",
+              "originalWidth": 635,
+              "originalHeight": 400,
+              "caption": "",
+              "resolutions": [
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/OqpBwYnlazUrZRs4ONCSFw--~B/aD00MDA7dz02MzU7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/zacks.com/3ecb7b8f4826ee26a884371aa5efe958",
+                  "width": 635,
+                  "height": 400,
+                  "tag": "original"
+                },
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/p33zGLNA_LABn94g9HmqHQ--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/zacks.com/3ecb7b8f4826ee26a884371aa5efe958",
+                  "width": 170,
+                  "height": 128,
+                  "tag": "170x128"
+                }
+              ]
+            },
+            "provider": {
+              "displayName": "Zacks",
+              "url": "http://www.zacks.com/"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/strong-sell-stocks-nov-6-103000491.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/strong-sell-stocks-nov-6-103000491.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        },
+        {
+          "id": "e20a034f-db8d-3b4d-9584-c2215f766268",
+          "content": {
+            "id": "e20a034f-db8d-3b4d-9584-c2215f766268",
+            "contentType": "STORY",
+            "title": "Forward Air (FWRD) Q3 2025 Earnings Transcript",
+            "description": "",
+            "summary": "By now, you should have received the press release announcing Forward Air Corporation's third quarter 2025 results, which was also furnished to the SEC on Form 8-K. We have also furnished a slide presentation outlining third quarter 2025 earnings highlights and a business update.  Both the press release and slide presentation for this call are accessible on the Investor Relations section of Forward Air Corporation's website at forwardair.com.  Please be aware that certain statements in the company's earnings release announcement and on this conference call are forward-looking statements.",
+            "pubDate": "2025-11-06T01:14:34Z",
+            "displayTime": "2025-11-06T01:14:34Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": {
+              "originalUrl": "https://media.zenfs.com/en/motleyfool.com/e48e86dda35543079ee2080fd9208b73",
+              "originalWidth": 400,
+              "originalHeight": 427,
+              "caption": "Logo of jester cap with thought bubble.",
+              "resolutions": [
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/AgPxjmk.l0_x4qaFILkqiQ--~B/aD00Mjc7dz00MDA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/motleyfool.com/e48e86dda35543079ee2080fd9208b73",
+                  "width": 400,
+                  "height": 427,
+                  "tag": "original"
+                },
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/GLLDkBGnPusEHUUPHMcY8g--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/motleyfool.com/e48e86dda35543079ee2080fd9208b73",
+                  "width": 170,
+                  "height": 128,
+                  "tag": "170x128"
+                }
+              ]
+            },
+            "provider": {
+              "displayName": "Motley Fool",
+              "url": "http://www.fool.com/"
+            },
+            "canonicalUrl": {
+              "url": "https://www.fool.com/earnings/call-transcripts/2025/11/06/forward-air-fwrd-q3-2025-earnings-transcript/",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/forward-air-fwrd-q3-2025-011434316.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        }
+      ]
+    },
+    "recommendations": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  },
+  "holders_data": {
+    "major_holders": {
+      "status": "error"
+    },
+    "institutional_holders": {
+      "status": "error"
+    }
+  },
+  "earnings_data": {
+    "earnings": {
+      "status": "error",
+      "message": "'NoneType' object has no attribute 'empty'"
+    },
+    "calendar": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  }
+}

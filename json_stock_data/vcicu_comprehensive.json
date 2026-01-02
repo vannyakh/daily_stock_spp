@@ -1,89 +1,362 @@
 {
   "ticker": "VCICU",
-  "timestamp": "2026-01-01T05:13:30.195971",
+  "timestamp": "2026-01-02T04:57:26.094973",
   "intraday_data": {
-    "status": "success",
-    "rows": 9,
-    "data": [
-      {
-        "Close VCICW": 1.6299999952316284,
-        "High VCICW": 1.6299999952316284,
-        "Low VCICW": 1.6200000047683716,
-        "Open VCICW": 1.6200000047683716,
-        "Volume VCICW": 0
-      },
-      {
-        "Close VCICW": 1.5800000429153442,
-        "High VCICW": 1.5800000429153442,
-        "Low VCICW": 1.5499999523162842,
-        "Open VCICW": 1.5499999523162842,
-        "Volume VCICW": 2370
-      },
-      {
-        "Close VCICW": 1.5499999523162842,
-        "High VCICW": 1.5499999523162842,
-        "Low VCICW": 1.5499999523162842,
-        "Open VCICW": 1.5499999523162842,
-        "Volume VCICW": 2379
-      },
-      {
-        "Close VCICW": 1.4800000190734863,
-        "High VCICW": 1.4800000190734863,
-        "Low VCICW": 1.4700000286102295,
-        "Open VCICW": 1.4800000190734863,
-        "Volume VCICW": 1656
-      },
-      {
-        "Close VCICW": 1.5700000524520874,
-        "High VCICW": 1.5700000524520874,
-        "Low VCICW": 1.5700000524520874,
-        "Open VCICW": 1.5700000524520874,
-        "Volume VCICW": 3094
-      },
-      {
-        "Close VCICW": 1.75,
-        "High VCICW": 1.75,
-        "Low VCICW": 1.75,
-        "Open VCICW": 1.75,
-        "Volume VCICW": 146
-      },
-      {
-        "Close VCICW": 1.7300000190734863,
-        "High VCICW": 1.7300000190734863,
-        "Low VCICW": 1.7300000190734863,
-        "Open VCICW": 1.7300000190734863,
-        "Volume VCICW": 385
-      },
-      {
-        "Close VCICW": 1.7200000286102295,
-        "High VCICW": 1.7200000286102295,
-        "Low VCICW": 1.7200000286102295,
-        "Open VCICW": 1.7200000286102295,
-        "Volume VCICW": 1100
-      },
-      {
-        "Close VCICW": 1.7999999523162842,
-        "High VCICW": 1.850000023841858,
-        "Low VCICW": 1.7999999523162842,
-        "Open VCICW": 1.850000023841858,
-        "Volume VCICW": 2319
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
-    "message": "argument of type 'NoneType' is not iterable"
+    "message": "Too Many Requests. Rate limited. Try after a while."
   },
   "financials": {
     "income_statement": {
       "status": "no_data"
     },
     "balance_sheet": {
+      "status": "no_data"
+    },
+    "cash_flow": {
+      "status": "no_data"
+    }
+  },
+  "options_data": {
+    "status": "error",
+    "error_message": "Too Many Requests. Rate limited. Try after a while."
+  },
+  "news_data": {
+    "news": {
       "status": "success",
-      "rows": 32,
-      "columns": [
-        "2024-12-31 00:00:00"
-      ],
+      "count": 5,
       "data": [
         {
-          
+          "id": "8356aaef-2390-3eae-8f31-4f0e63d3b17e",
+          "content": {
+            "id": "8356aaef-2390-3eae-8f31-4f0e63d3b17e",
+            "contentType": "STORY",
+            "title": "European Crypto Giant CoinShares Plans US Market Entry with $1.2B Merger",
+            "description": "",
+            "summary": "CoinShares International Limited announced on September 8 its entry into a definitive business combination agreement with Vine Hill Capital Investment Corp., a special purpose acquisition company, that will result in the European asset manager listing on the Nasdaq Stock Market in the United States. The transaction values CoinShares at $1.2 ...",
+            "pubDate": "2025-09-08T20:12:32Z",
+            "displayTime": "2025-09-08T20:12:32Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": {
+              "originalUrl": "https://media.zenfs.com/en/coinspeaker_us_106/f4cee35307492905308bfe6075f01a63",
+              "originalWidth": 768,
+              "originalHeight": 431,
+              "caption": "",
+              "resolutions": [
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/QZ4PR_RJTYUxDmlSMjC.Kg--~B/aD00MzE7dz03Njg7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/coinspeaker_us_106/f4cee35307492905308bfe6075f01a63",
+                  "width": 768,
+                  "height": 431,
+                  "tag": "original"
+                },
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/TzB5Ilj.7sPgDdcUCFKGKA--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/coinspeaker_us_106/f4cee35307492905308bfe6075f01a63",
+                  "width": 170,
+                  "height": 128,
+                  "tag": "170x128"
+                }
+              ]
+            },
+            "provider": {
+              "displayName": "Coinspeaker",
+              "url": "https://www.coinspeaker.com/"
+            },
+            "canonicalUrl": {
+              "url": "https://www.coinspeaker.com/european-crypto-giant-coinshares-plans-us-market-entry-with-1-2b-merger/",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/european-crypto-giant-coinshares-plans-201232515.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        },
+        {
+          "id": "3731a36f-3043-3f8b-8f5d-d7dad643cf55",
+          "content": {
+            "id": "3731a36f-3043-3f8b-8f5d-d7dad643cf55",
+            "contentType": "STORY",
+            "title": "CoinShares Targets U.S. Scale via $1.2B SPAC \u2013 Nasdaq Debut in Sight",
+            "description": "",
+            "summary": "Europe\u2019s largest digital asset investment firm, CoinShares International Limited, announced a landmark move to list on the Nasdaq Stock Market in the United States through a $1.2 billion merger with Vine Hill Capital Investment Corp. BIG NEWS: CoinShares \u2192 NASDAQ USWe're going public in the U.S. via business combination with ...",
+            "pubDate": "2025-09-08T19:53:23Z",
+            "displayTime": "2025-09-08T19:53:23Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": {
+              "originalUrl": "https://media.zenfs.com/en/cryptonews_us_711/acd1010b53a9c1404165c6703dc12d4a",
+              "originalWidth": 1024,
+              "originalHeight": 574,
+              "caption": "",
+              "resolutions": [
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/4P7pCsiGy.zTOVPdmkVCxQ--~B/aD01NzQ7dz0xMDI0O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/cryptonews_us_711/acd1010b53a9c1404165c6703dc12d4a",
+                  "width": 1024,
+                  "height": 574,
+                  "tag": "original"
+                },
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/ookQpzEnPzMBvfImv3ZeYw--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/cryptonews_us_711/acd1010b53a9c1404165c6703dc12d4a",
+                  "width": 170,
+                  "height": 128,
+                  "tag": "170x128"
+                }
+              ]
+            },
+            "provider": {
+              "displayName": "Cryptonews",
+              "url": "https://cryptonews.com/"
+            },
+            "canonicalUrl": {
+              "url": "https://cryptonews.com/news/coinshares-to-go-public-on-nasdaq-in-1-2b-spac-merger-managing-10b-in-assets/",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/coinshares-targets-u-scale-via-195323122.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        },
+        {
+          "id": "64512c1e-8641-3d8d-95bd-fc320dfabd24",
+          "content": {
+            "id": "64512c1e-8641-3d8d-95bd-fc320dfabd24",
+            "contentType": "STORY",
+            "title": "Crypto Asset Manager CoinShares to Trade on Nasdaq in $1.2 Billion SPAC Deal",
+            "description": "",
+            "summary": "CoinShares will list on the Nasdaq as the latest crypto company to make the move to go public in the United States.",
+            "pubDate": "2025-09-08T16:46:09Z",
+            "displayTime": "2025-09-08T16:46:09Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": {
+              "originalUrl": "https://media.zenfs.com/en/decrypt_157/372fe74641d3888553a7f467f91f9e4f",
+              "originalWidth": 1280,
+              "originalHeight": 720,
+              "caption": "",
+              "resolutions": [
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/W4vDMo_yYpHvHIAjz5eFCw--~B/aD03MjA7dz0xMjgwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/decrypt_157/372fe74641d3888553a7f467f91f9e4f",
+                  "width": 1280,
+                  "height": 720,
+                  "tag": "original"
+                },
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/0d2272KxXf1t9PoyMfNFDQ--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/decrypt_157/372fe74641d3888553a7f467f91f9e4f",
+                  "width": 170,
+                  "height": 128,
+                  "tag": "170x128"
+                }
+              ]
+            },
+            "provider": {
+              "displayName": "decrypt",
+              "url": "https://decrypt.co/"
+            },
+            "canonicalUrl": {
+              "url": "https://decrypt.co/338477/crypto-asset-manager-coinshares-trade-nasdaq-1-2-billion-spac-deal",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/crypto-asset-manager-coinshares-trade-164609911.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        },
+        {
+          "id": "ae6e532f-1cd9-304c-89fe-3e4f8f496901",
+          "content": {
+            "id": "ae6e532f-1cd9-304c-89fe-3e4f8f496901",
+            "contentType": "STORY",
+            "title": "CoinShares to Go Public in U.S. Through $1.2B SPAC Deal With Vine Hill",
+            "description": "",
+            "summary": "Europe\u2019s largest digital asset manager by market share will shift its listing from Sweden to Nasdaq.",
+            "pubDate": "2025-09-08T12:34:45Z",
+            "displayTime": "2025-09-08T12:34:45Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": {
+              "originalUrl": "https://media.zenfs.com/en/coindesk_75/38b5a1cf3de022200d660ef58540ff9b",
+              "originalWidth": 1440,
+              "originalHeight": 1080,
+              "caption": "",
+              "resolutions": [
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/L8OMr8ymIYHQ1ETFrapvFA--~B/aD0xMDgwO3c9MTQ0MDthcHBpZD15dGFjaHlvbg--/https://media.zenfs.com/en/coindesk_75/38b5a1cf3de022200d660ef58540ff9b",
+                  "width": 1440,
+                  "height": 1080,
+                  "tag": "original"
+                },
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/Zy3B5jaVsWJQUU_0Ziaplg--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/coindesk_75/38b5a1cf3de022200d660ef58540ff9b",
+                  "width": 170,
+                  "height": 128,
+                  "tag": "170x128"
+                }
+              ]
+            },
+            "provider": {
+              "displayName": "CoinDesk",
+              "url": "https://www.coindesk.com"
+            },
+            "canonicalUrl": {
+              "url": "https://www.coindesk.com/business/2025/09/08/coinshares-to-go-public-in-u-s-through-usd1-2b-spac-deal-with-vine-hill",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/coinshares-public-u-1-2b-123445935.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        },
+        {
+          "id": "20a4b62f-48ad-384e-a143-66dde2a4833e",
+          "content": {
+            "id": "20a4b62f-48ad-384e-a143-66dde2a4833e",
+            "contentType": "STORY",
+            "title": "Save the Date: 5th Palm Beach CorpGov Forum Nov 5-6",
+            "description": "",
+            "summary": "CorpGov, IPO Edge and PE Edge will host the fifth annual Palm Beach CorpGov Forum on Wednesday, Nov. 5 and Thursday, Nov, 6, 2025, at the Palm Beach Lake Pavilion, located waterfront [\u2026]",
+            "pubDate": "2025-08-04T20:04:22Z",
+            "displayTime": "2025-08-04T20:04:22Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": {
+              "originalUrl": "https://media.zenfs.com/it/ipo_edge_com_346/315161a06cf103c6cf569cebf78017cb",
+              "originalWidth": 1200,
+              "originalHeight": 800,
+              "caption": "",
+              "resolutions": [
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/D1wrT4vHi3jEXOqJQ0gPfg--~B/aD04MDA7dz0xMjAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/it/ipo_edge_com_346/315161a06cf103c6cf569cebf78017cb",
+                  "width": 1200,
+                  "height": 800,
+                  "tag": "original"
+                },
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/Jl9kW63Nznt1V2cQl5W6gQ--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/it/ipo_edge_com_346/315161a06cf103c6cf569cebf78017cb",
+                  "width": 170,
+                  "height": 128,
+                  "tag": "170x128"
+                }
+              ]
+            },
+            "provider": {
+              "displayName": "IPO-Edge.com",
+              "url": "http://ipo-edge.com/"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/save-date-5th-palm-beach-200422161.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/save-date-5th-palm-beach-200422161.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        }
+      ]
+    },
+    "recommendations": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  },
+  "holders_data": {
+    "major_holders": {
+      "status": "error"
+    },
+    "institutional_holders": {
+      "status": "error"
+    }
+  },
+  "earnings_data": {
+    "earnings": {
+      "status": "error",
+      "message": "'NoneType' object has no attribute 'empty'"
+    },
+    "calendar": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  }
+}
