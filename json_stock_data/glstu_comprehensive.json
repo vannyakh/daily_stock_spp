@@ -1,13 +1,91 @@
 {
   "ticker": "GLSTU",
-  "timestamp": "2026-01-02T04:57:17.638532",
+  "timestamp": "2026-01-03T05:34:31.313658",
   "intraday_data": {
     "status": "no_data",
     "message": "No intraday data available"
   },
   "stock_info": {
-    "status": "error",
-    "message": "Too Many Requests. Rate limited. Try after a while."
+    "status": "success",
+    "data": {
+      "address1": "1641 International Drive",
+      "address2": "Unit 208",
+      "city": "McLean",
+      "state": "VA",
+      "zip": "22102",
+      "country": "United States",
+      "phone": "703 790 0717",
+      "website": "https://www.globalstarspac.com",
+      "industry": "Shell Companies",
+      "industryKey": "shell-companies",
+      "industryDisp": "Shell Companies",
+      "sector": "Financial Services",
+      "sectorKey": "financial-services",
+      "sectorDisp": "Financial Services",
+      "longBusinessSummary": "As of May 13, 2025, Global Star Acquisition, Inc. was acquired by K Enter Holdings Inc, in a reverse merger transaction. Global Star Acquisition, Inc. does not have significant operations. It focuses on effecting a merger, capital stock exchange, asset acquisition, stock purchase, reorganization, or similar business combination with one or more businesses. The company was incorporated in 2019 and is based in McLean, Virginia. Global Star Acquisition, Inc. is a subsidiary of Global Star Acquisition 1 LLC.",
+      "maxAge": 86400,
+      "priceHint": 2,
+      "previousClose": 3.01,
+      "regularMarketPreviousClose": 3.01,
+      "beta": -0.276,
+      "currency": "USD",
+      "tradeable": false,
+      "enterpriseValue": 16749637,
+      "profitMargins": 0.0,
+      "floatShares": 155390,
+      "sharesShort": 5498,
+      "sharesShortPriorMonth": 494,
+      "sharesShortPreviousMonthDate": 1738281600,
+      "dateShortInterest": 1740700800,
+      "heldPercentInsiders": 0.0,
+      "heldPercentInstitutions": 0.00018999999,
+      "shortRatio": 0.52,
+      "lastFiscalYearEnd": 1735603200,
+      "nextFiscalYearEnd": 1767139200,
+      "mostRecentQuarter": 1735603200,
+      "netIncomeToCommon": -768551,
+      "SandP52WeekChange": 0.14561749,
+      "quoteType": "EQUITY",
+      "currentPrice": 6.5,
+      "recommendationKey": "none",
+      "totalCash": 510939,
+      "totalCashPerShare": 0.173,
+      "totalDebt": 2344755,
+      "quickRatio": 0.093,
+      "currentRatio": 0.094,
+      "returnOnAssets": -0.04204,
+      "freeCashflow": -133937,
+      "operatingCashflow": -1813123,
+      "grossMargins": 0.0,
+      "ebitdaMargins": 0.0,
+      "operatingMargins": 0.0,
+      "financialCurrency": "USD",
+      "symbol": "GLSTU",
+      "language": "en-US",
+      "region": "US",
+      "typeDisp": "Equity",
+      "quoteSourceName": "Delayed Quote",
+      "triggerable": true,
+      "customPriceAlertConfidence": "HIGH",
+      "shortName": "Global Star Acquisition, Inc.",
+      "regularMarketTime": 1764104400,
+      "exchange": "NGM",
+      "exchangeTimezoneName": "America/New_York",
+      "exchangeTimezoneShortName": "EST",
+      "gmtOffSetMilliseconds": -18000000,
+      "market": "us_market",
+      "esgPopulated": false,
+      "hasPrePostMarketData": true,
+      "regularMarketChangePercent": 115.94684,
+      "regularMarketPrice": 6.5,
+      "sourceInterval": 15,
+      "exchangeDataDelayedBy": 0,
+      "cryptoTradeable": false,
+      "marketState": "CLOSED",
+      "regularMarketChange": 3.49,
+      "fullExchangeName": "NasdaqGM",
+      "displayName": "Global Star"
+    }
   },
   "financials": {
     "income_statement": {
@@ -21,24 +99,36 @@
     }
   },
   "options_data": {
-    "status": "error",
-    "error_message": "Too Many Requests. Rate limited. Try after a while."
+    "expirations": []
   },
   "news_data": {
     "news": {
       "status": "no_data"
     },
     "recommendations": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
+      "status": "no_data"
     }
   },
   "holders_data": {
     "major_holders": {
-      "status": "error"
+      "status": "success",
+      "data": [
+        {
+          "Value": 0.0
+        },
+        {
+          "Value": 0.00018999999
+        },
+        {
+          "Value": 0.00018999999
+        },
+        {
+          "Value": 1.0
+        }
+      ]
     },
     "institutional_holders": {
-      "status": "error"
+      "status": "no_data"
     }
   },
   "earnings_data": {
@@ -48,7 +138,7 @@
     },
     "calendar": {
       "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
+      "message": "'dict' object has no attribute 'empty'"
     }
   }
 }

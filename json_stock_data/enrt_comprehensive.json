@@ -1,25 +1,9 @@
 {
   "ticker": "ENRT",
-  "timestamp": "2026-01-02T04:51:53.664133",
+  "timestamp": "2026-01-03T05:20:11.562165",
   "intraday_data": {
-    "status": "success",
-    "rows": 2,
-    "data": [
-      {
-        "Close": 0.08500000089406967,
-        "High": 0.08500000089406967,
-        "Low": 0.08500000089406967,
-        "Open": 0.08500000089406967,
-        "Volume": 0
-      },
-      {
-        "Close": 0.0835999995470047,
-        "High": 0.0835999995470047,
-        "Low": 0.0835999995470047,
-        "Open": 0.0835999995470047,
-        "Volume": 0
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -45,16 +29,29 @@
       "status": "no_data"
     },
     "recommendations": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
+      "status": "no_data"
     }
   },
   "holders_data": {
     "major_holders": {
-      "status": "error"
+      "status": "success",
+      "data": [
+        {
+          "Value": 0.15816
+        },
+        {
+          "Value": 0.0
+        },
+        {
+          "Value": 0.0
+        },
+        {
+          "Value": 0.0
+        }
+      ]
     },
     "institutional_holders": {
-      "status": "error"
+      "status": "no_data"
     }
   },
   "earnings_data": {
@@ -64,7 +61,7 @@
     },
     "calendar": {
       "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
+      "message": "'dict' object has no attribute 'empty'"
     }
   }
 }

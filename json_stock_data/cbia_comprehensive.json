@@ -1,13 +1,113 @@
 {
   "ticker": "CBIA",
-  "timestamp": "2026-01-02T04:52:15.421191",
+  "timestamp": "2026-01-03T05:21:30.847724",
   "intraday_data": {
     "status": "no_data",
     "message": "No intraday data available"
   },
   "stock_info": {
-    "status": "error",
-    "message": "Too Many Requests. Rate limited. Try after a while."
+    "status": "success",
+    "data": {
+      "address1": "304 South Jones Boulevard",
+      "address2": "Unit 8925",
+      "city": "Las Vegas",
+      "state": "NV",
+      "zip": "89107",
+      "country": "United States",
+      "industry": "Advertising Agencies",
+      "industryKey": "advertising-agencies",
+      "industryDisp": "Advertising Agencies",
+      "sector": "Communication Services",
+      "sectorKey": "communication-services",
+      "sectorDisp": "Communication Services",
+      "longBusinessSummary": "Blue Heaven Coffee, Inc provides retail and digital advertising solutions. The company is based in Las Vegas, Nevada.",
+      "maxAge": 86400,
+      "priceHint": 4,
+      "previousClose": 0.0001,
+      "open": 0.0001,
+      "dayLow": 0.0001,
+      "dayHigh": 0.0001,
+      "regularMarketPreviousClose": 0.0001,
+      "regularMarketOpen": 0.0001,
+      "regularMarketDayLow": 0.0001,
+      "regularMarketDayHigh": 0.0001,
+      "volume": 5140999,
+      "regularMarketVolume": 5140999,
+      "averageVolume": 0,
+      "averageVolume10days": 0,
+      "averageDailyVolume10Day": 0,
+      "bid": 0.0001,
+      "ask": 0.0001,
+      "bidSize": 0,
+      "askSize": 0,
+      "marketCap": 278772,
+      "fiftyTwoWeekLow": 1e-05,
+      "fiftyTwoWeekHigh": 0.0002,
+      "allTimeHigh": 4124.9795,
+      "allTimeLow": 1e-05,
+      "fiftyDayAverage": 0.0001,
+      "twoHundredDayAverage": 9.775e-05,
+      "trailingAnnualDividendRate": 0.0,
+      "trailingAnnualDividendYield": 0.0,
+      "currency": "USD",
+      "tradeable": false,
+      "profitMargins": 0.0,
+      "sharesOutstanding": 2787726572,
+      "heldPercentInsiders": 0.65521,
+      "heldPercentInstitutions": 0.0,
+      "impliedSharesOutstanding": 2787726572,
+      "lastSplitFactor": "1:15",
+      "lastSplitDate": 1184544000,
+      "52WeekChange": 0.0,
+      "SandP52WeekChange": 0.14561749,
+      "quoteType": "EQUITY",
+      "currentPrice": 0.0001,
+      "recommendationKey": "none",
+      "grossMargins": 0.0,
+      "ebitdaMargins": 0.0,
+      "operatingMargins": 0.0,
+      "symbol": "CBIA",
+      "language": "en-US",
+      "region": "US",
+      "typeDisp": "Equity",
+      "quoteSourceName": "Delayed Quote",
+      "triggerable": false,
+      "customPriceAlertConfidence": "LOW",
+      "shortName": "Canopus Biopharma, Inc.",
+      "longName": "Blue Heaven Coffee, Inc",
+      "regularMarketChangePercent": 0.0,
+      "regularMarketPrice": 0.0001,
+      "marketState": "CLOSED",
+      "fiftyDayAverageChange": 0.0,
+      "fiftyDayAverageChangePercent": 0.0,
+      "twoHundredDayAverageChange": 2.2499953e-06,
+      "twoHundredDayAverageChangePercent": 0.023017853,
+      "sourceInterval": 15,
+      "exchangeDataDelayedBy": 0,
+      "prevName": "Canopus BioPharma Incorporated",
+      "nameChangeDate": "2026-01-02",
+      "cryptoTradeable": false,
+      "regularMarketTime": 1767387600,
+      "exchange": "PNK",
+      "messageBoardId": "finmb_34971903",
+      "exchangeTimezoneName": "America/New_York",
+      "exchangeTimezoneShortName": "EST",
+      "gmtOffSetMilliseconds": -18000000,
+      "market": "us_market",
+      "esgPopulated": false,
+      "hasPrePostMarketData": false,
+      "firstTradeDateMilliseconds": 946650600000,
+      "regularMarketChange": 0.0,
+      "regularMarketDayRange": "1.0E-4 - 1.0E-4",
+      "fullExchangeName": "OTC Markets OTCPK",
+      "averageDailyVolume3Month": 0,
+      "fiftyTwoWeekLowChange": 9e-05,
+      "fiftyTwoWeekLowChangePercent": 9.0,
+      "fiftyTwoWeekRange": "1.0E-5 - 2.0E-4",
+      "fiftyTwoWeekHighChange": -0.0001,
+      "fiftyTwoWeekHighChangePercent": -0.5,
+      "fiftyTwoWeekChangePercent": 0.0
+    }
   },
   "financials": {
     "income_statement": {
@@ -21,24 +121,46 @@
     }
   },
   "options_data": {
-    "status": "error",
-    "error_message": "Too Many Requests. Rate limited. Try after a while."
+    "expirations": []
   },
   "news_data": {
     "news": {
       "status": "no_data"
     },
     "recommendations": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
+      "status": "no_data"
     }
   },
   "holders_data": {
     "major_holders": {
-      "status": "error"
+      "status": "success",
+      "data": [
+        {
+          "Value": 0.65521
+        },
+        {
+          "Value": 0.0
+        },
+        {
+          "Value": 0.0
+        },
+        {
+          "Value": 0.0
+        }
+      ]
     },
     "institutional_holders": {
-      "status": "error"
+      "status": "success",
+      "data": [
+        {
+          "Date Reported": "2022-09-30 00:00:00",
+          "Holder": "Hollencrest Capital Management",
+          "pctHeld": 0.00059999997,
+          "Shares": 80000,
+          "Value": 7,
+          "pctChange": 0.0
+        }
+      ]
     }
   },
   "earnings_data": {
@@ -48,7 +170,7 @@
     },
     "calendar": {
       "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
+      "message": "'dict' object has no attribute 'empty'"
     }
   }
 }

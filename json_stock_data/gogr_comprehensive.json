@@ -1,18 +1,9 @@
 {
   "ticker": "GOGR",
-  "timestamp": "2026-01-02T04:50:17.854459",
+  "timestamp": "2026-01-03T05:16:17.218336",
   "intraday_data": {
-    "status": "success",
-    "rows": 1,
-    "data": [
-      {
-        "Close MCUJF": 0.7997000217437744,
-        "High MCUJF": 0.7997000217437744,
-        "Low MCUJF": 0.7997000217437744,
-        "Open MCUJF": 0.7997000217437744,
-        "Volume MCUJF": 0
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -38,7 +29,8 @@
       "status": "no_data"
     },
     "recommendations": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   },
   "holders_data": {

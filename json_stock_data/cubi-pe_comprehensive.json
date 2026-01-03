@@ -1,13 +1,76 @@
 {
   "ticker": "CUBI-PE",
-  "timestamp": "2026-01-02T04:55:06.503315",
+  "timestamp": "2026-01-03T05:28:48.965611",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 7,
+    "data": [
+      {
+        "Close MITT-PA": 23.010000228881836,
+        "High MITT-PA": 23.010000228881836,
+        "Low MITT-PA": 23.010000228881836,
+        "Open MITT-PA": 23.010000228881836,
+        "Volume MITT-PA": 0
+      },
+      {
+        "Close MITT-PA": 22.649999618530273,
+        "High MITT-PA": 22.760000228881836,
+        "Low MITT-PA": 22.649999618530273,
+        "Open MITT-PA": 22.760000228881836,
+        "Volume MITT-PA": 2999
+      },
+      {
+        "Close MITT-PA": 22.81999969482422,
+        "High MITT-PA": 22.81999969482422,
+        "Low MITT-PA": 22.790000915527344,
+        "Open MITT-PA": 22.790000915527344,
+        "Volume MITT-PA": 400
+      },
+      {
+        "Close MITT-PA": 22.760000228881836,
+        "High MITT-PA": 22.760000228881836,
+        "Low MITT-PA": 22.760000228881836,
+        "Open MITT-PA": 22.760000228881836,
+        "Volume MITT-PA": 100
+      },
+      {
+        "Close MITT-PA": 22.780000686645508,
+        "High MITT-PA": 22.799999237060547,
+        "Low MITT-PA": 22.780000686645508,
+        "Open MITT-PA": 22.799999237060547,
+        "Volume MITT-PA": 400
+      },
+      {
+        "Close MITT-PA": 22.760000228881836,
+        "High MITT-PA": 22.799999237060547,
+        "Low MITT-PA": 22.760000228881836,
+        "Open MITT-PA": 22.799999237060547,
+        "Volume MITT-PA": 630
+      },
+      {
+        "Close MITT-PA": 22.850000381469727,
+        "High MITT-PA": 22.850000381469727,
+        "Low MITT-PA": 22.850000381469727,
+        "Open MITT-PA": 22.850000381469727,
+        "Volume MITT-PA": 200
+      }
+    ]
   },
   "stock_info": {
-    "status": "error",
-    "message": "Too Many Requests. Rate limited. Try after a while."
+    "status": "success",
+    "data": {
+      "quoteType": "NONE",
+      "symbol": "CUBI-PE",
+      "language": "en-US",
+      "region": "US",
+      "triggerable": false,
+      "customPriceAlertConfidence": "NONE",
+      "hasPrePostMarketData": false,
+      "financialCurrency": "USD",
+      "esgPopulated": false,
+      "tradeable": false,
+      "cryptoTradeable": false
+    }
   },
   "financials": {
     "income_statement": {
@@ -21,8 +84,7 @@
     }
   },
   "options_data": {
-    "status": "error",
-    "error_message": "Too Many Requests. Rate limited. Try after a while."
+    "expirations": []
   },
   "news_data": {
     "news": {
@@ -623,16 +685,15 @@
       ]
     },
     "recommendations": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
+      "status": "no_data"
     }
   },
   "holders_data": {
     "major_holders": {
-      "status": "error"
+      "status": "no_data"
     },
     "institutional_holders": {
-      "status": "error"
+      "status": "no_data"
     }
   },
   "earnings_data": {
@@ -642,7 +703,7 @@
     },
     "calendar": {
       "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
+      "message": "'dict' object has no attribute 'empty'"
     }
   }
 }

@@ -1,13 +1,13 @@
 {
   "ticker": "AMBI-WT",
-  "timestamp": "2026-01-02T04:57:16.946515",
+  "timestamp": "2026-01-03T05:34:28.943379",
   "intraday_data": {
     "status": "no_data",
     "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
-    "message": "argument of type 'NoneType' is not iterable"
+    "message": "Too Many Requests. Rate limited. Try after a while."
   },
   "financials": {
     "income_statement": {
@@ -21,7 +21,8 @@
     }
   },
   "options_data": {
-    "expirations": []
+    "status": "error",
+    "error_message": "Too Many Requests. Rate limited. Try after a while."
   },
   "news_data": {
     "news": {

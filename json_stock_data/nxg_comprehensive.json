@@ -1,110 +1,54 @@
 {
   "ticker": "NXG",
-  "timestamp": "2026-01-02T04:43:09.449337",
+  "timestamp": "2026-01-03T04:58:56.020874",
   "intraday_data": {
-    "status": "success",
-    "rows": 12,
-    "data": [
-      {
-        "Close YIBO": 1.0,
-        "High YIBO": 1.0,
-        "Low YIBO": 1.0,
-        "Open YIBO": 1.0,
-        "Volume YIBO": 105
-      },
-      {
-        "Close YIBO": 0.9700000286102295,
-        "High YIBO": 0.9700000286102295,
-        "Low YIBO": 0.9700000286102295,
-        "Open YIBO": 0.9700000286102295,
-        "Volume YIBO": 500
-      },
-      {
-        "Close YIBO": 0.9700000286102295,
-        "High YIBO": 0.9700000286102295,
-        "Low YIBO": 0.9700000286102295,
-        "Open YIBO": 0.9700000286102295,
-        "Volume YIBO": 65
-      },
-      {
-        "Close YIBO": 0.9700000286102295,
-        "High YIBO": 0.9700000286102295,
-        "Low YIBO": 0.9399999976158142,
-        "Open YIBO": 0.9399999976158142,
-        "Volume YIBO": 2305
-      },
-      {
-        "Close YIBO": 0.9685999751091003,
-        "High YIBO": 0.9685999751091003,
-        "Low YIBO": 0.9685999751091003,
-        "Open YIBO": 0.9685999751091003,
-        "Volume YIBO": 1700
-      },
-      {
-        "Close YIBO": 0.9401000142097473,
-        "High YIBO": 0.9700000286102295,
-        "Low YIBO": 0.9399999976158142,
-        "Open YIBO": 0.9700000286102295,
-        "Volume YIBO": 321
-      },
-      {
-        "Close YIBO": 0.9399999976158142,
-        "High YIBO": 0.949999988079071,
-        "Low YIBO": 0.9399999976158142,
-        "Open YIBO": 0.949999988079071,
-        "Volume YIBO": 2707
-      },
-      {
-        "Close YIBO": 0.949999988079071,
-        "High YIBO": 0.949999988079071,
-        "Low YIBO": 0.949999988079071,
-        "Open YIBO": 0.949999988079071,
-        "Volume YIBO": 152
-      },
-      {
-        "Close YIBO": 0.9700999855995178,
-        "High YIBO": 0.9700999855995178,
-        "Low YIBO": 0.9700999855995178,
-        "Open YIBO": 0.9700999855995178,
-        "Volume YIBO": 415
-      },
-      {
-        "Close YIBO": 0.9750000238418579,
-        "High YIBO": 0.9750000238418579,
-        "Low YIBO": 0.9750000238418579,
-        "Open YIBO": 0.9750000238418579,
-        "Volume YIBO": 295
-      },
-      {
-        "Close YIBO": 0.9750000238418579,
-        "High YIBO": 0.9750000238418579,
-        "Low YIBO": 0.9750000238418579,
-        "Open YIBO": 0.9750000238418579,
-        "Volume YIBO": 560
-      },
-      {
-        "Close YIBO": 0.9779000282287598,
-        "High YIBO": 0.9779000282287598,
-        "Low YIBO": 0.9779000282287598,
-        "Open YIBO": 0.9779000282287598,
-        "Volume YIBO": 1910
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
-    "message": "argument of type 'NoneType' is not iterable"
+    "message": "Too Many Requests. Rate limited. Try after a while."
   },
   "financials": {
     "income_statement": {
-      "status": "success",
-      "rows": 25,
-      "columns": [
-        "2024-11-30 00:00:00",
-        "2023-11-30 00:00:00",
-        "2022-11-30 00:00:00",
-        "2021-11-30 00:00:00"
-      ],
-      "data": [
-        {
-          
+      "status": "no_data"
+    },
+    "balance_sheet": {
+      "status": "no_data"
+    },
+    "cash_flow": {
+      "status": "no_data"
+    }
+  },
+  "options_data": {
+    "status": "error",
+    "error_message": "Too Many Requests. Rate limited. Try after a while."
+  },
+  "news_data": {
+    "news": {
+      "status": "no_data"
+    },
+    "recommendations": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  },
+  "holders_data": {
+    "major_holders": {
+      "status": "error"
+    },
+    "institutional_holders": {
+      "status": "error"
+    }
+  },
+  "earnings_data": {
+    "earnings": {
+      "status": "error",
+      "message": "'NoneType' object has no attribute 'empty'"
+    },
+    "calendar": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  }
+}

@@ -1,13 +1,84 @@
 {
   "ticker": "RWAYZ",
-  "timestamp": "2026-01-02T04:59:32.761780",
+  "timestamp": "2026-01-03T05:40:34.712807",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 0,
+    "data": []
   },
   "stock_info": {
-    "status": "error",
-    "message": "Too Many Requests. Rate limited. Try after a while."
+    "status": "success",
+    "data": {
+      "maxAge": 86400,
+      "priceHint": 2,
+      "previousClose": 25.24,
+      "open": 25.18,
+      "dayLow": 25.18,
+      "dayHigh": 25.3,
+      "regularMarketPreviousClose": 25.24,
+      "regularMarketOpen": 25.18,
+      "regularMarketDayLow": 25.18,
+      "regularMarketDayHigh": 25.3,
+      "volume": 4342,
+      "regularMarketVolume": 4342,
+      "averageVolume": 4059,
+      "averageVolume10days": 3520,
+      "averageDailyVolume10Day": 3520,
+      "bid": 25.1,
+      "ask": 0.0,
+      "bidSize": 1,
+      "askSize": 0,
+      "fiftyTwoWeekLow": 24.83,
+      "fiftyTwoWeekHigh": 25.64,
+      "allTimeHigh": 25.7,
+      "allTimeLow": 23.65,
+      "fiftyDayAverage": 25.29516,
+      "twoHundredDayAverage": 25.280294,
+      "currency": "USD",
+      "tradeable": false,
+      "quoteType": "EQUITY",
+      "symbol": "RWAYZ",
+      "language": "en-US",
+      "region": "US",
+      "typeDisp": "Equity",
+      "quoteSourceName": "Delayed Quote",
+      "triggerable": true,
+      "customPriceAlertConfidence": "HIGH",
+      "regularMarketChangePercent": 0.23732284,
+      "regularMarketPrice": 25.2999,
+      "marketState": "CLOSED",
+      "shortName": "Runway Growth Finance Corp. - 8",
+      "longName": "Runway Growth Finance Corp. 8.00% Notes due 2027",
+      "fiftyDayAverageChange": 0.0047397614,
+      "fiftyDayAverageChangePercent": 0.00018737819,
+      "twoHundredDayAverageChange": 0.019605637,
+      "twoHundredDayAverageChangePercent": 0.0007755304,
+      "sourceInterval": 15,
+      "exchangeDataDelayedBy": 0,
+      "ipoExpectedDate": "2022-12-08",
+      "cryptoTradeable": false,
+      "regularMarketTime": 1767387600,
+      "exchange": "NMS",
+      "messageBoardId": "finmb_1685062209",
+      "exchangeTimezoneName": "America/New_York",
+      "exchangeTimezoneShortName": "EST",
+      "gmtOffSetMilliseconds": -18000000,
+      "market": "us_market",
+      "esgPopulated": false,
+      "hasPrePostMarketData": true,
+      "firstTradeDateMilliseconds": 1670509800000,
+      "regularMarketChange": 0.059900284,
+      "regularMarketDayRange": "25.18 - 25.3",
+      "fullExchangeName": "NasdaqGS",
+      "averageDailyVolume3Month": 4059,
+      "fiftyTwoWeekLowChange": 0.46990013,
+      "fiftyTwoWeekLowChangePercent": 0.018924693,
+      "fiftyTwoWeekRange": "24.83 - 25.64",
+      "fiftyTwoWeekHighChange": -0.34009933,
+      "fiftyTwoWeekHighChangePercent": -0.013264405,
+      "fiftyTwoWeekChangePercent": 0.03963709,
+      "dividendDate": 1764547200
+    }
   },
   "financials": {
     "income_statement": {
@@ -21,25 +92,22 @@
     }
   },
   "options_data": {
-    "status": "error",
-    "error_message": "Too Many Requests. Rate limited. Try after a while."
+    "expirations": []
   },
   "news_data": {
     "news": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
+      "status": "no_data"
     },
     "recommendations": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
+      "status": "no_data"
     }
   },
   "holders_data": {
     "major_holders": {
-      "status": "error"
+      "status": "no_data"
     },
     "institutional_holders": {
-      "status": "error"
+      "status": "no_data"
     }
   },
   "earnings_data": {
@@ -49,7 +117,7 @@
     },
     "calendar": {
       "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
+      "message": "'dict' object has no attribute 'empty'"
     }
   }
 }

@@ -1,9 +1,25 @@
 {
   "ticker": "REOS",
-  "timestamp": "2026-01-02T04:51:37.762055",
+  "timestamp": "2026-01-03T05:19:22.391906",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 2,
+    "data": [
+      {
+        "Close ILST": 0.00019999999494757503,
+        "High ILST": 0.00019999999494757503,
+        "Low ILST": 0.00019999999494757503,
+        "Open ILST": 0.00019999999494757503,
+        "Volume ILST": 0
+      },
+      {
+        "Close ILST": 0.00019999999494757503,
+        "High ILST": 0.00019999999494757503,
+        "Low ILST": 0.00019999999494757503,
+        "Open ILST": 0.00019999999494757503,
+        "Volume ILST": 1000000
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -29,16 +45,15 @@
       "status": "no_data"
     },
     "recommendations": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
+      "status": "no_data"
     }
   },
   "holders_data": {
     "major_holders": {
-      "status": "error"
+      "status": "no_data"
     },
     "institutional_holders": {
-      "status": "error"
+      "status": "no_data"
     }
   },
   "earnings_data": {
@@ -48,7 +63,7 @@
     },
     "calendar": {
       "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
+      "message": "'dict' object has no attribute 'empty'"
     }
   }
 }

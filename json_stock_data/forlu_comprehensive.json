@@ -1,21 +1,25 @@
 {
   "ticker": "FORLU",
-  "timestamp": "2026-01-02T04:56:44.644829",
+  "timestamp": "2026-01-03T05:33:03.351825",
   "intraday_data": {
     "status": "no_data",
     "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
-    "message": "argument of type 'NoneType' is not iterable"
+    "message": "Too Many Requests. Rate limited. Try after a while."
   },
   "financials": {
     "income_statement": {
+      "status": "no_data"
+    },
+    "balance_sheet": {
       "status": "success",
-      "rows": 27,
+      "rows": 45,
       "columns": [
         "2024-12-31 00:00:00",
-        "2023-12-31 00:00:00"
+        "2023-12-31 00:00:00",
+        "2022-12-31 00:00:00"
       ],
       "data": [
         {

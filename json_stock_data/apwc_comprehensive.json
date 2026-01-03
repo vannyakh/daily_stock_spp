@@ -1,29 +1,13 @@
 {
   "ticker": "APWC",
-  "timestamp": "2026-01-02T04:47:27.842640",
+  "timestamp": "2026-01-03T05:09:17.785366",
   "intraday_data": {
-    "status": "success",
-    "rows": 2,
-    "data": [
-      {
-        "Close": 1.8300000429153442,
-        "High": 1.8300000429153442,
-        "Low": 1.8300000429153442,
-        "Open": 1.8300000429153442,
-        "Volume": 0
-      },
-      {
-        "Close": 1.86489999294281,
-        "High": 1.86489999294281,
-        "Low": 1.86489999294281,
-        "Open": 1.86489999294281,
-        "Volume": 500
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
-    "message": "argument of type 'NoneType' is not iterable"
+    "message": "Too Many Requests. Rate limited. Try after a while."
   },
   "financials": {
     "income_statement": {

@@ -1,9 +1,10 @@
 {
   "ticker": "ADN",
-  "timestamp": "2026-01-02T04:48:31.494228",
+  "timestamp": "2026-01-03T05:11:53.103053",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 0,
+    "data": []
   },
   "stock_info": {
     "status": "error",
@@ -29,16 +30,15 @@
       "status": "no_data"
     },
     "recommendations": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
+      "status": "no_data"
     }
   },
   "holders_data": {
     "major_holders": {
-      "status": "error"
+      "status": "no_data"
     },
     "institutional_holders": {
-      "status": "error"
+      "status": "no_data"
     }
   },
   "earnings_data": {
@@ -48,7 +48,7 @@
     },
     "calendar": {
       "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
+      "message": "'dict' object has no attribute 'empty'"
     }
   }
 }

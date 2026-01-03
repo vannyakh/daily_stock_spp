@@ -1,23 +1,9 @@
 {
   "ticker": "RAPH",
-  "timestamp": "2026-01-02T04:48:29.405623",
+  "timestamp": "2026-01-03T05:11:46.007570",
   "intraday_data": {
-    "status": "success",
-    "rows": 1,
-    "data": [
-      {
-        "Close": 1.399999976158142,
-        "Close ZEOX": 2.690000057220459,
-        "High": 1.399999976158142,
-        "High ZEOX": 2.690000057220459,
-        "Low": 1.399999976158142,
-        "Low ZEOX": 2.690000057220459,
-        "Open": 1.399999976158142,
-        "Open ZEOX": 2.690000057220459,
-        "Volume": 0.0,
-        "Volume ZEOX": 1.0
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -25,44 +11,14 @@
   },
   "financials": {
     "income_statement": {
-      "status": "no_data"
-    },
-    "balance_sheet": {
-      "status": "no_data"
-    },
-    "cash_flow": {
-      "status": "no_data"
-    }
-  },
-  "options_data": {
-    "status": "error",
-    "error_message": "Too Many Requests. Rate limited. Try after a while."
-  },
-  "news_data": {
-    "news": {
-      "status": "no_data"
-    },
-    "recommendations": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
-    }
-  },
-  "holders_data": {
-    "major_holders": {
-      "status": "error"
-    },
-    "institutional_holders": {
-      "status": "error"
-    }
-  },
-  "earnings_data": {
-    "earnings": {
-      "status": "error",
-      "message": "'NoneType' object has no attribute 'empty'"
-    },
-    "calendar": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
-    }
-  }
-}
+      "status": "success",
+      "rows": 39,
+      "columns": [
+        "2024-12-31 00:00:00",
+        "2023-12-31 00:00:00",
+        "2022-12-31 00:00:00",
+        "2021-12-31 00:00:00"
+      ],
+      "data": [
+        {
+          

@@ -1,18 +1,9 @@
 {
   "ticker": "IRET",
-  "timestamp": "2026-01-02T04:55:01.178916",
+  "timestamp": "2026-01-03T05:28:27.282140",
   "intraday_data": {
-    "status": "success",
-    "rows": 1,
-    "data": [
-      {
-        "Close": 18.934099197387695,
-        "High": 19.079999923706055,
-        "Low": 18.934099197387695,
-        "Open": 19.079999923706055,
-        "Volume": 0
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -30,8 +21,7 @@
     }
   },
   "options_data": {
-    "status": "error",
-    "error_message": "Too Many Requests. Rate limited. Try after a while."
+    "expirations": []
   },
   "news_data": {
     "news": {
@@ -44,10 +34,10 @@
   },
   "holders_data": {
     "major_holders": {
-      "status": "error"
+      "status": "no_data"
     },
     "institutional_holders": {
-      "status": "error"
+      "status": "no_data"
     }
   },
   "earnings_data": {

@@ -1,9 +1,18 @@
 {
   "ticker": "AREBW",
-  "timestamp": "2026-01-02T04:59:24.618072",
+  "timestamp": "2026-01-03T05:39:58.523690",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 1,
+    "data": [
+      {
+        "Close": 0.018200000748038292,
+        "High": 0.018200000748038292,
+        "Low": 0.018200000748038292,
+        "Open": 0.018200000748038292,
+        "Volume": 0
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -17,39 +26,14 @@
       "status": "no_data"
     },
     "cash_flow": {
-      "status": "no_data"
-    }
-  },
-  "options_data": {
-    "status": "error",
-    "error_message": "Too Many Requests. Rate limited. Try after a while."
-  },
-  "news_data": {
-    "news": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
-    },
-    "recommendations": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
-    }
-  },
-  "holders_data": {
-    "major_holders": {
-      "status": "error"
-    },
-    "institutional_holders": {
-      "status": "error"
-    }
-  },
-  "earnings_data": {
-    "earnings": {
-      "status": "error",
-      "message": "'NoneType' object has no attribute 'empty'"
-    },
-    "calendar": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
-    }
-  }
-}
+      "status": "success",
+      "rows": 54,
+      "columns": [
+        "2024-12-31 00:00:00",
+        "2023-12-31 00:00:00",
+        "2022-12-31 00:00:00",
+        "2021-12-31 00:00:00"
+      ],
+      "data": [
+        {
+          

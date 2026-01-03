@@ -1,10 +1,9 @@
 {
   "ticker": "FNMAI",
-  "timestamp": "2026-01-02T04:54:45.270808",
+  "timestamp": "2026-01-03T05:27:39.663275",
   "intraday_data": {
-    "status": "success",
-    "rows": 0,
-    "data": []
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -630,10 +629,10 @@
   },
   "holders_data": {
     "major_holders": {
-      "status": "error"
+      "status": "no_data"
     },
     "institutional_holders": {
-      "status": "error"
+      "status": "no_data"
     }
   },
   "earnings_data": {
@@ -643,7 +642,7 @@
     },
     "calendar": {
       "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
+      "message": "'dict' object has no attribute 'empty'"
     }
   }
 }

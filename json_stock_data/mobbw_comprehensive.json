@@ -1,25 +1,9 @@
 {
   "ticker": "MOBBW",
-  "timestamp": "2026-01-02T04:56:05.245458",
+  "timestamp": "2026-01-03T05:30:53.430198",
   "intraday_data": {
-    "status": "success",
-    "rows": 2,
-    "data": [
-      {
-        "Close BMXC": 0.02500000037252903,
-        "High BMXC": 0.02500000037252903,
-        "Low BMXC": 0.02500000037252903,
-        "Open BMXC": 0.02500000037252903,
-        "Volume BMXC": 0
-      },
-      {
-        "Close BMXC": 0.023000000044703484,
-        "High BMXC": 0.023000000044703484,
-        "Low BMXC": 0.023000000044703484,
-        "Open BMXC": 0.023000000044703484,
-        "Volume BMXC": 5000
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -27,8 +11,14 @@
   },
   "financials": {
     "income_statement": {
+      "status": "no_data"
+    },
+    "balance_sheet": {
+      "status": "no_data"
+    },
+    "cash_flow": {
       "status": "success",
-      "rows": 52,
+      "rows": 50,
       "columns": [
         "2024-12-31 00:00:00",
         "2023-12-31 00:00:00",

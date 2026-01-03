@@ -1,55 +1,86 @@
 {
   "ticker": "OCSAW",
-  "timestamp": "2026-01-02T05:01:16.357529",
+  "timestamp": "2026-01-03T05:45:52.465196",
   "intraday_data": {
     "status": "no_data",
     "message": "No intraday data available"
   },
   "stock_info": {
-    "status": "error",
-    "message": "Too Many Requests. Rate limited. Try after a while."
+    "status": "success",
+    "data": {
+      "maxAge": 86400,
+      "priceHint": 2,
+      "previousClose": 9.01,
+      "open": 9.9083,
+      "dayLow": 8.56,
+      "dayHigh": 9.01,
+      "regularMarketPreviousClose": 9.01,
+      "regularMarketOpen": 9.9083,
+      "regularMarketDayLow": 8.56,
+      "regularMarketDayHigh": 9.01,
+      "volume": 178,
+      "regularMarketVolume": 178,
+      "bid": 1.85,
+      "ask": 0.0,
+      "bidSize": 1,
+      "askSize": 0,
+      "fiftyTwoWeekLow": 8.56,
+      "fiftyTwoWeekHigh": 9.01,
+      "trailingAnnualDividendRate": 0.0,
+      "trailingAnnualDividendYield": 0.0,
+      "currency": "USD",
+      "tradeable": false,
+      "quoteType": "EQUITY",
+      "currentPrice": 9.01,
+      "recommendationKey": "none",
+      "financialCurrency": "CHF",
+      "symbol": "OCSAW",
+      "language": "en-US",
+      "region": "US",
+      "typeDisp": "Equity",
+      "quoteSourceName": "Delayed Quote",
+      "triggerable": true,
+      "customPriceAlertConfidence": "HIGH",
+      "cryptoTradeable": false,
+      "shortName": "Oculis Holding AG Warrants",
+      "longName": "Oculis Holding AG",
+      "regularMarketChangePercent": 0.0,
+      "regularMarketPrice": 9.01,
+      "marketState": "CLOSED",
+      "regularMarketTime": 1765381199,
+      "exchange": "NGM",
+      "messageBoardId": "finmb_589165623",
+      "exchangeTimezoneName": "America/New_York",
+      "exchangeTimezoneShortName": "EST",
+      "gmtOffSetMilliseconds": -18000000,
+      "market": "us_market",
+      "esgPopulated": false,
+      "hasPrePostMarketData": true,
+      "regularMarketChange": 0.0,
+      "regularMarketDayRange": "8.56 - 9.01",
+      "fullExchangeName": "NasdaqGM",
+      "fiftyTwoWeekLowChange": 0.4499998,
+      "fiftyTwoWeekLowChangePercent": 0.052570067,
+      "fiftyTwoWeekRange": "8.56 - 9.01",
+      "fiftyTwoWeekHighChange": 0.0,
+      "fiftyTwoWeekHighChangePercent": 0.0,
+      "bookValue": 3.1471384,
+      "priceToBook": 2.8629184,
+      "sourceInterval": 15,
+      "exchangeDataDelayedBy": 0,
+      "ipoExpectedDate": "2023-03-03"
+    }
   },
   "financials": {
     "income_statement": {
-      "status": "no_data"
-    },
-    "balance_sheet": {
-      "status": "no_data"
-    },
-    "cash_flow": {
-      "status": "no_data"
-    }
-  },
-  "options_data": {
-    "status": "error",
-    "error_message": "Too Many Requests. Rate limited. Try after a while."
-  },
-  "news_data": {
-    "news": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
-    },
-    "recommendations": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
-    }
-  },
-  "holders_data": {
-    "major_holders": {
-      "status": "error"
-    },
-    "institutional_holders": {
-      "status": "error"
-    }
-  },
-  "earnings_data": {
-    "earnings": {
-      "status": "error",
-      "message": "'NoneType' object has no attribute 'empty'"
-    },
-    "calendar": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
-    }
-  }
-}
+      "status": "success",
+      "rows": 43,
+      "columns": [
+        "2024-12-31 00:00:00",
+        "2023-12-31 00:00:00",
+        "2022-12-31 00:00:00",
+        "2021-12-31 00:00:00"
+      ],
+      "data": [
+        {
+          

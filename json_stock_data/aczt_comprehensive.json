@@ -1,13 +1,67 @@
 {
   "ticker": "ACZT",
-  "timestamp": "2026-01-02T04:57:23.587426",
+  "timestamp": "2026-01-03T05:35:02.853061",
   "intraday_data": {
     "status": "no_data",
     "message": "No intraday data available"
   },
   "stock_info": {
-    "status": "error",
-    "message": "Too Many Requests. Rate limited. Try after a while."
+    "status": "success",
+    "data": {
+      "quoteType": "MUTUALFUND",
+      "symbol": "ACZT",
+      "language": "en-US",
+      "region": "US",
+      "typeDisp": "Fund",
+      "quoteSourceName": "Delayed Quote",
+      "triggerable": false,
+      "customPriceAlertConfidence": "NONE",
+      "currency": "USD",
+      "exchange": "PNK",
+      "messageBoardId": "finmb_1865874473",
+      "exchangeTimezoneName": "America/New_York",
+      "exchangeTimezoneShortName": "EST",
+      "gmtOffSetMilliseconds": -18000000,
+      "market": "us_market",
+      "esgPopulated": false,
+      "regularMarketChangePercent": 0.0,
+      "regularMarketPrice": 0.58,
+      "trailingAnnualDividendYield": 0.0,
+      "bookValue": -0.002,
+      "fiftyDayAverage": 0.58,
+      "fiftyDayAverageChange": 0.0,
+      "fiftyDayAverageChangePercent": 0.0,
+      "twoHundredDayAverage": 0.58,
+      "twoHundredDayAverageChange": 0.0,
+      "twoHundredDayAverageChangePercent": 0.0,
+      "priceToBook": -289.99997,
+      "sourceInterval": 15,
+      "exchangeDataDelayedBy": 0,
+      "tradeable": false,
+      "cryptoTradeable": false,
+      "hasPrePostMarketData": false,
+      "firstTradeDateMilliseconds": 1735655400000,
+      "priceHint": 4,
+      "regularMarketChange": 0.0,
+      "regularMarketPreviousClose": 4.0889e-10,
+      "fullExchangeName": "OTC Markets OTCPK",
+      "financialCurrency": "USD",
+      "averageDailyVolume3Month": 2500,
+      "averageDailyVolume10Day": 2500,
+      "fiftyTwoWeekLowChange": 0.0,
+      "fiftyTwoWeekLowChangePercent": 0.0,
+      "fiftyTwoWeekRange": "0.58 - 0.58",
+      "fiftyTwoWeekHighChange": 0.0,
+      "fiftyTwoWeekHighChangePercent": 0.0,
+      "fiftyTwoWeekLow": 0.58,
+      "fiftyTwoWeekHigh": 0.58,
+      "fiftyTwoWeekChangePercent": 0.0,
+      "trailingAnnualDividendRate": 0.0,
+      "longName": "Huineng Technology Corporation",
+      "marketState": "CLOSED",
+      "regularMarketTime": 1735675200,
+      "displayName": "Huineng Technology"
+    }
   },
   "financials": {
     "income_statement": {
@@ -21,24 +75,22 @@
     }
   },
   "options_data": {
-    "status": "error",
-    "error_message": "Too Many Requests. Rate limited. Try after a while."
+    "expirations": []
   },
   "news_data": {
     "news": {
       "status": "no_data"
     },
     "recommendations": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
+      "status": "no_data"
     }
   },
   "holders_data": {
     "major_holders": {
-      "status": "error"
+      "status": "no_data"
     },
     "institutional_holders": {
-      "status": "error"
+      "status": "no_data"
     }
   },
   "earnings_data": {
@@ -48,7 +100,7 @@
     },
     "calendar": {
       "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
+      "message": "'dict' object has no attribute 'empty'"
     }
   }
 }

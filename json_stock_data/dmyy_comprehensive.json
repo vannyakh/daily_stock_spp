@@ -1,10 +1,9 @@
 {
   "ticker": "DMYY",
-  "timestamp": "2026-01-02T04:46:53.687144",
+  "timestamp": "2026-01-03T05:08:05.411805",
   "intraday_data": {
-    "status": "success",
-    "rows": 0,
-    "data": []
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -12,108 +11,13 @@
   },
   "financials": {
     "income_statement": {
-      "status": "no_data"
-    },
-    "balance_sheet": {
-      "status": "no_data"
-    },
-    "cash_flow": {
-      "status": "no_data"
-    }
-  },
-  "options_data": {
-    "status": "error",
-    "error_message": "Too Many Requests. Rate limited. Try after a while."
-  },
-  "news_data": {
-    "news": {
       "status": "success",
-      "count": 1,
+      "rows": 39,
+      "columns": [
+        "2024-12-31 00:00:00",
+        "2023-12-31 00:00:00",
+        "2022-12-31 00:00:00"
+      ],
       "data": [
         {
-          "id": "eba24c89-a6a6-3e43-b09b-cb33110cc665",
-          "content": {
-            "id": "eba24c89-a6a6-3e43-b09b-cb33110cc665",
-            "contentType": "STORY",
-            "title": "Experience Horizon Quantum\u2019s Full Stack Powerhouse \u2013 Initiation Report",
-            "description": "",
-            "summary": "Download the Complete Report Here By Brandon Hornback The Trump Administration\u2019s latest foray into public equities is quantum computing. Investors keen to follow the President\u2019s lead now have a fresh choice on the menu with Horizon Quantum Computing Pte. Ltd, which is going public through a merger with dMY Squared Technology Group (NYSE: DMYY). Quantum [\u2026]",
-            "pubDate": "2025-10-23T15:05:15Z",
-            "displayTime": "2025-10-23T15:05:15Z",
-            "isHosted": true,
-            "bypassModal": false,
-            "previewUrl": null,
-            "thumbnail": {
-              "originalUrl": "https://media.zenfs.com/en/exec_edge_220/d4b5bf3093d800d0e27c1b048c96dbf7",
-              "originalWidth": 2168,
-              "originalHeight": 1444,
-              "caption": "",
-              "resolutions": [
-                {
-                  "url": "https://s.yimg.com/uu/api/res/1.2/rTESrD7oDav4AT9JSWlXcA--~B/aD0xNDQ0O3c9MjE2ODthcHBpZD15dGFjaHlvbg--/https://media.zenfs.com/en/exec_edge_220/d4b5bf3093d800d0e27c1b048c96dbf7",
-                  "width": 2168,
-                  "height": 1444,
-                  "tag": "original"
-                },
-                {
-                  "url": "https://s.yimg.com/uu/api/res/1.2/hNhylc8pqnebMS6zJeWUBw--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/exec_edge_220/d4b5bf3093d800d0e27c1b048c96dbf7",
-                  "width": 170,
-                  "height": 128,
-                  "tag": "170x128"
-                }
-              ]
-            },
-            "provider": {
-              "displayName": "Exec Edge",
-              "url": "http://www.executives-edge.com"
-            },
-            "canonicalUrl": {
-              "url": "https://finance.yahoo.com/news/experience-horizon-quantum-full-stack-150515637.html",
-              "site": "finance",
-              "region": "US",
-              "lang": "en-US"
-            },
-            "clickThroughUrl": {
-              "url": "https://finance.yahoo.com/news/experience-horizon-quantum-full-stack-150515637.html",
-              "site": "finance",
-              "region": "US",
-              "lang": "en-US"
-            },
-            "metadata": {
-              "editorsPick": false
-            },
-            "finance": {
-              "premiumFinance": {
-                "isPremiumNews": false,
-                "isPremiumFreeNews": false
-              }
-            },
-            "storyline": null
-          }
-        }
-      ]
-    },
-    "recommendations": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
-    }
-  },
-  "holders_data": {
-    "major_holders": {
-      "status": "error"
-    },
-    "institutional_holders": {
-      "status": "error"
-    }
-  },
-  "earnings_data": {
-    "earnings": {
-      "status": "error",
-      "message": "'NoneType' object has no attribute 'empty'"
-    },
-    "calendar": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
-    }
-  }
-}
+          

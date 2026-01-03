@@ -1,14 +1,25 @@
 {
   "ticker": "YY",
-  "timestamp": "2026-01-02T04:35:16.717195",
+  "timestamp": "2026-01-03T04:39:22.566962",
   "intraday_data": {
-    "status": "success",
-    "rows": 0,
-    "data": []
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
-    "status": "error",
-    "message": "Too Many Requests. Rate limited. Try after a while."
+    "status": "success",
+    "data": {
+      "quoteType": "NONE",
+      "symbol": "YY",
+      "language": "en-US",
+      "region": "US",
+      "triggerable": false,
+      "customPriceAlertConfidence": "NONE",
+      "tradeable": false,
+      "cryptoTradeable": false,
+      "hasPrePostMarketData": false,
+      "financialCurrency": "USD",
+      "esgPopulated": false
+    }
   },
   "financials": {
     "income_statement": {
@@ -22,8 +33,15 @@
     }
   },
   "options_data": {
-    "status": "error",
-    "error_message": "Too Many Requests. Rate limited. Try after a while."
+    "expirations": [
+      "2026-03-20"
+    ],
+    "expiration_2026-03-20": {
+      "calls_count": 0,
+      "puts_count": 0,
+      "calls": [],
+      "puts": []
+    }
   },
   "news_data": {
     "news": {
@@ -586,16 +604,15 @@
       ]
     },
     "recommendations": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
+      "status": "no_data"
     }
   },
   "holders_data": {
     "major_holders": {
-      "status": "error"
+      "status": "no_data"
     },
     "institutional_holders": {
-      "status": "error"
+      "status": "no_data"
     }
   },
   "earnings_data": {
@@ -605,7 +622,7 @@
     },
     "calendar": {
       "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
+      "message": "'dict' object has no attribute 'empty'"
     }
   }
 }

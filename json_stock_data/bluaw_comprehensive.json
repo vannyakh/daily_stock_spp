@@ -1,13 +1,26 @@
 {
   "ticker": "BLUAW",
-  "timestamp": "2026-01-02T05:01:15.420624",
+  "timestamp": "2026-01-03T05:45:48.912704",
   "intraday_data": {
     "status": "no_data",
     "message": "No intraday data available"
   },
   "stock_info": {
-    "status": "error",
-    "message": "Too Many Requests. Rate limited. Try after a while."
+    "status": "success",
+    "data": {
+      "quoteType": "NONE",
+      "symbol": "BLUAW",
+      "language": "en-US",
+      "region": "US",
+      "triggerable": false,
+      "customPriceAlertConfidence": "NONE",
+      "hasPrePostMarketData": false,
+      "financialCurrency": "USD",
+      "messageBoardId": "finmb_700178182",
+      "esgPopulated": false,
+      "tradeable": false,
+      "cryptoTradeable": false
+    }
   },
   "financials": {
     "income_statement": {
@@ -21,25 +34,22 @@
     }
   },
   "options_data": {
-    "status": "error",
-    "error_message": "Too Many Requests. Rate limited. Try after a while."
+    "expirations": []
   },
   "news_data": {
     "news": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
+      "status": "no_data"
     },
     "recommendations": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
+      "status": "no_data"
     }
   },
   "holders_data": {
     "major_holders": {
-      "status": "error"
+      "status": "no_data"
     },
     "institutional_holders": {
-      "status": "error"
+      "status": "no_data"
     }
   },
   "earnings_data": {
@@ -49,7 +59,7 @@
     },
     "calendar": {
       "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
+      "message": "'dict' object has no attribute 'empty'"
     }
   }
 }

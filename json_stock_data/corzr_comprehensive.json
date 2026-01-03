@@ -1,13 +1,13 @@
 {
   "ticker": "CORZR",
-  "timestamp": "2026-01-02T04:58:51.149903",
+  "timestamp": "2026-01-03T05:38:49.665295",
   "intraday_data": {
     "status": "no_data",
     "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
-    "message": "Too Many Requests. Rate limited. Try after a while."
+    "message": "argument of type 'NoneType' is not iterable"
   },
   "financials": {
     "income_statement": {
@@ -21,8 +21,7 @@
     }
   },
   "options_data": {
-    "status": "error",
-    "error_message": "Too Many Requests. Rate limited. Try after a while."
+    "expirations": []
   },
   "news_data": {
     "news": {
@@ -618,16 +617,25 @@
       ]
     },
     "recommendations": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
+      "status": "no_data"
     }
   },
   "holders_data": {
     "major_holders": {
-      "status": "error"
+      "status": "no_data"
     },
     "institutional_holders": {
-      "status": "error"
+      "status": "success",
+      "data": [
+        {
+          "Date Reported": "2024-09-30 00:00:00",
+          "Holder": "MAI Capital Management",
+          "pctHeld": 0.0,
+          "Shares": 57477,
+          "Value": 4023,
+          "pctChange": 0.0
+        }
+      ]
     }
   },
   "earnings_data": {
@@ -637,7 +645,7 @@
     },
     "calendar": {
       "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
+      "message": "'dict' object has no attribute 'empty'"
     }
   }
 }

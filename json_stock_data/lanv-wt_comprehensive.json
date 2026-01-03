@@ -1,13 +1,65 @@
 {
   "ticker": "LANV-WT",
-  "timestamp": "2026-01-02T04:57:17.901376",
+  "timestamp": "2026-01-03T05:34:32.711111",
   "intraday_data": {
     "status": "no_data",
     "message": "No intraday data available"
   },
   "stock_info": {
-    "status": "error",
-    "message": "Too Many Requests. Rate limited. Try after a while."
+    "status": "success",
+    "data": {
+      "maxAge": 86400,
+      "priceHint": 4,
+      "previousClose": 0.0158,
+      "open": 0.019,
+      "dayLow": 0.0117,
+      "dayHigh": 0.0155,
+      "regularMarketPreviousClose": 0.0158,
+      "regularMarketOpen": 0.019,
+      "regularMarketDayLow": 0.0117,
+      "regularMarketDayHigh": 0.0155,
+      "volume": 11350,
+      "regularMarketVolume": 11350,
+      "bid": 0.0164,
+      "ask": 0.02,
+      "bidSize": 1,
+      "askSize": 48,
+      "fiftyTwoWeekLow": 0.0117,
+      "fiftyTwoWeekHigh": 0.0155,
+      "currency": "USD",
+      "tradeable": false,
+      "quoteType": "EQUITY",
+      "symbol": "LANV-WT",
+      "language": "en-US",
+      "region": "US",
+      "typeDisp": "Equity",
+      "quoteSourceName": "Delayed Quote",
+      "triggerable": true,
+      "customPriceAlertConfidence": "HIGH",
+      "longName": "Lanvin Group Holdings Limited WT",
+      "hasPrePostMarketData": true,
+      "regularMarketChange": -0.0023999996,
+      "regularMarketDayRange": "0.0117 - 0.0155",
+      "fullExchangeName": "NYSE",
+      "fiftyTwoWeekLowChange": 0.0016999999,
+      "fiftyTwoWeekLowChangePercent": 0.14529914,
+      "fiftyTwoWeekRange": "0.0117 - 0.0155",
+      "fiftyTwoWeekHighChange": -0.0021000002,
+      "fiftyTwoWeekHighChangePercent": -0.13548389,
+      "regularMarketTime": 1766782479,
+      "exchange": "NYQ",
+      "exchangeTimezoneName": "America/New_York",
+      "exchangeTimezoneShortName": "EST",
+      "gmtOffSetMilliseconds": -18000000,
+      "market": "us_market",
+      "esgPopulated": false,
+      "sourceInterval": 15,
+      "exchangeDataDelayedBy": 0,
+      "cryptoTradeable": false,
+      "regularMarketChangePercent": -15.189871,
+      "regularMarketPrice": 0.0134,
+      "marketState": "CLOSED"
+    }
   },
   "financials": {
     "income_statement": {
@@ -21,24 +73,22 @@
     }
   },
   "options_data": {
-    "status": "error",
-    "error_message": "Too Many Requests. Rate limited. Try after a while."
+    "expirations": []
   },
   "news_data": {
     "news": {
       "status": "no_data"
     },
     "recommendations": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
+      "status": "no_data"
     }
   },
   "holders_data": {
     "major_holders": {
-      "status": "error"
+      "status": "no_data"
     },
     "institutional_holders": {
-      "status": "error"
+      "status": "no_data"
     }
   },
   "earnings_data": {
@@ -48,7 +98,7 @@
     },
     "calendar": {
       "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
+      "message": "'dict' object has no attribute 'empty'"
     }
   }
 }

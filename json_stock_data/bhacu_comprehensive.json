@@ -1,13 +1,59 @@
 {
   "ticker": "BHACU",
-  "timestamp": "2026-01-02T04:58:44.305909",
+  "timestamp": "2026-01-03T05:38:20.694534",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 2,
+    "data": [
+      {
+        "Close SHFSW": 0.03359999880194664,
+        "High SHFSW": 0.03359999880194664,
+        "Low SHFSW": 0.03359999880194664,
+        "Open SHFSW": 0.03359999880194664,
+        "Volume SHFSW": 0
+      },
+      {
+        "Close SHFSW": 0.03269999846816063,
+        "High SHFSW": 0.03269999846816063,
+        "Low SHFSW": 0.032600000500679016,
+        "Open SHFSW": 0.032600000500679016,
+        "Volume SHFSW": 400
+      }
+    ]
   },
   "stock_info": {
-    "status": "error",
-    "message": "Too Many Requests. Rate limited. Try after a while."
+    "status": "success",
+    "data": {
+      "language": "en-US",
+      "region": "US",
+      "quoteType": "EQUITY",
+      "typeDisp": "Equity",
+      "quoteSourceName": "Delayed Quote",
+      "triggerable": true,
+      "customPriceAlertConfidence": "HIGH",
+      "currency": "USD",
+      "hasPrePostMarketData": true,
+      "priceHint": 2,
+      "regularMarketChange": 10.63,
+      "regularMarketPreviousClose": 0.0,
+      "fullExchangeName": "NasdaqGM",
+      "financialCurrency": "USD",
+      "exchange": "NGM",
+      "exchangeTimezoneName": "America/New_York",
+      "exchangeTimezoneShortName": "EST",
+      "gmtOffSetMilliseconds": -18000000,
+      "market": "us_market",
+      "esgPopulated": false,
+      "shortName": "Focus Impact BH3 Acquisition Co",
+      "marketState": "CLOSED",
+      "regularMarketPrice": 10.63,
+      "regularMarketTime": 1764104400,
+      "sourceInterval": 15,
+      "exchangeDataDelayedBy": 0,
+      "tradeable": false,
+      "cryptoTradeable": false,
+      "symbol": "BHACU"
+    }
   },
   "financials": {
     "income_statement": {
@@ -21,24 +67,36 @@
     }
   },
   "options_data": {
-    "status": "error",
-    "error_message": "Too Many Requests. Rate limited. Try after a while."
+    "expirations": []
   },
   "news_data": {
     "news": {
       "status": "no_data"
     },
     "recommendations": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
+      "status": "no_data"
     }
   },
   "holders_data": {
     "major_holders": {
-      "status": "error"
+      "status": "success",
+      "data": [
+        {
+          "Value": 0.0
+        },
+        {
+          "Value": 0.0
+        },
+        {
+          "Value": 0.0
+        },
+        {
+          "Value": 0.0
+        }
+      ]
     },
     "institutional_holders": {
-      "status": "error"
+      "status": "no_data"
     }
   },
   "earnings_data": {
@@ -48,7 +106,7 @@
     },
     "calendar": {
       "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
+      "message": "'dict' object has no attribute 'empty'"
     }
   }
 }

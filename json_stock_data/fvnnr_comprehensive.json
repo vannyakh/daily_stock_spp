@@ -1,9 +1,10 @@
 {
   "ticker": "FVNNR",
-  "timestamp": "2026-01-02T04:56:48.338715",
+  "timestamp": "2026-01-03T05:33:11.984837",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 0,
+    "data": []
   },
   "stock_info": {
     "status": "error",
@@ -29,15 +30,16 @@
       "status": "no_data"
     },
     "recommendations": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   },
   "holders_data": {
     "major_holders": {
-      "status": "no_data"
+      "status": "error"
     },
     "institutional_holders": {
-      "status": "no_data"
+      "status": "error"
     }
   },
   "earnings_data": {

@@ -1,9 +1,25 @@
 {
   "ticker": "GLGI",
-  "timestamp": "2026-01-02T04:47:38.725720",
+  "timestamp": "2026-01-03T05:09:35.589191",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 2,
+    "data": [
+      {
+        "Close": 0.6000000238418579,
+        "High": 0.6000000238418579,
+        "Low": 0.6000000238418579,
+        "Open": 0.6000000238418579,
+        "Volume": 0
+      },
+      {
+        "Close": 0.5899999737739563,
+        "High": 0.5899999737739563,
+        "Low": 0.5899999737739563,
+        "Open": 0.5899999737739563,
+        "Volume": 170
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -29,7 +45,8 @@
       "status": "no_data"
     },
     "recommendations": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   },
   "holders_data": {

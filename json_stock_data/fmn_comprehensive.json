@@ -1,9 +1,10 @@
 {
   "ticker": "FMN",
-  "timestamp": "2026-01-02T04:44:05.415104",
+  "timestamp": "2026-01-03T05:01:01.095184",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 0,
+    "data": []
   },
   "stock_info": {
     "status": "error",
@@ -11,43 +12,14 @@
   },
   "financials": {
     "income_statement": {
-      "status": "no_data"
-    },
-    "balance_sheet": {
-      "status": "no_data"
-    },
-    "cash_flow": {
-      "status": "no_data"
-    }
-  },
-  "options_data": {
-    "status": "error",
-    "error_message": "Too Many Requests. Rate limited. Try after a while."
-  },
-  "news_data": {
-    "news": {
-      "status": "no_data"
-    },
-    "recommendations": {
-      "status": "no_data"
-    }
-  },
-  "holders_data": {
-    "major_holders": {
-      "status": "no_data"
-    },
-    "institutional_holders": {
-      "status": "no_data"
-    }
-  },
-  "earnings_data": {
-    "earnings": {
-      "status": "error",
-      "message": "'NoneType' object has no attribute 'empty'"
-    },
-    "calendar": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
-    }
-  }
-}
+      "status": "success",
+      "rows": 26,
+      "columns": [
+        "2024-11-30 00:00:00",
+        "2023-11-30 00:00:00",
+        "2022-11-30 00:00:00",
+        "2021-11-30 00:00:00"
+      ],
+      "data": [
+        {
+          

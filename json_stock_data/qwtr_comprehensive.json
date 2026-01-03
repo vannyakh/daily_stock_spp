@@ -1,46 +1,9 @@
 {
   "ticker": "QWTR",
-  "timestamp": "2026-01-02T04:50:25.022314",
+  "timestamp": "2026-01-03T05:16:30.613287",
   "intraday_data": {
-    "status": "success",
-    "rows": 5,
-    "data": [
-      {
-        "Close CVAT": 0.04600000008940697,
-        "High CVAT": 0.04600000008940697,
-        "Low CVAT": 0.04600000008940697,
-        "Open CVAT": 0.04600000008940697,
-        "Volume CVAT": 0
-      },
-      {
-        "Close CVAT": 0.04500000178813934,
-        "High CVAT": 0.04500000178813934,
-        "Low CVAT": 0.04500000178813934,
-        "Open CVAT": 0.04500000178813934,
-        "Volume CVAT": 10150
-      },
-      {
-        "Close CVAT": 0.04690000042319298,
-        "High CVAT": 0.04690000042319298,
-        "Low CVAT": 0.04690000042319298,
-        "Open CVAT": 0.04690000042319298,
-        "Volume CVAT": 20000
-      },
-      {
-        "Close CVAT": 0.043699998408555984,
-        "High CVAT": 0.043699998408555984,
-        "Low CVAT": 0.043699998408555984,
-        "Open CVAT": 0.043699998408555984,
-        "Volume CVAT": 150
-      },
-      {
-        "Close CVAT": 0.0471000000834465,
-        "High CVAT": 0.0471000000834465,
-        "Low CVAT": 0.04699999839067459,
-        "Open CVAT": 0.04699999839067459,
-        "Volume CVAT": 100000
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -48,44 +11,14 @@
   },
   "financials": {
     "income_statement": {
-      "status": "no_data"
-    },
-    "balance_sheet": {
-      "status": "no_data"
-    },
-    "cash_flow": {
-      "status": "no_data"
-    }
-  },
-  "options_data": {
-    "status": "error",
-    "error_message": "Too Many Requests. Rate limited. Try after a while."
-  },
-  "news_data": {
-    "news": {
-      "status": "no_data"
-    },
-    "recommendations": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
-    }
-  },
-  "holders_data": {
-    "major_holders": {
-      "status": "error"
-    },
-    "institutional_holders": {
-      "status": "error"
-    }
-  },
-  "earnings_data": {
-    "earnings": {
-      "status": "error",
-      "message": "'NoneType' object has no attribute 'empty'"
-    },
-    "calendar": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
-    }
-  }
-}
+      "status": "success",
+      "rows": 44,
+      "columns": [
+        "2024-12-31 00:00:00",
+        "2023-12-31 00:00:00",
+        "2022-12-31 00:00:00",
+        "2021-12-31 00:00:00"
+      ],
+      "data": [
+        {
+          

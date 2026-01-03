@@ -1,6 +1,6 @@
 {
   "ticker": "TGL",
-  "timestamp": "2026-01-02T04:50:03.118000",
+  "timestamp": "2026-01-03T05:15:41.043238",
   "intraday_data": {
     "status": "no_data",
     "message": "No intraday data available"
@@ -623,16 +623,79 @@
       ]
     },
     "recommendations": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
+      "status": "no_data"
     }
   },
   "holders_data": {
     "major_holders": {
-      "status": "error"
+      "status": "success",
+      "data": [
+        {
+          "Value": 0.22919
+        },
+        {
+          "Value": 0.00661
+        },
+        {
+          "Value": 0.00858
+        },
+        {
+          "Value": 6.0
+        }
+      ]
     },
     "institutional_holders": {
-      "status": "error"
+      "status": "success",
+      "data": [
+        {
+          "Date Reported": "2025-09-30 00:00:00",
+          "Holder": "DRW Securities, LLC",
+          "pctHeld": 0.0058999998,
+          "Shares": 7519,
+          "Value": 52858,
+          "pctChange": 1.0
+        },
+        {
+          "Date Reported": "2025-09-30 00:00:00",
+          "Holder": "Geode Capital Management, LLC",
+          "pctHeld": 0.0007,
+          "Shares": 936,
+          "Value": 6580,
+          "pctChange": 1.0
+        },
+        {
+          "Date Reported": "2025-09-30 00:00:00",
+          "Holder": "Jane Street Group, LLC",
+          "pctHeld": 0.0007,
+          "Shares": 886,
+          "Value": 6228,
+          "pctChange": 1.0
+        },
+        {
+          "Date Reported": "2025-09-30 00:00:00",
+          "Holder": "Cubist Systematic Strategies, LLC",
+          "pctHeld": 0.0005,
+          "Shares": 636,
+          "Value": 4471,
+          "pctChange": 1.0
+        },
+        {
+          "Date Reported": "2025-09-30 00:00:00",
+          "Holder": "Tower Research Capital LLC (TRC)",
+          "pctHeld": 0.0001,
+          "Shares": 117,
+          "Value": 822,
+          "pctChange": -0.5301
+        },
+        {
+          "Date Reported": "2025-09-30 00:00:00",
+          "Holder": "Bank of America Corporation",
+          "pctHeld": 0.0,
+          "Shares": 1,
+          "Value": 7,
+          "pctChange": 0.0
+        }
+      ]
     }
   },
   "earnings_data": {
@@ -642,7 +705,7 @@
     },
     "calendar": {
       "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
+      "message": "'dict' object has no attribute 'empty'"
     }
   }
 }

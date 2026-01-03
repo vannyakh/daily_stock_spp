@@ -1,9 +1,60 @@
 {
   "ticker": "GGN-PB",
-  "timestamp": "2026-01-02T04:55:05.163278",
+  "timestamp": "2026-01-03T05:28:42.746109",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 7,
+    "data": [
+      {
+        "Close GAMI": 24.440000534057617,
+        "High GAMI": 24.440000534057617,
+        "Low GAMI": 24.440000534057617,
+        "Open GAMI": 24.440000534057617,
+        "Volume GAMI": 0
+      },
+      {
+        "Close GAMI": 24.440000534057617,
+        "High GAMI": 24.440000534057617,
+        "Low GAMI": 24.440000534057617,
+        "Open GAMI": 24.440000534057617,
+        "Volume GAMI": 2400
+      },
+      {
+        "Close GAMI": 24.540000915527344,
+        "High GAMI": 24.540000915527344,
+        "Low GAMI": 24.540000915527344,
+        "Open GAMI": 24.540000915527344,
+        "Volume GAMI": 800
+      },
+      {
+        "Close GAMI": 24.540000915527344,
+        "High GAMI": 24.780000686645508,
+        "Low GAMI": 24.540000915527344,
+        "Open GAMI": 24.780000686645508,
+        "Volume GAMI": 5000
+      },
+      {
+        "Close GAMI": 24.540000915527344,
+        "High GAMI": 24.540000915527344,
+        "Low GAMI": 24.540000915527344,
+        "Open GAMI": 24.540000915527344,
+        "Volume GAMI": 1100
+      },
+      {
+        "Close GAMI": 24.540000915527344,
+        "High GAMI": 24.540000915527344,
+        "Low GAMI": 24.530000686645508,
+        "Open GAMI": 24.530000686645508,
+        "Volume GAMI": 3900
+      },
+      {
+        "Close GAMI": 24.549999237060547,
+        "High GAMI": 24.549999237060547,
+        "Low GAMI": 24.549999237060547,
+        "Open GAMI": 24.549999237060547,
+        "Volume GAMI": 302
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -21,24 +72,36 @@
     }
   },
   "options_data": {
-    "status": "error",
-    "error_message": "Too Many Requests. Rate limited. Try after a while."
+    "expirations": []
   },
   "news_data": {
     "news": {
       "status": "no_data"
     },
     "recommendations": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
+      "status": "no_data"
     }
   },
   "holders_data": {
     "major_holders": {
-      "status": "error"
+      "status": "success",
+      "data": [
+        {
+          "Value": 0.00035999998
+        },
+        {
+          "Value": 0.0771
+        },
+        {
+          "Value": 0.07712
+        },
+        {
+          "Value": 1.0
+        }
+      ]
     },
     "institutional_holders": {
-      "status": "error"
+      "status": "no_data"
     }
   },
   "earnings_data": {
@@ -48,7 +111,7 @@
     },
     "calendar": {
       "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
+      "message": "'dict' object has no attribute 'empty'"
     }
   }
 }

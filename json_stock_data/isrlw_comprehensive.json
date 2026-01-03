@@ -1,54 +1,60 @@
 {
   "ticker": "ISRLW",
-  "timestamp": "2026-01-02T04:57:06.704264",
+  "timestamp": "2026-01-03T05:33:50.433239",
   "intraday_data": {
     "status": "no_data",
     "message": "No intraday data available"
   },
   "stock_info": {
-    "status": "error",
-    "message": "Too Many Requests. Rate limited. Try after a while."
+    "status": "success",
+    "data": {
+      "maxAge": 86400,
+      "priceHint": 4,
+      "previousClose": 0.0,
+      "open": 0.2,
+      "dayLow": 0.0322,
+      "dayHigh": 0.155,
+      "regularMarketPreviousClose": 0.0,
+      "regularMarketOpen": 0.2,
+      "regularMarketDayLow": 0.0322,
+      "regularMarketDayHigh": 0.155,
+      "volume": 558452,
+      "regularMarketVolume": 558452,
+      "bid": 0.0,
+      "ask": 0.0,
+      "bidSize": 0,
+      "askSize": 0,
+      "fiftyTwoWeekLow": 0.0322,
+      "fiftyTwoWeekHigh": 0.155,
+      "trailingAnnualDividendRate": 0.0,
+      "trailingAnnualDividendYield": "NaN",
+      "currency": "USD",
+      "tradeable": false,
+      "exchange": "NGM",
+      "quoteType": "EQUITY",
+      "symbol": "ISRLW",
+      "underlyingSymbol": "ISRLW",
+      "shortName": "Israel Acquisitions Corp Warran",
+      "longName": "Israel Acquisitions Corp",
+      "timeZoneFullName": "America/New_York",
+      "timeZoneShortName": "EST",
+      "uuid": "d2057ea2-683a-3e38-a34f-af2f164e7977",
+      "messageBoardId": "finmb_1774851175",
+      "gmtOffSetMilliseconds": -18000000,
+      "currentPrice": 0.13,
+      "recommendationKey": "none",
+      "financialCurrency": "USD"
+    }
   },
   "financials": {
     "income_statement": {
-      "status": "no_data"
-    },
-    "balance_sheet": {
-      "status": "no_data"
-    },
-    "cash_flow": {
-      "status": "no_data"
-    }
-  },
-  "options_data": {
-    "status": "error",
-    "error_message": "Too Many Requests. Rate limited. Try after a while."
-  },
-  "news_data": {
-    "news": {
-      "status": "no_data"
-    },
-    "recommendations": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
-    }
-  },
-  "holders_data": {
-    "major_holders": {
-      "status": "error"
-    },
-    "institutional_holders": {
-      "status": "error"
-    }
-  },
-  "earnings_data": {
-    "earnings": {
-      "status": "error",
-      "message": "'NoneType' object has no attribute 'empty'"
-    },
-    "calendar": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
-    }
-  }
-}
+      "status": "success",
+      "rows": 34,
+      "columns": [
+        "2024-12-31 00:00:00",
+        "2023-12-31 00:00:00",
+        "2022-12-31 00:00:00"
+      ],
+      "data": [
+        {
+          

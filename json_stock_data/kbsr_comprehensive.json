@@ -1,6 +1,6 @@
 {
   "ticker": "KBSR",
-  "timestamp": "2026-01-02T04:55:00.846467",
+  "timestamp": "2026-01-03T05:28:25.091425",
   "intraday_data": {
     "status": "no_data",
     "message": "No intraday data available"
@@ -21,24 +21,118 @@
     }
   },
   "options_data": {
-    "status": "error",
-    "error_message": "Too Many Requests. Rate limited. Try after a while."
+    "expirations": []
   },
   "news_data": {
     "news": {
       "status": "no_data"
     },
     "recommendations": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
+      "status": "no_data"
     }
   },
   "holders_data": {
     "major_holders": {
-      "status": "error"
+      "status": "success",
+      "data": [
+        {
+          "Value": 0.0
+        },
+        {
+          "Value": 0.0007
+        },
+        {
+          "Value": 0.0007
+        },
+        {
+          "Value": 11.0
+        }
+      ]
     },
     "institutional_holders": {
-      "status": "error"
+      "status": "success",
+      "data": [
+        {
+          "Date Reported": "2025-09-30 00:00:00",
+          "Holder": "Old National Bancorp/IN/",
+          "pctHeld": 0.0001,
+          "Shares": 19506,
+          "Value": 10923,
+          "pctChange": 0.0
+        },
+        {
+          "Date Reported": "2025-09-30 00:00:00",
+          "Holder": "Org Partners LLC                          ",
+          "pctHeld": 0.0001,
+          "Shares": 7441,
+          "Value": 4166,
+          "pctChange": 0.0
+        },
+        {
+          "Date Reported": "2025-09-30 00:00:00",
+          "Holder": "Strengthening Families & Communities, LLC                          ",
+          "pctHeld": 0.0001,
+          "Shares": 7791,
+          "Value": 4362,
+          "pctChange": 1.0
+        },
+        {
+          "Date Reported": "2025-09-30 00:00:00",
+          "Holder": "Moloney Securities Asset Management, LLC",
+          "pctHeld": 0.0001,
+          "Shares": 10093,
+          "Value": 5652,
+          "pctChange": 0.0
+        },
+        {
+          "Date Reported": "2025-09-30 00:00:00",
+          "Holder": "Nbc Securities, Inc.                          ",
+          "pctHeld": 0.0001,
+          "Shares": 14502,
+          "Value": 8121,
+          "pctChange": 0.0
+        },
+        {
+          "Date Reported": "2025-09-30 00:00:00",
+          "Holder": "Financial Gravity Asset Management, Inc.",
+          "pctHeld": 0.0001,
+          "Shares": 13025,
+          "Value": 7294,
+          "pctChange": -0.1668
+        },
+        {
+          "Date Reported": "2024-12-31 00:00:00",
+          "Holder": "Tucker Asset Management LLC                          ",
+          "pctHeld": 0.0,
+          "Shares": 2531,
+          "Value": 1417,
+          "pctChange": 1.0
+        },
+        {
+          "Date Reported": "2025-09-30 00:00:00",
+          "Holder": "Gleason Group, Inc.",
+          "pctHeld": 0.0,
+          "Shares": 1635,
+          "Value": 915,
+          "pctChange": 0.0
+        },
+        {
+          "Date Reported": "2025-09-30 00:00:00",
+          "Holder": "Hantz Financial Services, Inc.                          ",
+          "pctHeld": 0.0,
+          "Shares": 6266,
+          "Value": 3508,
+          "pctChange": 0.0
+        },
+        {
+          "Date Reported": "2025-09-30 00:00:00",
+          "Holder": "Main Street Group, Ltd                          ",
+          "pctHeld": 0.0,
+          "Shares": 521,
+          "Value": 291,
+          "pctChange": 0.0
+        }
+      ]
     }
   },
   "earnings_data": {
@@ -48,7 +142,7 @@
     },
     "calendar": {
       "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
+      "message": "'dict' object has no attribute 'empty'"
     }
   }
 }

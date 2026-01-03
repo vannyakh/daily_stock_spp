@@ -1,9 +1,53 @@
 {
   "ticker": "ECDAW",
-  "timestamp": "2026-01-02T05:01:18.509127",
+  "timestamp": "2026-01-03T05:46:04.703921",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 6,
+    "data": [
+      {
+        "Close": 0.00860000029206276,
+        "High": 0.00860000029206276,
+        "Low": 0.008500000461935997,
+        "Open": 0.008500000461935997,
+        "Volume": 0
+      },
+      {
+        "Close": 0.010200000368058681,
+        "High": 0.010300000198185444,
+        "Low": 0.010200000368058681,
+        "Open": 0.010300000198185444,
+        "Volume": 1200
+      },
+      {
+        "Close": 0.010300000198185444,
+        "High": 0.010400000028312206,
+        "Low": 0.010300000198185444,
+        "Open": 0.010300000198185444,
+        "Volume": 2000
+      },
+      {
+        "Close": 0.010400000028312206,
+        "High": 0.010700000450015068,
+        "Low": 0.010400000028312206,
+        "Open": 0.010700000450015068,
+        "Volume": 3386
+      },
+      {
+        "Close": 0.010900000110268593,
+        "High": 0.010900000110268593,
+        "Low": 0.010900000110268593,
+        "Open": 0.010900000110268593,
+        "Volume": 11491
+      },
+      {
+        "Close": 0.01080000028014183,
+        "High": 0.01080000028014183,
+        "Low": 0.01080000028014183,
+        "Open": 0.01080000028014183,
+        "Volume": 703
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -11,45 +55,14 @@
   },
   "financials": {
     "income_statement": {
-      "status": "no_data"
-    },
-    "balance_sheet": {
-      "status": "no_data"
-    },
-    "cash_flow": {
-      "status": "no_data"
-    }
-  },
-  "options_data": {
-    "status": "error",
-    "error_message": "Too Many Requests. Rate limited. Try after a while."
-  },
-  "news_data": {
-    "news": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
-    },
-    "recommendations": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
-    }
-  },
-  "holders_data": {
-    "major_holders": {
-      "status": "error"
-    },
-    "institutional_holders": {
-      "status": "error"
-    }
-  },
-  "earnings_data": {
-    "earnings": {
-      "status": "error",
-      "message": "'NoneType' object has no attribute 'empty'"
-    },
-    "calendar": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
-    }
-  }
-}
+      "status": "success",
+      "rows": 47,
+      "columns": [
+        "2024-12-31 00:00:00",
+        "2023-12-31 00:00:00",
+        "2022-12-31 00:00:00",
+        "2021-12-31 00:00:00"
+      ],
+      "data": [
+        {
+          

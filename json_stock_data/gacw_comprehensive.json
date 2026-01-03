@@ -1,13 +1,67 @@
 {
   "ticker": "GACW",
-  "timestamp": "2026-01-02T04:53:11.247939",
+  "timestamp": "2026-01-03T05:24:33.792570",
   "intraday_data": {
     "status": "no_data",
     "message": "No intraday data available"
   },
   "stock_info": {
-    "status": "error",
-    "message": "Too Many Requests. Rate limited. Try after a while."
+    "status": "success",
+    "data": {
+      "language": "en-US",
+      "region": "US",
+      "quoteType": "EQUITY",
+      "typeDisp": "Equity",
+      "quoteSourceName": "Delayed Quote",
+      "triggerable": false,
+      "customPriceAlertConfidence": "LOW",
+      "currency": "USD",
+      "shortName": "GACW INC",
+      "regularMarketChangePercent": 0.0,
+      "regularMarketPrice": 2.0,
+      "marketState": "CLOSED",
+      "regularMarketTime": 1709585296,
+      "exchange": "PNK",
+      "messageBoardId": "finmb_545696963",
+      "exchangeTimezoneName": "America/New_York",
+      "exchangeTimezoneShortName": "EST",
+      "gmtOffSetMilliseconds": -18000000,
+      "market": "us_market",
+      "esgPopulated": false,
+      "longName": "GACW Incorporated",
+      "fiftyTwoWeekLowChange": 0.0,
+      "fiftyTwoWeekLowChangePercent": 0.0,
+      "fiftyTwoWeekRange": "2.0 - 2.0",
+      "fiftyTwoWeekHighChange": 0.0,
+      "fiftyTwoWeekHighChangePercent": 0.0,
+      "fiftyTwoWeekLow": 2.0,
+      "fiftyTwoWeekHigh": 2.0,
+      "fiftyTwoWeekChangePercent": 0.0,
+      "fiftyDayAverage": 2.0,
+      "fiftyDayAverageChange": 0.0,
+      "fiftyDayAverageChangePercent": 0.0,
+      "twoHundredDayAverage": 2.0,
+      "twoHundredDayAverageChange": 0.0,
+      "twoHundredDayAverageChangePercent": 0.0,
+      "sourceInterval": 15,
+      "exchangeDataDelayedBy": 0,
+      "tradeable": false,
+      "cryptoTradeable": false,
+      "hasPrePostMarketData": false,
+      "firstTradeDateMilliseconds": 1709562600000,
+      "priceHint": 4,
+      "regularMarketChange": 0.0,
+      "regularMarketDayHigh": 2.0,
+      "regularMarketDayRange": "2.0 - 2.0",
+      "regularMarketDayLow": 2.0,
+      "regularMarketVolume": 100,
+      "regularMarketPreviousClose": 2.0,
+      "fullExchangeName": "OTC Markets OTCPK",
+      "regularMarketOpen": 2.0,
+      "averageDailyVolume3Month": 100,
+      "averageDailyVolume10Day": 100,
+      "symbol": "GACW"
+    }
   },
   "financials": {
     "income_statement": {
@@ -21,24 +75,22 @@
     }
   },
   "options_data": {
-    "status": "error",
-    "error_message": "Too Many Requests. Rate limited. Try after a while."
+    "expirations": []
   },
   "news_data": {
     "news": {
       "status": "no_data"
     },
     "recommendations": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
+      "status": "no_data"
     }
   },
   "holders_data": {
     "major_holders": {
-      "status": "error"
+      "status": "no_data"
     },
     "institutional_holders": {
-      "status": "error"
+      "status": "no_data"
     }
   },
   "earnings_data": {
@@ -48,7 +100,7 @@
     },
     "calendar": {
       "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
+      "message": "'dict' object has no attribute 'empty'"
     }
   }
 }

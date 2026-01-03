@@ -1,13 +1,73 @@
 {
   "ticker": "LTAFX",
-  "timestamp": "2026-01-02T05:00:23.007804",
+  "timestamp": "2026-01-03T05:43:14.982586",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 1,
+    "data": [
+      {
+        "Close": 13.720000267028809,
+        "High": 13.720000267028809,
+        "Low": 13.720000267028809,
+        "Open": 13.720000267028809,
+        "Volume": 0
+      }
+    ]
   },
   "stock_info": {
-    "status": "error",
-    "message": "Too Many Requests. Rate limited. Try after a while."
+    "status": "success",
+    "data": {
+      "quoteType": "MUTUALFUND",
+      "symbol": "LTAFX",
+      "language": "en-US",
+      "region": "US",
+      "typeDisp": "Fund",
+      "quoteSourceName": "Delayed Quote",
+      "triggerable": false,
+      "customPriceAlertConfidence": "NONE",
+      "currency": "USD",
+      "regularMarketTime": 1767402102,
+      "exchange": "NAS",
+      "messageBoardId": "finmb_109542579",
+      "exchangeTimezoneName": "America/New_York",
+      "exchangeTimezoneShortName": "EST",
+      "gmtOffSetMilliseconds": -18000000,
+      "market": "us_market",
+      "esgPopulated": false,
+      "regularMarketChangePercent": 0.73421437,
+      "regularMarketPrice": 13.72,
+      "marketState": "CLOSED",
+      "hasPrePostMarketData": false,
+      "firstTradeDateMilliseconds": 1296743400000,
+      "priceHint": 2,
+      "regularMarketChange": 0.1,
+      "regularMarketPreviousClose": 13.62,
+      "fullExchangeName": "Nasdaq",
+      "averageDailyVolume3Month": 0,
+      "averageDailyVolume10Day": 0,
+      "fiftyTwoWeekLowChange": 1.8900003,
+      "fiftyTwoWeekLowChangePercent": 0.15976335,
+      "fiftyTwoWeekRange": "11.83 - 15.74",
+      "fiftyTwoWeekHighChange": -2.0199995,
+      "fiftyTwoWeekHighChangePercent": -0.12833542,
+      "fiftyTwoWeekLow": 11.83,
+      "fiftyTwoWeekHigh": 15.74,
+      "fiftyTwoWeekChangePercent": -8.590603,
+      "trailingAnnualDividendRate": 0.0,
+      "shortName": "Alternative Strategies Fund Cla",
+      "longName": "Alternative Strategies Fund",
+      "trailingAnnualDividendYield": 0.0,
+      "fiftyDayAverage": 14.4176,
+      "fiftyDayAverageChange": -0.6975994,
+      "fiftyDayAverageChangePercent": -0.048385266,
+      "twoHundredDayAverage": 14.5653,
+      "twoHundredDayAverageChange": -0.8452997,
+      "twoHundredDayAverageChangePercent": -0.058035173,
+      "sourceInterval": 15,
+      "exchangeDataDelayedBy": 0,
+      "tradeable": false,
+      "cryptoTradeable": false
+    }
   },
   "financials": {
     "income_statement": {
@@ -21,25 +81,22 @@
     }
   },
   "options_data": {
-    "status": "error",
-    "error_message": "Too Many Requests. Rate limited. Try after a while."
+    "expirations": []
   },
   "news_data": {
     "news": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
+      "status": "no_data"
     },
     "recommendations": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
+      "status": "no_data"
     }
   },
   "holders_data": {
     "major_holders": {
-      "status": "error"
+      "status": "no_data"
     },
     "institutional_holders": {
-      "status": "error"
+      "status": "no_data"
     }
   },
   "earnings_data": {
@@ -49,7 +106,7 @@
     },
     "calendar": {
       "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
+      "message": "'dict' object has no attribute 'empty'"
     }
   }
 }

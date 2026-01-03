@@ -1,6 +1,6 @@
 {
   "ticker": "FBIOP",
-  "timestamp": "2026-01-02T04:55:34.168075",
+  "timestamp": "2026-01-03T05:29:47.439526",
   "intraday_data": {
     "status": "no_data",
     "message": "No intraday data available"
@@ -566,16 +566,39 @@
       ]
     },
     "recommendations": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
+      "status": "no_data"
     }
   },
   "holders_data": {
     "major_holders": {
-      "status": "error"
+      "status": "success",
+      "data": [
+        {
+          "Value": 0.0
+        },
+        {
+          "Value": 0.0
+        },
+        {
+          "Value": 0.0
+        },
+        {
+          "Value": 0.0
+        }
+      ]
     },
     "institutional_holders": {
-      "status": "error"
+      "status": "success",
+      "data": [
+        {
+          "Date Reported": "2023-06-30 00:00:00",
+          "Holder": "Shikiar Asset Management, Inc.",
+          "pctHeld": 0.0044,
+          "Shares": 15000,
+          "Value": 152399,
+          "pctChange": -0.7143
+        }
+      ]
     }
   },
   "earnings_data": {
@@ -585,7 +608,7 @@
     },
     "calendar": {
       "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
+      "message": "'dict' object has no attribute 'empty'"
     }
   }
 }

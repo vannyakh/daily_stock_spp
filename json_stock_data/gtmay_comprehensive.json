@@ -1,9 +1,109 @@
 {
   "ticker": "GTMAY",
-  "timestamp": "2026-01-02T04:46:08.067255",
+  "timestamp": "2026-01-03T05:06:29.193815",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 14,
+    "data": [
+      {
+        "Close RGS": 27.0,
+        "High RGS": 27.020000457763672,
+        "Low RGS": 27.0,
+        "Open RGS": 27.020000457763672,
+        "Volume RGS": 0
+      },
+      {
+        "Close RGS": 27.18000030517578,
+        "High RGS": 27.18000030517578,
+        "Low RGS": 27.18000030517578,
+        "Open RGS": 27.18000030517578,
+        "Volume RGS": 0
+      },
+      {
+        "Close RGS": 27.18000030517578,
+        "High RGS": 27.18000030517578,
+        "Low RGS": 27.18000030517578,
+        "Open RGS": 27.18000030517578,
+        "Volume RGS": 218
+      },
+      {
+        "Close RGS": 26.81999969482422,
+        "High RGS": 26.81999969482422,
+        "Low RGS": 26.81999969482422,
+        "Open RGS": 26.81999969482422,
+        "Volume RGS": 103
+      },
+      {
+        "Close RGS": 27.024999618530273,
+        "High RGS": 27.024999618530273,
+        "Low RGS": 27.024999618530273,
+        "Open RGS": 27.024999618530273,
+        "Volume RGS": 486
+      },
+      {
+        "Close RGS": 26.915000915527344,
+        "High RGS": 26.915000915527344,
+        "Low RGS": 26.915000915527344,
+        "Open RGS": 26.915000915527344,
+        "Volume RGS": 185
+      },
+      {
+        "Close RGS": 27.0,
+        "High RGS": 27.0,
+        "Low RGS": 27.0,
+        "Open RGS": 27.0,
+        "Volume RGS": 300
+      },
+      {
+        "Close RGS": 27.0,
+        "High RGS": 27.0,
+        "Low RGS": 27.0,
+        "Open RGS": 27.0,
+        "Volume RGS": 450
+      },
+      {
+        "Close RGS": 26.721900939941406,
+        "High RGS": 26.721900939941406,
+        "Low RGS": 26.721900939941406,
+        "Open RGS": 26.721900939941406,
+        "Volume RGS": 207
+      },
+      {
+        "Close RGS": 26.750999450683594,
+        "High RGS": 26.750999450683594,
+        "Low RGS": 26.750999450683594,
+        "Open RGS": 26.750999450683594,
+        "Volume RGS": 303
+      },
+      {
+        "Close RGS": 26.75,
+        "High RGS": 26.75,
+        "Low RGS": 26.75,
+        "Open RGS": 26.75,
+        "Volume RGS": 353
+      },
+      {
+        "Close RGS": 26.575000762939453,
+        "High RGS": 26.575000762939453,
+        "Low RGS": 26.575000762939453,
+        "Open RGS": 26.575000762939453,
+        "Volume RGS": 147
+      },
+      {
+        "Close RGS": 26.75,
+        "High RGS": 26.75,
+        "Low RGS": 26.75,
+        "Open RGS": 26.75,
+        "Volume RGS": 297
+      },
+      {
+        "Close RGS": 26.799999237060547,
+        "High RGS": 26.799999237060547,
+        "Low RGS": 26.799999237060547,
+        "Open RGS": 26.799999237060547,
+        "Volume RGS": 911
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -11,14 +111,44 @@
   },
   "financials": {
     "income_statement": {
-      "status": "success",
-      "rows": 56,
-      "columns": [
-        "2024-12-31 00:00:00",
-        "2023-12-31 00:00:00",
-        "2022-12-31 00:00:00",
-        "2021-12-31 00:00:00"
-      ],
-      "data": [
-        {
-          
+      "status": "no_data"
+    },
+    "balance_sheet": {
+      "status": "no_data"
+    },
+    "cash_flow": {
+      "status": "no_data"
+    }
+  },
+  "options_data": {
+    "status": "error",
+    "error_message": "Too Many Requests. Rate limited. Try after a while."
+  },
+  "news_data": {
+    "news": {
+      "status": "no_data"
+    },
+    "recommendations": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  },
+  "holders_data": {
+    "major_holders": {
+      "status": "error"
+    },
+    "institutional_holders": {
+      "status": "error"
+    }
+  },
+  "earnings_data": {
+    "earnings": {
+      "status": "error",
+      "message": "'NoneType' object has no attribute 'empty'"
+    },
+    "calendar": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  }
+}

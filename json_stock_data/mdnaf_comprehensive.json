@@ -1,46 +1,9 @@
 {
   "ticker": "MDNAF",
-  "timestamp": "2026-01-02T04:55:27.643813",
+  "timestamp": "2026-01-03T05:29:32.850074",
   "intraday_data": {
-    "status": "success",
-    "rows": 5,
-    "data": [
-      {
-        "Close": 0.6809999942779541,
-        "High": 0.6809999942779541,
-        "Low": 0.6809999942779541,
-        "Open": 0.6809999942779541,
-        "Volume": 0
-      },
-      {
-        "Close": 0.6800000071525574,
-        "High": 0.6850000023841858,
-        "Low": 0.6800000071525574,
-        "Open": 0.6850000023841858,
-        "Volume": 4500
-      },
-      {
-        "Close": 0.6850000023841858,
-        "High": 0.6850000023841858,
-        "Low": 0.6850000023841858,
-        "Open": 0.6850000023841858,
-        "Volume": 5500
-      },
-      {
-        "Close": 0.6899999976158142,
-        "High": 0.6899999976158142,
-        "Low": 0.6899999976158142,
-        "Open": 0.6899999976158142,
-        "Volume": 4000
-      },
-      {
-        "Close": 0.6830000281333923,
-        "High": 0.6906999945640564,
-        "Low": 0.6830000281333923,
-        "Open": 0.6906999945640564,
-        "Volume": 10000
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -481,7 +444,8 @@
       ]
     },
     "recommendations": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   },
   "holders_data": {

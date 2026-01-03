@@ -1,32 +1,9 @@
 {
   "ticker": "SAPGF",
-  "timestamp": "2026-01-02T04:53:26.031713",
+  "timestamp": "2026-01-03T05:25:09.272093",
   "intraday_data": {
-    "status": "success",
-    "rows": 3,
-    "data": [
-      {
-        "Close ASMLF": 1092.0,
-        "High ASMLF": 1092.0,
-        "Low ASMLF": 1092.0,
-        "Open ASMLF": 1092.0,
-        "Volume ASMLF": 0
-      },
-      {
-        "Close ASMLF": 1070.0,
-        "High ASMLF": 1070.0,
-        "Low ASMLF": 1070.0,
-        "Open ASMLF": 1070.0,
-        "Volume ASMLF": 1
-      },
-      {
-        "Close ASMLF": 1065.0,
-        "High ASMLF": 1065.0,
-        "Low ASMLF": 1065.0,
-        "Open ASMLF": 1065.0,
-        "Volume ASMLF": 30
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -684,7 +661,7 @@
     },
     "calendar": {
       "status": "error",
-      "message": "'dict' object has no attribute 'empty'"
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   }
 }

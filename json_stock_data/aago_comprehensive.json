@@ -1,13 +1,19 @@
 {
   "ticker": "AAGO",
-  "timestamp": "2026-01-02T04:53:13.185367",
+  "timestamp": "2026-01-03T05:24:42.349806",
   "intraday_data": {
     "status": "no_data",
     "message": "No intraday data available"
   },
   "stock_info": {
-    "status": "error",
-    "message": "argument of type 'NoneType' is not iterable"
+    "status": "success",
+    "data": {
+      "quoteType": "NONE",
+      "symbol": "AAGO",
+      "underlyingSymbol": "AAGO",
+      "uuid": "4e34754c-da1e-3540-b032-07ac85c4b691",
+      "maxAge": 86400
+    }
   },
   "financials": {
     "income_statement": {
@@ -21,24 +27,22 @@
     }
   },
   "options_data": {
-    "status": "error",
-    "error_message": "Too Many Requests. Rate limited. Try after a while."
+    "expirations": []
   },
   "news_data": {
     "news": {
       "status": "no_data"
     },
     "recommendations": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
+      "status": "no_data"
     }
   },
   "holders_data": {
     "major_holders": {
-      "status": "error"
+      "status": "no_data"
     },
     "institutional_holders": {
-      "status": "error"
+      "status": "no_data"
     }
   },
   "earnings_data": {
@@ -48,7 +52,7 @@
     },
     "calendar": {
       "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
+      "message": "'dict' object has no attribute 'empty'"
     }
   }
 }

@@ -1,13 +1,94 @@
 {
   "ticker": "TETE",
-  "timestamp": "2026-01-02T04:45:35.624623",
+  "timestamp": "2026-01-03T05:04:52.089112",
   "intraday_data": {
     "status": "no_data",
     "message": "No intraday data available"
   },
   "stock_info": {
-    "status": "error",
-    "message": "Too Many Requests. Rate limited. Try after a while."
+    "status": "success",
+    "data": {
+      "address1": "C3-2-23A, Jalan 1/152",
+      "address2": "Taman OUG Parklane Off Jalan Kelang Lama",
+      "city": "Kuala Lumpur",
+      "zip": "58200",
+      "country": "Malaysia",
+      "phone": "60 1 2334 8193",
+      "website": "https://www.tete-acquisition.com",
+      "industry": "Shell Companies",
+      "industryKey": "shell-companies",
+      "industryDisp": "Shell Companies",
+      "sector": "Financial Services",
+      "sectorKey": "financial-services",
+      "sectorDisp": "Financial Services",
+      "longBusinessSummary": "Technology & Telecommunication Acquisition Corporation does not have significant operations. The company focuses on effecting a merger, share exchange, asset acquisition, share purchase, reorganization, or similar business combination with one or more businesses or entities. Technology & Telecommunication Acquisition Corporation was incorporated in 2021 and is headquartered in Kuala Lumpur, Malaysia.",
+      "maxAge": 86400,
+      "priceHint": 2,
+      "previousClose": 0.0,
+      "regularMarketPreviousClose": 0.0,
+      "payoutRatio": 0.0,
+      "beta": 0.005,
+      "currency": "USD",
+      "tradeable": false,
+      "enterpriseValue": 78119496,
+      "profitMargins": 0.0,
+      "floatShares": 2692190,
+      "sharesShort": 2169,
+      "sharesShortPriorMonth": 1871,
+      "sharesShortPreviousMonthDate": 1732838400,
+      "dateShortInterest": 1735603200,
+      "sharesPercentSharesOut": 0.0004,
+      "heldPercentInsiders": 0.57022,
+      "heldPercentInstitutions": 0.39043,
+      "shortRatio": 0.26,
+      "shortPercentOfFloat": 0.001,
+      "lastFiscalYearEnd": 1701302400,
+      "nextFiscalYearEnd": 1732924800,
+      "mostRecentQuarter": 1725062400,
+      "earningsQuarterlyGrowth": 0.725,
+      "netIncomeToCommon": 105261,
+      "SandP52WeekChange": 0.14561749,
+      "quoteType": "EQUITY",
+      "currentPrice": 12.5,
+      "recommendationKey": "none",
+      "totalCash": 40533,
+      "totalCashPerShare": 0.007,
+      "totalDebt": 3463277,
+      "quickRatio": 0.009,
+      "currentRatio": 0.021,
+      "returnOnAssets": -0.031770002,
+      "freeCashflow": 11864,
+      "operatingCashflow": -599942,
+      "earningsGrowth": 0.876,
+      "grossMargins": 0.0,
+      "ebitdaMargins": 0.0,
+      "operatingMargins": 0.0,
+      "financialCurrency": "USD",
+      "symbol": "TETE",
+      "language": "en-US",
+      "region": "US",
+      "typeDisp": "Equity",
+      "quoteSourceName": "Delayed Quote",
+      "triggerable": true,
+      "customPriceAlertConfidence": "HIGH",
+      "cryptoTradeable": false,
+      "regularMarketChange": 12.5,
+      "hasPrePostMarketData": true,
+      "fullExchangeName": "NasdaqGM",
+      "marketState": "CLOSED",
+      "regularMarketTime": 1764104400,
+      "exchange": "NGM",
+      "exchangeTimezoneName": "America/New_York",
+      "exchangeTimezoneShortName": "EST",
+      "gmtOffSetMilliseconds": -18000000,
+      "market": "us_market",
+      "esgPopulated": false,
+      "regularMarketPrice": 12.5,
+      "shortName": "Technology & Telecommunication ",
+      "sourceInterval": 15,
+      "exchangeDataDelayedBy": 0,
+      "displayName": "Technology & Telecommunication"
+    }
   },
   "financials": {
     "income_statement": {
@@ -21,24 +102,36 @@
     }
   },
   "options_data": {
-    "status": "error",
-    "error_message": "Too Many Requests. Rate limited. Try after a while."
+    "expirations": []
   },
   "news_data": {
     "news": {
       "status": "no_data"
     },
     "recommendations": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
+      "status": "no_data"
     }
   },
   "holders_data": {
     "major_holders": {
-      "status": "error"
+      "status": "success",
+      "data": [
+        {
+          "Value": 0.57022
+        },
+        {
+          "Value": 0.39043
+        },
+        {
+          "Value": 0.90845
+        },
+        {
+          "Value": 14.0
+        }
+      ]
     },
     "institutional_holders": {
-      "status": "error"
+      "status": "no_data"
     }
   },
   "earnings_data": {
@@ -48,7 +141,7 @@
     },
     "calendar": {
       "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
+      "message": "'dict' object has no attribute 'empty'"
     }
   }
 }

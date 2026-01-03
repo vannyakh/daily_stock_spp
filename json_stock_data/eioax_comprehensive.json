@@ -1,22 +1,71 @@
 {
   "ticker": "EIOAX",
-  "timestamp": "2026-01-02T04:59:32.257373",
+  "timestamp": "2026-01-03T05:40:29.621822",
   "intraday_data": {
     "status": "success",
     "rows": 1,
     "data": [
       {
-        "Close": 8.420000076293945,
-        "High": 8.420000076293945,
-        "Low": 8.420000076293945,
-        "Open": 8.420000076293945,
-        "Volume": 0
+        "Close CNROX": 5.289999961853027,
+        "High CNROX": 5.289999961853027,
+        "Low CNROX": 5.289999961853027,
+        "Open CNROX": 5.289999961853027,
+        "Volume CNROX": 0
       }
     ]
   },
   "stock_info": {
-    "status": "error",
-    "message": "Too Many Requests. Rate limited. Try after a while."
+    "status": "success",
+    "data": {
+      "quoteType": "MUTUALFUND",
+      "symbol": "EIOAX",
+      "language": "en-US",
+      "region": "US",
+      "typeDisp": "Fund",
+      "quoteSourceName": "Delayed Quote",
+      "triggerable": false,
+      "customPriceAlertConfidence": "NONE",
+      "currency": "USD",
+      "hasPrePostMarketData": false,
+      "firstTradeDateMilliseconds": 1576506600000,
+      "priceHint": 2,
+      "regularMarketChange": 0.01,
+      "regularMarketPreviousClose": 8.42,
+      "fullExchangeName": "Nasdaq",
+      "fiftyTwoWeekLowChange": 0.010000229,
+      "fiftyTwoWeekLowChangePercent": 0.0011876756,
+      "fiftyTwoWeekRange": "8.42 - 9.0",
+      "fiftyTwoWeekHighChange": -0.5699997,
+      "fiftyTwoWeekHighChangePercent": -0.0633333,
+      "fiftyTwoWeekLow": 8.42,
+      "fiftyTwoWeekHigh": 9.0,
+      "fiftyTwoWeekChangePercent": -4.2093277,
+      "trailingAnnualDividendRate": 0.0,
+      "trailingAnnualDividendYield": 0.0,
+      "marketState": "CLOSED",
+      "regularMarketChangePercent": 0.11876485,
+      "regularMarketPrice": 8.43,
+      "fiftyDayAverage": 8.6928,
+      "fiftyDayAverageChange": -0.26279926,
+      "fiftyDayAverageChangePercent": -0.030231833,
+      "twoHundredDayAverage": 8.80595,
+      "twoHundredDayAverageChange": -0.37594986,
+      "twoHundredDayAverageChangePercent": -0.04269271,
+      "sourceInterval": 15,
+      "exchangeDataDelayedBy": 0,
+      "tradeable": false,
+      "cryptoTradeable": false,
+      "shortName": "Ellington Income Opportunities ",
+      "longName": "Ellington Income Opportunities Fund",
+      "regularMarketTime": 1767402047,
+      "exchange": "NAS",
+      "messageBoardId": "finmb_584221503",
+      "exchangeTimezoneName": "America/New_York",
+      "exchangeTimezoneShortName": "EST",
+      "gmtOffSetMilliseconds": -18000000,
+      "market": "us_market",
+      "esgPopulated": false
+    }
   },
   "financials": {
     "income_statement": {
@@ -30,25 +79,22 @@
     }
   },
   "options_data": {
-    "status": "error",
-    "error_message": "Too Many Requests. Rate limited. Try after a while."
+    "expirations": []
   },
   "news_data": {
     "news": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
+      "status": "no_data"
     },
     "recommendations": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
+      "status": "no_data"
     }
   },
   "holders_data": {
     "major_holders": {
-      "status": "error"
+      "status": "no_data"
     },
     "institutional_holders": {
-      "status": "error"
+      "status": "no_data"
     }
   },
   "earnings_data": {
@@ -58,7 +104,7 @@
     },
     "calendar": {
       "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
+      "message": "'dict' object has no attribute 'empty'"
     }
   }
 }

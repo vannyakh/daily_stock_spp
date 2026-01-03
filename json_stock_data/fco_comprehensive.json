@@ -1,6 +1,6 @@
 {
   "ticker": "FCO",
-  "timestamp": "2026-01-02T04:45:19.041379",
+  "timestamp": "2026-01-03T05:04:00.746891",
   "intraday_data": {
     "status": "no_data",
     "message": "No intraday data available"
@@ -29,111 +29,16 @@
       "status": "no_data"
     },
     "recommendations": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   },
   "holders_data": {
     "major_holders": {
-      "status": "success",
-      "data": [
-        {
-          "Value": 7e-05
-        },
-        {
-          "Value": 0.05658
-        },
-        {
-          "Value": 0.05658
-        },
-        {
-          "Value": 26.0
-        }
-      ]
+      "status": "error"
     },
     "institutional_holders": {
-      "status": "success",
-      "data": [
-        {
-          "Date Reported": "2025-09-30 00:00:00",
-          "Holder": "Marex Group Plc",
-          "pctHeld": 0.0178,
-          "Shares": 239584,
-          "Value": 700783,
-          "pctChange": 1.0
-        },
-        {
-          "Date Reported": "2025-09-30 00:00:00",
-          "Holder": "OPPENHEIMER & CO INC",
-          "pctHeld": 0.0091,
-          "Shares": 123036,
-          "Value": 359880,
-          "pctChange": 0.106300004
-        },
-        {
-          "Date Reported": "2025-09-30 00:00:00",
-          "Holder": "Jane Street Group, LLC",
-          "pctHeld": 0.0069999998,
-          "Shares": 93702,
-          "Value": 274078,
-          "pctChange": 1.0
-        },
-        {
-          "Date Reported": "2025-09-30 00:00:00",
-          "Holder": "Susquehanna International Group, LLP",
-          "pctHeld": 0.004,
-          "Shares": 53629,
-          "Value": 156864,
-          "pctChange": 1.6705
-        },
-        {
-          "Date Reported": "2025-09-30 00:00:00",
-          "Holder": "Commonwealth Equity Services, LLC",
-          "pctHeld": 0.0028,
-          "Shares": 37509,
-          "Value": 109713,
-          "pctChange": 0.6848
-        },
-        {
-          "Date Reported": "2025-09-30 00:00:00",
-          "Holder": "Morgan Stanley",
-          "pctHeld": 0.0017,
-          "Shares": 22898,
-          "Value": 66976,
-          "pctChange": -0.4737
-        },
-        {
-          "Date Reported": "2025-09-30 00:00:00",
-          "Holder": "Stratos Wealth Partners, Ltd.",
-          "pctHeld": 0.0016,
-          "Shares": 20900,
-          "Value": 61132,
-          "pctChange": 0.1676
-        },
-        {
-          "Date Reported": "2025-09-30 00:00:00",
-          "Holder": "Shufro, Rose & Co., LLC",
-          "pctHeld": 0.0016,
-          "Shares": 21400,
-          "Value": 62594,
-          "pctChange": 0.0
-        },
-        {
-          "Date Reported": "2025-09-30 00:00:00",
-          "Holder": "NewEdge Advisors, LLC",
-          "pctHeld": 0.0013,
-          "Shares": 17884,
-          "Value": 52310,
-          "pctChange": -0.3369
-        },
-        {
-          "Date Reported": "2025-09-30 00:00:00",
-          "Holder": "Osaic Holdings Inc.",
-          "pctHeld": 0.0011999999,
-          "Shares": 16072,
-          "Value": 47010,
-          "pctChange": 0.116000004
-        }
-      ]
+      "status": "error"
     }
   },
   "earnings_data": {
@@ -143,7 +48,7 @@
     },
     "calendar": {
       "status": "error",
-      "message": "'dict' object has no attribute 'empty'"
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   }
 }

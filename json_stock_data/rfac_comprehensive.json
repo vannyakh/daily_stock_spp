@@ -1,85 +1,13 @@
 {
   "ticker": "RFAC",
-  "timestamp": "2026-01-02T04:46:22.244697",
+  "timestamp": "2026-01-03T05:07:00.625034",
   "intraday_data": {
-    "status": "success",
-    "rows": 10,
-    "data": [
-      {
-        "Close AYRWF": 0.02199999988079071,
-        "High AYRWF": 0.02199999988079071,
-        "Low AYRWF": 0.02199999988079071,
-        "Open AYRWF": 0.02199999988079071,
-        "Volume AYRWF": 0
-      },
-      {
-        "Close AYRWF": 0.020999999716877937,
-        "High AYRWF": 0.020999999716877937,
-        "Low AYRWF": 0.020999999716877937,
-        "Open AYRWF": 0.020999999716877937,
-        "Volume AYRWF": 189
-      },
-      {
-        "Close AYRWF": 0.020999999716877937,
-        "High AYRWF": 0.020999999716877937,
-        "Low AYRWF": 0.020999999716877937,
-        "Open AYRWF": 0.020999999716877937,
-        "Volume AYRWF": 102
-      },
-      {
-        "Close AYRWF": 0.020999999716877937,
-        "High AYRWF": 0.020999999716877937,
-        "Low AYRWF": 0.020999999716877937,
-        "Open AYRWF": 0.020999999716877937,
-        "Volume AYRWF": 1282
-      },
-      {
-        "Close AYRWF": 0.02199999988079071,
-        "High AYRWF": 0.02199999988079071,
-        "Low AYRWF": 0.02199999988079071,
-        "Open AYRWF": 0.02199999988079071,
-        "Volume AYRWF": 20000
-      },
-      {
-        "Close AYRWF": 0.020999999716877937,
-        "High AYRWF": 0.020999999716877937,
-        "Low AYRWF": 0.020999999716877937,
-        "Open AYRWF": 0.020999999716877937,
-        "Volume AYRWF": 100
-      },
-      {
-        "Close AYRWF": 0.020999999716877937,
-        "High AYRWF": 0.020999999716877937,
-        "Low AYRWF": 0.020999999716877937,
-        "Open AYRWF": 0.020999999716877937,
-        "Volume AYRWF": 45327
-      },
-      {
-        "Close AYRWF": 0.02500000037252903,
-        "High AYRWF": 0.02500000037252903,
-        "Low AYRWF": 0.02500000037252903,
-        "Open AYRWF": 0.02500000037252903,
-        "Volume AYRWF": 10000
-      },
-      {
-        "Close AYRWF": 0.021900000050663948,
-        "High AYRWF": 0.021900000050663948,
-        "Low AYRWF": 0.021900000050663948,
-        "Open AYRWF": 0.021900000050663948,
-        "Volume AYRWF": 1739
-      },
-      {
-        "Close AYRWF": 0.019999999552965164,
-        "High AYRWF": 0.019999999552965164,
-        "Low AYRWF": 0.019999999552965164,
-        "Open AYRWF": 0.019999999552965164,
-        "Volume AYRWF": 19887
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
-    "message": "Too Many Requests. Rate limited. Try after a while."
+    "message": "argument of type 'NoneType' is not iterable"
   },
   "financials": {
     "income_statement": {
@@ -93,24 +21,22 @@
     }
   },
   "options_data": {
-    "status": "error",
-    "error_message": "Too Many Requests. Rate limited. Try after a while."
+    "expirations": []
   },
   "news_data": {
     "news": {
       "status": "no_data"
     },
     "recommendations": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
+      "status": "no_data"
     }
   },
   "holders_data": {
     "major_holders": {
-      "status": "error"
+      "status": "no_data"
     },
     "institutional_holders": {
-      "status": "error"
+      "status": "no_data"
     }
   },
   "earnings_data": {
@@ -120,7 +46,7 @@
     },
     "calendar": {
       "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
+      "message": "'dict' object has no attribute 'empty'"
     }
   }
 }

@@ -1,13 +1,116 @@
 {
   "ticker": "EP-PC",
-  "timestamp": "2026-01-02T05:00:21.417162",
+  "timestamp": "2026-01-03T05:43:04.337440",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 4,
+    "data": [
+      {
+        "Close": 49.349998474121094,
+        "High": 49.349998474121094,
+        "Low": 49.349998474121094,
+        "Open": 49.349998474121094,
+        "Volume": 0
+      },
+      {
+        "Close": 49.28160095214844,
+        "High": 49.28160095214844,
+        "Low": 49.28160095214844,
+        "Open": 49.28160095214844,
+        "Volume": 250
+      },
+      {
+        "Close": 49.279998779296875,
+        "High": 49.279998779296875,
+        "Low": 49.279998779296875,
+        "Open": 49.279998779296875,
+        "Volume": 100
+      },
+      {
+        "Close": 49.150001525878906,
+        "High": 49.18000030517578,
+        "Low": 49.150001525878906,
+        "Open": 49.18000030517578,
+        "Volume": 1895
+      }
+    ]
   },
   "stock_info": {
-    "status": "error",
-    "message": "Too Many Requests. Rate limited. Try after a while."
+    "status": "success",
+    "data": {
+      "maxAge": 86400,
+      "priceHint": 2,
+      "previousClose": 49.15,
+      "open": 49.35,
+      "dayLow": 49.15,
+      "dayHigh": 49.2816,
+      "regularMarketPreviousClose": 49.15,
+      "regularMarketOpen": 49.35,
+      "regularMarketDayLow": 49.15,
+      "regularMarketDayHigh": 49.2816,
+      "volume": 2803,
+      "regularMarketVolume": 2803,
+      "averageVolume": 2257,
+      "averageVolume10days": 2934,
+      "averageDailyVolume10Day": 2934,
+      "bid": 49.15,
+      "ask": 78.96,
+      "bidSize": 400,
+      "askSize": 100,
+      "fiftyTwoWeekLow": 47.41,
+      "fiftyTwoWeekHigh": 49.88,
+      "allTimeHigh": 92.17,
+      "allTimeLow": 11.82,
+      "fiftyDayAverage": 49.38393,
+      "twoHundredDayAverage": 49.15359,
+      "currency": "USD",
+      "tradeable": false,
+      "quoteType": "EQUITY",
+      "symbol": "EP-PC",
+      "language": "en-US",
+      "region": "US",
+      "typeDisp": "Equity",
+      "quoteSourceName": "Delayed Quote",
+      "triggerable": true,
+      "customPriceAlertConfidence": "HIGH",
+      "hasPrePostMarketData": true,
+      "firstTradeDateMilliseconds": 889713000000,
+      "postMarketChangePercent": 0.0,
+      "postMarketPrice": 49.15,
+      "postMarketChange": 0.0,
+      "regularMarketChange": 0.0,
+      "regularMarketDayRange": "49.15 - 49.2816",
+      "regularMarketChangePercent": 0.0,
+      "regularMarketPrice": 49.15,
+      "marketState": "CLOSED",
+      "shortName": "El Paso Corporation Preferred S",
+      "longName": "El Paso Energy Capital Trust I PFD CV TR SECS",
+      "fullExchangeName": "NYSE",
+      "averageDailyVolume3Month": 2257,
+      "fiftyTwoWeekLowChange": 1.7400017,
+      "fiftyTwoWeekLowChangePercent": 0.036701154,
+      "fiftyTwoWeekRange": "47.41 - 49.88",
+      "fiftyTwoWeekHighChange": -0.72999954,
+      "fiftyTwoWeekHighChangePercent": -0.014635115,
+      "fiftyTwoWeekChangePercent": 2.3958325,
+      "dividendDate": 1767139200,
+      "twoHundredDayAverageChangePercent": -7.3028845e-05,
+      "postMarketTime": 1767388141,
+      "regularMarketTime": 1767382609,
+      "exchange": "NYQ",
+      "messageBoardId": "finmb_3198700",
+      "exchangeTimezoneName": "America/New_York",
+      "exchangeTimezoneShortName": "EST",
+      "gmtOffSetMilliseconds": -18000000,
+      "market": "us_market",
+      "esgPopulated": false,
+      "fiftyDayAverageChange": -0.23392868,
+      "fiftyDayAverageChangePercent": -0.0047369394,
+      "twoHundredDayAverageChange": -0.0035896301,
+      "sourceInterval": 15,
+      "exchangeDataDelayedBy": 0,
+      "cryptoTradeable": false
+    }
   },
   "financials": {
     "income_statement": {
@@ -21,25 +124,22 @@
     }
   },
   "options_data": {
-    "status": "error",
-    "error_message": "Too Many Requests. Rate limited. Try after a while."
+    "expirations": []
   },
   "news_data": {
     "news": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
+      "status": "no_data"
     },
     "recommendations": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
+      "status": "no_data"
     }
   },
   "holders_data": {
     "major_holders": {
-      "status": "error"
+      "status": "no_data"
     },
     "institutional_holders": {
-      "status": "error"
+      "status": "no_data"
     }
   },
   "earnings_data": {
@@ -49,7 +149,7 @@
     },
     "calendar": {
       "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
+      "message": "'dict' object has no attribute 'empty'"
     }
   }
 }

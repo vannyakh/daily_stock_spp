@@ -1,9 +1,25 @@
 {
   "ticker": "DMN",
-  "timestamp": "2026-01-02T04:48:51.515715",
+  "timestamp": "2026-01-03T05:13:08.134919",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 2,
+    "data": [
+      {
+        "Close AIEV": 0.1679999977350235,
+        "High AIEV": 0.24199999868869781,
+        "Low AIEV": 0.1679999977350235,
+        "Open AIEV": 0.24199999868869781,
+        "Volume AIEV": 0
+      },
+      {
+        "Close AIEV": 0.22499999403953552,
+        "High AIEV": 0.22499999403953552,
+        "Low AIEV": 0.22499999403953552,
+        "Open AIEV": 0.22499999403953552,
+        "Volume AIEV": 20
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -88,7 +104,8 @@
       ]
     },
     "recommendations": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   },
   "holders_data": {

@@ -1,124 +1,610 @@
 {
   "ticker": "BLTE",
-  "timestamp": "2026-01-02T04:36:01.604739",
+  "timestamp": "2026-01-03T04:42:20.889196",
   "intraday_data": {
-    "status": "success",
-    "rows": 14,
-    "data": [
-      {
-        "Close KEN": 66.63999938964844,
-        "High KEN": 66.63999938964844,
-        "Low KEN": 66.63999938964844,
-        "Open KEN": 66.63999938964844,
-        "Volume KEN": 662
-      },
-      {
-        "Close KEN": 67.0198974609375,
-        "High KEN": 67.0198974609375,
-        "Low KEN": 67.0198974609375,
-        "Open KEN": 67.0198974609375,
-        "Volume KEN": 267
-      },
-      {
-        "Close KEN": 66.57479858398438,
-        "High KEN": 66.57479858398438,
-        "Low KEN": 66.57479858398438,
-        "Open KEN": 66.57479858398438,
-        "Volume KEN": 320
-      },
-      {
-        "Close KEN": 66.6500015258789,
-        "High KEN": 66.6500015258789,
-        "Low KEN": 66.6500015258789,
-        "Open KEN": 66.6500015258789,
-        "Volume KEN": 434
-      },
-      {
-        "Close KEN": 66.80370330810547,
-        "High KEN": 66.80370330810547,
-        "Low KEN": 66.80370330810547,
-        "Open KEN": 66.80370330810547,
-        "Volume KEN": 206
-      },
-      {
-        "Close KEN": 66.04000091552734,
-        "High KEN": 66.91000366210938,
-        "Low KEN": 66.04000091552734,
-        "Open KEN": 66.87999725341797,
-        "Volume KEN": 1420
-      },
-      {
-        "Close KEN": 66.30000305175781,
-        "High KEN": 66.30000305175781,
-        "Low KEN": 66.30000305175781,
-        "Open KEN": 66.30000305175781,
-        "Volume KEN": 460
-      },
-      {
-        "Close KEN": 65.87000274658203,
-        "High KEN": 65.87000274658203,
-        "Low KEN": 65.87000274658203,
-        "Open KEN": 65.87000274658203,
-        "Volume KEN": 308
-      },
-      {
-        "Close KEN": 66.50659942626953,
-        "High KEN": 66.50659942626953,
-        "Low KEN": 66.50659942626953,
-        "Open KEN": 66.50659942626953,
-        "Volume KEN": 438
-      },
-      {
-        "Close KEN": 66.12429809570312,
-        "High KEN": 66.12429809570312,
-        "Low KEN": 66.12429809570312,
-        "Open KEN": 66.12429809570312,
-        "Volume KEN": 235
-      },
-      {
-        "Close KEN": 66.85749816894531,
-        "High KEN": 66.85749816894531,
-        "Low KEN": 66.85749816894531,
-        "Open KEN": 66.85749816894531,
-        "Volume KEN": 925
-      },
-      {
-        "Close KEN": 66.30860137939453,
-        "High KEN": 66.30860137939453,
-        "Low KEN": 66.30860137939453,
-        "Open KEN": 66.30860137939453,
-        "Volume KEN": 229
-      },
-      {
-        "Close KEN": 66.52999877929688,
-        "High KEN": 66.52999877929688,
-        "Low KEN": 66.52999877929688,
-        "Open KEN": 66.52999877929688,
-        "Volume KEN": 550
-      },
-      {
-        "Close KEN": 66.19999694824219,
-        "High KEN": 66.19999694824219,
-        "Low KEN": 66.19999694824219,
-        "Open KEN": 66.19999694824219,
-        "Volume KEN": 202
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
-    "message": "argument of type 'NoneType' is not iterable"
+    "message": "Too Many Requests. Rate limited. Try after a while."
   },
   "financials": {
     "income_statement": {
+      "status": "no_data"
+    },
+    "balance_sheet": {
+      "status": "no_data"
+    },
+    "cash_flow": {
+      "status": "no_data"
+    }
+  },
+  "options_data": {
+    "status": "error",
+    "error_message": "Too Many Requests. Rate limited. Try after a while."
+  },
+  "news_data": {
+    "news": {
       "status": "success",
-      "rows": 38,
-      "columns": [
-        "2024-12-31 00:00:00",
-        "2023-12-31 00:00:00",
-        "2022-12-31 00:00:00",
-        "2021-12-31 00:00:00"
-      ],
+      "count": 10,
       "data": [
         {
-          
+          "id": "e377731f-a0be-3d07-a762-71b5dbd93b8e",
+          "content": {
+            "id": "e377731f-a0be-3d07-a762-71b5dbd93b8e",
+            "contentType": "STORY",
+            "title": "Has Belite Bio\u2019s 134% 2025 Surge Fully Reflected Its DCF and Book Value Picture",
+            "description": "",
+            "summary": "If you are wondering whether Belite Bio is still a sensible consideration after its huge run up, or if you are arriving just as the story is peaking, you are not alone. That is exactly what this breakdown aims to unpack. The stock has surged recently, climbing 17.1% over the last week, 36.6% over the last month and an eye catching 134.4% year to date, with a 133.5% gain over the past year and 391.2% over three years reshaping how the market prices its potential. Those gains have been...",
+            "pubDate": "2025-12-04T05:11:56Z",
+            "displayTime": "2025-12-04T05:11:56Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": {
+              "originalUrl": "https://media.zenfs.com/en/simply_wall_st__316/8b2f1fb8ed1ddbd9c7702732b1ea0316",
+              "originalWidth": 1194,
+              "originalHeight": 432,
+              "caption": "",
+              "resolutions": [
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/H9sVDVM9mi9ws1HvXhxW7w--~B/aD00MzI7dz0xMTk0O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/simply_wall_st__316/8b2f1fb8ed1ddbd9c7702732b1ea0316",
+                  "width": 1194,
+                  "height": 432,
+                  "tag": "original"
+                },
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/hEYH.lZROAe2G_yFC8lOdg--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/simply_wall_st__316/8b2f1fb8ed1ddbd9c7702732b1ea0316",
+                  "width": 170,
+                  "height": 128,
+                  "tag": "170x128"
+                }
+              ]
+            },
+            "provider": {
+              "displayName": "Simply Wall St.",
+              "url": "https://simplywall.st/"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/belite-bio-134-2025-surge-051156593.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/belite-bio-134-2025-surge-051156593.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        },
+        {
+          "id": "471af11c-e99c-3430-9a3d-db9ff3bf66ce",
+          "content": {
+            "id": "471af11c-e99c-3430-9a3d-db9ff3bf66ce",
+            "contentType": "STORY",
+            "title": "Belite eyes tinlarebant approval after late-stage Stargardt success",
+            "description": "",
+            "summary": "While GlobalData analyst Sara Reci touted the DRAGON results as a \u201cbreakthrough\u201d in STGD1, she noted that barriers to widespread uptake remain.",
+            "pubDate": "2025-12-02T12:22:29Z",
+            "displayTime": "2025-12-02T12:22:29Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": {
+              "originalUrl": "https://media.zenfs.com/en/clinical_trials_arena_396/dfece57af279dfac7a3a97ba14127b8f",
+              "originalWidth": 1000,
+              "originalHeight": 668,
+              "caption": "Belite Bio's ophthalmology asset",
+              "resolutions": [
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/3B4FRwugSQjVSHMRQAUWCw--~B/aD02Njg7dz0xMDAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/clinical_trials_arena_396/dfece57af279dfac7a3a97ba14127b8f",
+                  "width": 1000,
+                  "height": 668,
+                  "tag": "original"
+                },
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/foLrOAhp15PoEVAdEKOstQ--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/clinical_trials_arena_396/dfece57af279dfac7a3a97ba14127b8f",
+                  "width": 170,
+                  "height": 128,
+                  "tag": "170x128"
+                }
+              ]
+            },
+            "provider": {
+              "displayName": "Clinical Trials Arena",
+              "url": "https://www.globaldata.com/"
+            },
+            "canonicalUrl": {
+              "url": "https://www.clinicaltrialsarena.com/news/belite-bio-tinlarebant-stargardt-disease-1-phase-iii-dragon/",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/belite-eyes-tinlarebant-approval-stage-122229356.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        },
+        {
+          "id": "e6ad1ffd-51fe-3ed6-962d-8ef929c48d5f",
+          "content": {
+            "id": "e6ad1ffd-51fe-3ed6-962d-8ef929c48d5f",
+            "contentType": "STORY",
+            "title": "Why Belite Bio Stock Soared on Monday",
+            "description": "",
+            "summary": "The company is now tantalizingly close to commercializing its leading drug candidate.",
+            "pubDate": "2025-12-01T23:45:34Z",
+            "displayTime": "2025-12-01T23:45:34Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": {
+              "originalUrl": "https://media.zenfs.com/en/motleyfool.com/46a8f09ccae8c22252e574ed78124e2d",
+              "originalWidth": 1400,
+              "originalHeight": 683,
+              "caption": "Person in a lab gazing into a microscope.",
+              "resolutions": [
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/vIOECCjTKCrgtfmRTtEKew--~B/aD02ODM7dz0xNDAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/motleyfool.com/46a8f09ccae8c22252e574ed78124e2d",
+                  "width": 1400,
+                  "height": 683,
+                  "tag": "original"
+                },
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/qKIm6gEnzyfM5UqSF6B9tA--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/motleyfool.com/46a8f09ccae8c22252e574ed78124e2d",
+                  "width": 170,
+                  "height": 128,
+                  "tag": "170x128"
+                }
+              ]
+            },
+            "provider": {
+              "displayName": "Motley Fool",
+              "url": "http://www.fool.com/"
+            },
+            "canonicalUrl": {
+              "url": "https://www.fool.com/investing/2025/12/01/why-belite-bio-stock-soared-on-monday/",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/why-belite-bio-stock-soared-234534014.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        },
+        {
+          "id": "6cd29a41-c6b7-3762-90d8-dbb18876a3ce",
+          "content": {
+            "id": "6cd29a41-c6b7-3762-90d8-dbb18876a3ce",
+            "contentType": "STORY",
+            "title": "Top Midday Gainers",
+            "description": "",
+            "summary": "Q32 Bio's (QTTB) shares doubled amid heavy trading after the company said Monday it sold alopecia ar",
+            "pubDate": "2025-12-01T18:32:48Z",
+            "displayTime": "2025-12-01T18:32:48Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": null,
+            "provider": {
+              "displayName": "MT Newswires",
+              "url": "https://www.mtnewswires.com/"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/top-midday-gainers-183248176.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/top-midday-gainers-183248176.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": true,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        },
+        {
+          "id": "93c9d7df-e464-35b6-9064-ef3f800a877f",
+          "content": {
+            "id": "93c9d7df-e464-35b6-9064-ef3f800a877f",
+            "contentType": "STORY",
+            "title": "Exchange-Traded Funds, Equity Futures Lower Pre-Bell Monday Ahead of Manufacturing Reports",
+            "description": "",
+            "summary": "The broad market exchange-traded fund SPDR S&P 500 ETF Trust (SPY) was down 0.7% and the actively tr",
+            "pubDate": "2025-12-01T13:57:43Z",
+            "displayTime": "2025-12-01T13:57:43Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": null,
+            "provider": {
+              "displayName": "MT Newswires",
+              "url": "https://www.mtnewswires.com/"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/exchange-traded-funds-equity-futures-135743098.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/exchange-traded-funds-equity-futures-135743098.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": true,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        },
+        {
+          "id": "849558d7-61a9-3a69-8805-ffcf1912fd4a",
+          "content": {
+            "id": "849558d7-61a9-3a69-8805-ffcf1912fd4a",
+            "contentType": "STORY",
+            "title": "Belite continues ascent as Stargardt drug hits mark in late-stage trial",
+            "description": "",
+            "summary": "The results position Belite, one of the sector\u2019s top-performing companies since 2022, to seek approval of what could be the first marketed medicine for the rare eye condition.",
+            "pubDate": "2025-12-01T08:53:00Z",
+            "displayTime": "2025-12-01T08:53:00Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": {
+              "originalUrl": "https://media.zenfs.com/en/biopharma_dive_768/dabed6584335284bacd0fab77b65c57a",
+              "originalWidth": 1600,
+              "originalHeight": 900,
+              "caption": "A light beam shines through the retina and lens on an eye exam.",
+              "resolutions": [
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/HwwSgpFW_MBwDRIEMp163g--~B/aD05MDA7dz0xNjAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/biopharma_dive_768/dabed6584335284bacd0fab77b65c57a",
+                  "width": 1600,
+                  "height": 900,
+                  "tag": "original"
+                },
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/OQQ.SPn1MCcTKB45Q8VWuw--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/biopharma_dive_768/dabed6584335284bacd0fab77b65c57a",
+                  "width": 170,
+                  "height": 128,
+                  "tag": "170x128"
+                }
+              ]
+            },
+            "provider": {
+              "displayName": "BioPharma Dive",
+              "url": "https://biopharmadive.com/"
+            },
+            "canonicalUrl": {
+              "url": "https://www.biopharmadive.com/news/belite-stargardt-tinlarebant-dragon-study-results/806622/",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/belite-continues-ascent-stargardt-drug-085300761.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        },
+        {
+          "id": "3f0aa372-f448-35e9-a84b-42a3c887f96f",
+          "content": {
+            "id": "3f0aa372-f448-35e9-a84b-42a3c887f96f",
+            "contentType": "STORY",
+            "title": "Astera initiated, Nasdaq upgraded: Wall Street's top analyst calls",
+            "description": "",
+            "summary": "Astera initiated, Nasdaq upgraded: Wall Street's top analyst calls",
+            "pubDate": "2025-11-20T14:40:11Z",
+            "displayTime": "2025-11-20T14:40:11Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": {
+              "originalUrl": "https://media.zenfs.com/en/the_fly_169/5039a5ccc6ec98e1b92bc672330bfcec",
+              "originalWidth": 1200,
+              "originalHeight": 628,
+              "caption": "",
+              "resolutions": [
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/zUit8GQVW5kcaTZHEPMI9Q--~B/aD02Mjg7dz0xMjAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/the_fly_169/5039a5ccc6ec98e1b92bc672330bfcec",
+                  "width": 1200,
+                  "height": 628,
+                  "tag": "original"
+                },
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/gS79B8voAjWV.54rV5PgVg--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/the_fly_169/5039a5ccc6ec98e1b92bc672330bfcec",
+                  "width": 170,
+                  "height": 128,
+                  "tag": "170x128"
+                }
+              ]
+            },
+            "provider": {
+              "displayName": "The Fly",
+              "url": "https://thefly.com/"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/astera-initiated-nasdaq-upgraded-wall-144011671.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/astera-initiated-nasdaq-upgraded-wall-144011671.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        },
+        {
+          "id": "ca3631c1-e30a-33b5-a4e6-bbd27cd6cd09",
+          "content": {
+            "id": "ca3631c1-e30a-33b5-a4e6-bbd27cd6cd09",
+            "contentType": "STORY",
+            "title": "Belite Bio (BLTE): Exploring Valuation Following Recent Share Price Surge",
+            "description": "",
+            "summary": "Belite Bio (BLTE) shares have climbed nearly 44% over the past month, catching the attention of growth-oriented investors. The company\u2019s momentum stands out in a volatile biotech sector and has prompted closer looks at what is driving recent gains. See our latest analysis for Belite Bio. Belite Bio's recent surge is part of a much bigger story, with a 44% jump in the last month helping to fuel an impressive 80% share price return year-to-date. Momentum has really kicked in, and while there...",
+            "pubDate": "2025-11-15T11:14:14Z",
+            "displayTime": "2025-11-15T11:14:14Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": {
+              "originalUrl": "https://media.zenfs.com/en/simply_wall_st__316/8b2f1fb8ed1ddbd9c7702732b1ea0316",
+              "originalWidth": 1194,
+              "originalHeight": 432,
+              "caption": "",
+              "resolutions": [
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/H9sVDVM9mi9ws1HvXhxW7w--~B/aD00MzI7dz0xMTk0O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/simply_wall_st__316/8b2f1fb8ed1ddbd9c7702732b1ea0316",
+                  "width": 1194,
+                  "height": 432,
+                  "tag": "original"
+                },
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/hEYH.lZROAe2G_yFC8lOdg--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/simply_wall_st__316/8b2f1fb8ed1ddbd9c7702732b1ea0316",
+                  "width": 170,
+                  "height": 128,
+                  "tag": "170x128"
+                }
+              ]
+            },
+            "provider": {
+              "displayName": "Simply Wall St.",
+              "url": "https://simplywall.st/"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/belite-bio-blte-exploring-valuation-111414709.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/belite-bio-blte-exploring-valuation-111414709.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        },
+        {
+          "id": "8b1371c7-996a-3f85-9f2d-174a50dcfd96",
+          "content": {
+            "id": "8b1371c7-996a-3f85-9f2d-174a50dcfd96",
+            "contentType": "STORY",
+            "title": "Belite Bio Inc (BLTE) Q3 2025 Earnings Call Highlights: Clinical Trials Progress and Financial ...",
+            "description": "",
+            "summary": "Belite Bio Inc (BLTE) advances in clinical trials and strengthens its financial position, despite increased R&D and G&A expenses impacting net loss.",
+            "pubDate": "2025-11-11T05:00:37Z",
+            "displayTime": "2025-11-11T05:00:37Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": null,
+            "provider": {
+              "displayName": "GuruFocus.com",
+              "url": "http://www.gurufocus.com/"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/belite-bio-inc-blte-q3-050037340.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/belite-bio-inc-blte-q3-050037340.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        },
+        {
+          "id": "043b56f2-2084-3f90-aebc-00f50f662739",
+          "content": {
+            "id": "043b56f2-2084-3f90-aebc-00f50f662739",
+            "contentType": "STORY",
+            "title": "Belite Bio (BLTE): Is the Biotech's High Valuation Justified After Its Recent Share Price Surge?",
+            "description": "",
+            "summary": "Belite Bio (NasdaqCM:BLTE) shares have seen strong momentum lately, capturing attention with a gain of over 51% so far this year. The company\u2019s performance stands out in the biotech sector and is prompting investors to look more closely at potential growth drivers. See our latest analysis for Belite Bio. Belite Bio\u2019s rally has been gaining steam, with its 1-month share price return of 34% helping drive a remarkable 51% rise so far this year. Momentum is clearly building. With a 1-year total...",
+            "pubDate": "2025-10-30T13:13:16Z",
+            "displayTime": "2025-10-30T13:13:16Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": {
+              "originalUrl": "https://media.zenfs.com/en/simply_wall_st__316/8b2f1fb8ed1ddbd9c7702732b1ea0316",
+              "originalWidth": 1194,
+              "originalHeight": 432,
+              "caption": "",
+              "resolutions": [
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/H9sVDVM9mi9ws1HvXhxW7w--~B/aD00MzI7dz0xMTk0O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/simply_wall_st__316/8b2f1fb8ed1ddbd9c7702732b1ea0316",
+                  "width": 1194,
+                  "height": 432,
+                  "tag": "original"
+                },
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/hEYH.lZROAe2G_yFC8lOdg--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/simply_wall_st__316/8b2f1fb8ed1ddbd9c7702732b1ea0316",
+                  "width": 170,
+                  "height": 128,
+                  "tag": "170x128"
+                }
+              ]
+            },
+            "provider": {
+              "displayName": "Simply Wall St.",
+              "url": "https://simplywall.st/"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/belite-bio-blte-biotechs-high-131316507.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/belite-bio-blte-biotechs-high-131316507.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        }
+      ]
+    },
+    "recommendations": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  },
+  "holders_data": {
+    "major_holders": {
+      "status": "error"
+    },
+    "institutional_holders": {
+      "status": "error"
+    }
+  },
+  "earnings_data": {
+    "earnings": {
+      "status": "error",
+      "message": "'NoneType' object has no attribute 'empty'"
+    },
+    "calendar": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  }
+}

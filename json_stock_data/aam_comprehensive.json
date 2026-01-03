@@ -1,46 +1,9 @@
 {
   "ticker": "AAM",
-  "timestamp": "2026-01-02T04:40:08.580513",
+  "timestamp": "2026-01-03T04:51:01.005293",
   "intraday_data": {
-    "status": "success",
-    "rows": 5,
-    "data": [
-      {
-        "Close": 10.680000305175781,
-        "High": 10.680000305175781,
-        "Low": 10.680000305175781,
-        "Open": 10.680000305175781,
-        "Volume": 0
-      },
-      {
-        "Close": 10.649999618530273,
-        "High": 10.649999618530273,
-        "Low": 10.649999618530273,
-        "Open": 10.649999618530273,
-        "Volume": 653
-      },
-      {
-        "Close": 10.640000343322754,
-        "High": 10.649999618530273,
-        "Low": 10.640000343322754,
-        "Open": 10.649999618530273,
-        "Volume": 26719
-      },
-      {
-        "Close": 10.619999885559082,
-        "High": 10.640000343322754,
-        "Low": 10.619999885559082,
-        "Open": 10.640000343322754,
-        "Volume": 23281
-      },
-      {
-        "Close": 10.670000076293945,
-        "High": 10.670000076293945,
-        "Low": 10.670000076293945,
-        "Open": 10.670000076293945,
-        "Volume": 481
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -66,7 +29,8 @@
       "status": "no_data"
     },
     "recommendations": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   },
   "holders_data": {

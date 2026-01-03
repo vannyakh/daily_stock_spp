@@ -1,22 +1,73 @@
 {
   "ticker": "CEDAX",
-  "timestamp": "2026-01-02T04:59:32.261217",
+  "timestamp": "2026-01-03T05:40:31.421900",
   "intraday_data": {
     "status": "success",
     "rows": 1,
     "data": [
       {
-        "Close EIOAX": 8.420000076293945,
-        "High EIOAX": 8.420000076293945,
-        "Low EIOAX": 8.420000076293945,
-        "Open EIOAX": 8.420000076293945,
-        "Volume EIOAX": 0
+        "Close": 20.8700008392334,
+        "High": 20.8700008392334,
+        "Low": 20.8700008392334,
+        "Open": 20.8700008392334,
+        "Volume": 0
       }
     ]
   },
   "stock_info": {
-    "status": "error",
-    "message": "Too Many Requests. Rate limited. Try after a while."
+    "status": "success",
+    "data": {
+      "quoteType": "MUTUALFUND",
+      "symbol": "CEDAX",
+      "language": "en-US",
+      "region": "US",
+      "typeDisp": "Fund",
+      "quoteSourceName": "Delayed Quote",
+      "triggerable": false,
+      "customPriceAlertConfidence": "NONE",
+      "hasPrePostMarketData": false,
+      "firstTradeDateMilliseconds": 1552055400000,
+      "priceHint": 2,
+      "currency": "USD",
+      "regularMarketChange": -0.04,
+      "regularMarketPreviousClose": 20.910002,
+      "fullExchangeName": "Nasdaq",
+      "averageDailyVolume3Month": 0,
+      "averageDailyVolume10Day": 0,
+      "fiftyDayAverage": 21.7448,
+      "fiftyDayAverageChange": -0.8747997,
+      "fiftyDayAverageChangePercent": -0.040230293,
+      "twoHundredDayAverage": 21.9544,
+      "twoHundredDayAverageChange": -1.0843983,
+      "twoHundredDayAverageChangePercent": -0.04939321,
+      "sourceInterval": 15,
+      "exchangeDataDelayedBy": 0,
+      "tradeable": false,
+      "cryptoTradeable": false,
+      "regularMarketTime": 1767402018,
+      "exchange": "NAS",
+      "messageBoardId": "finmb_543920693",
+      "exchangeTimezoneName": "America/New_York",
+      "exchangeTimezoneShortName": "EST",
+      "gmtOffSetMilliseconds": -18000000,
+      "market": "us_market",
+      "esgPopulated": false,
+      "shortName": "Destra International & Event-Dr",
+      "longName": "Destra International & Event-Driven Credit Fund",
+      "marketState": "CLOSED",
+      "fiftyTwoWeekLowChange": 0.040000916,
+      "fiftyTwoWeekLowChangePercent": 0.0019203512,
+      "fiftyTwoWeekRange": "20.83 - 22.75",
+      "fiftyTwoWeekHighChange": -1.8799992,
+      "fiftyTwoWeekHighChangePercent": -0.082637325,
+      "fiftyTwoWeekLow": 20.83,
+      "fiftyTwoWeekHigh": 22.75,
+      "fiftyTwoWeekChangePercent": -4.738039,
+      "trailingAnnualDividendRate": 0.0,
+      "trailingAnnualDividendYield": 0.0,
+      "regularMarketChangePercent": -0.19129601,
+      "regularMarketPrice": 20.87
+    }
   },
   "financials": {
     "income_statement": {
@@ -30,25 +81,22 @@
     }
   },
   "options_data": {
-    "status": "error",
-    "error_message": "Too Many Requests. Rate limited. Try after a while."
+    "expirations": []
   },
   "news_data": {
     "news": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
+      "status": "no_data"
     },
     "recommendations": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
+      "status": "no_data"
     }
   },
   "holders_data": {
     "major_holders": {
-      "status": "error"
+      "status": "no_data"
     },
     "institutional_holders": {
-      "status": "error"
+      "status": "no_data"
     }
   },
   "earnings_data": {
@@ -58,7 +106,7 @@
     },
     "calendar": {
       "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
+      "message": "'dict' object has no attribute 'empty'"
     }
   }
 }

@@ -1,9 +1,39 @@
 {
   "ticker": "ACRL",
-  "timestamp": "2026-01-02T04:55:58.971628",
+  "timestamp": "2026-01-03T05:30:39.260660",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 4,
+    "data": [
+      {
+        "Close": 0.002400000113993883,
+        "High": 0.002400000113993883,
+        "Low": 0.002400000113993883,
+        "Open": 0.002400000113993883,
+        "Volume": 0
+      },
+      {
+        "Close": 0.002099999925121665,
+        "High": 0.002300000051036477,
+        "Low": 0.002099999925121665,
+        "Open": 0.002300000051036477,
+        "Volume": 100000
+      },
+      {
+        "Close": 0.002400000113993883,
+        "High": 0.002400000113993883,
+        "Low": 0.002400000113993883,
+        "Open": 0.002400000113993883,
+        "Volume": 46141
+      },
+      {
+        "Close": 0.002400000113993883,
+        "High": 0.002400000113993883,
+        "Low": 0.002400000113993883,
+        "Open": 0.002400000113993883,
+        "Volume": 223310
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -26,7 +56,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

@@ -1,13 +1,74 @@
 {
   "ticker": "FLDD",
-  "timestamp": "2026-01-02T04:43:22.646449",
+  "timestamp": "2026-01-03T04:59:32.534406",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 4,
+    "data": [
+      {
+        "Close IBAC": 10.5,
+        "High IBAC": 10.5,
+        "Low IBAC": 10.5,
+        "Open IBAC": 10.5,
+        "Volume IBAC": 0
+      },
+      {
+        "Close IBAC": 10.5,
+        "High IBAC": 10.5,
+        "Low IBAC": 10.5,
+        "Open IBAC": 10.5,
+        "Volume IBAC": 300
+      },
+      {
+        "Close IBAC": 10.5,
+        "High IBAC": 10.5,
+        "Low IBAC": 10.5,
+        "Open IBAC": 10.5,
+        "Volume IBAC": 200
+      },
+      {
+        "Close IBAC": 10.5,
+        "High IBAC": 10.5,
+        "Low IBAC": 10.5,
+        "Open IBAC": 10.5,
+        "Volume IBAC": 128
+      }
+    ]
   },
   "stock_info": {
-    "status": "error",
-    "message": "Too Many Requests. Rate limited. Try after a while."
+    "status": "success",
+    "data": {
+      "language": "en-US",
+      "region": "US",
+      "quoteType": "EQUITY",
+      "typeDisp": "Equity",
+      "quoteSourceName": "Delayed Quote",
+      "triggerable": true,
+      "customPriceAlertConfidence": "HIGH",
+      "priceHint": 2,
+      "regularMarketChange": 10.94,
+      "regularMarketPreviousClose": 0.0,
+      "fullExchangeName": "NasdaqGM",
+      "financialCurrency": "USD",
+      "currency": "USD",
+      "sourceInterval": 15,
+      "exchangeDataDelayedBy": 0,
+      "hasPrePostMarketData": true,
+      "regularMarketPrice": 10.94,
+      "marketState": "POSTPOST",
+      "shortName": "FTAC Emerald Acquisition Corp.",
+      "regularMarketTime": 1764104400,
+      "exchange": "NGM",
+      "exchangeTimezoneName": "America/New_York",
+      "exchangeTimezoneShortName": "EST",
+      "gmtOffSetMilliseconds": -18000000,
+      "market": "us_market",
+      "esgPopulated": false,
+      "tradeable": false,
+      "cryptoTradeable": false,
+      "displayName": "FTAC Emerald",
+      "symbol": "FLDD"
+    }
   },
   "financials": {
     "income_statement": {
@@ -21,8 +82,7 @@
     }
   },
   "options_data": {
-    "status": "error",
-    "error_message": "Too Many Requests. Rate limited. Try after a while."
+    "expirations": []
   },
   "news_data": {
     "news": {
@@ -154,16 +214,29 @@
       ]
     },
     "recommendations": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
+      "status": "no_data"
     }
   },
   "holders_data": {
     "major_holders": {
-      "status": "error"
+      "status": "success",
+      "data": [
+        {
+          "Value": 0.1966
+        },
+        {
+          "Value": 0.0551
+        },
+        {
+          "Value": 0.06859
+        },
+        {
+          "Value": 9.0
+        }
+      ]
     },
     "institutional_holders": {
-      "status": "error"
+      "status": "no_data"
     }
   },
   "earnings_data": {
@@ -173,7 +246,7 @@
     },
     "calendar": {
       "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
+      "message": "'dict' object has no attribute 'empty'"
     }
   }
 }

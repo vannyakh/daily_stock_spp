@@ -1,98 +1,54 @@
 {
   "ticker": "ALID",
-  "timestamp": "2026-01-02T04:50:53.141974",
+  "timestamp": "2026-01-03T05:17:28.533524",
   "intraday_data": {
-    "status": "success",
-    "rows": 6,
-    "data": [
-      {
-        "Close ASST": 0.7649000287055969,
-        "Close CPHI": 1.2350000143051147,
-        "High ASST": 0.7674999833106995,
-        "High CPHI": 1.2350000143051147,
-        "Low ASST": 0.7634999752044678,
-        "Low CPHI": 1.2350000143051147,
-        "Open ASST": 0.7663000226020813,
-        "Open CPHI": 1.2350000143051147,
-        "Volume ASST": 205219,
-        "Volume CPHI": 875.0
-      },
-      {
-        "Close ASST": 0.7615000009536743,
-        "Close CPHI": 1.215000033378601,
-        "High ASST": 0.7616999745368958,
-        "High CPHI": 1.215000033378601,
-        "Low ASST": 0.7615000009536743,
-        "Low CPHI": 1.215000033378601,
-        "Open ASST": 0.7616999745368958,
-        "Open CPHI": 1.215000033378601,
-        "Volume ASST": 22352,
-        "Volume CPHI": 343.0
-      },
-      {
-        "Close ASST": 0.7452999949455261,
-        "Close CPHI": 1.2101000547409058,
-        "High ASST": 0.7476000189781189,
-        "High CPHI": 1.2101000547409058,
-        "Low ASST": 0.7450000047683716,
-        "Low CPHI": 1.2101000547409058,
-        "Open ASST": 0.7476000189781189,
-        "Open CPHI": 1.2101000547409058,
-        "Volume ASST": 361353,
-        "Volume CPHI": 1362.0
-      },
-      {
-        "Close ASST": 0.7419000267982483,
-        "Close CPHI": 1.2100000381469727,
-        "High ASST": 0.7422000169754028,
-        "High CPHI": 1.2100000381469727,
-        "Low ASST": 0.7412999868392944,
-        "Low CPHI": 1.2100000381469727,
-        "Open ASST": 0.7421000003814697,
-        "Open CPHI": 1.2100000381469727,
-        "Volume ASST": 10772205,
-        "Volume CPHI": 201.0
-      },
-      {
-        "Close ASST": 0.7390000224113464,
-        "Close CPHI": 1.2100000381469727,
-        "High ASST": 0.7401999831199646,
-        "High CPHI": 1.2100000381469727,
-        "Low ASST": 0.7382000088691711,
-        "Low CPHI": 1.2100000381469727,
-        "Open ASST": 0.7383000254631042,
-        "Open CPHI": 1.2100000381469727,
-        "Volume ASST": 128517,
-        "Volume CPHI": 150.0
-      },
-      {
-        "Close ASST": 0.7439000010490417,
-        "Close CPHI": 1.2100000381469727,
-        "High ASST": 0.7439000010490417,
-        "High CPHI": 1.2100000381469727,
-        "Low ASST": 0.7429999709129333,
-        "Low CPHI": 1.2100000381469727,
-        "Open ASST": 0.7430999875068665,
-        "Open CPHI": 1.2100000381469727,
-        "Volume ASST": 163508,
-        "Volume CPHI": 205.0
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
-    "message": "argument of type 'NoneType' is not iterable"
+    "message": "Too Many Requests. Rate limited. Try after a while."
   },
   "financials": {
     "income_statement": {
-      "status": "success",
-      "rows": 54,
-      "columns": [
-        "2024-08-31 00:00:00",
-        "2023-08-31 00:00:00",
-        "2022-08-31 00:00:00",
-        "2021-08-31 00:00:00"
-      ],
-      "data": [
-        {
-          
+      "status": "no_data"
+    },
+    "balance_sheet": {
+      "status": "no_data"
+    },
+    "cash_flow": {
+      "status": "no_data"
+    }
+  },
+  "options_data": {
+    "status": "error",
+    "error_message": "Too Many Requests. Rate limited. Try after a while."
+  },
+  "news_data": {
+    "news": {
+      "status": "no_data"
+    },
+    "recommendations": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  },
+  "holders_data": {
+    "major_holders": {
+      "status": "error"
+    },
+    "institutional_holders": {
+      "status": "error"
+    }
+  },
+  "earnings_data": {
+    "earnings": {
+      "status": "error",
+      "message": "'NoneType' object has no attribute 'empty'"
+    },
+    "calendar": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  }
+}

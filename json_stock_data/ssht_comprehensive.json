@@ -1,9 +1,81 @@
 {
   "ticker": "SSHT",
-  "timestamp": "2026-01-02T04:46:03.858503",
+  "timestamp": "2026-01-03T05:06:18.003834",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 10,
+    "data": [
+      {
+        "Close": 0.019500000402331352,
+        "High": 0.019500000402331352,
+        "Low": 0.019500000402331352,
+        "Open": 0.019500000402331352,
+        "Volume": 0
+      },
+      {
+        "Close": 0.014999999664723873,
+        "High": 0.014999999664723873,
+        "Low": 0.014999999664723873,
+        "Open": 0.014999999664723873,
+        "Volume": 10000
+      },
+      {
+        "Close": 0.014999999664723873,
+        "High": 0.014999999664723873,
+        "Low": 0.014999999664723873,
+        "Open": 0.014999999664723873,
+        "Volume": 40000
+      },
+      {
+        "Close": 0.014999999664723873,
+        "High": 0.014999999664723873,
+        "Low": 0.014999999664723873,
+        "Open": 0.014999999664723873,
+        "Volume": 10000
+      },
+      {
+        "Close": 0.014000000432133675,
+        "High": 0.014000000432133675,
+        "Low": 0.014000000432133675,
+        "Open": 0.014000000432133675,
+        "Volume": 20600
+      },
+      {
+        "Close": 0.014000000432133675,
+        "High": 0.014000000432133675,
+        "Low": 0.014000000432133675,
+        "Open": 0.014000000432133675,
+        "Volume": 22000
+      },
+      {
+        "Close": 0.014000000432133675,
+        "High": 0.014000000432133675,
+        "Low": 0.014000000432133675,
+        "Open": 0.014000000432133675,
+        "Volume": 50000
+      },
+      {
+        "Close": 0.011599999852478504,
+        "High": 0.011599999852478504,
+        "Low": 0.011599999852478504,
+        "Open": 0.011599999852478504,
+        "Volume": 100000
+      },
+      {
+        "Close": 0.014000000432133675,
+        "High": 0.014000000432133675,
+        "Low": 0.014000000432133675,
+        "Open": 0.014000000432133675,
+        "Volume": 147400
+      },
+      {
+        "Close": 0.01979999989271164,
+        "High": 0.01979999989271164,
+        "Low": 0.014000000432133675,
+        "Open": 0.014000000432133675,
+        "Volume": 34658
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -29,16 +101,29 @@
       "status": "no_data"
     },
     "recommendations": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
+      "status": "no_data"
     }
   },
   "holders_data": {
     "major_holders": {
-      "status": "error"
+      "status": "success",
+      "data": [
+        {
+          "Value": 0.52054
+        },
+        {
+          "Value": 0.0
+        },
+        {
+          "Value": 0.0
+        },
+        {
+          "Value": 0.0
+        }
+      ]
     },
     "institutional_holders": {
-      "status": "error"
+      "status": "no_data"
     }
   },
   "earnings_data": {
@@ -48,7 +133,7 @@
     },
     "calendar": {
       "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
+      "message": "'dict' object has no attribute 'empty'"
     }
   }
 }

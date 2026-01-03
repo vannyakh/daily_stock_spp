@@ -1,662 +1,234 @@
 {
   "ticker": "CHCI",
-  "timestamp": "2026-01-02T04:45:12.029092",
+  "timestamp": "2026-01-03T05:03:32.232193",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 8,
+    "data": [
+      {
+        "Close": 11.760000228881836,
+        "High": 11.760000228881836,
+        "Low": 11.760000228881836,
+        "Open": 11.760000228881836,
+        "Volume": 0
+      },
+      {
+        "Close": 11.819999694824219,
+        "High": 11.819999694824219,
+        "Low": 11.819999694824219,
+        "Open": 11.819999694824219,
+        "Volume": 182
+      },
+      {
+        "Close": 11.8100004196167,
+        "High": 11.819999694824219,
+        "Low": 11.789999961853027,
+        "Open": 11.819999694824219,
+        "Volume": 903
+      },
+      {
+        "Close": 11.880000114440918,
+        "High": 11.880000114440918,
+        "Low": 11.819999694824219,
+        "Open": 11.819999694824219,
+        "Volume": 478
+      },
+      {
+        "Close": 11.835000038146973,
+        "High": 11.835000038146973,
+        "Low": 11.835000038146973,
+        "Open": 11.835000038146973,
+        "Volume": 295
+      },
+      {
+        "Close": 11.9399995803833,
+        "High": 11.9399995803833,
+        "Low": 11.930000305175781,
+        "Open": 11.930000305175781,
+        "Volume": 401
+      },
+      {
+        "Close": 11.960000038146973,
+        "High": 11.960000038146973,
+        "Low": 11.960000038146973,
+        "Open": 11.960000038146973,
+        "Volume": 148
+      },
+      {
+        "Close": 11.960000038146973,
+        "High": 11.960000038146973,
+        "Low": 11.960000038146973,
+        "Open": 11.960000038146973,
+        "Volume": 1635
+      }
+    ]
   },
   "stock_info": {
-    "status": "error",
-    "message": "Too Many Requests. Rate limited. Try after a while."
+    "status": "success",
+    "data": {
+      "address1": "1900 Reston Metro Plaza",
+      "address2": "10th Floor",
+      "city": "Reston",
+      "state": "VA",
+      "zip": "20190",
+      "country": "United States",
+      "phone": "703 230 1985",
+      "website": "https://comstock.com",
+      "industry": "Real Estate Services",
+      "industryKey": "real-estate-services",
+      "industryDisp": "Real Estate Services",
+      "sector": "Real Estate",
+      "sectorKey": "real-estate",
+      "sectorDisp": "Real Estate",
+      "longBusinessSummary": "Comstock Holding Companies, Inc. operates as a asset manager, developer, and operator of mixed-use and transit-oriented properties in the Washington, D.C. region. The company acquires, develops, operates, and sells residential, commercial, and mixed-use properties. It provides various asset and property management, development and construction management, and other real estate services to its asset-owning clients, which include primarily of institutional real estate investors, high net worth family offices, and governmental bodies. The company also provides leasing and marketing, acquisition and disposition, asset recapitalization, planning and entitlements, strategic investment consultation and execution, and various other property-specific services. The company was formerly known as Comstock Homebuilding Companies, Inc. and changed its name to Comstock Holding Companies, Inc. in June 2012. Comstock Holding Companies, Inc. was founded in 1985 and is headquartered in Reston, Virginia.",
+      "fullTimeEmployees": 206,
+      "compensationAsOfEpochDate": 1735603200,
+      "maxAge": 86400,
+      "priceHint": 2,
+      "previousClose": 11.62,
+      "open": 11.76,
+      "dayLow": 11.76,
+      "dayHigh": 11.97,
+      "regularMarketPreviousClose": 11.62,
+      "regularMarketOpen": 11.76,
+      "regularMarketDayLow": 11.76,
+      "regularMarketDayHigh": 11.97,
+      "payoutRatio": 0.0,
+      "beta": -0.018,
+      "trailingPE": 8.932836,
+      "volume": 8326,
+      "regularMarketVolume": 8326,
+      "averageVolume": 30054,
+      "averageVolume10days": 48630,
+      "averageDailyVolume10Day": 48630,
+      "bid": 12.97,
+      "ask": 12.97,
+      "bidSize": 3,
+      "askSize": 1,
+      "marketCap": 120749184,
+      "fiftyTwoWeekLow": 6.31,
+      "fiftyTwoWeekHigh": 18.99,
+      "allTimeHigh": 217.0,
+      "allTimeLow": 0.35,
+      "priceToSalesTrailing12Months": 2.1625686,
+      "fiftyDayAverage": 13.5702,
+      "twoHundredDayAverage": 12.4699,
+      "trailingAnnualDividendRate": 0.0,
+      "trailingAnnualDividendYield": 0.0,
+      "currency": "USD",
+      "tradeable": false,
+      "enterpriseValue": 100166184,
+      "profitMargins": 0.249,
+      "floatShares": 3584344,
+      "sharesOutstanding": 9867401,
+      "sharesShort": 32979,
+      "sharesShortPriorMonth": 24343,
+      "sharesShortPreviousMonthDate": 1763078400,
+      "dateShortInterest": 1765756800,
+      "sharesPercentSharesOut": 0.0033000002,
+      "heldPercentInsiders": 0.65869004,
+      "heldPercentInstitutions": 0.11574,
+      "shortRatio": 1.27,
+      "shortPercentOfFloat": 0.0093,
+      "impliedSharesOutstanding": 10087651,
+      "bookValue": 5.578,
+      "priceToBook": 2.1459305,
+      "lastFiscalYearEnd": 1735603200,
+      "nextFiscalYearEnd": 1767139200,
+      "mostRecentQuarter": 1759190400,
+      "earningsQuarterlyGrowth": -0.772,
+      "netIncomeToCommon": 13903000,
+      "trailingEps": 1.34,
+      "lastSplitFactor": "1:7",
+      "lastSplitDate": 1443398400,
+      "enterpriseToRevenue": 1.794,
+      "enterpriseToEbitda": 10.458,
+      "52WeekChange": 0.44168735,
+      "SandP52WeekChange": 0.14561749,
+      "quoteType": "EQUITY",
+      "currentPrice": 11.97,
+      "recommendationKey": "none",
+      "totalCash": 26171000,
+      "totalCashPerShare": 2.594,
+      "ebitda": 9578000,
+      "totalDebt": 5588000,
+      "quickRatio": 6.783,
+      "currentRatio": 7.098,
+      "totalRevenue": 55836000,
+      "debtToEquity": 9.932,
+      "revenuePerShare": 5.574,
+      "returnOnAssets": 0.09668,
+      "returnOnEquity": 0.28388,
+      "grossProfits": 13512000,
+      "freeCashflow": 1043375,
+      "operatingCashflow": 7310000,
+      "earningsGrowth": -0.783,
+      "revenueGrowth": 0.025,
+      "grossMargins": 0.24199,
+      "ebitdaMargins": 0.17153999,
+      "operatingMargins": 0.049640004,
+      "financialCurrency": "USD",
+      "symbol": "CHCI",
+      "language": "en-US",
+      "region": "US",
+      "typeDisp": "Equity",
+      "quoteSourceName": "Nasdaq Real Time Price",
+      "triggerable": true,
+      "customPriceAlertConfidence": "HIGH",
+      "hasPrePostMarketData": true,
+      "firstTradeDateMilliseconds": 1103034600000,
+      "postMarketChangePercent": -2.0050185,
+      "postMarketPrice": 11.73,
+      "postMarketChange": -0.24000072,
+      "regularMarketChange": 0.35,
+      "regularMarketDayRange": "11.76 - 11.97",
+      "fullExchangeName": "NasdaqCM",
+      "averageDailyVolume3Month": 30054,
+      "epsTrailingTwelveMonths": 1.34,
+      "fiftyDayAverageChange": -1.6001997,
+      "fiftyDayAverageChangePercent": -0.11792012,
+      "twoHundredDayAverageChange": -0.49989986,
+      "twoHundredDayAverageChangePercent": -0.040088523,
+      "sourceInterval": 15,
+      "exchangeDataDelayedBy": 0,
+      "cryptoTradeable": false,
+      "postMarketTime": 1767388723,
+      "regularMarketTime": 1767387601,
+      "exchange": "NCM",
+      "messageBoardId": "finmb_6574260",
+      "exchangeTimezoneName": "America/New_York",
+      "exchangeTimezoneShortName": "EST",
+      "gmtOffSetMilliseconds": -18000000,
+      "market": "us_market",
+      "esgPopulated": false,
+      "shortName": "Comstock Holding Companies, Inc",
+      "longName": "Comstock Holding Companies, Inc.",
+      "marketState": "CLOSED",
+      "fiftyTwoWeekLowChange": 5.6600003,
+      "fiftyTwoWeekLowChangePercent": 0.896989,
+      "fiftyTwoWeekRange": "6.31 - 18.99",
+      "fiftyTwoWeekHighChange": -7.0199995,
+      "fiftyTwoWeekHighChangePercent": -0.36966822,
+      "fiftyTwoWeekChangePercent": 44.168736,
+      "earningsTimestamp": 1763040600,
+      "earningsTimestampStart": 1763040600,
+      "earningsTimestampEnd": 1763040600,
+      "isEarningsDateEstimate": false,
+      "regularMarketChangePercent": 3.01205,
+      "regularMarketPrice": 11.97,
+      "displayName": "Comstock Holding Companies"
+    }
   },
   "financials": {
     "income_statement": {
-      "status": "no_data"
-    },
-    "balance_sheet": {
-      "status": "no_data"
-    },
-    "cash_flow": {
-      "status": "no_data"
-    }
-  },
-  "options_data": {
-    "status": "error",
-    "error_message": "Too Many Requests. Rate limited. Try after a while."
-  },
-  "news_data": {
-    "news": {
       "status": "success",
-      "count": 10,
+      "rows": 46,
+      "columns": [
+        "2024-12-31 00:00:00",
+        "2023-12-31 00:00:00",
+        "2022-12-31 00:00:00",
+        "2021-12-31 00:00:00"
+      ],
       "data": [
         {
-          "id": "a2b6ec53-764d-3cdc-804f-9bdedc827283",
-          "content": {
-            "id": "a2b6ec53-764d-3cdc-804f-9bdedc827283",
-            "contentType": "STORY",
-            "title": "Is Starbucks\u2019 Expansion Amid Strikes and New Dividend Altering The Investment Case For Starbucks (SBUX)?",
-            "description": "",
-            "summary": "In early December 2025, Comstock Holding Companies Inc. reported that Starbucks opened an approximately 1,800-square-foot store at Loudoun Station in Ashburn, Virginia, while the company continued to face large-scale barista strikes, regulatory scrutiny, and a new quarterly cash dividend of US$0.62 per share payable on February 27, 2026. These developments highlight a company in transition, balancing expansion, labor disputes, and leadership-driven transformation efforts that could reshape...",
-            "pubDate": "2025-12-15T19:08:52Z",
-            "displayTime": "2025-12-15T19:08:52Z",
-            "isHosted": true,
-            "bypassModal": false,
-            "previewUrl": null,
-            "thumbnail": {
-              "originalUrl": "https://media.zenfs.com/en/simply_wall_st__316/0e7bd54c1332a34f72a24505fcbc3093",
-              "originalWidth": 1194,
-              "originalHeight": 432,
-              "caption": "",
-              "resolutions": [
-                {
-                  "url": "https://s.yimg.com/uu/api/res/1.2/niPG_UO8fEkTdnPt2Rc3EA--~B/aD00MzI7dz0xMTk0O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/simply_wall_st__316/0e7bd54c1332a34f72a24505fcbc3093",
-                  "width": 1194,
-                  "height": 432,
-                  "tag": "original"
-                },
-                {
-                  "url": "https://s.yimg.com/uu/api/res/1.2/PK0GdpXZqZFkdeD2yqze6Q--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/simply_wall_st__316/0e7bd54c1332a34f72a24505fcbc3093",
-                  "width": 170,
-                  "height": 128,
-                  "tag": "170x128"
-                }
-              ]
-            },
-            "provider": {
-              "displayName": "Simply Wall St.",
-              "url": "https://simplywall.st/"
-            },
-            "canonicalUrl": {
-              "url": "https://finance.yahoo.com/news/starbucks-expansion-amid-strikes-dividend-190852538.html",
-              "site": "finance",
-              "region": "US",
-              "lang": "en-US"
-            },
-            "clickThroughUrl": {
-              "url": "https://finance.yahoo.com/news/starbucks-expansion-amid-strikes-dividend-190852538.html",
-              "site": "finance",
-              "region": "US",
-              "lang": "en-US"
-            },
-            "metadata": {
-              "editorsPick": false
-            },
-            "finance": {
-              "premiumFinance": {
-                "isPremiumNews": false,
-                "isPremiumFreeNews": false
-              }
-            },
-            "storyline": null
-          }
-        },
-        {
-          "id": "c3de579c-c6e6-3144-80b1-004a3ad4b96a",
-          "content": {
-            "id": "c3de579c-c6e6-3144-80b1-004a3ad4b96a",
-            "contentType": "STORY",
-            "title": "3 Small Cap Stocks for 2026",
-            "description": "",
-            "summary": "Zacks Small Cap Analyst, Mark Zinski, joins Tracey Ryniec to discuss 3 intriguing small cap stocks.",
-            "pubDate": "2025-12-05T23:23:00Z",
-            "displayTime": "2025-12-05T23:23:00Z",
-            "isHosted": true,
-            "bypassModal": false,
-            "previewUrl": null,
-            "thumbnail": {
-              "originalUrl": "https://media.zenfs.com/en/zacks.com/a302f59310bd51da4bdd30fd12611e97",
-              "originalWidth": 635,
-              "originalHeight": 400,
-              "caption": "",
-              "resolutions": [
-                {
-                  "url": "https://s.yimg.com/uu/api/res/1.2/QPDDbQLCJbqY1bZesIMkYg--~B/aD00MDA7dz02MzU7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/zacks.com/a302f59310bd51da4bdd30fd12611e97",
-                  "width": 635,
-                  "height": 400,
-                  "tag": "original"
-                },
-                {
-                  "url": "https://s.yimg.com/uu/api/res/1.2/znwQMHd1o_vuh_aZ7KlaaQ--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/zacks.com/a302f59310bd51da4bdd30fd12611e97",
-                  "width": 170,
-                  "height": 128,
-                  "tag": "170x128"
-                }
-              ]
-            },
-            "provider": {
-              "displayName": "Zacks",
-              "url": "http://www.zacks.com/"
-            },
-            "canonicalUrl": {
-              "url": "https://finance.yahoo.com/news/3-small-cap-stocks-2026-232300137.html",
-              "site": "finance",
-              "region": "US",
-              "lang": "en-US"
-            },
-            "clickThroughUrl": {
-              "url": "https://finance.yahoo.com/news/3-small-cap-stocks-2026-232300137.html",
-              "site": "finance",
-              "region": "US",
-              "lang": "en-US"
-            },
-            "metadata": {
-              "editorsPick": false
-            },
-            "finance": {
-              "premiumFinance": {
-                "isPremiumNews": false,
-                "isPremiumFreeNews": false
-              }
-            },
-            "storyline": null
-          }
-        },
-        {
-          "id": "f4a35261-5bd7-3730-b673-f5fe4cf41b6e",
-          "content": {
-            "id": "f4a35261-5bd7-3730-b673-f5fe4cf41b6e",
-            "contentType": "STORY",
-            "title": "The Zacks Analyst Blog Highlights Visa, Merck, Southern Company, Community Bancorp and Comstock",
-            "description": "",
-            "summary": "V benefits from rising cross-border volumes and strong digital payments momentum as analysts spotlight broad performance drivers across key sectors.",
-            "pubDate": "2025-11-21T10:17:00Z",
-            "displayTime": "2025-11-21T10:17:00Z",
-            "isHosted": true,
-            "bypassModal": false,
-            "previewUrl": null,
-            "thumbnail": {
-              "originalUrl": "https://media.zenfs.com/en/zacks.com/de608bcb90a2c53b7051f77adf399ff0",
-              "originalWidth": 635,
-              "originalHeight": 400,
-              "caption": "",
-              "resolutions": [
-                {
-                  "url": "https://s.yimg.com/uu/api/res/1.2/djzyxVfaX2id44ZboAix6Q--~B/aD00MDA7dz02MzU7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/zacks.com/de608bcb90a2c53b7051f77adf399ff0",
-                  "width": 635,
-                  "height": 400,
-                  "tag": "original"
-                },
-                {
-                  "url": "https://s.yimg.com/uu/api/res/1.2/U528iaYWdrLnEgf92.x9wQ--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/zacks.com/de608bcb90a2c53b7051f77adf399ff0",
-                  "width": 170,
-                  "height": 128,
-                  "tag": "170x128"
-                }
-              ]
-            },
-            "provider": {
-              "displayName": "Zacks",
-              "url": "http://www.zacks.com/"
-            },
-            "canonicalUrl": {
-              "url": "https://finance.yahoo.com/news/zacks-analyst-blog-highlights-visa-101700363.html",
-              "site": "finance",
-              "region": "US",
-              "lang": "en-US"
-            },
-            "clickThroughUrl": {
-              "url": "https://finance.yahoo.com/news/zacks-analyst-blog-highlights-visa-101700363.html",
-              "site": "finance",
-              "region": "US",
-              "lang": "en-US"
-            },
-            "metadata": {
-              "editorsPick": false
-            },
-            "finance": {
-              "premiumFinance": {
-                "isPremiumNews": false,
-                "isPremiumFreeNews": false
-              }
-            },
-            "storyline": null
-          }
-        },
-        {
-          "id": "a8b308df-d265-3dca-aa65-3b79433c86ee",
-          "content": {
-            "id": "a8b308df-d265-3dca-aa65-3b79433c86ee",
-            "contentType": "STORY",
-            "title": "Top Analyst Reports for Visa, Merck & Southern Company",
-            "description": "",
-            "summary": "Visa sees solid volume growth and cross-border gains, while Merck and Southern Company navigate competitive and regulatory pressures.",
-            "pubDate": "2025-11-20T21:44:00Z",
-            "displayTime": "2025-11-20T21:44:00Z",
-            "isHosted": true,
-            "bypassModal": false,
-            "previewUrl": null,
-            "thumbnail": {
-              "originalUrl": "https://media.zenfs.com/en/zacks.com/205c27b0a16041ae63dae2a312814e6f",
-              "originalWidth": 635,
-              "originalHeight": 400,
-              "caption": "",
-              "resolutions": [
-                {
-                  "url": "https://s.yimg.com/uu/api/res/1.2/rSxxRHy.t0lnoAxhN64mAA--~B/aD00MDA7dz02MzU7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/zacks.com/205c27b0a16041ae63dae2a312814e6f",
-                  "width": 635,
-                  "height": 400,
-                  "tag": "original"
-                },
-                {
-                  "url": "https://s.yimg.com/uu/api/res/1.2/sZz7cs.p_zgoQ2qM.sViOA--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/zacks.com/205c27b0a16041ae63dae2a312814e6f",
-                  "width": 170,
-                  "height": 128,
-                  "tag": "170x128"
-                }
-              ]
-            },
-            "provider": {
-              "displayName": "Zacks",
-              "url": "http://www.zacks.com/"
-            },
-            "canonicalUrl": {
-              "url": "https://finance.yahoo.com/news/top-analyst-reports-visa-merck-214400567.html",
-              "site": "finance",
-              "region": "US",
-              "lang": "en-US"
-            },
-            "clickThroughUrl": {
-              "url": "https://finance.yahoo.com/news/top-analyst-reports-visa-merck-214400567.html",
-              "site": "finance",
-              "region": "US",
-              "lang": "en-US"
-            },
-            "metadata": {
-              "editorsPick": false
-            },
-            "finance": {
-              "premiumFinance": {
-                "isPremiumNews": false,
-                "isPremiumFreeNews": false
-              }
-            },
-            "storyline": null
-          }
-        },
-        {
-          "id": "eaa24e9d-1177-373f-a186-85eb491b5c3c",
-          "content": {
-            "id": "eaa24e9d-1177-373f-a186-85eb491b5c3c",
-            "contentType": "STORY",
-            "title": "Comstock's Q3 Earnings Decrease Y/Y on ParkX Expansion Costs",
-            "description": "",
-            "summary": "CHCI's Q3 earnings fall year over year due to higher ParkX expansion costs, despite a rise in revenues and continued growth in recurring fee-based income.",
-            "pubDate": "2025-11-19T17:54:00Z",
-            "displayTime": "2025-11-19T17:54:00Z",
-            "isHosted": true,
-            "bypassModal": false,
-            "previewUrl": null,
-            "thumbnail": {
-              "originalUrl": "https://media.zenfs.com/en/zacks.com/9cddbecd8772c4715e2cfde2cc2e89b9",
-              "originalWidth": 635,
-              "originalHeight": 400,
-              "caption": "",
-              "resolutions": [
-                {
-                  "url": "https://s.yimg.com/uu/api/res/1.2/N3i1LFAQ9niZod6lCGh8ew--~B/aD00MDA7dz02MzU7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/zacks.com/9cddbecd8772c4715e2cfde2cc2e89b9",
-                  "width": 635,
-                  "height": 400,
-                  "tag": "original"
-                },
-                {
-                  "url": "https://s.yimg.com/uu/api/res/1.2/I.XvVRnGRMYpP4.7kGNhIQ--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/zacks.com/9cddbecd8772c4715e2cfde2cc2e89b9",
-                  "width": 170,
-                  "height": 128,
-                  "tag": "170x128"
-                }
-              ]
-            },
-            "provider": {
-              "displayName": "Zacks",
-              "url": "http://www.zacks.com/"
-            },
-            "canonicalUrl": {
-              "url": "https://finance.yahoo.com/news/comstocks-q3-earnings-decrease-y-175400527.html",
-              "site": "finance",
-              "region": "US",
-              "lang": "en-US"
-            },
-            "clickThroughUrl": {
-              "url": "https://finance.yahoo.com/news/comstocks-q3-earnings-decrease-y-175400527.html",
-              "site": "finance",
-              "region": "US",
-              "lang": "en-US"
-            },
-            "metadata": {
-              "editorsPick": false
-            },
-            "finance": {
-              "premiumFinance": {
-                "isPremiumNews": false,
-                "isPremiumFreeNews": false
-              }
-            },
-            "storyline": null
-          }
-        },
-        {
-          "id": "e53fd7a5-8549-31c5-900f-fe3b27b23713",
-          "content": {
-            "id": "e53fd7a5-8549-31c5-900f-fe3b27b23713",
-            "contentType": "STORY",
-            "title": "Investors in Comstock Holding Companies (NASDAQ:CHCI) have seen incredible returns of 477% over the past five years",
-            "description": "",
-            "summary": "We think all investors should try to buy and hold high quality multi-year winners. And highest quality companies can...",
-            "pubDate": "2025-10-28T10:57:01Z",
-            "displayTime": "2025-10-28T10:57:01Z",
-            "isHosted": true,
-            "bypassModal": false,
-            "previewUrl": null,
-            "thumbnail": {
-              "originalUrl": "https://media.zenfs.com/en/simply_wall_st__316/7715bc952676bef2d237800a14b80e8c",
-              "originalWidth": 1194,
-              "originalHeight": 432,
-              "caption": "",
-              "resolutions": [
-                {
-                  "url": "https://s.yimg.com/uu/api/res/1.2/6ry1lSqabYRXpcHwCvmZMw--~B/aD00MzI7dz0xMTk0O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/simply_wall_st__316/7715bc952676bef2d237800a14b80e8c",
-                  "width": 1194,
-                  "height": 432,
-                  "tag": "original"
-                },
-                {
-                  "url": "https://s.yimg.com/uu/api/res/1.2/PlTe.y1z3lcabdNJMpoIQA--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/simply_wall_st__316/7715bc952676bef2d237800a14b80e8c",
-                  "width": 170,
-                  "height": 128,
-                  "tag": "170x128"
-                }
-              ]
-            },
-            "provider": {
-              "displayName": "Simply Wall St.",
-              "url": "https://simplywall.st/"
-            },
-            "canonicalUrl": {
-              "url": "https://finance.yahoo.com/news/investors-comstock-holding-companies-nasdaq-105701461.html",
-              "site": "finance",
-              "region": "US",
-              "lang": "en-US"
-            },
-            "clickThroughUrl": {
-              "url": "https://finance.yahoo.com/news/investors-comstock-holding-companies-nasdaq-105701461.html",
-              "site": "finance",
-              "region": "US",
-              "lang": "en-US"
-            },
-            "metadata": {
-              "editorsPick": false
-            },
-            "finance": {
-              "premiumFinance": {
-                "isPremiumNews": false,
-                "isPremiumFreeNews": false
-              }
-            },
-            "storyline": null
-          }
-        },
-        {
-          "id": "c86b453c-3aaa-3fb1-970a-60bb464ff205",
-          "content": {
-            "id": "c86b453c-3aaa-3fb1-970a-60bb464ff205",
-            "contentType": "STORY",
-            "title": "Toll Brothers Stock Builds Up Relative Strength Rating To 73",
-            "description": "",
-            "summary": "Toll Brothers shows rising price performance, earning an upgrade to its IBD Relative Strength Rating",
-            "pubDate": "2025-10-03T17:40:12Z",
-            "displayTime": "2025-10-03T17:40:12Z",
-            "isHosted": false,
-            "bypassModal": false,
-            "previewUrl": "https://finance.yahoo.com/m/c86b453c-3aaa-3fb1-970a-60bb464ff205/toll-brothers-stock-builds-up.html",
-            "thumbnail": {
-              "originalUrl": "https://media.zenfs.com/en/ibd.com/3417047a4b024123b3a81ee1e1f53d5e",
-              "originalWidth": 1000,
-              "originalHeight": 563,
-              "caption": "",
-              "resolutions": [
-                {
-                  "url": "https://s.yimg.com/uu/api/res/1.2/xRFjNTAFgOkvUTxHG0gbdQ--~B/aD01NjM7dz0xMDAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/ibd.com/3417047a4b024123b3a81ee1e1f53d5e",
-                  "width": 1000,
-                  "height": 563,
-                  "tag": "original"
-                },
-                {
-                  "url": "https://s.yimg.com/uu/api/res/1.2/nVlcY.2yXyqYjJsxJsyTcQ--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/ibd.com/3417047a4b024123b3a81ee1e1f53d5e",
-                  "width": 170,
-                  "height": 128,
-                  "tag": "170x128"
-                }
-              ]
-            },
-            "provider": {
-              "displayName": "Investor's Business Daily",
-              "url": "http://www.investors.com/"
-            },
-            "canonicalUrl": {
-              "url": "https://www.investors.com/news/toll-brothers-stock-builds-up-relative-strength-rating-to-73/?src=A00220&yptr=yahoo",
-              "site": "finance",
-              "region": "US",
-              "lang": "en-US"
-            },
-            "clickThroughUrl": null,
-            "metadata": {
-              "editorsPick": false
-            },
-            "finance": {
-              "premiumFinance": {
-                "isPremiumNews": false,
-                "isPremiumFreeNews": false
-              }
-            },
-            "storyline": null
-          }
-        },
-        {
-          "id": "fd890254-9d51-3681-8ef3-c8f568d26005",
-          "content": {
-            "id": "fd890254-9d51-3681-8ef3-c8f568d26005",
-            "contentType": "STORY",
-            "title": "In spite of recent selling, insiders still control 63% of Comstock Holding Companies, Inc. (NASDAQ:CHCI)",
-            "description": "",
-            "summary": "Key Insights Comstock Holding Companies' significant insider ownership suggests inherent interests in company's...",
-            "pubDate": "2025-09-25T17:22:34Z",
-            "displayTime": "2025-09-25T17:22:34Z",
-            "isHosted": true,
-            "bypassModal": false,
-            "previewUrl": null,
-            "thumbnail": {
-              "originalUrl": "https://media.zenfs.com/en/simply_wall_st__316/7715bc952676bef2d237800a14b80e8c",
-              "originalWidth": 1194,
-              "originalHeight": 432,
-              "caption": "",
-              "resolutions": [
-                {
-                  "url": "https://s.yimg.com/uu/api/res/1.2/6ry1lSqabYRXpcHwCvmZMw--~B/aD00MzI7dz0xMTk0O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/simply_wall_st__316/7715bc952676bef2d237800a14b80e8c",
-                  "width": 1194,
-                  "height": 432,
-                  "tag": "original"
-                },
-                {
-                  "url": "https://s.yimg.com/uu/api/res/1.2/PlTe.y1z3lcabdNJMpoIQA--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/simply_wall_st__316/7715bc952676bef2d237800a14b80e8c",
-                  "width": 170,
-                  "height": 128,
-                  "tag": "170x128"
-                }
-              ]
-            },
-            "provider": {
-              "displayName": "Simply Wall St.",
-              "url": "https://simplywall.st/"
-            },
-            "canonicalUrl": {
-              "url": "https://finance.yahoo.com/news/spite-recent-selling-insiders-still-172234952.html",
-              "site": "finance",
-              "region": "US",
-              "lang": "en-US"
-            },
-            "clickThroughUrl": {
-              "url": "https://finance.yahoo.com/news/spite-recent-selling-insiders-still-172234952.html",
-              "site": "finance",
-              "region": "US",
-              "lang": "en-US"
-            },
-            "metadata": {
-              "editorsPick": false
-            },
-            "finance": {
-              "premiumFinance": {
-                "isPremiumNews": false,
-                "isPremiumFreeNews": false
-              }
-            },
-            "storyline": null
-          }
-        },
-        {
-          "id": "d934660c-23f8-35ec-b7ad-7fac215b94e5",
-          "content": {
-            "id": "d934660c-23f8-35ec-b7ad-7fac215b94e5",
-            "contentType": "STORY",
-            "title": "Comstock Soars 74% in 3 Months: What's Driving the Rally?",
-            "description": "",
-            "summary": "CHCI drives growth with recurring fee revenues, rising parking demand, and robust transit-oriented projects, delivering scalable profits with a debt-free balance sheet.",
-            "pubDate": "2025-09-08T18:41:00Z",
-            "displayTime": "2025-09-08T18:41:00Z",
-            "isHosted": true,
-            "bypassModal": false,
-            "previewUrl": null,
-            "thumbnail": {
-              "originalUrl": "https://media.zenfs.com/en/zacks.com/f50028dc1179ba7a426d4fbe7ef18ac8",
-              "originalWidth": 635,
-              "originalHeight": 400,
-              "caption": "",
-              "resolutions": [
-                {
-                  "url": "https://s.yimg.com/uu/api/res/1.2/6pWpdKJAmSONjb3xFglVpA--~B/aD00MDA7dz02MzU7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/zacks.com/f50028dc1179ba7a426d4fbe7ef18ac8",
-                  "width": 635,
-                  "height": 400,
-                  "tag": "original"
-                },
-                {
-                  "url": "https://s.yimg.com/uu/api/res/1.2/3aPugeKRSSgbHNNwHh1mSQ--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/zacks.com/f50028dc1179ba7a426d4fbe7ef18ac8",
-                  "width": 170,
-                  "height": 128,
-                  "tag": "170x128"
-                }
-              ]
-            },
-            "provider": {
-              "displayName": "Zacks",
-              "url": "http://www.zacks.com/"
-            },
-            "canonicalUrl": {
-              "url": "https://finance.yahoo.com/news/comstock-soars-74-3-months-184100925.html",
-              "site": "finance",
-              "region": "US",
-              "lang": "en-US"
-            },
-            "clickThroughUrl": {
-              "url": "https://finance.yahoo.com/news/comstock-soars-74-3-months-184100925.html",
-              "site": "finance",
-              "region": "US",
-              "lang": "en-US"
-            },
-            "metadata": {
-              "editorsPick": false
-            },
-            "finance": {
-              "premiumFinance": {
-                "isPremiumNews": false,
-                "isPremiumFreeNews": false
-              }
-            },
-            "storyline": null
-          }
-        },
-        {
-          "id": "c2b0d3e7-f80f-38cb-a145-68ccaa112bf0",
-          "content": {
-            "id": "c2b0d3e7-f80f-38cb-a145-68ccaa112bf0",
-            "contentType": "STORY",
-            "title": "Is Now The Time To Put Comstock Holding Companies (NASDAQ:CHCI) On Your Watchlist?",
-            "description": "",
-            "summary": "It's common for many investors, especially those who are inexperienced, to buy shares in companies with a good story...",
-            "pubDate": "2025-08-31T12:00:23Z",
-            "displayTime": "2025-08-31T12:00:23Z",
-            "isHosted": true,
-            "bypassModal": false,
-            "previewUrl": null,
-            "thumbnail": {
-              "originalUrl": "https://media.zenfs.com/en/simply_wall_st__316/7715bc952676bef2d237800a14b80e8c",
-              "originalWidth": 1194,
-              "originalHeight": 432,
-              "caption": "",
-              "resolutions": [
-                {
-                  "url": "https://s.yimg.com/uu/api/res/1.2/6ry1lSqabYRXpcHwCvmZMw--~B/aD00MzI7dz0xMTk0O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/simply_wall_st__316/7715bc952676bef2d237800a14b80e8c",
-                  "width": 1194,
-                  "height": 432,
-                  "tag": "original"
-                },
-                {
-                  "url": "https://s.yimg.com/uu/api/res/1.2/PlTe.y1z3lcabdNJMpoIQA--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/simply_wall_st__316/7715bc952676bef2d237800a14b80e8c",
-                  "width": 170,
-                  "height": 128,
-                  "tag": "170x128"
-                }
-              ]
-            },
-            "provider": {
-              "displayName": "Simply Wall St.",
-              "url": "https://simplywall.st/"
-            },
-            "canonicalUrl": {
-              "url": "https://finance.yahoo.com/news/now-time-put-comstock-holding-120023339.html",
-              "site": "finance",
-              "region": "US",
-              "lang": "en-US"
-            },
-            "clickThroughUrl": {
-              "url": "https://finance.yahoo.com/news/now-time-put-comstock-holding-120023339.html",
-              "site": "finance",
-              "region": "US",
-              "lang": "en-US"
-            },
-            "metadata": {
-              "editorsPick": false
-            },
-            "finance": {
-              "premiumFinance": {
-                "isPremiumNews": false,
-                "isPremiumFreeNews": false
-              }
-            },
-            "storyline": null
-          }
-        }
-      ]
-    },
-    "recommendations": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
-    }
-  },
-  "holders_data": {
-    "major_holders": {
-      "status": "error"
-    },
-    "institutional_holders": {
-      "status": "error"
-    }
-  },
-  "earnings_data": {
-    "earnings": {
-      "status": "error",
-      "message": "'NoneType' object has no attribute 'empty'"
-    },
-    "calendar": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
-    }
-  }
-}
+          

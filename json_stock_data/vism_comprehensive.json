@@ -1,20 +1,25 @@
 {
   "ticker": "VISM",
-  "timestamp": "2026-01-02T04:52:06.479516",
+  "timestamp": "2026-01-03T05:21:01.763529",
   "intraday_data": {
     "status": "no_data",
     "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
-    "message": "argument of type 'NoneType' is not iterable"
+    "message": "Too Many Requests. Rate limited. Try after a while."
   },
   "financials": {
     "income_statement": {
+      "status": "no_data"
+    },
+    "balance_sheet": {
+      "status": "no_data"
+    },
+    "cash_flow": {
       "status": "success",
-      "rows": 43,
+      "rows": 37,
       "columns": [
-        "2025-06-30 00:00:00",
         "2024-06-30 00:00:00",
         "2023-06-30 00:00:00",
         "2022-06-30 00:00:00",

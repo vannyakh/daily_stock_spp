@@ -1,6 +1,6 @@
 {
   "ticker": "MTSR",
-  "timestamp": "2026-01-02T04:52:59.398037",
+  "timestamp": "2026-01-03T05:23:37.481026",
   "intraday_data": {
     "status": "no_data",
     "message": "No intraday data available"
@@ -21,8 +21,7 @@
     }
   },
   "options_data": {
-    "status": "error",
-    "error_message": "Too Many Requests. Rate limited. Try after a while."
+    "expirations": []
   },
   "news_data": {
     "news": {
@@ -637,16 +636,111 @@
       ]
     },
     "recommendations": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
+      "status": "no_data"
     }
   },
   "holders_data": {
     "major_holders": {
-      "status": "error"
+      "status": "success",
+      "data": [
+        {
+          "Value": 0.13042
+        },
+        {
+          "Value": 0.90236
+        },
+        {
+          "Value": 1.0376999
+        },
+        {
+          "Value": 202.0
+        }
+      ]
     },
     "institutional_holders": {
-      "status": "error"
+      "status": "success",
+      "data": [
+        {
+          "Date Reported": "2025-09-30 00:00:00",
+          "Holder": "FMR, LLC",
+          "pctHeld": 0.1318,
+          "Shares": 13891986,
+          "Value": 979385013,
+          "pctChange": -0.1184
+        },
+        {
+          "Date Reported": "2025-09-30 00:00:00",
+          "Holder": "Vanguard Group Inc",
+          "pctHeld": 0.0553,
+          "Shares": 5824993,
+          "Value": 410662006,
+          "pctChange": 2.9055
+        },
+        {
+          "Date Reported": "2025-09-30 00:00:00",
+          "Holder": "Janus Henderson Group PLC",
+          "pctHeld": 0.0508,
+          "Shares": 5352751,
+          "Value": 377368945,
+          "pctChange": 0.5799
+        },
+        {
+          "Date Reported": "2025-09-30 00:00:00",
+          "Holder": "Blackrock Inc.",
+          "pctHeld": 0.0364,
+          "Shares": 3835309,
+          "Value": 270389284,
+          "pctChange": 2.1002
+        },
+        {
+          "Date Reported": "2025-09-30 00:00:00",
+          "Holder": "Alphabet Inc.",
+          "pctHeld": 0.0359,
+          "Shares": 3783528,
+          "Value": 266738724,
+          "pctChange": -0.2375
+        },
+        {
+          "Date Reported": "2025-09-30 00:00:00",
+          "Holder": "VR Adviser, LLC",
+          "pctHeld": 0.0356,
+          "Shares": 3750662,
+          "Value": 264421671,
+          "pctChange": 0.0
+        },
+        {
+          "Date Reported": "2025-09-30 00:00:00",
+          "Holder": "Wellington Management Group, LLP",
+          "pctHeld": 0.0347,
+          "Shares": 3659465,
+          "Value": 257992282,
+          "pctChange": 0.0677
+        },
+        {
+          "Date Reported": "2025-09-30 00:00:00",
+          "Holder": "Softbank Group Corporation",
+          "pctHeld": 0.0347,
+          "Shares": 3654691,
+          "Value": 257655715,
+          "pctChange": -0.2417
+        },
+        {
+          "Date Reported": "2025-09-30 00:00:00",
+          "Holder": "HBK Investments L P",
+          "pctHeld": 0.0304,
+          "Shares": 3200000,
+          "Value": 225600000,
+          "pctChange": 1.0
+        },
+        {
+          "Date Reported": "2025-09-30 00:00:00",
+          "Holder": "State Street Corporation",
+          "pctHeld": 0.0238,
+          "Shares": 2511076,
+          "Value": 177030858,
+          "pctChange": 3.1836998
+        }
+      ]
     }
   },
   "earnings_data": {
@@ -656,7 +750,7 @@
     },
     "calendar": {
       "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
+      "message": "'dict' object has no attribute 'empty'"
     }
   }
 }

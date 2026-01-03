@@ -1,9 +1,60 @@
 {
   "ticker": "TSLVF",
-  "timestamp": "2026-01-02T04:52:57.220938",
+  "timestamp": "2026-01-03T05:23:27.900636",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 7,
+    "data": [
+      {
+        "Close": 0.13500000536441803,
+        "High": 0.13619999587535858,
+        "Low": 0.13500000536441803,
+        "Open": 0.13619999587535858,
+        "Volume": 0
+      },
+      {
+        "Close": 0.12549999356269836,
+        "High": 0.12549999356269836,
+        "Low": 0.12549999356269836,
+        "Open": 0.12549999356269836,
+        "Volume": 5000
+      },
+      {
+        "Close": 0.13910000026226044,
+        "High": 0.13910000026226044,
+        "Low": 0.13910000026226044,
+        "Open": 0.13910000026226044,
+        "Volume": 3000
+      },
+      {
+        "Close": 0.133200004696846,
+        "High": 0.133200004696846,
+        "Low": 0.133200004696846,
+        "Open": 0.133200004696846,
+        "Volume": 490
+      },
+      {
+        "Close": 0.11800000071525574,
+        "High": 0.11800000071525574,
+        "Low": 0.11800000071525574,
+        "Open": 0.11800000071525574,
+        "Volume": 5000
+      },
+      {
+        "Close": 0.12999999523162842,
+        "High": 0.12999999523162842,
+        "Low": 0.12999999523162842,
+        "Open": 0.12999999523162842,
+        "Volume": 11500
+      },
+      {
+        "Close": 0.12330000102519989,
+        "High": 0.12330000102519989,
+        "Low": 0.12330000102519989,
+        "Open": 0.12330000102519989,
+        "Volume": 15175
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -21,8 +72,7 @@
     }
   },
   "options_data": {
-    "status": "error",
-    "error_message": "Too Many Requests. Rate limited. Try after a while."
+    "expirations": []
   },
   "news_data": {
     "news": {
@@ -215,16 +265,29 @@
       ]
     },
     "recommendations": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
+      "status": "no_data"
     }
   },
   "holders_data": {
     "major_holders": {
-      "status": "error"
+      "status": "success",
+      "data": [
+        {
+          "Value": 0.036
+        },
+        {
+          "Value": 0.09856
+        },
+        {
+          "Value": 0.102239996
+        },
+        {
+          "Value": 1.0
+        }
+      ]
     },
     "institutional_holders": {
-      "status": "error"
+      "status": "no_data"
     }
   },
   "earnings_data": {
@@ -234,7 +297,7 @@
     },
     "calendar": {
       "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
+      "message": "'dict' object has no attribute 'empty'"
     }
   }
 }

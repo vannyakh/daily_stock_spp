@@ -1,13 +1,22 @@
 {
   "ticker": "ESSA",
-  "timestamp": "2026-01-02T04:42:40.618833",
+  "timestamp": "2026-01-03T04:57:40.949079",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 1,
+    "data": [
+      {
+        "Close EACO": 77.6500015258789,
+        "High EACO": 77.6500015258789,
+        "Low EACO": 77.6500015258789,
+        "Open EACO": 77.6500015258789,
+        "Volume EACO": 0
+      }
+    ]
   },
   "stock_info": {
-    "status": "error",
-    "message": "Too Many Requests. Rate limited. Try after a while."
+    "status": "success",
+    "data": {}
   },
   "financials": {
     "income_statement": {
@@ -21,8 +30,7 @@
     }
   },
   "options_data": {
-    "status": "error",
-    "error_message": "Too Many Requests. Rate limited. Try after a while."
+    "expirations": []
   },
   "news_data": {
     "news": {
@@ -590,10 +598,10 @@
   },
   "holders_data": {
     "major_holders": {
-      "status": "error"
+      "status": "no_data"
     },
     "institutional_holders": {
-      "status": "error"
+      "status": "no_data"
     }
   },
   "earnings_data": {
@@ -603,7 +611,7 @@
     },
     "calendar": {
       "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
+      "message": "'dict' object has no attribute 'empty'"
     }
   }
 }

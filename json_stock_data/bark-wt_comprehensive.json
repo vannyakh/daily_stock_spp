@@ -1,13 +1,65 @@
 {
   "ticker": "BARK-WT",
-  "timestamp": "2026-01-02T04:59:29.279558",
+  "timestamp": "2026-01-03T05:40:10.378852",
   "intraday_data": {
     "status": "no_data",
     "message": "No intraday data available"
   },
   "stock_info": {
-    "status": "error",
-    "message": "Too Many Requests. Rate limited. Try after a while."
+    "status": "success",
+    "data": {
+      "maxAge": 86400,
+      "priceHint": 4,
+      "previousClose": 0.0102,
+      "open": 0.0401,
+      "dayLow": 0.0051,
+      "dayHigh": 0.0077,
+      "regularMarketPreviousClose": 0.0102,
+      "regularMarketOpen": 0.0401,
+      "regularMarketDayLow": 0.0051,
+      "regularMarketDayHigh": 0.0077,
+      "volume": 132142,
+      "regularMarketVolume": 132142,
+      "bid": 0.0225,
+      "ask": 0.04,
+      "bidSize": 90,
+      "askSize": 5,
+      "fiftyTwoWeekLow": 0.0051,
+      "fiftyTwoWeekHigh": 0.0077,
+      "currency": "USD",
+      "tradeable": false,
+      "quoteType": "EQUITY",
+      "symbol": "BARK-WT",
+      "language": "en-US",
+      "region": "US",
+      "typeDisp": "Equity",
+      "quoteSourceName": "Delayed Quote",
+      "triggerable": true,
+      "customPriceAlertConfidence": "HIGH",
+      "marketState": "CLOSED",
+      "exchangeTimezoneName": "America/New_York",
+      "exchangeTimezoneShortName": "EST",
+      "gmtOffSetMilliseconds": -18000000,
+      "market": "us_market",
+      "esgPopulated": false,
+      "longName": "BARK, Inc. WT",
+      "regularMarketChange": -0.0050000004,
+      "regularMarketDayRange": "0.0051 - 0.0077",
+      "fullExchangeName": "NYSE",
+      "fiftyTwoWeekLowChange": 9.999983e-05,
+      "fiftyTwoWeekLowChangePercent": 0.019607808,
+      "fiftyTwoWeekRange": "0.0051 - 0.0077",
+      "fiftyTwoWeekHighChange": -0.0025,
+      "fiftyTwoWeekHighChangePercent": -0.32467532,
+      "sourceInterval": 15,
+      "exchangeDataDelayedBy": 0,
+      "cryptoTradeable": false,
+      "regularMarketTime": 1765553378,
+      "exchange": "NYQ",
+      "hasPrePostMarketData": true,
+      "regularMarketChangePercent": -49.01961,
+      "regularMarketPrice": 0.0052
+    }
   },
   "financials": {
     "income_statement": {
@@ -21,25 +73,22 @@
     }
   },
   "options_data": {
-    "status": "error",
-    "error_message": "Too Many Requests. Rate limited. Try after a while."
+    "expirations": []
   },
   "news_data": {
     "news": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
+      "status": "no_data"
     },
     "recommendations": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
+      "status": "no_data"
     }
   },
   "holders_data": {
     "major_holders": {
-      "status": "error"
+      "status": "no_data"
     },
     "institutional_holders": {
-      "status": "error"
+      "status": "no_data"
     }
   },
   "earnings_data": {
@@ -49,7 +98,7 @@
     },
     "calendar": {
       "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
+      "message": "'dict' object has no attribute 'empty'"
     }
   }
 }

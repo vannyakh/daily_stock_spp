@@ -1,13 +1,50 @@
 {
   "ticker": "SST-WT",
-  "timestamp": "2026-01-02T04:58:39.144484",
+  "timestamp": "2026-01-03T05:37:51.936926",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 5,
+    "data": [
+      {
+        "Close BFLY-WT": 0.016300000250339508,
+        "High BFLY-WT": 0.01979999989271164,
+        "Low BFLY-WT": 0.015300000086426735,
+        "Open BFLY-WT": 0.015300000086426735,
+        "Volume BFLY-WT": 0
+      },
+      {
+        "Close BFLY-WT": 0.013299999758601189,
+        "High BFLY-WT": 0.013299999758601189,
+        "Low BFLY-WT": 0.013299999758601189,
+        "Open BFLY-WT": 0.013299999758601189,
+        "Volume BFLY-WT": 1214
+      },
+      {
+        "Close BFLY-WT": 0.01600000075995922,
+        "High BFLY-WT": 0.01600000075995922,
+        "Low BFLY-WT": 0.01600000075995922,
+        "Open BFLY-WT": 0.01600000075995922,
+        "Volume BFLY-WT": 1289
+      },
+      {
+        "Close BFLY-WT": 0.01600000075995922,
+        "High BFLY-WT": 0.016499999910593033,
+        "Low BFLY-WT": 0.01600000075995922,
+        "Open BFLY-WT": 0.016499999910593033,
+        "Volume BFLY-WT": 950
+      },
+      {
+        "Close BFLY-WT": 0.019899999722838402,
+        "High BFLY-WT": 0.019999999552965164,
+        "Low BFLY-WT": 0.01600000075995922,
+        "Open BFLY-WT": 0.01600000075995922,
+        "Volume BFLY-WT": 750
+      }
+    ]
   },
   "stock_info": {
-    "status": "error",
-    "message": "Too Many Requests. Rate limited. Try after a while."
+    "status": "success",
+    "data": {}
   },
   "financials": {
     "income_statement": {
@@ -21,24 +58,22 @@
     }
   },
   "options_data": {
-    "status": "error",
-    "error_message": "Too Many Requests. Rate limited. Try after a while."
+    "expirations": []
   },
   "news_data": {
     "news": {
       "status": "no_data"
     },
     "recommendations": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
+      "status": "no_data"
     }
   },
   "holders_data": {
     "major_holders": {
-      "status": "error"
+      "status": "no_data"
     },
     "institutional_holders": {
-      "status": "error"
+      "status": "no_data"
     }
   },
   "earnings_data": {
@@ -48,7 +83,7 @@
     },
     "calendar": {
       "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
+      "message": "'dict' object has no attribute 'empty'"
     }
   }
 }

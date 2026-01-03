@@ -1,60 +1,9 @@
 {
   "ticker": "THMG",
-  "timestamp": "2026-01-02T04:49:59.598314",
+  "timestamp": "2026-01-03T05:15:34.396866",
   "intraday_data": {
-    "status": "success",
-    "rows": 7,
-    "data": [
-      {
-        "Close": 0.7225000262260437,
-        "High": 0.7225000262260437,
-        "Low": 0.7225000262260437,
-        "Open": 0.7225000262260437,
-        "Volume": 0
-      },
-      {
-        "Close": 0.7347999811172485,
-        "High": 0.7347999811172485,
-        "Low": 0.7347999811172485,
-        "Open": 0.7347999811172485,
-        "Volume": 3157
-      },
-      {
-        "Close": 0.7002000212669373,
-        "High": 0.7002999782562256,
-        "Low": 0.7002000212669373,
-        "Open": 0.7002999782562256,
-        "Volume": 1752
-      },
-      {
-        "Close": 0.7002999782562256,
-        "High": 0.7002999782562256,
-        "Low": 0.7002999782562256,
-        "Open": 0.7002999782562256,
-        "Volume": 600
-      },
-      {
-        "Close": 0.7200000286102295,
-        "High": 0.7200000286102295,
-        "Low": 0.7200000286102295,
-        "Open": 0.7200000286102295,
-        "Volume": 11000
-      },
-      {
-        "Close": 0.7250000238418579,
-        "High": 0.7250000238418579,
-        "Low": 0.7250000238418579,
-        "Open": 0.7250000238418579,
-        "Volume": 10000
-      },
-      {
-        "Close": 0.7250000238418579,
-        "High": 0.7250000238418579,
-        "Low": 0.7250000238418579,
-        "Open": 0.7250000238418579,
-        "Volume": 2000
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -62,44 +11,14 @@
   },
   "financials": {
     "income_statement": {
-      "status": "no_data"
-    },
-    "balance_sheet": {
-      "status": "no_data"
-    },
-    "cash_flow": {
-      "status": "no_data"
-    }
-  },
-  "options_data": {
-    "status": "error",
-    "error_message": "Too Many Requests. Rate limited. Try after a while."
-  },
-  "news_data": {
-    "news": {
-      "status": "no_data"
-    },
-    "recommendations": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
-    }
-  },
-  "holders_data": {
-    "major_holders": {
-      "status": "error"
-    },
-    "institutional_holders": {
-      "status": "error"
-    }
-  },
-  "earnings_data": {
-    "earnings": {
-      "status": "error",
-      "message": "'NoneType' object has no attribute 'empty'"
-    },
-    "calendar": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
-    }
-  }
-}
+      "status": "success",
+      "rows": 43,
+      "columns": [
+        "2024-12-31 00:00:00",
+        "2023-12-31 00:00:00",
+        "2022-12-31 00:00:00",
+        "2021-12-31 00:00:00"
+      ],
+      "data": [
+        {
+          

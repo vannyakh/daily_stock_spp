@@ -1,14 +1,77 @@
 {
   "ticker": "TLIF",
-  "timestamp": "2026-01-02T04:56:10.105319",
+  "timestamp": "2026-01-03T05:31:16.309038",
   "intraday_data": {
-    "status": "success",
-    "rows": 0,
-    "data": []
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
-    "status": "error",
-    "message": "Too Many Requests. Rate limited. Try after a while."
+    "status": "success",
+    "data": {
+      "language": "en-US",
+      "region": "US",
+      "quoteType": "EQUITY",
+      "typeDisp": "Equity",
+      "quoteSourceName": "Delayed Quote",
+      "triggerable": false,
+      "customPriceAlertConfidence": "LOW",
+      "currency": "USD",
+      "hasPrePostMarketData": false,
+      "firstTradeDateMilliseconds": 1383748200000,
+      "priceHint": 4,
+      "regularMarketChange": 0.0,
+      "regularMarketDayHigh": 0.0037,
+      "regularMarketDayRange": "0.0037 - 0.0037",
+      "regularMarketDayLow": 0.0037,
+      "regularMarketVolume": 100000,
+      "regularMarketPreviousClose": 0.005,
+      "bid": 0.0037,
+      "ask": 0.0045,
+      "bidSize": 116999,
+      "askSize": 32178,
+      "fullExchangeName": "OTC Markets OTCPK",
+      "regularMarketOpen": 0.0037,
+      "averageDailyVolume3Month": 167577,
+      "averageDailyVolume10Day": 61610,
+      "fiftyTwoWeekLowChange": 0.0019999999,
+      "fiftyTwoWeekLowChangePercent": 0.6666666,
+      "fiftyTwoWeekRange": "0.003 - 0.018",
+      "fiftyTwoWeekHighChange": -0.012999999,
+      "fiftyTwoWeekHighChangePercent": -0.7222222,
+      "fiftyTwoWeekLow": 0.003,
+      "fiftyTwoWeekHigh": 0.018,
+      "fiftyTwoWeekChangePercent": 25.0,
+      "trailingAnnualDividendRate": 0.0,
+      "trailingAnnualDividendYield": 0.0,
+      "epsTrailingTwelveMonths": -6.43,
+      "shortName": "TOCCA Life Holdings, Inc.",
+      "longName": "TOCCA Life Holdings, Inc.",
+      "sharesOutstanding": 118653125,
+      "fiftyDayAverage": 0.00512,
+      "fiftyDayAverageChange": -0.00011999998,
+      "fiftyDayAverageChangePercent": -0.023437496,
+      "twoHundredDayAverage": 0.005665,
+      "twoHundredDayAverageChange": -0.0006650002,
+      "twoHundredDayAverageChangePercent": -0.117387496,
+      "marketCap": 593265,
+      "sourceInterval": 15,
+      "exchangeDataDelayedBy": 0,
+      "tradeable": false,
+      "cryptoTradeable": false,
+      "marketState": "CLOSED",
+      "regularMarketTime": 1767387600,
+      "exchange": "PNK",
+      "messageBoardId": "finmb_285891609",
+      "exchangeTimezoneName": "America/New_York",
+      "exchangeTimezoneShortName": "EST",
+      "gmtOffSetMilliseconds": -18000000,
+      "market": "us_market",
+      "esgPopulated": false,
+      "regularMarketChangePercent": 0.0,
+      "regularMarketPrice": 0.005,
+      "displayName": "TOCCA Life",
+      "symbol": "TLIF"
+    }
   },
   "financials": {
     "income_statement": {
@@ -22,24 +85,36 @@
     }
   },
   "options_data": {
-    "status": "error",
-    "error_message": "Too Many Requests. Rate limited. Try after a while."
+    "expirations": []
   },
   "news_data": {
     "news": {
       "status": "no_data"
     },
     "recommendations": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
+      "status": "no_data"
     }
   },
   "holders_data": {
     "major_holders": {
-      "status": "error"
+      "status": "success",
+      "data": [
+        {
+          "Value": 0.0
+        },
+        {
+          "Value": 0.0
+        },
+        {
+          "Value": 0.0
+        },
+        {
+          "Value": 0.0
+        }
+      ]
     },
     "institutional_holders": {
-      "status": "error"
+      "status": "no_data"
     }
   },
   "earnings_data": {
@@ -49,7 +124,7 @@
     },
     "calendar": {
       "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
+      "message": "'dict' object has no attribute 'empty'"
     }
   }
 }

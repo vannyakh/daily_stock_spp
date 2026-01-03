@@ -1,54 +1,55 @@
 {
   "ticker": "WDSP",
-  "timestamp": "2026-01-02T04:53:12.629404",
+  "timestamp": "2026-01-03T05:24:42.470725",
   "intraday_data": {
     "status": "no_data",
     "message": "No intraday data available"
   },
   "stock_info": {
-    "status": "error",
-    "message": "Too Many Requests. Rate limited. Try after a while."
+    "status": "success",
+    "data": {
+      "quoteType": "MUTUALFUND",
+      "symbol": "WDSP",
+      "language": "en-US",
+      "region": "US",
+      "typeDisp": "Fund",
+      "quoteSourceName": "Delayed Quote",
+      "triggerable": false,
+      "customPriceAlertConfidence": "NONE",
+      "sourceInterval": 15,
+      "exchangeDataDelayedBy": 0,
+      "tradeable": false,
+      "cryptoTradeable": false,
+      "hasPrePostMarketData": false,
+      "priceHint": 2,
+      "fullExchangeName": "YHD",
+      "financialCurrency": "USD",
+      "epsTrailingTwelveMonths": 0.129,
+      "bookValue": 0.29,
+      "marketState": "CLOSED",
+      "longName": "World Scan Project, Inc.",
+      "regularMarketTime": 1561759658,
+      "exchange": "YHD",
+      "messageBoardId": "finmb_672100844",
+      "exchangeTimezoneName": "America/New_York",
+      "exchangeTimezoneShortName": "EST",
+      "gmtOffSetMilliseconds": -18000000,
+      "market": "us_market",
+      "esgPopulated": false,
+      "shortName": "1855",
+      "displayName": "World Scan Project"
+    }
   },
   "financials": {
     "income_statement": {
-      "status": "no_data"
-    },
-    "balance_sheet": {
-      "status": "no_data"
-    },
-    "cash_flow": {
-      "status": "no_data"
-    }
-  },
-  "options_data": {
-    "status": "error",
-    "error_message": "Too Many Requests. Rate limited. Try after a while."
-  },
-  "news_data": {
-    "news": {
-      "status": "no_data"
-    },
-    "recommendations": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
-    }
-  },
-  "holders_data": {
-    "major_holders": {
-      "status": "error"
-    },
-    "institutional_holders": {
-      "status": "error"
-    }
-  },
-  "earnings_data": {
-    "earnings": {
-      "status": "error",
-      "message": "'NoneType' object has no attribute 'empty'"
-    },
-    "calendar": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
-    }
-  }
-}
+      "status": "success",
+      "rows": 43,
+      "columns": [
+        "2024-10-31 00:00:00",
+        "2023-10-31 00:00:00",
+        "2022-10-31 00:00:00",
+        "2021-10-31 00:00:00"
+      ],
+      "data": [
+        {
+          

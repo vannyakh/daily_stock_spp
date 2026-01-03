@@ -1,10 +1,32 @@
 {
   "ticker": "DTEAF",
-  "timestamp": "2026-01-02T04:58:00.648596",
+  "timestamp": "2026-01-03T05:36:38.618811",
   "intraday_data": {
     "status": "success",
-    "rows": 0,
-    "data": []
+    "rows": 3,
+    "data": [
+      {
+        "Close": 0.699400007724762,
+        "High": 0.699400007724762,
+        "Low": 0.699400007724762,
+        "Open": 0.699400007724762,
+        "Volume": 0
+      },
+      {
+        "Close": 0.6809999942779541,
+        "High": 0.6809999942779541,
+        "Low": 0.6809999942779541,
+        "Open": 0.6809999942779541,
+        "Volume": 19
+      },
+      {
+        "Close": 0.6809999942779541,
+        "High": 0.6809999942779541,
+        "Low": 0.6809999942779541,
+        "Open": 0.6809999942779541,
+        "Volume": 5
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -12,89 +34,12 @@
   },
   "financials": {
     "income_statement": {
-      "status": "no_data"
-    },
-    "balance_sheet": {
-      "status": "no_data"
-    },
-    "cash_flow": {
-      "status": "no_data"
-    }
-  },
-  "options_data": {
-    "status": "error",
-    "error_message": "Too Many Requests. Rate limited. Try after a while."
-  },
-  "news_data": {
-    "news": {
       "status": "success",
-      "count": 1,
+      "rows": 54,
+      "columns": [
+        "2022-01-31 00:00:00",
+        "2021-01-31 00:00:00"
+      ],
       "data": [
         {
-          "id": "2f9ba626-808d-3e2d-92fd-9d7ad7c36517",
-          "content": {
-            "id": "2f9ba626-808d-3e2d-92fd-9d7ad7c36517",
-            "contentType": "STORY",
-            "title": "DAVIDsTEA Q1 Net Loss Narrows, Sales Rise",
-            "description": "",
-            "summary": "DAVIDsTEA (DTEA.V) on Tuesday reported a narrower first-quarter loss and higher revenue. The comp",
-            "pubDate": "2025-06-17T12:34:47Z",
-            "displayTime": "2025-06-17T12:34:47Z",
-            "isHosted": true,
-            "bypassModal": false,
-            "previewUrl": null,
-            "thumbnail": null,
-            "provider": {
-              "displayName": "MT Newswires",
-              "url": "https://www.mtnewswires.com/"
-            },
-            "canonicalUrl": {
-              "url": "https://finance.yahoo.com/news/davidstea-q1-net-loss-narrows-123447339.html",
-              "site": "finance",
-              "region": "US",
-              "lang": "en-US"
-            },
-            "clickThroughUrl": {
-              "url": "https://finance.yahoo.com/news/davidstea-q1-net-loss-narrows-123447339.html",
-              "site": "finance",
-              "region": "US",
-              "lang": "en-US"
-            },
-            "metadata": {
-              "editorsPick": false
-            },
-            "finance": {
-              "premiumFinance": {
-                "isPremiumNews": true,
-                "isPremiumFreeNews": false
-              }
-            },
-            "storyline": null
-          }
-        }
-      ]
-    },
-    "recommendations": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
-    }
-  },
-  "holders_data": {
-    "major_holders": {
-      "status": "error"
-    },
-    "institutional_holders": {
-      "status": "error"
-    }
-  },
-  "earnings_data": {
-    "earnings": {
-      "status": "error",
-      "message": "'NoneType' object has no attribute 'empty'"
-    },
-    "calendar": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
-    }
-  }
-}
+          

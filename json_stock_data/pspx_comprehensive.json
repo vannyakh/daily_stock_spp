@@ -1,13 +1,43 @@
 {
   "ticker": "PSPX",
-  "timestamp": "2026-01-02T05:01:11.085452",
+  "timestamp": "2026-01-03T05:45:35.786366",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 4,
+    "data": [
+      {
+        "Close BEATW": 0.28600001335144043,
+        "High BEATW": 0.28600001335144043,
+        "Low BEATW": 0.28600001335144043,
+        "Open BEATW": 0.28600001335144043,
+        "Volume BEATW": 1177
+      },
+      {
+        "Close BEATW": 0.32989999651908875,
+        "High BEATW": 0.32989999651908875,
+        "Low BEATW": 0.32989999651908875,
+        "Open BEATW": 0.32989999651908875,
+        "Volume BEATW": 200
+      },
+      {
+        "Close BEATW": 0.28999999165534973,
+        "High BEATW": 0.28999999165534973,
+        "Low BEATW": 0.28999999165534973,
+        "Open BEATW": 0.28999999165534973,
+        "Volume BEATW": 300
+      },
+      {
+        "Close BEATW": 0.3174000084400177,
+        "High BEATW": 0.3174000084400177,
+        "Low BEATW": 0.3174000084400177,
+        "Open BEATW": 0.3174000084400177,
+        "Volume BEATW": 100
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
-    "message": "argument of type 'NoneType' is not iterable"
+    "message": "Too Many Requests. Rate limited. Try after a while."
   },
   "financials": {
     "income_statement": {
@@ -26,8 +56,7 @@
   },
   "news_data": {
     "news": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
+      "status": "no_data"
     },
     "recommendations": {
       "status": "error",

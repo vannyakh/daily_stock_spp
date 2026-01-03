@@ -1,50 +1,25 @@
 {
   "ticker": "AVGR",
-  "timestamp": "2026-01-02T04:51:33.938908",
+  "timestamp": "2026-01-03T05:19:07.037616",
   "intraday_data": {
-    "status": "success",
-    "rows": 5,
-    "data": [
-      {
-        "Close SNBH": 0.013000000268220901,
-        "High SNBH": 0.013000000268220901,
-        "Low SNBH": 0.013000000268220901,
-        "Open SNBH": 0.013000000268220901,
-        "Volume SNBH": 0
-      },
-      {
-        "Close SNBH": 0.013000000268220901,
-        "High SNBH": 0.013000000268220901,
-        "Low SNBH": 0.013000000268220901,
-        "Open SNBH": 0.013000000268220901,
-        "Volume SNBH": 17827
-      },
-      {
-        "Close SNBH": 0.01209999993443489,
-        "High SNBH": 0.01209999993443489,
-        "Low SNBH": 0.01209999993443489,
-        "Open SNBH": 0.01209999993443489,
-        "Volume SNBH": 35000
-      },
-      {
-        "Close SNBH": 0.012199999764561653,
-        "High SNBH": 0.012199999764561653,
-        "Low SNBH": 0.012199999764561653,
-        "Open SNBH": 0.012199999764561653,
-        "Volume SNBH": 1000
-      },
-      {
-        "Close SNBH": 0.01209999993443489,
-        "High SNBH": 0.01209999993443489,
-        "Low SNBH": 0.01209999993443489,
-        "Open SNBH": 0.01209999993443489,
-        "Volume SNBH": 2000
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
-    "status": "error",
-    "message": "Too Many Requests. Rate limited. Try after a while."
+    "status": "success",
+    "data": {
+      "quoteType": "NONE",
+      "symbol": "AVGR",
+      "language": "en-US",
+      "region": "US",
+      "triggerable": false,
+      "customPriceAlertConfidence": "NONE",
+      "tradeable": false,
+      "cryptoTradeable": false,
+      "esgPopulated": false,
+      "hasPrePostMarketData": false,
+      "financialCurrency": "USD"
+    }
   },
   "financials": {
     "income_statement": {
@@ -58,24 +33,22 @@
     }
   },
   "options_data": {
-    "status": "error",
-    "error_message": "Too Many Requests. Rate limited. Try after a while."
+    "expirations": []
   },
   "news_data": {
     "news": {
       "status": "no_data"
     },
     "recommendations": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
+      "status": "no_data"
     }
   },
   "holders_data": {
     "major_holders": {
-      "status": "error"
+      "status": "no_data"
     },
     "institutional_holders": {
-      "status": "error"
+      "status": "no_data"
     }
   },
   "earnings_data": {
@@ -85,7 +58,7 @@
     },
     "calendar": {
       "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
+      "message": "'dict' object has no attribute 'empty'"
     }
   }
 }

@@ -1,53 +1,9 @@
 {
   "ticker": "NKSH",
-  "timestamp": "2026-01-02T04:42:57.865352",
+  "timestamp": "2026-01-03T04:58:35.650390",
   "intraday_data": {
-    "status": "success",
-    "rows": 6,
-    "data": [
-      {
-        "Close": 33.400001525878906,
-        "High": 33.400001525878906,
-        "Low": 33.400001525878906,
-        "Open": 33.400001525878906,
-        "Volume": 1488
-      },
-      {
-        "Close": 33.400001525878906,
-        "High": 33.400001525878906,
-        "Low": 33.400001525878906,
-        "Open": 33.400001525878906,
-        "Volume": 543
-      },
-      {
-        "Close": 33.61000061035156,
-        "High": 33.61000061035156,
-        "Low": 33.61000061035156,
-        "Open": 33.61000061035156,
-        "Volume": 284
-      },
-      {
-        "Close": 33.400001525878906,
-        "High": 33.400001525878906,
-        "Low": 33.400001525878906,
-        "Open": 33.400001525878906,
-        "Volume": 608
-      },
-      {
-        "Close": 33.599998474121094,
-        "High": 33.599998474121094,
-        "Low": 33.5,
-        "Open": 33.5,
-        "Volume": 538
-      },
-      {
-        "Close": 33.61000061035156,
-        "High": 33.61000061035156,
-        "Low": 33.61000061035156,
-        "Open": 33.61000061035156,
-        "Volume": 757
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -648,7 +604,8 @@
       ]
     },
     "recommendations": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   },
   "holders_data": {

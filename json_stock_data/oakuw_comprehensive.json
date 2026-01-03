@@ -1,54 +1,85 @@
 {
   "ticker": "OAKUW",
-  "timestamp": "2026-01-02T04:57:06.942557",
+  "timestamp": "2026-01-03T05:33:51.876567",
   "intraday_data": {
     "status": "no_data",
     "message": "No intraday data available"
   },
   "stock_info": {
-    "status": "error",
-    "message": "Too Many Requests. Rate limited. Try after a while."
+    "status": "success",
+    "data": {
+      "maxAge": 86400,
+      "priceHint": 4,
+      "previousClose": 0.0383,
+      "open": 0.0302,
+      "dayLow": 0.0383,
+      "dayHigh": 0.0383,
+      "regularMarketPreviousClose": 0.0383,
+      "regularMarketOpen": 0.0302,
+      "regularMarketDayLow": 0.0383,
+      "regularMarketDayHigh": 0.0383,
+      "volume": 0,
+      "regularMarketVolume": 0,
+      "bid": 0.0,
+      "ask": 0.0,
+      "bidSize": 0,
+      "askSize": 0,
+      "fiftyTwoWeekLow": 0.0383,
+      "fiftyTwoWeekHigh": 0.0383,
+      "trailingAnnualDividendRate": 0.0,
+      "trailingAnnualDividendYield": 0.0,
+      "currency": "USD",
+      "tradeable": false,
+      "quoteType": "EQUITY",
+      "currentPrice": 0.0383,
+      "recommendationKey": "none",
+      "financialCurrency": "USD",
+      "symbol": "OAKUW",
+      "language": "en-US",
+      "region": "US",
+      "typeDisp": "Equity",
+      "quoteSourceName": "Delayed Quote",
+      "triggerable": true,
+      "customPriceAlertConfidence": "HIGH",
+      "marketState": "CLOSED",
+      "regularMarketChangePercent": 0.0,
+      "regularMarketPrice": 0.0383,
+      "regularMarketTime": 1765220471,
+      "exchange": "NCM",
+      "messageBoardId": "finmb_1826509091",
+      "exchangeTimezoneName": "America/New_York",
+      "exchangeTimezoneShortName": "EST",
+      "gmtOffSetMilliseconds": -18000000,
+      "market": "us_market",
+      "esgPopulated": false,
+      "shortName": "Oak Woods Acquisition Corporati",
+      "longName": "Oak Woods Acquisition Corporation",
+      "regularMarketChange": 0.0,
+      "regularMarketDayRange": "0.0383 - 0.0383",
+      "fullExchangeName": "NasdaqCM",
+      "fiftyTwoWeekLowChange": 0.0,
+      "fiftyTwoWeekLowChangePercent": 0.0,
+      "fiftyTwoWeekRange": "0.0383 - 0.0383",
+      "fiftyTwoWeekHighChange": 0.0,
+      "fiftyTwoWeekHighChangePercent": 0.0,
+      "bookValue": 6.365,
+      "priceToBook": 0.006017282,
+      "sourceInterval": 15,
+      "exchangeDataDelayedBy": 0,
+      "ipoExpectedDate": "2023-05-19",
+      "cryptoTradeable": false,
+      "hasPrePostMarketData": true,
+      "displayName": "Oak Woods"
+    }
   },
   "financials": {
     "income_statement": {
-      "status": "no_data"
-    },
-    "balance_sheet": {
-      "status": "no_data"
-    },
-    "cash_flow": {
-      "status": "no_data"
-    }
-  },
-  "options_data": {
-    "status": "error",
-    "error_message": "Too Many Requests. Rate limited. Try after a while."
-  },
-  "news_data": {
-    "news": {
-      "status": "no_data"
-    },
-    "recommendations": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
-    }
-  },
-  "holders_data": {
-    "major_holders": {
-      "status": "error"
-    },
-    "institutional_holders": {
-      "status": "error"
-    }
-  },
-  "earnings_data": {
-    "earnings": {
-      "status": "error",
-      "message": "'NoneType' object has no attribute 'empty'"
-    },
-    "calendar": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
-    }
-  }
-}
+      "status": "success",
+      "rows": 29,
+      "columns": [
+        "2024-12-31 00:00:00",
+        "2023-12-31 00:00:00"
+      ],
+      "data": [
+        {
+          

@@ -1,9 +1,10 @@
 {
   "ticker": "PYCR",
-  "timestamp": "2026-01-02T04:33:42.868738",
+  "timestamp": "2026-01-03T04:34:57.003393",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 0,
+    "data": []
   },
   "stock_info": {
     "status": "error",
@@ -21,8 +22,7 @@
     }
   },
   "options_data": {
-    "status": "error",
-    "error_message": "Too Many Requests. Rate limited. Try after a while."
+    "expirations": []
   },
   "news_data": {
     "news": {
@@ -604,16 +604,64 @@
       ]
     },
     "recommendations": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
+      "status": "success",
+      "rows": 4,
+      "data": [
+        {
+          "period": "0m",
+          "strongBuy": 0,
+          "buy": 0,
+          "hold": 5,
+          "sell": 0,
+          "strongSell": 1
+        },
+        {
+          "period": "-1m",
+          "strongBuy": 0,
+          "buy": 0,
+          "hold": 15,
+          "sell": 0,
+          "strongSell": 1
+        },
+        {
+          "period": "-2m",
+          "strongBuy": 0,
+          "buy": 0,
+          "hold": 15,
+          "sell": 0,
+          "strongSell": 1
+        },
+        {
+          "period": "-3m",
+          "strongBuy": 0,
+          "buy": 1,
+          "hold": 14,
+          "sell": 0,
+          "strongSell": 1
+        }
+      ]
     }
   },
   "holders_data": {
     "major_holders": {
-      "status": "error"
+      "status": "success",
+      "data": [
+        {
+          "Value": 0.01131
+        },
+        {
+          "Value": 0.96768
+        },
+        {
+          "Value": 0.97875
+        },
+        {
+          "Value": 279.0
+        }
+      ]
     },
     "institutional_holders": {
-      "status": "error"
+      "status": "no_data"
     }
   },
   "earnings_data": {
@@ -623,7 +671,7 @@
     },
     "calendar": {
       "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
+      "message": "'dict' object has no attribute 'empty'"
     }
   }
 }

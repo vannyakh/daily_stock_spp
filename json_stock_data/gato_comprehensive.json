@@ -1,9 +1,18 @@
 {
   "ticker": "GATO",
-  "timestamp": "2026-01-02T04:54:59.297400",
+  "timestamp": "2026-01-03T05:28:20.236270",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 1,
+    "data": [
+      {
+        "Close FMCKP": 24.360000610351562,
+        "High FMCKP": 24.360000610351562,
+        "Low FMCKP": 24.360000610351562,
+        "Open FMCKP": 24.360000610351562,
+        "Volume FMCKP": 0
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -21,8 +30,7 @@
     }
   },
   "options_data": {
-    "status": "error",
-    "error_message": "Too Many Requests. Rate limited. Try after a while."
+    "expirations": []
   },
   "news_data": {
     "news": {
@@ -74,16 +82,15 @@
       ]
     },
     "recommendations": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
+      "status": "no_data"
     }
   },
   "holders_data": {
     "major_holders": {
-      "status": "error"
+      "status": "no_data"
     },
     "institutional_holders": {
-      "status": "error"
+      "status": "no_data"
     }
   },
   "earnings_data": {
@@ -93,7 +100,7 @@
     },
     "calendar": {
       "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
+      "message": "'dict' object has no attribute 'empty'"
     }
   }
 }

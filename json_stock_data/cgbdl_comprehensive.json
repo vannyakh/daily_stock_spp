@@ -1,13 +1,83 @@
 {
   "ticker": "CGBDL",
-  "timestamp": "2026-01-02T05:00:20.966710",
+  "timestamp": "2026-01-03T05:43:02.271996",
   "intraday_data": {
     "status": "no_data",
     "message": "No intraday data available"
   },
   "stock_info": {
-    "status": "error",
-    "message": "Too Many Requests. Rate limited. Try after a while."
+    "status": "success",
+    "data": {
+      "maxAge": 86400,
+      "priceHint": 2,
+      "previousClose": 25.48,
+      "open": 25.48,
+      "dayLow": 25.48,
+      "dayHigh": 25.48,
+      "regularMarketPreviousClose": 25.48,
+      "regularMarketOpen": 25.48,
+      "regularMarketDayLow": 25.48,
+      "regularMarketDayHigh": 25.48,
+      "volume": 102,
+      "regularMarketVolume": 102,
+      "averageVolume": 20335,
+      "averageVolume10days": 19080,
+      "averageDailyVolume10Day": 19080,
+      "bid": 25.49,
+      "ask": 0.0,
+      "bidSize": 50,
+      "askSize": 0,
+      "fiftyTwoWeekLow": 25.05,
+      "fiftyTwoWeekHigh": 26.75,
+      "allTimeHigh": 26.75,
+      "allTimeLow": 25.0,
+      "fiftyDayAverage": 25.45076,
+      "twoHundredDayAverage": 25.64889,
+      "currency": "USD",
+      "tradeable": false,
+      "quoteType": "EQUITY",
+      "symbol": "CGBDL",
+      "language": "en-US",
+      "region": "US",
+      "typeDisp": "Equity",
+      "quoteSourceName": "Delayed Quote",
+      "triggerable": true,
+      "customPriceAlertConfidence": "HIGH",
+      "hasPrePostMarketData": true,
+      "firstTradeDateMilliseconds": 1700663400000,
+      "regularMarketChange": 0.0,
+      "regularMarketDayRange": "25.48 - 25.48",
+      "fullExchangeName": "NasdaqGM",
+      "averageDailyVolume3Month": 20335,
+      "fiftyTwoWeekLowChange": 0.4300003,
+      "fiftyTwoWeekLowChangePercent": 0.017165681,
+      "fiftyTwoWeekRange": "25.05 - 26.75",
+      "fiftyTwoWeekHighChange": -1.2700005,
+      "fiftyTwoWeekHighChangePercent": -0.047476653,
+      "fiftyTwoWeekChangePercent": -1.4694512,
+      "dividendDate": 1756771200,
+      "exchange": "NGM",
+      "messageBoardId": "finmb_26149448",
+      "exchangeTimezoneName": "America/New_York",
+      "exchangeTimezoneShortName": "EST",
+      "gmtOffSetMilliseconds": -18000000,
+      "market": "us_market",
+      "esgPopulated": false,
+      "shortName": "Carlyle Secured Lending, Inc. -",
+      "longName": "Carlyle Secured Lending, Inc. 8.20% Notes due 2028",
+      "marketState": "CLOSED",
+      "regularMarketChangePercent": 0.0,
+      "regularMarketPrice": 25.48,
+      "regularMarketTime": 1764369900,
+      "fiftyDayAverageChange": 0.029239655,
+      "fiftyDayAverageChangePercent": 0.0011488716,
+      "twoHundredDayAverageChange": -0.16889,
+      "twoHundredDayAverageChangePercent": -0.0065846904,
+      "sourceInterval": 15,
+      "exchangeDataDelayedBy": 0,
+      "ipoExpectedDate": "2023-11-22",
+      "cryptoTradeable": false
+    }
   },
   "financials": {
     "income_statement": {
@@ -21,25 +91,22 @@
     }
   },
   "options_data": {
-    "status": "error",
-    "error_message": "Too Many Requests. Rate limited. Try after a while."
+    "expirations": []
   },
   "news_data": {
     "news": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
+      "status": "no_data"
     },
     "recommendations": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
+      "status": "no_data"
     }
   },
   "holders_data": {
     "major_holders": {
-      "status": "error"
+      "status": "no_data"
     },
     "institutional_holders": {
-      "status": "error"
+      "status": "no_data"
     }
   },
   "earnings_data": {
@@ -49,7 +116,7 @@
     },
     "calendar": {
       "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
+      "message": "'dict' object has no attribute 'empty'"
     }
   }
 }

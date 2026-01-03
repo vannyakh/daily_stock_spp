@@ -1,32 +1,9 @@
 {
   "ticker": "EQOSQ",
-  "timestamp": "2026-01-02T04:51:44.038794",
+  "timestamp": "2026-01-03T05:19:49.761718",
   "intraday_data": {
-    "status": "success",
-    "rows": 3,
-    "data": [
-      {
-        "Close SKVI": 0.4997999966144562,
-        "High SKVI": 0.4997999966144562,
-        "Low SKVI": 0.4997999966144562,
-        "Open SKVI": 0.4997999966144562,
-        "Volume SKVI": 0
-      },
-      {
-        "Close SKVI": 0.4997999966144562,
-        "High SKVI": 0.4997999966144562,
-        "Low SKVI": 0.4997999966144562,
-        "Open SKVI": 0.4997999966144562,
-        "Volume SKVI": 60
-      },
-      {
-        "Close SKVI": 0.4997999966144562,
-        "High SKVI": 0.4997999966144562,
-        "Low SKVI": 0.4997999966144562,
-        "Open SKVI": 0.4997999966144562,
-        "Volume SKVI": 4
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -34,44 +11,12 @@
   },
   "financials": {
     "income_statement": {
-      "status": "no_data"
-    },
-    "balance_sheet": {
-      "status": "no_data"
-    },
-    "cash_flow": {
-      "status": "no_data"
-    }
-  },
-  "options_data": {
-    "status": "error",
-    "error_message": "Too Many Requests. Rate limited. Try after a while."
-  },
-  "news_data": {
-    "news": {
-      "status": "no_data"
-    },
-    "recommendations": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
-    }
-  },
-  "holders_data": {
-    "major_holders": {
-      "status": "error"
-    },
-    "institutional_holders": {
-      "status": "error"
-    }
-  },
-  "earnings_data": {
-    "earnings": {
-      "status": "error",
-      "message": "'NoneType' object has no attribute 'empty'"
-    },
-    "calendar": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
-    }
-  }
-}
+      "status": "success",
+      "rows": 55,
+      "columns": [
+        "2022-03-31 00:00:00",
+        "2021-03-31 00:00:00"
+      ],
+      "data": [
+        {
+          

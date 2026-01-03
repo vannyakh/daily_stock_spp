@@ -1,22 +1,24 @@
 {
   "ticker": "TMEF",
-  "timestamp": "2026-01-02T04:59:32.384993",
+  "timestamp": "2026-01-03T05:40:32.260536",
   "intraday_data": {
-    "status": "success",
-    "rows": 1,
-    "data": [
-      {
-        "Close EIOAX": 8.420000076293945,
-        "High EIOAX": 8.420000076293945,
-        "Low EIOAX": 8.420000076293945,
-        "Open EIOAX": 8.420000076293945,
-        "Volume EIOAX": 0
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
-    "status": "error",
-    "message": "Too Many Requests. Rate limited. Try after a while."
+    "status": "success",
+    "data": {
+      "quoteType": "NONE",
+      "symbol": "TMEF",
+      "language": "en-US",
+      "region": "US",
+      "triggerable": false,
+      "customPriceAlertConfidence": "NONE",
+      "hasPrePostMarketData": false,
+      "esgPopulated": false,
+      "tradeable": false,
+      "cryptoTradeable": false
+    }
   },
   "financials": {
     "income_statement": {
@@ -30,25 +32,22 @@
     }
   },
   "options_data": {
-    "status": "error",
-    "error_message": "Too Many Requests. Rate limited. Try after a while."
+    "expirations": []
   },
   "news_data": {
     "news": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
+      "status": "no_data"
     },
     "recommendations": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
+      "status": "no_data"
     }
   },
   "holders_data": {
     "major_holders": {
-      "status": "error"
+      "status": "no_data"
     },
     "institutional_holders": {
-      "status": "error"
+      "status": "no_data"
     }
   },
   "earnings_data": {
@@ -58,7 +57,7 @@
     },
     "calendar": {
       "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
+      "message": "'dict' object has no attribute 'empty'"
     }
   }
 }

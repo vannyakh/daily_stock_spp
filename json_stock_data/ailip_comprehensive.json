@@ -1,55 +1,98 @@
 {
   "ticker": "AILIP",
-  "timestamp": "2026-01-02T05:00:30.749266",
+  "timestamp": "2026-01-03T05:43:57.240087",
   "intraday_data": {
     "status": "no_data",
     "message": "No intraday data available"
   },
   "stock_info": {
-    "status": "error",
-    "message": "Too Many Requests. Rate limited. Try after a while."
+    "status": "success",
+    "data": {
+      "maxAge": 86400,
+      "priceHint": 2,
+      "previousClose": 66.98,
+      "open": 66.98,
+      "dayLow": 66.98,
+      "dayHigh": 66.98,
+      "regularMarketPreviousClose": 66.98,
+      "regularMarketOpen": 66.98,
+      "regularMarketDayLow": 66.98,
+      "regularMarketDayHigh": 66.98,
+      "volume": 200,
+      "regularMarketVolume": 200,
+      "averageVolume": 19,
+      "averageVolume10days": 60,
+      "averageDailyVolume10Day": 60,
+      "bid": 67.16,
+      "ask": 74.99,
+      "bidSize": 120,
+      "askSize": 108,
+      "fiftyTwoWeekLow": 66.0,
+      "fiftyTwoWeekHigh": 72.5,
+      "allTimeHigh": 104.3,
+      "allTimeLow": 66.0,
+      "fiftyDayAverage": 70.6632,
+      "twoHundredDayAverage": 69.19185,
+      "currency": "USD",
+      "tradeable": false,
+      "quoteType": "EQUITY",
+      "symbol": "AILIP",
+      "language": "en-US",
+      "region": "US",
+      "typeDisp": "Equity",
+      "quoteSourceName": "Delayed Quote",
+      "triggerable": false,
+      "customPriceAlertConfidence": "LOW",
+      "fiftyDayAverageChange": -3.683197,
+      "fiftyDayAverageChangePercent": -0.05212327,
+      "twoHundredDayAverageChange": -2.2118454,
+      "twoHundredDayAverageChangePercent": -0.03196685,
+      "sourceInterval": 15,
+      "exchangeDataDelayedBy": 0,
+      "cryptoTradeable": false,
+      "marketState": "CLOSED",
+      "hasPrePostMarketData": false,
+      "firstTradeDateMilliseconds": 1348579800000,
+      "regularMarketChange": 0.0,
+      "regularMarketDayRange": "66.98 - 66.98",
+      "fullExchangeName": "OTC Markets OTCPK",
+      "averageDailyVolume3Month": 19,
+      "fiftyTwoWeekLowChange": 0.98000336,
+      "fiftyTwoWeekLowChangePercent": 0.014848536,
+      "fiftyTwoWeekRange": "66.0 - 72.5",
+      "fiftyTwoWeekHighChange": -5.5199966,
+      "fiftyTwoWeekHighChangePercent": -0.076137885,
+      "fiftyTwoWeekChangePercent": -1.8608034,
+      "dividendDate": 1746057600,
+      "earningsTimestampStart": 1754337600,
+      "earningsTimestampEnd": 1754683200,
+      "earningsCallTimestampStart": 1739545200,
+      "earningsCallTimestampEnd": 1739545200,
+      "isEarningsDateEstimate": true,
+      "regularMarketChangePercent": 0.0,
+      "regularMarketPrice": 66.98,
+      "exchange": "PNK",
+      "messageBoardId": "finmb_856489",
+      "exchangeTimezoneName": "America/New_York",
+      "exchangeTimezoneShortName": "EST",
+      "gmtOffSetMilliseconds": -18000000,
+      "market": "us_market",
+      "esgPopulated": false,
+      "shortName": "Ameren Illinois Company",
+      "longName": "Ameren Illinois Company PFD 4.20%",
+      "regularMarketTime": 1767387600
+    }
   },
   "financials": {
     "income_statement": {
-      "status": "no_data"
-    },
-    "balance_sheet": {
-      "status": "no_data"
-    },
-    "cash_flow": {
-      "status": "no_data"
-    }
-  },
-  "options_data": {
-    "status": "error",
-    "error_message": "Too Many Requests. Rate limited. Try after a while."
-  },
-  "news_data": {
-    "news": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
-    },
-    "recommendations": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
-    }
-  },
-  "holders_data": {
-    "major_holders": {
-      "status": "error"
-    },
-    "institutional_holders": {
-      "status": "error"
-    }
-  },
-  "earnings_data": {
-    "earnings": {
-      "status": "error",
-      "message": "'NoneType' object has no attribute 'empty'"
-    },
-    "calendar": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
-    }
-  }
-}
+      "status": "success",
+      "rows": 41,
+      "columns": [
+        "2024-12-31 00:00:00",
+        "2023-12-31 00:00:00",
+        "2022-12-31 00:00:00",
+        "2021-12-31 00:00:00"
+      ],
+      "data": [
+        {
+          

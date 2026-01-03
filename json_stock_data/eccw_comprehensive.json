@@ -1,51 +1,111 @@
 {
   "ticker": "ECCW",
-  "timestamp": "2026-01-02T04:59:30.743078",
+  "timestamp": "2026-01-03T05:40:21.487574",
   "intraday_data": {
     "status": "success",
-    "rows": 3,
+    "rows": 4,
     "data": [
       {
-        "Close ECCF": 25.079999923706055,
-        "Close ECCU": 25.15999984741211,
-        "High ECCF": 25.079999923706055,
-        "High ECCU": 25.15999984741211,
-        "Low ECCF": 25.079999923706055,
-        "Low ECCU": 25.15999984741211,
-        "Open ECCF": 25.079999923706055,
-        "Open ECCU": 25.15999984741211,
-        "Volume ECCF": 392.0,
-        "Volume ECCU": 102.0
+        "Close": 25.0,
+        "High": 25.0,
+        "Low": 25.0,
+        "Open": 25.0,
+        "Volume": 0
       },
       {
-        "Close ECCF": 25.074499130249023,
-        "Close ECCU": 25.1200008392334,
-        "High ECCF": 25.074499130249023,
-        "High ECCU": 25.1200008392334,
-        "Low ECCF": 25.074499130249023,
-        "Low ECCU": 25.1200008392334,
-        "Open ECCF": 25.074499130249023,
-        "Open ECCU": 25.1200008392334,
-        "Volume ECCF": 157.0,
-        "Volume ECCU": 406.0
+        "Close": 24.645000457763672,
+        "High": 24.645000457763672,
+        "Low": 24.645000457763672,
+        "Open": 24.645000457763672,
+        "Volume": 425
       },
       {
-        "Close ECCF": 25.06999969482422,
-        "Close ECCU": 25.15999984741211,
-        "High ECCF": 25.070100784301758,
-        "High ECCU": 25.15999984741211,
-        "Low ECCF": 25.06999969482422,
-        "Low ECCU": 25.15999984741211,
-        "Open ECCF": 25.070100784301758,
-        "Open ECCU": 25.15999984741211,
-        "Volume ECCF": 2033.0,
-        "Volume ECCU": 850.0
+        "Close": 24.577699661254883,
+        "High": 24.577699661254883,
+        "Low": 24.577699661254883,
+        "Open": 24.577699661254883,
+        "Volume": 519
+      },
+      {
+        "Close": 24.600000381469727,
+        "High": 24.600000381469727,
+        "Low": 24.600000381469727,
+        "Open": 24.600000381469727,
+        "Volume": 591
       }
     ]
   },
   "stock_info": {
-    "status": "error",
-    "message": "Too Many Requests. Rate limited. Try after a while."
+    "status": "success",
+    "data": {
+      "maxAge": 86400,
+      "priceHint": 2,
+      "previousClose": 24.86,
+      "open": 25.0,
+      "dayLow": 24.5777,
+      "dayHigh": 24.645,
+      "regularMarketPreviousClose": 24.86,
+      "regularMarketOpen": 25.0,
+      "regularMarketDayLow": 24.5777,
+      "regularMarketDayHigh": 24.645,
+      "volume": 2213,
+      "regularMarketVolume": 2213,
+      "averageVolume": 6332,
+      "averageVolume10days": 15190,
+      "averageDailyVolume10Day": 15190,
+      "bid": 24.52,
+      "ask": 24.78,
+      "bidSize": 200,
+      "askSize": 100,
+      "fiftyTwoWeekLow": 22.282,
+      "fiftyTwoWeekHigh": 25.0,
+      "allTimeHigh": 27.082,
+      "allTimeLow": 20.04,
+      "fiftyDayAverage": 24.2677,
+      "twoHundredDayAverage": 23.71476,
+      "currency": "USD",
+      "tradeable": false,
+      "quoteType": "EQUITY",
+      "symbol": "ECCW",
+      "language": "en-US",
+      "region": "US",
+      "typeDisp": "Equity",
+      "quoteSourceName": "Delayed Quote",
+      "triggerable": true,
+      "customPriceAlertConfidence": "HIGH",
+      "shortName": "Eagle Point Credit Company Inc.",
+      "regularMarketTime": 1767387602,
+      "exchange": "NYQ",
+      "messageBoardId": "finmb_265737294",
+      "marketState": "CLOSED",
+      "hasPrePostMarketData": true,
+      "firstTradeDateMilliseconds": 1617024600000,
+      "regularMarketChange": -0.220001,
+      "regularMarketDayRange": "24.5777 - 24.645",
+      "fullExchangeName": "NYSE",
+      "averageDailyVolume3Month": 6332,
+      "fiftyTwoWeekLowChange": 2.3579998,
+      "regularMarketChangePercent": -0.884961,
+      "regularMarketPrice": 24.64,
+      "exchangeTimezoneName": "America/New_York",
+      "exchangeTimezoneShortName": "EST",
+      "gmtOffSetMilliseconds": -18000000,
+      "market": "us_market",
+      "esgPopulated": false,
+      "fiftyTwoWeekLowChangePercent": 0.10582532,
+      "fiftyTwoWeekRange": "22.282 - 25.0",
+      "fiftyTwoWeekHighChange": -0.3600006,
+      "fiftyTwoWeekHighChangePercent": -0.014400024,
+      "fiftyTwoWeekChangePercent": 5.0718546,
+      "dividendDate": 1767139200,
+      "fiftyDayAverageChange": 0.3722992,
+      "fiftyDayAverageChangePercent": 0.015341346,
+      "twoHundredDayAverageChange": 0.92523956,
+      "twoHundredDayAverageChangePercent": 0.039015345,
+      "sourceInterval": 15,
+      "exchangeDataDelayedBy": 0,
+      "cryptoTradeable": false
+    }
   },
   "financials": {
     "income_statement": {
@@ -59,25 +119,22 @@
     }
   },
   "options_data": {
-    "status": "error",
-    "error_message": "Too Many Requests. Rate limited. Try after a while."
+    "expirations": []
   },
   "news_data": {
     "news": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
+      "status": "no_data"
     },
     "recommendations": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
+      "status": "no_data"
     }
   },
   "holders_data": {
     "major_holders": {
-      "status": "error"
+      "status": "no_data"
     },
     "institutional_holders": {
-      "status": "error"
+      "status": "no_data"
     }
   },
   "earnings_data": {
@@ -87,7 +144,7 @@
     },
     "calendar": {
       "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
+      "message": "'dict' object has no attribute 'empty'"
     }
   }
 }

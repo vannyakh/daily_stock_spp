@@ -1,9 +1,46 @@
 {
   "ticker": "AMH-PH",
-  "timestamp": "2026-01-02T04:54:17.968058",
+  "timestamp": "2026-01-03T05:26:47.184013",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 5,
+    "data": [
+      {
+        "Close": 24.562999725341797,
+        "High": 24.562999725341797,
+        "Low": 24.562999725341797,
+        "Open": 24.562999725341797,
+        "Volume": 0
+      },
+      {
+        "Close": 24.219999313354492,
+        "High": 24.219999313354492,
+        "Low": 24.219999313354492,
+        "Open": 24.219999313354492,
+        "Volume": 372
+      },
+      {
+        "Close": 24.27680015563965,
+        "High": 24.27680015563965,
+        "Low": 24.27680015563965,
+        "Open": 24.27680015563965,
+        "Volume": 155
+      },
+      {
+        "Close": 24.187999725341797,
+        "High": 24.187999725341797,
+        "Low": 24.187999725341797,
+        "Open": 24.187999725341797,
+        "Volume": 263
+      },
+      {
+        "Close": 24.440000534057617,
+        "High": 24.440000534057617,
+        "Low": 24.440000534057617,
+        "Open": 24.440000534057617,
+        "Volume": 150
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -599,16 +636,39 @@
       ]
     },
     "recommendations": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
+      "status": "no_data"
     }
   },
   "holders_data": {
     "major_holders": {
-      "status": "error"
+      "status": "success",
+      "data": [
+        {
+          "Value": 0.0
+        },
+        {
+          "Value": 0.39006
+        },
+        {
+          "Value": 0.39006
+        },
+        {
+          "Value": 14.0
+        }
+      ]
     },
     "institutional_holders": {
-      "status": "error"
+      "status": "success",
+      "data": [
+        {
+          "Date Reported": "2022-12-31 00:00:00",
+          "Holder": "PNC Financial Services Group, Inc.",
+          "pctHeld": 0.0,
+          "Shares": 6,
+          "Value": 146,
+          "pctChange": 1.0
+        }
+      ]
     }
   },
   "earnings_data": {
@@ -618,7 +678,7 @@
     },
     "calendar": {
       "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
+      "message": "'dict' object has no attribute 'empty'"
     }
   }
 }

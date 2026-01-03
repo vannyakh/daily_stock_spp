@@ -1,13 +1,42 @@
 {
   "ticker": "GFTTY",
-  "timestamp": "2026-01-02T04:52:55.891222",
+  "timestamp": "2026-01-03T05:23:21.654082",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 2,
+    "data": [
+      {
+        "Close AAPG": 26.260000228881836,
+        "High AAPG": 26.260000228881836,
+        "Low AAPG": 26.260000228881836,
+        "Open AAPG": 26.260000228881836,
+        "Volume AAPG": 0
+      },
+      {
+        "Close AAPG": 26.889999389648438,
+        "High AAPG": 26.889999389648438,
+        "Low AAPG": 26.889999389648438,
+        "Open AAPG": 26.889999389648438,
+        "Volume AAPG": 593
+      }
+    ]
   },
   "stock_info": {
-    "status": "error",
-    "message": "Too Many Requests. Rate limited. Try after a while."
+    "status": "success",
+    "data": {
+      "quoteType": "NONE",
+      "symbol": "GFTTY",
+      "language": "en-US",
+      "region": "US",
+      "triggerable": false,
+      "customPriceAlertConfidence": "NONE",
+      "financialCurrency": "EUR",
+      "hasPrePostMarketData": false,
+      "messageBoardId": "finmb_417836",
+      "esgPopulated": false,
+      "tradeable": false,
+      "cryptoTradeable": false
+    }
   },
   "financials": {
     "income_statement": {
@@ -21,24 +50,22 @@
     }
   },
   "options_data": {
-    "status": "error",
-    "error_message": "Too Many Requests. Rate limited. Try after a while."
+    "expirations": []
   },
   "news_data": {
     "news": {
       "status": "no_data"
     },
     "recommendations": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
+      "status": "no_data"
     }
   },
   "holders_data": {
     "major_holders": {
-      "status": "error"
+      "status": "no_data"
     },
     "institutional_holders": {
-      "status": "error"
+      "status": "no_data"
     }
   },
   "earnings_data": {
@@ -48,7 +75,7 @@
     },
     "calendar": {
       "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
+      "message": "'dict' object has no attribute 'empty'"
     }
   }
 }

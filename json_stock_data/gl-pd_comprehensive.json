@@ -1,13 +1,115 @@
 {
   "ticker": "GL-PD",
-  "timestamp": "2026-01-02T05:00:31.154767",
+  "timestamp": "2026-01-03T05:43:57.252811",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 6,
+    "data": [
+      {
+        "Close": 16.770000457763672,
+        "High": 16.770000457763672,
+        "Low": 16.770000457763672,
+        "Open": 16.770000457763672,
+        "Volume": 0
+      },
+      {
+        "Close": 16.989900588989258,
+        "High": 16.989900588989258,
+        "Low": 16.989900588989258,
+        "Open": 16.989900588989258,
+        "Volume": 401
+      },
+      {
+        "Close": 16.895000457763672,
+        "High": 16.895000457763672,
+        "Low": 16.895000457763672,
+        "Open": 16.895000457763672,
+        "Volume": 1074
+      },
+      {
+        "Close": 16.895000457763672,
+        "High": 16.895000457763672,
+        "Low": 16.895000457763672,
+        "Open": 16.895000457763672,
+        "Volume": 197
+      },
+      {
+        "Close": 16.895000457763672,
+        "High": 16.895000457763672,
+        "Low": 16.895000457763672,
+        "Open": 16.895000457763672,
+        "Volume": 260
+      },
+      {
+        "Close": 16.895000457763672,
+        "High": 16.895000457763672,
+        "Low": 16.895000457763672,
+        "Open": 16.895000457763672,
+        "Volume": 408
+      }
+    ]
   },
   "stock_info": {
-    "status": "error",
-    "message": "Too Many Requests. Rate limited. Try after a while."
+    "status": "success",
+    "data": {
+      "maxAge": 86400,
+      "priceHint": 2,
+      "previousClose": 16.75,
+      "open": 16.77,
+      "dayLow": 16.895,
+      "dayHigh": 16.9899,
+      "regularMarketPreviousClose": 16.75,
+      "regularMarketOpen": 16.77,
+      "regularMarketDayLow": 16.895,
+      "regularMarketDayHigh": 16.9899,
+      "volume": 2789,
+      "regularMarketVolume": 2789,
+      "bid": 16.8,
+      "ask": 16.99,
+      "bidSize": 500,
+      "askSize": 300,
+      "fiftyTwoWeekLow": 16.895,
+      "fiftyTwoWeekHigh": 16.9899,
+      "currency": "USD",
+      "tradeable": false,
+      "quoteType": "EQUITY",
+      "symbol": "GL-PD",
+      "language": "en-US",
+      "region": "US",
+      "typeDisp": "Equity",
+      "quoteSourceName": "Nasdaq Real Time Price",
+      "triggerable": true,
+      "customPriceAlertConfidence": "HIGH",
+      "postMarketTime": 1767387756,
+      "regularMarketTime": 1767387602,
+      "market": "us_market",
+      "esgPopulated": false,
+      "marketState": "CLOSED",
+      "shortName": "Globe Life Inc. 4.25% Junior Su",
+      "postMarketChangePercent": 0.029589586,
+      "postMarketPrice": 16.9,
+      "postMarketChange": 0.0049991608,
+      "regularMarketChange": 0.15,
+      "regularMarketDayRange": "16.895 - 16.9899",
+      "fullExchangeName": "NYSE",
+      "fiftyTwoWeekLowChange": 0.0049991608,
+      "fiftyTwoWeekLowChangePercent": 0.00029589585,
+      "fiftyTwoWeekRange": "16.895 - 16.9899",
+      "fiftyTwoWeekHighChange": -0.08990097,
+      "fiftyTwoWeekHighChangePercent": -0.005291436,
+      "dividendDate": 1765756800,
+      "sourceInterval": 15,
+      "exchangeDataDelayedBy": 0,
+      "cryptoTradeable": false,
+      "regularMarketChangePercent": 0.89552,
+      "regularMarketPrice": 16.9,
+      "hasPrePostMarketData": true,
+      "exchange": "NYQ",
+      "messageBoardId": "finmb_308916",
+      "exchangeTimezoneName": "America/New_York",
+      "exchangeTimezoneShortName": "EST",
+      "gmtOffSetMilliseconds": -18000000
+    }
   },
   "financials": {
     "income_statement": {
@@ -21,25 +123,22 @@
     }
   },
   "options_data": {
-    "status": "error",
-    "error_message": "Too Many Requests. Rate limited. Try after a while."
+    "expirations": []
   },
   "news_data": {
     "news": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
+      "status": "no_data"
     },
     "recommendations": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
+      "status": "no_data"
     }
   },
   "holders_data": {
     "major_holders": {
-      "status": "error"
+      "status": "no_data"
     },
     "institutional_holders": {
-      "status": "error"
+      "status": "no_data"
     }
   },
   "earnings_data": {
@@ -49,7 +148,7 @@
     },
     "calendar": {
       "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
+      "message": "'dict' object has no attribute 'empty'"
     }
   }
 }
