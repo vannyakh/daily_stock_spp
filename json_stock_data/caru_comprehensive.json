@@ -1,25 +1,9 @@
 {
   "ticker": "CARU",
-  "timestamp": "2026-01-03T05:44:43.045031",
+  "timestamp": "2026-01-04T05:16:13.342069",
   "intraday_data": {
-    "status": "success",
-    "rows": 2,
-    "data": [
-      {
-        "Close WTID": 11.289999961853027,
-        "High WTID": 11.289999961853027,
-        "Low WTID": 11.289999961853027,
-        "Open WTID": 11.289999961853027,
-        "Volume WTID": 0
-      },
-      {
-        "Close WTID": 11.229999542236328,
-        "High WTID": 11.25,
-        "Low WTID": 11.199999809265137,
-        "Open WTID": 11.25,
-        "Volume WTID": 640
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -42,7 +26,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

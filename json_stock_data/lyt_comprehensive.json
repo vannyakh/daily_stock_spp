@@ -1,102 +1,13 @@
 {
   "ticker": "LYT",
-  "timestamp": "2026-01-03T05:12:37.597462",
+  "timestamp": "2026-01-04T05:05:52.920325",
   "intraday_data": {
     "status": "no_data",
     "message": "No intraday data available"
   },
   "stock_info": {
-    "status": "success",
-    "data": {
-      "address1": "1214, One BKC",
-      "address2": "Bandra Kurla Complex",
-      "city": "Mumbai",
-      "zip": "400051",
-      "country": "India",
-      "phone": "91 77 7704 4778",
-      "website": "https://www.lytuscorp.com",
-      "industry": "Software - Application",
-      "industryKey": "software-application",
-      "industryDisp": "Software - Application",
-      "sector": "Technology",
-      "sectorKey": "technology",
-      "sectorDisp": "Technology",
-      "longBusinessSummary": "Lytus Technologies Holdings PTV. Ltd. operates as a platform services company in India. It operates in two segments, Cable Services and Telemedicine Services. The company engages in the distribution of linear content streaming/telecasting services; and development of telemedicine and fintech products. Lytus Technologies Holdings PTV. Ltd. was incorporated in 2020 and is based in Mumbai, India.",
-      "compensationAsOfEpochDate": 1735603200,
-      "maxAge": 86400,
-      "priceHint": 4,
-      "previousClose": 0.0,
-      "regularMarketPreviousClose": 0.0,
-      "payoutRatio": 0.0,
-      "beta": 2.219,
-      "currency": "USD",
-      "tradeable": false,
-      "enterpriseValue": -397164,
-      "profitMargins": 0.09512,
-      "floatShares": 4933622,
-      "sharesShort": 463929,
-      "sharesShortPriorMonth": 173829,
-      "sharesShortPreviousMonthDate": 1739491200,
-      "dateShortInterest": 1741910400,
-      "sharesPercentSharesOut": 0.0149,
-      "heldPercentInsiders": 0.039979998,
-      "heldPercentInstitutions": 0.00178,
-      "shortRatio": 0.02,
-      "shortPercentOfFloat": 0.0155,
-      "lastFiscalYearEnd": 1711843200,
-      "nextFiscalYearEnd": 1743379200,
-      "mostRecentQuarter": 1727654400,
-      "netIncomeToCommon": 2255926,
-      "enterpriseToRevenue": -0.017,
-      "enterpriseToEbitda": -0.176,
-      "SandP52WeekChange": 0.14561749,
-      "quoteType": "EQUITY",
-      "currentPrice": 0.0982,
-      "recommendationKey": "none",
-      "totalCash": 4963151,
-      "totalCashPerShare": 0.951,
-      "ebitda": 2257105,
-      "totalDebt": 1315632,
-      "quickRatio": 0.723,
-      "currentRatio": 0.889,
-      "totalRevenue": 23716988,
-      "debtToEquity": 6.949,
-      "revenuePerShare": 7.29,
-      "returnOnAssets": 0.02467,
-      "returnOnEquity": 0.17282,
-      "grossProfits": 4955033,
-      "freeCashflow": -3007333,
-      "operatingCashflow": 695844,
-      "revenueGrowth": 0.244,
-      "grossMargins": 0.20892,
-      "ebitdaMargins": 0.09517,
-      "operatingMargins": 0.06113,
-      "financialCurrency": "USD",
-      "symbol": "LYT",
-      "language": "en-US",
-      "region": "US",
-      "typeDisp": "Equity",
-      "quoteSourceName": "Delayed Quote",
-      "triggerable": true,
-      "customPriceAlertConfidence": "HIGH",
-      "marketState": "CLOSED",
-      "shortName": "Lytus Technologies Holdings PTV",
-      "hasPrePostMarketData": true,
-      "regularMarketChange": 0.0982,
-      "fullExchangeName": "NasdaqCM",
-      "regularMarketPrice": 0.0982,
-      "sourceInterval": 15,
-      "exchangeDataDelayedBy": 0,
-      "cryptoTradeable": false,
-      "regularMarketTime": 1764104400,
-      "exchange": "NCM",
-      "exchangeTimezoneName": "America/New_York",
-      "exchangeTimezoneShortName": "EST",
-      "gmtOffSetMilliseconds": -18000000,
-      "market": "us_market",
-      "esgPopulated": false,
-      "displayName": "Lytus Technologies Holdings PTV"
-    }
+    "status": "error",
+    "message": "Too Many Requests. Rate limited. Try after a while."
   },
   "financials": {
     "income_statement": {
@@ -110,7 +21,8 @@
     }
   },
   "options_data": {
-    "expirations": []
+    "status": "error",
+    "error_message": "Too Many Requests. Rate limited. Try after a while."
   },
   "news_data": {
     "news": {
@@ -181,29 +93,16 @@
       ]
     },
     "recommendations": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   },
   "holders_data": {
     "major_holders": {
-      "status": "success",
-      "data": [
-        {
-          "Value": 0.039979998
-        },
-        {
-          "Value": 0.00178
-        },
-        {
-          "Value": 0.00185
-        },
-        {
-          "Value": 4.0
-        }
-      ]
+      "status": "error"
     },
     "institutional_holders": {
-      "status": "no_data"
+      "status": "error"
     }
   },
   "earnings_data": {
@@ -213,7 +112,7 @@
     },
     "calendar": {
       "status": "error",
-      "message": "'dict' object has no attribute 'empty'"
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   }
 }

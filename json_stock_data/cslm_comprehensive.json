@@ -1,96 +1,13 @@
 {
   "ticker": "CSLM",
-  "timestamp": "2026-01-03T05:04:52.173450",
+  "timestamp": "2026-01-04T05:02:51.614893",
   "intraday_data": {
     "status": "no_data",
     "message": "No intraday data available"
   },
   "stock_info": {
-    "status": "success",
-    "data": {
-      "address1": "2400 East Commercial Boulevard",
-      "address2": "Suite 900",
-      "city": "Fort Lauderdale",
-      "state": "FL",
-      "zip": "33308",
-      "country": "United States",
-      "phone": "954 315 9380",
-      "website": "https://www.cimspac.com",
-      "industry": "Shell Companies",
-      "industryKey": "shell-companies",
-      "industryDisp": "Shell Companies",
-      "sector": "Financial Services",
-      "sectorKey": "financial-services",
-      "sectorDisp": "Financial Services",
-      "longBusinessSummary": "CSLM Acquisition Corp. does not have significant operations. The company focuses on effecting a merger, share exchange, asset acquisition, share purchase, reorganization, or similar business combination with one or more businesses or entities. It intends to focus on companies operating in the technology, digital media, e-commerce, financial technology, or digital services sectors in the Middle East North Africa, Sub-Saharan Africa, South Asia, and Southeast Asia. The company was formerly known as Consilium Acquisition Corp I, Ltd. and changed its name to CSLM Acquisition Corp. in July 2023. CSLM Acquisition Corp. was incorporated in 2021 and is based in Fort Lauderdale, Florida.",
-      "maxAge": 86400,
-      "priceHint": 2,
-      "previousClose": 0.0,
-      "regularMarketPreviousClose": 0.0,
-      "payoutRatio": 0.0,
-      "beta": 0.025,
-      "currency": "USD",
-      "tradeable": false,
-      "enterpriseValue": 110073176,
-      "profitMargins": 0.0,
-      "floatShares": 3821695,
-      "sharesShort": 227,
-      "sharesShortPriorMonth": 444,
-      "sharesShortPreviousMonthDate": 1727654400,
-      "dateShortInterest": 1730332800,
-      "sharesPercentSharesOut": 0.0,
-      "heldPercentInsiders": 3.34654,
-      "heldPercentInstitutions": 1.12058,
-      "shortRatio": 0.62,
-      "shortPercentOfFloat": 0.0,
-      "lastFiscalYearEnd": 1703980800,
-      "nextFiscalYearEnd": 1735603200,
-      "mostRecentQuarter": 1719705600,
-      "earningsQuarterlyGrowth": -0.798,
-      "netIncomeToCommon": 1485400,
-      "SandP52WeekChange": 0.14561749,
-      "quoteType": "EQUITY",
-      "currentPrice": 11.69,
-      "recommendationKey": "none",
-      "totalCash": 62710,
-      "totalCashPerShare": 0.007,
-      "totalDebt": 2130000,
-      "quickRatio": 0.007,
-      "currentRatio": 5.603,
-      "returnOnAssets": -0.009330001,
-      "grossProfits": -225000,
-      "freeCashflow": 144835760,
-      "operatingCashflow": 3014941,
-      "earningsGrowth": -0.598,
-      "grossMargins": 0.0,
-      "ebitdaMargins": 0.0,
-      "operatingMargins": 0.0,
-      "financialCurrency": "USD",
-      "symbol": "CSLM",
-      "language": "en-US",
-      "region": "US",
-      "typeDisp": "Equity",
-      "quoteSourceName": "Delayed Quote",
-      "triggerable": true,
-      "customPriceAlertConfidence": "HIGH",
-      "sourceInterval": 15,
-      "exchangeDataDelayedBy": 0,
-      "cryptoTradeable": false,
-      "shortName": "CSLM Acquisition Corp.",
-      "regularMarketTime": 1764104400,
-      "exchange": "NGM",
-      "exchangeTimezoneName": "America/New_York",
-      "exchangeTimezoneShortName": "EST",
-      "gmtOffSetMilliseconds": -18000000,
-      "market": "us_market",
-      "esgPopulated": false,
-      "hasPrePostMarketData": true,
-      "regularMarketChange": 11.69,
-      "fullExchangeName": "NasdaqGM",
-      "regularMarketPrice": 11.69,
-      "marketState": "CLOSED",
-      "displayName": "CSLM"
-    }
+    "status": "error",
+    "message": "Too Many Requests. Rate limited. Try after a while."
   },
   "financials": {
     "income_statement": {
@@ -104,36 +21,24 @@
     }
   },
   "options_data": {
-    "expirations": []
+    "status": "error",
+    "error_message": "Too Many Requests. Rate limited. Try after a while."
   },
   "news_data": {
     "news": {
       "status": "no_data"
     },
     "recommendations": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   },
   "holders_data": {
     "major_holders": {
-      "status": "success",
-      "data": [
-        {
-          "Value": 3.34654
-        },
-        {
-          "Value": 1.12058
-        },
-        {
-          "Value": -0.47754002
-        },
-        {
-          "Value": 13.0
-        }
-      ]
+      "status": "error"
     },
     "institutional_holders": {
-      "status": "no_data"
+      "status": "error"
     }
   },
   "earnings_data": {
@@ -143,7 +48,7 @@
     },
     "calendar": {
       "status": "error",
-      "message": "'dict' object has no attribute 'empty'"
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   }
 }

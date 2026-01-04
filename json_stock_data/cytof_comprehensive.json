@@ -1,9 +1,25 @@
 {
   "ticker": "CYTOF",
-  "timestamp": "2026-01-03T05:21:00.405559",
+  "timestamp": "2026-01-04T05:09:10.011121",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 2,
+    "data": [
+      {
+        "Close": 0.08500000089406967,
+        "High": 0.08500000089406967,
+        "Low": 0.08500000089406967,
+        "Open": 0.08500000089406967,
+        "Volume": 0
+      },
+      {
+        "Close": 0.0949999988079071,
+        "High": 0.0949999988079071,
+        "Low": 0.0949999988079071,
+        "Open": 0.0949999988079071,
+        "Volume": 17202
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -26,7 +42,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

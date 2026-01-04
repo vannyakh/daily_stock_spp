@@ -1,44 +1,51 @@
 {
   "ticker": "SMBMF",
-  "timestamp": "2026-01-03T05:28:30.076830",
+  "timestamp": "2026-01-04T05:11:28.296394",
   "intraday_data": {
     "status": "success",
-    "rows": 5,
+    "rows": 6,
     "data": [
       {
-        "Close GTN-A": 11.619999885559082,
-        "High GTN-A": 11.619999885559082,
-        "Low GTN-A": 11.619999885559082,
-        "Open GTN-A": 11.619999885559082,
-        "Volume GTN-A": 252
+        "Close GAM-PB": 25.059999465942383,
+        "High GAM-PB": 25.059999465942383,
+        "Low GAM-PB": 25.059999465942383,
+        "Open GAM-PB": 25.059999465942383,
+        "Volume GAM-PB": 0
       },
       {
-        "Close GTN-A": 13.0,
-        "High GTN-A": 13.000100135803223,
-        "Low GTN-A": 13.0,
-        "Open GTN-A": 13.0,
-        "Volume GTN-A": 712
+        "Close GAM-PB": 25.079999923706055,
+        "High GAM-PB": 25.079999923706055,
+        "Low GAM-PB": 25.06999969482422,
+        "Open GAM-PB": 25.06999969482422,
+        "Volume GAM-PB": 433
       },
       {
-        "Close GTN-A": 12.399999618530273,
-        "High GTN-A": 12.399999618530273,
-        "Low GTN-A": 12.399999618530273,
-        "Open GTN-A": 12.399999618530273,
-        "Volume GTN-A": 564
+        "Close GAM-PB": 25.059999465942383,
+        "High GAM-PB": 25.079999923706055,
+        "Low GAM-PB": 25.059999465942383,
+        "Open GAM-PB": 25.079999923706055,
+        "Volume GAM-PB": 1496
       },
       {
-        "Close GTN-A": 11.550000190734863,
-        "High GTN-A": 12.050000190734863,
-        "Low GTN-A": 11.550000190734863,
-        "Open GTN-A": 12.050000190734863,
-        "Volume GTN-A": 1735
+        "Close GAM-PB": 25.00119972229004,
+        "High GAM-PB": 25.040000915527344,
+        "Low GAM-PB": 25.0,
+        "Open GAM-PB": 25.040000915527344,
+        "Volume GAM-PB": 8029
       },
       {
-        "Close GTN-A": 12.210000038146973,
-        "High GTN-A": 12.210000038146973,
-        "Low GTN-A": 12.210000038146973,
-        "Open GTN-A": 12.210000038146973,
-        "Volume GTN-A": 173
+        "Close GAM-PB": 25.049999237060547,
+        "High GAM-PB": 25.049999237060547,
+        "Low GAM-PB": 25.049999237060547,
+        "Open GAM-PB": 25.049999237060547,
+        "Volume GAM-PB": 100
+      },
+      {
+        "Close GAM-PB": 25.065000534057617,
+        "High GAM-PB": 25.065000534057617,
+        "Low GAM-PB": 25.065000534057617,
+        "Open GAM-PB": 25.065000534057617,
+        "Volume GAM-PB": 199
       }
     ]
   },
@@ -48,14 +55,45 @@
   },
   "financials": {
     "income_statement": {
-      "status": "success",
-      "rows": 50,
-      "columns": [
-        "2024-12-31 00:00:00",
-        "2023-12-31 00:00:00",
-        "2022-12-31 00:00:00",
-        "2021-12-31 00:00:00"
-      ],
-      "data": [
-        {
-          
+      "status": "no_data"
+    },
+    "balance_sheet": {
+      "status": "no_data"
+    },
+    "cash_flow": {
+      "status": "no_data"
+    }
+  },
+  "options_data": {
+    "status": "error",
+    "error_message": "Too Many Requests. Rate limited. Try after a while."
+  },
+  "news_data": {
+    "news": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    },
+    "recommendations": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  },
+  "holders_data": {
+    "major_holders": {
+      "status": "error"
+    },
+    "institutional_holders": {
+      "status": "error"
+    }
+  },
+  "earnings_data": {
+    "earnings": {
+      "status": "error",
+      "message": "'NoneType' object has no attribute 'empty'"
+    },
+    "calendar": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  }
+}

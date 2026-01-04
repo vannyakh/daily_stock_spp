@@ -1,91 +1,13 @@
 {
   "ticker": "VMCAU",
-  "timestamp": "2026-01-03T05:33:58.925226",
+  "timestamp": "2026-01-04T05:13:06.431529",
   "intraday_data": {
     "status": "no_data",
     "message": "No intraday data available"
   },
   "stock_info": {
-    "status": "success",
-    "data": {
-      "address1": "4 Orinda Way",
-      "address2": "Suite 100D",
-      "city": "Orinda",
-      "state": "CA",
-      "zip": "94563",
-      "country": "United States",
-      "phone": "(415) 340-0222",
-      "website": "https://www.valuencecap.com",
-      "industry": "Shell Companies",
-      "industryKey": "shell-companies",
-      "industryDisp": "Shell Companies",
-      "sector": "Financial Services",
-      "sectorKey": "financial-services",
-      "sectorDisp": "Financial Services",
-      "longBusinessSummary": "Valuence Merger Corp. I does not have significant operations. It intends to effect a merger, share exchange, asset acquisition, share purchase, reorganization, or similar business combination with one or more businesses or entities in developing breakthrough technology in life sciences and/or advancing a platform for sustainable technology in Asia. The company was incorporated in 2021 and is based in Orinda, California.",
-      "maxAge": 86400,
-      "priceHint": 2,
-      "previousClose": 0.0,
-      "regularMarketPreviousClose": 0.0,
-      "beta": 0.006,
-      "currency": "USD",
-      "tradeable": false,
-      "enterpriseValue": 82840528,
-      "profitMargins": 0.0,
-      "floatShares": 1482012,
-      "sharesShort": 1,
-      "sharesShortPriorMonth": 0,
-      "sharesShortPreviousMonthDate": 1736899200,
-      "dateShortInterest": 1739491200,
-      "heldPercentInsiders": 0.0,
-      "heldPercentInstitutions": 0.0,
-      "shortRatio": 0.02,
-      "lastFiscalYearEnd": 1703980800,
-      "nextFiscalYearEnd": 1735603200,
-      "mostRecentQuarter": 1727654400,
-      "earningsQuarterlyGrowth": -0.944,
-      "netIncomeToCommon": 1572971,
-      "SandP52WeekChange": 0.14561749,
-      "quoteType": "EQUITY",
-      "currentPrice": 11.37,
-      "recommendationKey": "none",
-      "totalCash": 15539,
-      "totalCashPerShare": 0.002,
-      "totalDebt": 3187532,
-      "quickRatio": 0.003,
-      "currentRatio": 0.018,
-      "returnOnAssets": -0.01446,
-      "freeCashflow": -486535,
-      "operatingCashflow": -880441,
-      "earningsGrowth": -0.912,
-      "grossMargins": 0.0,
-      "ebitdaMargins": 0.0,
-      "operatingMargins": 0.0,
-      "financialCurrency": "USD",
-      "symbol": "VMCAU",
-      "language": "en-US",
-      "region": "US",
-      "typeDisp": "Equity",
-      "quoteSourceName": "Delayed Quote",
-      "triggerable": true,
-      "customPriceAlertConfidence": "HIGH",
-      "shortName": "Valuence Merger Corp. I",
-      "regularMarketTime": 1764104400,
-      "exchange": "NGM",
-      "exchangeTimezoneName": "America/New_York",
-      "exchangeTimezoneShortName": "EST",
-      "gmtOffSetMilliseconds": -18000000,
-      "market": "us_market",
-      "esgPopulated": false,
-      "hasPrePostMarketData": true,
-      "regularMarketPrice": 11.37,
-      "sourceInterval": 15,
-      "exchangeDataDelayedBy": 0,
-      "cryptoTradeable": false,
-      "marketState": "CLOSED",
-      "regularMarketChange": 11.37,
-      "fullExchangeName": "NasdaqGM"
-    }
+    "status": "error",
+    "message": "Too Many Requests. Rate limited. Try after a while."
   },
   "financials": {
     "income_statement": {
@@ -99,36 +21,25 @@
     }
   },
   "options_data": {
-    "expirations": []
+    "status": "error",
+    "error_message": "Too Many Requests. Rate limited. Try after a while."
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   },
   "holders_data": {
     "major_holders": {
-      "status": "success",
-      "data": [
-        {
-          "Value": 0.0
-        },
-        {
-          "Value": 0.0
-        },
-        {
-          "Value": 0.0
-        },
-        {
-          "Value": 0.0
-        }
-      ]
+      "status": "error"
     },
     "institutional_holders": {
-      "status": "no_data"
+      "status": "error"
     }
   },
   "earnings_data": {
@@ -138,7 +49,7 @@
     },
     "calendar": {
       "status": "error",
-      "message": "'dict' object has no attribute 'empty'"
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   }
 }

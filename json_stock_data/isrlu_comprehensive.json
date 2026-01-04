@@ -1,6 +1,6 @@
 {
   "ticker": "ISRLU",
-  "timestamp": "2026-01-03T05:33:49.032168",
+  "timestamp": "2026-01-04T05:13:04.785931",
   "intraday_data": {
     "status": "no_data",
     "message": "No intraday data available"
@@ -26,50 +26,20 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   },
   "holders_data": {
     "major_holders": {
-      "status": "success",
-      "data": [
-        {
-          "Value": 0.0
-        },
-        {
-          "Value": 0.00102
-        },
-        {
-          "Value": 0.00102
-        },
-        {
-          "Value": 3.0
-        }
-      ]
+      "status": "error"
     },
     "institutional_holders": {
-      "status": "success",
-      "data": [
-        {
-          "Date Reported": "2025-09-30 00:00:00",
-          "Holder": "Clear Street Group Inc.",
-          "pctHeld": 0.00029999999,
-          "Shares": 3637,
-          "Value": 45098,
-          "pctChange": 1.0
-        },
-        {
-          "Date Reported": "2025-09-30 00:00:00",
-          "Holder": "UBS Group AG",
-          "pctHeld": 0.0001,
-          "Shares": 1019,
-          "Value": 12635,
-          "pctChange": -0.071100004
-        }
-      ]
+      "status": "error"
     }
   },
   "earnings_data": {
@@ -79,7 +49,7 @@
     },
     "calendar": {
       "status": "error",
-      "message": "'dict' object has no attribute 'empty'"
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   }
 }

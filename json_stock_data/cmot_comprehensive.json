@@ -1,39 +1,9 @@
 {
   "ticker": "CMOT",
-  "timestamp": "2026-01-03T05:30:29.943109",
+  "timestamp": "2026-01-04T05:12:08.075874",
   "intraday_data": {
-    "status": "success",
-    "rows": 4,
-    "data": [
-      {
-        "Close SNNC": 0.013399999588727951,
-        "High SNNC": 0.013399999588727951,
-        "Low SNNC": 0.013399999588727951,
-        "Open SNNC": 0.013399999588727951,
-        "Volume SNNC": 0
-      },
-      {
-        "Close SNNC": 0.012000000104308128,
-        "High SNNC": 0.012000000104308128,
-        "Low SNNC": 0.012000000104308128,
-        "Open SNNC": 0.012000000104308128,
-        "Volume SNNC": 1000
-      },
-      {
-        "Close SNNC": 0.012000000104308128,
-        "High SNNC": 0.012000000104308128,
-        "Low SNNC": 0.012000000104308128,
-        "Open SNNC": 0.012000000104308128,
-        "Volume SNNC": 1000
-      },
-      {
-        "Close SNNC": 0.012500000186264515,
-        "High SNNC": 0.012500000186264515,
-        "Low SNNC": 0.012500000186264515,
-        "Open SNNC": 0.012500000186264515,
-        "Volume SNNC": 1000
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -56,11 +26,11 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
-    },
-    "recommendations": {
       "status": "error",
       "message": "Too Many Requests. Rate limited. Try after a while."
+    },
+    "recommendations": {
+      "status": "no_data"
     }
   },
   "holders_data": {

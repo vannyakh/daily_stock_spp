@@ -1,6 +1,6 @@
 {
   "ticker": "BTMWW",
-  "timestamp": "2026-01-03T05:34:04.413481",
+  "timestamp": "2026-01-04T05:13:07.365168",
   "intraday_data": {
     "status": "success",
     "rows": 22,
@@ -162,82 +162,50 @@
     ]
   },
   "stock_info": {
-    "status": "success",
-    "data": {
-      "maxAge": 86400,
-      "priceHint": 4,
-      "previousClose": 0.1123,
-      "open": 0.29,
-      "dayLow": 0.101,
-      "dayHigh": 0.1494,
-      "regularMarketPreviousClose": 0.1123,
-      "regularMarketOpen": 0.29,
-      "regularMarketDayLow": 0.101,
-      "regularMarketDayHigh": 0.1494,
-      "volume": 111679,
-      "regularMarketVolume": 111679,
-      "bid": 0.2532,
-      "ask": 0.0,
-      "bidSize": 1,
-      "askSize": 0,
-      "fiftyTwoWeekLow": 0.101,
-      "fiftyTwoWeekHigh": 0.1494,
-      "trailingAnnualDividendRate": 0.0,
-      "trailingAnnualDividendYield": 0.0,
-      "currency": "USD",
-      "tradeable": false,
-      "quoteType": "EQUITY",
-      "currentPrice": 0.12,
-      "recommendationKey": "none",
-      "financialCurrency": "USD",
-      "symbol": "BTMWW",
-      "language": "en-US",
-      "region": "US",
-      "typeDisp": "Equity",
-      "quoteSourceName": "Delayed Quote",
-      "triggerable": true,
-      "customPriceAlertConfidence": "HIGH",
-      "priceToBook": 0.44444442,
-      "sourceInterval": 15,
-      "exchangeDataDelayedBy": 0,
-      "prevName": "Lux Vending, LLC",
-      "nameChangeDate": "2026-01-02",
-      "cryptoTradeable": false,
-      "hasPrePostMarketData": true,
-      "regularMarketChange": 0.0076999962,
-      "regularMarketDayRange": "0.101 - 0.1494",
-      "fullExchangeName": "NasdaqCM",
-      "fiftyTwoWeekLowChange": 0.018999994,
-      "fiftyTwoWeekLowChangePercent": 0.18811874,
-      "fiftyTwoWeekRange": "0.101 - 0.1494",
-      "fiftyTwoWeekHighChange": -0.029399998,
-      "fiftyTwoWeekHighChangePercent": -0.19678715,
-      "bookValue": 0.27,
-      "marketState": "CLOSED",
-      "longName": "Bitcoin Depot Inc.",
-      "regularMarketTime": 1767386465,
-      "exchange": "NCM",
-      "messageBoardId": "finmb_632371772",
-      "exchangeTimezoneName": "America/New_York",
-      "exchangeTimezoneShortName": "EST",
-      "gmtOffSetMilliseconds": -18000000,
-      "market": "us_market",
-      "esgPopulated": false,
-      "regularMarketChangePercent": 6.856631,
-      "regularMarketPrice": 0.12,
-      "displayName": "Bitcoin Depot"
-    }
+    "status": "error",
+    "message": "Too Many Requests. Rate limited. Try after a while."
   },
   "financials": {
     "income_statement": {
-      "status": "success",
-      "rows": 42,
-      "columns": [
-        "2024-12-31 00:00:00",
-        "2023-12-31 00:00:00",
-        "2022-12-31 00:00:00",
-        "2021-12-31 00:00:00"
-      ],
-      "data": [
-        {
-          
+      "status": "no_data"
+    },
+    "balance_sheet": {
+      "status": "no_data"
+    },
+    "cash_flow": {
+      "status": "no_data"
+    }
+  },
+  "options_data": {
+    "status": "error",
+    "error_message": "Too Many Requests. Rate limited. Try after a while."
+  },
+  "news_data": {
+    "news": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    },
+    "recommendations": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  },
+  "holders_data": {
+    "major_holders": {
+      "status": "error"
+    },
+    "institutional_holders": {
+      "status": "error"
+    }
+  },
+  "earnings_data": {
+    "earnings": {
+      "status": "error",
+      "message": "'NoneType' object has no attribute 'empty'"
+    },
+    "calendar": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  }
+}

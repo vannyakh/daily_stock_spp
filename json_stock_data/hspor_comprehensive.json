@@ -1,9 +1,18 @@
 {
   "ticker": "HSPOR",
-  "timestamp": "2026-01-03T05:32:49.595116",
+  "timestamp": "2026-01-04T05:12:41.795273",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 1,
+    "data": [
+      {
+        "Close FRMEP": 25.690000534057617,
+        "High FRMEP": 25.690000534057617,
+        "Low FRMEP": 25.690000534057617,
+        "Open FRMEP": 25.690000534057617,
+        "Volume FRMEP": 0
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -26,7 +35,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

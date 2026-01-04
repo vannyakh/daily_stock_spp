@@ -1,130 +1,9 @@
 {
   "ticker": "GMRE-PA",
-  "timestamp": "2026-01-03T05:28:55.357601",
+  "timestamp": "2026-01-04T05:11:33.408413",
   "intraday_data": {
-    "status": "success",
-    "rows": 17,
-    "data": [
-      {
-        "Close": 24.300100326538086,
-        "High": 24.300100326538086,
-        "Low": 24.299999237060547,
-        "Open": 24.299999237060547,
-        "Volume": 0
-      },
-      {
-        "Close": 24.25,
-        "High": 24.25,
-        "Low": 24.25,
-        "Open": 24.25,
-        "Volume": 196
-      },
-      {
-        "Close": 24.219999313354492,
-        "High": 24.219999313354492,
-        "Low": 24.219999313354492,
-        "Open": 24.219999313354492,
-        "Volume": 130
-      },
-      {
-        "Close": 24.141000747680664,
-        "High": 24.141000747680664,
-        "Low": 24.141000747680664,
-        "Open": 24.141000747680664,
-        "Volume": 300
-      },
-      {
-        "Close": 24.100000381469727,
-        "High": 24.100000381469727,
-        "Low": 24.100000381469727,
-        "Open": 24.100000381469727,
-        "Volume": 328
-      },
-      {
-        "Close": 24.06999969482422,
-        "High": 24.08679962158203,
-        "Low": 24.049999237060547,
-        "Open": 24.079999923706055,
-        "Volume": 3306
-      },
-      {
-        "Close": 24.100000381469727,
-        "High": 24.100000381469727,
-        "Low": 24.06999969482422,
-        "Open": 24.100000381469727,
-        "Volume": 800
-      },
-      {
-        "Close": 24.100000381469727,
-        "High": 24.100000381469727,
-        "Low": 24.100000381469727,
-        "Open": 24.100000381469727,
-        "Volume": 490
-      },
-      {
-        "Close": 24.15999984741211,
-        "High": 24.15999984741211,
-        "Low": 24.15999984741211,
-        "Open": 24.15999984741211,
-        "Volume": 249
-      },
-      {
-        "Close": 24.209999084472656,
-        "High": 24.209999084472656,
-        "Low": 24.209999084472656,
-        "Open": 24.209999084472656,
-        "Volume": 140
-      },
-      {
-        "Close": 24.200000762939453,
-        "High": 24.200000762939453,
-        "Low": 24.200000762939453,
-        "Open": 24.200000762939453,
-        "Volume": 100
-      },
-      {
-        "Close": 24.200000762939453,
-        "High": 24.200000762939453,
-        "Low": 24.200000762939453,
-        "Open": 24.200000762939453,
-        "Volume": 117
-      },
-      {
-        "Close": 24.200000762939453,
-        "High": 24.200000762939453,
-        "Low": 24.200000762939453,
-        "Open": 24.200000762939453,
-        "Volume": 300
-      },
-      {
-        "Close": 24.349899291992188,
-        "High": 24.349899291992188,
-        "Low": 24.349899291992188,
-        "Open": 24.349899291992188,
-        "Volume": 504
-      },
-      {
-        "Close": 24.285499572753906,
-        "High": 24.285499572753906,
-        "Low": 24.285499572753906,
-        "Open": 24.285499572753906,
-        "Volume": 1056
-      },
-      {
-        "Close": 24.200000762939453,
-        "High": 24.200000762939453,
-        "Low": 24.200000762939453,
-        "Open": 24.200000762939453,
-        "Volume": 100
-      },
-      {
-        "Close": 24.200000762939453,
-        "High": 24.219999313354492,
-        "Low": 24.200000762939453,
-        "Open": 24.200000762939453,
-        "Volume": 759
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -138,14 +17,39 @@
       "status": "no_data"
     },
     "cash_flow": {
-      "status": "success",
-      "rows": 58,
-      "columns": [
-        "2024-12-31 00:00:00",
-        "2023-12-31 00:00:00",
-        "2022-12-31 00:00:00",
-        "2021-12-31 00:00:00"
-      ],
-      "data": [
-        {
-          
+      "status": "no_data"
+    }
+  },
+  "options_data": {
+    "status": "error",
+    "error_message": "Too Many Requests. Rate limited. Try after a while."
+  },
+  "news_data": {
+    "news": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    },
+    "recommendations": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  },
+  "holders_data": {
+    "major_holders": {
+      "status": "error"
+    },
+    "institutional_holders": {
+      "status": "error"
+    }
+  },
+  "earnings_data": {
+    "earnings": {
+      "status": "error",
+      "message": "'NoneType' object has no attribute 'empty'"
+    },
+    "calendar": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  }
+}

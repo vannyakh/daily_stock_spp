@@ -1,18 +1,9 @@
 {
   "ticker": "GATO",
-  "timestamp": "2026-01-03T05:28:20.236270",
+  "timestamp": "2026-01-04T05:11:26.169018",
   "intraday_data": {
-    "status": "success",
-    "rows": 1,
-    "data": [
-      {
-        "Close FMCKP": 24.360000610351562,
-        "High FMCKP": 24.360000610351562,
-        "Low FMCKP": 24.360000610351562,
-        "Open FMCKP": 24.360000610351562,
-        "Volume FMCKP": 0
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -30,67 +21,25 @@
     }
   },
   "options_data": {
-    "expirations": []
+    "status": "error",
+    "error_message": "Too Many Requests. Rate limited. Try after a while."
   },
   "news_data": {
     "news": {
-      "status": "success",
-      "count": 1,
-      "data": [
-        {
-          "id": "3f67e64f-e9f3-34c7-96dc-f89c997fb6e1",
-          "content": {
-            "id": "3f67e64f-e9f3-34c7-96dc-f89c997fb6e1",
-            "contentType": "STORY",
-            "title": "Gatos Silver Reports 2024 Production at the Top End of Guidance",
-            "description": "",
-            "summary": "Gatos Silver (GATO.TO, GATO) after close of trade Thursday reported 2024 production for its 70%-owne",
-            "pubDate": "2025-01-09T21:24:54Z",
-            "displayTime": "2025-01-09T21:24:54Z",
-            "isHosted": true,
-            "bypassModal": false,
-            "previewUrl": null,
-            "thumbnail": null,
-            "provider": {
-              "displayName": "MT Newswires",
-              "url": "https://www.mtnewswires.com/"
-            },
-            "canonicalUrl": {
-              "url": "https://finance.yahoo.com/news/gatos-silver-reports-2024-production-212454374.html",
-              "site": "finance",
-              "region": "US",
-              "lang": "en-US"
-            },
-            "clickThroughUrl": {
-              "url": "https://finance.yahoo.com/news/gatos-silver-reports-2024-production-212454374.html",
-              "site": "finance",
-              "region": "US",
-              "lang": "en-US"
-            },
-            "metadata": {
-              "editorsPick": false
-            },
-            "finance": {
-              "premiumFinance": {
-                "isPremiumNews": true,
-                "isPremiumFreeNews": false
-              }
-            },
-            "storyline": null
-          }
-        }
-      ]
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   },
   "holders_data": {
     "major_holders": {
-      "status": "no_data"
+      "status": "error"
     },
     "institutional_holders": {
-      "status": "no_data"
+      "status": "error"
     }
   },
   "earnings_data": {
@@ -100,7 +49,7 @@
     },
     "calendar": {
       "status": "error",
-      "message": "'dict' object has no attribute 'empty'"
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   }
 }

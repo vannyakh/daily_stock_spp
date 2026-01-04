@@ -1,9 +1,46 @@
 {
   "ticker": "OPP-PA",
-  "timestamp": "2026-01-03T05:41:35.097067",
+  "timestamp": "2026-01-04T05:15:25.058496",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 5,
+    "data": [
+      {
+        "Close OPP-PB": 18.3799991607666,
+        "High OPP-PB": 18.3799991607666,
+        "Low OPP-PB": 18.3799991607666,
+        "Open OPP-PB": 18.3799991607666,
+        "Volume OPP-PB": 0
+      },
+      {
+        "Close OPP-PB": 18.520000457763672,
+        "High OPP-PB": 18.520000457763672,
+        "Low OPP-PB": 18.469999313354492,
+        "Open OPP-PB": 18.469999313354492,
+        "Volume OPP-PB": 800
+      },
+      {
+        "Close OPP-PB": 18.559600830078125,
+        "High OPP-PB": 18.559600830078125,
+        "Low OPP-PB": 18.559600830078125,
+        "Open OPP-PB": 18.559600830078125,
+        "Volume OPP-PB": 325
+      },
+      {
+        "Close OPP-PB": 18.520000457763672,
+        "High OPP-PB": 18.520000457763672,
+        "Low OPP-PB": 18.510000228881836,
+        "Open OPP-PB": 18.510000228881836,
+        "Volume OPP-PB": 300
+      },
+      {
+        "Close OPP-PB": 18.520000457763672,
+        "High OPP-PB": 18.520000457763672,
+        "Low OPP-PB": 18.520000457763672,
+        "Open OPP-PB": 18.520000457763672,
+        "Volume OPP-PB": 200
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -26,7 +63,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

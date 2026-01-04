@@ -1,6 +1,6 @@
 {
   "ticker": "HKIT",
-  "timestamp": "2026-01-03T05:08:09.397294",
+  "timestamp": "2026-01-04T05:04:10.625520",
   "intraday_data": {
     "status": "success",
     "rows": 24,
@@ -181,14 +181,108 @@
   },
   "financials": {
     "income_statement": {
+      "status": "no_data"
+    },
+    "balance_sheet": {
+      "status": "no_data"
+    },
+    "cash_flow": {
+      "status": "no_data"
+    }
+  },
+  "options_data": {
+    "status": "error",
+    "error_message": "Too Many Requests. Rate limited. Try after a while."
+  },
+  "news_data": {
+    "news": {
       "status": "success",
-      "rows": 48,
-      "columns": [
-        "2024-12-31 00:00:00",
-        "2023-12-31 00:00:00",
-        "2022-12-31 00:00:00",
-        "2021-12-31 00:00:00"
-      ],
+      "count": 1,
       "data": [
         {
-          
+          "id": "1318e58e-fb17-3b49-b2d3-59f0dc842927",
+          "content": {
+            "id": "1318e58e-fb17-3b49-b2d3-59f0dc842927",
+            "contentType": "STORY",
+            "title": "Hitek Global Inc.'s (NASDAQ:HKIT) market cap up US$63m last week, benefiting both private companies who own 55% as well as insiders",
+            "description": "",
+            "summary": "Key Insights Significant control over Hitek Global by private companies implies that the general public has more power...",
+            "pubDate": "2025-11-11T10:19:20Z",
+            "displayTime": "2025-11-11T10:19:20Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": {
+              "originalUrl": "https://media.zenfs.com/en/simply_wall_st__316/cf3f0369cec0a4d8742d0cfe2fa44bae",
+              "originalWidth": 1194,
+              "originalHeight": 432,
+              "caption": "",
+              "resolutions": [
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/vAb1AaKiRI2SntuMfxvkIg--~B/aD00MzI7dz0xMTk0O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/simply_wall_st__316/cf3f0369cec0a4d8742d0cfe2fa44bae",
+                  "width": 1194,
+                  "height": 432,
+                  "tag": "original"
+                },
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/poaIeEyjfVd6nP7sf.SYQw--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/simply_wall_st__316/cf3f0369cec0a4d8742d0cfe2fa44bae",
+                  "width": 170,
+                  "height": 128,
+                  "tag": "170x128"
+                }
+              ]
+            },
+            "provider": {
+              "displayName": "Simply Wall St.",
+              "url": "https://simplywall.st/"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/hitek-global-inc-nasdaq-hkit-101920151.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/hitek-global-inc-nasdaq-hkit-101920151.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        }
+      ]
+    },
+    "recommendations": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  },
+  "holders_data": {
+    "major_holders": {
+      "status": "error"
+    },
+    "institutional_holders": {
+      "status": "error"
+    }
+  },
+  "earnings_data": {
+    "earnings": {
+      "status": "error",
+      "message": "'NoneType' object has no attribute 'empty'"
+    },
+    "calendar": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  }
+}

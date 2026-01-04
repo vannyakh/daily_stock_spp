@@ -1,19 +1,13 @@
 {
   "ticker": "KGNR",
-  "timestamp": "2026-01-03T04:57:59.269461",
+  "timestamp": "2026-01-04T05:00:03.765098",
   "intraday_data": {
     "status": "no_data",
     "message": "No intraday data available"
   },
   "stock_info": {
-    "status": "success",
-    "data": {
-      "quoteType": "NONE",
-      "symbol": "KGNR",
-      "underlyingSymbol": "KGNR",
-      "uuid": "ca8f08ac-01d0-3e11-8f4a-df43001bf5cf",
-      "maxAge": 86400
-    }
+    "status": "error",
+    "message": "Too Many Requests. Rate limited. Try after a while."
   },
   "financials": {
     "income_statement": {
@@ -27,7 +21,8 @@
     }
   },
   "options_data": {
-    "expirations": []
+    "status": "error",
+    "error_message": "Too Many Requests. Rate limited. Try after a while."
   },
   "news_data": {
     "news": {
@@ -40,10 +35,10 @@
   },
   "holders_data": {
     "major_holders": {
-      "status": "no_data"
+      "status": "error"
     },
     "institutional_holders": {
-      "status": "no_data"
+      "status": "error"
     }
   },
   "earnings_data": {

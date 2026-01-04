@@ -1,16 +1,16 @@
 {
   "ticker": "SB-PC",
-  "timestamp": "2026-01-03T05:29:19.270222",
+  "timestamp": "2026-01-04T05:11:42.425974",
   "intraday_data": {
     "status": "success",
     "rows": 1,
     "data": [
       {
-        "Close": 25.690000534057617,
-        "High": 25.690000534057617,
-        "Low": 25.690000534057617,
-        "Open": 25.690000534057617,
-        "Volume": 0
+        "Close PIIVX": 48.209999084472656,
+        "High PIIVX": 48.209999084472656,
+        "Low PIIVX": 48.209999084472656,
+        "Open PIIVX": 48.209999084472656,
+        "Volume PIIVX": 0
       }
     ]
   },
@@ -26,14 +26,39 @@
       "status": "no_data"
     },
     "cash_flow": {
-      "status": "success",
-      "rows": 54,
-      "columns": [
-        "2024-12-31 00:00:00",
-        "2023-12-31 00:00:00",
-        "2022-12-31 00:00:00",
-        "2021-12-31 00:00:00"
-      ],
-      "data": [
-        {
-          
+      "status": "no_data"
+    }
+  },
+  "options_data": {
+    "status": "error",
+    "error_message": "Too Many Requests. Rate limited. Try after a while."
+  },
+  "news_data": {
+    "news": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    },
+    "recommendations": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  },
+  "holders_data": {
+    "major_holders": {
+      "status": "error"
+    },
+    "institutional_holders": {
+      "status": "error"
+    }
+  },
+  "earnings_data": {
+    "earnings": {
+      "status": "error",
+      "message": "'NoneType' object has no attribute 'empty'"
+    },
+    "calendar": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  }
+}

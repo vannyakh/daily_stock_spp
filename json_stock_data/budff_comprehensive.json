@@ -1,9 +1,39 @@
 {
   "ticker": "BUDFF",
-  "timestamp": "2026-01-03T05:25:17.305147",
+  "timestamp": "2026-01-04T05:10:17.717859",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 4,
+    "data": [
+      {
+        "Close EADSF": 242.64999389648438,
+        "High EADSF": 242.64999389648438,
+        "Low EADSF": 242.64999389648438,
+        "Open EADSF": 242.64999389648438,
+        "Volume EADSF": 0
+      },
+      {
+        "Close EADSF": 239.0,
+        "High EADSF": 239.0,
+        "Low EADSF": 239.0,
+        "Open EADSF": 239.0,
+        "Volume EADSF": 64
+      },
+      {
+        "Close EADSF": 237.0,
+        "High EADSF": 237.0,
+        "Low EADSF": 237.0,
+        "Open EADSF": 237.0,
+        "Volume EADSF": 5
+      },
+      {
+        "Close EADSF": 239.8699951171875,
+        "High EADSF": 239.8699951171875,
+        "Low EADSF": 239.8699951171875,
+        "Open EADSF": 239.8699951171875,
+        "Volume EADSF": 20
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -11,14 +41,45 @@
   },
   "financials": {
     "income_statement": {
-      "status": "success",
-      "rows": 57,
-      "columns": [
-        "2024-12-31 00:00:00",
-        "2023-12-31 00:00:00",
-        "2022-12-31 00:00:00",
-        "2021-12-31 00:00:00"
-      ],
-      "data": [
-        {
-          
+      "status": "no_data"
+    },
+    "balance_sheet": {
+      "status": "no_data"
+    },
+    "cash_flow": {
+      "status": "no_data"
+    }
+  },
+  "options_data": {
+    "status": "error",
+    "error_message": "Too Many Requests. Rate limited. Try after a while."
+  },
+  "news_data": {
+    "news": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    },
+    "recommendations": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  },
+  "holders_data": {
+    "major_holders": {
+      "status": "error"
+    },
+    "institutional_holders": {
+      "status": "error"
+    }
+  },
+  "earnings_data": {
+    "earnings": {
+      "status": "error",
+      "message": "'NoneType' object has no attribute 'empty'"
+    },
+    "calendar": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  }
+}

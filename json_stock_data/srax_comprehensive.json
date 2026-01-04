@@ -1,6 +1,6 @@
 {
   "ticker": "SRAX",
-  "timestamp": "2026-01-03T05:15:40.354588",
+  "timestamp": "2026-01-04T05:07:11.202547",
   "intraday_data": {
     "status": "no_data",
     "message": "No intraday data available"
@@ -35,42 +35,10 @@
   },
   "holders_data": {
     "major_holders": {
-      "status": "success",
-      "data": [
-        {
-          "Value": 0.03287
-        },
-        {
-          "Value": 0.0
-        },
-        {
-          "Value": 0.0
-        },
-        {
-          "Value": 0.0
-        }
-      ]
+      "status": "error"
     },
     "institutional_holders": {
-      "status": "success",
-      "data": [
-        {
-          "Date Reported": "2023-03-31 00:00:00",
-          "Holder": "Intrinsic Edge Capital Management LLC",
-          "pctHeld": 0.0128999995,
-          "Shares": 380566,
-          "Value": 4224,
-          "pctChange": -0.2086
-        },
-        {
-          "Date Reported": "2023-03-31 00:00:00",
-          "Holder": "Tower Research Capital LLC (TRC)",
-          "pctHeld": 0.0002,
-          "Shares": 4423,
-          "Value": 49,
-          "pctChange": 0.17040001
-        }
-      ]
+      "status": "error"
     }
   },
   "earnings_data": {
@@ -80,7 +48,7 @@
     },
     "calendar": {
       "status": "error",
-      "message": "'dict' object has no attribute 'empty'"
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   }
 }

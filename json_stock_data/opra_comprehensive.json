@@ -1,6 +1,6 @@
 {
   "ticker": "OPRA",
-  "timestamp": "2026-01-03T04:42:44.917976",
+  "timestamp": "2026-01-04T04:53:38.970505",
   "intraday_data": {
     "status": "success",
     "rows": 257,
@@ -1808,18 +1808,585 @@
   },
   "stock_info": {
     "status": "error",
-    "message": "argument of type 'NoneType' is not iterable"
+    "message": "Too Many Requests. Rate limited. Try after a while."
   },
   "financials": {
     "income_statement": {
+      "status": "no_data"
+    },
+    "balance_sheet": {
+      "status": "no_data"
+    },
+    "cash_flow": {
+      "status": "no_data"
+    }
+  },
+  "options_data": {
+    "status": "error",
+    "error_message": "Too Many Requests. Rate limited. Try after a while."
+  },
+  "news_data": {
+    "news": {
       "status": "success",
-      "rows": 57,
-      "columns": [
-        "2024-12-31 00:00:00",
-        "2023-12-31 00:00:00",
-        "2022-12-31 00:00:00",
-        "2021-12-31 00:00:00"
-      ],
+      "count": 10,
       "data": [
         {
-          
+          "id": "7ee903a3-9a09-30e7-b6c4-476212d85fdd",
+          "content": {
+            "id": "7ee903a3-9a09-30e7-b6c4-476212d85fdd",
+            "contentType": "STORY",
+            "title": "\u2018Small-Caps Set for Upside\u2019: Goldman Sachs Suggests 2 Small-Cap Stocks for 2026",
+            "description": "",
+            "summary": "Let\u2019s talk about small-cap stocks. Though they have largely been swimming under the radar during the past year \u2013 as mega-cap giants soaked up funds and headlines \u2013 small-caps still offer plenty of avenues for solid portfolio growth. It\u2019s important to note here that the Russell 2000, the benchmark index for small-cap investors, has gained in the mid-teens this year. While that slightly lags the S&P 500 (an 18% gain for 2025), it\u2019s nothing to scoff at. Covering the small-cap companies, the Goldman",
+            "pubDate": "2025-12-31T10:44:17Z",
+            "displayTime": "2025-12-31T10:44:17Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": {
+              "originalUrl": "https://media.zenfs.com/en/tipranks_452/dbc05f9769b697deff2b24db6212fda3",
+              "originalWidth": 1024,
+              "originalHeight": 661,
+              "caption": "",
+              "resolutions": [
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/kkaYJ1hs2oeirzff_uuxYA--~B/aD02NjE7dz0xMDI0O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/tipranks_452/dbc05f9769b697deff2b24db6212fda3",
+                  "width": 1024,
+                  "height": 661,
+                  "tag": "original"
+                },
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/nEfBK2nbCBAbl_ZbsgO.TA--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/tipranks_452/dbc05f9769b697deff2b24db6212fda3",
+                  "width": 170,
+                  "height": 128,
+                  "tag": "170x128"
+                }
+              ]
+            },
+            "provider": {
+              "displayName": "TipRanks",
+              "url": "https://www.tipranks.com/"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/small-caps-set-upside-goldman-104417508.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/small-caps-set-upside-goldman-104417508.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        },
+        {
+          "id": "e327f8ea-a608-3bb7-bece-11bef772d6e2",
+          "content": {
+            "id": "e327f8ea-a608-3bb7-bece-11bef772d6e2",
+            "contentType": "STORY",
+            "title": "European Equities Traded in the US as American Depositary Receipts Start Week Lower in Monday Trading",
+            "description": "",
+            "summary": "European equities traded in the US as American depositary receipts were tracking lower late Monday m",
+            "pubDate": "2025-12-29T16:15:50Z",
+            "displayTime": "2025-12-29T16:15:50Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": null,
+            "provider": {
+              "displayName": "MT Newswires",
+              "url": "https://www.mtnewswires.com/"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/european-equities-traded-us-american-161550076.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/european-equities-traded-us-american-161550076.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": true,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        },
+        {
+          "id": "6742241e-1f58-361b-9245-f74e4e11484d",
+          "content": {
+            "id": "6742241e-1f58-361b-9245-f74e4e11484d",
+            "contentType": "STORY",
+            "title": "European Equities Traded in the US as American Depositary Receipts Rise in Monday Trading",
+            "description": "",
+            "summary": "European equities traded in the US as American depositary receipts started the week higher late Mond",
+            "pubDate": "2025-12-22T16:12:29Z",
+            "displayTime": "2025-12-22T16:12:29Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": null,
+            "provider": {
+              "displayName": "MT Newswires",
+              "url": "https://www.mtnewswires.com/"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/european-equities-traded-us-american-161229410.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/european-equities-traded-us-american-161229410.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": true,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        },
+        {
+          "id": "3ad65828-0a46-3077-8cf9-6f1bc4f60ea7",
+          "content": {
+            "id": "3ad65828-0a46-3077-8cf9-6f1bc4f60ea7",
+            "contentType": "STORY",
+            "title": "Opera Limited's (NASDAQ:OPRA) largest shareholders are public companies with 69% ownership, institutions own 17%",
+            "description": "",
+            "summary": "Key Insights The considerable ownership by public companies in Opera indicates that they collectively have a greater...",
+            "pubDate": "2025-12-21T14:20:52Z",
+            "displayTime": "2025-12-21T14:20:52Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": {
+              "originalUrl": "https://media.zenfs.com/en/simply_wall_st__316/41bdd0c670f621394929d5266c5d6c72",
+              "originalWidth": 1194,
+              "originalHeight": 432,
+              "caption": "",
+              "resolutions": [
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/3wFOxca.gMo3EgB9BjBM9g--~B/aD00MzI7dz0xMTk0O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/simply_wall_st__316/41bdd0c670f621394929d5266c5d6c72",
+                  "width": 1194,
+                  "height": 432,
+                  "tag": "original"
+                },
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/vD4pRO4kEaxH8LXMGMHNtw--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/simply_wall_st__316/41bdd0c670f621394929d5266c5d6c72",
+                  "width": 170,
+                  "height": 128,
+                  "tag": "170x128"
+                }
+              ]
+            },
+            "provider": {
+              "displayName": "Simply Wall St.",
+              "url": "https://simplywall.st/"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/opera-limiteds-nasdaq-opra-largest-142052415.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/opera-limiteds-nasdaq-opra-largest-142052415.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        },
+        {
+          "id": "87d361aa-2a38-302c-8e2d-135b6a75dba9",
+          "content": {
+            "id": "87d361aa-2a38-302c-8e2d-135b6a75dba9",
+            "contentType": "STORY",
+            "title": "European Equities Traded in the US as American Depositary Receipts Rise in Tuesday Trading",
+            "description": "",
+            "summary": "European equities traded in the US as American depositary receipts were trending modestly higher lat",
+            "pubDate": "2025-12-09T16:06:53Z",
+            "displayTime": "2025-12-09T16:06:53Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": null,
+            "provider": {
+              "displayName": "MT Newswires",
+              "url": "https://www.mtnewswires.com/"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/european-equities-traded-us-american-160653931.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/european-equities-traded-us-american-160653931.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": true,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        },
+        {
+          "id": "2d3086de-a884-3d50-b084-91439cf18c5d",
+          "content": {
+            "id": "2d3086de-a884-3d50-b084-91439cf18c5d",
+            "contentType": "STORY",
+            "title": "3 Dividend Stocks Yielding Between 3% And 5.8% For Steady Income",
+            "description": "",
+            "summary": "As the major U.S. stock indexes continue to rise, with the Dow Jones Industrial Average nearing a record high despite recent concerns over private employment declines, investors are seeking stable opportunities amidst fluctuating economic signals. In this environment, dividend stocks offering yields between 3% and 5.8% can provide a reliable source of income, appealing to those looking for steady returns in an unpredictable market landscape.",
+            "pubDate": "2025-12-04T11:31:45Z",
+            "displayTime": "2025-12-04T11:31:45Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": {
+              "originalUrl": "https://media.zenfs.com/en/simply_wall_st__316/a192a90509b207df974cc973e0c18172",
+              "originalWidth": 1194,
+              "originalHeight": 432,
+              "caption": "",
+              "resolutions": [
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/eRZics5K7nTfD4zTk6CnaQ--~B/aD00MzI7dz0xMTk0O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/simply_wall_st__316/a192a90509b207df974cc973e0c18172",
+                  "width": 1194,
+                  "height": 432,
+                  "tag": "original"
+                },
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/K.r7FRqtC9ek89mvUMnUtQ--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/simply_wall_st__316/a192a90509b207df974cc973e0c18172",
+                  "width": 170,
+                  "height": 128,
+                  "tag": "170x128"
+                }
+              ]
+            },
+            "provider": {
+              "displayName": "Simply Wall St.",
+              "url": "https://simplywall.st/"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/3-dividend-stocks-yielding-between-113145205.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/3-dividend-stocks-yielding-between-113145205.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        },
+        {
+          "id": "6ffb170e-e18d-3c3b-8745-4bb3dfb30510",
+          "content": {
+            "id": "6ffb170e-e18d-3c3b-8745-4bb3dfb30510",
+            "contentType": "STORY",
+            "title": "Why Opera Limited (NASDAQ:OPRA) Could Be Worth Watching",
+            "description": "",
+            "summary": "Opera Limited ( NASDAQ:OPRA ), might not be a large cap stock, but it received a lot of attention from a substantial...",
+            "pubDate": "2025-12-02T11:19:45Z",
+            "displayTime": "2025-12-02T11:19:45Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": {
+              "originalUrl": "https://media.zenfs.com/en/simply_wall_st__316/41bdd0c670f621394929d5266c5d6c72",
+              "originalWidth": 1194,
+              "originalHeight": 432,
+              "caption": "",
+              "resolutions": [
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/3wFOxca.gMo3EgB9BjBM9g--~B/aD00MzI7dz0xMTk0O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/simply_wall_st__316/41bdd0c670f621394929d5266c5d6c72",
+                  "width": 1194,
+                  "height": 432,
+                  "tag": "original"
+                },
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/vD4pRO4kEaxH8LXMGMHNtw--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/simply_wall_st__316/41bdd0c670f621394929d5266c5d6c72",
+                  "width": 170,
+                  "height": 128,
+                  "tag": "170x128"
+                }
+              ]
+            },
+            "provider": {
+              "displayName": "Simply Wall St.",
+              "url": "https://simplywall.st/"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/why-opera-limited-nasdaq-opra-111945468.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/why-opera-limited-nasdaq-opra-111945468.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        },
+        {
+          "id": "abe68ee4-a6e2-3d63-b712-9f91b9a118ba",
+          "content": {
+            "id": "abe68ee4-a6e2-3d63-b712-9f91b9a118ba",
+            "contentType": "STORY",
+            "title": "Examining Opera\u2019s Value After Product Expansion and New Partnerships in 2025",
+            "description": "",
+            "summary": "Wondering if Opera stock is actually a good buy right now? You are not alone, especially with so many investors thinking about where the value really lies these days. While the stock is down 3.2% this week and 16.4% over the last month, it is important to note its longer-term returns, such as a massive 210.0% gain over the past 3 years. Recent headlines have shined a light on Opera's ongoing product expansion and new partnership announcements, fueling speculation about its trajectory...",
+            "pubDate": "2025-11-16T06:10:26Z",
+            "displayTime": "2025-11-16T06:10:26Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": {
+              "originalUrl": "https://media.zenfs.com/en/simply_wall_st__316/41bdd0c670f621394929d5266c5d6c72",
+              "originalWidth": 1194,
+              "originalHeight": 432,
+              "caption": "",
+              "resolutions": [
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/3wFOxca.gMo3EgB9BjBM9g--~B/aD00MzI7dz0xMTk0O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/simply_wall_st__316/41bdd0c670f621394929d5266c5d6c72",
+                  "width": 1194,
+                  "height": 432,
+                  "tag": "original"
+                },
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/vD4pRO4kEaxH8LXMGMHNtw--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/simply_wall_st__316/41bdd0c670f621394929d5266c5d6c72",
+                  "width": 170,
+                  "height": 128,
+                  "tag": "170x128"
+                }
+              ]
+            },
+            "provider": {
+              "displayName": "Simply Wall St.",
+              "url": "https://simplywall.st/"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/examining-opera-value-product-expansion-061026489.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/examining-opera-value-product-expansion-061026489.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        },
+        {
+          "id": "903c63da-eb00-3b32-949b-c57180390d0e",
+          "content": {
+            "id": "903c63da-eb00-3b32-949b-c57180390d0e",
+            "contentType": "STORY",
+            "title": "European Equities Traded in the US as American Depositary Receipts Slightly Higher in Thursday Trading",
+            "description": "",
+            "summary": "European equities traded in the US as American depositary receipts were slightly higher late Thursda",
+            "pubDate": "2025-11-13T16:19:40Z",
+            "displayTime": "2025-11-13T16:19:40Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": null,
+            "provider": {
+              "displayName": "MT Newswires",
+              "url": "https://www.mtnewswires.com/"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/european-equities-traded-us-american-161940837.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/european-equities-traded-us-american-161940837.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": true,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        },
+        {
+          "id": "b50ca587-3f75-3207-9423-afffe48b8774",
+          "content": {
+            "id": "b50ca587-3f75-3207-9423-afffe48b8774",
+            "contentType": "STORY",
+            "title": "Opera (NasdaqGS:OPRA): Assessing Valuation After Recent Share Price Weakness and Modest Rebound",
+            "description": "",
+            "summary": "Opera (OPRA) investors saw shares inch up by just over 1% at yesterday\u2019s close. This increase follows a stretch of weakness over the past month. After a dip of nearly 18% during that period, today\u2019s move offers a brief change in momentum. See our latest analysis for Opera. Zooming out, Opera\u2019s recent share price weakness stands in contrast to its impressive long-term run. While the stock\u2019s 1-day gain offers a little relief, momentum has faded since earlier highs. The year-to-date share price...",
+            "pubDate": "2025-11-08T14:11:17Z",
+            "displayTime": "2025-11-08T14:11:17Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": {
+              "originalUrl": "https://media.zenfs.com/en/simply_wall_st__316/41bdd0c670f621394929d5266c5d6c72",
+              "originalWidth": 1194,
+              "originalHeight": 432,
+              "caption": "",
+              "resolutions": [
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/3wFOxca.gMo3EgB9BjBM9g--~B/aD00MzI7dz0xMTk0O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/simply_wall_st__316/41bdd0c670f621394929d5266c5d6c72",
+                  "width": 1194,
+                  "height": 432,
+                  "tag": "original"
+                },
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/vD4pRO4kEaxH8LXMGMHNtw--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/simply_wall_st__316/41bdd0c670f621394929d5266c5d6c72",
+                  "width": 170,
+                  "height": 128,
+                  "tag": "170x128"
+                }
+              ]
+            },
+            "provider": {
+              "displayName": "Simply Wall St.",
+              "url": "https://simplywall.st/"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/opera-nasdaqgs-opra-assessing-valuation-141117709.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/opera-nasdaqgs-opra-assessing-valuation-141117709.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        }
+      ]
+    },
+    "recommendations": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  },
+  "holders_data": {
+    "major_holders": {
+      "status": "error"
+    },
+    "institutional_holders": {
+      "status": "error"
+    }
+  },
+  "earnings_data": {
+    "earnings": {
+      "status": "error",
+      "message": "'NoneType' object has no attribute 'empty'"
+    },
+    "calendar": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  }
+}

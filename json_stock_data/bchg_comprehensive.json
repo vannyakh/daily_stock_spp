@@ -1,6 +1,6 @@
 {
   "ticker": "BCHG",
-  "timestamp": "2026-01-03T04:59:18.017473",
+  "timestamp": "2026-01-04T05:00:36.921458",
   "intraday_data": {
     "status": "success",
     "rows": 59,
@@ -421,76 +421,8 @@
     ]
   },
   "stock_info": {
-    "status": "success",
-    "data": {
-      "language": "en-US",
-      "region": "US",
-      "quoteType": "ETF",
-      "typeDisp": "ETF",
-      "quoteSourceName": "Delayed Quote",
-      "triggerable": false,
-      "customPriceAlertConfidence": "LOW",
-      "currency": "USD",
-      "hasPrePostMarketData": false,
-      "firstTradeDateMilliseconds": 1597757400000,
-      "priceHint": 4,
-      "regularMarketChange": 0.099999905,
-      "regularMarketDayHigh": 4.49,
-      "regularMarketDayRange": "4.29 - 4.49",
-      "regularMarketDayLow": 4.29,
-      "regularMarketVolume": 53013,
-      "regularMarketPreviousClose": 4.32,
-      "bid": 4.42,
-      "ask": 4.46,
-      "bidSize": 1300,
-      "askSize": 100,
-      "fullExchangeName": "OTC Markets OTCQX",
-      "regularMarketOpen": 4.31,
-      "averageDailyVolume3Month": 204552,
-      "averageDailyVolume10Day": 156240,
-      "fiftyTwoWeekLowChange": 2.27,
-      "fiftyTwoWeekLowChangePercent": 1.0558139,
-      "fiftyTwoWeekRange": "2.15 - 6.55",
-      "fiftyTwoWeekHighChange": -2.13,
-      "fiftyTwoWeekHighChangePercent": -0.32519084,
-      "fiftyTwoWeekLow": 2.15,
-      "fiftyTwoWeekHigh": 6.55,
-      "fiftyTwoWeekChangePercent": -30.097086,
-      "marketState": "POSTPOST",
-      "regularMarketChangePercent": 2.3148124,
-      "regularMarketPrice": 4.42,
-      "regularMarketTime": 1767387600,
-      "exchange": "OQX",
-      "messageBoardId": "finmb_597913620",
-      "exchangeTimezoneName": "America/New_York",
-      "exchangeTimezoneShortName": "EST",
-      "gmtOffSetMilliseconds": -18000000,
-      "market": "us_market",
-      "esgPopulated": false,
-      "shortName": "Grayscale Bitcoin Cash Trust (B",
-      "longName": "Grayscale Bitcoin Cash Trust (BCH)",
-      "trailingAnnualDividendRate": 0.0,
-      "trailingAnnualDividendYield": 0.0,
-      "dividendYield": 0.0,
-      "ytdReturn": 23.49569,
-      "trailingThreeMonthReturns": 2.56159,
-      "trailingThreeMonthNavReturns": 2.56159,
-      "netAssets": 213548704.0,
-      "sharesOutstanding": 31775600,
-      "fiftyDayAverage": 4.11138,
-      "fiftyDayAverageChange": 0.30861998,
-      "fiftyDayAverageChangePercent": 0.075064816,
-      "twoHundredDayAverage": 3.763065,
-      "twoHundredDayAverageChange": 0.656935,
-      "twoHundredDayAverageChangePercent": 0.17457443,
-      "netExpenseRatio": 2.5,
-      "marketCap": 140448160,
-      "sourceInterval": 15,
-      "exchangeDataDelayedBy": 0,
-      "tradeable": false,
-      "cryptoTradeable": false,
-      "symbol": "BCHG"
-    }
+    "status": "error",
+    "message": "Too Many Requests. Rate limited. Try after a while."
   },
   "financials": {
     "income_statement": {
@@ -504,22 +436,24 @@
     }
   },
   "options_data": {
-    "expirations": []
+    "status": "error",
+    "error_message": "Too Many Requests. Rate limited. Try after a while."
   },
   "news_data": {
     "news": {
       "status": "no_data"
     },
     "recommendations": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   },
   "holders_data": {
     "major_holders": {
-      "status": "no_data"
+      "status": "error"
     },
     "institutional_holders": {
-      "status": "no_data"
+      "status": "error"
     }
   },
   "earnings_data": {
@@ -529,7 +463,7 @@
     },
     "calendar": {
       "status": "error",
-      "message": "'dict' object has no attribute 'empty'"
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   }
 }

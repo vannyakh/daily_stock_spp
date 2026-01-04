@@ -1,18 +1,9 @@
 {
   "ticker": "KLDI",
-  "timestamp": "2026-01-03T05:29:36.324021",
+  "timestamp": "2026-01-04T05:11:49.018100",
   "intraday_data": {
-    "status": "success",
-    "rows": 1,
-    "data": [
-      {
-        "Close CULL": 12.5,
-        "High CULL": 12.5,
-        "Low CULL": 12.5,
-        "Open CULL": 12.5,
-        "Volume CULL": 0
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -35,10 +26,12 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   },
   "holders_data": {

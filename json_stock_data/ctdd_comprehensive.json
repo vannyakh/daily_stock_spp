@@ -1,6 +1,6 @@
 {
   "ticker": "CTDD",
-  "timestamp": "2026-01-03T05:43:44.018893",
+  "timestamp": "2026-01-04T05:15:55.181941",
   "intraday_data": {
     "status": "success",
     "rows": 51,
@@ -365,83 +365,8 @@
     ]
   },
   "stock_info": {
-    "status": "success",
-    "data": {
-      "maxAge": 86400,
-      "priceHint": 2,
-      "previousClose": 19.0,
-      "open": 19.03,
-      "dayLow": 18.94,
-      "dayHigh": 19.83,
-      "regularMarketPreviousClose": 19.0,
-      "regularMarketOpen": 19.03,
-      "regularMarketDayLow": 18.94,
-      "regularMarketDayHigh": 19.83,
-      "volume": 34806,
-      "regularMarketVolume": 34806,
-      "averageVolume": 23522,
-      "averageVolume10days": 34770,
-      "averageDailyVolume10Day": 34770,
-      "bid": 19.63,
-      "ask": 19.81,
-      "bidSize": 100,
-      "askSize": 400,
-      "fiftyTwoWeekLow": 13.861,
-      "fiftyTwoWeekHigh": 21.4,
-      "allTimeHigh": 26.95,
-      "allTimeLow": 8.0,
-      "fiftyDayAverage": 19.73296,
-      "twoHundredDayAverage": 19.020864,
-      "trailingAnnualDividendRate": 1000000000.0,
-      "trailingAnnualDividendYield": 52631580.0,
-      "currency": "USD",
-      "tradeable": false,
-      "quoteType": "ETF",
-      "symbol": "CTDD",
-      "language": "en-US",
-      "region": "US",
-      "typeDisp": "ETF",
-      "triggerable": true,
-      "customPriceAlertConfidence": "HIGH",
-      "shortName": "Qwest Corporation 6.75% Notes d",
-      "longName": "Qwest Corp. 6.75% NT 57",
-      "postMarketTime": 1767388051,
-      "regularMarketTime": 1767387602,
-      "hasPrePostMarketData": true,
-      "marketState": "CLOSED",
-      "firstTradeDateMilliseconds": 1493386200000,
-      "postMarketChangePercent": 0.0,
-      "postMarketPrice": 19.71,
-      "postMarketChange": 0.0,
-      "regularMarketChange": 0.709999,
-      "regularMarketDayRange": "18.94 - 19.83",
-      "fullExchangeName": "NYSE",
-      "financialCurrency": "USD",
-      "averageDailyVolume3Month": 23522,
-      "fiftyTwoWeekLowChange": 5.848999,
-      "fiftyTwoWeekLowChangePercent": 0.42197526,
-      "fiftyTwoWeekRange": "13.861 - 21.4",
-      "fiftyTwoWeekHighChange": -1.6900005,
-      "fiftyTwoWeekHighChangePercent": -0.07897199,
-      "fiftyTwoWeekChangePercent": 7.163,
-      "dividendDate": 1545004800,
-      "exchange": "NYQ",
-      "messageBoardId": "finmb_3028457",
-      "exchangeTimezoneName": "America/New_York",
-      "exchangeTimezoneShortName": "EST",
-      "gmtOffSetMilliseconds": -18000000,
-      "market": "us_market",
-      "esgPopulated": false,
-      "regularMarketChangePercent": 3.73684,
-      "regularMarketPrice": 19.71,
-      "fiftyDayAverageChange": -0.022960663,
-      "fiftyDayAverageChangePercent": -0.0011635692,
-      "twoHundredDayAverageChange": 0.6891346,
-      "twoHundredDayAverageChangePercent": 0.036230456,
-      "sourceInterval": 15,
-      "exchangeDataDelayedBy": 0,
-      "cryptoTradeable": false
-    }
+    "status": "error",
+    "message": "Too Many Requests. Rate limited. Try after a while."
   },
   "financials": {
     "income_statement": {
@@ -455,22 +380,25 @@
     }
   },
   "options_data": {
-    "expirations": []
+    "status": "error",
+    "error_message": "Too Many Requests. Rate limited. Try after a while."
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   },
   "holders_data": {
     "major_holders": {
-      "status": "no_data"
+      "status": "error"
     },
     "institutional_holders": {
-      "status": "no_data"
+      "status": "error"
     }
   },
   "earnings_data": {
@@ -480,7 +408,7 @@
     },
     "calendar": {
       "status": "error",
-      "message": "'dict' object has no attribute 'empty'"
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   }
 }

@@ -1,9 +1,23 @@
 {
   "ticker": "CADCX",
-  "timestamp": "2026-01-03T05:39:46.765977",
+  "timestamp": "2026-01-04T05:14:49.272437",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 1,
+    "data": [
+      {
+        "Close": 24.719999313354492,
+        "Close FCREX": 11.960000038146973,
+        "High": 24.719999313354492,
+        "High FCREX": 11.960000038146973,
+        "Low": 24.719999313354492,
+        "Low FCREX": 11.960000038146973,
+        "Open": 24.719999313354492,
+        "Open FCREX": 11.960000038146973,
+        "Volume": 0,
+        "Volume FCREX": 0
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -26,7 +40,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

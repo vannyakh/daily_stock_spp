@@ -1,47 +1,13 @@
 {
   "ticker": "PIF",
-  "timestamp": "2026-01-03T05:24:37.895948",
+  "timestamp": "2026-01-04T05:10:03.218824",
   "intraday_data": {
     "status": "no_data",
     "message": "No intraday data available"
   },
   "stock_info": {
-    "status": "success",
-    "data": {
-      "quoteType": "MUTUALFUND",
-      "symbol": "PIF",
-      "language": "en-US",
-      "region": "US",
-      "typeDisp": "Fund",
-      "quoteSourceName": "Delayed Quote",
-      "triggerable": false,
-      "customPriceAlertConfidence": "NONE",
-      "shortName": "33767",
-      "marketState": "CLOSED",
-      "fiftyDayAverage": 10.29,
-      "twoHundredDayAverage": 10.29,
-      "sourceInterval": 15,
-      "exchangeDataDelayedBy": 0,
-      "tradeable": false,
-      "cryptoTradeable": false,
-      "regularMarketTime": 1561759658,
-      "exchange": "YHD",
-      "exchangeTimezoneName": "America/New_York",
-      "exchangeTimezoneShortName": "EST",
-      "gmtOffSetMilliseconds": -18000000,
-      "market": "us_market",
-      "esgPopulated": false,
-      "hasPrePostMarketData": false,
-      "firstTradeDateMilliseconds": 1453905000000,
-      "priceHint": 2,
-      "fullExchangeName": "YHD",
-      "averageDailyVolume3Month": 32567,
-      "averageDailyVolume10Day": 32567,
-      "fiftyTwoWeekRange": "10.07 - 10.53",
-      "fiftyTwoWeekLow": 10.07,
-      "fiftyTwoWeekHigh": 10.53,
-      "fiftyTwoWeekChangePercent": 0.0
-    }
+    "status": "error",
+    "message": "Too Many Requests. Rate limited. Try after a while."
   },
   "financials": {
     "income_statement": {
@@ -55,22 +21,25 @@
     }
   },
   "options_data": {
-    "expirations": []
+    "status": "error",
+    "error_message": "Too Many Requests. Rate limited. Try after a while."
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   },
   "holders_data": {
     "major_holders": {
-      "status": "no_data"
+      "status": "error"
     },
     "institutional_holders": {
-      "status": "no_data"
+      "status": "error"
     }
   },
   "earnings_data": {
@@ -80,7 +49,7 @@
     },
     "calendar": {
       "status": "error",
-      "message": "'dict' object has no attribute 'empty'"
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   }
 }

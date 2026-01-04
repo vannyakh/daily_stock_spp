@@ -1,74 +1,9 @@
 {
   "ticker": "BLPG",
-  "timestamp": "2026-01-03T05:20:58.668540",
+  "timestamp": "2026-01-04T05:09:09.101157",
   "intraday_data": {
-    "status": "success",
-    "rows": 9,
-    "data": [
-      {
-        "Close FRZT": 0.008799999952316284,
-        "High FRZT": 0.008799999952316284,
-        "Low FRZT": 0.0052999998442828655,
-        "Open FRZT": 0.0052999998442828655,
-        "Volume FRZT": 0
-      },
-      {
-        "Close FRZT": 0.008799999952316284,
-        "High FRZT": 0.008799999952316284,
-        "Low FRZT": 0.008799999952316284,
-        "Open FRZT": 0.008799999952316284,
-        "Volume FRZT": 100000
-      },
-      {
-        "Close FRZT": 0.008500000461935997,
-        "High FRZT": 0.008500000461935997,
-        "Low FRZT": 0.008500000461935997,
-        "Open FRZT": 0.008500000461935997,
-        "Volume FRZT": 218500
-      },
-      {
-        "Close FRZT": 0.008500000461935997,
-        "High FRZT": 0.008500000461935997,
-        "Low FRZT": 0.008500000461935997,
-        "Open FRZT": 0.008500000461935997,
-        "Volume FRZT": 324945
-      },
-      {
-        "Close FRZT": 0.007499999832361937,
-        "High FRZT": 0.007499999832361937,
-        "Low FRZT": 0.007499999832361937,
-        "Open FRZT": 0.007499999832361937,
-        "Volume FRZT": 100000
-      },
-      {
-        "Close FRZT": 0.006599999964237213,
-        "High FRZT": 0.006599999964237213,
-        "Low FRZT": 0.006599999964237213,
-        "Open FRZT": 0.006599999964237213,
-        "Volume FRZT": 210000
-      },
-      {
-        "Close FRZT": 0.006599999964237213,
-        "High FRZT": 0.006599999964237213,
-        "Low FRZT": 0.006599999964237213,
-        "Open FRZT": 0.006599999964237213,
-        "Volume FRZT": 100000
-      },
-      {
-        "Close FRZT": 0.005400000140070915,
-        "High FRZT": 0.005400000140070915,
-        "Low FRZT": 0.005400000140070915,
-        "Open FRZT": 0.005400000140070915,
-        "Volume FRZT": 60000
-      },
-      {
-        "Close FRZT": 0.005400000140070915,
-        "High FRZT": 0.005400000140070915,
-        "Low FRZT": 0.005400000140070915,
-        "Open FRZT": 0.005400000140070915,
-        "Volume FRZT": 72500
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -91,7 +26,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

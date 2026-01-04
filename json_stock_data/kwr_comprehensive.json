@@ -1,6 +1,6 @@
 {
   "ticker": "KWR",
-  "timestamp": "2026-01-03T04:38:38.704459",
+  "timestamp": "2026-01-04T04:52:33.847107",
   "intraday_data": {
     "status": "success",
     "rows": 74,
@@ -527,18 +527,642 @@
   },
   "stock_info": {
     "status": "error",
-    "message": "argument of type 'NoneType' is not iterable"
+    "message": "Too Many Requests. Rate limited. Try after a while."
   },
   "financials": {
     "income_statement": {
+      "status": "no_data"
+    },
+    "balance_sheet": {
+      "status": "no_data"
+    },
+    "cash_flow": {
+      "status": "no_data"
+    }
+  },
+  "options_data": {
+    "status": "error",
+    "error_message": "Too Many Requests. Rate limited. Try after a while."
+  },
+  "news_data": {
+    "news": {
       "status": "success",
-      "rows": 52,
-      "columns": [
-        "2024-12-31 00:00:00",
-        "2023-12-31 00:00:00",
-        "2022-12-31 00:00:00",
-        "2021-12-31 00:00:00"
-      ],
+      "count": 10,
       "data": [
         {
-          
+          "id": "223cd835-46c9-3fb4-a714-d9de9e344f37",
+          "content": {
+            "id": "223cd835-46c9-3fb4-a714-d9de9e344f37",
+            "contentType": "STORY",
+            "title": "KWR or LIN: Which Is the Better Value Stock Right Now?",
+            "description": "",
+            "summary": "KWR vs. LIN: Which Stock Is the Better Value Option?",
+            "pubDate": "2025-12-31T16:40:03Z",
+            "displayTime": "2025-12-31T16:40:03Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": {
+              "originalUrl": "https://media.zenfs.com/en/zacks.com/bdc2850a48a0f40806db817a9e24f36f",
+              "originalWidth": 900,
+              "originalHeight": 601,
+              "caption": "",
+              "resolutions": [
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/ksLAzii1aL14haHFbPC1Rg--~B/aD02MDE7dz05MDA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/zacks.com/bdc2850a48a0f40806db817a9e24f36f",
+                  "width": 900,
+                  "height": 601,
+                  "tag": "original"
+                },
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/sUVXv37AsM7y9ooEw4asSw--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/zacks.com/bdc2850a48a0f40806db817a9e24f36f",
+                  "width": 170,
+                  "height": 128,
+                  "tag": "170x128"
+                }
+              ]
+            },
+            "provider": {
+              "displayName": "Zacks",
+              "url": "http://www.zacks.com/"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/kwr-lin-better-value-stock-164003711.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/kwr-lin-better-value-stock-164003711.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        },
+        {
+          "id": "6c3d34c1-3417-3cb6-9dee-1e40401c6eee",
+          "content": {
+            "id": "6c3d34c1-3417-3cb6-9dee-1e40401c6eee",
+            "contentType": "STORY",
+            "title": "Quaker Chemical (NYSE:KWR) Might Have The Makings Of A Multi-Bagger",
+            "description": "",
+            "summary": "Did you know there are some financial metrics that can provide clues of a potential multi-bagger? Ideally, a business...",
+            "pubDate": "2025-12-22T12:57:28Z",
+            "displayTime": "2025-12-22T12:57:28Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": {
+              "originalUrl": "https://media.zenfs.com/en/simply_wall_st__316/7dcbeb026ed19dd2c830be7b78839b8e",
+              "originalWidth": 1194,
+              "originalHeight": 432,
+              "caption": "",
+              "resolutions": [
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/9cCdtydKo66lUAQFOAtM3Q--~B/aD00MzI7dz0xMTk0O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/simply_wall_st__316/7dcbeb026ed19dd2c830be7b78839b8e",
+                  "width": 1194,
+                  "height": 432,
+                  "tag": "original"
+                },
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/wVKjukfyzU.uygHQNL9IOA--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/simply_wall_st__316/7dcbeb026ed19dd2c830be7b78839b8e",
+                  "width": 170,
+                  "height": 128,
+                  "tag": "170x128"
+                }
+              ]
+            },
+            "provider": {
+              "displayName": "Simply Wall St.",
+              "url": "https://simplywall.st/"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/quaker-chemical-nyse-kwr-might-125728000.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/quaker-chemical-nyse-kwr-might-125728000.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        },
+        {
+          "id": "9c4d12fa-e864-3cd9-ba79-303419c87e95",
+          "content": {
+            "id": "9c4d12fa-e864-3cd9-ba79-303419c87e95",
+            "contentType": "STORY",
+            "title": "Do You Believe in the Upside Potential of Quaker Houghton (KWR)?",
+            "description": "",
+            "summary": "Cullen Capital Management, LLC, operating under the name Schafer Cullen Capital Management, Inc. (SCCM), has released its \u201cSCCM Small Cap Value Equity Strategy\u201d third-quarter investor letter. A copy of the letter can be downloaded here. The US equity market continued the rally in the third quarter, with the Russell 2000 returning 12.4% and the Russell 2000 Value [\u2026]",
+            "pubDate": "2025-11-25T13:40:25Z",
+            "displayTime": "2025-11-25T13:40:25Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": {
+              "originalUrl": "https://media.zenfs.com/en/insidermonkey.com/bfbe8f3e39f2925fb2fbc99af7297ebd",
+              "originalWidth": 768,
+              "originalHeight": 430,
+              "caption": "",
+              "resolutions": [
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/EzkwUKZ..D_mni1w9Lcd1g--~B/aD00MzA7dz03Njg7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/insidermonkey.com/bfbe8f3e39f2925fb2fbc99af7297ebd",
+                  "width": 768,
+                  "height": 430,
+                  "tag": "original"
+                },
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/ai96lfvjv3bCpIOy2fNRnw--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/insidermonkey.com/bfbe8f3e39f2925fb2fbc99af7297ebd",
+                  "width": 170,
+                  "height": 128,
+                  "tag": "170x128"
+                }
+              ]
+            },
+            "provider": {
+              "displayName": "Insider Monkey",
+              "url": "http://www.insidermonkey.com"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/believe-upside-potential-quaker-houghton-134025793.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/believe-upside-potential-quaker-houghton-134025793.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        },
+        {
+          "id": "26509a5e-6d3d-3375-ac78-0ff14eb7afdf",
+          "content": {
+            "id": "26509a5e-6d3d-3375-ac78-0ff14eb7afdf",
+            "contentType": "STORY",
+            "title": "Quaker Chemical (KWR): Five-Year Losses and Slow 4% Revenue Growth Highlight Cautious Earnings Backdrop",
+            "description": "",
+            "summary": "Quaker Chemical (KWR) remains unprofitable, with losses having increased at a rate of 1.1% per year over the last five years. While revenue is forecast to grow at 4% annually, this pace trails the broader US market\u2019s expected 10.3% growth. For investors, slow revenue forecasts and persistent losses keep attention on the gap between the current trading price of $138.89 and the estimated fair value of $255.48. Sentiment is likely to remain cautious until the path to profitability becomes more...",
+            "pubDate": "2025-11-01T05:21:27Z",
+            "displayTime": "2025-11-01T05:21:27Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": {
+              "originalUrl": "https://media.zenfs.com/en/simply_wall_st__316/7dcbeb026ed19dd2c830be7b78839b8e",
+              "originalWidth": 1194,
+              "originalHeight": 432,
+              "caption": "",
+              "resolutions": [
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/9cCdtydKo66lUAQFOAtM3Q--~B/aD00MzI7dz0xMTk0O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/simply_wall_st__316/7dcbeb026ed19dd2c830be7b78839b8e",
+                  "width": 1194,
+                  "height": 432,
+                  "tag": "original"
+                },
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/wVKjukfyzU.uygHQNL9IOA--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/simply_wall_st__316/7dcbeb026ed19dd2c830be7b78839b8e",
+                  "width": 170,
+                  "height": 128,
+                  "tag": "170x128"
+                }
+              ]
+            },
+            "provider": {
+              "displayName": "Simply Wall St.",
+              "url": "https://simplywall.st/"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/quaker-chemical-kwr-five-losses-052127812.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/quaker-chemical-kwr-five-losses-052127812.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        },
+        {
+          "id": "f54a7fd7-5d5f-34fe-9a79-3481c7da1474",
+          "content": {
+            "id": "f54a7fd7-5d5f-34fe-9a79-3481c7da1474",
+            "contentType": "STORY",
+            "title": "Quaker Houghton (KWR) Q3 2025 Earnings Call Highlights: Strong Growth Amid Market Challenges",
+            "description": "",
+            "summary": "Quaker Houghton (KWR) reports robust earnings growth and strategic advancements despite facing macroeconomic headwinds and tariff uncertainties.",
+            "pubDate": "2025-10-31T19:02:57Z",
+            "displayTime": "2025-10-31T19:02:57Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": {
+              "originalUrl": "https://media.zenfs.com/en/us.finance.gurufocus/69f04d420cf67da0ef5ec8b8e778aa39",
+              "originalWidth": 234,
+              "originalHeight": 66,
+              "caption": "",
+              "resolutions": [
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/T2Xql5zF8MoOUTvPPL5K2g--~B/aD02Njt3PTIzNDthcHBpZD15dGFjaHlvbg--/https://media.zenfs.com/en/us.finance.gurufocus/69f04d420cf67da0ef5ec8b8e778aa39",
+                  "width": 234,
+                  "height": 66,
+                  "tag": "original"
+                },
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/1aJwi6JlXAbPEeCe.cdTVQ--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/us.finance.gurufocus/69f04d420cf67da0ef5ec8b8e778aa39",
+                  "width": 170,
+                  "height": 128,
+                  "tag": "170x128"
+                }
+              ]
+            },
+            "provider": {
+              "displayName": "GuruFocus.com",
+              "url": "http://www.gurufocus.com/"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/quaker-houghton-kwr-q3-2025-190257115.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/quaker-houghton-kwr-q3-2025-190257115.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        },
+        {
+          "id": "ab874c63-3135-3108-a44d-f49268893899",
+          "content": {
+            "id": "ab874c63-3135-3108-a44d-f49268893899",
+            "contentType": "STORY",
+            "title": "Quaker Chemical (KWR) Q3 Earnings and Revenues Beat Estimates",
+            "description": "",
+            "summary": "Quaker Chemical (KWR) delivered earnings and revenue surprises of +7.22% and +3.88%, respectively, for the quarter ended September 2025. Do the numbers hold clues to what lies ahead for the stock?",
+            "pubDate": "2025-10-30T22:35:02Z",
+            "displayTime": "2025-10-30T22:35:02Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": {
+              "originalUrl": "https://media.zenfs.com/en/zacks.com/d2f7ed3d1940141716bfd200f5c94c6b",
+              "originalWidth": 900,
+              "originalHeight": 711,
+              "caption": "",
+              "resolutions": [
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/eeFsK50..hTdRBoBNDEyoA--~B/aD03MTE7dz05MDA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/zacks.com/d2f7ed3d1940141716bfd200f5c94c6b",
+                  "width": 900,
+                  "height": 711,
+                  "tag": "original"
+                },
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/sgfeS33aHDXh6DZ3gYwjVQ--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/zacks.com/d2f7ed3d1940141716bfd200f5c94c6b",
+                  "width": 170,
+                  "height": 128,
+                  "tag": "170x128"
+                }
+              ]
+            },
+            "provider": {
+              "displayName": "Zacks",
+              "url": "http://www.zacks.com/"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/quaker-chemical-kwr-q3-earnings-223502988.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/quaker-chemical-kwr-q3-earnings-223502988.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        },
+        {
+          "id": "7c6c1326-5f19-3987-bc48-d0ff00bf1a96",
+          "content": {
+            "id": "7c6c1326-5f19-3987-bc48-d0ff00bf1a96",
+            "contentType": "STORY",
+            "title": "Quaker Chemical: Q3 Earnings Snapshot",
+            "description": "",
+            "summary": "CONSHOHOCKEN, Pa. AP) \u2014 Quaker Chemical Corp. KWR) on Thursday reported third-quarter profit of $30.5 million.",
+            "pubDate": "2025-10-30T21:32:46Z",
+            "displayTime": "2025-10-30T21:32:46Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": null,
+            "provider": {
+              "displayName": "Associated Press Finance",
+              "url": "http://www.ap.org/"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/quaker-chemical-q3-earnings-snapshot-213246047.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/quaker-chemical-q3-earnings-snapshot-213246047.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        },
+        {
+          "id": "9b76606b-3a17-3316-b60d-4bd12cc63264",
+          "content": {
+            "id": "9b76606b-3a17-3316-b60d-4bd12cc63264",
+            "contentType": "STORY",
+            "title": "Daqo New Energy (DQ) Reports Q3 Loss, Tops Revenue Estimates",
+            "description": "",
+            "summary": "Daqo (DQ) delivered earnings and revenue surprises of +63.93% and +50.71%, respectively, for the quarter ended September 2025. Do the numbers hold clues to what lies ahead for the stock?",
+            "pubDate": "2025-10-27T12:10:01Z",
+            "displayTime": "2025-10-27T12:10:01Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": {
+              "originalUrl": "https://media.zenfs.com/en/zacks.com/3cb5117fc22f5e37890d1860dcd61f9f",
+              "originalWidth": 900,
+              "originalHeight": 675,
+              "caption": "",
+              "resolutions": [
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/xopQugjeNyS1VO21qlHkcQ--~B/aD02NzU7dz05MDA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/zacks.com/3cb5117fc22f5e37890d1860dcd61f9f",
+                  "width": 900,
+                  "height": 675,
+                  "tag": "original"
+                },
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/k6uDefeIp9u1zRe.lKA2TQ--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/zacks.com/3cb5117fc22f5e37890d1860dcd61f9f",
+                  "width": 170,
+                  "height": 128,
+                  "tag": "170x128"
+                }
+              ]
+            },
+            "provider": {
+              "displayName": "Zacks",
+              "url": "http://www.zacks.com/"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/daqo-energy-dq-reports-q3-121001435.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/daqo-energy-dq-reports-q3-121001435.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        },
+        {
+          "id": "28bba136-413e-3bf1-ac7d-fd61bfe02785",
+          "content": {
+            "id": "28bba136-413e-3bf1-ac7d-fd61bfe02785",
+            "contentType": "STORY",
+            "title": "Does Quaker Chemical\u2019s Recent Market Expansion Signal a Valuation Opportunity in 2025?",
+            "description": "",
+            "summary": "Thinking about what to do with Quaker Chemical stock? You're not alone. It's one of those companies that tends to fly a bit under the radar, but savvy investors have noticed some intriguing moves lately. Over the last week, shares have risen 2.5%, which stands out against a backdrop of largely flat or negative returns over the past year and beyond. With the stock closing at $133.74 most recently, that's a small but notable bump, especially given Quaker Chemical's 11.6% loss over the past...",
+            "pubDate": "2025-10-26T01:07:36Z",
+            "displayTime": "2025-10-26T01:07:36Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": {
+              "originalUrl": "https://media.zenfs.com/en/simply_wall_st__316/7dcbeb026ed19dd2c830be7b78839b8e",
+              "originalWidth": 1194,
+              "originalHeight": 432,
+              "caption": "",
+              "resolutions": [
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/9cCdtydKo66lUAQFOAtM3Q--~B/aD00MzI7dz0xMTk0O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/simply_wall_st__316/7dcbeb026ed19dd2c830be7b78839b8e",
+                  "width": 1194,
+                  "height": 432,
+                  "tag": "original"
+                },
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/wVKjukfyzU.uygHQNL9IOA--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/simply_wall_st__316/7dcbeb026ed19dd2c830be7b78839b8e",
+                  "width": 170,
+                  "height": 128,
+                  "tag": "170x128"
+                }
+              ]
+            },
+            "provider": {
+              "displayName": "Simply Wall St.",
+              "url": "https://simplywall.st/"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/does-quaker-chemical-recent-market-010736071.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/does-quaker-chemical-recent-market-010736071.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        },
+        {
+          "id": "1fb85058-908e-3cec-81b6-41d6d5d44e0d",
+          "content": {
+            "id": "1fb85058-908e-3cec-81b6-41d6d5d44e0d",
+            "contentType": "STORY",
+            "title": "Quaker Chemical (KWR) Earnings Expected to Grow: Should You Buy?",
+            "description": "",
+            "summary": "Quaker Chemical (KWR) doesn't possess the right combination of the two key ingredients for a likely earnings beat in its upcoming report. Get prepared with the key expectations.",
+            "pubDate": "2025-10-23T14:00:30Z",
+            "displayTime": "2025-10-23T14:00:30Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": {
+              "originalUrl": "https://media.zenfs.com/en/zacks.com/8442d24e11d454aa89061259a9714d43",
+              "originalWidth": 900,
+              "originalHeight": 601,
+              "caption": "",
+              "resolutions": [
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/AwCmIhR0z9Bg4cEkwuNQjw--~B/aD02MDE7dz05MDA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/zacks.com/8442d24e11d454aa89061259a9714d43",
+                  "width": 900,
+                  "height": 601,
+                  "tag": "original"
+                },
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/KLT3oFGu9RuInsUwH9.p2Q--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/zacks.com/8442d24e11d454aa89061259a9714d43",
+                  "width": 170,
+                  "height": 128,
+                  "tag": "170x128"
+                }
+              ]
+            },
+            "provider": {
+              "displayName": "Zacks",
+              "url": "http://www.zacks.com/"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/quaker-chemical-kwr-earnings-expected-140030679.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/quaker-chemical-kwr-earnings-expected-140030679.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        }
+      ]
+    },
+    "recommendations": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  },
+  "holders_data": {
+    "major_holders": {
+      "status": "error"
+    },
+    "institutional_holders": {
+      "status": "error"
+    }
+  },
+  "earnings_data": {
+    "earnings": {
+      "status": "error",
+      "message": "'NoneType' object has no attribute 'empty'"
+    },
+    "calendar": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  }
+}

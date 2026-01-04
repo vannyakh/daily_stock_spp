@@ -1,50 +1,55 @@
 {
   "ticker": "OMG",
-  "timestamp": "2026-01-03T05:23:56.619601",
+  "timestamp": "2026-01-04T05:09:56.583365",
   "intraday_data": {
     "status": "no_data",
     "message": "No intraday data available"
   },
   "stock_info": {
-    "status": "success",
-    "data": {
-      "quoteType": "MUTUALFUND",
-      "symbol": "OMG",
-      "language": "en-US",
-      "region": "US",
-      "typeDisp": "Fund",
-      "quoteSourceName": "Delayed Quote",
-      "triggerable": false,
-      "customPriceAlertConfidence": "NONE",
-      "shortName": "401068",
-      "marketState": "CLOSED",
-      "regularMarketTime": 1561759658,
-      "exchange": "YHD",
-      "exchangeTimezoneName": "America/New_York",
-      "exchangeTimezoneShortName": "EST",
-      "gmtOffSetMilliseconds": -18000000,
-      "market": "us_market",
-      "esgPopulated": false,
-      "longName": "OMGL Holdings Ltd",
-      "sourceInterval": 15,
-      "exchangeDataDelayedBy": 0,
-      "tradeable": false,
-      "cryptoTradeable": false,
-      "hasPrePostMarketData": false,
-      "priceHint": 2,
-      "fullExchangeName": "YHD",
-      "displayName": "OMGL"
-    }
+    "status": "error",
+    "message": "Too Many Requests. Rate limited. Try after a while."
   },
   "financials": {
     "income_statement": {
-      "status": "success",
-      "rows": 57,
-      "columns": [
-        "2024-06-30 00:00:00",
-        "2022-06-30 00:00:00",
-        "2021-06-30 00:00:00"
-      ],
-      "data": [
-        {
-          
+      "status": "no_data"
+    },
+    "balance_sheet": {
+      "status": "no_data"
+    },
+    "cash_flow": {
+      "status": "no_data"
+    }
+  },
+  "options_data": {
+    "status": "error",
+    "error_message": "Too Many Requests. Rate limited. Try after a while."
+  },
+  "news_data": {
+    "news": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    },
+    "recommendations": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  },
+  "holders_data": {
+    "major_holders": {
+      "status": "error"
+    },
+    "institutional_holders": {
+      "status": "error"
+    }
+  },
+  "earnings_data": {
+    "earnings": {
+      "status": "error",
+      "message": "'NoneType' object has no attribute 'empty'"
+    },
+    "calendar": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  }
+}

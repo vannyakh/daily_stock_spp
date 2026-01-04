@@ -1,97 +1,55 @@
 {
   "ticker": "PTCHF",
-  "timestamp": "2026-01-03T05:28:53.122430",
+  "timestamp": "2026-01-04T05:11:32.441626",
   "intraday_data": {
     "status": "no_data",
     "message": "No intraday data available"
   },
   "stock_info": {
-    "status": "success",
-    "data": {
-      "language": "en-US",
-      "region": "US",
-      "quoteType": "EQUITY",
-      "typeDisp": "Equity",
-      "quoteSourceName": "Delayed Quote",
-      "triggerable": false,
-      "customPriceAlertConfidence": "LOW",
-      "currency": "USD",
-      "regularMarketChangePercent": 0.0,
-      "regularMarketPrice": 1.705,
-      "firstTradeDateMilliseconds": 1438176600000,
-      "priceHint": 4,
-      "regularMarketChange": 0.0,
-      "regularMarketDayHigh": 1.7,
-      "regularMarketDayRange": "1.7 - 1.7",
-      "regularMarketDayLow": 1.7,
-      "regularMarketVolume": 2000,
-      "regularMarketPreviousClose": 1.705,
-      "bid": 1.55,
-      "ask": 1.79,
-      "bidSize": 100,
-      "askSize": 5000,
-      "fullExchangeName": "OTC Markets OTCPK",
-      "financialCurrency": "USD",
-      "regularMarketOpen": 1.7,
-      "averageDailyVolume3Month": 4118,
-      "averageDailyVolume10Day": 620,
-      "fiftyTwoWeekLowChange": 0.43500006,
-      "fiftyTwoWeekLowChangePercent": 0.34251973,
-      "fiftyTwoWeekRange": "1.27 - 2.0",
-      "fiftyTwoWeekHighChange": -0.29499996,
-      "fiftyTwoWeekHighChangePercent": -0.14749998,
-      "fiftyTwoWeekLow": 1.27,
-      "fiftyTwoWeekHigh": 2.0,
-      "fiftyTwoWeekChangePercent": -14.749998,
-      "earningsTimestampStart": 1756411200,
-      "earningsTimestampEnd": 1756411200,
-      "earningsCallTimestampStart": 1756472400,
-      "earningsCallTimestampEnd": 1756472400,
-      "isEarningsDateEstimate": false,
-      "trailingAnnualDividendRate": 0.0,
-      "trailingPE": 10.029412,
-      "trailingAnnualDividendYield": 0.0,
-      "epsTrailingTwelveMonths": 0.17,
-      "sharesOutstanding": 241684038,
-      "bookValue": 1.565,
-      "fiftyDayAverage": 1.6682,
-      "fiftyDayAverageChange": 0.036800027,
-      "fiftyDayAverageChangePercent": 0.022059722,
-      "twoHundredDayAverage": 1.68279,
-      "twoHundredDayAverageChange": 0.022210002,
-      "twoHundredDayAverageChangePercent": 0.013198321,
-      "marketCap": 412071296,
-      "priceToBook": 1.0894569,
-      "sourceInterval": 15,
-      "exchangeDataDelayedBy": 0,
-      "shortName": "PureTech Health PLC",
-      "regularMarketTime": 1767387600,
-      "exchange": "PNK",
-      "messageBoardId": "finmb_9240598",
-      "exchangeTimezoneName": "America/New_York",
-      "exchangeTimezoneShortName": "EST",
-      "gmtOffSetMilliseconds": -18000000,
-      "market": "us_market",
-      "esgPopulated": false,
-      "marketState": "CLOSED",
-      "longName": "PureTech Health plc",
-      "tradeable": false,
-      "cryptoTradeable": false,
-      "hasPrePostMarketData": false,
-      "displayName": "PureTech Health",
-      "symbol": "PTCHF"
-    }
+    "status": "error",
+    "message": "Too Many Requests. Rate limited. Try after a while."
   },
   "financials": {
     "income_statement": {
-      "status": "success",
-      "rows": 48,
-      "columns": [
-        "2024-12-31 00:00:00",
-        "2023-12-31 00:00:00",
-        "2022-12-31 00:00:00",
-        "2021-12-31 00:00:00"
-      ],
-      "data": [
-        {
-          
+      "status": "no_data"
+    },
+    "balance_sheet": {
+      "status": "no_data"
+    },
+    "cash_flow": {
+      "status": "no_data"
+    }
+  },
+  "options_data": {
+    "status": "error",
+    "error_message": "Too Many Requests. Rate limited. Try after a while."
+  },
+  "news_data": {
+    "news": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    },
+    "recommendations": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  },
+  "holders_data": {
+    "major_holders": {
+      "status": "error"
+    },
+    "institutional_holders": {
+      "status": "error"
+    }
+  },
+  "earnings_data": {
+    "earnings": {
+      "status": "error",
+      "message": "'NoneType' object has no attribute 'empty'"
+    },
+    "calendar": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  }
+}

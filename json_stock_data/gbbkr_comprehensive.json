@@ -1,77 +1,13 @@
 {
   "ticker": "GBBKR",
-  "timestamp": "2026-01-03T05:33:57.894084",
+  "timestamp": "2026-01-04T05:13:05.942725",
   "intraday_data": {
     "status": "no_data",
     "message": "No intraday data available"
   },
   "stock_info": {
-    "status": "success",
-    "data": {
-      "address1": "6555 Sanger Road",
-      "address2": "Suite 200",
-      "city": "Orlando",
-      "state": "FL",
-      "zip": "32827",
-      "country": "United States",
-      "phone": "407 720 9250",
-      "website": "https://www.globalblockchainpartners.com",
-      "industry": "",
-      "industryKey": "",
-      "sector": "",
-      "sectorKey": "",
-      "longBusinessSummary": "Global Blockchain Acquisition Corp. does not have significant operations. The company focuses on effecting a merger, share exchange, asset acquisition, share purchase, reorganization, or similar business combination with one or more businesses. It intends to pursue targets that are focused on blockchain infrastructure, blockchain applications, and related technologies. The company was incorporated in 2021 and is based in Orlando, Florida.",
-      "maxAge": 86400,
-      "priceHint": 4,
-      "previousClose": 0.0,
-      "regularMarketPreviousClose": 0.0,
-      "beta": 0.031,
-      "currency": "USD",
-      "tradeable": false,
-      "profitMargins": 0.0,
-      "floatShares": 1134775,
-      "netIncomeToCommon": -168968,
-      "SandP52WeekChange": 0.14561749,
-      "quoteType": "EQUITY",
-      "currentPrice": 0.0019,
-      "recommendationKey": "none",
-      "totalCash": 16415,
-      "totalCashPerShare": 0.003,
-      "totalDebt": 970597,
-      "quickRatio": 0.014,
-      "currentRatio": 0.194,
-      "returnOnAssets": -0.03437,
-      "freeCashflow": -838104,
-      "operatingCashflow": -1390751,
-      "grossMargins": 0.0,
-      "ebitdaMargins": 0.0,
-      "operatingMargins": 0.0,
-      "financialCurrency": "USD",
-      "symbol": "GBBKR",
-      "language": "en-US",
-      "region": "US",
-      "typeDisp": "Equity",
-      "quoteSourceName": "Delayed Quote",
-      "triggerable": true,
-      "customPriceAlertConfidence": "HIGH",
-      "shortName": "Global Blockchain Acquisition C",
-      "cryptoTradeable": false,
-      "fullExchangeName": "NasdaqGM",
-      "exchange": "NGM",
-      "exchangeTimezoneName": "America/New_York",
-      "exchangeTimezoneShortName": "EST",
-      "gmtOffSetMilliseconds": -18000000,
-      "market": "us_market",
-      "esgPopulated": false,
-      "regularMarketPrice": 0.0019,
-      "sourceInterval": 15,
-      "exchangeDataDelayedBy": 0,
-      "marketState": "CLOSED",
-      "regularMarketTime": 1764104400,
-      "regularMarketChange": 0.0019,
-      "hasPrePostMarketData": true,
-      "displayName": "Global Blockchain"
-    }
+    "status": "error",
+    "message": "Too Many Requests. Rate limited. Try after a while."
   },
   "financials": {
     "income_statement": {
@@ -85,22 +21,25 @@
     }
   },
   "options_data": {
-    "expirations": []
+    "status": "error",
+    "error_message": "Too Many Requests. Rate limited. Try after a while."
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   },
   "holders_data": {
     "major_holders": {
-      "status": "no_data"
+      "status": "error"
     },
     "institutional_holders": {
-      "status": "no_data"
+      "status": "error"
     }
   },
   "earnings_data": {
@@ -110,7 +49,7 @@
     },
     "calendar": {
       "status": "error",
-      "message": "'dict' object has no attribute 'empty'"
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   }
 }

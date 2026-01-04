@@ -1,151 +1,9 @@
 {
   "ticker": "GAINZ",
-  "timestamp": "2026-01-03T05:44:53.043117",
+  "timestamp": "2026-01-04T05:16:17.624073",
   "intraday_data": {
-    "status": "success",
-    "rows": 20,
-    "data": [
-      {
-        "Close GAINI": 25.651399612426758,
-        "High GAINI": 25.651399612426758,
-        "Low GAINI": 25.651399612426758,
-        "Open GAINI": 25.651399612426758,
-        "Volume GAINI": 0
-      },
-      {
-        "Close GAINI": 25.75,
-        "High GAINI": 25.75200080871582,
-        "Low GAINI": 25.75,
-        "Open GAINI": 25.75200080871582,
-        "Volume GAINI": 361
-      },
-      {
-        "Close GAINI": 25.7992000579834,
-        "High GAINI": 25.7992000579834,
-        "Low GAINI": 25.7992000579834,
-        "Open GAINI": 25.7992000579834,
-        "Volume GAINI": 949
-      },
-      {
-        "Close GAINI": 25.829999923706055,
-        "High GAINI": 25.832000732421875,
-        "Low GAINI": 25.829999923706055,
-        "Open GAINI": 25.829999923706055,
-        "Volume GAINI": 2718
-      },
-      {
-        "Close GAINI": 25.829999923706055,
-        "High GAINI": 25.829999923706055,
-        "Low GAINI": 25.829999923706055,
-        "Open GAINI": 25.829999923706055,
-        "Volume GAINI": 200
-      },
-      {
-        "Close GAINI": 25.800100326538086,
-        "High GAINI": 25.800100326538086,
-        "Low GAINI": 25.800100326538086,
-        "Open GAINI": 25.800100326538086,
-        "Volume GAINI": 100
-      },
-      {
-        "Close GAINI": 25.819900512695312,
-        "High GAINI": 25.819900512695312,
-        "Low GAINI": 25.809999465942383,
-        "Open GAINI": 25.809999465942383,
-        "Volume GAINI": 400
-      },
-      {
-        "Close GAINI": 25.82200050354004,
-        "High GAINI": 25.82200050354004,
-        "Low GAINI": 25.82200050354004,
-        "Open GAINI": 25.82200050354004,
-        "Volume GAINI": 0
-      },
-      {
-        "Close GAINI": 25.82200050354004,
-        "High GAINI": 25.82200050354004,
-        "Low GAINI": 25.82200050354004,
-        "Open GAINI": 25.82200050354004,
-        "Volume GAINI": 200
-      },
-      {
-        "Close GAINI": 25.82200050354004,
-        "High GAINI": 25.82200050354004,
-        "Low GAINI": 25.82200050354004,
-        "Open GAINI": 25.82200050354004,
-        "Volume GAINI": 300
-      },
-      {
-        "Close GAINI": 25.819900512695312,
-        "High GAINI": 25.819900512695312,
-        "Low GAINI": 25.800100326538086,
-        "Open GAINI": 25.800100326538086,
-        "Volume GAINI": 189
-      },
-      {
-        "Close GAINI": 25.81999969482422,
-        "High GAINI": 25.81999969482422,
-        "Low GAINI": 25.81999969482422,
-        "Open GAINI": 25.81999969482422,
-        "Volume GAINI": 618
-      },
-      {
-        "Close GAINI": 25.82539939880371,
-        "High GAINI": 25.82539939880371,
-        "Low GAINI": 25.82539939880371,
-        "Open GAINI": 25.82539939880371,
-        "Volume GAINI": 1000
-      },
-      {
-        "Close GAINI": 25.81599998474121,
-        "High GAINI": 25.81599998474121,
-        "Low GAINI": 25.81599998474121,
-        "Open GAINI": 25.81599998474121,
-        "Volume GAINI": 615
-      },
-      {
-        "Close GAINI": 25.84000015258789,
-        "High GAINI": 25.84000015258789,
-        "Low GAINI": 25.84000015258789,
-        "Open GAINI": 25.84000015258789,
-        "Volume GAINI": 1485
-      },
-      {
-        "Close GAINI": 25.84000015258789,
-        "High GAINI": 25.84000015258789,
-        "Low GAINI": 25.84000015258789,
-        "Open GAINI": 25.84000015258789,
-        "Volume GAINI": 0
-      },
-      {
-        "Close GAINI": 25.84000015258789,
-        "High GAINI": 25.84000015258789,
-        "Low GAINI": 25.84000015258789,
-        "Open GAINI": 25.84000015258789,
-        "Volume GAINI": 1107
-      },
-      {
-        "Close GAINI": 25.84000015258789,
-        "High GAINI": 25.84000015258789,
-        "Low GAINI": 25.84000015258789,
-        "Open GAINI": 25.84000015258789,
-        "Volume GAINI": 1400
-      },
-      {
-        "Close GAINI": 25.836999893188477,
-        "High GAINI": 25.84000015258789,
-        "Low GAINI": 25.836999893188477,
-        "Open GAINI": 25.84000015258789,
-        "Volume GAINI": 502
-      },
-      {
-        "Close GAINI": 25.729999542236328,
-        "High GAINI": 25.729999542236328,
-        "Low GAINI": 25.729999542236328,
-        "Open GAINI": 25.729999542236328,
-        "Volume GAINI": 581
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -168,7 +26,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

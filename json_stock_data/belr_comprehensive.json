@@ -1,122 +1,13 @@
 {
   "ticker": "BELR",
-  "timestamp": "2026-01-03T05:23:54.550092",
+  "timestamp": "2026-01-04T05:09:56.574320",
   "intraday_data": {
     "status": "no_data",
     "message": "No intraday data available"
   },
   "stock_info": {
-    "status": "success",
-    "data": {
-      "address1": "2920 Inland Empire Blvd",
-      "address2": "Suite 103",
-      "city": "Ontario",
-      "state": "CA",
-      "zip": "11954",
-      "country": "United States",
-      "phone": "909 774 6351",
-      "website": "https://bellrosecapitalinc.com",
-      "industry": "Software - Application",
-      "industryKey": "software-application",
-      "industryDisp": "Software - Application",
-      "sector": "Technology",
-      "sectorKey": "technology",
-      "sectorDisp": "Technology",
-      "longBusinessSummary": "Bell Rose Capital Inc., an investment company, focuses on acquiring companies in various sectors. The company was formerly known as Deep Blue, Inc. and changed its name to Bell Rose Capital Inc. in March 2014. Bell Rose Capital Inc. is based in Ontario, California.",
-      "maxAge": 86400,
-      "priceHint": 4,
-      "previousClose": 0.00025,
-      "open": 0.0003,
-      "dayLow": 0.0003,
-      "dayHigh": 0.0003,
-      "regularMarketPreviousClose": 0.00025,
-      "regularMarketOpen": 0.0003,
-      "regularMarketDayLow": 0.0003,
-      "regularMarketDayHigh": 0.0003,
-      "beta": 0.377,
-      "volume": 880659,
-      "regularMarketVolume": 880659,
-      "averageVolume": 15599814,
-      "averageVolume10days": 40699954,
-      "averageDailyVolume10Day": 40699954,
-      "bid": 0.0002,
-      "ask": 0.0003,
-      "bidSize": 225099742,
-      "askSize": 101085837,
-      "marketCap": 215085,
-      "fiftyTwoWeekLow": 0.0002,
-      "fiftyTwoWeekHigh": 51.0,
-      "allTimeHigh": 92783501000.0,
-      "allTimeLow": 0.0002,
-      "fiftyDayAverage": 0.0004472,
-      "twoHundredDayAverage": 0.00118575,
-      "trailingAnnualDividendRate": 0.0,
-      "trailingAnnualDividendYield": 0.0,
-      "currency": "USD",
-      "tradeable": false,
-      "profitMargins": 0.0,
-      "sharesOutstanding": 716952476,
-      "heldPercentInsiders": 0.00508,
-      "heldPercentInstitutions": 0.0,
-      "impliedSharesOutstanding": 716952476,
-      "bookValue": -0.0,
-      "lastFiscalYearEnd": 1672444800,
-      "nextFiscalYearEnd": 1703980800,
-      "mostRecentQuarter": 1680220800,
-      "netIncomeToCommon": -72536,
-      "lastSplitFactor": "1:100",
-      "lastSplitDate": 1508112000,
-      "52WeekChange": -0.9999941,
-      "SandP52WeekChange": 0.14561749,
-      "quoteType": "EQUITY",
-      "currentPrice": 0.0003,
-      "recommendationKey": "none",
-      "totalDebt": 0,
-      "operatingCashflow": -64364,
-      "grossMargins": 0.0,
-      "ebitdaMargins": 0.0,
-      "operatingMargins": 0.0,
-      "financialCurrency": "USD",
-      "symbol": "BELR",
-      "language": "en-US",
-      "region": "US",
-      "typeDisp": "Equity",
-      "quoteSourceName": "Delayed Quote",
-      "triggerable": false,
-      "customPriceAlertConfidence": "LOW",
-      "regularMarketChangePercent": 20.0,
-      "regularMarketPrice": 0.0003,
-      "firstTradeDateMilliseconds": 797607000000,
-      "regularMarketChange": 5.0000002e-05,
-      "regularMarketDayRange": "3.0E-4 - 3.0E-4",
-      "fullExchangeName": "OTC Markets OTCPK",
-      "averageDailyVolume3Month": 15599814,
-      "fiftyTwoWeekLowChange": 0.00010000002,
-      "fiftyTwoWeekLowChangePercent": 0.5000001,
-      "fiftyTwoWeekRange": "2.0E-4 - 51.0",
-      "fiftyTwoWeekHighChange": -50.9997,
-      "fiftyTwoWeekHighChangePercent": -0.9999941,
-      "fiftyTwoWeekChangePercent": -99.99941,
-      "fiftyDayAverageChange": -0.00014719999,
-      "fiftyDayAverageChangePercent": -0.32915917,
-      "twoHundredDayAverageChange": -0.00088575,
-      "twoHundredDayAverageChangePercent": -0.74699557,
-      "sourceInterval": 15,
-      "exchangeDataDelayedBy": 0,
-      "shortName": "Bell Rose Capital Inc.",
-      "regularMarketTime": 1767387600,
-      "exchange": "PNK",
-      "messageBoardId": "finmb_339602",
-      "exchangeTimezoneName": "America/New_York",
-      "exchangeTimezoneShortName": "EST",
-      "gmtOffSetMilliseconds": -18000000,
-      "market": "us_market",
-      "esgPopulated": false,
-      "marketState": "CLOSED",
-      "longName": "Bell Rose Capital Inc.",
-      "cryptoTradeable": false,
-      "hasPrePostMarketData": false
-    }
+    "status": "error",
+    "message": "Too Many Requests. Rate limited. Try after a while."
   },
   "financials": {
     "income_statement": {
@@ -130,36 +21,25 @@
     }
   },
   "options_data": {
-    "expirations": []
+    "status": "error",
+    "error_message": "Too Many Requests. Rate limited. Try after a while."
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   },
   "holders_data": {
     "major_holders": {
-      "status": "success",
-      "data": [
-        {
-          "Value": 0.00508
-        },
-        {
-          "Value": 0.0
-        },
-        {
-          "Value": 0.0
-        },
-        {
-          "Value": 0.0
-        }
-      ]
+      "status": "error"
     },
     "institutional_holders": {
-      "status": "no_data"
+      "status": "error"
     }
   },
   "earnings_data": {
@@ -169,7 +49,7 @@
     },
     "calendar": {
       "status": "error",
-      "message": "'dict' object has no attribute 'empty'"
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   }
 }

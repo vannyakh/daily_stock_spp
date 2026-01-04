@@ -1,6 +1,6 @@
 {
   "ticker": "TRU",
-  "timestamp": "2026-01-03T04:26:53.118161",
+  "timestamp": "2026-01-04T04:47:41.320408",
   "intraday_data": {
     "status": "success",
     "rows": 349,
@@ -2451,105 +2451,662 @@
     ]
   },
   "stock_info": {
-    "status": "success",
-    "data": {
-      "language": "en-US",
-      "region": "US",
-      "quoteType": "EQUITY",
-      "typeDisp": "Equity",
-      "quoteSourceName": "Delayed Quote",
-      "triggerable": true,
-      "customPriceAlertConfidence": "HIGH",
-      "marketState": "POSTPOST",
-      "currency": "USD",
-      "hasPrePostMarketData": true,
-      "firstTradeDateMilliseconds": 1435239000000,
-      "priceHint": 2,
-      "postMarketChangePercent": -0.39601803,
-      "postMarketPrice": 83.0,
-      "postMarketChange": -0.33000183,
-      "regularMarketChange": -2.42,
-      "regularMarketDayHigh": 86.14,
-      "regularMarketDayRange": "83.18 - 86.14",
-      "regularMarketDayLow": 83.18,
-      "regularMarketVolume": 1463677,
-      "regularMarketPreviousClose": 85.75,
-      "bid": 79.03,
-      "ask": 89.59,
-      "bidSize": 600,
-      "askSize": 400,
-      "fullExchangeName": "NYSE",
-      "financialCurrency": "USD",
-      "regularMarketOpen": 86.0,
-      "averageDailyVolume3Month": 2277463,
-      "averageDailyVolume10Day": 1840650,
-      "fiftyTwoWeekLowChange": 16.950005,
-      "fiftyTwoWeekLowChangePercent": 0.2553481,
-      "fiftyTwoWeekRange": "66.38 - 101.19",
-      "fiftyTwoWeekHighChange": -17.86,
-      "fiftyTwoWeekHighChangePercent": -0.17649965,
-      "fiftyTwoWeekLow": 66.38,
-      "fiftyTwoWeekHigh": 101.19,
-      "fiftyTwoWeekChangePercent": -7.1567774,
-      "dividendDate": 1765152000,
-      "earningsTimestamp": 1761222600,
-      "earningsTimestampStart": 1761222600,
-      "earningsTimestampEnd": 1761222600,
-      "earningsCallTimestampStart": 1761226200,
-      "earningsCallTimestampEnd": 1761226200,
-      "isEarningsDateEstimate": false,
-      "trailingAnnualDividendRate": 0.46,
-      "trailingPE": 38.93925,
-      "dividendRate": 0.46,
-      "trailingAnnualDividendYield": 0.0053644315,
-      "dividendYield": 0.55,
-      "postMarketTime": 1767401281,
-      "regularMarketTime": 1767387602,
-      "shortName": "TransUnion",
-      "longName": "TransUnion",
-      "regularMarketChangePercent": -2.82216,
-      "regularMarketPrice": 83.33,
-      "exchange": "NYQ",
-      "messageBoardId": "finmb_170928919",
-      "exchangeTimezoneName": "America/New_York",
-      "exchangeTimezoneShortName": "EST",
-      "gmtOffSetMilliseconds": -18000000,
-      "market": "us_market",
-      "esgPopulated": false,
-      "epsTrailingTwelveMonths": 2.14,
-      "epsForward": 4.86111,
-      "epsCurrentYear": 4.25826,
-      "priceEpsCurrentYear": 19.569027,
-      "sharesOutstanding": 194200000,
-      "bookValue": 23.035,
-      "fiftyDayAverage": 83.2784,
-      "fiftyDayAverageChange": 0.051605225,
-      "fiftyDayAverageChangePercent": 0.0006196712,
-      "twoHundredDayAverage": 85.4503,
-      "twoHundredDayAverageChange": -2.1203003,
-      "twoHundredDayAverageChangePercent": -0.024813257,
-      "marketCap": 16232684544,
-      "forwardPE": 17.142176,
-      "priceToBook": 3.6175387,
-      "sourceInterval": 15,
-      "exchangeDataDelayedBy": 0,
-      "averageAnalystRating": "1.7 - Buy",
-      "tradeable": false,
-      "cryptoTradeable": false,
-      "symbol": "TRU",
-      "trailingPegRatio": 1.3489
-    }
+    "status": "error",
+    "message": "Too Many Requests. Rate limited. Try after a while."
   },
   "financials": {
     "income_statement": {
+      "status": "no_data"
+    },
+    "balance_sheet": {
+      "status": "no_data"
+    },
+    "cash_flow": {
+      "status": "no_data"
+    }
+  },
+  "options_data": {
+    "status": "error",
+    "error_message": "Too Many Requests. Rate limited. Try after a while."
+  },
+  "news_data": {
+    "news": {
       "status": "success",
-      "rows": 49,
-      "columns": [
-        "2024-12-31 00:00:00",
-        "2023-12-31 00:00:00",
-        "2022-12-31 00:00:00",
-        "2021-12-31 00:00:00"
-      ],
+      "count": 10,
       "data": [
         {
-          
+          "id": "f3e285a3-0251-3184-b8d0-7840dbc95b0a",
+          "content": {
+            "id": "f3e285a3-0251-3184-b8d0-7840dbc95b0a",
+            "contentType": "STORY",
+            "title": "Judge boots Georgia tenant out of home after not paying $13K in rent, buying luxury items instead. How did this happen?",
+            "description": "",
+            "summary": "A Georgia couple says eviction delays left them without rent for nearly a year.",
+            "pubDate": "2025-12-30T19:15:00Z",
+            "displayTime": "2025-12-30T19:15:00Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": {
+              "originalUrl": "https://media.zenfs.com/en/moneywise_327/6b7780058ce82fd9a567001d8e8bd07e",
+              "originalWidth": 728,
+              "originalHeight": 400,
+              "caption": "",
+              "resolutions": [
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/gIQK1jOJEcrtnCc1bWLI6g--~B/aD00MDA7dz03Mjg7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/moneywise_327/6b7780058ce82fd9a567001d8e8bd07e",
+                  "width": 728,
+                  "height": 400,
+                  "tag": "original"
+                },
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/xiXC4MuuU2tNhH40EK_6gA--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/moneywise_327/6b7780058ce82fd9a567001d8e8bd07e",
+                  "width": 170,
+                  "height": 128,
+                  "tag": "170x128"
+                }
+              ]
+            },
+            "provider": {
+              "displayName": "Moneywise",
+              "url": "https://moneywise.com/"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/judge-boots-georgia-tenant-home-191500139.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/judge-boots-georgia-tenant-home-191500139.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        },
+        {
+          "id": "2f2b0bb9-a623-3711-b78b-e9313219c8d3",
+          "content": {
+            "id": "2f2b0bb9-a623-3711-b78b-e9313219c8d3",
+            "contentType": "STORY",
+            "title": "Reasons Why You Should Hold TransUnion Stock in Your Portfolio",
+            "description": "",
+            "summary": "TRU shares have risen 4.1% in a month on earnings and revenue growth powered by Big Data demand, OneTru innovation and a solid U.S. backdrop.",
+            "pubDate": "2025-12-29T16:31:00Z",
+            "displayTime": "2025-12-29T16:31:00Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": {
+              "originalUrl": "https://media.zenfs.com/en/zacks.com/d43cb7b76527c97c59494165d3dffeae",
+              "originalWidth": 635,
+              "originalHeight": 400,
+              "caption": "",
+              "resolutions": [
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/as5m4_sYhwbum22y4k2zVQ--~B/aD00MDA7dz02MzU7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/zacks.com/d43cb7b76527c97c59494165d3dffeae",
+                  "width": 635,
+                  "height": 400,
+                  "tag": "original"
+                },
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/ZOiWKOkYdnIgUT2QkjlFKQ--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/zacks.com/d43cb7b76527c97c59494165d3dffeae",
+                  "width": 170,
+                  "height": 128,
+                  "tag": "170x128"
+                }
+              ]
+            },
+            "provider": {
+              "displayName": "Zacks",
+              "url": "http://www.zacks.com/"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/reasons-why-hold-transunion-stock-163100224.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/reasons-why-hold-transunion-stock-163100224.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        },
+        {
+          "id": "c9a0623c-6c5a-3b21-b880-b83afbc044a8",
+          "content": {
+            "id": "c9a0623c-6c5a-3b21-b880-b83afbc044a8",
+            "contentType": "STORY",
+            "title": "Reporting rent can boost your credit, but 1 tiny mistake could cost you all the benefits",
+            "description": "",
+            "summary": "What renters need to know.",
+            "pubDate": "2025-12-27T13:00:00Z",
+            "displayTime": "2025-12-27T13:00:00Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": {
+              "originalUrl": "https://media.zenfs.com/en/moneywise_327/bfb6b2f1363c335e3c533fb8f87af446",
+              "originalWidth": 728,
+              "originalHeight": 400,
+              "caption": "",
+              "resolutions": [
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/7vZpNUnDsD8be7bzeNRAYg--~B/aD00MDA7dz03Mjg7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/moneywise_327/bfb6b2f1363c335e3c533fb8f87af446",
+                  "width": 728,
+                  "height": 400,
+                  "tag": "original"
+                },
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/Php9FUmscmTG6fJ587TB6A--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/moneywise_327/bfb6b2f1363c335e3c533fb8f87af446",
+                  "width": 170,
+                  "height": 128,
+                  "tag": "170x128"
+                }
+              ]
+            },
+            "provider": {
+              "displayName": "Moneywise",
+              "url": "https://moneywise.com/"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/reporting-rent-boost-credit-1-130000288.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/reporting-rent-boost-credit-1-130000288.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        },
+        {
+          "id": "64b51684-d309-3666-8a00-3d882ad8a0f0",
+          "content": {
+            "id": "64b51684-d309-3666-8a00-3d882ad8a0f0",
+            "contentType": "STORY",
+            "title": "Truworths International Limited (JSE:TRU) Stock Has Shown Weakness Lately But Financials Look Strong: Should Prospective Shareholders Make The Leap?",
+            "description": "",
+            "summary": "With its stock down 1.6% over the past three months, it is easy to disregard Truworths International (JSE:TRU...",
+            "pubDate": "2025-12-22T04:12:00Z",
+            "displayTime": "2025-12-22T04:12:00Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": {
+              "originalUrl": "https://media.zenfs.com/en/simply_wall_st__316/1d405932ab06ff458a2892e2e6f5b19b",
+              "originalWidth": 1194,
+              "originalHeight": 432,
+              "caption": "",
+              "resolutions": [
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/v2TYmTZo63my46MElvPZPA--~B/aD00MzI7dz0xMTk0O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/simply_wall_st__316/1d405932ab06ff458a2892e2e6f5b19b",
+                  "width": 1194,
+                  "height": 432,
+                  "tag": "original"
+                },
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/PLmdMZf2l5TYoLkSPnjItA--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/simply_wall_st__316/1d405932ab06ff458a2892e2e6f5b19b",
+                  "width": 170,
+                  "height": 128,
+                  "tag": "170x128"
+                }
+              ]
+            },
+            "provider": {
+              "displayName": "Simply Wall St.",
+              "url": "https://simplywall.st/"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/truworths-international-limited-jse-tru-041200082.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/truworths-international-limited-jse-tru-041200082.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        },
+        {
+          "id": "cec39d9b-b4e9-38f1-a5c7-835870d2bbb7",
+          "content": {
+            "id": "cec39d9b-b4e9-38f1-a5c7-835870d2bbb7",
+            "contentType": "STORY",
+            "title": "Is TransUnion Stock Attractive After 2025 Data Investments and Recent Price Recovery?",
+            "description": "",
+            "summary": "If you are wondering whether TransUnion is a value opportunity or a value trap at around $87 a share, you are not alone. This stock divides opinion, which is exactly why it is worth a closer look. Over the past week the shares have gained 2.9%, adding to a 6.4% move over the last month. That still leaves the stock down 5.2% year to date and 7.9% over the last year, despite a 56.6% gain over three years. Recent headlines have focused on TransUnion's ongoing investments in data and analytics...",
+            "pubDate": "2025-12-20T22:07:14Z",
+            "displayTime": "2025-12-20T22:07:14Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": {
+              "originalUrl": "https://media.zenfs.com/en/simply_wall_st__316/51efc4c16661a09e764445427d52ecc6",
+              "originalWidth": 1194,
+              "originalHeight": 432,
+              "caption": "",
+              "resolutions": [
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/tBaSnVjf_e_xG_Ru362rkw--~B/aD00MzI7dz0xMTk0O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/simply_wall_st__316/51efc4c16661a09e764445427d52ecc6",
+                  "width": 1194,
+                  "height": 432,
+                  "tag": "original"
+                },
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/jqBRzXdrlzLlmkGP._Aotw--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/simply_wall_st__316/51efc4c16661a09e764445427d52ecc6",
+                  "width": 170,
+                  "height": 128,
+                  "tag": "170x128"
+                }
+              ]
+            },
+            "provider": {
+              "displayName": "Simply Wall St.",
+              "url": "https://simplywall.st/"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/transunion-stock-attractive-2025-data-220714310.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/transunion-stock-attractive-2025-data-220714310.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        },
+        {
+          "id": "43265ffc-f39f-314b-b673-f9553ecc1877",
+          "content": {
+            "id": "43265ffc-f39f-314b-b673-f9553ecc1877",
+            "contentType": "STORY",
+            "title": "JPMorgan Highlights 11 Tech Stocks for 2026",
+            "description": "",
+            "summary": "Software, chips, and networks stand out",
+            "pubDate": "2025-12-19T16:10:44Z",
+            "displayTime": "2025-12-19T16:10:44Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": {
+              "originalUrl": "https://media.zenfs.com/en/us.finance.gurufocus/c2301c89fdf5d248c568dfaa5901bbf4",
+              "originalWidth": 187,
+              "originalHeight": 187,
+              "caption": "",
+              "resolutions": [
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/zYcZQ7ePOjGyOHsehMKMZw--~B/aD0xODc7dz0xODc7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/us.finance.gurufocus/c2301c89fdf5d248c568dfaa5901bbf4",
+                  "width": 187,
+                  "height": 187,
+                  "tag": "original"
+                },
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/x9emYToeGm.VVqxhkpjdAA--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/us.finance.gurufocus/c2301c89fdf5d248c568dfaa5901bbf4",
+                  "width": 170,
+                  "height": 128,
+                  "tag": "170x128"
+                }
+              ]
+            },
+            "provider": {
+              "displayName": "GuruFocus.com",
+              "url": "http://www.gurufocus.com/"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/jpmorgan-highlights-11-tech-stocks-161044569.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/jpmorgan-highlights-11-tech-stocks-161044569.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        },
+        {
+          "id": "fef08a74-2c07-3aa4-91cb-c1f48909f2bc",
+          "content": {
+            "id": "fef08a74-2c07-3aa4-91cb-c1f48909f2bc",
+            "contentType": "STORY",
+            "title": "3 Profitable Stocks with Open Questions",
+            "description": "",
+            "summary": "While profitability is essential, it doesn\u2019t guarantee long-term success. Some companies that rest on their margins will lose ground as competition intensifies - as Jeff Bezos said, \"Your margin is my opportunity\".",
+            "pubDate": "2025-12-19T04:35:03Z",
+            "displayTime": "2025-12-19T04:35:03Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": {
+              "originalUrl": "https://media.zenfs.com/en/stockstory_922/e1fbe02a51043d629a042e4eb367b175",
+              "originalWidth": 1400,
+              "originalHeight": 700,
+              "caption": "MAS Cover Image",
+              "resolutions": [
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/IitA3MFJHDrSPcyHbY4YSQ--~B/aD03MDA7dz0xNDAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/stockstory_922/e1fbe02a51043d629a042e4eb367b175",
+                  "width": 1400,
+                  "height": 700,
+                  "tag": "original"
+                },
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/TPQ0OEHsqcnuO6Ei5II2dg--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/stockstory_922/e1fbe02a51043d629a042e4eb367b175",
+                  "width": 170,
+                  "height": 128,
+                  "tag": "170x128"
+                }
+              ]
+            },
+            "provider": {
+              "displayName": "StockStory",
+              "url": "https://stockstory.org/"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/3-profitable-stocks-open-questions-043503569.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/3-profitable-stocks-open-questions-043503569.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        },
+        {
+          "id": "2a4391b8-f12b-3903-8f64-90e4ba8c5446",
+          "content": {
+            "id": "2a4391b8-f12b-3903-8f64-90e4ba8c5446",
+            "contentType": "STORY",
+            "title": "Paychex Gears Up to Report Q2 Earnings: What's in Store?",
+            "description": "",
+            "summary": "PAYX prepares to report 2Q26 results, with revenues expected to jump 18% y/y, driven by Management Solutions growth and added Paycor contributions.",
+            "pubDate": "2025-12-17T17:15:00Z",
+            "displayTime": "2025-12-17T17:15:00Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": {
+              "originalUrl": "https://media.zenfs.com/en/zacks.com/c263e64512e12d7e91ed9921ca068b7c",
+              "originalWidth": 635,
+              "originalHeight": 400,
+              "caption": "",
+              "resolutions": [
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/sDk5p3XbPZ6yiLfS7yiSbw--~B/aD00MDA7dz02MzU7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/zacks.com/c263e64512e12d7e91ed9921ca068b7c",
+                  "width": 635,
+                  "height": 400,
+                  "tag": "original"
+                },
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/kcF3M5CSKH5VzoJMXqWiPQ--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/zacks.com/c263e64512e12d7e91ed9921ca068b7c",
+                  "width": 170,
+                  "height": 128,
+                  "tag": "170x128"
+                }
+              ]
+            },
+            "provider": {
+              "displayName": "Zacks",
+              "url": "http://www.zacks.com/"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/paychex-gears-report-q2-earnings-171500582.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/paychex-gears-report-q2-earnings-171500582.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        },
+        {
+          "id": "931772f2-27a0-3b6a-b238-f98fe4324554",
+          "content": {
+            "id": "931772f2-27a0-3b6a-b238-f98fe4324554",
+            "contentType": "STORY",
+            "title": "Car-loan delinquencies will see little movement in 2026: TransUnion\u200b",
+            "description": "",
+            "summary": "Flat\u00a0auto delinquencies\u00a0would be an indication that\u00a0U.S. households are putting the economic effects of the pandemic behind them, TransUnion vice president Michele Raneri said.",
+            "pubDate": "2025-12-15T11:06:00Z",
+            "displayTime": "2025-12-15T11:06:00Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": {
+              "originalUrl": "https://media.zenfs.com/en/wards_auto_520/f71c28b9fe44f41bd39fd2573408cfc9",
+              "originalWidth": 1600,
+              "originalHeight": 900,
+              "caption": "A dealer advertises available financing for used cars. Car-loan delinquencies are forecast to show little movement in 2026.",
+              "resolutions": [
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/6VQoHT9P2IFZ1apv2bA0rQ--~B/aD05MDA7dz0xNjAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/wards_auto_520/f71c28b9fe44f41bd39fd2573408cfc9",
+                  "width": 1600,
+                  "height": 900,
+                  "tag": "original"
+                },
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/LdloPo1wAQHGjdzG88tSWQ--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/wards_auto_520/f71c28b9fe44f41bd39fd2573408cfc9",
+                  "width": 170,
+                  "height": 128,
+                  "tag": "170x128"
+                }
+              ]
+            },
+            "provider": {
+              "displayName": "Wards Auto",
+              "url": "https://www.wardsauto.com/"
+            },
+            "canonicalUrl": {
+              "url": "https://www.wardsauto.com/news/car-loan-delinquencies-will-see-little-movement-in-2026-transunion/807842/",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/car-loan-delinquencies-see-little-110600435.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        },
+        {
+          "id": "2b28f16a-1bed-33f9-93c5-460848446208",
+          "content": {
+            "id": "2b28f16a-1bed-33f9-93c5-460848446208",
+            "contentType": "STORY",
+            "title": "TransUnion (TRU): Taking Stock of Valuation After a Recent Share Price Rebound",
+            "description": "",
+            "summary": "TransUnion (TRU) has been quietly grinding higher, with the stock up about 4% over the past month even as its past 3 months remain negative, which sets up an interesting reset for investors. See our latest analysis for TransUnion. The recent 1 day share price return of 3.73 percent, lifting TransUnion to 84.24 dollars, builds on a modest positive 30 day share price return while still leaving the year to date share price return in the red. This suggests improving but not explosive momentum,...",
+            "pubDate": "2025-12-11T00:12:16Z",
+            "displayTime": "2025-12-11T00:12:16Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": {
+              "originalUrl": "https://media.zenfs.com/en/simply_wall_st__316/51efc4c16661a09e764445427d52ecc6",
+              "originalWidth": 1194,
+              "originalHeight": 432,
+              "caption": "",
+              "resolutions": [
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/tBaSnVjf_e_xG_Ru362rkw--~B/aD00MzI7dz0xMTk0O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/simply_wall_st__316/51efc4c16661a09e764445427d52ecc6",
+                  "width": 1194,
+                  "height": 432,
+                  "tag": "original"
+                },
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/jqBRzXdrlzLlmkGP._Aotw--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/simply_wall_st__316/51efc4c16661a09e764445427d52ecc6",
+                  "width": 170,
+                  "height": 128,
+                  "tag": "170x128"
+                }
+              ]
+            },
+            "provider": {
+              "displayName": "Simply Wall St.",
+              "url": "https://simplywall.st/"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/transunion-tru-taking-stock-valuation-001216417.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/transunion-tru-taking-stock-valuation-001216417.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        }
+      ]
+    },
+    "recommendations": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  },
+  "holders_data": {
+    "major_holders": {
+      "status": "error"
+    },
+    "institutional_holders": {
+      "status": "error"
+    }
+  },
+  "earnings_data": {
+    "earnings": {
+      "status": "error",
+      "message": "'NoneType' object has no attribute 'empty'"
+    },
+    "calendar": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  }
+}

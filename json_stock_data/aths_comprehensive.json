@@ -1,85 +1,13 @@
 {
   "ticker": "ATHS",
-  "timestamp": "2026-01-03T05:42:55.688600",
+  "timestamp": "2026-01-04T05:15:47.542493",
   "intraday_data": {
     "status": "no_data",
     "message": "No intraday data available"
   },
   "stock_info": {
-    "status": "success",
-    "data": {
-      "maxAge": 86400,
-      "priceHint": 2,
-      "previousClose": 25.02,
-      "open": 25.06,
-      "dayLow": 25.05,
-      "dayHigh": 25.11,
-      "regularMarketPreviousClose": 25.02,
-      "regularMarketOpen": 25.06,
-      "regularMarketDayLow": 25.05,
-      "regularMarketDayHigh": 25.11,
-      "volume": 30480,
-      "regularMarketVolume": 30480,
-      "averageVolume": 45319,
-      "averageVolume10days": 44750,
-      "averageDailyVolume10Day": 44750,
-      "bid": 25.0,
-      "ask": 25.14,
-      "bidSize": 400,
-      "askSize": 300,
-      "fiftyTwoWeekLow": 24.01,
-      "fiftyTwoWeekHigh": 26.25,
-      "allTimeHigh": 26.25,
-      "allTimeLow": 24.01,
-      "fiftyDayAverage": 25.2352,
-      "twoHundredDayAverage": 25.239904,
-      "currency": "USD",
-      "tradeable": false,
-      "quoteType": "EQUITY",
-      "symbol": "ATHS",
-      "language": "en-US",
-      "region": "US",
-      "typeDisp": "Equity",
-      "quoteSourceName": "Delayed Quote",
-      "triggerable": true,
-      "customPriceAlertConfidence": "HIGH",
-      "postMarketTime": 1767387901,
-      "regularMarketTime": 1767387602,
-      "exchange": "NYQ",
-      "messageBoardId": "finmb_109766996",
-      "exchangeTimezoneName": "America/New_York",
-      "exchangeTimezoneShortName": "EST",
-      "gmtOffSetMilliseconds": -18000000,
-      "market": "us_market",
-      "esgPopulated": false,
-      "regularMarketChangePercent": 0.239806,
-      "regularMarketPrice": 25.08,
-      "marketState": "CLOSED",
-      "hasPrePostMarketData": true,
-      "firstTradeDateMilliseconds": 1710509400000,
-      "postMarketChangePercent": 0.0,
-      "postMarketPrice": 25.08,
-      "postMarketChange": 0.0,
-      "regularMarketChange": 0.0599995,
-      "regularMarketDayRange": "25.05 - 25.11",
-      "fullExchangeName": "NYSE",
-      "averageDailyVolume3Month": 45319,
-      "fiftyTwoWeekLowChange": 1.0699997,
-      "fiftyTwoWeekLowChangePercent": 0.04456475,
-      "fiftyTwoWeekRange": "24.01 - 26.25",
-      "fiftyTwoWeekHighChange": -1.1700001,
-      "fiftyTwoWeekHighChangePercent": -0.044571433,
-      "fiftyTwoWeekChangePercent": -0.7142842,
-      "dividendDate": 1767052800,
-      "shortName": "Athene Holding Ltd. 7.250% Fixe",
-      "fiftyDayAverageChange": -0.15520096,
-      "fiftyDayAverageChangePercent": -0.006150177,
-      "twoHundredDayAverageChange": -0.15990448,
-      "twoHundredDayAverageChangePercent": -0.0063353837,
-      "sourceInterval": 15,
-      "exchangeDataDelayedBy": 0,
-      "cryptoTradeable": false
-    }
+    "status": "error",
+    "message": "Too Many Requests. Rate limited. Try after a while."
   },
   "financials": {
     "income_statement": {
@@ -93,22 +21,25 @@
     }
   },
   "options_data": {
-    "expirations": []
+    "status": "error",
+    "error_message": "Too Many Requests. Rate limited. Try after a while."
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   },
   "holders_data": {
     "major_holders": {
-      "status": "no_data"
+      "status": "error"
     },
     "institutional_holders": {
-      "status": "no_data"
+      "status": "error"
     }
   },
   "earnings_data": {
@@ -118,7 +49,7 @@
     },
     "calendar": {
       "status": "error",
-      "message": "'dict' object has no attribute 'empty'"
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   }
 }

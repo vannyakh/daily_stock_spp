@@ -1,124 +1,36 @@
 {
   "ticker": "SSSSL",
-  "timestamp": "2026-01-03T05:42:00.850003",
+  "timestamp": "2026-01-04T05:15:33.655933",
   "intraday_data": {
     "status": "success",
-    "rows": 7,
+    "rows": 3,
     "data": [
       {
-        "Close": 25.010000228881836,
-        "High": 25.010000228881836,
-        "Low": 25.010000228881836,
-        "Open": 25.010000228881836,
-        "Volume": 0
+        "Close AMPGW": 0.08009999990463257,
+        "High AMPGW": 0.08009999990463257,
+        "Low AMPGW": 0.08009999990463257,
+        "Open AMPGW": 0.08009999990463257,
+        "Volume AMPGW": 0
       },
       {
-        "Close": 25.010000228881836,
-        "High": 25.010000228881836,
-        "Low": 25.010000228881836,
-        "Open": 25.010000228881836,
-        "Volume": 100
+        "Close AMPGW": 0.08009999990463257,
+        "High AMPGW": 0.08009999990463257,
+        "Low AMPGW": 0.08009999990463257,
+        "Open AMPGW": 0.08009999990463257,
+        "Volume AMPGW": 433
       },
       {
-        "Close": 25.0,
-        "High": 25.0,
-        "Low": 25.0,
-        "Open": 25.0,
-        "Volume": 0
-      },
-      {
-        "Close": 25.010000228881836,
-        "High": 25.010000228881836,
-        "Low": 25.010000228881836,
-        "Open": 25.010000228881836,
-        "Volume": 100
-      },
-      {
-        "Close": 25.019899368286133,
-        "High": 25.019899368286133,
-        "Low": 25.019899368286133,
-        "Open": 25.019899368286133,
-        "Volume": 200
-      },
-      {
-        "Close": 25.0,
-        "High": 25.0,
-        "Low": 25.0,
-        "Open": 25.0,
-        "Volume": 196
-      },
-      {
-        "Close": 25.0,
-        "High": 25.0,
-        "Low": 25.0,
-        "Open": 25.0,
-        "Volume": 105
+        "Close AMPGW": 0.08030000329017639,
+        "High AMPGW": 0.08030000329017639,
+        "Low AMPGW": 0.08009999990463257,
+        "Open AMPGW": 0.08009999990463257,
+        "Volume AMPGW": 900
       }
     ]
   },
   "stock_info": {
-    "status": "success",
-    "data": {
-      "language": "en-US",
-      "region": "US",
-      "quoteType": "EQUITY",
-      "typeDisp": "Equity",
-      "quoteSourceName": "Delayed Quote",
-      "triggerable": true,
-      "customPriceAlertConfidence": "HIGH",
-      "currency": "USD",
-      "shortName": "SuRo Capital Corp. - 6.00% Note",
-      "longName": "SuRo Capital Corp. 6.00% Notes due 2026",
-      "regularMarketTime": 1767387600,
-      "exchange": "NGM",
-      "messageBoardId": "finmb_118031230",
-      "exchangeTimezoneName": "America/New_York",
-      "exchangeTimezoneShortName": "EST",
-      "gmtOffSetMilliseconds": -18000000,
-      "market": "us_market",
-      "esgPopulated": false,
-      "hasPrePostMarketData": true,
-      "firstTradeDateMilliseconds": 1639751400000,
-      "priceHint": 2,
-      "regularMarketChangePercent": 0.0031968185,
-      "regularMarketPrice": 25.0,
-      "fiftyTwoWeekLowChange": 0.79999924,
-      "fiftyTwoWeekLowChangePercent": 0.03305782,
-      "fiftyTwoWeekRange": "24.2 - 25.4",
-      "fiftyTwoWeekHighChange": -0.39999962,
-      "fiftyTwoWeekHighChangePercent": -0.015748017,
-      "fiftyTwoWeekLow": 24.2,
-      "fiftyTwoWeekHigh": 25.4,
-      "fiftyTwoWeekChangePercent": 1.0060549,
-      "dividendDate": 1767139200,
-      "fiftyDayAverage": 24.94192,
-      "fiftyDayAverageChange": 0.058080673,
-      "fiftyDayAverageChangePercent": 0.0023286368,
-      "twoHundredDayAverage": 24.78027,
-      "twoHundredDayAverageChange": 0.21973038,
-      "twoHundredDayAverageChangePercent": 0.00886715,
-      "sourceInterval": 15,
-      "exchangeDataDelayedBy": 0,
-      "ipoExpectedDate": "2021-12-17",
-      "tradeable": false,
-      "cryptoTradeable": false,
-      "marketState": "CLOSED",
-      "regularMarketChange": 0.0007991791,
-      "regularMarketDayHigh": 25.0199,
-      "regularMarketDayRange": "25.0 - 25.0199",
-      "regularMarketDayLow": 25.0,
-      "regularMarketVolume": 1129,
-      "regularMarketPreviousClose": 24.9992,
-      "bid": 0.0,
-      "ask": 0.0,
-      "bidSize": 0,
-      "askSize": 0,
-      "fullExchangeName": "NasdaqGM",
-      "regularMarketOpen": 25.01,
-      "averageDailyVolume3Month": 7131,
-      "averageDailyVolume10Day": 4260,
-      "symbol": "SSSSL"
-    }
+    "status": "error",
+    "message": "Too Many Requests. Rate limited. Try after a while."
   },
   "financials": {
     "income_statement": {
@@ -137,7 +49,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

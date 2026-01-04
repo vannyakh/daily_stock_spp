@@ -1,135 +1,56 @@
 {
   "ticker": "IWAL",
-  "timestamp": "2026-01-03T05:31:14.562106",
+  "timestamp": "2026-01-04T05:12:19.331538",
   "intraday_data": {
     "status": "success",
-    "rows": 6,
-    "data": [
-      {
-        "Close": 0.011099999770522118,
-        "High": 0.011099999770522118,
-        "Low": 0.011099999770522118,
-        "Open": 0.011099999770522118,
-        "Volume": 5115
-      },
-      {
-        "Close": 0.010999999940395355,
-        "High": 0.010999999940395355,
-        "Low": 0.010999999940395355,
-        "Open": 0.010999999940395355,
-        "Volume": 10000
-      },
-      {
-        "Close": 0.010999999940395355,
-        "High": 0.010999999940395355,
-        "Low": 0.010999999940395355,
-        "Open": 0.010999999940395355,
-        "Volume": 7400
-      },
-      {
-        "Close": 0.010999999940395355,
-        "High": 0.010999999940395355,
-        "Low": 0.010999999940395355,
-        "Open": 0.010999999940395355,
-        "Volume": 10000
-      },
-      {
-        "Close": 0.010999999940395355,
-        "High": 0.010999999940395355,
-        "Low": 0.010999999940395355,
-        "Open": 0.010999999940395355,
-        "Volume": 10000
-      },
-      {
-        "Close": 0.011699999682605267,
-        "High": 0.011699999682605267,
-        "Low": 0.011699999682605267,
-        "Open": 0.011699999682605267,
-        "Volume": 15000
-      }
-    ]
+    "rows": 0,
+    "data": []
   },
   "stock_info": {
-    "status": "success",
-    "data": {
-      "language": "en-US",
-      "region": "US",
-      "quoteType": "EQUITY",
-      "typeDisp": "Equity",
-      "quoteSourceName": "Delayed Quote",
-      "triggerable": false,
-      "customPriceAlertConfidence": "LOW",
-      "currency": "USD",
-      "shortName": "iWallet Corporation",
-      "longName": "iWallet Corporation",
-      "regularMarketTime": 1767387600,
-      "hasPrePostMarketData": false,
-      "marketState": "CLOSED",
-      "firstTradeDateMilliseconds": 1334151000000,
-      "priceHint": 4,
-      "regularMarketChange": -0.00019999966,
-      "regularMarketDayHigh": 0.0117,
-      "regularMarketDayRange": "0.011 - 0.0117",
-      "regularMarketDayLow": 0.011,
-      "regularMarketVolume": 57515,
-      "regularMarketPreviousClose": 0.0197,
-      "bid": 0.0112,
-      "ask": 0.0195,
-      "bidSize": 15000,
-      "askSize": 20000,
-      "fullExchangeName": "OTC Markets OTCPK",
-      "financialCurrency": "USD",
-      "regularMarketOpen": 0.0111,
-      "averageDailyVolume3Month": 36822,
-      "averageDailyVolume10Day": 86764,
-      "fiftyTwoWeekLowChange": 0.009500001,
-      "fiftyTwoWeekLowChangePercent": 0.9500001,
-      "fiftyTwoWeekRange": "0.01 - 0.0364",
-      "fiftyTwoWeekHighChange": -0.016900001,
-      "fiftyTwoWeekHighChangePercent": -0.46428573,
-      "fiftyTwoWeekLow": 0.01,
-      "fiftyTwoWeekHigh": 0.0364,
-      "fiftyTwoWeekChangePercent": 35.416664,
-      "exchange": "PNK",
-      "messageBoardId": "finmb_269088446",
-      "exchangeTimezoneName": "America/New_York",
-      "exchangeTimezoneShortName": "EST",
-      "gmtOffSetMilliseconds": -18000000,
-      "market": "us_market",
-      "esgPopulated": false,
-      "regularMarketChangePercent": -1.0152267,
-      "regularMarketPrice": 0.0195,
-      "trailingAnnualDividendRate": 0.0,
-      "trailingAnnualDividendYield": 0.0,
-      "epsTrailingTwelveMonths": 0.0,
-      "sharesOutstanding": 106419419,
-      "bookValue": -0.008,
-      "fiftyDayAverage": 0.023106,
-      "fiftyDayAverageChange": -0.003605999,
-      "fiftyDayAverageChangePercent": -0.15606332,
-      "twoHundredDayAverage": 0.027983,
-      "twoHundredDayAverageChange": -0.008483,
-      "twoHundredDayAverageChangePercent": -0.30314833,
-      "marketCap": 2075178,
-      "priceToBook": -2.4375,
-      "sourceInterval": 15,
-      "exchangeDataDelayedBy": 0,
-      "tradeable": false,
-      "cryptoTradeable": false,
-      "displayName": "iWallet",
-      "symbol": "IWAL"
-    }
+    "status": "error",
+    "message": "Too Many Requests. Rate limited. Try after a while."
   },
   "financials": {
     "income_statement": {
-      "status": "success",
-      "rows": 41,
-      "columns": [
-        "2024-12-31 00:00:00",
-        "2023-12-31 00:00:00",
-        "2022-12-31 00:00:00",
-        "2021-12-31 00:00:00"
-      ],
-      "data": [
-        {
-          
+      "status": "no_data"
+    },
+    "balance_sheet": {
+      "status": "no_data"
+    },
+    "cash_flow": {
+      "status": "no_data"
+    }
+  },
+  "options_data": {
+    "status": "error",
+    "error_message": "Too Many Requests. Rate limited. Try after a while."
+  },
+  "news_data": {
+    "news": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    },
+    "recommendations": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  },
+  "holders_data": {
+    "major_holders": {
+      "status": "error"
+    },
+    "institutional_holders": {
+      "status": "error"
+    }
+  },
+  "earnings_data": {
+    "earnings": {
+      "status": "error",
+      "message": "'NoneType' object has no attribute 'empty'"
+    },
+    "calendar": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  }
+}

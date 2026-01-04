@@ -1,80 +1,13 @@
 {
   "ticker": "GLSTW",
-  "timestamp": "2026-01-03T05:34:31.414047",
+  "timestamp": "2026-01-04T05:13:13.658536",
   "intraday_data": {
     "status": "no_data",
     "message": "No intraday data available"
   },
   "stock_info": {
-    "status": "success",
-    "data": {
-      "address1": "1641 International Drive",
-      "address2": "Unit 208",
-      "city": "McLean",
-      "state": "VA",
-      "zip": "22102",
-      "country": "United States",
-      "phone": "703 790 0717",
-      "website": "https://www.globalstarspac.com",
-      "industry": "Shell Companies",
-      "industryKey": "shell-companies",
-      "industryDisp": "Shell Companies",
-      "sector": "Financial Services",
-      "sectorKey": "financial-services",
-      "sectorDisp": "Financial Services",
-      "longBusinessSummary": "As of May 13, 2025, Global Star Acquisition, Inc. was acquired by K Enter Holdings Inc, in a reverse merger transaction. Global Star Acquisition, Inc. does not have significant operations. It focuses on effecting a merger, capital stock exchange, asset acquisition, stock purchase, reorganization, or similar business combination with one or more businesses. The company was incorporated in 2019 and is based in McLean, Virginia. Global Star Acquisition, Inc. is a subsidiary of Global Star Acquisition 1 LLC.",
-      "maxAge": 86400,
-      "priceHint": 4,
-      "previousClose": 0.025,
-      "regularMarketPreviousClose": 0.025,
-      "beta": -0.276,
-      "currency": "USD",
-      "tradeable": false,
-      "profitMargins": 0.0,
-      "floatShares": 155390,
-      "netIncomeToCommon": -768551,
-      "SandP52WeekChange": 0.14561749,
-      "quoteType": "EQUITY",
-      "currentPrice": 0.04,
-      "recommendationKey": "none",
-      "totalCash": 510939,
-      "totalCashPerShare": 0.173,
-      "totalDebt": 2344755,
-      "quickRatio": 0.093,
-      "currentRatio": 0.094,
-      "returnOnAssets": -0.04204,
-      "freeCashflow": -133937,
-      "operatingCashflow": -1813123,
-      "grossMargins": 0.0,
-      "ebitdaMargins": 0.0,
-      "operatingMargins": 0.0,
-      "financialCurrency": "USD",
-      "symbol": "GLSTW",
-      "language": "en-US",
-      "region": "US",
-      "typeDisp": "Equity",
-      "quoteSourceName": "Delayed Quote",
-      "triggerable": true,
-      "customPriceAlertConfidence": "HIGH",
-      "cryptoTradeable": false,
-      "shortName": "Global Star Acquisition, Inc.",
-      "regularMarketChangePercent": 59.999996,
-      "regularMarketPrice": 0.04,
-      "marketState": "CLOSED",
-      "regularMarketTime": 1764104400,
-      "exchange": "NGM",
-      "exchangeTimezoneName": "America/New_York",
-      "exchangeTimezoneShortName": "EST",
-      "gmtOffSetMilliseconds": -18000000,
-      "market": "us_market",
-      "esgPopulated": false,
-      "hasPrePostMarketData": true,
-      "regularMarketChange": 0.014999999,
-      "fullExchangeName": "NasdaqGM",
-      "sourceInterval": 15,
-      "exchangeDataDelayedBy": 0,
-      "displayName": "Global Star"
-    }
+    "status": "error",
+    "message": "Too Many Requests. Rate limited. Try after a while."
   },
   "financials": {
     "income_statement": {
@@ -88,22 +21,25 @@
     }
   },
   "options_data": {
-    "expirations": []
+    "status": "error",
+    "error_message": "Too Many Requests. Rate limited. Try after a while."
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   },
   "holders_data": {
     "major_holders": {
-      "status": "no_data"
+      "status": "error"
     },
     "institutional_holders": {
-      "status": "no_data"
+      "status": "error"
     }
   },
   "earnings_data": {
@@ -113,7 +49,7 @@
     },
     "calendar": {
       "status": "error",
-      "message": "'dict' object has no attribute 'empty'"
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   }
 }

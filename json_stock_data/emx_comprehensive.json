@@ -1,10 +1,9 @@
 {
   "ticker": "EMX",
-  "timestamp": "2026-01-03T04:58:31.333938",
+  "timestamp": "2026-01-04T05:00:14.982102",
   "intraday_data": {
-    "status": "success",
-    "rows": 0,
-    "data": []
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -605,130 +604,16 @@
       ]
     },
     "recommendations": {
-      "status": "success",
-      "rows": 2,
-      "data": [
-        {
-          "period": "0m",
-          "strongBuy": 1,
-          "buy": 0,
-          "hold": 0,
-          "sell": 0,
-          "strongSell": 0
-        },
-        {
-          "period": "-1m",
-          "strongBuy": 2,
-          "buy": 0,
-          "hold": 0,
-          "sell": 0,
-          "strongSell": 0
-        }
-      ]
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   },
   "holders_data": {
     "major_holders": {
-      "status": "success",
-      "data": [
-        {
-          "Value": 0.21324
-        },
-        {
-          "Value": 0.18646999
-        },
-        {
-          "Value": 0.23701
-        },
-        {
-          "Value": 68.0
-        }
-      ]
+      "status": "error"
     },
     "institutional_holders": {
-      "status": "success",
-      "data": [
-        {
-          "Date Reported": "2025-09-30 00:00:00",
-          "Holder": "Sprott Inc.",
-          "pctHeld": 0.0499,
-          "Shares": 5499899,
-          "Value": 22879579,
-          "pctChange": -0.0233
-        },
-        {
-          "Date Reported": "2025-09-30 00:00:00",
-          "Holder": "Medici Capital LLC                          ",
-          "pctHeld": 0.0256,
-          "Shares": 2817200,
-          "Value": 11719551,
-          "pctChange": 0.33650002
-        },
-        {
-          "Date Reported": "2025-09-30 00:00:00",
-          "Holder": "Marshall Wace LLP",
-          "pctHeld": 0.013200001,
-          "Shares": 1451019,
-          "Value": 6036238,
-          "pctChange": 0.11229999
-        },
-        {
-          "Date Reported": "2025-06-30 00:00:00",
-          "Holder": "Morgan Stanley",
-          "pctHeld": 0.0101,
-          "Shares": 1115690,
-          "Value": 4641270,
-          "pctChange": 0.32869998
-        },
-        {
-          "Date Reported": "2025-09-30 00:00:00",
-          "Holder": "Arrowstreet Capital, Limited Partnership",
-          "pctHeld": 0.007900001,
-          "Shares": 871183,
-          "Value": 3624121,
-          "pctChange": 1.2824
-        },
-        {
-          "Date Reported": "2025-06-30 00:00:00",
-          "Holder": "Citadel Advisors Llc",
-          "pctHeld": 0.0078,
-          "Shares": 862821,
-          "Value": 3589335,
-          "pctChange": 0.0975
-        },
-        {
-          "Date Reported": "2025-09-30 00:00:00",
-          "Holder": "U.S. Global Investors, Inc.",
-          "pctHeld": 0.0045,
-          "Shares": 500000,
-          "Value": 2079999,
-          "pctChange": 0.0
-        },
-        {
-          "Date Reported": "2025-06-30 00:00:00",
-          "Holder": "Man Group PLC",
-          "pctHeld": 0.0033000002,
-          "Shares": 368949,
-          "Value": 1534827,
-          "pctChange": 1.3664999
-        },
-        {
-          "Date Reported": "2025-09-30 00:00:00",
-          "Holder": "Euro Pacific Asset Management, LLC",
-          "pctHeld": 0.0031,
-          "Shares": 345841,
-          "Value": 1438698,
-          "pctChange": -0.086
-        },
-        {
-          "Date Reported": "2025-06-30 00:00:00",
-          "Holder": "Bank of America Corporation",
-          "pctHeld": 0.0023999999,
-          "Shares": 266504,
-          "Value": 1108656,
-          "pctChange": 25.6504
-        }
-      ]
+      "status": "error"
     }
   },
   "earnings_data": {
@@ -738,7 +623,7 @@
     },
     "calendar": {
       "status": "error",
-      "message": "'dict' object has no attribute 'empty'"
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   }
 }

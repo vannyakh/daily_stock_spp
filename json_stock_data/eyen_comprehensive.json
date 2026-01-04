@@ -1,25 +1,13 @@
 {
   "ticker": "EYEN",
-  "timestamp": "2026-01-03T05:15:43.582268",
+  "timestamp": "2026-01-04T05:07:11.848882",
   "intraday_data": {
     "status": "no_data",
     "message": "No intraday data available"
   },
   "stock_info": {
-    "status": "success",
-    "data": {
-      "quoteType": "NONE",
-      "symbol": "EYEN",
-      "language": "en-US",
-      "region": "US",
-      "triggerable": false,
-      "customPriceAlertConfidence": "NONE",
-      "esgPopulated": false,
-      "hasPrePostMarketData": false,
-      "tradeable": false,
-      "cryptoTradeable": false,
-      "financialCurrency": "USD"
-    }
+    "status": "error",
+    "message": "Too Many Requests. Rate limited. Try after a while."
   },
   "financials": {
     "income_statement": {
@@ -33,7 +21,8 @@
     }
   },
   "options_data": {
-    "expirations": []
+    "status": "error",
+    "error_message": "Too Many Requests. Rate limited. Try after a while."
   },
   "news_data": {
     "news": {
@@ -188,15 +177,16 @@
       ]
     },
     "recommendations": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   },
   "holders_data": {
     "major_holders": {
-      "status": "no_data"
+      "status": "error"
     },
     "institutional_holders": {
-      "status": "no_data"
+      "status": "error"
     }
   },
   "earnings_data": {
@@ -206,7 +196,7 @@
     },
     "calendar": {
       "status": "error",
-      "message": "'dict' object has no attribute 'empty'"
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   }
 }

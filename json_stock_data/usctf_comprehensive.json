@@ -1,119 +1,55 @@
 {
   "ticker": "USCTF",
-  "timestamp": "2026-01-03T05:21:43.376519",
+  "timestamp": "2026-01-04T05:09:20.217948",
   "intraday_data": {
     "status": "no_data",
     "message": "No intraday data available"
   },
   "stock_info": {
-    "status": "success",
-    "data": {
-      "address1": "2340 Collins Avenue",
-      "address2": "Suite 402",
-      "city": "Miami Beach",
-      "state": "FL",
-      "zip": "33139",
-      "country": "United States",
-      "phone": "949 720 7133",
-      "website": "https://www.rothch.com",
-      "industry": "Shell Companies",
-      "industryKey": "shell-companies",
-      "industryDisp": "Shell Companies",
-      "sector": "Financial Services",
-      "sectorKey": "financial-services",
-      "sectorDisp": "Financial Services",
-      "longBusinessSummary": "Roth CH Acquisition Co. does not have significant operations. It intends to effect a merger, capital stock exchange, asset acquisition, stock purchase, reorganization, or related business combination with one or more businesses. The company was formerly known as TKB Critical Technologies 1 and changed its name to Roth CH Acquisition Co. in September 2023. Roth CH Acquisition Co. was incorporated in 2021 and is based in Miami Beach, Florida.",
-      "maxAge": 86400,
-      "priceHint": 4,
-      "previousClose": 2.78,
-      "open": 1.9,
-      "dayLow": 1.9,
-      "dayHigh": 1.9,
-      "regularMarketPreviousClose": 2.78,
-      "regularMarketOpen": 1.9,
-      "regularMarketDayLow": 1.9,
-      "regularMarketDayHigh": 1.9,
-      "payoutRatio": 0.0,
-      "beta": 8.132,
-      "volume": 260,
-      "regularMarketVolume": 260,
-      "averageVolume": 448,
-      "averageVolume10days": 228,
-      "averageDailyVolume10Day": 228,
-      "bid": 1.9,
-      "ask": 2.83,
-      "bidSize": 114000,
-      "askSize": 70000,
-      "marketCap": 86028616,
-      "fiftyTwoWeekLow": 0.03,
-      "fiftyTwoWeekHigh": 3.56,
-      "allTimeHigh": 114.2,
-      "allTimeLow": 0.025,
-      "fiftyDayAverage": 2.4502,
-      "twoHundredDayAverage": 1.267701,
-      "trailingAnnualDividendRate": 0.0,
-      "trailingAnnualDividendYield": 0.0,
-      "currency": "USD",
-      "tradeable": false,
-      "enterpriseValue": 86269168,
-      "profitMargins": 0.0,
-      "floatShares": 8218450,
-      "sharesOutstanding": 45203220,
-      "sharesShort": 254,
-      "sharesShortPriorMonth": 1,
-      "sharesShortPreviousMonthDate": 1710460800,
-      "dateShortInterest": 1713139200,
-      "sharesPercentSharesOut": 0.00029999999,
-      "shortRatio": 0.06,
-      "shortPercentOfFloat": 0.00090000004,
-      "impliedSharesOutstanding": 45278220,
-      "bookValue": -0.069,
-      "lastFiscalYearEnd": 1735603200,
-      "nextFiscalYearEnd": 1767139200,
-      "mostRecentQuarter": 1759190400,
-      "netIncomeToCommon": -2389763,
-      "trailingEps": -0.1,
-      "lastSplitFactor": "1:10",
-      "lastSplitDate": 1716508800,
-      "52WeekChange": 62.333332,
-      "SandP52WeekChange": 0.14561749,
-      "exchange": "PNK",
-      "quoteType": "EQUITY",
-      "symbol": "USCTF",
-      "underlyingSymbol": "USCTF",
-      "shortName": "Roth CH Acquisition Co.",
-      "longName": "Roth CH Acquisition Co.",
-      "firstTradeDateEpochUtc": 1640615400,
-      "timeZoneFullName": "America/New_York",
-      "timeZoneShortName": "EST",
-      "uuid": "35b09115-7907-343a-81ab-05b659558514",
-      "messageBoardId": "finmb_718184117",
-      "gmtOffSetMilliseconds": -18000000,
-      "currentPrice": 1.9,
-      "recommendationKey": "none",
-      "totalCash": 16083,
-      "totalCashPerShare": 0.0,
-      "totalDebt": 256636,
-      "quickRatio": 0.009,
-      "currentRatio": 0.012,
-      "returnOnAssets": -18.97302,
-      "freeCashflow": 49823,
-      "operatingCashflow": -355726,
-      "grossMargins": 0.0,
-      "ebitdaMargins": 0.0,
-      "operatingMargins": 0.0,
-      "financialCurrency": "USD"
-    }
+    "status": "error",
+    "message": "Too Many Requests. Rate limited. Try after a while."
   },
   "financials": {
     "income_statement": {
-      "status": "success",
-      "rows": 40,
-      "columns": [
-        "2024-12-31 00:00:00",
-        "2023-12-31 00:00:00",
-        "2022-12-31 00:00:00"
-      ],
-      "data": [
-        {
-          
+      "status": "no_data"
+    },
+    "balance_sheet": {
+      "status": "no_data"
+    },
+    "cash_flow": {
+      "status": "no_data"
+    }
+  },
+  "options_data": {
+    "status": "error",
+    "error_message": "Too Many Requests. Rate limited. Try after a while."
+  },
+  "news_data": {
+    "news": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    },
+    "recommendations": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  },
+  "holders_data": {
+    "major_holders": {
+      "status": "error"
+    },
+    "institutional_holders": {
+      "status": "error"
+    }
+  },
+  "earnings_data": {
+    "earnings": {
+      "status": "error",
+      "message": "'NoneType' object has no attribute 'empty'"
+    },
+    "calendar": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  }
+}

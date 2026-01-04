@@ -1,67 +1,9 @@
 {
   "ticker": "PSA-PQ",
-  "timestamp": "2026-01-03T05:46:42.012594",
+  "timestamp": "2026-01-04T05:16:49.693726",
   "intraday_data": {
-    "status": "success",
-    "rows": 8,
-    "data": [
-      {
-        "Close": 15.800000190734863,
-        "High": 15.800000190734863,
-        "Low": 15.800000190734863,
-        "Open": 15.800000190734863,
-        "Volume": 0
-      },
-      {
-        "Close": 15.890000343322754,
-        "High": 15.890000343322754,
-        "Low": 15.880000114440918,
-        "Open": 15.880000114440918,
-        "Volume": 400
-      },
-      {
-        "Close": 15.917400360107422,
-        "High": 15.917400360107422,
-        "Low": 15.917400360107422,
-        "Open": 15.917400360107422,
-        "Volume": 110
-      },
-      {
-        "Close": 15.919899940490723,
-        "High": 15.919899940490723,
-        "Low": 15.919899940490723,
-        "Open": 15.919899940490723,
-        "Volume": 117
-      },
-      {
-        "Close": 15.748700141906738,
-        "High": 15.748700141906738,
-        "Low": 15.748700141906738,
-        "Open": 15.748700141906738,
-        "Volume": 679
-      },
-      {
-        "Close": 15.739999771118164,
-        "High": 15.739999771118164,
-        "Low": 15.710000038146973,
-        "Open": 15.710000038146973,
-        "Volume": 460
-      },
-      {
-        "Close": 15.885000228881836,
-        "High": 15.885000228881836,
-        "Low": 15.859999656677246,
-        "Open": 15.859999656677246,
-        "Volume": 312
-      },
-      {
-        "Close": 15.84000015258789,
-        "High": 15.920000076293945,
-        "Low": 15.84000015258789,
-        "Open": 15.890000343322754,
-        "Volume": 3100
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -69,14 +11,45 @@
   },
   "financials": {
     "income_statement": {
-      "status": "success",
-      "rows": 51,
-      "columns": [
-        "2024-12-31 00:00:00",
-        "2023-12-31 00:00:00",
-        "2022-12-31 00:00:00",
-        "2021-12-31 00:00:00"
-      ],
-      "data": [
-        {
-          
+      "status": "no_data"
+    },
+    "balance_sheet": {
+      "status": "no_data"
+    },
+    "cash_flow": {
+      "status": "no_data"
+    }
+  },
+  "options_data": {
+    "status": "error",
+    "error_message": "Too Many Requests. Rate limited. Try after a while."
+  },
+  "news_data": {
+    "news": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    },
+    "recommendations": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  },
+  "holders_data": {
+    "major_holders": {
+      "status": "error"
+    },
+    "institutional_holders": {
+      "status": "error"
+    }
+  },
+  "earnings_data": {
+    "earnings": {
+      "status": "error",
+      "message": "'NoneType' object has no attribute 'empty'"
+    },
+    "calendar": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  }
+}

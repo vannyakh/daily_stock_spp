@@ -1,18 +1,9 @@
 {
   "ticker": "NIVFW",
-  "timestamp": "2026-01-03T05:36:34.153281",
+  "timestamp": "2026-01-04T05:13:44.344939",
   "intraday_data": {
-    "status": "success",
-    "rows": 1,
-    "data": [
-      {
-        "Close": 0.017100000753998756,
-        "High": 0.017100000753998756,
-        "Low": 0.017100000753998756,
-        "Open": 0.017100000753998756,
-        "Volume": 0
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -35,7 +26,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

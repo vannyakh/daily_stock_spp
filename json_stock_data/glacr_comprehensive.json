@@ -1,74 +1,13 @@
 {
   "ticker": "GLACR",
-  "timestamp": "2026-01-03T05:34:44.432175",
+  "timestamp": "2026-01-04T05:13:15.294946",
   "intraday_data": {
     "status": "no_data",
     "message": "No intraday data available"
   },
   "stock_info": {
-    "status": "success",
-    "data": {
-      "address1": "Building 5",
-      "address2": "8th Floor, Room 902, Unit 1 No. 201, Tangli Road Chaoyang District",
-      "city": "Beijing",
-      "zip": "100123",
-      "country": "China",
-      "phone": "86 10 5948 0786",
-      "industry": "",
-      "industryKey": "",
-      "sector": "",
-      "sectorKey": "",
-      "longBusinessSummary": "Global Lights Acquisition Corp does not have significant operations. It intends to effect a merger, share exchange, asset acquisition, share purchase, recapitalization, reorganization, or similar business combination with one or more businesses. The company was incorporated in 2021 and is based in Beijing, the People's Republic of China.",
-      "maxAge": 86400,
-      "priceHint": 4,
-      "previousClose": 0.0,
-      "regularMarketPreviousClose": 0.0,
-      "currency": "USD",
-      "tradeable": false,
-      "profitMargins": 0.0,
-      "floatShares": 6243638,
-      "netIncomeToCommon": 2306775,
-      "SandP52WeekChange": 0.14561749,
-      "quoteType": "EQUITY",
-      "currentPrice": 0.22,
-      "recommendationKey": "none",
-      "totalCash": 1191,
-      "totalCashPerShare": 0.0,
-      "totalDebt": 224929,
-      "quickRatio": 0.002,
-      "currentRatio": 0.093,
-      "returnOnAssets": -0.01539,
-      "freeCashflow": -1353998,
-      "operatingCashflow": -1869053,
-      "grossMargins": 0.0,
-      "ebitdaMargins": 0.0,
-      "operatingMargins": 0.0,
-      "financialCurrency": "USD",
-      "symbol": "GLACR",
-      "language": "en-US",
-      "region": "US",
-      "typeDisp": "Equity",
-      "quoteSourceName": "Delayed Quote",
-      "triggerable": true,
-      "customPriceAlertConfidence": "HIGH",
-      "regularMarketTime": 1764104400,
-      "shortName": "Global Lights Acquisition Corp",
-      "marketState": "CLOSED",
-      "exchange": "NGM",
-      "exchangeTimezoneName": "America/New_York",
-      "exchangeTimezoneShortName": "EST",
-      "gmtOffSetMilliseconds": -18000000,
-      "market": "us_market",
-      "esgPopulated": false,
-      "regularMarketPrice": 0.22,
-      "hasPrePostMarketData": true,
-      "regularMarketChange": 0.22,
-      "fullExchangeName": "NasdaqGM",
-      "sourceInterval": 15,
-      "exchangeDataDelayedBy": 0,
-      "cryptoTradeable": false,
-      "displayName": "Global Lights"
-    }
+    "status": "error",
+    "message": "Too Many Requests. Rate limited. Try after a while."
   },
   "financials": {
     "income_statement": {
@@ -82,22 +21,25 @@
     }
   },
   "options_data": {
-    "expirations": []
+    "status": "error",
+    "error_message": "Too Many Requests. Rate limited. Try after a while."
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   },
   "holders_data": {
     "major_holders": {
-      "status": "no_data"
+      "status": "error"
     },
     "institutional_holders": {
-      "status": "no_data"
+      "status": "error"
     }
   },
   "earnings_data": {
@@ -107,7 +49,7 @@
     },
     "calendar": {
       "status": "error",
-      "message": "'dict' object has no attribute 'empty'"
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   }
 }

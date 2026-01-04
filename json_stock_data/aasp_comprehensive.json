@@ -1,109 +1,9 @@
 {
   "ticker": "AASP",
-  "timestamp": "2026-01-03T05:11:48.444535",
+  "timestamp": "2026-01-04T05:05:41.867800",
   "intraday_data": {
-    "status": "success",
-    "rows": 14,
-    "data": [
-      {
-        "Close LOCL": 2.1500000953674316,
-        "High LOCL": 2.1500000953674316,
-        "Low LOCL": 2.1500000953674316,
-        "Open LOCL": 2.1500000953674316,
-        "Volume LOCL": 0
-      },
-      {
-        "Close LOCL": 2.180000066757202,
-        "High LOCL": 2.180000066757202,
-        "Low LOCL": 2.180000066757202,
-        "Open LOCL": 2.180000066757202,
-        "Volume LOCL": 2470
-      },
-      {
-        "Close LOCL": 2.200000047683716,
-        "High LOCL": 2.200000047683716,
-        "Low LOCL": 2.200000047683716,
-        "Open LOCL": 2.200000047683716,
-        "Volume LOCL": 177
-      },
-      {
-        "Close LOCL": 2.1500000953674316,
-        "High LOCL": 2.1501998901367188,
-        "Low LOCL": 2.1500000953674316,
-        "Open LOCL": 2.1501998901367188,
-        "Volume LOCL": 1721
-      },
-      {
-        "Close LOCL": 2.1500000953674316,
-        "High LOCL": 2.1500000953674316,
-        "Low LOCL": 2.1500000953674316,
-        "Open LOCL": 2.1500000953674316,
-        "Volume LOCL": 579
-      },
-      {
-        "Close LOCL": 2.176500082015991,
-        "High LOCL": 2.176500082015991,
-        "Low LOCL": 2.176500082015991,
-        "Open LOCL": 2.176500082015991,
-        "Volume LOCL": 1378
-      },
-      {
-        "Close LOCL": 2.1500000953674316,
-        "High LOCL": 2.1500000953674316,
-        "Low LOCL": 2.1500000953674316,
-        "Open LOCL": 2.1500000953674316,
-        "Volume LOCL": 7870
-      },
-      {
-        "Close LOCL": 2.148699998855591,
-        "High LOCL": 2.148699998855591,
-        "Low LOCL": 2.148699998855591,
-        "Open LOCL": 2.148699998855591,
-        "Volume LOCL": 406
-      },
-      {
-        "Close LOCL": 2.119999885559082,
-        "High LOCL": 2.119999885559082,
-        "Low LOCL": 2.119999885559082,
-        "Open LOCL": 2.119999885559082,
-        "Volume LOCL": 664
-      },
-      {
-        "Close LOCL": 2.130000114440918,
-        "High LOCL": 2.130000114440918,
-        "Low LOCL": 2.115000009536743,
-        "Open LOCL": 2.115000009536743,
-        "Volume LOCL": 302
-      },
-      {
-        "Close LOCL": 2.0999999046325684,
-        "High LOCL": 2.140000104904175,
-        "Low LOCL": 2.0999999046325684,
-        "Open LOCL": 2.140000104904175,
-        "Volume LOCL": 4097
-      },
-      {
-        "Close LOCL": 2.1770999431610107,
-        "High LOCL": 2.1770999431610107,
-        "Low LOCL": 2.1770999431610107,
-        "Open LOCL": 2.1770999431610107,
-        "Volume LOCL": 1167
-      },
-      {
-        "Close LOCL": 2.1500000953674316,
-        "High LOCL": 2.1500000953674316,
-        "Low LOCL": 2.1500000953674316,
-        "Open LOCL": 2.1500000953674316,
-        "Volume LOCL": 158
-      },
-      {
-        "Close LOCL": 2.140000104904175,
-        "High LOCL": 2.140000104904175,
-        "Low LOCL": 2.140000104904175,
-        "Open LOCL": 2.140000104904175,
-        "Volume LOCL": 688
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -111,14 +11,44 @@
   },
   "financials": {
     "income_statement": {
-      "status": "success",
-      "rows": 29,
-      "columns": [
-        "2024-12-31 00:00:00",
-        "2023-12-31 00:00:00",
-        "2022-12-31 00:00:00",
-        "2021-12-31 00:00:00"
-      ],
-      "data": [
-        {
-          
+      "status": "no_data"
+    },
+    "balance_sheet": {
+      "status": "no_data"
+    },
+    "cash_flow": {
+      "status": "no_data"
+    }
+  },
+  "options_data": {
+    "status": "error",
+    "error_message": "Too Many Requests. Rate limited. Try after a while."
+  },
+  "news_data": {
+    "news": {
+      "status": "no_data"
+    },
+    "recommendations": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  },
+  "holders_data": {
+    "major_holders": {
+      "status": "error"
+    },
+    "institutional_holders": {
+      "status": "error"
+    }
+  },
+  "earnings_data": {
+    "earnings": {
+      "status": "error",
+      "message": "'NoneType' object has no attribute 'empty'"
+    },
+    "calendar": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  }
+}

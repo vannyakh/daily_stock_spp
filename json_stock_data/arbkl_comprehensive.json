@@ -1,83 +1,14 @@
 {
   "ticker": "ARBKL",
-  "timestamp": "2026-01-03T05:38:40.212068",
+  "timestamp": "2026-01-04T05:14:23.634502",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 0,
+    "data": []
   },
   "stock_info": {
-    "status": "success",
-    "data": {
-      "maxAge": 86400,
-      "priceHint": 2,
-      "previousClose": 1.7880001,
-      "open": 1.69,
-      "dayLow": 1.68,
-      "dayHigh": 6.57,
-      "regularMarketPreviousClose": 1.7880001,
-      "regularMarketOpen": 1.69,
-      "regularMarketDayLow": 1.68,
-      "regularMarketDayHigh": 6.57,
-      "volume": 5136914,
-      "regularMarketVolume": 5136914,
-      "averageVolume": 19993,
-      "averageVolume10days": 20740,
-      "averageDailyVolume10Day": 20740,
-      "bid": 4.85,
-      "ask": 5.25,
-      "bidSize": 1,
-      "askSize": 1,
-      "fiftyTwoWeekLow": 1.045,
-      "fiftyTwoWeekHigh": 8.94,
-      "allTimeHigh": 25.05,
-      "allTimeLow": 0.71,
-      "fiftyDayAverage": 1.80996,
-      "twoHundredDayAverage": 4.150905,
-      "currency": "USD",
-      "tradeable": false,
-      "quoteType": "EQUITY",
-      "symbol": "ARBKL",
-      "language": "en-US",
-      "region": "US",
-      "typeDisp": "Equity",
-      "quoteSourceName": "Nasdaq Real Time Price",
-      "triggerable": true,
-      "customPriceAlertConfidence": "HIGH",
-      "cryptoTradeable": false,
-      "shortName": "Argo Blockchain plc - 8.75% Sen",
-      "longName": "Argo Blockchain plc 8.75% Senior Notes due 2026",
-      "regularMarketChangePercent": 196.421,
-      "regularMarketPrice": 5.3,
-      "marketState": "CLOSED",
-      "regularMarketTime": 1765573202,
-      "exchange": "NGM",
-      "messageBoardId": "finmb_551829728",
-      "exchangeTimezoneName": "America/New_York",
-      "exchangeTimezoneShortName": "EST",
-      "gmtOffSetMilliseconds": -18000000,
-      "market": "us_market",
-      "esgPopulated": false,
-      "hasPrePostMarketData": true,
-      "firstTradeDateMilliseconds": 1637245800000,
-      "regularMarketChange": 3.512,
-      "regularMarketDayRange": "1.68 - 6.57",
-      "fullExchangeName": "NasdaqGM",
-      "averageDailyVolume3Month": 19993,
-      "fiftyTwoWeekLowChange": 4.255,
-      "fiftyTwoWeekLowChangePercent": 4.0717707,
-      "fiftyTwoWeekRange": "1.045 - 8.94",
-      "fiftyTwoWeekHighChange": -3.6399994,
-      "fiftyTwoWeekHighChangePercent": -0.4071588,
-      "fiftyTwoWeekChangePercent": -72.92307,
-      "dividendDate": 1761868800,
-      "fiftyDayAverageChange": 3.4900403,
-      "fiftyDayAverageChangePercent": 1.9282416,
-      "twoHundredDayAverageChange": 1.149095,
-      "twoHundredDayAverageChangePercent": 0.27683,
-      "sourceInterval": 15,
-      "exchangeDataDelayedBy": 0,
-      "ipoExpectedDate": "2021-11-18"
-    }
+    "status": "error",
+    "message": "Too Many Requests. Rate limited. Try after a while."
   },
   "financials": {
     "income_statement": {
@@ -91,22 +22,25 @@
     }
   },
   "options_data": {
-    "expirations": []
+    "status": "error",
+    "error_message": "Too Many Requests. Rate limited. Try after a while."
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   },
   "holders_data": {
     "major_holders": {
-      "status": "no_data"
+      "status": "error"
     },
     "institutional_holders": {
-      "status": "no_data"
+      "status": "error"
     }
   },
   "earnings_data": {
@@ -116,7 +50,7 @@
     },
     "calendar": {
       "status": "error",
-      "message": "'dict' object has no attribute 'empty'"
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   }
 }

@@ -1,122 +1,55 @@
 {
   "ticker": "VSEEW",
-  "timestamp": "2026-01-03T05:38:03.983869",
+  "timestamp": "2026-01-04T05:14:17.477670",
   "intraday_data": {
     "status": "no_data",
     "message": "No intraday data available"
   },
   "stock_info": {
-    "status": "success",
-    "data": {
-      "address1": "One Gateway Center",
-      "address2": "Suite 507 300 Washington St",
-      "city": "Newton",
-      "state": "MA",
-      "zip": "02458",
-      "country": "United States",
-      "website": "https://www.vseehealth.com",
-      "industry": "",
-      "industryKey": "",
-      "sector": "",
-      "sectorKey": "",
-      "longBusinessSummary": "VSee Health, Inc. provides telehealth care solutions in the United States. The company offers iDoc Telehealth solutions that treat and coordinate care for acutely ill patients in the neurointensive care, cardiac intensive care, and intensive care units for stroke, spinal cord, brain trauma, and other neurological conditions. It also provides telehealth software building blocks, such as patient engagement, clinician staffing, remote physical exam and remote patient monitoring, and AI for telesitter and telenursing solutions; data connectors; and workflow templates. The company distributes its products through third-party resellers and affiliated hospitals, as well as sales executives. VSee Health, Inc. is headquartered in Newton, Massachusetts.",
-      "fullTimeEmployees": 154,
-      "compensationAsOfEpochDate": 1735603200,
-      "maxAge": 86400,
-      "priceHint": 4,
-      "previousClose": 0.0801,
-      "open": 0.179,
-      "dayLow": 0.08,
-      "dayHigh": 0.1052,
-      "regularMarketPreviousClose": 0.0801,
-      "regularMarketOpen": 0.179,
-      "regularMarketDayLow": 0.08,
-      "regularMarketDayHigh": 0.1052,
-      "beta": 0.481,
-      "volume": 1,
-      "regularMarketVolume": 1,
-      "bid": 0.1375,
-      "ask": 0.1999,
-      "bidSize": 1,
-      "askSize": 25,
-      "fiftyTwoWeekLow": 0.08,
-      "fiftyTwoWeekHigh": 0.1052,
-      "trailingAnnualDividendRate": 0.0,
-      "trailingAnnualDividendYield": 0.0,
-      "currency": "USD",
-      "tradeable": false,
-      "profitMargins": -0.69806,
-      "floatShares": 24515074,
-      "bookValue": -0.328,
-      "netIncomeToCommon": -10070570,
-      "SandP52WeekChange": 0.14561749,
-      "quoteType": "EQUITY",
-      "currentPrice": 0.0801,
-      "recommendationKey": "none",
-      "totalCash": 472759,
-      "totalCashPerShare": 0.015,
-      "ebitda": -6475285,
-      "totalDebt": 10999859,
-      "quickRatio": 0.142,
-      "currentRatio": 0.159,
-      "totalRevenue": 14426613,
-      "revenuePerShare": 0.887,
-      "returnOnAssets": -0.25975,
-      "grossProfits": 7902898,
-      "freeCashflow": 1445764,
-      "operatingCashflow": -4493926,
-      "revenueGrowth": 0.187,
-      "grossMargins": 0.5478,
-      "ebitdaMargins": -0.44884,
-      "operatingMargins": -0.51688,
-      "financialCurrency": "USD",
-      "symbol": "VSEEW",
-      "language": "en-US",
-      "region": "US",
-      "typeDisp": "Equity",
-      "quoteSourceName": "Delayed Quote",
-      "triggerable": true,
-      "customPriceAlertConfidence": "HIGH",
-      "regularMarketTime": 1766781973,
-      "priceToBook": -0.24420731,
-      "sourceInterval": 15,
-      "exchangeDataDelayedBy": 0,
-      "prevName": "VSee Lab, Inc./iDoc Virtual Telehealth Solutions, Inc.",
-      "nameChangeDate": "2026-01-02",
-      "cryptoTradeable": false,
-      "marketState": "CLOSED",
-      "exchange": "NCM",
-      "messageBoardId": "finmb_1787142226",
-      "exchangeTimezoneName": "America/New_York",
-      "exchangeTimezoneShortName": "EST",
-      "gmtOffSetMilliseconds": -18000000,
-      "market": "us_market",
-      "esgPopulated": false,
-      "longName": "VSee Health, Inc.",
-      "hasPrePostMarketData": true,
-      "regularMarketChange": 0.0,
-      "regularMarketDayRange": "0.08 - 0.1052",
-      "fullExchangeName": "NasdaqCM",
-      "fiftyTwoWeekLowChange": 0.00010000169,
-      "fiftyTwoWeekLowChangePercent": 0.0012500212,
-      "fiftyTwoWeekRange": "0.08 - 0.1052",
-      "fiftyTwoWeekHighChange": -0.0251,
-      "fiftyTwoWeekHighChangePercent": -0.23859316,
-      "regularMarketChangePercent": 0.0,
-      "regularMarketPrice": 0.0801,
-      "displayName": "VSee Health"
-    }
+    "status": "error",
+    "message": "Too Many Requests. Rate limited. Try after a while."
   },
   "financials": {
     "income_statement": {
-      "status": "success",
-      "rows": 44,
-      "columns": [
-        "2024-12-31 00:00:00",
-        "2023-12-31 00:00:00",
-        "2022-12-31 00:00:00",
-        "2021-12-31 00:00:00"
-      ],
-      "data": [
-        {
-          
+      "status": "no_data"
+    },
+    "balance_sheet": {
+      "status": "no_data"
+    },
+    "cash_flow": {
+      "status": "no_data"
+    }
+  },
+  "options_data": {
+    "status": "error",
+    "error_message": "Too Many Requests. Rate limited. Try after a while."
+  },
+  "news_data": {
+    "news": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    },
+    "recommendations": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  },
+  "holders_data": {
+    "major_holders": {
+      "status": "error"
+    },
+    "institutional_holders": {
+      "status": "error"
+    }
+  },
+  "earnings_data": {
+    "earnings": {
+      "status": "error",
+      "message": "'NoneType' object has no attribute 'empty'"
+    },
+    "calendar": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  }
+}

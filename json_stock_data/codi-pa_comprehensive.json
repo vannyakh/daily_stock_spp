@@ -1,102 +1,9 @@
 {
   "ticker": "CODI-PA",
-  "timestamp": "2026-01-03T05:28:02.232748",
+  "timestamp": "2026-01-04T05:11:22.587251",
   "intraday_data": {
-    "status": "success",
-    "rows": 13,
-    "data": [
-      {
-        "Close": 15.979999542236328,
-        "High": 15.979999542236328,
-        "Low": 15.979999542236328,
-        "Open": 15.979999542236328,
-        "Volume": 0
-      },
-      {
-        "Close": 16.100000381469727,
-        "High": 16.100000381469727,
-        "Low": 16.100000381469727,
-        "Open": 16.100000381469727,
-        "Volume": 600
-      },
-      {
-        "Close": 16.170000076293945,
-        "High": 16.18000030517578,
-        "Low": 16.170000076293945,
-        "Open": 16.18000030517578,
-        "Volume": 1000
-      },
-      {
-        "Close": 16.170000076293945,
-        "High": 16.170000076293945,
-        "Low": 16.15999984741211,
-        "Open": 16.15999984741211,
-        "Volume": 320
-      },
-      {
-        "Close": 16.18000030517578,
-        "High": 16.18000030517578,
-        "Low": 16.18000030517578,
-        "Open": 16.18000030517578,
-        "Volume": 205
-      },
-      {
-        "Close": 16.15250015258789,
-        "High": 16.158100128173828,
-        "Low": 16.13520050048828,
-        "Open": 16.158100128173828,
-        "Volume": 400
-      },
-      {
-        "Close": 16.104999542236328,
-        "High": 16.104999542236328,
-        "Low": 16.104999542236328,
-        "Open": 16.104999542236328,
-        "Volume": 100
-      },
-      {
-        "Close": 16.149999618530273,
-        "High": 16.149999618530273,
-        "Low": 16.149999618530273,
-        "Open": 16.149999618530273,
-        "Volume": 200
-      },
-      {
-        "Close": 16.209999084472656,
-        "High": 16.209999084472656,
-        "Low": 16.209999084472656,
-        "Open": 16.209999084472656,
-        "Volume": 400
-      },
-      {
-        "Close": 15.963000297546387,
-        "High": 16.110000610351562,
-        "Low": 15.963000297546387,
-        "Open": 16.079999923706055,
-        "Volume": 3000
-      },
-      {
-        "Close": 15.956399917602539,
-        "High": 15.956399917602539,
-        "Low": 15.956399917602539,
-        "Open": 15.956399917602539,
-        "Volume": 293
-      },
-      {
-        "Close": 16.106000900268555,
-        "High": 16.106000900268555,
-        "Low": 16.106000900268555,
-        "Open": 16.106000900268555,
-        "Volume": 204
-      },
-      {
-        "Close": 16.079999923706055,
-        "High": 16.079999923706055,
-        "Low": 16.079999923706055,
-        "Open": 16.079999923706055,
-        "Volume": 100
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -104,14 +11,45 @@
   },
   "financials": {
     "income_statement": {
-      "status": "success",
-      "rows": 56,
-      "columns": [
-        "2024-12-31 00:00:00",
-        "2023-12-31 00:00:00",
-        "2022-12-31 00:00:00",
-        "2021-12-31 00:00:00"
-      ],
-      "data": [
-        {
-          
+      "status": "no_data"
+    },
+    "balance_sheet": {
+      "status": "no_data"
+    },
+    "cash_flow": {
+      "status": "no_data"
+    }
+  },
+  "options_data": {
+    "status": "error",
+    "error_message": "Too Many Requests. Rate limited. Try after a while."
+  },
+  "news_data": {
+    "news": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    },
+    "recommendations": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  },
+  "holders_data": {
+    "major_holders": {
+      "status": "error"
+    },
+    "institutional_holders": {
+      "status": "error"
+    }
+  },
+  "earnings_data": {
+    "earnings": {
+      "status": "error",
+      "message": "'NoneType' object has no attribute 'empty'"
+    },
+    "calendar": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  }
+}

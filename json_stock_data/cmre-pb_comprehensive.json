@@ -1,37 +1,23 @@
 {
   "ticker": "CMRE-PB",
-  "timestamp": "2026-01-03T05:28:35.186951",
+  "timestamp": "2026-01-04T05:11:29.679427",
   "intraday_data": {
     "status": "success",
-    "rows": 4,
+    "rows": 2,
     "data": [
       {
-        "Close": 25.850000381469727,
-        "High": 25.850000381469727,
-        "Low": 25.760000228881836,
-        "Open": 25.760000228881836,
-        "Volume": 0
+        "Close CMRE-PD": 27.8075008392334,
+        "High CMRE-PD": 27.8075008392334,
+        "Low CMRE-PD": 27.8075008392334,
+        "Open CMRE-PD": 27.8075008392334,
+        "Volume CMRE-PD": 0
       },
       {
-        "Close": 25.573999404907227,
-        "High": 25.573999404907227,
-        "Low": 25.573999404907227,
-        "Open": 25.573999404907227,
-        "Volume": 218
-      },
-      {
-        "Close": 25.488399505615234,
-        "High": 25.490100860595703,
-        "Low": 25.488399505615234,
-        "Open": 25.489999771118164,
-        "Volume": 444
-      },
-      {
-        "Close": 25.598400115966797,
-        "High": 25.598400115966797,
-        "Low": 25.598400115966797,
-        "Open": 25.598400115966797,
-        "Volume": 100
+        "Close CMRE-PD": 27.829999923706055,
+        "High CMRE-PD": 27.829999923706055,
+        "Low CMRE-PD": 27.829999923706055,
+        "Open CMRE-PD": 27.829999923706055,
+        "Volume CMRE-PD": 205
       }
     ]
   },
@@ -41,14 +27,45 @@
   },
   "financials": {
     "income_statement": {
-      "status": "success",
-      "rows": 49,
-      "columns": [
-        "2024-12-31 00:00:00",
-        "2023-12-31 00:00:00",
-        "2022-12-31 00:00:00",
-        "2021-12-31 00:00:00"
-      ],
-      "data": [
-        {
-          
+      "status": "no_data"
+    },
+    "balance_sheet": {
+      "status": "no_data"
+    },
+    "cash_flow": {
+      "status": "no_data"
+    }
+  },
+  "options_data": {
+    "status": "error",
+    "error_message": "Too Many Requests. Rate limited. Try after a while."
+  },
+  "news_data": {
+    "news": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    },
+    "recommendations": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  },
+  "holders_data": {
+    "major_holders": {
+      "status": "error"
+    },
+    "institutional_holders": {
+      "status": "error"
+    }
+  },
+  "earnings_data": {
+    "earnings": {
+      "status": "error",
+      "message": "'NoneType' object has no attribute 'empty'"
+    },
+    "calendar": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  }
+}

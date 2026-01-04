@@ -1,96 +1,54 @@
 {
   "ticker": "TLLTF",
-  "timestamp": "2026-01-03T05:18:55.551811",
+  "timestamp": "2026-01-04T05:08:36.294713",
   "intraday_data": {
     "status": "no_data",
     "message": "No intraday data available"
   },
   "stock_info": {
-    "status": "success",
-    "data": {
-      "language": "en-US",
-      "region": "US",
-      "quoteType": "EQUITY",
-      "typeDisp": "Equity",
-      "quoteSourceName": "Delayed Quote",
-      "triggerable": false,
-      "customPriceAlertConfidence": "LOW",
-      "currency": "USD",
-      "tradeable": false,
-      "cryptoTradeable": false,
-      "shortName": "Tilt Holdings Inc.",
-      "longName": "TILT Holdings Inc.",
-      "regularMarketChangePercent": 0.0,
-      "regularMarketPrice": 0.0001,
-      "marketState": "CLOSED",
-      "regularMarketTime": 1767387600,
-      "exchange": "PNK",
-      "messageBoardId": "finmb_565217934",
-      "exchangeTimezoneName": "America/New_York",
-      "exchangeTimezoneShortName": "EST",
-      "gmtOffSetMilliseconds": -18000000,
-      "market": "us_market",
-      "esgPopulated": false,
-      "hasPrePostMarketData": false,
-      "firstTradeDateMilliseconds": 1526304600000,
-      "priceHint": 4,
-      "regularMarketChange": 0.0,
-      "regularMarketDayHigh": 0.0068,
-      "regularMarketDayRange": "0.0058 - 0.0068",
-      "regularMarketDayLow": 0.0058,
-      "regularMarketVolume": 218492,
-      "regularMarketPreviousClose": 0.0001,
-      "bid": 0.0044,
-      "ask": 0.012,
-      "bidSize": 50000,
-      "askSize": 200000,
-      "fullExchangeName": "OTC Markets OTCPK",
-      "financialCurrency": "USD",
-      "regularMarketOpen": 0.0068,
-      "averageDailyVolume3Month": 146915,
-      "averageDailyVolume10Day": 13955,
-      "fiftyTwoWeekLowChange": 0.0,
-      "fiftyTwoWeekLowChangePercent": 0.0,
-      "fiftyTwoWeekRange": "1.0E-4 - 0.034",
-      "fiftyTwoWeekHighChange": -0.0339,
-      "fiftyTwoWeekHighChangePercent": -0.99705875,
-      "fiftyTwoWeekLow": 0.0001,
-      "fiftyTwoWeekHigh": 0.034,
-      "fiftyTwoWeekChangePercent": -98.50746,
-      "earningsTimestampStart": 1763672400,
-      "earningsTimestampEnd": 1763672400,
-      "earningsCallTimestampStart": 1747342800,
-      "earningsCallTimestampEnd": 1747342800,
-      "isEarningsDateEstimate": true,
-      "trailingAnnualDividendRate": 0.0,
-      "trailingAnnualDividendYield": 0.0,
-      "epsTrailingTwelveMonths": -0.25,
-      "sharesOutstanding": 347463688,
-      "bookValue": -0.16,
-      "fiftyDayAverage": 0.0042468,
-      "fiftyDayAverageChange": -0.0041468004,
-      "fiftyDayAverageChangePercent": -0.9764529,
-      "twoHundredDayAverage": 0.00595965,
-      "twoHundredDayAverageChange": -0.00585965,
-      "twoHundredDayAverageChangePercent": -0.9832205,
-      "marketCap": 43510,
-      "priceToBook": -0.000625,
-      "sourceInterval": 15,
-      "exchangeDataDelayedBy": 0,
-      "displayName": "TILT",
-      "symbol": "TLLTF"
-    }
+    "status": "error",
+    "message": "Too Many Requests. Rate limited. Try after a while."
   },
   "financials": {
     "income_statement": {
-      "status": "success",
-      "rows": 59,
-      "columns": [
-        "2024-12-31 00:00:00",
-        "2023-12-31 00:00:00",
-        "2022-12-31 00:00:00",
-        "2021-12-31 00:00:00"
-      ],
-      "data": [
-        {
-          
+      "status": "no_data"
+    },
+    "balance_sheet": {
+      "status": "no_data"
+    },
+    "cash_flow": {
+      "status": "no_data"
+    }
+  },
+  "options_data": {
+    "status": "error",
+    "error_message": "Too Many Requests. Rate limited. Try after a while."
+  },
+  "news_data": {
+    "news": {
+      "status": "no_data"
+    },
+    "recommendations": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  },
+  "holders_data": {
+    "major_holders": {
+      "status": "error"
+    },
+    "institutional_holders": {
+      "status": "error"
+    }
+  },
+  "earnings_data": {
+    "earnings": {
+      "status": "error",
+      "message": "'NoneType' object has no attribute 'empty'"
+    },
+    "calendar": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  }
+}

@@ -1,9 +1,18 @@
 {
   "ticker": "GRN",
-  "timestamp": "2026-01-03T05:36:29.136807",
+  "timestamp": "2026-01-04T05:13:42.777477",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 1,
+    "data": [
+      {
+        "Close": 34.555301666259766,
+        "High": 34.555301666259766,
+        "Low": 34.209999084472656,
+        "Open": 34.209999084472656,
+        "Volume": 0
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -26,7 +35,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

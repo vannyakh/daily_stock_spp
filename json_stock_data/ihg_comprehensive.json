@@ -1,6 +1,6 @@
 {
   "ticker": "IHG",
-  "timestamp": "2026-01-03T04:26:33.215395",
+  "timestamp": "2026-01-04T04:47:35.561184",
   "intraday_data": {
     "status": "success",
     "rows": 138,
@@ -974,105 +974,605 @@
     ]
   },
   "stock_info": {
-    "status": "success",
-    "data": {
-      "language": "en-US",
-      "region": "US",
-      "quoteType": "EQUITY",
-      "typeDisp": "Equity",
-      "quoteSourceName": "Delayed Quote",
-      "triggerable": true,
-      "customPriceAlertConfidence": "HIGH",
-      "currency": "USD",
-      "regularMarketChangePercent": -0.340833,
-      "regularMarketPrice": 140.35,
-      "hasPrePostMarketData": true,
-      "firstTradeDateMilliseconds": 1049981400000,
-      "priceHint": 2,
-      "postMarketChangePercent": 0.0,
-      "postMarketPrice": 140.35,
-      "postMarketChange": 0.0,
-      "regularMarketChange": -0.479996,
-      "regularMarketDayHigh": 141.07,
-      "regularMarketDayRange": "139.13 - 141.07",
-      "regularMarketDayLow": 139.13,
-      "regularMarketVolume": 144590,
-      "regularMarketPreviousClose": 140.83,
-      "bid": 136.0,
-      "ask": 155.0,
-      "bidSize": 300,
-      "askSize": 200,
-      "fullExchangeName": "NYSE",
-      "financialCurrency": "USD",
-      "regularMarketOpen": 141.05,
-      "averageDailyVolume3Month": 163486,
-      "averageDailyVolume10Day": 160890,
-      "fiftyTwoWeekLowChange": 45.570007,
-      "fiftyTwoWeekLowChangePercent": 0.4807977,
-      "fiftyTwoWeekRange": "94.78 - 144.96",
-      "fiftyTwoWeekHighChange": -4.6100006,
-      "fiftyTwoWeekHighChangePercent": -0.03180188,
-      "fiftyTwoWeekLow": 94.78,
-      "fiftyTwoWeekHigh": 144.96,
-      "fiftyTwoWeekChangePercent": 14.888239,
-      "dividendDate": 1759363200,
-      "earningsTimestampStart": 1754539200,
-      "earningsTimestampEnd": 1754539200,
-      "earningsCallTimestampStart": 1754551800,
-      "earningsCallTimestampEnd": 1754551800,
-      "isEarningsDateEstimate": false,
-      "trailingAnnualDividendRate": 1.73,
-      "trailingPE": 29.735172,
-      "dividendRate": 1.73,
-      "trailingAnnualDividendYield": 0.012284314,
-      "dividendYield": 1.23,
-      "epsTrailingTwelveMonths": 4.72,
-      "epsForward": 6.01316,
-      "epsCurrentYear": 4.94237,
-      "priceEpsCurrentYear": 28.397308,
-      "shortName": "Intercontinental Hotels Group",
-      "longName": "InterContinental Hotels Group PLC",
-      "marketState": "POSTPOST",
-      "sharesOutstanding": 150484217,
-      "bookValue": -16.916,
-      "fiftyDayAverage": 132.2724,
-      "fiftyDayAverageChange": 8.077606,
-      "fiftyDayAverageChangePercent": 0.061067965,
-      "twoHundredDayAverage": 120.2641,
-      "twoHundredDayAverageChange": 20.085907,
-      "twoHundredDayAverageChangePercent": 0.16701499,
-      "marketCap": 21120460800,
-      "forwardPE": 23.340473,
-      "priceToBook": -8.296879,
-      "sourceInterval": 15,
-      "exchangeDataDelayedBy": 0,
-      "averageAnalystRating": "3.0 - Hold",
-      "tradeable": false,
-      "cryptoTradeable": false,
-      "postMarketTime": 1767396361,
-      "regularMarketTime": 1767387602,
-      "exchange": "NYQ",
-      "messageBoardId": "finmb_322193",
-      "exchangeTimezoneName": "America/New_York",
-      "exchangeTimezoneShortName": "EST",
-      "gmtOffSetMilliseconds": -18000000,
-      "market": "us_market",
-      "esgPopulated": false,
-      "displayName": "InterContinental Hotels",
-      "symbol": "IHG",
-      "trailingPegRatio": 1.1061
-    }
+    "status": "error",
+    "message": "Too Many Requests. Rate limited. Try after a while."
   },
   "financials": {
     "income_statement": {
+      "status": "no_data"
+    },
+    "balance_sheet": {
+      "status": "no_data"
+    },
+    "cash_flow": {
+      "status": "no_data"
+    }
+  },
+  "options_data": {
+    "status": "error",
+    "error_message": "Too Many Requests. Rate limited. Try after a while."
+  },
+  "news_data": {
+    "news": {
       "status": "success",
-      "rows": 48,
-      "columns": [
-        "2024-12-31 00:00:00",
-        "2023-12-31 00:00:00",
-        "2022-12-31 00:00:00",
-        "2021-12-31 00:00:00"
-      ],
+      "count": 10,
       "data": [
         {
-          
+          "id": "b694b0a6-6df9-40dc-aca6-2c4cc4af6424",
+          "content": {
+            "id": "b694b0a6-6df9-40dc-aca6-2c4cc4af6424",
+            "contentType": "STORY",
+            "title": "FTSE 100 hits 10,000 points for first time and US markets mixed as new trading year begins",
+            "description": "",
+            "summary": "In the US, the S&P rose over 16% for the year, while Nasdaq led gains with an over 20% jump",
+            "pubDate": "2026-01-02T09:05:29Z",
+            "displayTime": "2026-01-02T16:40:57Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": {
+              "originalUrl": "https://s.yimg.com/os/creatr-uploaded-images/2026-01/834e7d70-e7ed-11f0-927f-608f82d68e7b",
+              "originalWidth": 3840,
+              "originalHeight": 2560,
+              "caption": "",
+              "resolutions": [
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/g6b5DZq3lBfmspLYiWdnkg--~B/aD0yNTYwO3c9Mzg0MDthcHBpZD15dGFjaHlvbg--/https://s.yimg.com/os/creatr-uploaded-images/2026-01/834e7d70-e7ed-11f0-927f-608f82d68e7b",
+                  "width": 3840,
+                  "height": 2560,
+                  "tag": "original"
+                },
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/uhlxcBaAYoPpnYll_U0_qg--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://s.yimg.com/os/creatr-uploaded-images/2026-01/834e7d70-e7ed-11f0-927f-608f82d68e7b",
+                  "width": 170,
+                  "height": 128,
+                  "tag": "170x128"
+                }
+              ]
+            },
+            "provider": {
+              "displayName": "Yahoo Finance UK",
+              "url": "http://uk.finance.yahoo.com/"
+            },
+            "canonicalUrl": {
+              "url": "https://uk.finance.yahoo.com/news/ftse-100-live-london-markets-10000-points-first-time-2026-trading-090529429.html",
+              "site": "finance",
+              "region": "GB",
+              "lang": "en-GB"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/live/ftse-100-live-london-markets-10000-points-first-time-2026-trading-090529429.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        },
+        {
+          "id": "813c7ce4-b3d3-3c7b-b4c9-1d121acc0a48",
+          "content": {
+            "id": "813c7ce4-b3d3-3c7b-b4c9-1d121acc0a48",
+            "contentType": "STORY",
+            "title": "IHG, Club Chaulani sign management deal for Holiday Inn Dhangadhi in Nepal",
+            "description": "",
+            "summary": "The 115-room hotel is slated to open in the first quarter of 2028.",
+            "pubDate": "2025-12-24T12:03:18Z",
+            "displayTime": "2025-12-24T12:03:18Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": {
+              "originalUrl": "https://media.zenfs.com/en/hotel_management_network_805/725d770cba25ca3e8a4357cff33ef8d7",
+              "originalWidth": 1440,
+              "originalHeight": 810,
+              "caption": "The signing ceremony of the management agreement. Credit: Intercontinental Hotels Group.",
+              "resolutions": [
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/.pO55ScdJqlL31cY6CdkdA--~B/aD04MTA7dz0xNDQwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/hotel_management_network_805/725d770cba25ca3e8a4357cff33ef8d7",
+                  "width": 1440,
+                  "height": 810,
+                  "tag": "original"
+                },
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/PkgT0VSZf1x0Ky5y4LSqLw--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/hotel_management_network_805/725d770cba25ca3e8a4357cff33ef8d7",
+                  "width": 170,
+                  "height": 128,
+                  "tag": "170x128"
+                }
+              ]
+            },
+            "provider": {
+              "displayName": "Hotel Management Network",
+              "url": "https://www.globaldata.com/"
+            },
+            "canonicalUrl": {
+              "url": "https://www.hotelmanagement-network.com/news/ihg-club-chaulani-sign-management-deal/",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/ihg-club-chaulani-sign-management-120318801.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        },
+        {
+          "id": "6d8fb464-9f41-3450-8f43-56ffc07166c8",
+          "content": {
+            "id": "6d8fb464-9f41-3450-8f43-56ffc07166c8",
+            "contentType": "STORY",
+            "title": "Here\u2019s Why Aoris International Fund Purchased IHG Hotels & Resorts (IHG) in Q3",
+            "description": "",
+            "summary": "Aoris Investment Management, a specialist international equity manager, released its \u201cAoris International Fund\u201d Q3 2025 investor letter. A copy of the letter can be downloaded here. Global equity markets, represented by the MSCI AC World Accumulation Index ex Australia, rose by 6.5% in AUD for the September quarter. In local currencies, gains were 8.0%, but currency fluctuations [\u2026]",
+            "pubDate": "2025-12-23T12:12:07Z",
+            "displayTime": "2025-12-23T12:12:07Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": {
+              "originalUrl": "https://media.zenfs.com/en/insidermonkey.com/789ef0a96a0ea7d72dd7a7a2f3069bd0",
+              "originalWidth": 768,
+              "originalHeight": 430,
+              "caption": "Is InterContinental Hotels Group PLC\u00a0 (IHG) the Most Oversold Large Cap Stock to Invest in Now?",
+              "resolutions": [
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/HWbQkXqWmUHgDvjZK7jSEg--~B/aD00MzA7dz03Njg7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/insidermonkey.com/789ef0a96a0ea7d72dd7a7a2f3069bd0",
+                  "width": 768,
+                  "height": 430,
+                  "tag": "original"
+                },
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/eSldShMnhcdak_U0bl_Hew--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/insidermonkey.com/789ef0a96a0ea7d72dd7a7a2f3069bd0",
+                  "width": 170,
+                  "height": 128,
+                  "tag": "170x128"
+                }
+              ]
+            },
+            "provider": {
+              "displayName": "Insider Monkey",
+              "url": "http://www.insidermonkey.com"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/why-aoris-international-fund-purchased-121207096.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/why-aoris-international-fund-purchased-121207096.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        },
+        {
+          "id": "9d496640-64ba-3780-9ce5-df1211a20a24",
+          "content": {
+            "id": "9d496640-64ba-3780-9ce5-df1211a20a24",
+            "contentType": "STORY",
+            "title": "European Equities Traded in the US as American Depositary Receipts Rise in Friday Trading, Slightly Higher for Week",
+            "description": "",
+            "summary": "European equities traded in the US as American depositary receipts were rising late Friday morning,",
+            "pubDate": "2025-12-19T16:01:47Z",
+            "displayTime": "2025-12-19T16:01:47Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": null,
+            "provider": {
+              "displayName": "MT Newswires",
+              "url": "https://www.mtnewswires.com/"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/european-equities-traded-us-american-160147304.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/european-equities-traded-us-american-160147304.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": true,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        },
+        {
+          "id": "c54acdd9-cbe3-3315-9575-2482c1362fe5",
+          "content": {
+            "id": "c54acdd9-cbe3-3315-9575-2482c1362fe5",
+            "contentType": "STORY",
+            "title": "InterContinental Hotels Group PLC's (LON:IHG) one-year returns climbed after last week's 3.4% gain, institutional investors must be happy",
+            "description": "",
+            "summary": "Key Insights Significantly high institutional ownership implies InterContinental Hotels Group's stock price is...",
+            "pubDate": "2025-12-15T11:48:53Z",
+            "displayTime": "2025-12-15T11:48:53Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": {
+              "originalUrl": "https://media.zenfs.com/en/simply_wall_st__316/cb90bae557d50c77576d28ff3b1c0eed",
+              "originalWidth": 1194,
+              "originalHeight": 432,
+              "caption": "",
+              "resolutions": [
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/CGL6VNgxo0F2rWKNpuY88A--~B/aD00MzI7dz0xMTk0O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/simply_wall_st__316/cb90bae557d50c77576d28ff3b1c0eed",
+                  "width": 1194,
+                  "height": 432,
+                  "tag": "original"
+                },
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/hE6feI2TdJO30hSQir20NQ--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/simply_wall_st__316/cb90bae557d50c77576d28ff3b1c0eed",
+                  "width": 170,
+                  "height": 128,
+                  "tag": "170x128"
+                }
+              ]
+            },
+            "provider": {
+              "displayName": "Simply Wall St.",
+              "url": "https://simplywall.st/"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/intercontinental-hotels-group-plcs-lon-114853820.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/intercontinental-hotels-group-plcs-lon-114853820.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        },
+        {
+          "id": "f265489a-295a-3d57-92c0-52c90600d513",
+          "content": {
+            "id": "f265489a-295a-3d57-92c0-52c90600d513",
+            "contentType": "STORY",
+            "title": "European Equities Traded in the US as American Depositary Receipts Lower in Friday Trading; Shares Still Up This Week",
+            "description": "",
+            "summary": "European equities traded in the US as American depositary receipts were trending lower late Friday m",
+            "pubDate": "2025-12-12T16:17:46Z",
+            "displayTime": "2025-12-12T16:17:46Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": null,
+            "provider": {
+              "displayName": "MT Newswires",
+              "url": "https://www.mtnewswires.com/"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/european-equities-traded-us-american-161746262.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/european-equities-traded-us-american-161746262.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": true,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        },
+        {
+          "id": "44c21cde-369b-329d-b7dd-82eac98c65dd",
+          "content": {
+            "id": "44c21cde-369b-329d-b7dd-82eac98c65dd",
+            "contentType": "STORY",
+            "title": "Is Intercontinental Hotels Group (IHG) Stock Outpacing Its Consumer Discretionary Peers This Year?",
+            "description": "",
+            "summary": "Here is how InterContinental Hotels (IHG) and Adtalem Global Education (ATGE) have performed compared to their sector so far this year.",
+            "pubDate": "2025-12-05T14:40:02Z",
+            "displayTime": "2025-12-05T14:40:02Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": {
+              "originalUrl": "https://media.zenfs.com/en/zacks.com/0c6f98f4bf655bec3b199bc1a71b8b85",
+              "originalWidth": 900,
+              "originalHeight": 636,
+              "caption": "",
+              "resolutions": [
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/M2z0wFqvnPw7eaLU0tPuyQ--~B/aD02MzY7dz05MDA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/zacks.com/0c6f98f4bf655bec3b199bc1a71b8b85",
+                  "width": 900,
+                  "height": 636,
+                  "tag": "original"
+                },
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/T9IoFLx.nUDVTWxje4kaEQ--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/zacks.com/0c6f98f4bf655bec3b199bc1a71b8b85",
+                  "width": 170,
+                  "height": 128,
+                  "tag": "170x128"
+                }
+              ]
+            },
+            "provider": {
+              "displayName": "Zacks",
+              "url": "http://www.zacks.com/"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/intercontinental-hotels-group-ihg-stock-144002454.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/intercontinental-hotels-group-ihg-stock-144002454.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        },
+        {
+          "id": "f172ae3d-29cd-3828-8a33-c1a1c1ae0209",
+          "content": {
+            "id": "f172ae3d-29cd-3828-8a33-c1a1c1ae0209",
+            "contentType": "STORY",
+            "title": "IHG\u2019s InterContinental luxury brand returns to Czech Republic",
+            "description": "",
+            "summary": "The company is set to convert historic Old Town site in Prague into a 137-room InterContinental hotel.",
+            "pubDate": "2025-12-05T10:21:31Z",
+            "displayTime": "2025-12-05T10:21:31Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": {
+              "originalUrl": "https://media.zenfs.com/en/hotel_management_network_805/b6d5bdbe70c5c6c1f7fa9231b88a93bd",
+              "originalWidth": 1440,
+              "originalHeight": 810,
+              "caption": "InterContinental Prague (rendering) will offer multiple amenities such as a spa with wellness area.",
+              "resolutions": [
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/GL_3taAV1Jnpm9RGE7REmQ--~B/aD04MTA7dz0xNDQwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/hotel_management_network_805/b6d5bdbe70c5c6c1f7fa9231b88a93bd",
+                  "width": 1440,
+                  "height": 810,
+                  "tag": "original"
+                },
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/KEGdwVLDl_Trd01UZGHUjg--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/hotel_management_network_805/b6d5bdbe70c5c6c1f7fa9231b88a93bd",
+                  "width": 170,
+                  "height": 128,
+                  "tag": "170x128"
+                }
+              ]
+            },
+            "provider": {
+              "displayName": "Hotel Management Network",
+              "url": "https://www.globaldata.com/"
+            },
+            "canonicalUrl": {
+              "url": "https://www.hotelmanagement-network.com/news/intercontinental-returns-czech-republic/",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/ihg-intercontinental-luxury-brand-returns-102131068.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        },
+        {
+          "id": "fb03a7b0-04c7-3647-819f-9bc8f1d5dfc8",
+          "content": {
+            "id": "fb03a7b0-04c7-3647-819f-9bc8f1d5dfc8",
+            "contentType": "STORY",
+            "title": "How Recent Developments Are Shaping the Investment Story for InterContinental Hotels Group",
+            "description": "",
+            "summary": "InterContinental Hotels Group\u2019s fair value price target has seen a slight uptick, rising from \u00a392.89 to \u00a393.92 per share following the latest analyst research. This adjustment comes as analysts recalibrate their views, balancing improved earnings resilience with continued caution around near-term market trends. Stay tuned to find out how you can remain informed about ongoing shifts in InterContinental's investment narrative. Analyst Price Targets don't always capture the full story. Head over...",
+            "pubDate": "2025-11-29T05:12:07Z",
+            "displayTime": "2025-11-29T05:12:07Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": {
+              "originalUrl": "https://media.zenfs.com/en/simply_wall_st__316/cb90bae557d50c77576d28ff3b1c0eed",
+              "originalWidth": 1194,
+              "originalHeight": 432,
+              "caption": "",
+              "resolutions": [
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/CGL6VNgxo0F2rWKNpuY88A--~B/aD00MzI7dz0xMTk0O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/simply_wall_st__316/cb90bae557d50c77576d28ff3b1c0eed",
+                  "width": 1194,
+                  "height": 432,
+                  "tag": "original"
+                },
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/hE6feI2TdJO30hSQir20NQ--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/simply_wall_st__316/cb90bae557d50c77576d28ff3b1c0eed",
+                  "width": 170,
+                  "height": 128,
+                  "tag": "170x128"
+                }
+              ]
+            },
+            "provider": {
+              "displayName": "Simply Wall St.",
+              "url": "https://simplywall.st/"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/recent-developments-shaping-investment-story-051207654.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/recent-developments-shaping-investment-story-051207654.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        },
+        {
+          "id": "f3a9ac4f-9a5d-3d8f-96e9-35e2349fc8aa",
+          "content": {
+            "id": "f3a9ac4f-9a5d-3d8f-96e9-35e2349fc8aa",
+            "contentType": "STORY",
+            "title": "European Equities Traded in the US as American Depositary Receipts Rise in Friday Trading, Gain 4% for Week",
+            "description": "",
+            "summary": "European equities traded in the US as American depositary receipts were trending higher late Friday",
+            "pubDate": "2025-11-28T16:11:00Z",
+            "displayTime": "2025-11-28T16:11:00Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": null,
+            "provider": {
+              "displayName": "MT Newswires",
+              "url": "https://www.mtnewswires.com/"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/european-equities-traded-us-american-161100249.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/european-equities-traded-us-american-161100249.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": true,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        }
+      ]
+    },
+    "recommendations": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  },
+  "holders_data": {
+    "major_holders": {
+      "status": "error"
+    },
+    "institutional_holders": {
+      "status": "error"
+    }
+  },
+  "earnings_data": {
+    "earnings": {
+      "status": "error",
+      "message": "'NoneType' object has no attribute 'empty'"
+    },
+    "calendar": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  }
+}

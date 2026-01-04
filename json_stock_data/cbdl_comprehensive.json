@@ -1,9 +1,10 @@
 {
   "ticker": "CBDL",
-  "timestamp": "2026-01-03T05:19:51.387389",
+  "timestamp": "2026-01-04T05:08:48.736013",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 0,
+    "data": []
   },
   "stock_info": {
     "status": "error",
@@ -29,39 +30,16 @@
       "status": "no_data"
     },
     "recommendations": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   },
   "holders_data": {
     "major_holders": {
-      "status": "success",
-      "data": [
-        {
-          "Value": 0.0
-        },
-        {
-          "Value": 0.0
-        },
-        {
-          "Value": 0.0
-        },
-        {
-          "Value": 0.0
-        }
-      ]
+      "status": "error"
     },
     "institutional_holders": {
-      "status": "success",
-      "data": [
-        {
-          "Date Reported": "2021-12-31 00:00:00",
-          "Holder": "Ifp Advisors, Inc",
-          "pctHeld": 0.0,
-          "Shares": 295000,
-          "Value": 58,
-          "pctChange": 0.0
-        }
-      ]
+      "status": "error"
     }
   },
   "earnings_data": {
@@ -71,7 +49,7 @@
     },
     "calendar": {
       "status": "error",
-      "message": "'dict' object has no attribute 'empty'"
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   }
 }

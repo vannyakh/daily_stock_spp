@@ -1,65 +1,23 @@
 {
   "ticker": "ARES-PB",
-  "timestamp": "2026-01-03T05:46:46.350197",
+  "timestamp": "2026-01-04T05:16:50.361759",
   "intraday_data": {
     "status": "success",
-    "rows": 8,
+    "rows": 2,
     "data": [
       {
-        "Close": 50.29999923706055,
-        "High": 50.29999923706055,
-        "Low": 50.29999923706055,
-        "Open": 50.29999923706055,
-        "Volume": 0
+        "Close RCKTW": 0.019899999722838402,
+        "High RCKTW": 0.019899999722838402,
+        "Low RCKTW": 0.019899999722838402,
+        "Open RCKTW": 0.019899999722838402,
+        "Volume RCKTW": 0
       },
       {
-        "Close": 50.79999923706055,
-        "High": 50.79999923706055,
-        "Low": 50.779998779296875,
-        "Open": 50.779998779296875,
-        "Volume": 359
-      },
-      {
-        "Close": 51.470001220703125,
-        "High": 51.470001220703125,
-        "Low": 51.470001220703125,
-        "Open": 51.470001220703125,
-        "Volume": 432
-      },
-      {
-        "Close": 51.1150016784668,
-        "High": 51.1150016784668,
-        "Low": 51.1150016784668,
-        "Open": 51.1150016784668,
-        "Volume": 395
-      },
-      {
-        "Close": 51.27000045776367,
-        "High": 51.27000045776367,
-        "Low": 51.27000045776367,
-        "Open": 51.27000045776367,
-        "Volume": 270
-      },
-      {
-        "Close": 51.5,
-        "High": 51.5,
-        "Low": 51.5,
-        "Open": 51.5,
-        "Volume": 119
-      },
-      {
-        "Close": 51.380001068115234,
-        "High": 51.380001068115234,
-        "Low": 51.380001068115234,
-        "Open": 51.380001068115234,
-        "Volume": 100
-      },
-      {
-        "Close": 51.36000061035156,
-        "High": 51.38999938964844,
-        "Low": 51.36000061035156,
-        "Open": 51.38999938964844,
-        "Volume": 224
+        "Close RCKTW": 0.017100000753998756,
+        "High RCKTW": 0.017100000753998756,
+        "Low RCKTW": 0.017100000753998756,
+        "Open RCKTW": 0.017100000753998756,
+        "Volume RCKTW": 1000
       }
     ]
   },
@@ -69,14 +27,45 @@
   },
   "financials": {
     "income_statement": {
-      "status": "success",
-      "rows": 44,
-      "columns": [
-        "2024-12-31 00:00:00",
-        "2023-12-31 00:00:00",
-        "2022-12-31 00:00:00",
-        "2021-12-31 00:00:00"
-      ],
-      "data": [
-        {
-          
+      "status": "no_data"
+    },
+    "balance_sheet": {
+      "status": "no_data"
+    },
+    "cash_flow": {
+      "status": "no_data"
+    }
+  },
+  "options_data": {
+    "status": "error",
+    "error_message": "Too Many Requests. Rate limited. Try after a while."
+  },
+  "news_data": {
+    "news": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    },
+    "recommendations": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  },
+  "holders_data": {
+    "major_holders": {
+      "status": "error"
+    },
+    "institutional_holders": {
+      "status": "error"
+    }
+  },
+  "earnings_data": {
+    "earnings": {
+      "status": "error",
+      "message": "'NoneType' object has no attribute 'empty'"
+    },
+    "calendar": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  }
+}

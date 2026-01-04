@@ -1,82 +1,13 @@
 {
   "ticker": "SIRC",
-  "timestamp": "2026-01-03T05:31:04.672648",
+  "timestamp": "2026-01-04T05:12:18.172004",
   "intraday_data": {
     "status": "no_data",
     "message": "No intraday data available"
   },
   "stock_info": {
-    "status": "success",
-    "data": {
-      "language": "en-US",
-      "region": "US",
-      "quoteType": "EQUITY",
-      "typeDisp": "Equity",
-      "quoteSourceName": "Delayed Quote",
-      "triggerable": false,
-      "customPriceAlertConfidence": "LOW",
-      "priceHint": 4,
-      "regularMarketChange": 0.0,
-      "regularMarketDayHigh": 0.0001,
-      "regularMarketDayRange": "1.0E-4 - 1.0E-4",
-      "regularMarketDayLow": 0.0001,
-      "regularMarketVolume": 1,
-      "regularMarketPreviousClose": 0.0001,
-      "bid": 0.0001,
-      "ask": 0.0001,
-      "bidSize": 0,
-      "askSize": 0,
-      "fullExchangeName": "OTC Markets OTCPK",
-      "financialCurrency": "USD",
-      "regularMarketOpen": 0.0001,
-      "averageDailyVolume3Month": 0,
-      "averageDailyVolume10Day": 0,
-      "fiftyTwoWeekLowChange": 5e-05,
-      "currency": "USD",
-      "epsTrailingTwelveMonths": -0.0,
-      "sharesOutstanding": 10975456223,
-      "bookValue": 25.591,
-      "fiftyDayAverage": 0.0001,
-      "fiftyDayAverageChange": 0.0,
-      "fiftyDayAverageChangePercent": 0.0,
-      "twoHundredDayAverage": 0.0001,
-      "twoHundredDayAverageChange": 0.0,
-      "twoHundredDayAverageChangePercent": 0.0,
-      "marketCap": 1097545,
-      "priceToBook": 3.9076235e-06,
-      "sourceInterval": 15,
-      "exchangeDataDelayedBy": 0,
-      "hasPrePostMarketData": false,
-      "firstTradeDateMilliseconds": 1234189800000,
-      "regularMarketChangePercent": 0.0,
-      "regularMarketPrice": 0.0001,
-      "marketState": "CLOSED",
-      "shortName": "Solar Integrated Roofing Corpor",
-      "longName": "Solar Integrated Roofing Corporation",
-      "regularMarketTime": 1767387600,
-      "exchange": "PNK",
-      "messageBoardId": "finmb_37993345",
-      "exchangeTimezoneName": "America/New_York",
-      "exchangeTimezoneShortName": "EST",
-      "gmtOffSetMilliseconds": -18000000,
-      "market": "us_market",
-      "esgPopulated": false,
-      "tradeable": false,
-      "cryptoTradeable": false,
-      "fiftyTwoWeekLowChangePercent": 1.0,
-      "fiftyTwoWeekRange": "5.0E-5 - 2.0E-4",
-      "fiftyTwoWeekHighChange": -0.0001,
-      "fiftyTwoWeekHighChangePercent": -0.5,
-      "fiftyTwoWeekLow": 5e-05,
-      "fiftyTwoWeekHigh": 0.0002,
-      "fiftyTwoWeekChangePercent": 0.0,
-      "earningsTimestampStart": 1669037460,
-      "earningsTimestampEnd": 1669037460,
-      "trailingAnnualDividendRate": 0.0,
-      "trailingAnnualDividendYield": 0.0,
-      "displayName": "Solar Integrated Roofing",
-      "symbol": "SIRC"
-    }
+    "status": "error",
+    "message": "Too Many Requests. Rate limited. Try after a while."
   },
   "financials": {
     "income_statement": {
@@ -90,46 +21,25 @@
     }
   },
   "options_data": {
-    "expirations": []
+    "status": "error",
+    "error_message": "Too Many Requests. Rate limited. Try after a while."
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   },
   "holders_data": {
     "major_holders": {
-      "status": "success",
-      "data": [
-        {
-          "Value": 0.0
-        },
-        {
-          "Value": 0.0
-        },
-        {
-          "Value": 0.0
-        },
-        {
-          "Value": 0.0
-        }
-      ]
+      "status": "error"
     },
     "institutional_holders": {
-      "status": "success",
-      "data": [
-        {
-          "Date Reported": "2024-09-30 00:00:00",
-          "Holder": "Ancora Advisors, LLC",
-          "pctHeld": 0.0,
-          "Shares": 14,
-          "Value": 0,
-          "pctChange": 0.0
-        }
-      ]
+      "status": "error"
     }
   },
   "earnings_data": {
@@ -139,7 +49,7 @@
     },
     "calendar": {
       "status": "error",
-      "message": "'dict' object has no attribute 'empty'"
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   }
 }

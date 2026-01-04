@@ -1,55 +1,13 @@
 {
   "ticker": "MEIP",
-  "timestamp": "2026-01-03T05:11:43.705092",
+  "timestamp": "2026-01-04T05:05:40.076851",
   "intraday_data": {
-    "status": "success",
-    "rows": 1,
-    "data": [
-      {
-        "Close SANW": 0.07999999821186066,
-        "High SANW": 0.07999999821186066,
-        "Low SANW": 0.07999999821186066,
-        "Open SANW": 0.07999999821186066,
-        "Volume SANW": 0
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
-    "status": "success",
-    "data": {
-      "maxAge": 86400,
-      "priceHint": 4,
-      "previousClose": 2.78,
-      "regularMarketPreviousClose": 2.78,
-      "currency": "USD",
-      "tradeable": false,
-      "quoteType": "EQUITY",
-      "symbol": "MEIP",
-      "language": "en-US",
-      "region": "US",
-      "typeDisp": "Equity",
-      "quoteSourceName": "Delayed Quote",
-      "triggerable": true,
-      "customPriceAlertConfidence": "HIGH",
-      "sourceInterval": 15,
-      "exchangeDataDelayedBy": 0,
-      "cryptoTradeable": false,
-      "hasPrePostMarketData": true,
-      "regularMarketChange": 0.28999996,
-      "fullExchangeName": "NasdaqCM",
-      "marketState": "CLOSED",
-      "regularMarketTime": 1764104400,
-      "exchange": "NCM",
-      "exchangeTimezoneName": "America/New_York",
-      "exchangeTimezoneShortName": "EST",
-      "gmtOffSetMilliseconds": -18000000,
-      "market": "us_market",
-      "esgPopulated": false,
-      "shortName": "MEI Pharma, Inc.",
-      "regularMarketChangePercent": 10.431653,
-      "regularMarketPrice": 3.07,
-      "displayName": "MEI Pharma"
-    }
+    "status": "error",
+    "message": "Too Many Requests. Rate limited. Try after a while."
   },
   "financials": {
     "income_statement": {
@@ -63,133 +21,8 @@
     }
   },
   "options_data": {
-    "expirations": [
-      "2026-01-16",
-      "2026-03-20"
-    ],
-    "expiration_2026-01-16": {
-      "calls_count": 4,
-      "puts_count": 3,
-      "calls": [
-        {
-          "contractSymbol": "MEIP260116C00002500",
-          "lastTradeDate": "2025-09-10 15:09:36+00:00",
-          "strike": 2.5,
-          "lastPrice": 0.8,
-          "bid": 0.0,
-          "ask": 0.0,
-          "change": 0.0,
-          "percentChange": 0.0,
-          "volume": 210.0,
-          "openInterest": 1051,
-          "impliedVolatility": 1.0000000000000003e-05,
-          "inTheMoney": true,
-          "contractSize": "REGULAR",
-          "currency": "USD"
-        },
-        {
-          "contractSymbol": "MEIP260116C00005000",
-          "lastTradeDate": "2025-09-10 18:22:38+00:00",
-          "strike": 5.0,
-          "lastPrice": 0.6,
-          "bid": 0.0,
-          "ask": 0.0,
-          "change": 0.0,
-          "percentChange": 0.0,
-          "volume": 24.0,
-          "openInterest": 319,
-          "impliedVolatility": 0.500005,
-          "inTheMoney": false,
-          "contractSize": "REGULAR",
-          "currency": "USD"
-        },
-        {
-          "contractSymbol": "MEIP260116C00007500",
-          "lastTradeDate": "2025-09-02 14:57:51+00:00",
-          "strike": 7.5,
-          "lastPrice": 0.5,
-          "bid": 0.0,
-          "ask": 0.0,
-          "change": 0.0,
-          "percentChange": 0.0,
-          "volume": NaN,
-          "openInterest": 20,
-          "impliedVolatility": 0.500005,
-          "inTheMoney": false,
-          "contractSize": "REGULAR",
-          "currency": "USD"
-        },
-        {
-          "contractSymbol": "MEIP260116C00010000",
-          "lastTradeDate": "2025-09-10 18:27:27+00:00",
-          "strike": 10.0,
-          "lastPrice": 0.35,
-          "bid": 0.0,
-          "ask": 0.0,
-          "change": 0.0,
-          "percentChange": 0.0,
-          "volume": 18.0,
-          "openInterest": 70,
-          "impliedVolatility": 0.500005,
-          "inTheMoney": false,
-          "contractSize": "REGULAR",
-          "currency": "USD"
-        }
-      ],
-      "puts": [
-        {
-          "contractSymbol": "MEIP260116P00002500",
-          "lastTradeDate": "2025-09-08 16:10:24+00:00",
-          "strike": 2.5,
-          "lastPrice": 0.65,
-          "bid": 0.0,
-          "ask": 0.0,
-          "change": 0.0,
-          "percentChange": 0.0,
-          "volume": 1.0,
-          "openInterest": 169,
-          "impliedVolatility": 0.2500075,
-          "inTheMoney": false,
-          "contractSize": "REGULAR",
-          "currency": "USD"
-        },
-        {
-          "contractSymbol": "MEIP260116P00005000",
-          "lastTradeDate": "2025-09-09 16:37:21+00:00",
-          "strike": 5.0,
-          "lastPrice": 3.0,
-          "bid": 0.0,
-          "ask": 0.0,
-          "change": 0.0,
-          "percentChange": 0.0,
-          "volume": 7.0,
-          "openInterest": 20,
-          "impliedVolatility": 1.0000000000000003e-05,
-          "inTheMoney": true,
-          "contractSize": "REGULAR",
-          "currency": "USD"
-        },
-        {
-          "contractSymbol": "MEIP260116P00007500",
-          "lastTradeDate": "2025-08-13 18:01:38+00:00",
-          "strike": 7.5,
-          "lastPrice": 3.5,
-          "bid": 0.0,
-          "ask": 0.0,
-          "change": 0.0,
-          "percentChange": 0.0,
-          "volume": NaN,
-          "openInterest": 1,
-          "impliedVolatility": 1.0000000000000003e-05,
-          "inTheMoney": true,
-          "contractSize": "REGULAR",
-          "currency": "USD"
-        }
-      ]
-    },
-    "expiration_2026-03-20": {
-      "error": "Too Many Requests. Rate limited. Try after a while."
-    }
+    "status": "error",
+    "error_message": "Too Many Requests. Rate limited. Try after a while."
   },
   "news_data": {
     "news": {
@@ -693,10 +526,10 @@
   },
   "holders_data": {
     "major_holders": {
-      "status": "no_data"
+      "status": "error"
     },
     "institutional_holders": {
-      "status": "no_data"
+      "status": "error"
     }
   },
   "earnings_data": {
@@ -706,7 +539,7 @@
     },
     "calendar": {
       "status": "error",
-      "message": "'dict' object has no attribute 'empty'"
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   }
 }

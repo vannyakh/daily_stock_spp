@@ -1,51 +1,23 @@
 {
   "ticker": "GLOP-PB",
-  "timestamp": "2026-01-03T05:28:09.344029",
+  "timestamp": "2026-01-04T05:11:23.621687",
   "intraday_data": {
     "status": "success",
-    "rows": 6,
+    "rows": 2,
     "data": [
       {
-        "Close": 25.649999618530273,
-        "High": 25.649999618530273,
-        "Low": 25.649999618530273,
-        "Open": 25.649999618530273,
-        "Volume": 0
+        "Close FMCCN": 19.0,
+        "High FMCCN": 19.0,
+        "Low FMCCN": 19.0,
+        "Open FMCCN": 19.0,
+        "Volume FMCCN": 0
       },
       {
-        "Close": 25.728099822998047,
-        "High": 25.728099822998047,
-        "Low": 25.728099822998047,
-        "Open": 25.728099822998047,
-        "Volume": 123
-      },
-      {
-        "Close": 25.649999618530273,
-        "High": 25.649999618530273,
-        "Low": 25.649999618530273,
-        "Open": 25.649999618530273,
-        "Volume": 300
-      },
-      {
-        "Close": 25.649999618530273,
-        "High": 25.649999618530273,
-        "Low": 25.649999618530273,
-        "Open": 25.649999618530273,
-        "Volume": 176
-      },
-      {
-        "Close": 25.6299991607666,
-        "High": 25.639999389648438,
-        "Low": 25.6299991607666,
-        "Open": 25.639999389648438,
-        "Volume": 946
-      },
-      {
-        "Close": 25.75,
-        "High": 25.75,
-        "Low": 25.75,
-        "Open": 25.75,
-        "Volume": 772
+        "Close FMCCN": 19.0,
+        "High FMCCN": 19.0,
+        "Low FMCCN": 19.0,
+        "Open FMCCN": 19.0,
+        "Volume FMCCN": 500
       }
     ]
   },
@@ -55,13 +27,45 @@
   },
   "financials": {
     "income_statement": {
-      "status": "success",
-      "rows": 43,
-      "columns": [
-        "2023-12-31 00:00:00",
-        "2022-12-31 00:00:00",
-        "2021-12-31 00:00:00"
-      ],
-      "data": [
-        {
-          
+      "status": "no_data"
+    },
+    "balance_sheet": {
+      "status": "no_data"
+    },
+    "cash_flow": {
+      "status": "no_data"
+    }
+  },
+  "options_data": {
+    "status": "error",
+    "error_message": "Too Many Requests. Rate limited. Try after a while."
+  },
+  "news_data": {
+    "news": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    },
+    "recommendations": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  },
+  "holders_data": {
+    "major_holders": {
+      "status": "error"
+    },
+    "institutional_holders": {
+      "status": "error"
+    }
+  },
+  "earnings_data": {
+    "earnings": {
+      "status": "error",
+      "message": "'NoneType' object has no attribute 'empty'"
+    },
+    "calendar": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  }
+}

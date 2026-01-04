@@ -1,9 +1,18 @@
 {
   "ticker": "XPTFX",
-  "timestamp": "2026-01-03T05:24:57.617101",
+  "timestamp": "2026-01-04T05:10:09.318922",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 1,
+    "data": [
+      {
+        "Close": 10.020000457763672,
+        "High": 10.020000457763672,
+        "Low": 10.020000457763672,
+        "Open": 10.020000457763672,
+        "Volume": 0
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -26,7 +35,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

@@ -1,6 +1,6 @@
 {
   "ticker": "OPP",
-  "timestamp": "2026-01-03T04:57:59.827221",
+  "timestamp": "2026-01-04T05:00:04.106073",
   "intraday_data": {
     "status": "success",
     "rows": 57,
@@ -407,92 +407,49 @@
     ]
   },
   "stock_info": {
-    "status": "success",
-    "data": {
-      "language": "en-US",
-      "region": "US",
-      "quoteType": "EQUITY",
-      "typeDisp": "Equity",
-      "quoteSourceName": "Delayed Quote",
-      "triggerable": true,
-      "customPriceAlertConfidence": "HIGH",
-      "currency": "USD",
-      "postMarketTime": 1767401941,
-      "regularMarketTime": 1767387602,
-      "exchange": "NYQ",
-      "messageBoardId": "finmb_371754155",
-      "exchangeTimezoneName": "America/New_York",
-      "exchangeTimezoneShortName": "EST",
-      "gmtOffSetMilliseconds": -18000000,
-      "market": "us_market",
-      "esgPopulated": false,
-      "longName": "RiverNorth/DoubleLine Strategic Opportunity Fund, Inc.",
-      "regularMarketChangePercent": -0.125783,
-      "regularMarketPrice": 7.94,
-      "shortName": "RiverNorth/DoubleLine Strategic",
-      "marketState": "POSTPOST",
-      "fiftyTwoWeekChangePercent": -7.2886286,
-      "dividendDate": 1553817600,
-      "trailingAnnualDividendRate": 0.0,
-      "trailingPE": 8.185567,
-      "dividendRate": 1.14,
-      "trailingAnnualDividendYield": 0.0,
-      "dividendYield": 14.34,
-      "epsTrailingTwelveMonths": 0.97,
-      "sharesOutstanding": 24990131,
-      "fiftyDayAverage": 8.00116,
-      "fiftyDayAverageChange": -0.06115961,
-      "fiftyDayAverageChangePercent": -0.0076438435,
-      "twoHundredDayAverage": 8.3624,
-      "twoHundredDayAverageChange": -0.4224,
-      "twoHundredDayAverageChangePercent": -0.050511815,
-      "marketCap": 198421648,
-      "sourceInterval": 15,
-      "exchangeDataDelayedBy": 0,
-      "tradeable": false,
-      "cryptoTradeable": false,
-      "hasPrePostMarketData": true,
-      "firstTradeDateMilliseconds": 1475069400000,
-      "priceHint": 2,
-      "postMarketChangePercent": 0.6297193,
-      "postMarketPrice": 7.99,
-      "postMarketChange": 0.049999714,
-      "regularMarketChange": -0.00999975,
-      "regularMarketDayHigh": 7.979,
-      "regularMarketDayRange": "7.92 - 7.979",
-      "regularMarketDayLow": 7.92,
-      "regularMarketVolume": 69314,
-      "regularMarketPreviousClose": 7.95,
-      "bid": 7.8,
-      "ask": 8.07,
-      "bidSize": 600,
-      "askSize": 700,
-      "fullExchangeName": "NYSE",
-      "regularMarketOpen": 7.97,
-      "averageDailyVolume3Month": 163380,
-      "averageDailyVolume10Day": 163900,
-      "fiftyTwoWeekLowChange": 0.1500001,
-      "fiftyTwoWeekLowChangePercent": 0.019255469,
-      "fiftyTwoWeekRange": "7.79 - 8.82",
-      "fiftyTwoWeekHighChange": -0.87999964,
-      "fiftyTwoWeekHighChangePercent": -0.099773206,
-      "fiftyTwoWeekLow": 7.79,
-      "fiftyTwoWeekHigh": 8.82,
-      "displayName": "RiverNorth/DoubleLine Strategic Opportunity Fund",
-      "symbol": "OPP"
-    }
+    "status": "error",
+    "message": "Too Many Requests. Rate limited. Try after a while."
   },
   "financials": {
     "income_statement": {
-      "status": "success",
-      "rows": 26,
-      "columns": [
-        "2025-06-30 00:00:00",
-        "2024-06-30 00:00:00",
-        "2023-06-30 00:00:00",
-        "2022-06-30 00:00:00",
-        "2021-06-30 00:00:00"
-      ],
-      "data": [
-        {
-          
+      "status": "no_data"
+    },
+    "balance_sheet": {
+      "status": "no_data"
+    },
+    "cash_flow": {
+      "status": "no_data"
+    }
+  },
+  "options_data": {
+    "status": "error",
+    "error_message": "Too Many Requests. Rate limited. Try after a while."
+  },
+  "news_data": {
+    "news": {
+      "status": "no_data"
+    },
+    "recommendations": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  },
+  "holders_data": {
+    "major_holders": {
+      "status": "error"
+    },
+    "institutional_holders": {
+      "status": "error"
+    }
+  },
+  "earnings_data": {
+    "earnings": {
+      "status": "error",
+      "message": "'NoneType' object has no attribute 'empty'"
+    },
+    "calendar": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  }
+}

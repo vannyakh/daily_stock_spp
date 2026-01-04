@@ -1,9 +1,25 @@
 {
   "ticker": "BPTSY",
-  "timestamp": "2026-01-03T05:17:51.414086",
+  "timestamp": "2026-01-04T05:08:05.326566",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 2,
+    "data": [
+      {
+        "Close PKTX": 0.006800000090152025,
+        "High PKTX": 0.006800000090152025,
+        "Low PKTX": 0.006800000090152025,
+        "Open PKTX": 0.006800000090152025,
+        "Volume PKTX": 0
+      },
+      {
+        "Close PKTX": 0.006800000090152025,
+        "High PKTX": 0.006800000090152025,
+        "Low PKTX": 0.006500000134110451,
+        "Open PKTX": 0.006500000134110451,
+        "Volume PKTX": 240008
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -17,14 +33,38 @@
       "status": "no_data"
     },
     "cash_flow": {
-      "status": "success",
-      "rows": 54,
-      "columns": [
-        "2024-12-31 00:00:00",
-        "2023-12-31 00:00:00",
-        "2022-12-31 00:00:00",
-        "2021-12-31 00:00:00"
-      ],
-      "data": [
-        {
-          
+      "status": "no_data"
+    }
+  },
+  "options_data": {
+    "status": "error",
+    "error_message": "Too Many Requests. Rate limited. Try after a while."
+  },
+  "news_data": {
+    "news": {
+      "status": "no_data"
+    },
+    "recommendations": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  },
+  "holders_data": {
+    "major_holders": {
+      "status": "error"
+    },
+    "institutional_holders": {
+      "status": "error"
+    }
+  },
+  "earnings_data": {
+    "earnings": {
+      "status": "error",
+      "message": "'NoneType' object has no attribute 'empty'"
+    },
+    "calendar": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  }
+}

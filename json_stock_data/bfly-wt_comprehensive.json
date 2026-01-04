@@ -1,103 +1,14 @@
 {
   "ticker": "BFLY-WT",
-  "timestamp": "2026-01-03T05:37:51.735749",
+  "timestamp": "2026-01-04T05:14:16.112402",
   "intraday_data": {
     "status": "success",
-    "rows": 5,
-    "data": [
-      {
-        "Close": 0.016300000250339508,
-        "High": 0.01979999989271164,
-        "Low": 0.015300000086426735,
-        "Open": 0.015300000086426735,
-        "Volume": 0
-      },
-      {
-        "Close": 0.013299999758601189,
-        "High": 0.013299999758601189,
-        "Low": 0.013299999758601189,
-        "Open": 0.013299999758601189,
-        "Volume": 1214
-      },
-      {
-        "Close": 0.01600000075995922,
-        "High": 0.01600000075995922,
-        "Low": 0.01600000075995922,
-        "Open": 0.01600000075995922,
-        "Volume": 1289
-      },
-      {
-        "Close": 0.01600000075995922,
-        "High": 0.016499999910593033,
-        "Low": 0.01600000075995922,
-        "Open": 0.016499999910593033,
-        "Volume": 950
-      },
-      {
-        "Close": 0.019899999722838402,
-        "High": 0.019999999552965164,
-        "Low": 0.01600000075995922,
-        "Open": 0.01600000075995922,
-        "Volume": 750
-      }
-    ]
+    "rows": 0,
+    "data": []
   },
   "stock_info": {
-    "status": "success",
-    "data": {
-      "maxAge": 86400,
-      "priceHint": 4,
-      "previousClose": 0.0176,
-      "open": 0.075,
-      "dayLow": 0.0133,
-      "dayHigh": 0.02,
-      "regularMarketPreviousClose": 0.0176,
-      "regularMarketOpen": 0.075,
-      "regularMarketDayLow": 0.0133,
-      "regularMarketDayHigh": 0.02,
-      "volume": 31589,
-      "regularMarketVolume": 31589,
-      "bid": 0.0498,
-      "ask": 0.0598,
-      "bidSize": 54,
-      "askSize": 1,
-      "fiftyTwoWeekLow": 0.0133,
-      "fiftyTwoWeekHigh": 0.02,
-      "currency": "USD",
-      "tradeable": false,
-      "quoteType": "EQUITY",
-      "symbol": "BFLY-WT",
-      "language": "en-US",
-      "region": "US",
-      "typeDisp": "Equity",
-      "quoteSourceName": "Delayed Quote",
-      "triggerable": true,
-      "customPriceAlertConfidence": "HIGH",
-      "hasPrePostMarketData": true,
-      "regularMarketChange": 0.0022999998,
-      "regularMarketDayRange": "0.0133 - 0.02",
-      "fullExchangeName": "NYSE",
-      "fiftyTwoWeekLowChange": 0.0066,
-      "fiftyTwoWeekLowChangePercent": 0.49624062,
-      "fiftyTwoWeekRange": "0.0133 - 0.02",
-      "fiftyTwoWeekHighChange": -9.999983e-05,
-      "fiftyTwoWeekHighChangePercent": -0.0049999915,
-      "exchange": "NYQ",
-      "exchangeTimezoneName": "America/New_York",
-      "exchangeTimezoneShortName": "EST",
-      "gmtOffSetMilliseconds": -18000000,
-      "market": "us_market",
-      "esgPopulated": false,
-      "shortName": "Butterfly Network, Inc.",
-      "longName": "Butterfly Network, Inc. WT",
-      "marketState": "CLOSED",
-      "regularMarketChangePercent": 13.068181,
-      "regularMarketPrice": 0.0199,
-      "regularMarketTime": 1767376368,
-      "sourceInterval": 15,
-      "exchangeDataDelayedBy": 0,
-      "cryptoTradeable": false
-    }
+    "status": "error",
+    "message": "Too Many Requests. Rate limited. Try after a while."
   },
   "financials": {
     "income_statement": {
@@ -111,22 +22,25 @@
     }
   },
   "options_data": {
-    "expirations": []
+    "status": "error",
+    "error_message": "Too Many Requests. Rate limited. Try after a while."
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   },
   "holders_data": {
     "major_holders": {
-      "status": "no_data"
+      "status": "error"
     },
     "institutional_holders": {
-      "status": "no_data"
+      "status": "error"
     }
   },
   "earnings_data": {
@@ -136,7 +50,7 @@
     },
     "calendar": {
       "status": "error",
-      "message": "'dict' object has no attribute 'empty'"
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   }
 }

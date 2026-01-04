@@ -1,9 +1,81 @@
 {
   "ticker": "ELPC",
-  "timestamp": "2026-01-03T05:45:02.804440",
+  "timestamp": "2026-01-04T05:16:21.527196",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 10,
+    "data": [
+      {
+        "Close MFAO": 25.350000381469727,
+        "High MFAO": 25.399999618530273,
+        "Low MFAO": 25.350000381469727,
+        "Open MFAO": 25.399999618530273,
+        "Volume MFAO": 0
+      },
+      {
+        "Close MFAO": 25.450000762939453,
+        "High MFAO": 25.450000762939453,
+        "Low MFAO": 25.44499969482422,
+        "Open MFAO": 25.44499969482422,
+        "Volume MFAO": 1000
+      },
+      {
+        "Close MFAO": 25.489999771118164,
+        "High MFAO": 25.489999771118164,
+        "Low MFAO": 25.479999542236328,
+        "Open MFAO": 25.489999771118164,
+        "Volume MFAO": 770
+      },
+      {
+        "Close MFAO": 25.499900817871094,
+        "High MFAO": 25.499900817871094,
+        "Low MFAO": 25.499900817871094,
+        "Open MFAO": 25.499900817871094,
+        "Volume MFAO": 100
+      },
+      {
+        "Close MFAO": 25.489999771118164,
+        "High MFAO": 25.489999771118164,
+        "Low MFAO": 25.489999771118164,
+        "Open MFAO": 25.489999771118164,
+        "Volume MFAO": 200
+      },
+      {
+        "Close MFAO": 25.489999771118164,
+        "High MFAO": 25.489999771118164,
+        "Low MFAO": 25.489999771118164,
+        "Open MFAO": 25.489999771118164,
+        "Volume MFAO": 194
+      },
+      {
+        "Close MFAO": 25.439599990844727,
+        "High MFAO": 25.439599990844727,
+        "Low MFAO": 25.439599990844727,
+        "Open MFAO": 25.439599990844727,
+        "Volume MFAO": 300
+      },
+      {
+        "Close MFAO": 25.438499450683594,
+        "High MFAO": 25.438499450683594,
+        "Low MFAO": 25.438499450683594,
+        "Open MFAO": 25.438499450683594,
+        "Volume MFAO": 300
+      },
+      {
+        "Close MFAO": 25.489999771118164,
+        "High MFAO": 25.489999771118164,
+        "Low MFAO": 25.489999771118164,
+        "Open MFAO": 25.489999771118164,
+        "Volume MFAO": 300
+      },
+      {
+        "Close MFAO": 25.390100479125977,
+        "High MFAO": 25.390100479125977,
+        "Low MFAO": 25.390100479125977,
+        "Open MFAO": 25.390100479125977,
+        "Volume MFAO": 300
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -11,14 +83,45 @@
   },
   "financials": {
     "income_statement": {
-      "status": "success",
-      "rows": 55,
-      "columns": [
-        "2024-12-31 00:00:00",
-        "2023-12-31 00:00:00",
-        "2022-12-31 00:00:00",
-        "2021-12-31 00:00:00"
-      ],
-      "data": [
-        {
-          
+      "status": "no_data"
+    },
+    "balance_sheet": {
+      "status": "no_data"
+    },
+    "cash_flow": {
+      "status": "no_data"
+    }
+  },
+  "options_data": {
+    "status": "error",
+    "error_message": "Too Many Requests. Rate limited. Try after a while."
+  },
+  "news_data": {
+    "news": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    },
+    "recommendations": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  },
+  "holders_data": {
+    "major_holders": {
+      "status": "error"
+    },
+    "institutional_holders": {
+      "status": "error"
+    }
+  },
+  "earnings_data": {
+    "earnings": {
+      "status": "error",
+      "message": "'NoneType' object has no attribute 'empty'"
+    },
+    "calendar": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  }
+}

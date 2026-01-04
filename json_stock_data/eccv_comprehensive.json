@@ -1,6 +1,6 @@
 {
   "ticker": "ECCV",
-  "timestamp": "2026-01-03T05:40:18.411095",
+  "timestamp": "2026-01-04T05:14:59.274666",
   "intraday_data": {
     "status": "success",
     "rows": 5,
@@ -43,80 +43,8 @@
     ]
   },
   "stock_info": {
-    "status": "success",
-    "data": {
-      "maxAge": 86400,
-      "priceHint": 2,
-      "previousClose": 23.9,
-      "open": 23.88,
-      "dayLow": 23.5804,
-      "dayHigh": 23.88,
-      "regularMarketPreviousClose": 23.9,
-      "regularMarketOpen": 23.88,
-      "regularMarketDayLow": 23.5804,
-      "regularMarketDayHigh": 23.88,
-      "volume": 3162,
-      "regularMarketVolume": 3162,
-      "averageVolume": 7932,
-      "averageVolume10days": 10510,
-      "averageDailyVolume10Day": 10510,
-      "bid": 23.69,
-      "ask": 38.16,
-      "bidSize": 2100,
-      "askSize": 200,
-      "fiftyTwoWeekLow": 21.94,
-      "fiftyTwoWeekHigh": 24.04,
-      "allTimeHigh": 24.67,
-      "allTimeLow": 20.22,
-      "fiftyDayAverage": 23.49694,
-      "twoHundredDayAverage": 23.23152,
-      "currency": "USD",
-      "tradeable": false,
-      "quoteType": "EQUITY",
-      "symbol": "ECCV",
-      "language": "en-US",
-      "region": "US",
-      "typeDisp": "Equity",
-      "quoteSourceName": "Delayed Quote",
-      "triggerable": true,
-      "customPriceAlertConfidence": "HIGH",
-      "exchange": "NYQ",
-      "messageBoardId": "finmb_265737294",
-      "exchangeTimezoneName": "America/New_York",
-      "exchangeTimezoneShortName": "EST",
-      "gmtOffSetMilliseconds": -18000000,
-      "market": "us_market",
-      "esgPopulated": false,
-      "shortName": "Eagle Point Credit Company Inc.",
-      "postMarketTime": 1767396181,
-      "regularMarketTime": 1767385268,
-      "regularMarketChangePercent": -0.732214,
-      "regularMarketPrice": 23.725,
-      "marketState": "CLOSED",
-      "fiftyDayAverageChange": 0.22805977,
-      "fiftyDayAverageChangePercent": 0.009705935,
-      "twoHundredDayAverageChange": 0.49348068,
-      "twoHundredDayAverageChangePercent": 0.02124186,
-      "sourceInterval": 15,
-      "exchangeDataDelayedBy": 0,
-      "cryptoTradeable": false,
-      "hasPrePostMarketData": true,
-      "firstTradeDateMilliseconds": 1643207400000,
-      "postMarketChangePercent": 0.0,
-      "postMarketPrice": 23.725,
-      "postMarketChange": 0.0,
-      "regularMarketChange": -0.174999,
-      "regularMarketDayRange": "23.5804 - 23.88",
-      "fullExchangeName": "NYSE",
-      "averageDailyVolume3Month": 7932,
-      "fiftyTwoWeekLowChange": 1.7849998,
-      "fiftyTwoWeekLowChangePercent": 0.08135824,
-      "fiftyTwoWeekRange": "21.94 - 24.04",
-      "fiftyTwoWeekHighChange": -0.31500053,
-      "fiftyTwoWeekHighChangePercent": -0.013103183,
-      "fiftyTwoWeekChangePercent": 5.286348,
-      "dividendDate": 1767139200
-    }
+    "status": "error",
+    "message": "Too Many Requests. Rate limited. Try after a while."
   },
   "financials": {
     "income_statement": {
@@ -130,22 +58,25 @@
     }
   },
   "options_data": {
-    "expirations": []
+    "status": "error",
+    "error_message": "Too Many Requests. Rate limited. Try after a while."
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   },
   "holders_data": {
     "major_holders": {
-      "status": "no_data"
+      "status": "error"
     },
     "institutional_holders": {
-      "status": "no_data"
+      "status": "error"
     }
   },
   "earnings_data": {
@@ -155,7 +86,7 @@
     },
     "calendar": {
       "status": "error",
-      "message": "'dict' object has no attribute 'empty'"
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   }
 }

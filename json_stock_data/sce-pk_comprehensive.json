@@ -1,6 +1,6 @@
 {
   "ticker": "SCE-PK",
-  "timestamp": "2026-01-03T05:43:27.266132",
+  "timestamp": "2026-01-04T05:15:52.348450",
   "intraday_data": {
     "status": "success",
     "rows": 44,
@@ -316,81 +316,8 @@
     ]
   },
   "stock_info": {
-    "status": "success",
-    "data": {
-      "maxAge": 86400,
-      "priceHint": 2,
-      "previousClose": 25.19,
-      "open": 25.1,
-      "dayLow": 25.02,
-      "dayHigh": 25.14,
-      "regularMarketPreviousClose": 25.19,
-      "regularMarketOpen": 25.1,
-      "regularMarketDayLow": 25.02,
-      "regularMarketDayHigh": 25.14,
-      "volume": 23878,
-      "regularMarketVolume": 23878,
-      "averageVolume": 92546,
-      "averageVolume10days": 13604,
-      "averageDailyVolume10Day": 13604,
-      "bid": 25.0,
-      "ask": 25.19,
-      "bidSize": 200,
-      "askSize": 100,
-      "fiftyTwoWeekLow": 21.91,
-      "fiftyTwoWeekHigh": 25.39,
-      "allTimeHigh": 30.8099,
-      "allTimeLow": 14.13,
-      "fiftyDayAverage": 24.738066,
-      "twoHundredDayAverage": 23.622585,
-      "currency": "USD",
-      "tradeable": false,
-      "quoteType": "EQUITY",
-      "symbol": "SCE-PK",
-      "language": "en-US",
-      "region": "US",
-      "typeDisp": "Equity",
-      "quoteSourceName": "Delayed Quote",
-      "triggerable": true,
-      "customPriceAlertConfidence": "HIGH",
-      "exchange": "NYQ",
-      "messageBoardId": "finmb_280311118",
-      "exchangeTimezoneName": "America/New_York",
-      "exchangeTimezoneShortName": "EST",
-      "gmtOffSetMilliseconds": -18000000,
-      "market": "us_market",
-      "esgPopulated": false,
-      "shortName": "Southern California Edison Comp",
-      "longName": "SCE Trust V PFD SEC",
-      "postMarketTime": 1767395761,
-      "regularMarketTime": 1767386644,
-      "regularMarketChangePercent": -0.476383,
-      "regularMarketPrice": 25.07,
-      "marketState": "CLOSED",
-      "fiftyDayAverageChange": 0.33193398,
-      "fiftyDayAverageChangePercent": 0.013417943,
-      "twoHundredDayAverageChange": 1.4474144,
-      "twoHundredDayAverageChangePercent": 0.06127248,
-      "sourceInterval": 15,
-      "exchangeDataDelayedBy": 0,
-      "cryptoTradeable": false,
-      "hasPrePostMarketData": true,
-      "firstTradeDateMilliseconds": 1456929000000,
-      "postMarketChangePercent": 0.0,
-      "postMarketPrice": 25.07,
-      "postMarketChange": 0.0,
-      "regularMarketChange": -0.120001,
-      "regularMarketDayRange": "25.02 - 25.14",
-      "fullExchangeName": "NYSE",
-      "averageDailyVolume3Month": 92546,
-      "fiftyTwoWeekLowChange": 3.1599998,
-      "fiftyTwoWeekLowChangePercent": 0.14422637,
-      "fiftyTwoWeekRange": "21.91 - 25.39",
-      "fiftyTwoWeekHighChange": -0.3199997,
-      "fiftyTwoWeekHighChangePercent": -0.012603375,
-      "fiftyTwoWeekChangePercent": 0.76082945,
-      "dividendDate": 1765756800
-    }
+    "status": "error",
+    "message": "Too Many Requests. Rate limited. Try after a while."
   },
   "financials": {
     "income_statement": {
@@ -404,22 +331,25 @@
     }
   },
   "options_data": {
-    "expirations": []
+    "status": "error",
+    "error_message": "Too Many Requests. Rate limited. Try after a while."
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   },
   "holders_data": {
     "major_holders": {
-      "status": "no_data"
+      "status": "error"
     },
     "institutional_holders": {
-      "status": "no_data"
+      "status": "error"
     }
   },
   "earnings_data": {
@@ -429,7 +359,7 @@
     },
     "calendar": {
       "status": "error",
-      "message": "'dict' object has no attribute 'empty'"
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   }
 }

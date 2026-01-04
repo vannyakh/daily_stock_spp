@@ -1,6 +1,6 @@
 {
   "ticker": "BPOPM",
-  "timestamp": "2026-01-03T05:43:39.573300",
+  "timestamp": "2026-01-04T05:15:54.172271",
   "intraday_data": {
     "status": "success",
     "rows": 41,
@@ -295,81 +295,8 @@
     ]
   },
   "stock_info": {
-    "status": "success",
-    "data": {
-      "maxAge": 86400,
-      "priceHint": 2,
-      "previousClose": 25.05,
-      "open": 25.17,
-      "dayLow": 25.05,
-      "dayHigh": 25.62,
-      "regularMarketPreviousClose": 25.05,
-      "regularMarketOpen": 25.17,
-      "regularMarketDayLow": 25.05,
-      "regularMarketDayHigh": 25.62,
-      "volume": 33399,
-      "regularMarketVolume": 33399,
-      "averageVolume": 4606,
-      "averageVolume10days": 7560,
-      "averageDailyVolume10Day": 7560,
-      "bid": 24.81,
-      "ask": 26.06,
-      "bidSize": 3,
-      "askSize": 1,
-      "fiftyTwoWeekLow": 24.53,
-      "fiftyTwoWeekHigh": 26.09,
-      "allTimeHigh": 28.81,
-      "allTimeLow": 4.26,
-      "fiftyDayAverage": 25.1876,
-      "twoHundredDayAverage": 25.2178,
-      "currency": "USD",
-      "tradeable": false,
-      "quoteType": "EQUITY",
-      "symbol": "BPOPM",
-      "language": "en-US",
-      "region": "US",
-      "typeDisp": "Equity",
-      "quoteSourceName": "Nasdaq Real Time Price",
-      "triggerable": true,
-      "customPriceAlertConfidence": "HIGH",
-      "regularMarketChangePercent": 2.19561,
-      "regularMarketPrice": 25.6,
-      "marketState": "CLOSED",
-      "shortName": "Popular, Inc. - Popular Capital",
-      "longName": "Popular Capital Trust II PFD GTD 6.125%",
-      "fiftyDayAverageChange": 0.4124012,
-      "fiftyDayAverageChangePercent": 0.016373184,
-      "twoHundredDayAverageChange": 0.38220024,
-      "twoHundredDayAverageChangePercent": 0.015155971,
-      "sourceInterval": 15,
-      "exchangeDataDelayedBy": 0,
-      "cryptoTradeable": false,
-      "postMarketTime": 1767401810,
-      "regularMarketTime": 1767387601,
-      "exchange": "NMS",
-      "messageBoardId": "finmb_20529206",
-      "exchangeTimezoneName": "America/New_York",
-      "exchangeTimezoneShortName": "EST",
-      "gmtOffSetMilliseconds": -18000000,
-      "market": "us_market",
-      "esgPopulated": false,
-      "hasPrePostMarketData": true,
-      "firstTradeDateMilliseconds": 1227105000000,
-      "postMarketChangePercent": -0.6249994,
-      "postMarketPrice": 25.44,
-      "postMarketChange": -0.15999985,
-      "regularMarketChange": 0.550001,
-      "regularMarketDayRange": "25.05 - 25.62",
-      "fullExchangeName": "NasdaqGS",
-      "averageDailyVolume3Month": 4606,
-      "fiftyTwoWeekLowChange": 1.0699997,
-      "fiftyTwoWeekLowChangePercent": 0.043620043,
-      "fiftyTwoWeekRange": "24.53 - 26.09",
-      "fiftyTwoWeekHighChange": -0.48999977,
-      "fiftyTwoWeekHighChangePercent": -0.018781133,
-      "fiftyTwoWeekChangePercent": -3.2444954,
-      "dividendDate": 1764547200
-    }
+    "status": "error",
+    "message": "Too Many Requests. Rate limited. Try after a while."
   },
   "financials": {
     "income_statement": {
@@ -383,22 +310,25 @@
     }
   },
   "options_data": {
-    "expirations": []
+    "status": "error",
+    "error_message": "Too Many Requests. Rate limited. Try after a while."
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   },
   "holders_data": {
     "major_holders": {
-      "status": "no_data"
+      "status": "error"
     },
     "institutional_holders": {
-      "status": "no_data"
+      "status": "error"
     }
   },
   "earnings_data": {
@@ -408,7 +338,7 @@
     },
     "calendar": {
       "status": "error",
-      "message": "'dict' object has no attribute 'empty'"
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   }
 }

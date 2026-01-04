@@ -1,99 +1,55 @@
 {
   "ticker": "GRWLF",
-  "timestamp": "2026-01-03T05:32:43.144921",
+  "timestamp": "2026-01-04T05:12:40.819550",
   "intraday_data": {
     "status": "no_data",
     "message": "No intraday data available"
   },
   "stock_info": {
-    "status": "success",
-    "data": {
-      "maxAge": 86400,
-      "priceHint": 2,
-      "previousClose": 15.9763,
-      "open": 14.5,
-      "dayLow": 14.5,
-      "dayHigh": 14.5,
-      "regularMarketPreviousClose": 15.9763,
-      "regularMarketOpen": 14.5,
-      "regularMarketDayLow": 14.5,
-      "regularMarketDayHigh": 14.5,
-      "volume": 100,
-      "regularMarketVolume": 100,
-      "averageVolume": 22,
-      "averageVolume10days": 0,
-      "averageDailyVolume10Day": 0,
-      "bid": 16.04,
-      "ask": 16.2,
-      "bidSize": 200,
-      "askSize": 200,
-      "fiftyTwoWeekLow": 14.1,
-      "fiftyTwoWeekHigh": 15.9907,
-      "allTimeHigh": 20.3814,
-      "allTimeLow": 13.3352,
-      "fiftyDayAverage": 15.664572,
-      "twoHundredDayAverage": 15.132669,
-      "currency": "USD",
-      "tradeable": false,
-      "quoteType": "EQUITY",
-      "symbol": "GRWLF",
-      "language": "en-US",
-      "region": "US",
-      "typeDisp": "Equity",
-      "quoteSourceName": "Delayed Quote",
-      "triggerable": false,
-      "customPriceAlertConfidence": "LOW",
-      "regularMarketChangePercent": 0.0,
-      "regularMarketPrice": 15.9763,
-      "shortName": "GREAT WEST LIFECO INC 4.85% PRF",
-      "longName": "Great-West Lifeco Inc",
-      "regularMarketTime": 1767387600,
-      "exchange": "PNK",
-      "messageBoardId": "finmb_875545",
-      "exchangeTimezoneName": "America/New_York",
-      "exchangeTimezoneShortName": "EST",
-      "gmtOffSetMilliseconds": -18000000,
-      "market": "us_market",
-      "esgPopulated": false,
-      "fiftyDayAverageChange": 0.31172848,
-      "fiftyDayAverageChangePercent": 0.019900223,
-      "twoHundredDayAverageChange": 0.8436308,
-      "twoHundredDayAverageChangePercent": 0.055748973,
-      "sourceInterval": 15,
-      "exchangeDataDelayedBy": 0,
-      "cryptoTradeable": false,
-      "hasPrePostMarketData": false,
-      "firstTradeDateMilliseconds": 1624627800000,
-      "regularMarketChange": 0.0,
-      "regularMarketDayRange": "14.5 - 14.5",
-      "fullExchangeName": "OTC Markets OTCPK",
-      "averageDailyVolume3Month": 22,
-      "fiftyTwoWeekLowChange": 1.8762999,
-      "fiftyTwoWeekLowChangePercent": 0.1330709,
-      "fiftyTwoWeekRange": "14.1 - 15.9907",
-      "fiftyTwoWeekHighChange": -0.0143995285,
-      "fiftyTwoWeekHighChangePercent": -0.00090049393,
-      "fiftyTwoWeekChangePercent": 13.307095,
-      "dividendDate": 1751241600,
-      "earningsTimestampStart": 1754424000,
-      "earningsTimestampEnd": 1754424000,
-      "earningsCallTimestampStart": 1762437600,
-      "earningsCallTimestampEnd": 1762437600,
-      "isEarningsDateEstimate": false,
-      "marketState": "CLOSED",
-      "displayName": "Great-West Lifeco"
-    }
+    "status": "error",
+    "message": "Too Many Requests. Rate limited. Try after a while."
   },
   "financials": {
     "income_statement": {
-      "status": "success",
-      "rows": 43,
-      "columns": [
-        "2024-12-31 00:00:00",
-        "2023-12-31 00:00:00",
-        "2022-12-31 00:00:00",
-        "2021-12-31 00:00:00"
-      ],
-      "data": [
-        {
-          
+      "status": "no_data"
+    },
+    "balance_sheet": {
+      "status": "no_data"
+    },
+    "cash_flow": {
+      "status": "no_data"
+    }
+  },
+  "options_data": {
+    "status": "error",
+    "error_message": "Too Many Requests. Rate limited. Try after a while."
+  },
+  "news_data": {
+    "news": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    },
+    "recommendations": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  },
+  "holders_data": {
+    "major_holders": {
+      "status": "error"
+    },
+    "institutional_holders": {
+      "status": "error"
+    }
+  },
+  "earnings_data": {
+    "earnings": {
+      "status": "error",
+      "message": "'NoneType' object has no attribute 'empty'"
+    },
+    "calendar": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  }
+}

@@ -1,88 +1,36 @@
 {
   "ticker": "IONQ-WT",
-  "timestamp": "2026-01-03T05:38:36.179900",
+  "timestamp": "2026-01-04T05:14:22.746686",
   "intraday_data": {
     "status": "success",
     "rows": 3,
     "data": [
       {
-        "Close": 33.380001068115234,
-        "High": 33.380001068115234,
-        "Low": 33.380001068115234,
-        "Open": 33.380001068115234,
-        "Volume": 0
+        "Close GPATW": 0.2676999866962433,
+        "High GPATW": 0.2676999866962433,
+        "Low GPATW": 0.2676999866962433,
+        "Open GPATW": 0.2676999866962433,
+        "Volume GPATW": 0
       },
       {
-        "Close": 33.84000015258789,
-        "High": 33.84000015258789,
-        "Low": 33.84000015258789,
-        "Open": 33.84000015258789,
-        "Volume": 223
+        "Close GPATW": 0.26969999074935913,
+        "High GPATW": 0.26969999074935913,
+        "Low GPATW": 0.2696000039577484,
+        "Open GPATW": 0.2696000039577484,
+        "Volume GPATW": 200
       },
       {
-        "Close": 35.54999923706055,
-        "High": 35.54999923706055,
-        "Low": 35.54999923706055,
-        "Open": 35.54999923706055,
-        "Volume": 119
+        "Close GPATW": 0.2558000087738037,
+        "High GPATW": 0.2558000087738037,
+        "Low GPATW": 0.2558000087738037,
+        "Open GPATW": 0.2558000087738037,
+        "Volume GPATW": 690
       }
     ]
   },
   "stock_info": {
-    "status": "success",
-    "data": {
-      "maxAge": 86400,
-      "priceHint": 2,
-      "previousClose": 33.3,
-      "open": 46.87,
-      "dayLow": 33.38,
-      "dayHigh": 35.55,
-      "regularMarketPreviousClose": 33.3,
-      "regularMarketOpen": 46.87,
-      "regularMarketDayLow": 33.38,
-      "regularMarketDayHigh": 35.55,
-      "volume": 988,
-      "regularMarketVolume": 988,
-      "bid": 48.77,
-      "ask": 49.13,
-      "bidSize": 3,
-      "askSize": 7,
-      "fiftyTwoWeekLow": 33.38,
-      "fiftyTwoWeekHigh": 35.55,
-      "currency": "USD",
-      "tradeable": false,
-      "quoteType": "EQUITY",
-      "symbol": "IONQ-WT",
-      "language": "en-US",
-      "region": "US",
-      "typeDisp": "Equity",
-      "quoteSourceName": "Delayed Quote",
-      "triggerable": true,
-      "customPriceAlertConfidence": "HIGH",
-      "regularMarketChangePercent": 6.7567573,
-      "regularMarketPrice": 35.55,
-      "marketState": "CLOSED",
-      "longName": "IonQ, Inc. WT",
-      "sourceInterval": 15,
-      "exchangeDataDelayedBy": 0,
-      "cryptoTradeable": false,
-      "regularMarketDayRange": "33.38 - 35.55",
-      "fullExchangeName": "NYSE",
-      "fiftyTwoWeekLowChange": 2.1699982,
-      "fiftyTwoWeekLowChangePercent": 0.06500893,
-      "fiftyTwoWeekRange": "33.38 - 35.55",
-      "fiftyTwoWeekHighChange": 0.0,
-      "fiftyTwoWeekHighChangePercent": 0.0,
-      "hasPrePostMarketData": true,
-      "regularMarketChange": 2.25,
-      "regularMarketTime": 1767386140,
-      "exchange": "NYQ",
-      "exchangeTimezoneName": "America/New_York",
-      "exchangeTimezoneShortName": "EST",
-      "gmtOffSetMilliseconds": -18000000,
-      "market": "us_market",
-      "esgPopulated": false
-    }
+    "status": "error",
+    "message": "Too Many Requests. Rate limited. Try after a while."
   },
   "financials": {
     "income_statement": {
@@ -96,22 +44,25 @@
     }
   },
   "options_data": {
-    "expirations": []
+    "status": "error",
+    "error_message": "Too Many Requests. Rate limited. Try after a while."
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   },
   "holders_data": {
     "major_holders": {
-      "status": "no_data"
+      "status": "error"
     },
     "institutional_holders": {
-      "status": "no_data"
+      "status": "error"
     }
   },
   "earnings_data": {
@@ -121,7 +72,7 @@
     },
     "calendar": {
       "status": "error",
-      "message": "'dict' object has no attribute 'empty'"
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   }
 }

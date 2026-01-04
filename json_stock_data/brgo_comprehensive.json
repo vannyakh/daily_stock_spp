@@ -1,94 +1,55 @@
 {
   "ticker": "BRGO",
-  "timestamp": "2026-01-03T05:21:27.761586",
+  "timestamp": "2026-01-04T05:09:17.600432",
   "intraday_data": {
     "status": "no_data",
     "message": "No intraday data available"
   },
   "stock_info": {
-    "status": "success",
-    "data": {
-      "language": "en-US",
-      "region": "US",
-      "quoteType": "EQUITY",
-      "typeDisp": "Equity",
-      "quoteSourceName": "Delayed Quote",
-      "triggerable": false,
-      "customPriceAlertConfidence": "LOW",
-      "hasPrePostMarketData": false,
-      "firstTradeDateMilliseconds": 1253280600000,
-      "priceHint": 4,
-      "currency": "USD",
-      "regularMarketChange": 0.0,
-      "regularMarketDayHigh": 0.0001,
-      "regularMarketDayRange": "1.0E-4 - 1.0E-4",
-      "regularMarketDayLow": 0.0001,
-      "regularMarketVolume": 300000,
-      "regularMarketPreviousClose": 0.0001,
-      "bid": 0.0,
-      "ask": 0.0001,
-      "bidSize": 0,
-      "askSize": 0,
-      "fullExchangeName": "OTC Markets OTCPK",
-      "financialCurrency": "USD",
-      "regularMarketOpen": 0.0001,
-      "averageDailyVolume3Month": 310,
-      "averageDailyVolume10Day": 0,
-      "epsTrailingTwelveMonths": 0.02,
-      "sharesOutstanding": 2898329407,
-      "bookValue": 0.001,
-      "fiftyDayAverage": 0.0001,
-      "fiftyDayAverageChange": 0.0,
-      "fiftyDayAverageChangePercent": 0.0,
-      "twoHundredDayAverage": 9.675e-05,
-      "twoHundredDayAverageChange": 3.2499956e-06,
-      "twoHundredDayAverageChangePercent": 0.033591684,
-      "marketCap": 289833,
-      "priceToBook": 0.099999994,
-      "sourceInterval": 15,
-      "exchangeDataDelayedBy": 0,
-      "tradeable": false,
-      "cryptoTradeable": false,
-      "regularMarketTime": 1767387600,
-      "exchange": "PNK",
-      "messageBoardId": "finmb_35576129",
-      "exchangeTimezoneName": "America/New_York",
-      "exchangeTimezoneShortName": "EST",
-      "gmtOffSetMilliseconds": -18000000,
-      "market": "us_market",
-      "esgPopulated": false,
-      "shortName": "Bergio International, Inc.",
-      "longName": "Bergio International, Inc.",
-      "marketState": "CLOSED",
-      "fiftyTwoWeekLowChange": 9e-05,
-      "fiftyTwoWeekLowChangePercent": 9.0,
-      "fiftyTwoWeekRange": "1.0E-5 - 1.0E-4",
-      "fiftyTwoWeekHighChange": 0.0,
-      "fiftyTwoWeekHighChangePercent": 0.0,
-      "fiftyTwoWeekLow": 1e-05,
-      "fiftyTwoWeekHigh": 0.0001,
-      "fiftyTwoWeekChangePercent": 0.0,
-      "dividendDate": 1569542400,
-      "earningsTimestampStart": 1593169140,
-      "earningsTimestampEnd": 1593169140,
-      "trailingAnnualDividendRate": 0.0,
-      "trailingPE": 0.005,
-      "trailingAnnualDividendYield": 0.0,
-      "regularMarketChangePercent": 0.0,
-      "regularMarketPrice": 0.0001,
-      "displayName": "Bergio",
-      "symbol": "BRGO"
-    }
+    "status": "error",
+    "message": "Too Many Requests. Rate limited. Try after a while."
   },
   "financials": {
     "income_statement": {
-      "status": "success",
-      "rows": 51,
-      "columns": [
-        "2023-12-31 00:00:00",
-        "2022-12-31 00:00:00",
-        "2021-12-31 00:00:00"
-      ],
-      "data": [
-        {
-          
+      "status": "no_data"
+    },
+    "balance_sheet": {
+      "status": "no_data"
+    },
+    "cash_flow": {
+      "status": "no_data"
+    }
+  },
+  "options_data": {
+    "status": "error",
+    "error_message": "Too Many Requests. Rate limited. Try after a while."
+  },
+  "news_data": {
+    "news": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    },
+    "recommendations": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  },
+  "holders_data": {
+    "major_holders": {
+      "status": "error"
+    },
+    "institutional_holders": {
+      "status": "error"
+    }
+  },
+  "earnings_data": {
+    "earnings": {
+      "status": "error",
+      "message": "'NoneType' object has no attribute 'empty'"
+    },
+    "calendar": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  }
+}

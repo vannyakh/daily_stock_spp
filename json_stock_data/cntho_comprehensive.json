@@ -1,9 +1,46 @@
 {
   "ticker": "CNTHO",
-  "timestamp": "2026-01-03T05:29:03.276141",
+  "timestamp": "2026-01-04T05:11:36.442921",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 5,
+    "data": [
+      {
+        "Close CHMI-PB": 23.489999771118164,
+        "High CHMI-PB": 23.489999771118164,
+        "Low CHMI-PB": 23.489999771118164,
+        "Open CHMI-PB": 23.489999771118164,
+        "Volume CHMI-PB": 0
+      },
+      {
+        "Close CHMI-PB": 23.479999542236328,
+        "High CHMI-PB": 23.479999542236328,
+        "Low CHMI-PB": 23.479999542236328,
+        "Open CHMI-PB": 23.479999542236328,
+        "Volume CHMI-PB": 111
+      },
+      {
+        "Close CHMI-PB": 23.479999542236328,
+        "High CHMI-PB": 23.479999542236328,
+        "Low CHMI-PB": 23.479999542236328,
+        "Open CHMI-PB": 23.479999542236328,
+        "Volume CHMI-PB": 208
+      },
+      {
+        "Close CHMI-PB": 23.56999969482422,
+        "High CHMI-PB": 23.56999969482422,
+        "Low CHMI-PB": 23.56999969482422,
+        "Open CHMI-PB": 23.56999969482422,
+        "Volume CHMI-PB": 241
+      },
+      {
+        "Close CHMI-PB": 23.56999969482422,
+        "High CHMI-PB": 23.56999969482422,
+        "Low CHMI-PB": 23.56999969482422,
+        "Open CHMI-PB": 23.56999969482422,
+        "Volume CHMI-PB": 100
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -26,7 +63,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

@@ -1,9 +1,39 @@
 {
   "ticker": "YZRY",
-  "timestamp": "2026-01-03T05:22:48.232346",
+  "timestamp": "2026-01-04T05:09:38.959236",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 4,
+    "data": [
+      {
+        "Close LOKV": 10.300000190734863,
+        "High LOKV": 10.300000190734863,
+        "Low LOKV": 10.300000190734863,
+        "Open LOKV": 10.300000190734863,
+        "Volume LOKV": 129491
+      },
+      {
+        "Close LOKV": 10.300000190734863,
+        "High LOKV": 10.300000190734863,
+        "Low LOKV": 10.300000190734863,
+        "Open LOKV": 10.300000190734863,
+        "Volume LOKV": 149384
+      },
+      {
+        "Close LOKV": 10.300000190734863,
+        "High LOKV": 10.300000190734863,
+        "Low LOKV": 10.300000190734863,
+        "Open LOKV": 10.300000190734863,
+        "Volume LOKV": 0
+      },
+      {
+        "Close LOKV": 10.300000190734863,
+        "High LOKV": 10.300000190734863,
+        "Low LOKV": 10.300000190734863,
+        "Open LOKV": 10.300000190734863,
+        "Volume LOKV": 20020
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -26,7 +56,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

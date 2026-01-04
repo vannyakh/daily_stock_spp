@@ -1,122 +1,55 @@
 {
   "ticker": "UKOMW",
-  "timestamp": "2026-01-03T05:37:54.273952",
+  "timestamp": "2026-01-04T05:14:16.408659",
   "intraday_data": {
     "status": "no_data",
     "message": "No intraday data available"
   },
   "stock_info": {
-    "status": "success",
-    "data": {
-      "address1": "Building 1",
-      "address2": "4th Floor No. 2 Dongsihuan North Road Chaoyang District",
-      "city": "Beijing",
-      "zip": "100016",
-      "country": "China",
-      "phone": "86 10 6506 7789",
-      "website": "https://www.ucommune.com",
-      "industry": "Real Estate Services",
-      "industryKey": "real-estate-services",
-      "industryDisp": "Real Estate Services",
-      "sector": "Real Estate",
-      "sectorKey": "real-estate",
-      "sectorDisp": "Real Estate",
-      "longBusinessSummary": "Ucommune International Ltd manages and provides agile office spaces in China. The company operates self-operated and asset-light models. It also provides individual services, such as catering, fitness, healthcare, training, and entertainment; general corporate services, such as corporate secretary, human resources, legal, finance, IT support, and tax services; incubation and corporate venturing services; design and build services; advertising and branding services; and related services. The company serves individuals and enterprises. It operates under the Ucommune brand. Ucommune International Ltd was founded in 2015 and is based in Beijing, the People's Republic of China.",
-      "fullTimeEmployees": 127,
-      "maxAge": 86400,
-      "priceHint": 4,
-      "previousClose": 0.0005,
-      "open": 0.004,
-      "dayLow": 0.0007,
-      "dayHigh": 0.0019,
-      "regularMarketPreviousClose": 0.0005,
-      "regularMarketOpen": 0.004,
-      "regularMarketDayLow": 0.0007,
-      "regularMarketDayHigh": 0.0019,
-      "beta": 0.973,
-      "volume": 410983,
-      "regularMarketVolume": 410983,
-      "bid": 0.0,
-      "ask": 0.0,
-      "bidSize": 0,
-      "askSize": 0,
-      "fiftyTwoWeekLow": 0.0007,
-      "fiftyTwoWeekHigh": 0.0019,
-      "trailingAnnualDividendRate": 0.0,
-      "trailingAnnualDividendYield": 0.0,
-      "currency": "USD",
-      "tradeable": false,
-      "profitMargins": -0.22288999,
-      "floatShares": 2047543,
-      "bookValue": 43.47,
-      "priceToBook": 1.6103058e-05,
-      "netIncomeToCommon": -31580000,
-      "SandP52WeekChange": 0.14561749,
-      "quoteType": "EQUITY",
-      "currentPrice": 0.0007,
-      "recommendationKey": "none",
-      "totalCash": 62565000,
-      "totalCashPerShare": 28.504,
-      "ebitda": -28619500,
-      "totalDebt": 9081000,
-      "quickRatio": 0.725,
-      "currentRatio": 0.943,
-      "totalRevenue": 146599008,
-      "debtToEquity": 6.805,
-      "revenuePerShare": 79.067,
-      "returnOnAssets": -0.06137,
-      "returnOnEquity": -0.41881,
-      "grossProfits": 86701000,
-      "revenueGrowth": -0.454,
-      "grossMargins": 0.59142,
-      "ebitdaMargins": -0.19522,
-      "operatingMargins": -0.16182,
-      "financialCurrency": "CNY",
-      "symbol": "UKOMW",
-      "language": "en-US",
-      "region": "US",
-      "typeDisp": "Equity",
-      "quoteSourceName": "Delayed Quote",
-      "triggerable": true,
-      "customPriceAlertConfidence": "HIGH",
-      "marketState": "CLOSED",
-      "messageBoardId": "finmb_647724666",
-      "exchangeTimezoneName": "America/New_York",
-      "exchangeTimezoneShortName": "EST",
-      "gmtOffSetMilliseconds": -18000000,
-      "market": "us_market",
-      "esgPopulated": false,
-      "shortName": "Ucommune International Ltd",
-      "longName": "Ucommune International Ltd",
-      "regularMarketChange": 0.00019999995,
-      "regularMarketDayRange": "7.0E-4 - 0.0019",
-      "fullExchangeName": "NasdaqCM",
-      "fiftyTwoWeekLowChange": 0.0,
-      "fiftyTwoWeekLowChangePercent": 0.0,
-      "fiftyTwoWeekRange": "7.0E-4 - 0.0019",
-      "fiftyTwoWeekHighChange": -0.0012,
-      "fiftyTwoWeekHighChangePercent": -0.631579,
-      "sourceInterval": 15,
-      "exchangeDataDelayedBy": 0,
-      "cryptoTradeable": false,
-      "regularMarketTime": 1763498850,
-      "exchange": "NCM",
-      "hasPrePostMarketData": true,
-      "regularMarketChangePercent": 39.99999,
-      "regularMarketPrice": 0.0007,
-      "displayName": "Ucommune"
-    }
+    "status": "error",
+    "message": "Too Many Requests. Rate limited. Try after a while."
   },
   "financials": {
     "income_statement": {
-      "status": "success",
-      "rows": 48,
-      "columns": [
-        "2024-12-31 00:00:00",
-        "2023-12-31 00:00:00",
-        "2022-12-31 00:00:00",
-        "2021-12-31 00:00:00"
-      ],
-      "data": [
-        {
-          
+      "status": "no_data"
+    },
+    "balance_sheet": {
+      "status": "no_data"
+    },
+    "cash_flow": {
+      "status": "no_data"
+    }
+  },
+  "options_data": {
+    "status": "error",
+    "error_message": "Too Many Requests. Rate limited. Try after a while."
+  },
+  "news_data": {
+    "news": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    },
+    "recommendations": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  },
+  "holders_data": {
+    "major_holders": {
+      "status": "error"
+    },
+    "institutional_holders": {
+      "status": "error"
+    }
+  },
+  "earnings_data": {
+    "earnings": {
+      "status": "error",
+      "message": "'NoneType' object has no attribute 'empty'"
+    },
+    "calendar": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  }
+}

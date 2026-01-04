@@ -1,81 +1,13 @@
 {
   "ticker": "AAS",
-  "timestamp": "2026-01-03T05:23:18.988701",
+  "timestamp": "2026-01-04T05:09:50.216118",
   "intraday_data": {
-    "status": "success",
-    "rows": 5,
-    "data": [
-      {
-        "Close RYOJ": 2.9600000381469727,
-        "High RYOJ": 2.9600000381469727,
-        "Low RYOJ": 2.9600000381469727,
-        "Open RYOJ": 2.9600000381469727,
-        "Volume RYOJ": 0
-      },
-      {
-        "Close RYOJ": 2.9600000381469727,
-        "High RYOJ": 2.9600000381469727,
-        "Low RYOJ": 2.9600000381469727,
-        "Open RYOJ": 2.9600000381469727,
-        "Volume RYOJ": 544
-      },
-      {
-        "Close RYOJ": 2.939199924468994,
-        "High RYOJ": 2.939199924468994,
-        "Low RYOJ": 2.939199924468994,
-        "Open RYOJ": 2.939199924468994,
-        "Volume RYOJ": 209
-      },
-      {
-        "Close RYOJ": 2.944999933242798,
-        "High RYOJ": 2.944999933242798,
-        "Low RYOJ": 2.944999933242798,
-        "Open RYOJ": 2.944999933242798,
-        "Volume RYOJ": 205
-      },
-      {
-        "Close RYOJ": 2.9600000381469727,
-        "High RYOJ": 2.9600000381469727,
-        "Low RYOJ": 2.9600000381469727,
-        "Open RYOJ": 2.9600000381469727,
-        "Volume RYOJ": 158
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
-    "status": "success",
-    "data": {
-      "quoteType": "MUTUALFUND",
-      "symbol": "AAS",
-      "language": "en-US",
-      "region": "US",
-      "typeDisp": "Fund",
-      "quoteSourceName": "Delayed Quote",
-      "triggerable": false,
-      "customPriceAlertConfidence": "NONE",
-      "firstTradeDateMilliseconds": 946909800000,
-      "priceHint": 2,
-      "fullExchangeName": "YHD",
-      "fiftyTwoWeekRange": "124.37 - 124.37",
-      "fiftyTwoWeekLow": 124.37,
-      "fiftyTwoWeekHigh": 124.37,
-      "fiftyTwoWeekChangePercent": 0.0,
-      "sourceInterval": 15,
-      "exchangeDataDelayedBy": 0,
-      "regularMarketTime": 1561759658,
-      "exchange": "YHD",
-      "exchangeTimezoneName": "America/New_York",
-      "exchangeTimezoneShortName": "EST",
-      "gmtOffSetMilliseconds": -18000000,
-      "market": "us_market",
-      "esgPopulated": false,
-      "marketState": "CLOSED",
-      "longName": "Antharas Inc",
-      "tradeable": false,
-      "cryptoTradeable": false,
-      "hasPrePostMarketData": false,
-      "displayName": "Antharas"
-    }
+    "status": "error",
+    "message": "Too Many Requests. Rate limited. Try after a while."
   },
   "financials": {
     "income_statement": {
@@ -89,22 +21,25 @@
     }
   },
   "options_data": {
-    "expirations": []
+    "status": "error",
+    "error_message": "Too Many Requests. Rate limited. Try after a while."
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   },
   "holders_data": {
     "major_holders": {
-      "status": "no_data"
+      "status": "error"
     },
     "institutional_holders": {
-      "status": "no_data"
+      "status": "error"
     }
   },
   "earnings_data": {
@@ -114,7 +49,7 @@
     },
     "calendar": {
       "status": "error",
-      "message": "'dict' object has no attribute 'empty'"
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   }
 }

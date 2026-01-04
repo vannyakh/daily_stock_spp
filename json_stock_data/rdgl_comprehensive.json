@@ -1,65 +1,44 @@
 {
   "ticker": "RDGL",
-  "timestamp": "2026-01-03T05:06:09.769596",
+  "timestamp": "2026-01-04T05:03:18.403831",
   "intraday_data": {
     "status": "success",
-    "rows": 8,
+    "rows": 5,
     "data": [
       {
-        "Close": 0.060499999672174454,
-        "High": 0.06319999694824219,
-        "Low": 0.060499999672174454,
-        "Open": 0.06319999694824219,
-        "Volume": 0
+        "Close SOTK": 4.054999828338623,
+        "High SOTK": 4.054999828338623,
+        "Low SOTK": 4.054999828338623,
+        "Open SOTK": 4.054999828338623,
+        "Volume SOTK": 0
       },
       {
-        "Close": 0.06800000369548798,
-        "High": 0.06800000369548798,
-        "Low": 0.06800000369548798,
-        "Open": 0.06800000369548798,
-        "Volume": 10000
+        "Close SOTK": 4.066800117492676,
+        "High SOTK": 4.066800117492676,
+        "Low SOTK": 4.066800117492676,
+        "Open SOTK": 4.066800117492676,
+        "Volume SOTK": 216
       },
       {
-        "Close": 0.0658000037074089,
-        "High": 0.0658000037074089,
-        "Low": 0.0658000037074089,
-        "Open": 0.0658000037074089,
-        "Volume": 30000
+        "Close SOTK": 4.100100040435791,
+        "High SOTK": 4.11359977722168,
+        "Low SOTK": 4.100100040435791,
+        "Open SOTK": 4.110000133514404,
+        "Volume SOTK": 1001
       },
       {
-        "Close": 0.06599999964237213,
-        "High": 0.06599999964237213,
-        "Low": 0.06599999964237213,
-        "Open": 0.06599999964237213,
-        "Volume": 600
+        "Close SOTK": 4.139999866485596,
+        "High SOTK": 4.139999866485596,
+        "Low SOTK": 4.139999866485596,
+        "Open SOTK": 4.139999866485596,
+        "Volume SOTK": 462
       },
       {
-        "Close": 0.06599999964237213,
-        "High": 0.06599999964237213,
-        "Low": 0.06589999794960022,
-        "Open": 0.06589999794960022,
-        "Volume": 25303
-      },
-      {
-        "Close": 0.06849999725818634,
-        "High": 0.06849999725818634,
-        "Low": 0.06849999725818634,
-        "Open": 0.06849999725818634,
-        "Volume": 10000
-      },
-      {
-        "Close": 0.0689999982714653,
-        "High": 0.0689999982714653,
-        "Low": 0.06849999725818634,
-        "Open": 0.06849999725818634,
-        "Volume": 45000
-      },
-      {
-        "Close": 0.06909999996423721,
-        "High": 0.06909999996423721,
-        "Low": 0.06909999996423721,
-        "Open": 0.06909999996423721,
-        "Volume": 400
+        "Close SOTK": 4.099999904632568,
+        "High SOTK": 4.099999904632568,
+        "Low SOTK": 4.099999904632568,
+        "Open SOTK": 4.099999904632568,
+        "Volume SOTK": 151
       }
     ]
   },
@@ -69,14 +48,44 @@
   },
   "financials": {
     "income_statement": {
-      "status": "success",
-      "rows": 46,
-      "columns": [
-        "2024-12-31 00:00:00",
-        "2023-12-31 00:00:00",
-        "2022-12-31 00:00:00",
-        "2021-12-31 00:00:00"
-      ],
-      "data": [
-        {
-          
+      "status": "no_data"
+    },
+    "balance_sheet": {
+      "status": "no_data"
+    },
+    "cash_flow": {
+      "status": "no_data"
+    }
+  },
+  "options_data": {
+    "status": "error",
+    "error_message": "Too Many Requests. Rate limited. Try after a while."
+  },
+  "news_data": {
+    "news": {
+      "status": "no_data"
+    },
+    "recommendations": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  },
+  "holders_data": {
+    "major_holders": {
+      "status": "error"
+    },
+    "institutional_holders": {
+      "status": "error"
+    }
+  },
+  "earnings_data": {
+    "earnings": {
+      "status": "error",
+      "message": "'NoneType' object has no attribute 'empty'"
+    },
+    "calendar": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  }
+}

@@ -1,113 +1,56 @@
 {
   "ticker": "SIMAW",
-  "timestamp": "2026-01-03T05:32:23.215686",
+  "timestamp": "2026-01-04T05:12:37.608148",
   "intraday_data": {
     "status": "success",
     "rows": 0,
     "data": []
   },
   "stock_info": {
-    "status": "success",
-    "data": {
-      "address1": "78 SW 7th Street",
-      "address2": "Suite 500",
-      "city": "Miami",
-      "state": "FL",
-      "zip": "33130",
-      "country": "United States",
-      "phone": "786 753 9305",
-      "website": "https://www.simspacs.io/spacs/sim-acquisition-corp",
-      "industry": "",
-      "industryKey": "",
-      "sector": "",
-      "sectorKey": "",
-      "longBusinessSummary": "SIM Acquisition Corp. I does not have significant operations. It focuses on effecting a merger, share exchange, asset acquisition, share purchase, reorganization or similar business combination with one or more businesses in the healthcare sectors. The company was incorporated in 2024 and is based in Miami, Florida. Sim Acquisition Corp. I is a subsidiary of SIM Sponsor 1 LLC.",
-      "maxAge": 86400,
-      "priceHint": 4,
-      "previousClose": 0.2154,
-      "open": 0.2719,
-      "dayLow": 0.2153,
-      "dayHigh": 0.27,
-      "regularMarketPreviousClose": 0.2154,
-      "regularMarketOpen": 0.2719,
-      "regularMarketDayLow": 0.2153,
-      "regularMarketDayHigh": 0.27,
-      "volume": 1871,
-      "regularMarketVolume": 1871,
-      "ask": 0.39,
-      "askSize": 2,
-      "fiftyTwoWeekLow": 0.2153,
-      "fiftyTwoWeekHigh": 0.27,
-      "trailingAnnualDividendRate": 0.0,
-      "trailingAnnualDividendYield": 0.0,
-      "currency": "USD",
-      "tradeable": false,
-      "profitMargins": 0.0,
-      "floatShares": 20994707,
-      "bookValue": -0.344,
-      "earningsQuarterlyGrowth": -0.045,
-      "netIncomeToCommon": 9203602,
-      "SandP52WeekChange": 0.14561749,
-      "quoteType": "EQUITY",
-      "currentPrice": 0.2154,
-      "recommendationKey": "none",
-      "totalCash": 169145,
-      "totalCashPerShare": 0.006,
-      "totalDebt": 0,
-      "quickRatio": 3.89,
-      "currentRatio": 7.684,
-      "operatingCashflow": -690941,
-      "earningsGrowth": -0.126,
-      "grossMargins": 0.0,
-      "ebitdaMargins": 0.0,
-      "operatingMargins": 0.0,
-      "financialCurrency": "USD",
-      "symbol": "SIMAW",
-      "language": "en-US",
-      "region": "US",
-      "typeDisp": "Equity",
-      "quoteSourceName": "Delayed Quote",
-      "triggerable": true,
-      "customPriceAlertConfidence": "HIGH",
-      "hasPrePostMarketData": true,
-      "regularMarketChange": 0.0,
-      "regularMarketDayRange": "0.2153 - 0.27",
-      "fullExchangeName": "NasdaqGM",
-      "fiftyTwoWeekLowChange": 0.00010000169,
-      "fiftyTwoWeekLowChangePercent": 0.00046447606,
-      "fiftyTwoWeekRange": "0.2153 - 0.27",
-      "fiftyTwoWeekHighChange": -0.054600015,
-      "fiftyTwoWeekHighChangePercent": -0.20222227,
-      "marketState": "CLOSED",
-      "regularMarketChangePercent": 0.0,
-      "regularMarketPrice": 0.2154,
-      "regularMarketTime": 1767214800,
-      "exchange": "NGM",
-      "messageBoardId": "finmb_1880510824",
-      "exchangeTimezoneName": "America/New_York",
-      "exchangeTimezoneShortName": "EST",
-      "gmtOffSetMilliseconds": -18000000,
-      "market": "us_market",
-      "esgPopulated": false,
-      "shortName": "SIM Acquisition Corp. I Warrant",
-      "longName": "SIM Acquisition Corp. I",
-      "priceToBook": -0.62616277,
-      "sourceInterval": 15,
-      "exchangeDataDelayedBy": 0,
-      "ipoExpectedDate": "2024-08-30",
-      "cryptoTradeable": false
-    }
+    "status": "error",
+    "message": "Too Many Requests. Rate limited. Try after a while."
   },
   "financials": {
     "income_statement": {
       "status": "no_data"
     },
     "balance_sheet": {
-      "status": "success",
-      "rows": 30,
-      "columns": [
-        "2024-12-31 00:00:00"
-      ],
-      "data": [
-        {
-          
+      "status": "no_data"
+    },
+    "cash_flow": {
+      "status": "no_data"
+    }
+  },
+  "options_data": {
+    "status": "error",
+    "error_message": "Too Many Requests. Rate limited. Try after a while."
+  },
+  "news_data": {
+    "news": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    },
+    "recommendations": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  },
+  "holders_data": {
+    "major_holders": {
+      "status": "error"
+    },
+    "institutional_holders": {
+      "status": "error"
+    }
+  },
+  "earnings_data": {
+    "earnings": {
+      "status": "error",
+      "message": "'NoneType' object has no attribute 'empty'"
+    },
+    "calendar": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  }
+}

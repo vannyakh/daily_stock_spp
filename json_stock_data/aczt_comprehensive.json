@@ -1,67 +1,78 @@
 {
   "ticker": "ACZT",
-  "timestamp": "2026-01-03T05:35:02.853061",
+  "timestamp": "2026-01-04T05:13:18.417005",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 9,
+    "data": [
+      {
+        "Close PDPA": 25.280000686645508,
+        "High PDPA": 25.280000686645508,
+        "Low PDPA": 25.280000686645508,
+        "Open PDPA": 25.280000686645508,
+        "Volume PDPA": 0
+      },
+      {
+        "Close PDPA": 25.280000686645508,
+        "High PDPA": 25.280000686645508,
+        "Low PDPA": 25.280000686645508,
+        "Open PDPA": 25.280000686645508,
+        "Volume PDPA": 370
+      },
+      {
+        "Close PDPA": 25.274999618530273,
+        "High PDPA": 25.274999618530273,
+        "Low PDPA": 25.274999618530273,
+        "Open PDPA": 25.274999618530273,
+        "Volume PDPA": 270
+      },
+      {
+        "Close PDPA": 25.200000762939453,
+        "High PDPA": 25.209999084472656,
+        "Low PDPA": 25.200000762939453,
+        "Open PDPA": 25.209999084472656,
+        "Volume PDPA": 377
+      },
+      {
+        "Close PDPA": 25.16010093688965,
+        "High PDPA": 25.16010093688965,
+        "Low PDPA": 25.16010093688965,
+        "Open PDPA": 25.16010093688965,
+        "Volume PDPA": 500
+      },
+      {
+        "Close PDPA": 25.200000762939453,
+        "High PDPA": 25.200000762939453,
+        "Low PDPA": 25.200000762939453,
+        "Open PDPA": 25.200000762939453,
+        "Volume PDPA": 322
+      },
+      {
+        "Close PDPA": 25.200000762939453,
+        "High PDPA": 25.200000762939453,
+        "Low PDPA": 25.200000762939453,
+        "Open PDPA": 25.200000762939453,
+        "Volume PDPA": 100
+      },
+      {
+        "Close PDPA": 25.15999984741211,
+        "High PDPA": 25.15999984741211,
+        "Low PDPA": 25.15999984741211,
+        "Open PDPA": 25.15999984741211,
+        "Volume PDPA": 100
+      },
+      {
+        "Close PDPA": 25.200000762939453,
+        "High PDPA": 25.200000762939453,
+        "Low PDPA": 25.200000762939453,
+        "Open PDPA": 25.200000762939453,
+        "Volume PDPA": 100
+      }
+    ]
   },
   "stock_info": {
-    "status": "success",
-    "data": {
-      "quoteType": "MUTUALFUND",
-      "symbol": "ACZT",
-      "language": "en-US",
-      "region": "US",
-      "typeDisp": "Fund",
-      "quoteSourceName": "Delayed Quote",
-      "triggerable": false,
-      "customPriceAlertConfidence": "NONE",
-      "currency": "USD",
-      "exchange": "PNK",
-      "messageBoardId": "finmb_1865874473",
-      "exchangeTimezoneName": "America/New_York",
-      "exchangeTimezoneShortName": "EST",
-      "gmtOffSetMilliseconds": -18000000,
-      "market": "us_market",
-      "esgPopulated": false,
-      "regularMarketChangePercent": 0.0,
-      "regularMarketPrice": 0.58,
-      "trailingAnnualDividendYield": 0.0,
-      "bookValue": -0.002,
-      "fiftyDayAverage": 0.58,
-      "fiftyDayAverageChange": 0.0,
-      "fiftyDayAverageChangePercent": 0.0,
-      "twoHundredDayAverage": 0.58,
-      "twoHundredDayAverageChange": 0.0,
-      "twoHundredDayAverageChangePercent": 0.0,
-      "priceToBook": -289.99997,
-      "sourceInterval": 15,
-      "exchangeDataDelayedBy": 0,
-      "tradeable": false,
-      "cryptoTradeable": false,
-      "hasPrePostMarketData": false,
-      "firstTradeDateMilliseconds": 1735655400000,
-      "priceHint": 4,
-      "regularMarketChange": 0.0,
-      "regularMarketPreviousClose": 4.0889e-10,
-      "fullExchangeName": "OTC Markets OTCPK",
-      "financialCurrency": "USD",
-      "averageDailyVolume3Month": 2500,
-      "averageDailyVolume10Day": 2500,
-      "fiftyTwoWeekLowChange": 0.0,
-      "fiftyTwoWeekLowChangePercent": 0.0,
-      "fiftyTwoWeekRange": "0.58 - 0.58",
-      "fiftyTwoWeekHighChange": 0.0,
-      "fiftyTwoWeekHighChangePercent": 0.0,
-      "fiftyTwoWeekLow": 0.58,
-      "fiftyTwoWeekHigh": 0.58,
-      "fiftyTwoWeekChangePercent": 0.0,
-      "trailingAnnualDividendRate": 0.0,
-      "longName": "Huineng Technology Corporation",
-      "marketState": "CLOSED",
-      "regularMarketTime": 1735675200,
-      "displayName": "Huineng Technology"
-    }
+    "status": "error",
+    "message": "Too Many Requests. Rate limited. Try after a while."
   },
   "financials": {
     "income_statement": {
@@ -75,22 +86,25 @@
     }
   },
   "options_data": {
-    "expirations": []
+    "status": "error",
+    "error_message": "Too Many Requests. Rate limited. Try after a while."
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   },
   "holders_data": {
     "major_holders": {
-      "status": "no_data"
+      "status": "error"
     },
     "institutional_holders": {
-      "status": "no_data"
+      "status": "error"
     }
   },
   "earnings_data": {
@@ -100,7 +114,7 @@
     },
     "calendar": {
       "status": "error",
-      "message": "'dict' object has no attribute 'empty'"
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   }
 }

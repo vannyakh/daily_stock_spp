@@ -1,131 +1,55 @@
 {
   "ticker": "ENGNW",
-  "timestamp": "2026-01-03T05:45:51.280652",
+  "timestamp": "2026-01-04T05:16:39.212474",
   "intraday_data": {
-    "status": "success",
-    "rows": 1,
-    "data": [
-      {
-        "Close CCGWW": 0.025499999523162842,
-        "High CCGWW": 0.025499999523162842,
-        "Low CCGWW": 0.025499999523162842,
-        "Open CCGWW": 0.025499999523162842,
-        "Volume CCGWW": 0
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
-    "status": "success",
-    "data": {
-      "address1": "4868 Rue Levy",
-      "address2": "Suite 220",
-      "city": "Montreal",
-      "state": "QC",
-      "zip": "H4R 2P1",
-      "country": "Canada",
-      "phone": "514 332 4888",
-      "website": "https://www.engene.com",
-      "industry": "",
-      "industryKey": "",
-      "sector": "",
-      "sectorKey": "",
-      "longBusinessSummary": "enGene Holdings Inc., through its subsidiary enGene, Inc., operates as a clinical-stage biotechnology company in Canada. The company develops genetic medicines to help patients suffering from bladder cancer. Its lead product candidate is detalimogene voraplasmid, a monotherapy for the treatment of non-muscle invasive bladder cancer (NMIBC). Its pipeline includes LEGEND, which is in Phase 2. enGene Holdings Inc. is based in Montreal, Canada.",
-      "fullTimeEmployees": 81,
-      "compensationAsOfEpochDate": 1735603200,
-      "maxAge": 86400,
-      "priceHint": 4,
-      "previousClose": 3.0,
-      "open": 2.2,
-      "dayLow": 2.96,
-      "dayHigh": 3.0,
-      "regularMarketPreviousClose": 3.0,
-      "regularMarketOpen": 2.2,
-      "regularMarketDayLow": 2.96,
-      "regularMarketDayHigh": 3.0,
-      "beta": -0.268,
-      "volume": 380,
-      "regularMarketVolume": 380,
-      "bid": 0.0,
-      "ask": 0.0,
-      "bidSize": 0,
-      "askSize": 0,
-      "fiftyTwoWeekLow": 2.96,
-      "fiftyTwoWeekHigh": 3.0,
-      "trailingAnnualDividendRate": 0.0,
-      "trailingAnnualDividendYield": 0.0,
-      "currency": "USD",
-      "tradeable": false,
-      "profitMargins": 0.0,
-      "floatShares": 32831192,
-      "bookValue": 3.224,
-      "priceToBook": 0.9305211,
-      "netIncomeToCommon": -117302000,
-      "SandP52WeekChange": 0.14561749,
-      "quoteType": "EQUITY",
-      "currentPrice": 3.0,
-      "recommendationKey": "none",
-      "totalCash": 193736000,
-      "totalCashPerShare": 2.892,
-      "ebitda": -122656000,
-      "totalDebt": 31795000,
-      "quickRatio": 6.128,
-      "currentRatio": 6.298,
-      "debtToEquity": 18.958,
-      "returnOnAssets": -0.28904,
-      "returnOnEquity": -0.53279996,
-      "freeCashflow": -60380376,
-      "operatingCashflow": -99239000,
-      "grossMargins": 0.0,
-      "ebitdaMargins": 0.0,
-      "operatingMargins": 0.0,
-      "financialCurrency": "USD",
-      "symbol": "ENGNW",
-      "language": "en-US",
-      "region": "US",
-      "typeDisp": "Equity",
-      "quoteSourceName": "Delayed Quote",
-      "triggerable": true,
-      "customPriceAlertConfidence": "HIGH",
-      "regularMarketChange": 0.0,
-      "regularMarketDayRange": "2.96 - 3.0",
-      "fullExchangeName": "NasdaqCM",
-      "fiftyTwoWeekLowChange": 0.03999996,
-      "fiftyTwoWeekLowChangePercent": 0.013513501,
-      "fiftyTwoWeekRange": "2.96 - 3.0",
-      "fiftyTwoWeekHighChange": 0.0,
-      "fiftyTwoWeekHighChangePercent": 0.0,
-      "exchange": "NCM",
-      "messageBoardId": "finmb_9516520",
-      "exchangeTimezoneName": "America/New_York",
-      "exchangeTimezoneShortName": "EST",
-      "gmtOffSetMilliseconds": -18000000,
-      "market": "us_market",
-      "esgPopulated": false,
-      "regularMarketChangePercent": 0.0,
-      "regularMarketPrice": 3.0,
-      "marketState": "CLOSED",
-      "sourceInterval": 15,
-      "exchangeDataDelayedBy": 0,
-      "ipoExpectedDate": "2023-11-01",
-      "cryptoTradeable": false,
-      "shortName": "enGene Holdings Inc. Warrants",
-      "longName": "enGene Holdings Inc.",
-      "hasPrePostMarketData": true,
-      "regularMarketTime": 1767105404,
-      "displayName": "enGene"
-    }
+    "status": "error",
+    "message": "Too Many Requests. Rate limited. Try after a while."
   },
   "financials": {
     "income_statement": {
-      "status": "success",
-      "rows": 43,
-      "columns": [
-        "2025-10-31 00:00:00",
-        "2024-10-31 00:00:00",
-        "2023-10-31 00:00:00",
-        "2022-10-31 00:00:00",
-        "2021-10-31 00:00:00"
-      ],
-      "data": [
-        {
-          
+      "status": "no_data"
+    },
+    "balance_sheet": {
+      "status": "no_data"
+    },
+    "cash_flow": {
+      "status": "no_data"
+    }
+  },
+  "options_data": {
+    "status": "error",
+    "error_message": "Too Many Requests. Rate limited. Try after a while."
+  },
+  "news_data": {
+    "news": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    },
+    "recommendations": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  },
+  "holders_data": {
+    "major_holders": {
+      "status": "error"
+    },
+    "institutional_holders": {
+      "status": "error"
+    }
+  },
+  "earnings_data": {
+    "earnings": {
+      "status": "error",
+      "message": "'NoneType' object has no attribute 'empty'"
+    },
+    "calendar": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  }
+}

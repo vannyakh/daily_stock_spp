@@ -1,89 +1,78 @@
 {
   "ticker": "MNYWW",
-  "timestamp": "2026-01-03T05:35:04.816032",
+  "timestamp": "2026-01-04T05:13:18.797598",
   "intraday_data": {
     "status": "success",
-    "rows": 9,
+    "rows": 3,
     "data": [
       {
-        "Close PDPA": 25.280000686645508,
-        "High PDPA": 25.280000686645508,
-        "Low PDPA": 25.280000686645508,
-        "Open PDPA": 25.280000686645508,
-        "Volume PDPA": 0
+        "Close RMSGW": 0.04349999874830246,
+        "High RMSGW": 0.04349999874830246,
+        "Low RMSGW": 0.04349999874830246,
+        "Open RMSGW": 0.04349999874830246,
+        "Volume RMSGW": 0
       },
       {
-        "Close PDPA": 25.280000686645508,
-        "High PDPA": 25.280000686645508,
-        "Low PDPA": 25.280000686645508,
-        "Open PDPA": 25.280000686645508,
-        "Volume PDPA": 370
+        "Close RMSGW": 0.06880000233650208,
+        "High RMSGW": 0.06880000233650208,
+        "Low RMSGW": 0.06880000233650208,
+        "Open RMSGW": 0.06880000233650208,
+        "Volume RMSGW": 1391
       },
       {
-        "Close PDPA": 25.274999618530273,
-        "High PDPA": 25.274999618530273,
-        "Low PDPA": 25.274999618530273,
-        "Open PDPA": 25.274999618530273,
-        "Volume PDPA": 270
-      },
-      {
-        "Close PDPA": 25.200000762939453,
-        "High PDPA": 25.209999084472656,
-        "Low PDPA": 25.200000762939453,
-        "Open PDPA": 25.209999084472656,
-        "Volume PDPA": 377
-      },
-      {
-        "Close PDPA": 25.16010093688965,
-        "High PDPA": 25.16010093688965,
-        "Low PDPA": 25.16010093688965,
-        "Open PDPA": 25.16010093688965,
-        "Volume PDPA": 500
-      },
-      {
-        "Close PDPA": 25.200000762939453,
-        "High PDPA": 25.200000762939453,
-        "Low PDPA": 25.200000762939453,
-        "Open PDPA": 25.200000762939453,
-        "Volume PDPA": 322
-      },
-      {
-        "Close PDPA": 25.200000762939453,
-        "High PDPA": 25.200000762939453,
-        "Low PDPA": 25.200000762939453,
-        "Open PDPA": 25.200000762939453,
-        "Volume PDPA": 100
-      },
-      {
-        "Close PDPA": 25.15999984741211,
-        "High PDPA": 25.15999984741211,
-        "Low PDPA": 25.15999984741211,
-        "Open PDPA": 25.15999984741211,
-        "Volume PDPA": 100
-      },
-      {
-        "Close PDPA": 25.200000762939453,
-        "High PDPA": 25.200000762939453,
-        "Low PDPA": 25.200000762939453,
-        "Open PDPA": 25.200000762939453,
-        "Volume PDPA": 100
+        "Close RMSGW": 0.06400000303983688,
+        "High RMSGW": 0.06400000303983688,
+        "Low RMSGW": 0.06390000134706497,
+        "Open RMSGW": 0.06390000134706497,
+        "Volume RMSGW": 628
       }
     ]
   },
   "stock_info": {
     "status": "error",
-    "message": "argument of type 'NoneType' is not iterable"
+    "message": "Too Many Requests. Rate limited. Try after a while."
   },
   "financials": {
     "income_statement": {
-      "status": "success",
-      "rows": 47,
-      "columns": [
-        "2024-12-31 00:00:00",
-        "2023-12-31 00:00:00",
-        "2022-12-31 00:00:00",
-        "2021-12-31 00:00:00"
-      ],
-      "data": [
-        {
-          
+      "status": "no_data"
+    },
+    "balance_sheet": {
+      "status": "no_data"
+    },
+    "cash_flow": {
+      "status": "no_data"
+    }
+  },
+  "options_data": {
+    "status": "error",
+    "error_message": "Too Many Requests. Rate limited. Try after a while."
+  },
+  "news_data": {
+    "news": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    },
+    "recommendations": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  },
+  "holders_data": {
+    "major_holders": {
+      "status": "error"
+    },
+    "institutional_holders": {
+      "status": "error"
+    }
+  },
+  "earnings_data": {
+    "earnings": {
+      "status": "error",
+      "message": "'NoneType' object has no attribute 'empty'"
+    },
+    "calendar": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  }
+}

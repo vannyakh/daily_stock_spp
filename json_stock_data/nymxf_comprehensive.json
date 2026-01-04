@@ -1,9 +1,46 @@
 {
   "ticker": "NYMXF",
-  "timestamp": "2026-01-03T05:14:23.287265",
+  "timestamp": "2026-01-04T05:06:39.881125",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 5,
+    "data": [
+      {
+        "Close IONI": 0.699999988079071,
+        "High IONI": 0.699999988079071,
+        "Low IONI": 0.699999988079071,
+        "Open IONI": 0.699999988079071,
+        "Volume IONI": 0
+      },
+      {
+        "Close IONI": 0.699999988079071,
+        "High IONI": 0.699999988079071,
+        "Low IONI": 0.699999988079071,
+        "Open IONI": 0.699999988079071,
+        "Volume IONI": 150
+      },
+      {
+        "Close IONI": 0.699999988079071,
+        "High IONI": 0.699999988079071,
+        "Low IONI": 0.699999988079071,
+        "Open IONI": 0.699999988079071,
+        "Volume IONI": 550
+      },
+      {
+        "Close IONI": 0.6800000071525574,
+        "High IONI": 0.6800000071525574,
+        "Low IONI": 0.6800000071525574,
+        "Open IONI": 0.6800000071525574,
+        "Volume IONI": 4550
+      },
+      {
+        "Close IONI": 0.6899999976158142,
+        "High IONI": 0.6899999976158142,
+        "Low IONI": 0.6899999976158142,
+        "Open IONI": 0.6899999976158142,
+        "Volume IONI": 300
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -14,14 +51,41 @@
       "status": "no_data"
     },
     "balance_sheet": {
-      "status": "success",
-      "rows": 46,
-      "columns": [
-        "2024-12-31 00:00:00",
-        "2023-12-31 00:00:00",
-        "2022-12-31 00:00:00",
-        "2021-12-31 00:00:00"
-      ],
-      "data": [
-        {
-          
+      "status": "no_data"
+    },
+    "cash_flow": {
+      "status": "no_data"
+    }
+  },
+  "options_data": {
+    "status": "error",
+    "error_message": "Too Many Requests. Rate limited. Try after a while."
+  },
+  "news_data": {
+    "news": {
+      "status": "no_data"
+    },
+    "recommendations": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  },
+  "holders_data": {
+    "major_holders": {
+      "status": "error"
+    },
+    "institutional_holders": {
+      "status": "error"
+    }
+  },
+  "earnings_data": {
+    "earnings": {
+      "status": "error",
+      "message": "'NoneType' object has no attribute 'empty'"
+    },
+    "calendar": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  }
+}

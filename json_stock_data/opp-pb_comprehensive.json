@@ -1,9 +1,46 @@
 {
   "ticker": "OPP-PB",
-  "timestamp": "2026-01-03T05:41:34.901060",
+  "timestamp": "2026-01-04T05:15:25.104818",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 5,
+    "data": [
+      {
+        "Close": 18.3799991607666,
+        "High": 18.3799991607666,
+        "Low": 18.3799991607666,
+        "Open": 18.3799991607666,
+        "Volume": 0
+      },
+      {
+        "Close": 18.520000457763672,
+        "High": 18.520000457763672,
+        "Low": 18.469999313354492,
+        "Open": 18.469999313354492,
+        "Volume": 800
+      },
+      {
+        "Close": 18.559600830078125,
+        "High": 18.559600830078125,
+        "Low": 18.559600830078125,
+        "Open": 18.559600830078125,
+        "Volume": 325
+      },
+      {
+        "Close": 18.520000457763672,
+        "High": 18.520000457763672,
+        "Low": 18.510000228881836,
+        "Open": 18.510000228881836,
+        "Volume": 300
+      },
+      {
+        "Close": 18.520000457763672,
+        "High": 18.520000457763672,
+        "Low": 18.520000457763672,
+        "Open": 18.520000457763672,
+        "Volume": 200
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -26,7 +63,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

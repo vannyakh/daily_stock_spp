@@ -1,10 +1,18 @@
 {
   "ticker": "FVNNR",
-  "timestamp": "2026-01-03T05:33:11.984837",
+  "timestamp": "2026-01-04T05:12:49.803392",
   "intraday_data": {
     "status": "success",
-    "rows": 0,
-    "data": []
+    "rows": 1,
+    "data": [
+      {
+        "Close FVNNU": 10.649999618530273,
+        "High FVNNU": 10.649999618530273,
+        "Low FVNNU": 10.649999618530273,
+        "Open FVNNU": 10.649999618530273,
+        "Volume FVNNU": 0
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -27,7 +35,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

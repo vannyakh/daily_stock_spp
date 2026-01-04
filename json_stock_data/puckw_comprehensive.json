@@ -1,111 +1,55 @@
 {
   "ticker": "PUCKW",
-  "timestamp": "2026-01-03T05:38:38.569262",
+  "timestamp": "2026-01-04T05:14:23.196452",
   "intraday_data": {
     "status": "no_data",
     "message": "No intraday data available"
   },
   "stock_info": {
-    "status": "success",
-    "data": {
-      "address1": "12600 Hill Country Boulevard Building R",
-      "address2": "Suite 275",
-      "city": "Bee Cave",
-      "state": "TX",
-      "zip": "78738",
-      "country": "United States",
-      "phone": "888 717 7678",
-      "website": "https://www.goalacquisitions.com",
-      "industry": "",
-      "industryKey": "",
-      "sector": "",
-      "sectorKey": "",
-      "longBusinessSummary": "Goal Acquisitions Corp. does not have significant operations. The company intends to effect a merger, capital stock exchange, asset acquisition, stock purchase, reorganization, or similar business combination with one or more businesses. Goal Acquisitions Corp. was incorporated in 2020 and is based in Bee Cave, Texas. Goal Acquisitions Corp. is a subsidiary of Goal Acquisitions Sponsor LLC.",
-      "maxAge": 86400,
-      "priceHint": 4,
-      "previousClose": 0.01,
-      "open": 0.0053,
-      "dayLow": 0.0053,
-      "dayHigh": 0.0053,
-      "regularMarketPreviousClose": 0.01,
-      "regularMarketOpen": 0.0053,
-      "regularMarketDayLow": 0.0053,
-      "regularMarketDayHigh": 0.0053,
-      "beta": 0.016,
-      "volume": 19300,
-      "regularMarketVolume": 19300,
-      "bid": 0.01,
-      "ask": 0.018,
-      "bidSize": 70000,
-      "askSize": 18100,
-      "fiftyTwoWeekLow": 0.0053,
-      "fiftyTwoWeekHigh": 0.0053,
-      "trailingAnnualDividendRate": 0.0,
-      "trailingAnnualDividendYield": 0.0,
-      "currency": "USD",
-      "tradeable": false,
-      "profitMargins": 0.0,
-      "floatShares": 1648050,
-      "bookValue": -1.865,
-      "netIncomeToCommon": -2493725,
-      "SandP52WeekChange": 0.14561749,
-      "quoteType": "EQUITY",
-      "currentPrice": 0.0053,
-      "recommendationKey": "none",
-      "totalDebt": 2942232,
-      "quickRatio": 0.102,
-      "currentRatio": 0.114,
-      "returnOnAssets": -0.12696,
-      "freeCashflow": 480625,
-      "operatingCashflow": -1416482,
-      "grossMargins": 0.0,
-      "ebitdaMargins": 0.0,
-      "operatingMargins": 0.0,
-      "financialCurrency": "USD",
-      "symbol": "PUCKW",
-      "language": "en-US",
-      "region": "US",
-      "typeDisp": "Equity",
-      "quoteSourceName": "Delayed Quote",
-      "triggerable": true,
-      "customPriceAlertConfidence": "HIGH",
-      "hasPrePostMarketData": true,
-      "regularMarketChange": -0.0047,
-      "regularMarketDayRange": "0.0053 - 0.0053",
-      "fullExchangeName": "NasdaqGM",
-      "fiftyTwoWeekLowChange": 0.0,
-      "fiftyTwoWeekLowChangePercent": 0.0,
-      "fiftyTwoWeekRange": "0.0053 - 0.0053",
-      "fiftyTwoWeekHighChange": 0.0,
-      "fiftyTwoWeekHighChangePercent": 0.0,
-      "exchange": "NGM",
-      "messageBoardId": "finmb_701012832",
-      "exchangeTimezoneName": "America/New_York",
-      "exchangeTimezoneShortName": "EST",
-      "gmtOffSetMilliseconds": -18000000,
-      "market": "us_market",
-      "esgPopulated": false,
-      "shortName": "Goal Acquisitions Corp.",
-      "marketState": "CLOSED",
-      "regularMarketChangePercent": -47.0,
-      "regularMarketPrice": 0.0053,
-      "regularMarketTime": 1762194952,
-      "priceToBook": -0.002841823,
-      "sourceInterval": 15,
-      "exchangeDataDelayedBy": 0,
-      "cryptoTradeable": false,
-      "displayName": "Goal Acquisitions"
-    }
+    "status": "error",
+    "message": "Too Many Requests. Rate limited. Try after a while."
   },
   "financials": {
     "income_statement": {
-      "status": "success",
-      "rows": 32,
-      "columns": [
-        "2023-12-31 00:00:00",
-        "2022-12-31 00:00:00",
-        "2021-12-31 00:00:00"
-      ],
-      "data": [
-        {
-          
+      "status": "no_data"
+    },
+    "balance_sheet": {
+      "status": "no_data"
+    },
+    "cash_flow": {
+      "status": "no_data"
+    }
+  },
+  "options_data": {
+    "status": "error",
+    "error_message": "Too Many Requests. Rate limited. Try after a while."
+  },
+  "news_data": {
+    "news": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    },
+    "recommendations": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  },
+  "holders_data": {
+    "major_holders": {
+      "status": "error"
+    },
+    "institutional_holders": {
+      "status": "error"
+    }
+  },
+  "earnings_data": {
+    "earnings": {
+      "status": "error",
+      "message": "'NoneType' object has no attribute 'empty'"
+    },
+    "calendar": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  }
+}

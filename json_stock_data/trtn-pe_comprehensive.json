@@ -1,9 +1,95 @@
 {
   "ticker": "TRTN-PE",
-  "timestamp": "2026-01-03T05:42:33.612874",
+  "timestamp": "2026-01-04T05:15:41.151919",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 12,
+    "data": [
+      {
+        "Close TRTN-PD": 23.170000076293945,
+        "High TRTN-PD": 23.170000076293945,
+        "Low TRTN-PD": 23.170000076293945,
+        "Open TRTN-PD": 23.170000076293945,
+        "Volume TRTN-PD": 0
+      },
+      {
+        "Close TRTN-PD": 23.100000381469727,
+        "High TRTN-PD": 23.100000381469727,
+        "Low TRTN-PD": 23.100000381469727,
+        "Open TRTN-PD": 23.100000381469727,
+        "Volume TRTN-PD": 1324
+      },
+      {
+        "Close TRTN-PD": 23.18000030517578,
+        "High TRTN-PD": 23.18000030517578,
+        "Low TRTN-PD": 23.18000030517578,
+        "Open TRTN-PD": 23.18000030517578,
+        "Volume TRTN-PD": 443
+      },
+      {
+        "Close TRTN-PD": 23.210100173950195,
+        "High TRTN-PD": 23.219999313354492,
+        "Low TRTN-PD": 23.210100173950195,
+        "Open TRTN-PD": 23.219999313354492,
+        "Volume TRTN-PD": 800
+      },
+      {
+        "Close TRTN-PD": 23.219999313354492,
+        "High TRTN-PD": 23.219999313354492,
+        "Low TRTN-PD": 23.219999313354492,
+        "Open TRTN-PD": 23.219999313354492,
+        "Volume TRTN-PD": 400
+      },
+      {
+        "Close TRTN-PD": 23.219999313354492,
+        "High TRTN-PD": 23.219999313354492,
+        "Low TRTN-PD": 23.219999313354492,
+        "Open TRTN-PD": 23.219999313354492,
+        "Volume TRTN-PD": 334
+      },
+      {
+        "Close TRTN-PD": 23.219999313354492,
+        "High TRTN-PD": 23.219999313354492,
+        "Low TRTN-PD": 23.219999313354492,
+        "Open TRTN-PD": 23.219999313354492,
+        "Volume TRTN-PD": 2005
+      },
+      {
+        "Close TRTN-PD": 23.262800216674805,
+        "High TRTN-PD": 23.262800216674805,
+        "Low TRTN-PD": 23.262800216674805,
+        "Open TRTN-PD": 23.262800216674805,
+        "Volume TRTN-PD": 150
+      },
+      {
+        "Close TRTN-PD": 23.225000381469727,
+        "High TRTN-PD": 23.225000381469727,
+        "Low TRTN-PD": 23.225000381469727,
+        "Open TRTN-PD": 23.225000381469727,
+        "Volume TRTN-PD": 433
+      },
+      {
+        "Close TRTN-PD": 23.239999771118164,
+        "High TRTN-PD": 23.239999771118164,
+        "Low TRTN-PD": 23.239999771118164,
+        "Open TRTN-PD": 23.239999771118164,
+        "Volume TRTN-PD": 644
+      },
+      {
+        "Close TRTN-PD": 23.26799964904785,
+        "High TRTN-PD": 23.26799964904785,
+        "Low TRTN-PD": 23.26799964904785,
+        "Open TRTN-PD": 23.26799964904785,
+        "Volume TRTN-PD": 250
+      },
+      {
+        "Close TRTN-PD": 23.270000457763672,
+        "High TRTN-PD": 23.270000457763672,
+        "Low TRTN-PD": 23.270000457763672,
+        "Open TRTN-PD": 23.270000457763672,
+        "Volume TRTN-PD": 101
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -14,14 +100,42 @@
       "status": "no_data"
     },
     "balance_sheet": {
-      "status": "success",
-      "rows": 58,
-      "columns": [
-        "2024-12-31 00:00:00",
-        "2023-12-31 00:00:00",
-        "2022-12-31 00:00:00",
-        "2021-12-31 00:00:00"
-      ],
-      "data": [
-        {
-          
+      "status": "no_data"
+    },
+    "cash_flow": {
+      "status": "no_data"
+    }
+  },
+  "options_data": {
+    "status": "error",
+    "error_message": "Too Many Requests. Rate limited. Try after a while."
+  },
+  "news_data": {
+    "news": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    },
+    "recommendations": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  },
+  "holders_data": {
+    "major_holders": {
+      "status": "error"
+    },
+    "institutional_holders": {
+      "status": "error"
+    }
+  },
+  "earnings_data": {
+    "earnings": {
+      "status": "error",
+      "message": "'NoneType' object has no attribute 'empty'"
+    },
+    "calendar": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  }
+}

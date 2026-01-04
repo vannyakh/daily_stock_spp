@@ -1,53 +1,9 @@
 {
   "ticker": "FAMI",
-  "timestamp": "2026-01-03T05:18:10.916615",
+  "timestamp": "2026-01-04T05:08:15.775157",
   "intraday_data": {
-    "status": "success",
-    "rows": 6,
-    "data": [
-      {
-        "Close": 1.3200000524520874,
-        "High": 1.3200000524520874,
-        "Low": 1.2999999523162842,
-        "Open": 1.2999999523162842,
-        "Volume": 0
-      },
-      {
-        "Close": 1.3200000524520874,
-        "High": 1.3200000524520874,
-        "Low": 1.3200000524520874,
-        "Open": 1.3200000524520874,
-        "Volume": 104
-      },
-      {
-        "Close": 1.309999942779541,
-        "High": 1.309999942779541,
-        "Low": 1.2999999523162842,
-        "Open": 1.2999999523162842,
-        "Volume": 703
-      },
-      {
-        "Close": 1.2910000085830688,
-        "High": 1.2910000085830688,
-        "Low": 1.2910000085830688,
-        "Open": 1.2910000085830688,
-        "Volume": 277
-      },
-      {
-        "Close": 1.2680000066757202,
-        "High": 1.2680000066757202,
-        "Low": 1.2680000066757202,
-        "Open": 1.2680000066757202,
-        "Volume": 404
-      },
-      {
-        "Close": 1.2899999618530273,
-        "High": 1.2899999618530273,
-        "Low": 1.2899999618530273,
-        "Open": 1.2899999618530273,
-        "Volume": 656
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -65,7 +21,8 @@
     }
   },
   "options_data": {
-    "expirations": []
+    "status": "error",
+    "error_message": "Too Many Requests. Rate limited. Try after a while."
   },
   "news_data": {
     "news": {
@@ -136,47 +93,16 @@
       ]
     },
     "recommendations": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   },
   "holders_data": {
     "major_holders": {
-      "status": "success",
-      "data": [
-        {
-          "Value": 0.00074
-        },
-        {
-          "Value": 8.9999994e-05
-        },
-        {
-          "Value": 8.9999994e-05
-        },
-        {
-          "Value": 2.0
-        }
-      ]
+      "status": "error"
     },
     "institutional_holders": {
-      "status": "success",
-      "data": [
-        {
-          "Date Reported": "2025-09-30 00:00:00",
-          "Holder": "SBI Securities Co., Ltd.",
-          "pctHeld": 0.0001,
-          "Shares": 474,
-          "Value": 611,
-          "pctChange": -0.0247
-        },
-        {
-          "Date Reported": "2025-09-30 00:00:00",
-          "Holder": "Bank of America Corporation",
-          "pctHeld": 0.0,
-          "Shares": 8,
-          "Value": 10,
-          "pctChange": 0.0
-        }
-      ]
+      "status": "error"
     }
   },
   "earnings_data": {
@@ -186,7 +112,7 @@
     },
     "calendar": {
       "status": "error",
-      "message": "'dict' object has no attribute 'empty'"
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   }
 }

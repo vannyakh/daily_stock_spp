@@ -1,9 +1,18 @@
 {
   "ticker": "BFRI",
-  "timestamp": "2026-01-03T05:15:15.313529",
+  "timestamp": "2026-01-04T05:06:58.871264",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 1,
+    "data": [
+      {
+        "Close HLRTF": 0.09279999881982803,
+        "High HLRTF": 0.09279999881982803,
+        "Low HLRTF": 0.09279999881982803,
+        "Open HLRTF": 0.09279999881982803,
+        "Volume HLRTF": 0
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -623,7 +632,7 @@
     },
     "calendar": {
       "status": "error",
-      "message": "'dict' object has no attribute 'empty'"
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   }
 }

@@ -1,6 +1,6 @@
 {
   "ticker": "PERF",
-  "timestamp": "2026-01-03T04:54:35.706425",
+  "timestamp": "2026-01-04T04:59:10.705620",
   "intraday_data": {
     "status": "success",
     "rows": 102,
@@ -723,7 +723,7 @@
   },
   "stock_info": {
     "status": "error",
-    "message": "argument of type 'NoneType' is not iterable"
+    "message": "Too Many Requests. Rate limited. Try after a while."
   },
   "financials": {
     "income_statement": {
@@ -1358,8 +1358,7 @@
       ]
     },
     "recommendations": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
+      "status": "no_data"
     }
   },
   "holders_data": {

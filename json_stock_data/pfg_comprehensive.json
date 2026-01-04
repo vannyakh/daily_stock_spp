@@ -1,6 +1,6 @@
 {
   "ticker": "PFG",
-  "timestamp": "2026-01-03T04:26:51.085726",
+  "timestamp": "2026-01-04T04:47:40.666993",
   "intraday_data": {
     "status": "success",
     "rows": 322,
@@ -2262,105 +2262,662 @@
     ]
   },
   "stock_info": {
-    "status": "success",
-    "data": {
-      "language": "en-US",
-      "region": "US",
-      "quoteType": "EQUITY",
-      "typeDisp": "Equity",
-      "quoteSourceName": "Nasdaq Real Time Price",
-      "triggerable": true,
-      "customPriceAlertConfidence": "HIGH",
-      "currency": "USD",
-      "hasPrePostMarketData": true,
-      "firstTradeDateMilliseconds": 1003843800000,
-      "priceHint": 2,
-      "postMarketChangePercent": 0.94968134,
-      "postMarketPrice": 90.2692,
-      "postMarketChange": 0.849205,
-      "regularMarketChange": 1.21,
-      "regularMarketDayHigh": 89.61,
-      "regularMarketDayRange": "87.6 - 89.61",
-      "regularMarketDayLow": 87.6,
-      "regularMarketVolume": 813595,
-      "regularMarketPreviousClose": 88.21,
-      "bid": 89.16,
-      "ask": 94.67,
-      "bidSize": 1,
-      "askSize": 1,
-      "fullExchangeName": "NasdaqGS",
-      "financialCurrency": "USD",
-      "regularMarketOpen": 88.31,
-      "averageDailyVolume3Month": 1236813,
-      "averageDailyVolume10Day": 1156800,
-      "fiftyTwoWeekLowChange": 21.029999,
-      "fiftyTwoWeekLowChangePercent": 0.30750108,
-      "fiftyTwoWeekRange": "68.39 - 92.1",
-      "fiftyTwoWeekHighChange": -2.6800003,
-      "fiftyTwoWeekHighChangePercent": -0.029098809,
-      "fiftyTwoWeekLow": 68.39,
-      "fiftyTwoWeekHigh": 92.1,
-      "fiftyTwoWeekChangePercent": 13.351321,
-      "dividendDate": 1766102400,
-      "earningsTimestamp": 1770670800,
-      "earningsTimestampStart": 1770670800,
-      "earningsTimestampEnd": 1770670800,
-      "earningsCallTimestampStart": 1770735600,
-      "earningsCallTimestampEnd": 1770735600,
-      "isEarningsDateEstimate": false,
-      "trailingAnnualDividendRate": 3.02,
-      "trailingPE": 13.111436,
-      "regularMarketChangePercent": 1.37173,
-      "regularMarketPrice": 89.42,
-      "dividendRate": 3.16,
-      "trailingAnnualDividendYield": 0.03423648,
-      "dividendYield": 3.58,
-      "epsTrailingTwelveMonths": 6.82,
-      "epsForward": 9.36178,
-      "epsCurrentYear": 8.30509,
-      "priceEpsCurrentYear": 10.766891,
-      "sharesOutstanding": 219693843,
-      "bookValue": 52.901,
-      "fiftyDayAverage": 85.2144,
-      "fiftyDayAverageChange": 4.205597,
-      "fiftyDayAverageChangePercent": 0.049353123,
-      "twoHundredDayAverage": 80.60385,
-      "twoHundredDayAverageChange": 8.816147,
-      "twoHundredDayAverageChangePercent": 0.10937625,
-      "marketCap": 19919953920,
-      "forwardPE": 9.551602,
-      "priceToBook": 1.6903272,
-      "sourceInterval": 15,
-      "exchangeDataDelayedBy": 0,
-      "averageAnalystRating": "2.9 - Hold",
-      "tradeable": false,
-      "cryptoTradeable": false,
-      "marketState": "POSTPOST",
-      "exchange": "NMS",
-      "messageBoardId": "finmb_201105",
-      "exchangeTimezoneName": "America/New_York",
-      "exchangeTimezoneShortName": "EST",
-      "gmtOffSetMilliseconds": -18000000,
-      "market": "us_market",
-      "esgPopulated": false,
-      "shortName": "Principal Financial Group Inc",
-      "longName": "Principal Financial Group, Inc.",
-      "postMarketTime": 1767394710,
-      "regularMarketTime": 1767387601,
-      "displayName": "Principal Financial",
-      "symbol": "PFG"
-    }
+    "status": "error",
+    "message": "argument of type 'NoneType' is not iterable"
   },
   "financials": {
     "income_statement": {
+      "status": "no_data"
+    },
+    "balance_sheet": {
+      "status": "no_data"
+    },
+    "cash_flow": {
+      "status": "no_data"
+    }
+  },
+  "options_data": {
+    "status": "error",
+    "error_message": "Too Many Requests. Rate limited. Try after a while."
+  },
+  "news_data": {
+    "news": {
       "status": "success",
-      "rows": 26,
-      "columns": [
-        "2024-12-31 00:00:00",
-        "2023-12-31 00:00:00",
-        "2022-12-31 00:00:00",
-        "2021-12-31 00:00:00"
-      ],
+      "count": 10,
       "data": [
         {
-          
+          "id": "a645d59c-e6b1-3475-a538-a23fb522bdf0",
+          "content": {
+            "id": "a645d59c-e6b1-3475-a538-a23fb522bdf0",
+            "contentType": "STORY",
+            "title": "Implied Volatility Surging for Principal Financial Stock Options",
+            "description": "",
+            "summary": "Investors need to pay close attention to PFG stock based on the movements in the options market lately.",
+            "pubDate": "2025-12-29T16:45:00Z",
+            "displayTime": "2025-12-29T16:45:00Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": {
+              "originalUrl": "https://media.zenfs.com/en/zacks.com/76de46512b6b2ed03cb613b33bb84828",
+              "originalWidth": 635,
+              "originalHeight": 400,
+              "caption": "",
+              "resolutions": [
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/m7h8AcPROMromz5UJ5.5yQ--~B/aD00MDA7dz02MzU7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/zacks.com/76de46512b6b2ed03cb613b33bb84828",
+                  "width": 635,
+                  "height": 400,
+                  "tag": "original"
+                },
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/r68B68aw1QjDEHt2g2gqmQ--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/zacks.com/76de46512b6b2ed03cb613b33bb84828",
+                  "width": 170,
+                  "height": 128,
+                  "tag": "170x128"
+                }
+              ]
+            },
+            "provider": {
+              "displayName": "Zacks",
+              "url": "http://www.zacks.com/"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/implied-volatility-surging-principal-financial-164500900.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/implied-volatility-surging-principal-financial-164500900.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        },
+        {
+          "id": "1c030986-8db1-3723-808d-858cfc948664",
+          "content": {
+            "id": "1c030986-8db1-3723-808d-858cfc948664",
+            "contentType": "STORY",
+            "title": "Principal Financial price target raised to $100 from $94 at Piper Sandler",
+            "description": "",
+            "summary": "Piper Sandler raised the firm\u2019s price target on Principal Financial (PFG) to $100 from $94 and keeps an Overweight rating on the shares. The firm is generally above consensus across the board in lifecoland. The drop in rates has been more gradual than has otherwise been expected, which has been constructive for broader capital markets activity too. This likely causes some tailwind to fee and spread earnings in its coverage, Piper adds.Claim 70% Off TipRanks This Holiday SeasonUnlock hedge fund-l",
+            "pubDate": "2025-12-24T11:50:45Z",
+            "displayTime": "2025-12-24T11:50:45Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": {
+              "originalUrl": "https://media.zenfs.com/en/tipranks_452/851bb627a86b0a93bd6c523e2bf59d13",
+              "originalWidth": 192,
+              "originalHeight": 192,
+              "caption": "https://www.tipranks.com/news/the-fly/principal-financial-price-target-raised-to-100-from-94-at-piper-sandler-thefly",
+              "resolutions": [
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/BvEddfo1_SMMLWg_m7uxgw--~B/aD0xOTI7dz0xOTI7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/tipranks_452/851bb627a86b0a93bd6c523e2bf59d13",
+                  "width": 192,
+                  "height": 192,
+                  "tag": "original"
+                },
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/FhC3gXbMD3_S6nU1qTL8Pw--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/tipranks_452/851bb627a86b0a93bd6c523e2bf59d13",
+                  "width": 170,
+                  "height": 128,
+                  "tag": "170x128"
+                }
+              ]
+            },
+            "provider": {
+              "displayName": "TipRanks",
+              "url": "https://www.tipranks.com/"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/principal-financial-price-target-raised-115045407.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/principal-financial-price-target-raised-115045407.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        },
+        {
+          "id": "fb9dc269-bb1a-34ca-a6dd-5d02cb958d03",
+          "content": {
+            "id": "fb9dc269-bb1a-34ca-a6dd-5d02cb958d03",
+            "contentType": "STORY",
+            "title": "Is It Too Late To Consider Principal Financial Group After Strong Multi Year Share Price Gains",
+            "description": "",
+            "summary": "Wondering if Principal Financial Group is still a smart buy at today's price, or if the big gains are already behind it? You are not alone, and that is exactly what we are going to unpack. The stock has climbed 1.5% over the last week, 6.0% over the past month, and is now up 15.7% year to date, building on a strong 20.0% gain over the last year and 126.3% over five years. Those moves have come as investors reassess financials that can hold up in different market conditions and rotate back...",
+            "pubDate": "2025-12-17T19:10:11Z",
+            "displayTime": "2025-12-17T19:10:11Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": {
+              "originalUrl": "https://media.zenfs.com/en/simply_wall_st__316/c694dae03bfca727375bd57e3ab48752",
+              "originalWidth": 1194,
+              "originalHeight": 432,
+              "caption": "",
+              "resolutions": [
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/LWlewAaH__2VHPojyeJDcw--~B/aD00MzI7dz0xMTk0O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/simply_wall_st__316/c694dae03bfca727375bd57e3ab48752",
+                  "width": 1194,
+                  "height": 432,
+                  "tag": "original"
+                },
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/FSofRFr1ySQCRUkggVm1.w--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/simply_wall_st__316/c694dae03bfca727375bd57e3ab48752",
+                  "width": 170,
+                  "height": 128,
+                  "tag": "170x128"
+                }
+              ]
+            },
+            "provider": {
+              "displayName": "Simply Wall St.",
+              "url": "https://simplywall.st/"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/too-consider-principal-financial-group-191011025.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/too-consider-principal-financial-group-191011025.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        },
+        {
+          "id": "d4af37ae-7eca-36d6-9ee7-6706d462a99e",
+          "content": {
+            "id": "d4af37ae-7eca-36d6-9ee7-6706d462a99e",
+            "contentType": "STORY",
+            "title": "Assessing Principal Financial Group (PFG)\u2019s Valuation After a Steady 20% One-Year Share Price Climb",
+            "description": "",
+            "summary": "Principal Financial Group (PFG) has quietly climbed about 20% over the past year, and that steady move is drawing fresh attention from investors who are wondering whether this insurer and asset manager still offers value. See our latest analysis for Principal Financial Group. That 15.7% year to date share price return, capped by a 6.0% 1 month share price gain to around $89.54, lines up with a solid 1 year total shareholder return of about 20%. This suggests momentum is gradually building as...",
+            "pubDate": "2025-12-17T17:08:58Z",
+            "displayTime": "2025-12-17T17:08:58Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": {
+              "originalUrl": "https://media.zenfs.com/en/simply_wall_st__316/c694dae03bfca727375bd57e3ab48752",
+              "originalWidth": 1194,
+              "originalHeight": 432,
+              "caption": "",
+              "resolutions": [
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/LWlewAaH__2VHPojyeJDcw--~B/aD00MzI7dz0xMTk0O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/simply_wall_st__316/c694dae03bfca727375bd57e3ab48752",
+                  "width": 1194,
+                  "height": 432,
+                  "tag": "original"
+                },
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/FSofRFr1ySQCRUkggVm1.w--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/simply_wall_st__316/c694dae03bfca727375bd57e3ab48752",
+                  "width": 170,
+                  "height": 128,
+                  "tag": "170x128"
+                }
+              ]
+            },
+            "provider": {
+              "displayName": "Simply Wall St.",
+              "url": "https://simplywall.st/"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/assessing-principal-financial-group-pfg-170858990.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/assessing-principal-financial-group-pfg-170858990.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        },
+        {
+          "id": "340caade-4f59-35d1-87ff-f74c2d782e88",
+          "content": {
+            "id": "340caade-4f59-35d1-87ff-f74c2d782e88",
+            "contentType": "STORY",
+            "title": "PFG Outperforms Industry, Hits 52-Week High: How to Play the Stock",
+            "description": "",
+            "summary": "Principal Financial gains from strong segment growth, a robust global retirement and long-term savings business, solid capital strength and rising dividends.",
+            "pubDate": "2025-12-11T15:12:00Z",
+            "displayTime": "2025-12-11T15:12:00Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": {
+              "originalUrl": "https://media.zenfs.com/en/zacks.com/9d8e6ae4a2f2f78756262fb38b308001",
+              "originalWidth": 635,
+              "originalHeight": 400,
+              "caption": "",
+              "resolutions": [
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/EEUv5JQFTAI4U5iqIocwgw--~B/aD00MDA7dz02MzU7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/zacks.com/9d8e6ae4a2f2f78756262fb38b308001",
+                  "width": 635,
+                  "height": 400,
+                  "tag": "original"
+                },
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/ua6KwrY9XGkD4tMZAStOhw--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/zacks.com/9d8e6ae4a2f2f78756262fb38b308001",
+                  "width": 170,
+                  "height": 128,
+                  "tag": "170x128"
+                }
+              ]
+            },
+            "provider": {
+              "displayName": "Zacks",
+              "url": "http://www.zacks.com/"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/pfg-outperforms-industry-hits-52-151200984.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/pfg-outperforms-industry-hits-52-151200984.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        },
+        {
+          "id": "3c0eaf02-c777-352b-ad0d-3c795a15440c",
+          "content": {
+            "id": "3c0eaf02-c777-352b-ad0d-3c795a15440c",
+            "contentType": "STORY",
+            "title": "Is CPHYX a Strong Bond Fund Right Now?",
+            "description": "",
+            "summary": "MF Bond Report for CPHYX.",
+            "pubDate": "2025-12-11T12:00:02Z",
+            "displayTime": "2025-12-11T12:00:02Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": {
+              "originalUrl": "https://media.zenfs.com/en/zacks.com/3d7c5b2146ac04ffd51752e17ff2a619",
+              "originalWidth": 900,
+              "originalHeight": 506,
+              "caption": "",
+              "resolutions": [
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/132juehTNIyEUn7pK7.GPA--~B/aD01MDY7dz05MDA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/zacks.com/3d7c5b2146ac04ffd51752e17ff2a619",
+                  "width": 900,
+                  "height": 506,
+                  "tag": "original"
+                },
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/ntuaEXebAoViSP2xpnvkrA--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/zacks.com/3d7c5b2146ac04ffd51752e17ff2a619",
+                  "width": 170,
+                  "height": 128,
+                  "tag": "170x128"
+                }
+              ]
+            },
+            "provider": {
+              "displayName": "Zacks",
+              "url": "http://www.zacks.com/"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/cphyx-strong-bond-fund-now-120002347.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/cphyx-strong-bond-fund-now-120002347.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        },
+        {
+          "id": "5d9cf880-8c5f-3969-81d5-174b14ba2c91",
+          "content": {
+            "id": "5d9cf880-8c5f-3969-81d5-174b14ba2c91",
+            "contentType": "STORY",
+            "title": "Is Principal Financial Stock Underperforming the Nasdaq?",
+            "description": "",
+            "summary": "Principal Financial has underperformed the Nasdaq over the past year, and analysts are cautious about the stock\u2019s prospects.",
+            "pubDate": "2025-12-11T11:16:49Z",
+            "displayTime": "2025-12-11T11:16:49Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": {
+              "originalUrl": "https://media.zenfs.com/en/barchart_com_477/cc281ab6af56a4f74ef5eb281a6adfb3",
+              "originalWidth": 1000,
+              "originalHeight": 667,
+              "caption": "Principal Financial Group Inc logo on building-by JHVEPhoto via Shutterstock",
+              "resolutions": [
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/ZvTGyIca8YWbwmmsuUxfAA--~B/aD02Njc7dz0xMDAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/barchart_com_477/cc281ab6af56a4f74ef5eb281a6adfb3",
+                  "width": 1000,
+                  "height": 667,
+                  "tag": "original"
+                },
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/vK6NAwzcQkES_kfX6_kAzg--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/barchart_com_477/cc281ab6af56a4f74ef5eb281a6adfb3",
+                  "width": 170,
+                  "height": 128,
+                  "tag": "170x128"
+                }
+              ]
+            },
+            "provider": {
+              "displayName": "Barchart",
+              "url": "https://www.barchart.com/"
+            },
+            "canonicalUrl": {
+              "url": "https://www.barchart.com/story/news/36567920/is-principal-financial-stock-underperforming-the-nasdaq",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/principal-financial-stock-underperforming-nasdaq-111649845.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        },
+        {
+          "id": "8f192f17-2e53-308b-b7d9-cdace82e03b2",
+          "content": {
+            "id": "8f192f17-2e53-308b-b7d9-cdace82e03b2",
+            "contentType": "STORY",
+            "title": "1 Safe-and-Steady Stock with Exciting Potential and 2 We Ignore",
+            "description": "",
+            "summary": "A stock with low volatility can be reassuring, but it doesn\u2019t always mean strong long-term performance. Investors who prioritize stability may miss out on higher-reward opportunities elsewhere.",
+            "pubDate": "2025-12-11T04:36:42Z",
+            "displayTime": "2025-12-11T04:36:42Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": {
+              "originalUrl": "https://media.zenfs.com/en/stockstory_922/f2612794ecd10445a4f2ff80ce149bb8",
+              "originalWidth": 1400,
+              "originalHeight": 700,
+              "caption": "SFM Cover Image",
+              "resolutions": [
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/jblHXmvfjAMPTr82lNxPvQ--~B/aD03MDA7dz0xNDAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/stockstory_922/f2612794ecd10445a4f2ff80ce149bb8",
+                  "width": 1400,
+                  "height": 700,
+                  "tag": "original"
+                },
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/0KIwmgmr61tDRYjhjk7aDQ--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/stockstory_922/f2612794ecd10445a4f2ff80ce149bb8",
+                  "width": 170,
+                  "height": 128,
+                  "tag": "170x128"
+                }
+              ]
+            },
+            "provider": {
+              "displayName": "StockStory",
+              "url": "https://stockstory.org/"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/1-safe-steady-stock-exciting-043642142.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/1-safe-steady-stock-exciting-043642142.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        },
+        {
+          "id": "d80d0683-fc9d-3ff8-8a7a-5097639b96a7",
+          "content": {
+            "id": "d80d0683-fc9d-3ff8-8a7a-5097639b96a7",
+            "contentType": "STORY",
+            "title": "Analysts Continue to View Principal Financial Group (PFG) Cautiously as Sector Cycle Softens",
+            "description": "",
+            "summary": "Principal Financial Group (NASDAQ:PFG) is among the 9 Best Life Insurance Stocks to Buy Now. Morgan Stanley increased its price objective for Principal Financial Group (NASDAQ:PFG) from $83 to $87 on November 17, 2025, while maintaining an Underweight rating, as reported by TheFly. The adjustment came after Q3 results and new insurance-sector models. The [\u2026]",
+            "pubDate": "2025-12-10T08:40:20Z",
+            "displayTime": "2025-12-10T08:40:20Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": {
+              "originalUrl": "https://media.zenfs.com/en/insidermonkey.com/1591776eb131c62f57a1d407bc4677db",
+              "originalWidth": 1000,
+              "originalHeight": 667,
+              "caption": "Morgan Stanley Maintains An Underweight Rating On Principal Financial Group (PFG)",
+              "resolutions": [
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/.t769V1gHovMrFiTx8WKRA--~B/aD02Njc7dz0xMDAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/insidermonkey.com/1591776eb131c62f57a1d407bc4677db",
+                  "width": 1000,
+                  "height": 667,
+                  "tag": "original"
+                },
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/hdpqjtCmu1vEQ9v_MdAjjw--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/insidermonkey.com/1591776eb131c62f57a1d407bc4677db",
+                  "width": 170,
+                  "height": 128,
+                  "tag": "170x128"
+                }
+              ]
+            },
+            "provider": {
+              "displayName": "Insider Monkey",
+              "url": "http://www.insidermonkey.com"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/analysts-continue-view-principal-financial-084020256.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/analysts-continue-view-principal-financial-084020256.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        },
+        {
+          "id": "79635895-805e-3e24-a81d-b351a15bdcaf",
+          "content": {
+            "id": "79635895-805e-3e24-a81d-b351a15bdcaf",
+            "contentType": "STORY",
+            "title": "1 Surging  Stock Worth Investigating and 2 We Turn Down",
+            "description": "",
+            "summary": "The stocks featured in this article have all approached their 52-week highs. When these price levels hit, it typically signals strong business execution, positive market sentiment, or significant industry tailwinds.",
+            "pubDate": "2025-12-05T04:34:52Z",
+            "displayTime": "2025-12-05T04:34:52Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": {
+              "originalUrl": "https://media.zenfs.com/en/stockstory_922/ce3ea5e206aea6a9edb8bd470ea205a4",
+              "originalWidth": 1400,
+              "originalHeight": 700,
+              "caption": "TTMI Cover Image",
+              "resolutions": [
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/x_QsdH478EfXTE0JpRXtoQ--~B/aD03MDA7dz0xNDAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/stockstory_922/ce3ea5e206aea6a9edb8bd470ea205a4",
+                  "width": 1400,
+                  "height": 700,
+                  "tag": "original"
+                },
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/heE3_stVH2fW9xBWoEO9Wg--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/stockstory_922/ce3ea5e206aea6a9edb8bd470ea205a4",
+                  "width": 170,
+                  "height": 128,
+                  "tag": "170x128"
+                }
+              ]
+            },
+            "provider": {
+              "displayName": "StockStory",
+              "url": "https://stockstory.org/"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/1-surging-stock-worth-investigating-043452419.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/1-surging-stock-worth-investigating-043452419.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        }
+      ]
+    },
+    "recommendations": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  },
+  "holders_data": {
+    "major_holders": {
+      "status": "error"
+    },
+    "institutional_holders": {
+      "status": "error"
+    }
+  },
+  "earnings_data": {
+    "earnings": {
+      "status": "error",
+      "message": "'NoneType' object has no attribute 'empty'"
+    },
+    "calendar": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  }
+}

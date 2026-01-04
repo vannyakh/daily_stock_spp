@@ -1,112 +1,13 @@
 {
   "ticker": "TAX",
-  "timestamp": "2026-01-03T05:43:07.461729",
+  "timestamp": "2026-01-04T05:15:49.439959",
   "intraday_data": {
-    "status": "success",
-    "rows": 1,
-    "data": [
-      {
-        "Close": 28.549999237060547,
-        "High": 28.549999237060547,
-        "Low": 28.549999237060547,
-        "Open": 28.549999237060547,
-        "Volume": 0
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
-    "status": "success",
-    "data": {
-      "longBusinessSummary": "The fund is an actively managed exchanged-traded fund (\u201cETF\u201d) that invests in U.S.-listed equity securities that have a market capitalization of greater than $5 billion. Utilizing its own quantitative model, the fund\u2019s investment sub-adviser, Cambria Investment Management, L.P. (\u201cCambria\u201d or the \u201cSub-Adviser\u201d) selects value stocks with lower dividend distributions, which are generally taxed as ordinary income.",
-      "maxAge": 86400,
-      "priceHint": 2,
-      "previousClose": 28.925,
-      "open": 28.55,
-      "dayLow": 28.55,
-      "dayHigh": 28.7205,
-      "regularMarketPreviousClose": 28.925,
-      "regularMarketOpen": 28.55,
-      "regularMarketDayLow": 28.55,
-      "regularMarketDayHigh": 28.7205,
-      "trailingPE": 20.85938,
-      "volume": 2343,
-      "regularMarketVolume": 2343,
-      "averageVolume": 455,
-      "averageVolume10days": 290,
-      "averageDailyVolume10Day": 290,
-      "bid": 20.33,
-      "ask": 36.55,
-      "bidSize": 2,
-      "askSize": 2,
-      "totalAssets": 30362212,
-      "fiftyTwoWeekLow": 20.0,
-      "fiftyTwoWeekHigh": 29.319,
-      "allTimeHigh": 29.319,
-      "allTimeLow": 20.0,
-      "fiftyDayAverage": 28.33422,
-      "twoHundredDayAverage": 26.19898,
-      "trailingAnnualDividendRate": 0.0,
-      "trailingAnnualDividendYield": 0.0,
-      "navPrice": 28.7711,
-      "currency": "USD",
-      "tradeable": false,
-      "category": "Mid-Cap Blend",
-      "ytdReturn": 17.22686,
-      "beta3Year": 0.0,
-      "fundFamily": "Cambria Investment Management",
-      "fundInceptionDate": 1734393600,
-      "legalType": "Exchange Traded Fund",
-      "quoteType": "ETF",
-      "symbol": "TAX",
-      "language": "en-US",
-      "region": "US",
-      "typeDisp": "ETF",
-      "quoteSourceName": "Nasdaq Real Time Price",
-      "triggerable": true,
-      "customPriceAlertConfidence": "HIGH",
-      "marketState": "CLOSED",
-      "regularMarketChangePercent": -0.70699495,
-      "regularMarketPrice": 28.7205,
-      "postMarketTime": 1767387885,
-      "regularMarketTime": 1767387600,
-      "exchange": "NGM",
-      "messageBoardId": "finmb_1902083743",
-      "exchangeTimezoneName": "America/New_York",
-      "exchangeTimezoneShortName": "EST",
-      "gmtOffSetMilliseconds": -18000000,
-      "market": "us_market",
-      "esgPopulated": false,
-      "hasPrePostMarketData": true,
-      "firstTradeDateMilliseconds": 1734532200000,
-      "postMarketChangePercent": 0.77058226,
-      "postMarketPrice": 28.77,
-      "postMarketChange": 0.22000122,
-      "regularMarketChange": -0.20449829,
-      "regularMarketDayRange": "28.55 - 28.7205",
-      "fullExchangeName": "NasdaqGM",
-      "averageDailyVolume3Month": 455,
-      "fiftyTwoWeekLowChange": 8.720501,
-      "fiftyTwoWeekLowChangePercent": 0.43602505,
-      "fiftyTwoWeekRange": "20.0 - 29.319",
-      "fiftyTwoWeekHighChange": -0.5984993,
-      "fiftyTwoWeekHighChangePercent": -0.02041336,
-      "fiftyTwoWeekChangePercent": 14.301813,
-      "trailingThreeMonthReturns": 5.74459,
-      "trailingThreeMonthNavReturns": 5.74459,
-      "netAssets": 30362212.0,
-      "epsTrailingTwelveMonths": 1.3768626,
-      "fiftyDayAverageChange": 0.38628006,
-      "fiftyDayAverageChangePercent": 0.013632987,
-      "twoHundredDayAverageChange": 2.5215206,
-      "twoHundredDayAverageChangePercent": 0.09624499,
-      "netExpenseRatio": 0.49,
-      "sourceInterval": 15,
-      "exchangeDataDelayedBy": 0,
-      "cryptoTradeable": false,
-      "shortName": "Cambria Tax Aware ETF",
-      "longName": "Cambria Tax Aware ETF",
-      "displayName": "Liberty Tax"
-    }
+    "status": "error",
+    "message": "Too Many Requests. Rate limited. Try after a while."
   },
   "financials": {
     "income_statement": {
@@ -120,147 +21,25 @@
     }
   },
   "options_data": {
-    "expirations": []
+    "status": "error",
+    "error_message": "Too Many Requests. Rate limited. Try after a while."
   },
   "news_data": {
     "news": {
-      "status": "success",
-      "count": 2,
-      "data": [
-        {
-          "id": "a5313735-4da8-3b78-8071-c7bacda52930",
-          "content": {
-            "id": "a5313735-4da8-3b78-8071-c7bacda52930",
-            "contentType": "STORY",
-            "title": "How to Defer Taxes Like the Rich and Famous",
-            "description": "",
-            "summary": "Cambria's Meb Faber discusses 351 ETF conversions and the case for global diversification.",
-            "pubDate": "2025-10-06T19:28:00Z",
-            "displayTime": "2025-10-06T19:28:00Z",
-            "isHosted": true,
-            "bypassModal": false,
-            "previewUrl": null,
-            "thumbnail": {
-              "originalUrl": "https://media.zenfs.com/en/zacks.com/be815aa1679ba9144662015326cdfaf7",
-              "originalWidth": 635,
-              "originalHeight": 400,
-              "caption": "",
-              "resolutions": [
-                {
-                  "url": "https://s.yimg.com/uu/api/res/1.2/iDk6XXWOlNpV7vQ6n40c0A--~B/aD00MDA7dz02MzU7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/zacks.com/be815aa1679ba9144662015326cdfaf7",
-                  "width": 635,
-                  "height": 400,
-                  "tag": "original"
-                },
-                {
-                  "url": "https://s.yimg.com/uu/api/res/1.2/fGHe1xyruYGsAod9gYhR_w--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/zacks.com/be815aa1679ba9144662015326cdfaf7",
-                  "width": 170,
-                  "height": 128,
-                  "tag": "170x128"
-                }
-              ]
-            },
-            "provider": {
-              "displayName": "Zacks",
-              "url": "http://www.zacks.com/"
-            },
-            "canonicalUrl": {
-              "url": "https://finance.yahoo.com/news/defer-taxes-rich-famous-192800949.html",
-              "site": "finance",
-              "region": "US",
-              "lang": "en-US"
-            },
-            "clickThroughUrl": {
-              "url": "https://finance.yahoo.com/news/defer-taxes-rich-famous-192800949.html",
-              "site": "finance",
-              "region": "US",
-              "lang": "en-US"
-            },
-            "metadata": {
-              "editorsPick": false
-            },
-            "finance": {
-              "premiumFinance": {
-                "isPremiumNews": false,
-                "isPremiumFreeNews": false
-              }
-            },
-            "storyline": null
-          }
-        },
-        {
-          "id": "742c9877-2eb2-364d-a805-3070e7f1ecb0",
-          "content": {
-            "id": "742c9877-2eb2-364d-a805-3070e7f1ecb0",
-            "contentType": "STORY",
-            "title": "The 351 Exchange ETF Is Here. More Are on the Way",
-            "description": "",
-            "summary": "The ETF strategy lets wealthy investors defer, or even avoid, capital gains tax liabilities.",
-            "pubDate": "2025-09-29T10:05:00Z",
-            "displayTime": "2025-09-29T10:05:00Z",
-            "isHosted": true,
-            "bypassModal": false,
-            "previewUrl": null,
-            "thumbnail": {
-              "originalUrl": "https://media.zenfs.com/en/the_daily_upside_435/e64fe9f8fd53641ed4d2d702ed6bd114",
-              "originalWidth": 1600,
-              "originalHeight": 901,
-              "caption": "",
-              "resolutions": [
-                {
-                  "url": "https://s.yimg.com/uu/api/res/1.2/1Q2CDvOBfz2lElP2.muYAQ--~B/aD05MDE7dz0xNjAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/the_daily_upside_435/e64fe9f8fd53641ed4d2d702ed6bd114",
-                  "width": 1600,
-                  "height": 901,
-                  "tag": "original"
-                },
-                {
-                  "url": "https://s.yimg.com/uu/api/res/1.2/9s0OAtulVRwX2FzIpXtapQ--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/the_daily_upside_435/e64fe9f8fd53641ed4d2d702ed6bd114",
-                  "width": 170,
-                  "height": 128,
-                  "tag": "170x128"
-                }
-              ]
-            },
-            "provider": {
-              "displayName": "The Daily Upside",
-              "url": "http://thedailyupside.com/"
-            },
-            "canonicalUrl": {
-              "url": "https://www.thedailyupside.com/etf/investing-strategies-etf/the-351-exchange-etf-is-here-more-are-on-the-way/",
-              "site": "finance",
-              "region": "US",
-              "lang": "en-US"
-            },
-            "clickThroughUrl": {
-              "url": "https://finance.yahoo.com/news/351-exchange-etf-more-way-100500081.html",
-              "site": "finance",
-              "region": "US",
-              "lang": "en-US"
-            },
-            "metadata": {
-              "editorsPick": false
-            },
-            "finance": {
-              "premiumFinance": {
-                "isPremiumNews": false,
-                "isPremiumFreeNews": false
-              }
-            },
-            "storyline": null
-          }
-        }
-      ]
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   },
   "holders_data": {
     "major_holders": {
-      "status": "no_data"
+      "status": "error"
     },
     "institutional_holders": {
-      "status": "no_data"
+      "status": "error"
     }
   },
   "earnings_data": {
@@ -270,7 +49,7 @@
     },
     "calendar": {
       "status": "error",
-      "message": "'dict' object has no attribute 'empty'"
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   }
 }

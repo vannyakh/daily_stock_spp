@@ -1,9 +1,60 @@
 {
   "ticker": "ATMH",
-  "timestamp": "2026-01-03T05:19:24.673344",
+  "timestamp": "2026-01-04T05:08:42.530208",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 7,
+    "data": [
+      {
+        "Close TOGI": 0.0560000017285347,
+        "High TOGI": 0.0560000017285347,
+        "Low TOGI": 0.0560000017285347,
+        "Open TOGI": 0.0560000017285347,
+        "Volume TOGI": 0
+      },
+      {
+        "Close TOGI": 0.0560000017285347,
+        "High TOGI": 0.0560000017285347,
+        "Low TOGI": 0.0560000017285347,
+        "Open TOGI": 0.0560000017285347,
+        "Volume TOGI": 1
+      },
+      {
+        "Close TOGI": 0.058800000697374344,
+        "High TOGI": 0.058800000697374344,
+        "Low TOGI": 0.058800000697374344,
+        "Open TOGI": 0.058800000697374344,
+        "Volume TOGI": 110
+      },
+      {
+        "Close TOGI": 0.05999999865889549,
+        "High TOGI": 0.05999999865889549,
+        "Low TOGI": 0.05999999865889549,
+        "Open TOGI": 0.05999999865889549,
+        "Volume TOGI": 10000
+      },
+      {
+        "Close TOGI": 0.05609999969601631,
+        "High TOGI": 0.05609999969601631,
+        "Low TOGI": 0.05609999969601631,
+        "Open TOGI": 0.05609999969601631,
+        "Volume TOGI": 648
+      },
+      {
+        "Close TOGI": 0.05609999969601631,
+        "High TOGI": 0.05609999969601631,
+        "Low TOGI": 0.05609999969601631,
+        "Open TOGI": 0.05609999969601631,
+        "Volume TOGI": 275
+      },
+      {
+        "Close TOGI": 0.05999999865889549,
+        "High TOGI": 0.05999999865889549,
+        "Low TOGI": 0.05999999865889549,
+        "Open TOGI": 0.05999999865889549,
+        "Volume TOGI": 1500
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -21,36 +72,24 @@
     }
   },
   "options_data": {
-    "expirations": []
+    "status": "error",
+    "error_message": "Too Many Requests. Rate limited. Try after a while."
   },
   "news_data": {
     "news": {
       "status": "no_data"
     },
     "recommendations": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   },
   "holders_data": {
     "major_holders": {
-      "status": "success",
-      "data": [
-        {
-          "Value": 0.92735
-        },
-        {
-          "Value": 0.0
-        },
-        {
-          "Value": 0.0
-        },
-        {
-          "Value": 0.0
-        }
-      ]
+      "status": "error"
     },
     "institutional_holders": {
-      "status": "no_data"
+      "status": "error"
     }
   },
   "earnings_data": {
@@ -60,7 +99,7 @@
     },
     "calendar": {
       "status": "error",
-      "message": "'dict' object has no attribute 'empty'"
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   }
 }

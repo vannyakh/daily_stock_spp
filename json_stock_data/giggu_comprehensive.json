@@ -1,46 +1,9 @@
 {
   "ticker": "GIGGU",
-  "timestamp": "2026-01-03T05:33:43.707666",
+  "timestamp": "2026-01-04T05:13:03.156746",
   "intraday_data": {
-    "status": "success",
-    "rows": 5,
-    "data": [
-      {
-        "Close RAINW": 0.2773999869823456,
-        "High RAINW": 0.2773999869823456,
-        "Low RAINW": 0.2773999869823456,
-        "Open RAINW": 0.2773999869823456,
-        "Volume RAINW": 0
-      },
-      {
-        "Close RAINW": 0.2773999869823456,
-        "High RAINW": 0.2773999869823456,
-        "Low RAINW": 0.2773999869823456,
-        "Open RAINW": 0.2773999869823456,
-        "Volume RAINW": 100
-      },
-      {
-        "Close RAINW": 0.2773999869823456,
-        "High RAINW": 0.2773999869823456,
-        "Low RAINW": 0.2773999869823456,
-        "Open RAINW": 0.2773999869823456,
-        "Volume RAINW": 100
-      },
-      {
-        "Close RAINW": 0.27000001072883606,
-        "High RAINW": 0.27000001072883606,
-        "Low RAINW": 0.27000001072883606,
-        "Open RAINW": 0.27000001072883606,
-        "Volume RAINW": 200
-      },
-      {
-        "Close RAINW": 0.2775000035762787,
-        "High RAINW": 0.2775000035762787,
-        "Low RAINW": 0.2775000035762787,
-        "Open RAINW": 0.2775000035762787,
-        "Volume RAINW": 100
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -63,7 +26,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

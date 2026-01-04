@@ -1,45 +1,78 @@
 {
   "ticker": "CGBSW",
-  "timestamp": "2026-01-03T05:35:02.128641",
+  "timestamp": "2026-01-04T05:13:18.363610",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 9,
+    "data": [
+      {
+        "Close PDPA": 25.280000686645508,
+        "High PDPA": 25.280000686645508,
+        "Low PDPA": 25.280000686645508,
+        "Open PDPA": 25.280000686645508,
+        "Volume PDPA": 0
+      },
+      {
+        "Close PDPA": 25.280000686645508,
+        "High PDPA": 25.280000686645508,
+        "Low PDPA": 25.280000686645508,
+        "Open PDPA": 25.280000686645508,
+        "Volume PDPA": 370
+      },
+      {
+        "Close PDPA": 25.274999618530273,
+        "High PDPA": 25.274999618530273,
+        "Low PDPA": 25.274999618530273,
+        "Open PDPA": 25.274999618530273,
+        "Volume PDPA": 270
+      },
+      {
+        "Close PDPA": 25.200000762939453,
+        "High PDPA": 25.209999084472656,
+        "Low PDPA": 25.200000762939453,
+        "Open PDPA": 25.209999084472656,
+        "Volume PDPA": 377
+      },
+      {
+        "Close PDPA": 25.16010093688965,
+        "High PDPA": 25.16010093688965,
+        "Low PDPA": 25.16010093688965,
+        "Open PDPA": 25.16010093688965,
+        "Volume PDPA": 500
+      },
+      {
+        "Close PDPA": 25.200000762939453,
+        "High PDPA": 25.200000762939453,
+        "Low PDPA": 25.200000762939453,
+        "Open PDPA": 25.200000762939453,
+        "Volume PDPA": 322
+      },
+      {
+        "Close PDPA": 25.200000762939453,
+        "High PDPA": 25.200000762939453,
+        "Low PDPA": 25.200000762939453,
+        "Open PDPA": 25.200000762939453,
+        "Volume PDPA": 100
+      },
+      {
+        "Close PDPA": 25.15999984741211,
+        "High PDPA": 25.15999984741211,
+        "Low PDPA": 25.15999984741211,
+        "Open PDPA": 25.15999984741211,
+        "Volume PDPA": 100
+      },
+      {
+        "Close PDPA": 25.200000762939453,
+        "High PDPA": 25.200000762939453,
+        "Low PDPA": 25.200000762939453,
+        "Open PDPA": 25.200000762939453,
+        "Volume PDPA": 100
+      }
+    ]
   },
   "stock_info": {
-    "status": "success",
-    "data": {
-      "maxAge": 86400,
-      "priceHint": 4,
-      "previousClose": 0.0,
-      "regularMarketPreviousClose": 0.0,
-      "currency": "USD",
-      "tradeable": false,
-      "quoteType": "EQUITY",
-      "symbol": "CGBSW",
-      "language": "en-US",
-      "region": "US",
-      "typeDisp": "Equity",
-      "quoteSourceName": "Delayed Quote",
-      "triggerable": true,
-      "customPriceAlertConfidence": "HIGH",
-      "regularMarketTime": 1764104400,
-      "market": "us_market",
-      "esgPopulated": false,
-      "marketState": "CLOSED",
-      "shortName": "Crown LNG Holdings Limited",
-      "regularMarketChange": 0.0259,
-      "fullExchangeName": "NasdaqGM",
-      "sourceInterval": 15,
-      "exchangeDataDelayedBy": 0,
-      "cryptoTradeable": false,
-      "regularMarketPrice": 0.0259,
-      "hasPrePostMarketData": true,
-      "exchange": "NGM",
-      "exchangeTimezoneName": "America/New_York",
-      "exchangeTimezoneShortName": "EST",
-      "gmtOffSetMilliseconds": -18000000,
-      "displayName": "Crown LNG"
-    }
+    "status": "error",
+    "message": "Too Many Requests. Rate limited. Try after a while."
   },
   "financials": {
     "income_statement": {
@@ -53,22 +86,25 @@
     }
   },
   "options_data": {
-    "expirations": []
+    "status": "error",
+    "error_message": "Too Many Requests. Rate limited. Try after a while."
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   },
   "holders_data": {
     "major_holders": {
-      "status": "no_data"
+      "status": "error"
     },
     "institutional_holders": {
-      "status": "no_data"
+      "status": "error"
     }
   },
   "earnings_data": {
@@ -78,7 +114,7 @@
     },
     "calendar": {
       "status": "error",
-      "message": "'dict' object has no attribute 'empty'"
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   }
 }

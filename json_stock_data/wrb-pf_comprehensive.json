@@ -1,72 +1,75 @@
 {
   "ticker": "WRB-PF",
-  "timestamp": "2026-01-03T05:43:51.951822",
+  "timestamp": "2026-01-04T05:15:57.074507",
   "intraday_data": {
     "status": "success",
-    "rows": 0,
-    "data": []
+    "rows": 5,
+    "data": [
+      {
+        "Close": 19.709999084472656,
+        "Close WRB-PG": 16.690000534057617,
+        "High": 19.709999084472656,
+        "High WRB-PG": 16.690000534057617,
+        "Low": 19.709999084472656,
+        "Low WRB-PG": 16.690000534057617,
+        "Open": 19.709999084472656,
+        "Open WRB-PG": 16.690000534057617,
+        "Volume": 0.0,
+        "Volume WRB-PG": 0.0
+      },
+      {
+        "Close": 19.719999313354492,
+        "Close WRB-PG": 16.645000457763672,
+        "High": 19.719999313354492,
+        "High WRB-PG": 16.645000457763672,
+        "Low": 19.719999313354492,
+        "Low WRB-PG": 16.645000457763672,
+        "Open": 19.719999313354492,
+        "Open WRB-PG": 16.645000457763672,
+        "Volume": 475.0,
+        "Volume WRB-PG": 111.0
+      },
+      {
+        "Close": 19.959999084472656,
+        "Close WRB-PG": 16.81999969482422,
+        "High": 20.020000457763672,
+        "High WRB-PG": 16.850000381469727,
+        "Low": 19.950000762939453,
+        "Low WRB-PG": 16.75,
+        "Open": 19.950000762939453,
+        "Open WRB-PG": 16.75,
+        "Volume": 2404.0,
+        "Volume WRB-PG": 2181.0
+      },
+      {
+        "Close": 19.885000228881836,
+        "Close WRB-PG": 16.829999923706055,
+        "High": 19.885000228881836,
+        "High WRB-PG": 16.829999923706055,
+        "Low": 19.885000228881836,
+        "Low WRB-PG": 16.829999923706055,
+        "Open": 19.885000228881836,
+        "Open WRB-PG": 16.829999923706055,
+        "Volume": 200.0,
+        "Volume WRB-PG": 122.0
+      },
+      {
+        "Close": 19.93000030517578,
+        "Close WRB-PG": 16.860000610351562,
+        "High": 19.93000030517578,
+        "High WRB-PG": 16.860000610351562,
+        "Low": 19.93000030517578,
+        "Low WRB-PG": 16.850000381469727,
+        "Open": 19.93000030517578,
+        "Open WRB-PG": 16.850000381469727,
+        "Volume": 200.0,
+        "Volume WRB-PG": 590.0
+      }
+    ]
   },
   "stock_info": {
-    "status": "success",
-    "data": {
-      "maxAge": 86400,
-      "priceHint": 2,
-      "previousClose": 19.62,
-      "open": 19.71,
-      "dayLow": 19.71,
-      "dayHigh": 20.02,
-      "regularMarketPreviousClose": 19.62,
-      "regularMarketOpen": 19.71,
-      "regularMarketDayLow": 19.71,
-      "regularMarketDayHigh": 20.02,
-      "volume": 30515,
-      "regularMarketVolume": 30515,
-      "bid": 17.74,
-      "ask": 22.07,
-      "bidSize": 100,
-      "askSize": 100,
-      "fiftyTwoWeekLow": 19.71,
-      "fiftyTwoWeekHigh": 20.02,
-      "currency": "USD",
-      "tradeable": false,
-      "quoteType": "EQUITY",
-      "symbol": "WRB-PF",
-      "language": "en-US",
-      "region": "US",
-      "typeDisp": "Equity",
-      "quoteSourceName": "Delayed Quote",
-      "triggerable": true,
-      "customPriceAlertConfidence": "HIGH",
-      "postMarketTime": 1767395941,
-      "regularMarketTime": 1767387602,
-      "exchange": "NYQ",
-      "messageBoardId": "finmb_254504",
-      "exchangeTimezoneName": "America/New_York",
-      "exchangeTimezoneShortName": "EST",
-      "gmtOffSetMilliseconds": -18000000,
-      "market": "us_market",
-      "esgPopulated": false,
-      "regularMarketChangePercent": 1.58002,
-      "regularMarketPrice": 19.93,
-      "marketState": "CLOSED",
-      "hasPrePostMarketData": true,
-      "postMarketChangePercent": 0.0,
-      "postMarketPrice": 19.93,
-      "postMarketChange": 0.0,
-      "regularMarketChange": 0.309999,
-      "regularMarketDayRange": "19.71 - 20.02",
-      "fullExchangeName": "NYSE",
-      "fiftyTwoWeekLowChange": 0.22000122,
-      "fiftyTwoWeekLowChangePercent": 0.011161909,
-      "fiftyTwoWeekRange": "19.71 - 20.02",
-      "fiftyTwoWeekHighChange": -0.09000015,
-      "fiftyTwoWeekHighChangePercent": -0.004495512,
-      "dividendDate": 1767052800,
-      "shortName": "W.R. Berkley Corporation 5.10% ",
-      "sourceInterval": 15,
-      "exchangeDataDelayedBy": 0,
-      "cryptoTradeable": false
-    }
+    "status": "error",
+    "message": "Too Many Requests. Rate limited. Try after a while."
   },
   "financials": {
     "income_statement": {
@@ -80,11 +83,13 @@
     }
   },
   "options_data": {
-    "expirations": []
+    "status": "error",
+    "error_message": "Too Many Requests. Rate limited. Try after a while."
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

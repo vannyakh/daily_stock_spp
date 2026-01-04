@@ -1,6 +1,6 @@
 {
   "ticker": "SIBN",
-  "timestamp": "2026-01-03T04:47:21.196967",
+  "timestamp": "2026-01-04T04:56:03.530403",
   "intraday_data": {
     "status": "success",
     "rows": 238,
@@ -2291,138 +2291,16 @@
       ]
     },
     "recommendations": {
-      "status": "success",
-      "rows": 3,
-      "data": [
-        {
-          "period": "0m",
-          "strongBuy": 4,
-          "buy": 5,
-          "hold": 0,
-          "sell": 0,
-          "strongSell": 0
-        },
-        {
-          "period": "-1m",
-          "strongBuy": 4,
-          "buy": 5,
-          "hold": 0,
-          "sell": 0,
-          "strongSell": 0
-        },
-        {
-          "period": "-2m",
-          "strongBuy": 4,
-          "buy": 5,
-          "hold": 0,
-          "sell": 0,
-          "strongSell": 0
-        }
-      ]
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   },
   "holders_data": {
     "major_holders": {
-      "status": "success",
-      "data": [
-        {
-          "Value": 0.03288
-        },
-        {
-          "Value": 1.0557599
-        },
-        {
-          "Value": 1.09165
-        },
-        {
-          "Value": 251.0
-        }
-      ]
+      "status": "error"
     },
     "institutional_holders": {
-      "status": "success",
-      "data": [
-        {
-          "Date Reported": "2025-09-30 00:00:00",
-          "Holder": "Blackrock Inc.",
-          "pctHeld": 0.0796,
-          "Shares": 3455119,
-          "Value": 68376808,
-          "pctChange": -0.0041
-        },
-        {
-          "Date Reported": "2025-09-30 00:00:00",
-          "Holder": "American Century Companies Inc",
-          "pctHeld": 0.0654,
-          "Shares": 2838107,
-          "Value": 56166140,
-          "pctChange": 0.2252
-        },
-        {
-          "Date Reported": "2025-09-30 00:00:00",
-          "Holder": "Brown Advisory  Inc.",
-          "pctHeld": 0.0639,
-          "Shares": 2773167,
-          "Value": 54880977,
-          "pctChange": -0.048
-        },
-        {
-          "Date Reported": "2025-09-30 00:00:00",
-          "Holder": "Orbimed Advisors LLC.",
-          "pctHeld": 0.0594,
-          "Shares": 2578979,
-          "Value": 51037996,
-          "pctChange": 0.0
-        },
-        {
-          "Date Reported": "2025-09-30 00:00:00",
-          "Holder": "Vanguard Group Inc",
-          "pctHeld": 0.0574,
-          "Shares": 2489989,
-          "Value": 49276884,
-          "pctChange": 0.016900001
-        },
-        {
-          "Date Reported": "2025-09-30 00:00:00",
-          "Holder": "Champlain Investment Partners, LLC",
-          "pctHeld": 0.048600003,
-          "Shares": 2108944,
-          "Value": 41736003,
-          "pctChange": -0.0145000005
-        },
-        {
-          "Date Reported": "2025-09-30 00:00:00",
-          "Holder": "First Light Asset Management, LLC",
-          "pctHeld": 0.0442,
-          "Shares": 1917903,
-          "Value": 37955302,
-          "pctChange": 0.0953
-        },
-        {
-          "Date Reported": "2025-09-30 00:00:00",
-          "Holder": "Silvercrest Asset Management Group, LLC",
-          "pctHeld": 0.0337,
-          "Shares": 1460981,
-          "Value": 28912815,
-          "pctChange": -0.0135
-        },
-        {
-          "Date Reported": "2025-09-30 00:00:00",
-          "Holder": "Nuveen, LLC",
-          "pctHeld": 0.0312,
-          "Shares": 1352717,
-          "Value": 26770270,
-          "pctChange": 0.122
-        },
-        {
-          "Date Reported": "2025-09-30 00:00:00",
-          "Holder": "Granahan Investment Management LLC",
-          "pctHeld": 0.024,
-          "Shares": 1039649,
-          "Value": 20574654,
-          "pctChange": -0.1777
-        }
-      ]
+      "status": "error"
     }
   },
   "earnings_data": {
@@ -2432,7 +2310,7 @@
     },
     "calendar": {
       "status": "error",
-      "message": "'dict' object has no attribute 'empty'"
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   }
 }

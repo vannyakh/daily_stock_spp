@@ -1,117 +1,13 @@
 {
   "ticker": "CRGT",
-  "timestamp": "2026-01-03T05:24:18.500187",
+  "timestamp": "2026-01-04T05:10:00.230678",
   "intraday_data": {
-    "status": "success",
-    "rows": 13,
-    "data": [
-      {
-        "Close WETO": 0.830299973487854,
-        "High WETO": 0.830299973487854,
-        "Low WETO": 0.830299973487854,
-        "Open WETO": 0.830299973487854,
-        "Volume WETO": 982
-      },
-      {
-        "Close WETO": 0.8452000021934509,
-        "High WETO": 0.8452000021934509,
-        "Low WETO": 0.8452000021934509,
-        "Open WETO": 0.8452000021934509,
-        "Volume WETO": 400
-      },
-      {
-        "Close WETO": 0.8452000021934509,
-        "High WETO": 0.8452000021934509,
-        "Low WETO": 0.8452000021934509,
-        "Open WETO": 0.8452000021934509,
-        "Volume WETO": 55
-      },
-      {
-        "Close WETO": 0.8450999855995178,
-        "High WETO": 0.8450999855995178,
-        "Low WETO": 0.8327999711036682,
-        "Open WETO": 0.8327999711036682,
-        "Volume WETO": 1050
-      },
-      {
-        "Close WETO": 0.832099974155426,
-        "High WETO": 0.832099974155426,
-        "Low WETO": 0.832099974155426,
-        "Open WETO": 0.832099974155426,
-        "Volume WETO": 700
-      },
-      {
-        "Close WETO": 0.8598999977111816,
-        "High WETO": 0.8598999977111816,
-        "Low WETO": 0.8598999977111816,
-        "Open WETO": 0.8598999977111816,
-        "Volume WETO": 0
-      },
-      {
-        "Close WETO": 0.8598999977111816,
-        "High WETO": 0.8598999977111816,
-        "Low WETO": 0.8452000021934509,
-        "Open WETO": 0.8452000021934509,
-        "Volume WETO": 1328
-      },
-      {
-        "Close WETO": 0.8348000049591064,
-        "High WETO": 0.8348000049591064,
-        "Low WETO": 0.8348000049591064,
-        "Open WETO": 0.8348000049591064,
-        "Volume WETO": 1188
-      },
-      {
-        "Close WETO": 0.8450999855995178,
-        "High WETO": 0.8450999855995178,
-        "Low WETO": 0.8450999855995178,
-        "Open WETO": 0.8450999855995178,
-        "Volume WETO": 0
-      },
-      {
-        "Close WETO": 0.8406000137329102,
-        "High WETO": 0.8406000137329102,
-        "Low WETO": 0.8406000137329102,
-        "Open WETO": 0.8406000137329102,
-        "Volume WETO": 643
-      },
-      {
-        "Close WETO": 0.8327999711036682,
-        "High WETO": 0.8327999711036682,
-        "Low WETO": 0.8327999711036682,
-        "Open WETO": 0.8327999711036682,
-        "Volume WETO": 949
-      },
-      {
-        "Close WETO": 0.8327999711036682,
-        "High WETO": 0.8327999711036682,
-        "Low WETO": 0.8327999711036682,
-        "Open WETO": 0.8327999711036682,
-        "Volume WETO": 309
-      },
-      {
-        "Close WETO": 0.8434000015258789,
-        "High WETO": 0.8434000015258789,
-        "Low WETO": 0.8434000015258789,
-        "Open WETO": 0.8434000015258789,
-        "Volume WETO": 145
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
-    "status": "success",
-    "data": {
-      "quoteType": "NONE",
-      "symbol": "CRGT",
-      "language": "en-US",
-      "region": "US",
-      "triggerable": false,
-      "customPriceAlertConfidence": "NONE",
-      "hasPrePostMarketData": false,
-      "tradeable": false,
-      "cryptoTradeable": false,
-      "esgPopulated": false
-    }
+    "status": "error",
+    "message": "Too Many Requests. Rate limited. Try after a while."
   },
   "financials": {
     "income_statement": {
@@ -125,22 +21,25 @@
     }
   },
   "options_data": {
-    "expirations": []
+    "status": "error",
+    "error_message": "Too Many Requests. Rate limited. Try after a while."
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   },
   "holders_data": {
     "major_holders": {
-      "status": "no_data"
+      "status": "error"
     },
     "institutional_holders": {
-      "status": "no_data"
+      "status": "error"
     }
   },
   "earnings_data": {
@@ -150,7 +49,7 @@
     },
     "calendar": {
       "status": "error",
-      "message": "'dict' object has no attribute 'empty'"
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   }
 }

@@ -1,118 +1,55 @@
 {
   "ticker": "BAERW",
-  "timestamp": "2026-01-03T05:33:53.347749",
+  "timestamp": "2026-01-04T05:13:05.579961",
   "intraday_data": {
-    "status": "success",
-    "rows": 5,
-    "data": [
-      {
-        "Close": 0.18299999833106995,
-        "High": 0.18299999833106995,
-        "Low": 0.18299999833106995,
-        "Open": 0.18299999833106995,
-        "Volume": 0
-      },
-      {
-        "Close": 0.20000000298023224,
-        "High": 0.20000000298023224,
-        "Low": 0.20000000298023224,
-        "Open": 0.20000000298023224,
-        "Volume": 201
-      },
-      {
-        "Close": 0.19300000369548798,
-        "High": 0.20000000298023224,
-        "Low": 0.19300000369548798,
-        "Open": 0.20000000298023224,
-        "Volume": 1602
-      },
-      {
-        "Close": 0.20080000162124634,
-        "High": 0.20080000162124634,
-        "Low": 0.20080000162124634,
-        "Open": 0.20080000162124634,
-        "Volume": 3000
-      },
-      {
-        "Close": 0.20000000298023224,
-        "High": 0.20000000298023224,
-        "Low": 0.20000000298023224,
-        "Open": 0.20000000298023224,
-        "Volume": 10200
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
-    "status": "success",
-    "data": {
-      "language": "en-US",
-      "region": "US",
-      "quoteType": "EQUITY",
-      "typeDisp": "Equity",
-      "quoteSourceName": "Delayed Quote",
-      "triggerable": true,
-      "customPriceAlertConfidence": "HIGH",
-      "currency": "USD",
-      "shortName": "Bridger Aerospace Group Holding",
-      "regularMarketChangePercent": 0.0,
-      "regularMarketPrice": 0.2,
-      "marketState": "CLOSED",
-      "regularMarketTime": 1767387490,
-      "exchange": "NGM",
-      "messageBoardId": "finmb_1764709148",
-      "exchangeTimezoneName": "America/New_York",
-      "exchangeTimezoneShortName": "EST",
-      "gmtOffSetMilliseconds": -18000000,
-      "market": "us_market",
-      "esgPopulated": false,
-      "longName": "Bridger Aerospace Group Holdings, Inc.",
-      "fiftyTwoWeekLowChange": 0.017000005,
-      "fiftyTwoWeekLowChangePercent": 0.0928962,
-      "fiftyTwoWeekRange": "0.183 - 0.2008",
-      "fiftyTwoWeekHighChange": -0.00079999864,
-      "fiftyTwoWeekHighChangePercent": -0.003984057,
-      "fiftyTwoWeekLow": 0.183,
-      "fiftyTwoWeekHigh": 0.2008,
-      "trailingAnnualDividendRate": 0.0,
-      "trailingAnnualDividendYield": 0.0,
-      "bookValue": -5.804,
-      "priceToBook": -0.034458995,
-      "sourceInterval": 15,
-      "exchangeDataDelayedBy": 0,
-      "ipoExpectedDate": "2023-01-25",
-      "prevName": "Jack Creek Investment Corp.",
-      "nameChangeDate": "2026-01-02",
-      "tradeable": false,
-      "cryptoTradeable": false,
-      "hasPrePostMarketData": true,
-      "priceHint": 4,
-      "regularMarketChange": 0.0,
-      "regularMarketDayHigh": 0.2008,
-      "regularMarketDayRange": "0.183 - 0.2008",
-      "regularMarketDayLow": 0.183,
-      "regularMarketVolume": 15300,
-      "regularMarketPreviousClose": 0.2,
-      "bid": 0.0,
-      "ask": 0.0,
-      "bidSize": 0,
-      "askSize": 0,
-      "fullExchangeName": "NasdaqGM",
-      "financialCurrency": "USD",
-      "regularMarketOpen": 0.0951,
-      "displayName": "Bridger Aerospace",
-      "symbol": "BAERW"
-    }
+    "status": "error",
+    "message": "Too Many Requests. Rate limited. Try after a while."
   },
   "financials": {
     "income_statement": {
-      "status": "success",
-      "rows": 38,
-      "columns": [
-        "2024-12-31 00:00:00",
-        "2023-12-31 00:00:00",
-        "2022-12-31 00:00:00",
-        "2021-12-31 00:00:00"
-      ],
-      "data": [
-        {
-          
+      "status": "no_data"
+    },
+    "balance_sheet": {
+      "status": "no_data"
+    },
+    "cash_flow": {
+      "status": "no_data"
+    }
+  },
+  "options_data": {
+    "status": "error",
+    "error_message": "Too Many Requests. Rate limited. Try after a while."
+  },
+  "news_data": {
+    "news": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    },
+    "recommendations": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  },
+  "holders_data": {
+    "major_holders": {
+      "status": "error"
+    },
+    "institutional_holders": {
+      "status": "error"
+    }
+  },
+  "earnings_data": {
+    "earnings": {
+      "status": "error",
+      "message": "'NoneType' object has no attribute 'empty'"
+    },
+    "calendar": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  }
+}

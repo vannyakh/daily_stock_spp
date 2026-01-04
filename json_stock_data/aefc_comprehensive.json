@@ -1,6 +1,6 @@
 {
   "ticker": "AEFC",
-  "timestamp": "2026-01-03T05:32:47.705733",
+  "timestamp": "2026-01-04T05:12:41.329782",
   "intraday_data": {
     "status": "success",
     "rows": 80,
@@ -568,80 +568,8 @@
     ]
   },
   "stock_info": {
-    "status": "success",
-    "data": {
-      "maxAge": 86400,
-      "priceHint": 2,
-      "previousClose": 19.67,
-      "open": 19.75,
-      "dayLow": 19.7145,
-      "dayHigh": 19.93,
-      "regularMarketPreviousClose": 19.67,
-      "regularMarketOpen": 19.75,
-      "regularMarketDayLow": 19.7145,
-      "regularMarketDayHigh": 19.93,
-      "volume": 78285,
-      "regularMarketVolume": 78285,
-      "averageVolume": 44937,
-      "averageVolume10days": 52460,
-      "averageDailyVolume10Day": 52460,
-      "bid": 19.75,
-      "ask": 20.79,
-      "bidSize": 400,
-      "askSize": 100,
-      "fiftyTwoWeekLow": 18.61,
-      "fiftyTwoWeekHigh": 21.45,
-      "allTimeHigh": 27.63,
-      "allTimeLow": 11.05,
-      "fiftyDayAverage": 20.00518,
-      "twoHundredDayAverage": 20.118996,
-      "currency": "USD",
-      "tradeable": false,
-      "quoteType": "EQUITY",
-      "symbol": "AEFC",
-      "language": "en-US",
-      "region": "US",
-      "typeDisp": "Equity",
-      "quoteSourceName": "Delayed Quote",
-      "triggerable": true,
-      "customPriceAlertConfidence": "HIGH",
-      "marketState": "CLOSED",
-      "hasPrePostMarketData": true,
-      "firstTradeDateMilliseconds": 1571923800000,
-      "postMarketChangePercent": 0.0,
-      "postMarketPrice": 19.83,
-      "postMarketChange": 0.0,
-      "regularMarketChange": 0.16,
-      "regularMarketDayRange": "19.7145 - 19.93",
-      "fullExchangeName": "NYSE",
-      "averageDailyVolume3Month": 44937,
-      "fiftyTwoWeekLowChange": 1.2199993,
-      "fiftyTwoWeekLowChangePercent": 0.06555612,
-      "fiftyTwoWeekRange": "18.61 - 21.45",
-      "fiftyTwoWeekHighChange": -1.6200008,
-      "fiftyTwoWeekHighChangePercent": -0.07552451,
-      "fiftyTwoWeekChangePercent": -6.020069,
-      "dividendDate": 1765756800,
-      "postMarketTime": 1767395941,
-      "regularMarketTime": 1767387602,
-      "shortName": "Aegon Funding Company LLC 5.10%",
-      "regularMarketChangePercent": 0.813421,
-      "regularMarketPrice": 19.83,
-      "exchange": "NYQ",
-      "messageBoardId": "finmb_3603474",
-      "exchangeTimezoneName": "America/New_York",
-      "exchangeTimezoneShortName": "EST",
-      "gmtOffSetMilliseconds": -18000000,
-      "market": "us_market",
-      "esgPopulated": false,
-      "fiftyDayAverageChange": -0.17518044,
-      "fiftyDayAverageChangePercent": -0.008756754,
-      "twoHundredDayAverageChange": -0.28899574,
-      "twoHundredDayAverageChangePercent": -0.014364323,
-      "sourceInterval": 15,
-      "exchangeDataDelayedBy": 0,
-      "cryptoTradeable": false
-    }
+    "status": "error",
+    "message": "Too Many Requests. Rate limited. Try after a while."
   },
   "financials": {
     "income_statement": {
@@ -655,11 +583,13 @@
     }
   },
   "options_data": {
-    "expirations": []
+    "status": "error",
+    "error_message": "Too Many Requests. Rate limited. Try after a while."
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",
@@ -668,10 +598,10 @@
   },
   "holders_data": {
     "major_holders": {
-      "status": "no_data"
+      "status": "error"
     },
     "institutional_holders": {
-      "status": "no_data"
+      "status": "error"
     }
   },
   "earnings_data": {
@@ -681,7 +611,7 @@
     },
     "calendar": {
       "status": "error",
-      "message": "'dict' object has no attribute 'empty'"
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   }
 }

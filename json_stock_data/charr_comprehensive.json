@@ -1,6 +1,6 @@
 {
   "ticker": "CHARR",
-  "timestamp": "2026-01-03T05:45:53.497781",
+  "timestamp": "2026-01-04T05:16:39.613693",
   "intraday_data": {
     "status": "no_data",
     "message": "No intraday data available"
@@ -21,104 +21,25 @@
     }
   },
   "options_data": {
-    "expirations": []
+    "status": "error",
+    "error_message": "Too Many Requests. Rate limited. Try after a while."
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   },
   "holders_data": {
     "major_holders": {
-      "status": "no_data"
+      "status": "error"
     },
     "institutional_holders": {
-      "status": "success",
-      "data": [
-        {
-          "Date Reported": "2025-09-30 00:00:00",
-          "Holder": "Wolverine Asset Management, LLC",
-          "pctHeld": 0.0,
-          "Shares": 308415,
-          "Value": 58568,
-          "pctChange": -0.0016
-        },
-        {
-          "Date Reported": "2025-09-30 00:00:00",
-          "Holder": "Highbridge Capital Management, LLC.",
-          "pctHeld": 0.0,
-          "Shares": 1413276,
-          "Value": 268381,
-          "pctChange": -0.00090000004
-        },
-        {
-          "Date Reported": "2025-09-30 00:00:00",
-          "Holder": "Harraden Circle Investments, LLC",
-          "pctHeld": 0.0,
-          "Shares": 2310728,
-          "Value": 438807,
-          "pctChange": 0.1576
-        },
-        {
-          "Date Reported": "2025-09-30 00:00:00",
-          "Holder": "Hudson Bay Capital Management Lp",
-          "pctHeld": 0.0,
-          "Shares": 325000,
-          "Value": 61717,
-          "pctChange": 0.0
-        },
-        {
-          "Date Reported": "2025-09-30 00:00:00",
-          "Holder": "AQR Arbitrage LLC",
-          "pctHeld": 0.0,
-          "Shares": 737999,
-          "Value": 140146,
-          "pctChange": 0.0
-        },
-        {
-          "Date Reported": "2025-09-30 00:00:00",
-          "Holder": "Clear Street Group Inc.",
-          "pctHeld": 0.0,
-          "Shares": 526307,
-          "Value": 99945,
-          "pctChange": 1.0
-        },
-        {
-          "Date Reported": "2025-09-30 00:00:00",
-          "Holder": "Whitebox Advisors, LLC",
-          "pctHeld": 0.0,
-          "Shares": 399000,
-          "Value": 75770,
-          "pctChange": 0.0
-        },
-        {
-          "Date Reported": "2025-09-30 00:00:00",
-          "Holder": "Mangrove Partners IM, LLC",
-          "pctHeld": 0.0,
-          "Shares": 365000,
-          "Value": 69313,
-          "pctChange": 0.0
-        },
-        {
-          "Date Reported": "2025-09-30 00:00:00",
-          "Holder": "RiverNorth Capital Management, LLC",
-          "pctHeld": 0.0,
-          "Shares": 300000,
-          "Value": 56969,
-          "pctChange": 0.0
-        },
-        {
-          "Date Reported": "2025-09-30 00:00:00",
-          "Holder": "Toronto Dominion Bank",
-          "pctHeld": 0.0,
-          "Shares": 288127,
-          "Value": 54715,
-          "pctChange": 0.0023
-        }
-      ]
+      "status": "error"
     }
   },
   "earnings_data": {
@@ -128,7 +49,7 @@
     },
     "calendar": {
       "status": "error",
-      "message": "'dict' object has no attribute 'empty'"
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   }
 }

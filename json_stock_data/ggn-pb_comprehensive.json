@@ -1,58 +1,65 @@
 {
   "ticker": "GGN-PB",
-  "timestamp": "2026-01-03T05:28:42.746109",
+  "timestamp": "2026-01-04T05:11:31.031199",
   "intraday_data": {
     "status": "success",
-    "rows": 7,
+    "rows": 8,
     "data": [
       {
-        "Close GAMI": 24.440000534057617,
-        "High GAMI": 24.440000534057617,
-        "Low GAMI": 24.440000534057617,
-        "Open GAMI": 24.440000534057617,
-        "Volume GAMI": 0
+        "Close": 20.84000015258789,
+        "High": 20.84000015258789,
+        "Low": 20.84000015258789,
+        "Open": 20.84000015258789,
+        "Volume": 0
       },
       {
-        "Close GAMI": 24.440000534057617,
-        "High GAMI": 24.440000534057617,
-        "Low GAMI": 24.440000534057617,
-        "Open GAMI": 24.440000534057617,
-        "Volume GAMI": 2400
+        "Close": 20.799999237060547,
+        "High": 20.799999237060547,
+        "Low": 20.799999237060547,
+        "Open": 20.799999237060547,
+        "Volume": 2116
       },
       {
-        "Close GAMI": 24.540000915527344,
-        "High GAMI": 24.540000915527344,
-        "Low GAMI": 24.540000915527344,
-        "Open GAMI": 24.540000915527344,
-        "Volume GAMI": 800
+        "Close": 20.725000381469727,
+        "High": 20.725000381469727,
+        "Low": 20.725000381469727,
+        "Open": 20.725000381469727,
+        "Volume": 227
       },
       {
-        "Close GAMI": 24.540000915527344,
-        "High GAMI": 24.780000686645508,
-        "Low GAMI": 24.540000915527344,
-        "Open GAMI": 24.780000686645508,
-        "Volume GAMI": 5000
+        "Close": 20.729999542236328,
+        "High": 20.729999542236328,
+        "Low": 20.729999542236328,
+        "Open": 20.729999542236328,
+        "Volume": 115
       },
       {
-        "Close GAMI": 24.540000915527344,
-        "High GAMI": 24.540000915527344,
-        "Low GAMI": 24.540000915527344,
-        "Open GAMI": 24.540000915527344,
-        "Volume GAMI": 1100
+        "Close": 20.715200424194336,
+        "High": 20.715200424194336,
+        "Low": 20.715200424194336,
+        "Open": 20.715200424194336,
+        "Volume": 158
       },
       {
-        "Close GAMI": 24.540000915527344,
-        "High GAMI": 24.540000915527344,
-        "Low GAMI": 24.530000686645508,
-        "Open GAMI": 24.530000686645508,
-        "Volume GAMI": 3900
+        "Close": 20.83989906311035,
+        "High": 20.83989906311035,
+        "Low": 20.83989906311035,
+        "Open": 20.83989906311035,
+        "Volume": 205
       },
       {
-        "Close GAMI": 24.549999237060547,
-        "High GAMI": 24.549999237060547,
-        "Low GAMI": 24.549999237060547,
-        "Open GAMI": 24.549999237060547,
-        "Volume GAMI": 302
+        "Close": 20.790000915527344,
+        "High": 20.790000915527344,
+        "Low": 20.790000915527344,
+        "Open": 20.790000915527344,
+        "Volume": 100
+      },
+      {
+        "Close": 20.790000915527344,
+        "High": 20.790000915527344,
+        "Low": 20.790000915527344,
+        "Open": 20.790000915527344,
+        "Volume": 100
       }
     ]
   },
@@ -72,36 +79,25 @@
     }
   },
   "options_data": {
-    "expirations": []
+    "status": "error",
+    "error_message": "Too Many Requests. Rate limited. Try after a while."
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   },
   "holders_data": {
     "major_holders": {
-      "status": "success",
-      "data": [
-        {
-          "Value": 0.00035999998
-        },
-        {
-          "Value": 0.0771
-        },
-        {
-          "Value": 0.07712
-        },
-        {
-          "Value": 1.0
-        }
-      ]
+      "status": "error"
     },
     "institutional_holders": {
-      "status": "no_data"
+      "status": "error"
     }
   },
   "earnings_data": {
@@ -111,7 +107,7 @@
     },
     "calendar": {
       "status": "error",
-      "message": "'dict' object has no attribute 'empty'"
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   }
 }

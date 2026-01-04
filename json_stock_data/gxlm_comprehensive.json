@@ -1,6 +1,6 @@
 {
   "ticker": "GXLM",
-  "timestamp": "2026-01-03T05:24:44.982326",
+  "timestamp": "2026-01-04T05:10:04.441429",
   "intraday_data": {
     "status": "success",
     "rows": 78,
@@ -554,90 +554,8 @@
     ]
   },
   "stock_info": {
-    "status": "success",
-    "data": {
-      "maxAge": 86400,
-      "priceHint": 2,
-      "previousClose": 18.45,
-      "open": 19.37,
-      "dayLow": 19.37,
-      "dayHigh": 20.37,
-      "regularMarketPreviousClose": 18.45,
-      "regularMarketOpen": 19.37,
-      "regularMarketDayLow": 19.37,
-      "regularMarketDayHigh": 20.37,
-      "volume": 2916,
-      "regularMarketVolume": 2916,
-      "averageVolume": 11909,
-      "averageVolume10days": 9900,
-      "averageDailyVolume10Day": 9900,
-      "bid": 19.96,
-      "ask": 20.2,
-      "bidSize": 200,
-      "askSize": 100,
-      "yield": 0.0,
-      "totalAssets": 29718028,
-      "fiftyTwoWeekLow": 15.27,
-      "fiftyTwoWeekHigh": 58.88,
-      "allTimeHigh": 95.0,
-      "allTimeLow": 4.95,
-      "fiftyDayAverage": 23.03596,
-      "twoHundredDayAverage": 27.63853,
-      "navPrice": 19.77464,
-      "currency": "USD",
-      "tradeable": false,
-      "category": "Digital Assets",
-      "ytdReturn": -24.74056,
-      "beta3Year": 0.0,
-      "fundFamily": "Grayscale",
-      "fundInceptionDate": 1544054400,
-      "legalType": "Exchange Traded Fund",
-      "threeYearAverageReturn": 0.5525158,
-      "quoteType": "ETF",
-      "symbol": "GXLM",
-      "language": "en-US",
-      "region": "US",
-      "typeDisp": "ETF",
-      "triggerable": false,
-      "customPriceAlertConfidence": "LOW",
-      "shortName": "Grayscale Stellar Lumens Trust ",
-      "longName": "Grayscale Stellar Lumens Trust (XLM)",
-      "regularMarketDayRange": "19.37 - 20.37",
-      "cryptoTradeable": false,
-      "fullExchangeName": "OTC Markets OTCQX",
-      "averageDailyVolume3Month": 11909,
-      "fiftyTwoWeekLowChange": 4.6800003,
-      "fiftyTwoWeekLowChangePercent": 0.3064833,
-      "fiftyTwoWeekRange": "15.27 - 58.88",
-      "fiftyTwoWeekHighChange": -38.93,
-      "dividendYield": 0.0,
-      "trailingThreeMonthReturns": -29.52256,
-      "trailingThreeMonthNavReturns": -29.52256,
-      "netAssets": 29718028.0,
-      "firstTradeDateMilliseconds": 1634736600000,
-      "fiftyTwoWeekHighChangePercent": -0.66117525,
-      "fiftyTwoWeekChangePercent": -65.808014,
-      "exchange": "OQX",
-      "messageBoardId": "finmb_597913167",
-      "exchangeTimezoneName": "America/New_York",
-      "exchangeTimezoneShortName": "EST",
-      "gmtOffSetMilliseconds": -18000000,
-      "market": "us_market",
-      "esgPopulated": false,
-      "regularMarketChangePercent": 8.130081,
-      "regularMarketPrice": 19.95,
-      "fiftyDayAverageChange": -3.0859585,
-      "fiftyDayAverageChangePercent": -0.13396266,
-      "twoHundredDayAverageChange": -7.68853,
-      "twoHundredDayAverageChangePercent": -0.27818158,
-      "netExpenseRatio": 2.5,
-      "sourceInterval": 15,
-      "exchangeDataDelayedBy": 0,
-      "marketState": "CLOSED",
-      "regularMarketTime": 1767387600,
-      "regularMarketChange": 1.5,
-      "hasPrePostMarketData": false
-    }
+    "status": "error",
+    "message": "Too Many Requests. Rate limited. Try after a while."
   },
   "financials": {
     "income_statement": {
@@ -651,22 +569,25 @@
     }
   },
   "options_data": {
-    "expirations": []
+    "status": "error",
+    "error_message": "Too Many Requests. Rate limited. Try after a while."
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   },
   "holders_data": {
     "major_holders": {
-      "status": "no_data"
+      "status": "error"
     },
     "institutional_holders": {
-      "status": "no_data"
+      "status": "error"
     }
   },
   "earnings_data": {

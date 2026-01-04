@@ -1,43 +1,13 @@
 {
   "ticker": "SFDX",
-  "timestamp": "2026-01-03T05:24:06.408563",
+  "timestamp": "2026-01-04T05:09:58.218171",
   "intraday_data": {
-    "status": "success",
-    "rows": 4,
-    "data": [
-      {
-        "Close PHOE": 15.699999809265137,
-        "High PHOE": 15.699999809265137,
-        "Low PHOE": 15.699999809265137,
-        "Open PHOE": 15.699999809265137,
-        "Volume PHOE": 585
-      },
-      {
-        "Close PHOE": 15.989999771118164,
-        "High PHOE": 15.989999771118164,
-        "Low PHOE": 15.989999771118164,
-        "Open PHOE": 15.989999771118164,
-        "Volume PHOE": 167
-      },
-      {
-        "Close PHOE": 16.200000762939453,
-        "High PHOE": 16.200000762939453,
-        "Low PHOE": 16.200000762939453,
-        "Open PHOE": 16.200000762939453,
-        "Volume PHOE": 324
-      },
-      {
-        "Close PHOE": 16.0,
-        "High PHOE": 16.200000762939453,
-        "Low PHOE": 16.0,
-        "Open PHOE": 16.200000762939453,
-        "Volume PHOE": 496
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
-    "status": "success",
-    "data": {}
+    "status": "error",
+    "message": "Too Many Requests. Rate limited. Try after a while."
   },
   "financials": {
     "income_statement": {
@@ -51,22 +21,25 @@
     }
   },
   "options_data": {
-    "expirations": []
+    "status": "error",
+    "error_message": "Too Many Requests. Rate limited. Try after a while."
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   },
   "holders_data": {
     "major_holders": {
-      "status": "no_data"
+      "status": "error"
     },
     "institutional_holders": {
-      "status": "no_data"
+      "status": "error"
     }
   },
   "earnings_data": {
@@ -76,7 +49,7 @@
     },
     "calendar": {
       "status": "error",
-      "message": "'dict' object has no attribute 'empty'"
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   }
 }

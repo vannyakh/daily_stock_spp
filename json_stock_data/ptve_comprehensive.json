@@ -1,6 +1,6 @@
 {
   "ticker": "PTVE",
-  "timestamp": "2026-01-03T04:36:29.947720",
+  "timestamp": "2026-01-04T04:51:52.078950",
   "intraday_data": {
     "status": "no_data",
     "message": "No intraday data available"
@@ -21,7 +21,8 @@
     }
   },
   "options_data": {
-    "expirations": []
+    "status": "error",
+    "error_message": "Too Many Requests. Rate limited. Try after a while."
   },
   "news_data": {
     "news": {
@@ -628,10 +629,10 @@
   },
   "holders_data": {
     "major_holders": {
-      "status": "no_data"
+      "status": "error"
     },
     "institutional_holders": {
-      "status": "no_data"
+      "status": "error"
     }
   },
   "earnings_data": {

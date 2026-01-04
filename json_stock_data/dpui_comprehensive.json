@@ -1,79 +1,13 @@
 {
   "ticker": "DPUI",
-  "timestamp": "2026-01-03T05:31:41.384923",
+  "timestamp": "2026-01-04T05:12:23.379314",
   "intraday_data": {
     "status": "no_data",
     "message": "No intraday data available"
   },
   "stock_info": {
-    "status": "success",
-    "data": {
-      "language": "en-US",
-      "region": "US",
-      "quoteType": "EQUITY",
-      "typeDisp": "Equity",
-      "quoteSourceName": "Delayed Quote",
-      "triggerable": false,
-      "customPriceAlertConfidence": "LOW",
-      "priceHint": 4,
-      "regularMarketChange": 0.0,
-      "regularMarketDayHigh": 0.0002,
-      "regularMarketDayRange": "2.0E-4 - 2.0E-4",
-      "regularMarketDayLow": 0.0002,
-      "regularMarketVolume": 2240000,
-      "regularMarketPreviousClose": 0.0002,
-      "bid": 0.0002,
-      "ask": 0.0002,
-      "bidSize": 329123001,
-      "askSize": 35936123,
-      "fullExchangeName": "OTC Markets OTCPK",
-      "financialCurrency": "USD",
-      "regularMarketOpen": 0.0002,
-      "averageDailyVolume3Month": 2700355,
-      "averageDailyVolume10Day": 844500,
-      "fiftyTwoWeekLowChange": 0.0001,
-      "currency": "USD",
-      "sharesOutstanding": 998662505,
-      "bookValue": -0.001,
-      "fiftyDayAverage": 0.000212,
-      "fiftyDayAverageChange": -1.2000004e-05,
-      "fiftyDayAverageChangePercent": -0.056603793,
-      "twoHundredDayAverage": 0.000188,
-      "twoHundredDayAverageChange": 1.19999895e-05,
-      "twoHundredDayAverageChangePercent": 0.06382973,
-      "marketCap": 199733,
-      "priceToBook": -0.19999999,
-      "sourceInterval": 15,
-      "exchangeDataDelayedBy": 0,
-      "hasPrePostMarketData": false,
-      "firstTradeDateMilliseconds": 1647351000000,
-      "regularMarketChangePercent": 0.0,
-      "regularMarketPrice": 0.0002,
-      "marketState": "CLOSED",
-      "shortName": "DISCOUNT PRINT USA INC.",
-      "longName": "Discount Print USA, Inc.",
-      "regularMarketTime": 1767387600,
-      "exchange": "PNK",
-      "messageBoardId": "finmb_642435461",
-      "exchangeTimezoneName": "America/New_York",
-      "exchangeTimezoneShortName": "EST",
-      "gmtOffSetMilliseconds": -18000000,
-      "market": "us_market",
-      "esgPopulated": false,
-      "tradeable": false,
-      "cryptoTradeable": false,
-      "fiftyTwoWeekLowChangePercent": 1.0,
-      "fiftyTwoWeekRange": "1.0E-4 - 4.0E-4",
-      "fiftyTwoWeekHighChange": -0.0002,
-      "fiftyTwoWeekHighChangePercent": -0.5,
-      "fiftyTwoWeekLow": 0.0001,
-      "fiftyTwoWeekHigh": 0.0004,
-      "fiftyTwoWeekChangePercent": 100.0,
-      "trailingAnnualDividendRate": 0.0,
-      "trailingAnnualDividendYield": 0.0,
-      "displayName": "Discount Print USA",
-      "symbol": "DPUI"
-    }
+    "status": "error",
+    "message": "Too Many Requests. Rate limited. Try after a while."
   },
   "financials": {
     "income_statement": {
@@ -87,36 +21,25 @@
     }
   },
   "options_data": {
-    "expirations": []
+    "status": "error",
+    "error_message": "Too Many Requests. Rate limited. Try after a while."
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   },
   "holders_data": {
     "major_holders": {
-      "status": "success",
-      "data": [
-        {
-          "Value": 0.0
-        },
-        {
-          "Value": 0.0
-        },
-        {
-          "Value": 0.0
-        },
-        {
-          "Value": 0.0
-        }
-      ]
+      "status": "error"
     },
     "institutional_holders": {
-      "status": "no_data"
+      "status": "error"
     }
   },
   "earnings_data": {
@@ -126,7 +49,7 @@
     },
     "calendar": {
       "status": "error",
-      "message": "'dict' object has no attribute 'empty'"
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   }
 }

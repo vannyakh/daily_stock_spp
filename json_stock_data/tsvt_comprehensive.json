@@ -1,9 +1,10 @@
 {
   "ticker": "TSVT",
-  "timestamp": "2026-01-03T05:00:44.253781",
+  "timestamp": "2026-01-04T05:01:13.253485",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 0,
+    "data": []
   },
   "stock_info": {
     "status": "error",
@@ -337,7 +338,8 @@
       ]
     },
     "recommendations": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   },
   "holders_data": {

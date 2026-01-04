@@ -1,65 +1,14 @@
 {
   "ticker": "QBTS-WT",
-  "timestamp": "2026-01-03T05:34:02.768379",
+  "timestamp": "2026-01-04T05:13:06.833220",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 0,
+    "data": []
   },
   "stock_info": {
-    "status": "success",
-    "data": {
-      "maxAge": 86400,
-      "priceHint": 2,
-      "previousClose": 22.59,
-      "open": 35.42,
-      "dayLow": 20.72,
-      "dayHigh": 23.12,
-      "regularMarketPreviousClose": 22.59,
-      "regularMarketOpen": 35.42,
-      "regularMarketDayLow": 20.72,
-      "regularMarketDayHigh": 23.12,
-      "volume": 307770,
-      "regularMarketVolume": 307770,
-      "bid": 37.33,
-      "ask": 38.73,
-      "bidSize": 7,
-      "askSize": 7,
-      "fiftyTwoWeekLow": 20.72,
-      "fiftyTwoWeekHigh": 23.12,
-      "currency": "USD",
-      "tradeable": false,
-      "quoteType": "EQUITY",
-      "symbol": "QBTS-WT",
-      "language": "en-US",
-      "region": "US",
-      "typeDisp": "Equity",
-      "quoteSourceName": "Nasdaq Real Time Price",
-      "triggerable": true,
-      "customPriceAlertConfidence": "HIGH",
-      "cryptoTradeable": false,
-      "longName": "D-Wave Quantum Inc. WT",
-      "regularMarketChangePercent": -4.2939324,
-      "regularMarketPrice": 21.62,
-      "marketState": "CLOSED",
-      "regularMarketTime": 1763412894,
-      "exchange": "NYQ",
-      "exchangeTimezoneName": "America/New_York",
-      "exchangeTimezoneShortName": "EST",
-      "gmtOffSetMilliseconds": -18000000,
-      "market": "us_market",
-      "esgPopulated": false,
-      "hasPrePostMarketData": true,
-      "regularMarketChange": -0.9699993,
-      "regularMarketDayRange": "20.72 - 23.12",
-      "fullExchangeName": "NYSE",
-      "fiftyTwoWeekLowChange": 0.9000015,
-      "fiftyTwoWeekLowChangePercent": 0.043436367,
-      "fiftyTwoWeekRange": "20.72 - 23.12",
-      "fiftyTwoWeekHighChange": -1.5,
-      "fiftyTwoWeekHighChangePercent": -0.06487889,
-      "sourceInterval": 15,
-      "exchangeDataDelayedBy": 0
-    }
+    "status": "error",
+    "message": "Too Many Requests. Rate limited. Try after a while."
   },
   "financials": {
     "income_statement": {
@@ -73,22 +22,25 @@
     }
   },
   "options_data": {
-    "expirations": []
+    "status": "error",
+    "error_message": "Too Many Requests. Rate limited. Try after a while."
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   },
   "holders_data": {
     "major_holders": {
-      "status": "no_data"
+      "status": "error"
     },
     "institutional_holders": {
-      "status": "no_data"
+      "status": "error"
     }
   },
   "earnings_data": {
@@ -98,7 +50,7 @@
     },
     "calendar": {
       "status": "error",
-      "message": "'dict' object has no attribute 'empty'"
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   }
 }

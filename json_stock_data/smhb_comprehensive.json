@@ -1,10 +1,18 @@
 {
   "ticker": "SMHB",
-  "timestamp": "2026-01-03T05:41:12.390621",
+  "timestamp": "2026-01-04T05:15:16.041253",
   "intraday_data": {
     "status": "success",
-    "rows": 0,
-    "data": []
+    "rows": 1,
+    "data": [
+      {
+        "Close USML": 41.462501525878906,
+        "High USML": 41.93840026855469,
+        "Low USML": 41.462501525878906,
+        "Open USML": 41.93840026855469,
+        "Volume USML": 0
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -27,7 +35,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

@@ -1,34 +1,13 @@
 {
   "ticker": "ICCRW",
-  "timestamp": "2026-01-03T05:42:44.350432",
+  "timestamp": "2026-01-04T05:15:43.680395",
   "intraday_data": {
-    "status": "success",
-    "rows": 1,
-    "data": [
-      {
-        "Close NCPLW": 0.04230000078678131,
-        "High NCPLW": 0.04230000078678131,
-        "Low NCPLW": 0.03689999878406525,
-        "Open NCPLW": 0.03999999910593033,
-        "Volume NCPLW": 0
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
-    "status": "success",
-    "data": {
-      "language": "en-US",
-      "region": "US",
-      "quoteType": "NONE",
-      "triggerable": false,
-      "customPriceAlertConfidence": "NONE",
-      "hasPrePostMarketData": false,
-      "tradeable": false,
-      "cryptoTradeable": false,
-      "messageBoardId": "finmb_7756733",
-      "esgPopulated": false,
-      "symbol": "ICCRW"
-    }
+    "status": "error",
+    "message": "Too Many Requests. Rate limited. Try after a while."
   },
   "financials": {
     "income_statement": {
@@ -47,7 +26,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

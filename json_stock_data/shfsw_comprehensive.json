@@ -1,95 +1,55 @@
 {
   "ticker": "SHFSW",
-  "timestamp": "2026-01-03T05:38:20.631240",
+  "timestamp": "2026-01-04T05:14:20.195899",
   "intraday_data": {
-    "status": "success",
-    "rows": 2,
-    "data": [
-      {
-        "Close": 0.03359999880194664,
-        "High": 0.03359999880194664,
-        "Low": 0.03359999880194664,
-        "Open": 0.03359999880194664,
-        "Volume": 0
-      },
-      {
-        "Close": 0.03269999846816063,
-        "High": 0.03269999846816063,
-        "Low": 0.032600000500679016,
-        "Open": 0.032600000500679016,
-        "Volume": 400
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
-    "status": "success",
-    "data": {
-      "language": "en-US",
-      "region": "US",
-      "quoteType": "EQUITY",
-      "typeDisp": "Equity",
-      "quoteSourceName": "Delayed Quote",
-      "triggerable": true,
-      "customPriceAlertConfidence": "HIGH",
-      "currency": "USD",
-      "hasPrePostMarketData": true,
-      "priceHint": 4,
-      "regularMarketChange": -0.0052000023,
-      "regularMarketDayHigh": 0.0336,
-      "regularMarketDayRange": "0.0326 - 0.0336",
-      "regularMarketDayLow": 0.0326,
-      "regularMarketVolume": 727,
-      "regularMarketPreviousClose": 0.0379,
-      "bid": 0.0,
-      "ask": 0.0,
-      "bidSize": 0,
-      "askSize": 0,
-      "fullExchangeName": "NasdaqCM",
-      "financialCurrency": "USD",
-      "regularMarketOpen": 0.0446,
-      "fiftyTwoWeekLowChange": 9.999797e-05,
-      "fiftyTwoWeekLowChangePercent": 0.0030674222,
-      "fiftyTwoWeekRange": "0.0326 - 0.0336",
-      "fiftyTwoWeekHighChange": -0.00090000033,
-      "fiftyTwoWeekHighChangePercent": -0.026785726,
-      "fiftyTwoWeekLow": 0.0326,
-      "fiftyTwoWeekHigh": 0.0336,
-      "trailingAnnualDividendRate": 0.0,
-      "trailingAnnualDividendYield": 0.0,
-      "exchange": "NCM",
-      "messageBoardId": "finmb_1771394300",
-      "exchangeTimezoneName": "America/New_York",
-      "exchangeTimezoneShortName": "EST",
-      "gmtOffSetMilliseconds": -18000000,
-      "market": "us_market",
-      "esgPopulated": false,
-      "longName": "SHF Holdings, Inc.",
-      "marketState": "CLOSED",
-      "regularMarketChangePercent": -13.720324,
-      "regularMarketPrice": 0.0327,
-      "regularMarketTime": 1767386109,
-      "bookValue": 2.399,
-      "priceToBook": 0.013630679,
-      "sourceInterval": 15,
-      "exchangeDataDelayedBy": 0,
-      "prevName": "Northern Lights Acquisition Corp.",
-      "nameChangeDate": "2026-01-02",
-      "tradeable": false,
-      "cryptoTradeable": false,
-      "displayName": "SHF",
-      "symbol": "SHFSW"
-    }
+    "status": "error",
+    "message": "Too Many Requests. Rate limited. Try after a while."
   },
   "financials": {
     "income_statement": {
-      "status": "success",
-      "rows": 31,
-      "columns": [
-        "2024-12-31 00:00:00",
-        "2023-12-31 00:00:00",
-        "2022-12-31 00:00:00",
-        "2021-12-31 00:00:00"
-      ],
-      "data": [
-        {
-          
+      "status": "no_data"
+    },
+    "balance_sheet": {
+      "status": "no_data"
+    },
+    "cash_flow": {
+      "status": "no_data"
+    }
+  },
+  "options_data": {
+    "status": "error",
+    "error_message": "Too Many Requests. Rate limited. Try after a while."
+  },
+  "news_data": {
+    "news": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    },
+    "recommendations": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  },
+  "holders_data": {
+    "major_holders": {
+      "status": "error"
+    },
+    "institutional_holders": {
+      "status": "error"
+    }
+  },
+  "earnings_data": {
+    "earnings": {
+      "status": "error",
+      "message": "'NoneType' object has no attribute 'empty'"
+    },
+    "calendar": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  }
+}

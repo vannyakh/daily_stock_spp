@@ -1,9 +1,32 @@
 {
   "ticker": "WYHG",
-  "timestamp": "2026-01-03T04:54:40.258437",
+  "timestamp": "2026-01-04T04:59:12.868991",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 3,
+    "data": [
+      {
+        "Close": 0.5690000057220459,
+        "High": 0.5690000057220459,
+        "Low": 0.5690000057220459,
+        "Open": 0.5690000057220459,
+        "Volume": 682
+      },
+      {
+        "Close": 0.5685999989509583,
+        "High": 0.5685999989509583,
+        "Low": 0.5685999989509583,
+        "Open": 0.5685999989509583,
+        "Volume": 180
+      },
+      {
+        "Close": 0.5672000050544739,
+        "High": 0.5672000050544739,
+        "Low": 0.5672000050544739,
+        "Open": 0.5672000050544739,
+        "Volume": 810
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -154,7 +177,8 @@
       ]
     },
     "recommendations": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   },
   "holders_data": {

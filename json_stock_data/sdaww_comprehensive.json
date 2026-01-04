@@ -1,97 +1,69 @@
 {
   "ticker": "SDAWW",
-  "timestamp": "2026-01-03T05:34:56.574164",
+  "timestamp": "2026-01-04T05:13:17.027567",
   "intraday_data": {
     "status": "success",
     "rows": 1,
     "data": [
       {
+        "Close FGN": 25.639999389648438,
         "Close": 0.03700000047683716,
+        "High FGN": 25.639999389648438,
         "High": 0.039400000125169754,
+        "Low FGN": 25.6299991607666,
         "Low": 0.03689999878406525,
+        "Open FGN": 25.6299991607666,
         "Open": 0.03689999878406525,
-        "Volume": 0
+        "Volume FGN": 263,
+        "Volume": 0.0
       }
     ]
   },
   "stock_info": {
-    "status": "success",
-    "data": {
-      "maxAge": 86400,
-      "priceHint": 4,
-      "previousClose": 0.042,
-      "open": 0.0501,
-      "dayLow": 0.0369,
-      "dayHigh": 0.0394,
-      "regularMarketPreviousClose": 0.042,
-      "regularMarketOpen": 0.0501,
-      "regularMarketDayLow": 0.0369,
-      "regularMarketDayHigh": 0.0394,
-      "volume": 1798,
-      "regularMarketVolume": 1798,
-      "bid": 0.0,
-      "ask": 0.0,
-      "bidSize": 0,
-      "askSize": 0,
-      "fiftyTwoWeekLow": 0.0369,
-      "fiftyTwoWeekHigh": 0.0394,
-      "trailingAnnualDividendRate": 0.0,
-      "trailingAnnualDividendYield": 0.0,
-      "currency": "USD",
-      "tradeable": false,
-      "quoteType": "EQUITY",
-      "currentPrice": 0.037,
-      "recommendationKey": "none",
-      "symbol": "SDAWW",
-      "language": "en-US",
-      "region": "US",
-      "typeDisp": "Equity",
-      "quoteSourceName": "Delayed Quote",
-      "triggerable": true,
-      "customPriceAlertConfidence": "HIGH",
-      "longName": "SunCar Technology Group Inc.",
-      "regularMarketDayRange": "0.0369 - 0.0394",
-      "cryptoTradeable": false,
-      "prevName": "SunCar Technology Group Inc",
-      "nameChangeDate": "2026-01-02",
-      "fullExchangeName": "NasdaqCM",
-      "fiftyTwoWeekLowChange": 0.00010000169,
-      "fiftyTwoWeekLowChangePercent": 0.002710073,
-      "fiftyTwoWeekRange": "0.0369 - 0.0394",
-      "fiftyTwoWeekHighChange": -0.0023999996,
-      "fiftyTwoWeekHighChangePercent": -0.060913697,
-      "exchange": "NCM",
-      "messageBoardId": "finmb_1784804126",
-      "exchangeTimezoneName": "America/New_York",
-      "exchangeTimezoneShortName": "EST",
-      "gmtOffSetMilliseconds": -18000000,
-      "market": "us_market",
-      "esgPopulated": false,
-      "regularMarketChangePercent": -11.904759,
-      "regularMarketPrice": 0.037,
-      "bookValue": 0.285,
-      "priceToBook": 0.12982456,
-      "sourceInterval": 15,
-      "exchangeDataDelayedBy": 0,
-      "marketState": "CLOSED",
-      "regularMarketTime": 1767387405,
-      "regularMarketChange": -0.004999999,
-      "hasPrePostMarketData": true,
-      "displayName": "SunCar Technology"
-    }
+    "status": "error",
+    "message": "Too Many Requests. Rate limited. Try after a while."
   },
   "financials": {
     "income_statement": {
-      "status": "success",
-      "rows": 43,
-      "columns": [
-        "2024-12-31 00:00:00",
-        "2023-12-31 00:00:00",
-        "2022-12-31 00:00:00",
-        "2022-06-30 00:00:00",
-        "2021-12-31 00:00:00",
-        "2021-06-30 00:00:00"
-      ],
-      "data": [
-        {
-          
+      "status": "no_data"
+    },
+    "balance_sheet": {
+      "status": "no_data"
+    },
+    "cash_flow": {
+      "status": "no_data"
+    }
+  },
+  "options_data": {
+    "status": "error",
+    "error_message": "Too Many Requests. Rate limited. Try after a while."
+  },
+  "news_data": {
+    "news": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    },
+    "recommendations": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  },
+  "holders_data": {
+    "major_holders": {
+      "status": "error"
+    },
+    "institutional_holders": {
+      "status": "error"
+    }
+  },
+  "earnings_data": {
+    "earnings": {
+      "status": "error",
+      "message": "'NoneType' object has no attribute 'empty'"
+    },
+    "calendar": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  }
+}

@@ -1,116 +1,55 @@
 {
   "ticker": "ANSCW",
-  "timestamp": "2026-01-03T05:38:22.944018",
+  "timestamp": "2026-01-04T05:14:20.665012",
   "intraday_data": {
     "status": "no_data",
     "message": "No intraday data available"
   },
   "stock_info": {
-    "status": "success",
-    "data": {
-      "address1": "712 Fifth Avenue",
-      "address2": "36th Floor",
-      "city": "New York",
-      "state": "NY",
-      "zip": "10019",
-      "country": "United States",
-      "phone": "212 993 0076",
-      "website": "https://ansc.co",
-      "industry": "",
-      "industryKey": "",
-      "sector": "",
-      "sectorKey": "",
-      "longBusinessSummary": "Agriculture & Natural Solutions Acquisition Corporation does not have significant operations. It intends to effect a merger, amalgamation, share exchange, asset acquisition, share purchase, reorganization, or similar business combination with one or more businesses in traditional agriculture sector and adjacent industries. The company was formerly known as Energy Opportunities Acquisition Corporation and changed its name to Agriculture & Natural Solutions Acquisition Corporation in September 2023. Agriculture & Natural Solutions Acquisition Corporation was incorporated in 2021 and is based in New York, New York.",
-      "maxAge": 86400,
-      "priceHint": 4,
-      "previousClose": 0.3339,
-      "open": 0.29,
-      "dayLow": 0.32,
-      "dayHigh": 0.3514,
-      "regularMarketPreviousClose": 0.3339,
-      "regularMarketOpen": 0.29,
-      "regularMarketDayLow": 0.32,
-      "regularMarketDayHigh": 0.3514,
-      "volume": 11401,
-      "regularMarketVolume": 11401,
-      "bid": 0.0,
-      "ask": 0.0,
-      "bidSize": 0,
-      "askSize": 0,
-      "fiftyTwoWeekLow": 0.32,
-      "fiftyTwoWeekHigh": 0.3514,
-      "trailingAnnualDividendRate": 0.0,
-      "trailingAnnualDividendYield": 0.0,
-      "currency": "USD",
-      "tradeable": false,
-      "profitMargins": 0.0,
-      "floatShares": 32922446,
-      "bookValue": -0.632,
-      "earningsQuarterlyGrowth": 5.959,
-      "netIncomeToCommon": 8793794,
-      "SandP52WeekChange": 0.14561749,
-      "quoteType": "EQUITY",
-      "currentPrice": 0.3514,
-      "recommendationKey": "none",
-      "totalCash": 1,
-      "totalCashPerShare": 0.0,
-      "totalDebt": 838405,
-      "quickRatio": 0.0,
-      "currentRatio": 0.003,
-      "returnOnAssets": -0.013040001,
-      "freeCashflow": 7380467,
-      "operatingCashflow": 0,
-      "earningsGrowth": 5.959,
-      "grossMargins": 0.0,
-      "ebitdaMargins": 0.0,
-      "operatingMargins": 0.0,
-      "financialCurrency": "USD",
-      "symbol": "ANSCW",
-      "language": "en-US",
-      "region": "US",
-      "typeDisp": "Equity",
-      "quoteSourceName": "Delayed Quote",
-      "triggerable": true,
-      "customPriceAlertConfidence": "HIGH",
-      "regularMarketChangePercent": 5.241085,
-      "regularMarketPrice": 0.3514,
-      "shortName": "Agriculture & Natural Solutions",
-      "longName": "Agriculture & Natural Solutions Acquisition Corporation",
-      "regularMarketTime": 1767384544,
-      "exchange": "NGM",
-      "messageBoardId": "finmb_1684860608",
-      "exchangeTimezoneName": "America/New_York",
-      "exchangeTimezoneShortName": "EST",
-      "gmtOffSetMilliseconds": -18000000,
-      "market": "us_market",
-      "esgPopulated": false,
-      "priceToBook": -0.55601263,
-      "sourceInterval": 15,
-      "exchangeDataDelayedBy": 0,
-      "ipoExpectedDate": "2024-01-03",
-      "cryptoTradeable": false,
-      "hasPrePostMarketData": true,
-      "regularMarketChange": 0.017499983,
-      "regularMarketDayRange": "0.32 - 0.3514",
-      "fullExchangeName": "NasdaqGM",
-      "fiftyTwoWeekLowChange": 0.031399995,
-      "fiftyTwoWeekLowChangePercent": 0.09812499,
-      "fiftyTwoWeekRange": "0.32 - 0.3514",
-      "fiftyTwoWeekHighChange": 0.0,
-      "fiftyTwoWeekHighChangePercent": 0.0,
-      "marketState": "CLOSED",
-      "displayName": "Agriculture & Natural"
-    }
+    "status": "error",
+    "message": "Too Many Requests. Rate limited. Try after a while."
   },
   "financials": {
     "income_statement": {
-      "status": "success",
-      "rows": 28,
-      "columns": [
-        "2024-12-31 00:00:00",
-        "2023-12-31 00:00:00",
-        "2022-12-31 00:00:00"
-      ],
-      "data": [
-        {
-          
+      "status": "no_data"
+    },
+    "balance_sheet": {
+      "status": "no_data"
+    },
+    "cash_flow": {
+      "status": "no_data"
+    }
+  },
+  "options_data": {
+    "status": "error",
+    "error_message": "Too Many Requests. Rate limited. Try after a while."
+  },
+  "news_data": {
+    "news": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    },
+    "recommendations": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  },
+  "holders_data": {
+    "major_holders": {
+      "status": "error"
+    },
+    "institutional_holders": {
+      "status": "error"
+    }
+  },
+  "earnings_data": {
+    "earnings": {
+      "status": "error",
+      "message": "'NoneType' object has no attribute 'empty'"
+    },
+    "calendar": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  }
+}

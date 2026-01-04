@@ -1,111 +1,55 @@
 {
   "ticker": "NETDU",
-  "timestamp": "2026-01-03T05:35:02.238977",
+  "timestamp": "2026-01-04T05:13:17.963814",
   "intraday_data": {
     "status": "no_data",
     "message": "No intraday data available"
   },
   "stock_info": {
-    "status": "success",
-    "data": {
-      "address1": "515 West Greens Road",
-      "address2": "Suite 1200",
-      "city": "Houston",
-      "state": "TX",
-      "zip": "77067",
-      "country": "United States",
-      "phone": "281 874 0035",
-      "website": "https://www.nabors-etcorp.com",
-      "industry": "Shell Companies",
-      "industryKey": "shell-companies",
-      "industryDisp": "Shell Companies",
-      "sector": "Financial Services",
-      "sectorKey": "financial-services",
-      "sectorDisp": "Financial Services",
-      "longBusinessSummary": "Nabors Energy Transition Corp. II does not have significant operations. It focuses on effecting a merger, amalgamation, share exchange, asset acquisition, share purchase, reorganization, or similar business combination with one or more businesses or entities. The company intends to identify solutions, opportunities, companies, or technologies that focus on advancing the energy transition that facilitate, improve, or complement the reduction of carbon or greenhouse gas emissions. The company was incorporated in 2023 and is based in Houston, Texas.",
-      "maxAge": 86400,
-      "priceHint": 2,
-      "previousClose": 11.49,
-      "open": 11.49,
-      "dayLow": 11.49,
-      "dayHigh": 11.49,
-      "regularMarketPreviousClose": 11.49,
-      "regularMarketOpen": 11.49,
-      "regularMarketDayLow": 11.49,
-      "regularMarketDayHigh": 11.49,
-      "beta": -0.022,
-      "volume": 256,
-      "regularMarketVolume": 256,
-      "averageVolume": 252,
-      "averageVolume10days": 31,
-      "averageDailyVolume10Day": 31,
-      "bid": 0.0,
-      "ask": 0.0,
-      "bidSize": 0,
-      "askSize": 0,
-      "fiftyTwoWeekLow": 10.77,
-      "fiftyTwoWeekHigh": 12.5,
-      "allTimeHigh": 12.5,
-      "allTimeLow": 10.1,
-      "fiftyDayAverage": 11.358,
-      "twoHundredDayAverage": 11.33105,
-      "trailingAnnualDividendRate": 0.0,
-      "trailingAnnualDividendYield": 0.0,
-      "currency": "USD",
-      "tradeable": false,
-      "enterpriseValue": 248480352,
-      "profitMargins": 0.0,
-      "floatShares": 11013113,
-      "sharesShort": 18,
-      "sharesShortPriorMonth": 0,
-      "sharesShortPreviousMonthDate": 1760486400,
-      "dateShortInterest": 1763078400,
-      "heldPercentInsiders": 0.0,
-      "heldPercentInstitutions": 0.00023,
-      "shortRatio": 0.03,
-      "bookValue": -0.631,
-      "lastFiscalYearEnd": 1735603200,
-      "nextFiscalYearEnd": 1767139200,
-      "mostRecentQuarter": 1759190400,
-      "netIncomeToCommon": 1552227,
-      "52WeekChange": 0.049315095,
-      "SandP52WeekChange": 0.14561749,
-      "exchange": "NGM",
-      "quoteType": "EQUITY",
-      "symbol": "NETDU",
-      "underlyingSymbol": "NETDU",
-      "shortName": "Nabors Energy Transition Corp. ",
-      "longName": "Nabors Energy Transition Corp. II",
-      "firstTradeDateEpochUtc": 1689341400,
-      "timeZoneFullName": "America/New_York",
-      "timeZoneShortName": "EST",
-      "uuid": "7654daf3-c6b3-3e23-9948-2173272450dd",
-      "messageBoardId": "finmb_1844722585",
-      "gmtOffSetMilliseconds": -18000000,
-      "currentPrice": 11.49,
-      "recommendationKey": "none",
-      "totalCash": 629566,
-      "totalCashPerShare": 0.029,
-      "totalDebt": 3800000,
-      "quickRatio": 0.212,
-      "currentRatio": 0.225,
-      "returnOnAssets": -0.02707,
-      "returnOnEquity": 0.010290001,
-      "freeCashflow": -3636034,
-      "operatingCashflow": -1015528,
-      "grossMargins": 0.0,
-      "ebitdaMargins": 0.0,
-      "operatingMargins": 0.0,
-      "financialCurrency": "USD"
-    }
+    "status": "error",
+    "message": "Too Many Requests. Rate limited. Try after a while."
   },
   "financials": {
     "income_statement": {
-      "status": "success",
-      "rows": 27,
-      "columns": [
-        "2024-12-31 00:00:00"
-      ],
-      "data": [
-        {
-          
+      "status": "no_data"
+    },
+    "balance_sheet": {
+      "status": "no_data"
+    },
+    "cash_flow": {
+      "status": "no_data"
+    }
+  },
+  "options_data": {
+    "status": "error",
+    "error_message": "Too Many Requests. Rate limited. Try after a while."
+  },
+  "news_data": {
+    "news": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    },
+    "recommendations": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  },
+  "holders_data": {
+    "major_holders": {
+      "status": "error"
+    },
+    "institutional_holders": {
+      "status": "error"
+    }
+  },
+  "earnings_data": {
+    "earnings": {
+      "status": "error",
+      "message": "'NoneType' object has no attribute 'empty'"
+    },
+    "calendar": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  }
+}

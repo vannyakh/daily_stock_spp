@@ -1,9 +1,25 @@
 {
   "ticker": "VQSSF",
-  "timestamp": "2026-01-03T05:30:16.440173",
+  "timestamp": "2026-01-04T05:12:03.105548",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 2,
+    "data": [
+      {
+        "Close": 0.1444000005722046,
+        "High": 0.1444000005722046,
+        "Low": 0.1444000005722046,
+        "Open": 0.1444000005722046,
+        "Volume": 0
+      },
+      {
+        "Close": 0.15000000596046448,
+        "High": 0.15000000596046448,
+        "Low": 0.15000000596046448,
+        "Open": 0.15000000596046448,
+        "Volume": 1499
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -26,52 +42,8 @@
   },
   "news_data": {
     "news": {
-      "status": "success",
-      "count": 1,
-      "data": [
-        {
-          "id": "d73aed78-cad7-3b3d-8bd8-9e2ebd2587d3",
-          "content": {
-            "id": "d73aed78-cad7-3b3d-8bd8-9e2ebd2587d3",
-            "contentType": "STORY",
-            "title": "VIQ Solutions Begins Strategic Review Process, Amends Credit Agreement",
-            "description": "",
-            "summary": "VIQ Solutions (VQS.TO), a provider of AI-driven digital voice and video capture technology and trans",
-            "pubDate": "2025-02-03T13:59:22Z",
-            "displayTime": "2025-02-03T13:59:22Z",
-            "isHosted": true,
-            "bypassModal": false,
-            "previewUrl": null,
-            "thumbnail": null,
-            "provider": {
-              "displayName": "MT Newswires",
-              "url": "https://www.mtnewswires.com/"
-            },
-            "canonicalUrl": {
-              "url": "https://finance.yahoo.com/news/viq-solutions-begins-strategic-review-135922146.html",
-              "site": "finance",
-              "region": "US",
-              "lang": "en-US"
-            },
-            "clickThroughUrl": {
-              "url": "https://finance.yahoo.com/news/viq-solutions-begins-strategic-review-135922146.html",
-              "site": "finance",
-              "region": "US",
-              "lang": "en-US"
-            },
-            "metadata": {
-              "editorsPick": false
-            },
-            "finance": {
-              "premiumFinance": {
-                "isPremiumNews": true,
-                "isPremiumFreeNews": false
-              }
-            },
-            "storyline": null
-          }
-        }
-      ]
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

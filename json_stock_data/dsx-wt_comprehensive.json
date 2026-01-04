@@ -1,25 +1,9 @@
 {
   "ticker": "DSX-WT",
-  "timestamp": "2026-01-03T05:40:42.416253",
+  "timestamp": "2026-01-04T05:15:04.347071",
   "intraday_data": {
-    "status": "success",
-    "rows": 2,
-    "data": [
-      {
-        "Close": 0.08209999650716782,
-        "High": 0.08209999650716782,
-        "Low": 0.08209999650716782,
-        "Open": 0.08209999650716782,
-        "Volume": 0
-      },
-      {
-        "Close": 0.08209999650716782,
-        "High": 0.08209999650716782,
-        "Low": 0.08209999650716782,
-        "Open": 0.08209999650716782,
-        "Volume": 228
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -42,7 +26,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

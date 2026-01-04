@@ -1,9 +1,23 @@
 {
   "ticker": "SOJC",
-  "timestamp": "2026-01-03T05:26:03.545985",
+  "timestamp": "2026-01-04T05:10:36.715520",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 1,
+    "data": [
+      {
+        "Close CAJFF": 30.0,
+        "Close": 21.81999969482422,
+        "High CAJFF": 30.0,
+        "High": 21.81999969482422,
+        "Low CAJFF": 30.0,
+        "Low": 21.730100631713867,
+        "Open CAJFF": 30.0,
+        "Open": 21.739999771118164,
+        "Volume CAJFF": 0.0,
+        "Volume": 500
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -26,7 +40,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

@@ -1,23 +1,9 @@
 {
   "ticker": "ATLCL",
-  "timestamp": "2026-01-03T05:42:08.464214",
+  "timestamp": "2026-01-04T05:15:35.451763",
   "intraday_data": {
-    "status": "success",
-    "rows": 1,
-    "data": [
-      {
-        "Close": 24.760000228881836,
-        "Close RILYN": 21.5,
-        "High": 24.760000228881836,
-        "High RILYN": 21.5,
-        "Low": 24.760000228881836,
-        "Low RILYN": 21.5,
-        "Open": 24.760000228881836,
-        "Open RILYN": 21.5,
-        "Volume": 115.0,
-        "Volume RILYN": 200.0
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -40,7 +26,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

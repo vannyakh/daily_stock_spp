@@ -1,89 +1,14 @@
 {
   "ticker": "SCE-PJ",
-  "timestamp": "2026-01-03T05:43:26.489313",
+  "timestamp": "2026-01-04T05:15:51.917282",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 0,
+    "data": []
   },
   "stock_info": {
-    "status": "success",
-    "data": {
-      "address1": "2244 Walnut Grove Avenue",
-      "city": "Rosemead",
-      "state": "CA",
-      "zip": "91770",
-      "country": "United States",
-      "phone": "(626) 302-2662",
-      "industry": "Capital Markets",
-      "industryKey": "capital-markets",
-      "industryDisp": "Capital Markets",
-      "sector": "Financial Services",
-      "sectorKey": "financial-services",
-      "sectorDisp": "Financial Services",
-      "longBusinessSummary": "SCE Trust IV was incorporated in 2014 and is based in Rosemead, California. SCE Trust IV operates as a subsidiary of Southern California Edison Company.",
-      "maxAge": 86400,
-      "priceHint": 2,
-      "previousClose": 24.99,
-      "open": 25.0,
-      "dayLow": 25.0,
-      "dayHigh": 25.01,
-      "regularMarketPreviousClose": 24.99,
-      "regularMarketOpen": 25.0,
-      "regularMarketDayLow": 25.0,
-      "regularMarketDayHigh": 25.01,
-      "dividendRate": 1.88,
-      "dividendYield": 0.075100005,
-      "exDividendDate": 1765497600,
-      "fiveYearAvgDividendYield": 5.98,
-      "volume": 28310,
-      "regularMarketVolume": 28310,
-      "averageVolume": 42032,
-      "averageVolume10days": 28576,
-      "averageDailyVolume10Day": 28576,
-      "bid": 10.0,
-      "ask": 0.0,
-      "bidSize": 280000,
-      "askSize": 900000,
-      "fiftyTwoWeekLow": 20.7,
-      "fiftyTwoWeekHigh": 25.48,
-      "allTimeHigh": 29.9,
-      "allTimeLow": 13.5199,
-      "fiftyDayAverage": 24.50146,
-      "twoHundredDayAverage": 23.331226,
-      "trailingAnnualDividendRate": 0.0,
-      "trailingAnnualDividendYield": 0.0,
-      "currency": "USD",
-      "tradeable": false,
-      "profitMargins": 0.0,
-      "sharesShort": 54139,
-      "sharesShortPriorMonth": 41085,
-      "sharesShortPreviousMonthDate": 1761868800,
-      "dateShortInterest": 1764288000,
-      "heldPercentInsiders": 0.0,
-      "heldPercentInstitutions": 0.4029,
-      "shortRatio": 0.1,
-      "52WeekChange": 0.018329978,
-      "SandP52WeekChange": 0.14561749,
-      "lastDividendValue": 0.469624,
-      "lastDividendDate": 1765497600,
-      "exchange": "NYQ",
-      "quoteType": "EQUITY",
-      "symbol": "SCE-PJ",
-      "underlyingSymbol": "SCE-PJ",
-      "shortName": "Southern California Edison Comp",
-      "longName": "SCE Trust IV",
-      "firstTradeDateEpochUtc": 1439904600,
-      "timeZoneFullName": "America/New_York",
-      "timeZoneShortName": "EST",
-      "uuid": "5389c767-8ed3-3060-85b9-31bf24c489e9",
-      "messageBoardId": "finmb_280311127",
-      "gmtOffSetMilliseconds": -18000000,
-      "currentPrice": 25.0,
-      "recommendationKey": "none",
-      "grossMargins": 0.0,
-      "ebitdaMargins": 0.0,
-      "operatingMargins": 0.0
-    }
+    "status": "error",
+    "message": "Too Many Requests. Rate limited. Try after a while."
   },
   "financials": {
     "income_statement": {
@@ -97,46 +22,25 @@
     }
   },
   "options_data": {
-    "expirations": []
+    "status": "error",
+    "error_message": "Too Many Requests. Rate limited. Try after a while."
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   },
   "holders_data": {
     "major_holders": {
-      "status": "success",
-      "data": [
-        {
-          "Value": 0.0
-        },
-        {
-          "Value": 0.4029
-        },
-        {
-          "Value": 0.4029
-        },
-        {
-          "Value": 19.0
-        }
-      ]
+      "status": "error"
     },
     "institutional_holders": {
-      "status": "success",
-      "data": [
-        {
-          "Date Reported": "2025-09-30 00:00:00",
-          "Holder": "Reaves (W.H.) & Company, Inc.",
-          "pctHeld": 0.0049,
-          "Shares": 63125,
-          "Value": 1578125,
-          "pctChange": 0.0
-        }
-      ]
+      "status": "error"
     }
   },
   "earnings_data": {
@@ -146,7 +50,7 @@
     },
     "calendar": {
       "status": "error",
-      "message": "'dict' object has no attribute 'empty'"
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   }
 }

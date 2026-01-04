@@ -1,6 +1,6 @@
 {
   "ticker": "PN",
-  "timestamp": "2026-01-03T05:23:51.950448",
+  "timestamp": "2026-01-04T05:09:56.234071",
   "intraday_data": {
     "status": "success",
     "rows": 3,
@@ -29,90 +29,50 @@
     ]
   },
   "stock_info": {
-    "status": "success",
-    "data": {
-      "language": "en-US",
-      "region": "US",
-      "quoteType": "EQUITY",
-      "typeDisp": "Equity",
-      "quoteSourceName": "Nasdaq Real Time Price",
-      "triggerable": true,
-      "customPriceAlertConfidence": "HIGH",
-      "currency": "USD",
-      "hasPrePostMarketData": true,
-      "firstTradeDateMilliseconds": 1741098600000,
-      "priceHint": 4,
-      "postMarketChangePercent": 0.013787171,
-      "postMarketPrice": 0.7251,
-      "postMarketChange": 9.995699e-05,
-      "regularMarketChange": 0.00060003996,
-      "regularMarketDayHigh": 0.7799,
-      "regularMarketDayRange": "0.725 - 0.7799",
-      "regularMarketDayLow": 0.725,
-      "regularMarketVolume": 1297,
-      "regularMarketPreviousClose": 0.7244,
-      "bid": 0.7904,
-      "ask": 0.832,
-      "bidSize": 1,
-      "askSize": 5,
-      "fullExchangeName": "NasdaqCM",
-      "financialCurrency": "USD",
-      "regularMarketOpen": 0.7799,
-      "averageDailyVolume3Month": 122695,
-      "averageDailyVolume10Day": 247290,
-      "fiftyTwoWeekLowChange": 0.125,
-      "fiftyTwoWeekLowChangePercent": 0.20833333,
-      "fiftyTwoWeekRange": "0.6 - 4.45",
-      "fiftyTwoWeekHighChange": -3.725,
-      "fiftyTwoWeekHighChangePercent": -0.8370787,
-      "fiftyTwoWeekLow": 0.6,
-      "fiftyTwoWeekHigh": 4.45,
-      "fiftyTwoWeekChangePercent": -81.98511,
-      "trailingAnnualDividendRate": 0.0,
-      "trailingAnnualDividendYield": 0.0,
-      "exchange": "NCM",
-      "messageBoardId": "finmb_1877698979",
-      "exchangeTimezoneName": "America/New_York",
-      "exchangeTimezoneShortName": "EST",
-      "gmtOffSetMilliseconds": -18000000,
-      "market": "us_market",
-      "esgPopulated": false,
-      "shortName": "Skycorp Solar Group Limited",
-      "longName": "Skycorp Solar Group Ltd",
-      "marketState": "CLOSED",
-      "regularMarketChangePercent": 0.08283269,
-      "regularMarketPrice": 0.725,
-      "postMarketTime": 1767393514,
-      "regularMarketTime": 1767387600,
-      "epsTrailingTwelveMonths": 0.0,
-      "sharesOutstanding": 13975000,
-      "bookValue": 0.844,
-      "fiftyDayAverage": 0.74254,
-      "fiftyDayAverageChange": -0.017539978,
-      "fiftyDayAverageChangePercent": -0.023621593,
-      "twoHundredDayAverage": 1.853735,
-      "twoHundredDayAverageChange": -1.128735,
-      "twoHundredDayAverageChangePercent": -0.6088977,
-      "marketCap": 19575000,
-      "priceToBook": 0.8590048,
-      "sourceInterval": 15,
-      "exchangeDataDelayedBy": 0,
-      "tradeable": false,
-      "cryptoTradeable": false,
-      "displayName": "Skycorp Solar",
-      "symbol": "PN"
-    }
+    "status": "error",
+    "message": "Too Many Requests. Rate limited. Try after a while."
   },
   "financials": {
     "income_statement": {
-      "status": "success",
-      "rows": 46,
-      "columns": [
-        "2024-09-30 00:00:00",
-        "2023-09-30 00:00:00",
-        "2022-09-30 00:00:00",
-        "2021-09-30 00:00:00"
-      ],
-      "data": [
-        {
-          
+      "status": "no_data"
+    },
+    "balance_sheet": {
+      "status": "no_data"
+    },
+    "cash_flow": {
+      "status": "no_data"
+    }
+  },
+  "options_data": {
+    "status": "error",
+    "error_message": "Too Many Requests. Rate limited. Try after a while."
+  },
+  "news_data": {
+    "news": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    },
+    "recommendations": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  },
+  "holders_data": {
+    "major_holders": {
+      "status": "error"
+    },
+    "institutional_holders": {
+      "status": "error"
+    }
+  },
+  "earnings_data": {
+    "earnings": {
+      "status": "error",
+      "message": "'NoneType' object has no attribute 'empty'"
+    },
+    "calendar": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  }
+}

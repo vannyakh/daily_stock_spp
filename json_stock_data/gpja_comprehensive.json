@@ -1,6 +1,6 @@
 {
   "ticker": "GPJA",
-  "timestamp": "2026-01-03T04:57:31.928983",
+  "timestamp": "2026-01-04T04:59:58.318116",
   "intraday_data": {
     "status": "success",
     "rows": 26,
@@ -190,88 +190,8 @@
     ]
   },
   "stock_info": {
-    "status": "success",
-    "data": {
-      "maxAge": 86400,
-      "priceHint": 2,
-      "previousClose": 22.4,
-      "open": 22.66,
-      "dayLow": 22.4118,
-      "dayHigh": 22.74,
-      "regularMarketPreviousClose": 22.4,
-      "regularMarketOpen": 22.66,
-      "regularMarketDayLow": 22.4118,
-      "regularMarketDayHigh": 22.74,
-      "trailingPE": 0.13922969,
-      "volume": 14514,
-      "regularMarketVolume": 14514,
-      "averageVolume": 15526,
-      "averageVolume10days": 13140,
-      "averageDailyVolume10Day": 13140,
-      "bid": 22.61,
-      "ask": 22.78,
-      "bidSize": 200,
-      "askSize": 100,
-      "marketCap": 209680352,
-      "fiftyTwoWeekLow": 20.29,
-      "fiftyTwoWeekHigh": 24.0,
-      "allTimeHigh": 28.64,
-      "allTimeLow": 20.29,
-      "fiftyDayAverage": 22.93714,
-      "twoHundredDayAverage": 22.448166,
-      "currency": "USD",
-      "tradeable": false,
-      "quoteType": "EQUITY",
-      "symbol": "GPJA",
-      "language": "en-US",
-      "region": "US",
-      "typeDisp": "Equity",
-      "quoteSourceName": "Delayed Quote",
-      "triggerable": true,
-      "customPriceAlertConfidence": "HIGH",
-      "dividendDate": 1767312000,
-      "cryptoTradeable": false,
-      "sharesOutstanding": 9261500,
-      "bookValue": 1449.009,
-      "fiftyDayAverageChange": -0.29714012,
-      "fiftyDayAverageChangePercent": -0.0129545415,
-      "twoHundredDayAverageChange": 0.1918335,
-      "epsTrailingTwelveMonths": 162.609,
-      "twoHundredDayAverageChangePercent": 0.00854562,
-      "postMarketChangePercent": 0.0,
-      "postMarketPrice": 22.64,
-      "postMarketChange": 0.0,
-      "regularMarketChange": 0.24,
-      "regularMarketDayRange": "22.4118 - 22.74",
-      "hasPrePostMarketData": true,
-      "firstTradeDateMilliseconds": 1543415400000,
-      "fullExchangeName": "NYSE",
-      "financialCurrency": "USD",
-      "averageDailyVolume3Month": 15526,
-      "fiftyTwoWeekLowChange": 2.3499985,
-      "fiftyTwoWeekLowChangePercent": 0.11582052,
-      "fiftyTwoWeekRange": "20.29 - 24.0",
-      "fiftyTwoWeekHighChange": -1.3600006,
-      "fiftyTwoWeekHighChangePercent": -0.05666669,
-      "fiftyTwoWeekChangePercent": 0.6741524,
-      "marketState": "POSTPOST",
-      "postMarketTime": 1767396301,
-      "regularMarketTime": 1767387599,
-      "exchange": "NYQ",
-      "messageBoardId": "finmb_796410",
-      "exchangeTimezoneName": "America/New_York",
-      "exchangeTimezoneShortName": "EST",
-      "gmtOffSetMilliseconds": -18000000,
-      "market": "us_market",
-      "esgPopulated": false,
-      "regularMarketChangePercent": 1.07143,
-      "regularMarketPrice": 22.64,
-      "shortName": "Georgia Power Company Series 20",
-      "longName": "Georgia Power Company 5% JR SUB NT 77",
-      "priceToBook": 0.015624471,
-      "sourceInterval": 15,
-      "exchangeDataDelayedBy": 0
-    }
+    "status": "error",
+    "message": "Too Many Requests. Rate limited. Try after a while."
   },
   "financials": {
     "income_statement": {
@@ -302,7 +222,7 @@
       "status": "error"
     },
     "institutional_holders": {
-      "status": "no_data"
+      "status": "error"
     }
   },
   "earnings_data": {
@@ -312,7 +232,7 @@
     },
     "calendar": {
       "status": "error",
-      "message": "'dict' object has no attribute 'empty'"
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   }
 }

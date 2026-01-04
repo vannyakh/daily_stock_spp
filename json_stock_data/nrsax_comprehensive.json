@@ -1,73 +1,13 @@
 {
   "ticker": "NRSAX",
-  "timestamp": "2026-01-03T05:35:21.727357",
+  "timestamp": "2026-01-04T05:13:22.157688",
   "intraday_data": {
-    "status": "success",
-    "rows": 1,
-    "data": [
-      {
-        "Close": 14.149999618530273,
-        "High": 14.149999618530273,
-        "Low": 14.149999618530273,
-        "Open": 14.149999618530273,
-        "Volume": 0
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
-    "status": "success",
-    "data": {
-      "language": "en-US",
-      "region": "US",
-      "quoteType": "MUTUALFUND",
-      "typeDisp": "Fund",
-      "quoteSourceName": "Delayed Quote",
-      "triggerable": false,
-      "customPriceAlertConfidence": "NONE",
-      "currency": "USD",
-      "regularMarketTime": 1767402127,
-      "exchange": "NAS",
-      "messageBoardId": "finmb_322479995",
-      "exchangeTimezoneName": "America/New_York",
-      "exchangeTimezoneShortName": "EST",
-      "gmtOffSetMilliseconds": -18000000,
-      "market": "us_market",
-      "esgPopulated": false,
-      "regularMarketChangePercent": -0.35211268,
-      "regularMarketPrice": 14.15,
-      "marketState": "CLOSED",
-      "hasPrePostMarketData": false,
-      "firstTradeDateMilliseconds": 1469107800000,
-      "priceHint": 2,
-      "regularMarketChange": -0.05,
-      "regularMarketPreviousClose": 14.2,
-      "fullExchangeName": "Nasdaq",
-      "averageDailyVolume3Month": 0,
-      "averageDailyVolume10Day": 0,
-      "fiftyTwoWeekLowChange": 0.60999966,
-      "fiftyTwoWeekLowChangePercent": 0.045051675,
-      "fiftyTwoWeekRange": "13.54 - 16.07",
-      "fiftyTwoWeekHighChange": -1.9200001,
-      "fiftyTwoWeekHighChangePercent": -0.119477294,
-      "fiftyTwoWeekLow": 13.54,
-      "fiftyTwoWeekHigh": 16.07,
-      "fiftyTwoWeekChangePercent": -11.416096,
-      "trailingAnnualDividendRate": 0.0,
-      "shortName": "NexPoint Real Estate Strategies",
-      "longName": "NexPoint Real Estate Strategies Fund",
-      "trailingAnnualDividendYield": 0.0,
-      "fiftyDayAverage": 13.7686,
-      "fiftyDayAverageChange": 0.38139915,
-      "fiftyDayAverageChangePercent": 0.027700648,
-      "twoHundredDayAverage": 14.3738,
-      "twoHundredDayAverageChange": -0.22380066,
-      "twoHundredDayAverageChangePercent": -0.015570041,
-      "sourceInterval": 15,
-      "exchangeDataDelayedBy": 0,
-      "tradeable": false,
-      "cryptoTradeable": false,
-      "symbol": "NRSAX"
-    }
+    "status": "error",
+    "message": "Too Many Requests. Rate limited. Try after a while."
   },
   "financials": {
     "income_statement": {
@@ -86,7 +26,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

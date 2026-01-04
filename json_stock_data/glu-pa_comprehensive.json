@@ -1,68 +1,13 @@
 {
   "ticker": "GLU-PA",
-  "timestamp": "2026-01-03T05:42:37.675208",
+  "timestamp": "2026-01-04T05:15:41.992822",
   "intraday_data": {
     "status": "no_data",
     "message": "No intraday data available"
   },
   "stock_info": {
-    "status": "success",
-    "data": {
-      "maxAge": 86400,
-      "priceHint": 2,
-      "previousClose": 46.675,
-      "open": 47.15,
-      "dayLow": 47.15,
-      "dayHigh": 47.15,
-      "regularMarketPreviousClose": 46.675,
-      "regularMarketOpen": 47.15,
-      "regularMarketDayLow": 47.15,
-      "regularMarketDayHigh": 47.15,
-      "volume": 1,
-      "regularMarketVolume": 1,
-      "bid": 46.67,
-      "ask": 55.0,
-      "bidSize": 1100,
-      "askSize": 200,
-      "fiftyTwoWeekLow": 47.15,
-      "fiftyTwoWeekHigh": 47.15,
-      "currency": "USD",
-      "tradeable": false,
-      "quoteType": "EQUITY",
-      "symbol": "GLU-PA",
-      "language": "en-US",
-      "region": "US",
-      "typeDisp": "Equity",
-      "quoteSourceName": "Delayed Quote",
-      "triggerable": true,
-      "customPriceAlertConfidence": "HIGH",
-      "shortName": "The Gabelli Global Utility and ",
-      "longName": "The Gabelli Global Utility &amp; Income Trust PFD A PUTT CAL",
-      "hasPrePostMarketData": true,
-      "regularMarketChange": 0.0,
-      "regularMarketDayRange": "47.15 - 47.15",
-      "fullExchangeName": "NYSE American",
-      "fiftyTwoWeekLowChange": -0.4750023,
-      "fiftyTwoWeekLowChangePercent": -0.010074279,
-      "fiftyTwoWeekRange": "47.15 - 47.15",
-      "fiftyTwoWeekHighChange": -0.4750023,
-      "fiftyTwoWeekHighChangePercent": -0.010074279,
-      "dividendDate": 1766707200,
-      "regularMarketTime": 1765483366,
-      "exchange": "ASE",
-      "messageBoardId": "finmb_9368664",
-      "exchangeTimezoneName": "America/New_York",
-      "exchangeTimezoneShortName": "EST",
-      "gmtOffSetMilliseconds": -18000000,
-      "market": "us_market",
-      "esgPopulated": false,
-      "sourceInterval": 15,
-      "exchangeDataDelayedBy": 0,
-      "cryptoTradeable": false,
-      "regularMarketChangePercent": 0.0,
-      "regularMarketPrice": 46.675,
-      "marketState": "CLOSED"
-    }
+    "status": "error",
+    "message": "Too Many Requests. Rate limited. Try after a while."
   },
   "financials": {
     "income_statement": {
@@ -81,7 +26,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

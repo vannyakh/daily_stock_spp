@@ -1,65 +1,72 @@
 {
   "ticker": "GAB-PH",
-  "timestamp": "2026-01-03T05:27:53.807443",
+  "timestamp": "2026-01-04T05:11:20.801962",
   "intraday_data": {
     "status": "success",
-    "rows": 8,
+    "rows": 9,
     "data": [
       {
-        "Close": 20.760000228881836,
-        "High": 20.760000228881836,
-        "Low": 20.760000228881836,
-        "Open": 20.760000228881836,
-        "Volume": 0
+        "Close PMT-PB": 23.829999923706055,
+        "High PMT-PB": 23.829999923706055,
+        "Low PMT-PB": 23.829999923706055,
+        "Open PMT-PB": 23.829999923706055,
+        "Volume PMT-PB": 0
       },
       {
-        "Close": 20.889999389648438,
-        "High": 20.889999389648438,
-        "Low": 20.889999389648438,
-        "Open": 20.889999389648438,
-        "Volume": 100
+        "Close PMT-PB": 23.75,
+        "High PMT-PB": 23.75,
+        "Low PMT-PB": 23.75,
+        "Open PMT-PB": 23.75,
+        "Volume PMT-PB": 381
       },
       {
-        "Close": 20.899999618530273,
-        "High": 20.899999618530273,
-        "Low": 20.899999618530273,
-        "Open": 20.899999618530273,
-        "Volume": 274
+        "Close PMT-PB": 23.739999771118164,
+        "High PMT-PB": 23.739999771118164,
+        "Low PMT-PB": 23.739999771118164,
+        "Open PMT-PB": 23.739999771118164,
+        "Volume PMT-PB": 300
       },
       {
-        "Close": 20.770000457763672,
-        "High": 20.829999923706055,
-        "Low": 20.770000457763672,
-        "Open": 20.829999923706055,
-        "Volume": 2878
+        "Close PMT-PB": 23.70800018310547,
+        "High PMT-PB": 23.70800018310547,
+        "Low PMT-PB": 23.70800018310547,
+        "Open PMT-PB": 23.70800018310547,
+        "Volume PMT-PB": 573
       },
       {
-        "Close": 20.799999237060547,
-        "High": 20.799999237060547,
-        "Low": 20.799999237060547,
-        "Open": 20.799999237060547,
-        "Volume": 132
+        "Close PMT-PB": 23.75,
+        "High PMT-PB": 23.75,
+        "Low PMT-PB": 23.75,
+        "Open PMT-PB": 23.75,
+        "Volume PMT-PB": 201
       },
       {
-        "Close": 20.931499481201172,
-        "High": 20.931499481201172,
-        "Low": 20.931499481201172,
-        "Open": 20.931499481201172,
-        "Volume": 3276
+        "Close PMT-PB": 23.79990005493164,
+        "High PMT-PB": 23.799999237060547,
+        "Low PMT-PB": 23.79990005493164,
+        "Open PMT-PB": 23.799999237060547,
+        "Volume PMT-PB": 499
       },
       {
-        "Close": 20.885000228881836,
-        "High": 20.885000228881836,
-        "Low": 20.853500366210938,
-        "Open": 20.853500366210938,
-        "Volume": 210
+        "Close PMT-PB": 23.790000915527344,
+        "High PMT-PB": 23.790000915527344,
+        "Low PMT-PB": 23.790000915527344,
+        "Open PMT-PB": 23.790000915527344,
+        "Volume PMT-PB": 174
       },
       {
-        "Close": 20.79010009765625,
-        "High": 20.810100555419922,
-        "Low": 20.790000915527344,
-        "Open": 20.809999465942383,
-        "Volume": 2091
+        "Close PMT-PB": 23.793399810791016,
+        "High PMT-PB": 23.793399810791016,
+        "Low PMT-PB": 23.793399810791016,
+        "Open PMT-PB": 23.793399810791016,
+        "Volume PMT-PB": 179
+      },
+      {
+        "Close PMT-PB": 23.774999618530273,
+        "High PMT-PB": 23.774999618530273,
+        "Low PMT-PB": 23.774999618530273,
+        "Open PMT-PB": 23.774999618530273,
+        "Volume PMT-PB": 251
       }
     ]
   },
@@ -69,14 +76,45 @@
   },
   "financials": {
     "income_statement": {
-      "status": "success",
-      "rows": 22,
-      "columns": [
-        "2024-12-31 00:00:00",
-        "2023-12-31 00:00:00",
-        "2022-12-31 00:00:00",
-        "2021-12-31 00:00:00"
-      ],
-      "data": [
-        {
-          
+      "status": "no_data"
+    },
+    "balance_sheet": {
+      "status": "no_data"
+    },
+    "cash_flow": {
+      "status": "no_data"
+    }
+  },
+  "options_data": {
+    "status": "error",
+    "error_message": "Too Many Requests. Rate limited. Try after a while."
+  },
+  "news_data": {
+    "news": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    },
+    "recommendations": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  },
+  "holders_data": {
+    "major_holders": {
+      "status": "error"
+    },
+    "institutional_holders": {
+      "status": "error"
+    }
+  },
+  "earnings_data": {
+    "earnings": {
+      "status": "error",
+      "message": "'NoneType' object has no attribute 'empty'"
+    },
+    "calendar": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  }
+}

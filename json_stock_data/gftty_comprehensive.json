@@ -1,42 +1,13 @@
 {
   "ticker": "GFTTY",
-  "timestamp": "2026-01-03T05:23:21.654082",
+  "timestamp": "2026-01-04T05:09:50.583050",
   "intraday_data": {
-    "status": "success",
-    "rows": 2,
-    "data": [
-      {
-        "Close AAPG": 26.260000228881836,
-        "High AAPG": 26.260000228881836,
-        "Low AAPG": 26.260000228881836,
-        "Open AAPG": 26.260000228881836,
-        "Volume AAPG": 0
-      },
-      {
-        "Close AAPG": 26.889999389648438,
-        "High AAPG": 26.889999389648438,
-        "Low AAPG": 26.889999389648438,
-        "Open AAPG": 26.889999389648438,
-        "Volume AAPG": 593
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
-    "status": "success",
-    "data": {
-      "quoteType": "NONE",
-      "symbol": "GFTTY",
-      "language": "en-US",
-      "region": "US",
-      "triggerable": false,
-      "customPriceAlertConfidence": "NONE",
-      "financialCurrency": "EUR",
-      "hasPrePostMarketData": false,
-      "messageBoardId": "finmb_417836",
-      "esgPopulated": false,
-      "tradeable": false,
-      "cryptoTradeable": false
-    }
+    "status": "error",
+    "message": "Too Many Requests. Rate limited. Try after a while."
   },
   "financials": {
     "income_statement": {
@@ -50,22 +21,25 @@
     }
   },
   "options_data": {
-    "expirations": []
+    "status": "error",
+    "error_message": "Too Many Requests. Rate limited. Try after a while."
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   },
   "holders_data": {
     "major_holders": {
-      "status": "no_data"
+      "status": "error"
     },
     "institutional_holders": {
-      "status": "no_data"
+      "status": "error"
     }
   },
   "earnings_data": {
@@ -75,7 +49,7 @@
     },
     "calendar": {
       "status": "error",
-      "message": "'dict' object has no attribute 'empty'"
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   }
 }

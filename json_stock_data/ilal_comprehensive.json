@@ -1,9 +1,32 @@
 {
   "ticker": "ILAL",
-  "timestamp": "2026-01-03T05:13:53.306989",
+  "timestamp": "2026-01-04T05:06:25.042228",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 3,
+    "data": [
+      {
+        "Close": 0.22699999809265137,
+        "High": 0.22699999809265137,
+        "Low": 0.22699999809265137,
+        "Open": 0.22699999809265137,
+        "Volume": 0
+      },
+      {
+        "Close": 0.22699999809265137,
+        "High": 0.22699999809265137,
+        "Low": 0.22699999809265137,
+        "Open": 0.22699999809265137,
+        "Volume": 200
+      },
+      {
+        "Close": 0.210099995136261,
+        "High": 0.21320000290870667,
+        "Low": 0.210099995136261,
+        "Open": 0.21320000290870667,
+        "Volume": 4800
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -11,14 +34,44 @@
   },
   "financials": {
     "income_statement": {
-      "status": "success",
-      "rows": 49,
-      "columns": [
-        "2024-12-31 00:00:00",
-        "2023-12-31 00:00:00",
-        "2022-12-31 00:00:00",
-        "2021-12-31 00:00:00"
-      ],
-      "data": [
-        {
-          
+      "status": "no_data"
+    },
+    "balance_sheet": {
+      "status": "no_data"
+    },
+    "cash_flow": {
+      "status": "no_data"
+    }
+  },
+  "options_data": {
+    "status": "error",
+    "error_message": "Too Many Requests. Rate limited. Try after a while."
+  },
+  "news_data": {
+    "news": {
+      "status": "no_data"
+    },
+    "recommendations": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  },
+  "holders_data": {
+    "major_holders": {
+      "status": "error"
+    },
+    "institutional_holders": {
+      "status": "error"
+    }
+  },
+  "earnings_data": {
+    "earnings": {
+      "status": "error",
+      "message": "'NoneType' object has no attribute 'empty'"
+    },
+    "calendar": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  }
+}

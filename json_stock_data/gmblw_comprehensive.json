@@ -1,18 +1,9 @@
 {
   "ticker": "GMBLW",
-  "timestamp": "2026-01-03T05:39:31.787517",
+  "timestamp": "2026-01-04T05:14:42.623879",
   "intraday_data": {
-    "status": "success",
-    "rows": 1,
-    "data": [
-      {
-        "Close GMBLP": 0.02500000037252903,
-        "High GMBLP": 0.02500000037252903,
-        "Low GMBLP": 0.02500000037252903,
-        "Open GMBLP": 0.02500000037252903,
-        "Volume GMBLP": 0
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -35,7 +26,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

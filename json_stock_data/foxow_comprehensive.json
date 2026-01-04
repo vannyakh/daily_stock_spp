@@ -1,84 +1,55 @@
 {
   "ticker": "FOXOW",
-  "timestamp": "2026-01-03T05:38:02.336873",
+  "timestamp": "2026-01-04T05:14:17.611817",
   "intraday_data": {
     "status": "no_data",
     "message": "No intraday data available"
   },
   "stock_info": {
-    "status": "success",
-    "data": {
-      "maxAge": 86400,
-      "priceHint": 4,
-      "previousClose": 0.0062,
-      "open": 0.0052,
-      "dayLow": 0.0052,
-      "dayHigh": 0.0052,
-      "regularMarketPreviousClose": 0.0062,
-      "regularMarketOpen": 0.0052,
-      "regularMarketDayLow": 0.0052,
-      "regularMarketDayHigh": 0.0052,
-      "volume": 5500,
-      "regularMarketVolume": 5500,
-      "bid": 0.0052,
-      "ask": 0.0093,
-      "bidSize": 10000,
-      "askSize": 10000,
-      "fiftyTwoWeekLow": 0.0052,
-      "fiftyTwoWeekHigh": 0.0052,
-      "trailingAnnualDividendRate": 0.0,
-      "trailingAnnualDividendYield": 0.0,
-      "currency": "USD",
-      "tradeable": false,
-      "quoteType": "EQUITY",
-      "currentPrice": 0.0052,
-      "recommendationKey": "none",
-      "symbol": "FOXOW",
-      "language": "en-US",
-      "region": "US",
-      "typeDisp": "Equity",
-      "quoteSourceName": "Delayed Quote",
-      "triggerable": false,
-      "customPriceAlertConfidence": "LOW",
-      "regularMarketChangePercent": -16.129034,
-      "regularMarketPrice": 0.0052,
-      "hasPrePostMarketData": false,
-      "regularMarketChange": -0.0010000002,
-      "regularMarketDayRange": "0.0052 - 0.0052",
-      "fullExchangeName": "OTC Markets OTCPK",
-      "fiftyTwoWeekLowChange": 0.0,
-      "fiftyTwoWeekLowChangePercent": 0.0,
-      "fiftyTwoWeekRange": "0.0052 - 0.0052",
-      "fiftyTwoWeekHighChange": 0.0,
-      "fiftyTwoWeekHighChangePercent": 0.0,
-      "shortName": "FOXO Technologies Inc. Redeemab",
-      "marketState": "CLOSED",
-      "bookValue": 0.186,
-      "priceToBook": 0.027956989,
-      "sourceInterval": 15,
-      "exchangeDataDelayedBy": 0,
-      "cryptoTradeable": false,
-      "regularMarketTime": 1761762692,
-      "exchange": "PNK",
-      "messageBoardId": "finmb_703682424",
-      "exchangeTimezoneName": "America/New_York",
-      "exchangeTimezoneShortName": "EST",
-      "gmtOffSetMilliseconds": -18000000,
-      "market": "us_market",
-      "esgPopulated": false,
-      "displayName": "FOXO"
-    }
+    "status": "error",
+    "message": "Too Many Requests. Rate limited. Try after a while."
   },
   "financials": {
     "income_statement": {
-      "status": "success",
-      "rows": 45,
-      "columns": [
-        "2024-12-31 00:00:00",
-        "2023-12-31 00:00:00",
-        "2022-12-31 00:00:00",
-        "2021-12-31 00:00:00"
-      ],
-      "data": [
-        {
-          
+      "status": "no_data"
+    },
+    "balance_sheet": {
+      "status": "no_data"
+    },
+    "cash_flow": {
+      "status": "no_data"
+    }
+  },
+  "options_data": {
+    "status": "error",
+    "error_message": "Too Many Requests. Rate limited. Try after a while."
+  },
+  "news_data": {
+    "news": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    },
+    "recommendations": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  },
+  "holders_data": {
+    "major_holders": {
+      "status": "error"
+    },
+    "institutional_holders": {
+      "status": "error"
+    }
+  },
+  "earnings_data": {
+    "earnings": {
+      "status": "error",
+      "message": "'NoneType' object has no attribute 'empty'"
+    },
+    "calendar": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  }
+}

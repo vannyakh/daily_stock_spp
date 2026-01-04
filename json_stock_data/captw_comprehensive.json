@@ -1,6 +1,6 @@
 {
   "ticker": "CAPTW",
-  "timestamp": "2026-01-03T05:35:07.688772",
+  "timestamp": "2026-01-04T05:13:19.762046",
   "intraday_data": {
     "status": "success",
     "rows": 9,
@@ -71,65 +71,8 @@
     ]
   },
   "stock_info": {
-    "status": "success",
-    "data": {
-      "language": "en-US",
-      "region": "US",
-      "quoteType": "EQUITY",
-      "typeDisp": "Equity",
-      "quoteSourceName": "Delayed Quote",
-      "triggerable": true,
-      "customPriceAlertConfidence": "HIGH",
-      "currency": "USD",
-      "marketState": "CLOSED",
-      "regularMarketChangePercent": 42.63566,
-      "regularMarketPrice": 0.0184,
-      "hasPrePostMarketData": true,
-      "priceHint": 4,
-      "regularMarketChange": 0.0055,
-      "regularMarketDayHigh": 0.0199,
-      "regularMarketDayRange": "0.0128 - 0.0199",
-      "regularMarketDayLow": 0.0128,
-      "regularMarketVolume": 6473,
-      "regularMarketPreviousClose": 0.0129,
-      "bid": 0.0,
-      "ask": 0.0,
-      "bidSize": 0,
-      "askSize": 0,
-      "fullExchangeName": "NasdaqCM",
-      "financialCurrency": "USD",
-      "regularMarketOpen": 0.0206,
-      "fiftyTwoWeekLowChange": 0.0056000007,
-      "fiftyTwoWeekLowChangePercent": 0.43750006,
-      "fiftyTwoWeekRange": "0.0128 - 0.0199",
-      "fiftyTwoWeekHighChange": -0.0014999993,
-      "fiftyTwoWeekHighChangePercent": -0.07537685,
-      "fiftyTwoWeekLow": 0.0128,
-      "fiftyTwoWeekHigh": 0.0199,
-      "trailingAnnualDividendRate": 0.0,
-      "trailingAnnualDividendYield": 0.0,
-      "shortName": "Captivision Inc. Warrant",
-      "longName": "Captivision Inc.",
-      "regularMarketTime": 1767377466,
-      "exchange": "NCM",
-      "messageBoardId": "finmb_1821495442",
-      "exchangeTimezoneName": "America/New_York",
-      "exchangeTimezoneShortName": "EST",
-      "gmtOffSetMilliseconds": -18000000,
-      "market": "us_market",
-      "esgPopulated": false,
-      "bookValue": -1.765,
-      "priceToBook": -0.01042493,
-      "sourceInterval": 15,
-      "exchangeDataDelayedBy": 0,
-      "ipoExpectedDate": "2023-11-16",
-      "prevName": "GLAAM CO.,LTD.",
-      "nameChangeDate": "2026-01-02",
-      "tradeable": false,
-      "cryptoTradeable": false,
-      "displayName": "Captivision",
-      "symbol": "CAPTW"
-    }
+    "status": "error",
+    "message": "Too Many Requests. Rate limited. Try after a while."
   },
   "financials": {
     "income_statement": {
@@ -148,7 +91,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

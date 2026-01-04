@@ -1,25 +1,120 @@
 {
   "ticker": "INZY",
-  "timestamp": "2026-01-03T05:02:57.709524",
+  "timestamp": "2026-01-04T05:02:23.338250",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 15,
+    "data": [
+      {
+        "Close BLGO": 0.18850000202655792,
+        "High BLGO": 0.18850000202655792,
+        "Low BLGO": 0.18850000202655792,
+        "Open BLGO": 0.18850000202655792,
+        "Volume BLGO": 0
+      },
+      {
+        "Close BLGO": 0.18850000202655792,
+        "High BLGO": 0.18850000202655792,
+        "Low BLGO": 0.18850000202655792,
+        "Open BLGO": 0.18850000202655792,
+        "Volume BLGO": 5500
+      },
+      {
+        "Close BLGO": 0.1882999986410141,
+        "High BLGO": 0.1882999986410141,
+        "Low BLGO": 0.1882999986410141,
+        "Open BLGO": 0.1882999986410141,
+        "Volume BLGO": 103
+      },
+      {
+        "Close BLGO": 0.1851000040769577,
+        "High BLGO": 0.1851000040769577,
+        "Low BLGO": 0.1851000040769577,
+        "Open BLGO": 0.1851000040769577,
+        "Volume BLGO": 480
+      },
+      {
+        "Close BLGO": 0.1851000040769577,
+        "High BLGO": 0.1851000040769577,
+        "Low BLGO": 0.1851000040769577,
+        "Open BLGO": 0.1851000040769577,
+        "Volume BLGO": 6520
+      },
+      {
+        "Close BLGO": 0.1851000040769577,
+        "High BLGO": 0.1851000040769577,
+        "Low BLGO": 0.1851000040769577,
+        "Open BLGO": 0.1851000040769577,
+        "Volume BLGO": 8480
+      },
+      {
+        "Close BLGO": 0.1850000023841858,
+        "High BLGO": 0.1850000023841858,
+        "Low BLGO": 0.1850000023841858,
+        "Open BLGO": 0.1850000023841858,
+        "Volume BLGO": 5000
+      },
+      {
+        "Close BLGO": 0.18790000677108765,
+        "High BLGO": 0.18790000677108765,
+        "Low BLGO": 0.18790000677108765,
+        "Open BLGO": 0.18790000677108765,
+        "Volume BLGO": 7500
+      },
+      {
+        "Close BLGO": 0.18790000677108765,
+        "High BLGO": 0.18790000677108765,
+        "Low BLGO": 0.18790000677108765,
+        "Open BLGO": 0.18790000677108765,
+        "Volume BLGO": 15000
+      },
+      {
+        "Close BLGO": 0.18790000677108765,
+        "High BLGO": 0.18790000677108765,
+        "Low BLGO": 0.18790000677108765,
+        "Open BLGO": 0.18790000677108765,
+        "Volume BLGO": 15000
+      },
+      {
+        "Close BLGO": 0.18790000677108765,
+        "High BLGO": 0.18790000677108765,
+        "Low BLGO": 0.18790000677108765,
+        "Open BLGO": 0.18790000677108765,
+        "Volume BLGO": 10000
+      },
+      {
+        "Close BLGO": 0.1850000023841858,
+        "High BLGO": 0.1850000023841858,
+        "Low BLGO": 0.1850000023841858,
+        "Open BLGO": 0.1850000023841858,
+        "Volume BLGO": 37000
+      },
+      {
+        "Close BLGO": 0.18490000069141388,
+        "High BLGO": 0.18490000069141388,
+        "Low BLGO": 0.18490000069141388,
+        "Open BLGO": 0.18490000069141388,
+        "Volume BLGO": 5000
+      },
+      {
+        "Close BLGO": 0.18780000507831573,
+        "High BLGO": 0.18780000507831573,
+        "Low BLGO": 0.18780000507831573,
+        "Open BLGO": 0.18780000507831573,
+        "Volume BLGO": 1000
+      },
+      {
+        "Close BLGO": 0.18780000507831573,
+        "High BLGO": 0.18780000507831573,
+        "Low BLGO": 0.18780000507831573,
+        "Open BLGO": 0.18780000507831573,
+        "Volume BLGO": 1000
+      }
+    ]
   },
   "stock_info": {
-    "status": "success",
-    "data": {
-      "quoteType": "NONE",
-      "symbol": "INZY",
-      "language": "en-US",
-      "region": "US",
-      "triggerable": false,
-      "customPriceAlertConfidence": "NONE",
-      "esgPopulated": false,
-      "hasPrePostMarketData": false,
-      "financialCurrency": "USD",
-      "tradeable": false,
-      "cryptoTradeable": false
-    }
+    "status": "error",
+    "message": "Too Many Requests. Rate limited. Try after a while."
   },
   "financials": {
     "income_statement": {
@@ -33,7 +128,8 @@
     }
   },
   "options_data": {
-    "expirations": []
+    "status": "error",
+    "error_message": "Too Many Requests. Rate limited. Try after a while."
   },
   "news_data": {
     "news": {
@@ -648,15 +744,16 @@
       ]
     },
     "recommendations": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   },
   "holders_data": {
     "major_holders": {
-      "status": "no_data"
+      "status": "error"
     },
     "institutional_holders": {
-      "status": "no_data"
+      "status": "error"
     }
   },
   "earnings_data": {
@@ -666,7 +763,7 @@
     },
     "calendar": {
       "status": "error",
-      "message": "'dict' object has no attribute 'empty'"
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   }
 }

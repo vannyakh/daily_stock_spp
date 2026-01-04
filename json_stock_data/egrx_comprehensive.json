@@ -1,9 +1,25 @@
 {
   "ticker": "EGRX",
-  "timestamp": "2026-01-03T05:30:17.782532",
+  "timestamp": "2026-01-04T05:12:03.190396",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 2,
+    "data": [
+      {
+        "Close VQSSF": 0.1444000005722046,
+        "High VQSSF": 0.1444000005722046,
+        "Low VQSSF": 0.1444000005722046,
+        "Open VQSSF": 0.1444000005722046,
+        "Volume VQSSF": 0
+      },
+      {
+        "Close VQSSF": 0.15000000596046448,
+        "High VQSSF": 0.15000000596046448,
+        "Low VQSSF": 0.15000000596046448,
+        "Open VQSSF": 0.15000000596046448,
+        "Volume VQSSF": 1499
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -26,7 +42,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

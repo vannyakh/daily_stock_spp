@@ -1,103 +1,13 @@
 {
   "ticker": "XSIAX",
-  "timestamp": "2026-01-03T05:24:33.077764",
+  "timestamp": "2026-01-04T05:10:02.556157",
   "intraday_data": {
-    "status": "success",
-    "rows": 1,
-    "data": [
-      {
-        "Close": 9.449999809265137,
-        "High": 9.449999809265137,
-        "Low": 9.449999809265137,
-        "Open": 9.449999809265137,
-        "Volume": 0
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
-    "status": "success",
-    "data": {
-      "address1": "Scottsdale AZ 85258",
-      "address2": "7337 E. Doubletree Ranch Road",
-      "address3": "Voya Senior Income Fund",
-      "longBusinessSummary": "The fund seeks to achieve its investment objective by investing, under normal market conditions, at least 80% of its net assets (plus borrowings for investment purposes) in floating-rate obligations, fixed-income securities, and derivative instruments intended to provide economic exposure to such credit sectors.",
-      "maxAge": 86400,
-      "priceHint": 2,
-      "previousClose": 9.45,
-      "regularMarketPreviousClose": 9.45,
-      "averageVolume": 0,
-      "averageVolume10days": 0,
-      "averageDailyVolume10Day": 0,
-      "yield": 0.0884,
-      "ytdReturn": 0.45494,
-      "totalAssets": 99717656,
-      "fiftyTwoWeekLow": 9.17,
-      "fiftyTwoWeekHigh": 9.64,
-      "allTimeHigh": 15.61,
-      "allTimeLow": 7.88,
-      "fiftyDayAverage": 9.4534,
-      "twoHundredDayAverage": 9.46695,
-      "trailingAnnualDividendRate": 0.84,
-      "trailingAnnualDividendYield": 0.08888889,
-      "currency": "USD",
-      "tradeable": false,
-      "morningStarOverallRating": 1,
-      "morningStarRiskRating": 5,
-      "annualReportExpenseRatio": 0.038900003,
-      "beta3Year": 0.47,
-      "fundInceptionDate": 1208217600,
-      "lastDividendValue": 0.26478,
-      "lastCapGain": -118.0,
-      "annualHoldingsTurnover": 0.66,
-      "quoteType": "MUTUALFUND",
-      "symbol": "XSIAX",
-      "language": "en-US",
-      "region": "US",
-      "typeDisp": "Fund",
-      "quoteSourceName": "Delayed Quote",
-      "triggerable": false,
-      "customPriceAlertConfidence": "NONE",
-      "regularMarketChangePercent": 0.0,
-      "regularMarketPrice": 9.45,
-      "marketState": "CLOSED",
-      "longName": "Voya Credit Income A",
-      "dividendRate": 0.26478,
-      "dividendYield": 8.84,
-      "trailingThreeMonthReturns": -0.69255,
-      "netAssets": 99717656.0,
-      "epsTrailingTwelveMonths": -0.449,
-      "bookValue": 9.71,
-      "fiftyDayAverageChange": -0.003399849,
-      "fiftyDayAverageChangePercent": -0.000359643,
-      "twoHundredDayAverageChange": -0.016950607,
-      "twoHundredDayAverageChangePercent": -0.0017905034,
-      "netExpenseRatio": 3.89,
-      "priceToBook": 0.97322345,
-      "sourceInterval": 15,
-      "exchangeDataDelayedBy": 0,
-      "cryptoTradeable": false,
-      "fullExchangeName": "Nasdaq",
-      "financialCurrency": "USD",
-      "averageDailyVolume3Month": 0,
-      "fiftyTwoWeekLowChange": 0.27999973,
-      "fiftyTwoWeekLowChangePercent": 0.030534321,
-      "fiftyTwoWeekRange": "9.17 - 9.64",
-      "fiftyTwoWeekHighChange": -0.19000053,
-      "fiftyTwoWeekHighChangePercent": -0.019709598,
-      "fiftyTwoWeekChangePercent": -1.8691599,
-      "hasPrePostMarketData": false,
-      "firstTradeDateMilliseconds": 985962600000,
-      "regularMarketChange": 0.0,
-      "regularMarketTime": 1767402318,
-      "exchange": "NAS",
-      "messageBoardId": "finmb_3601223",
-      "exchangeTimezoneName": "America/New_York",
-      "exchangeTimezoneShortName": "EST",
-      "gmtOffSetMilliseconds": -18000000,
-      "market": "us_market",
-      "esgPopulated": false,
-      "shortName": "Voya Senior Income Fund Class A"
-    }
+    "status": "error",
+    "message": "Too Many Requests. Rate limited. Try after a while."
   },
   "financials": {
     "income_statement": {
@@ -111,22 +21,25 @@
     }
   },
   "options_data": {
-    "expirations": []
+    "status": "error",
+    "error_message": "Too Many Requests. Rate limited. Try after a while."
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   },
   "holders_data": {
     "major_holders": {
-      "status": "no_data"
+      "status": "error"
     },
     "institutional_holders": {
-      "status": "no_data"
+      "status": "error"
     }
   },
   "earnings_data": {
@@ -136,7 +49,7 @@
     },
     "calendar": {
       "status": "error",
-      "message": "'dict' object has no attribute 'empty'"
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   }
 }

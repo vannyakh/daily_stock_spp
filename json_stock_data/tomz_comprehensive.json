@@ -1,9 +1,53 @@
 {
   "ticker": "TOMZ",
-  "timestamp": "2026-01-03T05:10:36.557441",
+  "timestamp": "2026-01-04T05:05:21.694070",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 6,
+    "data": [
+      {
+        "Close": 0.7800999879837036,
+        "High": 0.7800999879837036,
+        "Low": 0.7799999713897705,
+        "Open": 0.7800999879837036,
+        "Volume": 0
+      },
+      {
+        "Close": 0.7800999879837036,
+        "High": 0.7800999879837036,
+        "Low": 0.7800999879837036,
+        "Open": 0.7800999879837036,
+        "Volume": 156
+      },
+      {
+        "Close": 0.7900999784469604,
+        "High": 0.7900999784469604,
+        "Low": 0.7900999784469604,
+        "Open": 0.7900999784469604,
+        "Volume": 200
+      },
+      {
+        "Close": 0.800000011920929,
+        "High": 0.800000011920929,
+        "Low": 0.800000011920929,
+        "Open": 0.800000011920929,
+        "Volume": 778
+      },
+      {
+        "Close": 0.7990000247955322,
+        "High": 0.7990000247955322,
+        "Low": 0.7990000247955322,
+        "Open": 0.7990000247955322,
+        "Volume": 245
+      },
+      {
+        "Close": 0.7900999784469604,
+        "High": 0.7900999784469604,
+        "Low": 0.7900999784469604,
+        "Open": 0.7900999784469604,
+        "Volume": 126
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -459,7 +503,8 @@
       ]
     },
     "recommendations": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   },
   "holders_data": {

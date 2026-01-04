@@ -1,9 +1,18 @@
 {
   "ticker": "PAANF",
-  "timestamp": "2026-01-03T05:30:44.140260",
+  "timestamp": "2026-01-04T05:12:13.617268",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 1,
+    "data": [
+      {
+        "Close RTON": 0.005100000184029341,
+        "High RTON": 0.005100000184029341,
+        "Low RTON": 0.005100000184029341,
+        "Open RTON": 0.005100000184029341,
+        "Volume RTON": 0
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -125,17 +134,7 @@
       "status": "error"
     },
     "institutional_holders": {
-      "status": "success",
-      "data": [
-        {
-          "Date Reported": "2024-03-31 00:00:00",
-          "Holder": "Stonebridge Capital Management Inc",
-          "pctHeld": 0.0002,
-          "Shares": 20000,
-          "Value": 11499,
-          "pctChange": 1.0
-        }
-      ]
+      "status": "error"
     }
   },
   "earnings_data": {
@@ -145,7 +144,7 @@
     },
     "calendar": {
       "status": "error",
-      "message": "'dict' object has no attribute 'empty'"
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   }
 }

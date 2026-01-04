@@ -1,111 +1,55 @@
 {
   "ticker": "IMAQW",
-  "timestamp": "2026-01-03T05:38:31.736305",
+  "timestamp": "2026-01-04T05:14:22.284344",
   "intraday_data": {
     "status": "no_data",
     "message": "No intraday data available"
   },
   "stock_info": {
-    "status": "success",
-    "data": {
-      "address1": "1221 Brickell Avenue",
-      "city": "Miami",
-      "state": "FL",
-      "zip": "33131",
-      "country": "United States",
-      "phone": "212 960 3677",
-      "industry": "",
-      "industryKey": "",
-      "sector": "",
-      "sectorKey": "",
-      "longBusinessSummary": "International Media Acquisition Corp. does not have significant operations. The company intends to effect a merger, share exchange, asset acquisition, share purchase, reorganization, or similar business combination with one or more businesses. The company was incorporated in 2021 and is based in Miami, Florida.",
-      "maxAge": 86400,
-      "priceHint": 4,
-      "previousClose": 0.03,
-      "open": 0.0242,
-      "dayLow": 0.0053,
-      "dayHigh": 0.025,
-      "regularMarketPreviousClose": 0.03,
-      "regularMarketOpen": 0.0242,
-      "regularMarketDayLow": 0.0053,
-      "regularMarketDayHigh": 0.025,
-      "beta": 0.22,
-      "volume": 250273,
-      "regularMarketVolume": 250273,
-      "bid": 0.0242,
-      "ask": 0.034,
-      "bidSize": 34750,
-      "askSize": 18500,
-      "fiftyTwoWeekLow": 0.0053,
-      "fiftyTwoWeekHigh": 0.025,
-      "trailingAnnualDividendRate": 0.0,
-      "trailingAnnualDividendYield": 0.0,
-      "currency": "USD",
-      "tradeable": false,
-      "profitMargins": 0.0,
-      "floatShares": 539681,
-      "bookValue": -2.206,
-      "netIncomeToCommon": -299984,
-      "SandP52WeekChange": 0.14561749,
-      "quoteType": "EQUITY",
-      "currentPrice": 0.025,
-      "recommendationKey": "none",
-      "totalDebt": 6045884,
-      "currentRatio": 0.011,
-      "returnOnAssets": -0.06102,
-      "freeCashflow": -1638542,
-      "operatingCashflow": -1857846,
-      "grossMargins": 0.0,
-      "ebitdaMargins": 0.0,
-      "operatingMargins": 0.0,
-      "financialCurrency": "USD",
-      "symbol": "IMAQW",
-      "language": "en-US",
-      "region": "US",
-      "typeDisp": "Equity",
-      "quoteSourceName": "Delayed Quote",
-      "triggerable": true,
-      "customPriceAlertConfidence": "HIGH",
-      "priceToBook": -0.011332729,
-      "sourceInterval": 15,
-      "exchangeDataDelayedBy": 0,
-      "ipoExpectedDate": "2021-08-17",
-      "cryptoTradeable": false,
-      "hasPrePostMarketData": true,
-      "regularMarketChange": -0.005,
-      "regularMarketDayRange": "0.0053 - 0.025",
-      "fullExchangeName": "NasdaqCM",
-      "shortName": "International Media Acquisition Corp. Warrants",
-      "longName": "International Media Acquisition Corp.",
-      "regularMarketTime": 1761331008,
-      "exchange": "NCM",
-      "messageBoardId": "finmb_706230273",
-      "exchangeTimezoneName": "America/New_York",
-      "exchangeTimezoneShortName": "EST",
-      "gmtOffSetMilliseconds": -18000000,
-      "market": "us_market",
-      "esgPopulated": false,
-      "marketState": "CLOSED",
-      "fiftyTwoWeekLowChange": 0.0197,
-      "fiftyTwoWeekLowChangePercent": 3.7169812,
-      "fiftyTwoWeekRange": "0.0053 - 0.025",
-      "fiftyTwoWeekHighChange": 0.0,
-      "fiftyTwoWeekHighChangePercent": 0.0,
-      "regularMarketChangePercent": -16.666666,
-      "regularMarketPrice": 0.025,
-      "displayName": "International Media"
-    }
+    "status": "error",
+    "message": "Too Many Requests. Rate limited. Try after a while."
   },
   "financials": {
     "income_statement": {
-      "status": "success",
-      "rows": 37,
-      "columns": [
-        "2025-03-31 00:00:00",
-        "2024-03-31 00:00:00",
-        "2023-03-31 00:00:00",
-        "2021-12-31 00:00:00"
-      ],
-      "data": [
-        {
-          
+      "status": "no_data"
+    },
+    "balance_sheet": {
+      "status": "no_data"
+    },
+    "cash_flow": {
+      "status": "no_data"
+    }
+  },
+  "options_data": {
+    "status": "error",
+    "error_message": "Too Many Requests. Rate limited. Try after a while."
+  },
+  "news_data": {
+    "news": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    },
+    "recommendations": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  },
+  "holders_data": {
+    "major_holders": {
+      "status": "error"
+    },
+    "institutional_holders": {
+      "status": "error"
+    }
+  },
+  "earnings_data": {
+    "earnings": {
+      "status": "error",
+      "message": "'NoneType' object has no attribute 'empty'"
+    },
+    "calendar": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  }
+}

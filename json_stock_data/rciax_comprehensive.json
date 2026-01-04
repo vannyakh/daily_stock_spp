@@ -1,73 +1,13 @@
 {
   "ticker": "RCIAX",
-  "timestamp": "2026-01-03T05:40:13.668406",
+  "timestamp": "2026-01-04T05:14:58.281348",
   "intraday_data": {
-    "status": "success",
-    "rows": 1,
-    "data": [
-      {
-        "Close": 9.170000076293945,
-        "High": 9.170000076293945,
-        "Low": 9.170000076293945,
-        "Open": 9.170000076293945,
-        "Volume": 0
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
-    "status": "success",
-    "data": {
-      "language": "en-US",
-      "region": "US",
-      "quoteType": "MUTUALFUND",
-      "typeDisp": "Fund",
-      "quoteSourceName": "Delayed Quote",
-      "triggerable": false,
-      "customPriceAlertConfidence": "NONE",
-      "currency": "USD",
-      "shortName": "Resource Credit Income Fund Cla",
-      "regularMarketChangePercent": 0.051286805,
-      "regularMarketPrice": 9.174703,
-      "marketState": "CLOSED",
-      "regularMarketTime": 1767402145,
-      "exchange": "NAS",
-      "messageBoardId": "finmb_280034124",
-      "exchangeTimezoneName": "America/New_York",
-      "exchangeTimezoneShortName": "EST",
-      "gmtOffSetMilliseconds": -18000000,
-      "market": "us_market",
-      "esgPopulated": false,
-      "longName": "Alternative Credit Income Fund",
-      "fiftyTwoWeekLowChange": 0.18470287,
-      "fiftyTwoWeekLowChangePercent": 0.02054537,
-      "fiftyTwoWeekRange": "8.99 - 9.37",
-      "fiftyTwoWeekHighChange": -0.19529724,
-      "fiftyTwoWeekHighChangePercent": -0.020842822,
-      "fiftyTwoWeekLow": 8.99,
-      "fiftyTwoWeekHigh": 9.37,
-      "fiftyTwoWeekChangePercent": -2.0299137,
-      "trailingAnnualDividendRate": 0.0,
-      "trailingAnnualDividendYield": 0.0,
-      "fiftyDayAverage": 9.1948,
-      "fiftyDayAverageChange": -0.020097733,
-      "fiftyDayAverageChangePercent": -0.0021857715,
-      "twoHundredDayAverage": 9.197,
-      "twoHundredDayAverageChange": -0.022296906,
-      "twoHundredDayAverageChangePercent": -0.0024243675,
-      "sourceInterval": 15,
-      "exchangeDataDelayedBy": 0,
-      "tradeable": false,
-      "cryptoTradeable": false,
-      "hasPrePostMarketData": false,
-      "firstTradeDateMilliseconds": 1429277400000,
-      "priceHint": 2,
-      "regularMarketChange": 0.004703,
-      "regularMarketPreviousClose": 9.17,
-      "fullExchangeName": "Nasdaq",
-      "averageDailyVolume3Month": 0,
-      "averageDailyVolume10Day": 0,
-      "symbol": "RCIAX"
-    }
+    "status": "error",
+    "message": "Too Many Requests. Rate limited. Try after a while."
   },
   "financials": {
     "income_statement": {
@@ -81,22 +21,25 @@
     }
   },
   "options_data": {
-    "expirations": []
+    "status": "error",
+    "error_message": "Too Many Requests. Rate limited. Try after a while."
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   },
   "holders_data": {
     "major_holders": {
-      "status": "no_data"
+      "status": "error"
     },
     "institutional_holders": {
-      "status": "no_data"
+      "status": "error"
     }
   },
   "earnings_data": {
@@ -106,7 +49,7 @@
     },
     "calendar": {
       "status": "error",
-      "message": "'dict' object has no attribute 'empty'"
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   }
 }

@@ -1,6 +1,6 @@
 {
   "ticker": "AIMD",
-  "timestamp": "2026-01-03T05:15:06.148568",
+  "timestamp": "2026-01-04T05:06:56.608911",
   "intraday_data": {
     "status": "success",
     "rows": 29,
@@ -211,95 +211,277 @@
     ]
   },
   "stock_info": {
-    "status": "success",
-    "data": {
-      "language": "en-US",
-      "region": "US",
-      "quoteType": "EQUITY",
-      "typeDisp": "Equity",
-      "quoteSourceName": "Nasdaq Real Time Price",
-      "triggerable": true,
-      "customPriceAlertConfidence": "HIGH",
-      "currency": "USD",
-      "hasPrePostMarketData": true,
-      "firstTradeDateMilliseconds": 1610116200000,
-      "priceHint": 4,
-      "postMarketChangePercent": 1.6571454,
-      "postMarketPrice": 1.779,
-      "postMarketChange": 0.029000044,
-      "regularMarketChange": 0.110000014,
-      "regularMarketDayHigh": 1.83,
-      "regularMarketDayRange": "1.6258 - 1.83",
-      "regularMarketDayLow": 1.6258,
-      "regularMarketVolume": 26983,
-      "regularMarketPreviousClose": 1.64,
-      "bid": 1.95,
-      "ask": 2.16,
-      "bidSize": 1,
-      "askSize": 1,
-      "fullExchangeName": "NasdaqCM",
-      "financialCurrency": "USD",
-      "regularMarketOpen": 1.7,
-      "averageDailyVolume3Month": 42831,
-      "averageDailyVolume10Day": 20710,
-      "fiftyTwoWeekLowChange": 0.13999999,
-      "fiftyTwoWeekLowChangePercent": 0.08695651,
-      "fiftyTwoWeekRange": "1.61 - 5.0",
-      "fiftyTwoWeekHighChange": -3.25,
-      "fiftyTwoWeekHighChangePercent": -0.65,
-      "fiftyTwoWeekLow": 1.61,
-      "fiftyTwoWeekHigh": 5.0,
-      "fiftyTwoWeekChangePercent": -59.951164,
-      "earningsTimestampStart": 1754337600,
-      "earningsTimestampEnd": 1754683200,
-      "isEarningsDateEstimate": true,
-      "trailingAnnualDividendRate": 0.0,
-      "trailingAnnualDividendYield": 0.0,
-      "epsTrailingTwelveMonths": -3.92,
-      "marketState": "CLOSED",
-      "regularMarketChangePercent": 6.7073183,
-      "regularMarketPrice": 1.75,
-      "sharesOutstanding": 4812634,
-      "bookValue": 2.095,
-      "fiftyDayAverage": 2.51252,
-      "fiftyDayAverageChange": -0.7625201,
-      "fiftyDayAverageChangePercent": -0.30348817,
-      "twoHundredDayAverage": 2.923455,
-      "twoHundredDayAverageChange": -1.173455,
-      "twoHundredDayAverageChangePercent": -0.4013932,
-      "marketCap": 8422111,
-      "priceToBook": 0.8353222,
-      "sourceInterval": 15,
-      "exchangeDataDelayedBy": 0,
-      "prevName": "Amarillo Biosciences, Inc.",
-      "nameChangeDate": "2026-01-02",
-      "tradeable": false,
-      "cryptoTradeable": false,
-      "shortName": "Ainos, Inc.",
-      "longName": "Ainos, Inc.",
-      "postMarketTime": 1767400362,
-      "regularMarketTime": 1767387600,
-      "exchange": "NCM",
-      "messageBoardId": "finmb_365351",
-      "exchangeTimezoneName": "America/New_York",
-      "exchangeTimezoneShortName": "EST",
-      "gmtOffSetMilliseconds": -18000000,
-      "market": "us_market",
-      "esgPopulated": false,
-      "displayName": "Ainos",
-      "symbol": "AIMD"
-    }
+    "status": "error",
+    "message": "argument of type 'NoneType' is not iterable"
   },
   "financials": {
     "income_statement": {
+      "status": "no_data"
+    },
+    "balance_sheet": {
+      "status": "no_data"
+    },
+    "cash_flow": {
+      "status": "no_data"
+    }
+  },
+  "options_data": {
+    "status": "error",
+    "error_message": "Too Many Requests. Rate limited. Try after a while."
+  },
+  "news_data": {
+    "news": {
       "status": "success",
-      "rows": 41,
-      "columns": [
-        "2024-12-31 00:00:00",
-        "2023-12-31 00:00:00",
-        "2022-12-31 00:00:00",
-        "2021-12-31 00:00:00"
-      ],
+      "count": 4,
       "data": [
         {
-          
+          "id": "96bfb0e3-4764-3c85-9d10-7efabd96cf18",
+          "content": {
+            "id": "96bfb0e3-4764-3c85-9d10-7efabd96cf18",
+            "contentType": "STORY",
+            "title": "BC-Most Active Stocks",
+            "description": "",
+            "summary": "Gibo Holdings Ltd. 139,986,518 0.0516",
+            "pubDate": "2025-08-06T14:30:17Z",
+            "displayTime": "2025-08-06T14:30:17Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": null,
+            "provider": {
+              "displayName": "Associated Press Finance",
+              "url": "http://www.ap.org/"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/bc-most-active-stocks-143017548.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/bc-most-active-stocks-143017548.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        },
+        {
+          "id": "aa2094c3-0752-35b4-aa14-3af532f76152",
+          "content": {
+            "id": "aa2094c3-0752-35b4-aa14-3af532f76152",
+            "contentType": "STORY",
+            "title": "PCAOB fines PWR CPA for audit failures and reporting violations",
+            "description": "",
+            "summary": "The firm agreed to a $60,000 fine and committed to implement corrective measures before submitting any future PCAOB application.",
+            "pubDate": "2025-07-14T09:26:59Z",
+            "displayTime": "2025-07-14T09:26:59Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": {
+              "originalUrl": "https://media.zenfs.com/en/international_accounting_bulletin_542/a802cd2b4d95efc0c41447ab5ef2a4f8",
+              "originalWidth": 1440,
+              "originalHeight": 810,
+              "caption": "The board noted that PWR\u2019s shortcomings heightened risks to investors. Credit: Summit Art Creations/Shutterstock.",
+              "resolutions": [
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/vGh1i9iwOWVEa0sddEE3WA--~B/aD04MTA7dz0xNDQwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/international_accounting_bulletin_542/a802cd2b4d95efc0c41447ab5ef2a4f8",
+                  "width": 1440,
+                  "height": 810,
+                  "tag": "original"
+                },
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/B5BClcUR9gacQCZm3xEo3g--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/international_accounting_bulletin_542/a802cd2b4d95efc0c41447ab5ef2a4f8",
+                  "width": 170,
+                  "height": 128,
+                  "tag": "170x128"
+                }
+              ]
+            },
+            "provider": {
+              "displayName": "International Accounting Bulletin",
+              "url": "https://www.globaldata.com/"
+            },
+            "canonicalUrl": {
+              "url": "https://www.internationalaccountingbulletin.com/news/pcaob-fines-pwr-cpa/",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/pcaob-fines-pwr-cpa-audit-092659644.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        },
+        {
+          "id": "46071a9e-e927-3b1e-8a15-66eb96e80518",
+          "content": {
+            "id": "46071a9e-e927-3b1e-8a15-66eb96e80518",
+            "contentType": "STORY",
+            "title": "Ainos Full Year 2024 Earnings: US$1.56 loss per share (vs US$3.36 loss in FY 2023)",
+            "description": "",
+            "summary": "Ainos ( NASDAQ:AIMD ) Full Year 2024 Results Key Financial Results Net loss: US$14.9m (loss widened by 7.9% from FY...",
+            "pubDate": "2025-03-09T12:48:45Z",
+            "displayTime": "2025-03-09T12:48:45Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": {
+              "originalUrl": "https://media.zenfs.com/en/simply_wall_st__316/78a8c60a6283aea0450523395306d38c",
+              "originalWidth": 945,
+              "originalHeight": 636,
+              "caption": "",
+              "resolutions": [
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/5Vpve0Pc2F3m_L3fs2p_dQ--~B/aD02MzY7dz05NDU7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/simply_wall_st__316/78a8c60a6283aea0450523395306d38c",
+                  "width": 945,
+                  "height": 636,
+                  "tag": "original"
+                },
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/5K6kmrQzRk.k.11fs9N_QA--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/simply_wall_st__316/78a8c60a6283aea0450523395306d38c",
+                  "width": 170,
+                  "height": 128,
+                  "tag": "170x128"
+                }
+              ]
+            },
+            "provider": {
+              "displayName": "Simply Wall St.",
+              "url": "https://simplywall.st/"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/ainos-full-2024-earnings-us-124845991.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/ainos-full-2024-earnings-us-124845991.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        },
+        {
+          "id": "05afa6ef-7f3f-330d-869a-18da01a18716",
+          "content": {
+            "id": "05afa6ef-7f3f-330d-869a-18da01a18716",
+            "contentType": "STORY",
+            "title": "Ainos, ugo to develop robot with sense of smell",
+            "description": "",
+            "summary": "Ainos (AIMD) and ugo announced a strategic partnership to integrate Ainos\u2019 AI Nose technology with ugo\u2019s autonomous robotic platform. The companies said, \u201cThis collaboration will mark a major milestone in the digitization of smell, unlocking new capabilities for robots in industrial safety, healthcare, and public security\u2026Until now, robots have relied primarily on vision, sound, and touch to perceive their surroundings. Smell has remained an unsolved technological challenge-but Ainos is about to",
+            "pubDate": "2025-03-06T15:11:03Z",
+            "displayTime": "2025-03-06T15:11:03Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": {
+              "originalUrl": "https://media.zenfs.com/en/tipranks_452/c4f6c07e08d4829fbea65fa26099a197",
+              "originalWidth": 192,
+              "originalHeight": 192,
+              "caption": "https://www.tipranks.com/news/the-fly/ainos-ugo-to-develop-robot-with-sense-of-smell",
+              "resolutions": [
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/CelDdPDqWVkcG2SiBC__kg--~B/aD0xOTI7dz0xOTI7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/tipranks_452/c4f6c07e08d4829fbea65fa26099a197",
+                  "width": 192,
+                  "height": 192,
+                  "tag": "original"
+                },
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/Qv5uHFeHO0LaVjiqA54n8Q--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/tipranks_452/c4f6c07e08d4829fbea65fa26099a197",
+                  "width": 170,
+                  "height": 128,
+                  "tag": "170x128"
+                }
+              ]
+            },
+            "provider": {
+              "displayName": "TipRanks",
+              "url": "https://www.tipranks.com/"
+            },
+            "canonicalUrl": {
+              "url": "https://tech.yahoo.com/business/articles/ainos-ugo-develop-robot-sense-151103370.html",
+              "site": "tech",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://tech.yahoo.com/business/articles/ainos-ugo-develop-robot-sense-151103370.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        }
+      ]
+    },
+    "recommendations": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  },
+  "holders_data": {
+    "major_holders": {
+      "status": "error"
+    },
+    "institutional_holders": {
+      "status": "error"
+    }
+  },
+  "earnings_data": {
+    "earnings": {
+      "status": "error",
+      "message": "'NoneType' object has no attribute 'empty'"
+    },
+    "calendar": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  }
+}

@@ -1,6 +1,6 @@
 {
   "ticker": "SWTX",
-  "timestamp": "2026-01-03T04:37:58.625398",
+  "timestamp": "2026-01-04T04:52:23.369961",
   "intraday_data": {
     "status": "no_data",
     "message": "No intraday data available"
@@ -21,7 +21,8 @@
     }
   },
   "options_data": {
-    "expirations": []
+    "status": "error",
+    "error_message": "Too Many Requests. Rate limited. Try after a while."
   },
   "news_data": {
     "news": {
@@ -641,7 +642,8 @@
       ]
     },
     "recommendations": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   },
   "holders_data": {
@@ -649,7 +651,7 @@
       "status": "error"
     },
     "institutional_holders": {
-      "status": "no_data"
+      "status": "error"
     }
   },
   "earnings_data": {

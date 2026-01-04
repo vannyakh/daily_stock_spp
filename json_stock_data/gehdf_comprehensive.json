@@ -1,85 +1,55 @@
 {
   "ticker": "GEHDF",
-  "timestamp": "2026-01-03T05:24:30.976504",
+  "timestamp": "2026-01-04T05:10:02.516983",
   "intraday_data": {
     "status": "no_data",
     "message": "No intraday data available"
   },
   "stock_info": {
-    "status": "success",
-    "data": {
-      "maxAge": 86400,
-      "priceHint": 2,
-      "previousClose": 15.17,
-      "regularMarketPreviousClose": 15.17,
-      "averageVolume": 0,
-      "averageVolume10days": 0,
-      "averageDailyVolume10Day": 0,
-      "bid": 9.41,
-      "ask": 14.4,
-      "bidSize": 100,
-      "askSize": 200,
-      "fiftyTwoWeekLow": 7.585,
-      "fiftyTwoWeekHigh": 15.17,
-      "allTimeHigh": 15.17,
-      "allTimeLow": 0.3,
-      "fiftyDayAverage": 15.17,
-      "twoHundredDayAverage": 10.4673,
-      "currency": "USD",
-      "tradeable": false,
-      "quoteType": "EQUITY",
-      "symbol": "GEHDF",
-      "language": "en-US",
-      "region": "US",
-      "typeDisp": "Equity",
-      "quoteSourceName": "Delayed Quote",
-      "triggerable": false,
-      "customPriceAlertConfidence": "LOW",
-      "fiftyDayAverageChange": 0.0,
-      "fiftyDayAverageChangePercent": 0.0,
-      "twoHundredDayAverageChange": 4.7026997,
-      "twoHundredDayAverageChangePercent": 0.4492753,
-      "sourceInterval": 15,
-      "exchangeDataDelayedBy": 0,
-      "cryptoTradeable": false,
-      "marketState": "CLOSED",
-      "hasPrePostMarketData": false,
-      "firstTradeDateMilliseconds": 990797400000,
-      "regularMarketChange": 0.0,
-      "fullExchangeName": "OTC Markets OTCPK",
-      "averageDailyVolume3Month": 0,
-      "fiftyTwoWeekLowChange": 7.585,
-      "fiftyTwoWeekLowChangePercent": 1.0,
-      "fiftyTwoWeekRange": "7.585 - 15.17",
-      "fiftyTwoWeekHighChange": 0.0,
-      "fiftyTwoWeekHighChangePercent": 0.0,
-      "fiftyTwoWeekChangePercent": 100.0,
-      "earningsTimestampStart": 1753749000,
-      "earningsTimestampEnd": 1754267400,
-      "isEarningsDateEstimate": true,
-      "regularMarketChangePercent": 0.0,
-      "regularMarketPrice": 15.17,
-      "exchange": "PNK",
-      "exchangeTimezoneName": "America/New_York",
-      "exchangeTimezoneShortName": "EST",
-      "gmtOffSetMilliseconds": -18000000,
-      "market": "us_market",
-      "esgPopulated": false,
-      "longName": "Great Eastern Holdings Ltd",
-      "regularMarketTime": 1767387600,
-      "displayName": "Great Eastern"
-    }
+    "status": "error",
+    "message": "Too Many Requests. Rate limited. Try after a while."
   },
   "financials": {
     "income_statement": {
-      "status": "success",
-      "rows": 40,
-      "columns": [
-        "2024-12-31 00:00:00",
-        "2023-12-31 00:00:00",
-        "2022-12-31 00:00:00",
-        "2021-12-31 00:00:00"
-      ],
-      "data": [
-        {
-          
+      "status": "no_data"
+    },
+    "balance_sheet": {
+      "status": "no_data"
+    },
+    "cash_flow": {
+      "status": "no_data"
+    }
+  },
+  "options_data": {
+    "status": "error",
+    "error_message": "Too Many Requests. Rate limited. Try after a while."
+  },
+  "news_data": {
+    "news": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    },
+    "recommendations": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  },
+  "holders_data": {
+    "major_holders": {
+      "status": "error"
+    },
+    "institutional_holders": {
+      "status": "error"
+    }
+  },
+  "earnings_data": {
+    "earnings": {
+      "status": "error",
+      "message": "'NoneType' object has no attribute 'empty'"
+    },
+    "calendar": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  }
+}

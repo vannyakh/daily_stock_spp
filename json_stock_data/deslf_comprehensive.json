@@ -1,32 +1,9 @@
 {
   "ticker": "DESLF",
-  "timestamp": "2026-01-03T05:42:42.497271",
+  "timestamp": "2026-01-04T05:15:43.148138",
   "intraday_data": {
-    "status": "success",
-    "rows": 3,
-    "data": [
-      {
-        "Close MHNC": 15.850000381469727,
-        "High MHNC": 15.850000381469727,
-        "Low MHNC": 15.850000381469727,
-        "Open MHNC": 15.850000381469727,
-        "Volume MHNC": 419
-      },
-      {
-        "Close MHNC": 15.817999839782715,
-        "High MHNC": 15.817999839782715,
-        "Low MHNC": 15.817999839782715,
-        "Open MHNC": 15.817999839782715,
-        "Volume MHNC": 132
-      },
-      {
-        "Close MHNC": 15.800000190734863,
-        "High MHNC": 15.800000190734863,
-        "Low MHNC": 15.800000190734863,
-        "Open MHNC": 15.800000190734863,
-        "Volume MHNC": 146
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -49,7 +26,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

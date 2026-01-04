@@ -1,9 +1,83 @@
 {
   "ticker": "FFFZ",
-  "timestamp": "2026-01-03T05:23:00.864784",
+  "timestamp": "2026-01-04T05:09:43.571980",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 6,
+    "data": [
+      {
+        "Close CRE": 0.250900000333786,
+        "Close LFS": 2.5146000385284424,
+        "High CRE": 0.250900000333786,
+        "High LFS": 2.5146000385284424,
+        "Low CRE": 0.250900000333786,
+        "Low LFS": 2.5146000385284424,
+        "Open CRE": 0.250900000333786,
+        "Open LFS": 2.5146000385284424,
+        "Volume CRE": 400.0,
+        "Volume LFS": 445.0
+      },
+      {
+        "Close CRE": 0.2498999983072281,
+        "Close LFS": 2.759999990463257,
+        "High CRE": 0.2498999983072281,
+        "High LFS": 2.759999990463257,
+        "Low CRE": 0.24220000207424164,
+        "Low LFS": 2.759999990463257,
+        "Open CRE": 0.24979999661445618,
+        "Open LFS": 2.759999990463257,
+        "Volume CRE": 594.0,
+        "Volume LFS": 491.0
+      },
+      {
+        "Close CRE": 0.28029999136924744,
+        "Close LFS": 2.674999952316284,
+        "High CRE": 0.28290000557899475,
+        "High LFS": 2.674999952316284,
+        "Low CRE": 0.28029999136924744,
+        "Low LFS": 2.674999952316284,
+        "Open CRE": 0.28290000557899475,
+        "Open LFS": 2.674999952316284,
+        "Volume CRE": 1274.0,
+        "Volume LFS": 200.0
+      },
+      {
+        "Close CRE": 0.28299999237060547,
+        "Close LFS": 2.612499952316284,
+        "High CRE": 0.28299999237060547,
+        "High LFS": 2.612499952316284,
+        "Low CRE": 0.2800000011920929,
+        "Low LFS": 2.612499952316284,
+        "Open CRE": 0.2827000021934509,
+        "Open LFS": 2.612499952316284,
+        "Volume CRE": 0.0,
+        "Volume LFS": 351.0
+      },
+      {
+        "Close CRE": 0.27970001101493835,
+        "Close LFS": 2.6877999305725098,
+        "High CRE": 0.27970001101493835,
+        "High LFS": 2.6877999305725098,
+        "Low CRE": 0.27970001101493835,
+        "Low LFS": 2.6877999305725098,
+        "Open CRE": 0.27970001101493835,
+        "Open LFS": 2.6877999305725098,
+        "Volume CRE": 0.0,
+        "Volume LFS": 1272.0
+      },
+      {
+        "Close CRE": 0.2865000069141388,
+        "Close LFS": 2.690000057220459,
+        "High CRE": 0.2865000069141388,
+        "High LFS": 2.690000057220459,
+        "Low CRE": 0.2865000069141388,
+        "Low LFS": 2.690000057220459,
+        "Open CRE": 0.2865000069141388,
+        "Open LFS": 2.690000057220459,
+        "Volume CRE": 735.0,
+        "Volume LFS": 380.0
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -26,7 +100,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

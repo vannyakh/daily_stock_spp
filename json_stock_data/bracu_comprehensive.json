@@ -1,137 +1,9 @@
 {
   "ticker": "BRACU",
-  "timestamp": "2026-01-03T05:39:23.904625",
+  "timestamp": "2026-01-04T05:14:39.533311",
   "intraday_data": {
-    "status": "success",
-    "rows": 18,
-    "data": [
-      {
-        "Close MSAIW": 0.04729999974370003,
-        "High MSAIW": 0.04729999974370003,
-        "Low MSAIW": 0.04729999974370003,
-        "Open MSAIW": 0.04729999974370003,
-        "Volume MSAIW": 0
-      },
-      {
-        "Close MSAIW": 0.03550000116229057,
-        "High MSAIW": 0.03550000116229057,
-        "Low MSAIW": 0.03550000116229057,
-        "Open MSAIW": 0.03550000116229057,
-        "Volume MSAIW": 510
-      },
-      {
-        "Close MSAIW": 0.04960000142455101,
-        "High MSAIW": 0.04960000142455101,
-        "Low MSAIW": 0.04960000142455101,
-        "Open MSAIW": 0.04960000142455101,
-        "Volume MSAIW": 4000
-      },
-      {
-        "Close MSAIW": 0.04960000142455101,
-        "High MSAIW": 0.04960000142455101,
-        "Low MSAIW": 0.04960000142455101,
-        "Open MSAIW": 0.04960000142455101,
-        "Volume MSAIW": 104
-      },
-      {
-        "Close MSAIW": 0.04960000142455101,
-        "High MSAIW": 0.04960000142455101,
-        "Low MSAIW": 0.04960000142455101,
-        "Open MSAIW": 0.04960000142455101,
-        "Volume MSAIW": 200
-      },
-      {
-        "Close MSAIW": 0.04960000142455101,
-        "High MSAIW": 0.04960000142455101,
-        "Low MSAIW": 0.04960000142455101,
-        "Open MSAIW": 0.04960000142455101,
-        "Volume MSAIW": 3325
-      },
-      {
-        "Close MSAIW": 0.04989999905228615,
-        "High MSAIW": 0.04989999905228615,
-        "Low MSAIW": 0.04989999905228615,
-        "Open MSAIW": 0.04989999905228615,
-        "Volume MSAIW": 1750
-      },
-      {
-        "Close MSAIW": 0.04899999871850014,
-        "High MSAIW": 0.04899999871850014,
-        "Low MSAIW": 0.04899999871850014,
-        "Open MSAIW": 0.04899999871850014,
-        "Volume MSAIW": 3200
-      },
-      {
-        "Close MSAIW": 0.04450000077486038,
-        "High MSAIW": 0.04450000077486038,
-        "Low MSAIW": 0.04450000077486038,
-        "Open MSAIW": 0.04450000077486038,
-        "Volume MSAIW": 500
-      },
-      {
-        "Close MSAIW": 0.04899999871850014,
-        "High MSAIW": 0.04899999871850014,
-        "Low MSAIW": 0.04899999871850014,
-        "Open MSAIW": 0.04899999871850014,
-        "Volume MSAIW": 500
-      },
-      {
-        "Close MSAIW": 0.04989999905228615,
-        "High MSAIW": 0.05000000074505806,
-        "Low MSAIW": 0.04899999871850014,
-        "Open MSAIW": 0.04899999871850014,
-        "Volume MSAIW": 4862
-      },
-      {
-        "Close MSAIW": 0.04989999905228615,
-        "High MSAIW": 0.05000000074505806,
-        "Low MSAIW": 0.04989999905228615,
-        "Open MSAIW": 0.05000000074505806,
-        "Volume MSAIW": 10000
-      },
-      {
-        "Close MSAIW": 0.05000000074505806,
-        "High MSAIW": 0.05000000074505806,
-        "Low MSAIW": 0.05000000074505806,
-        "Open MSAIW": 0.05000000074505806,
-        "Volume MSAIW": 283
-      },
-      {
-        "Close MSAIW": 0.04529999941587448,
-        "High MSAIW": 0.04989999905228615,
-        "Low MSAIW": 0.04529999941587448,
-        "Open MSAIW": 0.04989999905228615,
-        "Volume MSAIW": 800
-      },
-      {
-        "Close MSAIW": 0.04490000009536743,
-        "High MSAIW": 0.04500000178813934,
-        "Low MSAIW": 0.04490000009536743,
-        "Open MSAIW": 0.04500000178813934,
-        "Volume MSAIW": 312
-      },
-      {
-        "Close MSAIW": 0.04500000178813934,
-        "High MSAIW": 0.04500000178813934,
-        "Low MSAIW": 0.04500000178813934,
-        "Open MSAIW": 0.04500000178813934,
-        "Volume MSAIW": 524
-      },
-      {
-        "Close MSAIW": 0.03999999910593033,
-        "High MSAIW": 0.03999999910593033,
-        "Low MSAIW": 0.03999999910593033,
-        "Open MSAIW": 0.03999999910593033,
-        "Volume MSAIW": 1608
-      },
-      {
-        "Close MSAIW": 0.04490000009536743,
-        "High MSAIW": 0.04500000178813934,
-        "Low MSAIW": 0.04490000009536743,
-        "Open MSAIW": 0.04500000178813934,
-        "Volume MSAIW": 280
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -154,7 +26,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

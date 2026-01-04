@@ -1,62 +1,13 @@
 {
   "ticker": "LAAB",
-  "timestamp": "2026-01-03T05:18:56.178985",
+  "timestamp": "2026-01-04T05:08:36.611054",
   "intraday_data": {
-    "status": "success",
-    "rows": 5,
-    "data": [
-      {
-        "Close BGAVF": 0.039000000804662704,
-        "High BGAVF": 0.03920000046491623,
-        "Low BGAVF": 0.039000000804662704,
-        "Open BGAVF": 0.03920000046491623,
-        "Volume BGAVF": 0
-      },
-      {
-        "Close BGAVF": 0.04010000079870224,
-        "High BGAVF": 0.04010000079870224,
-        "Low BGAVF": 0.04010000079870224,
-        "Open BGAVF": 0.04010000079870224,
-        "Volume BGAVF": 48000
-      },
-      {
-        "Close BGAVF": 0.0430000014603138,
-        "High BGAVF": 0.0430000014603138,
-        "Low BGAVF": 0.0430000014603138,
-        "Open BGAVF": 0.0430000014603138,
-        "Volume BGAVF": 50000
-      },
-      {
-        "Close BGAVF": 0.04349999874830246,
-        "High BGAVF": 0.04349999874830246,
-        "Low BGAVF": 0.04349999874830246,
-        "Open BGAVF": 0.04349999874830246,
-        "Volume BGAVF": 50000
-      },
-      {
-        "Close BGAVF": 0.04410000145435333,
-        "High BGAVF": 0.04410000145435333,
-        "Low BGAVF": 0.04410000145435333,
-        "Open BGAVF": 0.04410000145435333,
-        "Volume BGAVF": 1572
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
-    "status": "success",
-    "data": {
-      "quoteType": "NONE",
-      "symbol": "LAAB",
-      "language": "en-US",
-      "region": "US",
-      "triggerable": false,
-      "customPriceAlertConfidence": "NONE",
-      "hasPrePostMarketData": false,
-      "financialCurrency": "USD",
-      "tradeable": false,
-      "cryptoTradeable": false,
-      "esgPopulated": false
-    }
+    "status": "error",
+    "message": "Too Many Requests. Rate limited. Try after a while."
   },
   "financials": {
     "income_statement": {
@@ -70,22 +21,25 @@
     }
   },
   "options_data": {
-    "expirations": []
+    "status": "error",
+    "error_message": "Too Many Requests. Rate limited. Try after a while."
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   },
   "holders_data": {
     "major_holders": {
-      "status": "no_data"
+      "status": "error"
     },
     "institutional_holders": {
-      "status": "no_data"
+      "status": "error"
     }
   },
   "earnings_data": {
@@ -95,7 +49,7 @@
     },
     "calendar": {
       "status": "error",
-      "message": "'dict' object has no attribute 'empty'"
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   }
 }

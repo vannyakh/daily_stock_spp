@@ -1,9 +1,67 @@
 {
   "ticker": "CBDW",
-  "timestamp": "2026-01-03T05:20:06.383425",
+  "timestamp": "2026-01-04T05:08:55.769379",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 8,
+    "data": [
+      {
+        "Close": 0.0007999999797903001,
+        "High": 0.0007999999797903001,
+        "Low": 0.0007999999797903001,
+        "Open": 0.0007999999797903001,
+        "Volume": 0
+      },
+      {
+        "Close": 0.0007999999797903001,
+        "High": 0.0007999999797903001,
+        "Low": 0.0007999999797903001,
+        "Open": 0.0007999999797903001,
+        "Volume": 30000
+      },
+      {
+        "Close": 0.0007999999797903001,
+        "High": 0.0007999999797903001,
+        "Low": 0.0007999999797903001,
+        "Open": 0.0007999999797903001,
+        "Volume": 19933
+      },
+      {
+        "Close": 0.0007999999797903001,
+        "High": 0.0007999999797903001,
+        "Low": 0.0007999999797903001,
+        "Open": 0.0007999999797903001,
+        "Volume": 666046
+      },
+      {
+        "Close": 0.000699999975040555,
+        "High": 0.000699999975040555,
+        "Low": 0.000699999975040555,
+        "Open": 0.000699999975040555,
+        "Volume": 1375000
+      },
+      {
+        "Close": 0.000699999975040555,
+        "High": 0.000699999975040555,
+        "Low": 0.000699999975040555,
+        "Open": 0.000699999975040555,
+        "Volume": 667
+      },
+      {
+        "Close": 0.0007999999797903001,
+        "High": 0.0007999999797903001,
+        "Low": 0.0007999999797903001,
+        "Open": 0.0007999999797903001,
+        "Volume": 570000
+      },
+      {
+        "Close": 0.0007999999797903001,
+        "High": 0.0007999999797903001,
+        "Low": 0.0007999999797903001,
+        "Open": 0.0007999999797903001,
+        "Volume": 149643
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -17,14 +75,38 @@
       "status": "no_data"
     },
     "cash_flow": {
-      "status": "success",
-      "rows": 42,
-      "columns": [
-        "2024-12-31 00:00:00",
-        "2023-12-31 00:00:00",
-        "2022-12-31 00:00:00",
-        "2021-12-31 00:00:00"
-      ],
-      "data": [
-        {
-          
+      "status": "no_data"
+    }
+  },
+  "options_data": {
+    "status": "error",
+    "error_message": "Too Many Requests. Rate limited. Try after a while."
+  },
+  "news_data": {
+    "news": {
+      "status": "no_data"
+    },
+    "recommendations": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  },
+  "holders_data": {
+    "major_holders": {
+      "status": "error"
+    },
+    "institutional_holders": {
+      "status": "error"
+    }
+  },
+  "earnings_data": {
+    "earnings": {
+      "status": "error",
+      "message": "'NoneType' object has no attribute 'empty'"
+    },
+    "calendar": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  }
+}

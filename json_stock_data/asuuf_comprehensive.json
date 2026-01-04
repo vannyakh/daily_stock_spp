@@ -1,9 +1,32 @@
 {
   "ticker": "ASUUF",
-  "timestamp": "2026-01-03T05:36:09.850824",
+  "timestamp": "2026-01-04T05:13:34.354452",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 3,
+    "data": [
+      {
+        "Close ASCRF": 0.05000000074505806,
+        "High ASCRF": 0.05000000074505806,
+        "Low ASCRF": 0.05000000074505806,
+        "Open ASCRF": 0.05000000074505806,
+        "Volume ASCRF": 0
+      },
+      {
+        "Close ASCRF": 0.05000000074505806,
+        "High ASCRF": 0.05000000074505806,
+        "Low ASCRF": 0.05000000074505806,
+        "Open ASCRF": 0.05000000074505806,
+        "Volume ASCRF": 150
+      },
+      {
+        "Close ASCRF": 0.05000000074505806,
+        "High ASCRF": 0.05000000074505806,
+        "Low ASCRF": 0.05000000074505806,
+        "Open ASCRF": 0.05000000074505806,
+        "Volume ASCRF": 27459
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -26,7 +49,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",
