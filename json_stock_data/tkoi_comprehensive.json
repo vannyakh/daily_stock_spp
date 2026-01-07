@@ -1,55 +1,59 @@
 {
   "ticker": "TKOI",
-  "timestamp": "2026-01-04T05:12:12.608368",
+  "timestamp": "2026-01-07T05:19:08.120530",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 5,
+    "data": [
+      {
+        "Close": 0.011699999682605267,
+        "High": 0.011699999682605267,
+        "Low": 0.011699999682605267,
+        "Open": 0.011699999682605267,
+        "Volume": 0
+      },
+      {
+        "Close": 0.011699999682605267,
+        "High": 0.011699999682605267,
+        "Low": 0.011699999682605267,
+        "Open": 0.011699999682605267,
+        "Volume": 2000
+      },
+      {
+        "Close": 0.01590000092983246,
+        "High": 0.01590000092983246,
+        "Low": 0.01590000092983246,
+        "Open": 0.01590000092983246,
+        "Volume": 1500
+      },
+      {
+        "Close": 0.014000000432133675,
+        "High": 0.014000000432133675,
+        "Low": 0.014000000432133675,
+        "Open": 0.014000000432133675,
+        "Volume": 55
+      },
+      {
+        "Close": 0.014000000432133675,
+        "High": 0.014000000432133675,
+        "Low": 0.014000000432133675,
+        "Open": 0.014000000432133675,
+        "Volume": 0
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
-    "message": "Too Many Requests. Rate limited. Try after a while."
+    "message": "argument of type 'NoneType' is not iterable"
   },
   "financials": {
     "income_statement": {
-      "status": "no_data"
-    },
-    "balance_sheet": {
-      "status": "no_data"
-    },
-    "cash_flow": {
-      "status": "no_data"
-    }
-  },
-  "options_data": {
-    "status": "error",
-    "error_message": "Too Many Requests. Rate limited. Try after a while."
-  },
-  "news_data": {
-    "news": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
-    },
-    "recommendations": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
-    }
-  },
-  "holders_data": {
-    "major_holders": {
-      "status": "error"
-    },
-    "institutional_holders": {
-      "status": "error"
-    }
-  },
-  "earnings_data": {
-    "earnings": {
-      "status": "error",
-      "message": "'NoneType' object has no attribute 'empty'"
-    },
-    "calendar": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
-    }
-  }
-}
+      "status": "success",
+      "rows": 44,
+      "columns": [
+        "2022-12-31 00:00:00",
+        "2021-12-31 00:00:00"
+      ],
+      "data": [
+        {
+          

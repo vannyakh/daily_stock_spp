@@ -1,24 +1,591 @@
 {
   "ticker": "SAVA",
-  "timestamp": "2026-01-04T05:01:18.633771",
+  "timestamp": "2026-01-07T04:56:58.920916",
   "intraday_data": {
     "status": "no_data",
     "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
-    "message": "argument of type 'NoneType' is not iterable"
+    "message": "Too Many Requests. Rate limited. Try after a while."
   },
   "financials": {
     "income_statement": {
+      "status": "no_data"
+    },
+    "balance_sheet": {
+      "status": "no_data"
+    },
+    "cash_flow": {
+      "status": "no_data"
+    }
+  },
+  "options_data": {
+    "status": "error",
+    "error_message": "Too Many Requests. Rate limited. Try after a while."
+  },
+  "news_data": {
+    "news": {
       "status": "success",
-      "rows": 42,
-      "columns": [
-        "2024-12-31 00:00:00",
-        "2023-12-31 00:00:00",
-        "2022-12-31 00:00:00",
-        "2021-12-31 00:00:00"
-      ],
+      "count": 10,
       "data": [
         {
-          
+          "id": "0e5168be-c545-3921-bec7-8b100a3140e4",
+          "content": {
+            "id": "0e5168be-c545-3921-bec7-8b100a3140e4",
+            "contentType": "STORY",
+            "title": "Sector Update: Health Care Stocks Mixed in Afternoon Trading",
+            "description": "",
+            "summary": "Health care stocks were mixed Tuesday afternoon, with the NYSE Health Care Index increasing 0.1% and",
+            "pubDate": "2025-12-23T18:33:50Z",
+            "displayTime": "2025-12-23T18:33:50Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": null,
+            "provider": {
+              "displayName": "MT Newswires",
+              "url": "https://www.mtnewswires.com/"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/sector-health-care-stocks-mixed-183350219.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/sector-health-care-stocks-mixed-183350219.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": true,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        },
+        {
+          "id": "fd613832-b771-3c5b-874e-3960ebe61e1b",
+          "content": {
+            "id": "fd613832-b771-3c5b-874e-3960ebe61e1b",
+            "contentType": "STORY",
+            "title": "Correction: Investors Hope for Rate Cut Following Subdued Inflation as US Futures Mixed in Friday's Premarket Session",
+            "description": "",
+            "summary": "(Corrects the third paragraph to note the personal income and outlays report being rescheduled.)",
+            "pubDate": "2025-12-19T14:49:31Z",
+            "displayTime": "2025-12-19T14:49:31Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": null,
+            "provider": {
+              "displayName": "MT Newswires",
+              "url": "https://www.mtnewswires.com/"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/correction-investors-hope-rate-cut-144931995.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/correction-investors-hope-rate-cut-144931995.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": true,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        },
+        {
+          "id": "68033c0e-acd3-3dd2-9c33-fa8fa8ffe9dc",
+          "content": {
+            "id": "68033c0e-acd3-3dd2-9c33-fa8fa8ffe9dc",
+            "contentType": "STORY",
+            "title": "Wall Street Set to Open Little Changed as Investors Await Home Sales, Consumer Sentiment Data",
+            "description": "",
+            "summary": "US stocks look set to open little changed Friday's trading session as investors look ahead to econom",
+            "pubDate": "2025-12-19T14:23:14Z",
+            "displayTime": "2025-12-19T14:23:14Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": null,
+            "provider": {
+              "displayName": "MT Newswires",
+              "url": "https://www.mtnewswires.com/"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/wall-street-set-open-little-142314481.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/wall-street-set-open-little-142314481.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": true,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        },
+        {
+          "id": "6cbf5a7e-f6fe-3e37-8085-342289f93c06",
+          "content": {
+            "id": "6cbf5a7e-f6fe-3e37-8085-342289f93c06",
+            "contentType": "STORY",
+            "title": "Investors Hope for Rate Cut Following Subdued Inflation as US Futures Mixed in Friday's Premarket Session",
+            "description": "",
+            "summary": "US stock futures were mixed in Friday's premarket session, with investors hopeful of a federal rate",
+            "pubDate": "2025-12-19T13:16:39Z",
+            "displayTime": "2025-12-19T13:16:39Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": null,
+            "provider": {
+              "displayName": "MT Newswires",
+              "url": "https://www.mtnewswires.com/"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/investors-hope-rate-cut-following-131639242.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/investors-hope-rate-cut-following-131639242.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": true,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        },
+        {
+          "id": "03c95df1-cf7d-30c4-a958-e271f194c73e",
+          "content": {
+            "id": "03c95df1-cf7d-30c4-a958-e271f194c73e",
+            "contentType": "STORY",
+            "title": "November 2025's Top Penny Stock Opportunities",
+            "description": "",
+            "summary": "As the U.S. stock market enjoys a promising streak with major indexes on track for their best week since June, investors are eyeing opportunities across various sectors. Penny stocks, though often seen as a niche area of investment, continue to capture attention due to their potential for growth in smaller or newer companies. While the term may seem outdated, these stocks can still offer intriguing prospects when backed by solid financials and strategic positioning in the current market...",
+            "pubDate": "2025-11-27T18:04:55Z",
+            "displayTime": "2025-11-27T18:04:55Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": {
+              "originalUrl": "https://media.zenfs.com/en/simply_wall_st__316/4d522452d0da08d8412701a84270533b",
+              "originalWidth": 1194,
+              "originalHeight": 432,
+              "caption": "",
+              "resolutions": [
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/d3vISzLZXw94x30FKv9beA--~B/aD00MzI7dz0xMTk0O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/simply_wall_st__316/4d522452d0da08d8412701a84270533b",
+                  "width": 1194,
+                  "height": 432,
+                  "tag": "original"
+                },
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/cLHUTNMUETrscnKKkJfS_w--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/simply_wall_st__316/4d522452d0da08d8412701a84270533b",
+                  "width": 170,
+                  "height": 128,
+                  "tag": "170x128"
+                }
+              ]
+            },
+            "provider": {
+              "displayName": "Simply Wall St.",
+              "url": "https://simplywall.st/"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/november-2025s-top-penny-stock-180455843.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/november-2025s-top-penny-stock-180455843.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        },
+        {
+          "id": "b57c6528-f73b-3bd5-89cc-1aaad9f7f6d1",
+          "content": {
+            "id": "b57c6528-f73b-3bd5-89cc-1aaad9f7f6d1",
+            "contentType": "STORY",
+            "title": "Cassava Pops After CEO Buys 150,000 Shares",
+            "description": "",
+            "summary": "New filing shows Richard Barry boosting his stake above 938,000",
+            "pubDate": "2025-11-25T12:39:55Z",
+            "displayTime": "2025-11-25T12:39:55Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": {
+              "originalUrl": "https://media.zenfs.com/en/us.finance.gurufocus/a1909c71d31e292152d3197b5f27917c",
+              "originalWidth": 6000,
+              "originalHeight": 3706,
+              "caption": "",
+              "resolutions": [
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/drM8qURsq5Zdb05qw41jdA--~B/aD0zNzA2O3c9NjAwMDthcHBpZD15dGFjaHlvbg--/https://media.zenfs.com/en/us.finance.gurufocus/a1909c71d31e292152d3197b5f27917c",
+                  "width": 6000,
+                  "height": 3706,
+                  "tag": "original"
+                },
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/P5Dp_3XDwW4LhAG24S.4vg--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/us.finance.gurufocus/a1909c71d31e292152d3197b5f27917c",
+                  "width": 170,
+                  "height": 128,
+                  "tag": "170x128"
+                }
+              ]
+            },
+            "provider": {
+              "displayName": "GuruFocus.com",
+              "url": "http://www.gurufocus.com/"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/cassava-pops-ceo-buys-150k-114042340.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/cassava-pops-ceo-buys-150k-114042340.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        },
+        {
+          "id": "2d97fc52-944d-3c72-8199-aaf76cce6a66",
+          "content": {
+            "id": "2d97fc52-944d-3c72-8199-aaf76cce6a66",
+            "contentType": "STORY",
+            "title": "Cassava Sciences (SAVA): Evaluating Valuation After CEO\u2019s Major Share Purchase and Alzheimer\u2019s Program Withdrawal",
+            "description": "",
+            "summary": "Cassava Sciences (SAVA) has quickly become the subject of renewed attention after CEO Richard Barry put his own money on the line. Just weeks after halting the company\u2019s long-running Alzheimer\u2019s program, Barry stepped in to purchase a large chunk of shares. This marked his first insider buy in over a year. For investors, this move stands out and signals that leadership sees unrealized value in Cassava\u2019s pipeline and long-term vision, even after the setback in clinical trials. The CEO\u2019s...",
+            "pubDate": "2025-09-27T13:57:55Z",
+            "displayTime": "2025-09-27T13:57:55Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": {
+              "originalUrl": "https://media.zenfs.com/en/simply_wall_st__316/fd5474a7eee0c5f442903b68fe63249b",
+              "originalWidth": 1194,
+              "originalHeight": 432,
+              "caption": "",
+              "resolutions": [
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/TLyt5D16lsSwRjJRVjlUTA--~B/aD00MzI7dz0xMTk0O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/simply_wall_st__316/fd5474a7eee0c5f442903b68fe63249b",
+                  "width": 1194,
+                  "height": 432,
+                  "tag": "original"
+                },
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/PogKoFkj.Bi2muTuZmcSEQ--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/simply_wall_st__316/fd5474a7eee0c5f442903b68fe63249b",
+                  "width": 170,
+                  "height": 128,
+                  "tag": "170x128"
+                }
+              ]
+            },
+            "provider": {
+              "displayName": "Simply Wall St.",
+              "url": "https://simplywall.st/"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/cassava-sciences-sava-evaluating-valuation-135755313.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/cassava-sciences-sava-evaluating-valuation-135755313.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        },
+        {
+          "id": "f23f4308-7589-31f6-a114-ae16fcc7f569",
+          "content": {
+            "id": "f23f4308-7589-31f6-a114-ae16fcc7f569",
+            "contentType": "STORY",
+            "title": "Spotlight On Top Penny Stocks In September 2025",
+            "description": "",
+            "summary": "As of late September 2025, the U.S. stock market has experienced a downturn, with major indices such as the Dow Jones Industrial Average, S&P 500, and Nasdaq closing lower due to declines in tech stocks following comments from Federal Reserve Chair Jerome Powell. Amidst these broader market movements, investors often look for opportunities that offer potential growth at lower price points. Penny stocks\u2014though an older term\u2014still represent a compelling investment area by highlighting smaller...",
+            "pubDate": "2025-09-24T12:05:10Z",
+            "displayTime": "2025-09-24T12:05:10Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": {
+              "originalUrl": "https://media.zenfs.com/en/simply_wall_st__316/1762e59d0031dd7c767b613ac375bc3b",
+              "originalWidth": 1194,
+              "originalHeight": 432,
+              "caption": "",
+              "resolutions": [
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/YLn3ijIeE0eqFyPEk1KPDA--~B/aD00MzI7dz0xMTk0O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/simply_wall_st__316/1762e59d0031dd7c767b613ac375bc3b",
+                  "width": 1194,
+                  "height": 432,
+                  "tag": "original"
+                },
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/UTXUY1wZwp2cAk5pyQBV6Q--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/simply_wall_st__316/1762e59d0031dd7c767b613ac375bc3b",
+                  "width": 170,
+                  "height": 128,
+                  "tag": "170x128"
+                }
+              ]
+            },
+            "provider": {
+              "displayName": "Simply Wall St.",
+              "url": "https://simplywall.st/"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/spotlight-top-penny-stocks-september-120510122.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/spotlight-top-penny-stocks-september-120510122.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        },
+        {
+          "id": "57863e6c-747b-3847-888f-ccb8e1f5b045",
+          "content": {
+            "id": "57863e6c-747b-3847-888f-ccb8e1f5b045",
+            "contentType": "STORY",
+            "title": "Cassava, Accenture to deploy sovereign AI solutions across Africa",
+            "description": "",
+            "summary": "The rollout will begin in South Africa and will expand to Egypt, Kenya, Morocco, and Nigeria.",
+            "pubDate": "2025-09-24T08:58:41Z",
+            "displayTime": "2025-09-24T08:58:41Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": {
+              "originalUrl": "https://media.zenfs.com/en/verdict_626/3c965ee52e18ef02ff8261bf99e6515c",
+              "originalWidth": 1440,
+              "originalHeight": 810,
+              "caption": "The collaboration will utilise Accenture's AI Refinery and Cassava's GPU-as-a-Service to provide sovereign AI solutions. Credit: OleksSH/Shutterstock.com.",
+              "resolutions": [
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/CQmsCvZ4fyPK.n4jF89NXw--~B/aD04MTA7dz0xNDQwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/verdict_626/3c965ee52e18ef02ff8261bf99e6515c",
+                  "width": 1440,
+                  "height": 810,
+                  "tag": "original"
+                },
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/C3aodbwhhB.ESnPu5lSAdA--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/verdict_626/3c965ee52e18ef02ff8261bf99e6515c",
+                  "width": 170,
+                  "height": 128,
+                  "tag": "170x128"
+                }
+              ]
+            },
+            "provider": {
+              "displayName": "Verdict",
+              "url": "https://www.globaldata.com/"
+            },
+            "canonicalUrl": {
+              "url": "https://www.verdict.co.uk/cassava-accenture-ai-solutions-across-africa/",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/cassava-accenture-deploy-sovereign-ai-085841359.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        },
+        {
+          "id": "22d16949-f8ce-3f23-a00a-98993d66443c",
+          "content": {
+            "id": "22d16949-f8ce-3f23-a00a-98993d66443c",
+            "contentType": "STORY",
+            "title": "Cassava Boss Buys Big As Stock Collapses",
+            "description": "",
+            "summary": "CEO's $534,000 bet breathes life into beaten-down shares",
+            "pubDate": "2025-09-23T16:13:51Z",
+            "displayTime": "2025-09-23T16:13:51Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": {
+              "originalUrl": "https://media.zenfs.com/en/us.finance.gurufocus/8770466044c5e9c449159ec558e62da4",
+              "originalWidth": 550,
+              "originalHeight": 363,
+              "caption": "",
+              "resolutions": [
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/UumGwWy1Yz1SjIWMqFnR5Q--~B/aD0zNjM7dz01NTA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/us.finance.gurufocus/8770466044c5e9c449159ec558e62da4",
+                  "width": 550,
+                  "height": 363,
+                  "tag": "original"
+                },
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/yqphKFm7EUCuCUqmM13I8w--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/us.finance.gurufocus/8770466044c5e9c449159ec558e62da4",
+                  "width": 170,
+                  "height": 128,
+                  "tag": "170x128"
+                }
+              ]
+            },
+            "provider": {
+              "displayName": "GuruFocus.com",
+              "url": "http://www.gurufocus.com/"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/cassava-boss-buys-big-stock-161351227.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/cassava-boss-buys-big-stock-161351227.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        }
+      ]
+    },
+    "recommendations": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  },
+  "holders_data": {
+    "major_holders": {
+      "status": "error"
+    },
+    "institutional_holders": {
+      "status": "error"
+    }
+  },
+  "earnings_data": {
+    "earnings": {
+      "status": "error",
+      "message": "'NoneType' object has no attribute 'empty'"
+    },
+    "calendar": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  }
+}

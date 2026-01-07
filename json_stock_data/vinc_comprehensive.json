@@ -1,9 +1,25 @@
 {
   "ticker": "VINC",
-  "timestamp": "2026-01-04T05:07:33.766072",
+  "timestamp": "2026-01-07T05:08:39.549967",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 2,
+    "data": [
+      {
+        "Close CPMD": 0.006000000052154064,
+        "High CPMD": 0.006000000052154064,
+        "Low CPMD": 0.006000000052154064,
+        "Open CPMD": 0.006000000052154064,
+        "Volume CPMD": 0
+      },
+      {
+        "Close CPMD": 0.008799999952316284,
+        "High CPMD": 0.008799999952316284,
+        "Low CPMD": 0.008799999952316284,
+        "Open CPMD": 0.008799999952316284,
+        "Volume CPMD": 500
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -26,52 +42,8 @@
   },
   "news_data": {
     "news": {
-      "status": "success",
-      "count": 1,
-      "data": [
-        {
-          "id": "8cd714f4-9205-3396-b91e-541408902237",
-          "content": {
-            "id": "8cd714f4-9205-3396-b91e-541408902237",
-            "contentType": "STORY",
-            "title": "Vincerx Pharma Plans Reverse Merger With AI Infrastructure Firm QumulusAI",
-            "description": "",
-            "summary": "Vincerx Pharma (VINC) said Tuesday it has entered into a nonbinding letter of intent for a reverse t",
-            "pubDate": "2025-03-18T13:39:26Z",
-            "displayTime": "2025-03-18T13:39:26Z",
-            "isHosted": true,
-            "bypassModal": false,
-            "previewUrl": null,
-            "thumbnail": null,
-            "provider": {
-              "displayName": "MT Newswires",
-              "url": "https://www.mtnewswires.com/"
-            },
-            "canonicalUrl": {
-              "url": "https://finance.yahoo.com/news/vincerx-pharma-plans-reverse-merger-133926968.html",
-              "site": "finance",
-              "region": "US",
-              "lang": "en-US"
-            },
-            "clickThroughUrl": {
-              "url": "https://finance.yahoo.com/news/vincerx-pharma-plans-reverse-merger-133926968.html",
-              "site": "finance",
-              "region": "US",
-              "lang": "en-US"
-            },
-            "metadata": {
-              "editorsPick": false
-            },
-            "finance": {
-              "premiumFinance": {
-                "isPremiumNews": true,
-                "isPremiumFreeNews": false
-              }
-            },
-            "storyline": null
-          }
-        }
-      ]
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

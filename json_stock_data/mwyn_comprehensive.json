@@ -1,74 +1,9 @@
 {
   "ticker": "MWYN",
-  "timestamp": "2026-01-04T05:09:42.607403",
+  "timestamp": "2026-01-07T05:13:15.822904",
   "intraday_data": {
-    "status": "success",
-    "rows": 9,
-    "data": [
-      {
-        "Close": 0.9269000291824341,
-        "High": 0.9269000291824341,
-        "Low": 0.9269000291824341,
-        "Open": 0.9269000291824341,
-        "Volume": 2616
-      },
-      {
-        "Close": 0.9269000291824341,
-        "High": 0.9269000291824341,
-        "Low": 0.9269000291824341,
-        "Open": 0.9269000291824341,
-        "Volume": 600
-      },
-      {
-        "Close": 0.8815000057220459,
-        "High": 0.8815000057220459,
-        "Low": 0.8815000057220459,
-        "Open": 0.8815000057220459,
-        "Volume": 81
-      },
-      {
-        "Close": 0.8899999856948853,
-        "High": 0.8899999856948853,
-        "Low": 0.8899999856948853,
-        "Open": 0.8899999856948853,
-        "Volume": 221
-      },
-      {
-        "Close": 0.8849999904632568,
-        "High": 0.8849999904632568,
-        "Low": 0.8808000087738037,
-        "Open": 0.8808000087738037,
-        "Volume": 327
-      },
-      {
-        "Close": 0.8519999980926514,
-        "High": 0.8519999980926514,
-        "Low": 0.8519999980926514,
-        "Open": 0.8519999980926514,
-        "Volume": 300
-      },
-      {
-        "Close": 0.9090999960899353,
-        "High": 0.9090999960899353,
-        "Low": 0.9090999960899353,
-        "Open": 0.9090999960899353,
-        "Volume": 105
-      },
-      {
-        "Close": 0.8859999775886536,
-        "High": 0.8859999775886536,
-        "Low": 0.8859999775886536,
-        "Open": 0.8859999775886536,
-        "Volume": 500
-      },
-      {
-        "Close": 0.8924000263214111,
-        "High": 0.8924000263214111,
-        "Low": 0.8924000263214111,
-        "Open": 0.8924000263214111,
-        "Volume": 2000
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -91,8 +26,52 @@
   },
   "news_data": {
     "news": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
+      "status": "success",
+      "count": 1,
+      "data": [
+        {
+          "id": "0ee094ae-ebf5-3e3d-aef5-76be87e76f2c",
+          "content": {
+            "id": "0ee094ae-ebf5-3e3d-aef5-76be87e76f2c",
+            "contentType": "STORY",
+            "title": "BC-Most Active Stocks",
+            "description": "",
+            "summary": "td class=\"col-issue\">Next Technology Holding Inc.",
+            "pubDate": "2025-09-10T14:30:17Z",
+            "displayTime": "2025-09-10T14:30:17Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": null,
+            "provider": {
+              "displayName": "Associated Press Finance",
+              "url": "http://www.ap.org/"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/bc-most-active-stocks-143017455.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/bc-most-active-stocks-143017455.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        }
+      ]
     },
     "recommendations": {
       "status": "error",

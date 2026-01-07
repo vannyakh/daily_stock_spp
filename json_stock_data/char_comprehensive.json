@@ -1,25 +1,9 @@
 {
   "ticker": "CHAR",
-  "timestamp": "2026-01-04T05:10:12.923257",
+  "timestamp": "2026-01-07T05:14:31.932756",
   "intraday_data": {
-    "status": "success",
-    "rows": 2,
-    "data": [
-      {
-        "Close": 10.470000267028809,
-        "High": 10.470000267028809,
-        "Low": 10.470000267028809,
-        "Open": 10.470000267028809,
-        "Volume": 0
-      },
-      {
-        "Close": 10.460000038146973,
-        "High": 10.460000038146973,
-        "Low": 10.460000038146973,
-        "Open": 10.460000038146973,
-        "Volume": 500
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -42,8 +26,7 @@
   },
   "news_data": {
     "news": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
+      "status": "no_data"
     },
     "recommendations": {
       "status": "error",

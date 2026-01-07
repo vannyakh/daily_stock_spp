@@ -1,25 +1,9 @@
 {
   "ticker": "GLU-PB",
-  "timestamp": "2026-01-04T05:11:45.972003",
+  "timestamp": "2026-01-07T05:18:06.104197",
   "intraday_data": {
-    "status": "success",
-    "rows": 2,
-    "data": [
-      {
-        "Close": 50.1599006652832,
-        "High": 50.15999984741211,
-        "Low": 50.1599006652832,
-        "Open": 50.15999984741211,
-        "Volume": 0
-      },
-      {
-        "Close": 50.179901123046875,
-        "High": 50.220001220703125,
-        "Low": 50.179901123046875,
-        "Open": 50.220001220703125,
-        "Volume": 567
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -42,8 +26,7 @@
   },
   "news_data": {
     "news": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
+      "status": "no_data"
     },
     "recommendations": {
       "status": "error",

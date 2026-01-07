@@ -1,9 +1,25 @@
 {
   "ticker": "PWCO",
-  "timestamp": "2026-01-04T05:11:56.563955",
+  "timestamp": "2026-01-07T05:18:29.658360",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 2,
+    "data": [
+      {
+        "Close IMUC": 0.19499999284744263,
+        "High IMUC": 0.19499999284744263,
+        "Low IMUC": 0.19499999284744263,
+        "Open IMUC": 0.19499999284744263,
+        "Volume IMUC": 0
+      },
+      {
+        "Close IMUC": 0.10000000149011612,
+        "High IMUC": 0.10000000149011612,
+        "Low IMUC": 0.10000000149011612,
+        "Open IMUC": 0.10000000149011612,
+        "Volume IMUC": 308
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -26,12 +42,10 @@
   },
   "news_data": {
     "news": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
+      "status": "no_data"
     },
     "recommendations": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
+      "status": "no_data"
     }
   },
   "holders_data": {

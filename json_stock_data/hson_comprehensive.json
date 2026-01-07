@@ -1,9 +1,9 @@
 {
   "ticker": "HSON",
-  "timestamp": "2026-01-04T05:04:35.329395",
+  "timestamp": "2026-01-07T05:03:06.686178",
   "intraday_data": {
-    "status": "error",
-    "message": "No objects to concatenate"
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -604,15 +604,16 @@
       ]
     },
     "recommendations": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   },
   "holders_data": {
     "major_holders": {
-      "status": "no_data"
+      "status": "error"
     },
     "institutional_holders": {
-      "status": "no_data"
+      "status": "error"
     }
   },
   "earnings_data": {

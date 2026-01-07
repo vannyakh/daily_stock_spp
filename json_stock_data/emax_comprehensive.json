@@ -1,25 +1,9 @@
 {
   "ticker": "EMAX",
-  "timestamp": "2026-01-04T05:09:12.771839",
+  "timestamp": "2026-01-07T05:12:06.478815",
   "intraday_data": {
-    "status": "success",
-    "rows": 2,
-    "data": [
-      {
-        "Close NBND": 0.0015999999595806003,
-        "High NBND": 0.0015999999595806003,
-        "Low NBND": 0.0015999999595806003,
-        "Open NBND": 0.0015999999595806003,
-        "Volume NBND": 0
-      },
-      {
-        "Close NBND": 0.00139999995008111,
-        "High NBND": 0.00139999995008111,
-        "Low NBND": 0.00139999995008111,
-        "Open NBND": 0.00139999995008111,
-        "Volume NBND": 90000
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -42,8 +26,7 @@
   },
   "news_data": {
     "news": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
+      "status": "no_data"
     },
     "recommendations": {
       "status": "error",

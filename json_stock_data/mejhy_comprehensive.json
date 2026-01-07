@@ -1,9 +1,25 @@
 {
   "ticker": "MEJHY",
-  "timestamp": "2026-01-04T04:50:25.518530",
+  "timestamp": "2026-01-07T04:36:11.451926",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 2,
+    "data": [
+      {
+        "Close": 11.149999618530273,
+        "High": 11.149999618530273,
+        "Low": 11.149999618530273,
+        "Open": 11.149999618530273,
+        "Volume": 0
+      },
+      {
+        "Close": 11.149999618530273,
+        "High": 11.149999618530273,
+        "Low": 11.149999618530273,
+        "Open": 11.149999618530273,
+        "Volume": 370
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -102,7 +118,7 @@
       "status": "error"
     },
     "institutional_holders": {
-      "status": "error"
+      "status": "no_data"
     }
   },
   "earnings_data": {
@@ -112,7 +128,7 @@
     },
     "calendar": {
       "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
+      "message": "'dict' object has no attribute 'empty'"
     }
   }
 }

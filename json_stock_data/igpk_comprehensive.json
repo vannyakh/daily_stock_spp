@@ -1,9 +1,25 @@
 {
   "ticker": "IGPK",
-  "timestamp": "2026-01-04T05:12:13.956664",
+  "timestamp": "2026-01-07T05:19:13.040285",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 2,
+    "data": [
+      {
+        "Close": 0.0010000000474974513,
+        "High": 0.0010000000474974513,
+        "Low": 0.0010000000474974513,
+        "Open": 0.0010000000474974513,
+        "Volume": 10
+      },
+      {
+        "Close": 0.0008999999845400453,
+        "High": 0.0008999999845400453,
+        "Low": 0.0008999999845400453,
+        "Open": 0.0008999999845400453,
+        "Volume": 168000
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -26,8 +42,7 @@
   },
   "news_data": {
     "news": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
+      "status": "no_data"
     },
     "recommendations": {
       "status": "error",

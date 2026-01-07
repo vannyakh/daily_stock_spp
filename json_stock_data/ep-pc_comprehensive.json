@@ -1,22 +1,29 @@
 {
   "ticker": "EP-PC",
-  "timestamp": "2026-01-04T05:15:49.012608",
+  "timestamp": "2026-01-07T05:27:39.471884",
   "intraday_data": {
     "status": "success",
-    "rows": 1,
+    "rows": 2,
     "data": [
       {
-        "Close PETVW": 0.029999999329447746,
-        "High PETVW": 0.029999999329447746,
-        "Low PETVW": 0.029999999329447746,
-        "Open PETVW": 0.029999999329447746,
-        "Volume PETVW": 0
+        "Close IHICF": 19.600000381469727,
+        "High IHICF": 19.600000381469727,
+        "Low IHICF": 19.600000381469727,
+        "Open IHICF": 19.600000381469727,
+        "Volume IHICF": 4800
+      },
+      {
+        "Close IHICF": 19.649999618530273,
+        "High IHICF": 19.649999618530273,
+        "Low IHICF": 19.649999618530273,
+        "Open IHICF": 19.649999618530273,
+        "Volume IHICF": 2200
       }
     ]
   },
   "stock_info": {
     "status": "error",
-    "message": "Too Many Requests. Rate limited. Try after a while."
+    "message": "argument of type 'NoneType' is not iterable"
   },
   "financials": {
     "income_statement": {
@@ -35,8 +42,7 @@
   },
   "news_data": {
     "news": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
+      "status": "no_data"
     },
     "recommendations": {
       "status": "error",

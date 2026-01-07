@@ -1,9 +1,18 @@
 {
   "ticker": "PYYX",
-  "timestamp": "2026-01-04T05:03:11.169281",
+  "timestamp": "2026-01-07T05:00:28.216317",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 1,
+    "data": [
+      {
+        "Close": 3.0,
+        "High": 3.0,
+        "Low": 3.0,
+        "Open": 3.0,
+        "Volume": 0
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -177,7 +186,8 @@
       ]
     },
     "recommendations": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   },
   "holders_data": {

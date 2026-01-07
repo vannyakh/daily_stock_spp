@@ -1,9 +1,25 @@
 {
   "ticker": "GIGGU",
-  "timestamp": "2026-01-04T05:13:03.156746",
+  "timestamp": "2026-01-07T05:21:01.277034",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 2,
+    "data": [
+      {
+        "Close": 10.579999923706055,
+        "High": 10.579999923706055,
+        "Low": 10.579999923706055,
+        "Open": 10.579999923706055,
+        "Volume": 0
+      },
+      {
+        "Close": 11.100600242614746,
+        "High": 11.100600242614746,
+        "Low": 10.989999771118164,
+        "Open": 11.100600242614746,
+        "Volume": 1084
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -26,8 +42,7 @@
   },
   "news_data": {
     "news": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
+      "status": "no_data"
     },
     "recommendations": {
       "status": "error",

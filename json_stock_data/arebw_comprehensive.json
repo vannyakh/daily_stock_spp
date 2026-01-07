@@ -1,10 +1,32 @@
 {
   "ticker": "AREBW",
-  "timestamp": "2026-01-04T05:14:54.062104",
+  "timestamp": "2026-01-07T05:25:26.196066",
   "intraday_data": {
     "status": "success",
-    "rows": 0,
-    "data": []
+    "rows": 3,
+    "data": [
+      {
+        "Close": 0.02239999920129776,
+        "High": 0.02239999920129776,
+        "Low": 0.02239999920129776,
+        "Open": 0.02239999920129776,
+        "Volume": 0
+      },
+      {
+        "Close": 0.01510000042617321,
+        "High": 0.01510000042617321,
+        "Low": 0.01510000042617321,
+        "Open": 0.01510000042617321,
+        "Volume": 0
+      },
+      {
+        "Close": 0.01730000041425228,
+        "High": 0.01730000041425228,
+        "Low": 0.01730000041425228,
+        "Open": 0.01730000041425228,
+        "Volume": 1000
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -12,45 +34,14 @@
   },
   "financials": {
     "income_statement": {
-      "status": "no_data"
-    },
-    "balance_sheet": {
-      "status": "no_data"
-    },
-    "cash_flow": {
-      "status": "no_data"
-    }
-  },
-  "options_data": {
-    "status": "error",
-    "error_message": "Too Many Requests. Rate limited. Try after a while."
-  },
-  "news_data": {
-    "news": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
-    },
-    "recommendations": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
-    }
-  },
-  "holders_data": {
-    "major_holders": {
-      "status": "error"
-    },
-    "institutional_holders": {
-      "status": "error"
-    }
-  },
-  "earnings_data": {
-    "earnings": {
-      "status": "error",
-      "message": "'NoneType' object has no attribute 'empty'"
-    },
-    "calendar": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
-    }
-  }
-}
+      "status": "success",
+      "rows": 51,
+      "columns": [
+        "2024-12-31 00:00:00",
+        "2023-12-31 00:00:00",
+        "2022-12-31 00:00:00",
+        "2021-12-31 00:00:00"
+      ],
+      "data": [
+        {
+          

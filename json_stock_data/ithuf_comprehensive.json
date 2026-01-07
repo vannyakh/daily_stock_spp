@@ -1,74 +1,9 @@
 {
   "ticker": "ITHUF",
-  "timestamp": "2026-01-04T05:04:38.201321",
+  "timestamp": "2026-01-07T05:03:13.571470",
   "intraday_data": {
-    "status": "success",
-    "rows": 9,
-    "data": [
-      {
-        "Close": 0.0052999998442828655,
-        "High": 0.0052999998442828655,
-        "Low": 0.0052999998442828655,
-        "Open": 0.0052999998442828655,
-        "Volume": 0
-      },
-      {
-        "Close": 0.004999999888241291,
-        "High": 0.004999999888241291,
-        "Low": 0.004999999888241291,
-        "Open": 0.004999999888241291,
-        "Volume": 10000
-      },
-      {
-        "Close": 0.004600000102072954,
-        "High": 0.004600000102072954,
-        "Low": 0.004600000102072954,
-        "Open": 0.004600000102072954,
-        "Volume": 21713
-      },
-      {
-        "Close": 0.005100000184029341,
-        "High": 0.005100000184029341,
-        "Low": 0.005100000184029341,
-        "Open": 0.005100000184029341,
-        "Volume": 65000
-      },
-      {
-        "Close": 0.005100000184029341,
-        "High": 0.005100000184029341,
-        "Low": 0.005100000184029341,
-        "Open": 0.005100000184029341,
-        "Volume": 10000
-      },
-      {
-        "Close": 0.004800000227987766,
-        "High": 0.004800000227987766,
-        "Low": 0.004800000227987766,
-        "Open": 0.004800000227987766,
-        "Volume": 6000000
-      },
-      {
-        "Close": 0.004000000189989805,
-        "High": 0.004600000102072954,
-        "Low": 0.004000000189989805,
-        "Open": 0.004600000102072954,
-        "Volume": 1125000
-      },
-      {
-        "Close": 0.004000000189989805,
-        "High": 0.00419999985024333,
-        "Low": 0.004000000189989805,
-        "Open": 0.004100000020116568,
-        "Volume": 704000
-      },
-      {
-        "Close": 0.0038999998942017555,
-        "High": 0.0038999998942017555,
-        "Low": 0.0038999998942017555,
-        "Open": 0.0038999998942017555,
-        "Volume": 25000
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -79,86 +14,14 @@
       "status": "no_data"
     },
     "balance_sheet": {
-      "status": "no_data"
-    },
-    "cash_flow": {
-      "status": "no_data"
-    }
-  },
-  "options_data": {
-    "status": "error",
-    "error_message": "Too Many Requests. Rate limited. Try after a while."
-  },
-  "news_data": {
-    "news": {
       "status": "success",
-      "count": 1,
+      "rows": 71,
+      "columns": [
+        "2024-12-31 00:00:00",
+        "2023-12-31 00:00:00",
+        "2022-12-31 00:00:00",
+        "2021-12-31 00:00:00"
+      ],
       "data": [
         {
-          "id": "5d3066cd-c902-3d38-af4a-fe67803643a8",
-          "content": {
-            "id": "5d3066cd-c902-3d38-af4a-fe67803643a8",
-            "contentType": "STORY",
-            "title": "Weekly Roundup on the Cannabis Sector & Psychedelic Sector",
-            "description": "",
-            "summary": "Key Takeaways; Cannabis Sector Vireo Growth raised $81M in oversubscribed funding round; the company aims to expand operations across seven states iAnthus acquired premium vape brand Cheetah in $1.5M all-stock deal Entourage Health to go private in union pension fund deal. Cansortium and RIV Capital finalized merger to create a multistate cannabis powerhouse Key Takeaways; [\u2026]",
-            "pubDate": "2025-01-06T01:19:34Z",
-            "displayTime": "2025-01-06T01:19:34Z",
-            "isHosted": true,
-            "bypassModal": false,
-            "previewUrl": null,
-            "thumbnail": null,
-            "provider": {
-              "displayName": "Market Exclusive",
-              "url": "https://marketexclusive.com/"
-            },
-            "canonicalUrl": {
-              "url": "https://finance.yahoo.com/news/weekly-roundup-cannabis-sector-psychedelic-011934573.html",
-              "site": "finance",
-              "region": "US",
-              "lang": "en-US"
-            },
-            "clickThroughUrl": {
-              "url": "https://finance.yahoo.com/news/weekly-roundup-cannabis-sector-psychedelic-011934573.html",
-              "site": "finance",
-              "region": "US",
-              "lang": "en-US"
-            },
-            "metadata": {
-              "editorsPick": false
-            },
-            "finance": {
-              "premiumFinance": {
-                "isPremiumNews": false,
-                "isPremiumFreeNews": false
-              }
-            },
-            "storyline": null
-          }
-        }
-      ]
-    },
-    "recommendations": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
-    }
-  },
-  "holders_data": {
-    "major_holders": {
-      "status": "error"
-    },
-    "institutional_holders": {
-      "status": "error"
-    }
-  },
-  "earnings_data": {
-    "earnings": {
-      "status": "error",
-      "message": "'NoneType' object has no attribute 'empty'"
-    },
-    "calendar": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
-    }
-  }
-}
+          

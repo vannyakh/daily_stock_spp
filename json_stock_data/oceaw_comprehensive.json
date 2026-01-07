@@ -1,81 +1,9 @@
 {
   "ticker": "OCEAW",
-  "timestamp": "2026-01-04T05:13:10.732429",
+  "timestamp": "2026-01-07T05:21:15.493133",
   "intraday_data": {
-    "status": "success",
-    "rows": 10,
-    "data": [
-      {
-        "Close CDROW": 0.660099983215332,
-        "High CDROW": 0.660099983215332,
-        "Low CDROW": 0.660099983215332,
-        "Open CDROW": 0.660099983215332,
-        "Volume CDROW": 0
-      },
-      {
-        "Close CDROW": 0.7839999794960022,
-        "High CDROW": 0.7961000204086304,
-        "Low CDROW": 0.7839999794960022,
-        "Open CDROW": 0.7961000204086304,
-        "Volume CDROW": 3100
-      },
-      {
-        "Close CDROW": 0.8489000201225281,
-        "High CDROW": 0.8489000201225281,
-        "Low CDROW": 0.7748000025749207,
-        "Open CDROW": 0.7748000025749207,
-        "Volume CDROW": 2700
-      },
-      {
-        "Close CDROW": 0.8489000201225281,
-        "High CDROW": 0.8489000201225281,
-        "Low CDROW": 0.8489000201225281,
-        "Open CDROW": 0.8489000201225281,
-        "Volume CDROW": 600
-      },
-      {
-        "Close CDROW": 0.7961999773979187,
-        "High CDROW": 0.7961999773979187,
-        "Low CDROW": 0.7961999773979187,
-        "Open CDROW": 0.7961999773979187,
-        "Volume CDROW": 100
-      },
-      {
-        "Close CDROW": 0.8489000201225281,
-        "High CDROW": 0.8489000201225281,
-        "Low CDROW": 0.8489000201225281,
-        "Open CDROW": 0.8489000201225281,
-        "Volume CDROW": 600
-      },
-      {
-        "Close CDROW": 0.8489000201225281,
-        "High CDROW": 0.8489000201225281,
-        "Low CDROW": 0.8485999703407288,
-        "Open CDROW": 0.8485999703407288,
-        "Volume CDROW": 800
-      },
-      {
-        "Close CDROW": 0.7822999954223633,
-        "High CDROW": 0.7822999954223633,
-        "Low CDROW": 0.7822999954223633,
-        "Open CDROW": 0.7822999954223633,
-        "Volume CDROW": 356
-      },
-      {
-        "Close CDROW": 0.7699999809265137,
-        "High CDROW": 0.7699999809265137,
-        "Low CDROW": 0.7699999809265137,
-        "Open CDROW": 0.7699999809265137,
-        "Volume CDROW": 100
-      },
-      {
-        "Close CDROW": 0.8389000296592712,
-        "High CDROW": 0.8389000296592712,
-        "Low CDROW": 0.8389000296592712,
-        "Open CDROW": 0.8389000296592712,
-        "Volume CDROW": 800
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -83,14 +11,44 @@
   },
   "financials": {
     "income_statement": {
-      "status": "success",
-      "rows": 40,
-      "columns": [
-        "2024-12-31 00:00:00",
-        "2023-12-31 00:00:00",
-        "2022-12-31 00:00:00",
-        "2021-12-31 00:00:00"
-      ],
-      "data": [
-        {
-          
+      "status": "no_data"
+    },
+    "balance_sheet": {
+      "status": "no_data"
+    },
+    "cash_flow": {
+      "status": "no_data"
+    }
+  },
+  "options_data": {
+    "status": "error",
+    "error_message": "Too Many Requests. Rate limited. Try after a while."
+  },
+  "news_data": {
+    "news": {
+      "status": "no_data"
+    },
+    "recommendations": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  },
+  "holders_data": {
+    "major_holders": {
+      "status": "error"
+    },
+    "institutional_holders": {
+      "status": "error"
+    }
+  },
+  "earnings_data": {
+    "earnings": {
+      "status": "error",
+      "message": "'NoneType' object has no attribute 'empty'"
+    },
+    "calendar": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  }
+}

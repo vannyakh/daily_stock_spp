@@ -1,13 +1,29 @@
 {
   "ticker": "ISMCF",
-  "timestamp": "2026-01-04T05:13:49.711232",
+  "timestamp": "2026-01-07T05:22:58.790378",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 2,
+    "data": [
+      {
+        "Close": 710.9257202148438,
+        "High": 714.4570922851562,
+        "Low": 710.9257202148438,
+        "Open": 714.3569946289062,
+        "Volume": 447
+      },
+      {
+        "Close": 714.8991088867188,
+        "High": 716.0,
+        "Low": 714.4426879882812,
+        "Open": 714.4426879882812,
+        "Volume": 520
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
-    "message": "Too Many Requests. Rate limited. Try after a while."
+    "message": "argument of type 'NoneType' is not iterable"
   },
   "financials": {
     "income_statement": {
@@ -26,8 +42,7 @@
   },
   "news_data": {
     "news": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
+      "status": "no_data"
     },
     "recommendations": {
       "status": "error",

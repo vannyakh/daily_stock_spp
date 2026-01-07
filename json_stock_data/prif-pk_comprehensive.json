@@ -1,25 +1,9 @@
 {
   "ticker": "PRIF-PK",
-  "timestamp": "2026-01-04T05:15:38.777662",
+  "timestamp": "2026-01-07T05:27:15.186331",
   "intraday_data": {
-    "status": "success",
-    "rows": 2,
-    "data": [
-      {
-        "Close": 21.959999084472656,
-        "High": 21.959999084472656,
-        "Low": 21.959999084472656,
-        "Open": 21.959999084472656,
-        "Volume": 0
-      },
-      {
-        "Close": 21.520000457763672,
-        "High": 21.520000457763672,
-        "Low": 21.520000457763672,
-        "Open": 21.520000457763672,
-        "Volume": 801
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -42,8 +26,7 @@
   },
   "news_data": {
     "news": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
+      "status": "no_data"
     },
     "recommendations": {
       "status": "error",

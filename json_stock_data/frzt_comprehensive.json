@@ -1,9 +1,25 @@
 {
   "ticker": "FRZT",
-  "timestamp": "2026-01-04T05:09:09.187193",
+  "timestamp": "2026-01-07T05:11:58.119016",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 2,
+    "data": [
+      {
+        "Close": 0.008999999612569809,
+        "High": 0.008999999612569809,
+        "Low": 0.008999999612569809,
+        "Open": 0.008999999612569809,
+        "Volume": 0
+      },
+      {
+        "Close": 0.008500000461935997,
+        "High": 0.008500000461935997,
+        "Low": 0.008500000461935997,
+        "Open": 0.008500000461935997,
+        "Volume": 10000
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -26,8 +42,7 @@
   },
   "news_data": {
     "news": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
+      "status": "no_data"
     },
     "recommendations": {
       "status": "error",

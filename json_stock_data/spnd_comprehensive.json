@@ -1,91 +1,24 @@
 {
   "ticker": "SPND",
-  "timestamp": "2026-01-04T05:05:49.814056",
+  "timestamp": "2026-01-07T05:05:26.058474",
   "intraday_data": {
-    "status": "success",
-    "rows": 5,
-    "data": [
-      {
-        "Close SAIH": 9.709099769592285,
-        "High SAIH": 9.709099769592285,
-        "Low SAIH": 9.709099769592285,
-        "Open SAIH": 9.709099769592285,
-        "Volume SAIH": 0
-      },
-      {
-        "Close SAIH": 9.399999618530273,
-        "High SAIH": 9.399999618530273,
-        "Low SAIH": 9.304699897766113,
-        "Open SAIH": 9.304699897766113,
-        "Volume SAIH": 704
-      },
-      {
-        "Close SAIH": 9.621700286865234,
-        "High SAIH": 9.621700286865234,
-        "Low SAIH": 9.621700286865234,
-        "Open SAIH": 9.621700286865234,
-        "Volume SAIH": 0
-      },
-      {
-        "Close SAIH": 9.550000190734863,
-        "High SAIH": 9.550000190734863,
-        "Low SAIH": 9.550000190734863,
-        "Open SAIH": 9.550000190734863,
-        "Volume SAIH": 271
-      },
-      {
-        "Close SAIH": 9.727800369262695,
-        "High SAIH": 9.727800369262695,
-        "Low SAIH": 9.727800369262695,
-        "Open SAIH": 9.727800369262695,
-        "Volume SAIH": 183
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
-    "message": "Too Many Requests. Rate limited. Try after a while."
+    "message": "argument of type 'NoneType' is not iterable"
   },
   "financials": {
     "income_statement": {
-      "status": "no_data"
-    },
-    "balance_sheet": {
-      "status": "no_data"
-    },
-    "cash_flow": {
-      "status": "no_data"
-    }
-  },
-  "options_data": {
-    "status": "error",
-    "error_message": "Too Many Requests. Rate limited. Try after a while."
-  },
-  "news_data": {
-    "news": {
-      "status": "no_data"
-    },
-    "recommendations": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
-    }
-  },
-  "holders_data": {
-    "major_holders": {
-      "status": "error"
-    },
-    "institutional_holders": {
-      "status": "error"
-    }
-  },
-  "earnings_data": {
-    "earnings": {
-      "status": "error",
-      "message": "'NoneType' object has no attribute 'empty'"
-    },
-    "calendar": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
-    }
-  }
-}
+      "status": "success",
+      "rows": 45,
+      "columns": [
+        "2024-12-31 00:00:00",
+        "2023-12-31 00:00:00",
+        "2022-12-31 00:00:00",
+        "2021-12-31 00:00:00"
+      ],
+      "data": [
+        {
+          

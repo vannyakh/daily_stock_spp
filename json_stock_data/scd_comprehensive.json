@@ -1,131 +1,63 @@
 {
   "ticker": "SCD",
-  "timestamp": "2026-01-04T04:58:48.141333",
+  "timestamp": "2026-01-07T04:52:14.350001",
   "intraday_data": {
     "status": "success",
-    "rows": 15,
+    "rows": 1,
     "data": [
       {
-        "Close ABIT": 0.007000000216066837,
-        "High ABIT": 0.007000000216066837,
-        "Low ABIT": 0.007000000216066837,
-        "Open ABIT": 0.007000000216066837,
-        "Volume ABIT": 0
-      },
-      {
-        "Close ABIT": 0.007499999832361937,
-        "High ABIT": 0.007499999832361937,
-        "Low ABIT": 0.007499999832361937,
-        "Open ABIT": 0.007499999832361937,
-        "Volume ABIT": 75
-      },
-      {
-        "Close ABIT": 0.007000000216066837,
-        "High ABIT": 0.007000000216066837,
-        "Low ABIT": 0.007000000216066837,
-        "Open ABIT": 0.007000000216066837,
-        "Volume ABIT": 96632
-      },
-      {
-        "Close ABIT": 0.007000000216066837,
-        "High ABIT": 0.007000000216066837,
-        "Low ABIT": 0.007000000216066837,
-        "Open ABIT": 0.007000000216066837,
-        "Volume ABIT": 132000
-      },
-      {
-        "Close ABIT": 0.007000000216066837,
-        "High ABIT": 0.007000000216066837,
-        "Low ABIT": 0.007000000216066837,
-        "Open ABIT": 0.007000000216066837,
-        "Volume ABIT": 187700
-      },
-      {
         "Close ABIT": 0.006000000052154064,
-        "High ABIT": 0.007000000216066837,
+        "High ABIT": 0.006000000052154064,
         "Low ABIT": 0.006000000052154064,
-        "Open ABIT": 0.007000000216066837,
-        "Volume ABIT": 107725
-      },
-      {
-        "Close ABIT": 0.004999999888241291,
-        "High ABIT": 0.005799999926239252,
-        "Low ABIT": 0.004999999888241291,
-        "Open ABIT": 0.005799999926239252,
-        "Volume ABIT": 49090
-      },
-      {
-        "Close ABIT": 0.00430000014603138,
-        "High ABIT": 0.004600000102072954,
-        "Low ABIT": 0.00430000014603138,
-        "Open ABIT": 0.004600000102072954,
-        "Volume ABIT": 122700
-      },
-      {
-        "Close ABIT": 0.005200000014156103,
-        "High ABIT": 0.005200000014156103,
-        "Low ABIT": 0.005200000014156103,
-        "Open ABIT": 0.005200000014156103,
-        "Volume ABIT": 80000
-      },
-      {
-        "Close ABIT": 0.005200000014156103,
-        "High ABIT": 0.005200000014156103,
-        "Low ABIT": 0.005200000014156103,
-        "Open ABIT": 0.005200000014156103,
-        "Volume ABIT": 30000
-      },
-      {
-        "Close ABIT": 0.005900000222027302,
-        "High ABIT": 0.005900000222027302,
-        "Low ABIT": 0.005900000222027302,
-        "Open ABIT": 0.005900000222027302,
-        "Volume ABIT": 25000
-      },
-      {
-        "Close ABIT": 0.006399999838322401,
-        "High ABIT": 0.006500000134110451,
-        "Low ABIT": 0.006399999838322401,
-        "Open ABIT": 0.006500000134110451,
-        "Volume ABIT": 151375
-      },
-      {
-        "Close ABIT": 0.006399999838322401,
-        "High ABIT": 0.006399999838322401,
-        "Low ABIT": 0.006399999838322401,
-        "Open ABIT": 0.006399999838322401,
-        "Volume ABIT": 10000
-      },
-      {
-        "Close ABIT": 0.006399999838322401,
-        "High ABIT": 0.006399999838322401,
-        "Low ABIT": 0.006399999838322401,
-        "Open ABIT": 0.006399999838322401,
-        "Volume ABIT": 10000
-      },
-      {
-        "Close ABIT": 0.006200000178068876,
-        "High ABIT": 0.006200000178068876,
-        "Low ABIT": 0.006200000178068876,
-        "Open ABIT": 0.006200000178068876,
-        "Volume ABIT": 10000
+        "Open ABIT": 0.006000000052154064,
+        "Volume ABIT": 0
       }
     ]
   },
   "stock_info": {
     "status": "error",
-    "message": "argument of type 'NoneType' is not iterable"
+    "message": "Too Many Requests. Rate limited. Try after a while."
   },
   "financials": {
     "income_statement": {
-      "status": "success",
-      "rows": 25,
-      "columns": [
-        "2024-11-30 00:00:00",
-        "2023-11-30 00:00:00",
-        "2022-11-30 00:00:00",
-        "2021-11-30 00:00:00"
-      ],
-      "data": [
-        {
-          
+      "status": "no_data"
+    },
+    "balance_sheet": {
+      "status": "no_data"
+    },
+    "cash_flow": {
+      "status": "no_data"
+    }
+  },
+  "options_data": {
+    "status": "error",
+    "error_message": "Too Many Requests. Rate limited. Try after a while."
+  },
+  "news_data": {
+    "news": {
+      "status": "no_data"
+    },
+    "recommendations": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  },
+  "holders_data": {
+    "major_holders": {
+      "status": "error"
+    },
+    "institutional_holders": {
+      "status": "error"
+    }
+  },
+  "earnings_data": {
+    "earnings": {
+      "status": "error",
+      "message": "'NoneType' object has no attribute 'empty'"
+    },
+    "calendar": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  }
+}
