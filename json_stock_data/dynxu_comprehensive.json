@@ -1,46 +1,13 @@
 {
   "ticker": "DYNXU",
-  "timestamp": "2026-01-07T05:20:04.793187",
+  "timestamp": "2026-01-08T05:25:22.356499",
   "intraday_data": {
     "status": "no_data",
     "message": "No intraday data available"
   },
   "stock_info": {
-    "status": "success",
-    "data": {
-      "maxAge": 86400,
-      "priceHint": 2,
-      "previousClose": 12.09,
-      "regularMarketPreviousClose": 12.09,
-      "currency": "USD",
-      "tradeable": false,
-      "quoteType": "EQUITY",
-      "symbol": "DYNXU",
-      "language": "en-US",
-      "region": "US",
-      "typeDisp": "Equity",
-      "quoteSourceName": "Delayed Quote",
-      "triggerable": true,
-      "customPriceAlertConfidence": "HIGH",
-      "marketState": "PREPRE",
-      "shortName": "Dynamix Corporation",
-      "sourceInterval": 15,
-      "exchangeDataDelayedBy": 0,
-      "cryptoTradeable": false,
-      "esgPopulated": false,
-      "hasPrePostMarketData": true,
-      "regularMarketChange": 0.5100002,
-      "fullExchangeName": "NasdaqGM",
-      "regularMarketChangePercent": 4.2183642,
-      "regularMarketPrice": 12.6,
-      "regularMarketTime": 1764104400,
-      "exchange": "NGM",
-      "exchangeTimezoneName": "America/New_York",
-      "exchangeTimezoneShortName": "EST",
-      "gmtOffSetMilliseconds": -18000000,
-      "market": "us_market",
-      "displayName": "Dynamix"
-    }
+    "status": "error",
+    "message": "Too Many Requests. Rate limited. Try after a while."
   },
   "financials": {
     "income_statement": {
@@ -54,7 +21,8 @@
     }
   },
   "options_data": {
-    "expirations": []
+    "status": "error",
+    "error_message": "Too Many Requests. Rate limited. Try after a while."
   },
   "news_data": {
     "news": {

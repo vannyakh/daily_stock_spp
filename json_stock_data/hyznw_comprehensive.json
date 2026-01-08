@@ -1,13 +1,13 @@
 {
   "ticker": "HYZNW",
-  "timestamp": "2026-01-07T05:25:26.966947",
+  "timestamp": "2026-01-08T05:31:07.410791",
   "intraday_data": {
     "status": "no_data",
     "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
-    "message": "Too Many Requests. Rate limited. Try after a while."
+    "message": "argument of type 'NoneType' is not iterable"
   },
   "financials": {
     "income_statement": {
@@ -21,24 +21,93 @@
     }
   },
   "options_data": {
-    "status": "error",
-    "error_message": "Too Many Requests. Rate limited. Try after a while."
+    "expirations": []
   },
   "news_data": {
     "news": {
       "status": "no_data"
     },
     "recommendations": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
+      "status": "no_data"
     }
   },
   "holders_data": {
     "major_holders": {
-      "status": "error"
+      "status": "success",
+      "data": [
+        {
+          "Value": 15
+        }
+      ]
     },
     "institutional_holders": {
-      "status": "error"
+      "status": "success",
+      "data": [
+        {
+          "Date Reported": "2024-12-31 00:00:00",
+          "Holder": "LMR Partners LLP",
+          "pctHeld": 0.3105,
+          "Shares": 3504574,
+          "Value": 10513,
+          "pctChange": 1.0
+        },
+        {
+          "Date Reported": "2024-12-31 00:00:00",
+          "Holder": "Shay Capital LLC",
+          "pctHeld": 0.0908,
+          "Shares": 1025183,
+          "Value": 3075,
+          "pctChange": 0.0
+        },
+        {
+          "Date Reported": "2024-12-31 00:00:00",
+          "Holder": "Long Focus Capital Management, LLC",
+          "pctHeld": 0.053200003,
+          "Shares": 600700,
+          "Value": 1802,
+          "pctChange": 0.0
+        },
+        {
+          "Date Reported": "2024-12-31 00:00:00",
+          "Holder": "Tenor Capital Management Co., L.p.",
+          "pctHeld": 0.0070999996,
+          "Shares": 80127,
+          "Value": 240,
+          "pctChange": 0.0
+        },
+        {
+          "Date Reported": "2024-12-31 00:00:00",
+          "Holder": "Saba Capital Management, L.P.",
+          "pctHeld": 0.0064999997,
+          "Shares": 73492,
+          "Value": 220,
+          "pctChange": 0.0
+        },
+        {
+          "Date Reported": "2024-12-31 00:00:00",
+          "Holder": "Citadel Advisors Llc",
+          "pctHeld": 0.0041,
+          "Shares": 45895,
+          "Value": 137,
+          "pctChange": -0.5073
+        },
+        {
+          "Date Reported": "2024-12-31 00:00:00",
+          "Holder": "Morgan Stanley",
+          "pctHeld": 0.0001,
+          "Shares": 1500,
+          "Value": 4,
+          "pctChange": 0.0
+        },
+        {
+          "Date Reported": "2024-12-31 00:00:00",
+          "Holder": "Tower Research Capital LLC (TRC)",
+          "pctHeld": 0.0001,
+          "Shares": 702,
+          "Value": 2,
+          "pctChange": 0.0
+        }
+      ]
     }
   },
   "earnings_data": {
@@ -48,7 +117,7 @@
     },
     "calendar": {
       "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
+      "message": "'dict' object has no attribute 'empty'"
     }
   }
 }

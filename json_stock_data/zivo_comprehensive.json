@@ -1,9 +1,25 @@
 {
   "ticker": "ZIVO",
-  "timestamp": "2026-01-07T05:18:11.256584",
+  "timestamp": "2026-01-08T05:23:17.491477",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 2,
+    "data": [
+      {
+        "Close": 9.25,
+        "High": 9.25,
+        "Low": 9.25,
+        "Open": 9.25,
+        "Volume": 0
+      },
+      {
+        "Close": 9.25,
+        "High": 9.25,
+        "Low": 9.25,
+        "Open": 9.25,
+        "Volume": 100
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -26,7 +42,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

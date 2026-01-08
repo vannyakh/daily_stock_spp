@@ -1,9 +1,9 @@
 {
   "ticker": "GPOX",
-  "timestamp": "2026-01-07T05:10:34.122533",
+  "timestamp": "2026-01-08T05:14:50.780087",
   "intraday_data": {
     "status": "success",
-    "rows": 5,
+    "rows": 4,
     "data": [
       {
         "Close": 0.09000000357627869,
@@ -13,50 +13,73 @@
         "Volume": 0
       },
       {
-        "Close": 0.08500000089406967,
-        "High": 0.08500000089406967,
-        "Low": 0.08500000089406967,
-        "Open": 0.08500000089406967,
-        "Volume": 9940
+        "Close": 0.08219999819993973,
+        "High": 0.08219999819993973,
+        "Low": 0.08219999819993973,
+        "Open": 0.08219999819993973,
+        "Volume": 0
       },
       {
-        "Close": 0.10000000149011612,
-        "High": 0.10000000149011612,
-        "Low": 0.10000000149011612,
-        "Open": 0.10000000149011612,
-        "Volume": 1000
-      },
-      {
-        "Close": 0.09300000220537186,
-        "High": 0.09300000220537186,
-        "Low": 0.09300000220537186,
-        "Open": 0.09300000220537186,
-        "Volume": 2
+        "Close": 0.08110000193119049,
+        "High": 0.08110000193119049,
+        "Low": 0.08110000193119049,
+        "Open": 0.08110000193119049,
+        "Volume": 9000
       },
       {
         "Close": 0.09000000357627869,
         "High": 0.09000000357627869,
         "Low": 0.09000000357627869,
         "Open": 0.09000000357627869,
-        "Volume": 10000
+        "Volume": 100
       }
     ]
   },
   "stock_info": {
     "status": "error",
-    "message": "argument of type 'NoneType' is not iterable"
+    "message": "Too Many Requests. Rate limited. Try after a while."
   },
   "financials": {
     "income_statement": {
-      "status": "success",
-      "rows": 39,
-      "columns": [
-        "2025-04-30 00:00:00",
-        "2024-04-30 00:00:00",
-        "2023-04-30 00:00:00",
-        "2022-04-30 00:00:00",
-        "2021-04-30 00:00:00"
-      ],
-      "data": [
-        {
-          
+      "status": "no_data"
+    },
+    "balance_sheet": {
+      "status": "no_data"
+    },
+    "cash_flow": {
+      "status": "no_data"
+    }
+  },
+  "options_data": {
+    "status": "error",
+    "error_message": "Too Many Requests. Rate limited. Try after a while."
+  },
+  "news_data": {
+    "news": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    },
+    "recommendations": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  },
+  "holders_data": {
+    "major_holders": {
+      "status": "error"
+    },
+    "institutional_holders": {
+      "status": "error"
+    }
+  },
+  "earnings_data": {
+    "earnings": {
+      "status": "error",
+      "message": "'NoneType' object has no attribute 'empty'"
+    },
+    "calendar": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  }
+}

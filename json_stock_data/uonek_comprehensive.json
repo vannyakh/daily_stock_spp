@@ -1,24 +1,591 @@
 {
   "ticker": "UONEK",
-  "timestamp": "2026-01-07T05:18:18.894006",
+  "timestamp": "2026-01-08T05:23:23.075066",
   "intraday_data": {
     "status": "no_data",
     "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
-    "message": "argument of type 'NoneType' is not iterable"
+    "message": "Too Many Requests. Rate limited. Try after a while."
   },
   "financials": {
     "income_statement": {
+      "status": "no_data"
+    },
+    "balance_sheet": {
+      "status": "no_data"
+    },
+    "cash_flow": {
+      "status": "no_data"
+    }
+  },
+  "options_data": {
+    "status": "error",
+    "error_message": "Too Many Requests. Rate limited. Try after a while."
+  },
+  "news_data": {
+    "news": {
       "status": "success",
-      "rows": 47,
-      "columns": [
-        "2024-12-31 00:00:00",
-        "2023-12-31 00:00:00",
-        "2022-12-31 00:00:00",
-        "2021-12-31 00:00:00"
-      ],
+      "count": 10,
       "data": [
         {
-          
+          "id": "1dd9c863-91e7-3ea4-a7d1-366b9998a100",
+          "content": {
+            "id": "1dd9c863-91e7-3ea4-a7d1-366b9998a100",
+            "contentType": "STORY",
+            "title": "Urban One Inc (UONE) Q3 2025 Earnings Call Highlights: Strategic Cost Savings and Market ...",
+            "description": "",
+            "summary": "Despite a decline in net revenue, Urban One Inc (UONE) showcases resilience with significant cost savings and strategic market positioning for future growth.",
+            "pubDate": "2025-11-04T21:13:44Z",
+            "displayTime": "2025-11-04T21:13:44Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": {
+              "originalUrl": "https://media.zenfs.com/en/us.finance.gurufocus/5384e814d84db0e7e810a7f95c537711",
+              "originalWidth": 500,
+              "originalHeight": 500,
+              "caption": "",
+              "resolutions": [
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/TOHPtUyrN8YdcgWMO5DrZg--~B/aD01MDA7dz01MDA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/us.finance.gurufocus/5384e814d84db0e7e810a7f95c537711",
+                  "width": 500,
+                  "height": 500,
+                  "tag": "original"
+                },
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/VvOaoPr06mSiceEbBFnXAg--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/us.finance.gurufocus/5384e814d84db0e7e810a7f95c537711",
+                  "width": 170,
+                  "height": 128,
+                  "tag": "170x128"
+                }
+              ]
+            },
+            "provider": {
+              "displayName": "GuruFocus.com",
+              "url": "http://www.gurufocus.com/"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/urban-one-inc-uone-q3-211344855.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/urban-one-inc-uone-q3-211344855.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        },
+        {
+          "id": "22075b82-f1d2-3055-a7da-9b97122a87d1",
+          "content": {
+            "id": "22075b82-f1d2-3055-a7da-9b97122a87d1",
+            "contentType": "STORY",
+            "title": "Urban One: Q3 Earnings Snapshot",
+            "description": "",
+            "summary": "SILVER SPRING, Md. AP) \u2014 Urban One Inc. UONEK) on Tuesday reported a loss of $2.8 million in its third quarter.",
+            "pubDate": "2025-11-04T12:21:31Z",
+            "displayTime": "2025-11-04T12:21:31Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": null,
+            "provider": {
+              "displayName": "Associated Press Finance",
+              "url": "http://www.ap.org/"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/urban-one-q3-earnings-snapshot-122131759.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/urban-one-q3-earnings-snapshot-122131759.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        },
+        {
+          "id": "a021acf8-c9c8-3b15-8203-32b300b5b191",
+          "content": {
+            "id": "a021acf8-c9c8-3b15-8203-32b300b5b191",
+            "contentType": "STORY",
+            "title": "Urban One Second Quarter 2025 Earnings: US$1.74 loss per share (vs US$0.94 loss in 2Q 2024)",
+            "description": "",
+            "summary": "NasdaqCM:UONE.K 1 Year Share Price vs Fair Value Explore Urban One's Fair Values from the Community and select yours...",
+            "pubDate": "2025-08-15T10:13:06Z",
+            "displayTime": "2025-08-15T10:13:06Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": {
+              "originalUrl": "https://media.zenfs.com/en/simply_wall_st__316/78a8c60a6283aea0450523395306d38c",
+              "originalWidth": 945,
+              "originalHeight": 636,
+              "caption": "",
+              "resolutions": [
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/5Vpve0Pc2F3m_L3fs2p_dQ--~B/aD02MzY7dz05NDU7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/simply_wall_st__316/78a8c60a6283aea0450523395306d38c",
+                  "width": 945,
+                  "height": 636,
+                  "tag": "original"
+                },
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/5K6kmrQzRk.k.11fs9N_QA--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/simply_wall_st__316/78a8c60a6283aea0450523395306d38c",
+                  "width": 170,
+                  "height": 128,
+                  "tag": "170x128"
+                }
+              ]
+            },
+            "provider": {
+              "displayName": "Simply Wall St.",
+              "url": "https://simplywall.st/"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/urban-one-second-quarter-2025-101306664.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/urban-one-second-quarter-2025-101306664.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        },
+        {
+          "id": "3d74b766-a4ae-33cf-9f96-e958147382d6",
+          "content": {
+            "id": "3d74b766-a4ae-33cf-9f96-e958147382d6",
+            "contentType": "STORY",
+            "title": "Urban One Inc (UONE) Q2 2025 Earnings Call Highlights: Navigating Revenue Challenges and Debt ...",
+            "description": "",
+            "summary": "Urban One Inc (UONE) reports mixed results with significant revenue declines but successful debt reduction and cost management strategies.",
+            "pubDate": "2025-08-14T19:01:33Z",
+            "displayTime": "2025-08-14T19:01:33Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": {
+              "originalUrl": "https://media.zenfs.com/en/us.finance.gurufocus/5384e814d84db0e7e810a7f95c537711",
+              "originalWidth": 500,
+              "originalHeight": 500,
+              "caption": "",
+              "resolutions": [
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/TOHPtUyrN8YdcgWMO5DrZg--~B/aD01MDA7dz01MDA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/us.finance.gurufocus/5384e814d84db0e7e810a7f95c537711",
+                  "width": 500,
+                  "height": 500,
+                  "tag": "original"
+                },
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/VvOaoPr06mSiceEbBFnXAg--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/us.finance.gurufocus/5384e814d84db0e7e810a7f95c537711",
+                  "width": 170,
+                  "height": 128,
+                  "tag": "170x128"
+                }
+              ]
+            },
+            "provider": {
+              "displayName": "GuruFocus.com",
+              "url": "http://www.gurufocus.com/"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/urban-one-inc-uone-q2-190133646.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/urban-one-inc-uone-q2-190133646.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        },
+        {
+          "id": "9a8b9114-1fd0-35ec-a576-f608dfb0de07",
+          "content": {
+            "id": "9a8b9114-1fd0-35ec-a576-f608dfb0de07",
+            "contentType": "STORY",
+            "title": "Urban One: Q2 Earnings Snapshot",
+            "description": "",
+            "summary": "UONEK) on Wednesday reported a loss of $77.9 million in its second quarter. The Silver Spring, Maryland-based company said it had a loss of $1.74 per share. Earnings, adjusted for one-time gains and costs, were 49 cents per share.",
+            "pubDate": "2025-08-13T11:10:31Z",
+            "displayTime": "2025-08-13T11:10:31Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": null,
+            "provider": {
+              "displayName": "Associated Press Finance",
+              "url": "http://www.ap.org/"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/urban-one-q2-earnings-snapshot-111031396.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/urban-one-q2-earnings-snapshot-111031396.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        },
+        {
+          "id": "2078cfe5-f146-3ea9-8b1b-514c736c53fe",
+          "content": {
+            "id": "2078cfe5-f146-3ea9-8b1b-514c736c53fe",
+            "contentType": "STORY",
+            "title": "Morning Movers: UnitedHealth sinks following CEO exit and outlook suspension",
+            "description": "",
+            "summary": "Stock futures are mixed, signaling a potential pause following Monday\u2019s rally driven by optimism over a temporary U.S.-China trade deal. In corporate news, UnitedHealth Group shares plunged 10% after CEO Andrew Witty stepped down, with former CEO Stephen Hemsley stepping in. The company also suspended its outlook due to rising medical costs.\u200b Bitcoin has regained value above $103,800, aligning with Coinbase\u2019s rise after inclusion into the S&P 500.\u200b In pre-market trading, S&P 500 futures were fla",
+            "pubDate": "2025-05-14T13:18:35Z",
+            "displayTime": "2025-05-14T13:18:35Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": {
+              "originalUrl": "https://media.zenfs.com/en/tipranks_452/25f7b7a3880f79024b9dce2b5433a354",
+              "originalWidth": 192,
+              "originalHeight": 192,
+              "caption": "https://www.tipranks.com/news/the-fly/morning-movers-unitedhealth-sinks-following-ceo-exit-and-outlook-suspension",
+              "resolutions": [
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/XLdtx3g3yK6Sfwm6IK0xBw--~B/aD0xOTI7dz0xOTI7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/tipranks_452/25f7b7a3880f79024b9dce2b5433a354",
+                  "width": 192,
+                  "height": 192,
+                  "tag": "original"
+                },
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/YuWny00VnND8HcKFhQza6g--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/tipranks_452/25f7b7a3880f79024b9dce2b5433a354",
+                  "width": 170,
+                  "height": 128,
+                  "tag": "170x128"
+                }
+              ]
+            },
+            "provider": {
+              "displayName": "TipRanks",
+              "url": "https://www.tipranks.com/"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/morning-movers-unitedhealth-sinks-following-131835232.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/morning-movers-unitedhealth-sinks-following-131835232.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        },
+        {
+          "id": "0097db9b-f7d4-30f1-ae8a-9a766dd5bc36",
+          "content": {
+            "id": "0097db9b-f7d4-30f1-ae8a-9a766dd5bc36",
+            "contentType": "STORY",
+            "title": "Urban One Inc (UONE) Q1 2025 Earnings Call Highlights: Navigating Revenue Challenges and ...",
+            "description": "",
+            "summary": "Despite a decline in revenue, Urban One Inc (UONE) focuses on cost-cutting and debt reduction to strengthen its financial position.",
+            "pubDate": "2025-05-14T07:12:02Z",
+            "displayTime": "2025-05-14T07:12:02Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": {
+              "originalUrl": "https://media.zenfs.com/en/us.finance.gurufocus/5384e814d84db0e7e810a7f95c537711",
+              "originalWidth": 500,
+              "originalHeight": 500,
+              "caption": "",
+              "resolutions": [
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/TOHPtUyrN8YdcgWMO5DrZg--~B/aD01MDA7dz01MDA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/us.finance.gurufocus/5384e814d84db0e7e810a7f95c537711",
+                  "width": 500,
+                  "height": 500,
+                  "tag": "original"
+                },
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/VvOaoPr06mSiceEbBFnXAg--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/us.finance.gurufocus/5384e814d84db0e7e810a7f95c537711",
+                  "width": 170,
+                  "height": 128,
+                  "tag": "170x128"
+                }
+              ]
+            },
+            "provider": {
+              "displayName": "GuruFocus.com",
+              "url": "http://www.gurufocus.com/"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/urban-one-inc-uone-q1-071202084.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/urban-one-inc-uone-q1-071202084.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        },
+        {
+          "id": "245c3b11-583b-3ab3-8b68-b91858c525cb",
+          "content": {
+            "id": "245c3b11-583b-3ab3-8b68-b91858c525cb",
+            "contentType": "STORY",
+            "title": "Urban One: Q1 Earnings Snapshot",
+            "description": "",
+            "summary": "SILVER SPRING, Md. AP) \u2014 Urban One Inc. UONEK) on Tuesday reported a loss of $11.7 million in its first quarter.",
+            "pubDate": "2025-05-13T10:39:11Z",
+            "displayTime": "2025-05-13T10:39:11Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": null,
+            "provider": {
+              "displayName": "Associated Press Finance",
+              "url": "http://www.ap.org/"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/urban-one-q1-earnings-snapshot-103911948.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/urban-one-q1-earnings-snapshot-103911948.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        },
+        {
+          "id": "06010e55-fdf7-3a85-aef5-743991aba027",
+          "content": {
+            "id": "06010e55-fdf7-3a85-aef5-743991aba027",
+            "contentType": "STORY",
+            "title": "Urban One Inc (UONE) Q4 2024 Earnings Call Highlights: Navigating Challenges with Strategic ...",
+            "description": "",
+            "summary": "Despite a net loss and revenue declines in key segments, Urban One Inc (UONE) focuses on liquidity strength and debt reduction to steer through fiscal challenges.",
+            "pubDate": "2025-03-28T07:02:07Z",
+            "displayTime": "2025-03-28T07:02:07Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": {
+              "originalUrl": "https://media.zenfs.com/en/us.finance.gurufocus/5384e814d84db0e7e810a7f95c537711",
+              "originalWidth": 500,
+              "originalHeight": 500,
+              "caption": "",
+              "resolutions": [
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/TOHPtUyrN8YdcgWMO5DrZg--~B/aD01MDA7dz01MDA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/us.finance.gurufocus/5384e814d84db0e7e810a7f95c537711",
+                  "width": 500,
+                  "height": 500,
+                  "tag": "original"
+                },
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/VvOaoPr06mSiceEbBFnXAg--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/us.finance.gurufocus/5384e814d84db0e7e810a7f95c537711",
+                  "width": 170,
+                  "height": 128,
+                  "tag": "170x128"
+                }
+              ]
+            },
+            "provider": {
+              "displayName": "GuruFocus.com",
+              "url": "http://www.gurufocus.com/"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/urban-one-inc-uone-q4-070207522.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/urban-one-inc-uone-q4-070207522.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        },
+        {
+          "id": "9d1c9731-e75a-3c3f-a586-2eb3ded51b70",
+          "content": {
+            "id": "9d1c9731-e75a-3c3f-a586-2eb3ded51b70",
+            "contentType": "STORY",
+            "title": "Urban One: Q4 Earnings Snapshot",
+            "description": "",
+            "summary": "UONEK) on Thursday reported a loss of $35.7 million in its fourth quarter. The Silver Spring, Maryland-based company said it had a loss of 78 cents per share. Losses, adjusted for asset impairment costs, were 25 cents per share.",
+            "pubDate": "2025-03-27T11:06:16Z",
+            "displayTime": "2025-03-27T11:06:16Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": null,
+            "provider": {
+              "displayName": "Associated Press Finance",
+              "url": "http://www.ap.org/"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/urban-one-q4-earnings-snapshot-110616611.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/urban-one-q4-earnings-snapshot-110616611.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        }
+      ]
+    },
+    "recommendations": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  },
+  "holders_data": {
+    "major_holders": {
+      "status": "error"
+    },
+    "institutional_holders": {
+      "status": "error"
+    }
+  },
+  "earnings_data": {
+    "earnings": {
+      "status": "error",
+      "message": "'NoneType' object has no attribute 'empty'"
+    },
+    "calendar": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  }
+}

@@ -1,10 +1,25 @@
 {
   "ticker": "SRNE",
-  "timestamp": "2026-01-07T05:17:59.124134",
+  "timestamp": "2026-01-08T05:23:01.364058",
   "intraday_data": {
     "status": "success",
-    "rows": 0,
-    "data": []
+    "rows": 2,
+    "data": [
+      {
+        "Close EBRCZ": 0.5799999833106995,
+        "High EBRCZ": 0.5799999833106995,
+        "Low EBRCZ": 0.5799999833106995,
+        "Open EBRCZ": 0.5799999833106995,
+        "Volume EBRCZ": 0
+      },
+      {
+        "Close EBRCZ": 0.5849999785423279,
+        "High EBRCZ": 0.5849999785423279,
+        "Low EBRCZ": 0.5849999785423279,
+        "Open EBRCZ": 0.5849999785423279,
+        "Volume EBRCZ": 0
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -30,16 +45,63 @@
       "status": "no_data"
     },
     "recommendations": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
+      "status": "no_data"
     }
   },
   "holders_data": {
     "major_holders": {
-      "status": "error"
+      "status": "success",
+      "data": [
+        {
+          "Value": 0.0
+        },
+        {
+          "Value": 0.00029999999
+        },
+        {
+          "Value": 0.00029999999
+        },
+        {
+          "Value": 7.0
+        }
+      ]
     },
     "institutional_holders": {
-      "status": "error"
+      "status": "success",
+      "data": [
+        {
+          "Date Reported": "2025-09-30 00:00:00",
+          "Holder": "Vermillion Wealth Management, Inc.                          ",
+          "pctHeld": 0.0,
+          "Shares": 70,
+          "Value": 0,
+          "pctChange": 1.0
+        },
+        {
+          "Date Reported": "2025-09-30 00:00:00",
+          "Holder": "Oakworth Capital, Inc.",
+          "pctHeld": 0.0,
+          "Shares": 350,
+          "Value": 1,
+          "pctChange": 1.0
+        },
+        {
+          "Date Reported": "2025-09-30 00:00:00",
+          "Holder": "Huntington National Bank",
+          "pctHeld": 0.0,
+          "Shares": 5001,
+          "Value": 15,
+          "pctChange": 0.0
+        },
+        {
+          "Date Reported": "2025-09-30 00:00:00",
+          "Holder": "Financial Gravity Asset Management, Inc.",
+          "pctHeld": 0.0,
+          "Shares": 18,
+          "Value": 0,
+          "pctChange": 0.0
+        }
+      ]
     }
   },
   "earnings_data": {
@@ -49,7 +111,7 @@
     },
     "calendar": {
       "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
+      "message": "'dict' object has no attribute 'empty'"
     }
   }
 }

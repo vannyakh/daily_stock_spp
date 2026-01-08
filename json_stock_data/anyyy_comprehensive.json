@@ -1,16 +1,16 @@
 {
   "ticker": "ANYYY",
-  "timestamp": "2026-01-07T04:30:07.854670",
+  "timestamp": "2026-01-08T04:30:18.982105",
   "intraday_data": {
     "status": "success",
-    "rows": 9,
+    "rows": 10,
     "data": [
       {
         "Close": 14.5,
         "High": 14.5,
         "Low": 14.5,
         "Open": 14.5,
-        "Volume": 198
+        "Volume": 0
       },
       {
         "Close": 14.510000228881836,
@@ -67,6 +67,13 @@
         "Low": 14.600000381469727,
         "Open": 14.600000381469727,
         "Volume": 6697
+      },
+      {
+        "Close": 14.470000267028809,
+        "High": 14.470000267028809,
+        "Low": 14.470000267028809,
+        "Open": 14.470000267028809,
+        "Volume": 0
       }
     ]
   },
@@ -402,7 +409,8 @@
       ]
     },
     "recommendations": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   },
   "holders_data": {

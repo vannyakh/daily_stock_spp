@@ -1,95 +1,9 @@
 {
   "ticker": "PMAX",
-  "timestamp": "2026-01-07T05:07:21.641444",
+  "timestamp": "2026-01-08T05:11:30.589603",
   "intraday_data": {
-    "status": "success",
-    "rows": 12,
-    "data": [
-      {
-        "Close CARV": 1.399999976158142,
-        "High CARV": 1.399999976158142,
-        "Low CARV": 1.399999976158142,
-        "Open CARV": 1.399999976158142,
-        "Volume CARV": 0
-      },
-      {
-        "Close CARV": 1.4500000476837158,
-        "High CARV": 1.4500000476837158,
-        "Low CARV": 1.4500000476837158,
-        "Open CARV": 1.4500000476837158,
-        "Volume CARV": 505
-      },
-      {
-        "Close CARV": 1.4500000476837158,
-        "High CARV": 1.4500000476837158,
-        "Low CARV": 1.4500000476837158,
-        "Open CARV": 1.4500000476837158,
-        "Volume CARV": 1000
-      },
-      {
-        "Close CARV": 1.4900000095367432,
-        "High CARV": 1.4900000095367432,
-        "Low CARV": 1.4900000095367432,
-        "Open CARV": 1.4900000095367432,
-        "Volume CARV": 3
-      },
-      {
-        "Close CARV": 1.399999976158142,
-        "High CARV": 1.399999976158142,
-        "Low CARV": 1.399999976158142,
-        "Open CARV": 1.399999976158142,
-        "Volume CARV": 125
-      },
-      {
-        "Close CARV": 1.4500000476837158,
-        "High CARV": 1.4500000476837158,
-        "Low CARV": 1.4500000476837158,
-        "Open CARV": 1.4500000476837158,
-        "Volume CARV": 200
-      },
-      {
-        "Close CARV": 1.4500000476837158,
-        "High CARV": 1.4500000476837158,
-        "Low CARV": 1.4500000476837158,
-        "Open CARV": 1.4500000476837158,
-        "Volume CARV": 1105
-      },
-      {
-        "Close CARV": 1.5,
-        "High CARV": 1.5,
-        "Low CARV": 1.5,
-        "Open CARV": 1.5,
-        "Volume CARV": 339
-      },
-      {
-        "Close CARV": 1.4600000381469727,
-        "High CARV": 1.4600000381469727,
-        "Low CARV": 1.4600000381469727,
-        "Open CARV": 1.4600000381469727,
-        "Volume CARV": 0
-      },
-      {
-        "Close CARV": 1.4500000476837158,
-        "High CARV": 1.4500000476837158,
-        "Low CARV": 1.4500000476837158,
-        "Open CARV": 1.4500000476837158,
-        "Volume CARV": 2355
-      },
-      {
-        "Close CARV": 1.4500000476837158,
-        "High CARV": 1.4500000476837158,
-        "Low CARV": 1.4500000476837158,
-        "Open CARV": 1.4500000476837158,
-        "Volume CARV": 0
-      },
-      {
-        "Close CARV": 1.5,
-        "High CARV": 1.5,
-        "Low CARV": 1.5,
-        "Open CARV": 1.5,
-        "Volume CARV": 0
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -115,7 +29,8 @@
       "status": "no_data"
     },
     "recommendations": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   },
   "holders_data": {

@@ -1,9 +1,67 @@
 {
   "ticker": "ITHUF",
-  "timestamp": "2026-01-07T05:03:13.571470",
+  "timestamp": "2026-01-08T05:06:56.749904",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 8,
+    "data": [
+      {
+        "Close": 0.004000000189989805,
+        "High": 0.004000000189989805,
+        "Low": 0.004000000189989805,
+        "Open": 0.004000000189989805,
+        "Volume": 0
+      },
+      {
+        "Close": 0.003700000001117587,
+        "High": 0.003700000001117587,
+        "Low": 0.003700000001117587,
+        "Open": 0.003700000001117587,
+        "Volume": 0
+      },
+      {
+        "Close": 0.003700000001117587,
+        "High": 0.003700000001117587,
+        "Low": 0.003700000001117587,
+        "Open": 0.003700000001117587,
+        "Volume": 316
+      },
+      {
+        "Close": 0.003700000001117587,
+        "High": 0.003700000001117587,
+        "Low": 0.003700000001117587,
+        "Open": 0.003700000001117587,
+        "Volume": 0
+      },
+      {
+        "Close": 0.0038999998942017555,
+        "High": 0.0038999998942017555,
+        "Low": 0.0038999998942017555,
+        "Open": 0.0038999998942017555,
+        "Volume": 16816
+      },
+      {
+        "Close": 0.004000000189989805,
+        "High": 0.004000000189989805,
+        "Low": 0.004000000189989805,
+        "Open": 0.004000000189989805,
+        "Volume": 10000
+      },
+      {
+        "Close": 0.004000000189989805,
+        "High": 0.004000000189989805,
+        "Low": 0.004000000189989805,
+        "Open": 0.004000000189989805,
+        "Volume": 77000
+      },
+      {
+        "Close": 0.004000000189989805,
+        "High": 0.004000000189989805,
+        "Low": 0.004000000189989805,
+        "Open": 0.004000000189989805,
+        "Volume": 70000
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -14,14 +72,41 @@
       "status": "no_data"
     },
     "balance_sheet": {
-      "status": "success",
-      "rows": 71,
-      "columns": [
-        "2024-12-31 00:00:00",
-        "2023-12-31 00:00:00",
-        "2022-12-31 00:00:00",
-        "2021-12-31 00:00:00"
-      ],
-      "data": [
-        {
-          
+      "status": "no_data"
+    },
+    "cash_flow": {
+      "status": "no_data"
+    }
+  },
+  "options_data": {
+    "status": "error",
+    "error_message": "Too Many Requests. Rate limited. Try after a while."
+  },
+  "news_data": {
+    "news": {
+      "status": "no_data"
+    },
+    "recommendations": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  },
+  "holders_data": {
+    "major_holders": {
+      "status": "error"
+    },
+    "institutional_holders": {
+      "status": "error"
+    }
+  },
+  "earnings_data": {
+    "earnings": {
+      "status": "error",
+      "message": "'NoneType' object has no attribute 'empty'"
+    },
+    "calendar": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  }
+}

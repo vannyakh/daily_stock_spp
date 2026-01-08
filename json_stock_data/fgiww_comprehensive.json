@@ -1,18 +1,9 @@
 {
   "ticker": "FGIWW",
-  "timestamp": "2026-01-07T05:23:34.218632",
+  "timestamp": "2026-01-08T05:29:00.120131",
   "intraday_data": {
-    "status": "success",
-    "rows": 1,
-    "data": [
-      {
-        "Close": 0.042500000447034836,
-        "High": 0.042500000447034836,
-        "Low": 0.042500000447034836,
-        "Open": 0.042500000447034836,
-        "Volume": 0
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -613,7 +604,8 @@
       ]
     },
     "recommendations": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   },
   "holders_data": {

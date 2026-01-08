@@ -1,60 +1,9 @@
 {
   "ticker": "BYND",
-  "timestamp": "2026-01-07T04:52:56.186501",
+  "timestamp": "2026-01-08T04:55:38.429380",
   "intraday_data": {
-    "status": "success",
-    "rows": 7,
-    "data": [
-      {
-        "Close LEGT": 10.850000381469727,
-        "High LEGT": 10.850000381469727,
-        "Low LEGT": 10.850000381469727,
-        "Open LEGT": 10.850000381469727,
-        "Volume LEGT": 0
-      },
-      {
-        "Close LEGT": 10.880000114440918,
-        "High LEGT": 10.880000114440918,
-        "Low LEGT": 10.880000114440918,
-        "Open LEGT": 10.880000114440918,
-        "Volume LEGT": 139
-      },
-      {
-        "Close LEGT": 10.880000114440918,
-        "High LEGT": 10.880000114440918,
-        "Low LEGT": 10.880000114440918,
-        "Open LEGT": 10.880000114440918,
-        "Volume LEGT": 103
-      },
-      {
-        "Close LEGT": 10.880000114440918,
-        "High LEGT": 10.880000114440918,
-        "Low LEGT": 10.880000114440918,
-        "Open LEGT": 10.880000114440918,
-        "Volume LEGT": 0
-      },
-      {
-        "Close LEGT": 10.880000114440918,
-        "High LEGT": 10.880000114440918,
-        "Low LEGT": 10.880000114440918,
-        "Open LEGT": 10.880000114440918,
-        "Volume LEGT": 656
-      },
-      {
-        "Close LEGT": 10.875,
-        "High LEGT": 10.875,
-        "Low LEGT": 10.875,
-        "Open LEGT": 10.875,
-        "Volume LEGT": 486
-      },
-      {
-        "Close LEGT": 10.880000114440918,
-        "High LEGT": 10.880000114440918,
-        "Low LEGT": 10.880000114440918,
-        "Open LEGT": 10.880000114440918,
-        "Volume LEGT": 225
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -80,6 +29,48 @@
       "status": "success",
       "count": 10,
       "data": [
+        {
+          "id": "c8f8f406-6d34-3c41-b5fb-638513fdd548",
+          "content": {
+            "id": "c8f8f406-6d34-3c41-b5fb-638513fdd548",
+            "contentType": "STORY",
+            "title": "BC-Most Active Stocks",
+            "description": "",
+            "summary": "HIVE Digital Technologies Ltd. 18,030,962 3.2599",
+            "pubDate": "2026-01-07T15:30:19Z",
+            "displayTime": "2026-01-07T15:30:19Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": null,
+            "provider": {
+              "displayName": "Associated Press Finance",
+              "url": "http://www.ap.org/"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/bc-most-active-stocks-153019063.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/bc-most-active-stocks-153019063.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        },
         {
           "id": "c1b37664-c8d2-31f4-9378-77af0e4b5b92",
           "content": {
@@ -447,48 +438,6 @@
           }
         },
         {
-          "id": "b34ca9d0-65e7-3d0d-be97-87e1c0b9de88",
-          "content": {
-            "id": "b34ca9d0-65e7-3d0d-be97-87e1c0b9de88",
-            "contentType": "STORY",
-            "title": "BC-Most Active Stocks",
-            "description": "",
-            "summary": "Uni-Fuels Holdings Ltd. 24,623,978 1.47",
-            "pubDate": "2026-01-05T15:30:17Z",
-            "displayTime": "2026-01-05T15:30:17Z",
-            "isHosted": true,
-            "bypassModal": false,
-            "previewUrl": null,
-            "thumbnail": null,
-            "provider": {
-              "displayName": "Associated Press Finance",
-              "url": "http://www.ap.org/"
-            },
-            "canonicalUrl": {
-              "url": "https://finance.yahoo.com/news/bc-most-active-stocks-153017865.html",
-              "site": "finance",
-              "region": "US",
-              "lang": "en-US"
-            },
-            "clickThroughUrl": {
-              "url": "https://finance.yahoo.com/news/bc-most-active-stocks-153017865.html",
-              "site": "finance",
-              "region": "US",
-              "lang": "en-US"
-            },
-            "metadata": {
-              "editorsPick": false
-            },
-            "finance": {
-              "premiumFinance": {
-                "isPremiumNews": false,
-                "isPremiumFreeNews": false
-              }
-            },
-            "storyline": null
-          }
-        },
-        {
           "id": "ceae5417-1b23-32d3-9f6a-da481eada6d5",
           "content": {
             "id": "ceae5417-1b23-32d3-9f6a-da481eada6d5",
@@ -674,7 +623,8 @@
       ]
     },
     "recommendations": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   },
   "holders_data": {

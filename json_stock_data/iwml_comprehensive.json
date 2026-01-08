@@ -1,25 +1,9 @@
 {
   "ticker": "IWML",
-  "timestamp": "2026-01-07T05:26:20.522585",
+  "timestamp": "2026-01-08T05:32:04.713540",
   "intraday_data": {
-    "status": "success",
-    "rows": 2,
-    "data": [
-      {
-        "Close": 24.601999282836914,
-        "High": 24.601999282836914,
-        "Low": 23.847900390625,
-        "Open": 23.847900390625,
-        "Volume": 0
-      },
-      {
-        "Close": 25.27519989013672,
-        "High": 25.27519989013672,
-        "Low": 25.27519989013672,
-        "Open": 25.27519989013672,
-        "Volume": 0
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -45,7 +29,8 @@
       "status": "no_data"
     },
     "recommendations": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   },
   "holders_data": {

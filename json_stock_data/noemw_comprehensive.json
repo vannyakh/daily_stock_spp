@@ -1,6 +1,6 @@
 {
   "ticker": "NOEMW",
-  "timestamp": "2026-01-07T05:22:22.747673",
+  "timestamp": "2026-01-08T05:27:48.984293",
   "intraday_data": {
     "status": "success",
     "rows": 0,
@@ -30,15 +30,16 @@
       "status": "no_data"
     },
     "recommendations": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   },
   "holders_data": {
     "major_holders": {
-      "status": "no_data"
+      "status": "error"
     },
     "institutional_holders": {
-      "status": "no_data"
+      "status": "error"
     }
   },
   "earnings_data": {
@@ -48,7 +49,7 @@
     },
     "calendar": {
       "status": "error",
-      "message": "'dict' object has no attribute 'empty'"
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   }
 }

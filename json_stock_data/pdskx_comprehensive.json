@@ -1,25 +1,9 @@
 {
   "ticker": "PDSKX",
-  "timestamp": "2026-01-07T05:23:17.934302",
+  "timestamp": "2026-01-08T05:28:45.693304",
   "intraday_data": {
-    "status": "success",
-    "rows": 2,
-    "data": [
-      {
-        "Close": 27.1299991607666,
-        "High": 27.1299991607666,
-        "Low": 27.1299991607666,
-        "Open": 27.1299991607666,
-        "Volume": 0
-      },
-      {
-        "Close": 27.149999618530273,
-        "High": 27.149999618530273,
-        "Low": 27.149999618530273,
-        "Open": 27.149999618530273,
-        "Volume": 0
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -45,7 +29,8 @@
       "status": "no_data"
     },
     "recommendations": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   },
   "holders_data": {
