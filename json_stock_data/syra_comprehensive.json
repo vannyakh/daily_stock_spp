@@ -1,6 +1,6 @@
 {
   "ticker": "SYRA",
-  "timestamp": "2026-01-08T05:13:25.277729",
+  "timestamp": "2026-01-09T05:10:07.079673",
   "intraday_data": {
     "status": "no_data",
     "message": "No intraday data available"
@@ -135,47 +135,16 @@
       ]
     },
     "recommendations": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   },
   "holders_data": {
     "major_holders": {
-      "status": "success",
-      "data": [
-        {
-          "Value": 0.33729
-        },
-        {
-          "Value": 0.0
-        },
-        {
-          "Value": 0.0
-        },
-        {
-          "Value": 0.0
-        }
-      ]
+      "status": "error"
     },
     "institutional_holders": {
-      "status": "success",
-      "data": [
-        {
-          "Date Reported": "2025-06-30 00:00:00",
-          "Holder": "Jane Street Group, LLC",
-          "pctHeld": 0.013200001,
-          "Shares": 150232,
-          "Value": 12769,
-          "pctChange": 1.0
-        },
-        {
-          "Date Reported": "2025-06-30 00:00:00",
-          "Holder": "Xtx Topco Ltd",
-          "pctHeld": 0.002,
-          "Shares": 22301,
-          "Value": 1895,
-          "pctChange": 1.0
-        }
-      ]
+      "status": "error"
     }
   },
   "earnings_data": {
@@ -185,7 +154,7 @@
     },
     "calendar": {
       "status": "error",
-      "message": "'dict' object has no attribute 'empty'"
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   }
 }

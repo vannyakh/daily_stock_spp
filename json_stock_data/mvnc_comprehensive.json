@@ -1,32 +1,9 @@
 {
   "ticker": "MVNC",
-  "timestamp": "2026-01-08T05:13:13.595430",
+  "timestamp": "2026-01-09T05:09:57.281927",
   "intraday_data": {
-    "status": "success",
-    "rows": 3,
-    "data": [
-      {
-        "Close ZDPY": 0.4505000114440918,
-        "High ZDPY": 0.4505000114440918,
-        "Low ZDPY": 0.4505000114440918,
-        "Open ZDPY": 0.4505000114440918,
-        "Volume ZDPY": 0
-      },
-      {
-        "Close ZDPY": 0.4505000114440918,
-        "High ZDPY": 0.4505000114440918,
-        "Low ZDPY": 0.4505000114440918,
-        "Open ZDPY": 0.4505000114440918,
-        "Volume ZDPY": 200
-      },
-      {
-        "Close ZDPY": 0.4505999982357025,
-        "High ZDPY": 0.4505999982357025,
-        "Low ZDPY": 0.4505999982357025,
-        "Open ZDPY": 0.4505999982357025,
-        "Volume ZDPY": 0
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -49,10 +26,12 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   },
   "holders_data": {

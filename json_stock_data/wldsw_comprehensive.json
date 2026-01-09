@@ -1,6 +1,6 @@
 {
   "ticker": "WLDSW",
-  "timestamp": "2026-01-08T05:26:28.499740",
+  "timestamp": "2026-01-09T05:21:58.937724",
   "intraday_data": {
     "status": "no_data",
     "message": "No intraday data available"
@@ -604,16 +604,57 @@
       ]
     },
     "recommendations": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
+      "status": "no_data"
     }
   },
   "holders_data": {
     "major_holders": {
-      "status": "error"
+      "status": "no_data"
     },
     "institutional_holders": {
-      "status": "error"
+      "status": "success",
+      "data": [
+        {
+          "Date Reported": "2025-09-30 00:00:00",
+          "Holder": "Walleye Capital LLC",
+          "pctHeld": 0.17959999,
+          "Shares": 17645,
+          "Value": 34407,
+          "pctChange": 0.0
+        },
+        {
+          "Date Reported": "2025-09-30 00:00:00",
+          "Holder": "Clear Street Group Inc.",
+          "pctHeld": 0.16690001,
+          "Shares": 16400,
+          "Value": 31980,
+          "pctChange": 1.0
+        },
+        {
+          "Date Reported": "2025-09-30 00:00:00",
+          "Holder": "Bank of America Corporation",
+          "pctHeld": 0.0064,
+          "Shares": 625,
+          "Value": 1218,
+          "pctChange": 0.0
+        },
+        {
+          "Date Reported": "2025-09-30 00:00:00",
+          "Holder": "FMR, LLC",
+          "pctHeld": 0.0005,
+          "Shares": 46,
+          "Value": 89,
+          "pctChange": 1.0
+        },
+        {
+          "Date Reported": "2025-09-30 00:00:00",
+          "Holder": "UBS Group AG",
+          "pctHeld": 0.0002,
+          "Shares": 21,
+          "Value": 40,
+          "pctChange": -0.96860003
+        }
+      ]
     }
   },
   "earnings_data": {
@@ -623,7 +664,7 @@
     },
     "calendar": {
       "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
+      "message": "'dict' object has no attribute 'empty'"
     }
   }
 }

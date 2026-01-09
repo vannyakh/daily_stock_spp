@@ -1,6 +1,6 @@
 {
   "ticker": "OAKUW",
-  "timestamp": "2026-01-08T05:26:26.848260",
+  "timestamp": "2026-01-09T05:21:58.940607",
   "intraday_data": {
     "status": "no_data",
     "message": "No intraday data available"
@@ -29,16 +29,97 @@
       "status": "no_data"
     },
     "recommendations": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
+      "status": "no_data"
     }
   },
   "holders_data": {
     "major_holders": {
-      "status": "error"
+      "status": "no_data"
     },
     "institutional_holders": {
-      "status": "error"
+      "status": "success",
+      "data": [
+        {
+          "Date Reported": "2025-09-30 00:00:00",
+          "Holder": "Meteora Capital, LLC",
+          "pctHeld": 0.1464,
+          "Shares": 841669,
+          "Value": 17927,
+          "pctChange": 0.37240002
+        },
+        {
+          "Date Reported": "2025-09-30 00:00:00",
+          "Holder": "Harraden Circle Investments, LLC",
+          "pctHeld": 0.1254,
+          "Shares": 721255,
+          "Value": 15362,
+          "pctChange": 0.0
+        },
+        {
+          "Date Reported": "2025-09-30 00:00:00",
+          "Holder": "Aristeia Capital, LLC",
+          "pctHeld": 0.1177,
+          "Shares": 676717,
+          "Value": 14414,
+          "pctChange": 1.0
+        },
+        {
+          "Date Reported": "2025-09-30 00:00:00",
+          "Holder": "K2 Principal Fund, L.P.",
+          "pctHeld": 0.087,
+          "Shares": 500340,
+          "Value": 10657,
+          "pctChange": 0.0
+        },
+        {
+          "Date Reported": "2025-09-30 00:00:00",
+          "Holder": "Periscope Capital Inc.",
+          "pctHeld": 0.059899997,
+          "Shares": 344700,
+          "Value": 7342,
+          "pctChange": 0.0
+        },
+        {
+          "Date Reported": "2025-09-30 00:00:00",
+          "Holder": "Clear Street Group Inc.",
+          "pctHeld": 0.0552,
+          "Shares": 317278,
+          "Value": 6758,
+          "pctChange": 1.0
+        },
+        {
+          "Date Reported": "2025-09-30 00:00:00",
+          "Holder": "Toronto Dominion Bank",
+          "pctHeld": 0.0478,
+          "Shares": 274623,
+          "Value": 5849,
+          "pctChange": 0.0
+        },
+        {
+          "Date Reported": "2025-09-30 00:00:00",
+          "Holder": "Polar Asset Management Partners Inc.",
+          "pctHeld": 0.0235,
+          "Shares": 135000,
+          "Value": 2875,
+          "pctChange": 0.0
+        },
+        {
+          "Date Reported": "2025-09-30 00:00:00",
+          "Holder": "Yakira Capital Management, Inc.",
+          "pctHeld": 0.0209,
+          "Shares": 120000,
+          "Value": 2555,
+          "pctChange": 0.0
+        },
+        {
+          "Date Reported": "2025-09-30 00:00:00",
+          "Holder": "HGC Investment Management Inc.",
+          "pctHeld": 0.0209,
+          "Shares": 120000,
+          "Value": 2555,
+          "pctChange": 0.0
+        }
+      ]
     }
   },
   "earnings_data": {
@@ -48,7 +129,7 @@
     },
     "calendar": {
       "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
+      "message": "'dict' object has no attribute 'empty'"
     }
   }
 }

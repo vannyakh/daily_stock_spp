@@ -1,6 +1,6 @@
 {
   "ticker": "LANV-WT",
-  "timestamp": "2026-01-08T05:26:52.704744",
+  "timestamp": "2026-01-09T05:22:15.864602",
   "intraday_data": {
     "status": "no_data",
     "message": "No intraday data available"
@@ -29,7 +29,8 @@
       "status": "no_data"
     },
     "recommendations": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   },
   "holders_data": {
@@ -37,7 +38,7 @@
       "status": "error"
     },
     "institutional_holders": {
-      "status": "error"
+      "status": "no_data"
     }
   },
   "earnings_data": {
@@ -47,7 +48,7 @@
     },
     "calendar": {
       "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
+      "message": "'dict' object has no attribute 'empty'"
     }
   }
 }

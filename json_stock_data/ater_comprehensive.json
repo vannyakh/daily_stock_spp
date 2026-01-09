@@ -1,9 +1,18 @@
 {
   "ticker": "ATER",
-  "timestamp": "2026-01-08T05:08:51.632951",
+  "timestamp": "2026-01-09T05:05:50.217812",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 1,
+    "data": [
+      {
+        "Close GYRO": 9.326299667358398,
+        "High GYRO": 9.326299667358398,
+        "Low GYRO": 9.326299667358398,
+        "Open GYRO": 9.326299667358398,
+        "Volume GYRO": 2307
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -585,7 +594,8 @@
       ]
     },
     "recommendations": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   },
   "holders_data": {

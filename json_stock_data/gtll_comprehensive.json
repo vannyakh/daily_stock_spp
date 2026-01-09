@@ -1,39 +1,9 @@
 {
   "ticker": "GTLL",
-  "timestamp": "2026-01-08T05:13:39.728798",
+  "timestamp": "2026-01-09T05:10:22.198097",
   "intraday_data": {
-    "status": "success",
-    "rows": 4,
-    "data": [
-      {
-        "Close": 0.00019999999494757503,
-        "High": 0.00019999999494757503,
-        "Low": 0.00019999999494757503,
-        "Open": 0.00019999999494757503,
-        "Volume": 0
-      },
-      {
-        "Close": 0.00019999999494757503,
-        "High": 0.00019999999494757503,
-        "Low": 0.00019999999494757503,
-        "Open": 0.00019999999494757503,
-        "Volume": 0
-      },
-      {
-        "Close": 0.00019999999494757503,
-        "High": 0.00019999999494757503,
-        "Low": 0.00019999999494757503,
-        "Open": 0.00019999999494757503,
-        "Volume": 0
-      },
-      {
-        "Close": 0.00019999999494757503,
-        "High": 0.00019999999494757503,
-        "Low": 0.00019999999494757503,
-        "Open": 0.00019999999494757503,
-        "Volume": 40000
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -123,7 +93,8 @@
       ]
     },
     "recommendations": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   },
   "holders_data": {

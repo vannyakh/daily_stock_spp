@@ -1,9 +1,18 @@
 {
   "ticker": "CARCY",
-  "timestamp": "2026-01-08T04:45:24.726160",
+  "timestamp": "2026-01-09T04:44:29.356775",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 1,
+    "data": [
+      {
+        "Close FORTY": 165.92999267578125,
+        "High FORTY": 165.92999267578125,
+        "Low FORTY": 165.92999267578125,
+        "Open FORTY": 165.92999267578125,
+        "Volume FORTY": 0
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -93,7 +102,8 @@
       ]
     },
     "recommendations": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   },
   "holders_data": {

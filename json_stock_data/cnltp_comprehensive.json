@@ -1,6 +1,6 @@
 {
   "ticker": "CNLTP",
-  "timestamp": "2026-01-08T05:22:49.683306",
+  "timestamp": "2026-01-09T05:18:33.624345",
   "intraday_data": {
     "status": "no_data",
     "message": "No intraday data available"
@@ -21,46 +21,24 @@
     }
   },
   "options_data": {
-    "expirations": []
+    "status": "error",
+    "error_message": "Too Many Requests. Rate limited. Try after a while."
   },
   "news_data": {
     "news": {
       "status": "no_data"
     },
     "recommendations": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   },
   "holders_data": {
     "major_holders": {
-      "status": "success",
-      "data": [
-        {
-          "Value": 0.0
-        },
-        {
-          "Value": 0.0
-        },
-        {
-          "Value": 0.0
-        },
-        {
-          "Value": 0.0
-        }
-      ]
+      "status": "error"
     },
     "institutional_holders": {
-      "status": "success",
-      "data": [
-        {
-          "Date Reported": "2022-09-30 00:00:00",
-          "Holder": "Loomis Sayles Investment Grade Fixed Income Fund",
-          "pctHeld": 0.0011,
-          "Shares": 213,
-          "Value": 7827,
-          "pctChange": 0.0
-        }
-      ]
+      "status": "error"
     }
   },
   "earnings_data": {
@@ -70,7 +48,7 @@
     },
     "calendar": {
       "status": "error",
-      "message": "'dict' object has no attribute 'empty'"
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   }
 }

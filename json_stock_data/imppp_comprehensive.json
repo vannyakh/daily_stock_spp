@@ -1,39 +1,9 @@
 {
   "ticker": "IMPPP",
-  "timestamp": "2026-01-08T05:26:55.423060",
+  "timestamp": "2026-01-09T05:22:17.961946",
   "intraday_data": {
-    "status": "success",
-    "rows": 4,
-    "data": [
-      {
-        "Close": 25.969900131225586,
-        "High": 25.969900131225586,
-        "Low": 25.969900131225586,
-        "Open": 25.969900131225586,
-        "Volume": 0
-      },
-      {
-        "Close": 25.947999954223633,
-        "High": 25.947999954223633,
-        "Low": 25.947999954223633,
-        "Open": 25.947999954223633,
-        "Volume": 150
-      },
-      {
-        "Close": 25.812700271606445,
-        "High": 25.812700271606445,
-        "Low": 25.812700271606445,
-        "Open": 25.812700271606445,
-        "Volume": 0
-      },
-      {
-        "Close": 25.860000610351562,
-        "High": 25.860000610351562,
-        "Low": 25.860000610351562,
-        "Open": 25.860000610351562,
-        "Volume": 0
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -667,7 +637,7 @@
     },
     "calendar": {
       "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
+      "message": "'dict' object has no attribute 'empty'"
     }
   }
 }

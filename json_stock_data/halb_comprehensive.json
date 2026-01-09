@@ -1,18 +1,9 @@
 {
   "ticker": "HALB",
-  "timestamp": "2026-01-08T05:24:09.470634",
+  "timestamp": "2026-01-09T05:19:55.784560",
   "intraday_data": {
-    "status": "success",
-    "rows": 1,
-    "data": [
-      {
-        "Close": 0.001500000013038516,
-        "High": 0.001500000013038516,
-        "Low": 0.001500000013038516,
-        "Open": 0.001500000013038516,
-        "Volume": 0
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -38,7 +29,8 @@
       "status": "no_data"
     },
     "recommendations": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   },
   "holders_data": {
