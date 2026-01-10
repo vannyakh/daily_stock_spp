@@ -1,9 +1,39 @@
 {
   "ticker": "PHYWF",
-  "timestamp": "2026-01-09T05:22:59.566390",
+  "timestamp": "2026-01-10T05:25:13.515692",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 4,
+    "data": [
+      {
+        "Close NVAWW": 40.95000076293945,
+        "High NVAWW": 40.95000076293945,
+        "Low NVAWW": 40.95000076293945,
+        "Open NVAWW": 40.95000076293945,
+        "Volume NVAWW": 0
+      },
+      {
+        "Close NVAWW": 42.500099182128906,
+        "High NVAWW": 42.500099182128906,
+        "Low NVAWW": 42.500099182128906,
+        "Open NVAWW": 42.500099182128906,
+        "Volume NVAWW": 110
+      },
+      {
+        "Close NVAWW": 44.91999816894531,
+        "High NVAWW": 44.91999816894531,
+        "Low NVAWW": 44.91999816894531,
+        "Open NVAWW": 44.91999816894531,
+        "Volume NVAWW": 100
+      },
+      {
+        "Close NVAWW": 44.900001525878906,
+        "High NVAWW": 44.900001525878906,
+        "Low NVAWW": 44.900001525878906,
+        "Open NVAWW": 44.900001525878906,
+        "Volume NVAWW": 201
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -93,7 +123,8 @@
       ]
     },
     "recommendations": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   },
   "holders_data": {

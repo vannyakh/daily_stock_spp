@@ -1,29 +1,13 @@
 {
   "ticker": "ARMC",
-  "timestamp": "2026-01-09T05:19:38.151679",
+  "timestamp": "2026-01-10T05:20:54.632151",
   "intraday_data": {
-    "status": "success",
-    "rows": 2,
-    "data": [
-      {
-        "Close BRCNF": 1.159999966621399,
-        "High BRCNF": 1.159999966621399,
-        "Low BRCNF": 1.159999966621399,
-        "Open BRCNF": 1.159999966621399,
-        "Volume BRCNF": 100
-      },
-      {
-        "Close BRCNF": 1.3200000524520874,
-        "High BRCNF": 1.3200000524520874,
-        "Low BRCNF": 1.3200000524520874,
-        "Open BRCNF": 1.3200000524520874,
-        "Volume BRCNF": 100
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
-    "message": "argument of type 'NoneType' is not iterable"
+    "message": "Too Many Requests. Rate limited. Try after a while."
   },
   "financials": {
     "income_statement": {
@@ -42,7 +26,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

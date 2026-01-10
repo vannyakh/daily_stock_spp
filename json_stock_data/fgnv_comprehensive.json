@@ -1,24 +1,126 @@
 {
   "ticker": "FGNV",
-  "timestamp": "2026-01-09T05:03:25.022269",
+  "timestamp": "2026-01-10T05:02:01.748330",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 10,
+    "data": [
+      {
+        "Close HFBL": 17.3700008392334,
+        "High HFBL": 17.5,
+        "Low HFBL": 17.3700008392334,
+        "Open HFBL": 17.5,
+        "Volume HFBL": 0
+      },
+      {
+        "Close HFBL": 17.389999389648438,
+        "High HFBL": 17.389999389648438,
+        "Low HFBL": 17.389999389648438,
+        "Open HFBL": 17.389999389648438,
+        "Volume HFBL": 100
+      },
+      {
+        "Close HFBL": 17.65999984741211,
+        "High HFBL": 17.667499542236328,
+        "Low HFBL": 17.65999984741211,
+        "Open HFBL": 17.667499542236328,
+        "Volume HFBL": 1101
+      },
+      {
+        "Close HFBL": 17.674999237060547,
+        "High HFBL": 17.674999237060547,
+        "Low HFBL": 17.674999237060547,
+        "Open HFBL": 17.674999237060547,
+        "Volume HFBL": 0
+      },
+      {
+        "Close HFBL": 17.729999542236328,
+        "High HFBL": 17.729999542236328,
+        "Low HFBL": 17.729999542236328,
+        "Open HFBL": 17.729999542236328,
+        "Volume HFBL": 371
+      },
+      {
+        "Close HFBL": 17.774999618530273,
+        "High HFBL": 17.799999237060547,
+        "Low HFBL": 17.774999618530273,
+        "Open HFBL": 17.799999237060547,
+        "Volume HFBL": 501
+      },
+      {
+        "Close HFBL": 17.75,
+        "High HFBL": 17.81999969482422,
+        "Low HFBL": 17.75,
+        "Open HFBL": 17.799999237060547,
+        "Volume HFBL": 672
+      },
+      {
+        "Close HFBL": 17.3700008392334,
+        "High HFBL": 17.3700008392334,
+        "Low HFBL": 17.3700008392334,
+        "Open HFBL": 17.3700008392334,
+        "Volume HFBL": 1109
+      },
+      {
+        "Close HFBL": 17.899999618530273,
+        "High HFBL": 17.899999618530273,
+        "Low HFBL": 17.8799991607666,
+        "Open HFBL": 17.8799991607666,
+        "Volume HFBL": 212
+      },
+      {
+        "Close HFBL": 17.75,
+        "High HFBL": 17.75,
+        "Low HFBL": 17.75,
+        "Open HFBL": 17.75,
+        "Volume HFBL": 7508
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
-    "message": "argument of type 'NoneType' is not iterable"
+    "message": "Too Many Requests. Rate limited. Try after a while."
   },
   "financials": {
     "income_statement": {
-      "status": "success",
-      "rows": 49,
-      "columns": [
-        "2024-12-31 00:00:00",
-        "2023-12-31 00:00:00",
-        "2022-12-31 00:00:00",
-        "2021-12-31 00:00:00"
-      ],
-      "data": [
-        {
-          
+      "status": "no_data"
+    },
+    "balance_sheet": {
+      "status": "no_data"
+    },
+    "cash_flow": {
+      "status": "no_data"
+    }
+  },
+  "options_data": {
+    "status": "error",
+    "error_message": "Too Many Requests. Rate limited. Try after a while."
+  },
+  "news_data": {
+    "news": {
+      "status": "no_data"
+    },
+    "recommendations": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  },
+  "holders_data": {
+    "major_holders": {
+      "status": "error"
+    },
+    "institutional_holders": {
+      "status": "error"
+    }
+  },
+  "earnings_data": {
+    "earnings": {
+      "status": "error",
+      "message": "'NoneType' object has no attribute 'empty'"
+    },
+    "calendar": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  }
+}

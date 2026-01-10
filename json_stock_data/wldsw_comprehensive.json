@@ -1,9 +1,81 @@
 {
   "ticker": "WLDSW",
-  "timestamp": "2026-01-09T05:21:58.937724",
+  "timestamp": "2026-01-10T05:24:00.959001",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 10,
+    "data": [
+      {
+        "Close": 1.9800000190734863,
+        "High": 1.9900000095367432,
+        "Low": 1.9800000190734863,
+        "Open": 1.9900000095367432,
+        "Volume": 4853
+      },
+      {
+        "Close": 1.9800000190734863,
+        "High": 1.9800000190734863,
+        "Low": 1.9800000190734863,
+        "Open": 1.9800000190734863,
+        "Volume": 299
+      },
+      {
+        "Close": 1.9500000476837158,
+        "High": 1.9500000476837158,
+        "Low": 1.9500000476837158,
+        "Open": 1.9500000476837158,
+        "Volume": 100
+      },
+      {
+        "Close": 1.9500000476837158,
+        "High": 1.9500000476837158,
+        "Low": 1.9500000476837158,
+        "Open": 1.9500000476837158,
+        "Volume": 0
+      },
+      {
+        "Close": 2.427799940109253,
+        "High": 2.427799940109253,
+        "Low": 2.427799940109253,
+        "Open": 2.427799940109253,
+        "Volume": 100
+      },
+      {
+        "Close": 1.3799999952316284,
+        "High": 1.3799999952316284,
+        "Low": 1.3799999952316284,
+        "Open": 1.3799999952316284,
+        "Volume": 703
+      },
+      {
+        "Close": 1.5640000104904175,
+        "High": 1.6308000087738037,
+        "Low": 1.3799999952316284,
+        "Open": 1.3799999952316284,
+        "Volume": 3378
+      },
+      {
+        "Close": 1.090000033378601,
+        "High": 1.090000033378601,
+        "Low": 1.090000033378601,
+        "Open": 1.090000033378601,
+        "Volume": 1580
+      },
+      {
+        "Close": 1.5,
+        "High": 1.5,
+        "Low": 1.5,
+        "Open": 1.5,
+        "Volume": 545
+      },
+      {
+        "Close": 1.2999999523162842,
+        "High": 1.2999999523162842,
+        "Low": 1.2999999523162842,
+        "Open": 1.2999999523162842,
+        "Volume": 400
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -604,57 +676,16 @@
       ]
     },
     "recommendations": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   },
   "holders_data": {
     "major_holders": {
-      "status": "no_data"
+      "status": "error"
     },
     "institutional_holders": {
-      "status": "success",
-      "data": [
-        {
-          "Date Reported": "2025-09-30 00:00:00",
-          "Holder": "Walleye Capital LLC",
-          "pctHeld": 0.17959999,
-          "Shares": 17645,
-          "Value": 34407,
-          "pctChange": 0.0
-        },
-        {
-          "Date Reported": "2025-09-30 00:00:00",
-          "Holder": "Clear Street Group Inc.",
-          "pctHeld": 0.16690001,
-          "Shares": 16400,
-          "Value": 31980,
-          "pctChange": 1.0
-        },
-        {
-          "Date Reported": "2025-09-30 00:00:00",
-          "Holder": "Bank of America Corporation",
-          "pctHeld": 0.0064,
-          "Shares": 625,
-          "Value": 1218,
-          "pctChange": 0.0
-        },
-        {
-          "Date Reported": "2025-09-30 00:00:00",
-          "Holder": "FMR, LLC",
-          "pctHeld": 0.0005,
-          "Shares": 46,
-          "Value": 89,
-          "pctChange": 1.0
-        },
-        {
-          "Date Reported": "2025-09-30 00:00:00",
-          "Holder": "UBS Group AG",
-          "pctHeld": 0.0002,
-          "Shares": 21,
-          "Value": 40,
-          "pctChange": -0.96860003
-        }
-      ]
+      "status": "error"
     }
   },
   "earnings_data": {
@@ -664,7 +695,7 @@
     },
     "calendar": {
       "status": "error",
-      "message": "'dict' object has no attribute 'empty'"
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   }
 }

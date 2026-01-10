@@ -1,48 +1,13 @@
 {
   "ticker": "OTRK",
-  "timestamp": "2026-01-09T05:08:56.155655",
+  "timestamp": "2026-01-10T05:08:21.473778",
   "intraday_data": {
     "status": "no_data",
     "message": "No intraday data available"
   },
   "stock_info": {
-    "status": "success",
-    "data": {
-      "maxAge": 86400,
-      "priceHint": 4,
-      "previousClose": 0.072,
-      "regularMarketPreviousClose": 0.072,
-      "currency": "USD",
-      "tradeable": false,
-      "quoteType": "EQUITY",
-      "symbol": "OTRK",
-      "language": "en-US",
-      "region": "US",
-      "typeDisp": "Equity",
-      "quoteSourceName": "Delayed Quote",
-      "triggerable": true,
-      "customPriceAlertConfidence": "HIGH",
-      "marketState": "PREPRE",
-      "regularMarketChangePercent": 358.19446,
-      "regularMarketPrice": 0.3299,
-      "regularMarketTime": 1764104400,
-      "exchange": "NCM",
-      "messageBoardId": "finmb_7290234",
-      "exchangeTimezoneName": "America/New_York",
-      "exchangeTimezoneShortName": "EST",
-      "gmtOffSetMilliseconds": -18000000,
-      "market": "us_market",
-      "esgPopulated": false,
-      "shortName": "Ontrak, Inc.",
-      "hasPrePostMarketData": true,
-      "firstTradeDateMilliseconds": 1762266600000,
-      "regularMarketChange": 0.2579,
-      "fullExchangeName": "NasdaqCM",
-      "sourceInterval": 15,
-      "exchangeDataDelayedBy": 0,
-      "cryptoTradeable": false,
-      "displayName": "Ontrak"
-    }
+    "status": "error",
+    "message": "Too Many Requests. Rate limited. Try after a while."
   },
   "financials": {
     "income_statement": {

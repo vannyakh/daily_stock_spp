@@ -1,6 +1,6 @@
 {
   "ticker": "MAPPF",
-  "timestamp": "2026-01-09T05:06:51.570975",
+  "timestamp": "2026-01-10T05:06:07.039237",
   "intraday_data": {
     "status": "success",
     "rows": 1,
@@ -10,24 +10,141 @@
         "High": 0.1120000034570694,
         "Low": 0.1120000034570694,
         "Open": 0.1120000034570694,
-        "Volume": 9000
+        "Volume": 0
       }
     ]
   },
   "stock_info": {
     "status": "error",
-    "message": "argument of type 'NoneType' is not iterable"
+    "message": "Too Many Requests. Rate limited. Try after a while."
   },
   "financials": {
     "income_statement": {
+      "status": "no_data"
+    },
+    "balance_sheet": {
+      "status": "no_data"
+    },
+    "cash_flow": {
+      "status": "no_data"
+    }
+  },
+  "options_data": {
+    "status": "error",
+    "error_message": "Too Many Requests. Rate limited. Try after a while."
+  },
+  "news_data": {
+    "news": {
       "status": "success",
-      "rows": 54,
-      "columns": [
-        "2024-12-31 00:00:00",
-        "2023-12-31 00:00:00",
-        "2022-12-31 00:00:00",
-        "2021-12-31 00:00:00"
-      ],
+      "count": 2,
       "data": [
         {
-          
+          "id": "98865a62-453b-3788-84ed-87e603406563",
+          "content": {
+            "id": "98865a62-453b-3788-84ed-87e603406563",
+            "contentType": "STORY",
+            "title": "ProStar Holdings Says LinQD Platform Integrates Legacy Systems With New Technologies",
+            "description": "",
+            "summary": "ProStar Holdings (MAPS.V) said Thursday it launched LinQD (Linking Quantitative Data), an open API d",
+            "pubDate": "2025-10-09T17:52:47Z",
+            "displayTime": "2025-10-09T17:52:47Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": null,
+            "provider": {
+              "displayName": "MT Newswires",
+              "url": "https://www.mtnewswires.com/"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/prostar-holdings-says-linqd-platform-175247628.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/prostar-holdings-says-linqd-platform-175247628.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": true,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        },
+        {
+          "id": "3988d43e-442f-3236-b329-24b5d2843e75",
+          "content": {
+            "id": "3988d43e-442f-3236-b329-24b5d2843e75",
+            "contentType": "STORY",
+            "title": "ProStar and JAVAD GNSS Announce Global Distribution Deal",
+            "description": "",
+            "summary": "ProStar Holdings (MAPS.V) on Thursday said it is joining forces with JAVAD, a specialist in global n",
+            "pubDate": "2025-08-14T14:19:31Z",
+            "displayTime": "2025-08-14T14:19:31Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": null,
+            "provider": {
+              "displayName": "MT Newswires",
+              "url": "https://www.mtnewswires.com/"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/prostar-javad-gnss-announce-global-141931322.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/prostar-javad-gnss-announce-global-141931322.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": true,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        }
+      ]
+    },
+    "recommendations": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  },
+  "holders_data": {
+    "major_holders": {
+      "status": "error"
+    },
+    "institutional_holders": {
+      "status": "error"
+    }
+  },
+  "earnings_data": {
+    "earnings": {
+      "status": "error",
+      "message": "'NoneType' object has no attribute 'empty'"
+    },
+    "calendar": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  }
+}

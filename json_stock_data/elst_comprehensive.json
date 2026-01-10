@@ -1,127 +1,23 @@
 {
   "ticker": "ELST",
-  "timestamp": "2026-01-09T05:20:17.143680",
+  "timestamp": "2026-01-10T05:21:44.159071",
   "intraday_data": {
-    "status": "success",
-    "rows": 1,
-    "data": [
-      {
-        "Close EHVVF": 0.0019000000320374966,
-        "High EHVVF": 0.0019000000320374966,
-        "Low EHVVF": 0.0019000000320374966,
-        "Open EHVVF": 0.0019000000320374966,
-        "Volume EHVVF": 0
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
-    "message": "Too Many Requests. Rate limited. Try after a while."
+    "message": "argument of type 'NoneType' is not iterable"
   },
   "financials": {
     "income_statement": {
-      "status": "no_data"
-    },
-    "balance_sheet": {
-      "status": "no_data"
-    },
-    "cash_flow": {
-      "status": "no_data"
-    }
-  },
-  "options_data": {
-    "status": "error",
-    "error_message": "Too Many Requests. Rate limited. Try after a while."
-  },
-  "news_data": {
-    "news": {
       "status": "success",
-      "count": 1,
+      "rows": 39,
+      "columns": [
+        "2023-12-31 00:00:00",
+        "2022-12-31 00:00:00",
+        "2021-12-31 00:00:00"
+      ],
       "data": [
         {
-          "id": "db1d7486-becb-3804-9bca-f5144a6c9340",
-          "content": {
-            "id": "db1d7486-becb-3804-9bca-f5144a6c9340",
-            "contentType": "STORY",
-            "title": "Buy These 5 Low-Leverage Stocks to Navigate Short-Term Market Upside",
-            "description": "",
-            "summary": "Five low-leverage picks, THG, AA, PNR, ESLT, and DRS, stand out as safer bets for investors eyeing steady returns amid market uncertainty.",
-            "pubDate": "2025-09-23T12:25:00Z",
-            "displayTime": "2025-09-23T12:25:00Z",
-            "isHosted": true,
-            "bypassModal": false,
-            "previewUrl": null,
-            "thumbnail": {
-              "originalUrl": "https://media.zenfs.com/en/zacks.com/28cf39ef4d25f17fc9366f3b59dc6140",
-              "originalWidth": 635,
-              "originalHeight": 400,
-              "caption": "",
-              "resolutions": [
-                {
-                  "url": "https://s.yimg.com/uu/api/res/1.2/OsqSjFs1.NamtGUQHLt17g--~B/aD00MDA7dz02MzU7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/zacks.com/28cf39ef4d25f17fc9366f3b59dc6140",
-                  "width": 635,
-                  "height": 400,
-                  "tag": "original"
-                },
-                {
-                  "url": "https://s.yimg.com/uu/api/res/1.2/Gi1SVKH0lRlF.mBwo1bw8g--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/zacks.com/28cf39ef4d25f17fc9366f3b59dc6140",
-                  "width": 170,
-                  "height": 128,
-                  "tag": "170x128"
-                }
-              ]
-            },
-            "provider": {
-              "displayName": "Zacks",
-              "url": "http://www.zacks.com/"
-            },
-            "canonicalUrl": {
-              "url": "https://finance.yahoo.com/news/buy-5-low-leverage-stocks-122500120.html",
-              "site": "finance",
-              "region": "US",
-              "lang": "en-US"
-            },
-            "clickThroughUrl": {
-              "url": "https://finance.yahoo.com/news/buy-5-low-leverage-stocks-122500120.html",
-              "site": "finance",
-              "region": "US",
-              "lang": "en-US"
-            },
-            "metadata": {
-              "editorsPick": false
-            },
-            "finance": {
-              "premiumFinance": {
-                "isPremiumNews": false,
-                "isPremiumFreeNews": false
-              }
-            },
-            "storyline": null
-          }
-        }
-      ]
-    },
-    "recommendations": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
-    }
-  },
-  "holders_data": {
-    "major_holders": {
-      "status": "error"
-    },
-    "institutional_holders": {
-      "status": "error"
-    }
-  },
-  "earnings_data": {
-    "earnings": {
-      "status": "error",
-      "message": "'NoneType' object has no attribute 'empty'"
-    },
-    "calendar": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
-    }
-  }
-}
+          

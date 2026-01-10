@@ -1,29 +1,13 @@
 {
   "ticker": "BGAVF",
-  "timestamp": "2026-01-09T05:11:46.407787",
+  "timestamp": "2026-01-10T05:11:40.834836",
   "intraday_data": {
-    "status": "success",
-    "rows": 2,
-    "data": [
-      {
-        "Close": 0.03999999910593033,
-        "High": 0.03999999910593033,
-        "Low": 0.03999999910593033,
-        "Open": 0.03999999910593033,
-        "Volume": 73000
-      },
-      {
-        "Close": 0.03999999910593033,
-        "High": 0.03999999910593033,
-        "Low": 0.03999999910593033,
-        "Open": 0.03999999910593033,
-        "Volume": 10000
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
-    "message": "Too Many Requests. Rate limited. Try after a while."
+    "message": "argument of type 'NoneType' is not iterable"
   },
   "financials": {
     "income_statement": {
@@ -132,8 +116,7 @@
       ]
     },
     "recommendations": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
+      "status": "no_data"
     }
   },
   "holders_data": {

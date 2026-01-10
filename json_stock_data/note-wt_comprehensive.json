@@ -1,25 +1,9 @@
 {
   "ticker": "NOTE-WT",
-  "timestamp": "2026-01-09T05:22:48.676298",
+  "timestamp": "2026-01-10T05:24:57.317236",
   "intraday_data": {
-    "status": "success",
-    "rows": 2,
-    "data": [
-      {
-        "Close": 0.039900001138448715,
-        "High": 0.039900001138448715,
-        "Low": 0.039900001138448715,
-        "Open": 0.039900001138448715,
-        "Volume": 0
-      },
-      {
-        "Close": 0.03779999911785126,
-        "High": 0.039900001138448715,
-        "Low": 0.03779999911785126,
-        "Open": 0.039900001138448715,
-        "Volume": 1500
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -45,7 +29,8 @@
       "status": "no_data"
     },
     "recommendations": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   },
   "holders_data": {

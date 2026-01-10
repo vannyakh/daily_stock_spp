@@ -1,10 +1,9 @@
 {
   "ticker": "WAST",
-  "timestamp": "2026-01-09T05:12:30.612373",
+  "timestamp": "2026-01-10T05:12:33.139279",
   "intraday_data": {
-    "status": "success",
-    "rows": 0,
-    "data": []
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -94,7 +93,8 @@
       ]
     },
     "recommendations": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   },
   "holders_data": {

@@ -1,9 +1,18 @@
 {
   "ticker": "BWMG",
-  "timestamp": "2026-01-09T05:10:22.612915",
+  "timestamp": "2026-01-10T05:09:50.900009",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 1,
+    "data": [
+      {
+        "Close": 0.007899999618530273,
+        "High": 0.007899999618530273,
+        "Low": 0.007899999618530273,
+        "Open": 0.007899999618530273,
+        "Volume": 5000
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -29,7 +38,8 @@
       "status": "no_data"
     },
     "recommendations": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   },
   "holders_data": {

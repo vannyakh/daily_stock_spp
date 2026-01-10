@@ -1,15 +1,22 @@
 {
   "ticker": "MHGU",
-  "timestamp": "2026-01-09T04:59:36.988910",
+  "timestamp": "2026-01-10T04:57:28.700979",
   "intraday_data": {
     "status": "success",
-    "rows": 1,
+    "rows": 2,
     "data": [
       {
-        "Close": 2.1500000953674316,
-        "High": 2.1500000953674316,
-        "Low": 2.1500000953674316,
-        "Open": 2.1500000953674316,
+        "Close": 2.200000047683716,
+        "High": 2.200000047683716,
+        "Low": 2.200000047683716,
+        "Open": 2.200000047683716,
+        "Volume": 1000
+      },
+      {
+        "Close": 2.200000047683716,
+        "High": 2.200000047683716,
+        "Low": 2.200000047683716,
+        "Open": 2.200000047683716,
         "Volume": 0
       }
     ]
@@ -285,7 +292,8 @@
       ]
     },
     "recommendations": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   },
   "holders_data": {

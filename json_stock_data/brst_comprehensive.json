@@ -1,18 +1,9 @@
 {
   "ticker": "BRST",
-  "timestamp": "2026-01-09T05:11:02.509290",
+  "timestamp": "2026-01-10T05:10:35.760645",
   "intraday_data": {
-    "status": "success",
-    "rows": 1,
-    "data": [
-      {
-        "Close": 0.023000000044703484,
-        "High": 0.023000000044703484,
-        "Low": 0.023000000044703484,
-        "Open": 0.023000000044703484,
-        "Volume": 1840
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -38,7 +29,8 @@
       "status": "no_data"
     },
     "recommendations": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   },
   "holders_data": {

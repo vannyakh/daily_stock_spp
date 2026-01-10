@@ -1,24 +1,91 @@
 {
   "ticker": "SPKLW",
-  "timestamp": "2026-01-09T05:25:27.346230",
+  "timestamp": "2026-01-10T05:28:04.161979",
   "intraday_data": {
     "status": "success",
-    "rows": 0,
-    "data": []
+    "rows": 5,
+    "data": [
+      {
+        "Close": 0.314300000667572,
+        "High": 0.314300000667572,
+        "Low": 0.314300000667572,
+        "Open": 0.314300000667572,
+        "Volume": 0
+      },
+      {
+        "Close": 0.3100000023841858,
+        "High": 0.3100000023841858,
+        "Low": 0.3100000023841858,
+        "Open": 0.3100000023841858,
+        "Volume": 7014
+      },
+      {
+        "Close": 0.26440000534057617,
+        "High": 0.26440000534057617,
+        "Low": 0.26440000534057617,
+        "Open": 0.26440000534057617,
+        "Volume": 0
+      },
+      {
+        "Close": 0.29010000824928284,
+        "High": 0.29010000824928284,
+        "Low": 0.29010000824928284,
+        "Open": 0.29010000824928284,
+        "Volume": 14899
+      },
+      {
+        "Close": 0.2921999990940094,
+        "High": 0.2921999990940094,
+        "Low": 0.2921999990940094,
+        "Open": 0.2921999990940094,
+        "Volume": 100
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
-    "message": "argument of type 'NoneType' is not iterable"
+    "message": "Too Many Requests. Rate limited. Try after a while."
   },
   "financials": {
     "income_statement": {
-      "status": "success",
-      "rows": 27,
-      "columns": [
-        "2024-12-31 00:00:00",
-        "2023-12-31 00:00:00",
-        "2022-12-31 00:00:00"
-      ],
-      "data": [
-        {
-          
+      "status": "no_data"
+    },
+    "balance_sheet": {
+      "status": "no_data"
+    },
+    "cash_flow": {
+      "status": "no_data"
+    }
+  },
+  "options_data": {
+    "status": "error",
+    "error_message": "Too Many Requests. Rate limited. Try after a while."
+  },
+  "news_data": {
+    "news": {
+      "status": "no_data"
+    },
+    "recommendations": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  },
+  "holders_data": {
+    "major_holders": {
+      "status": "error"
+    },
+    "institutional_holders": {
+      "status": "error"
+    }
+  },
+  "earnings_data": {
+    "earnings": {
+      "status": "error",
+      "message": "'NoneType' object has no attribute 'empty'"
+    },
+    "calendar": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  }
+}

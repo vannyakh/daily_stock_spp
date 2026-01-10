@@ -1,25 +1,9 @@
 {
   "ticker": "MAMK",
-  "timestamp": "2026-01-09T05:14:38.737683",
+  "timestamp": "2026-01-10T05:14:57.762692",
   "intraday_data": {
-    "status": "success",
-    "rows": 2,
-    "data": [
-      {
-        "Close AACB": 10.295000076293945,
-        "High AACB": 10.295000076293945,
-        "Low AACB": 10.295000076293945,
-        "Open AACB": 10.295000076293945,
-        "Volume AACB": 0
-      },
-      {
-        "Close AACB": 10.3100004196167,
-        "High AACB": 10.3100004196167,
-        "Low AACB": 10.305000305175781,
-        "Open AACB": 10.305000305175781,
-        "Volume AACB": 2479
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -45,7 +29,8 @@
       "status": "no_data"
     },
     "recommendations": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   },
   "holders_data": {

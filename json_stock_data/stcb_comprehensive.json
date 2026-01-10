@@ -1,39 +1,9 @@
 {
   "ticker": "STCB",
-  "timestamp": "2026-01-09T05:02:29.460622",
+  "timestamp": "2026-01-10T05:00:48.803360",
   "intraday_data": {
-    "status": "success",
-    "rows": 4,
-    "data": [
-      {
-        "Close": 0.024000000208616257,
-        "High": 0.0340999998152256,
-        "Low": 0.024000000208616257,
-        "Open": 0.03400000184774399,
-        "Volume": 0
-      },
-      {
-        "Close": 0.0340999998152256,
-        "High": 0.0340999998152256,
-        "Low": 0.0340999998152256,
-        "Open": 0.0340999998152256,
-        "Volume": 3457
-      },
-      {
-        "Close": 0.03999999910593033,
-        "High": 0.03999999910593033,
-        "Low": 0.03999999910593033,
-        "Open": 0.03999999910593033,
-        "Volume": 10000
-      },
-      {
-        "Close": 0.03999999910593033,
-        "High": 0.03999999910593033,
-        "Low": 0.03999999910593033,
-        "Open": 0.03999999910593033,
-        "Volume": 4400
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -123,7 +93,8 @@
       ]
     },
     "recommendations": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   },
   "holders_data": {

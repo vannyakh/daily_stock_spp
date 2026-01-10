@@ -1,9 +1,25 @@
 {
   "ticker": "ABP",
-  "timestamp": "2026-01-09T05:01:07.747516",
+  "timestamp": "2026-01-10T04:59:23.655153",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 2,
+    "data": [
+      {
+        "Close WFCF": 11.329999923706055,
+        "High WFCF": 11.329999923706055,
+        "Low WFCF": 11.329999923706055,
+        "Open WFCF": 11.329999923706055,
+        "Volume WFCF": 140
+      },
+      {
+        "Close WFCF": 11.425000190734863,
+        "High WFCF": 11.425000190734863,
+        "Low WFCF": 11.425000190734863,
+        "Open WFCF": 11.425000190734863,
+        "Volume WFCF": 319
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -14,13 +30,86 @@
       "status": "no_data"
     },
     "balance_sheet": {
+      "status": "no_data"
+    },
+    "cash_flow": {
+      "status": "no_data"
+    }
+  },
+  "options_data": {
+    "status": "error",
+    "error_message": "Too Many Requests. Rate limited. Try after a while."
+  },
+  "news_data": {
+    "news": {
       "status": "success",
-      "rows": 66,
-      "columns": [
-        "2024-12-31 00:00:00",
-        "2023-12-31 00:00:00",
-        "2022-12-31 00:00:00"
-      ],
+      "count": 1,
       "data": [
         {
-          
+          "id": "3c88657e-d62a-36ac-bfc8-9c6ec22d8060",
+          "content": {
+            "id": "3c88657e-d62a-36ac-bfc8-9c6ec22d8060",
+            "contentType": "STORY",
+            "title": "BC-Most Active Stocks",
+            "description": "",
+            "summary": "Gibo Holdings Ltd. 122,758,587 0.0671",
+            "pubDate": "2025-08-05T14:30:16Z",
+            "displayTime": "2025-08-05T14:30:16Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": null,
+            "provider": {
+              "displayName": "Associated Press Finance",
+              "url": "http://www.ap.org/"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/bc-most-active-stocks-143016066.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/bc-most-active-stocks-143016066.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        }
+      ]
+    },
+    "recommendations": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  },
+  "holders_data": {
+    "major_holders": {
+      "status": "error"
+    },
+    "institutional_holders": {
+      "status": "error"
+    }
+  },
+  "earnings_data": {
+    "earnings": {
+      "status": "error",
+      "message": "'NoneType' object has no attribute 'empty'"
+    },
+    "calendar": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  }
+}
