@@ -1,25 +1,9 @@
 {
   "ticker": "NE-WTA",
-  "timestamp": "2026-01-10T05:28:19.959772",
+  "timestamp": "2026-01-11T05:14:39.446413",
   "intraday_data": {
-    "status": "success",
-    "rows": 2,
-    "data": [
-      {
-        "Close": 9.0,
-        "High": 9.0,
-        "Low": 9.0,
-        "Open": 9.0,
-        "Volume": 0
-      },
-      {
-        "Close": 9.390000343322754,
-        "High": 9.5,
-        "Low": 9.390000343322754,
-        "Open": 9.5,
-        "Volume": 521
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -42,7 +26,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

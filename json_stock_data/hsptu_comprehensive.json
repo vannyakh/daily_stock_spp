@@ -1,9 +1,25 @@
 {
   "ticker": "HSPTU",
-  "timestamp": "2026-01-10T05:22:42.247289",
+  "timestamp": "2026-01-11T05:12:39.899072",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 2,
+    "data": [
+      {
+        "Close VACHW": 0.23000000417232513,
+        "High VACHW": 0.23270000517368317,
+        "Low VACHW": 0.23000000417232513,
+        "Open VACHW": 0.23270000517368317,
+        "Volume VACHW": 0
+      },
+      {
+        "Close VACHW": 0.23000000417232513,
+        "High VACHW": 0.23000000417232513,
+        "Low VACHW": 0.23000000417232513,
+        "Open VACHW": 0.23000000417232513,
+        "Volume VACHW": 2500
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -26,7 +42,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

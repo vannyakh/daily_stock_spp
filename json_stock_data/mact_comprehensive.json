@@ -1,64 +1,13 @@
 {
   "ticker": "MACT",
-  "timestamp": "2026-01-10T05:24:27.100343",
+  "timestamp": "2026-01-11T05:13:18.139333",
   "intraday_data": {
-    "status": "success",
-    "rows": 7,
-    "data": [
-      {
-        "Close": 7.150000095367432,
-        "High": 7.150000095367432,
-        "Low": 7.150000095367432,
-        "Open": 7.150000095367432,
-        "Volume": 0
-      },
-      {
-        "Close": 7.150000095367432,
-        "High": 7.150000095367432,
-        "Low": 7.150000095367432,
-        "Open": 7.150000095367432,
-        "Volume": 400
-      },
-      {
-        "Close": 7.150000095367432,
-        "High": 7.150000095367432,
-        "Low": 7.150000095367432,
-        "Open": 7.150000095367432,
-        "Volume": 1000
-      },
-      {
-        "Close": 7.050000190734863,
-        "High": 7.050000190734863,
-        "Low": 7.050000190734863,
-        "Open": 7.050000190734863,
-        "Volume": 500
-      },
-      {
-        "Close": 7.050000190734863,
-        "High": 7.050000190734863,
-        "Low": 7.050000190734863,
-        "Open": 7.050000190734863,
-        "Volume": 157
-      },
-      {
-        "Close": 7.050000190734863,
-        "High": 7.050000190734863,
-        "Low": 7.050000190734863,
-        "Open": 7.050000190734863,
-        "Volume": 1273
-      },
-      {
-        "Close": 7.099999904632568,
-        "High": 7.099999904632568,
-        "Low": 7.099999904632568,
-        "Open": 7.099999904632568,
-        "Volume": 1100
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
-    "message": "Too Many Requests. Rate limited. Try after a while."
+    "message": "argument of type 'NoneType' is not iterable"
   },
   "financials": {
     "income_statement": {
@@ -77,7 +26,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

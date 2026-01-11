@@ -1,25 +1,9 @@
 {
   "ticker": "CCLDP",
-  "timestamp": "2026-01-10T05:28:34.963192",
+  "timestamp": "2026-01-11T05:14:45.341594",
   "intraday_data": {
-    "status": "success",
-    "rows": 2,
-    "data": [
-      {
-        "Close SRRIX": 55.58000183105469,
-        "High SRRIX": 55.58000183105469,
-        "Low SRRIX": 55.58000183105469,
-        "Open SRRIX": 55.58000183105469,
-        "Volume SRRIX": 0
-      },
-      {
-        "Close SRRIX": 55.61000061035156,
-        "High SRRIX": 55.61000061035156,
-        "Low SRRIX": 55.61000061035156,
-        "Open SRRIX": 55.61000061035156,
-        "Volume SRRIX": 0
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -37,13 +21,12 @@
     }
   },
   "options_data": {
-    "status": "error",
-    "error_message": "Too Many Requests. Rate limited. Try after a while."
+    "expirations": []
   },
   "news_data": {
     "news": {
       "status": "success",
-      "count": 8,
+      "count": 7,
       "data": [
         {
           "id": "bbad2cf8-6fc0-3e9d-8fa6-30be061138ef",
@@ -288,10 +271,6 @@
             },
             "storyline": null
           }
-        },
-        {
-          "id": "deb3d49a-3510-3582-9839-27f7c39e4095",
-          "content": null
         },
         {
           "id": "4521e429-aa94-3f31-b33c-e7b4dc9b8eff",

@@ -1,9 +1,25 @@
 {
   "ticker": "CEFD",
-  "timestamp": "2026-01-10T05:30:03.237342",
+  "timestamp": "2026-01-11T05:15:17.521320",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 2,
+    "data": [
+      {
+        "Close": 19.499900817871094,
+        "High": 19.530000686645508,
+        "Low": 19.499900817871094,
+        "Open": 19.5,
+        "Volume": 0
+      },
+      {
+        "Close": 19.56999969482422,
+        "High": 19.56999969482422,
+        "Low": 19.440000534057617,
+        "Open": 19.440000534057617,
+        "Volume": 196
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -26,7 +42,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

@@ -1,60 +1,9 @@
 {
   "ticker": "RWTO",
-  "timestamp": "2026-01-10T05:30:27.320315",
+  "timestamp": "2026-01-11T05:15:25.932800",
   "intraday_data": {
-    "status": "success",
-    "rows": 7,
-    "data": [
-      {
-        "Close": 25.0,
-        "High": 25.0,
-        "Low": 25.0,
-        "Open": 25.0,
-        "Volume": 0
-      },
-      {
-        "Close": 25.0,
-        "High": 25.0,
-        "Low": 25.0,
-        "Open": 25.0,
-        "Volume": 845
-      },
-      {
-        "Close": 24.969999313354492,
-        "High": 24.969999313354492,
-        "Low": 24.969999313354492,
-        "Open": 24.969999313354492,
-        "Volume": 426
-      },
-      {
-        "Close": 25.049999237060547,
-        "High": 25.049999237060547,
-        "Low": 25.049999237060547,
-        "Open": 25.049999237060547,
-        "Volume": 0
-      },
-      {
-        "Close": 24.959999084472656,
-        "High": 24.959999084472656,
-        "Low": 24.959999084472656,
-        "Open": 24.959999084472656,
-        "Volume": 344
-      },
-      {
-        "Close": 25.09000015258789,
-        "High": 25.09000015258789,
-        "Low": 25.0,
-        "Open": 25.0,
-        "Volume": 466
-      },
-      {
-        "Close": 25.110000610351562,
-        "High": 25.110000610351562,
-        "Low": 25.09000015258789,
-        "Open": 25.094999313354492,
-        "Volume": 3391
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -77,7 +26,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

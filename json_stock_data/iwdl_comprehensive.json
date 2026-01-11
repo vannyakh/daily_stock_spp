@@ -1,23 +1,30 @@
 {
   "ticker": "IWDL",
-  "timestamp": "2026-01-10T05:30:09.474367",
+  "timestamp": "2026-01-11T05:15:19.996377",
   "intraday_data": {
     "status": "success",
-    "rows": 2,
+    "rows": 3,
     "data": [
       {
-        "Close MTUL": 38.27199935913086,
-        "High MTUL": 39.343299865722656,
-        "Low MTUL": 38.27199935913086,
-        "Open MTUL": 39.343299865722656,
-        "Volume MTUL": 0
+        "Close": 51.04999923706055,
+        "High": 51.04999923706055,
+        "Low": 51.04999923706055,
+        "Open": 51.04999923706055,
+        "Volume": 0
       },
       {
-        "Close MTUL": 38.27199935913086,
-        "High MTUL": 39.34510040283203,
-        "Low MTUL": 38.27199935913086,
-        "Open MTUL": 39.34510040283203,
-        "Volume MTUL": 0
+        "Close": 51.25,
+        "High": 51.25,
+        "Low": 51.25,
+        "Open": 51.25,
+        "Volume": 500
+      },
+      {
+        "Close": 51.24580001831055,
+        "High": 51.24580001831055,
+        "Low": 51.220001220703125,
+        "Open": 51.220001220703125,
+        "Volume": 101
       }
     ]
   },
@@ -42,7 +49,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

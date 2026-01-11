@@ -1,32 +1,9 @@
 {
   "ticker": "TPHS",
-  "timestamp": "2026-01-10T05:10:27.601562",
+  "timestamp": "2026-01-11T05:08:11.630943",
   "intraday_data": {
-    "status": "success",
-    "rows": 3,
-    "data": [
-      {
-        "Close": 0.03150000050663948,
-        "High": 0.03150000050663948,
-        "Low": 0.03150000050663948,
-        "Open": 0.03150000050663948,
-        "Volume": 0
-      },
-      {
-        "Close": 0.03020000085234642,
-        "High": 0.03020000085234642,
-        "Low": 0.03020000085234642,
-        "Open": 0.03020000085234642,
-        "Volume": 10000
-      },
-      {
-        "Close": 0.032999999821186066,
-        "High": 0.032999999821186066,
-        "Low": 0.029999999329447746,
-        "Open": 0.03200000151991844,
-        "Volume": 135000
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -181,7 +158,8 @@
       ]
     },
     "recommendations": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   },
   "holders_data": {

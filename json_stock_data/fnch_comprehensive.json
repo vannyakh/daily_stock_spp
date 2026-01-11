@@ -1,118 +1,23 @@
 {
   "ticker": "FNCH",
-  "timestamp": "2026-01-10T05:20:43.209144",
+  "timestamp": "2026-01-11T05:11:59.100228",
   "intraday_data": {
     "status": "no_data",
     "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
-    "message": "Too Many Requests. Rate limited. Try after a while."
+    "message": "argument of type 'NoneType' is not iterable"
   },
   "financials": {
     "income_statement": {
-      "status": "no_data"
-    },
-    "balance_sheet": {
-      "status": "no_data"
-    },
-    "cash_flow": {
-      "status": "no_data"
-    }
-  },
-  "options_data": {
-    "status": "error",
-    "error_message": "Too Many Requests. Rate limited. Try after a while."
-  },
-  "news_data": {
-    "news": {
       "status": "success",
-      "count": 1,
+      "rows": 44,
+      "columns": [
+        "2023-12-31 00:00:00",
+        "2022-12-31 00:00:00",
+        "2021-12-31 00:00:00"
+      ],
       "data": [
         {
-          "id": "4e066511-2c56-395b-afd1-1221be88d808",
-          "content": {
-            "id": "4e066511-2c56-395b-afd1-1221be88d808",
-            "contentType": "STORY",
-            "title": "What Makes Finch Therapeutics (FNCH) a Worthy Investment?",
-            "description": "",
-            "summary": "Arquitos Capital Management, an investment management firm, released its third-quarter 2025 investor letter. A copy of the letter can be downloaded here. During the third quarter, the fund delivered a net return of 29.6% bringing year-to-date gains to an impressive 66.8%. Arquitos Capital Management is an unconventional hedge fund that focuses on a select group [\u2026]",
-            "pubDate": "2025-12-11T14:23:48Z",
-            "displayTime": "2025-12-11T14:23:48Z",
-            "isHosted": true,
-            "bypassModal": false,
-            "previewUrl": null,
-            "thumbnail": {
-              "originalUrl": "https://media.zenfs.com/en/insidermonkey.com/d2778253c4dd5ca68d385e621f646852",
-              "originalWidth": 768,
-              "originalHeight": 430,
-              "caption": "",
-              "resolutions": [
-                {
-                  "url": "https://s.yimg.com/uu/api/res/1.2/HOQQ_5Tz3E5bqU6YfuIRYA--~B/aD00MzA7dz03Njg7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/insidermonkey.com/d2778253c4dd5ca68d385e621f646852",
-                  "width": 768,
-                  "height": 430,
-                  "tag": "original"
-                },
-                {
-                  "url": "https://s.yimg.com/uu/api/res/1.2/dP1iFXymqOzENCUibY3mng--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/insidermonkey.com/d2778253c4dd5ca68d385e621f646852",
-                  "width": 170,
-                  "height": 128,
-                  "tag": "170x128"
-                }
-              ]
-            },
-            "provider": {
-              "displayName": "Insider Monkey",
-              "url": "http://www.insidermonkey.com"
-            },
-            "canonicalUrl": {
-              "url": "https://finance.yahoo.com/news/makes-finch-therapeutics-fnch-worthy-142348714.html",
-              "site": "finance",
-              "region": "US",
-              "lang": "en-US"
-            },
-            "clickThroughUrl": {
-              "url": "https://finance.yahoo.com/news/makes-finch-therapeutics-fnch-worthy-142348714.html",
-              "site": "finance",
-              "region": "US",
-              "lang": "en-US"
-            },
-            "metadata": {
-              "editorsPick": false
-            },
-            "finance": {
-              "premiumFinance": {
-                "isPremiumNews": false,
-                "isPremiumFreeNews": false
-              }
-            },
-            "storyline": null
-          }
-        }
-      ]
-    },
-    "recommendations": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
-    }
-  },
-  "holders_data": {
-    "major_holders": {
-      "status": "error"
-    },
-    "institutional_holders": {
-      "status": "error"
-    }
-  },
-  "earnings_data": {
-    "earnings": {
-      "status": "error",
-      "message": "'NoneType' object has no attribute 'empty'"
-    },
-    "calendar": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
-    }
-  }
-}
+          

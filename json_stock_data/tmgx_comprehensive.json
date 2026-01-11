@@ -1,9 +1,53 @@
 {
   "ticker": "TMGX",
-  "timestamp": "2026-01-10T05:14:11.409168",
+  "timestamp": "2026-01-11T05:09:33.217095",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 6,
+    "data": [
+      {
+        "Close BLIV": 3.5999999046325684,
+        "High BLIV": 3.5999999046325684,
+        "Low BLIV": 3.5999999046325684,
+        "Open BLIV": 3.5999999046325684,
+        "Volume BLIV": 0
+      },
+      {
+        "Close BLIV": 3.319999933242798,
+        "High BLIV": 3.319999933242798,
+        "Low BLIV": 3.319999933242798,
+        "Open BLIV": 3.319999933242798,
+        "Volume BLIV": 470
+      },
+      {
+        "Close BLIV": 3.5999999046325684,
+        "High BLIV": 3.5999999046325684,
+        "Low BLIV": 3.5999999046325684,
+        "Open BLIV": 3.5999999046325684,
+        "Volume BLIV": 0
+      },
+      {
+        "Close BLIV": 3.319999933242798,
+        "High BLIV": 3.319999933242798,
+        "Low BLIV": 3.319999933242798,
+        "Open BLIV": 3.319999933242798,
+        "Volume BLIV": 200
+      },
+      {
+        "Close BLIV": 3.5999999046325684,
+        "High BLIV": 3.5999999046325684,
+        "Low BLIV": 3.5999999046325684,
+        "Open BLIV": 3.5999999046325684,
+        "Volume BLIV": 363
+      },
+      {
+        "Close BLIV": 3.305000066757202,
+        "High BLIV": 3.305000066757202,
+        "Low BLIV": 3.305000066757202,
+        "Open BLIV": 3.305000066757202,
+        "Volume BLIV": 0
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -26,10 +70,12 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   },
   "holders_data": {

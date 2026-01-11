@@ -1,16 +1,37 @@
 {
   "ticker": "OPP-PC",
-  "timestamp": "2026-01-10T05:31:12.765954",
+  "timestamp": "2026-01-11T05:15:42.972884",
   "intraday_data": {
     "status": "success",
-    "rows": 1,
+    "rows": 4,
     "data": [
       {
-        "Close NSA-PB": 21.209999084472656,
-        "High NSA-PB": 21.209999084472656,
-        "Low NSA-PB": 21.209999084472656,
-        "Open NSA-PB": 21.209999084472656,
-        "Volume NSA-PB": 0
+        "Close": 10.233599662780762,
+        "High": 10.233599662780762,
+        "Low": 10.233599662780762,
+        "Open": 10.233599662780762,
+        "Volume": 0
+      },
+      {
+        "Close": 10.222000122070312,
+        "High": 10.222000122070312,
+        "Low": 10.222000122070312,
+        "Open": 10.222000122070312,
+        "Volume": 103
+      },
+      {
+        "Close": 10.227700233459473,
+        "High": 10.239999771118164,
+        "Low": 10.227700233459473,
+        "Open": 10.239999771118164,
+        "Volume": 1994
+      },
+      {
+        "Close": 10.239899635314941,
+        "High": 10.239899635314941,
+        "Low": 10.239899635314941,
+        "Open": 10.239899635314941,
+        "Volume": 249
       }
     ]
   },
@@ -35,7 +56,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

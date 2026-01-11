@@ -1,43 +1,13 @@
 {
   "ticker": "SES-WT",
-  "timestamp": "2026-01-10T05:25:11.995247",
+  "timestamp": "2026-01-11T05:13:33.293036",
   "intraday_data": {
-    "status": "success",
-    "rows": 4,
-    "data": [
-      {
-        "Close XOSWW": 0.0035000001080334187,
-        "High XOSWW": 0.0035000001080334187,
-        "Low XOSWW": 0.0035000001080334187,
-        "Open XOSWW": 0.0035000001080334187,
-        "Volume XOSWW": 0
-      },
-      {
-        "Close XOSWW": 0.004000000189989805,
-        "High XOSWW": 0.004000000189989805,
-        "Low XOSWW": 0.004000000189989805,
-        "Open XOSWW": 0.004000000189989805,
-        "Volume XOSWW": 100
-      },
-      {
-        "Close XOSWW": 0.00419999985024333,
-        "High XOSWW": 0.00419999985024333,
-        "Low XOSWW": 0.00419999985024333,
-        "Open XOSWW": 0.00419999985024333,
-        "Volume XOSWW": 9600
-      },
-      {
-        "Close XOSWW": 0.003800000064074993,
-        "High XOSWW": 0.003800000064074993,
-        "Low XOSWW": 0.003700000001117587,
-        "Open XOSWW": 0.003700000001117587,
-        "Volume XOSWW": 5771
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
-    "message": "argument of type 'NoneType' is not iterable"
+    "message": "Too Many Requests. Rate limited. Try after a while."
   },
   "financials": {
     "income_statement": {
@@ -56,7 +26,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

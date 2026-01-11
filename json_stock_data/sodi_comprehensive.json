@@ -1,32 +1,9 @@
 {
   "ticker": "SODI",
-  "timestamp": "2026-01-10T05:02:38.454988",
+  "timestamp": "2026-01-11T05:04:33.644084",
   "intraday_data": {
-    "status": "success",
-    "rows": 3,
-    "data": [
-      {
-        "Close": 19.0,
-        "High": 19.0,
-        "Low": 19.0,
-        "Open": 19.0,
-        "Volume": 0
-      },
-      {
-        "Close": 19.0,
-        "High": 19.0,
-        "Low": 19.0,
-        "Open": 19.0,
-        "Volume": 200
-      },
-      {
-        "Close": 18.690000534057617,
-        "High": 18.690000534057617,
-        "Low": 18.690000534057617,
-        "Open": 18.690000534057617,
-        "Volume": 1
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -52,7 +29,8 @@
       "status": "no_data"
     },
     "recommendations": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   },
   "holders_data": {

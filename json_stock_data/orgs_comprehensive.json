@@ -1,121 +1,16 @@
 {
   "ticker": "ORGS",
-  "timestamp": "2026-01-10T05:08:24.775773",
+  "timestamp": "2026-01-11T05:07:14.697156",
   "intraday_data": {
     "status": "success",
-    "rows": 33,
+    "rows": 18,
     "data": [
-      {
-        "Close PAVM": 7.491499900817871,
-        "High PAVM": 7.491499900817871,
-        "Low PAVM": 7.491499900817871,
-        "Open PAVM": 7.491499900817871,
-        "Volume PAVM": 941
-      },
-      {
-        "Close PAVM": 7.324999809265137,
-        "High PAVM": 7.324999809265137,
-        "Low PAVM": 7.324999809265137,
-        "Open PAVM": 7.324999809265137,
-        "Volume PAVM": 200
-      },
-      {
-        "Close PAVM": 7.349999904632568,
-        "High PAVM": 7.349999904632568,
-        "Low PAVM": 7.349999904632568,
-        "Open PAVM": 7.349999904632568,
-        "Volume PAVM": 165
-      },
-      {
-        "Close PAVM": 7.157400131225586,
-        "High PAVM": 7.157400131225586,
-        "Low PAVM": 7.157400131225586,
-        "Open PAVM": 7.157400131225586,
-        "Volume PAVM": 422
-      },
-      {
-        "Close PAVM": 7.060100078582764,
-        "High PAVM": 7.179999828338623,
-        "Low PAVM": 7.060100078582764,
-        "Open PAVM": 7.099999904632568,
-        "Volume PAVM": 1834
-      },
-      {
-        "Close PAVM": 7.139999866485596,
-        "High PAVM": 7.139999866485596,
-        "Low PAVM": 7.139999866485596,
-        "Open PAVM": 7.139999866485596,
-        "Volume PAVM": 131
-      },
-      {
-        "Close PAVM": 7.130000114440918,
-        "High PAVM": 7.130000114440918,
-        "Low PAVM": 7.130000114440918,
-        "Open PAVM": 7.130000114440918,
-        "Volume PAVM": 246
-      },
-      {
-        "Close PAVM": 7.170000076293945,
-        "High PAVM": 7.230000019073486,
-        "Low PAVM": 7.170000076293945,
-        "Open PAVM": 7.230000019073486,
-        "Volume PAVM": 600
-      },
-      {
-        "Close PAVM": 7.211599826812744,
-        "High PAVM": 7.211599826812744,
-        "Low PAVM": 7.211599826812744,
-        "Open PAVM": 7.211599826812744,
-        "Volume PAVM": 450
-      },
-      {
-        "Close PAVM": 7.235000133514404,
-        "High PAVM": 7.235000133514404,
-        "Low PAVM": 7.235000133514404,
-        "Open PAVM": 7.235000133514404,
-        "Volume PAVM": 188
-      },
-      {
-        "Close PAVM": 7.235199928283691,
-        "High PAVM": 7.235199928283691,
-        "Low PAVM": 7.235199928283691,
-        "Open PAVM": 7.235199928283691,
-        "Volume PAVM": 197
-      },
-      {
-        "Close PAVM": 7.300000190734863,
-        "High PAVM": 7.300000190734863,
-        "Low PAVM": 7.300000190734863,
-        "Open PAVM": 7.300000190734863,
-        "Volume PAVM": 161
-      },
-      {
-        "Close PAVM": 7.300000190734863,
-        "High PAVM": 7.300000190734863,
-        "Low PAVM": 7.300000190734863,
-        "Open PAVM": 7.300000190734863,
-        "Volume PAVM": 600
-      },
-      {
-        "Close PAVM": 7.300000190734863,
-        "High PAVM": 7.300000190734863,
-        "Low PAVM": 7.300000190734863,
-        "Open PAVM": 7.300000190734863,
-        "Volume PAVM": 200
-      },
-      {
-        "Close PAVM": 7.349999904632568,
-        "High PAVM": 7.349999904632568,
-        "Low PAVM": 7.349999904632568,
-        "Open PAVM": 7.349999904632568,
-        "Volume PAVM": 200
-      },
       {
         "Close PAVM": 7.25,
         "High PAVM": 7.25,
         "Low PAVM": 7.25,
         "Open PAVM": 7.25,
-        "Volume PAVM": 184
+        "Volume PAVM": 0
       },
       {
         "Close PAVM": 7.125999927520752,
@@ -240,17 +135,48 @@
   },
   "stock_info": {
     "status": "error",
-    "message": "argument of type 'NoneType' is not iterable"
+    "message": "Too Many Requests. Rate limited. Try after a while."
   },
   "financials": {
     "income_statement": {
-      "status": "success",
-      "rows": 62,
-      "columns": [
-        "2023-12-31 00:00:00",
-        "2022-12-31 00:00:00",
-        "2021-12-31 00:00:00"
-      ],
-      "data": [
-        {
-          
+      "status": "no_data"
+    },
+    "balance_sheet": {
+      "status": "no_data"
+    },
+    "cash_flow": {
+      "status": "no_data"
+    }
+  },
+  "options_data": {
+    "status": "error",
+    "error_message": "Too Many Requests. Rate limited. Try after a while."
+  },
+  "news_data": {
+    "news": {
+      "status": "no_data"
+    },
+    "recommendations": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  },
+  "holders_data": {
+    "major_holders": {
+      "status": "error"
+    },
+    "institutional_holders": {
+      "status": "error"
+    }
+  },
+  "earnings_data": {
+    "earnings": {
+      "status": "error",
+      "message": "'NoneType' object has no attribute 'empty'"
+    },
+    "calendar": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  }
+}

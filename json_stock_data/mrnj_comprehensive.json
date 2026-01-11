@@ -1,18 +1,9 @@
 {
   "ticker": "MRNJ",
-  "timestamp": "2026-01-10T05:12:36.903637",
+  "timestamp": "2026-01-11T05:09:01.136843",
   "intraday_data": {
-    "status": "success",
-    "rows": 1,
-    "data": [
-      {
-        "Close TMGI": 0.08980000019073486,
-        "High TMGI": 0.08980000019073486,
-        "Low TMGI": 0.089649997651577,
-        "Open TMGI": 0.089649997651577,
-        "Volume TMGI": 4000
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -35,7 +26,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

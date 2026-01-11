@@ -1,9 +1,18 @@
 {
   "ticker": "LOGQ",
-  "timestamp": "2026-01-10T05:11:35.673767",
+  "timestamp": "2026-01-11T05:08:38.618387",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 1,
+    "data": [
+      {
+        "Close PRSI": 8.0,
+        "High PRSI": 8.0,
+        "Low PRSI": 8.0,
+        "Open PRSI": 8.0,
+        "Volume PRSI": 0
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -26,7 +35,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

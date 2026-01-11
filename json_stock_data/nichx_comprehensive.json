@@ -1,25 +1,9 @@
 {
   "ticker": "NICHX",
-  "timestamp": "2026-01-10T05:27:11.381270",
+  "timestamp": "2026-01-11T05:14:14.136534",
   "intraday_data": {
-    "status": "success",
-    "rows": 2,
-    "data": [
-      {
-        "Close": 26.31999969482422,
-        "High": 26.31999969482422,
-        "Low": 26.31999969482422,
-        "Open": 26.31999969482422,
-        "Volume": 0
-      },
-      {
-        "Close": 26.34000015258789,
-        "High": 26.34000015258789,
-        "Low": 26.34000015258789,
-        "Open": 26.34000015258789,
-        "Volume": 0
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -42,7 +26,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

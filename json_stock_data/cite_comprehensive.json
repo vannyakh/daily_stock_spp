@@ -1,25 +1,9 @@
 {
   "ticker": "CITE",
-  "timestamp": "2026-01-10T05:20:13.639577",
+  "timestamp": "2026-01-11T05:11:46.351047",
   "intraday_data": {
-    "status": "success",
-    "rows": 2,
-    "data": [
-      {
-        "Close GLU-PB": 50.150001525878906,
-        "High GLU-PB": 50.150001525878906,
-        "Low GLU-PB": 50.150001525878906,
-        "Open GLU-PB": 50.150001525878906,
-        "Volume GLU-PB": 0
-      },
-      {
-        "Close GLU-PB": 50.220001220703125,
-        "High GLU-PB": 50.220001220703125,
-        "Low GLU-PB": 50.220001220703125,
-        "Open GLU-PB": 50.220001220703125,
-        "Volume GLU-PB": 100
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -42,7 +26,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

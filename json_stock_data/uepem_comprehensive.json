@@ -1,32 +1,9 @@
 {
   "ticker": "UEPEM",
-  "timestamp": "2026-01-10T05:17:48.255527",
+  "timestamp": "2026-01-11T05:10:55.785295",
   "intraday_data": {
-    "status": "success",
-    "rows": 3,
-    "data": [
-      {
-        "Close": 65.55999755859375,
-        "High": 65.56999969482422,
-        "Low": 65.55999755859375,
-        "Open": 65.56999969482422,
-        "Volume": 0
-      },
-      {
-        "Close": 65.9000015258789,
-        "High": 65.9000015258789,
-        "Low": 65.9000015258789,
-        "Open": 65.9000015258789,
-        "Volume": 101
-      },
-      {
-        "Close": 66.19999694824219,
-        "High": 66.19999694824219,
-        "Low": 66.19999694824219,
-        "Open": 66.19999694824219,
-        "Volume": 100
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -49,10 +26,12 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   },
   "holders_data": {

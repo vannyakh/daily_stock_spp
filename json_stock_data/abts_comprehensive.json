@@ -1,118 +1,82 @@
 {
   "ticker": "ABTS",
-  "timestamp": "2026-01-10T05:05:00.546036",
+  "timestamp": "2026-01-11T05:05:40.294077",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 8,
+    "data": [
+      {
+        "Close": 5.53000020980835,
+        "High": 5.53000020980835,
+        "Low": 5.53000020980835,
+        "Open": 5.53000020980835,
+        "Volume": 0
+      },
+      {
+        "Close": 5.739999771118164,
+        "High": 5.739999771118164,
+        "Low": 5.739999771118164,
+        "Open": 5.739999771118164,
+        "Volume": 352
+      },
+      {
+        "Close": 5.519999980926514,
+        "High": 5.519999980926514,
+        "Low": 5.519999980926514,
+        "Open": 5.519999980926514,
+        "Volume": 126
+      },
+      {
+        "Close": 5.53000020980835,
+        "High": 5.53000020980835,
+        "Low": 5.53000020980835,
+        "Open": 5.53000020980835,
+        "Volume": 173
+      },
+      {
+        "Close": 5.619999885559082,
+        "High": 5.619999885559082,
+        "Low": 5.619999885559082,
+        "Open": 5.619999885559082,
+        "Volume": 746
+      },
+      {
+        "Close": 5.599899768829346,
+        "High": 5.599899768829346,
+        "Low": 5.579999923706055,
+        "Open": 5.579999923706055,
+        "Volume": 0
+      },
+      {
+        "Close": 5.800000190734863,
+        "High": 5.800000190734863,
+        "Low": 5.800000190734863,
+        "Open": 5.800000190734863,
+        "Volume": 156
+      },
+      {
+        "Close": 5.789999961853027,
+        "High": 5.789999961853027,
+        "Low": 5.789999961853027,
+        "Open": 5.789999961853027,
+        "Volume": 305
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
-    "message": "Too Many Requests. Rate limited. Try after a while."
+    "message": "argument of type 'NoneType' is not iterable"
   },
   "financials": {
     "income_statement": {
-      "status": "no_data"
-    },
-    "balance_sheet": {
-      "status": "no_data"
-    },
-    "cash_flow": {
-      "status": "no_data"
-    }
-  },
-  "options_data": {
-    "status": "error",
-    "error_message": "Too Many Requests. Rate limited. Try after a while."
-  },
-  "news_data": {
-    "news": {
       "status": "success",
-      "count": 1,
+      "rows": 53,
+      "columns": [
+        "2024-12-31 00:00:00",
+        "2023-12-31 00:00:00",
+        "2022-12-31 00:00:00",
+        "2021-12-31 00:00:00"
+      ],
       "data": [
         {
-          "id": "a424c8b7-b14d-3902-ad82-b4eff2babde1",
-          "content": {
-            "id": "a424c8b7-b14d-3902-ad82-b4eff2babde1",
-            "contentType": "STORY",
-            "title": "Abits Group Full Year 2024 Earnings: US$0.38 loss per share (vs US$5.31 loss in FY 2023)",
-            "description": "",
-            "summary": "Abits Group ( NASDAQ:ABTS ) Full Year 2024 Results Key Financial Results Revenue: US$6.71m (up 299% from FY 2023). Net...",
-            "pubDate": "2025-05-03T14:28:41Z",
-            "displayTime": "2025-05-03T14:28:41Z",
-            "isHosted": true,
-            "bypassModal": false,
-            "previewUrl": null,
-            "thumbnail": {
-              "originalUrl": "https://media.zenfs.com/en/simply_wall_st__316/78a8c60a6283aea0450523395306d38c",
-              "originalWidth": 945,
-              "originalHeight": 636,
-              "caption": "",
-              "resolutions": [
-                {
-                  "url": "https://s.yimg.com/uu/api/res/1.2/5Vpve0Pc2F3m_L3fs2p_dQ--~B/aD02MzY7dz05NDU7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/simply_wall_st__316/78a8c60a6283aea0450523395306d38c",
-                  "width": 945,
-                  "height": 636,
-                  "tag": "original"
-                },
-                {
-                  "url": "https://s.yimg.com/uu/api/res/1.2/5K6kmrQzRk.k.11fs9N_QA--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/simply_wall_st__316/78a8c60a6283aea0450523395306d38c",
-                  "width": 170,
-                  "height": 128,
-                  "tag": "170x128"
-                }
-              ]
-            },
-            "provider": {
-              "displayName": "Simply Wall St.",
-              "url": "https://simplywall.st/"
-            },
-            "canonicalUrl": {
-              "url": "https://finance.yahoo.com/news/abits-group-full-2024-earnings-142841227.html",
-              "site": "finance",
-              "region": "US",
-              "lang": "en-US"
-            },
-            "clickThroughUrl": {
-              "url": "https://finance.yahoo.com/news/abits-group-full-2024-earnings-142841227.html",
-              "site": "finance",
-              "region": "US",
-              "lang": "en-US"
-            },
-            "metadata": {
-              "editorsPick": false
-            },
-            "finance": {
-              "premiumFinance": {
-                "isPremiumNews": false,
-                "isPremiumFreeNews": false
-              }
-            },
-            "storyline": null
-          }
-        }
-      ]
-    },
-    "recommendations": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
-    }
-  },
-  "holders_data": {
-    "major_holders": {
-      "status": "error"
-    },
-    "institutional_holders": {
-      "status": "error"
-    }
-  },
-  "earnings_data": {
-    "earnings": {
-      "status": "error",
-      "message": "'NoneType' object has no attribute 'empty'"
-    },
-    "calendar": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
-    }
-  }
-}
+          

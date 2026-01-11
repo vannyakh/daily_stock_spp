@@ -1,9 +1,18 @@
 {
   "ticker": "GTCH",
-  "timestamp": "2026-01-10T05:11:56.969687",
+  "timestamp": "2026-01-11T05:08:45.841898",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 1,
+    "data": [
+      {
+        "Close LBUY": 0.019999999552965164,
+        "High LBUY": 0.019999999552965164,
+        "Low LBUY": 0.019999999552965164,
+        "Open LBUY": 0.019999999552965164,
+        "Volume LBUY": 0
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -26,7 +35,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

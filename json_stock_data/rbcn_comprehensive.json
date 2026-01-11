@@ -1,9 +1,46 @@
 {
   "ticker": "RBCN",
-  "timestamp": "2026-01-10T05:21:12.633456",
+  "timestamp": "2026-01-11T05:12:10.233347",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 5,
+    "data": [
+      {
+        "Close": 2.7200000286102295,
+        "High": 2.7200000286102295,
+        "Low": 2.7200000286102295,
+        "Open": 2.7200000286102295,
+        "Volume": 0
+      },
+      {
+        "Close": 2.7300000190734863,
+        "High": 2.7300000190734863,
+        "Low": 2.7300000190734863,
+        "Open": 2.7300000190734863,
+        "Volume": 100
+      },
+      {
+        "Close": 3.0,
+        "High": 3.0,
+        "Low": 3.0,
+        "Open": 3.0,
+        "Volume": 400
+      },
+      {
+        "Close": 3.0999999046325684,
+        "High": 3.0999999046325684,
+        "Low": 3.0899999141693115,
+        "Open": 3.0899999141693115,
+        "Volume": 500
+      },
+      {
+        "Close": 2.880000114440918,
+        "High": 2.880000114440918,
+        "Low": 2.880000114440918,
+        "Open": 2.880000114440918,
+        "Volume": 1000
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -26,7 +63,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

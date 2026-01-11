@@ -1,9 +1,32 @@
 {
   "ticker": "GATEU",
-  "timestamp": "2026-01-10T05:27:49.161055",
+  "timestamp": "2026-01-11T05:14:28.368179",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 3,
+    "data": [
+      {
+        "Close LNZAW": 0.013899999670684338,
+        "High LNZAW": 0.013899999670684338,
+        "Low LNZAW": 0.013899999670684338,
+        "Open LNZAW": 0.013899999670684338,
+        "Volume LNZAW": 0
+      },
+      {
+        "Close LNZAW": 0.014399999752640724,
+        "High LNZAW": 0.014399999752640724,
+        "Low LNZAW": 0.014399999752640724,
+        "Open LNZAW": 0.014399999752640724,
+        "Volume LNZAW": 200
+      },
+      {
+        "Close LNZAW": 0.014399999752640724,
+        "High LNZAW": 0.014399999752640724,
+        "Low LNZAW": 0.014399999752640724,
+        "Open LNZAW": 0.014399999752640724,
+        "Volume LNZAW": 4055
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -26,7 +49,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

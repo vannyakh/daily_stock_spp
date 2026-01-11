@@ -1,81 +1,9 @@
 {
   "ticker": "WINVR",
-  "timestamp": "2026-01-10T05:28:12.621533",
+  "timestamp": "2026-01-11T05:14:36.852770",
   "intraday_data": {
-    "status": "success",
-    "rows": 10,
-    "data": [
-      {
-        "Close BRQL": 0.800000011920929,
-        "High BRQL": 0.800000011920929,
-        "Low BRQL": 0.800000011920929,
-        "Open BRQL": 0.800000011920929,
-        "Volume BRQL": 0
-      },
-      {
-        "Close BRQL": 0.800000011920929,
-        "High BRQL": 0.800000011920929,
-        "Low BRQL": 0.800000011920929,
-        "Open BRQL": 0.800000011920929,
-        "Volume BRQL": 1500
-      },
-      {
-        "Close BRQL": 0.800000011920929,
-        "High BRQL": 0.800000011920929,
-        "Low BRQL": 0.800000011920929,
-        "Open BRQL": 0.800000011920929,
-        "Volume BRQL": 2000
-      },
-      {
-        "Close BRQL": 0.8500000238418579,
-        "High BRQL": 0.8500000238418579,
-        "Low BRQL": 0.8500000238418579,
-        "Open BRQL": 0.8500000238418579,
-        "Volume BRQL": 125
-      },
-      {
-        "Close BRQL": 0.8349999785423279,
-        "High BRQL": 0.8349999785423279,
-        "Low BRQL": 0.8349999785423279,
-        "Open BRQL": 0.8349999785423279,
-        "Volume BRQL": 20
-      },
-      {
-        "Close BRQL": 0.8388000130653381,
-        "High BRQL": 0.8388000130653381,
-        "Low BRQL": 0.8388000130653381,
-        "Open BRQL": 0.8388000130653381,
-        "Volume BRQL": 980
-      },
-      {
-        "Close BRQL": 0.8388000130653381,
-        "High BRQL": 0.8388000130653381,
-        "Low BRQL": 0.8388000130653381,
-        "Open BRQL": 0.8388000130653381,
-        "Volume BRQL": 9020
-      },
-      {
-        "Close BRQL": 0.7350000143051147,
-        "High BRQL": 0.7350000143051147,
-        "Low BRQL": 0.7350000143051147,
-        "Open BRQL": 0.7350000143051147,
-        "Volume BRQL": 1100
-      },
-      {
-        "Close BRQL": 0.8799999952316284,
-        "High BRQL": 0.8799999952316284,
-        "Low BRQL": 0.8799999952316284,
-        "Open BRQL": 0.8799999952316284,
-        "Volume BRQL": 1900
-      },
-      {
-        "Close BRQL": 0.8799999952316284,
-        "High BRQL": 0.8799999952316284,
-        "Low BRQL": 0.8799999952316284,
-        "Open BRQL": 0.8799999952316284,
-        "Volume BRQL": 0
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -98,7 +26,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

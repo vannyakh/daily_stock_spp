@@ -1,9 +1,39 @@
 {
   "ticker": "YOTAW",
-  "timestamp": "2026-01-10T05:24:13.285806",
+  "timestamp": "2026-01-11T05:13:13.350533",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 4,
+    "data": [
+      {
+        "Close HUBCW": 0.017500000074505806,
+        "High HUBCW": 0.017500000074505806,
+        "Low HUBCW": 0.017500000074505806,
+        "Open HUBCW": 0.017500000074505806,
+        "Volume HUBCW": 0
+      },
+      {
+        "Close HUBCW": 0.01510000042617321,
+        "High HUBCW": 0.01510000042617321,
+        "Low HUBCW": 0.01510000042617321,
+        "Open HUBCW": 0.01510000042617321,
+        "Volume HUBCW": 3560
+      },
+      {
+        "Close HUBCW": 0.017999999225139618,
+        "High HUBCW": 0.017999999225139618,
+        "Low HUBCW": 0.017999999225139618,
+        "Open HUBCW": 0.017999999225139618,
+        "Volume HUBCW": 2000
+      },
+      {
+        "Close HUBCW": 0.015300000086426735,
+        "High HUBCW": 0.016499999910593033,
+        "Low HUBCW": 0.015300000086426735,
+        "Open HUBCW": 0.016499999910593033,
+        "Volume HUBCW": 3025
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -26,7 +56,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

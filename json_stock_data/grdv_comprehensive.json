@@ -1,32 +1,9 @@
 {
   "ticker": "GRDV",
-  "timestamp": "2026-01-10T05:24:51.007904",
+  "timestamp": "2026-01-11T05:13:26.392958",
   "intraday_data": {
-    "status": "success",
-    "rows": 3,
-    "data": [
-      {
-        "Close NEOVW": 1.5299999713897705,
-        "High NEOVW": 1.5299999713897705,
-        "Low NEOVW": 1.2799999713897705,
-        "Open NEOVW": 1.2799999713897705,
-        "Volume NEOVW": 0
-      },
-      {
-        "Close NEOVW": 1.25,
-        "High NEOVW": 1.25,
-        "Low NEOVW": 1.25,
-        "Open NEOVW": 1.25,
-        "Volume NEOVW": 641
-      },
-      {
-        "Close NEOVW": 1.1299999952316284,
-        "High NEOVW": 1.2200000286102295,
-        "Low NEOVW": 1.1299999952316284,
-        "Open NEOVW": 1.1299999952316284,
-        "Volume NEOVW": 0
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -49,7 +26,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

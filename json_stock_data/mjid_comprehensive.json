@@ -1,43 +1,13 @@
 {
   "ticker": "MJID",
-  "timestamp": "2026-01-10T05:15:28.838817",
+  "timestamp": "2026-01-11T05:10:02.495891",
   "intraday_data": {
-    "status": "success",
-    "rows": 4,
-    "data": [
-      {
-        "Close GBAT": 1.5499999523162842,
-        "High GBAT": 1.5499999523162842,
-        "Low GBAT": 1.5499999523162842,
-        "Open GBAT": 1.5499999523162842,
-        "Volume GBAT": 0
-      },
-      {
-        "Close GBAT": 1.649999976158142,
-        "High GBAT": 1.649999976158142,
-        "Low GBAT": 1.649999976158142,
-        "Open GBAT": 1.649999976158142,
-        "Volume GBAT": 27
-      },
-      {
-        "Close GBAT": 1.659999966621399,
-        "High GBAT": 1.659999966621399,
-        "Low GBAT": 1.659999966621399,
-        "Open GBAT": 1.659999966621399,
-        "Volume GBAT": 0
-      },
-      {
-        "Close GBAT": 1.5199999809265137,
-        "High GBAT": 1.5499999523162842,
-        "Low GBAT": 1.5199999809265137,
-        "Open GBAT": 1.5499999523162842,
-        "Volume GBAT": 498
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
-    "message": "argument of type 'NoneType' is not iterable"
+    "message": "Too Many Requests. Rate limited. Try after a while."
   },
   "financials": {
     "income_statement": {
@@ -56,52 +26,8 @@
   },
   "news_data": {
     "news": {
-      "status": "success",
-      "count": 1,
-      "data": [
-        {
-          "id": "99b4640d-a0f5-3f90-8463-8813a99efee3",
-          "content": {
-            "id": "99b4640d-a0f5-3f90-8463-8813a99efee3",
-            "contentType": "STORY",
-            "title": "Top Midday Decliners",
-            "description": "",
-            "summary": "LQR House (YHC) said late Thursday it intends to broaden its focus by integrating cryptocurrency and",
-            "pubDate": "2025-07-18T17:46:41Z",
-            "displayTime": "2025-07-18T17:46:41Z",
-            "isHosted": true,
-            "bypassModal": false,
-            "previewUrl": null,
-            "thumbnail": null,
-            "provider": {
-              "displayName": "MT Newswires",
-              "url": "https://www.mtnewswires.com/"
-            },
-            "canonicalUrl": {
-              "url": "https://finance.yahoo.com/news/top-midday-decliners-174641671.html",
-              "site": "finance",
-              "region": "US",
-              "lang": "en-US"
-            },
-            "clickThroughUrl": {
-              "url": "https://finance.yahoo.com/news/top-midday-decliners-174641671.html",
-              "site": "finance",
-              "region": "US",
-              "lang": "en-US"
-            },
-            "metadata": {
-              "editorsPick": false
-            },
-            "finance": {
-              "premiumFinance": {
-                "isPremiumNews": true,
-                "isPremiumFreeNews": false
-              }
-            },
-            "storyline": null
-          }
-        }
-      ]
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

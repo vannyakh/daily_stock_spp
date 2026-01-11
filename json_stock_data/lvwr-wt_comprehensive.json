@@ -1,71 +1,13 @@
 {
   "ticker": "LVWR-WT",
-  "timestamp": "2026-01-10T05:25:31.114501",
+  "timestamp": "2026-01-11T05:13:40.975781",
   "intraday_data": {
-    "status": "success",
-    "rows": 8,
-    "data": [
-      {
-        "Close": 0.057500001043081284,
-        "High": 0.057500001043081284,
-        "Low": 0.057500001043081284,
-        "Open": 0.057500001043081284,
-        "Volume": 0
-      },
-      {
-        "Close": 0.056299999356269836,
-        "High": 0.056299999356269836,
-        "Low": 0.056299999356269836,
-        "Open": 0.056299999356269836,
-        "Volume": 369
-      },
-      {
-        "Close": 0.057500001043081284,
-        "High": 0.057500001043081284,
-        "Low": 0.057500001043081284,
-        "Open": 0.057500001043081284,
-        "Volume": 1000
-      },
-      {
-        "Close": 0.055799998342990875,
-        "High": 0.055799998342990875,
-        "Low": 0.055799998342990875,
-        "Open": 0.055799998342990875,
-        "Volume": 0
-      },
-      {
-        "Close": 0.05739999935030937,
-        "High": 0.05739999935030937,
-        "Low": 0.05739999935030937,
-        "Open": 0.05739999935030937,
-        "Volume": 10100
-      },
-      {
-        "Close": 0.050599999725818634,
-        "High": 0.054099999368190765,
-        "Low": 0.05050000175833702,
-        "Open": 0.054099999368190765,
-        "Volume": 6948
-      },
-      {
-        "Close": 0.054999999701976776,
-        "High": 0.054999999701976776,
-        "Low": 0.054999999701976776,
-        "Open": 0.054999999701976776,
-        "Volume": 1100
-      },
-      {
-        "Close": 0.05169999971985817,
-        "High": 0.054999999701976776,
-        "Low": 0.05169999971985817,
-        "Open": 0.05490000173449516,
-        "Volume": 500
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
-    "message": "argument of type 'NoneType' is not iterable"
+    "message": "Too Many Requests. Rate limited. Try after a while."
   },
   "financials": {
     "income_statement": {
@@ -84,7 +26,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

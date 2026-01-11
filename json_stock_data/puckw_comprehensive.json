@@ -1,25 +1,9 @@
 {
   "ticker": "PUCKW",
-  "timestamp": "2026-01-10T05:27:41.527484",
+  "timestamp": "2026-01-11T05:14:25.030364",
   "intraday_data": {
-    "status": "success",
-    "rows": 2,
-    "data": [
-      {
-        "Close XBPEW": 0.03500000014901161,
-        "High XBPEW": 0.03500000014901161,
-        "Low XBPEW": 0.03500000014901161,
-        "Open XBPEW": 0.03500000014901161,
-        "Volume XBPEW": 0
-      },
-      {
-        "Close XBPEW": 0.03830000013113022,
-        "High XBPEW": 0.03830000013113022,
-        "Low XBPEW": 0.03750000149011612,
-        "Open XBPEW": 0.03750000149011612,
-        "Volume XBPEW": 7709
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -42,7 +26,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

@@ -1,32 +1,9 @@
 {
   "ticker": "DTGI",
-  "timestamp": "2026-01-10T05:21:19.225749",
+  "timestamp": "2026-01-11T05:12:13.147020",
   "intraday_data": {
-    "status": "success",
-    "rows": 3,
-    "data": [
-      {
-        "Close": 0.01510000042617321,
-        "High": 0.015399999916553497,
-        "Low": 0.01510000042617321,
-        "Open": 0.015399999916553497,
-        "Volume": 0
-      },
-      {
-        "Close": 0.014499999582767487,
-        "High": 0.014700000174343586,
-        "Low": 0.014000000432133675,
-        "Open": 0.014700000174343586,
-        "Volume": 327500
-      },
-      {
-        "Close": 0.014700000174343586,
-        "High": 0.014700000174343586,
-        "Low": 0.014700000174343586,
-        "Open": 0.014700000174343586,
-        "Volume": 10000
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -49,7 +26,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

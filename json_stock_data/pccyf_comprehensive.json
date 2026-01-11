@@ -1,16 +1,30 @@
 {
   "ticker": "PCCYF",
-  "timestamp": "2026-01-10T05:15:58.078735",
+  "timestamp": "2026-01-11T05:10:15.845726",
   "intraday_data": {
     "status": "success",
-    "rows": 1,
+    "rows": 3,
     "data": [
       {
-        "Close": 1.0499999523162842,
-        "High": 1.0499999523162842,
-        "Low": 1.0499999523162842,
-        "Open": 1.0499999523162842,
-        "Volume": 0
+        "Close AZNCF": 190.75,
+        "High AZNCF": 191.0,
+        "Low AZNCF": 190.75,
+        "Open AZNCF": 191.0,
+        "Volume AZNCF": 0
+      },
+      {
+        "Close AZNCF": 190.6999969482422,
+        "High AZNCF": 190.6999969482422,
+        "Low AZNCF": 190.6999969482422,
+        "Open AZNCF": 190.6999969482422,
+        "Volume AZNCF": 200
+      },
+      {
+        "Close AZNCF": 190.8000030517578,
+        "High AZNCF": 190.8000030517578,
+        "Low AZNCF": 190.8000030517578,
+        "Open AZNCF": 190.8000030517578,
+        "Volume AZNCF": 200
       }
     ]
   },
@@ -23,14 +37,42 @@
       "status": "no_data"
     },
     "balance_sheet": {
-      "status": "success",
-      "rows": 91,
-      "columns": [
-        "2024-12-31 00:00:00",
-        "2023-12-31 00:00:00",
-        "2022-12-31 00:00:00",
-        "2021-12-31 00:00:00"
-      ],
-      "data": [
-        {
-          
+      "status": "no_data"
+    },
+    "cash_flow": {
+      "status": "no_data"
+    }
+  },
+  "options_data": {
+    "status": "error",
+    "error_message": "Too Many Requests. Rate limited. Try after a while."
+  },
+  "news_data": {
+    "news": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    },
+    "recommendations": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  },
+  "holders_data": {
+    "major_holders": {
+      "status": "error"
+    },
+    "institutional_holders": {
+      "status": "error"
+    }
+  },
+  "earnings_data": {
+    "earnings": {
+      "status": "error",
+      "message": "'NoneType' object has no attribute 'empty'"
+    },
+    "calendar": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  }
+}

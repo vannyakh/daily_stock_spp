@@ -1,13 +1,57 @@
 {
   "ticker": "RCIAX",
-  "timestamp": "2026-01-10T05:29:14.138040",
+  "timestamp": "2026-01-11T05:15:00.075824",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 6,
+    "data": [
+      {
+        "Close WGSWW": 0.03200000151991844,
+        "High WGSWW": 0.03200000151991844,
+        "Low WGSWW": 0.03200000151991844,
+        "Open WGSWW": 0.03200000151991844,
+        "Volume WGSWW": 0
+      },
+      {
+        "Close WGSWW": 0.032099999487400055,
+        "High WGSWW": 0.032099999487400055,
+        "Low WGSWW": 0.032099999487400055,
+        "Open WGSWW": 0.032099999487400055,
+        "Volume WGSWW": 9800
+      },
+      {
+        "Close WGSWW": 0.03200000151991844,
+        "High WGSWW": 0.032099999487400055,
+        "Low WGSWW": 0.03200000151991844,
+        "Open WGSWW": 0.032099999487400055,
+        "Volume WGSWW": 300
+      },
+      {
+        "Close WGSWW": 0.03480000048875809,
+        "High WGSWW": 0.03480000048875809,
+        "Low WGSWW": 0.03480000048875809,
+        "Open WGSWW": 0.03480000048875809,
+        "Volume WGSWW": 200
+      },
+      {
+        "Close WGSWW": 0.035100001841783524,
+        "High WGSWW": 0.035100001841783524,
+        "Low WGSWW": 0.035100001841783524,
+        "Open WGSWW": 0.035100001841783524,
+        "Volume WGSWW": 100
+      },
+      {
+        "Close WGSWW": 0.03759999945759773,
+        "High WGSWW": 0.037700001150369644,
+        "Low WGSWW": 0.03759999945759773,
+        "Open WGSWW": 0.037700001150369644,
+        "Volume WGSWW": 200
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
-    "message": "Too Many Requests. Rate limited. Try after a while."
+    "message": "argument of type 'NoneType' is not iterable"
   },
   "financials": {
     "income_statement": {
@@ -26,7 +70,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

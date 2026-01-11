@@ -1,46 +1,9 @@
 {
   "ticker": "ALCYW",
-  "timestamp": "2026-01-10T05:24:26.563729",
+  "timestamp": "2026-01-11T05:13:17.564067",
   "intraday_data": {
-    "status": "success",
-    "rows": 5,
-    "data": [
-      {
-        "Close": 0.3043000102043152,
-        "High": 0.3043000102043152,
-        "Low": 0.3043000102043152,
-        "Open": 0.3043000102043152,
-        "Volume": 0
-      },
-      {
-        "Close": 0.32359999418258667,
-        "High": 0.32359999418258667,
-        "Low": 0.32359999418258667,
-        "Open": 0.32359999418258667,
-        "Volume": 0
-      },
-      {
-        "Close": 0.3400000035762787,
-        "High": 0.3400000035762787,
-        "Low": 0.3400000035762787,
-        "Open": 0.3400000035762787,
-        "Volume": 212
-      },
-      {
-        "Close": 0.32199999690055847,
-        "High": 0.32199999690055847,
-        "Low": 0.32199999690055847,
-        "Open": 0.32199999690055847,
-        "Volume": 264
-      },
-      {
-        "Close": 0.287200003862381,
-        "High": 0.287200003862381,
-        "Low": 0.287200003862381,
-        "Open": 0.287200003862381,
-        "Volume": 528
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -63,7 +26,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

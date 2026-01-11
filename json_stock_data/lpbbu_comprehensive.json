@@ -1,9 +1,18 @@
 {
   "ticker": "LPBBU",
-  "timestamp": "2026-01-10T05:23:51.077223",
+  "timestamp": "2026-01-11T05:13:03.607763",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 1,
+    "data": [
+      {
+        "Close CUBWW": 0.20010000467300415,
+        "High CUBWW": 0.20010000467300415,
+        "Low CUBWW": 0.20000000298023224,
+        "Open CUBWW": 0.20000000298023224,
+        "Volume CUBWW": 0
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -26,71 +35,8 @@
   },
   "news_data": {
     "news": {
-      "status": "success",
-      "count": 1,
-      "data": [
-        {
-          "id": "490eb06a-747c-39c1-aba3-d0fe7100b67c",
-          "content": {
-            "id": "490eb06a-747c-39c1-aba3-d0fe7100b67c",
-            "contentType": "STORY",
-            "title": "Launch Two Acquisition Corp. (NASDAQ:LPBB) has caught the attention of institutional investors who hold a sizeable 48% stake",
-            "description": "",
-            "summary": "Key Insights Given the large stake in the stock by institutions, Launch Two Acquisition's stock price might be...",
-            "pubDate": "2025-04-01T13:07:12Z",
-            "displayTime": "2025-04-01T13:07:12Z",
-            "isHosted": true,
-            "bypassModal": false,
-            "previewUrl": null,
-            "thumbnail": {
-              "originalUrl": "https://media.zenfs.com/en/simply_wall_st__316/f88d3d8c5618aa88ce2627c2a1cda340",
-              "originalWidth": 1194,
-              "originalHeight": 432,
-              "caption": "",
-              "resolutions": [
-                {
-                  "url": "https://s.yimg.com/uu/api/res/1.2/SSw8naZrBB1tKswm10P8gw--~B/aD00MzI7dz0xMTk0O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/simply_wall_st__316/f88d3d8c5618aa88ce2627c2a1cda340",
-                  "width": 1194,
-                  "height": 432,
-                  "tag": "original"
-                },
-                {
-                  "url": "https://s.yimg.com/uu/api/res/1.2/79qko4F_hdhwRlGyEfLjcw--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/simply_wall_st__316/f88d3d8c5618aa88ce2627c2a1cda340",
-                  "width": 170,
-                  "height": 128,
-                  "tag": "170x128"
-                }
-              ]
-            },
-            "provider": {
-              "displayName": "Simply Wall St.",
-              "url": "https://simplywall.st/"
-            },
-            "canonicalUrl": {
-              "url": "https://finance.yahoo.com/news/launch-two-acquisition-corp-nasdaq-130712247.html",
-              "site": "finance",
-              "region": "US",
-              "lang": "en-US"
-            },
-            "clickThroughUrl": {
-              "url": "https://finance.yahoo.com/news/launch-two-acquisition-corp-nasdaq-130712247.html",
-              "site": "finance",
-              "region": "US",
-              "lang": "en-US"
-            },
-            "metadata": {
-              "editorsPick": false
-            },
-            "finance": {
-              "premiumFinance": {
-                "isPremiumNews": false,
-                "isPremiumFreeNews": false
-              }
-            },
-            "storyline": null
-          }
-        }
-      ]
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

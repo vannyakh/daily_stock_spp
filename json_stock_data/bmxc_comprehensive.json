@@ -1,23 +1,16 @@
 {
   "ticker": "BMXC",
-  "timestamp": "2026-01-10T05:21:32.556930",
+  "timestamp": "2026-01-11T05:12:17.607779",
   "intraday_data": {
     "status": "success",
-    "rows": 6,
+    "rows": 5,
     "data": [
-      {
-        "Close": 0.026000000536441803,
-        "High": 0.026000000536441803,
-        "Low": 0.026000000536441803,
-        "Open": 0.026000000536441803,
-        "Volume": 0
-      },
       {
         "Close": 0.025499999523162842,
         "High": 0.025499999523162842,
         "Low": 0.025499999523162842,
         "Open": 0.025499999523162842,
-        "Volume": 10000
+        "Volume": 0
       },
       {
         "Close": 0.027000000700354576,
@@ -38,14 +31,14 @@
         "High": 0.025499999523162842,
         "Low": 0.025499999523162842,
         "Open": 0.025499999523162842,
-        "Volume": 0
+        "Volume": 10000
       },
       {
         "Close": 0.025100000202655792,
         "High": 0.025100000202655792,
         "Low": 0.025100000202655792,
         "Open": 0.025100000202655792,
-        "Volume": 60901
+        "Volume": 10800
       }
     ]
   },
@@ -70,7 +63,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

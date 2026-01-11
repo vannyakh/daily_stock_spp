@@ -1,18 +1,9 @@
 {
   "ticker": "BIOE",
-  "timestamp": "2026-01-10T05:20:38.037869",
+  "timestamp": "2026-01-11T05:11:54.701318",
   "intraday_data": {
-    "status": "success",
-    "rows": 1,
-    "data": [
-      {
-        "Close ARRKF": 0.5600000023841858,
-        "High ARRKF": 0.5600000023841858,
-        "Low ARRKF": 0.5600000023841858,
-        "Open ARRKF": 0.5600000023841858,
-        "Volume ARRKF": 9894
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -35,7 +26,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

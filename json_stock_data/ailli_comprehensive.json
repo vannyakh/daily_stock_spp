@@ -1,9 +1,18 @@
 {
   "ticker": "AILLI",
-  "timestamp": "2026-01-10T05:18:40.606907",
+  "timestamp": "2026-01-11T05:11:13.080116",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 1,
+    "data": [
+      {
+        "Close FNMAM": 25.09000015258789,
+        "High FNMAM": 25.09000015258789,
+        "Low FNMAM": 25.09000015258789,
+        "Open FNMAM": 25.09000015258789,
+        "Volume FNMAM": 0
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -26,7 +35,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

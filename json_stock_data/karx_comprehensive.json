@@ -1,9 +1,18 @@
 {
   "ticker": "KARX",
-  "timestamp": "2026-01-10T05:30:33.600325",
+  "timestamp": "2026-01-11T05:15:28.512574",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 1,
+    "data": [
+      {
+        "Close MNSBP": 24.889999389648438,
+        "High MNSBP": 24.898000717163086,
+        "Low MNSBP": 24.889999389648438,
+        "Open MNSBP": 24.898000717163086,
+        "Volume MNSBP": 0
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -26,7 +35,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

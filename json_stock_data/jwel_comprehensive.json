@@ -1,23 +1,16 @@
 {
   "ticker": "JWEL",
-  "timestamp": "2026-01-10T05:08:38.490794",
+  "timestamp": "2026-01-11T05:07:21.850147",
   "intraday_data": {
     "status": "success",
-    "rows": 9,
+    "rows": 8,
     "data": [
-      {
-        "Close": 2.130000114440918,
-        "High": 2.130000114440918,
-        "Low": 2.0199999809265137,
-        "Open": 2.0199999809265137,
-        "Volume": 420
-      },
       {
         "Close": 2.119999885559082,
         "High": 2.119999885559082,
         "Low": 2.119999885559082,
         "Open": 2.119999885559082,
-        "Volume": 110
+        "Volume": 0
       },
       {
         "Close": 2.119999885559082,
@@ -82,38 +75,14 @@
       "status": "no_data"
     },
     "cash_flow": {
-      "status": "no_data"
-    }
-  },
-  "options_data": {
-    "status": "error",
-    "error_message": "Too Many Requests. Rate limited. Try after a while."
-  },
-  "news_data": {
-    "news": {
-      "status": "no_data"
-    },
-    "recommendations": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
-    }
-  },
-  "holders_data": {
-    "major_holders": {
-      "status": "error"
-    },
-    "institutional_holders": {
-      "status": "error"
-    }
-  },
-  "earnings_data": {
-    "earnings": {
-      "status": "error",
-      "message": "'NoneType' object has no attribute 'empty'"
-    },
-    "calendar": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
-    }
-  }
-}
+      "status": "success",
+      "rows": 60,
+      "columns": [
+        "2024-12-31 00:00:00",
+        "2023-12-31 00:00:00",
+        "2022-12-31 00:00:00",
+        "2021-12-31 00:00:00"
+      ],
+      "data": [
+        {
+          

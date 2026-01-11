@@ -1,9 +1,46 @@
 {
   "ticker": "XFCI",
-  "timestamp": "2026-01-10T05:21:57.694282",
+  "timestamp": "2026-01-11T05:12:25.220551",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 5,
+    "data": [
+      {
+        "Close BTZI": 0.001500000013038516,
+        "High BTZI": 0.001500000013038516,
+        "Low BTZI": 0.001500000013038516,
+        "Open BTZI": 0.001500000013038516,
+        "Volume BTZI": 0
+      },
+      {
+        "Close BTZI": 0.0015999999595806003,
+        "High BTZI": 0.0015999999595806003,
+        "Low BTZI": 0.0015999999595806003,
+        "Open BTZI": 0.0015999999595806003,
+        "Volume BTZI": 1360
+      },
+      {
+        "Close BTZI": 0.0020000000949949026,
+        "High BTZI": 0.0020000000949949026,
+        "Low BTZI": 0.0020000000949949026,
+        "Open BTZI": 0.0020000000949949026,
+        "Volume BTZI": 161000
+      },
+      {
+        "Close BTZI": 0.0020000000949949026,
+        "High BTZI": 0.0020000000949949026,
+        "Low BTZI": 0.0020000000949949026,
+        "Open BTZI": 0.0020000000949949026,
+        "Volume BTZI": 20000
+      },
+      {
+        "Close BTZI": 0.0017999999690800905,
+        "High BTZI": 0.0017999999690800905,
+        "Low BTZI": 0.0017999999690800905,
+        "Open BTZI": 0.0017999999690800905,
+        "Volume BTZI": 10000
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -26,7 +63,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

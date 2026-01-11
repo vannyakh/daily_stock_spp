@@ -1,25 +1,9 @@
 {
   "ticker": "VFLEX",
-  "timestamp": "2026-01-10T05:29:06.571821",
+  "timestamp": "2026-01-11T05:14:56.753550",
   "intraday_data": {
-    "status": "success",
-    "rows": 2,
-    "data": [
-      {
-        "Close": 27.540000915527344,
-        "High": 27.540000915527344,
-        "Low": 27.540000915527344,
-        "Open": 27.540000915527344,
-        "Volume": 0
-      },
-      {
-        "Close": 27.540000915527344,
-        "High": 27.540000915527344,
-        "Low": 27.540000915527344,
-        "Open": 27.540000915527344,
-        "Volume": 0
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -42,7 +26,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

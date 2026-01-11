@@ -1,9 +1,25 @@
 {
   "ticker": "ADOOY",
-  "timestamp": "2026-01-10T04:32:16.771712",
+  "timestamp": "2026-01-11T04:50:58.672681",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 2,
+    "data": [
+      {
+        "Close": 7.0,
+        "High": 7.0,
+        "Low": 7.0,
+        "Open": 7.0,
+        "Volume": 0
+      },
+      {
+        "Close": 5.5,
+        "High": 5.5,
+        "Low": 5.5,
+        "Open": 5.5,
+        "Volume": 345
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -48,7 +64,7 @@
     },
     "calendar": {
       "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
+      "message": "'dict' object has no attribute 'empty'"
     }
   }
 }

@@ -1,9 +1,60 @@
 {
   "ticker": "IONI",
-  "timestamp": "2026-01-10T05:07:20.915657",
+  "timestamp": "2026-01-11T05:06:45.138986",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 7,
+    "data": [
+      {
+        "Close": 0.6349999904632568,
+        "High": 0.6349999904632568,
+        "Low": 0.6349999904632568,
+        "Open": 0.6349999904632568,
+        "Volume": 0
+      },
+      {
+        "Close": 0.6000000238418579,
+        "High": 0.6100000143051147,
+        "Low": 0.6000000238418579,
+        "Open": 0.6100000143051147,
+        "Volume": 5236
+      },
+      {
+        "Close": 0.5950000286102295,
+        "High": 0.5950000286102295,
+        "Low": 0.5950000286102295,
+        "Open": 0.5950000286102295,
+        "Volume": 1000
+      },
+      {
+        "Close": 0.5950000286102295,
+        "High": 0.5950000286102295,
+        "Low": 0.5950000286102295,
+        "Open": 0.5950000286102295,
+        "Volume": 1000
+      },
+      {
+        "Close": 0.5824999809265137,
+        "High": 0.5950000286102295,
+        "Low": 0.5824999809265137,
+        "Open": 0.5950000286102295,
+        "Volume": 2500
+      },
+      {
+        "Close": 0.5799999833106995,
+        "High": 0.5799999833106995,
+        "Low": 0.5799999833106995,
+        "Open": 0.5799999833106995,
+        "Volume": 6500
+      },
+      {
+        "Close": 0.6322000026702881,
+        "High": 0.6322000026702881,
+        "Low": 0.6322000026702881,
+        "Open": 0.6322000026702881,
+        "Volume": 1000
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -11,14 +62,44 @@
   },
   "financials": {
     "income_statement": {
-      "status": "success",
-      "rows": 54,
-      "columns": [
-        "2024-12-31 00:00:00",
-        "2023-12-31 00:00:00",
-        "2022-12-31 00:00:00",
-        "2021-12-31 00:00:00"
-      ],
-      "data": [
-        {
-          
+      "status": "no_data"
+    },
+    "balance_sheet": {
+      "status": "no_data"
+    },
+    "cash_flow": {
+      "status": "no_data"
+    }
+  },
+  "options_data": {
+    "status": "error",
+    "error_message": "Too Many Requests. Rate limited. Try after a while."
+  },
+  "news_data": {
+    "news": {
+      "status": "no_data"
+    },
+    "recommendations": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  },
+  "holders_data": {
+    "major_holders": {
+      "status": "error"
+    },
+    "institutional_holders": {
+      "status": "error"
+    }
+  },
+  "earnings_data": {
+    "earnings": {
+      "status": "error",
+      "message": "'NoneType' object has no attribute 'empty'"
+    },
+    "calendar": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  }
+}

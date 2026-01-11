@@ -1,9 +1,39 @@
 {
   "ticker": "NCV-PA",
-  "timestamp": "2026-01-10T05:19:32.993013",
+  "timestamp": "2026-01-11T05:11:31.868659",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 4,
+    "data": [
+      {
+        "Close OXLCO": 23.6299991607666,
+        "High OXLCO": 23.6299991607666,
+        "Low OXLCO": 23.6299991607666,
+        "Open OXLCO": 23.6299991607666,
+        "Volume OXLCO": 0
+      },
+      {
+        "Close OXLCO": 23.669200897216797,
+        "High OXLCO": 23.669200897216797,
+        "Low OXLCO": 23.669200897216797,
+        "Open OXLCO": 23.669200897216797,
+        "Volume OXLCO": 920
+      },
+      {
+        "Close OXLCO": 23.65999984741211,
+        "High OXLCO": 23.65999984741211,
+        "Low OXLCO": 23.65999984741211,
+        "Open OXLCO": 23.65999984741211,
+        "Volume OXLCO": 0
+      },
+      {
+        "Close OXLCO": 23.68000030517578,
+        "High OXLCO": 23.68000030517578,
+        "Low OXLCO": 23.68000030517578,
+        "Open OXLCO": 23.68000030517578,
+        "Volume OXLCO": 100
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -26,7 +56,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

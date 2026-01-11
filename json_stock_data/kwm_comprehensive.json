@@ -1,9 +1,32 @@
 {
   "ticker": "KWM",
-  "timestamp": "2026-01-10T05:14:29.686331",
+  "timestamp": "2026-01-11T05:09:40.584937",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 3,
+    "data": [
+      {
+        "Close IOTR": 2.5899999141693115,
+        "High IOTR": 2.5899999141693115,
+        "Low IOTR": 2.5899999141693115,
+        "Open IOTR": 2.5899999141693115,
+        "Volume IOTR": 2538
+      },
+      {
+        "Close IOTR": 2.5220000743865967,
+        "High IOTR": 2.5220000743865967,
+        "Low IOTR": 2.5220000743865967,
+        "Open IOTR": 2.5220000743865967,
+        "Volume IOTR": 266
+      },
+      {
+        "Close IOTR": 2.569999933242798,
+        "High IOTR": 2.569999933242798,
+        "Low IOTR": 2.569999933242798,
+        "Open IOTR": 2.569999933242798,
+        "Volume IOTR": 110
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -26,7 +49,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

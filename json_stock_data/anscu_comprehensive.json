@@ -1,9 +1,32 @@
 {
   "ticker": "ANSCU",
-  "timestamp": "2026-01-10T05:27:35.719916",
+  "timestamp": "2026-01-11T05:14:22.350825",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 3,
+    "data": [
+      {
+        "Close ANSCW": 0.3199999928474426,
+        "High ANSCW": 0.3199999928474426,
+        "Low ANSCW": 0.3199999928474426,
+        "Open ANSCW": 0.3199999928474426,
+        "Volume ANSCW": 3664
+      },
+      {
+        "Close ANSCW": 0.3499999940395355,
+        "High ANSCW": 0.3499999940395355,
+        "Low ANSCW": 0.3499999940395355,
+        "Open ANSCW": 0.3499999940395355,
+        "Volume ANSCW": 1000
+      },
+      {
+        "Close ANSCW": 0.36000001430511475,
+        "High ANSCW": 0.36000001430511475,
+        "Low ANSCW": 0.3499000072479248,
+        "Open ANSCW": 0.3499000072479248,
+        "Volume ANSCW": 4693
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -26,7 +49,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

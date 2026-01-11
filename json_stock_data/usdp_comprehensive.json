@@ -1,46 +1,9 @@
 {
   "ticker": "USDP",
-  "timestamp": "2026-01-10T05:21:29.809943",
+  "timestamp": "2026-01-11T05:12:16.504758",
   "intraday_data": {
-    "status": "success",
-    "rows": 5,
-    "data": [
-      {
-        "Close BRLL": 0.001500000013038516,
-        "High BRLL": 0.001500000013038516,
-        "Low BRLL": 0.001500000013038516,
-        "Open BRLL": 0.001500000013038516,
-        "Volume BRLL": 0
-      },
-      {
-        "Close BRLL": 0.0017000000225380063,
-        "High BRLL": 0.0017000000225380063,
-        "Low BRLL": 0.0017000000225380063,
-        "Open BRLL": 0.0017000000225380063,
-        "Volume BRLL": 25000
-      },
-      {
-        "Close BRLL": 0.001500000013038516,
-        "High BRLL": 0.001500000013038516,
-        "Low BRLL": 0.001500000013038516,
-        "Open BRLL": 0.001500000013038516,
-        "Volume BRLL": 3950
-      },
-      {
-        "Close BRLL": 0.0017000000225380063,
-        "High BRLL": 0.0017000000225380063,
-        "Low BRLL": 0.0017000000225380063,
-        "Open BRLL": 0.0017000000225380063,
-        "Volume BRLL": 13333
-      },
-      {
-        "Close BRLL": 0.0017000000225380063,
-        "High BRLL": 0.0017000000225380063,
-        "Low BRLL": 0.0017000000225380063,
-        "Open BRLL": 0.0017000000225380063,
-        "Volume BRLL": 629999
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -63,7 +26,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

@@ -1,100 +1,16 @@
 {
   "ticker": "CARU",
-  "timestamp": "2026-01-10T05:32:48.373750",
+  "timestamp": "2026-01-11T05:16:19.316055",
   "intraday_data": {
     "status": "success",
-    "rows": 46,
+    "rows": 34,
     "data": [
       {
-        "Close CARD": 2.440000057220459,
-        "High CARD": 2.440000057220459,
-        "Low CARD": 2.440000057220459,
-        "Open CARD": 2.440000057220459,
-        "Volume CARD": 0
-      },
-      {
-        "Close CARD": 2.4200000762939453,
-        "High CARD": 2.4200000762939453,
-        "Low CARD": 2.4200000762939453,
-        "Open CARD": 2.4200000762939453,
-        "Volume CARD": 180
-      },
-      {
-        "Close CARD": 2.4000000953674316,
-        "High CARD": 2.4000000953674316,
-        "Low CARD": 2.4000000953674316,
-        "Open CARD": 2.4000000953674316,
-        "Volume CARD": 503
-      },
-      {
-        "Close CARD": 2.380000114440918,
-        "High CARD": 2.380000114440918,
-        "Low CARD": 2.380000114440918,
-        "Open CARD": 2.380000114440918,
-        "Volume CARD": 456
-      },
-      {
-        "Close CARD": 2.369999885559082,
-        "High CARD": 2.369999885559082,
-        "Low CARD": 2.369999885559082,
-        "Open CARD": 2.369999885559082,
-        "Volume CARD": 351
-      },
-      {
         "Close CARD": 2.359999895095825,
         "High CARD": 2.359999895095825,
         "Low CARD": 2.359999895095825,
         "Open CARD": 2.359999895095825,
-        "Volume CARD": 1000
-      },
-      {
-        "Close CARD": 2.3499999046325684,
-        "High CARD": 2.3499999046325684,
-        "Low CARD": 2.3499999046325684,
-        "Open CARD": 2.3499999046325684,
-        "Volume CARD": 699
-      },
-      {
-        "Close CARD": 2.369999885559082,
-        "High CARD": 2.369999885559082,
-        "Low CARD": 2.369999885559082,
-        "Open CARD": 2.369999885559082,
-        "Volume CARD": 122
-      },
-      {
-        "Close CARD": 2.4000000953674316,
-        "High CARD": 2.4000000953674316,
-        "Low CARD": 2.4000000953674316,
-        "Open CARD": 2.4000000953674316,
-        "Volume CARD": 100
-      },
-      {
-        "Close CARD": 2.400099992752075,
-        "High CARD": 2.400099992752075,
-        "Low CARD": 2.400099992752075,
-        "Open CARD": 2.400099992752075,
-        "Volume CARD": 370
-      },
-      {
-        "Close CARD": 2.424999952316284,
-        "High CARD": 2.424999952316284,
-        "Low CARD": 2.424999952316284,
-        "Open CARD": 2.424999952316284,
-        "Volume CARD": 100
-      },
-      {
-        "Close CARD": 2.40910005569458,
-        "High CARD": 2.4200000762939453,
-        "Low CARD": 2.40910005569458,
-        "Open CARD": 2.4200000762939453,
         "Volume CARD": 0
-      },
-      {
-        "Close CARD": 2.359999895095825,
-        "High CARD": 2.359999895095825,
-        "Low CARD": 2.359999895095825,
-        "Open CARD": 2.359999895095825,
-        "Volume CARD": 139
       },
       {
         "Close CARD": 2.359999895095825,
@@ -287,17 +203,17 @@
       },
       {
         "Close CARD": 2.3698999881744385,
-        "High CARD": 2.3698999881744385,
+        "High CARD": 2.369999885559082,
         "Low CARD": 2.3698999881744385,
-        "Open CARD": 2.3698999881744385,
-        "Volume CARD": 0
+        "Open CARD": 2.369999885559082,
+        "Volume CARD": 400
       },
       {
         "Close CARD": 2.3750998973846436,
         "High CARD": 2.3750998973846436,
         "Low CARD": 2.3750998973846436,
         "Open CARD": 2.3750998973846436,
-        "Volume CARD": 14496
+        "Volume CARD": 1000
       },
       {
         "Close CARD": 2.375,
@@ -331,7 +247,7 @@
   },
   "stock_info": {
     "status": "error",
-    "message": "Too Many Requests. Rate limited. Try after a while."
+    "message": "argument of type 'NoneType' is not iterable"
   },
   "financials": {
     "income_statement": {
@@ -350,7 +266,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

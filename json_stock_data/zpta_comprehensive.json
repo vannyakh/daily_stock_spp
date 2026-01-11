@@ -1,9 +1,46 @@
 {
   "ticker": "ZPTA",
-  "timestamp": "2026-01-10T05:21:32.383411",
+  "timestamp": "2026-01-11T05:12:17.383176",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 5,
+    "data": [
+      {
+        "Close BMXC": 0.025499999523162842,
+        "High BMXC": 0.025499999523162842,
+        "Low BMXC": 0.025499999523162842,
+        "Open BMXC": 0.025499999523162842,
+        "Volume BMXC": 0
+      },
+      {
+        "Close BMXC": 0.027000000700354576,
+        "High BMXC": 0.027000000700354576,
+        "Low BMXC": 0.027000000700354576,
+        "Open BMXC": 0.027000000700354576,
+        "Volume BMXC": 10000
+      },
+      {
+        "Close BMXC": 0.025599999353289604,
+        "High BMXC": 0.025599999353289604,
+        "Low BMXC": 0.025599999353289604,
+        "Open BMXC": 0.025599999353289604,
+        "Volume BMXC": 20101
+      },
+      {
+        "Close BMXC": 0.025499999523162842,
+        "High BMXC": 0.025499999523162842,
+        "Low BMXC": 0.025499999523162842,
+        "Open BMXC": 0.025499999523162842,
+        "Volume BMXC": 10000
+      },
+      {
+        "Close BMXC": 0.025100000202655792,
+        "High BMXC": 0.025100000202655792,
+        "Low BMXC": 0.025100000202655792,
+        "Open BMXC": 0.025100000202655792,
+        "Volume BMXC": 10800
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -26,7 +63,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

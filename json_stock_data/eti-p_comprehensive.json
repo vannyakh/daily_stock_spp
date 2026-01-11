@@ -1,53 +1,9 @@
 {
   "ticker": "ETI-P",
-  "timestamp": "2026-01-10T05:14:07.883475",
+  "timestamp": "2026-01-11T05:09:31.844611",
   "intraday_data": {
-    "status": "success",
-    "rows": 6,
-    "data": [
-      {
-        "Close": 23.25,
-        "High": 23.25,
-        "Low": 23.25,
-        "Open": 23.25,
-        "Volume": 1
-      },
-      {
-        "Close": 23.5,
-        "High": 23.5,
-        "Low": 23.5,
-        "Open": 23.5,
-        "Volume": 614
-      },
-      {
-        "Close": 23.549999237060547,
-        "High": 23.790000915527344,
-        "Low": 23.549999237060547,
-        "Open": 23.700000762939453,
-        "Volume": 2331
-      },
-      {
-        "Close": 23.5,
-        "High": 23.5,
-        "Low": 23.5,
-        "Open": 23.5,
-        "Volume": 183
-      },
-      {
-        "Close": 23.5,
-        "High": 23.5,
-        "Low": 23.5,
-        "Open": 23.5,
-        "Volume": 600
-      },
-      {
-        "Close": 23.5,
-        "High": 23.5,
-        "Low": 23.5,
-        "Open": 23.5,
-        "Volume": 503
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -70,7 +26,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

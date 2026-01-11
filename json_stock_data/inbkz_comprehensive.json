@@ -1,9 +1,9 @@
 {
   "ticker": "INBKZ",
-  "timestamp": "2026-01-10T05:28:41.164995",
+  "timestamp": "2026-01-11T05:14:47.913636",
   "intraday_data": {
     "status": "success",
-    "rows": 7,
+    "rows": 3,
     "data": [
       {
         "Close": 24.815000534057617,
@@ -11,34 +11,6 @@
         "Low": 24.815000534057617,
         "Open": 24.815000534057617,
         "Volume": 0
-      },
-      {
-        "Close": 24.828699111938477,
-        "High": 24.829999923706055,
-        "Low": 24.828699111938477,
-        "Open": 24.829999923706055,
-        "Volume": 400
-      },
-      {
-        "Close": 24.829999923706055,
-        "High": 24.829999923706055,
-        "Low": 24.82990074157715,
-        "Open": 24.82990074157715,
-        "Volume": 1401
-      },
-      {
-        "Close": 24.748699188232422,
-        "High": 24.748699188232422,
-        "Low": 24.748699188232422,
-        "Open": 24.748699188232422,
-        "Volume": 537
-      },
-      {
-        "Close": 24.815000534057617,
-        "High": 24.815000534057617,
-        "Low": 24.815000534057617,
-        "Open": 24.815000534057617,
-        "Volume": 606
       },
       {
         "Close": 24.800100326538086,
@@ -58,7 +30,7 @@
   },
   "stock_info": {
     "status": "error",
-    "message": "Too Many Requests. Rate limited. Try after a while."
+    "message": "argument of type 'NoneType' is not iterable"
   },
   "financials": {
     "income_statement": {
@@ -77,7 +49,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

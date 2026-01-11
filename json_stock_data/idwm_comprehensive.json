@@ -1,9 +1,32 @@
 {
   "ticker": "IDWM",
-  "timestamp": "2026-01-10T05:20:36.910389",
+  "timestamp": "2026-01-11T05:11:53.256010",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 3,
+    "data": [
+      {
+        "Close ARBKF": 0.0035000001080334187,
+        "High ARBKF": 0.0035000001080334187,
+        "Low ARBKF": 0.0035000001080334187,
+        "Open ARBKF": 0.0035000001080334187,
+        "Volume ARBKF": 0
+      },
+      {
+        "Close ARBKF": 0.0026000000070780516,
+        "High ARBKF": 0.0026000000070780516,
+        "Low ARBKF": 0.0026000000070780516,
+        "Open ARBKF": 0.0026000000070780516,
+        "Volume ARBKF": 856
+      },
+      {
+        "Close ARBKF": 0.003000000026077032,
+        "High ARBKF": 0.003000000026077032,
+        "Low ARBKF": 0.003000000026077032,
+        "Open ARBKF": 0.003000000026077032,
+        "Volume ARBKF": 10000
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -11,12 +34,45 @@
   },
   "financials": {
     "income_statement": {
-      "status": "success",
-      "rows": 41,
-      "columns": [
-        "2022-10-31 00:00:00",
-        "2021-10-31 00:00:00"
-      ],
-      "data": [
-        {
-          
+      "status": "no_data"
+    },
+    "balance_sheet": {
+      "status": "no_data"
+    },
+    "cash_flow": {
+      "status": "no_data"
+    }
+  },
+  "options_data": {
+    "status": "error",
+    "error_message": "Too Many Requests. Rate limited. Try after a while."
+  },
+  "news_data": {
+    "news": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    },
+    "recommendations": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  },
+  "holders_data": {
+    "major_holders": {
+      "status": "error"
+    },
+    "institutional_holders": {
+      "status": "error"
+    }
+  },
+  "earnings_data": {
+    "earnings": {
+      "status": "error",
+      "message": "'NoneType' object has no attribute 'empty'"
+    },
+    "calendar": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  }
+}

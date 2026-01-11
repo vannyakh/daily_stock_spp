@@ -1,9 +1,46 @@
 {
   "ticker": "NOTE-WT",
-  "timestamp": "2026-01-10T05:24:57.317236",
+  "timestamp": "2026-01-11T05:13:28.366567",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 5,
+    "data": [
+      {
+        "Close BNZIW": 0.017500000074505806,
+        "High BNZIW": 0.017500000074505806,
+        "Low BNZIW": 0.017500000074505806,
+        "Open BNZIW": 0.017500000074505806,
+        "Volume BNZIW": 0
+      },
+      {
+        "Close BNZIW": 0.017999999225139618,
+        "High BNZIW": 0.017999999225139618,
+        "Low BNZIW": 0.017500000074505806,
+        "Open BNZIW": 0.017500000074505806,
+        "Volume BNZIW": 4354
+      },
+      {
+        "Close BNZIW": 0.019899999722838402,
+        "High BNZIW": 0.019899999722838402,
+        "Low BNZIW": 0.019899999722838402,
+        "Open BNZIW": 0.019899999722838402,
+        "Volume BNZIW": 657
+      },
+      {
+        "Close BNZIW": 0.019899999722838402,
+        "High BNZIW": 0.019899999722838402,
+        "Low BNZIW": 0.019899999722838402,
+        "Open BNZIW": 0.019899999722838402,
+        "Volume BNZIW": 962
+      },
+      {
+        "Close BNZIW": 0.019899999722838402,
+        "High BNZIW": 0.019899999722838402,
+        "Low BNZIW": 0.019899999722838402,
+        "Open BNZIW": 0.019899999722838402,
+        "Volume BNZIW": 2390
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -26,7 +63,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

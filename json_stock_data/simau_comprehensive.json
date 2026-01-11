@@ -1,10 +1,18 @@
 {
   "ticker": "SIMAU",
-  "timestamp": "2026-01-10T05:22:38.087188",
+  "timestamp": "2026-01-11T05:12:39.143680",
   "intraday_data": {
     "status": "success",
-    "rows": 0,
-    "data": []
+    "rows": 1,
+    "data": [
+      {
+        "Close SIMAW": 0.22010000050067902,
+        "High SIMAW": 0.22040000557899475,
+        "Low SIMAW": 0.22010000050067902,
+        "Open SIMAW": 0.22010000050067902,
+        "Volume SIMAW": 0
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -27,7 +35,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

@@ -1,9 +1,39 @@
 {
   "ticker": "AXIM",
-  "timestamp": "2026-01-10T05:21:40.458080",
+  "timestamp": "2026-01-11T05:12:20.352889",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 4,
+    "data": [
+      {
+        "Close GMZP": 0.0006000000284984708,
+        "High GMZP": 0.0006000000284984708,
+        "Low GMZP": 0.0006000000284984708,
+        "Open GMZP": 0.0006000000284984708,
+        "Volume GMZP": 0
+      },
+      {
+        "Close GMZP": 0.0006000000284984708,
+        "High GMZP": 0.0006000000284984708,
+        "Low GMZP": 0.0006000000284984708,
+        "Open GMZP": 0.0006000000284984708,
+        "Volume GMZP": 820000
+      },
+      {
+        "Close GMZP": 0.0006000000284984708,
+        "High GMZP": 0.0006000000284984708,
+        "Low GMZP": 0.0006000000284984708,
+        "Open GMZP": 0.0006000000284984708,
+        "Volume GMZP": 370000
+      },
+      {
+        "Close GMZP": 0.0006000000284984708,
+        "High GMZP": 0.0006000000284984708,
+        "Low GMZP": 0.0006000000284984708,
+        "Open GMZP": 0.0006000000284984708,
+        "Volume GMZP": 625000
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -26,7 +56,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

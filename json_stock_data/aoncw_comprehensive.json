@@ -1,9 +1,18 @@
 {
   "ticker": "AONCW",
-  "timestamp": "2026-01-10T05:26:32.293628",
+  "timestamp": "2026-01-11T05:14:00.761224",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 1,
+    "data": [
+      {
+        "Close CPPTL": 11.0,
+        "High CPPTL": 11.0,
+        "Low CPPTL": 11.0,
+        "Open CPPTL": 11.0,
+        "Volume CPPTL": 0
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -26,7 +35,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

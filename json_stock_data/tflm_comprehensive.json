@@ -1,81 +1,9 @@
 {
   "ticker": "TFLM",
-  "timestamp": "2026-01-10T05:24:01.137128",
+  "timestamp": "2026-01-11T05:13:07.914405",
   "intraday_data": {
-    "status": "success",
-    "rows": 10,
-    "data": [
-      {
-        "Close WLDSW": 1.9800000190734863,
-        "High WLDSW": 1.9900000095367432,
-        "Low WLDSW": 1.9800000190734863,
-        "Open WLDSW": 1.9900000095367432,
-        "Volume WLDSW": 4853
-      },
-      {
-        "Close WLDSW": 1.9800000190734863,
-        "High WLDSW": 1.9800000190734863,
-        "Low WLDSW": 1.9800000190734863,
-        "Open WLDSW": 1.9800000190734863,
-        "Volume WLDSW": 299
-      },
-      {
-        "Close WLDSW": 1.9500000476837158,
-        "High WLDSW": 1.9500000476837158,
-        "Low WLDSW": 1.9500000476837158,
-        "Open WLDSW": 1.9500000476837158,
-        "Volume WLDSW": 100
-      },
-      {
-        "Close WLDSW": 1.9500000476837158,
-        "High WLDSW": 1.9500000476837158,
-        "Low WLDSW": 1.9500000476837158,
-        "Open WLDSW": 1.9500000476837158,
-        "Volume WLDSW": 0
-      },
-      {
-        "Close WLDSW": 2.427799940109253,
-        "High WLDSW": 2.427799940109253,
-        "Low WLDSW": 2.427799940109253,
-        "Open WLDSW": 2.427799940109253,
-        "Volume WLDSW": 100
-      },
-      {
-        "Close WLDSW": 1.3799999952316284,
-        "High WLDSW": 1.3799999952316284,
-        "Low WLDSW": 1.3799999952316284,
-        "Open WLDSW": 1.3799999952316284,
-        "Volume WLDSW": 703
-      },
-      {
-        "Close WLDSW": 1.5640000104904175,
-        "High WLDSW": 1.6308000087738037,
-        "Low WLDSW": 1.3799999952316284,
-        "Open WLDSW": 1.3799999952316284,
-        "Volume WLDSW": 3378
-      },
-      {
-        "Close WLDSW": 1.090000033378601,
-        "High WLDSW": 1.090000033378601,
-        "Low WLDSW": 1.090000033378601,
-        "Open WLDSW": 1.090000033378601,
-        "Volume WLDSW": 1580
-      },
-      {
-        "Close WLDSW": 1.5,
-        "High WLDSW": 1.5,
-        "Low WLDSW": 1.5,
-        "Open WLDSW": 1.5,
-        "Volume WLDSW": 545
-      },
-      {
-        "Close WLDSW": 1.2999999523162842,
-        "High WLDSW": 1.2999999523162842,
-        "Low WLDSW": 1.2999999523162842,
-        "Open WLDSW": 1.2999999523162842,
-        "Volume WLDSW": 400
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -98,7 +26,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

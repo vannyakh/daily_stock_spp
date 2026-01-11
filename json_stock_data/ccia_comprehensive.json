@@ -1,13 +1,120 @@
 {
   "ticker": "CCIA",
-  "timestamp": "2026-01-10T05:25:57.143547",
+  "timestamp": "2026-01-11T05:13:49.365554",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 15,
+    "data": [
+      {
+        "Close SPNT-PB": 25.329999923706055,
+        "High SPNT-PB": 25.329999923706055,
+        "Low SPNT-PB": 25.329999923706055,
+        "Open SPNT-PB": 25.329999923706055,
+        "Volume SPNT-PB": 0
+      },
+      {
+        "Close SPNT-PB": 25.33009910583496,
+        "High SPNT-PB": 25.33009910583496,
+        "Low SPNT-PB": 25.329999923706055,
+        "Open SPNT-PB": 25.329999923706055,
+        "Volume SPNT-PB": 2741
+      },
+      {
+        "Close SPNT-PB": 25.350000381469727,
+        "High SPNT-PB": 25.360000610351562,
+        "Low SPNT-PB": 25.350000381469727,
+        "Open SPNT-PB": 25.360000610351562,
+        "Volume SPNT-PB": 849
+      },
+      {
+        "Close SPNT-PB": 25.350000381469727,
+        "High SPNT-PB": 25.350000381469727,
+        "Low SPNT-PB": 25.350000381469727,
+        "Open SPNT-PB": 25.350000381469727,
+        "Volume SPNT-PB": 700
+      },
+      {
+        "Close SPNT-PB": 25.350000381469727,
+        "High SPNT-PB": 25.350000381469727,
+        "Low SPNT-PB": 25.350000381469727,
+        "Open SPNT-PB": 25.350000381469727,
+        "Volume SPNT-PB": 305
+      },
+      {
+        "Close SPNT-PB": 25.360000610351562,
+        "High SPNT-PB": 25.360000610351562,
+        "Low SPNT-PB": 25.360000610351562,
+        "Open SPNT-PB": 25.360000610351562,
+        "Volume SPNT-PB": 114
+      },
+      {
+        "Close SPNT-PB": 25.360000610351562,
+        "High SPNT-PB": 25.360000610351562,
+        "Low SPNT-PB": 25.360000610351562,
+        "Open SPNT-PB": 25.360000610351562,
+        "Volume SPNT-PB": 400
+      },
+      {
+        "Close SPNT-PB": 25.329999923706055,
+        "High SPNT-PB": 25.34000015258789,
+        "Low SPNT-PB": 25.329999923706055,
+        "Open SPNT-PB": 25.34000015258789,
+        "Volume SPNT-PB": 1100
+      },
+      {
+        "Close SPNT-PB": 25.329999923706055,
+        "High SPNT-PB": 25.329999923706055,
+        "Low SPNT-PB": 25.329999923706055,
+        "Open SPNT-PB": 25.329999923706055,
+        "Volume SPNT-PB": 100
+      },
+      {
+        "Close SPNT-PB": 25.34000015258789,
+        "High SPNT-PB": 25.34000015258789,
+        "Low SPNT-PB": 25.34000015258789,
+        "Open SPNT-PB": 25.34000015258789,
+        "Volume SPNT-PB": 500
+      },
+      {
+        "Close SPNT-PB": 25.34000015258789,
+        "High SPNT-PB": 25.34000015258789,
+        "Low SPNT-PB": 25.34000015258789,
+        "Open SPNT-PB": 25.34000015258789,
+        "Volume SPNT-PB": 147
+      },
+      {
+        "Close SPNT-PB": 25.3302001953125,
+        "High SPNT-PB": 25.3302001953125,
+        "Low SPNT-PB": 25.329999923706055,
+        "Open SPNT-PB": 25.329999923706055,
+        "Volume SPNT-PB": 1398
+      },
+      {
+        "Close SPNT-PB": 25.33009910583496,
+        "High SPNT-PB": 25.3302001953125,
+        "Low SPNT-PB": 25.329999923706055,
+        "Open SPNT-PB": 25.329999923706055,
+        "Volume SPNT-PB": 984
+      },
+      {
+        "Close SPNT-PB": 25.34000015258789,
+        "High SPNT-PB": 25.34000015258789,
+        "Low SPNT-PB": 25.34000015258789,
+        "Open SPNT-PB": 25.34000015258789,
+        "Volume SPNT-PB": 100
+      },
+      {
+        "Close SPNT-PB": 25.31999969482422,
+        "High SPNT-PB": 25.31999969482422,
+        "Low SPNT-PB": 25.31999969482422,
+        "Open SPNT-PB": 25.31999969482422,
+        "Volume SPNT-PB": 772
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
-    "message": "Too Many Requests. Rate limited. Try after a while."
+    "message": "argument of type 'NoneType' is not iterable"
   },
   "financials": {
     "income_statement": {
@@ -26,7 +133,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

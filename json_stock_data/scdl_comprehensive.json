@@ -1,25 +1,10 @@
 {
   "ticker": "SCDL",
-  "timestamp": "2026-01-10T05:30:03.725879",
+  "timestamp": "2026-01-11T05:15:18.567423",
   "intraday_data": {
     "status": "success",
-    "rows": 2,
-    "data": [
-      {
-        "Close UCIB": 28.495800018310547,
-        "High UCIB": 28.495800018310547,
-        "Low UCIB": 28.34040069580078,
-        "Open UCIB": 28.34040069580078,
-        "Volume UCIB": 0
-      },
-      {
-        "Close UCIB": 28.558500289916992,
-        "High UCIB": 28.558500289916992,
-        "Low UCIB": 28.495800018310547,
-        "Open UCIB": 28.495800018310547,
-        "Volume UCIB": 79
-      }
-    ]
+    "rows": 0,
+    "data": []
   },
   "stock_info": {
     "status": "error",
@@ -42,7 +27,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

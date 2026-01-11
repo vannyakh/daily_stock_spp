@@ -1,9 +1,18 @@
 {
   "ticker": "FZMD",
-  "timestamp": "2026-01-10T05:20:50.626497",
+  "timestamp": "2026-01-11T05:12:01.556017",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 1,
+    "data": [
+      {
+        "Close WBSR": 0.18000000715255737,
+        "High WBSR": 0.18000000715255737,
+        "Low WBSR": 0.18000000715255737,
+        "Open WBSR": 0.18000000715255737,
+        "Volume WBSR": 0
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -26,7 +35,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

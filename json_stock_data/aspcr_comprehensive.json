@@ -1,25 +1,9 @@
 {
   "ticker": "ASPCR",
-  "timestamp": "2026-01-10T05:27:10.091793",
+  "timestamp": "2026-01-11T05:14:13.755136",
   "intraday_data": {
-    "status": "success",
-    "rows": 2,
-    "data": [
-      {
-        "Close": 0.1850000023841858,
-        "High": 0.1850000023841858,
-        "Low": 0.1850000023841858,
-        "Open": 0.1850000023841858,
-        "Volume": 0
-      },
-      {
-        "Close": 0.18050000071525574,
-        "High": 0.18050000071525574,
-        "Low": 0.18000000715255737,
-        "Open": 0.18000000715255737,
-        "Volume": 210
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -42,7 +26,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

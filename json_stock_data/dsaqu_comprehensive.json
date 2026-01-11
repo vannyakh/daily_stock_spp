@@ -1,60 +1,9 @@
 {
   "ticker": "DSAQU",
-  "timestamp": "2026-01-10T05:27:33.500798",
+  "timestamp": "2026-01-11T05:14:20.569168",
   "intraday_data": {
-    "status": "success",
-    "rows": 7,
-    "data": [
-      {
-        "Close ANGHW": 0.015300000086426735,
-        "High ANGHW": 0.016100000590085983,
-        "Low ANGHW": 0.015300000086426735,
-        "Open ANGHW": 0.016100000590085983,
-        "Volume ANGHW": 0
-      },
-      {
-        "Close ANGHW": 0.014499999582767487,
-        "High ANGHW": 0.015300000086426735,
-        "Low ANGHW": 0.014499999582767487,
-        "Open ANGHW": 0.015300000086426735,
-        "Volume ANGHW": 33953
-      },
-      {
-        "Close ANGHW": 0.014499999582767487,
-        "High ANGHW": 0.014499999582767487,
-        "Low ANGHW": 0.014499999582767487,
-        "Open ANGHW": 0.014499999582767487,
-        "Volume ANGHW": 17547
-      },
-      {
-        "Close ANGHW": 0.017100000753998756,
-        "High ANGHW": 0.017100000753998756,
-        "Low ANGHW": 0.014700000174343586,
-        "Open ANGHW": 0.014700000174343586,
-        "Volume ANGHW": 2900
-      },
-      {
-        "Close ANGHW": 0.017100000753998756,
-        "High ANGHW": 0.017100000753998756,
-        "Low ANGHW": 0.017100000753998756,
-        "Open ANGHW": 0.017100000753998756,
-        "Volume ANGHW": 200
-      },
-      {
-        "Close ANGHW": 0.019999999552965164,
-        "High ANGHW": 0.019999999552965164,
-        "Low ANGHW": 0.019899999722838402,
-        "Open ANGHW": 0.019899999722838402,
-        "Volume ANGHW": 18119
-      },
-      {
-        "Close ANGHW": 0.017999999225139618,
-        "High ANGHW": 0.02199999988079071,
-        "Low ANGHW": 0.017999999225139618,
-        "Open ANGHW": 0.02199999988079071,
-        "Volume ANGHW": 0
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -62,44 +11,12 @@
   },
   "financials": {
     "income_statement": {
-      "status": "no_data"
-    },
-    "balance_sheet": {
-      "status": "no_data"
-    },
-    "cash_flow": {
-      "status": "no_data"
-    }
-  },
-  "options_data": {
-    "status": "error",
-    "error_message": "Too Many Requests. Rate limited. Try after a while."
-  },
-  "news_data": {
-    "news": {
-      "status": "no_data"
-    },
-    "recommendations": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
-    }
-  },
-  "holders_data": {
-    "major_holders": {
-      "status": "error"
-    },
-    "institutional_holders": {
-      "status": "error"
-    }
-  },
-  "earnings_data": {
-    "earnings": {
-      "status": "error",
-      "message": "'NoneType' object has no attribute 'empty'"
-    },
-    "calendar": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
-    }
-  }
-}
+      "status": "success",
+      "rows": 33,
+      "columns": [
+        "2023-12-31 00:00:00",
+        "2022-12-31 00:00:00"
+      ],
+      "data": [
+        {
+          

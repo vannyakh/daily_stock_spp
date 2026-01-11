@@ -1,25 +1,9 @@
 {
   "ticker": "ELRA",
-  "timestamp": "2026-01-10T05:21:21.433992",
+  "timestamp": "2026-01-11T05:12:14.107235",
   "intraday_data": {
-    "status": "success",
-    "rows": 2,
-    "data": [
-      {
-        "Close CRTD": 0.5099999904632568,
-        "High CRTD": 0.5099999904632568,
-        "Low CRTD": 0.5099999904632568,
-        "Open CRTD": 0.5099999904632568,
-        "Volume CRTD": 0
-      },
-      {
-        "Close CRTD": 0.5099999904632568,
-        "High CRTD": 0.5099999904632568,
-        "Low CRTD": 0.5099999904632568,
-        "Open CRTD": 0.5099999904632568,
-        "Volume CRTD": 0
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -42,7 +26,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

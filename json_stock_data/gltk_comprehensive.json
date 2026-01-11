@@ -1,25 +1,10 @@
 {
   "ticker": "GLTK",
-  "timestamp": "2026-01-10T05:27:44.382952",
+  "timestamp": "2026-01-11T05:14:26.399756",
   "intraday_data": {
     "status": "success",
-    "rows": 2,
-    "data": [
-      {
-        "Close": 1.9800000190734863,
-        "High": 1.9800000190734863,
-        "Low": 1.9800000190734863,
-        "Open": 1.9800000190734863,
-        "Volume": 0
-      },
-      {
-        "Close": 1.6299999952316284,
-        "High": 1.6299999952316284,
-        "Low": 1.6299999952316284,
-        "Open": 1.6299999952316284,
-        "Volume": 200
-      }
-    ]
+    "rows": 0,
+    "data": []
   },
   "stock_info": {
     "status": "error",
@@ -42,7 +27,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

@@ -1,25 +1,9 @@
 {
   "ticker": "UCIB",
-  "timestamp": "2026-01-10T05:30:03.763913",
+  "timestamp": "2026-01-11T05:15:18.080768",
   "intraday_data": {
-    "status": "success",
-    "rows": 2,
-    "data": [
-      {
-        "Close": 28.495800018310547,
-        "High": 28.495800018310547,
-        "Low": 28.34040069580078,
-        "Open": 28.34040069580078,
-        "Volume": 0
-      },
-      {
-        "Close": 28.558500289916992,
-        "High": 28.558500289916992,
-        "Low": 28.495800018310547,
-        "Open": 28.495800018310547,
-        "Volume": 79
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -42,7 +26,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",
@@ -51,10 +36,10 @@
   },
   "holders_data": {
     "major_holders": {
-      "status": "error"
+      "status": "no_data"
     },
     "institutional_holders": {
-      "status": "error"
+      "status": "no_data"
     }
   },
   "earnings_data": {
@@ -64,7 +49,7 @@
     },
     "calendar": {
       "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
+      "message": "'dict' object has no attribute 'empty'"
     }
   }
 }

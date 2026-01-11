@@ -1,9 +1,46 @@
 {
   "ticker": "ATDS",
-  "timestamp": "2026-01-10T05:13:38.313573",
+  "timestamp": "2026-01-11T05:09:20.367494",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 5,
+    "data": [
+      {
+        "Close": 0.00039999998989515007,
+        "High": 0.00039999998989515007,
+        "Low": 0.00039999998989515007,
+        "Open": 0.00039999998989515007,
+        "Volume": 0
+      },
+      {
+        "Close": 0.00039999998989515007,
+        "High": 0.00039999998989515007,
+        "Low": 0.00039999998989515007,
+        "Open": 0.00039999998989515007,
+        "Volume": 25000
+      },
+      {
+        "Close": 0.00039999998989515007,
+        "High": 0.00039999998989515007,
+        "Low": 0.00039999998989515007,
+        "Open": 0.00039999998989515007,
+        "Volume": 15000
+      },
+      {
+        "Close": 0.00039999998989515007,
+        "High": 0.00039999998989515007,
+        "Low": 0.00039999998989515007,
+        "Open": 0.00039999998989515007,
+        "Volume": 325000
+      },
+      {
+        "Close": 0.0003000000142492354,
+        "High": 0.0003000000142492354,
+        "Low": 0.0003000000142492354,
+        "Open": 0.0003000000142492354,
+        "Volume": 952597
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -26,7 +63,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",
