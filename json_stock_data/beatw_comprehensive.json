@@ -1,18 +1,9 @@
 {
   "ticker": "BEATW",
-  "timestamp": "2026-01-11T05:16:42.857088",
+  "timestamp": "2026-01-13T06:41:32.119112",
   "intraday_data": {
-    "status": "success",
-    "rows": 1,
-    "data": [
-      {
-        "Close CELUW": 0.019999999552965164,
-        "High CELUW": 0.019999999552965164,
-        "Low CELUW": 0.017899999395012856,
-        "Open CELUW": 0.017899999395012856,
-        "Volume CELUW": 0
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -23,42 +14,14 @@
       "status": "no_data"
     },
     "balance_sheet": {
-      "status": "no_data"
-    },
-    "cash_flow": {
-      "status": "no_data"
-    }
-  },
-  "options_data": {
-    "status": "error",
-    "error_message": "Too Many Requests. Rate limited. Try after a while."
-  },
-  "news_data": {
-    "news": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
-    },
-    "recommendations": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
-    }
-  },
-  "holders_data": {
-    "major_holders": {
-      "status": "error"
-    },
-    "institutional_holders": {
-      "status": "error"
-    }
-  },
-  "earnings_data": {
-    "earnings": {
-      "status": "error",
-      "message": "'NoneType' object has no attribute 'empty'"
-    },
-    "calendar": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
-    }
-  }
-}
+      "status": "success",
+      "rows": 33,
+      "columns": [
+        "2024-12-31 00:00:00",
+        "2023-12-31 00:00:00",
+        "2022-12-31 00:00:00",
+        "2021-12-31 00:00:00"
+      ],
+      "data": [
+        {
+          

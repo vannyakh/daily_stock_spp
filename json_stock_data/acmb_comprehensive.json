@@ -1,9 +1,25 @@
 {
   "ticker": "ACMB",
-  "timestamp": "2026-01-11T05:11:54.694927",
+  "timestamp": "2026-01-13T06:15:54.413465",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 2,
+    "data": [
+      {
+        "Close": 0.014000000432133675,
+        "High": 0.014000000432133675,
+        "Low": 0.014000000432133675,
+        "Open": 0.014000000432133675,
+        "Volume": 0
+      },
+      {
+        "Close": 0.014499999582767487,
+        "High": 0.014499999582767487,
+        "Low": 0.014499999582767487,
+        "Open": 0.014499999582767487,
+        "Volume": 45688
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -26,8 +42,7 @@
   },
   "news_data": {
     "news": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
+      "status": "no_data"
     },
     "recommendations": {
       "status": "error",

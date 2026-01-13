@@ -1,117 +1,54 @@
 {
   "ticker": "JGSHF",
-  "timestamp": "2026-01-11T05:10:51.507671",
+  "timestamp": "2026-01-13T06:10:30.434387",
   "intraday_data": {
-    "status": "success",
-    "rows": 13,
-    "data": [
-      {
-        "Close GS-PC": 20.450000762939453,
-        "High GS-PC": 20.450000762939453,
-        "Low GS-PC": 20.450000762939453,
-        "Open GS-PC": 20.450000762939453,
-        "Volume GS-PC": 0
-      },
-      {
-        "Close GS-PC": 20.393600463867188,
-        "High GS-PC": 20.393600463867188,
-        "Low GS-PC": 20.393600463867188,
-        "Open GS-PC": 20.393600463867188,
-        "Volume GS-PC": 1002
-      },
-      {
-        "Close GS-PC": 20.360000610351562,
-        "High GS-PC": 20.360000610351562,
-        "Low GS-PC": 20.360000610351562,
-        "Open GS-PC": 20.360000610351562,
-        "Volume GS-PC": 501
-      },
-      {
-        "Close GS-PC": 20.399999618530273,
-        "High GS-PC": 20.399999618530273,
-        "Low GS-PC": 20.399999618530273,
-        "Open GS-PC": 20.399999618530273,
-        "Volume GS-PC": 227
-      },
-      {
-        "Close GS-PC": 20.468399047851562,
-        "High GS-PC": 20.468399047851562,
-        "Low GS-PC": 20.468399047851562,
-        "Open GS-PC": 20.468399047851562,
-        "Volume GS-PC": 400
-      },
-      {
-        "Close GS-PC": 20.321300506591797,
-        "High GS-PC": 20.350000381469727,
-        "Low GS-PC": 20.31999969482422,
-        "Open GS-PC": 20.350000381469727,
-        "Volume GS-PC": 1000
-      },
-      {
-        "Close GS-PC": 20.34000015258789,
-        "High GS-PC": 20.34000015258789,
-        "Low GS-PC": 20.34000015258789,
-        "Open GS-PC": 20.34000015258789,
-        "Volume GS-PC": 1000
-      },
-      {
-        "Close GS-PC": 20.333999633789062,
-        "High GS-PC": 20.333999633789062,
-        "Low GS-PC": 20.333999633789062,
-        "Open GS-PC": 20.333999633789062,
-        "Volume GS-PC": 600
-      },
-      {
-        "Close GS-PC": 20.332500457763672,
-        "High GS-PC": 20.332500457763672,
-        "Low GS-PC": 20.229999542236328,
-        "Open GS-PC": 20.31999969482422,
-        "Volume GS-PC": 7398
-      },
-      {
-        "Close GS-PC": 20.239999771118164,
-        "High GS-PC": 20.239999771118164,
-        "Low GS-PC": 20.239999771118164,
-        "Open GS-PC": 20.239999771118164,
-        "Volume GS-PC": 200
-      },
-      {
-        "Close GS-PC": 20.290000915527344,
-        "High GS-PC": 20.290000915527344,
-        "Low GS-PC": 20.290000915527344,
-        "Open GS-PC": 20.290000915527344,
-        "Volume GS-PC": 100
-      },
-      {
-        "Close GS-PC": 20.290000915527344,
-        "High GS-PC": 20.290000915527344,
-        "Low GS-PC": 20.290000915527344,
-        "Open GS-PC": 20.290000915527344,
-        "Volume GS-PC": 491
-      },
-      {
-        "Close GS-PC": 20.239999771118164,
-        "High GS-PC": 20.25,
-        "Low GS-PC": 20.239999771118164,
-        "Open GS-PC": 20.239999771118164,
-        "Volume GS-PC": 1008
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
-    "message": "argument of type 'NoneType' is not iterable"
+    "message": "Too Many Requests. Rate limited. Try after a while."
   },
   "financials": {
     "income_statement": {
-      "status": "success",
-      "rows": 56,
-      "columns": [
-        "2024-12-31 00:00:00",
-        "2023-12-31 00:00:00",
-        "2022-12-31 00:00:00",
-        "2021-12-31 00:00:00"
-      ],
-      "data": [
-        {
-          
+      "status": "no_data"
+    },
+    "balance_sheet": {
+      "status": "no_data"
+    },
+    "cash_flow": {
+      "status": "no_data"
+    }
+  },
+  "options_data": {
+    "status": "error",
+    "error_message": "Too Many Requests. Rate limited. Try after a while."
+  },
+  "news_data": {
+    "news": {
+      "status": "no_data"
+    },
+    "recommendations": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  },
+  "holders_data": {
+    "major_holders": {
+      "status": "error"
+    },
+    "institutional_holders": {
+      "status": "error"
+    }
+  },
+  "earnings_data": {
+    "earnings": {
+      "status": "error",
+      "message": "'NoneType' object has no attribute 'empty'"
+    },
+    "calendar": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  }
+}

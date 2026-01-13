@@ -1,25 +1,9 @@
 {
   "ticker": "ABPWW",
-  "timestamp": "2026-01-11T05:13:40.483935",
+  "timestamp": "2026-01-13T06:25:06.827973",
   "intraday_data": {
-    "status": "success",
-    "rows": 2,
-    "data": [
-      {
-        "Close FLDDW": 0.2084999978542328,
-        "High FLDDW": 0.2387000024318695,
-        "Low FLDDW": 0.2084999978542328,
-        "Open FLDDW": 0.2387000024318695,
-        "Volume FLDDW": 0
-      },
-      {
-        "Close FLDDW": 0.20000000298023224,
-        "High FLDDW": 0.20200000703334808,
-        "Low FLDDW": 0.20000000298023224,
-        "Open FLDDW": 0.20200000703334808,
-        "Volume FLDDW": 2380
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -42,8 +26,52 @@
   },
   "news_data": {
     "news": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
+      "status": "success",
+      "count": 1,
+      "data": [
+        {
+          "id": "3c88657e-d62a-36ac-bfc8-9c6ec22d8060",
+          "content": {
+            "id": "3c88657e-d62a-36ac-bfc8-9c6ec22d8060",
+            "contentType": "STORY",
+            "title": "BC-Most Active Stocks",
+            "description": "",
+            "summary": "Gibo Holdings Ltd. 122,758,587 0.0671",
+            "pubDate": "2025-08-05T14:30:16Z",
+            "displayTime": "2025-08-05T14:30:16Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": null,
+            "provider": {
+              "displayName": "Associated Press Finance",
+              "url": "http://www.ap.org/"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/bc-most-active-stocks-143016066.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/bc-most-active-stocks-143016066.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        }
+      ]
     },
     "recommendations": {
       "status": "error",

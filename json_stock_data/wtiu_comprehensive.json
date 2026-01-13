@@ -1,25 +1,9 @@
 {
   "ticker": "WTIU",
-  "timestamp": "2026-01-11T05:16:19.219494",
+  "timestamp": "2026-01-13T06:39:34.226095",
   "intraday_data": {
-    "status": "success",
-    "rows": 2,
-    "data": [
-      {
-        "Close WTID": 10.272000312805176,
-        "High WTID": 10.272000312805176,
-        "Low WTID": 10.272000312805176,
-        "Open WTID": 10.272000312805176,
-        "Volume WTID": 0
-      },
-      {
-        "Close WTID": 10.362199783325195,
-        "High WTID": 10.362199783325195,
-        "Low WTID": 10.300000190734863,
-        "Open WTID": 10.300000190734863,
-        "Volume WTID": 495
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -42,8 +26,7 @@
   },
   "news_data": {
     "news": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
+      "status": "no_data"
     },
     "recommendations": {
       "status": "error",

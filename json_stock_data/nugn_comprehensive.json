@@ -1,39 +1,9 @@
 {
   "ticker": "NUGN",
-  "timestamp": "2026-01-11T05:08:22.169002",
+  "timestamp": "2026-01-13T05:57:51.394391",
   "intraday_data": {
-    "status": "success",
-    "rows": 4,
-    "data": [
-      {
-        "Close FUNI": 0.03700000047683716,
-        "High FUNI": 0.03700000047683716,
-        "Low FUNI": 0.03700000047683716,
-        "Open FUNI": 0.03700000047683716,
-        "Volume FUNI": 0
-      },
-      {
-        "Close FUNI": 0.03700000047683716,
-        "High FUNI": 0.03720000013709068,
-        "Low FUNI": 0.03700000047683716,
-        "Open FUNI": 0.03720000013709068,
-        "Volume FUNI": 33800
-      },
-      {
-        "Close FUNI": 0.039000000804662704,
-        "High FUNI": 0.039000000804662704,
-        "Low FUNI": 0.039000000804662704,
-        "Open FUNI": 0.039000000804662704,
-        "Volume FUNI": 500
-      },
-      {
-        "Close FUNI": 0.039000000804662704,
-        "High FUNI": 0.039000000804662704,
-        "Low FUNI": 0.039000000804662704,
-        "Open FUNI": 0.039000000804662704,
-        "Volume FUNI": 500
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -44,41 +14,14 @@
       "status": "no_data"
     },
     "balance_sheet": {
-      "status": "no_data"
-    },
-    "cash_flow": {
-      "status": "no_data"
-    }
-  },
-  "options_data": {
-    "status": "error",
-    "error_message": "Too Many Requests. Rate limited. Try after a while."
-  },
-  "news_data": {
-    "news": {
-      "status": "no_data"
-    },
-    "recommendations": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
-    }
-  },
-  "holders_data": {
-    "major_holders": {
-      "status": "error"
-    },
-    "institutional_holders": {
-      "status": "error"
-    }
-  },
-  "earnings_data": {
-    "earnings": {
-      "status": "error",
-      "message": "'NoneType' object has no attribute 'empty'"
-    },
-    "calendar": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
-    }
-  }
-}
+      "status": "success",
+      "rows": 47,
+      "columns": [
+        "2024-12-31 00:00:00",
+        "2023-12-31 00:00:00",
+        "2022-12-31 00:00:00",
+        "2021-12-31 00:00:00"
+      ],
+      "data": [
+        {
+          

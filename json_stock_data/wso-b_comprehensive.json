@@ -1,10 +1,25 @@
 {
   "ticker": "WSO-B",
-  "timestamp": "2026-01-11T05:10:46.371576",
+  "timestamp": "2026-01-13T06:10:03.483155",
   "intraday_data": {
     "status": "success",
-    "rows": 0,
-    "data": []
+    "rows": 2,
+    "data": [
+      {
+        "Close": 372.5899963378906,
+        "High": 372.5899963378906,
+        "Low": 372.5899963378906,
+        "Open": 372.5899963378906,
+        "Volume": 0
+      },
+      {
+        "Close": 376.25,
+        "High": 376.25,
+        "Low": 376.25,
+        "Open": 376.25,
+        "Volume": 50
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -12,45 +27,14 @@
   },
   "financials": {
     "income_statement": {
-      "status": "no_data"
-    },
-    "balance_sheet": {
-      "status": "no_data"
-    },
-    "cash_flow": {
-      "status": "no_data"
-    }
-  },
-  "options_data": {
-    "status": "error",
-    "error_message": "Too Many Requests. Rate limited. Try after a while."
-  },
-  "news_data": {
-    "news": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
-    },
-    "recommendations": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
-    }
-  },
-  "holders_data": {
-    "major_holders": {
-      "status": "error"
-    },
-    "institutional_holders": {
-      "status": "error"
-    }
-  },
-  "earnings_data": {
-    "earnings": {
-      "status": "error",
-      "message": "'NoneType' object has no attribute 'empty'"
-    },
-    "calendar": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
-    }
-  }
-}
+      "status": "success",
+      "rows": 40,
+      "columns": [
+        "2024-12-31 00:00:00",
+        "2023-12-31 00:00:00",
+        "2022-12-31 00:00:00",
+        "2021-12-31 00:00:00"
+      ],
+      "data": [
+        {
+          

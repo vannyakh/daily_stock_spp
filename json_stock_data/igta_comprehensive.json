@@ -1,39 +1,9 @@
 {
   "ticker": "IGTA",
-  "timestamp": "2026-01-11T05:04:07.767357",
+  "timestamp": "2026-01-13T05:39:44.693831",
   "intraday_data": {
-    "status": "success",
-    "rows": 4,
-    "data": [
-      {
-        "Close": 10.0,
-        "High": 10.0,
-        "Low": 10.0,
-        "Open": 10.0,
-        "Volume": 0
-      },
-      {
-        "Close": 10.949999809265137,
-        "High": 10.949999809265137,
-        "Low": 10.949999809265137,
-        "Open": 10.949999809265137,
-        "Volume": 100
-      },
-      {
-        "Close": 10.949999809265137,
-        "High": 10.949999809265137,
-        "Low": 10.949999809265137,
-        "Open": 10.949999809265137,
-        "Volume": 200
-      },
-      {
-        "Close": 10.949999809265137,
-        "High": 10.949999809265137,
-        "Low": 10.949999809265137,
-        "Open": 10.949999809265137,
-        "Volume": 250
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -59,7 +29,8 @@
       "status": "no_data"
     },
     "recommendations": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   },
   "holders_data": {

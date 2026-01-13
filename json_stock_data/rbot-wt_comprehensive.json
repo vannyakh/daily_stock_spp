@@ -1,25 +1,9 @@
 {
   "ticker": "RBOT-WT",
-  "timestamp": "2026-01-11T05:14:01.723782",
+  "timestamp": "2026-01-13T06:26:59.891548",
   "intraday_data": {
-    "status": "success",
-    "rows": 2,
-    "data": [
-      {
-        "Close GFAIW": 0.10830000042915344,
-        "High GFAIW": 0.14079999923706055,
-        "Low GFAIW": 0.10830000042915344,
-        "Open GFAIW": 0.14079999923706055,
-        "Volume GFAIW": 0
-      },
-      {
-        "Close GFAIW": 0.11500000208616257,
-        "High GFAIW": 0.13459999859333038,
-        "Low GFAIW": 0.11500000208616257,
-        "Open GFAIW": 0.13459999859333038,
-        "Volume GFAIW": 1302
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -42,12 +26,10 @@
   },
   "news_data": {
     "news": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
+      "status": "no_data"
     },
     "recommendations": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
+      "status": "no_data"
     }
   },
   "holders_data": {

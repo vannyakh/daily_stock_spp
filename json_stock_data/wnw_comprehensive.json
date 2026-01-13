@@ -1,117 +1,54 @@
 {
   "ticker": "WNW",
-  "timestamp": "2026-01-11T05:05:23.946227",
+  "timestamp": "2026-01-13T05:44:55.680758",
   "intraday_data": {
-    "status": "success",
-    "rows": 13,
-    "data": [
-      {
-        "Close": 1.559999942779541,
-        "High": 1.559999942779541,
-        "Low": 1.559999942779541,
-        "Open": 1.559999942779541,
-        "Volume": 108
-      },
-      {
-        "Close": 1.552299976348877,
-        "High": 1.559999942779541,
-        "Low": 1.552299976348877,
-        "Open": 1.559999942779541,
-        "Volume": 253
-      },
-      {
-        "Close": 1.475000023841858,
-        "High": 1.4900000095367432,
-        "Low": 1.475000023841858,
-        "Open": 1.475000023841858,
-        "Volume": 547
-      },
-      {
-        "Close": 1.5199999809265137,
-        "High": 1.5199999809265137,
-        "Low": 1.4900000095367432,
-        "Open": 1.4900000095367432,
-        "Volume": 364
-      },
-      {
-        "Close": 1.5399999618530273,
-        "High": 1.5779999494552612,
-        "Low": 1.5399999618530273,
-        "Open": 1.5779999494552612,
-        "Volume": 286
-      },
-      {
-        "Close": 1.5700000524520874,
-        "High": 1.5700000524520874,
-        "Low": 1.5700000524520874,
-        "Open": 1.5700000524520874,
-        "Volume": 204
-      },
-      {
-        "Close": 1.5499999523162842,
-        "High": 1.5750000476837158,
-        "Low": 1.5499999523162842,
-        "Open": 1.5750000476837158,
-        "Volume": 118
-      },
-      {
-        "Close": 1.5800000429153442,
-        "High": 1.5800000429153442,
-        "Low": 1.5800000429153442,
-        "Open": 1.5800000429153442,
-        "Volume": 335
-      },
-      {
-        "Close": 1.5199999809265137,
-        "High": 1.5399999618530273,
-        "Low": 1.5199999809265137,
-        "Open": 1.5399999618530273,
-        "Volume": 501
-      },
-      {
-        "Close": 1.5674999952316284,
-        "High": 1.5674999952316284,
-        "Low": 1.5674999952316284,
-        "Open": 1.5674999952316284,
-        "Volume": 127
-      },
-      {
-        "Close": 1.5299999713897705,
-        "High": 1.5299999713897705,
-        "Low": 1.5299999713897705,
-        "Open": 1.5299999713897705,
-        "Volume": 100
-      },
-      {
-        "Close": 1.5401999950408936,
-        "High": 1.5401999950408936,
-        "Low": 1.5401999950408936,
-        "Open": 1.5401999950408936,
-        "Volume": 108
-      },
-      {
-        "Close": 1.562000036239624,
-        "High": 1.562000036239624,
-        "Low": 1.562000036239624,
-        "Open": 1.562000036239624,
-        "Volume": 106
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
-    "message": "argument of type 'NoneType' is not iterable"
+    "message": "Too Many Requests. Rate limited. Try after a while."
   },
   "financials": {
     "income_statement": {
-      "status": "success",
-      "rows": 43,
-      "columns": [
-        "2024-12-31 00:00:00",
-        "2023-12-31 00:00:00",
-        "2022-12-31 00:00:00",
-        "2021-12-31 00:00:00"
-      ],
-      "data": [
-        {
-          
+      "status": "no_data"
+    },
+    "balance_sheet": {
+      "status": "no_data"
+    },
+    "cash_flow": {
+      "status": "no_data"
+    }
+  },
+  "options_data": {
+    "status": "error",
+    "error_message": "Too Many Requests. Rate limited. Try after a while."
+  },
+  "news_data": {
+    "news": {
+      "status": "no_data"
+    },
+    "recommendations": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  },
+  "holders_data": {
+    "major_holders": {
+      "status": "error"
+    },
+    "institutional_holders": {
+      "status": "error"
+    }
+  },
+  "earnings_data": {
+    "earnings": {
+      "status": "error",
+      "message": "'NoneType' object has no attribute 'empty'"
+    },
+    "calendar": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  }
+}

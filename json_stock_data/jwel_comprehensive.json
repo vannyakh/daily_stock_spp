@@ -1,67 +1,9 @@
 {
   "ticker": "JWEL",
-  "timestamp": "2026-01-11T05:07:21.850147",
+  "timestamp": "2026-01-13T05:53:27.200257",
   "intraday_data": {
-    "status": "success",
-    "rows": 8,
-    "data": [
-      {
-        "Close": 2.119999885559082,
-        "High": 2.119999885559082,
-        "Low": 2.119999885559082,
-        "Open": 2.119999885559082,
-        "Volume": 0
-      },
-      {
-        "Close": 2.119999885559082,
-        "High": 2.119999885559082,
-        "Low": 2.119999885559082,
-        "Open": 2.119999885559082,
-        "Volume": 200
-      },
-      {
-        "Close": 2.140000104904175,
-        "High": 2.140000104904175,
-        "Low": 2.140000104904175,
-        "Open": 2.140000104904175,
-        "Volume": 200
-      },
-      {
-        "Close": 2.109999895095825,
-        "High": 2.109999895095825,
-        "Low": 2.109999895095825,
-        "Open": 2.109999895095825,
-        "Volume": 200
-      },
-      {
-        "Close": 2.125,
-        "High": 2.125,
-        "Low": 2.125,
-        "Open": 2.125,
-        "Volume": 2000
-      },
-      {
-        "Close": 2.140000104904175,
-        "High": 2.1500000953674316,
-        "Low": 2.130000114440918,
-        "Open": 2.130000114440918,
-        "Volume": 5500
-      },
-      {
-        "Close": 2.2200000286102295,
-        "High": 2.2200000286102295,
-        "Low": 2.1500000953674316,
-        "Open": 2.1500000953674316,
-        "Volume": 1193
-      },
-      {
-        "Close": 2.119999885559082,
-        "High": 2.119999885559082,
-        "Low": 2.119999885559082,
-        "Open": 2.119999885559082,
-        "Volume": 530
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -75,14 +17,38 @@
       "status": "no_data"
     },
     "cash_flow": {
-      "status": "success",
-      "rows": 60,
-      "columns": [
-        "2024-12-31 00:00:00",
-        "2023-12-31 00:00:00",
-        "2022-12-31 00:00:00",
-        "2021-12-31 00:00:00"
-      ],
-      "data": [
-        {
-          
+      "status": "no_data"
+    }
+  },
+  "options_data": {
+    "status": "error",
+    "error_message": "Too Many Requests. Rate limited. Try after a while."
+  },
+  "news_data": {
+    "news": {
+      "status": "no_data"
+    },
+    "recommendations": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  },
+  "holders_data": {
+    "major_holders": {
+      "status": "error"
+    },
+    "institutional_holders": {
+      "status": "error"
+    }
+  },
+  "earnings_data": {
+    "earnings": {
+      "status": "error",
+      "message": "'NoneType' object has no attribute 'empty'"
+    },
+    "calendar": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  }
+}

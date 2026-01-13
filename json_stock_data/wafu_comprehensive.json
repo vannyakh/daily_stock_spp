@@ -1,10 +1,9 @@
 {
   "ticker": "WAFU",
-  "timestamp": "2026-01-11T05:07:12.537462",
+  "timestamp": "2026-01-13T05:52:51.361924",
   "intraday_data": {
-    "status": "success",
-    "rows": 0,
-    "data": []
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -155,15 +154,16 @@
       ]
     },
     "recommendations": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   },
   "holders_data": {
     "major_holders": {
-      "status": "no_data"
+      "status": "error"
     },
     "institutional_holders": {
-      "status": "no_data"
+      "status": "error"
     }
   },
   "earnings_data": {

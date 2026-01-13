@@ -1,47 +1,99 @@
 {
   "ticker": "PCSC",
-  "timestamp": "2026-01-11T05:01:46.569512",
+  "timestamp": "2026-01-13T05:29:51.571870",
   "intraday_data": {
-    "status": "success",
-    "rows": 3,
-    "data": [
-      {
-        "Close ALYAF": 1.2300000190734863,
-        "High ALYAF": 1.2300000190734863,
-        "Low ALYAF": 1.2300000190734863,
-        "Open ALYAF": 1.2300000190734863,
-        "Volume ALYAF": 0
-      },
-      {
-        "Close ALYAF": 1.2400000095367432,
-        "High ALYAF": 1.2400000095367432,
-        "Low ALYAF": 1.2400000095367432,
-        "Open ALYAF": 1.2400000095367432,
-        "Volume ALYAF": 500
-      },
-      {
-        "Close ALYAF": 1.2300000190734863,
-        "High ALYAF": 1.2300000190734863,
-        "Low ALYAF": 1.2300000190734863,
-        "Open ALYAF": 1.2300000190734863,
-        "Volume ALYAF": 100
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
-    "message": "argument of type 'NoneType' is not iterable"
+    "message": "Too Many Requests. Rate limited. Try after a while."
   },
   "financials": {
     "income_statement": {
       "status": "no_data"
     },
     "balance_sheet": {
+      "status": "no_data"
+    },
+    "cash_flow": {
+      "status": "no_data"
+    }
+  },
+  "options_data": {
+    "status": "error",
+    "error_message": "Too Many Requests. Rate limited. Try after a while."
+  },
+  "news_data": {
+    "news": {
       "status": "success",
-      "rows": 28,
-      "columns": [
-        "2024-12-31 00:00:00"
-      ],
+      "count": 1,
       "data": [
         {
-          
+          "id": "b14ba814-9acb-30a6-ae50-418b29e8dd4e",
+          "content": {
+            "id": "b14ba814-9acb-30a6-ae50-418b29e8dd4e",
+            "contentType": "STORY",
+            "title": "Top Midday Gainers",
+            "description": "",
+            "summary": "Praxis Precision Medicines (PRAX) reported positive trial results late Thursday of relutrigine to tr",
+            "pubDate": "2025-12-05T18:12:09Z",
+            "displayTime": "2025-12-05T18:12:09Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": null,
+            "provider": {
+              "displayName": "MT Newswires",
+              "url": "https://www.mtnewswires.com/"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/top-midday-gainers-181209310.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/top-midday-gainers-181209310.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": true,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        }
+      ]
+    },
+    "recommendations": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  },
+  "holders_data": {
+    "major_holders": {
+      "status": "error"
+    },
+    "institutional_holders": {
+      "status": "error"
+    }
+  },
+  "earnings_data": {
+    "earnings": {
+      "status": "error",
+      "message": "'NoneType' object has no attribute 'empty'"
+    },
+    "calendar": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  }
+}

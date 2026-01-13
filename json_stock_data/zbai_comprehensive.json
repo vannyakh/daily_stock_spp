@@ -1,18 +1,9 @@
 {
   "ticker": "ZBAI",
-  "timestamp": "2026-01-11T05:05:32.030036",
+  "timestamp": "2026-01-13T05:45:35.647012",
   "intraday_data": {
-    "status": "success",
-    "rows": 1,
-    "data": [
-      {
-        "Close": 6.940000057220459,
-        "High": 6.940000057220459,
-        "Low": 6.940000057220459,
-        "Open": 6.940000057220459,
-        "Volume": 0
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -83,16 +74,63 @@
       ]
     },
     "recommendations": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
+      "status": "no_data"
     }
   },
   "holders_data": {
     "major_holders": {
-      "status": "error"
+      "status": "success",
+      "data": [
+        {
+          "Value": 0.0
+        },
+        {
+          "Value": 0.00064000004
+        },
+        {
+          "Value": 0.00064000004
+        },
+        {
+          "Value": 4.0
+        }
+      ]
     },
     "institutional_holders": {
-      "status": "error"
+      "status": "success",
+      "data": [
+        {
+          "Date Reported": "2025-09-30 00:00:00",
+          "Holder": "UBS Group AG",
+          "pctHeld": 0.0064,
+          "Shares": 6198,
+          "Value": 41403,
+          "pctChange": 6.633
+        },
+        {
+          "Date Reported": "2025-09-30 00:00:00",
+          "Holder": "Citigroup Inc.",
+          "pctHeld": 0.0004,
+          "Shares": 411,
+          "Value": 2745,
+          "pctChange": 1.0
+        },
+        {
+          "Date Reported": "2025-09-30 00:00:00",
+          "Holder": "Your Advocates Ltd., LLP",
+          "pctHeld": 0.0,
+          "Shares": 5,
+          "Value": 33,
+          "pctChange": -0.2857
+        },
+        {
+          "Date Reported": "2025-09-30 00:00:00",
+          "Holder": "Bank of America Corporation",
+          "pctHeld": 0.0,
+          "Shares": 5,
+          "Value": 33,
+          "pctChange": -0.1667
+        }
+      ]
     }
   },
   "earnings_data": {
@@ -102,7 +140,7 @@
     },
     "calendar": {
       "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
+      "message": "'dict' object has no attribute 'empty'"
     }
   }
 }

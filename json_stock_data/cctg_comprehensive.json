@@ -1,67 +1,9 @@
 {
   "ticker": "CCTG",
-  "timestamp": "2026-01-11T05:05:39.648829",
+  "timestamp": "2026-01-13T05:46:08.555936",
   "intraday_data": {
-    "status": "success",
-    "rows": 8,
-    "data": [
-      {
-        "Close ABTS": 5.53000020980835,
-        "High ABTS": 5.53000020980835,
-        "Low ABTS": 5.53000020980835,
-        "Open ABTS": 5.53000020980835,
-        "Volume ABTS": 0
-      },
-      {
-        "Close ABTS": 5.739999771118164,
-        "High ABTS": 5.739999771118164,
-        "Low ABTS": 5.739999771118164,
-        "Open ABTS": 5.739999771118164,
-        "Volume ABTS": 352
-      },
-      {
-        "Close ABTS": 5.519999980926514,
-        "High ABTS": 5.519999980926514,
-        "Low ABTS": 5.519999980926514,
-        "Open ABTS": 5.519999980926514,
-        "Volume ABTS": 126
-      },
-      {
-        "Close ABTS": 5.53000020980835,
-        "High ABTS": 5.53000020980835,
-        "Low ABTS": 5.53000020980835,
-        "Open ABTS": 5.53000020980835,
-        "Volume ABTS": 173
-      },
-      {
-        "Close ABTS": 5.619999885559082,
-        "High ABTS": 5.619999885559082,
-        "Low ABTS": 5.619999885559082,
-        "Open ABTS": 5.619999885559082,
-        "Volume ABTS": 746
-      },
-      {
-        "Close ABTS": 5.599899768829346,
-        "High ABTS": 5.599899768829346,
-        "Low ABTS": 5.579999923706055,
-        "Open ABTS": 5.579999923706055,
-        "Volume ABTS": 0
-      },
-      {
-        "Close ABTS": 5.800000190734863,
-        "High ABTS": 5.800000190734863,
-        "Low ABTS": 5.800000190734863,
-        "Open ABTS": 5.800000190734863,
-        "Volume ABTS": 156
-      },
-      {
-        "Close ABTS": 5.789999961853027,
-        "High ABTS": 5.789999961853027,
-        "Low ABTS": 5.789999961853027,
-        "Open ABTS": 5.789999961853027,
-        "Volume ABTS": 305
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -212,7 +154,8 @@
       ]
     },
     "recommendations": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   },
   "holders_data": {

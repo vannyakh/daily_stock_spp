@@ -1,25 +1,9 @@
 {
   "ticker": "HYEX",
-  "timestamp": "2026-01-11T05:07:32.250491",
+  "timestamp": "2026-01-13T05:54:12.389826",
   "intraday_data": {
-    "status": "success",
-    "rows": 2,
-    "data": [
-      {
-        "Close BMTM": 0.007400000002235174,
-        "High BMTM": 0.007400000002235174,
-        "Low BMTM": 0.007400000002235174,
-        "Open BMTM": 0.007400000002235174,
-        "Volume BMTM": 0
-      },
-      {
-        "Close BMTM": 0.006500000134110451,
-        "High BMTM": 0.006500000134110451,
-        "Low BMTM": 0.006500000134110451,
-        "Open BMTM": 0.006500000134110451,
-        "Volume BMTM": 20000
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -37,7 +21,8 @@
     }
   },
   "options_data": {
-    "expirations": []
+    "status": "error",
+    "error_message": "Too Many Requests. Rate limited. Try after a while."
   },
   "news_data": {
     "news": {

@@ -1,9 +1,25 @@
 {
   "ticker": "HLLK",
-  "timestamp": "2026-01-11T05:08:51.072888",
+  "timestamp": "2026-01-13T06:00:12.944249",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 2,
+    "data": [
+      {
+        "Close": 0.10999999940395355,
+        "High": 0.10999999940395355,
+        "Low": 0.10999999940395355,
+        "Open": 0.10999999940395355,
+        "Volume": 0
+      },
+      {
+        "Close": 0.10000000149011612,
+        "High": 0.10000000149011612,
+        "Low": 0.10000000149011612,
+        "Open": 0.10000000149011612,
+        "Volume": 4750
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -26,8 +42,7 @@
   },
   "news_data": {
     "news": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
+      "status": "no_data"
     },
     "recommendations": {
       "status": "error",

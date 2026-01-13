@@ -1,10 +1,9 @@
 {
   "ticker": "MAXN",
-  "timestamp": "2026-01-11T05:01:47.859704",
+  "timestamp": "2026-01-13T05:29:56.986592",
   "intraday_data": {
-    "status": "success",
-    "rows": 0,
-    "data": []
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -441,7 +440,8 @@
       ]
     },
     "recommendations": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   },
   "holders_data": {

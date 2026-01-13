@@ -1,74 +1,9 @@
 {
   "ticker": "FITBP",
-  "timestamp": "2026-01-11T05:13:42.544926",
+  "timestamp": "2026-01-13T06:25:21.107343",
   "intraday_data": {
-    "status": "success",
-    "rows": 9,
-    "data": [
-      {
-        "Close": 24.500099182128906,
-        "High": 24.500099182128906,
-        "Low": 24.500099182128906,
-        "Open": 24.500099182128906,
-        "Volume": 0
-      },
-      {
-        "Close": 24.5,
-        "High": 24.5,
-        "Low": 24.5,
-        "Open": 24.5,
-        "Volume": 540
-      },
-      {
-        "Close": 24.547199249267578,
-        "High": 24.547199249267578,
-        "Low": 24.547199249267578,
-        "Open": 24.547199249267578,
-        "Volume": 1001
-      },
-      {
-        "Close": 24.579999923706055,
-        "High": 24.579999923706055,
-        "Low": 24.490100860595703,
-        "Open": 24.490100860595703,
-        "Volume": 438
-      },
-      {
-        "Close": 24.579999923706055,
-        "High": 24.579999923706055,
-        "Low": 24.579999923706055,
-        "Open": 24.579999923706055,
-        "Volume": 1495
-      },
-      {
-        "Close": 24.530000686645508,
-        "High": 24.530000686645508,
-        "Low": 24.530000686645508,
-        "Open": 24.530000686645508,
-        "Volume": 177
-      },
-      {
-        "Close": 24.489999771118164,
-        "High": 24.5,
-        "Low": 24.489999771118164,
-        "Open": 24.5,
-        "Volume": 461
-      },
-      {
-        "Close": 24.5,
-        "High": 24.5,
-        "Low": 24.5,
-        "Open": 24.5,
-        "Volume": 104
-      },
-      {
-        "Close": 24.5,
-        "High": 24.5,
-        "Low": 24.5,
-        "Open": 24.5,
-        "Volume": 200
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -76,45 +11,14 @@
   },
   "financials": {
     "income_statement": {
-      "status": "no_data"
-    },
-    "balance_sheet": {
-      "status": "no_data"
-    },
-    "cash_flow": {
-      "status": "no_data"
-    }
-  },
-  "options_data": {
-    "status": "error",
-    "error_message": "Too Many Requests. Rate limited. Try after a while."
-  },
-  "news_data": {
-    "news": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
-    },
-    "recommendations": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
-    }
-  },
-  "holders_data": {
-    "major_holders": {
-      "status": "error"
-    },
-    "institutional_holders": {
-      "status": "error"
-    }
-  },
-  "earnings_data": {
-    "earnings": {
-      "status": "error",
-      "message": "'NoneType' object has no attribute 'empty'"
-    },
-    "calendar": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
-    }
-  }
-}
+      "status": "success",
+      "rows": 40,
+      "columns": [
+        "2024-12-31 00:00:00",
+        "2023-12-31 00:00:00",
+        "2022-12-31 00:00:00",
+        "2021-12-31 00:00:00"
+      ],
+      "data": [
+        {
+          

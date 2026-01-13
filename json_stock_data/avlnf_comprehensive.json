@@ -1,32 +1,9 @@
 {
   "ticker": "AVLNF",
-  "timestamp": "2026-01-11T05:11:53.296568",
+  "timestamp": "2026-01-13T06:15:46.112483",
   "intraday_data": {
-    "status": "success",
-    "rows": 3,
-    "data": [
-      {
-        "Close ARBKF": 0.0035000001080334187,
-        "High ARBKF": 0.0035000001080334187,
-        "Low ARBKF": 0.0035000001080334187,
-        "Open ARBKF": 0.0035000001080334187,
-        "Volume ARBKF": 0
-      },
-      {
-        "Close ARBKF": 0.0026000000070780516,
-        "High ARBKF": 0.0026000000070780516,
-        "Low ARBKF": 0.0026000000070780516,
-        "Open ARBKF": 0.0026000000070780516,
-        "Volume ARBKF": 856
-      },
-      {
-        "Close ARBKF": 0.003000000026077032,
-        "High ARBKF": 0.003000000026077032,
-        "Low ARBKF": 0.003000000026077032,
-        "Open ARBKF": 0.003000000026077032,
-        "Volume ARBKF": 10000
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -49,8 +26,52 @@
   },
   "news_data": {
     "news": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
+      "status": "success",
+      "count": 1,
+      "data": [
+        {
+          "id": "bed20750-9c34-3c40-800d-acedb5c36813",
+          "content": {
+            "id": "bed20750-9c34-3c40-800d-acedb5c36813",
+            "contentType": "STORY",
+            "title": "Avalon Advanced Materials Raising $21 Million to Advance Rare Earth, Lithium Projects in Canada",
+            "description": "",
+            "summary": "Avalon Advanced Materials (AVL.TO) said Tuesday that it is raising $21 million in a private placemen",
+            "pubDate": "2025-10-14T12:27:11Z",
+            "displayTime": "2025-10-14T12:27:11Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": null,
+            "provider": {
+              "displayName": "MT Newswires",
+              "url": "https://www.mtnewswires.com/"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/avalon-advanced-materials-raising-21-122711116.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/avalon-advanced-materials-raising-21-122711116.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": true,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        }
+      ]
     },
     "recommendations": {
       "status": "error",

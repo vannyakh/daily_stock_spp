@@ -1,9 +1,10 @@
 {
   "ticker": "UCL",
-  "timestamp": "2026-01-11T05:03:30.392306",
+  "timestamp": "2026-01-13T05:37:10.460440",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 0,
+    "data": []
   },
   "stock_info": {
     "status": "error",
@@ -642,95 +643,16 @@
       ]
     },
     "recommendations": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   },
   "holders_data": {
     "major_holders": {
-      "status": "success",
-      "data": [
-        {
-          "Value": 0.089370005
-        },
-        {
-          "Value": 0.17936
-        },
-        {
-          "Value": 0.19695999
-        },
-        {
-          "Value": 12.0
-        }
-      ]
+      "status": "error"
     },
     "institutional_holders": {
-      "status": "success",
-      "data": [
-        {
-          "Date Reported": "2025-09-30 00:00:00",
-          "Holder": "Renaissance Technologies, LLC",
-          "pctHeld": 0.0042,
-          "Shares": 106305,
-          "Value": 181781,
-          "pctChange": 0.4682
-        },
-        {
-          "Date Reported": "2025-09-30 00:00:00",
-          "Holder": "Citadel Advisors Llc",
-          "pctHeld": 0.0027,
-          "Shares": 68311,
-          "Value": 116811,
-          "pctChange": 1.0
-        },
-        {
-          "Date Reported": "2025-09-30 00:00:00",
-          "Holder": "Susquehanna International Group, LLP",
-          "pctHeld": 0.00090000004,
-          "Shares": 22099,
-          "Value": 37789,
-          "pctChange": 1.0
-        },
-        {
-          "Date Reported": "2025-09-30 00:00:00",
-          "Holder": "Geode Capital Management, LLC",
-          "pctHeld": 0.0004,
-          "Shares": 11071,
-          "Value": 18931,
-          "pctChange": 0.0
-        },
-        {
-          "Date Reported": "2025-09-30 00:00:00",
-          "Holder": "Morgan Stanley",
-          "pctHeld": 0.0002,
-          "Shares": 4625,
-          "Value": 7908,
-          "pctChange": 0.0
-        },
-        {
-          "Date Reported": "2025-09-30 00:00:00",
-          "Holder": "SBI Securities Co., Ltd.",
-          "pctHeld": 0.0,
-          "Shares": 8,
-          "Value": 13,
-          "pctChange": -0.992
-        },
-        {
-          "Date Reported": "2025-09-30 00:00:00",
-          "Holder": "Rhumbline Advisers",
-          "pctHeld": 0.0,
-          "Shares": 760,
-          "Value": 1299,
-          "pctChange": 1.0
-        },
-        {
-          "Date Reported": "2025-09-30 00:00:00",
-          "Holder": "UBS Group AG",
-          "pctHeld": 0.0,
-          "Shares": 78,
-          "Value": 133,
-          "pctChange": -0.9861
-        }
-      ]
+      "status": "error"
     }
   },
   "earnings_data": {
@@ -740,7 +662,7 @@
     },
     "calendar": {
       "status": "error",
-      "message": "'dict' object has no attribute 'empty'"
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   }
 }

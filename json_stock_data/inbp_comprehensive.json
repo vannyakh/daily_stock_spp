@@ -1,39 +1,9 @@
 {
   "ticker": "INBP",
-  "timestamp": "2026-01-11T05:06:37.089297",
+  "timestamp": "2026-01-13T05:50:11.824070",
   "intraday_data": {
-    "status": "success",
-    "rows": 4,
-    "data": [
-      {
-        "Close": 0.3427000045776367,
-        "High": 0.3427000045776367,
-        "Low": 0.3427000045776367,
-        "Open": 0.3427000045776367,
-        "Volume": 0
-      },
-      {
-        "Close": 0.3370000123977661,
-        "High": 0.3370000123977661,
-        "Low": 0.3370000123977661,
-        "Open": 0.3370000123977661,
-        "Volume": 190
-      },
-      {
-        "Close": 0.3499999940395355,
-        "High": 0.3499999940395355,
-        "Low": 0.3499999940395355,
-        "Open": 0.3499999940395355,
-        "Volume": 200
-      },
-      {
-        "Close": 0.3499999940395355,
-        "High": 0.3499999940395355,
-        "Low": 0.3499999940395355,
-        "Open": 0.3499999940395355,
-        "Volume": 129
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -44,41 +14,15 @@
       "status": "no_data"
     },
     "balance_sheet": {
-      "status": "no_data"
-    },
-    "cash_flow": {
-      "status": "no_data"
-    }
-  },
-  "options_data": {
-    "status": "error",
-    "error_message": "Too Many Requests. Rate limited. Try after a while."
-  },
-  "news_data": {
-    "news": {
-      "status": "no_data"
-    },
-    "recommendations": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
-    }
-  },
-  "holders_data": {
-    "major_holders": {
-      "status": "error"
-    },
-    "institutional_holders": {
-      "status": "error"
-    }
-  },
-  "earnings_data": {
-    "earnings": {
-      "status": "error",
-      "message": "'NoneType' object has no attribute 'empty'"
-    },
-    "calendar": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
-    }
-  }
-}
+      "status": "success",
+      "rows": 62,
+      "columns": [
+        "2025-06-30 00:00:00",
+        "2024-06-30 00:00:00",
+        "2023-06-30 00:00:00",
+        "2022-06-30 00:00:00",
+        "2021-06-30 00:00:00"
+      ],
+      "data": [
+        {
+          

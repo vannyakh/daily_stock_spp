@@ -1,60 +1,9 @@
 {
   "ticker": "PCF",
-  "timestamp": "2026-01-11T05:01:30.429530",
+  "timestamp": "2026-01-13T05:28:38.829162",
   "intraday_data": {
-    "status": "success",
-    "rows": 7,
-    "data": [
-      {
-        "Close LSE": 4.570000171661377,
-        "High LSE": 4.570000171661377,
-        "Low LSE": 4.569499969482422,
-        "Open LSE": 4.569499969482422,
-        "Volume LSE": 682
-      },
-      {
-        "Close LSE": 4.878499984741211,
-        "High LSE": 4.878499984741211,
-        "Low LSE": 4.849999904632568,
-        "Open LSE": 4.849999904632568,
-        "Volume LSE": 200
-      },
-      {
-        "Close LSE": 4.570000171661377,
-        "High LSE": 4.570000171661377,
-        "Low LSE": 4.570000171661377,
-        "Open LSE": 4.570000171661377,
-        "Volume LSE": 150
-      },
-      {
-        "Close LSE": 4.570000171661377,
-        "High LSE": 4.570000171661377,
-        "Low LSE": 4.570000171661377,
-        "Open LSE": 4.570000171661377,
-        "Volume LSE": 280
-      },
-      {
-        "Close LSE": 4.570000171661377,
-        "High LSE": 4.570000171661377,
-        "Low LSE": 4.570000171661377,
-        "Open LSE": 4.570000171661377,
-        "Volume LSE": 78
-      },
-      {
-        "Close LSE": 4.570000171661377,
-        "High LSE": 4.570000171661377,
-        "Low LSE": 4.570000171661377,
-        "Open LSE": 4.570000171661377,
-        "Volume LSE": 81
-      },
-      {
-        "Close LSE": 4.570000171661377,
-        "High LSE": 4.570000171661377,
-        "Low LSE": 4.570000171661377,
-        "Open LSE": 4.570000171661377,
-        "Volume LSE": 345
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -62,44 +11,15 @@
   },
   "financials": {
     "income_statement": {
-      "status": "no_data"
-    },
-    "balance_sheet": {
-      "status": "no_data"
-    },
-    "cash_flow": {
-      "status": "no_data"
-    }
-  },
-  "options_data": {
-    "status": "error",
-    "error_message": "Too Many Requests. Rate limited. Try after a while."
-  },
-  "news_data": {
-    "news": {
-      "status": "no_data"
-    },
-    "recommendations": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
-    }
-  },
-  "holders_data": {
-    "major_holders": {
-      "status": "error"
-    },
-    "institutional_holders": {
-      "status": "error"
-    }
-  },
-  "earnings_data": {
-    "earnings": {
-      "status": "error",
-      "message": "'NoneType' object has no attribute 'empty'"
-    },
-    "calendar": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
-    }
-  }
-}
+      "status": "success",
+      "rows": 24,
+      "columns": [
+        "2025-08-31 00:00:00",
+        "2024-08-31 00:00:00",
+        "2023-08-31 00:00:00",
+        "2022-08-31 00:00:00",
+        "2021-08-31 00:00:00"
+      ],
+      "data": [
+        {
+          

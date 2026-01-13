@@ -1,115 +1,54 @@
 {
   "ticker": "PGFF",
-  "timestamp": "2026-01-11T05:06:36.259130",
+  "timestamp": "2026-01-13T05:50:07.870577",
   "intraday_data": {
-    "status": "success",
-    "rows": 13,
-    "data": [
-      {
-        "Close SEED": 1.190000057220459,
-        "High SEED": 1.190000057220459,
-        "Low SEED": 1.1299999952316284,
-        "Open SEED": 1.1299999952316284,
-        "Volume SEED": 0
-      },
-      {
-        "Close SEED": 1.1999000310897827,
-        "High SEED": 1.1999000310897827,
-        "Low SEED": 1.1999000310897827,
-        "Open SEED": 1.1999000310897827,
-        "Volume SEED": 140
-      },
-      {
-        "Close SEED": 1.1858999729156494,
-        "High SEED": 1.1858999729156494,
-        "Low SEED": 1.1858999729156494,
-        "Open SEED": 1.1858999729156494,
-        "Volume SEED": 217
-      },
-      {
-        "Close SEED": 1.1401000022888184,
-        "High SEED": 1.1401000022888184,
-        "Low SEED": 1.1401000022888184,
-        "Open SEED": 1.1401000022888184,
-        "Volume SEED": 800
-      },
-      {
-        "Close SEED": 1.1405999660491943,
-        "High SEED": 1.1405999660491943,
-        "Low SEED": 1.1405999660491943,
-        "Open SEED": 1.1405999660491943,
-        "Volume SEED": 0
-      },
-      {
-        "Close SEED": 1.159999966621399,
-        "High SEED": 1.159999966621399,
-        "Low SEED": 1.159999966621399,
-        "Open SEED": 1.159999966621399,
-        "Volume SEED": 243
-      },
-      {
-        "Close SEED": 1.149999976158142,
-        "High SEED": 1.149999976158142,
-        "Low SEED": 1.149999976158142,
-        "Open SEED": 1.149999976158142,
-        "Volume SEED": 400
-      },
-      {
-        "Close SEED": 1.149999976158142,
-        "High SEED": 1.149999976158142,
-        "Low SEED": 1.149999976158142,
-        "Open SEED": 1.149999976158142,
-        "Volume SEED": 0
-      },
-      {
-        "Close SEED": 1.1593999862670898,
-        "High SEED": 1.1593999862670898,
-        "Low SEED": 1.1593999862670898,
-        "Open SEED": 1.1593999862670898,
-        "Volume SEED": 200
-      },
-      {
-        "Close SEED": 1.159999966621399,
-        "High SEED": 1.159999966621399,
-        "Low SEED": 1.159999966621399,
-        "Open SEED": 1.159999966621399,
-        "Volume SEED": 234
-      },
-      {
-        "Close SEED": 1.142199993133545,
-        "High SEED": 1.142199993133545,
-        "Low SEED": 1.142199993133545,
-        "Open SEED": 1.142199993133545,
-        "Volume SEED": 127
-      },
-      {
-        "Close SEED": 1.1399999856948853,
-        "High SEED": 1.1399999856948853,
-        "Low SEED": 1.1399999856948853,
-        "Open SEED": 1.1399999856948853,
-        "Volume SEED": 901
-      },
-      {
-        "Close SEED": 1.128999948501587,
-        "High SEED": 1.128999948501587,
-        "Low SEED": 1.128999948501587,
-        "Open SEED": 1.128999948501587,
-        "Volume SEED": 200
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
-    "message": "argument of type 'NoneType' is not iterable"
+    "message": "Too Many Requests. Rate limited. Try after a while."
   },
   "financials": {
     "income_statement": {
-      "status": "success",
-      "rows": 41,
-      "columns": [
-        "2023-12-31 00:00:00",
-        "2022-12-31 00:00:00"
-      ],
-      "data": [
-        {
-          
+      "status": "no_data"
+    },
+    "balance_sheet": {
+      "status": "no_data"
+    },
+    "cash_flow": {
+      "status": "no_data"
+    }
+  },
+  "options_data": {
+    "status": "error",
+    "error_message": "Too Many Requests. Rate limited. Try after a while."
+  },
+  "news_data": {
+    "news": {
+      "status": "no_data"
+    },
+    "recommendations": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  },
+  "holders_data": {
+    "major_holders": {
+      "status": "error"
+    },
+    "institutional_holders": {
+      "status": "error"
+    }
+  },
+  "earnings_data": {
+    "earnings": {
+      "status": "error",
+      "message": "'NoneType' object has no attribute 'empty'"
+    },
+    "calendar": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  }
+}

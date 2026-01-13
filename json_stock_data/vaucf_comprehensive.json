@@ -1,39 +1,9 @@
 {
   "ticker": "VAUCF",
-  "timestamp": "2026-01-11T05:06:22.267407",
+  "timestamp": "2026-01-13T05:49:13.889187",
   "intraday_data": {
-    "status": "success",
-    "rows": 4,
-    "data": [
-      {
-        "Close": 0.13300000131130219,
-        "High": 0.13300000131130219,
-        "Low": 0.13300000131130219,
-        "Open": 0.13300000131130219,
-        "Volume": 0
-      },
-      {
-        "Close": 0.13300000131130219,
-        "High": 0.13300000131130219,
-        "Low": 0.13300000131130219,
-        "Open": 0.13300000131130219,
-        "Volume": 5000
-      },
-      {
-        "Close": 0.13300000131130219,
-        "High": 0.13300000131130219,
-        "Low": 0.13300000131130219,
-        "Open": 0.13300000131130219,
-        "Volume": 15500
-      },
-      {
-        "Close": 0.13339999318122864,
-        "High": 0.13339999318122864,
-        "Low": 0.13339999318122864,
-        "Open": 0.13339999318122864,
-        "Volume": 23500
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -41,108 +11,14 @@
   },
   "financials": {
     "income_statement": {
-      "status": "no_data"
-    },
-    "balance_sheet": {
-      "status": "no_data"
-    },
-    "cash_flow": {
-      "status": "no_data"
-    }
-  },
-  "options_data": {
-    "status": "error",
-    "error_message": "Too Many Requests. Rate limited. Try after a while."
-  },
-  "news_data": {
-    "news": {
       "status": "success",
-      "count": 1,
+      "rows": 38,
+      "columns": [
+        "2024-10-31 00:00:00",
+        "2023-10-31 00:00:00",
+        "2022-10-31 00:00:00",
+        "2021-10-31 00:00:00"
+      ],
       "data": [
         {
-          "id": "35e4beac-af3e-3c1f-a91b-cde4aaff32ec",
-          "content": {
-            "id": "35e4beac-af3e-3c1f-a91b-cde4aaff32ec",
-            "contentType": "STORY",
-            "title": "Kenorland Minerals And 2 Other Promising Penny Stocks On The TSX",
-            "description": "",
-            "summary": "As the Canadian market navigates a complex landscape of sector-specific opportunities, investors are advised to focus on diversification, particularly within the energy, industrials, and materials sectors. In this context, penny stocks\u2014often seen as relics of past market eras\u2014continue to hold potential for growth and affordability when backed by strong financial health. This article explores several promising penny stocks on the TSX that combine balance sheet strength with long-term potential.",
-            "pubDate": "2025-12-30T19:05:08Z",
-            "displayTime": "2025-12-30T19:05:08Z",
-            "isHosted": true,
-            "bypassModal": false,
-            "previewUrl": null,
-            "thumbnail": {
-              "originalUrl": "https://media.zenfs.com/en/simply_wall_st__316/7a92075e7c274cfc915511d1e9d413e3",
-              "originalWidth": 1194,
-              "originalHeight": 432,
-              "caption": "",
-              "resolutions": [
-                {
-                  "url": "https://s.yimg.com/uu/api/res/1.2/hHa1.rnFIozE8uk1FxFmIg--~B/aD00MzI7dz0xMTk0O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/simply_wall_st__316/7a92075e7c274cfc915511d1e9d413e3",
-                  "width": 1194,
-                  "height": 432,
-                  "tag": "original"
-                },
-                {
-                  "url": "https://s.yimg.com/uu/api/res/1.2/IkkO1otk9b9Wkm7Q7OUirg--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/simply_wall_st__316/7a92075e7c274cfc915511d1e9d413e3",
-                  "width": 170,
-                  "height": 128,
-                  "tag": "170x128"
-                }
-              ]
-            },
-            "provider": {
-              "displayName": "Simply Wall St.",
-              "url": "https://simplywall.st/"
-            },
-            "canonicalUrl": {
-              "url": "https://finance.yahoo.com/news/kenorland-minerals-2-other-promising-190508291.html",
-              "site": "finance",
-              "region": "US",
-              "lang": "en-US"
-            },
-            "clickThroughUrl": {
-              "url": "https://finance.yahoo.com/news/kenorland-minerals-2-other-promising-190508291.html",
-              "site": "finance",
-              "region": "US",
-              "lang": "en-US"
-            },
-            "metadata": {
-              "editorsPick": false
-            },
-            "finance": {
-              "premiumFinance": {
-                "isPremiumNews": false,
-                "isPremiumFreeNews": false
-              }
-            },
-            "storyline": null
-          }
-        }
-      ]
-    },
-    "recommendations": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
-    }
-  },
-  "holders_data": {
-    "major_holders": {
-      "status": "error"
-    },
-    "institutional_holders": {
-      "status": "error"
-    }
-  },
-  "earnings_data": {
-    "earnings": {
-      "status": "error",
-      "message": "'NoneType' object has no attribute 'empty'"
-    },
-    "calendar": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
-    }
-  }
-}
+          

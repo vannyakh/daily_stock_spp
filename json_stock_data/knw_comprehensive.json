@@ -1,25 +1,9 @@
 {
   "ticker": "KNW",
-  "timestamp": "2026-01-11T05:06:01.308857",
+  "timestamp": "2026-01-13T05:47:44.904648",
   "intraday_data": {
-    "status": "success",
-    "rows": 2,
-    "data": [
-      {
-        "Close QMCI": 0.14499999582767487,
-        "High QMCI": 0.14499999582767487,
-        "Low QMCI": 0.14499999582767487,
-        "Open QMCI": 0.14499999582767487,
-        "Volume QMCI": 0
-      },
-      {
-        "Close QMCI": 0.14990000426769257,
-        "High QMCI": 0.14990000426769257,
-        "Low QMCI": 0.14990000426769257,
-        "Open QMCI": 0.14990000426769257,
-        "Volume QMCI": 2235
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -42,7 +26,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

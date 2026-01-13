@@ -1,13 +1,22 @@
 {
   "ticker": "ESSA",
-  "timestamp": "2026-01-11T05:00:07.153357",
+  "timestamp": "2026-01-13T05:22:55.805841",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 1,
+    "data": [
+      {
+        "Close EACO": 83.0,
+        "High EACO": 83.0,
+        "Low EACO": 83.0,
+        "Open EACO": 83.0,
+        "Volume EACO": 0
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
-    "message": "Too Many Requests. Rate limited. Try after a while."
+    "message": "argument of type 'NoneType' is not iterable"
   },
   "financials": {
     "income_statement": {
@@ -27,7 +36,7 @@
   "news_data": {
     "news": {
       "status": "success",
-      "count": 8,
+      "count": 7,
       "data": [
         {
           "id": "6b881054-1d83-323d-87a2-8b6d21ef0fda",
@@ -402,67 +411,6 @@
             },
             "clickThroughUrl": {
               "url": "https://finance.yahoo.com/news/pennsylvania-banks-combine-214m-deal-131115772.html",
-              "site": "finance",
-              "region": "US",
-              "lang": "en-US"
-            },
-            "metadata": {
-              "editorsPick": false
-            },
-            "finance": {
-              "premiumFinance": {
-                "isPremiumNews": false,
-                "isPremiumFreeNews": false
-              }
-            },
-            "storyline": null
-          }
-        },
-        {
-          "id": "89994af3-5185-3ab5-8ae8-a55ae6a1ac94",
-          "content": {
-            "id": "89994af3-5185-3ab5-8ae8-a55ae6a1ac94",
-            "contentType": "STORY",
-            "title": "CNB Financial, ESSA Bancorp announces strategic merger",
-            "description": "",
-            "summary": "CNB Financial Corporation (CCNE), parent company of CNB Bank, and ESSA Bancorp (ESSA), parent company of ESSA Bank & Trust, jointly announced that they have entered into a definitive agreement pursuant to which ESSA will merge with and into CNB, and ESSA Bank will merge with and into CNB Bank. The combined company is expected to have approximately $8 billion in total assets, $7 billion in total deposits, and $6 billion in total loans. The transaction consideration is all common stock and is pres",
-            "pubDate": "2025-01-11T12:41:06Z",
-            "displayTime": "2025-01-11T12:41:06Z",
-            "isHosted": true,
-            "bypassModal": false,
-            "previewUrl": null,
-            "thumbnail": {
-              "originalUrl": "https://media.zenfs.com/en/tipranks_452/7a4d5c5979e9a116d16fdb63289bd4e9",
-              "originalWidth": 192,
-              "originalHeight": 192,
-              "caption": "https://www.tipranks.com/news/the-fly/cnb-financial-essa-bancorp-announces-strategic-merger",
-              "resolutions": [
-                {
-                  "url": "https://s.yimg.com/uu/api/res/1.2/XeRvyTOtez7ZtvQGLwHolQ--~B/aD0xOTI7dz0xOTI7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/tipranks_452/7a4d5c5979e9a116d16fdb63289bd4e9",
-                  "width": 192,
-                  "height": 192,
-                  "tag": "original"
-                },
-                {
-                  "url": "https://s.yimg.com/uu/api/res/1.2/.Ui7dN0gKWCarUqJQ1pwSg--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/tipranks_452/7a4d5c5979e9a116d16fdb63289bd4e9",
-                  "width": 170,
-                  "height": 128,
-                  "tag": "170x128"
-                }
-              ]
-            },
-            "provider": {
-              "displayName": "TipRanks",
-              "url": "https://www.tipranks.com/"
-            },
-            "canonicalUrl": {
-              "url": "https://finance.yahoo.com/news/cnb-financial-essa-bancorp-announces-124106909.html",
-              "site": "finance",
-              "region": "US",
-              "lang": "en-US"
-            },
-            "clickThroughUrl": {
-              "url": "https://finance.yahoo.com/news/cnb-financial-essa-bancorp-announces-124106909.html",
               "site": "finance",
               "region": "US",
               "lang": "en-US"
