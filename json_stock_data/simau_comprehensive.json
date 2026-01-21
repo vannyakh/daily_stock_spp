@@ -1,9 +1,18 @@
 {
   "ticker": "SIMAU",
-  "timestamp": "2026-01-13T06:19:33.015641",
+  "timestamp": "2026-01-21T05:11:01.867192",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 1,
+    "data": [
+      {
+        "Close EURKR": 0.46050000190734863,
+        "High EURKR": 0.46050000190734863,
+        "Low EURKR": 0.46050000190734863,
+        "Open EURKR": 0.46050000190734863,
+        "Volume EURKR": 0
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -26,7 +35,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

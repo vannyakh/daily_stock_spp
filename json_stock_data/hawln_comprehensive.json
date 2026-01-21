@@ -1,18 +1,9 @@
 {
   "ticker": "HAWLN",
-  "timestamp": "2026-01-13T06:14:29.852661",
+  "timestamp": "2026-01-21T05:10:00.667575",
   "intraday_data": {
-    "status": "success",
-    "rows": 1,
-    "data": [
-      {
-        "Close GSCCF": 0.12919999659061432,
-        "High GSCCF": 0.12919999659061432,
-        "Low GSCCF": 0.12919999659061432,
-        "Open GSCCF": 0.12919999659061432,
-        "Volume GSCCF": 0
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -35,7 +26,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

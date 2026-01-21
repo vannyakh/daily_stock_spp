@@ -1,39 +1,9 @@
 {
   "ticker": "OHCS",
-  "timestamp": "2026-01-13T05:57:59.495010",
+  "timestamp": "2026-01-21T05:07:02.341998",
   "intraday_data": {
-    "status": "success",
-    "rows": 4,
-    "data": [
-      {
-        "Close PTPI": 0.007400000002235174,
-        "High PTPI": 0.007400000002235174,
-        "Low PTPI": 0.007400000002235174,
-        "Open PTPI": 0.007400000002235174,
-        "Volume PTPI": 0
-      },
-      {
-        "Close PTPI": 0.007499999832361937,
-        "High PTPI": 0.007499999832361937,
-        "Low PTPI": 0.007499999832361937,
-        "Open PTPI": 0.007499999832361937,
-        "Volume PTPI": 600
-      },
-      {
-        "Close PTPI": 0.007499999832361937,
-        "High PTPI": 0.007499999832361937,
-        "Low PTPI": 0.007499999832361937,
-        "Open PTPI": 0.007499999832361937,
-        "Volume PTPI": 1
-      },
-      {
-        "Close PTPI": 0.007600000128149986,
-        "High PTPI": 0.007600000128149986,
-        "Low PTPI": 0.007600000128149986,
-        "Open PTPI": 0.007600000128149986,
-        "Volume PTPI": 600
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -56,7 +26,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

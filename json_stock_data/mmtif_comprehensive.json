@@ -1,9 +1,46 @@
 {
   "ticker": "MMTIF",
-  "timestamp": "2026-01-13T05:44:37.540819",
+  "timestamp": "2026-01-21T05:04:36.155323",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 5,
+    "data": [
+      {
+        "Close MXC": 10.100000381469727,
+        "High MXC": 10.100000381469727,
+        "Low MXC": 10.100000381469727,
+        "Open MXC": 10.100000381469727,
+        "Volume MXC": 302
+      },
+      {
+        "Close MXC": 10.280500411987305,
+        "High MXC": 10.280500411987305,
+        "Low MXC": 10.280500411987305,
+        "Open MXC": 10.280500411987305,
+        "Volume MXC": 0
+      },
+      {
+        "Close MXC": 9.949999809265137,
+        "High MXC": 9.949999809265137,
+        "Low MXC": 9.949999809265137,
+        "Open MXC": 9.949999809265137,
+        "Volume MXC": 1446
+      },
+      {
+        "Close MXC": 9.539999961853027,
+        "High MXC": 9.59000015258789,
+        "Low MXC": 9.539999961853027,
+        "Open MXC": 9.59000015258789,
+        "Volume MXC": 1272
+      },
+      {
+        "Close MXC": 10.270000457763672,
+        "High MXC": 10.270000457763672,
+        "Low MXC": 10.270000457763672,
+        "Open MXC": 10.270000457763672,
+        "Volume MXC": 318
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -26,7 +63,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

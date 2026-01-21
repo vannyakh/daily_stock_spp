@@ -1,9 +1,81 @@
 {
   "ticker": "PMT-PC",
-  "timestamp": "2026-01-13T06:35:28.652346",
+  "timestamp": "2026-01-21T05:13:50.511425",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 10,
+    "data": [
+      {
+        "Close PMTU": 25.450000762939453,
+        "High PMTU": 25.450000762939453,
+        "Low PMTU": 25.450000762939453,
+        "Open PMTU": 25.450000762939453,
+        "Volume PMTU": 0
+      },
+      {
+        "Close PMTU": 25.450000762939453,
+        "High PMTU": 25.450000762939453,
+        "Low PMTU": 25.450000762939453,
+        "Open PMTU": 25.450000762939453,
+        "Volume PMTU": 284
+      },
+      {
+        "Close PMTU": 25.450000762939453,
+        "High PMTU": 25.450000762939453,
+        "Low PMTU": 25.450000762939453,
+        "Open PMTU": 25.450000762939453,
+        "Volume PMTU": 140
+      },
+      {
+        "Close PMTU": 25.451000213623047,
+        "High PMTU": 25.451000213623047,
+        "Low PMTU": 25.451000213623047,
+        "Open PMTU": 25.451000213623047,
+        "Volume PMTU": 360
+      },
+      {
+        "Close PMTU": 25.451000213623047,
+        "High PMTU": 25.451000213623047,
+        "Low PMTU": 25.451000213623047,
+        "Open PMTU": 25.451000213623047,
+        "Volume PMTU": 100
+      },
+      {
+        "Close PMTU": 25.451000213623047,
+        "High PMTU": 25.451000213623047,
+        "Low PMTU": 25.451000213623047,
+        "Open PMTU": 25.451000213623047,
+        "Volume PMTU": 100
+      },
+      {
+        "Close PMTU": 25.399999618530273,
+        "High PMTU": 25.459999084472656,
+        "Low PMTU": 25.399999618530273,
+        "Open PMTU": 25.459999084472656,
+        "Volume PMTU": 880
+      },
+      {
+        "Close PMTU": 25.3799991607666,
+        "High PMTU": 25.3799991607666,
+        "Low PMTU": 25.3799991607666,
+        "Open PMTU": 25.3799991607666,
+        "Volume PMTU": 384
+      },
+      {
+        "Close PMTU": 25.42300033569336,
+        "High PMTU": 25.42300033569336,
+        "Low PMTU": 25.42300033569336,
+        "Open PMTU": 25.42300033569336,
+        "Volume PMTU": 412
+      },
+      {
+        "Close PMTU": 25.40999984741211,
+        "High PMTU": 25.40999984741211,
+        "Low PMTU": 25.40999984741211,
+        "Open PMTU": 25.40999984741211,
+        "Volume PMTU": 505
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -11,14 +83,45 @@
   },
   "financials": {
     "income_statement": {
-      "status": "success",
-      "rows": 28,
-      "columns": [
-        "2024-12-31 00:00:00",
-        "2023-12-31 00:00:00",
-        "2022-12-31 00:00:00",
-        "2021-12-31 00:00:00"
-      ],
-      "data": [
-        {
-          
+      "status": "no_data"
+    },
+    "balance_sheet": {
+      "status": "no_data"
+    },
+    "cash_flow": {
+      "status": "no_data"
+    }
+  },
+  "options_data": {
+    "status": "error",
+    "error_message": "Too Many Requests. Rate limited. Try after a while."
+  },
+  "news_data": {
+    "news": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    },
+    "recommendations": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  },
+  "holders_data": {
+    "major_holders": {
+      "status": "error"
+    },
+    "institutional_holders": {
+      "status": "error"
+    }
+  },
+  "earnings_data": {
+    "earnings": {
+      "status": "error",
+      "message": "'NoneType' object has no attribute 'empty'"
+    },
+    "calendar": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  }
+}

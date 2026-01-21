@@ -1,39 +1,9 @@
 {
   "ticker": "WRB-PG",
-  "timestamp": "2026-01-13T06:38:04.951285",
+  "timestamp": "2026-01-21T05:14:18.135384",
   "intraday_data": {
-    "status": "success",
-    "rows": 4,
-    "data": [
-      {
-        "Close": 16.719999313354492,
-        "High": 16.719999313354492,
-        "Low": 16.719999313354492,
-        "Open": 16.719999313354492,
-        "Volume": 0
-      },
-      {
-        "Close": 16.75,
-        "High": 16.75,
-        "Low": 16.75,
-        "Open": 16.75,
-        "Volume": 659
-      },
-      {
-        "Close": 16.719999313354492,
-        "High": 16.719999313354492,
-        "Low": 16.719999313354492,
-        "Open": 16.719999313354492,
-        "Volume": 712
-      },
-      {
-        "Close": 16.719999313354492,
-        "High": 16.719999313354492,
-        "Low": 16.719999313354492,
-        "Open": 16.719999313354492,
-        "Volume": 676
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -56,7 +26,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

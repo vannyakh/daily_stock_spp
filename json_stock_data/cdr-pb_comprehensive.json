@@ -1,9 +1,46 @@
 {
   "ticker": "CDR-PB",
-  "timestamp": "2026-01-13T06:15:04.110272",
+  "timestamp": "2026-01-21T05:10:07.785302",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 5,
+    "data": [
+      {
+        "Close": 17.950000762939453,
+        "High": 17.950000762939453,
+        "Low": 17.950000762939453,
+        "Open": 17.950000762939453,
+        "Volume": 0
+      },
+      {
+        "Close": 18.030099868774414,
+        "High": 18.030099868774414,
+        "Low": 17.92009925842285,
+        "Open": 17.92009925842285,
+        "Volume": 726
+      },
+      {
+        "Close": 18.049999237060547,
+        "High": 18.049999237060547,
+        "Low": 18.049999237060547,
+        "Open": 18.049999237060547,
+        "Volume": 155
+      },
+      {
+        "Close": 18.049999237060547,
+        "High": 18.049999237060547,
+        "Low": 18.049999237060547,
+        "Open": 18.049999237060547,
+        "Volume": 204
+      },
+      {
+        "Close": 18.399999618530273,
+        "High": 18.399999618530273,
+        "Low": 18.049999237060547,
+        "Open": 18.049999237060547,
+        "Volume": 608
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -26,7 +63,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

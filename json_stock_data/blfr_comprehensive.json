@@ -1,9 +1,18 @@
 {
   "ticker": "BLFR",
-  "timestamp": "2026-01-13T05:58:48.118750",
+  "timestamp": "2026-01-21T05:07:11.185686",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 1,
+    "data": [
+      {
+        "Close SBIG": 0.009999999776482582,
+        "High SBIG": 0.009999999776482582,
+        "Low SBIG": 0.009999999776482582,
+        "Open SBIG": 0.009999999776482582,
+        "Volume SBIG": 0
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -26,7 +35,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

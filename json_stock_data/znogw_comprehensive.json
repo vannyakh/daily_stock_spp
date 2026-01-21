@@ -1,9 +1,39 @@
 {
   "ticker": "ZNOGW",
-  "timestamp": "2026-01-13T06:26:13.203512",
+  "timestamp": "2026-01-21T05:12:16.966809",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 4,
+    "data": [
+      {
+        "Close CSDX": 0.24500000476837158,
+        "High CSDX": 0.24500000476837158,
+        "Low CSDX": 0.24500000476837158,
+        "Open CSDX": 0.24500000476837158,
+        "Volume CSDX": 9000
+      },
+      {
+        "Close CSDX": 0.2409999966621399,
+        "High CSDX": 0.2409999966621399,
+        "Low CSDX": 0.2409999966621399,
+        "Open CSDX": 0.2409999966621399,
+        "Volume CSDX": 2000
+      },
+      {
+        "Close CSDX": 0.23000000417232513,
+        "High CSDX": 0.23000000417232513,
+        "Low CSDX": 0.23000000417232513,
+        "Open CSDX": 0.23000000417232513,
+        "Volume CSDX": 4000
+      },
+      {
+        "Close CSDX": 0.22499999403953552,
+        "High CSDX": 0.22499999403953552,
+        "Low CSDX": 0.22499999403953552,
+        "Open CSDX": 0.22499999403953552,
+        "Volume CSDX": 5500
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -26,7 +56,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

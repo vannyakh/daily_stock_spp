@@ -1,9 +1,18 @@
 {
   "ticker": "ETCG",
-  "timestamp": "2026-01-13T06:07:00.966176",
+  "timestamp": "2026-01-21T05:08:38.775263",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 1,
+    "data": [
+      {
+        "Close XPTFX": 10.050000190734863,
+        "High XPTFX": 10.050000190734863,
+        "Low XPTFX": 10.050000190734863,
+        "Open XPTFX": 10.050000190734863,
+        "Volume XPTFX": 0
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -26,7 +35,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

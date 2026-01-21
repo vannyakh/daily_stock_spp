@@ -1,25 +1,9 @@
 {
   "ticker": "SLDC",
-  "timestamp": "2026-01-13T06:01:36.465066",
+  "timestamp": "2026-01-21T05:07:40.192772",
   "intraday_data": {
-    "status": "success",
-    "rows": 2,
-    "data": [
-      {
-        "Close": 0.0012000000569969416,
-        "High": 0.0012000000569969416,
-        "Low": 0.0012000000569969416,
-        "Open": 0.0012000000569969416,
-        "Volume": 0
-      },
-      {
-        "Close": 0.0013000000035390258,
-        "High": 0.0013000000035390258,
-        "Low": 0.0013000000035390258,
-        "Open": 0.0013000000035390258,
-        "Volume": 2000
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -42,7 +26,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

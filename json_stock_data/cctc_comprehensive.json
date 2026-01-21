@@ -1,9 +1,60 @@
 {
   "ticker": "CCTC",
-  "timestamp": "2026-01-13T05:45:09.388736",
+  "timestamp": "2026-01-21T05:04:41.767160",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 7,
+    "data": [
+      {
+        "Close SIF": 6.0,
+        "High SIF": 6.0,
+        "Low SIF": 6.0,
+        "Open SIF": 6.0,
+        "Volume SIF": 392
+      },
+      {
+        "Close SIF": 6.0345001220703125,
+        "High SIF": 6.0345001220703125,
+        "Low SIF": 6.0345001220703125,
+        "Open SIF": 6.0345001220703125,
+        "Volume SIF": 969
+      },
+      {
+        "Close SIF": 6.050000190734863,
+        "High SIF": 6.050000190734863,
+        "Low SIF": 6.050000190734863,
+        "Open SIF": 6.050000190734863,
+        "Volume SIF": 173
+      },
+      {
+        "Close SIF": 6.144999980926514,
+        "High SIF": 6.144999980926514,
+        "Low SIF": 6.144999980926514,
+        "Open SIF": 6.144999980926514,
+        "Volume SIF": 117
+      },
+      {
+        "Close SIF": 5.989999771118164,
+        "High SIF": 5.989999771118164,
+        "Low SIF": 5.989999771118164,
+        "Open SIF": 5.989999771118164,
+        "Volume SIF": 140
+      },
+      {
+        "Close SIF": 6.010000228881836,
+        "High SIF": 6.010000228881836,
+        "Low SIF": 6.010000228881836,
+        "Open SIF": 6.010000228881836,
+        "Volume SIF": 203
+      },
+      {
+        "Close SIF": 5.96999979019165,
+        "High SIF": 5.96999979019165,
+        "Low SIF": 5.96999979019165,
+        "Open SIF": 5.96999979019165,
+        "Volume SIF": 321
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -11,12 +62,45 @@
   },
   "financials": {
     "income_statement": {
-      "status": "success",
-      "rows": 38,
-      "columns": [
-        "2024-12-31 00:00:00",
-        "2023-12-31 00:00:00"
-      ],
-      "data": [
-        {
-          
+      "status": "no_data"
+    },
+    "balance_sheet": {
+      "status": "no_data"
+    },
+    "cash_flow": {
+      "status": "no_data"
+    }
+  },
+  "options_data": {
+    "status": "error",
+    "error_message": "Too Many Requests. Rate limited. Try after a while."
+  },
+  "news_data": {
+    "news": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    },
+    "recommendations": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  },
+  "holders_data": {
+    "major_holders": {
+      "status": "error"
+    },
+    "institutional_holders": {
+      "status": "error"
+    }
+  },
+  "earnings_data": {
+    "earnings": {
+      "status": "error",
+      "message": "'NoneType' object has no attribute 'empty'"
+    },
+    "calendar": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  }
+}

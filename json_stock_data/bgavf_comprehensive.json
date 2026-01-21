@@ -1,32 +1,9 @@
 {
   "ticker": "BGAVF",
-  "timestamp": "2026-01-13T05:59:16.465948",
+  "timestamp": "2026-01-21T05:07:15.643976",
   "intraday_data": {
-    "status": "success",
-    "rows": 3,
-    "data": [
-      {
-        "Close": 0.043299999088048935,
-        "High": 0.043299999088048935,
-        "Low": 0.043299999088048935,
-        "Open": 0.043299999088048935,
-        "Volume": 0
-      },
-      {
-        "Close": 0.043299999088048935,
-        "High": 0.043299999088048935,
-        "Low": 0.043299999088048935,
-        "Open": 0.043299999088048935,
-        "Volume": 27524
-      },
-      {
-        "Close": 0.050999999046325684,
-        "High": 0.050999999046325684,
-        "Low": 0.050999999046325684,
-        "Open": 0.050999999046325684,
-        "Volume": 500
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -49,94 +26,8 @@
   },
   "news_data": {
     "news": {
-      "status": "success",
-      "count": 2,
-      "data": [
-        {
-          "id": "5bf68e6f-c97a-305c-a248-51c43fecdbc1",
-          "content": {
-            "id": "5bf68e6f-c97a-305c-a248-51c43fecdbc1",
-            "contentType": "STORY",
-            "title": "Bravada Gold Announces $1 Million Non-Brokered Private Placement",
-            "description": "",
-            "summary": "Bravada Gold (BVA.V) on Monday said it plans to issue up to 25 million units in a non-brokered priva",
-            "pubDate": "2025-12-29T17:53:39Z",
-            "displayTime": "2025-12-29T17:53:39Z",
-            "isHosted": true,
-            "bypassModal": false,
-            "previewUrl": null,
-            "thumbnail": null,
-            "provider": {
-              "displayName": "MT Newswires",
-              "url": "https://www.mtnewswires.com/"
-            },
-            "canonicalUrl": {
-              "url": "https://finance.yahoo.com/news/bravada-gold-announces-1-million-175339326.html",
-              "site": "finance",
-              "region": "US",
-              "lang": "en-US"
-            },
-            "clickThroughUrl": {
-              "url": "https://finance.yahoo.com/news/bravada-gold-announces-1-million-175339326.html",
-              "site": "finance",
-              "region": "US",
-              "lang": "en-US"
-            },
-            "metadata": {
-              "editorsPick": false
-            },
-            "finance": {
-              "premiumFinance": {
-                "isPremiumNews": true,
-                "isPremiumFreeNews": false
-              }
-            },
-            "storyline": null
-          }
-        },
-        {
-          "id": "3984422b-ed60-3f3f-ba9e-a9c74df5f029",
-          "content": {
-            "id": "3984422b-ed60-3f3f-ba9e-a9c74df5f029",
-            "contentType": "STORY",
-            "title": "Bravada Gold Down After Closing Second Tranche of Non-Brokered Private Placement",
-            "description": "",
-            "summary": "Bravada Gold (BVA.V) was down 10% at last look Monday after it closed the second tranche of its prev",
-            "pubDate": "2025-06-23T18:47:50Z",
-            "displayTime": "2025-06-23T18:47:50Z",
-            "isHosted": true,
-            "bypassModal": false,
-            "previewUrl": null,
-            "thumbnail": null,
-            "provider": {
-              "displayName": "MT Newswires",
-              "url": "https://www.mtnewswires.com/"
-            },
-            "canonicalUrl": {
-              "url": "https://finance.yahoo.com/news/bravada-gold-down-closing-second-184750143.html",
-              "site": "finance",
-              "region": "US",
-              "lang": "en-US"
-            },
-            "clickThroughUrl": {
-              "url": "https://finance.yahoo.com/news/bravada-gold-down-closing-second-184750143.html",
-              "site": "finance",
-              "region": "US",
-              "lang": "en-US"
-            },
-            "metadata": {
-              "editorsPick": false
-            },
-            "finance": {
-              "premiumFinance": {
-                "isPremiumNews": true,
-                "isPremiumFreeNews": false
-              }
-            },
-            "storyline": null
-          }
-        }
-      ]
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

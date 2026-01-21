@@ -1,32 +1,9 @@
 {
   "ticker": "BMMJ",
-  "timestamp": "2026-01-13T05:59:57.212847",
+  "timestamp": "2026-01-21T05:07:23.493201",
   "intraday_data": {
-    "status": "success",
-    "rows": 3,
-    "data": [
-      {
-        "Close NVSGF": 0.028599999845027924,
-        "High NVSGF": 0.028599999845027924,
-        "Low NVSGF": 0.028599999845027924,
-        "Open NVSGF": 0.028599999845027924,
-        "Volume NVSGF": 0
-      },
-      {
-        "Close NVSGF": 0.03269999846816063,
-        "High NVSGF": 0.03269999846816063,
-        "Low NVSGF": 0.03269999846816063,
-        "Open NVSGF": 0.03269999846816063,
-        "Volume NVSGF": 80000
-      },
-      {
-        "Close NVSGF": 0.03269999846816063,
-        "High NVSGF": 0.03269999846816063,
-        "Low NVSGF": 0.03269999846816063,
-        "Open NVSGF": 0.03269999846816063,
-        "Volume NVSGF": 130000
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -49,7 +26,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

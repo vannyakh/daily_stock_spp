@@ -1,9 +1,32 @@
 {
   "ticker": "BLMH",
-  "timestamp": "2026-01-13T05:51:15.312248",
+  "timestamp": "2026-01-21T05:05:50.216626",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 3,
+    "data": [
+      {
+        "Close": 0.5299999713897705,
+        "High": 0.5400000214576721,
+        "Low": 0.5299999713897705,
+        "Open": 0.5400000214576721,
+        "Volume": 0
+      },
+      {
+        "Close": 0.5450000166893005,
+        "High": 0.5450000166893005,
+        "Low": 0.5450000166893005,
+        "Open": 0.5450000166893005,
+        "Volume": 2
+      },
+      {
+        "Close": 0.5300999879837036,
+        "High": 0.5300999879837036,
+        "Low": 0.5300999879837036,
+        "Open": 0.5300999879837036,
+        "Volume": 1
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -26,7 +49,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

@@ -1,9 +1,39 @@
 {
   "ticker": "BIOF",
-  "timestamp": "2026-01-13T05:42:13.980775",
+  "timestamp": "2026-01-21T05:04:08.250236",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 4,
+    "data": [
+      {
+        "Close": 0.16110000014305115,
+        "High": 0.16110000014305115,
+        "Low": 0.16110000014305115,
+        "Open": 0.16110000014305115,
+        "Volume": 0
+      },
+      {
+        "Close": 0.16110000014305115,
+        "High": 0.16110000014305115,
+        "Low": 0.16110000014305115,
+        "Open": 0.16110000014305115,
+        "Volume": 2499
+      },
+      {
+        "Close": 0.16110000014305115,
+        "High": 0.16110000014305115,
+        "Low": 0.16110000014305115,
+        "Open": 0.16110000014305115,
+        "Volume": 2500
+      },
+      {
+        "Close": 0.15710000693798065,
+        "High": 0.15710000693798065,
+        "Low": 0.15710000693798065,
+        "Open": 0.15710000693798065,
+        "Volume": 2490
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -26,10 +56,12 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   },
   "holders_data": {

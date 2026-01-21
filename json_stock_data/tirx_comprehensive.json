@@ -1,25 +1,9 @@
 {
   "ticker": "TIRX",
-  "timestamp": "2026-01-13T05:49:15.198876",
+  "timestamp": "2026-01-21T05:05:27.507253",
   "intraday_data": {
-    "status": "success",
-    "rows": 2,
-    "data": [
-      {
-        "Close PAIYY": 0.07000000029802322,
-        "High PAIYY": 0.07000000029802322,
-        "Low PAIYY": 0.07000000029802322,
-        "Open PAIYY": 0.07000000029802322,
-        "Volume PAIYY": 0
-      },
-      {
-        "Close PAIYY": 0.13484999537467957,
-        "High PAIYY": 0.13484999537467957,
-        "Low PAIYY": 0.13484999537467957,
-        "Open PAIYY": 0.13484999537467957,
-        "Volume PAIYY": 200
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -30,14 +14,42 @@
       "status": "no_data"
     },
     "balance_sheet": {
-      "status": "success",
-      "rows": 73,
-      "columns": [
-        "2024-10-31 00:00:00",
-        "2023-10-31 00:00:00",
-        "2022-10-31 00:00:00",
-        "2021-10-31 00:00:00"
-      ],
-      "data": [
-        {
-          
+      "status": "no_data"
+    },
+    "cash_flow": {
+      "status": "no_data"
+    }
+  },
+  "options_data": {
+    "status": "error",
+    "error_message": "Too Many Requests. Rate limited. Try after a while."
+  },
+  "news_data": {
+    "news": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    },
+    "recommendations": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  },
+  "holders_data": {
+    "major_holders": {
+      "status": "error"
+    },
+    "institutional_holders": {
+      "status": "error"
+    }
+  },
+  "earnings_data": {
+    "earnings": {
+      "status": "error",
+      "message": "'NoneType' object has no attribute 'empty'"
+    },
+    "calendar": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  }
+}

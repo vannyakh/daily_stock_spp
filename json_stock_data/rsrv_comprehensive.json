@@ -1,9 +1,18 @@
 {
   "ticker": "RSRV",
-  "timestamp": "2026-01-13T05:44:12.076206",
+  "timestamp": "2026-01-21T05:04:30.554655",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 1,
+    "data": [
+      {
+        "Close": 187.88999938964844,
+        "High": 187.88999938964844,
+        "Low": 187.88999938964844,
+        "Open": 187.88999938964844,
+        "Volume": 0
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -26,7 +35,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

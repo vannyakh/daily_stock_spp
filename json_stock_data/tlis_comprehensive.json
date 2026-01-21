@@ -1,9 +1,18 @@
 {
   "ticker": "TLIS",
-  "timestamp": "2026-01-13T06:17:07.690155",
+  "timestamp": "2026-01-21T05:10:32.545372",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 1,
+    "data": [
+      {
+        "Close RBCN": 2.809999942779541,
+        "High RBCN": 2.809999942779541,
+        "Low RBCN": 2.809999942779541,
+        "Open RBCN": 2.809999942779541,
+        "Volume RBCN": 0
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -26,7 +35,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

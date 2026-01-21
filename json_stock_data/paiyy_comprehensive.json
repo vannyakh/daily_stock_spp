@@ -1,25 +1,9 @@
 {
   "ticker": "PAIYY",
-  "timestamp": "2026-01-13T05:49:15.088041",
+  "timestamp": "2026-01-21T05:05:27.502515",
   "intraday_data": {
-    "status": "success",
-    "rows": 2,
-    "data": [
-      {
-        "Close": 0.07000000029802322,
-        "High": 0.07000000029802322,
-        "Low": 0.07000000029802322,
-        "Open": 0.07000000029802322,
-        "Volume": 0
-      },
-      {
-        "Close": 0.13484999537467957,
-        "High": 0.13484999537467957,
-        "Low": 0.13484999537467957,
-        "Open": 0.13484999537467957,
-        "Volume": 200
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -42,10 +26,12 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   },
   "holders_data": {

@@ -1,9 +1,46 @@
 {
   "ticker": "QULL",
-  "timestamp": "2026-01-13T06:34:19.852446",
+  "timestamp": "2026-01-21T05:13:37.560057",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 5,
+    "data": [
+      {
+        "Close MLPB": 26.329999923706055,
+        "High MLPB": 26.329999923706055,
+        "Low MLPB": 26.329999923706055,
+        "Open MLPB": 26.329999923706055,
+        "Volume MLPB": 0
+      },
+      {
+        "Close MLPB": 26.239999771118164,
+        "High MLPB": 26.239999771118164,
+        "Low MLPB": 26.239999771118164,
+        "Open MLPB": 26.239999771118164,
+        "Volume MLPB": 1721
+      },
+      {
+        "Close MLPB": 26.280099868774414,
+        "High MLPB": 26.280099868774414,
+        "Low MLPB": 26.280099868774414,
+        "Open MLPB": 26.280099868774414,
+        "Volume MLPB": 257
+      },
+      {
+        "Close MLPB": 26.060100555419922,
+        "High MLPB": 26.060100555419922,
+        "Low MLPB": 26.060100555419922,
+        "Open MLPB": 26.060100555419922,
+        "Volume MLPB": 200
+      },
+      {
+        "Close MLPB": 26.059999465942383,
+        "High MLPB": 26.059999465942383,
+        "Low MLPB": 26.059999465942383,
+        "Open MLPB": 26.059999465942383,
+        "Volume MLPB": 150
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -26,7 +63,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

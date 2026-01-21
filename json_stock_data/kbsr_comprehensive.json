@@ -1,9 +1,23 @@
 {
   "ticker": "KBSR",
-  "timestamp": "2026-01-13T06:13:34.040831",
+  "timestamp": "2026-01-21T05:09:51.868539",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 1,
+    "data": [
+      {
+        "Close IIPR-PA": 22.700000762939453,
+        "Close IRET": 19.59760093688965,
+        "High IIPR-PA": 22.700000762939453,
+        "High IRET": 19.59760093688965,
+        "Low IIPR-PA": 22.700000762939453,
+        "Low IRET": 19.59760093688965,
+        "Open IIPR-PA": 22.700000762939453,
+        "Open IRET": 19.59760093688965,
+        "Volume IIPR-PA": 780,
+        "Volume IRET": 0.0
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -26,7 +40,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

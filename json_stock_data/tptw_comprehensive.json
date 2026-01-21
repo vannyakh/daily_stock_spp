@@ -1,9 +1,18 @@
 {
   "ticker": "TPTW",
-  "timestamp": "2026-01-13T06:01:16.278032",
+  "timestamp": "2026-01-21T05:07:37.300107",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 1,
+    "data": [
+      {
+        "Close SKYI": 0.005499999970197678,
+        "High SKYI": 0.005499999970197678,
+        "Low SKYI": 0.005499999970197678,
+        "Open SKYI": 0.005499999970197678,
+        "Volume SKYI": 0
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -26,7 +35,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

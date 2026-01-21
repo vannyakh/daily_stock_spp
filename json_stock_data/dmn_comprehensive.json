@@ -1,9 +1,25 @@
 {
   "ticker": "DMN",
-  "timestamp": "2026-01-13T05:48:10.182229",
+  "timestamp": "2026-01-21T05:05:13.577445",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 2,
+    "data": [
+      {
+        "Close AIEV": 0.1599999964237213,
+        "High AIEV": 0.1599999964237213,
+        "Low AIEV": 0.1599999964237213,
+        "Open AIEV": 0.1599999964237213,
+        "Volume AIEV": 0
+      },
+      {
+        "Close AIEV": 0.1599999964237213,
+        "High AIEV": 0.1599999964237213,
+        "Low AIEV": 0.1599999964237213,
+        "Open AIEV": 0.1599999964237213,
+        "Volume AIEV": 400
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -26,66 +42,8 @@
   },
   "news_data": {
     "news": {
-      "status": "success",
-      "count": 1,
-      "data": [
-        {
-          "id": "218a4574-0f50-3450-9de6-deedbda0de04",
-          "content": {
-            "id": "218a4574-0f50-3450-9de6-deedbda0de04",
-            "contentType": "STORY",
-            "title": "Volume On The Nasdaq Was The Third Highest In History On Tuesday. Here Is The Fine Print.",
-            "description": "",
-            "summary": "Trading volume on the Nasdaq exchange was huge on Tuesday.  It was the third highest volume in its history with over 13 billion shares exchanging hands.  For some perspective, that was a level the stock market reached on April 9 when President Donald Trump put a pause on tariffs and the Nasdaq composite soared more than 12%.",
-            "pubDate": "2025-04-30T17:52:06Z",
-            "displayTime": "2025-04-30T17:52:06Z",
-            "isHosted": false,
-            "bypassModal": false,
-            "previewUrl": "https://finance.yahoo.com/m/218a4574-0f50-3450-9de6-deedbda0de04/volume-on-the-nasdaq-was-the.html",
-            "thumbnail": {
-              "originalUrl": "https://media.zenfs.com/en/ibd.com/0c70f29090904514070303104f0395a4",
-              "originalWidth": 1000,
-              "originalHeight": 563,
-              "caption": "",
-              "resolutions": [
-                {
-                  "url": "https://s.yimg.com/uu/api/res/1.2/s8z__WqMrzBY0PQ8gKb5yw--~B/aD01NjM7dz0xMDAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/ibd.com/0c70f29090904514070303104f0395a4",
-                  "width": 1000,
-                  "height": 563,
-                  "tag": "original"
-                },
-                {
-                  "url": "https://s.yimg.com/uu/api/res/1.2/chdGWKqlK0QP6Dy.2cXi2A--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/ibd.com/0c70f29090904514070303104f0395a4",
-                  "width": 170,
-                  "height": 128,
-                  "tag": "170x128"
-                }
-              ]
-            },
-            "provider": {
-              "displayName": "Investor's Business Daily",
-              "url": "http://www.investors.com/"
-            },
-            "canonicalUrl": {
-              "url": "https://www.investors.com/research/stock-market-nasdaq-volume-minuscule-companies/?src=A00220&yptr=yahoo",
-              "site": "finance",
-              "region": "US",
-              "lang": "en-US"
-            },
-            "clickThroughUrl": null,
-            "metadata": {
-              "editorsPick": false
-            },
-            "finance": {
-              "premiumFinance": {
-                "isPremiumNews": false,
-                "isPremiumFreeNews": false
-              }
-            },
-            "storyline": null
-          }
-        }
-      ]
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

@@ -1,53 +1,9 @@
 {
   "ticker": "CAPS",
-  "timestamp": "2026-01-13T06:01:57.447786",
+  "timestamp": "2026-01-21T05:07:43.742233",
   "intraday_data": {
-    "status": "success",
-    "rows": 6,
-    "data": [
-      {
-        "Close QTTOY": 0.0020000000949949026,
-        "High QTTOY": 0.0020000000949949026,
-        "Low QTTOY": 0.0020000000949949026,
-        "Open QTTOY": 0.0020000000949949026,
-        "Volume QTTOY": 0
-      },
-      {
-        "Close QTTOY": 0.0020000000949949026,
-        "High QTTOY": 0.0020000000949949026,
-        "Low QTTOY": 0.0020000000949949026,
-        "Open QTTOY": 0.0020000000949949026,
-        "Volume QTTOY": 2
-      },
-      {
-        "Close QTTOY": 0.0020000000949949026,
-        "High QTTOY": 0.0020000000949949026,
-        "Low QTTOY": 0.0020000000949949026,
-        "Open QTTOY": 0.0020000000949949026,
-        "Volume QTTOY": 2
-      },
-      {
-        "Close QTTOY": 0.0020000000949949026,
-        "High QTTOY": 0.0020000000949949026,
-        "Low QTTOY": 0.0020000000949949026,
-        "Open QTTOY": 0.0020000000949949026,
-        "Volume QTTOY": 50
-      },
-      {
-        "Close QTTOY": 0.0020000000949949026,
-        "High QTTOY": 0.0020000000949949026,
-        "Low QTTOY": 0.0020000000949949026,
-        "Open QTTOY": 0.0020000000949949026,
-        "Volume QTTOY": 35
-      },
-      {
-        "Close QTTOY": 0.0020000000949949026,
-        "High QTTOY": 0.0020000000949949026,
-        "Low QTTOY": 0.0020000000949949026,
-        "Open QTTOY": 0.0020000000949949026,
-        "Volume QTTOY": 20
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -70,52 +26,8 @@
   },
   "news_data": {
     "news": {
-      "status": "success",
-      "count": 1,
-      "data": [
-        {
-          "id": "a3e18c8f-f77d-3b1a-8361-3a0b53321df1",
-          "content": {
-            "id": "a3e18c8f-f77d-3b1a-8361-3a0b53321df1",
-            "contentType": "STORY",
-            "title": "Stocks Look Set to Open Trading Session Marginally Lower Wednesday as Investors Look Ahead to Nvidia Earnings",
-            "description": "",
-            "summary": "US stocks look set to open flat in Wednesday's trading session as investors await Nvidia's Q2 result",
-            "pubDate": "2025-08-27T13:26:44Z",
-            "displayTime": "2025-08-27T13:26:44Z",
-            "isHosted": true,
-            "bypassModal": false,
-            "previewUrl": null,
-            "thumbnail": null,
-            "provider": {
-              "displayName": "MT Newswires",
-              "url": "https://www.mtnewswires.com/"
-            },
-            "canonicalUrl": {
-              "url": "https://finance.yahoo.com/news/stocks-look-set-open-trading-132644168.html",
-              "site": "finance",
-              "region": "US",
-              "lang": "en-US"
-            },
-            "clickThroughUrl": {
-              "url": "https://finance.yahoo.com/news/stocks-look-set-open-trading-132644168.html",
-              "site": "finance",
-              "region": "US",
-              "lang": "en-US"
-            },
-            "metadata": {
-              "editorsPick": false
-            },
-            "finance": {
-              "premiumFinance": {
-                "isPremiumNews": true,
-                "isPremiumFreeNews": false
-              }
-            },
-            "storyline": null
-          }
-        }
-      ]
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

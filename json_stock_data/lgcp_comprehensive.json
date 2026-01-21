@@ -1,53 +1,9 @@
 {
   "ticker": "LGCP",
-  "timestamp": "2026-01-13T06:01:57.176851",
+  "timestamp": "2026-01-21T05:07:43.686165",
   "intraday_data": {
-    "status": "success",
-    "rows": 6,
-    "data": [
-      {
-        "Close QTTOY": 0.0020000000949949026,
-        "High QTTOY": 0.0020000000949949026,
-        "Low QTTOY": 0.0020000000949949026,
-        "Open QTTOY": 0.0020000000949949026,
-        "Volume QTTOY": 0
-      },
-      {
-        "Close QTTOY": 0.0020000000949949026,
-        "High QTTOY": 0.0020000000949949026,
-        "Low QTTOY": 0.0020000000949949026,
-        "Open QTTOY": 0.0020000000949949026,
-        "Volume QTTOY": 2
-      },
-      {
-        "Close QTTOY": 0.0020000000949949026,
-        "High QTTOY": 0.0020000000949949026,
-        "Low QTTOY": 0.0020000000949949026,
-        "Open QTTOY": 0.0020000000949949026,
-        "Volume QTTOY": 2
-      },
-      {
-        "Close QTTOY": 0.0020000000949949026,
-        "High QTTOY": 0.0020000000949949026,
-        "Low QTTOY": 0.0020000000949949026,
-        "Open QTTOY": 0.0020000000949949026,
-        "Volume QTTOY": 50
-      },
-      {
-        "Close QTTOY": 0.0020000000949949026,
-        "High QTTOY": 0.0020000000949949026,
-        "Low QTTOY": 0.0020000000949949026,
-        "Open QTTOY": 0.0020000000949949026,
-        "Volume QTTOY": 35
-      },
-      {
-        "Close QTTOY": 0.0020000000949949026,
-        "High QTTOY": 0.0020000000949949026,
-        "Low QTTOY": 0.0020000000949949026,
-        "Open QTTOY": 0.0020000000949949026,
-        "Volume QTTOY": 20
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -70,7 +26,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

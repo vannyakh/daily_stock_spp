@@ -1,6 +1,6 @@
 {
   "ticker": "SOR",
-  "timestamp": "2026-01-13T05:16:05.113122",
+  "timestamp": "2026-01-21T04:58:23.100221",
   "intraday_data": {
     "status": "no_data",
     "message": "No intraday data available"
@@ -11,14 +11,108 @@
   },
   "financials": {
     "income_statement": {
+      "status": "no_data"
+    },
+    "balance_sheet": {
+      "status": "no_data"
+    },
+    "cash_flow": {
+      "status": "no_data"
+    }
+  },
+  "options_data": {
+    "status": "error",
+    "error_message": "Too Many Requests. Rate limited. Try after a while."
+  },
+  "news_data": {
+    "news": {
       "status": "success",
-      "rows": 24,
-      "columns": [
-        "2024-12-31 00:00:00",
-        "2023-12-31 00:00:00",
-        "2022-12-31 00:00:00",
-        "2021-12-31 00:00:00"
-      ],
+      "count": 1,
       "data": [
         {
-          
+          "id": "72aec8cc-4d75-3b84-9b46-77bc19721ef9",
+          "content": {
+            "id": "72aec8cc-4d75-3b84-9b46-77bc19721ef9",
+            "contentType": "STORY",
+            "title": "First Pacific Advisors' Strategic Moves: Becton Dickinson & Co Takes Center Stage",
+            "description": "",
+            "summary": "Exploring the Latest 13F Filing for Q3 2025",
+            "pubDate": "2025-11-13T23:01:26Z",
+            "displayTime": "2025-11-13T23:01:26Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": {
+              "originalUrl": "https://media.zenfs.com/en/us.finance.gurufocus/00c32600c993803a35e1f7fc74115a93",
+              "originalWidth": 1242,
+              "originalHeight": 902,
+              "caption": "",
+              "resolutions": [
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/MORzTNCah4FLpogpeqv05w--~B/aD05MDI7dz0xMjQyO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/us.finance.gurufocus/00c32600c993803a35e1f7fc74115a93",
+                  "width": 1242,
+                  "height": 902,
+                  "tag": "original"
+                },
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/c5TwoAhYVce3vHfMm5pNIg--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/us.finance.gurufocus/00c32600c993803a35e1f7fc74115a93",
+                  "width": 170,
+                  "height": 128,
+                  "tag": "170x128"
+                }
+              ]
+            },
+            "provider": {
+              "displayName": "GuruFocus.com",
+              "url": "http://www.gurufocus.com/"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/first-pacific-advisors-strategic-moves-230126052.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/first-pacific-advisors-strategic-moves-230126052.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        }
+      ]
+    },
+    "recommendations": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  },
+  "holders_data": {
+    "major_holders": {
+      "status": "error"
+    },
+    "institutional_holders": {
+      "status": "error"
+    }
+  },
+  "earnings_data": {
+    "earnings": {
+      "status": "error",
+      "message": "'NoneType' object has no attribute 'empty'"
+    },
+    "calendar": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  }
+}

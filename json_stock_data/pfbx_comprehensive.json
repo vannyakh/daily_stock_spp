@@ -1,6 +1,6 @@
 {
   "ticker": "PFBX",
-  "timestamp": "2026-01-13T05:32:14.319428",
+  "timestamp": "2026-01-21T05:02:10.602999",
   "intraday_data": {
     "status": "no_data",
     "message": "No intraday data available"
@@ -11,14 +11,108 @@
   },
   "financials": {
     "income_statement": {
+      "status": "no_data"
+    },
+    "balance_sheet": {
+      "status": "no_data"
+    },
+    "cash_flow": {
+      "status": "no_data"
+    }
+  },
+  "options_data": {
+    "status": "error",
+    "error_message": "Too Many Requests. Rate limited. Try after a while."
+  },
+  "news_data": {
+    "news": {
       "status": "success",
-      "rows": 36,
-      "columns": [
-        "2024-12-31 00:00:00",
-        "2023-12-31 00:00:00",
-        "2022-12-31 00:00:00",
-        "2021-12-31 00:00:00"
-      ],
+      "count": 1,
       "data": [
         {
-          
+          "id": "2724927d-e9b3-3a92-965b-2c554c93c23a",
+          "content": {
+            "id": "2724927d-e9b3-3a92-965b-2c554c93c23a",
+            "contentType": "STORY",
+            "title": "Peoples Financial Services (PFIS) Could Be a Great Choice",
+            "description": "",
+            "summary": "Dividends are one of the best benefits to being a shareholder, but finding a great dividend stock is no easy task. Does Peoples Financial Services (PFIS) have what it takes? Let's find out.",
+            "pubDate": "2025-06-12T15:45:03Z",
+            "displayTime": "2025-06-12T15:45:03Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": {
+              "originalUrl": "https://media.zenfs.com/en/zacks.com/090f58c1efbe3555b861102525e50b39",
+              "originalWidth": 900,
+              "originalHeight": 601,
+              "caption": "",
+              "resolutions": [
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/9tpS8u8rAmiEoUItmUZeOA--~B/aD02MDE7dz05MDA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/zacks.com/090f58c1efbe3555b861102525e50b39",
+                  "width": 900,
+                  "height": 601,
+                  "tag": "original"
+                },
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/tI5aU6IfGKgQOEcdrCb7vg--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/zacks.com/090f58c1efbe3555b861102525e50b39",
+                  "width": 170,
+                  "height": 128,
+                  "tag": "170x128"
+                }
+              ]
+            },
+            "provider": {
+              "displayName": "Zacks",
+              "url": "http://www.zacks.com/"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/peoples-financial-services-pfis-could-154503598.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/peoples-financial-services-pfis-could-154503598.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        }
+      ]
+    },
+    "recommendations": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  },
+  "holders_data": {
+    "major_holders": {
+      "status": "error"
+    },
+    "institutional_holders": {
+      "status": "error"
+    }
+  },
+  "earnings_data": {
+    "earnings": {
+      "status": "error",
+      "message": "'NoneType' object has no attribute 'empty'"
+    },
+    "calendar": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  }
+}

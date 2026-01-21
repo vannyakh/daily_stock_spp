@@ -1,18 +1,9 @@
 {
   "ticker": "TRNTF",
-  "timestamp": "2026-01-13T06:34:27.436308",
+  "timestamp": "2026-01-21T05:13:38.809002",
   "intraday_data": {
-    "status": "success",
-    "rows": 1,
-    "data": [
-      {
-        "Close IFED": 46.61050033569336,
-        "High IFED": 46.61050033569336,
-        "Low IFED": 46.56010055541992,
-        "Open IFED": 46.56010055541992,
-        "Volume IFED": 0
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -35,7 +26,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

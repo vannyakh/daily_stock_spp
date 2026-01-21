@@ -1,37 +1,58 @@
 {
   "ticker": "BKUCF",
-  "timestamp": "2026-01-13T05:46:57.477220",
+  "timestamp": "2026-01-21T05:05:00.245991",
   "intraday_data": {
     "status": "success",
-    "rows": 4,
+    "rows": 7,
     "data": [
       {
-        "Close": 0.039000000804662704,
-        "High": 0.039000000804662704,
-        "Low": 0.039000000804662704,
-        "Open": 0.039000000804662704,
-        "Volume": 0
+        "Close JFU": 5.789999961853027,
+        "High JFU": 5.789999961853027,
+        "Low JFU": 5.789999961853027,
+        "Open JFU": 5.789999961853027,
+        "Volume JFU": 379
       },
       {
-        "Close": 0.039900001138448715,
-        "High": 0.039900001138448715,
-        "Low": 0.039900001138448715,
-        "Open": 0.039900001138448715,
-        "Volume": 50000
+        "Close JFU": 5.820000171661377,
+        "High JFU": 5.880799770355225,
+        "Low JFU": 5.820000171661377,
+        "Open JFU": 5.880799770355225,
+        "Volume JFU": 355
       },
       {
-        "Close": 0.039900001138448715,
-        "High": 0.039900001138448715,
-        "Low": 0.039900001138448715,
-        "Open": 0.039900001138448715,
-        "Volume": 50000
+        "Close JFU": 6.0960001945495605,
+        "High JFU": 6.0960001945495605,
+        "Low JFU": 6.0960001945495605,
+        "Open JFU": 6.0960001945495605,
+        "Volume JFU": 210
       },
       {
-        "Close": 0.039500001817941666,
-        "High": 0.03959999978542328,
-        "Low": 0.039500001817941666,
-        "Open": 0.03959999978542328,
-        "Volume": 127600
+        "Close JFU": 5.85830020904541,
+        "High JFU": 5.85830020904541,
+        "Low JFU": 5.85830020904541,
+        "Open JFU": 5.85830020904541,
+        "Volume JFU": 795
+      },
+      {
+        "Close JFU": 6.090000152587891,
+        "High JFU": 6.090000152587891,
+        "Low JFU": 6.090000152587891,
+        "Open JFU": 6.090000152587891,
+        "Volume JFU": 204
+      },
+      {
+        "Close JFU": 5.960000038146973,
+        "High JFU": 5.960000038146973,
+        "Low JFU": 5.960000038146973,
+        "Open JFU": 5.960000038146973,
+        "Volume JFU": 504
+      },
+      {
+        "Close JFU": 5.953199863433838,
+        "High JFU": 5.953199863433838,
+        "Low JFU": 5.953199863433838,
+        "Open JFU": 5.953199863433838,
+        "Volume JFU": 270
       }
     ]
   },
@@ -56,7 +77,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",
@@ -78,7 +100,7 @@
     },
     "calendar": {
       "status": "error",
-      "message": "'dict' object has no attribute 'empty'"
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   }
 }

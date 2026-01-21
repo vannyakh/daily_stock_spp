@@ -1,9 +1,18 @@
 {
   "ticker": "PFFLX",
-  "timestamp": "2026-01-13T06:23:46.828974",
+  "timestamp": "2026-01-21T05:11:46.807594",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 1,
+    "data": [
+      {
+        "Close": 7.099999904632568,
+        "High": 7.099999904632568,
+        "Low": 7.099999904632568,
+        "Open": 7.099999904632568,
+        "Volume": 0
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -26,7 +35,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",
@@ -48,7 +58,7 @@
     },
     "calendar": {
       "status": "error",
-      "message": "'dict' object has no attribute 'empty'"
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   }
 }

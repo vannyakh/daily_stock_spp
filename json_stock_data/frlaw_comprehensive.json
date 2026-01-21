@@ -1,9 +1,60 @@
 {
   "ticker": "FRLAW",
-  "timestamp": "2026-01-13T06:30:21.956212",
+  "timestamp": "2026-01-21T05:12:58.161883",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 7,
+    "data": [
+      {
+        "Close BRQL": 0.48010000586509705,
+        "High BRQL": 0.48010000586509705,
+        "Low BRQL": 0.48010000586509705,
+        "Open BRQL": 0.48010000586509705,
+        "Volume BRQL": 0
+      },
+      {
+        "Close BRQL": 0.4699999988079071,
+        "High BRQL": 0.4699999988079071,
+        "Low BRQL": 0.4699999988079071,
+        "Open BRQL": 0.4699999988079071,
+        "Volume BRQL": 7500
+      },
+      {
+        "Close BRQL": 0.47999998927116394,
+        "High BRQL": 0.47999998927116394,
+        "Low BRQL": 0.47999998927116394,
+        "Open BRQL": 0.47999998927116394,
+        "Volume BRQL": 1800
+      },
+      {
+        "Close BRQL": 0.47999998927116394,
+        "High BRQL": 0.47999998927116394,
+        "Low BRQL": 0.47999998927116394,
+        "Open BRQL": 0.47999998927116394,
+        "Volume BRQL": 2500
+      },
+      {
+        "Close BRQL": 0.47999998927116394,
+        "High BRQL": 0.47999998927116394,
+        "Low BRQL": 0.47999998927116394,
+        "Open BRQL": 0.47999998927116394,
+        "Volume BRQL": 500
+      },
+      {
+        "Close BRQL": 0.5,
+        "High BRQL": 0.5,
+        "Low BRQL": 0.5,
+        "Open BRQL": 0.5,
+        "Volume BRQL": 3000
+      },
+      {
+        "Close BRQL": 0.46000000834465027,
+        "High BRQL": 0.46000000834465027,
+        "Low BRQL": 0.46000000834465027,
+        "Open BRQL": 0.46000000834465027,
+        "Volume BRQL": 2800
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -26,7 +77,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

@@ -1,39 +1,9 @@
 {
   "ticker": "MCOM",
-  "timestamp": "2026-01-13T06:00:51.914673",
+  "timestamp": "2026-01-21T05:07:32.414300",
   "intraday_data": {
-    "status": "success",
-    "rows": 4,
-    "data": [
-      {
-        "Close": 0.014000000432133675,
-        "High": 0.014000000432133675,
-        "Low": 0.014000000432133675,
-        "Open": 0.014000000432133675,
-        "Volume": 0
-      },
-      {
-        "Close": 0.011500000022351742,
-        "High": 0.011500000022351742,
-        "Low": 0.011500000022351742,
-        "Open": 0.011500000022351742,
-        "Volume": 1
-      },
-      {
-        "Close": 0.011500000022351742,
-        "High": 0.011500000022351742,
-        "Low": 0.011500000022351742,
-        "Open": 0.011500000022351742,
-        "Volume": 1
-      },
-      {
-        "Close": 0.011500000022351742,
-        "High": 0.011500000022351742,
-        "Low": 0.011500000022351742,
-        "Open": 0.011500000022351742,
-        "Volume": 14
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -56,7 +26,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

@@ -1,32 +1,9 @@
 {
   "ticker": "GMZP",
-  "timestamp": "2026-01-13T06:17:59.247055",
+  "timestamp": "2026-01-21T05:10:42.434081",
   "intraday_data": {
-    "status": "success",
-    "rows": 3,
-    "data": [
-      {
-        "Close AXIM": 0.00839999970048666,
-        "High AXIM": 0.008500000461935997,
-        "Low AXIM": 0.00839999970048666,
-        "Open AXIM": 0.008500000461935997,
-        "Volume AXIM": 0
-      },
-      {
-        "Close AXIM": 0.00800000037997961,
-        "High AXIM": 0.00800000037997961,
-        "Low AXIM": 0.00800000037997961,
-        "Open AXIM": 0.00800000037997961,
-        "Volume AXIM": 110000
-      },
-      {
-        "Close AXIM": 0.00800000037997961,
-        "High AXIM": 0.00800000037997961,
-        "Low AXIM": 0.00800000037997961,
-        "Open AXIM": 0.00800000037997961,
-        "Volume AXIM": 18000
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -49,7 +26,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

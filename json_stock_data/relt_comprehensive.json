@@ -1,95 +1,9 @@
 {
   "ticker": "RELT",
-  "timestamp": "2026-01-13T06:00:06.019466",
+  "timestamp": "2026-01-21T05:07:24.670373",
   "intraday_data": {
-    "status": "success",
-    "rows": 12,
-    "data": [
-      {
-        "Close CBDL": 0.00019999999494757503,
-        "High CBDL": 0.00019999999494757503,
-        "Low CBDL": 0.00019999999494757503,
-        "Open CBDL": 0.00019999999494757503,
-        "Volume CBDL": 0
-      },
-      {
-        "Close CBDL": 0.00019999999494757503,
-        "High CBDL": 0.00019999999494757503,
-        "Low CBDL": 0.00019999999494757503,
-        "Open CBDL": 0.00019999999494757503,
-        "Volume CBDL": 708956
-      },
-      {
-        "Close CBDL": 0.00019999999494757503,
-        "High CBDL": 0.00019999999494757503,
-        "Low CBDL": 0.00019999999494757503,
-        "Open CBDL": 0.00019999999494757503,
-        "Volume CBDL": 275000
-      },
-      {
-        "Close CBDL": 0.00019999999494757503,
-        "High CBDL": 0.00019999999494757503,
-        "Low CBDL": 0.00019999999494757503,
-        "Open CBDL": 0.00019999999494757503,
-        "Volume CBDL": 30000
-      },
-      {
-        "Close CBDL": 0.00019999999494757503,
-        "High CBDL": 0.00019999999494757503,
-        "Low CBDL": 0.00019999999494757503,
-        "Open CBDL": 0.00019999999494757503,
-        "Volume CBDL": 20000
-      },
-      {
-        "Close CBDL": 0.00019999999494757503,
-        "High CBDL": 0.00019999999494757503,
-        "Low CBDL": 0.00019999999494757503,
-        "Open CBDL": 0.00019999999494757503,
-        "Volume CBDL": 4900
-      },
-      {
-        "Close CBDL": 0.00019999999494757503,
-        "High CBDL": 0.00019999999494757503,
-        "Low CBDL": 0.00019999999494757503,
-        "Open CBDL": 0.00019999999494757503,
-        "Volume CBDL": 40000
-      },
-      {
-        "Close CBDL": 0.00019999999494757503,
-        "High CBDL": 0.00019999999494757503,
-        "Low CBDL": 0.00019999999494757503,
-        "Open CBDL": 0.00019999999494757503,
-        "Volume CBDL": 1000000
-      },
-      {
-        "Close CBDL": 0.00019999999494757503,
-        "High CBDL": 0.00019999999494757503,
-        "Low CBDL": 0.00019999999494757503,
-        "Open CBDL": 0.00019999999494757503,
-        "Volume CBDL": 10000
-      },
-      {
-        "Close CBDL": 9.999999747378752e-05,
-        "High CBDL": 9.999999747378752e-05,
-        "Low CBDL": 9.999999747378752e-05,
-        "Open CBDL": 9.999999747378752e-05,
-        "Volume CBDL": 10000000
-      },
-      {
-        "Close CBDL": 0.00019999999494757503,
-        "High CBDL": 0.00019999999494757503,
-        "Low CBDL": 0.00019999999494757503,
-        "Open CBDL": 0.00019999999494757503,
-        "Volume CBDL": 99896
-      },
-      {
-        "Close CBDL": 9.999999747378752e-05,
-        "High CBDL": 9.999999747378752e-05,
-        "Low CBDL": 9.999999747378752e-05,
-        "Open CBDL": 9.999999747378752e-05,
-        "Volume CBDL": 5000000
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -112,10 +26,12 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   },
   "holders_data": {

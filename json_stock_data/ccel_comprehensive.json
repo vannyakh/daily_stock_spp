@@ -1,9 +1,67 @@
 {
   "ticker": "CCEL",
-  "timestamp": "2026-01-13T05:36:55.810654",
+  "timestamp": "2026-01-21T05:03:10.175259",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 8,
+    "data": [
+      {
+        "Close": 3.5,
+        "High": 3.5,
+        "Low": 3.490000009536743,
+        "Open": 3.490000009536743,
+        "Volume": 777
+      },
+      {
+        "Close": 3.490000009536743,
+        "High": 3.490000009536743,
+        "Low": 3.490000009536743,
+        "Open": 3.490000009536743,
+        "Volume": 652
+      },
+      {
+        "Close": 3.3498001098632812,
+        "High": 3.3498001098632812,
+        "Low": 3.3498001098632812,
+        "Open": 3.3498001098632812,
+        "Volume": 764
+      },
+      {
+        "Close": 3.375,
+        "High": 3.380000114440918,
+        "Low": 3.375,
+        "Open": 3.375,
+        "Volume": 4305
+      },
+      {
+        "Close": 3.4100000858306885,
+        "High": 3.4100000858306885,
+        "Low": 3.4100000858306885,
+        "Open": 3.4100000858306885,
+        "Volume": 3000
+      },
+      {
+        "Close": 3.4000000953674316,
+        "High": 3.4000000953674316,
+        "Low": 3.4000000953674316,
+        "Open": 3.4000000953674316,
+        "Volume": 104
+      },
+      {
+        "Close": 3.4100000858306885,
+        "High": 3.4549999237060547,
+        "Low": 3.4100000858306885,
+        "Open": 3.4549999237060547,
+        "Volume": 320
+      },
+      {
+        "Close": 3.4000000953674316,
+        "High": 3.4000000953674316,
+        "Low": 3.4000000953674316,
+        "Open": 3.4000000953674316,
+        "Volume": 401
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -14,14 +72,42 @@
       "status": "no_data"
     },
     "balance_sheet": {
-      "status": "success",
-      "rows": 77,
-      "columns": [
-        "2024-11-30 00:00:00",
-        "2023-11-30 00:00:00",
-        "2022-11-30 00:00:00",
-        "2021-11-30 00:00:00"
-      ],
-      "data": [
-        {
-          
+      "status": "no_data"
+    },
+    "cash_flow": {
+      "status": "no_data"
+    }
+  },
+  "options_data": {
+    "status": "error",
+    "error_message": "Too Many Requests. Rate limited. Try after a while."
+  },
+  "news_data": {
+    "news": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    },
+    "recommendations": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  },
+  "holders_data": {
+    "major_holders": {
+      "status": "error"
+    },
+    "institutional_holders": {
+      "status": "error"
+    }
+  },
+  "earnings_data": {
+    "earnings": {
+      "status": "error",
+      "message": "'NoneType' object has no attribute 'empty'"
+    },
+    "calendar": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  }
+}

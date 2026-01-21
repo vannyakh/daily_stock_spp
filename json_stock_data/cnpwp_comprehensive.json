@@ -1,137 +1,9 @@
 {
   "ticker": "CNPWP",
-  "timestamp": "2026-01-13T06:14:47.717074",
+  "timestamp": "2026-01-21T05:10:04.049499",
   "intraday_data": {
-    "status": "success",
-    "rows": 18,
-    "data": [
-      {
-        "Close CHMI-PA": 20.89929962158203,
-        "High CHMI-PA": 20.969999313354492,
-        "Low CHMI-PA": 20.89929962158203,
-        "Open CHMI-PA": 20.969999313354492,
-        "Volume CHMI-PA": 0
-      },
-      {
-        "Close CHMI-PA": 20.73259925842285,
-        "High CHMI-PA": 20.73259925842285,
-        "Low CHMI-PA": 20.73259925842285,
-        "Open CHMI-PA": 20.73259925842285,
-        "Volume CHMI-PA": 198
-      },
-      {
-        "Close CHMI-PA": 20.75,
-        "High CHMI-PA": 20.75,
-        "Low CHMI-PA": 20.75,
-        "Open CHMI-PA": 20.75,
-        "Volume CHMI-PA": 552
-      },
-      {
-        "Close CHMI-PA": 20.899999618530273,
-        "High CHMI-PA": 20.899999618530273,
-        "Low CHMI-PA": 20.899999618530273,
-        "Open CHMI-PA": 20.899999618530273,
-        "Volume CHMI-PA": 150
-      },
-      {
-        "Close CHMI-PA": 20.899999618530273,
-        "High CHMI-PA": 20.899999618530273,
-        "Low CHMI-PA": 20.899900436401367,
-        "Open CHMI-PA": 20.899900436401367,
-        "Volume CHMI-PA": 305
-      },
-      {
-        "Close CHMI-PA": 20.789400100708008,
-        "High CHMI-PA": 20.789400100708008,
-        "Low CHMI-PA": 20.789400100708008,
-        "Open CHMI-PA": 20.789400100708008,
-        "Volume CHMI-PA": 100
-      },
-      {
-        "Close CHMI-PA": 20.969999313354492,
-        "High CHMI-PA": 20.969999313354492,
-        "Low CHMI-PA": 20.969999313354492,
-        "Open CHMI-PA": 20.969999313354492,
-        "Volume CHMI-PA": 230
-      },
-      {
-        "Close CHMI-PA": 20.969999313354492,
-        "High CHMI-PA": 20.979999542236328,
-        "Low CHMI-PA": 20.969999313354492,
-        "Open CHMI-PA": 20.979999542236328,
-        "Volume CHMI-PA": 480
-      },
-      {
-        "Close CHMI-PA": 20.81999969482422,
-        "High CHMI-PA": 20.81999969482422,
-        "Low CHMI-PA": 20.81999969482422,
-        "Open CHMI-PA": 20.81999969482422,
-        "Volume CHMI-PA": 443
-      },
-      {
-        "Close CHMI-PA": 20.979999542236328,
-        "High CHMI-PA": 20.979999542236328,
-        "Low CHMI-PA": 20.979999542236328,
-        "Open CHMI-PA": 20.979999542236328,
-        "Volume CHMI-PA": 131
-      },
-      {
-        "Close CHMI-PA": 20.75550079345703,
-        "High CHMI-PA": 20.75550079345703,
-        "Low CHMI-PA": 20.75550079345703,
-        "Open CHMI-PA": 20.75550079345703,
-        "Volume CHMI-PA": 100
-      },
-      {
-        "Close CHMI-PA": 20.850000381469727,
-        "High CHMI-PA": 20.850000381469727,
-        "Low CHMI-PA": 20.850000381469727,
-        "Open CHMI-PA": 20.850000381469727,
-        "Volume CHMI-PA": 157
-      },
-      {
-        "Close CHMI-PA": 20.649999618530273,
-        "High CHMI-PA": 20.848600387573242,
-        "Low CHMI-PA": 20.649999618530273,
-        "Open CHMI-PA": 20.848600387573242,
-        "Volume CHMI-PA": 300
-      },
-      {
-        "Close CHMI-PA": 20.724000930786133,
-        "High CHMI-PA": 20.724000930786133,
-        "Low CHMI-PA": 20.649999618530273,
-        "Open CHMI-PA": 20.649999618530273,
-        "Volume CHMI-PA": 480
-      },
-      {
-        "Close CHMI-PA": 20.68000030517578,
-        "High CHMI-PA": 20.68000030517578,
-        "Low CHMI-PA": 20.68000030517578,
-        "Open CHMI-PA": 20.68000030517578,
-        "Volume CHMI-PA": 120
-      },
-      {
-        "Close CHMI-PA": 20.80419921875,
-        "High CHMI-PA": 20.80419921875,
-        "Low CHMI-PA": 20.80419921875,
-        "Open CHMI-PA": 20.80419921875,
-        "Volume CHMI-PA": 100
-      },
-      {
-        "Close CHMI-PA": 20.700000762939453,
-        "High CHMI-PA": 20.949899673461914,
-        "Low CHMI-PA": 20.700000762939453,
-        "Open CHMI-PA": 20.949899673461914,
-        "Volume CHMI-PA": 300
-      },
-      {
-        "Close CHMI-PA": 20.700000762939453,
-        "High CHMI-PA": 20.700000762939453,
-        "Low CHMI-PA": 20.700000762939453,
-        "Open CHMI-PA": 20.700000762939453,
-        "Volume CHMI-PA": 150
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -154,7 +26,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

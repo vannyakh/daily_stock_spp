@@ -1,9 +1,32 @@
 {
   "ticker": "GEHDF",
-  "timestamp": "2026-01-13T06:06:22.780094",
+  "timestamp": "2026-01-21T05:08:31.909938",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 3,
+    "data": [
+      {
+        "Close GJR": 24.709999084472656,
+        "High GJR": 24.709999084472656,
+        "Low GJR": 24.709999084472656,
+        "Open GJR": 24.709999084472656,
+        "Volume GJR": 0
+      },
+      {
+        "Close GJR": 25.112499237060547,
+        "High GJR": 25.112499237060547,
+        "Low GJR": 25.112499237060547,
+        "Open GJR": 25.112499237060547,
+        "Volume GJR": 0
+      },
+      {
+        "Close GJR": 24.709999084472656,
+        "High GJR": 24.969999313354492,
+        "Low GJR": 24.709999084472656,
+        "Open GJR": 24.920000076293945,
+        "Volume GJR": 1502
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -26,7 +49,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

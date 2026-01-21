@@ -1,9 +1,32 @@
 {
   "ticker": "AMBO",
-  "timestamp": "2026-01-13T05:55:19.565926",
+  "timestamp": "2026-01-21T05:06:33.583902",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 3,
+    "data": [
+      {
+        "Close QIND": 0.01850000023841858,
+        "High QIND": 0.01850000023841858,
+        "Low QIND": 0.01850000023841858,
+        "Open QIND": 0.01850000023841858,
+        "Volume QIND": 0
+      },
+      {
+        "Close QIND": 0.018300000578165054,
+        "High QIND": 0.018300000578165054,
+        "Low QIND": 0.018300000578165054,
+        "Open QIND": 0.018300000578165054,
+        "Volume QIND": 20000
+      },
+      {
+        "Close QIND": 0.018400000408291817,
+        "High QIND": 0.018400000408291817,
+        "Low QIND": 0.018400000408291817,
+        "Open QIND": 0.018400000408291817,
+        "Volume QIND": 43071
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -26,7 +49,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

@@ -1,32 +1,9 @@
 {
   "ticker": "ATAO",
-  "timestamp": "2026-01-13T06:00:29.103889",
+  "timestamp": "2026-01-21T05:07:28.290481",
   "intraday_data": {
-    "status": "success",
-    "rows": 3,
-    "data": [
-      {
-        "Close PGOL": 0.0738999992609024,
-        "High PGOL": 0.0738999992609024,
-        "Low PGOL": 0.0738999992609024,
-        "Open PGOL": 0.0738999992609024,
-        "Volume PGOL": 0
-      },
-      {
-        "Close PGOL": 0.045099999755620956,
-        "High PGOL": 0.045099999755620956,
-        "Low PGOL": 0.045099999755620956,
-        "Open PGOL": 0.045099999755620956,
-        "Volume PGOL": 400
-      },
-      {
-        "Close PGOL": 0.07150000333786011,
-        "High PGOL": 0.07150000333786011,
-        "Low PGOL": 0.07150000333786011,
-        "Open PGOL": 0.07150000333786011,
-        "Volume PGOL": 1000
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -49,7 +26,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

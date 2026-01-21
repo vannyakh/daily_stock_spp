@@ -1,30 +1,30 @@
 {
   "ticker": "PRIF-PK",
-  "timestamp": "2026-01-13T06:36:20.465687",
+  "timestamp": "2026-01-21T05:14:00.169695",
   "intraday_data": {
     "status": "success",
     "rows": 3,
     "data": [
       {
-        "Close": 21.719999313354492,
-        "High": 21.719999313354492,
-        "Low": 21.719999313354492,
-        "Open": 21.719999313354492,
+        "Close": 21.652999877929688,
+        "High": 21.652999877929688,
+        "Low": 21.549999237060547,
+        "Open": 21.549999237060547,
         "Volume": 0
       },
       {
-        "Close": 21.704999923706055,
-        "High": 21.704999923706055,
-        "Low": 21.704999923706055,
-        "Open": 21.704999923706055,
-        "Volume": 950
+        "Close": 21.549999237060547,
+        "High": 21.549999237060547,
+        "Low": 21.549999237060547,
+        "Open": 21.549999237060547,
+        "Volume": 483
       },
       {
-        "Close": 21.88409996032715,
-        "High": 21.88409996032715,
-        "Low": 21.88409996032715,
-        "Open": 21.88409996032715,
-        "Volume": 400
+        "Close": 21.500099182128906,
+        "High": 21.500099182128906,
+        "Low": 21.500099182128906,
+        "Open": 21.500099182128906,
+        "Volume": 320
       }
     ]
   },
@@ -34,14 +34,45 @@
   },
   "financials": {
     "income_statement": {
-      "status": "success",
-      "rows": 40,
-      "columns": [
-        "2025-06-30 00:00:00",
-        "2024-06-30 00:00:00",
-        "2023-06-30 00:00:00",
-        "2022-06-30 00:00:00"
-      ],
-      "data": [
-        {
-          
+      "status": "no_data"
+    },
+    "balance_sheet": {
+      "status": "no_data"
+    },
+    "cash_flow": {
+      "status": "no_data"
+    }
+  },
+  "options_data": {
+    "status": "error",
+    "error_message": "Too Many Requests. Rate limited. Try after a while."
+  },
+  "news_data": {
+    "news": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    },
+    "recommendations": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  },
+  "holders_data": {
+    "major_holders": {
+      "status": "error"
+    },
+    "institutional_holders": {
+      "status": "error"
+    }
+  },
+  "earnings_data": {
+    "earnings": {
+      "status": "error",
+      "message": "'NoneType' object has no attribute 'empty'"
+    },
+    "calendar": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  }
+}

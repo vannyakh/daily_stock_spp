@@ -1,35 +1,9 @@
 {
   "ticker": "IDXG",
-  "timestamp": "2026-01-13T05:56:36.684153",
+  "timestamp": "2026-01-21T05:06:47.377846",
   "intraday_data": {
-    "status": "success",
-    "rows": 2,
-    "data": [
-      {
-        "Close": 1.149999976158142,
-        "Close SGBX": 1.7200000286102295,
-        "High": 1.149999976158142,
-        "High SGBX": 1.7200000286102295,
-        "Low": 1.149999976158142,
-        "Low SGBX": 1.7200000286102295,
-        "Open": 1.149999976158142,
-        "Open SGBX": 1.7200000286102295,
-        "Volume": 150.0,
-        "Volume SGBX": 462.0
-      },
-      {
-        "Close": 1.1799999475479126,
-        "Close SGBX": 1.7350000143051147,
-        "High": 1.1799999475479126,
-        "High SGBX": 1.7400000095367432,
-        "Low": 1.1799999475479126,
-        "Low SGBX": 1.7300000190734863,
-        "Open": 1.1799999475479126,
-        "Open SGBX": 1.7400000095367432,
-        "Volume": 450.0,
-        "Volume SGBX": 2121.0
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -52,7 +26,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

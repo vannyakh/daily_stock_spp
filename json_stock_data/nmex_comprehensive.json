@@ -1,9 +1,25 @@
 {
   "ticker": "NMEX",
-  "timestamp": "2026-01-13T05:48:13.942108",
+  "timestamp": "2026-01-21T05:05:14.380776",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 2,
+    "data": [
+      {
+        "Close": 0.15309999883174896,
+        "High": 0.15309999883174896,
+        "Low": 0.15309999883174896,
+        "Open": 0.15309999883174896,
+        "Volume": 0
+      },
+      {
+        "Close": 0.1599999964237213,
+        "High": 0.1599999964237213,
+        "Low": 0.1599999964237213,
+        "Open": 0.1599999964237213,
+        "Volume": 100
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -26,7 +42,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

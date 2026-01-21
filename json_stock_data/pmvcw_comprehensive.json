@@ -1,53 +1,9 @@
 {
   "ticker": "PMVCW",
-  "timestamp": "2026-01-13T06:26:29.819692",
+  "timestamp": "2026-01-21T05:12:20.904908",
   "intraday_data": {
-    "status": "success",
-    "rows": 6,
-    "data": [
-      {
-        "Close CTLPP": 55.72999954223633,
-        "High CTLPP": 55.72999954223633,
-        "Low CTLPP": 55.72999954223633,
-        "Open CTLPP": 55.72999954223633,
-        "Volume CTLPP": 0
-      },
-      {
-        "Close CTLPP": 55.7400016784668,
-        "High CTLPP": 55.7400016784668,
-        "Low CTLPP": 55.7400016784668,
-        "Open CTLPP": 55.7400016784668,
-        "Volume CTLPP": 104
-      },
-      {
-        "Close CTLPP": 55.7400016784668,
-        "High CTLPP": 55.7400016784668,
-        "Low CTLPP": 55.7400016784668,
-        "Open CTLPP": 55.7400016784668,
-        "Volume CTLPP": 300
-      },
-      {
-        "Close CTLPP": 55.75,
-        "High CTLPP": 55.75,
-        "Low CTLPP": 55.75,
-        "Open CTLPP": 55.75,
-        "Volume CTLPP": 200
-      },
-      {
-        "Close CTLPP": 55.9900016784668,
-        "High CTLPP": 55.9900016784668,
-        "Low CTLPP": 55.9900016784668,
-        "Open CTLPP": 55.9900016784668,
-        "Volume CTLPP": 100
-      },
-      {
-        "Close CTLPP": 55.9900016784668,
-        "High CTLPP": 55.9900016784668,
-        "Low CTLPP": 55.9900016784668,
-        "Open CTLPP": 55.9900016784668,
-        "Volume CTLPP": 84
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -70,7 +26,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

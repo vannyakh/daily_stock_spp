@@ -1,32 +1,9 @@
 {
   "ticker": "MLECW",
-  "timestamp": "2026-01-13T06:28:10.622647",
+  "timestamp": "2026-01-21T05:12:37.203178",
   "intraday_data": {
-    "status": "success",
-    "rows": 3,
-    "data": [
-      {
-        "Close": 0.00559999980032444,
-        "High": 0.00559999980032444,
-        "Low": 0.005499999970197678,
-        "Open": 0.00559999980032444,
-        "Volume": 0
-      },
-      {
-        "Close": 0.006300000008195639,
-        "High": 0.006300000008195639,
-        "Low": 0.006300000008195639,
-        "Open": 0.006300000008195639,
-        "Volume": 1000
-      },
-      {
-        "Close": 0.00800000037997961,
-        "High": 0.008299999870359898,
-        "Low": 0.004900000058114529,
-        "Open": 0.008299999870359898,
-        "Volume": 21200
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -49,7 +26,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

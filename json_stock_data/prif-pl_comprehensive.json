@@ -1,9 +1,32 @@
 {
   "ticker": "PRIF-PL",
-  "timestamp": "2026-01-13T06:36:21.605873",
+  "timestamp": "2026-01-21T05:14:00.163255",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 3,
+    "data": [
+      {
+        "Close PRIF-PK": 21.652999877929688,
+        "High PRIF-PK": 21.652999877929688,
+        "Low PRIF-PK": 21.549999237060547,
+        "Open PRIF-PK": 21.549999237060547,
+        "Volume PRIF-PK": 0
+      },
+      {
+        "Close PRIF-PK": 21.549999237060547,
+        "High PRIF-PK": 21.549999237060547,
+        "Low PRIF-PK": 21.549999237060547,
+        "Open PRIF-PK": 21.549999237060547,
+        "Volume PRIF-PK": 483
+      },
+      {
+        "Close PRIF-PK": 21.500099182128906,
+        "High PRIF-PK": 21.500099182128906,
+        "Low PRIF-PK": 21.500099182128906,
+        "Open PRIF-PK": 21.500099182128906,
+        "Volume PRIF-PK": 320
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -26,7 +49,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

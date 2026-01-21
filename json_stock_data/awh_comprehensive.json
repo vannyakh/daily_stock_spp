@@ -1,9 +1,18 @@
 {
   "ticker": "AWH",
-  "timestamp": "2026-01-13T05:52:06.998923",
+  "timestamp": "2026-01-21T05:05:59.783311",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 1,
+    "data": [
+      {
+        "Close PBMLF": 0.8270000219345093,
+        "High PBMLF": 0.8270000219345093,
+        "Low PBMLF": 0.8270000219345093,
+        "Open PBMLF": 0.8270000219345093,
+        "Volume PBMLF": 1000
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -26,7 +35,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

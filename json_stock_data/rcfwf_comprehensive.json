@@ -1,74 +1,9 @@
 {
   "ticker": "RCFWF",
-  "timestamp": "2026-01-13T06:21:42.501067",
+  "timestamp": "2026-01-21T05:11:23.612297",
   "intraday_data": {
-    "status": "success",
-    "rows": 9,
-    "data": [
-      {
-        "Close SWAGW": 0.05999999865889549,
-        "High SWAGW": 0.05999999865889549,
-        "Low SWAGW": 0.05999999865889549,
-        "Open SWAGW": 0.05999999865889549,
-        "Volume SWAGW": 1342
-      },
-      {
-        "Close SWAGW": 0.060100000351667404,
-        "High SWAGW": 0.06499999761581421,
-        "Low SWAGW": 0.060100000351667404,
-        "Open SWAGW": 0.06499999761581421,
-        "Volume SWAGW": 1000
-      },
-      {
-        "Close SWAGW": 0.06939999759197235,
-        "High SWAGW": 0.06939999759197235,
-        "Low SWAGW": 0.06939999759197235,
-        "Open SWAGW": 0.06939999759197235,
-        "Volume SWAGW": 608
-      },
-      {
-        "Close SWAGW": 0.06499999761581421,
-        "High SWAGW": 0.06499999761581421,
-        "Low SWAGW": 0.06499999761581421,
-        "Open SWAGW": 0.06499999761581421,
-        "Volume SWAGW": 342
-      },
-      {
-        "Close SWAGW": 0.06989999860525131,
-        "High SWAGW": 0.06989999860525131,
-        "Low SWAGW": 0.06620000302791595,
-        "Open SWAGW": 0.06620000302791595,
-        "Volume SWAGW": 1100
-      },
-      {
-        "Close SWAGW": 0.06499999761581421,
-        "High SWAGW": 0.06499999761581421,
-        "Low SWAGW": 0.06499999761581421,
-        "Open SWAGW": 0.06499999761581421,
-        "Volume SWAGW": 600
-      },
-      {
-        "Close SWAGW": 0.06989999860525131,
-        "High SWAGW": 0.06989999860525131,
-        "Low SWAGW": 0.06989999860525131,
-        "Open SWAGW": 0.06989999860525131,
-        "Volume SWAGW": 1260
-      },
-      {
-        "Close SWAGW": 0.06989999860525131,
-        "High SWAGW": 0.06989999860525131,
-        "Low SWAGW": 0.06989999860525131,
-        "Open SWAGW": 0.06989999860525131,
-        "Volume SWAGW": 1000
-      },
-      {
-        "Close SWAGW": 0.06939999759197235,
-        "High SWAGW": 0.06939999759197235,
-        "Low SWAGW": 0.06939999759197235,
-        "Open SWAGW": 0.06939999759197235,
-        "Volume SWAGW": 300
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -91,11 +26,11 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
-    },
-    "recommendations": {
       "status": "error",
       "message": "Too Many Requests. Rate limited. Try after a while."
+    },
+    "recommendations": {
+      "status": "no_data"
     }
   },
   "holders_data": {
@@ -113,7 +48,7 @@
     },
     "calendar": {
       "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
+      "message": "'dict' object has no attribute 'empty'"
     }
   }
 }

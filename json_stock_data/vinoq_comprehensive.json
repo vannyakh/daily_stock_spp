@@ -1,13 +1,43 @@
 {
   "ticker": "VINOQ",
-  "timestamp": "2026-01-13T06:02:29.951131",
+  "timestamp": "2026-01-21T05:07:49.844352",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 4,
+    "data": [
+      {
+        "Close KOAN": 0.00279999990016222,
+        "High KOAN": 0.00279999990016222,
+        "Low KOAN": 0.00279999990016222,
+        "Open KOAN": 0.00279999990016222,
+        "Volume KOAN": 0
+      },
+      {
+        "Close KOAN": 0.00279999990016222,
+        "High KOAN": 0.00279999990016222,
+        "Low KOAN": 0.00279999990016222,
+        "Open KOAN": 0.00279999990016222,
+        "Volume KOAN": 20000
+      },
+      {
+        "Close KOAN": 0.0026000000070780516,
+        "High KOAN": 0.00279999990016222,
+        "Low KOAN": 0.0026000000070780516,
+        "Open KOAN": 0.00279999990016222,
+        "Volume KOAN": 70000
+      },
+      {
+        "Close KOAN": 0.0026000000070780516,
+        "High KOAN": 0.0026000000070780516,
+        "Low KOAN": 0.0026000000070780516,
+        "Open KOAN": 0.0026000000070780516,
+        "Volume KOAN": 1
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
-    "message": "Too Many Requests. Rate limited. Try after a while."
+    "message": "argument of type 'NoneType' is not iterable"
   },
   "financials": {
     "income_statement": {
@@ -26,7 +56,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

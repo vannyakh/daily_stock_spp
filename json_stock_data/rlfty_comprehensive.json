@@ -1,32 +1,9 @@
 {
   "ticker": "RLFTY",
-  "timestamp": "2026-01-13T06:15:36.388760",
+  "timestamp": "2026-01-21T05:10:13.695125",
   "intraday_data": {
-    "status": "success",
-    "rows": 3,
-    "data": [
-      {
-        "Close FFBW": 15.069999694824219,
-        "High FFBW": 15.069999694824219,
-        "Low FFBW": 15.069999694824219,
-        "Open FFBW": 15.069999694824219,
-        "Volume FFBW": 0
-      },
-      {
-        "Close FFBW": 15.199999809265137,
-        "High FFBW": 15.199999809265137,
-        "Low FFBW": 15.199999809265137,
-        "Open FFBW": 15.199999809265137,
-        "Volume FFBW": 1000
-      },
-      {
-        "Close FFBW": 15.199999809265137,
-        "High FFBW": 15.199999809265137,
-        "Low FFBW": 15.199999809265137,
-        "Open FFBW": 15.199999809265137,
-        "Volume FFBW": 1000
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -49,7 +26,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

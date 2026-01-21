@@ -1,59 +1,9 @@
 {
   "ticker": "CAPT",
-  "timestamp": "2026-01-13T05:47:58.519115",
+  "timestamp": "2026-01-21T05:05:11.650158",
   "intraday_data": {
-    "status": "success",
-    "rows": 4,
-    "data": [
-      {
-        "Close": 0.38190001249313354,
-        "Close TAIT": 1.3200000524520874,
-        "High": 0.38589999079704285,
-        "High TAIT": 1.3200000524520874,
-        "Low": 0.38190001249313354,
-        "Low TAIT": 1.3200000524520874,
-        "Open": 0.38589999079704285,
-        "Open TAIT": 1.3200000524520874,
-        "Volume": 813.0,
-        "Volume TAIT": 1144.0
-      },
-      {
-        "Close": 0.3813999891281128,
-        "Close TAIT": 1.3200000524520874,
-        "High": 0.3813999891281128,
-        "High TAIT": 1.3200000524520874,
-        "Low": 0.3813000023365021,
-        "Low TAIT": 1.3200000524520874,
-        "Open": 0.3813999891281128,
-        "Open TAIT": 1.3200000524520874,
-        "Volume": 447.0,
-        "Volume TAIT": 2.0
-      },
-      {
-        "Close": 0.3817000091075897,
-        "Close TAIT": 1.2999999523162842,
-        "High": 0.3817000091075897,
-        "High TAIT": 1.2999999523162842,
-        "Low": 0.3801000118255615,
-        "Low TAIT": 1.2999999523162842,
-        "Open": 0.3801000118255615,
-        "Open TAIT": 1.2999999523162842,
-        "Volume": 476.0,
-        "Volume TAIT": 456.0
-      },
-      {
-        "Close": 0.37720000743865967,
-        "Close TAIT": 1.3700000047683716,
-        "High": 0.37720000743865967,
-        "High TAIT": 1.3700000047683716,
-        "Low": 0.37720000743865967,
-        "Low TAIT": 1.3700000047683716,
-        "Open": 0.37720000743865967,
-        "Open TAIT": 1.3700000047683716,
-        "Volume": 129.0,
-        "Volume TAIT": 900.0
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -76,7 +26,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

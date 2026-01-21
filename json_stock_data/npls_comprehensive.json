@@ -1,18 +1,9 @@
 {
   "ticker": "NPLS",
-  "timestamp": "2026-01-13T06:16:15.719203",
+  "timestamp": "2026-01-21T05:10:21.346771",
   "intraday_data": {
-    "status": "success",
-    "rows": 1,
-    "data": [
-      {
-        "Close EGLXF": 0.03180000185966492,
-        "High EGLXF": 0.03180000185966492,
-        "Low EGLXF": 0.03180000185966492,
-        "Open EGLXF": 0.03180000185966492,
-        "Volume EGLXF": 0
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -35,7 +26,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

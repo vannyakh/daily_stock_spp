@@ -1,9 +1,46 @@
 {
   "ticker": "MDWK",
-  "timestamp": "2026-01-13T05:41:51.800501",
+  "timestamp": "2026-01-21T05:04:04.350076",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 5,
+    "data": [
+      {
+        "Close VHC": 22.1200008392334,
+        "High VHC": 22.1200008392334,
+        "Low VHC": 22.1200008392334,
+        "Open VHC": 22.1200008392334,
+        "Volume VHC": 0
+      },
+      {
+        "Close VHC": 22.100000381469727,
+        "High VHC": 22.100000381469727,
+        "Low VHC": 22.100000381469727,
+        "Open VHC": 22.100000381469727,
+        "Volume VHC": 616
+      },
+      {
+        "Close VHC": 21.860000610351562,
+        "High VHC": 21.860000610351562,
+        "Low VHC": 21.860000610351562,
+        "Open VHC": 21.860000610351562,
+        "Volume VHC": 605
+      },
+      {
+        "Close VHC": 21.530000686645508,
+        "High VHC": 21.530000686645508,
+        "Low VHC": 21.530000686645508,
+        "Open VHC": 21.530000686645508,
+        "Volume VHC": 595
+      },
+      {
+        "Close VHC": 21.549999237060547,
+        "High VHC": 21.549999237060547,
+        "Low VHC": 21.549999237060547,
+        "Open VHC": 21.549999237060547,
+        "Volume VHC": 509
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -26,7 +63,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

@@ -1,9 +1,39 @@
 {
   "ticker": "FMCCP",
-  "timestamp": "2026-01-13T06:13:29.672819",
+  "timestamp": "2026-01-21T05:09:50.442569",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 4,
+    "data": [
+      {
+        "Close FMCCM": 15.5,
+        "High FMCCM": 15.5,
+        "Low FMCCM": 15.5,
+        "Open FMCCM": 15.5,
+        "Volume FMCCM": 0
+      },
+      {
+        "Close FMCCM": 15.5,
+        "High FMCCM": 15.5,
+        "Low FMCCM": 15.5,
+        "Open FMCCM": 15.5,
+        "Volume FMCCM": 300
+      },
+      {
+        "Close FMCCM": 15.5,
+        "High FMCCM": 15.5,
+        "Low FMCCM": 15.5,
+        "Open FMCCM": 15.5,
+        "Volume FMCCM": 50
+      },
+      {
+        "Close FMCCM": 16.34000015258789,
+        "High FMCCM": 16.34000015258789,
+        "Low FMCCM": 16.34000015258789,
+        "Open FMCCM": 16.34000015258789,
+        "Volume FMCCM": 3
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -17,14 +47,39 @@
       "status": "no_data"
     },
     "cash_flow": {
-      "status": "success",
-      "rows": 37,
-      "columns": [
-        "2024-12-31 00:00:00",
-        "2023-12-31 00:00:00",
-        "2022-12-31 00:00:00",
-        "2021-12-31 00:00:00"
-      ],
-      "data": [
-        {
-          
+      "status": "no_data"
+    }
+  },
+  "options_data": {
+    "status": "error",
+    "error_message": "Too Many Requests. Rate limited. Try after a while."
+  },
+  "news_data": {
+    "news": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    },
+    "recommendations": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  },
+  "holders_data": {
+    "major_holders": {
+      "status": "error"
+    },
+    "institutional_holders": {
+      "status": "error"
+    }
+  },
+  "earnings_data": {
+    "earnings": {
+      "status": "error",
+      "message": "'NoneType' object has no attribute 'empty'"
+    },
+    "calendar": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  }
+}

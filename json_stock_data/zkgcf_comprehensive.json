@@ -1,9 +1,39 @@
 {
   "ticker": "ZKGCF",
-  "timestamp": "2026-01-13T06:16:20.995524",
+  "timestamp": "2026-01-21T05:10:22.861965",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 4,
+    "data": [
+      {
+        "Close SPTY": 0.09939999878406525,
+        "High SPTY": 0.09939999878406525,
+        "Low SPTY": 0.09939999878406525,
+        "Open SPTY": 0.09939999878406525,
+        "Volume SPTY": 0
+      },
+      {
+        "Close SPTY": 0.07850000262260437,
+        "High SPTY": 0.07850000262260437,
+        "Low SPTY": 0.07850000262260437,
+        "Open SPTY": 0.07850000262260437,
+        "Volume SPTY": 2000
+      },
+      {
+        "Close SPTY": 0.07500000298023224,
+        "High SPTY": 0.07500000298023224,
+        "Low SPTY": 0.07500000298023224,
+        "Open SPTY": 0.07500000298023224,
+        "Volume SPTY": 2000
+      },
+      {
+        "Close SPTY": 0.07800000160932541,
+        "High SPTY": 0.07800000160932541,
+        "Low SPTY": 0.07800000160932541,
+        "Open SPTY": 0.07800000160932541,
+        "Volume SPTY": 2000
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -26,7 +56,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

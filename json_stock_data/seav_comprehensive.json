@@ -1,9 +1,18 @@
 {
   "ticker": "SEAV",
-  "timestamp": "2026-01-13T05:57:03.677798",
+  "timestamp": "2026-01-21T05:06:52.425783",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 1,
+    "data": [
+      {
+        "Close TPHS": 0.02850000001490116,
+        "High TPHS": 0.02850000001490116,
+        "Low TPHS": 0.02850000001490116,
+        "Open TPHS": 0.02850000001490116,
+        "Volume TPHS": 0
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -26,7 +35,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

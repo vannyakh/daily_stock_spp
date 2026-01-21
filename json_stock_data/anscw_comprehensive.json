@@ -1,23 +1,37 @@
 {
   "ticker": "ANSCW",
-  "timestamp": "2026-01-13T06:29:04.484320",
+  "timestamp": "2026-01-21T05:12:44.791939",
   "intraday_data": {
     "status": "success",
-    "rows": 2,
+    "rows": 4,
     "data": [
       {
-        "Close": 0.3589000105857849,
-        "High": 0.3700000047683716,
-        "Low": 0.3589000105857849,
-        "Open": 0.36000001430511475,
-        "Volume": 0
+        "Close ANSCU": 11.350000381469727,
+        "High ANSCU": 11.350000381469727,
+        "Low ANSCU": 11.34000015258789,
+        "Open ANSCU": 11.34000015258789,
+        "Volume ANSCU": 0
       },
       {
-        "Close": 0.3700000047683716,
-        "High": 0.3700000047683716,
-        "Low": 0.3621000051498413,
-        "Open": 0.3621000051498413,
-        "Volume": 27061
+        "Close ANSCU": 11.354999542236328,
+        "High ANSCU": 11.354999542236328,
+        "Low ANSCU": 11.354999542236328,
+        "Open ANSCU": 11.354999542236328,
+        "Volume ANSCU": 100
+      },
+      {
+        "Close ANSCU": 11.350000381469727,
+        "High ANSCU": 11.350000381469727,
+        "Low ANSCU": 11.350000381469727,
+        "Open ANSCU": 11.350000381469727,
+        "Volume ANSCU": 694
+      },
+      {
+        "Close ANSCU": 11.350000381469727,
+        "High ANSCU": 11.350000381469727,
+        "Low ANSCU": 11.350000381469727,
+        "Open ANSCU": 11.350000381469727,
+        "Volume ANSCU": 206
       }
     ]
   },
@@ -27,13 +41,45 @@
   },
   "financials": {
     "income_statement": {
-      "status": "success",
-      "rows": 28,
-      "columns": [
-        "2024-12-31 00:00:00",
-        "2023-12-31 00:00:00",
-        "2022-12-31 00:00:00"
-      ],
-      "data": [
-        {
-          
+      "status": "no_data"
+    },
+    "balance_sheet": {
+      "status": "no_data"
+    },
+    "cash_flow": {
+      "status": "no_data"
+    }
+  },
+  "options_data": {
+    "status": "error",
+    "error_message": "Too Many Requests. Rate limited. Try after a while."
+  },
+  "news_data": {
+    "news": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    },
+    "recommendations": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  },
+  "holders_data": {
+    "major_holders": {
+      "status": "error"
+    },
+    "institutional_holders": {
+      "status": "error"
+    }
+  },
+  "earnings_data": {
+    "earnings": {
+      "status": "error",
+      "message": "'NoneType' object has no attribute 'empty'"
+    },
+    "calendar": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  }
+}

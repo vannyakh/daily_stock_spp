@@ -1,9 +1,32 @@
 {
   "ticker": "UEPEN",
-  "timestamp": "2026-01-13T06:10:55.207156",
+  "timestamp": "2026-01-21T05:09:22.311709",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 3,
+    "data": [
+      {
+        "Close FMCKI": 10.100000381469727,
+        "High FMCKI": 10.100000381469727,
+        "Low FMCKI": 10.100000381469727,
+        "Open FMCKI": 10.100000381469727,
+        "Volume FMCKI": 0
+      },
+      {
+        "Close FMCKI": 10.050000190734863,
+        "High FMCKI": 10.050000190734863,
+        "Low FMCKI": 10.050000190734863,
+        "Open FMCKI": 10.050000190734863,
+        "Volume FMCKI": 400
+      },
+      {
+        "Close FMCKI": 10.029999732971191,
+        "High FMCKI": 10.029999732971191,
+        "Low FMCKI": 10.029999732971191,
+        "Open FMCKI": 10.029999732971191,
+        "Volume FMCKI": 200
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -26,7 +49,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

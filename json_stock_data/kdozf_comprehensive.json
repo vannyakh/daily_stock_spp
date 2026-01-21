@@ -1,9 +1,25 @@
 {
   "ticker": "KDOZF",
-  "timestamp": "2026-01-13T05:47:34.258852",
+  "timestamp": "2026-01-21T05:05:07.237042",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 2,
+    "data": [
+      {
+        "Close GLBZ": 4.25,
+        "High GLBZ": 4.25,
+        "Low GLBZ": 4.25,
+        "Open GLBZ": 4.25,
+        "Volume GLBZ": 0
+      },
+      {
+        "Close GLBZ": 4.21999979019165,
+        "High GLBZ": 4.21999979019165,
+        "Low GLBZ": 4.21999979019165,
+        "Open GLBZ": 4.21999979019165,
+        "Volume GLBZ": 6
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -26,52 +42,8 @@
   },
   "news_data": {
     "news": {
-      "status": "success",
-      "count": 1,
-      "data": [
-        {
-          "id": "69158584-61f5-365d-a286-60fc75c173d5",
-          "content": {
-            "id": "69158584-61f5-365d-a286-60fc75c173d5",
-            "contentType": "STORY",
-            "title": "Kidoz's Third-Quarter Loss Narrows as Revenue Hits Record",
-            "description": "",
-            "summary": "Kidoz (KDOZ.V) on Thursday reported a narrower third-quarter loss as strong advertising demand drove",
-            "pubDate": "2025-11-20T21:27:40Z",
-            "displayTime": "2025-11-20T21:27:40Z",
-            "isHosted": true,
-            "bypassModal": false,
-            "previewUrl": null,
-            "thumbnail": null,
-            "provider": {
-              "displayName": "MT Newswires",
-              "url": "https://www.mtnewswires.com/"
-            },
-            "canonicalUrl": {
-              "url": "https://finance.yahoo.com/news/kidoz-apos-third-quarter-loss-212740853.html",
-              "site": "finance",
-              "region": "US",
-              "lang": "en-US"
-            },
-            "clickThroughUrl": {
-              "url": "https://finance.yahoo.com/news/kidoz-apos-third-quarter-loss-212740853.html",
-              "site": "finance",
-              "region": "US",
-              "lang": "en-US"
-            },
-            "metadata": {
-              "editorsPick": false
-            },
-            "finance": {
-              "premiumFinance": {
-                "isPremiumNews": true,
-                "isPremiumFreeNews": false
-              }
-            },
-            "storyline": null
-          }
-        }
-      ]
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

@@ -1,25 +1,9 @@
 {
   "ticker": "SVVC",
-  "timestamp": "2026-01-13T06:17:27.025472",
+  "timestamp": "2026-01-21T05:10:36.618305",
   "intraday_data": {
-    "status": "success",
-    "rows": 2,
-    "data": [
-      {
-        "Close TKOI": 0.007400000002235174,
-        "High TKOI": 0.007400000002235174,
-        "Low TKOI": 0.007400000002235174,
-        "Open TKOI": 0.007400000002235174,
-        "Volume TKOI": 0
-      },
-      {
-        "Close TKOI": 0.00989999994635582,
-        "High TKOI": 0.00989999994635582,
-        "Low TKOI": 0.00989999994635582,
-        "Open TKOI": 0.00989999994635582,
-        "Volume TKOI": 1000
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -42,94 +26,8 @@
   },
   "news_data": {
     "news": {
-      "status": "success",
-      "count": 2,
-      "data": [
-        {
-          "id": "afeb5850-2584-37f5-a23e-1f47a0242e71",
-          "content": {
-            "id": "afeb5850-2584-37f5-a23e-1f47a0242e71",
-            "contentType": "STORY",
-            "title": "Firsthand Technology Value Fund: Q3 Earnings Snapshot",
-            "description": "",
-            "summary": "SVVC) on Friday reported a loss of $451,000 in its third quarter. On a per-share basis, the San Jose, California-based company said it had a loss of 7 cents. The technology investment fund posted revenue of $2,300 in the period.",
-            "pubDate": "2025-11-14T22:29:46Z",
-            "displayTime": "2025-11-14T22:29:46Z",
-            "isHosted": true,
-            "bypassModal": false,
-            "previewUrl": null,
-            "thumbnail": null,
-            "provider": {
-              "displayName": "Associated Press Finance",
-              "url": "http://www.ap.org/"
-            },
-            "canonicalUrl": {
-              "url": "https://finance.yahoo.com/news/firsthand-technology-value-fund-q3-222946268.html",
-              "site": "finance",
-              "region": "US",
-              "lang": "en-US"
-            },
-            "clickThroughUrl": {
-              "url": "https://finance.yahoo.com/news/firsthand-technology-value-fund-q3-222946268.html",
-              "site": "finance",
-              "region": "US",
-              "lang": "en-US"
-            },
-            "metadata": {
-              "editorsPick": false
-            },
-            "finance": {
-              "premiumFinance": {
-                "isPremiumNews": false,
-                "isPremiumFreeNews": false
-              }
-            },
-            "storyline": null
-          }
-        },
-        {
-          "id": "259395c3-f510-3ee9-afad-07e6a67eb7cd",
-          "content": {
-            "id": "259395c3-f510-3ee9-afad-07e6a67eb7cd",
-            "contentType": "STORY",
-            "title": "Firsthand Technology Value Fund: Q2 Earnings Snapshot",
-            "description": "",
-            "summary": "SVVC) on Thursday reported a loss of $90,000 in its second quarter. On a per-share basis, the San Jose, California-based company said it had a loss of 1 cent. The technology investment fund posted revenue of $170,900 in the period.",
-            "pubDate": "2025-08-14T19:49:09Z",
-            "displayTime": "2025-08-14T19:49:09Z",
-            "isHosted": true,
-            "bypassModal": false,
-            "previewUrl": null,
-            "thumbnail": null,
-            "provider": {
-              "displayName": "Associated Press Finance",
-              "url": "http://www.ap.org/"
-            },
-            "canonicalUrl": {
-              "url": "https://finance.yahoo.com/news/firsthand-technology-value-fund-q2-194909171.html",
-              "site": "finance",
-              "region": "US",
-              "lang": "en-US"
-            },
-            "clickThroughUrl": {
-              "url": "https://finance.yahoo.com/news/firsthand-technology-value-fund-q2-194909171.html",
-              "site": "finance",
-              "region": "US",
-              "lang": "en-US"
-            },
-            "metadata": {
-              "editorsPick": false
-            },
-            "finance": {
-              "premiumFinance": {
-                "isPremiumNews": false,
-                "isPremiumFreeNews": false
-              }
-            },
-            "storyline": null
-          }
-        }
-      ]
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

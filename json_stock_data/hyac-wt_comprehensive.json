@@ -1,16 +1,23 @@
 {
   "ticker": "HYAC-WT",
-  "timestamp": "2026-01-13T06:23:15.683988",
+  "timestamp": "2026-01-21T05:11:41.266421",
   "intraday_data": {
     "status": "success",
-    "rows": 1,
+    "rows": 2,
     "data": [
       {
-        "Close": 1.5499999523162842,
-        "High": 1.625,
-        "Low": 1.5499999523162842,
-        "Open": 1.625,
-        "Volume": 0
+        "Close SDAWW": 0.032499998807907104,
+        "High SDAWW": 0.03420000150799751,
+        "Low SDAWW": 0.032499998807907104,
+        "Open SDAWW": 0.03420000150799751,
+        "Volume SDAWW": 0
+      },
+      {
+        "Close SDAWW": 0.03739999979734421,
+        "High SDAWW": 0.03739999979734421,
+        "Low SDAWW": 0.032499998807907104,
+        "Open SDAWW": 0.03739999979734421,
+        "Volume SDAWW": 300
       }
     ]
   },
@@ -35,7 +42,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

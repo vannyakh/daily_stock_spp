@@ -1,9 +1,18 @@
 {
   "ticker": "CNLHN",
-  "timestamp": "2026-01-13T06:14:53.030127",
+  "timestamp": "2026-01-21T05:10:05.887623",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 1,
+    "data": [
+      {
+        "Close PIIVX": 48.029998779296875,
+        "High PIIVX": 48.029998779296875,
+        "Low PIIVX": 48.029998779296875,
+        "Open PIIVX": 48.029998779296875,
+        "Volume PIIVX": 0
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -26,7 +35,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

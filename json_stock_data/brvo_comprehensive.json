@@ -1,23 +1,33 @@
 {
   "ticker": "BRVO",
-  "timestamp": "2026-01-13T05:58:31.610372",
+  "timestamp": "2026-01-21T05:07:08.206238",
   "intraday_data": {
     "status": "success",
     "rows": 2,
     "data": [
       {
-        "Close": 0.03700000047683716,
-        "High": 0.03700000047683716,
-        "Low": 0.03700000047683716,
-        "Open": 0.03700000047683716,
-        "Volume": 0
+        "Close GPOX": 0.09570000320672989,
+        "Close VERO": 4.039999961853027,
+        "High GPOX": 0.09570000320672989,
+        "High VERO": 4.047800064086914,
+        "Low GPOX": 0.09570000320672989,
+        "Low VERO": 4.019999980926514,
+        "Open GPOX": 0.09570000320672989,
+        "Open VERO": 4.047800064086914,
+        "Volume GPOX": 0.0,
+        "Volume VERO": 7470
       },
       {
-        "Close": 0.03709999844431877,
-        "High": 0.03709999844431877,
-        "Low": 0.03709999844431877,
-        "Open": 0.03709999844431877,
-        "Volume": 10000
+        "Close GPOX": 0.09049999713897705,
+        "Close VERO": 4.380000114440918,
+        "High GPOX": 0.09049999713897705,
+        "High VERO": 4.380000114440918,
+        "Low GPOX": 0.09049999713897705,
+        "Low VERO": 4.369999885559082,
+        "Open GPOX": 0.09049999713897705,
+        "Open VERO": 4.369999885559082,
+        "Volume GPOX": 1000.0,
+        "Volume VERO": 706
       }
     ]
   },
@@ -42,7 +52,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

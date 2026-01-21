@@ -1,16 +1,58 @@
 {
   "ticker": "WNDW",
-  "timestamp": "2026-01-13T05:46:30.829141",
+  "timestamp": "2026-01-21T05:04:56.071213",
   "intraday_data": {
     "status": "success",
-    "rows": 1,
+    "rows": 7,
     "data": [
       {
-        "Close": 0.4399999976158142,
-        "High": 0.4399999976158142,
-        "Low": 0.4399999976158142,
-        "Open": 0.4399999976158142,
+        "Close": 0.3499999940395355,
+        "High": 0.4000000059604645,
+        "Low": 0.3499999940395355,
+        "Open": 0.351500004529953,
         "Volume": 0
+      },
+      {
+        "Close": 0.4000000059604645,
+        "High": 0.4000000059604645,
+        "Low": 0.4000000059604645,
+        "Open": 0.4000000059604645,
+        "Volume": 2500
+      },
+      {
+        "Close": 0.4000000059604645,
+        "High": 0.4000000059604645,
+        "Low": 0.4000000059604645,
+        "Open": 0.4000000059604645,
+        "Volume": 200
+      },
+      {
+        "Close": 0.4000000059604645,
+        "High": 0.4000000059604645,
+        "Low": 0.4000000059604645,
+        "Open": 0.4000000059604645,
+        "Volume": 4373
+      },
+      {
+        "Close": 0.37599998712539673,
+        "High": 0.37599998712539673,
+        "Low": 0.37599998712539673,
+        "Open": 0.37599998712539673,
+        "Volume": 50
+      },
+      {
+        "Close": 0.37599998712539673,
+        "High": 0.37599998712539673,
+        "Low": 0.37599998712539673,
+        "Open": 0.37599998712539673,
+        "Volume": 200
+      },
+      {
+        "Close": 0.38199999928474426,
+        "High": 0.38199999928474426,
+        "Low": 0.38199999928474426,
+        "Open": 0.38199999928474426,
+        "Volume": 1000
       }
     ]
   },
@@ -26,15 +68,39 @@
       "status": "no_data"
     },
     "cash_flow": {
-      "status": "success",
-      "rows": 34,
-      "columns": [
-        "2025-08-31 00:00:00",
-        "2024-08-31 00:00:00",
-        "2023-08-31 00:00:00",
-        "2022-08-31 00:00:00",
-        "2021-08-31 00:00:00"
-      ],
-      "data": [
-        {
-          
+      "status": "no_data"
+    }
+  },
+  "options_data": {
+    "status": "error",
+    "error_message": "Too Many Requests. Rate limited. Try after a while."
+  },
+  "news_data": {
+    "news": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    },
+    "recommendations": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  },
+  "holders_data": {
+    "major_holders": {
+      "status": "error"
+    },
+    "institutional_holders": {
+      "status": "error"
+    }
+  },
+  "earnings_data": {
+    "earnings": {
+      "status": "error",
+      "message": "'NoneType' object has no attribute 'empty'"
+    },
+    "calendar": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  }
+}

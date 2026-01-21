@@ -1,32 +1,9 @@
 {
   "ticker": "ECF-PA",
-  "timestamp": "2026-01-13T06:15:09.348567",
+  "timestamp": "2026-01-21T05:10:08.577140",
   "intraday_data": {
-    "status": "success",
-    "rows": 3,
-    "data": [
-      {
-        "Close": 21.670000076293945,
-        "High": 21.670000076293945,
-        "Low": 21.670000076293945,
-        "Open": 21.670000076293945,
-        "Volume": 0
-      },
-      {
-        "Close": 21.670000076293945,
-        "High": 21.74340057373047,
-        "Low": 21.670000076293945,
-        "Open": 21.74340057373047,
-        "Volume": 232
-      },
-      {
-        "Close": 21.790000915527344,
-        "High": 21.790000915527344,
-        "Low": 21.790000915527344,
-        "Open": 21.790000915527344,
-        "Volume": 301
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -49,7 +26,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

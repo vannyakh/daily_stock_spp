@@ -1,9 +1,39 @@
 {
   "ticker": "SUNH",
-  "timestamp": "2026-01-13T06:07:10.552717",
+  "timestamp": "2026-01-21T05:08:40.494705",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 4,
+    "data": [
+      {
+        "Close ICR-PA": 21.20009994506836,
+        "High ICR-PA": 21.239999771118164,
+        "Low ICR-PA": 21.20009994506836,
+        "Open ICR-PA": 21.209999084472656,
+        "Volume ICR-PA": 0
+      },
+      {
+        "Close ICR-PA": 22.149999618530273,
+        "High ICR-PA": 22.149999618530273,
+        "Low ICR-PA": 22.149999618530273,
+        "Open ICR-PA": 22.149999618530273,
+        "Volume ICR-PA": 425
+      },
+      {
+        "Close ICR-PA": 22.200000762939453,
+        "High ICR-PA": 22.200000762939453,
+        "Low ICR-PA": 22.200000762939453,
+        "Open ICR-PA": 22.200000762939453,
+        "Volume ICR-PA": 369
+      },
+      {
+        "Close ICR-PA": 21.200000762939453,
+        "High ICR-PA": 21.200000762939453,
+        "Low ICR-PA": 21.200000762939453,
+        "Open ICR-PA": 21.200000762939453,
+        "Volume ICR-PA": 103
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -26,7 +56,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",
@@ -48,7 +79,7 @@
     },
     "calendar": {
       "status": "error",
-      "message": "'dict' object has no attribute 'empty'"
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   }
 }

@@ -1,9 +1,60 @@
 {
   "ticker": "JZ",
-  "timestamp": "2026-01-13T05:45:14.657359",
+  "timestamp": "2026-01-21T05:04:42.194782",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 7,
+    "data": [
+      {
+        "Close PULM": 2.6019999980926514,
+        "High PULM": 2.6019999980926514,
+        "Low PULM": 2.5999999046325684,
+        "Open PULM": 2.5999999046325684,
+        "Volume PULM": 0
+      },
+      {
+        "Close PULM": 2.5999999046325684,
+        "High PULM": 2.5999999046325684,
+        "Low PULM": 2.5899999141693115,
+        "Open PULM": 2.5899999141693115,
+        "Volume PULM": 375
+      },
+      {
+        "Close PULM": 2.559999942779541,
+        "High PULM": 2.559999942779541,
+        "Low PULM": 2.559999942779541,
+        "Open PULM": 2.559999942779541,
+        "Volume PULM": 679
+      },
+      {
+        "Close PULM": 2.5000998973846436,
+        "High PULM": 2.5000998973846436,
+        "Low PULM": 2.5000998973846436,
+        "Open PULM": 2.5000998973846436,
+        "Volume PULM": 264
+      },
+      {
+        "Close PULM": 2.6700000762939453,
+        "High PULM": 2.6700000762939453,
+        "Low PULM": 2.6700000762939453,
+        "Open PULM": 2.6700000762939453,
+        "Volume PULM": 112
+      },
+      {
+        "Close PULM": 2.6589999198913574,
+        "High PULM": 2.6589999198913574,
+        "Low PULM": 2.6589999198913574,
+        "Open PULM": 2.6589999198913574,
+        "Volume PULM": 200
+      },
+      {
+        "Close PULM": 2.6600000858306885,
+        "High PULM": 2.6600000858306885,
+        "Low PULM": 2.6600000858306885,
+        "Open PULM": 2.6600000858306885,
+        "Volume PULM": 437
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -11,14 +62,45 @@
   },
   "financials": {
     "income_statement": {
-      "status": "success",
-      "rows": 49,
-      "columns": [
-        "2024-12-31 00:00:00",
-        "2023-12-31 00:00:00",
-        "2022-12-31 00:00:00",
-        "2021-12-31 00:00:00"
-      ],
-      "data": [
-        {
-          
+      "status": "no_data"
+    },
+    "balance_sheet": {
+      "status": "no_data"
+    },
+    "cash_flow": {
+      "status": "no_data"
+    }
+  },
+  "options_data": {
+    "status": "error",
+    "error_message": "Too Many Requests. Rate limited. Try after a while."
+  },
+  "news_data": {
+    "news": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    },
+    "recommendations": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  },
+  "holders_data": {
+    "major_holders": {
+      "status": "error"
+    },
+    "institutional_holders": {
+      "status": "error"
+    }
+  },
+  "earnings_data": {
+    "earnings": {
+      "status": "error",
+      "message": "'NoneType' object has no attribute 'empty'"
+    },
+    "calendar": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  }
+}

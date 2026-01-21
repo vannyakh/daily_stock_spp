@@ -1,9 +1,88 @@
 {
   "ticker": "SB-PC",
-  "timestamp": "2026-01-13T06:14:55.812783",
+  "timestamp": "2026-01-21T05:10:06.454344",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 11,
+    "data": [
+      {
+        "Close SB-PD": 25.510000228881836,
+        "High SB-PD": 25.510000228881836,
+        "Low SB-PD": 25.510000228881836,
+        "Open SB-PD": 25.510000228881836,
+        "Volume SB-PD": 0
+      },
+      {
+        "Close SB-PD": 25.5,
+        "High SB-PD": 25.5,
+        "Low SB-PD": 25.5,
+        "Open SB-PD": 25.5,
+        "Volume SB-PD": 3333
+      },
+      {
+        "Close SB-PD": 25.530000686645508,
+        "High SB-PD": 25.530000686645508,
+        "Low SB-PD": 25.530000686645508,
+        "Open SB-PD": 25.530000686645508,
+        "Volume SB-PD": 162
+      },
+      {
+        "Close SB-PD": 25.579999923706055,
+        "High SB-PD": 25.579999923706055,
+        "Low SB-PD": 25.579999923706055,
+        "Open SB-PD": 25.579999923706055,
+        "Volume SB-PD": 0
+      },
+      {
+        "Close SB-PD": 25.579999923706055,
+        "High SB-PD": 25.579999923706055,
+        "Low SB-PD": 25.579999923706055,
+        "Open SB-PD": 25.579999923706055,
+        "Volume SB-PD": 4972
+      },
+      {
+        "Close SB-PD": 25.579999923706055,
+        "High SB-PD": 25.579999923706055,
+        "Low SB-PD": 25.579999923706055,
+        "Open SB-PD": 25.579999923706055,
+        "Volume SB-PD": 178
+      },
+      {
+        "Close SB-PD": 25.600000381469727,
+        "High SB-PD": 25.600000381469727,
+        "Low SB-PD": 25.600000381469727,
+        "Open SB-PD": 25.600000381469727,
+        "Volume SB-PD": 219
+      },
+      {
+        "Close SB-PD": 25.600000381469727,
+        "High SB-PD": 25.600000381469727,
+        "Low SB-PD": 25.600000381469727,
+        "Open SB-PD": 25.600000381469727,
+        "Volume SB-PD": 238
+      },
+      {
+        "Close SB-PD": 25.59000015258789,
+        "High SB-PD": 25.59000015258789,
+        "Low SB-PD": 25.59000015258789,
+        "Open SB-PD": 25.59000015258789,
+        "Volume SB-PD": 157
+      },
+      {
+        "Close SB-PD": 25.600799560546875,
+        "High SB-PD": 25.600799560546875,
+        "Low SB-PD": 25.600799560546875,
+        "Open SB-PD": 25.600799560546875,
+        "Volume SB-PD": 295
+      },
+      {
+        "Close SB-PD": 25.559999465942383,
+        "High SB-PD": 25.559999465942383,
+        "Low SB-PD": 25.559999465942383,
+        "Open SB-PD": 25.559999465942383,
+        "Volume SB-PD": 300
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -11,14 +90,45 @@
   },
   "financials": {
     "income_statement": {
-      "status": "success",
-      "rows": 47,
-      "columns": [
-        "2024-12-31 00:00:00",
-        "2023-12-31 00:00:00",
-        "2022-12-31 00:00:00",
-        "2021-12-31 00:00:00"
-      ],
-      "data": [
-        {
-          
+      "status": "no_data"
+    },
+    "balance_sheet": {
+      "status": "no_data"
+    },
+    "cash_flow": {
+      "status": "no_data"
+    }
+  },
+  "options_data": {
+    "status": "error",
+    "error_message": "Too Many Requests. Rate limited. Try after a while."
+  },
+  "news_data": {
+    "news": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    },
+    "recommendations": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  },
+  "holders_data": {
+    "major_holders": {
+      "status": "error"
+    },
+    "institutional_holders": {
+      "status": "error"
+    }
+  },
+  "earnings_data": {
+    "earnings": {
+      "status": "error",
+      "message": "'NoneType' object has no attribute 'empty'"
+    },
+    "calendar": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  }
+}

@@ -1,39 +1,9 @@
 {
   "ticker": "ILAG",
-  "timestamp": "2026-01-13T05:48:01.919651",
+  "timestamp": "2026-01-21T05:05:12.170648",
   "intraday_data": {
-    "status": "success",
-    "rows": 4,
-    "data": [
-      {
-        "Close": 3.899899959564209,
-        "High": 3.899899959564209,
-        "Low": 3.609999895095825,
-        "Open": 3.609999895095825,
-        "Volume": 685
-      },
-      {
-        "Close": 3.7606000900268555,
-        "High": 3.7606000900268555,
-        "Low": 3.7606000900268555,
-        "Open": 3.7606000900268555,
-        "Volume": 1005
-      },
-      {
-        "Close": 4.0,
-        "High": 4.0,
-        "Low": 4.0,
-        "Open": 4.0,
-        "Volume": 351
-      },
-      {
-        "Close": 3.9600000381469727,
-        "High": 4.0,
-        "Low": 3.9600000381469727,
-        "Open": 4.0,
-        "Volume": 2371
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -56,71 +26,8 @@
   },
   "news_data": {
     "news": {
-      "status": "success",
-      "count": 1,
-      "data": [
-        {
-          "id": "472fe95b-a5f9-3545-ac0b-781e7fd4b230",
-          "content": {
-            "id": "472fe95b-a5f9-3545-ac0b-781e7fd4b230",
-            "contentType": "STORY",
-            "title": "Intelligent Living Application Group Full Year 2024 Earnings: US$0.20 loss per share (vs US$0.19 loss in FY 2023)",
-            "description": "",
-            "summary": "Intelligent Living Application Group ( NASDAQ:ILAG ) Full Year 2024 Results Key Financial Results Revenue: US$7.51m (up...",
-            "pubDate": "2025-04-30T11:46:59Z",
-            "displayTime": "2025-04-30T11:46:59Z",
-            "isHosted": true,
-            "bypassModal": false,
-            "previewUrl": null,
-            "thumbnail": {
-              "originalUrl": "https://media.zenfs.com/en/simply_wall_st__316/78a8c60a6283aea0450523395306d38c",
-              "originalWidth": 945,
-              "originalHeight": 636,
-              "caption": "",
-              "resolutions": [
-                {
-                  "url": "https://s.yimg.com/uu/api/res/1.2/5Vpve0Pc2F3m_L3fs2p_dQ--~B/aD02MzY7dz05NDU7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/simply_wall_st__316/78a8c60a6283aea0450523395306d38c",
-                  "width": 945,
-                  "height": 636,
-                  "tag": "original"
-                },
-                {
-                  "url": "https://s.yimg.com/uu/api/res/1.2/5K6kmrQzRk.k.11fs9N_QA--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/simply_wall_st__316/78a8c60a6283aea0450523395306d38c",
-                  "width": 170,
-                  "height": 128,
-                  "tag": "170x128"
-                }
-              ]
-            },
-            "provider": {
-              "displayName": "Simply Wall St.",
-              "url": "https://simplywall.st/"
-            },
-            "canonicalUrl": {
-              "url": "https://finance.yahoo.com/news/intelligent-living-application-group-full-114659616.html",
-              "site": "finance",
-              "region": "US",
-              "lang": "en-US"
-            },
-            "clickThroughUrl": {
-              "url": "https://finance.yahoo.com/news/intelligent-living-application-group-full-114659616.html",
-              "site": "finance",
-              "region": "US",
-              "lang": "en-US"
-            },
-            "metadata": {
-              "editorsPick": false
-            },
-            "finance": {
-              "premiumFinance": {
-                "isPremiumNews": false,
-                "isPremiumFreeNews": false
-              }
-            },
-            "storyline": null
-          }
-        }
-      ]
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

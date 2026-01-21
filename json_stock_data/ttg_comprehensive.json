@@ -1,32 +1,9 @@
 {
   "ticker": "TTG",
-  "timestamp": "2026-01-13T06:04:03.459261",
+  "timestamp": "2026-01-21T05:08:07.875917",
   "intraday_data": {
-    "status": "success",
-    "rows": 3,
-    "data": [
-      {
-        "Close DEFI": 101.69999694824219,
-        "High DEFI": 101.69999694824219,
-        "Low DEFI": 101.69999694824219,
-        "Open DEFI": 101.69999694824219,
-        "Volume DEFI": 320
-      },
-      {
-        "Close DEFI": 102.16999816894531,
-        "High DEFI": 102.16999816894531,
-        "Low DEFI": 102.16999816894531,
-        "Open DEFI": 102.16999816894531,
-        "Volume DEFI": 120
-      },
-      {
-        "Close DEFI": 103.35690307617188,
-        "High DEFI": 103.35690307617188,
-        "Low DEFI": 102.66000366210938,
-        "Open DEFI": 102.66000366210938,
-        "Volume DEFI": 294
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -49,7 +26,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

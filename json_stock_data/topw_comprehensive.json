@@ -1,18 +1,9 @@
 {
   "ticker": "TOPW",
-  "timestamp": "2026-01-13T06:04:47.966030",
+  "timestamp": "2026-01-21T05:08:16.126161",
   "intraday_data": {
-    "status": "success",
-    "rows": 1,
-    "data": [
-      {
-        "Close HSPT": 10.586899757385254,
-        "High HSPT": 10.586899757385254,
-        "Low HSPT": 10.586899757385254,
-        "Open HSPT": 10.586899757385254,
-        "Volume HSPT": 0
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -35,7 +26,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

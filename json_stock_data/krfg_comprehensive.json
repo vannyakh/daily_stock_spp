@@ -1,9 +1,25 @@
 {
   "ticker": "KRFG",
-  "timestamp": "2026-01-13T06:00:29.316384",
+  "timestamp": "2026-01-21T05:07:27.973053",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 2,
+    "data": [
+      {
+        "Close LQWC": 0.01510000042617321,
+        "High LQWC": 0.01510000042617321,
+        "Low LQWC": 0.01510000042617321,
+        "Open LQWC": 0.01510000042617321,
+        "Volume LQWC": 0
+      },
+      {
+        "Close LQWC": 0.01510000042617321,
+        "High LQWC": 0.01510000042617321,
+        "Low LQWC": 0.01510000042617321,
+        "Open LQWC": 0.01510000042617321,
+        "Volume LQWC": 10000
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -26,7 +42,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

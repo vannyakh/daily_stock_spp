@@ -1,18 +1,9 @@
 {
   "ticker": "ASCIX",
-  "timestamp": "2026-01-13T06:35:11.644989",
+  "timestamp": "2026-01-21T05:13:47.812606",
   "intraday_data": {
-    "status": "success",
-    "rows": 1,
-    "data": [
-      {
-        "Close": 20.8799991607666,
-        "High": 20.8799991607666,
-        "Low": 20.8799991607666,
-        "Open": 20.8799991607666,
-        "Volume": 0
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -35,7 +26,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

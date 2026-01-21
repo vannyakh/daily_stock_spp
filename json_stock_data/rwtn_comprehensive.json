@@ -1,9 +1,53 @@
 {
   "ticker": "RWTN",
-  "timestamp": "2026-01-13T06:34:54.516294",
+  "timestamp": "2026-01-21T05:13:43.624185",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 6,
+    "data": [
+      {
+        "Close": 25.209999084472656,
+        "High": 25.209999084472656,
+        "Low": 25.209999084472656,
+        "Open": 25.209999084472656,
+        "Volume": 0
+      },
+      {
+        "Close": 25.100000381469727,
+        "High": 25.100000381469727,
+        "Low": 25.100000381469727,
+        "Open": 25.100000381469727,
+        "Volume": 183
+      },
+      {
+        "Close": 25.149999618530273,
+        "High": 25.149999618530273,
+        "Low": 25.149999618530273,
+        "Open": 25.149999618530273,
+        "Volume": 100
+      },
+      {
+        "Close": 25.18000030517578,
+        "High": 25.18000030517578,
+        "Low": 25.17799949645996,
+        "Open": 25.17799949645996,
+        "Volume": 1180
+      },
+      {
+        "Close": 25.18000030517578,
+        "High": 25.18000030517578,
+        "Low": 25.149999618530273,
+        "Open": 25.149999618530273,
+        "Volume": 491
+      },
+      {
+        "Close": 25.18000030517578,
+        "High": 25.18000030517578,
+        "Low": 25.18000030517578,
+        "Open": 25.18000030517578,
+        "Volume": 200
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -26,7 +70,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

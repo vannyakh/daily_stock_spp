@@ -1,9 +1,74 @@
 {
   "ticker": "BDCX",
-  "timestamp": "2026-01-13T06:34:07.954894",
+  "timestamp": "2026-01-21T05:13:36.270636",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 9,
+    "data": [
+      {
+        "Close BDCZ": 16.079999923706055,
+        "High BDCZ": 16.079999923706055,
+        "Low BDCZ": 16.079999923706055,
+        "Open BDCZ": 16.079999923706055,
+        "Volume BDCZ": 0
+      },
+      {
+        "Close BDCZ": 16.40999984741211,
+        "High BDCZ": 16.40999984741211,
+        "Low BDCZ": 16.3799991607666,
+        "Open BDCZ": 16.3799991607666,
+        "Volume BDCZ": 900
+      },
+      {
+        "Close BDCZ": 16.40999984741211,
+        "High BDCZ": 16.40999984741211,
+        "Low BDCZ": 16.40999984741211,
+        "Open BDCZ": 16.40999984741211,
+        "Volume BDCZ": 200
+      },
+      {
+        "Close BDCZ": 16.40999984741211,
+        "High BDCZ": 16.40999984741211,
+        "Low BDCZ": 16.40999984741211,
+        "Open BDCZ": 16.40999984741211,
+        "Volume BDCZ": 257
+      },
+      {
+        "Close BDCZ": 16.719999313354492,
+        "High BDCZ": 16.719999313354492,
+        "Low BDCZ": 16.719999313354492,
+        "Open BDCZ": 16.719999313354492,
+        "Volume BDCZ": 201
+      },
+      {
+        "Close BDCZ": 16.635000228881836,
+        "High BDCZ": 16.639999389648438,
+        "Low BDCZ": 16.6299991607666,
+        "Open BDCZ": 16.639999389648438,
+        "Volume BDCZ": 626
+      },
+      {
+        "Close BDCZ": 16.56999969482422,
+        "High BDCZ": 16.56999969482422,
+        "Low BDCZ": 16.56999969482422,
+        "Open BDCZ": 16.56999969482422,
+        "Volume BDCZ": 197
+      },
+      {
+        "Close BDCZ": 16.6299991607666,
+        "High BDCZ": 16.6299991607666,
+        "Low BDCZ": 16.6299991607666,
+        "Open BDCZ": 16.6299991607666,
+        "Volume BDCZ": 200
+      },
+      {
+        "Close BDCZ": 16.530000686645508,
+        "High BDCZ": 16.530000686645508,
+        "Low BDCZ": 16.530000686645508,
+        "Open BDCZ": 16.530000686645508,
+        "Volume BDCZ": 125
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -21,11 +86,13 @@
     }
   },
   "options_data": {
-    "expirations": []
+    "status": "error",
+    "error_message": "Too Many Requests. Rate limited. Try after a while."
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

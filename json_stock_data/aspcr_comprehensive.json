@@ -1,53 +1,9 @@
 {
   "ticker": "ASPCR",
-  "timestamp": "2026-01-13T06:28:09.551092",
+  "timestamp": "2026-01-21T05:12:36.823602",
   "intraday_data": {
-    "status": "success",
-    "rows": 6,
-    "data": [
-      {
-        "Close": 0.19249999523162842,
-        "High": 0.19249999523162842,
-        "Low": 0.19249999523162842,
-        "Open": 0.19249999523162842,
-        "Volume": 0
-      },
-      {
-        "Close": 0.18000000715255737,
-        "High": 0.1809999942779541,
-        "Low": 0.17509999871253967,
-        "Open": 0.1809999942779541,
-        "Volume": 802
-      },
-      {
-        "Close": 0.19249999523162842,
-        "High": 0.19249999523162842,
-        "Low": 0.19249999523162842,
-        "Open": 0.19249999523162842,
-        "Volume": 440
-      },
-      {
-        "Close": 0.19840000569820404,
-        "High": 0.19840000569820404,
-        "Low": 0.19840000569820404,
-        "Open": 0.19840000569820404,
-        "Volume": 116
-      },
-      {
-        "Close": 0.18000000715255737,
-        "High": 0.18000000715255737,
-        "Low": 0.17749999463558197,
-        "Open": 0.17749999463558197,
-        "Volume": 2088
-      },
-      {
-        "Close": 0.18000000715255737,
-        "High": 0.18000000715255737,
-        "Low": 0.18000000715255737,
-        "Open": 0.18000000715255737,
-        "Volume": 1128
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -70,7 +26,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

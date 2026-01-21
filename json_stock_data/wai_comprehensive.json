@@ -1,9 +1,67 @@
 {
   "ticker": "WAI",
-  "timestamp": "2026-01-13T05:36:55.788914",
+  "timestamp": "2026-01-21T05:03:10.168567",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 8,
+    "data": [
+      {
+        "Close CCEL": 3.5,
+        "High CCEL": 3.5,
+        "Low CCEL": 3.490000009536743,
+        "Open CCEL": 3.490000009536743,
+        "Volume CCEL": 777
+      },
+      {
+        "Close CCEL": 3.490000009536743,
+        "High CCEL": 3.490000009536743,
+        "Low CCEL": 3.490000009536743,
+        "Open CCEL": 3.490000009536743,
+        "Volume CCEL": 652
+      },
+      {
+        "Close CCEL": 3.3498001098632812,
+        "High CCEL": 3.3498001098632812,
+        "Low CCEL": 3.3498001098632812,
+        "Open CCEL": 3.3498001098632812,
+        "Volume CCEL": 764
+      },
+      {
+        "Close CCEL": 3.375,
+        "High CCEL": 3.380000114440918,
+        "Low CCEL": 3.375,
+        "Open CCEL": 3.375,
+        "Volume CCEL": 4305
+      },
+      {
+        "Close CCEL": 3.4100000858306885,
+        "High CCEL": 3.4100000858306885,
+        "Low CCEL": 3.4100000858306885,
+        "Open CCEL": 3.4100000858306885,
+        "Volume CCEL": 3000
+      },
+      {
+        "Close CCEL": 3.4000000953674316,
+        "High CCEL": 3.4000000953674316,
+        "Low CCEL": 3.4000000953674316,
+        "Open CCEL": 3.4000000953674316,
+        "Volume CCEL": 104
+      },
+      {
+        "Close CCEL": 3.4100000858306885,
+        "High CCEL": 3.4549999237060547,
+        "Low CCEL": 3.4100000858306885,
+        "Open CCEL": 3.4549999237060547,
+        "Volume CCEL": 320
+      },
+      {
+        "Close CCEL": 3.4000000953674316,
+        "High CCEL": 3.4000000953674316,
+        "Low CCEL": 3.4000000953674316,
+        "Open CCEL": 3.4000000953674316,
+        "Volume CCEL": 401
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -26,52 +84,8 @@
   },
   "news_data": {
     "news": {
-      "status": "success",
-      "count": 1,
-      "data": [
-        {
-          "id": "554ddc6c-e0fd-30ff-bc09-8f9fe66373f1",
-          "content": {
-            "id": "554ddc6c-e0fd-30ff-bc09-8f9fe66373f1",
-            "contentType": "STORY",
-            "title": "BC-Most Active Stocks",
-            "description": "",
-            "summary": "td class=\"col-issue\">Next Technology Holding Inc.",
-            "pubDate": "2025-08-28T14:30:16Z",
-            "displayTime": "2025-08-28T14:30:16Z",
-            "isHosted": true,
-            "bypassModal": false,
-            "previewUrl": null,
-            "thumbnail": null,
-            "provider": {
-              "displayName": "Associated Press Finance",
-              "url": "http://www.ap.org/"
-            },
-            "canonicalUrl": {
-              "url": "https://finance.yahoo.com/news/bc-most-active-stocks-143016768.html",
-              "site": "finance",
-              "region": "US",
-              "lang": "en-US"
-            },
-            "clickThroughUrl": {
-              "url": "https://finance.yahoo.com/news/bc-most-active-stocks-143016768.html",
-              "site": "finance",
-              "region": "US",
-              "lang": "en-US"
-            },
-            "metadata": {
-              "editorsPick": false
-            },
-            "finance": {
-              "premiumFinance": {
-                "isPremiumNews": false,
-                "isPremiumFreeNews": false
-              }
-            },
-            "storyline": null
-          }
-        }
-      ]
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

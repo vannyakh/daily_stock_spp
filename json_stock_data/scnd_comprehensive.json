@@ -1,9 +1,18 @@
 {
   "ticker": "SCND",
-  "timestamp": "2026-01-13T05:50:27.802619",
+  "timestamp": "2026-01-21T05:05:41.915030",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 1,
+    "data": [
+      {
+        "Close": 0.5486999750137329,
+        "High": 0.5486999750137329,
+        "Low": 0.5486999750137329,
+        "Open": 0.5486999750137329,
+        "Volume": 0
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -26,71 +35,8 @@
   },
   "news_data": {
     "news": {
-      "status": "success",
-      "count": 1,
-      "data": [
-        {
-          "id": "7f32afa6-df50-397e-98d4-5d2fc4292fac",
-          "content": {
-            "id": "7f32afa6-df50-397e-98d4-5d2fc4292fac",
-            "contentType": "STORY",
-            "title": "Scientific Industries Inc (SCND) Q3 2025 Earnings Call Highlights: Record Revenue Growth and ...",
-            "description": "",
-            "summary": "Scientific Industries Inc (SCND) reports its strongest revenue quarter of 2025, driven by strategic divestitures and innovative product launches.",
-            "pubDate": "2025-11-20T23:01:25Z",
-            "displayTime": "2025-11-20T23:01:25Z",
-            "isHosted": true,
-            "bypassModal": false,
-            "previewUrl": null,
-            "thumbnail": {
-              "originalUrl": "https://media.zenfs.com/en/us.finance.gurufocus/a97475bab3990fbce9d0cbe681bec95c",
-              "originalWidth": 400,
-              "originalHeight": 400,
-              "caption": "",
-              "resolutions": [
-                {
-                  "url": "https://s.yimg.com/uu/api/res/1.2/9tHZD0Ht_.r8gRW438cBPA--~B/aD00MDA7dz00MDA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/us.finance.gurufocus/a97475bab3990fbce9d0cbe681bec95c",
-                  "width": 400,
-                  "height": 400,
-                  "tag": "original"
-                },
-                {
-                  "url": "https://s.yimg.com/uu/api/res/1.2/.rOU1jGMPIyTESu_Wu2wxA--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/us.finance.gurufocus/a97475bab3990fbce9d0cbe681bec95c",
-                  "width": 170,
-                  "height": 128,
-                  "tag": "170x128"
-                }
-              ]
-            },
-            "provider": {
-              "displayName": "GuruFocus.com",
-              "url": "http://www.gurufocus.com/"
-            },
-            "canonicalUrl": {
-              "url": "https://finance.yahoo.com/news/scientific-industries-inc-scnd-q3-230125265.html",
-              "site": "finance",
-              "region": "US",
-              "lang": "en-US"
-            },
-            "clickThroughUrl": {
-              "url": "https://finance.yahoo.com/news/scientific-industries-inc-scnd-q3-230125265.html",
-              "site": "finance",
-              "region": "US",
-              "lang": "en-US"
-            },
-            "metadata": {
-              "editorsPick": false
-            },
-            "finance": {
-              "premiumFinance": {
-                "isPremiumNews": false,
-                "isPremiumFreeNews": false
-              }
-            },
-            "storyline": null
-          }
-        }
-      ]
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

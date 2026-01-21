@@ -1,16 +1,37 @@
 {
   "ticker": "GLOP-PA",
-  "timestamp": "2026-01-13T06:13:25.336464",
+  "timestamp": "2026-01-21T05:09:49.600382",
   "intraday_data": {
     "status": "success",
-    "rows": 1,
+    "rows": 4,
     "data": [
       {
-        "Close FMCCH": 21.309999465942383,
-        "High FMCCH": 21.309999465942383,
-        "Low FMCCH": 21.309999465942383,
-        "Open FMCCH": 21.309999465942383,
+        "Close FMCCH": 18.5,
+        "High FMCCH": 18.5,
+        "Low FMCCH": 18.5,
+        "Open FMCCH": 18.5,
         "Volume FMCCH": 0
+      },
+      {
+        "Close FMCCH": 18.25,
+        "High FMCCH": 18.25,
+        "Low FMCCH": 18.25,
+        "Open FMCCH": 18.25,
+        "Volume FMCCH": 500
+      },
+      {
+        "Close FMCCH": 18.0,
+        "High FMCCH": 18.010000228881836,
+        "Low FMCCH": 18.0,
+        "Open FMCCH": 18.010000228881836,
+        "Volume FMCCH": 200
+      },
+      {
+        "Close FMCCH": 18.0,
+        "High FMCCH": 18.0,
+        "Low FMCCH": 18.0,
+        "Open FMCCH": 18.0,
+        "Volume FMCCH": 300
       }
     ]
   },
@@ -35,7 +56,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

@@ -1,91 +1,22 @@
 {
   "ticker": "ANDR",
-  "timestamp": "2026-01-13T06:17:52.838158",
+  "timestamp": "2026-01-21T05:10:41.758138",
   "intraday_data": {
-    "status": "success",
-    "rows": 5,
-    "data": [
-      {
-        "Close WNFT": 0.0044999998062849045,
-        "High WNFT": 0.0044999998062849045,
-        "Low WNFT": 0.0044999998062849045,
-        "Open WNFT": 0.0044999998062849045,
-        "Volume WNFT": 0
-      },
-      {
-        "Close WNFT": 0.004000000189989805,
-        "High WNFT": 0.004000000189989805,
-        "Low WNFT": 0.004000000189989805,
-        "Open WNFT": 0.004000000189989805,
-        "Volume WNFT": 15000
-      },
-      {
-        "Close WNFT": 0.004000000189989805,
-        "High WNFT": 0.004000000189989805,
-        "Low WNFT": 0.004000000189989805,
-        "Open WNFT": 0.004000000189989805,
-        "Volume WNFT": 10000
-      },
-      {
-        "Close WNFT": 0.004999999888241291,
-        "High WNFT": 0.004999999888241291,
-        "Low WNFT": 0.004999999888241291,
-        "Open WNFT": 0.004999999888241291,
-        "Volume WNFT": 5000
-      },
-      {
-        "Close WNFT": 0.004100000020116568,
-        "High WNFT": 0.004100000020116568,
-        "Low WNFT": 0.004100000020116568,
-        "Open WNFT": 0.004100000020116568,
-        "Volume WNFT": 24638
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
-    "message": "Too Many Requests. Rate limited. Try after a while."
+    "message": "argument of type 'NoneType' is not iterable"
   },
   "financials": {
     "income_statement": {
-      "status": "no_data"
-    },
-    "balance_sheet": {
-      "status": "no_data"
-    },
-    "cash_flow": {
-      "status": "no_data"
-    }
-  },
-  "options_data": {
-    "status": "error",
-    "error_message": "Too Many Requests. Rate limited. Try after a while."
-  },
-  "news_data": {
-    "news": {
-      "status": "no_data"
-    },
-    "recommendations": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
-    }
-  },
-  "holders_data": {
-    "major_holders": {
-      "status": "error"
-    },
-    "institutional_holders": {
-      "status": "error"
-    }
-  },
-  "earnings_data": {
-    "earnings": {
-      "status": "error",
-      "message": "'NoneType' object has no attribute 'empty'"
-    },
-    "calendar": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
-    }
-  }
-}
+      "status": "success",
+      "rows": 42,
+      "columns": [
+        "2022-12-31 00:00:00",
+        "2021-12-31 00:00:00"
+      ],
+      "data": [
+        {
+          

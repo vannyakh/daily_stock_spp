@@ -1,9 +1,67 @@
 {
   "ticker": "AGM-PF",
-  "timestamp": "2026-01-13T06:40:40.582372",
+  "timestamp": "2026-01-21T05:14:46.814474",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 8,
+    "data": [
+      {
+        "Close AGM-PE": 21.399999618530273,
+        "High AGM-PE": 21.399999618530273,
+        "Low AGM-PE": 21.399999618530273,
+        "Open AGM-PE": 21.399999618530273,
+        "Volume AGM-PE": 1927
+      },
+      {
+        "Close AGM-PE": 21.400100708007812,
+        "High AGM-PE": 21.40999984741211,
+        "Low AGM-PE": 21.399999618530273,
+        "Open AGM-PE": 21.40999984741211,
+        "Volume AGM-PE": 3675
+      },
+      {
+        "Close AGM-PE": 21.30500030517578,
+        "High AGM-PE": 21.30500030517578,
+        "Low AGM-PE": 21.30500030517578,
+        "Open AGM-PE": 21.30500030517578,
+        "Volume AGM-PE": 510
+      },
+      {
+        "Close AGM-PE": 21.399999618530273,
+        "High AGM-PE": 21.399999618530273,
+        "Low AGM-PE": 21.399999618530273,
+        "Open AGM-PE": 21.399999618530273,
+        "Volume AGM-PE": 101
+      },
+      {
+        "Close AGM-PE": 21.399999618530273,
+        "High AGM-PE": 21.399999618530273,
+        "Low AGM-PE": 21.399999618530273,
+        "Open AGM-PE": 21.399999618530273,
+        "Volume AGM-PE": 213
+      },
+      {
+        "Close AGM-PE": 21.3700008392334,
+        "High AGM-PE": 21.3700008392334,
+        "Low AGM-PE": 21.3700008392334,
+        "Open AGM-PE": 21.3700008392334,
+        "Volume AGM-PE": 100
+      },
+      {
+        "Close AGM-PE": 21.34910011291504,
+        "High AGM-PE": 21.385900497436523,
+        "Low AGM-PE": 21.34910011291504,
+        "Open AGM-PE": 21.3700008392334,
+        "Volume AGM-PE": 2641
+      },
+      {
+        "Close AGM-PE": 21.309999465942383,
+        "High AGM-PE": 21.309999465942383,
+        "Low AGM-PE": 21.309999465942383,
+        "Open AGM-PE": 21.309999465942383,
+        "Volume AGM-PE": 178
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -11,14 +69,45 @@
   },
   "financials": {
     "income_statement": {
-      "status": "success",
-      "rows": 32,
-      "columns": [
-        "2024-12-31 00:00:00",
-        "2023-12-31 00:00:00",
-        "2022-12-31 00:00:00",
-        "2021-12-31 00:00:00"
-      ],
-      "data": [
-        {
-          
+      "status": "no_data"
+    },
+    "balance_sheet": {
+      "status": "no_data"
+    },
+    "cash_flow": {
+      "status": "no_data"
+    }
+  },
+  "options_data": {
+    "status": "error",
+    "error_message": "Too Many Requests. Rate limited. Try after a while."
+  },
+  "news_data": {
+    "news": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    },
+    "recommendations": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  },
+  "holders_data": {
+    "major_holders": {
+      "status": "error"
+    },
+    "institutional_holders": {
+      "status": "error"
+    }
+  },
+  "earnings_data": {
+    "earnings": {
+      "status": "error",
+      "message": "'NoneType' object has no attribute 'empty'"
+    },
+    "calendar": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  }
+}

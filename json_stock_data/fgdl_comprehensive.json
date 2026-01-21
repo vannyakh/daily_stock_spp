@@ -1,13 +1,85 @@
 {
   "ticker": "FGDL",
-  "timestamp": "2026-01-13T06:06:40.026522",
+  "timestamp": "2026-01-21T05:08:35.483684",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 10,
+    "data": [
+      {
+        "Close GLIV": 2.7799999713897705,
+        "High GLIV": 2.7799999713897705,
+        "Low GLIV": 2.7799999713897705,
+        "Open GLIV": 2.7799999713897705,
+        "Volume GLIV": 0
+      },
+      {
+        "Close GLIV": 2.6600000858306885,
+        "High GLIV": 2.6600000858306885,
+        "Low GLIV": 2.6600000858306885,
+        "Open GLIV": 2.6600000858306885,
+        "Volume GLIV": 125
+      },
+      {
+        "Close GLIV": 2.6600000858306885,
+        "High GLIV": 2.6600000858306885,
+        "Low GLIV": 2.6600000858306885,
+        "Open GLIV": 2.6600000858306885,
+        "Volume GLIV": 200
+      },
+      {
+        "Close GLIV": 2.630000114440918,
+        "High GLIV": 2.640000104904175,
+        "Low GLIV": 2.630000114440918,
+        "Open GLIV": 2.640000104904175,
+        "Volume GLIV": 200
+      },
+      {
+        "Close GLIV": 2.5999999046325684,
+        "High GLIV": 2.5999999046325684,
+        "Low GLIV": 2.5999999046325684,
+        "Open GLIV": 2.5999999046325684,
+        "Volume GLIV": 100
+      },
+      {
+        "Close GLIV": 2.559999942779541,
+        "High GLIV": 2.559999942779541,
+        "Low GLIV": 2.559999942779541,
+        "Open GLIV": 2.559999942779541,
+        "Volume GLIV": 100
+      },
+      {
+        "Close GLIV": 2.549999952316284,
+        "High GLIV": 2.549999952316284,
+        "Low GLIV": 2.549999952316284,
+        "Open GLIV": 2.549999952316284,
+        "Volume GLIV": 100
+      },
+      {
+        "Close GLIV": 2.440000057220459,
+        "High GLIV": 2.440000057220459,
+        "Low GLIV": 2.440000057220459,
+        "Open GLIV": 2.440000057220459,
+        "Volume GLIV": 1
+      },
+      {
+        "Close GLIV": 2.4200000762939453,
+        "High GLIV": 2.4200000762939453,
+        "Low GLIV": 2.4200000762939453,
+        "Open GLIV": 2.4200000762939453,
+        "Volume GLIV": 200
+      },
+      {
+        "Close GLIV": 2.4200000762939453,
+        "High GLIV": 2.4200000762939453,
+        "Low GLIV": 2.4200000762939453,
+        "Open GLIV": 2.4200000762939453,
+        "Volume GLIV": 100
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
-    "message": "Too Many Requests. Rate limited. Try after a while."
+    "message": "argument of type 'NoneType' is not iterable"
   },
   "financials": {
     "income_statement": {
@@ -26,7 +98,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

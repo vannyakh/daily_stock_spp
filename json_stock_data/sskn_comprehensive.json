@@ -1,9 +1,10 @@
 {
   "ticker": "SSKN",
-  "timestamp": "2026-01-13T05:49:45.214517",
+  "timestamp": "2026-01-21T05:05:32.828637",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 0,
+    "data": []
   },
   "stock_info": {
     "status": "error",
@@ -11,8 +12,14 @@
   },
   "financials": {
     "income_statement": {
+      "status": "no_data"
+    },
+    "balance_sheet": {
+      "status": "no_data"
+    },
+    "cash_flow": {
       "status": "success",
-      "rows": 47,
+      "rows": 52,
       "columns": [
         "2024-12-31 00:00:00",
         "2023-12-31 00:00:00",

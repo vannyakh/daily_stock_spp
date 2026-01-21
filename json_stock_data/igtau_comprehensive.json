@@ -1,9 +1,25 @@
 {
   "ticker": "IGTAU",
-  "timestamp": "2026-01-13T06:30:55.793925",
+  "timestamp": "2026-01-21T05:13:04.333334",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 2,
+    "data": [
+      {
+        "Close IGTAR": 0.2770000100135803,
+        "High IGTAR": 0.2770000100135803,
+        "Low IGTAR": 0.2770000100135803,
+        "Open IGTAR": 0.2770000100135803,
+        "Volume IGTAR": 0
+      },
+      {
+        "Close IGTAR": 0.2770000100135803,
+        "High IGTAR": 0.2770000100135803,
+        "Low IGTAR": 0.2770000100135803,
+        "Open IGTAR": 0.2770000100135803,
+        "Volume IGTAR": 2500
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -26,7 +42,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

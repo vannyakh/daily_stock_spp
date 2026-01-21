@@ -1,10 +1,23 @@
 {
   "ticker": "FROPX",
-  "timestamp": "2026-01-13T06:31:58.189635",
+  "timestamp": "2026-01-21T05:13:15.293752",
   "intraday_data": {
     "status": "success",
-    "rows": 0,
-    "data": []
+    "rows": 1,
+    "data": [
+      {
+        "Close ALTG-PA": 25.100000381469727,
+        "Close": 16.06999969482422,
+        "High ALTG-PA": 25.100000381469727,
+        "High": 16.06999969482422,
+        "Low ALTG-PA": 25.100000381469727,
+        "Low": 16.06999969482422,
+        "Open ALTG-PA": 25.100000381469727,
+        "Open": 16.06999969482422,
+        "Volume ALTG-PA": 1211,
+        "Volume": 0.0
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -27,7 +40,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

@@ -1,9 +1,23 @@
 {
   "ticker": "VWFB",
-  "timestamp": "2026-01-13T05:43:27.206622",
+  "timestamp": "2026-01-21T05:04:22.251218",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 1,
+    "data": [
+      {
+        "Close BCAB": 0.328000009059906,
+        "Close": 12.289999961853027,
+        "High BCAB": 0.328000009059906,
+        "High": 12.289999961853027,
+        "Low BCAB": 0.328000009059906,
+        "Low": 12.289999961853027,
+        "Open BCAB": 0.328000009059906,
+        "Open": 12.289999961853027,
+        "Volume BCAB": 236,
+        "Volume": 0.0
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -26,7 +40,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

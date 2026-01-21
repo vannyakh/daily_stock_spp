@@ -1,9 +1,18 @@
 {
   "ticker": "RFAI",
-  "timestamp": "2026-01-13T05:26:12.154110",
+  "timestamp": "2026-01-21T05:00:46.312181",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 1,
+    "data": [
+      {
+        "Close": 10.770000457763672,
+        "High": 10.770000457763672,
+        "Low": 10.770000457763672,
+        "Open": 10.770000457763672,
+        "Volume": 0
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -93,16 +102,15 @@
       ]
     },
     "recommendations": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
+      "status": "no_data"
     }
   },
   "holders_data": {
     "major_holders": {
-      "status": "error"
+      "status": "no_data"
     },
     "institutional_holders": {
-      "status": "error"
+      "status": "no_data"
     }
   },
   "earnings_data": {

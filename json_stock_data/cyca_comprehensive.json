@@ -1,88 +1,10 @@
 {
   "ticker": "CYCA",
-  "timestamp": "2026-01-13T05:50:46.987195",
+  "timestamp": "2026-01-21T05:05:44.599777",
   "intraday_data": {
     "status": "success",
-    "rows": 11,
-    "data": [
-      {
-        "Close IONI": 0.6299999952316284,
-        "High IONI": 0.6299999952316284,
-        "Low IONI": 0.6299999952316284,
-        "Open IONI": 0.6299999952316284,
-        "Volume IONI": 0
-      },
-      {
-        "Close IONI": 0.5799999833106995,
-        "High IONI": 0.5799999833106995,
-        "Low IONI": 0.5799999833106995,
-        "Open IONI": 0.5799999833106995,
-        "Volume IONI": 1000
-      },
-      {
-        "Close IONI": 0.5699999928474426,
-        "High IONI": 0.5699999928474426,
-        "Low IONI": 0.5699999928474426,
-        "Open IONI": 0.5699999928474426,
-        "Volume IONI": 1000
-      },
-      {
-        "Close IONI": 0.550000011920929,
-        "High IONI": 0.5699999928474426,
-        "Low IONI": 0.550000011920929,
-        "Open IONI": 0.5699999928474426,
-        "Volume IONI": 30000
-      },
-      {
-        "Close IONI": 0.5600000023841858,
-        "High IONI": 0.5600000023841858,
-        "Low IONI": 0.5600000023841858,
-        "Open IONI": 0.5600000023841858,
-        "Volume IONI": 1000
-      },
-      {
-        "Close IONI": 0.550000011920929,
-        "High IONI": 0.550000011920929,
-        "Low IONI": 0.550000011920929,
-        "Open IONI": 0.550000011920929,
-        "Volume IONI": 1000
-      },
-      {
-        "Close IONI": 0.550000011920929,
-        "High IONI": 0.550000011920929,
-        "Low IONI": 0.550000011920929,
-        "Open IONI": 0.550000011920929,
-        "Volume IONI": 4730
-      },
-      {
-        "Close IONI": 0.5699999928474426,
-        "High IONI": 0.5699999928474426,
-        "Low IONI": 0.5699999928474426,
-        "Open IONI": 0.5699999928474426,
-        "Volume IONI": 1200
-      },
-      {
-        "Close IONI": 0.5699999928474426,
-        "High IONI": 0.5699999928474426,
-        "Low IONI": 0.5699999928474426,
-        "Open IONI": 0.5699999928474426,
-        "Volume IONI": 1000
-      },
-      {
-        "Close IONI": 0.5699999928474426,
-        "High IONI": 0.5699999928474426,
-        "Low IONI": 0.5699999928474426,
-        "Open IONI": 0.5699999928474426,
-        "Volume IONI": 2800
-      },
-      {
-        "Close IONI": 0.5699999928474426,
-        "High IONI": 0.5699999928474426,
-        "Low IONI": 0.5699999928474426,
-        "Open IONI": 0.5699999928474426,
-        "Volume IONI": 24200
-      }
-    ]
+    "rows": 0,
+    "data": []
   },
   "stock_info": {
     "status": "error",
@@ -90,14 +12,45 @@
   },
   "financials": {
     "income_statement": {
-      "status": "success",
-      "rows": 50,
-      "columns": [
-        "2024-09-30 00:00:00",
-        "2023-09-30 00:00:00",
-        "2022-09-30 00:00:00",
-        "2021-09-30 00:00:00"
-      ],
-      "data": [
-        {
-          
+      "status": "no_data"
+    },
+    "balance_sheet": {
+      "status": "no_data"
+    },
+    "cash_flow": {
+      "status": "no_data"
+    }
+  },
+  "options_data": {
+    "status": "error",
+    "error_message": "Too Many Requests. Rate limited. Try after a while."
+  },
+  "news_data": {
+    "news": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    },
+    "recommendations": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  },
+  "holders_data": {
+    "major_holders": {
+      "status": "error"
+    },
+    "institutional_holders": {
+      "status": "error"
+    }
+  },
+  "earnings_data": {
+    "earnings": {
+      "status": "error",
+      "message": "'NoneType' object has no attribute 'empty'"
+    },
+    "calendar": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  }
+}

@@ -1,9 +1,46 @@
 {
   "ticker": "RWAYL",
-  "timestamp": "2026-01-13T06:32:46.053774",
+  "timestamp": "2026-01-21T05:13:23.847856",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 5,
+    "data": [
+      {
+        "Close": 25.31999969482422,
+        "High": 25.31999969482422,
+        "Low": 25.315000534057617,
+        "Open": 25.31999969482422,
+        "Volume": 0
+      },
+      {
+        "Close": 25.315399169921875,
+        "High": 25.315399169921875,
+        "Low": 25.315399169921875,
+        "Open": 25.315399169921875,
+        "Volume": 294
+      },
+      {
+        "Close": 25.30620002746582,
+        "High": 25.30620002746582,
+        "Low": 25.30620002746582,
+        "Open": 25.30620002746582,
+        "Volume": 253
+      },
+      {
+        "Close": 25.303800582885742,
+        "High": 25.303800582885742,
+        "Low": 25.303800582885742,
+        "Open": 25.303800582885742,
+        "Volume": 390
+      },
+      {
+        "Close": 25.319900512695312,
+        "High": 25.31999969482422,
+        "Low": 25.319900512695312,
+        "Open": 25.31999969482422,
+        "Volume": 4098
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -26,7 +63,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

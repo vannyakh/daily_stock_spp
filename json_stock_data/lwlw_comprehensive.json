@@ -1,9 +1,25 @@
 {
   "ticker": "LWLW",
-  "timestamp": "2026-01-13T06:16:42.226327",
+  "timestamp": "2026-01-21T05:10:27.367877",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 2,
+    "data": [
+      {
+        "Close TGCB": 0.07000000029802322,
+        "High TGCB": 0.07000000029802322,
+        "Low TGCB": 0.07000000029802322,
+        "Open TGCB": 0.07000000029802322,
+        "Volume TGCB": 0
+      },
+      {
+        "Close TGCB": 0.07800000160932541,
+        "High TGCB": 0.07800000160932541,
+        "Low TGCB": 0.07800000160932541,
+        "Open TGCB": 0.07800000160932541,
+        "Volume TGCB": 17625
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -26,7 +42,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

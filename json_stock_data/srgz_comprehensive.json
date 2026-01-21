@@ -1,39 +1,9 @@
 {
   "ticker": "SRGZ",
-  "timestamp": "2026-01-13T05:59:30.180331",
+  "timestamp": "2026-01-21T05:07:18.157432",
   "intraday_data": {
-    "status": "success",
-    "rows": 4,
-    "data": [
-      {
-        "Close": 0.06989999860525131,
-        "High": 0.06989999860525131,
-        "Low": 0.06989999860525131,
-        "Open": 0.06989999860525131,
-        "Volume": 0
-      },
-      {
-        "Close": 0.06989999860525131,
-        "High": 0.06989999860525131,
-        "Low": 0.06989999860525131,
-        "Open": 0.06989999860525131,
-        "Volume": 4961
-      },
-      {
-        "Close": 0.06989999860525131,
-        "High": 0.06989999860525131,
-        "Low": 0.06989999860525131,
-        "Open": 0.06989999860525131,
-        "Volume": 10000
-      },
-      {
-        "Close": 0.06989999860525131,
-        "High": 0.06989999860525131,
-        "Low": 0.06989999860525131,
-        "Open": 0.06989999860525131,
-        "Volume": 13400
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -51,11 +21,13 @@
     }
   },
   "options_data": {
-    "expirations": []
+    "status": "error",
+    "error_message": "Too Many Requests. Rate limited. Try after a while."
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

@@ -1,32 +1,9 @@
 {
   "ticker": "EP-PC",
-  "timestamp": "2026-01-13T06:37:19.463560",
+  "timestamp": "2026-01-21T05:14:09.981250",
   "intraday_data": {
-    "status": "success",
-    "rows": 3,
-    "data": [
-      {
-        "Close": 49.209999084472656,
-        "High": 49.209999084472656,
-        "Low": 49.209999084472656,
-        "Open": 49.209999084472656,
-        "Volume": 0
-      },
-      {
-        "Close": 49.29999923706055,
-        "High": 49.29999923706055,
-        "Low": 49.29999923706055,
-        "Open": 49.29999923706055,
-        "Volume": 224
-      },
-      {
-        "Close": 49.29999923706055,
-        "High": 49.29999923706055,
-        "Low": 49.29999923706055,
-        "Open": 49.29999923706055,
-        "Volume": 178
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -49,7 +26,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

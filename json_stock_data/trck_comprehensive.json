@@ -1,32 +1,9 @@
 {
   "ticker": "TRCK",
-  "timestamp": "2026-01-13T05:59:19.659361",
+  "timestamp": "2026-01-21T05:07:16.481968",
   "intraday_data": {
-    "status": "success",
-    "rows": 3,
-    "data": [
-      {
-        "Close FMNJ": 0.0017999999690800905,
-        "High FMNJ": 0.0017999999690800905,
-        "Low FMNJ": 0.0017999999690800905,
-        "Open FMNJ": 0.0017999999690800905,
-        "Volume FMNJ": 0
-      },
-      {
-        "Close FMNJ": 0.0020000000949949026,
-        "High FMNJ": 0.0020000000949949026,
-        "Low FMNJ": 0.0020000000949949026,
-        "Open FMNJ": 0.0020000000949949026,
-        "Volume FMNJ": 10000
-      },
-      {
-        "Close FMNJ": 0.0020000000949949026,
-        "High FMNJ": 0.0020000000949949026,
-        "Low FMNJ": 0.0020000000949949026,
-        "Open FMNJ": 0.0020000000949949026,
-        "Volume FMNJ": 10000
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -49,7 +26,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

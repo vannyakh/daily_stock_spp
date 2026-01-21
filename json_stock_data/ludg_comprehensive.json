@@ -1,53 +1,9 @@
 {
   "ticker": "LUDG",
-  "timestamp": "2026-01-13T05:43:53.698895",
+  "timestamp": "2026-01-21T05:04:27.742966",
   "intraday_data": {
-    "status": "success",
-    "rows": 6,
-    "data": [
-      {
-        "Close HMBL": 9.999999747378752e-05,
-        "High HMBL": 9.999999747378752e-05,
-        "Low HMBL": 9.999999747378752e-05,
-        "Open HMBL": 9.999999747378752e-05,
-        "Volume HMBL": 0
-      },
-      {
-        "Close HMBL": 9.999999747378752e-05,
-        "High HMBL": 9.999999747378752e-05,
-        "Low HMBL": 9.999999747378752e-05,
-        "Open HMBL": 9.999999747378752e-05,
-        "Volume HMBL": 25000000
-      },
-      {
-        "Close HMBL": 9.999999747378752e-05,
-        "High HMBL": 9.999999747378752e-05,
-        "Low HMBL": 9.999999747378752e-05,
-        "Open HMBL": 9.999999747378752e-05,
-        "Volume HMBL": 25000000
-      },
-      {
-        "Close HMBL": 9.999999747378752e-05,
-        "High HMBL": 9.999999747378752e-05,
-        "Low HMBL": 9.999999747378752e-05,
-        "Open HMBL": 9.999999747378752e-05,
-        "Volume HMBL": 13
-      },
-      {
-        "Close HMBL": 9.999999747378752e-05,
-        "High HMBL": 9.999999747378752e-05,
-        "Low HMBL": 9.999999747378752e-05,
-        "Open HMBL": 9.999999747378752e-05,
-        "Volume HMBL": 25000000
-      },
-      {
-        "Close HMBL": 0.00019999999494757503,
-        "High HMBL": 0.00019999999494757503,
-        "Low HMBL": 0.00019999999494757503,
-        "Open HMBL": 0.00019999999494757503,
-        "Volume HMBL": 1
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -70,7 +26,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

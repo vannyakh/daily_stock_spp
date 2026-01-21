@@ -1,23 +1,9 @@
 {
   "ticker": "TFSA",
-  "timestamp": "2026-01-13T06:03:58.070904",
+  "timestamp": "2026-01-21T05:08:06.588474",
   "intraday_data": {
-    "status": "success",
-    "rows": 1,
-    "data": [
-      {
-        "Close PPLT": 211.6199951171875,
-        "Close": 24.979999542236328,
-        "High PPLT": 212.0500030517578,
-        "High": 24.979999542236328,
-        "Low PPLT": 211.6199951171875,
-        "Low": 24.979999542236328,
-        "Open PPLT": 211.86830139160156,
-        "Open": 24.979999542236328,
-        "Volume PPLT": 5853,
-        "Volume": 0.0
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -40,7 +26,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

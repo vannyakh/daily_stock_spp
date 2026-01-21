@@ -1,23 +1,23 @@
 {
   "ticker": "BNPQF",
-  "timestamp": "2026-01-13T06:08:01.976903",
+  "timestamp": "2026-01-21T05:08:49.786226",
   "intraday_data": {
     "status": "success",
     "rows": 2,
     "data": [
       {
-        "Close": 102.08000183105469,
-        "High": 102.08000183105469,
-        "Low": 102.08000183105469,
-        "Open": 102.08000183105469,
-        "Volume": 0
+        "Close TOELF": 260.0,
+        "High TOELF": 260.0,
+        "Low TOELF": 260.0,
+        "Open TOELF": 260.0,
+        "Volume TOELF": 0
       },
       {
-        "Close": 102.08000183105469,
-        "High": 102.08000183105469,
-        "Low": 102.08000183105469,
-        "Open": 102.08000183105469,
-        "Volume": 148
+        "Close TOELF": 255.0,
+        "High TOELF": 255.0,
+        "Low TOELF": 255.0,
+        "Open TOELF": 255.0,
+        "Volume TOELF": 3
       }
     ]
   },
@@ -33,14 +33,39 @@
       "status": "no_data"
     },
     "cash_flow": {
-      "status": "success",
-      "rows": 23,
-      "columns": [
-        "2024-12-31 00:00:00",
-        "2023-12-31 00:00:00",
-        "2022-12-31 00:00:00",
-        "2021-12-31 00:00:00"
-      ],
-      "data": [
-        {
-          
+      "status": "no_data"
+    }
+  },
+  "options_data": {
+    "status": "error",
+    "error_message": "Too Many Requests. Rate limited. Try after a while."
+  },
+  "news_data": {
+    "news": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    },
+    "recommendations": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  },
+  "holders_data": {
+    "major_holders": {
+      "status": "error"
+    },
+    "institutional_holders": {
+      "status": "error"
+    }
+  },
+  "earnings_data": {
+    "earnings": {
+      "status": "error",
+      "message": "'NoneType' object has no attribute 'empty'"
+    },
+    "calendar": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  }
+}

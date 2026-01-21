@@ -1,9 +1,39 @@
 {
   "ticker": "SPTY",
-  "timestamp": "2026-01-13T06:16:21.054817",
+  "timestamp": "2026-01-21T05:10:22.932587",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 4,
+    "data": [
+      {
+        "Close": 0.09939999878406525,
+        "High": 0.09939999878406525,
+        "Low": 0.09939999878406525,
+        "Open": 0.09939999878406525,
+        "Volume": 0
+      },
+      {
+        "Close": 0.07850000262260437,
+        "High": 0.07850000262260437,
+        "Low": 0.07850000262260437,
+        "Open": 0.07850000262260437,
+        "Volume": 2000
+      },
+      {
+        "Close": 0.07500000298023224,
+        "High": 0.07500000298023224,
+        "Low": 0.07500000298023224,
+        "Open": 0.07500000298023224,
+        "Volume": 2000
+      },
+      {
+        "Close": 0.07800000160932541,
+        "High": 0.07800000160932541,
+        "Low": 0.07800000160932541,
+        "Open": 0.07800000160932541,
+        "Volume": 2000
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -26,7 +56,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

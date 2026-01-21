@@ -1,25 +1,9 @@
 {
   "ticker": "GJT",
-  "timestamp": "2026-01-13T06:03:45.443908",
+  "timestamp": "2026-01-21T05:08:04.439774",
   "intraday_data": {
-    "status": "success",
-    "rows": 2,
-    "data": [
-      {
-        "Close": 22.899999618530273,
-        "High": 22.899999618530273,
-        "Low": 22.899999618530273,
-        "Open": 22.899999618530273,
-        "Volume": 0
-      },
-      {
-        "Close": 22.899900436401367,
-        "High": 22.899999618530273,
-        "Low": 22.889999389648438,
-        "Open": 22.889999389648438,
-        "Volume": 4142
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -42,7 +26,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

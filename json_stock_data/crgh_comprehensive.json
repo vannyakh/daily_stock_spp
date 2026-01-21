@@ -1,46 +1,9 @@
 {
   "ticker": "CRGH",
-  "timestamp": "2026-01-13T05:59:49.858133",
+  "timestamp": "2026-01-21T05:07:21.733933",
   "intraday_data": {
-    "status": "success",
-    "rows": 5,
-    "data": [
-      {
-        "Close UK": 0.8199999928474426,
-        "High UK": 0.8199999928474426,
-        "Low UK": 0.8199999928474426,
-        "Open UK": 0.8199999928474426,
-        "Volume UK": 0
-      },
-      {
-        "Close UK": 0.8198999762535095,
-        "High UK": 0.8198999762535095,
-        "Low UK": 0.8198999762535095,
-        "Open UK": 0.8198999762535095,
-        "Volume UK": 593
-      },
-      {
-        "Close UK": 0.8199999928474426,
-        "High UK": 0.8199999928474426,
-        "Low UK": 0.8199999928474426,
-        "Open UK": 0.8199999928474426,
-        "Volume UK": 1000
-      },
-      {
-        "Close UK": 0.8148999810218811,
-        "High UK": 0.8148999810218811,
-        "Low UK": 0.8148999810218811,
-        "Open UK": 0.8148999810218811,
-        "Volume UK": 400
-      },
-      {
-        "Close UK": 0.7549999952316284,
-        "High UK": 0.760699987411499,
-        "Low UK": 0.7504000067710876,
-        "Open UK": 0.760699987411499,
-        "Volume UK": 2504
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -63,7 +26,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

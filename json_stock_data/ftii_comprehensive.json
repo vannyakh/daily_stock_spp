@@ -1,9 +1,39 @@
 {
   "ticker": "FTII",
-  "timestamp": "2026-01-13T05:38:19.668141",
+  "timestamp": "2026-01-21T05:03:26.636600",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 4,
+    "data": [
+      {
+        "Close CLST": 15.760000228881836,
+        "High CLST": 15.819999694824219,
+        "Low CLST": 15.760000228881836,
+        "Open CLST": 15.819999694824219,
+        "Volume CLST": 0
+      },
+      {
+        "Close CLST": 15.599900245666504,
+        "High CLST": 15.599900245666504,
+        "Low CLST": 15.599900245666504,
+        "Open CLST": 15.599900245666504,
+        "Volume CLST": 658
+      },
+      {
+        "Close CLST": 15.803999900817871,
+        "High CLST": 15.803999900817871,
+        "Low CLST": 15.803999900817871,
+        "Open CLST": 15.803999900817871,
+        "Volume CLST": 1045
+      },
+      {
+        "Close CLST": 15.600000381469727,
+        "High CLST": 15.600000381469727,
+        "Low CLST": 15.600000381469727,
+        "Open CLST": 15.600000381469727,
+        "Volume CLST": 531
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -26,7 +56,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

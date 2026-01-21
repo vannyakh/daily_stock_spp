@@ -1,9 +1,53 @@
 {
   "ticker": "RWTO",
-  "timestamp": "2026-01-13T06:34:54.442971",
+  "timestamp": "2026-01-21T05:13:43.591266",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 6,
+    "data": [
+      {
+        "Close RWTN": 25.209999084472656,
+        "High RWTN": 25.209999084472656,
+        "Low RWTN": 25.209999084472656,
+        "Open RWTN": 25.209999084472656,
+        "Volume RWTN": 0
+      },
+      {
+        "Close RWTN": 25.100000381469727,
+        "High RWTN": 25.100000381469727,
+        "Low RWTN": 25.100000381469727,
+        "Open RWTN": 25.100000381469727,
+        "Volume RWTN": 183
+      },
+      {
+        "Close RWTN": 25.149999618530273,
+        "High RWTN": 25.149999618530273,
+        "Low RWTN": 25.149999618530273,
+        "Open RWTN": 25.149999618530273,
+        "Volume RWTN": 100
+      },
+      {
+        "Close RWTN": 25.18000030517578,
+        "High RWTN": 25.18000030517578,
+        "Low RWTN": 25.17799949645996,
+        "Open RWTN": 25.17799949645996,
+        "Volume RWTN": 1180
+      },
+      {
+        "Close RWTN": 25.18000030517578,
+        "High RWTN": 25.18000030517578,
+        "Low RWTN": 25.149999618530273,
+        "Open RWTN": 25.149999618530273,
+        "Volume RWTN": 491
+      },
+      {
+        "Close RWTN": 25.18000030517578,
+        "High RWTN": 25.18000030517578,
+        "Low RWTN": 25.18000030517578,
+        "Open RWTN": 25.18000030517578,
+        "Volume RWTN": 200
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -26,7 +70,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

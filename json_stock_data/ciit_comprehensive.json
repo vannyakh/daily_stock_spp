@@ -1,60 +1,9 @@
 {
   "ticker": "CIIT",
-  "timestamp": "2026-01-13T05:37:03.492509",
+  "timestamp": "2026-01-21T05:03:12.037199",
   "intraday_data": {
-    "status": "success",
-    "rows": 7,
-    "data": [
-      {
-        "Close SELX": 0.8199999928474426,
-        "High SELX": 0.8199999928474426,
-        "Low SELX": 0.8199999928474426,
-        "Open SELX": 0.8199999928474426,
-        "Volume SELX": 284
-      },
-      {
-        "Close SELX": 0.8314999938011169,
-        "High SELX": 0.8314999938011169,
-        "Low SELX": 0.8314999938011169,
-        "Open SELX": 0.8314999938011169,
-        "Volume SELX": 2001
-      },
-      {
-        "Close SELX": 0.8429999947547913,
-        "High SELX": 0.8429999947547913,
-        "Low SELX": 0.8314999938011169,
-        "Open SELX": 0.8314999938011169,
-        "Volume SELX": 3215
-      },
-      {
-        "Close SELX": 0.8554999828338623,
-        "High SELX": 0.8554999828338623,
-        "Low SELX": 0.8554999828338623,
-        "Open SELX": 0.8554999828338623,
-        "Volume SELX": 1820
-      },
-      {
-        "Close SELX": 0.8281000256538391,
-        "High SELX": 0.8281000256538391,
-        "Low SELX": 0.8281000256538391,
-        "Open SELX": 0.8281000256538391,
-        "Volume SELX": 442
-      },
-      {
-        "Close SELX": 0.8715000152587891,
-        "High SELX": 0.8715000152587891,
-        "Low SELX": 0.8715000152587891,
-        "Open SELX": 0.8715000152587891,
-        "Volume SELX": 2655
-      },
-      {
-        "Close SELX": 0.859499990940094,
-        "High SELX": 0.859499990940094,
-        "Low SELX": 0.859499990940094,
-        "Open SELX": 0.859499990940094,
-        "Volume SELX": 442
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -77,7 +26,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

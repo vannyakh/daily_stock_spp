@@ -1,13 +1,22 @@
 {
   "ticker": "PMFAX",
-  "timestamp": "2026-01-13T06:41:32.831530",
+  "timestamp": "2026-01-21T05:14:56.925010",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 1,
+    "data": [
+      {
+        "Close": 10.119999885559082,
+        "High": 10.119999885559082,
+        "Low": 10.119999885559082,
+        "Open": 10.119999885559082,
+        "Volume": 0
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
-    "message": "Too Many Requests. Rate limited. Try after a while."
+    "message": "argument of type 'NoneType' is not iterable"
   },
   "financials": {
     "income_statement": {
@@ -26,7 +35,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

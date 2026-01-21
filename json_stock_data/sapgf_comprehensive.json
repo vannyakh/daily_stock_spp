@@ -1,23 +1,30 @@
 {
   "ticker": "SAPGF",
-  "timestamp": "2026-01-13T06:07:23.842365",
+  "timestamp": "2026-01-21T05:08:43.236827",
   "intraday_data": {
     "status": "success",
-    "rows": 2,
+    "rows": 3,
     "data": [
       {
-        "Close": 248.0,
-        "High": 248.0,
-        "Low": 248.0,
-        "Open": 248.0,
+        "Close": 226.25,
+        "High": 226.25,
+        "Low": 226.25,
+        "Open": 226.25,
         "Volume": 0
       },
       {
-        "Close": 248.39999389648438,
-        "High": 248.39999389648438,
-        "Low": 248.39999389648438,
-        "Open": 248.39999389648438,
-        "Volume": 1000
+        "Close": 226.47999572753906,
+        "High": 226.47999572753906,
+        "Low": 226.47999572753906,
+        "Open": 226.47999572753906,
+        "Volume": 47
+      },
+      {
+        "Close": 227.0,
+        "High": 227.0,
+        "Low": 227.0,
+        "Open": 227.0,
+        "Volume": 30
       }
     ]
   },
@@ -33,14 +40,39 @@
       "status": "no_data"
     },
     "cash_flow": {
-      "status": "success",
-      "rows": 54,
-      "columns": [
-        "2024-12-31 00:00:00",
-        "2023-12-31 00:00:00",
-        "2022-12-31 00:00:00",
-        "2021-12-31 00:00:00"
-      ],
-      "data": [
-        {
-          
+      "status": "no_data"
+    }
+  },
+  "options_data": {
+    "status": "error",
+    "error_message": "Too Many Requests. Rate limited. Try after a while."
+  },
+  "news_data": {
+    "news": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    },
+    "recommendations": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  },
+  "holders_data": {
+    "major_holders": {
+      "status": "error"
+    },
+    "institutional_holders": {
+      "status": "error"
+    }
+  },
+  "earnings_data": {
+    "earnings": {
+      "status": "error",
+      "message": "'NoneType' object has no attribute 'empty'"
+    },
+    "calendar": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  }
+}

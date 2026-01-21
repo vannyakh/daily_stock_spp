@@ -1,9 +1,25 @@
 {
   "ticker": "ELYS",
-  "timestamp": "2026-01-13T06:03:13.553034",
+  "timestamp": "2026-01-21T05:07:57.065925",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 2,
+    "data": [
+      {
+        "Close CUEN": 0.0012000000569969416,
+        "High CUEN": 0.0012000000569969416,
+        "Low CUEN": 0.0012000000569969416,
+        "Open CUEN": 0.0012000000569969416,
+        "Volume CUEN": 0
+      },
+      {
+        "Close CUEN": 0.25,
+        "High CUEN": 0.25,
+        "Low CUEN": 0.25,
+        "Open CUEN": 0.25,
+        "Volume CUEN": 105
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -26,7 +42,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

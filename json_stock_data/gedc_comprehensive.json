@@ -1,25 +1,9 @@
 {
   "ticker": "GEDC",
-  "timestamp": "2026-01-13T05:41:33.964870",
+  "timestamp": "2026-01-21T05:04:01.259120",
   "intraday_data": {
-    "status": "success",
-    "rows": 2,
-    "data": [
-      {
-        "Close": 0.2590999901294708,
-        "High": 0.2590999901294708,
-        "Low": 0.2590999901294708,
-        "Open": 0.2590999901294708,
-        "Volume": 0
-      },
-      {
-        "Close": 0.2281000018119812,
-        "High": 0.2281000018119812,
-        "Low": 0.2281000018119812,
-        "Open": 0.2281000018119812,
-        "Volume": 7500
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -42,7 +26,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

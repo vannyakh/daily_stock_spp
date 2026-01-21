@@ -1,9 +1,39 @@
 {
   "ticker": "PYN",
-  "timestamp": "2026-01-13T05:42:17.719299",
+  "timestamp": "2026-01-21T05:04:08.229208",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 4,
+    "data": [
+      {
+        "Close BIOF": 0.16110000014305115,
+        "High BIOF": 0.16110000014305115,
+        "Low BIOF": 0.16110000014305115,
+        "Open BIOF": 0.16110000014305115,
+        "Volume BIOF": 0
+      },
+      {
+        "Close BIOF": 0.16110000014305115,
+        "High BIOF": 0.16110000014305115,
+        "Low BIOF": 0.16110000014305115,
+        "Open BIOF": 0.16110000014305115,
+        "Volume BIOF": 2499
+      },
+      {
+        "Close BIOF": 0.16110000014305115,
+        "High BIOF": 0.16110000014305115,
+        "Low BIOF": 0.16110000014305115,
+        "Open BIOF": 0.16110000014305115,
+        "Volume BIOF": 2500
+      },
+      {
+        "Close BIOF": 0.15710000693798065,
+        "High BIOF": 0.15710000693798065,
+        "Low BIOF": 0.15710000693798065,
+        "Open BIOF": 0.15710000693798065,
+        "Volume BIOF": 2490
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -26,7 +56,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

@@ -1,25 +1,10 @@
 {
   "ticker": "DROR",
-  "timestamp": "2026-01-13T05:49:55.700317",
+  "timestamp": "2026-01-21T05:05:34.981089",
   "intraday_data": {
     "status": "success",
-    "rows": 2,
-    "data": [
-      {
-        "Close": 0.014999999664723873,
-        "High": 0.014999999664723873,
-        "Low": 0.014999999664723873,
-        "Open": 0.014999999664723873,
-        "Volume": 0
-      },
-      {
-        "Close": 0.00800000037997961,
-        "High": 0.00800000037997961,
-        "Low": 0.00800000037997961,
-        "Open": 0.00800000037997961,
-        "Volume": 29299
-      }
-    ]
+    "rows": 0,
+    "data": []
   },
   "stock_info": {
     "status": "error",
@@ -42,7 +27,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

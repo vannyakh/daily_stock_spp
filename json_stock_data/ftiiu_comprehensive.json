@@ -1,9 +1,32 @@
 {
   "ticker": "FTIIU",
-  "timestamp": "2026-01-13T06:30:14.277746",
+  "timestamp": "2026-01-21T05:12:56.615085",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 3,
+    "data": [
+      {
+        "Close SVREW": 0.01810000091791153,
+        "High SVREW": 0.01810000091791153,
+        "Low SVREW": 0.01810000091791153,
+        "Open SVREW": 0.01810000091791153,
+        "Volume SVREW": 0
+      },
+      {
+        "Close SVREW": 0.017899999395012856,
+        "High SVREW": 0.017899999395012856,
+        "Low SVREW": 0.017899999395012856,
+        "Open SVREW": 0.017899999395012856,
+        "Volume SVREW": 416
+      },
+      {
+        "Close SVREW": 0.014499999582767487,
+        "High SVREW": 0.018200000748038292,
+        "Low SVREW": 0.014499999582767487,
+        "Open SVREW": 0.018200000748038292,
+        "Volume SVREW": 1988
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -26,7 +49,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

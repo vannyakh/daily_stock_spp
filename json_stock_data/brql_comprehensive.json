@@ -1,9 +1,60 @@
 {
   "ticker": "BRQL",
-  "timestamp": "2026-01-13T06:30:23.202828",
+  "timestamp": "2026-01-21T05:12:58.199676",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 7,
+    "data": [
+      {
+        "Close": 0.48010000586509705,
+        "High": 0.48010000586509705,
+        "Low": 0.48010000586509705,
+        "Open": 0.48010000586509705,
+        "Volume": 0
+      },
+      {
+        "Close": 0.4699999988079071,
+        "High": 0.4699999988079071,
+        "Low": 0.4699999988079071,
+        "Open": 0.4699999988079071,
+        "Volume": 7500
+      },
+      {
+        "Close": 0.47999998927116394,
+        "High": 0.47999998927116394,
+        "Low": 0.47999998927116394,
+        "Open": 0.47999998927116394,
+        "Volume": 1800
+      },
+      {
+        "Close": 0.47999998927116394,
+        "High": 0.47999998927116394,
+        "Low": 0.47999998927116394,
+        "Open": 0.47999998927116394,
+        "Volume": 2500
+      },
+      {
+        "Close": 0.47999998927116394,
+        "High": 0.47999998927116394,
+        "Low": 0.47999998927116394,
+        "Open": 0.47999998927116394,
+        "Volume": 500
+      },
+      {
+        "Close": 0.5,
+        "High": 0.5,
+        "Low": 0.5,
+        "Open": 0.5,
+        "Volume": 3000
+      },
+      {
+        "Close": 0.46000000834465027,
+        "High": 0.46000000834465027,
+        "Low": 0.46000000834465027,
+        "Open": 0.46000000834465027,
+        "Volume": 2800
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -26,7 +77,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",
@@ -48,7 +100,7 @@
     },
     "calendar": {
       "status": "error",
-      "message": "'dict' object has no attribute 'empty'"
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   }
 }

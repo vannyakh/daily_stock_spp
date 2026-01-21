@@ -1,9 +1,109 @@
 {
   "ticker": "FLYE",
-  "timestamp": "2026-01-13T05:48:25.136779",
+  "timestamp": "2026-01-21T05:05:15.882179",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 14,
+    "data": [
+      {
+        "Close CDTG": 0.3824999928474426,
+        "High CDTG": 0.3824999928474426,
+        "Low CDTG": 0.3824999928474426,
+        "Open CDTG": 0.3824999928474426,
+        "Volume CDTG": 1040
+      },
+      {
+        "Close CDTG": 0.3824999928474426,
+        "High CDTG": 0.3824999928474426,
+        "Low CDTG": 0.3824999928474426,
+        "Open CDTG": 0.3824999928474426,
+        "Volume CDTG": 500
+      },
+      {
+        "Close CDTG": 0.3926999866962433,
+        "High CDTG": 0.3926999866962433,
+        "Low CDTG": 0.3926999866962433,
+        "Open CDTG": 0.3926999866962433,
+        "Volume CDTG": 0
+      },
+      {
+        "Close CDTG": 0.3555999994277954,
+        "High CDTG": 0.37310001254081726,
+        "Low CDTG": 0.3555999994277954,
+        "Open CDTG": 0.37310001254081726,
+        "Volume CDTG": 22339
+      },
+      {
+        "Close CDTG": 0.3700999915599823,
+        "High CDTG": 0.3700999915599823,
+        "Low CDTG": 0.3700999915599823,
+        "Open CDTG": 0.3700999915599823,
+        "Volume CDTG": 519
+      },
+      {
+        "Close CDTG": 0.35120001435279846,
+        "High CDTG": 0.35120001435279846,
+        "Low CDTG": 0.35120001435279846,
+        "Open CDTG": 0.35120001435279846,
+        "Volume CDTG": 7977
+      },
+      {
+        "Close CDTG": 0.37560001015663147,
+        "High CDTG": 0.37560001015663147,
+        "Low CDTG": 0.37560001015663147,
+        "Open CDTG": 0.37560001015663147,
+        "Volume CDTG": 250
+      },
+      {
+        "Close CDTG": 0.3864000141620636,
+        "High CDTG": 0.3864000141620636,
+        "Low CDTG": 0.3864000141620636,
+        "Open CDTG": 0.3864000141620636,
+        "Volume CDTG": 143
+      },
+      {
+        "Close CDTG": 0.38609999418258667,
+        "High CDTG": 0.38609999418258667,
+        "Low CDTG": 0.38609999418258667,
+        "Open CDTG": 0.38609999418258667,
+        "Volume CDTG": 240
+      },
+      {
+        "Close CDTG": 0.36000001430511475,
+        "High CDTG": 0.36000001430511475,
+        "Low CDTG": 0.36000001430511475,
+        "Open CDTG": 0.36000001430511475,
+        "Volume CDTG": 1000
+      },
+      {
+        "Close CDTG": 0.36970001459121704,
+        "High CDTG": 0.36970001459121704,
+        "Low CDTG": 0.36970001459121704,
+        "Open CDTG": 0.36970001459121704,
+        "Volume CDTG": 250
+      },
+      {
+        "Close CDTG": 0.4050000011920929,
+        "High CDTG": 0.4050000011920929,
+        "Low CDTG": 0.4050000011920929,
+        "Open CDTG": 0.4050000011920929,
+        "Volume CDTG": 296
+      },
+      {
+        "Close CDTG": 0.40939998626708984,
+        "High CDTG": 0.40939998626708984,
+        "Low CDTG": 0.40939998626708984,
+        "Open CDTG": 0.40939998626708984,
+        "Volume CDTG": 63
+      },
+      {
+        "Close CDTG": 0.3702999949455261,
+        "High CDTG": 0.3702999949455261,
+        "Low CDTG": 0.3702999949455261,
+        "Open CDTG": 0.3702999949455261,
+        "Volume CDTG": 143
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -11,14 +111,45 @@
   },
   "financials": {
     "income_statement": {
-      "status": "success",
-      "rows": 39,
-      "columns": [
-        "2025-03-31 00:00:00",
-        "2024-03-31 00:00:00",
-        "2023-03-31 00:00:00",
-        "2022-03-31 00:00:00"
-      ],
-      "data": [
-        {
-          
+      "status": "no_data"
+    },
+    "balance_sheet": {
+      "status": "no_data"
+    },
+    "cash_flow": {
+      "status": "no_data"
+    }
+  },
+  "options_data": {
+    "status": "error",
+    "error_message": "Too Many Requests. Rate limited. Try after a while."
+  },
+  "news_data": {
+    "news": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    },
+    "recommendations": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  },
+  "holders_data": {
+    "major_holders": {
+      "status": "error"
+    },
+    "institutional_holders": {
+      "status": "error"
+    }
+  },
+  "earnings_data": {
+    "earnings": {
+      "status": "error",
+      "message": "'NoneType' object has no attribute 'empty'"
+    },
+    "calendar": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  }
+}

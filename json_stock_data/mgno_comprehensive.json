@@ -1,9 +1,32 @@
 {
   "ticker": "MGNO",
-  "timestamp": "2026-01-13T06:05:14.856008",
+  "timestamp": "2026-01-21T05:08:19.851648",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 3,
+    "data": [
+      {
+        "Close SVCC": 10.369999885559082,
+        "High SVCC": 10.380000114440918,
+        "Low SVCC": 10.369999885559082,
+        "Open SVCC": 10.380000114440918,
+        "Volume SVCC": 0
+      },
+      {
+        "Close SVCC": 10.369999885559082,
+        "High SVCC": 10.369999885559082,
+        "Low SVCC": 10.369999885559082,
+        "Open SVCC": 10.369999885559082,
+        "Volume SVCC": 850
+      },
+      {
+        "Close SVCC": 10.369999885559082,
+        "High SVCC": 10.369999885559082,
+        "Low SVCC": 10.369999885559082,
+        "Open SVCC": 10.369999885559082,
+        "Volume SVCC": 4582
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -26,7 +49,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

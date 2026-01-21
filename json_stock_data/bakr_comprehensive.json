@@ -1,9 +1,32 @@
 {
   "ticker": "BAKR",
-  "timestamp": "2026-01-13T06:42:14.159473",
+  "timestamp": "2026-01-21T05:15:02.961163",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 3,
+    "data": [
+      {
+        "Close PGYWW": 0.3199999928474426,
+        "High PGYWW": 0.32010000944137573,
+        "Low PGYWW": 0.3199999928474426,
+        "Open PGYWW": 0.3199999928474426,
+        "Volume PGYWW": 0
+      },
+      {
+        "Close PGYWW": 0.32010000944137573,
+        "High PGYWW": 0.32019999623298645,
+        "Low PGYWW": 0.32010000944137573,
+        "Open PGYWW": 0.32019999623298645,
+        "Volume PGYWW": 516
+      },
+      {
+        "Close PGYWW": 0.32010000944137573,
+        "High PGYWW": 0.32010000944137573,
+        "Low PGYWW": 0.32010000944137573,
+        "Open PGYWW": 0.32010000944137573,
+        "Volume PGYWW": 397
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -26,7 +49,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

@@ -1,9 +1,18 @@
 {
   "ticker": "VNTH",
-  "timestamp": "2026-01-13T06:01:19.498327",
+  "timestamp": "2026-01-21T05:07:37.778963",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 1,
+    "data": [
+      {
+        "Close DBMM": 0.0008999999845400453,
+        "High DBMM": 0.0008999999845400453,
+        "Low DBMM": 0.0008999999845400453,
+        "Open DBMM": 0.0008999999845400453,
+        "Volume DBMM": 296666
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -26,7 +35,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

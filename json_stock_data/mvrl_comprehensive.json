@@ -1,39 +1,9 @@
 {
   "ticker": "MVRL",
-  "timestamp": "2026-01-13T06:34:14.160038",
+  "timestamp": "2026-01-21T05:13:37.183708",
   "intraday_data": {
-    "status": "success",
-    "rows": 4,
-    "data": [
-      {
-        "Close": 15.550000190734863,
-        "High": 15.550000190734863,
-        "Low": 15.550000190734863,
-        "Open": 15.550000190734863,
-        "Volume": 0
-      },
-      {
-        "Close": 15.770000457763672,
-        "High": 15.770000457763672,
-        "Low": 15.770000457763672,
-        "Open": 15.770000457763672,
-        "Volume": 100
-      },
-      {
-        "Close": 15.760000228881836,
-        "High": 15.760000228881836,
-        "Low": 15.760000228881836,
-        "Open": 15.760000228881836,
-        "Volume": 130
-      },
-      {
-        "Close": 15.790800094604492,
-        "High": 15.790800094604492,
-        "Low": 15.770000457763672,
-        "Open": 15.770000457763672,
-        "Volume": 186
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -56,7 +26,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

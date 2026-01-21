@@ -1,95 +1,9 @@
 {
   "ticker": "HPOT",
-  "timestamp": "2026-01-13T06:04:53.496100",
+  "timestamp": "2026-01-21T05:08:16.747999",
   "intraday_data": {
-    "status": "success",
-    "rows": 12,
-    "data": [
-      {
-        "Close GMHS": 0.9700000286102295,
-        "High GMHS": 0.9700000286102295,
-        "Low GMHS": 0.9700000286102295,
-        "Open GMHS": 0.9700000286102295,
-        "Volume GMHS": 546
-      },
-      {
-        "Close GMHS": 0.9965999722480774,
-        "High GMHS": 0.9965999722480774,
-        "Low GMHS": 0.9965999722480774,
-        "Open GMHS": 0.9965999722480774,
-        "Volume GMHS": 125
-      },
-      {
-        "Close GMHS": 0.9843000173568726,
-        "High GMHS": 0.9843000173568726,
-        "Low GMHS": 0.9843000173568726,
-        "Open GMHS": 0.9843000173568726,
-        "Volume GMHS": 468
-      },
-      {
-        "Close GMHS": 0.9932000041007996,
-        "High GMHS": 0.9932000041007996,
-        "Low GMHS": 0.9843000173568726,
-        "Open GMHS": 0.9843000173568726,
-        "Volume GMHS": 1049
-      },
-      {
-        "Close GMHS": 0.9965999722480774,
-        "High GMHS": 0.9965999722480774,
-        "Low GMHS": 0.9916999936103821,
-        "Open GMHS": 0.9916999936103821,
-        "Volume GMHS": 1200
-      },
-      {
-        "Close GMHS": 0.9965999722480774,
-        "High GMHS": 1.0,
-        "Low GMHS": 0.9965999722480774,
-        "Open GMHS": 0.9965999722480774,
-        "Volume GMHS": 558
-      },
-      {
-        "Close GMHS": 1.0,
-        "High GMHS": 1.0033999681472778,
-        "Low GMHS": 1.0,
-        "Open GMHS": 1.0033999681472778,
-        "Volume GMHS": 3322
-      },
-      {
-        "Close GMHS": 1.0099999904632568,
-        "High GMHS": 1.0199999809265137,
-        "Low GMHS": 1.0099999904632568,
-        "Open GMHS": 1.0199999809265137,
-        "Volume GMHS": 215
-      },
-      {
-        "Close GMHS": 1.0199999809265137,
-        "High GMHS": 1.0200999975204468,
-        "Low GMHS": 1.0199999809265137,
-        "Open GMHS": 1.0200999975204468,
-        "Volume GMHS": 341
-      },
-      {
-        "Close GMHS": 1.0199999809265137,
-        "High GMHS": 1.0199999809265137,
-        "Low GMHS": 1.0199999809265137,
-        "Open GMHS": 1.0199999809265137,
-        "Volume GMHS": 252
-      },
-      {
-        "Close GMHS": 1.0099999904632568,
-        "High GMHS": 1.0099999904632568,
-        "Low GMHS": 1.0099999904632568,
-        "Open GMHS": 1.0099999904632568,
-        "Volume GMHS": 160
-      },
-      {
-        "Close GMHS": 1.0099999904632568,
-        "High GMHS": 1.0099999904632568,
-        "Low GMHS": 1.0099999904632568,
-        "Open GMHS": 1.0099999904632568,
-        "Volume GMHS": 473
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -112,7 +26,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",
