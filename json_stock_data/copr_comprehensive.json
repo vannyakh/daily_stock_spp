@@ -1,93 +1,21 @@
 {
   "ticker": "COPR",
-  "timestamp": "2026-01-21T05:02:57.368302",
+  "timestamp": "2026-01-22T05:17:01.089802",
   "intraday_data": {
     "status": "success",
-    "rows": 7,
+    "rows": 1,
     "data": [
       {
-        "Close ABP": 3.45989990234375,
-        "Close IAE": 7.940000057220459,
-        "High ABP": 3.45989990234375,
-        "High IAE": 7.940000057220459,
-        "Low ABP": 3.45989990234375,
-        "Low IAE": 7.940000057220459,
-        "Open ABP": 3.45989990234375,
-        "Open IAE": 7.940000057220459,
-        "Volume ABP": 1378.0,
-        "Volume IAE": 0.0
-      },
-      {
-        "Close ABP": 3.2200000286102295,
-        "Close IAE": 7.920000076293945,
-        "High ABP": 3.2200000286102295,
-        "High IAE": 7.920000076293945,
-        "Low ABP": 3.2200000286102295,
-        "Low IAE": 7.909999847412109,
-        "Open ABP": 3.2200000286102295,
-        "Open IAE": 7.909999847412109,
-        "Volume ABP": 3060.0,
-        "Volume IAE": 700.0
-      },
-      {
-        "Close ABP": 3.200000047683716,
-        "Close IAE": 7.929999828338623,
-        "High ABP": 3.200000047683716,
-        "High IAE": 7.929999828338623,
-        "Low ABP": 3.200000047683716,
-        "Low IAE": 7.929999828338623,
-        "Open ABP": 3.200000047683716,
-        "Open IAE": 7.929999828338623,
-        "Volume ABP": 0.0,
-        "Volume IAE": 300.0
-      },
-      {
-        "Close ABP": 3.222599983215332,
-        "Close IAE": 7.934999942779541,
-        "High ABP": 3.222599983215332,
-        "High IAE": 7.940000057220459,
-        "Low ABP": 3.222599983215332,
-        "Low IAE": 7.934999942779541,
-        "Open ABP": 3.222599983215332,
-        "Open IAE": 7.940000057220459,
-        "Volume ABP": 1854.0,
-        "Volume IAE": 3000.0
-      },
-      {
-        "Close ABP": 3.157599925994873,
-        "Close IAE": 7.936800003051758,
-        "High ABP": 3.157599925994873,
-        "High IAE": 7.936800003051758,
-        "Low ABP": 3.157599925994873,
-        "Low IAE": 7.929999828338623,
-        "Open ABP": 3.157599925994873,
-        "Open IAE": 7.929999828338623,
-        "Volume ABP": 114.0,
-        "Volume IAE": 4409.0
-      },
-      {
-        "Close ABP": 3.2644999027252197,
-        "Close IAE": 7.934999942779541,
-        "High ABP": 3.2644999027252197,
-        "High IAE": 7.934999942779541,
-        "Low ABP": 3.2644999027252197,
-        "Low IAE": 7.934999942779541,
-        "Open ABP": 3.2644999027252197,
-        "Open IAE": 7.934999942779541,
-        "Volume ABP": 113.0,
-        "Volume IAE": 400.0
-      },
-      {
-        "Close ABP": 3.0899999141693115,
-        "Close IAE": 7.949999809265137,
-        "High ABP": 3.0899999141693115,
-        "High IAE": 7.96999979019165,
-        "Low ABP": 3.0899999141693115,
-        "Low IAE": 7.949999809265137,
-        "Open ABP": 3.0899999141693115,
-        "Open IAE": 7.96999979019165,
-        "Volume ABP": 138.0,
-        "Volume IAE": 1904.0
+        "Close": 5.5,
+        "Close IAE": 8.020000457763672,
+        "High": 5.5,
+        "High IAE": 8.020000457763672,
+        "Low": 5.5,
+        "Low IAE": 8.020000457763672,
+        "Open": 5.5,
+        "Open IAE": 8.020000457763672,
+        "Volume": 110.0,
+        "Volume IAE": 4047
       }
     ]
   },
@@ -103,15 +31,38 @@
       "status": "no_data"
     },
     "cash_flow": {
-      "status": "success",
-      "rows": 42,
-      "columns": [
-        "2025-01-31 00:00:00",
-        "2024-01-31 00:00:00",
-        "2023-01-31 00:00:00",
-        "2022-12-31 00:00:00",
-        "2021-12-31 00:00:00"
-      ],
-      "data": [
-        {
-          
+      "status": "no_data"
+    }
+  },
+  "options_data": {
+    "status": "error",
+    "error_message": "Too Many Requests. Rate limited. Try after a while."
+  },
+  "news_data": {
+    "news": {
+      "status": "no_data"
+    },
+    "recommendations": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  },
+  "holders_data": {
+    "major_holders": {
+      "status": "error"
+    },
+    "institutional_holders": {
+      "status": "error"
+    }
+  },
+  "earnings_data": {
+    "earnings": {
+      "status": "error",
+      "message": "'NoneType' object has no attribute 'empty'"
+    },
+    "calendar": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  }
+}

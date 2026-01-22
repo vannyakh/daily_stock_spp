@@ -1,9 +1,9 @@
 {
   "ticker": "KSEZ",
-  "timestamp": "2026-01-21T05:06:03.130707",
+  "timestamp": "2026-01-22T05:22:45.789219",
   "intraday_data": {
     "status": "success",
-    "rows": 3,
+    "rows": 4,
     "data": [
       {
         "Close": 0.057999998331069946,
@@ -25,12 +25,19 @@
         "Low": 0.060100000351667404,
         "Open": 0.060100000351667404,
         "Volume": 3100
+      },
+      {
+        "Close": 0.07000000029802322,
+        "High": 0.07000000029802322,
+        "Low": 0.07000000029802322,
+        "Open": 0.07000000029802322,
+        "Volume": 50000
       }
     ]
   },
   "stock_info": {
     "status": "error",
-    "message": "argument of type 'NoneType' is not iterable"
+    "message": "Too Many Requests. Rate limited. Try after a while."
   },
   "financials": {
     "income_statement": {
@@ -49,8 +56,7 @@
   },
   "news_data": {
     "news": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
+      "status": "no_data"
     },
     "recommendations": {
       "status": "error",

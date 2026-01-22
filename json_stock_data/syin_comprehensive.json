@@ -1,32 +1,9 @@
 {
   "ticker": "SYIN",
-  "timestamp": "2026-01-21T05:07:44.854370",
+  "timestamp": "2026-01-22T05:26:02.562950",
   "intraday_data": {
-    "status": "success",
-    "rows": 3,
-    "data": [
-      {
-        "Close": 0.003100000089034438,
-        "High": 0.003100000089034438,
-        "Low": 0.003100000089034438,
-        "Open": 0.003100000089034438,
-        "Volume": 0
-      },
-      {
-        "Close": 0.003100000089034438,
-        "High": 0.003100000089034438,
-        "Low": 0.003100000089034438,
-        "Open": 0.003100000089034438,
-        "Volume": 1000
-      },
-      {
-        "Close": 0.003100000089034438,
-        "High": 0.003100000089034438,
-        "Low": 0.003100000089034438,
-        "Open": 0.003100000089034438,
-        "Volume": 0
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -49,8 +26,7 @@
   },
   "news_data": {
     "news": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
+      "status": "no_data"
     },
     "recommendations": {
       "status": "error",

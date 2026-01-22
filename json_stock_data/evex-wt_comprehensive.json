@@ -1,9 +1,25 @@
 {
   "ticker": "EVEX-WT",
-  "timestamp": "2026-01-21T05:13:18.576748",
+  "timestamp": "2026-01-22T05:37:17.966336",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 2,
+    "data": [
+      {
+        "Close": 0.5098000168800354,
+        "High": 0.5098000168800354,
+        "Low": 0.5098000168800354,
+        "Open": 0.5098000168800354,
+        "Volume": 0
+      },
+      {
+        "Close": 0.550599992275238,
+        "High": 0.550599992275238,
+        "Low": 0.550599992275238,
+        "Open": 0.550599992275238,
+        "Volume": 500
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -26,8 +42,7 @@
   },
   "news_data": {
     "news": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
+      "status": "no_data"
     },
     "recommendations": {
       "status": "error",
@@ -49,7 +64,7 @@
     },
     "calendar": {
       "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
+      "message": "'dict' object has no attribute 'empty'"
     }
   }
 }

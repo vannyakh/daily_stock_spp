@@ -1,53 +1,9 @@
 {
   "ticker": "TMDE",
-  "timestamp": "2026-01-21T05:08:17.598199",
+  "timestamp": "2026-01-22T05:27:09.979533",
   "intraday_data": {
-    "status": "success",
-    "rows": 6,
-    "data": [
-      {
-        "Close SCAG": 2.5899999141693115,
-        "High SCAG": 2.5899999141693115,
-        "Low SCAG": 2.5899999141693115,
-        "Open SCAG": 2.5899999141693115,
-        "Volume SCAG": 951
-      },
-      {
-        "Close SCAG": 2.5799999237060547,
-        "High SCAG": 2.5799999237060547,
-        "Low SCAG": 2.5799999237060547,
-        "Open SCAG": 2.5799999237060547,
-        "Volume SCAG": 633
-      },
-      {
-        "Close SCAG": 2.4649999141693115,
-        "High SCAG": 2.4649999141693115,
-        "Low SCAG": 2.430000066757202,
-        "Open SCAG": 2.447999954223633,
-        "Volume SCAG": 900
-      },
-      {
-        "Close SCAG": 2.440000057220459,
-        "High SCAG": 2.440000057220459,
-        "Low SCAG": 2.4200000762939453,
-        "Open SCAG": 2.430000066757202,
-        "Volume SCAG": 1303
-      },
-      {
-        "Close SCAG": 2.478300094604492,
-        "High SCAG": 2.478300094604492,
-        "Low SCAG": 2.478300094604492,
-        "Open SCAG": 2.478300094604492,
-        "Volume SCAG": 148
-      },
-      {
-        "Close SCAG": 2.677299976348877,
-        "High SCAG": 2.677299976348877,
-        "Low SCAG": 2.677299976348877,
-        "Open SCAG": 2.677299976348877,
-        "Volume SCAG": 1000
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -58,42 +14,13 @@
       "status": "no_data"
     },
     "balance_sheet": {
-      "status": "no_data"
-    },
-    "cash_flow": {
-      "status": "no_data"
-    }
-  },
-  "options_data": {
-    "status": "error",
-    "error_message": "Too Many Requests. Rate limited. Try after a while."
-  },
-  "news_data": {
-    "news": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
-    },
-    "recommendations": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
-    }
-  },
-  "holders_data": {
-    "major_holders": {
-      "status": "error"
-    },
-    "institutional_holders": {
-      "status": "error"
-    }
-  },
-  "earnings_data": {
-    "earnings": {
-      "status": "error",
-      "message": "'NoneType' object has no attribute 'empty'"
-    },
-    "calendar": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
-    }
-  }
-}
+      "status": "success",
+      "rows": 68,
+      "columns": [
+        "2024-12-31 00:00:00",
+        "2023-12-31 00:00:00",
+        "2022-12-31 00:00:00"
+      ],
+      "data": [
+        {
+          

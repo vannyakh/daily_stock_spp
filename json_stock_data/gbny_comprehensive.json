@@ -1,9 +1,32 @@
 {
   "ticker": "GBNY",
-  "timestamp": "2026-01-21T05:10:17.139033",
+  "timestamp": "2026-01-22T05:31:19.861035",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 3,
+    "data": [
+      {
+        "Close": 17.81999969482422,
+        "High": 17.81999969482422,
+        "Low": 17.81999969482422,
+        "Open": 17.81999969482422,
+        "Volume": 0
+      },
+      {
+        "Close": 17.8700008392334,
+        "High": 17.8700008392334,
+        "Low": 17.8700008392334,
+        "Open": 17.8700008392334,
+        "Volume": 400
+      },
+      {
+        "Close": 17.8799991607666,
+        "High": 17.8799991607666,
+        "Low": 17.8799991607666,
+        "Open": 17.8799991607666,
+        "Volume": 650
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -26,8 +49,7 @@
   },
   "news_data": {
     "news": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
+      "status": "no_data"
     },
     "recommendations": {
       "status": "error",

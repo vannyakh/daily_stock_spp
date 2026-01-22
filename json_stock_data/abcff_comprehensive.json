@@ -1,9 +1,9 @@
 {
   "ticker": "ABCFF",
-  "timestamp": "2026-01-21T05:07:03.501120",
+  "timestamp": "2026-01-22T05:24:39.329897",
   "intraday_data": {
     "status": "success",
-    "rows": 10,
+    "rows": 20,
     "data": [
       {
         "Close SCNI": 0.9000999927520752,
@@ -74,23 +74,123 @@
         "Low SCNI": 0.8651999831199646,
         "Open SCNI": 0.8651999831199646,
         "Volume SCNI": 264
+      },
+      {
+        "Close SCNI": 0.8306000232696533,
+        "High SCNI": 0.8306000232696533,
+        "Low SCNI": 0.8306000232696533,
+        "Open SCNI": 0.8306000232696533,
+        "Volume SCNI": 2188
+      },
+      {
+        "Close SCNI": 0.8355000019073486,
+        "High SCNI": 0.8355000019073486,
+        "Low SCNI": 0.8355000019073486,
+        "Open SCNI": 0.8355000019073486,
+        "Volume SCNI": 100
+      },
+      {
+        "Close SCNI": 0.8478000164031982,
+        "High SCNI": 0.8478000164031982,
+        "Low SCNI": 0.8478000164031982,
+        "Open SCNI": 0.8478000164031982,
+        "Volume SCNI": 349
+      },
+      {
+        "Close SCNI": 0.8478000164031982,
+        "High SCNI": 0.8478000164031982,
+        "Low SCNI": 0.8478000164031982,
+        "Open SCNI": 0.8478000164031982,
+        "Volume SCNI": 187
+      },
+      {
+        "Close SCNI": 0.848800003528595,
+        "High SCNI": 0.848800003528595,
+        "Low SCNI": 0.848800003528595,
+        "Open SCNI": 0.848800003528595,
+        "Volume SCNI": 202
+      },
+      {
+        "Close SCNI": 0.8478000164031982,
+        "High SCNI": 0.8478000164031982,
+        "Low SCNI": 0.8478000164031982,
+        "Open SCNI": 0.8478000164031982,
+        "Volume SCNI": 600
+      },
+      {
+        "Close SCNI": 0.8478000164031982,
+        "High SCNI": 0.8478000164031982,
+        "Low SCNI": 0.8478000164031982,
+        "Open SCNI": 0.8478000164031982,
+        "Volume SCNI": 600
+      },
+      {
+        "Close SCNI": 0.8478000164031982,
+        "High SCNI": 0.8478000164031982,
+        "Low SCNI": 0.8478000164031982,
+        "Open SCNI": 0.8478000164031982,
+        "Volume SCNI": 2021
+      },
+      {
+        "Close SCNI": 0.8478999733924866,
+        "High SCNI": 0.8478999733924866,
+        "Low SCNI": 0.8478999733924866,
+        "Open SCNI": 0.8478999733924866,
+        "Volume SCNI": 244
+      },
+      {
+        "Close SCNI": 0.8478999733924866,
+        "High SCNI": 0.8478999733924866,
+        "Low SCNI": 0.8478999733924866,
+        "Open SCNI": 0.8478999733924866,
+        "Volume SCNI": 1750
       }
     ]
   },
   "stock_info": {
     "status": "error",
-    "message": "argument of type 'NoneType' is not iterable"
+    "message": "Too Many Requests. Rate limited. Try after a while."
   },
   "financials": {
     "income_statement": {
-      "status": "success",
-      "rows": 43,
-      "columns": [
-        "2024-12-31 00:00:00",
-        "2023-12-31 00:00:00",
-        "2022-12-31 00:00:00",
-        "2021-12-31 00:00:00"
-      ],
-      "data": [
-        {
-          
+      "status": "no_data"
+    },
+    "balance_sheet": {
+      "status": "no_data"
+    },
+    "cash_flow": {
+      "status": "no_data"
+    }
+  },
+  "options_data": {
+    "status": "error",
+    "error_message": "Too Many Requests. Rate limited. Try after a while."
+  },
+  "news_data": {
+    "news": {
+      "status": "no_data"
+    },
+    "recommendations": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  },
+  "holders_data": {
+    "major_holders": {
+      "status": "error"
+    },
+    "institutional_holders": {
+      "status": "error"
+    }
+  },
+  "earnings_data": {
+    "earnings": {
+      "status": "error",
+      "message": "'NoneType' object has no attribute 'empty'"
+    },
+    "calendar": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  }
+}

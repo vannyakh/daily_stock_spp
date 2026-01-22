@@ -1,18 +1,24 @@
 {
   "ticker": "CLOW",
-  "timestamp": "2026-01-21T05:07:34.617359",
+  "timestamp": "2026-01-22T05:25:44.251764",
   "intraday_data": {
     "status": "no_data",
     "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
-    "message": "argument of type 'NoneType' is not iterable"
+    "message": "Too Many Requests. Rate limited. Try after a while."
   },
   "financials": {
     "income_statement": {
+      "status": "no_data"
+    },
+    "balance_sheet": {
+      "status": "no_data"
+    },
+    "cash_flow": {
       "status": "success",
-      "rows": 40,
+      "rows": 23,
       "columns": [
         "2024-12-31 00:00:00",
         "2023-12-31 00:00:00",

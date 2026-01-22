@@ -1,55 +1,75 @@
 {
   "ticker": "EBON",
-  "timestamp": "2026-01-21T05:03:51.294300",
+  "timestamp": "2026-01-22T05:18:43.724110",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 7,
+    "data": [
+      {
+        "Close": 3.3499999046325684,
+        "High": 3.3499999046325684,
+        "Low": 3.3499999046325684,
+        "Open": 3.3499999046325684,
+        "Volume": 0
+      },
+      {
+        "Close": 3.390000104904175,
+        "High": 3.390000104904175,
+        "Low": 3.390000104904175,
+        "Open": 3.390000104904175,
+        "Volume": 422
+      },
+      {
+        "Close": 3.2899999618530273,
+        "High": 3.2899999618530273,
+        "Low": 3.2899999618530273,
+        "Open": 3.2899999618530273,
+        "Volume": 300
+      },
+      {
+        "Close": 3.3101000785827637,
+        "High": 3.3101000785827637,
+        "Low": 3.3101000785827637,
+        "Open": 3.3101000785827637,
+        "Volume": 140
+      },
+      {
+        "Close": 3.3104000091552734,
+        "High": 3.3104000091552734,
+        "Low": 3.3104000091552734,
+        "Open": 3.3104000091552734,
+        "Volume": 590
+      },
+      {
+        "Close": 3.5,
+        "High": 3.5,
+        "Low": 3.5,
+        "Open": 3.5,
+        "Volume": 40
+      },
+      {
+        "Close": 3.4049999713897705,
+        "High": 3.4049999713897705,
+        "Low": 3.4049999713897705,
+        "Open": 3.4049999713897705,
+        "Volume": 230
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
-    "message": "Too Many Requests. Rate limited. Try after a while."
+    "message": "argument of type 'NoneType' is not iterable"
   },
   "financials": {
     "income_statement": {
-      "status": "no_data"
-    },
-    "balance_sheet": {
-      "status": "no_data"
-    },
-    "cash_flow": {
-      "status": "no_data"
-    }
-  },
-  "options_data": {
-    "status": "error",
-    "error_message": "Too Many Requests. Rate limited. Try after a while."
-  },
-  "news_data": {
-    "news": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
-    },
-    "recommendations": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
-    }
-  },
-  "holders_data": {
-    "major_holders": {
-      "status": "error"
-    },
-    "institutional_holders": {
-      "status": "error"
-    }
-  },
-  "earnings_data": {
-    "earnings": {
-      "status": "error",
-      "message": "'NoneType' object has no attribute 'empty'"
-    },
-    "calendar": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
-    }
-  }
-}
+      "status": "success",
+      "rows": 51,
+      "columns": [
+        "2024-12-31 00:00:00",
+        "2023-12-31 00:00:00",
+        "2022-12-31 00:00:00",
+        "2021-12-31 00:00:00"
+      ],
+      "data": [
+        {
+          

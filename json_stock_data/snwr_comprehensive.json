@@ -1,9 +1,32 @@
 {
   "ticker": "SNWR",
-  "timestamp": "2026-01-21T05:10:36.881618",
+  "timestamp": "2026-01-22T05:31:59.788887",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 3,
+    "data": [
+      {
+        "Close TKOI": 0.012600000016391277,
+        "High TKOI": 0.012600000016391277,
+        "Low TKOI": 0.012600000016391277,
+        "Open TKOI": 0.012600000016391277,
+        "Volume TKOI": 0
+      },
+      {
+        "Close TKOI": 0.015799999237060547,
+        "High TKOI": 0.015799999237060547,
+        "Low TKOI": 0.015799999237060547,
+        "Open TKOI": 0.015799999237060547,
+        "Volume TKOI": 900
+      },
+      {
+        "Close TKOI": 0.012799999676644802,
+        "High TKOI": 0.012799999676644802,
+        "Low TKOI": 0.012799999676644802,
+        "Open TKOI": 0.012799999676644802,
+        "Volume TKOI": 210
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -26,11 +49,11 @@
   },
   "news_data": {
     "news": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
+      "status": "no_data"
     },
     "recommendations": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   },
   "holders_data": {

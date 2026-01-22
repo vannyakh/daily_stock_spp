@@ -1,9 +1,25 @@
 {
   "ticker": "SNBH",
-  "timestamp": "2026-01-21T05:07:16.876789",
+  "timestamp": "2026-01-22T05:25:09.785396",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 2,
+    "data": [
+      {
+        "Close MAGE": 0.2199999988079071,
+        "High MAGE": 0.2199999988079071,
+        "Low MAGE": 0.2199999988079071,
+        "Open MAGE": 0.2199999988079071,
+        "Volume MAGE": 0
+      },
+      {
+        "Close MAGE": 0.20999999344348907,
+        "High MAGE": 0.20999999344348907,
+        "Low MAGE": 0.20999999344348907,
+        "Open MAGE": 0.20999999344348907,
+        "Volume MAGE": 100
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -26,12 +42,10 @@
   },
   "news_data": {
     "news": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
+      "status": "no_data"
     },
     "recommendations": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
+      "status": "no_data"
     }
   },
   "holders_data": {

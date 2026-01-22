@@ -1,9 +1,53 @@
 {
   "ticker": "IBAC",
-  "timestamp": "2026-01-21T05:00:39.036276",
+  "timestamp": "2026-01-22T05:13:38.781282",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 6,
+    "data": [
+      {
+        "Close": 10.510000228881836,
+        "High": 10.510000228881836,
+        "Low": 10.510000228881836,
+        "Open": 10.510000228881836,
+        "Volume": 501
+      },
+      {
+        "Close": 10.509200096130371,
+        "High": 10.509200096130371,
+        "Low": 10.509200096130371,
+        "Open": 10.509200096130371,
+        "Volume": 1000
+      },
+      {
+        "Close": 10.520000457763672,
+        "High": 10.520000457763672,
+        "Low": 10.520000457763672,
+        "Open": 10.520000457763672,
+        "Volume": 0
+      },
+      {
+        "Close": 10.520000457763672,
+        "High": 10.520000457763672,
+        "Low": 10.520000457763672,
+        "Open": 10.520000457763672,
+        "Volume": 500
+      },
+      {
+        "Close": 10.515399932861328,
+        "High": 10.520000457763672,
+        "Low": 10.514599800109863,
+        "Open": 10.520000457763672,
+        "Volume": 1598
+      },
+      {
+        "Close": 10.520000457763672,
+        "High": 10.520000457763672,
+        "Low": 10.520000457763672,
+        "Open": 10.520000457763672,
+        "Volume": 118
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -14,14 +58,105 @@
       "status": "no_data"
     },
     "balance_sheet": {
+      "status": "no_data"
+    },
+    "cash_flow": {
+      "status": "no_data"
+    }
+  },
+  "options_data": {
+    "status": "error",
+    "error_message": "Too Many Requests. Rate limited. Try after a while."
+  },
+  "news_data": {
+    "news": {
       "status": "success",
-      "rows": 34,
-      "columns": [
-        "2025-09-30 00:00:00",
-        "2024-09-30 00:00:00",
-        "2023-09-30 00:00:00",
-        "2022-09-30 00:00:00"
-      ],
+      "count": 1,
       "data": [
         {
-          
+          "id": "a2e1b63b-861d-30a9-a894-fa0a52f8fd1e",
+          "content": {
+            "id": "a2e1b63b-861d-30a9-a894-fa0a52f8fd1e",
+            "contentType": "STORY",
+            "title": "With 65% institutional ownership, IB Acquisition Corp. (NASDAQ:IBAC) is a favorite amongst the big guns",
+            "description": "",
+            "summary": "Key Insights Significantly high institutional ownership implies IB Acquisition's stock price is sensitive to their...",
+            "pubDate": "2025-11-01T13:30:51Z",
+            "displayTime": "2025-11-01T13:30:51Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": {
+              "originalUrl": "https://media.zenfs.com/en/simply_wall_st__316/f88d3d8c5618aa88ce2627c2a1cda340",
+              "originalWidth": 1194,
+              "originalHeight": 432,
+              "caption": "",
+              "resolutions": [
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/SSw8naZrBB1tKswm10P8gw--~B/aD00MzI7dz0xMTk0O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/simply_wall_st__316/f88d3d8c5618aa88ce2627c2a1cda340",
+                  "width": 1194,
+                  "height": 432,
+                  "tag": "original"
+                },
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/79qko4F_hdhwRlGyEfLjcw--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/simply_wall_st__316/f88d3d8c5618aa88ce2627c2a1cda340",
+                  "width": 170,
+                  "height": 128,
+                  "tag": "170x128"
+                }
+              ]
+            },
+            "provider": {
+              "displayName": "Simply Wall St.",
+              "url": "https://simplywall.st/"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/65-institutional-ownership-ib-acquisition-133051116.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/65-institutional-ownership-ib-acquisition-133051116.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        }
+      ]
+    },
+    "recommendations": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  },
+  "holders_data": {
+    "major_holders": {
+      "status": "error"
+    },
+    "institutional_holders": {
+      "status": "error"
+    }
+  },
+  "earnings_data": {
+    "earnings": {
+      "status": "error",
+      "message": "'NoneType' object has no attribute 'empty'"
+    },
+    "calendar": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  }
+}

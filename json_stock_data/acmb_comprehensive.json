@@ -1,25 +1,9 @@
 {
   "ticker": "ACMB",
-  "timestamp": "2026-01-21T05:10:18.162287",
+  "timestamp": "2026-01-22T05:31:21.071120",
   "intraday_data": {
-    "status": "success",
-    "rows": 2,
-    "data": [
-      {
-        "Close ENDI": 15.699999809265137,
-        "High ENDI": 15.699999809265137,
-        "Low ENDI": 15.699999809265137,
-        "Open ENDI": 15.699999809265137,
-        "Volume ENDI": 0
-      },
-      {
-        "Close ENDI": 15.649999618530273,
-        "High ENDI": 15.649999618530273,
-        "Low ENDI": 15.649999618530273,
-        "Open ENDI": 15.649999618530273,
-        "Volume ENDI": 200
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -42,8 +26,7 @@
   },
   "news_data": {
     "news": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
+      "status": "no_data"
     },
     "recommendations": {
       "status": "error",

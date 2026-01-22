@@ -1,25 +1,13 @@
 {
   "ticker": "CHRO",
-  "timestamp": "2026-01-21T05:05:39.149698",
+  "timestamp": "2026-01-22T05:21:58.692308",
   "intraday_data": {
     "status": "no_data",
     "message": "No intraday data available"
   },
   "stock_info": {
-    "status": "success",
-    "data": {
-      "language": "en-US",
-      "region": "US",
-      "quoteType": "NONE",
-      "triggerable": false,
-      "customPriceAlertConfidence": "NONE",
-      "hasPrePostMarketData": false,
-      "financialCurrency": "USD",
-      "esgPopulated": false,
-      "tradeable": false,
-      "cryptoTradeable": false,
-      "symbol": "CHRO"
-    }
+    "status": "error",
+    "message": "Too Many Requests. Rate limited. Try after a while."
   },
   "financials": {
     "income_statement": {
@@ -33,7 +21,8 @@
     }
   },
   "options_data": {
-    "expirations": []
+    "status": "error",
+    "error_message": "Too Many Requests. Rate limited. Try after a while."
   },
   "news_data": {
     "news": {

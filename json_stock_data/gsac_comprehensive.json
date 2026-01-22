@@ -1,32 +1,9 @@
 {
   "ticker": "GSAC",
-  "timestamp": "2026-01-21T05:07:45.191628",
+  "timestamp": "2026-01-22T05:26:02.649052",
   "intraday_data": {
-    "status": "success",
-    "rows": 3,
-    "data": [
-      {
-        "Close SYIN": 0.003100000089034438,
-        "High SYIN": 0.003100000089034438,
-        "Low SYIN": 0.003100000089034438,
-        "Open SYIN": 0.003100000089034438,
-        "Volume SYIN": 0
-      },
-      {
-        "Close SYIN": 0.003100000089034438,
-        "High SYIN": 0.003100000089034438,
-        "Low SYIN": 0.003100000089034438,
-        "Open SYIN": 0.003100000089034438,
-        "Volume SYIN": 1000
-      },
-      {
-        "Close SYIN": 0.003100000089034438,
-        "High SYIN": 0.003100000089034438,
-        "Low SYIN": 0.003100000089034438,
-        "Open SYIN": 0.003100000089034438,
-        "Volume SYIN": 0
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -49,19 +26,19 @@
   },
   "news_data": {
     "news": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
+      "status": "no_data"
     },
     "recommendations": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   },
   "holders_data": {
     "major_holders": {
-      "status": "no_data"
+      "status": "error"
     },
     "institutional_holders": {
-      "status": "no_data"
+      "status": "error"
     }
   },
   "earnings_data": {

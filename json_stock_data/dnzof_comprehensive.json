@@ -1,24 +1,671 @@
 {
   "ticker": "DNZOF",
-  "timestamp": "2026-01-21T05:08:57.026145",
+  "timestamp": "2026-01-22T05:28:32.126244",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 1,
+    "data": [
+      {
+        "Close HLNCF": 4.800000190734863,
+        "High HLNCF": 4.800000190734863,
+        "Low HLNCF": 4.800000190734863,
+        "Open HLNCF": 4.800000190734863,
+        "Volume HLNCF": 0
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
-    "message": "argument of type 'NoneType' is not iterable"
+    "message": "Too Many Requests. Rate limited. Try after a while."
   },
   "financials": {
     "income_statement": {
+      "status": "no_data"
+    },
+    "balance_sheet": {
+      "status": "no_data"
+    },
+    "cash_flow": {
+      "status": "no_data"
+    }
+  },
+  "options_data": {
+    "status": "error",
+    "error_message": "Too Many Requests. Rate limited. Try after a while."
+  },
+  "news_data": {
+    "news": {
       "status": "success",
-      "rows": 40,
-      "columns": [
-        "2025-03-31 00:00:00",
-        "2024-03-31 00:00:00",
-        "2023-03-31 00:00:00",
-        "2022-03-31 00:00:00"
-      ],
+      "count": 10,
       "data": [
         {
-          
+          "id": "9b26a12f-8d62-3aba-a708-c15b9c4916a7",
+          "content": {
+            "id": "9b26a12f-8d62-3aba-a708-c15b9c4916a7",
+            "contentType": "STORY",
+            "title": "Denso invests in new US logistics facility",
+            "description": "",
+            "summary": "Denso is investing to build an advanced logistics centre in Tennessee.",
+            "pubDate": "2026-01-16T13:54:11Z",
+            "displayTime": "2026-01-16T13:54:11Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": {
+              "originalUrl": "https://media.zenfs.com/en/just_auto_187/cd70c2ea2c8ec029efc9d580255185c6",
+              "originalWidth": 1440,
+              "originalHeight": 809,
+              "caption": "Regionally",
+              "resolutions": [
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/FmB83qebo9PNPZ0Zzcs_Zg--~B/aD04MDk7dz0xNDQwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/just_auto_187/cd70c2ea2c8ec029efc9d580255185c6",
+                  "width": 1440,
+                  "height": 809,
+                  "tag": "original"
+                },
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/_lzkwRukaM8LtbRLijlMzg--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/just_auto_187/cd70c2ea2c8ec029efc9d580255185c6",
+                  "width": 170,
+                  "height": 128,
+                  "tag": "170x128"
+                }
+              ]
+            },
+            "provider": {
+              "displayName": "Just Auto",
+              "url": "https://www.globaldata.com/"
+            },
+            "canonicalUrl": {
+              "url": "https://www.just-auto.com/news/denso-invests-in-new-us-logistics-facility/",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/denso-invests-us-logistics-facility-135411674.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        },
+        {
+          "id": "26310b8e-144e-31b1-bfe4-4156b17354c9",
+          "content": {
+            "id": "26310b8e-144e-31b1-bfe4-4156b17354c9",
+            "contentType": "STORY",
+            "title": "Elliott Management Raises Stake in Toyota. No, Not the Car Company.",
+            "description": "",
+            "summary": "Toyota Motor is trying to buy Toyota Industries. Elliott Management, an activist investor, isn\u2019t happy with the price.",
+            "pubDate": "2025-12-11T15:28:00Z",
+            "displayTime": "2025-12-11T15:28:00Z",
+            "isHosted": false,
+            "bypassModal": false,
+            "previewUrl": "https://finance.yahoo.com/m/26310b8e-144e-31b1-bfe4-4156b17354c9/elliott-management-raises.html",
+            "thumbnail": {
+              "originalUrl": "https://media.zenfs.com/en/Barrons.com/d12d757628d6b2a6e0ca773fa3299bb8",
+              "originalWidth": 1280,
+              "originalHeight": 640,
+              "caption": "",
+              "resolutions": [
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/rk7.oSrcf6l9tqdqG3P4qw--~B/aD02NDA7dz0xMjgwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/Barrons.com/d12d757628d6b2a6e0ca773fa3299bb8",
+                  "width": 1280,
+                  "height": 640,
+                  "tag": "original"
+                },
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/tgtyVEaCHrwX7qfQbI_4qw--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/Barrons.com/d12d757628d6b2a6e0ca773fa3299bb8",
+                  "width": 170,
+                  "height": 128,
+                  "tag": "170x128"
+                }
+              ]
+            },
+            "provider": {
+              "displayName": "Barrons.com",
+              "url": "http://www.barrons.com/"
+            },
+            "canonicalUrl": {
+              "url": "https://www.barrons.com/articles/toyota-elliott-activist-stake-fb56ccff?siteid=yhoof2&yptr=yahoo",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": null,
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        },
+        {
+          "id": "87d2544b-f617-391e-bd00-b1d08412b8d9",
+          "content": {
+            "id": "87d2544b-f617-391e-bd00-b1d08412b8d9",
+            "contentType": "STORY",
+            "title": "Is Coherent Prepared to Capture the Momentum in the EV Market?",
+            "description": "",
+            "summary": "COHR eyes EV growth with SiC expansion and stronger finances, but rising competition tests its push to lead the rapidly scaling market.",
+            "pubDate": "2025-12-01T17:33:00Z",
+            "displayTime": "2025-12-01T17:33:00Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": {
+              "originalUrl": "https://media.zenfs.com/en/zacks.com/c54b712352f0b202e39b4e0ef511ffec",
+              "originalWidth": 635,
+              "originalHeight": 400,
+              "caption": "",
+              "resolutions": [
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/z6tI_nWrcT1xkCD1EFrl0w--~B/aD00MDA7dz02MzU7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/zacks.com/c54b712352f0b202e39b4e0ef511ffec",
+                  "width": 635,
+                  "height": 400,
+                  "tag": "original"
+                },
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/dZEzGOlmtecZ7PtrDF8Nvw--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/zacks.com/c54b712352f0b202e39b4e0ef511ffec",
+                  "width": 170,
+                  "height": 128,
+                  "tag": "170x128"
+                }
+              ]
+            },
+            "provider": {
+              "displayName": "Zacks",
+              "url": "http://www.zacks.com/"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/coherent-prepared-capture-momentum-ev-173300623.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/coherent-prepared-capture-momentum-ev-173300623.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        },
+        {
+          "id": "e7883555-0447-36fe-b408-53ba173be1bc",
+          "content": {
+            "id": "e7883555-0447-36fe-b408-53ba173be1bc",
+            "contentType": "STORY",
+            "title": "DENSO's Smart Horticulture Partnership Could Be a Game Changer for DENSO (TSE:6902)",
+            "description": "",
+            "summary": "DELPHY GROEP BV recently announced a Joint Development Agreement with DENSO CORPORATION to accelerate smart horticulture, combining DENSO\u2019s sensor technologies and image processing with DELPHY\u2019s cultivation management software to create data-driven solutions for stable, planned crop cultivation. This collaboration highlights DENSO\u2019s move into agricultural technology, potentially improving efficiency, food waste reduction, and new growth areas beyond its traditional automotive business. To...",
+            "pubDate": "2025-11-24T23:09:42Z",
+            "displayTime": "2025-11-24T23:09:42Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": {
+              "originalUrl": "https://media.zenfs.com/en/simply_wall_st__316/022699753fad0dede80810c245e79274",
+              "originalWidth": 1194,
+              "originalHeight": 432,
+              "caption": "",
+              "resolutions": [
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/FEoWkW5.iY._1qhNsHijRw--~B/aD00MzI7dz0xMTk0O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/simply_wall_st__316/022699753fad0dede80810c245e79274",
+                  "width": 1194,
+                  "height": 432,
+                  "tag": "original"
+                },
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/msi99TH0EFhC0LNuwAINPA--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/simply_wall_st__316/022699753fad0dede80810c245e79274",
+                  "width": 170,
+                  "height": 128,
+                  "tag": "170x128"
+                }
+              ]
+            },
+            "provider": {
+              "displayName": "Simply Wall St.",
+              "url": "https://simplywall.st/"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/densos-smart-horticulture-partnership-could-230942350.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/densos-smart-horticulture-partnership-could-230942350.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        },
+        {
+          "id": "aec56b05-a647-3179-898f-41851706f9c5",
+          "content": {
+            "id": "aec56b05-a647-3179-898f-41851706f9c5",
+            "contentType": "STORY",
+            "title": "Is Denso (DNZOY) Stock Undervalued Right Now?",
+            "description": "",
+            "summary": "Here at Zacks, our focus is on the proven Zacks Rank system, which emphasizes earnings estimates and estimate revisions to find great stocks. Nevertheless, we are always paying attention to the latest value, growth, and momentum trends to underscore strong picks.",
+            "pubDate": "2025-10-10T13:40:01Z",
+            "displayTime": "2025-10-10T13:40:01Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": {
+              "originalUrl": "https://media.zenfs.com/en/zacks.com/7ea641b46fe75c0a913349e5e610d6a2",
+              "originalWidth": 900,
+              "originalHeight": 625,
+              "caption": "",
+              "resolutions": [
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/OL7xfT5pzuzwP2wxb1pcSw--~B/aD02MjU7dz05MDA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/zacks.com/7ea641b46fe75c0a913349e5e610d6a2",
+                  "width": 900,
+                  "height": 625,
+                  "tag": "original"
+                },
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/UvhcCSRHcENB2QppdmYPaw--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/zacks.com/7ea641b46fe75c0a913349e5e610d6a2",
+                  "width": 170,
+                  "height": 128,
+                  "tag": "170x128"
+                }
+              ]
+            },
+            "provider": {
+              "displayName": "Zacks",
+              "url": "http://www.zacks.com/"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/denso-dnzoy-stock-undervalued-now-134001371.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/denso-dnzoy-stock-undervalued-now-134001371.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        },
+        {
+          "id": "7c03cd08-0aef-3395-b0fc-5d700aa35ae2",
+          "content": {
+            "id": "7c03cd08-0aef-3395-b0fc-5d700aa35ae2",
+            "contentType": "STORY",
+            "title": "DENSO (TSE:6902): Assessing Valuation Following Recent Uptrend in Shares",
+            "description": "",
+            "summary": "DENSO (TSE:6902) has been turning some heads lately after its shares edged higher this month. Without a single headline-grabbing event to point to, the recent uptick might feel a bit out of the blue for investors watching from the sidelines. This has prompted a closer look at what could be driving the stock. Sometimes, a move like this signals fresh attention on valuation, or it can just as easily be a sign that the market is warming up to the company's underlying business...",
+            "pubDate": "2025-09-09T11:41:37Z",
+            "displayTime": "2025-09-09T11:41:37Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": {
+              "originalUrl": "https://media.zenfs.com/en/simply_wall_st__316/022699753fad0dede80810c245e79274",
+              "originalWidth": 1194,
+              "originalHeight": 432,
+              "caption": "",
+              "resolutions": [
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/FEoWkW5.iY._1qhNsHijRw--~B/aD00MzI7dz0xMTk0O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/simply_wall_st__316/022699753fad0dede80810c245e79274",
+                  "width": 1194,
+                  "height": 432,
+                  "tag": "original"
+                },
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/msi99TH0EFhC0LNuwAINPA--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/simply_wall_st__316/022699753fad0dede80810c245e79274",
+                  "width": 170,
+                  "height": 128,
+                  "tag": "170x128"
+                }
+              ]
+            },
+            "provider": {
+              "displayName": "Simply Wall St.",
+              "url": "https://simplywall.st/"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/denso-tse-6902-assessing-valuation-114137371.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/denso-tse-6902-assessing-valuation-114137371.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        },
+        {
+          "id": "f6581963-adde-3eb7-b9b1-fe596a46de65",
+          "content": {
+            "id": "f6581963-adde-3eb7-b9b1-fe596a46de65",
+            "contentType": "STORY",
+            "title": "Denso\u2019s quarterly profit declines on tariffs and strong yen",
+            "description": "",
+            "summary": "Revenue in Europe fell by 6.4% to $1.3bn, and Asia's revenue dipped slightly by 0.5% to $3.1bn.",
+            "pubDate": "2025-08-04T18:46:35Z",
+            "displayTime": "2025-08-04T18:46:35Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": {
+              "originalUrl": "https://media.zenfs.com/en/just_auto_187/cd70c2ea2c8ec029efc9d580255185c6",
+              "originalWidth": 1440,
+              "originalHeight": 809,
+              "caption": "Regionally",
+              "resolutions": [
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/FmB83qebo9PNPZ0Zzcs_Zg--~B/aD04MDk7dz0xNDQwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/just_auto_187/cd70c2ea2c8ec029efc9d580255185c6",
+                  "width": 1440,
+                  "height": 809,
+                  "tag": "original"
+                },
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/_lzkwRukaM8LtbRLijlMzg--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/just_auto_187/cd70c2ea2c8ec029efc9d580255185c6",
+                  "width": 170,
+                  "height": 128,
+                  "tag": "170x128"
+                }
+              ]
+            },
+            "provider": {
+              "displayName": "Just Auto",
+              "url": "https://www.globaldata.com/"
+            },
+            "canonicalUrl": {
+              "url": "https://www.just-auto.com/news/denso-quarterly-profit-declines/",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/denso-quarterly-profit-declines-tariffs-184635285.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        },
+        {
+          "id": "b03f57b3-bbd1-387b-bcab-905fc6f24d76",
+          "content": {
+            "id": "b03f57b3-bbd1-387b-bcab-905fc6f24d76",
+            "contentType": "STORY",
+            "title": "BluE Nexus, Aisin and Denso supply eAxle for Isuzu D-Max EV",
+            "description": "",
+            "summary": "Newly installed product combines the newly developed eAxle front and rear with a full-time 4WD system.",
+            "pubDate": "2025-08-01T11:42:14Z",
+            "displayTime": "2025-08-01T11:42:14Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": {
+              "originalUrl": "https://media.zenfs.com/en/just_auto_187/cc7799f82f0ffa0fcd8baf122c696829",
+              "originalWidth": 750,
+              "originalHeight": 563,
+              "caption": "",
+              "resolutions": [
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/BeIEbQaGXmYYT3oH4B4Gdg--~B/aD01NjM7dz03NTA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/just_auto_187/cc7799f82f0ffa0fcd8baf122c696829",
+                  "width": 750,
+                  "height": 563,
+                  "tag": "original"
+                },
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/T8PxMsYlDNsbGD_AhlEfVg--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/just_auto_187/cc7799f82f0ffa0fcd8baf122c696829",
+                  "width": 170,
+                  "height": 128,
+                  "tag": "170x128"
+                }
+              ]
+            },
+            "provider": {
+              "displayName": "Just Auto",
+              "url": "https://www.globaldata.com/"
+            },
+            "canonicalUrl": {
+              "url": "https://www.just-auto.com/news/blue-nexus-aisin-and-denso-supply-eaxle-for-isuzu-d-max-ev/",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/blue-nexus-aisin-denso-supply-114214990.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        },
+        {
+          "id": "172e1b3d-ab6d-4f05-b9d1-40c49f545981",
+          "content": {
+            "id": "172e1b3d-ab6d-4f05-b9d1-40c49f545981",
+            "contentType": "STORY",
+            "title": "Beyond Tesla: Under-the-radar stocks that could capitalize on the $1.2 trillion autonomous driving market",
+            "description": "",
+            "summary": "Beyond Tesla and Waymo, the real winners in autonomous vehicles could be the semiconductor, sensor, and software companies.",
+            "pubDate": "2025-07-15T12:00:37Z",
+            "displayTime": "2025-07-15T12:00:37Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": {
+              "originalUrl": "https://s.yimg.com/os/creatr-uploaded-images/2025-07/52801040-5775-11f0-b17f-478d844d21e9",
+              "originalWidth": 4000,
+              "originalHeight": 2667,
+              "caption": "",
+              "resolutions": [
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/QQ7y0TNyoAR.thqZmzpxkA--~B/aD0yNjY3O3c9NDAwMDthcHBpZD15dGFjaHlvbg--/https://s.yimg.com/os/creatr-uploaded-images/2025-07/52801040-5775-11f0-b17f-478d844d21e9",
+                  "width": 4000,
+                  "height": 2667,
+                  "tag": "original"
+                },
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/EeGyEE5EJOzVYUwb1CG9ow--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://s.yimg.com/os/creatr-uploaded-images/2025-07/52801040-5775-11f0-b17f-478d844d21e9",
+                  "width": 170,
+                  "height": 128,
+                  "tag": "170x128"
+                }
+              ]
+            },
+            "provider": {
+              "displayName": "Yahoo Finance",
+              "url": "http://finance.yahoo.com/"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/beyond-tesla-under-the-radar-stocks-that-could-capitalize-on-the-12-trillion-autonomous-driving-market-120037021.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/beyond-tesla-under-the-radar-stocks-that-could-capitalize-on-the-12-trillion-autonomous-driving-market-120037021.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        },
+        {
+          "id": "f93d2c12-e44f-3acb-9fe2-6f7c6a5b75fa",
+          "content": {
+            "id": "f93d2c12-e44f-3acb-9fe2-6f7c6a5b75fa",
+            "contentType": "STORY",
+            "title": "Garrett Motion (GTX) Surges 9.8%: Is This an Indication of Further Gains?",
+            "description": "",
+            "summary": "Garrett Motion (GTX) witnessed a jump in share price last session on above-average trading volume. The latest trend in earnings estimate revisions for the stock doesn't suggest further strength down the road.",
+            "pubDate": "2025-04-08T05:56:00Z",
+            "displayTime": "2025-04-08T05:56:00Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": {
+              "originalUrl": "https://media.zenfs.com/en/zacks.com/769d41271179e8a81ac24a012b144f89",
+              "originalWidth": 900,
+              "originalHeight": 498,
+              "caption": "",
+              "resolutions": [
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/sBQlo2gP4GfHF57FEPJ.Wg--~B/aD00OTg7dz05MDA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/zacks.com/769d41271179e8a81ac24a012b144f89",
+                  "width": 900,
+                  "height": 498,
+                  "tag": "original"
+                },
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/wpTfD92nCgzxjUjIY9X12w--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/zacks.com/769d41271179e8a81ac24a012b144f89",
+                  "width": 170,
+                  "height": 128,
+                  "tag": "170x128"
+                }
+              ]
+            },
+            "provider": {
+              "displayName": "Zacks",
+              "url": "http://www.zacks.com/"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/garrett-motion-gtx-surges-9-055600666.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/garrett-motion-gtx-surges-9-055600666.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        }
+      ]
+    },
+    "recommendations": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  },
+  "holders_data": {
+    "major_holders": {
+      "status": "error"
+    },
+    "institutional_holders": {
+      "status": "error"
+    }
+  },
+  "earnings_data": {
+    "earnings": {
+      "status": "error",
+      "message": "'NoneType' object has no attribute 'empty'"
+    },
+    "calendar": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  }
+}

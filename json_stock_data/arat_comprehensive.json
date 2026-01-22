@@ -1,53 +1,9 @@
 {
   "ticker": "ARAT",
-  "timestamp": "2026-01-21T05:02:07.113093",
+  "timestamp": "2026-01-22T05:15:46.449390",
   "intraday_data": {
-    "status": "success",
-    "rows": 6,
-    "data": [
-      {
-        "Close CMTV": 28.0,
-        "High CMTV": 28.0,
-        "Low CMTV": 28.0,
-        "Open CMTV": 28.0,
-        "Volume CMTV": 0
-      },
-      {
-        "Close CMTV": 27.860000610351562,
-        "High CMTV": 27.860000610351562,
-        "Low CMTV": 27.860000610351562,
-        "Open CMTV": 27.860000610351562,
-        "Volume CMTV": 10
-      },
-      {
-        "Close CMTV": 27.850000381469727,
-        "High CMTV": 27.860000610351562,
-        "Low CMTV": 27.850000381469727,
-        "Open CMTV": 27.860000610351562,
-        "Volume CMTV": 800
-      },
-      {
-        "Close CMTV": 27.610000610351562,
-        "High CMTV": 27.610000610351562,
-        "Low CMTV": 27.610000610351562,
-        "Open CMTV": 27.610000610351562,
-        "Volume CMTV": 200
-      },
-      {
-        "Close CMTV": 27.610000610351562,
-        "High CMTV": 27.610000610351562,
-        "Low CMTV": 27.610000610351562,
-        "Open CMTV": 27.610000610351562,
-        "Volume CMTV": 400
-      },
-      {
-        "Close CMTV": 28.15999984741211,
-        "High CMTV": 28.15999984741211,
-        "Low CMTV": 28.15999984741211,
-        "Open CMTV": 28.15999984741211,
-        "Volume CMTV": 100
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -70,7 +26,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

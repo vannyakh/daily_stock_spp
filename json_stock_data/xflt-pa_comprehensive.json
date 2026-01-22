@@ -1,64 +1,13 @@
 {
   "ticker": "XFLT-PA",
-  "timestamp": "2026-01-21T05:13:14.225484",
+  "timestamp": "2026-01-22T05:37:08.044869",
   "intraday_data": {
-    "status": "success",
-    "rows": 7,
-    "data": [
-      {
-        "Close LMND-WT": 0.010200000368058681,
-        "High LMND-WT": 0.010300000198185444,
-        "Low LMND-WT": 0.010200000368058681,
-        "Open LMND-WT": 0.010300000198185444,
-        "Volume LMND-WT": 0
-      },
-      {
-        "Close LMND-WT": 0.01209999993443489,
-        "High LMND-WT": 0.01269999984651804,
-        "Low LMND-WT": 0.01209999993443489,
-        "Open LMND-WT": 0.01209999993443489,
-        "Volume LMND-WT": 55234
-      },
-      {
-        "Close LMND-WT": 0.011599999852478504,
-        "High LMND-WT": 0.011599999852478504,
-        "Low LMND-WT": 0.011599999852478504,
-        "Open LMND-WT": 0.011599999852478504,
-        "Volume LMND-WT": 1200
-      },
-      {
-        "Close LMND-WT": 0.011500000022351742,
-        "High LMND-WT": 0.011500000022351742,
-        "Low LMND-WT": 0.011500000022351742,
-        "Open LMND-WT": 0.011500000022351742,
-        "Volume LMND-WT": 100
-      },
-      {
-        "Close LMND-WT": 0.011300000362098217,
-        "High LMND-WT": 0.011300000362098217,
-        "Low LMND-WT": 0.011300000362098217,
-        "Open LMND-WT": 0.011300000362098217,
-        "Volume LMND-WT": 800
-      },
-      {
-        "Close LMND-WT": 0.010599999688565731,
-        "High LMND-WT": 0.010599999688565731,
-        "Low LMND-WT": 0.010599999688565731,
-        "Open LMND-WT": 0.010599999688565731,
-        "Volume LMND-WT": 11900
-      },
-      {
-        "Close LMND-WT": 0.01489999983459711,
-        "High LMND-WT": 0.01489999983459711,
-        "Low LMND-WT": 0.01489999983459711,
-        "Open LMND-WT": 0.01489999983459711,
-        "Volume LMND-WT": 61600
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
-    "message": "argument of type 'NoneType' is not iterable"
+    "message": "Too Many Requests. Rate limited. Try after a while."
   },
   "financials": {
     "income_statement": {
@@ -77,8 +26,7 @@
   },
   "news_data": {
     "news": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
+      "status": "no_data"
     },
     "recommendations": {
       "status": "error",

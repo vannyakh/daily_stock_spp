@@ -1,25 +1,143 @@
 {
   "ticker": "GLGI",
-  "timestamp": "2026-01-21T05:04:18.444441",
+  "timestamp": "2026-01-22T05:19:29.788638",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 6,
+    "data": [
+      {
+        "Close": 0.4099999964237213,
+        "High": 0.4099999964237213,
+        "Low": 0.4099999964237213,
+        "Open": 0.4099999964237213,
+        "Volume": 0
+      },
+      {
+        "Close": 0.4000000059604645,
+        "High": 0.4000000059604645,
+        "Low": 0.4000000059604645,
+        "Open": 0.4000000059604645,
+        "Volume": 2002
+      },
+      {
+        "Close": 0.39500001072883606,
+        "High": 0.39500001072883606,
+        "Low": 0.39500001072883606,
+        "Open": 0.39500001072883606,
+        "Volume": 300
+      },
+      {
+        "Close": 0.38999998569488525,
+        "High": 0.39500001072883606,
+        "Low": 0.38999998569488525,
+        "Open": 0.39500001072883606,
+        "Volume": 15200
+      },
+      {
+        "Close": 0.4000000059604645,
+        "High": 0.4000000059604645,
+        "Low": 0.39989998936653137,
+        "Open": 0.39989998936653137,
+        "Volume": 17504
+      },
+      {
+        "Close": 0.39899998903274536,
+        "High": 0.39899998903274536,
+        "Low": 0.36010000109672546,
+        "Open": 0.36010000109672546,
+        "Volume": 300
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
-    "message": "argument of type 'NoneType' is not iterable"
+    "message": "Too Many Requests. Rate limited. Try after a while."
   },
   "financials": {
     "income_statement": {
+      "status": "no_data"
+    },
+    "balance_sheet": {
+      "status": "no_data"
+    },
+    "cash_flow": {
+      "status": "no_data"
+    }
+  },
+  "options_data": {
+    "status": "error",
+    "error_message": "Too Many Requests. Rate limited. Try after a while."
+  },
+  "news_data": {
+    "news": {
       "status": "success",
-      "rows": 48,
-      "columns": [
-        "2025-05-31 00:00:00",
-        "2024-05-31 00:00:00",
-        "2023-05-31 00:00:00",
-        "2022-05-31 00:00:00",
-        "2021-05-31 00:00:00"
-      ],
+      "count": 1,
       "data": [
         {
-          
+          "id": "23e1bf16-d8fb-3806-829a-be7b7617d67e",
+          "content": {
+            "id": "23e1bf16-d8fb-3806-829a-be7b7617d67e",
+            "contentType": "STORY",
+            "title": "Greystone Logistics Inc (GLGI) Q2 2026 Earnings Call Highlights: Navigating Revenue Loss and ...",
+            "description": "",
+            "summary": "Despite the end of a major contract, Greystone Logistics Inc (GLGI) secures new business and explores innovative solutions for future growth.",
+            "pubDate": "2026-01-19T01:00:28Z",
+            "displayTime": "2026-01-19T01:00:28Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": null,
+            "provider": {
+              "displayName": "GuruFocus.com",
+              "url": "http://www.gurufocus.com/"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/greystone-logistics-inc-glgi-q2-010028199.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/greystone-logistics-inc-glgi-q2-010028199.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        }
+      ]
+    },
+    "recommendations": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  },
+  "holders_data": {
+    "major_holders": {
+      "status": "error"
+    },
+    "institutional_holders": {
+      "status": "error"
+    }
+  },
+  "earnings_data": {
+    "earnings": {
+      "status": "error",
+      "message": "'NoneType' object has no attribute 'empty'"
+    },
+    "calendar": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  }
+}

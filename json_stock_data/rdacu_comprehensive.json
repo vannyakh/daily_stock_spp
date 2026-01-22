@@ -1,9 +1,25 @@
 {
   "ticker": "RDACU",
-  "timestamp": "2026-01-21T05:12:08.212618",
+  "timestamp": "2026-01-22T05:34:56.873803",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 2,
+    "data": [
+      {
+        "Close": 7.96999979019165,
+        "High": 7.96999979019165,
+        "Low": 7.96999979019165,
+        "Open": 7.96999979019165,
+        "Volume": 0
+      },
+      {
+        "Close": 7.510000228881836,
+        "High": 7.510000228881836,
+        "Low": 7.510000228881836,
+        "Open": 7.510000228881836,
+        "Volume": 404
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -26,8 +42,7 @@
   },
   "news_data": {
     "news": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
+      "status": "no_data"
     },
     "recommendations": {
       "status": "error",

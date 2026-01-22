@@ -1,9 +1,81 @@
 {
   "ticker": "UNIB",
-  "timestamp": "2026-01-21T05:02:20.225815",
+  "timestamp": "2026-01-22T05:16:06.812545",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 10,
+    "data": [
+      {
+        "Close": 20.25,
+        "High": 20.25,
+        "Low": 20.25,
+        "Open": 20.25,
+        "Volume": 0
+      },
+      {
+        "Close": 20.850000381469727,
+        "High": 20.850000381469727,
+        "Low": 20.829999923706055,
+        "Open": 20.829999923706055,
+        "Volume": 300
+      },
+      {
+        "Close": 21.950000762939453,
+        "High": 21.950000762939453,
+        "Low": 21.950000762939453,
+        "Open": 21.950000762939453,
+        "Volume": 100
+      },
+      {
+        "Close": 23.0,
+        "High": 23.0,
+        "Low": 23.0,
+        "Open": 23.0,
+        "Volume": 100
+      },
+      {
+        "Close": 22.0,
+        "High": 22.0,
+        "Low": 22.0,
+        "Open": 22.0,
+        "Volume": 1
+      },
+      {
+        "Close": 23.5,
+        "High": 23.5,
+        "Low": 23.5,
+        "Open": 23.5,
+        "Volume": 100
+      },
+      {
+        "Close": 23.950000762939453,
+        "High": 23.950000762939453,
+        "Low": 23.950000762939453,
+        "Open": 23.950000762939453,
+        "Volume": 1100
+      },
+      {
+        "Close": 24.0,
+        "High": 24.0,
+        "Low": 24.0,
+        "Open": 24.0,
+        "Volume": 0
+      },
+      {
+        "Close": 24.0,
+        "High": 24.0,
+        "Low": 24.0,
+        "Open": 24.0,
+        "Volume": 1401
+      },
+      {
+        "Close": 24.610000610351562,
+        "High": 24.610000610351562,
+        "Low": 24.610000610351562,
+        "Open": 24.610000610351562,
+        "Volume": 100
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -29,7 +101,8 @@
       "status": "no_data"
     },
     "recommendations": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   },
   "holders_data": {

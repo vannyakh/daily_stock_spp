@@ -1,9 +1,9 @@
 {
   "ticker": "EBRCZ",
-  "timestamp": "2026-01-21T05:10:06.665001",
+  "timestamp": "2026-01-22T05:30:58.457959",
   "intraday_data": {
     "status": "success",
-    "rows": 11,
+    "rows": 16,
     "data": [
       {
         "Close SB-PD": 25.510000228881836,
@@ -81,6 +81,41 @@
         "Low SB-PD": 25.559999465942383,
         "Open SB-PD": 25.559999465942383,
         "Volume SB-PD": 300
+      },
+      {
+        "Close SB-PD": 25.600000381469727,
+        "High SB-PD": 25.600000381469727,
+        "Low SB-PD": 25.587299346923828,
+        "Open SB-PD": 25.587299346923828,
+        "Volume SB-PD": 551
+      },
+      {
+        "Close SB-PD": 25.600000381469727,
+        "High SB-PD": 25.600000381469727,
+        "Low SB-PD": 25.600000381469727,
+        "Open SB-PD": 25.600000381469727,
+        "Volume SB-PD": 100
+      },
+      {
+        "Close SB-PD": 25.575000762939453,
+        "High SB-PD": 25.575000762939453,
+        "Low SB-PD": 25.575000762939453,
+        "Open SB-PD": 25.575000762939453,
+        "Volume SB-PD": 400
+      },
+      {
+        "Close SB-PD": 25.593299865722656,
+        "High SB-PD": 25.593299865722656,
+        "Low SB-PD": 25.593299865722656,
+        "Open SB-PD": 25.593299865722656,
+        "Volume SB-PD": 173
+      },
+      {
+        "Close SB-PD": 25.55500030517578,
+        "High SB-PD": 25.55500030517578,
+        "Low SB-PD": 25.55500030517578,
+        "Open SB-PD": 25.55500030517578,
+        "Volume SB-PD": 251
       }
     ]
   },
@@ -90,14 +125,108 @@
   },
   "financials": {
     "income_statement": {
+      "status": "no_data"
+    },
+    "balance_sheet": {
+      "status": "no_data"
+    },
+    "cash_flow": {
+      "status": "no_data"
+    }
+  },
+  "options_data": {
+    "status": "error",
+    "error_message": "Too Many Requests. Rate limited. Try after a while."
+  },
+  "news_data": {
+    "news": {
       "status": "success",
-      "rows": 48,
-      "columns": [
-        "2024-12-31 00:00:00",
-        "2023-12-31 00:00:00",
-        "2022-12-31 00:00:00",
-        "2021-12-31 00:00:00"
-      ],
+      "count": 1,
       "data": [
         {
-          
+          "id": "abd570af-f940-326e-b717-a0b2b1689a48",
+          "content": {
+            "id": "abd570af-f940-326e-b717-a0b2b1689a48",
+            "contentType": "STORY",
+            "title": "Private equity firms own 20% of EBR Systems, Inc. (ASX:EBR) shares but retail investors control 56% of the company",
+            "description": "",
+            "summary": "Key Insights EBR Systems' significant retail investors ownership suggests that the key decisions are influenced by...",
+            "pubDate": "2025-05-27T23:42:26Z",
+            "displayTime": "2025-05-27T23:42:26Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": {
+              "originalUrl": "https://media.zenfs.com/en/simply_wall_st__316/b23fe2923663ce315e2ef7ba313db8b9",
+              "originalWidth": 1194,
+              "originalHeight": 432,
+              "caption": "",
+              "resolutions": [
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/oY9vQNBdaHAXW3k6VZJztA--~B/aD00MzI7dz0xMTk0O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/simply_wall_st__316/b23fe2923663ce315e2ef7ba313db8b9",
+                  "width": 1194,
+                  "height": 432,
+                  "tag": "original"
+                },
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/npf9YXyOXQRZI_peTMjDiQ--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/simply_wall_st__316/b23fe2923663ce315e2ef7ba313db8b9",
+                  "width": 170,
+                  "height": 128,
+                  "tag": "170x128"
+                }
+              ]
+            },
+            "provider": {
+              "displayName": "Simply Wall St.",
+              "url": "https://simplywall.st/"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/private-equity-firms-own-20-234226580.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/private-equity-firms-own-20-234226580.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        }
+      ]
+    },
+    "recommendations": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  },
+  "holders_data": {
+    "major_holders": {
+      "status": "error"
+    },
+    "institutional_holders": {
+      "status": "error"
+    }
+  },
+  "earnings_data": {
+    "earnings": {
+      "status": "error",
+      "message": "'NoneType' object has no attribute 'empty'"
+    },
+    "calendar": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  }
+}

@@ -1,50 +1,13 @@
 {
   "ticker": "KYFGF",
-  "timestamp": "2026-01-21T05:12:09.961783",
+  "timestamp": "2026-01-22T05:34:58.108108",
   "intraday_data": {
-    "status": "success",
-    "rows": 5,
-    "data": [
-      {
-        "Close RANGR": 0.4000000059604645,
-        "High RANGR": 0.40139999985694885,
-        "Low RANGR": 0.3400000035762787,
-        "Open RANGR": 0.40139999985694885,
-        "Volume RANGR": 0
-      },
-      {
-        "Close RANGR": 0.44780001044273376,
-        "High RANGR": 0.44780001044273376,
-        "Low RANGR": 0.39879998564720154,
-        "Open RANGR": 0.39879998564720154,
-        "Volume RANGR": 300
-      },
-      {
-        "Close RANGR": 0.4462999999523163,
-        "High RANGR": 0.4462999999523163,
-        "Low RANGR": 0.4462999999523163,
-        "Open RANGR": 0.4462999999523163,
-        "Volume RANGR": 100
-      },
-      {
-        "Close RANGR": 0.42750000953674316,
-        "High RANGR": 0.42750000953674316,
-        "Low RANGR": 0.42750000953674316,
-        "Open RANGR": 0.42750000953674316,
-        "Volume RANGR": 200
-      },
-      {
-        "Close RANGR": 0.4449999928474426,
-        "High RANGR": 0.4449999928474426,
-        "Low RANGR": 0.4449999928474426,
-        "Open RANGR": 0.4449999928474426,
-        "Volume RANGR": 100
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
-    "message": "argument of type 'NoneType' is not iterable"
+    "message": "Too Many Requests. Rate limited. Try after a while."
   },
   "financials": {
     "income_statement": {
@@ -63,12 +26,10 @@
   },
   "news_data": {
     "news": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
+      "status": "no_data"
     },
     "recommendations": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
+      "status": "no_data"
     }
   },
   "holders_data": {

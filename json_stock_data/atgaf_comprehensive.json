@@ -1,46 +1,9 @@
 {
   "ticker": "ATGAF",
-  "timestamp": "2026-01-21T05:13:16.943747",
+  "timestamp": "2026-01-22T05:37:14.966699",
   "intraday_data": {
-    "status": "success",
-    "rows": 5,
-    "data": [
-      {
-        "Close MDV-PA": 25.1200008392334,
-        "High MDV-PA": 25.1200008392334,
-        "Low MDV-PA": 25.1200008392334,
-        "Open MDV-PA": 25.1200008392334,
-        "Volume MDV-PA": 0
-      },
-      {
-        "Close MDV-PA": 25.1200008392334,
-        "High MDV-PA": 25.1200008392334,
-        "Low MDV-PA": 25.1200008392334,
-        "Open MDV-PA": 25.1200008392334,
-        "Volume MDV-PA": 200
-      },
-      {
-        "Close MDV-PA": 25.276100158691406,
-        "High MDV-PA": 25.276100158691406,
-        "Low MDV-PA": 25.276100158691406,
-        "Open MDV-PA": 25.276100158691406,
-        "Volume MDV-PA": 391
-      },
-      {
-        "Close MDV-PA": 25.280000686645508,
-        "High MDV-PA": 25.280000686645508,
-        "Low MDV-PA": 25.280000686645508,
-        "Open MDV-PA": 25.280000686645508,
-        "Volume MDV-PA": 637
-      },
-      {
-        "Close MDV-PA": 25.071800231933594,
-        "High MDV-PA": 25.071800231933594,
-        "Low MDV-PA": 25.071800231933594,
-        "Open MDV-PA": 25.071800231933594,
-        "Volume MDV-PA": 351
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -48,45 +11,14 @@
   },
   "financials": {
     "income_statement": {
-      "status": "no_data"
-    },
-    "balance_sheet": {
-      "status": "no_data"
-    },
-    "cash_flow": {
-      "status": "no_data"
-    }
-  },
-  "options_data": {
-    "status": "error",
-    "error_message": "Too Many Requests. Rate limited. Try after a while."
-  },
-  "news_data": {
-    "news": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
-    },
-    "recommendations": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
-    }
-  },
-  "holders_data": {
-    "major_holders": {
-      "status": "error"
-    },
-    "institutional_holders": {
-      "status": "error"
-    }
-  },
-  "earnings_data": {
-    "earnings": {
-      "status": "error",
-      "message": "'NoneType' object has no attribute 'empty'"
-    },
-    "calendar": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
-    }
-  }
-}
+      "status": "success",
+      "rows": 52,
+      "columns": [
+        "2024-12-31 00:00:00",
+        "2023-12-31 00:00:00",
+        "2022-12-31 00:00:00",
+        "2021-12-31 00:00:00"
+      ],
+      "data": [
+        {
+          

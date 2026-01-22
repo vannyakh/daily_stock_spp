@@ -1,6 +1,6 @@
 {
   "ticker": "SEAC",
-  "timestamp": "2026-01-21T05:10:24.143937",
+  "timestamp": "2026-01-22T05:31:36.982792",
   "intraday_data": {
     "status": "no_data",
     "message": "No intraday data available"
@@ -17,13 +17,102 @@
       "status": "no_data"
     },
     "cash_flow": {
+      "status": "no_data"
+    }
+  },
+  "options_data": {
+    "status": "error",
+    "error_message": "Too Many Requests. Rate limited. Try after a while."
+  },
+  "news_data": {
+    "news": {
       "status": "success",
-      "rows": 56,
-      "columns": [
-        "2023-01-31 00:00:00",
-        "2022-01-31 00:00:00",
-        "2021-01-31 00:00:00"
-      ],
+      "count": 1,
       "data": [
         {
-          
+          "id": "b13db407-79db-3a30-ac99-c00179998c16",
+          "content": {
+            "id": "b13db407-79db-3a30-ac99-c00179998c16",
+            "contentType": "STORY",
+            "title": "SUNOTEC Germany wins SEAC contract for multiphase battery storage project",
+            "description": "",
+            "summary": "The initial stage will deliver 20MWh of storage capacity, with a wider four-phase plan aiming for 230MWh by 2028.",
+            "pubDate": "2026-01-21T10:48:11Z",
+            "displayTime": "2026-01-21T10:48:11Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": {
+              "originalUrl": "https://media.zenfs.com/en/power_technology_866/c3dd2d5babf66cce4220cc8f19abaf3f",
+              "originalWidth": 1440,
+              "originalHeight": 810,
+              "caption": "BESS projects allow electricity produced from sources like solar to be stored",
+              "resolutions": [
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/ni1qwPX5aGKUOa7DVgZa8w--~B/aD04MTA7dz0xNDQwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/power_technology_866/c3dd2d5babf66cce4220cc8f19abaf3f",
+                  "width": 1440,
+                  "height": 810,
+                  "tag": "original"
+                },
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/dgEpt9Dxtg74suCjDClXaQ--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/power_technology_866/c3dd2d5babf66cce4220cc8f19abaf3f",
+                  "width": 170,
+                  "height": 128,
+                  "tag": "170x128"
+                }
+              ]
+            },
+            "provider": {
+              "displayName": "Power Technology",
+              "url": "https://www.globaldata.com/"
+            },
+            "canonicalUrl": {
+              "url": "https://www.power-technology.com/news/sunotec-germany-wins-bess-project/",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/sunotec-germany-wins-seac-contract-104811512.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        }
+      ]
+    },
+    "recommendations": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  },
+  "holders_data": {
+    "major_holders": {
+      "status": "error"
+    },
+    "institutional_holders": {
+      "status": "error"
+    }
+  },
+  "earnings_data": {
+    "earnings": {
+      "status": "error",
+      "message": "'NoneType' object has no attribute 'empty'"
+    },
+    "calendar": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  }
+}
