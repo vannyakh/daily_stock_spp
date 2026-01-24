@@ -1,53 +1,9 @@
 {
   "ticker": "CARM",
-  "timestamp": "2026-01-22T05:20:48.443203",
+  "timestamp": "2026-01-24T05:08:56.307102",
   "intraday_data": {
-    "status": "success",
-    "rows": 6,
-    "data": [
-      {
-        "Close TBTC": 4.050000190734863,
-        "High TBTC": 4.050000190734863,
-        "Low TBTC": 4.050000190734863,
-        "Open TBTC": 4.050000190734863,
-        "Volume TBTC": 100
-      },
-      {
-        "Close TBTC": 4.050000190734863,
-        "High TBTC": 4.050000190734863,
-        "Low TBTC": 4.050000190734863,
-        "Open TBTC": 4.050000190734863,
-        "Volume TBTC": 400
-      },
-      {
-        "Close TBTC": 4.050000190734863,
-        "High TBTC": 4.050000190734863,
-        "Low TBTC": 4.050000190734863,
-        "Open TBTC": 4.050000190734863,
-        "Volume TBTC": 100
-      },
-      {
-        "Close TBTC": 4.0,
-        "High TBTC": 4.0,
-        "Low TBTC": 4.0,
-        "Open TBTC": 4.0,
-        "Volume TBTC": 400
-      },
-      {
-        "Close TBTC": 4.039999961853027,
-        "High TBTC": 4.039999961853027,
-        "Low TBTC": 4.039999961853027,
-        "Open TBTC": 4.039999961853027,
-        "Volume TBTC": 200
-      },
-      {
-        "Close TBTC": 4.039999961853027,
-        "High TBTC": 4.039999961853027,
-        "Low TBTC": 4.039999961853027,
-        "Open TBTC": 4.039999961853027,
-        "Volume TBTC": 200
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -55,14 +11,211 @@
   },
   "financials": {
     "income_statement": {
+      "status": "no_data"
+    },
+    "balance_sheet": {
+      "status": "no_data"
+    },
+    "cash_flow": {
+      "status": "no_data"
+    }
+  },
+  "options_data": {
+    "status": "error",
+    "error_message": "Too Many Requests. Rate limited. Try after a while."
+  },
+  "news_data": {
+    "news": {
       "status": "success",
-      "rows": 41,
-      "columns": [
-        "2024-12-31 00:00:00",
-        "2023-12-31 00:00:00",
-        "2022-12-31 00:00:00",
-        "2021-12-31 00:00:00"
-      ],
+      "count": 3,
       "data": [
         {
-          
+          "id": "73be6d03-53a6-3781-8812-e667aff483c9",
+          "content": {
+            "id": "73be6d03-53a6-3781-8812-e667aff483c9",
+            "contentType": "STORY",
+            "title": "BC-Most Active Stocks",
+            "description": "",
+            "summary": "HIVE Digital Technologies Ltd. 19,205,242 2.99",
+            "pubDate": "2025-09-02T14:30:17Z",
+            "displayTime": "2025-09-02T14:30:17Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": null,
+            "provider": {
+              "displayName": "Associated Press Finance",
+              "url": "http://www.ap.org/"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/bc-most-active-stocks-143017384.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/bc-most-active-stocks-143017384.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        },
+        {
+          "id": "d0467fcb-ab3d-3b7c-b39e-7152937c4285",
+          "content": {
+            "id": "d0467fcb-ab3d-3b7c-b39e-7152937c4285",
+            "contentType": "STORY",
+            "title": "Carisma Therapeutics, OrthoCellix enter definitive merger agreement",
+            "description": "",
+            "summary": "Carisma Therapeutics (CARM) and OrthoCellix, a wholly-owned subsidiary of Ocugen (OCGN), announced that they have entered into a definitive merger agreement to combine the companies in an all-stock transaction. The combined company will focus on the development of OrthoCellix\u2019s NeoCart technology for the treatment of knee articular cartilage defects and plans to initiate a U.S. Food and Drug Administration-endorsed Phase 3 clinical trial for NeoCart. OrthoCellix is developing NeoCart as an autol",
+            "pubDate": "2025-06-24T17:07:30Z",
+            "displayTime": "2025-06-24T17:07:30Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": {
+              "originalUrl": "https://media.zenfs.com/en/tipranks_452/bd23518bddbecaa2e26b66cd7da7f21e",
+              "originalWidth": 192,
+              "originalHeight": 192,
+              "caption": "https://www.tipranks.com/news/the-fly/carisma-therapeutics-orthocellix-enter-definitive-merger-agreement-thefly",
+              "resolutions": [
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/ShAwIQ85SkA_hiR9ajTS9A--~B/aD0xOTI7dz0xOTI7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/tipranks_452/bd23518bddbecaa2e26b66cd7da7f21e",
+                  "width": 192,
+                  "height": 192,
+                  "tag": "original"
+                },
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/Rpy_Kb.bW8uqdLRflmDY4Q--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/tipranks_452/bd23518bddbecaa2e26b66cd7da7f21e",
+                  "width": 170,
+                  "height": 128,
+                  "tag": "170x128"
+                }
+              ]
+            },
+            "provider": {
+              "displayName": "TipRanks",
+              "url": "https://www.tipranks.com/"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/carisma-therapeutics-orthocellix-enter-definitive-170730972.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/carisma-therapeutics-orthocellix-enter-definitive-170730972.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        },
+        {
+          "id": "0b35be33-e642-3bff-92e1-27b70a93c23d",
+          "content": {
+            "id": "0b35be33-e642-3bff-92e1-27b70a93c23d",
+            "contentType": "STORY",
+            "title": "Carisma Therapeutics Full Year 2024 Earnings: Misses Expectations",
+            "description": "",
+            "summary": "Carisma Therapeutics ( NASDAQ:CARM ) Full Year 2024 Results Key Financial Results Revenue: US$19.6m (up 32% from FY...",
+            "pubDate": "2025-04-02T11:54:33Z",
+            "displayTime": "2025-04-02T11:54:33Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": {
+              "originalUrl": "https://media.zenfs.com/en/simply_wall_st__316/78a8c60a6283aea0450523395306d38c",
+              "originalWidth": 945,
+              "originalHeight": 636,
+              "caption": "",
+              "resolutions": [
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/5Vpve0Pc2F3m_L3fs2p_dQ--~B/aD02MzY7dz05NDU7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/simply_wall_st__316/78a8c60a6283aea0450523395306d38c",
+                  "width": 945,
+                  "height": 636,
+                  "tag": "original"
+                },
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/5K6kmrQzRk.k.11fs9N_QA--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/simply_wall_st__316/78a8c60a6283aea0450523395306d38c",
+                  "width": 170,
+                  "height": 128,
+                  "tag": "170x128"
+                }
+              ]
+            },
+            "provider": {
+              "displayName": "Simply Wall St.",
+              "url": "https://simplywall.st/"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/carisma-therapeutics-full-2024-earnings-115433287.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/carisma-therapeutics-full-2024-earnings-115433287.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        }
+      ]
+    },
+    "recommendations": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  },
+  "holders_data": {
+    "major_holders": {
+      "status": "error"
+    },
+    "institutional_holders": {
+      "status": "error"
+    }
+  },
+  "earnings_data": {
+    "earnings": {
+      "status": "error",
+      "message": "'NoneType' object has no attribute 'empty'"
+    },
+    "calendar": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  }
+}

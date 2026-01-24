@@ -1,6 +1,6 @@
 {
   "ticker": "WDLF",
-  "timestamp": "2026-01-22T05:31:52.917678",
+  "timestamp": "2026-01-24T05:24:56.302816",
   "intraday_data": {
     "status": "success",
     "rows": 3,
@@ -10,68 +10,36 @@
         "High": 0.0003000000142492354,
         "Low": 0.0003000000142492354,
         "Open": 0.0003000000142492354,
-        "Volume": 3000
+        "Volume": 0
       },
       {
         "Close": 0.0003000000142492354,
         "High": 0.0003000000142492354,
         "Low": 0.0003000000142492354,
         "Open": 0.0003000000142492354,
-        "Volume": 10000
+        "Volume": 2400
       },
       {
         "Close": 0.0003000000142492354,
         "High": 0.0003000000142492354,
         "Low": 0.0003000000142492354,
         "Open": 0.0003000000142492354,
-        "Volume": 288550
+        "Volume": 75000
       }
     ]
   },
   "stock_info": {
     "status": "error",
-    "message": "Too Many Requests. Rate limited. Try after a while."
+    "message": "argument of type 'NoneType' is not iterable"
   },
   "financials": {
     "income_statement": {
-      "status": "no_data"
-    },
-    "balance_sheet": {
-      "status": "no_data"
-    },
-    "cash_flow": {
-      "status": "no_data"
-    }
-  },
-  "options_data": {
-    "status": "error",
-    "error_message": "Too Many Requests. Rate limited. Try after a while."
-  },
-  "news_data": {
-    "news": {
-      "status": "no_data"
-    },
-    "recommendations": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
-    }
-  },
-  "holders_data": {
-    "major_holders": {
-      "status": "error"
-    },
-    "institutional_holders": {
-      "status": "error"
-    }
-  },
-  "earnings_data": {
-    "earnings": {
-      "status": "error",
-      "message": "'NoneType' object has no attribute 'empty'"
-    },
-    "calendar": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
-    }
-  }
-}
+      "status": "success",
+      "rows": 39,
+      "columns": [
+        "2022-12-31 00:00:00",
+        "2021-12-31 00:00:00"
+      ],
+      "data": [
+        {
+          

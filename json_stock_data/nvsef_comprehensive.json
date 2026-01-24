@@ -1,33 +1,662 @@
 {
   "ticker": "NVSEF",
-  "timestamp": "2026-01-22T05:28:06.813813",
+  "timestamp": "2026-01-24T05:19:55.697495",
   "intraday_data": {
-    "status": "success",
-    "rows": 1,
-    "data": [
-      {
-        "Close": 143.5,
-        "High": 143.5,
-        "Low": 143.5,
-        "Open": 143.5,
-        "Volume": 723
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
-    "message": "argument of type 'NoneType' is not iterable"
+    "message": "Too Many Requests. Rate limited. Try after a while."
   },
   "financials": {
     "income_statement": {
+      "status": "no_data"
+    },
+    "balance_sheet": {
+      "status": "no_data"
+    },
+    "cash_flow": {
+      "status": "no_data"
+    }
+  },
+  "options_data": {
+    "status": "error",
+    "error_message": "Too Many Requests. Rate limited. Try after a while."
+  },
+  "news_data": {
+    "news": {
       "status": "success",
-      "rows": 46,
-      "columns": [
-        "2024-12-31 00:00:00",
-        "2023-12-31 00:00:00",
-        "2022-12-31 00:00:00",
-        "2021-12-31 00:00:00"
-      ],
+      "count": 10,
       "data": [
         {
-          
+          "id": "af54ea5a-a7c2-351a-88c7-9bf4830b3406",
+          "content": {
+            "id": "af54ea5a-a7c2-351a-88c7-9bf4830b3406",
+            "contentType": "STORY",
+            "title": "Assessing Novartis (SWX:NOVN) Valuation After Recent Share Price Momentum",
+            "description": "",
+            "summary": "What recent performance data suggests about Novartis (SWX:NOVN) Novartis (SWX:NOVN) has caught investor attention after a recent stretch of positive returns, with the share price up around 5% over the past month and about 11% over the past 3 months. See our latest analysis for Novartis. Zooming out, the recent 5.0% 1 month share price return and 11.1% 3 month share price return sit alongside a CHF115.64 share price and a 1 year total shareholder return of 32.7%. Taken together, these figures...",
+            "pubDate": "2026-01-23T22:10:31Z",
+            "displayTime": "2026-01-23T22:10:31Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": {
+              "originalUrl": "https://media.zenfs.com/en/simply_wall_st__316/afbfafad3e8c76b9f30c4b75037de1cf",
+              "originalWidth": 1194,
+              "originalHeight": 432,
+              "caption": "",
+              "resolutions": [
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/8gU_cX6ytodj15HdJxLmmg--~B/aD00MzI7dz0xMTk0O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/simply_wall_st__316/afbfafad3e8c76b9f30c4b75037de1cf",
+                  "width": 1194,
+                  "height": 432,
+                  "tag": "original"
+                },
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/TR_v_tPH5PATPHEdJX5f2A--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/simply_wall_st__316/afbfafad3e8c76b9f30c4b75037de1cf",
+                  "width": 170,
+                  "height": 128,
+                  "tag": "170x128"
+                }
+              ]
+            },
+            "provider": {
+              "displayName": "Simply Wall St.",
+              "url": "https://simplywall.st/"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/assessing-novartis-swx-novn-valuation-221031171.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/assessing-novartis-swx-novn-valuation-221031171.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        },
+        {
+          "id": "bfec0687-9645-3086-a8a7-94233adc4524",
+          "content": {
+            "id": "bfec0687-9645-3086-a8a7-94233adc4524",
+            "contentType": "STORY",
+            "title": "India's Cipla posts steeper-than-expected quarterly profit slump on tumour drug supply crunch",
+            "description": "",
+            "summary": "Jan 23 (Reuters) - Cipla, India's third-largest drugmaker by revenue, reported a steeper-than-expected 57% fall in quarterly profit on Friday, dragged down by a production halt at one of its exclusive",
+            "pubDate": "2026-01-23T09:14:02Z",
+            "displayTime": "2026-01-23T09:14:02Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": {
+              "originalUrl": "https://media.zenfs.com/en/reuters.com/6ad1af44a907156ea139de3f26f79b5b",
+              "originalWidth": 800,
+              "originalHeight": 485,
+              "caption": "FILE PHOTO: Employees and security staff work at the reception area of Cipla at its headquarters in Mumbai, India June 17, 2015. REUTERS/Danish Siddiqui/File Photo",
+              "resolutions": [
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/4fRM0h.V4H4hK51m.tAMtg--~B/aD00ODU7dz04MDA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/reuters.com/6ad1af44a907156ea139de3f26f79b5b",
+                  "width": 800,
+                  "height": 485,
+                  "tag": "original"
+                },
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/PNntT8K.q.6Ld9yuj1BaHA--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/reuters.com/6ad1af44a907156ea139de3f26f79b5b",
+                  "width": 170,
+                  "height": 128,
+                  "tag": "170x128"
+                }
+              ]
+            },
+            "provider": {
+              "displayName": "Reuters",
+              "url": "https://www.reuters.com/"
+            },
+            "canonicalUrl": {
+              "url": "https://sg.finance.yahoo.com/news/indian-drugmaker-cipla-misses-third-080456391.html",
+              "site": "finance",
+              "region": "SG",
+              "lang": "en-SG"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/indian-drugmaker-cipla-misses-third-080456391.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        },
+        {
+          "id": "b08f0d08-9f3a-3d13-b08f-4d8a4019b33f",
+          "content": {
+            "id": "b08f0d08-9f3a-3d13-b08f-4d8a4019b33f",
+            "contentType": "STORY",
+            "title": "Roche's Genentech Expands Investment in North Carolina Facility to $2B",
+            "description": "",
+            "summary": "Roche more than doubles Genentech's Holly Springs biomanufacturing investment to approximately $2B, boosting U.S. supply-chain resilience and metabolic drug production.",
+            "pubDate": "2026-01-21T16:41:00Z",
+            "displayTime": "2026-01-21T16:41:00Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": {
+              "originalUrl": "https://media.zenfs.com/en/zacks.com/34fbd46b67540f3cdb50013c4a171555",
+              "originalWidth": 635,
+              "originalHeight": 400,
+              "caption": "",
+              "resolutions": [
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/y6swp5qnudxxN4rNeiZSRA--~B/aD00MDA7dz02MzU7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/zacks.com/34fbd46b67540f3cdb50013c4a171555",
+                  "width": 635,
+                  "height": 400,
+                  "tag": "original"
+                },
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/s58GMiKLLjirib8pZByjjA--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/zacks.com/34fbd46b67540f3cdb50013c4a171555",
+                  "width": 170,
+                  "height": 128,
+                  "tag": "170x128"
+                }
+              ]
+            },
+            "provider": {
+              "displayName": "Zacks",
+              "url": "http://www.zacks.com/"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/roches-genentech-expands-investment-north-164100685.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/roches-genentech-expands-investment-north-164100685.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        },
+        {
+          "id": "be853d8d-68c0-32a8-8fa1-0915a4fb710a",
+          "content": {
+            "id": "be853d8d-68c0-32a8-8fa1-0915a4fb710a",
+            "contentType": "STORY",
+            "title": "GSK to buy Rapt in $2.2B deal for food allergy drug",
+            "description": "",
+            "summary": "The deal is the first for new CEO Luke Miels as the British drugmaker looks to overcome pressure on its HIV and vaccines businesses.",
+            "pubDate": "2026-01-20T10:57:00Z",
+            "displayTime": "2026-01-20T10:57:00Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": {
+              "originalUrl": "https://media.zenfs.com/en/biopharma_dive_768/7bd263bcae7d0506fb80282303540fe7",
+              "originalWidth": 1280,
+              "originalHeight": 720,
+              "caption": "BioPharma Dive, an Industry Dive publication",
+              "resolutions": [
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/y8Wuf1gmsarYET3XyThmag--~B/aD03MjA7dz0xMjgwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/biopharma_dive_768/7bd263bcae7d0506fb80282303540fe7",
+                  "width": 1280,
+                  "height": 720,
+                  "tag": "original"
+                },
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/5vyJrjeaGldWKqpkm7l3mQ--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/biopharma_dive_768/7bd263bcae7d0506fb80282303540fe7",
+                  "width": 170,
+                  "height": 128,
+                  "tag": "170x128"
+                }
+              ]
+            },
+            "provider": {
+              "displayName": "BioPharma Dive",
+              "url": "https://biopharmadive.com/"
+            },
+            "canonicalUrl": {
+              "url": "https://www.biopharmadive.com/news/gsk-rapt-acquire-food-allergy-prophylaxis-drug-ozureprubart/809956/",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/gsk-buy-rapt-2-2b-105700164.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        },
+        {
+          "id": "a9e7c335-631a-3cbf-a70f-f6438615b170",
+          "content": {
+            "id": "a9e7c335-631a-3cbf-a70f-f6438615b170",
+            "contentType": "VIDEO",
+            "title": "Novartis CEO Vas Narasimhan on Drug Pricing, Trade, Jobs",
+            "description": "Novartis CEO Vas Narasimhan said his company has \"future-proofed\" against trade tensions through a $23 billion investment in the United States. He spoke to Bloomberg TV's Francine Lacqua on the sidelines of the 2026 World Economic Forum in Davos, Switzerland.",
+            "summary": "Novartis CEO Vas Narasimhan said his company has \"future-proofed\" against trade tensions through a $23 billion investment in the United States. He spoke to Bloomberg TV's Francine Lacqua on the sidelines of the 2026 World Economic Forum in Davos, Switzerland.",
+            "pubDate": "2026-01-20T10:14:38Z",
+            "displayTime": "",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": {
+              "originalUrl": "https://media.zenfs.com/en/bloomberg_markets_video_2/5ff15b4938973e3cda69561cca72a98a",
+              "originalWidth": 1280,
+              "originalHeight": 720,
+              "caption": "",
+              "resolutions": [
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/V9xNwUW.0V7COKYSpoEPgw--~B/aD03MjA7dz0xMjgwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/bloomberg_markets_video_2/5ff15b4938973e3cda69561cca72a98a",
+                  "width": 1280,
+                  "height": 720,
+                  "tag": "original"
+                },
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/MwUQkSrwAcJxsb93380Kbg--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/bloomberg_markets_video_2/5ff15b4938973e3cda69561cca72a98a",
+                  "width": 170,
+                  "height": 128,
+                  "tag": "170x128"
+                }
+              ]
+            },
+            "provider": {
+              "displayName": "Bloomberg",
+              "url": "https://www.bloomberg.com/"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/video/novartis-ceo-vas-narasimhan-speaks-101438373.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/video/novartis-ceo-vas-narasimhan-speaks-101438373.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        },
+        {
+          "id": "a28db903-5502-308d-8ed4-e7f4bd501260",
+          "content": {
+            "id": "a28db903-5502-308d-8ed4-e7f4bd501260",
+            "contentType": "STORY",
+            "title": "Novartis AG (NVS) Advances $23B U.S. Investment Plan With New RLT Logistics Hub",
+            "description": "",
+            "summary": "We recently compiled a list of the Top 10 Oncology Stocks to Buy Now. Novartis AG is placed ninth on our list among the best cancer stocks. TheFly reported on January 6 that Barclays upgraded NVS to Equal Weight from Underweight with a CHF 120 price target after a coverage transfer. Barclays noted a poor [\u2026]",
+            "pubDate": "2026-01-20T10:00:24Z",
+            "displayTime": "2026-01-20T10:00:24Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": {
+              "originalUrl": "https://media.zenfs.com/en/insidermonkey.com/0114cbb0ed564c829b4b6e9f837757ab",
+              "originalWidth": 1456,
+              "originalHeight": 816,
+              "caption": "Novartis AG (NVS) Advances $23B U.S. Investment Plan With New RLT Logistics Hub",
+              "resolutions": [
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/TxI8Wsy0yXojcmCdyMh5_g--~B/aD04MTY7dz0xNDU2O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/insidermonkey.com/0114cbb0ed564c829b4b6e9f837757ab",
+                  "width": 1456,
+                  "height": 816,
+                  "tag": "original"
+                },
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/Sb4qyqnuViOa0E6HnpZWTA--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/insidermonkey.com/0114cbb0ed564c829b4b6e9f837757ab",
+                  "width": 170,
+                  "height": 128,
+                  "tag": "170x128"
+                }
+              ]
+            },
+            "provider": {
+              "displayName": "Insider Monkey",
+              "url": "http://www.insidermonkey.com"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/novartis-ag-nvs-advances-23b-100024605.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/novartis-ag-nvs-advances-23b-100024605.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        },
+        {
+          "id": "f3e422c6-56b3-39b2-87a9-b9367723deae",
+          "content": {
+            "id": "f3e422c6-56b3-39b2-87a9-b9367723deae",
+            "contentType": "STORY",
+            "title": "Texas, N. Carolina, Ohio, Pennsylvania \u2014 where pharma manufacturing investments have surged",
+            "description": "",
+            "summary": "Pledged projects have landed in a handful of hotspots while giving rise to potential new hubs across the U.S.",
+            "pubDate": "2026-01-20T07:54:16Z",
+            "displayTime": "2026-01-20T07:54:16Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": {
+              "originalUrl": "https://media.zenfs.com/en/pharma_voice_330/6bec6c4c3efa1bd87baa9156bf48a181",
+              "originalWidth": 1600,
+              "originalHeight": 900,
+              "caption": "",
+              "resolutions": [
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/ajS0D5sLBTBkmxSIY9TdeQ--~B/aD05MDA7dz0xNjAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/pharma_voice_330/6bec6c4c3efa1bd87baa9156bf48a181",
+                  "width": 1600,
+                  "height": 900,
+                  "tag": "original"
+                },
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/qThft3EAYCvVNc1hMXnTWQ--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/pharma_voice_330/6bec6c4c3efa1bd87baa9156bf48a181",
+                  "width": 170,
+                  "height": 128,
+                  "tag": "170x128"
+                }
+              ]
+            },
+            "provider": {
+              "displayName": "Pharma Voice",
+              "url": "https://www.pharmavoice.com/"
+            },
+            "canonicalUrl": {
+              "url": "https://www.pharmavoice.com/news/drug-pharma-manufacturing-hub-lilly-amgen-novartis/809904/",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/texas-n-carolina-ohio-pennsylvania-075416250.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        },
+        {
+          "id": "9f05b738-9eff-3848-b8b7-65b304cb217e",
+          "content": {
+            "id": "9f05b738-9eff-3848-b8b7-65b304cb217e",
+            "contentType": "STORY",
+            "title": "Novartis' Ianalumab Wins Breakthrough Therapy Tag for Sjogren's Disease",
+            "description": "",
+            "summary": "FDA grants Breakthrough Therapy status to NVS's ianalumab for Sjogren's disease with plans for global filings starting in 2026.",
+            "pubDate": "2026-01-19T17:53:00Z",
+            "displayTime": "2026-01-19T17:53:00Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": {
+              "originalUrl": "https://media.zenfs.com/en/zacks.com/5d5a6eb884ce28277f39a4369974b5ea",
+              "originalWidth": 635,
+              "originalHeight": 400,
+              "caption": "",
+              "resolutions": [
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/_9OKqED6rOANF8VtUei37A--~B/aD00MDA7dz02MzU7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/zacks.com/5d5a6eb884ce28277f39a4369974b5ea",
+                  "width": 635,
+                  "height": 400,
+                  "tag": "original"
+                },
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/48i9CQ6ezNgJyM7s0hm8Cw--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/zacks.com/5d5a6eb884ce28277f39a4369974b5ea",
+                  "width": 170,
+                  "height": 128,
+                  "tag": "170x128"
+                }
+              ]
+            },
+            "provider": {
+              "displayName": "Zacks",
+              "url": "http://www.zacks.com/"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/novartis-ianalumab-wins-breakthrough-therapy-175300623.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/novartis-ianalumab-wins-breakthrough-therapy-175300623.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        },
+        {
+          "id": "16892efc-a20a-3598-9850-285dea9073ff",
+          "content": {
+            "id": "16892efc-a20a-3598-9850-285dea9073ff",
+            "contentType": "STORY",
+            "title": "Winners & Losers: The ETF Playbook to Glide Trump's Great Healthcare Plan",
+            "description": "",
+            "summary": "Trump's Great Healthcare Plan redraws healthcare winners and losers - here's how ETFs like IHE could benefit as middlemen face pressure.",
+            "pubDate": "2026-01-19T12:38:00Z",
+            "displayTime": "2026-01-19T12:38:00Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": {
+              "originalUrl": "https://media.zenfs.com/en/zacks.com/6e7a581172a57923b1e9381146e28fb5",
+              "originalWidth": 620,
+              "originalHeight": 413,
+              "caption": "",
+              "resolutions": [
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/.gb6XNijFKw.G0R_D0zzsw--~B/aD00MTM7dz02MjA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/zacks.com/6e7a581172a57923b1e9381146e28fb5",
+                  "width": 620,
+                  "height": 413,
+                  "tag": "original"
+                },
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/fvE48nVh_seOKewnoQD0uQ--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/zacks.com/6e7a581172a57923b1e9381146e28fb5",
+                  "width": 170,
+                  "height": 128,
+                  "tag": "170x128"
+                }
+              ]
+            },
+            "provider": {
+              "displayName": "Zacks",
+              "url": "http://www.zacks.com/"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/winners-losers-etf-playbook-glide-123800587.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/winners-losers-etf-playbook-glide-123800587.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        },
+        {
+          "id": "4c30b702-cc01-3381-ae1c-ad4169f1f4bb",
+          "content": {
+            "id": "4c30b702-cc01-3381-ae1c-ad4169f1f4bb",
+            "contentType": "STORY",
+            "title": "Health Care Roundup: Market Talk",
+            "description": "",
+            "summary": "1203 ET \u2013 Big European pharmaceutical stocks have rallied in recent weeks, which makes them vulnerable should companies\u2019 2026 guidance disappoint, Bank of America analysts say in a note.  The likely outlooks from AstraZeneca and Novartis look safe relative to consensus expectations, Bank of America says.  Meanwhile, there could be some risk that the outlooks issued by GSK, Novo Nordisk and Sanofi fall short of forecasts, according to Bank of America.",
+            "pubDate": "2026-01-16T22:07:00Z",
+            "displayTime": "2026-01-16T22:07:00Z",
+            "isHosted": false,
+            "bypassModal": false,
+            "previewUrl": "https://finance.yahoo.com/m/4c30b702-cc01-3381-ae1c-ad4169f1f4bb/health-care-roundup-market.html",
+            "thumbnail": {
+              "originalUrl": "https://media.zenfs.com/en/wsj.com/f2bec8dc98b10078f647d871658f461a",
+              "originalWidth": 1280,
+              "originalHeight": 640,
+              "caption": "",
+              "resolutions": [
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/EBvcY5CjqtEJ1CibZiPTdA--~B/aD02NDA7dz0xMjgwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/wsj.com/f2bec8dc98b10078f647d871658f461a",
+                  "width": 1280,
+                  "height": 640,
+                  "tag": "original"
+                },
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/_SgPWs1PbPDZWtEa1hKi5A--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/wsj.com/f2bec8dc98b10078f647d871658f461a",
+                  "width": 170,
+                  "height": 128,
+                  "tag": "170x128"
+                }
+              ]
+            },
+            "provider": {
+              "displayName": "The Wall Street Journal",
+              "url": "http://www.wsj.com/"
+            },
+            "canonicalUrl": {
+              "url": "https://www.wsj.com/articles/health-care-roundup-market-talk-eb631563?siteid=yhoof2&yptr=yahoo",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": null,
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        }
+      ]
+    },
+    "recommendations": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  },
+  "holders_data": {
+    "major_holders": {
+      "status": "error"
+    },
+    "institutional_holders": {
+      "status": "error"
+    }
+  },
+  "earnings_data": {
+    "earnings": {
+      "status": "error",
+      "message": "'NoneType' object has no attribute 'empty'"
+    },
+    "calendar": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  }
+}

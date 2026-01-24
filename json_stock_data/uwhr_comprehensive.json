@@ -1,84 +1,25 @@
 {
   "ticker": "UWHR",
-  "timestamp": "2026-01-22T05:17:30.423873",
+  "timestamp": "2026-01-24T05:03:53.786523",
   "intraday_data": {
     "status": "success",
-    "rows": 4,
-    "data": [
-      {
-        "Close": 10.630000114440918,
-        "High": 10.630000114440918,
-        "Low": 10.630000114440918,
-        "Open": 10.630000114440918,
-        "Volume": 0
-      },
-      {
-        "Close": 10.399999618530273,
-        "High": 10.5,
-        "Low": 10.399999618530273,
-        "Open": 10.5,
-        "Volume": 1000
-      },
-      {
-        "Close": 10.300000190734863,
-        "High": 10.399999618530273,
-        "Low": 10.300000190734863,
-        "Open": 10.399999618530273,
-        "Volume": 700
-      },
-      {
-        "Close": 10.25,
-        "High": 10.25,
-        "Low": 10.25,
-        "Open": 10.25,
-        "Volume": 779
-      }
-    ]
+    "rows": 0,
+    "data": []
   },
   "stock_info": {
     "status": "error",
-    "message": "Too Many Requests. Rate limited. Try after a while."
+    "message": "argument of type 'NoneType' is not iterable"
   },
   "financials": {
     "income_statement": {
-      "status": "no_data"
-    },
-    "balance_sheet": {
-      "status": "no_data"
-    },
-    "cash_flow": {
-      "status": "no_data"
-    }
-  },
-  "options_data": {
-    "status": "error",
-    "error_message": "Too Many Requests. Rate limited. Try after a while."
-  },
-  "news_data": {
-    "news": {
-      "status": "no_data"
-    },
-    "recommendations": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
-    }
-  },
-  "holders_data": {
-    "major_holders": {
-      "status": "error"
-    },
-    "institutional_holders": {
-      "status": "error"
-    }
-  },
-  "earnings_data": {
-    "earnings": {
-      "status": "error",
-      "message": "'NoneType' object has no attribute 'empty'"
-    },
-    "calendar": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
-    }
-  }
-}
+      "status": "success",
+      "rows": 39,
+      "columns": [
+        "2024-12-31 00:00:00",
+        "2023-12-31 00:00:00",
+        "2022-12-31 00:00:00",
+        "2021-12-31 00:00:00"
+      ],
+      "data": [
+        {
+          

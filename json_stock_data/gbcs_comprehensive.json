@@ -1,9 +1,39 @@
 {
   "ticker": "GBCS",
-  "timestamp": "2026-01-22T05:31:33.457361",
+  "timestamp": "2026-01-24T05:24:26.349240",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 4,
+    "data": [
+      {
+        "Close": 2.619999885559082,
+        "High": 2.619999885559082,
+        "Low": 2.619999885559082,
+        "Open": 2.619999885559082,
+        "Volume": 0
+      },
+      {
+        "Close": 2.5,
+        "High": 2.5,
+        "Low": 2.5,
+        "Open": 2.5,
+        "Volume": 25
+      },
+      {
+        "Close": 2.5,
+        "High": 2.5,
+        "Low": 2.5,
+        "Open": 2.5,
+        "Volume": 250
+      },
+      {
+        "Close": 2.5,
+        "High": 2.5,
+        "Low": 2.5,
+        "Open": 2.5,
+        "Volume": 450
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -29,7 +59,8 @@
       "status": "no_data"
     },
     "recommendations": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   },
   "holders_data": {

@@ -1,77 +1,23 @@
 {
   "ticker": "WLYW",
-  "timestamp": "2026-01-22T05:24:56.237055",
+  "timestamp": "2026-01-24T05:15:10.787321",
   "intraday_data": {
-    "status": "success",
-    "rows": 3,
-    "data": [
-      {
-        "Close AHRO": 0.0007999999797903001,
-        "High AHRO": 0.0007999999797903001,
-        "Low AHRO": 0.0007999999797903001,
-        "Open AHRO": 0.0007999999797903001,
-        "Volume AHRO": 0
-      },
-      {
-        "Close AHRO": 0.000699999975040555,
-        "High AHRO": 0.000699999975040555,
-        "Low AHRO": 0.000699999975040555,
-        "Open AHRO": 0.000699999975040555,
-        "Volume AHRO": 999537
-      },
-      {
-        "Close AHRO": 0.0007999999797903001,
-        "High AHRO": 0.0007999999797903001,
-        "Low AHRO": 0.0007999999797903001,
-        "Open AHRO": 0.0007999999797903001,
-        "Volume AHRO": 300000
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
-    "message": "argument of type 'NoneType' is not iterable"
+    "message": "Too Many Requests. Rate limited. Try after a while."
   },
   "financials": {
     "income_statement": {
-      "status": "no_data"
-    },
-    "balance_sheet": {
-      "status": "no_data"
-    },
-    "cash_flow": {
-      "status": "no_data"
-    }
-  },
-  "options_data": {
-    "status": "error",
-    "error_message": "Too Many Requests. Rate limited. Try after a while."
-  },
-  "news_data": {
-    "news": {
-      "status": "no_data"
-    },
-    "recommendations": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
-    }
-  },
-  "holders_data": {
-    "major_holders": {
-      "status": "error"
-    },
-    "institutional_holders": {
-      "status": "error"
-    }
-  },
-  "earnings_data": {
-    "earnings": {
-      "status": "error",
-      "message": "'NoneType' object has no attribute 'empty'"
-    },
-    "calendar": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
-    }
-  }
-}
+      "status": "success",
+      "rows": 29,
+      "columns": [
+        "2023-09-30 00:00:00",
+        "2022-09-30 00:00:00",
+        "2021-09-30 00:00:00"
+      ],
+      "data": [
+        {
+          

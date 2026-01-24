@@ -1,9 +1,18 @@
 {
   "ticker": "KYFGF",
-  "timestamp": "2026-01-22T05:34:58.108108",
+  "timestamp": "2026-01-24T05:29:47.218007",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 1,
+    "data": [
+      {
+        "Close RANGU": 10.819999694824219,
+        "High RANGU": 10.819999694824219,
+        "Low RANGU": 10.819999694824219,
+        "Open RANGU": 10.819999694824219,
+        "Volume RANGU": 0
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -29,7 +38,8 @@
       "status": "no_data"
     },
     "recommendations": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   },
   "holders_data": {

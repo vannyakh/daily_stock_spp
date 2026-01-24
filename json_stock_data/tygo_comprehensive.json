@@ -1,24 +1,667 @@
 {
   "ticker": "TYGO",
-  "timestamp": "2026-01-22T05:17:26.336967",
+  "timestamp": "2026-01-24T05:03:46.703709",
   "intraday_data": {
     "status": "no_data",
     "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
-    "message": "argument of type 'NoneType' is not iterable"
+    "message": "Too Many Requests. Rate limited. Try after a while."
   },
   "financials": {
     "income_statement": {
+      "status": "no_data"
+    },
+    "balance_sheet": {
+      "status": "no_data"
+    },
+    "cash_flow": {
+      "status": "no_data"
+    }
+  },
+  "options_data": {
+    "status": "error",
+    "error_message": "Too Many Requests. Rate limited. Try after a while."
+  },
+  "news_data": {
+    "news": {
       "status": "success",
-      "rows": 50,
-      "columns": [
-        "2024-12-31 00:00:00",
-        "2023-12-31 00:00:00",
-        "2022-12-31 00:00:00",
-        "2021-12-31 00:00:00"
-      ],
+      "count": 10,
       "data": [
         {
-          
+          "id": "b3b94604-286f-3467-9a28-5be4b1bf7bfd",
+          "content": {
+            "id": "b3b94604-286f-3467-9a28-5be4b1bf7bfd",
+            "contentType": "STORY",
+            "title": "Enphase Energy (ENPH) Surges 12.5%: Is This an Indication of Further Gains?",
+            "description": "",
+            "summary": "Enphase Energy (ENPH) was a big mover last session on higher-than-average trading volume. The latest trend in earnings estimate revisions might help the stock continue moving higher in the near term.",
+            "pubDate": "2026-01-23T13:03:00Z",
+            "displayTime": "2026-01-23T13:03:00Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": {
+              "originalUrl": "https://media.zenfs.com/en/zacks.com/1e90663b89af248bb681e17b9b09652a",
+              "originalWidth": 635,
+              "originalHeight": 400,
+              "caption": "",
+              "resolutions": [
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/_0dnJKvXft497_kTXuAo8A--~B/aD00MDA7dz02MzU7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/zacks.com/1e90663b89af248bb681e17b9b09652a",
+                  "width": 635,
+                  "height": 400,
+                  "tag": "original"
+                },
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/xC9SWRSHMbaedSL.SjBelA--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/zacks.com/1e90663b89af248bb681e17b9b09652a",
+                  "width": 170,
+                  "height": 128,
+                  "tag": "170x128"
+                }
+              ]
+            },
+            "provider": {
+              "displayName": "Zacks",
+              "url": "http://www.zacks.com/"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/enphase-energy-enph-surges-12-130300105.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/enphase-energy-enph-surges-12-130300105.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        },
+        {
+          "id": "ea2f276a-ebdb-3999-a772-b7883ff3b78e",
+          "content": {
+            "id": "ea2f276a-ebdb-3999-a772-b7883ff3b78e",
+            "contentType": "STORY",
+            "title": "First Solar's Expanding Footprint Positions It for Sustained Growth",
+            "description": "",
+            "summary": "FSLR is expanding manufacturing capacity and bookings, boosting growth prospects, even as trade tensions and tariff risks loom.",
+            "pubDate": "2025-12-29T13:48:00Z",
+            "displayTime": "2025-12-29T13:48:00Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": {
+              "originalUrl": "https://media.zenfs.com/en/zacks.com/1e90663b89af248bb681e17b9b09652a",
+              "originalWidth": 635,
+              "originalHeight": 400,
+              "caption": "",
+              "resolutions": [
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/_0dnJKvXft497_kTXuAo8A--~B/aD00MDA7dz02MzU7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/zacks.com/1e90663b89af248bb681e17b9b09652a",
+                  "width": 635,
+                  "height": 400,
+                  "tag": "original"
+                },
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/xC9SWRSHMbaedSL.SjBelA--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/zacks.com/1e90663b89af248bb681e17b9b09652a",
+                  "width": 170,
+                  "height": 128,
+                  "tag": "170x128"
+                }
+              ]
+            },
+            "provider": {
+              "displayName": "Zacks",
+              "url": "http://www.zacks.com/"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/first-solars-expanding-footprint-positions-134800891.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/first-solars-expanding-footprint-positions-134800891.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        },
+        {
+          "id": "155f6d79-5568-37f8-bc0b-aff6f9a61eb8",
+          "content": {
+            "id": "155f6d79-5568-37f8-bc0b-aff6f9a61eb8",
+            "contentType": "STORY",
+            "title": "SolarEdge Technologies to Benefit From Rising U.S. Solar Demand",
+            "description": "",
+            "summary": "SEDG is expanding U.S. manufacturing and shipping record inverter volumes, but higher tariffs and trade risks could complicate its solar growth story.",
+            "pubDate": "2025-12-17T12:56:00Z",
+            "displayTime": "2025-12-17T12:56:00Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": {
+              "originalUrl": "https://media.zenfs.com/en/zacks.com/1e90663b89af248bb681e17b9b09652a",
+              "originalWidth": 635,
+              "originalHeight": 400,
+              "caption": "",
+              "resolutions": [
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/_0dnJKvXft497_kTXuAo8A--~B/aD00MDA7dz02MzU7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/zacks.com/1e90663b89af248bb681e17b9b09652a",
+                  "width": 635,
+                  "height": 400,
+                  "tag": "original"
+                },
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/xC9SWRSHMbaedSL.SjBelA--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/zacks.com/1e90663b89af248bb681e17b9b09652a",
+                  "width": 170,
+                  "height": 128,
+                  "tag": "170x128"
+                }
+              ]
+            },
+            "provider": {
+              "displayName": "Zacks",
+              "url": "http://www.zacks.com/"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/solaredge-technologies-benefit-rising-u-125600035.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/solaredge-technologies-benefit-rising-u-125600035.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        },
+        {
+          "id": "14660c9a-5600-3da7-951a-371100e614f3",
+          "content": {
+            "id": "14660c9a-5600-3da7-951a-371100e614f3",
+            "contentType": "STORY",
+            "title": "All You Need to Know About Tigo Energy, Inc. (TYGO) Rating Upgrade to Buy",
+            "description": "",
+            "summary": "Tigo Energy, Inc. (TYGO) might move higher on growing optimism about its earnings prospects, which is reflected by its upgrade to a Zacks Rank #2 (Buy).",
+            "pubDate": "2025-12-11T17:00:05Z",
+            "displayTime": "2025-12-11T17:00:05Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": {
+              "originalUrl": "https://media.zenfs.com/en/zacks.com/4f1a8d86cead9f96536efb147945dcc9",
+              "originalWidth": 900,
+              "originalHeight": 565,
+              "caption": "",
+              "resolutions": [
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/t6.OdXEVKQihFo9otNenfg--~B/aD01NjU7dz05MDA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/zacks.com/4f1a8d86cead9f96536efb147945dcc9",
+                  "width": 900,
+                  "height": 565,
+                  "tag": "original"
+                },
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/N09VOmD9Pc5L8kX_aBgV8g--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/zacks.com/4f1a8d86cead9f96536efb147945dcc9",
+                  "width": 170,
+                  "height": 128,
+                  "tag": "170x128"
+                }
+              ]
+            },
+            "provider": {
+              "displayName": "Zacks",
+              "url": "http://www.zacks.com/"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/know-tigo-energy-inc-tygo-170005576.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/know-tigo-energy-inc-tygo-170005576.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        },
+        {
+          "id": "769d35ca-31ae-3a22-96a2-cae386700231",
+          "content": {
+            "id": "769d35ca-31ae-3a22-96a2-cae386700231",
+            "contentType": "STORY",
+            "title": "4 Solar Stocks to Watch With Robust Growth & Steady Long-Term Outlook",
+            "description": "",
+            "summary": "Solar stocks like RUN, CSIQ, FTCI and TYGO stand out as U.S. solar demand climbs, even as new policies and tariffs tighten margins and elevate project risks.",
+            "pubDate": "2025-12-09T13:19:00Z",
+            "displayTime": "2025-12-09T13:19:00Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": {
+              "originalUrl": "https://media.zenfs.com/en/zacks.com/1e90663b89af248bb681e17b9b09652a",
+              "originalWidth": 635,
+              "originalHeight": 400,
+              "caption": "",
+              "resolutions": [
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/_0dnJKvXft497_kTXuAo8A--~B/aD00MDA7dz02MzU7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/zacks.com/1e90663b89af248bb681e17b9b09652a",
+                  "width": 635,
+                  "height": 400,
+                  "tag": "original"
+                },
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/xC9SWRSHMbaedSL.SjBelA--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/zacks.com/1e90663b89af248bb681e17b9b09652a",
+                  "width": 170,
+                  "height": 128,
+                  "tag": "170x128"
+                }
+              ]
+            },
+            "provider": {
+              "displayName": "Zacks",
+              "url": "http://www.zacks.com/"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/4-solar-stocks-watch-robust-131900668.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/4-solar-stocks-watch-robust-131900668.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        },
+        {
+          "id": "a01d22ef-821b-3eb3-97ac-00167110c2ac",
+          "content": {
+            "id": "a01d22ef-821b-3eb3-97ac-00167110c2ac",
+            "contentType": "STORY",
+            "title": "Tigo Energy, Inc. (TYGO) Powers Ahead with Strong Growth and Analyst Support",
+            "description": "",
+            "summary": "Tigo Energy, Inc. (NASDAQ:TYGO) is one of the best solar energy stocks to buy right now. On November 4, analyst Eric Stine of Craig-Hallum reiterated his Buy rating on Tigo Energy. Just days earlier, on October 30, Roth MKM\u2019s Philip Shen also issued a Buy recommendation, adding to the positive sentiment surrounding the stock. These [\u2026]",
+            "pubDate": "2025-11-09T12:33:58Z",
+            "displayTime": "2025-11-09T12:33:58Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": {
+              "originalUrl": "https://media.zenfs.com/en/insidermonkey.com/6e300883d3827e1f1bdae55553d2b792",
+              "originalWidth": 1000,
+              "originalHeight": 1000,
+              "caption": "Tigo Energy, Inc. (TYGO) Powers Ahead with Strong Growth and Analyst Support",
+              "resolutions": [
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/Ot.rpmLJJw_4okJ5WjldRQ--~B/aD0xMDAwO3c9MTAwMDthcHBpZD15dGFjaHlvbg--/https://media.zenfs.com/en/insidermonkey.com/6e300883d3827e1f1bdae55553d2b792",
+                  "width": 1000,
+                  "height": 1000,
+                  "tag": "original"
+                },
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/DwyVrQx4EoERdiHLIpUfww--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/insidermonkey.com/6e300883d3827e1f1bdae55553d2b792",
+                  "width": 170,
+                  "height": 128,
+                  "tag": "170x128"
+                }
+              ]
+            },
+            "provider": {
+              "displayName": "Insider Monkey",
+              "url": "http://www.insidermonkey.com"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/tigo-energy-inc-tygo-powers-123358331.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/tigo-energy-inc-tygo-powers-123358331.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        },
+        {
+          "id": "dad57103-8fd9-300c-b4d8-bbd1439d5e89",
+          "content": {
+            "id": "dad57103-8fd9-300c-b4d8-bbd1439d5e89",
+            "contentType": "STORY",
+            "title": "3 Penny Stocks Under $900M Market Cap Worth Watching",
+            "description": "",
+            "summary": "Major stock indexes in the United States have recently ended lower as concerns about AI valuations and job market data have resurfaced, highlighting the volatility in today's market. Though the term 'penny stock' might sound like a relic of past trading days, the opportunity it points to is still relevant. Typically referring to smaller or relatively new companies, these stocks can provide a mix of affordability and growth potential when paired with strong financials.",
+            "pubDate": "2025-11-07T12:05:15Z",
+            "displayTime": "2025-11-07T12:05:15Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": {
+              "originalUrl": "https://media.zenfs.com/en/simply_wall_st__316/c9021a6b56b6d46879d8b105f9ba3ef8",
+              "originalWidth": 1194,
+              "originalHeight": 432,
+              "caption": "",
+              "resolutions": [
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/6uAsO.rEcrE.nmLBY.t5jw--~B/aD00MzI7dz0xMTk0O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/simply_wall_st__316/c9021a6b56b6d46879d8b105f9ba3ef8",
+                  "width": 1194,
+                  "height": 432,
+                  "tag": "original"
+                },
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/rqlbN5RiPu1vlRU9ouAYXA--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/simply_wall_st__316/c9021a6b56b6d46879d8b105f9ba3ef8",
+                  "width": 170,
+                  "height": 128,
+                  "tag": "170x128"
+                }
+              ]
+            },
+            "provider": {
+              "displayName": "Simply Wall St.",
+              "url": "https://simplywall.st/"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/3-penny-stocks-under-900m-120515289.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/3-penny-stocks-under-900m-120515289.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        },
+        {
+          "id": "06108ae2-a046-31b8-94ca-294d1eb8025e",
+          "content": {
+            "id": "06108ae2-a046-31b8-94ca-294d1eb8025e",
+            "contentType": "STORY",
+            "title": "Are Oils-Energy Stocks Lagging  Tigo Energy, Inc. (TYGO) This Year?",
+            "description": "",
+            "summary": "Here is how Tigo Energy, Inc. (TYGO) and W&T Offshore (WTI) have performed compared to their sector so far this year.",
+            "pubDate": "2025-11-06T14:40:04Z",
+            "displayTime": "2025-11-06T14:40:04Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": {
+              "originalUrl": "https://media.zenfs.com/en/zacks.com/f889276f4a638f3c7a79c0e3e6b768c1",
+              "originalWidth": 900,
+              "originalHeight": 600,
+              "caption": "",
+              "resolutions": [
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/0K2vxHTAGj_tGrBqjPJ8Cg--~B/aD02MDA7dz05MDA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/zacks.com/f889276f4a638f3c7a79c0e3e6b768c1",
+                  "width": 900,
+                  "height": 600,
+                  "tag": "original"
+                },
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/Xhlfn4mpAJXpE0vIOolxTw--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/zacks.com/f889276f4a638f3c7a79c0e3e6b768c1",
+                  "width": 170,
+                  "height": 128,
+                  "tag": "170x128"
+                }
+              ]
+            },
+            "provider": {
+              "displayName": "Zacks",
+              "url": "http://www.zacks.com/"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/oils-energy-stocks-lagging-tigo-144004263.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/oils-energy-stocks-lagging-tigo-144004263.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        },
+        {
+          "id": "abeda33a-124e-39ec-85f7-5dbd24020255",
+          "content": {
+            "id": "abeda33a-124e-39ec-85f7-5dbd24020255",
+            "contentType": "STORY",
+            "title": "Tigo Energy, Inc. (TYGO) Upgraded to Buy: Here's Why",
+            "description": "",
+            "summary": "Tigo Energy, Inc. (TYGO) might move higher on growing optimism about its earnings prospects, which is reflected by its upgrade to a Zacks Rank #2 (Buy).",
+            "pubDate": "2025-10-31T20:47:38Z",
+            "displayTime": "2025-10-31T20:47:38Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": {
+              "originalUrl": "https://media.zenfs.com/en/zacks.com/2a50596f066181e48e4ae0ad6be00462",
+              "originalWidth": 900,
+              "originalHeight": 600,
+              "caption": "",
+              "resolutions": [
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/F3nzpi36wi9juoO_v9PrEA--~B/aD02MDA7dz05MDA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/zacks.com/2a50596f066181e48e4ae0ad6be00462",
+                  "width": 900,
+                  "height": 600,
+                  "tag": "original"
+                },
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/KYn_AObIuLKFqfbaX8Kxcg--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/zacks.com/2a50596f066181e48e4ae0ad6be00462",
+                  "width": 170,
+                  "height": 128,
+                  "tag": "170x128"
+                }
+              ]
+            },
+            "provider": {
+              "displayName": "Zacks",
+              "url": "http://www.zacks.com/"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/tigo-energy-inc-tygo-upgraded-204738020.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/tigo-energy-inc-tygo-upgraded-204738020.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        },
+        {
+          "id": "4265d4b4-a1ec-3643-8dec-0ef411017543",
+          "content": {
+            "id": "4265d4b4-a1ec-3643-8dec-0ef411017543",
+            "contentType": "STORY",
+            "title": "US$4.63 - That's What Analysts Think Tigo Energy, Inc. (NASDAQ:TYGO) Is Worth After These Results",
+            "description": "",
+            "summary": "Tigo Energy, Inc. ( NASDAQ:TYGO ) defied analyst predictions to release its third-quarter results, which were ahead of...",
+            "pubDate": "2025-10-31T11:27:11Z",
+            "displayTime": "2025-10-31T11:27:11Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": {
+              "originalUrl": "https://media.zenfs.com/en/simply_wall_st__316/c9021a6b56b6d46879d8b105f9ba3ef8",
+              "originalWidth": 1194,
+              "originalHeight": 432,
+              "caption": "",
+              "resolutions": [
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/6uAsO.rEcrE.nmLBY.t5jw--~B/aD00MzI7dz0xMTk0O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/simply_wall_st__316/c9021a6b56b6d46879d8b105f9ba3ef8",
+                  "width": 1194,
+                  "height": 432,
+                  "tag": "original"
+                },
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/rqlbN5RiPu1vlRU9ouAYXA--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/simply_wall_st__316/c9021a6b56b6d46879d8b105f9ba3ef8",
+                  "width": 170,
+                  "height": 128,
+                  "tag": "170x128"
+                }
+              ]
+            },
+            "provider": {
+              "displayName": "Simply Wall St.",
+              "url": "https://simplywall.st/"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/us-4-63-thats-analysts-112711968.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/us-4-63-thats-analysts-112711968.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        }
+      ]
+    },
+    "recommendations": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  },
+  "holders_data": {
+    "major_holders": {
+      "status": "error"
+    },
+    "institutional_holders": {
+      "status": "error"
+    }
+  },
+  "earnings_data": {
+    "earnings": {
+      "status": "error",
+      "message": "'NoneType' object has no attribute 'empty'"
+    },
+    "calendar": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  }
+}

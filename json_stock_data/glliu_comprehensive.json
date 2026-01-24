@@ -1,32 +1,9 @@
 {
   "ticker": "GLLIU",
-  "timestamp": "2026-01-22T05:34:00.938619",
+  "timestamp": "2026-01-24T05:28:14.187383",
   "intraday_data": {
-    "status": "success",
-    "rows": 3,
-    "data": [
-      {
-        "Close IMPPP": 25.834999084472656,
-        "High IMPPP": 25.834999084472656,
-        "Low IMPPP": 25.834999084472656,
-        "Open IMPPP": 25.834999084472656,
-        "Volume IMPPP": 0
-      },
-      {
-        "Close IMPPP": 25.969999313354492,
-        "High IMPPP": 25.969999313354492,
-        "Low IMPPP": 25.969999313354492,
-        "Open IMPPP": 25.969999313354492,
-        "Volume IMPPP": 113
-      },
-      {
-        "Close IMPPP": 25.700000762939453,
-        "High IMPPP": 25.799999237060547,
-        "Low IMPPP": 25.700000762939453,
-        "Open IMPPP": 25.799999237060547,
-        "Volume IMPPP": 902
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -49,7 +26,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

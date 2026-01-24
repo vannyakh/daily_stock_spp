@@ -1,53 +1,9 @@
 {
   "ticker": "COCSF",
-  "timestamp": "2026-01-22T05:28:47.278362",
+  "timestamp": "2026-01-24T05:20:52.974335",
   "intraday_data": {
-    "status": "success",
-    "rows": 6,
-    "data": [
-      {
-        "Close": 10.050000190734863,
-        "High": 10.050000190734863,
-        "Low": 10.0,
-        "Open": 10.0,
-        "Volume": 0
-      },
-      {
-        "Close": 10.0,
-        "High": 10.0,
-        "Low": 10.0,
-        "Open": 10.0,
-        "Volume": 100
-      },
-      {
-        "Close": 10.0,
-        "High": 10.0,
-        "Low": 10.0,
-        "Open": 10.0,
-        "Volume": 100
-      },
-      {
-        "Close": 10.0,
-        "High": 10.0,
-        "Low": 10.0,
-        "Open": 10.0,
-        "Volume": 0
-      },
-      {
-        "Close": 10.0,
-        "High": 10.0,
-        "Low": 10.0,
-        "Open": 10.0,
-        "Volume": 100
-      },
-      {
-        "Close": 9.050000190734863,
-        "High": 9.550000190734863,
-        "Low": 9.050000190734863,
-        "Open": 9.550000190734863,
-        "Volume": 634
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -667,7 +623,8 @@
       ]
     },
     "recommendations": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   },
   "holders_data": {

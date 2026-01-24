@@ -1,9 +1,32 @@
 {
   "ticker": "ESLA",
-  "timestamp": "2026-01-22T05:18:27.081470",
+  "timestamp": "2026-01-24T05:05:17.822957",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 3,
+    "data": [
+      {
+        "Close VIPZ": 0.33000001311302185,
+        "High VIPZ": 0.33000001311302185,
+        "Low VIPZ": 0.33000001311302185,
+        "Open VIPZ": 0.33000001311302185,
+        "Volume VIPZ": 0
+      },
+      {
+        "Close VIPZ": 0.33000001311302185,
+        "High VIPZ": 0.33000001311302185,
+        "Low VIPZ": 0.33000001311302185,
+        "Open VIPZ": 0.33000001311302185,
+        "Volume VIPZ": 2500
+      },
+      {
+        "Close VIPZ": 0.3319999873638153,
+        "High VIPZ": 0.3319999873638153,
+        "Low VIPZ": 0.3319999873638153,
+        "Open VIPZ": 0.3319999873638153,
+        "Volume VIPZ": 2500
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -215,7 +238,8 @@
       ]
     },
     "recommendations": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   },
   "holders_data": {

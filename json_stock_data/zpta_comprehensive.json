@@ -1,39 +1,9 @@
 {
   "ticker": "ZPTA",
-  "timestamp": "2026-01-22T05:32:06.772943",
+  "timestamp": "2026-01-24T05:25:17.421171",
   "intraday_data": {
-    "status": "success",
-    "rows": 4,
-    "data": [
-      {
-        "Close CPWR": 0.008799999952316284,
-        "High CPWR": 0.008799999952316284,
-        "Low CPWR": 0.008799999952316284,
-        "Open CPWR": 0.008799999952316284,
-        "Volume CPWR": 0
-      },
-      {
-        "Close CPWR": 0.004000000189989805,
-        "High CPWR": 0.004000000189989805,
-        "Low CPWR": 0.004000000189989805,
-        "Open CPWR": 0.004000000189989805,
-        "Volume CPWR": 300000
-      },
-      {
-        "Close CPWR": 0.00800000037997961,
-        "High CPWR": 0.00800000037997961,
-        "Low CPWR": 0.00800000037997961,
-        "Open CPWR": 0.00800000037997961,
-        "Volume CPWR": 10000
-      },
-      {
-        "Close CPWR": 0.00800000037997961,
-        "High CPWR": 0.00800000037997961,
-        "Low CPWR": 0.00800000037997961,
-        "Open CPWR": 0.00800000037997961,
-        "Volume CPWR": 60000
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -44,14 +14,41 @@
       "status": "no_data"
     },
     "balance_sheet": {
-      "status": "success",
-      "rows": 59,
-      "columns": [
-        "2024-12-31 00:00:00",
-        "2023-12-31 00:00:00",
-        "2022-12-31 00:00:00",
-        "2021-12-31 00:00:00"
-      ],
-      "data": [
-        {
-          
+      "status": "no_data"
+    },
+    "cash_flow": {
+      "status": "no_data"
+    }
+  },
+  "options_data": {
+    "status": "error",
+    "error_message": "Too Many Requests. Rate limited. Try after a while."
+  },
+  "news_data": {
+    "news": {
+      "status": "no_data"
+    },
+    "recommendations": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  },
+  "holders_data": {
+    "major_holders": {
+      "status": "error"
+    },
+    "institutional_holders": {
+      "status": "error"
+    }
+  },
+  "earnings_data": {
+    "earnings": {
+      "status": "error",
+      "message": "'NoneType' object has no attribute 'empty'"
+    },
+    "calendar": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  }
+}

@@ -1,9 +1,25 @@
 {
   "ticker": "FATBP",
-  "timestamp": "2026-01-22T05:37:01.437676",
+  "timestamp": "2026-01-24T05:32:46.169801",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 2,
+    "data": [
+      {
+        "Close VCRRX": 28.690000534057617,
+        "High VCRRX": 28.690000534057617,
+        "Low VCRRX": 28.690000534057617,
+        "Open VCRRX": 28.690000534057617,
+        "Volume VCRRX": 0
+      },
+      {
+        "Close VCRRX": 28.709999084472656,
+        "High VCRRX": 28.709999084472656,
+        "Low VCRRX": 28.709999084472656,
+        "Open VCRRX": 28.709999084472656,
+        "Volume VCRRX": 0
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -642,7 +658,8 @@
       ]
     },
     "recommendations": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   },
   "holders_data": {

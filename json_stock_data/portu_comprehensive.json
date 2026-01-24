@@ -1,9 +1,39 @@
 {
   "ticker": "PORTU",
-  "timestamp": "2026-01-22T05:36:01.589768",
+  "timestamp": "2026-01-24T05:31:23.778864",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 4,
+    "data": [
+      {
+        "Close VSEEW": 0.06530000269412994,
+        "High VSEEW": 0.06530000269412994,
+        "Low VSEEW": 0.06530000269412994,
+        "Open VSEEW": 0.06530000269412994,
+        "Volume VSEEW": 0
+      },
+      {
+        "Close VSEEW": 0.06530000269412994,
+        "High VSEEW": 0.06530000269412994,
+        "Low VSEEW": 0.06530000269412994,
+        "Open VSEEW": 0.06530000269412994,
+        "Volume VSEEW": 2165
+      },
+      {
+        "Close VSEEW": 0.057999998331069946,
+        "High VSEEW": 0.057999998331069946,
+        "Low VSEEW": 0.0560000017285347,
+        "Open VSEEW": 0.0560000017285347,
+        "Volume VSEEW": 500
+      },
+      {
+        "Close VSEEW": 0.06530000269412994,
+        "High VSEEW": 0.06530000269412994,
+        "Low VSEEW": 0.06530000269412994,
+        "Open VSEEW": 0.06530000269412994,
+        "Volume VSEEW": 100
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -29,7 +59,8 @@
       "status": "no_data"
     },
     "recommendations": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   },
   "holders_data": {

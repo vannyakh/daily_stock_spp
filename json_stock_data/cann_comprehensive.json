@@ -1,141 +1,60 @@
 {
   "ticker": "CANN",
-  "timestamp": "2026-01-22T05:24:15.702499",
+  "timestamp": "2026-01-24T05:14:07.806614",
   "intraday_data": {
     "status": "success",
-    "rows": 3,
+    "rows": 5,
     "data": [
       {
-        "Close": 0.03449999913573265,
-        "High": 0.03449999913573265,
-        "Low": 0.03449999913573265,
-        "Open": 0.03449999913573265,
+        "Close": 0.035100001841783524,
+        "High": 0.035100001841783524,
+        "Low": 0.035100001841783524,
+        "Open": 0.035100001841783524,
         "Volume": 0
-      },
-      {
-        "Close": 0.03869999945163727,
-        "High": 0.03869999945163727,
-        "Low": 0.03869999945163727,
-        "Open": 0.03869999945163727,
-        "Volume": 2000
       },
       {
         "Close": 0.035100001841783524,
         "High": 0.035100001841783524,
         "Low": 0.035100001841783524,
         "Open": 0.035100001841783524,
-        "Volume": 9245
+        "Volume": 60
+      },
+      {
+        "Close": 0.03500000014901161,
+        "High": 0.03500000014901161,
+        "Low": 0.03500000014901161,
+        "Open": 0.03500000014901161,
+        "Volume": 408930
+      },
+      {
+        "Close": 0.0340999998152256,
+        "High": 0.0340999998152256,
+        "Low": 0.0340999998152256,
+        "Open": 0.0340999998152256,
+        "Volume": 20000
+      },
+      {
+        "Close": 0.037700001150369644,
+        "High": 0.037700001150369644,
+        "Low": 0.037700001150369644,
+        "Open": 0.037700001150369644,
+        "Volume": 57
       }
     ]
   },
   "stock_info": {
     "status": "error",
-    "message": "Too Many Requests. Rate limited. Try after a while."
+    "message": "argument of type 'NoneType' is not iterable"
   },
   "financials": {
     "income_statement": {
-      "status": "no_data"
-    },
-    "balance_sheet": {
-      "status": "no_data"
-    },
-    "cash_flow": {
-      "status": "no_data"
-    }
-  },
-  "options_data": {
-    "status": "error",
-    "error_message": "Too Many Requests. Rate limited. Try after a while."
-  },
-  "news_data": {
-    "news": {
       "status": "success",
-      "count": 1,
+      "rows": 50,
+      "columns": [
+        "2023-12-31 00:00:00",
+        "2022-12-31 00:00:00",
+        "2021-12-31 00:00:00"
+      ],
       "data": [
         {
-          "id": "172d8706-3b38-3a60-8f14-bb159e6364ee",
-          "content": {
-            "id": "172d8706-3b38-3a60-8f14-bb159e6364ee",
-            "contentType": "STORY",
-            "title": "Trump expected to sign EO to reclassify marijuana as soon as Monday, CNBC says",
-            "description": "",
-            "summary": "Cannabis stocks jumped on Friday following reports that President Donald Trump will significantly ease federal restrictions on marijuana, with an executive order seen as coming as soon as Monday, CNBC\u2019s Alex Harring and Brandon Gomez report. Trump is expected to use an executive order to instruct federal agencies to reclassify marijuana as a less regulated Schedule III drug from a Schedule I, the Washington Post reported on Thursday. Such a move would allow cannabis companies to fall under diffe",
-            "pubDate": "2025-12-13T16:15:27Z",
-            "displayTime": "2025-12-13T16:15:27Z",
-            "isHosted": true,
-            "bypassModal": false,
-            "previewUrl": null,
-            "thumbnail": {
-              "originalUrl": "https://media.zenfs.com/en/tipranks_452/100c3fef7d854fea083938dbb81d9e1c",
-              "originalWidth": 192,
-              "originalHeight": 192,
-              "caption": "https://www.tipranks.com/news/the-fly/trump-expected-to-sign-eo-to-reclassify-marijuana-as-soon-as-monday-cnbc-says-thefly",
-              "resolutions": [
-                {
-                  "url": "https://s.yimg.com/uu/api/res/1.2/4w6eOKkYEuXOiCrT26p6Vw--~B/aD0xOTI7dz0xOTI7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/tipranks_452/100c3fef7d854fea083938dbb81d9e1c",
-                  "width": 192,
-                  "height": 192,
-                  "tag": "original"
-                },
-                {
-                  "url": "https://s.yimg.com/uu/api/res/1.2/1spzQcMIRIJyU5Q3uvZxKQ--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/tipranks_452/100c3fef7d854fea083938dbb81d9e1c",
-                  "width": 170,
-                  "height": 128,
-                  "tag": "170x128"
-                }
-              ]
-            },
-            "provider": {
-              "displayName": "TipRanks",
-              "url": "https://www.tipranks.com/"
-            },
-            "canonicalUrl": {
-              "url": "https://finance.yahoo.com/news/trump-expected-sign-eo-reclassify-161527748.html",
-              "site": "finance",
-              "region": "US",
-              "lang": "en-US"
-            },
-            "clickThroughUrl": {
-              "url": "https://finance.yahoo.com/news/trump-expected-sign-eo-reclassify-161527748.html",
-              "site": "finance",
-              "region": "US",
-              "lang": "en-US"
-            },
-            "metadata": {
-              "editorsPick": false
-            },
-            "finance": {
-              "premiumFinance": {
-                "isPremiumNews": false,
-                "isPremiumFreeNews": false
-              }
-            },
-            "storyline": null
-          }
-        }
-      ]
-    },
-    "recommendations": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
-    }
-  },
-  "holders_data": {
-    "major_holders": {
-      "status": "error"
-    },
-    "institutional_holders": {
-      "status": "error"
-    }
-  },
-  "earnings_data": {
-    "earnings": {
-      "status": "error",
-      "message": "'NoneType' object has no attribute 'empty'"
-    },
-    "calendar": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
-    }
-  }
-}
+          

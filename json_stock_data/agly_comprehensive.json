@@ -1,6 +1,6 @@
 {
   "ticker": "AGLY",
-  "timestamp": "2026-01-22T05:04:29.649946",
+  "timestamp": "2026-01-24T04:43:34.696402",
   "intraday_data": {
     "status": "no_data",
     "message": "No intraday data available"
@@ -29,15 +29,16 @@
       "status": "no_data"
     },
     "recommendations": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   },
   "holders_data": {
     "major_holders": {
-      "status": "no_data"
+      "status": "error"
     },
     "institutional_holders": {
-      "status": "no_data"
+      "status": "error"
     }
   },
   "earnings_data": {
@@ -47,7 +48,7 @@
     },
     "calendar": {
       "status": "error",
-      "message": "'dict' object has no attribute 'empty'"
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   }
 }

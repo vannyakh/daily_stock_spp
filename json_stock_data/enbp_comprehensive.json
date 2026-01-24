@@ -1,9 +1,53 @@
 {
   "ticker": "ENBP",
-  "timestamp": "2026-01-22T05:15:37.992813",
+  "timestamp": "2026-01-24T05:00:45.782162",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 6,
+    "data": [
+      {
+        "Close": 23.649999618530273,
+        "High": 23.649999618530273,
+        "Low": 23.649999618530273,
+        "Open": 23.649999618530273,
+        "Volume": 0
+      },
+      {
+        "Close": 23.850000381469727,
+        "High": 23.850000381469727,
+        "Low": 23.850000381469727,
+        "Open": 23.850000381469727,
+        "Volume": 200
+      },
+      {
+        "Close": 23.850000381469727,
+        "High": 23.850000381469727,
+        "Low": 23.850000381469727,
+        "Open": 23.850000381469727,
+        "Volume": 100
+      },
+      {
+        "Close": 23.989999771118164,
+        "High": 23.989999771118164,
+        "Low": 23.989999771118164,
+        "Open": 23.989999771118164,
+        "Volume": 100
+      },
+      {
+        "Close": 24.0,
+        "High": 24.0,
+        "Low": 24.0,
+        "Open": 24.0,
+        "Volume": 100
+      },
+      {
+        "Close": 24.0,
+        "High": 24.0,
+        "Low": 24.0,
+        "Open": 24.0,
+        "Volume": 1
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -14,14 +58,105 @@
       "status": "no_data"
     },
     "balance_sheet": {
+      "status": "no_data"
+    },
+    "cash_flow": {
+      "status": "no_data"
+    }
+  },
+  "options_data": {
+    "status": "error",
+    "error_message": "Too Many Requests. Rate limited. Try after a while."
+  },
+  "news_data": {
+    "news": {
       "status": "success",
-      "rows": 39,
-      "columns": [
-        "2024-12-31 00:00:00",
-        "2023-12-31 00:00:00",
-        "2022-12-31 00:00:00",
-        "2021-12-31 00:00:00"
-      ],
+      "count": 1,
       "data": [
         {
-          
+          "id": "be9a2808-b260-35db-9004-cc901ec72e88",
+          "content": {
+            "id": "be9a2808-b260-35db-9004-cc901ec72e88",
+            "contentType": "STORY",
+            "title": "ENB Financial (ENBP) Margin Expansion Reinforces Value Narrative, Challenges Market Skepticism",
+            "description": "",
+            "summary": "ENB Financial (ENBP) reported a net profit margin of 24.1% this period, up from 21.9% last year, signaling increased profitability. With EPS growth of 22.7% year-over-year, far outpacing its five-year average growth of 5.4%, the company stands out in the sector. The stock\u2019s price-to-earnings ratio is just 6x, well below industry and peer averages. Management estimates fair value at $36.97 per share compared to the current price of $20.75. Investors are likely to interpret these results as...",
+            "pubDate": "2025-10-22T07:13:14Z",
+            "displayTime": "2025-10-22T07:13:14Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": {
+              "originalUrl": "https://media.zenfs.com/en/simply_wall_st__316/75a6275a0d81fd5fbc47ebecee672e4c",
+              "originalWidth": 1194,
+              "originalHeight": 432,
+              "caption": "",
+              "resolutions": [
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/RvXBP6irJOcli7EUS_oYYw--~B/aD00MzI7dz0xMTk0O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/simply_wall_st__316/75a6275a0d81fd5fbc47ebecee672e4c",
+                  "width": 1194,
+                  "height": 432,
+                  "tag": "original"
+                },
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/McnRbZ1GDkEwVdEg.M3tyg--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/simply_wall_st__316/75a6275a0d81fd5fbc47ebecee672e4c",
+                  "width": 170,
+                  "height": 128,
+                  "tag": "170x128"
+                }
+              ]
+            },
+            "provider": {
+              "displayName": "Simply Wall St.",
+              "url": "https://simplywall.st/"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/enb-financial-enbp-margin-expansion-071314396.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/enb-financial-enbp-margin-expansion-071314396.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        }
+      ]
+    },
+    "recommendations": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  },
+  "holders_data": {
+    "major_holders": {
+      "status": "error"
+    },
+    "institutional_holders": {
+      "status": "error"
+    }
+  },
+  "earnings_data": {
+    "earnings": {
+      "status": "error",
+      "message": "'NoneType' object has no attribute 'empty'"
+    },
+    "calendar": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  }
+}
