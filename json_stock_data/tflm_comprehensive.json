@@ -1,9 +1,25 @@
 {
   "ticker": "TFLM",
-  "timestamp": "2026-01-24T05:27:47.150294",
+  "timestamp": "2026-01-27T05:19:21.131362",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 2,
+    "data": [
+      {
+        "Close WLDSW": 1.309999942779541,
+        "High WLDSW": 1.309999942779541,
+        "Low WLDSW": 1.309999942779541,
+        "Open WLDSW": 1.309999942779541,
+        "Volume WLDSW": 0
+      },
+      {
+        "Close WLDSW": 1.4800000190734863,
+        "High WLDSW": 1.4800000190734863,
+        "Low WLDSW": 1.4800000190734863,
+        "Open WLDSW": 1.4800000190734863,
+        "Volume WLDSW": 100
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -26,7 +42,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

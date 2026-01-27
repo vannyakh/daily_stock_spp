@@ -1,9 +1,39 @@
 {
   "ticker": "YBGJ",
-  "timestamp": "2026-01-24T05:14:06.604393",
+  "timestamp": "2026-01-27T05:11:17.104847",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 4,
+    "data": [
+      {
+        "Close": 0.01209999993443489,
+        "High": 0.01209999993443489,
+        "Low": 0.01209999993443489,
+        "Open": 0.01209999993443489,
+        "Volume": 0
+      },
+      {
+        "Close": 0.012299999594688416,
+        "High": 0.012299999594688416,
+        "Low": 0.012299999594688416,
+        "Open": 0.012299999594688416,
+        "Volume": 10
+      },
+      {
+        "Close": 0.011800000444054604,
+        "High": 0.011800000444054604,
+        "Low": 0.011800000444054604,
+        "Open": 0.011800000444054604,
+        "Volume": 10000
+      },
+      {
+        "Close": 0.011500000022351742,
+        "High": 0.011500000022351742,
+        "Low": 0.011500000022351742,
+        "Open": 0.011500000022351742,
+        "Volume": 10000
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -11,14 +41,44 @@
   },
   "financials": {
     "income_statement": {
-      "status": "success",
-      "rows": 51,
-      "columns": [
-        "2024-12-31 00:00:00",
-        "2023-12-31 00:00:00",
-        "2022-12-31 00:00:00",
-        "2021-12-31 00:00:00"
-      ],
-      "data": [
-        {
-          
+      "status": "no_data"
+    },
+    "balance_sheet": {
+      "status": "no_data"
+    },
+    "cash_flow": {
+      "status": "no_data"
+    }
+  },
+  "options_data": {
+    "status": "error",
+    "error_message": "Too Many Requests. Rate limited. Try after a while."
+  },
+  "news_data": {
+    "news": {
+      "status": "no_data"
+    },
+    "recommendations": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  },
+  "holders_data": {
+    "major_holders": {
+      "status": "error"
+    },
+    "institutional_holders": {
+      "status": "error"
+    }
+  },
+  "earnings_data": {
+    "earnings": {
+      "status": "error",
+      "message": "'NoneType' object has no attribute 'empty'"
+    },
+    "calendar": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  }
+}

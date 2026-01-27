@@ -1,46 +1,262 @@
 {
   "ticker": "BKSC",
-  "timestamp": "2026-01-24T05:23:56.253708",
+  "timestamp": "2026-01-27T05:17:03.955763",
   "intraday_data": {
     "status": "success",
-    "rows": 3,
+    "rows": 5,
     "data": [
       {
-        "Close ZIVO": 11.0,
-        "High ZIVO": 11.0,
-        "Low ZIVO": 10.0,
-        "Open ZIVO": 10.0,
-        "Volume ZIVO": 0
+        "Close": 15.4399995803833,
+        "High": 15.4399995803833,
+        "Low": 15.4399995803833,
+        "Open": 15.4399995803833,
+        "Volume": 0
       },
       {
-        "Close ZIVO": 10.0,
-        "High ZIVO": 10.0,
-        "Low ZIVO": 10.0,
-        "Open ZIVO": 10.0,
-        "Volume ZIVO": 100
+        "Close": 15.600000381469727,
+        "High": 15.619999885559082,
+        "Low": 15.600000381469727,
+        "Open": 15.619999885559082,
+        "Volume": 1592
       },
       {
-        "Close ZIVO": 9.399999618530273,
-        "High ZIVO": 9.399999618530273,
-        "Low ZIVO": 9.399999618530273,
-        "Open ZIVO": 9.399999618530273,
-        "Volume ZIVO": 1
+        "Close": 15.449999809265137,
+        "High": 15.460000038146973,
+        "Low": 15.449999809265137,
+        "Open": 15.460000038146973,
+        "Volume": 425
+      },
+      {
+        "Close": 15.25,
+        "High": 15.4399995803833,
+        "Low": 15.25,
+        "Open": 15.4399995803833,
+        "Volume": 350
+      },
+      {
+        "Close": 15.25,
+        "High": 15.25,
+        "Low": 15.25,
+        "Open": 15.25,
+        "Volume": 100
       }
     ]
   },
   "stock_info": {
     "status": "error",
-    "message": "argument of type 'NoneType' is not iterable"
+    "message": "Too Many Requests. Rate limited. Try after a while."
   },
   "financials": {
     "income_statement": {
+      "status": "no_data"
+    },
+    "balance_sheet": {
+      "status": "no_data"
+    },
+    "cash_flow": {
+      "status": "no_data"
+    }
+  },
+  "options_data": {
+    "status": "error",
+    "error_message": "Too Many Requests. Rate limited. Try after a while."
+  },
+  "news_data": {
+    "news": {
       "status": "success",
-      "rows": 32,
-      "columns": [
-        "2023-12-31 00:00:00",
-        "2022-12-31 00:00:00",
-        "2021-12-31 00:00:00"
-      ],
+      "count": 4,
       "data": [
         {
-          
+          "id": "c1b02792-5778-3523-a054-2702445a1d2b",
+          "content": {
+            "id": "c1b02792-5778-3523-a054-2702445a1d2b",
+            "contentType": "STORY",
+            "title": "Bank of South Carolina: Q4 Earnings Snapshot",
+            "description": "",
+            "summary": "CHARLESTON, S.C. (AP) \u2014 Bank of South Carolina Corp. BKSC) on Thursday reported fourth-quarter earnings of $2 million. The bank, based in Charleston, South Carolina, said it had earnings of 36 cents per share.",
+            "pubDate": "2026-01-08T14:30:24Z",
+            "displayTime": "2026-01-08T14:30:24Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": null,
+            "provider": {
+              "displayName": "Associated Press Finance",
+              "url": "http://www.ap.org/"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/bank-south-carolina-q4-earnings-143024154.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/bank-south-carolina-q4-earnings-143024154.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        },
+        {
+          "id": "eb2cd16f-5cd7-30ca-bfdf-e4a9f4f355fd",
+          "content": {
+            "id": "eb2cd16f-5cd7-30ca-bfdf-e4a9f4f355fd",
+            "contentType": "STORY",
+            "title": "Bank of South Carolina: Q3 Earnings Snapshot",
+            "description": "",
+            "summary": "CHARLESTON, S.C. (AP) \u2014 Bank of South Carolina Corp. BKSC) on Thursday reported third-quarter profit of $2.1 million. The bank, based in Charleston, South Carolina, said it had earnings of 38 cents per share.",
+            "pubDate": "2025-10-09T13:11:47Z",
+            "displayTime": "2025-10-09T13:11:47Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": null,
+            "provider": {
+              "displayName": "Associated Press Finance",
+              "url": "http://www.ap.org/"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/bank-south-carolina-q3-earnings-131147124.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/bank-south-carolina-q3-earnings-131147124.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        },
+        {
+          "id": "3ff80334-93f5-3c4c-a532-823077ebb8b5",
+          "content": {
+            "id": "3ff80334-93f5-3c4c-a532-823077ebb8b5",
+            "contentType": "STORY",
+            "title": "Bank of South Carolina: Q2 Earnings Snapshot",
+            "description": "",
+            "summary": "CHARLESTON, S.C. (AP) \u2014 Bank of South Carolina Corp. BKSC) on Thursday reported second-quarter earnings of $2 million. The bank, based in Charleston, South Carolina, said it had earnings of 35 cents per share.",
+            "pubDate": "2025-07-10T13:35:26Z",
+            "displayTime": "2025-07-10T13:35:26Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": null,
+            "provider": {
+              "displayName": "Associated Press Finance",
+              "url": "http://www.ap.org/"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/bank-south-carolina-q2-earnings-133526349.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/bank-south-carolina-q2-earnings-133526349.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        },
+        {
+          "id": "becae826-c671-34c2-aba6-4fc349f7d188",
+          "content": {
+            "id": "becae826-c671-34c2-aba6-4fc349f7d188",
+            "contentType": "STORY",
+            "title": "Bank of South Carolina: Q1 Earnings Snapshot",
+            "description": "",
+            "summary": "CHARLESTON, S.C. (AP) \u2014 Bank of South Carolina Corp. BKSC) on Tuesday reported first-quarter earnings of $1.8 million. The bank, based in Charleston, South Carolina, said it had earnings of 32 cents per share.",
+            "pubDate": "2025-04-08T13:13:30Z",
+            "displayTime": "2025-04-08T13:13:30Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": null,
+            "provider": {
+              "displayName": "Associated Press Finance",
+              "url": "http://www.ap.org/"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/bank-south-carolina-q1-earnings-131330932.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/bank-south-carolina-q1-earnings-131330932.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        }
+      ]
+    },
+    "recommendations": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  },
+  "holders_data": {
+    "major_holders": {
+      "status": "error"
+    },
+    "institutional_holders": {
+      "status": "error"
+    }
+  },
+  "earnings_data": {
+    "earnings": {
+      "status": "error",
+      "message": "'NoneType' object has no attribute 'empty'"
+    },
+    "calendar": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  }
+}

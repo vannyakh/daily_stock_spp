@@ -1,67 +1,9 @@
 {
   "ticker": "GPUS-PD",
-  "timestamp": "2026-01-24T05:37:06.438066",
+  "timestamp": "2026-01-27T05:25:23.344454",
   "intraday_data": {
-    "status": "success",
-    "rows": 8,
-    "data": [
-      {
-        "Close": 23.149999618530273,
-        "High": 23.149999618530273,
-        "Low": 23.149999618530273,
-        "Open": 23.149999618530273,
-        "Volume": 0
-      },
-      {
-        "Close": 23.695600509643555,
-        "High": 23.695600509643555,
-        "Low": 23.695600509643555,
-        "Open": 23.695600509643555,
-        "Volume": 139
-      },
-      {
-        "Close": 23.5,
-        "High": 23.5,
-        "Low": 23.5,
-        "Open": 23.5,
-        "Volume": 314
-      },
-      {
-        "Close": 23.520000457763672,
-        "High": 23.520000457763672,
-        "Low": 23.520000457763672,
-        "Open": 23.520000457763672,
-        "Volume": 500
-      },
-      {
-        "Close": 23.5,
-        "High": 23.5,
-        "Low": 23.5,
-        "Open": 23.5,
-        "Volume": 0
-      },
-      {
-        "Close": 23.450000762939453,
-        "High": 23.450000762939453,
-        "Low": 23.450000762939453,
-        "Open": 23.450000762939453,
-        "Volume": 223
-      },
-      {
-        "Close": 23.450000762939453,
-        "High": 23.450000762939453,
-        "Low": 23.450000762939453,
-        "Open": 23.450000762939453,
-        "Volume": 120
-      },
-      {
-        "Close": 23.5,
-        "High": 23.5,
-        "Low": 23.5,
-        "Open": 23.5,
-        "Volume": 501
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -700,7 +642,8 @@
       ]
     },
     "recommendations": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   },
   "holders_data": {

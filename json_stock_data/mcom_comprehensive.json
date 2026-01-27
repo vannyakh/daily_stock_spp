@@ -1,53 +1,9 @@
 {
   "ticker": "MCOM",
-  "timestamp": "2026-01-24T05:16:06.976000",
+  "timestamp": "2026-01-27T05:12:29.206730",
   "intraday_data": {
-    "status": "success",
-    "rows": 6,
-    "data": [
-      {
-        "Close": 0.009999999776482582,
-        "High": 0.009999999776482582,
-        "Low": 0.009999999776482582,
-        "Open": 0.009999999776482582,
-        "Volume": 0
-      },
-      {
-        "Close": 0.007899999618530273,
-        "High": 0.007899999618530273,
-        "Low": 0.007899999618530273,
-        "Open": 0.007899999618530273,
-        "Volume": 1
-      },
-      {
-        "Close": 0.011500000022351742,
-        "High": 0.011500000022351742,
-        "Low": 0.011500000022351742,
-        "Open": 0.011500000022351742,
-        "Volume": 3543
-      },
-      {
-        "Close": 0.007899999618530273,
-        "High": 0.007899999618530273,
-        "Low": 0.007899999618530273,
-        "Open": 0.007899999618530273,
-        "Volume": 1
-      },
-      {
-        "Close": 0.012000000104308128,
-        "High": 0.012000000104308128,
-        "Low": 0.012000000104308128,
-        "Open": 0.012000000104308128,
-        "Volume": 1000
-      },
-      {
-        "Close": 0.012799999676644802,
-        "High": 0.012799999676644802,
-        "Low": 0.012799999676644802,
-        "Open": 0.012799999676644802,
-        "Volume": 1000
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -58,41 +14,14 @@
       "status": "no_data"
     },
     "balance_sheet": {
-      "status": "no_data"
-    },
-    "cash_flow": {
-      "status": "no_data"
-    }
-  },
-  "options_data": {
-    "status": "error",
-    "error_message": "Too Many Requests. Rate limited. Try after a while."
-  },
-  "news_data": {
-    "news": {
-      "status": "no_data"
-    },
-    "recommendations": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
-    }
-  },
-  "holders_data": {
-    "major_holders": {
-      "status": "error"
-    },
-    "institutional_holders": {
-      "status": "error"
-    }
-  },
-  "earnings_data": {
-    "earnings": {
-      "status": "error",
-      "message": "'NoneType' object has no attribute 'empty'"
-    },
-    "calendar": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
-    }
-  }
-}
+      "status": "success",
+      "rows": 64,
+      "columns": [
+        "2024-12-31 00:00:00",
+        "2023-12-31 00:00:00",
+        "2022-12-31 00:00:00",
+        "2021-12-31 00:00:00"
+      ],
+      "data": [
+        {
+          

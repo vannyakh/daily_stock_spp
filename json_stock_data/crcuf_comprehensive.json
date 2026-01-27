@@ -1,25 +1,9 @@
 {
   "ticker": "CRCUF",
-  "timestamp": "2026-01-24T05:06:05.791711",
+  "timestamp": "2026-01-27T05:06:32.593815",
   "intraday_data": {
-    "status": "success",
-    "rows": 2,
-    "data": [
-      {
-        "Close": 0.5,
-        "High": 0.5,
-        "Low": 0.5,
-        "Open": 0.5,
-        "Volume": 0
-      },
-      {
-        "Close": 0.4975999891757965,
-        "High": 0.4975999891757965,
-        "Low": 0.4975999891757965,
-        "Open": 0.4975999891757965,
-        "Volume": 2000
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -193,15 +177,16 @@
       ]
     },
     "recommendations": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   },
   "holders_data": {
     "major_holders": {
-      "status": "no_data"
+      "status": "error"
     },
     "institutional_holders": {
-      "status": "no_data"
+      "status": "error"
     }
   },
   "earnings_data": {

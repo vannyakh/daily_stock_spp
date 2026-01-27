@@ -1,25 +1,10 @@
 {
   "ticker": "TAIT",
-  "timestamp": "2026-01-24T05:09:38.961762",
+  "timestamp": "2026-01-27T05:08:16.356900",
   "intraday_data": {
     "status": "success",
-    "rows": 2,
-    "data": [
-      {
-        "Close QYOUF": 0.2581000030040741,
-        "High QYOUF": 0.25815001130104065,
-        "Low QYOUF": 0.2581000030040741,
-        "Open QYOUF": 0.25815001130104065,
-        "Volume QYOUF": 0
-      },
-      {
-        "Close QYOUF": 0.27950000762939453,
-        "High QYOUF": 0.27950000762939453,
-        "Low QYOUF": 0.27950000762939453,
-        "Open QYOUF": 0.27950000762939453,
-        "Volume QYOUF": 5000
-      }
-    ]
+    "rows": 0,
+    "data": []
   },
   "stock_info": {
     "status": "error",
@@ -536,7 +521,8 @@
       ]
     },
     "recommendations": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   },
   "holders_data": {

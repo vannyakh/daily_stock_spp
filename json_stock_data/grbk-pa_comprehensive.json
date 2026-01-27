@@ -1,58 +1,37 @@
 {
   "ticker": "GRBK-PA",
-  "timestamp": "2026-01-24T05:34:20.884723",
+  "timestamp": "2026-01-27T05:23:35.522699",
   "intraday_data": {
     "status": "success",
-    "rows": 7,
+    "rows": 4,
     "data": [
       {
-        "Close CNO-PA": 19.149999618530273,
-        "High CNO-PA": 19.149999618530273,
-        "Low CNO-PA": 19.149999618530273,
-        "Open CNO-PA": 19.149999618530273,
-        "Volume CNO-PA": 0
+        "Close": 22.75,
+        "High": 22.75,
+        "Low": 22.75,
+        "Open": 22.75,
+        "Volume": 0
       },
       {
-        "Close CNO-PA": 19.139999389648438,
-        "High CNO-PA": 19.139999389648438,
-        "Low CNO-PA": 19.139999389648438,
-        "Open CNO-PA": 19.139999389648438,
-        "Volume CNO-PA": 178
+        "Close": 22.895299911499023,
+        "High": 22.895299911499023,
+        "Low": 22.895299911499023,
+        "Open": 22.895299911499023,
+        "Volume": 275
       },
       {
-        "Close CNO-PA": 19.290000915527344,
-        "High CNO-PA": 19.290000915527344,
-        "Low CNO-PA": 19.290000915527344,
-        "Open CNO-PA": 19.290000915527344,
-        "Volume CNO-PA": 100
+        "Close": 22.829999923706055,
+        "High": 22.829999923706055,
+        "Low": 22.829999923706055,
+        "Open": 22.829999923706055,
+        "Volume": 432
       },
       {
-        "Close CNO-PA": 19.299999237060547,
-        "High CNO-PA": 19.299999237060547,
-        "Low CNO-PA": 19.299999237060547,
-        "Open CNO-PA": 19.299999237060547,
-        "Volume CNO-PA": 290
-      },
-      {
-        "Close CNO-PA": 19.280000686645508,
-        "High CNO-PA": 19.299999237060547,
-        "Low CNO-PA": 19.280000686645508,
-        "Open CNO-PA": 19.299999237060547,
-        "Volume CNO-PA": 225
-      },
-      {
-        "Close CNO-PA": 19.3700008392334,
-        "High CNO-PA": 19.3700008392334,
-        "Low CNO-PA": 19.34000015258789,
-        "Open CNO-PA": 19.34000015258789,
-        "Volume CNO-PA": 0
-      },
-      {
-        "Close CNO-PA": 19.33799934387207,
-        "High CNO-PA": 19.33799934387207,
-        "Low CNO-PA": 19.33799934387207,
-        "Open CNO-PA": 19.33799934387207,
-        "Volume CNO-PA": 568
+        "Close": 22.829999923706055,
+        "High": 22.829999923706055,
+        "Low": 22.829999923706055,
+        "Open": 22.829999923706055,
+        "Volume": 809
       }
     ]
   },
@@ -693,15 +672,16 @@
       ]
     },
     "recommendations": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   },
   "holders_data": {
     "major_holders": {
-      "status": "no_data"
+      "status": "error"
     },
     "institutional_holders": {
-      "status": "no_data"
+      "status": "error"
     }
   },
   "earnings_data": {
@@ -711,7 +691,7 @@
     },
     "calendar": {
       "status": "error",
-      "message": "'dict' object has no attribute 'empty'"
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   }
 }

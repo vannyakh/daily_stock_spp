@@ -1,9 +1,10 @@
 {
   "ticker": "QNTM",
-  "timestamp": "2026-01-24T05:12:25.927570",
+  "timestamp": "2026-01-27T05:10:08.623795",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 0,
+    "data": []
   },
   "stock_info": {
     "status": "error",
@@ -280,111 +281,16 @@
       ]
     },
     "recommendations": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   },
   "holders_data": {
     "major_holders": {
-      "status": "success",
-      "data": [
-        {
-          "Value": 0.086490005
-        },
-        {
-          "Value": 0.29013002
-        },
-        {
-          "Value": 0.3176
-        },
-        {
-          "Value": 20.0
-        }
-      ]
+      "status": "error"
     },
     "institutional_holders": {
-      "status": "success",
-      "data": [
-        {
-          "Date Reported": "2025-09-30 00:00:00",
-          "Holder": "AdvisorShares Investments, LLC",
-          "pctHeld": 0.0195,
-          "Shares": 74474,
-          "Value": 460249,
-          "pctChange": 0.0067000003
-        },
-        {
-          "Date Reported": "2025-09-30 00:00:00",
-          "Holder": "Marex Group Plc",
-          "pctHeld": 0.0069999998,
-          "Shares": 26872,
-          "Value": 166068,
-          "pctChange": 1.0
-        },
-        {
-          "Date Reported": "2025-09-30 00:00:00",
-          "Holder": "UBS Group AG",
-          "pctHeld": 0.0046,
-          "Shares": 17508,
-          "Value": 108199,
-          "pctChange": -0.8092
-        },
-        {
-          "Date Reported": "2025-09-30 00:00:00",
-          "Holder": "Steward Partners Investment Advisory, LLC",
-          "pctHeld": 0.0016,
-          "Shares": 6200,
-          "Value": 38315,
-          "pctChange": 0.0
-        },
-        {
-          "Date Reported": "2025-09-30 00:00:00",
-          "Holder": "Morgan Stanley",
-          "pctHeld": 0.0013,
-          "Shares": 5128,
-          "Value": 31691,
-          "pctChange": 18.5725
-        },
-        {
-          "Date Reported": "2025-09-30 00:00:00",
-          "Holder": "JPMORGAN CHASE & CO",
-          "pctHeld": 0.0008,
-          "Shares": 2944,
-          "Value": 18193,
-          "pctChange": 0.641
-        },
-        {
-          "Date Reported": "2025-09-30 00:00:00",
-          "Holder": "Osaic Holdings Inc.",
-          "pctHeld": 0.0004,
-          "Shares": 1360,
-          "Value": 8404,
-          "pctChange": 7.5
-        },
-        {
-          "Date Reported": "2025-09-30 00:00:00",
-          "Holder": "Royal Bank of Canada",
-          "pctHeld": 0.00029999999,
-          "Shares": 1166,
-          "Value": 7205,
-          "pctChange": 2.5549002
-        },
-        {
-          "Date Reported": "2025-09-30 00:00:00",
-          "Holder": "SBI Securities Co., Ltd.",
-          "pctHeld": 0.0001,
-          "Shares": 310,
-          "Value": 1915,
-          "pctChange": 0.0
-        },
-        {
-          "Date Reported": "2025-09-30 00:00:00",
-          "Holder": "Cetera Trust Company, N.a                          ",
-          "pctHeld": 0.0001,
-          "Shares": 500,
-          "Value": 3089,
-          "pctChange": 0.0
-        }
-      ]
+      "status": "error"
     }
   },
   "earnings_data": {
@@ -394,7 +300,7 @@
     },
     "calendar": {
       "status": "error",
-      "message": "'dict' object has no attribute 'empty'"
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   }
 }

@@ -1,6 +1,6 @@
 {
   "ticker": "CDIX",
-  "timestamp": "2026-01-24T05:04:51.454760",
+  "timestamp": "2026-01-27T05:06:00.618538",
   "intraday_data": {
     "status": "no_data",
     "message": "No intraday data available"
@@ -11,14 +11,108 @@
   },
   "financials": {
     "income_statement": {
+      "status": "no_data"
+    },
+    "balance_sheet": {
+      "status": "no_data"
+    },
+    "cash_flow": {
+      "status": "no_data"
+    }
+  },
+  "options_data": {
+    "status": "error",
+    "error_message": "Too Many Requests. Rate limited. Try after a while."
+  },
+  "news_data": {
+    "news": {
       "status": "success",
-      "rows": 49,
-      "columns": [
-        "2024-12-31 00:00:00",
-        "2023-12-31 00:00:00",
-        "2022-12-31 00:00:00",
-        "2021-12-31 00:00:00"
-      ],
+      "count": 1,
       "data": [
         {
-          
+          "id": "518b75df-8afa-3a3e-9d83-6614851283d8",
+          "content": {
+            "id": "518b75df-8afa-3a3e-9d83-6614851283d8",
+            "contentType": "STORY",
+            "title": "Cardiff Lexington Corp (CDIX) Q3 2025 Earnings Call Highlights: Strong Revenue Growth Amid ...",
+            "description": "",
+            "summary": "Cardiff Lexington Corp (CDIX) reports triple-digit revenue growth and improved margins while outlining strategic M&A plans to enhance market presence and operational capacity.",
+            "pubDate": "2025-11-14T21:03:57Z",
+            "displayTime": "2025-11-14T21:03:57Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": {
+              "originalUrl": "https://media.zenfs.com/en/us.finance.gurufocus/3705c55cda96c7582f120b8bf327f692",
+              "originalWidth": 500,
+              "originalHeight": 500,
+              "caption": "",
+              "resolutions": [
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/ap4nnqu8GsaCtM38samRKg--~B/aD01MDA7dz01MDA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/us.finance.gurufocus/3705c55cda96c7582f120b8bf327f692",
+                  "width": 500,
+                  "height": 500,
+                  "tag": "original"
+                },
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/VP_CgtDAS1RbvsJlvXpAIg--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/us.finance.gurufocus/3705c55cda96c7582f120b8bf327f692",
+                  "width": 170,
+                  "height": 128,
+                  "tag": "170x128"
+                }
+              ]
+            },
+            "provider": {
+              "displayName": "GuruFocus.com",
+              "url": "http://www.gurufocus.com/"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/cardiff-lexington-corp-cdix-q3-210357324.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/cardiff-lexington-corp-cdix-q3-210357324.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        }
+      ]
+    },
+    "recommendations": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  },
+  "holders_data": {
+    "major_holders": {
+      "status": "error"
+    },
+    "institutional_holders": {
+      "status": "error"
+    }
+  },
+  "earnings_data": {
+    "earnings": {
+      "status": "error",
+      "message": "'NoneType' object has no attribute 'empty'"
+    },
+    "calendar": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  }
+}

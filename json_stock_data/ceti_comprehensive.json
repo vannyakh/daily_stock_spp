@@ -1,9 +1,67 @@
 {
   "ticker": "CETI",
-  "timestamp": "2026-01-24T05:07:38.389800",
+  "timestamp": "2026-01-27T05:07:16.233622",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 8,
+    "data": [
+      {
+        "Close": 0.014000000432133675,
+        "High": 0.014000000432133675,
+        "Low": 0.014000000432133675,
+        "Open": 0.014000000432133675,
+        "Volume": 0
+      },
+      {
+        "Close": 0.012299999594688416,
+        "High": 0.012299999594688416,
+        "Low": 0.012299999594688416,
+        "Open": 0.012299999594688416,
+        "Volume": 80000
+      },
+      {
+        "Close": 0.012900000438094139,
+        "High": 0.012900000438094139,
+        "Low": 0.012900000438094139,
+        "Open": 0.012900000438094139,
+        "Volume": 99000
+      },
+      {
+        "Close": 0.012500000186264515,
+        "High": 0.012600000016391277,
+        "Low": 0.012500000186264515,
+        "Open": 0.012600000016391277,
+        "Volume": 127000
+      },
+      {
+        "Close": 0.012299999594688416,
+        "High": 0.012299999594688416,
+        "Low": 0.012299999594688416,
+        "Open": 0.012299999594688416,
+        "Volume": 72000
+      },
+      {
+        "Close": 0.01360000018030405,
+        "High": 0.01360000018030405,
+        "Low": 0.01360000018030405,
+        "Open": 0.01360000018030405,
+        "Volume": 27000
+      },
+      {
+        "Close": 0.013700000010430813,
+        "High": 0.013700000010430813,
+        "Low": 0.013700000010430813,
+        "Open": 0.013700000010430813,
+        "Volume": 26500
+      },
+      {
+        "Close": 0.015599999576807022,
+        "High": 0.015599999576807022,
+        "Low": 0.013700000010430813,
+        "Open": 0.013700000010430813,
+        "Volume": 62500
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -11,14 +69,44 @@
   },
   "financials": {
     "income_statement": {
-      "status": "success",
-      "rows": 52,
-      "columns": [
-        "2024-12-31 00:00:00",
-        "2023-12-31 00:00:00",
-        "2022-12-31 00:00:00",
-        "2021-12-31 00:00:00"
-      ],
-      "data": [
-        {
-          
+      "status": "no_data"
+    },
+    "balance_sheet": {
+      "status": "no_data"
+    },
+    "cash_flow": {
+      "status": "no_data"
+    }
+  },
+  "options_data": {
+    "status": "error",
+    "error_message": "Too Many Requests. Rate limited. Try after a while."
+  },
+  "news_data": {
+    "news": {
+      "status": "no_data"
+    },
+    "recommendations": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  },
+  "holders_data": {
+    "major_holders": {
+      "status": "error"
+    },
+    "institutional_holders": {
+      "status": "error"
+    }
+  },
+  "earnings_data": {
+    "earnings": {
+      "status": "error",
+      "message": "'NoneType' object has no attribute 'empty'"
+    },
+    "calendar": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  }
+}

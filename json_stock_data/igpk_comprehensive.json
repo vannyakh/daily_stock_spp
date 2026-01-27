@@ -1,9 +1,46 @@
 {
   "ticker": "IGPK",
-  "timestamp": "2026-01-24T05:25:15.065598",
+  "timestamp": "2026-01-27T05:17:53.024958",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 5,
+    "data": [
+      {
+        "Close": 0.0008999999845400453,
+        "High": 0.0008999999845400453,
+        "Low": 0.0008999999845400453,
+        "Open": 0.0008999999845400453,
+        "Volume": 0
+      },
+      {
+        "Close": 0.0008999999845400453,
+        "High": 0.0008999999845400453,
+        "Low": 0.0008999999845400453,
+        "Open": 0.0008999999845400453,
+        "Volume": 750000
+      },
+      {
+        "Close": 0.0008999999845400453,
+        "High": 0.0008999999845400453,
+        "Low": 0.0008999999845400453,
+        "Open": 0.0008999999845400453,
+        "Volume": 800000
+      },
+      {
+        "Close": 0.0008999999845400453,
+        "High": 0.0008999999845400453,
+        "Low": 0.0008999999845400453,
+        "Open": 0.0008999999845400453,
+        "Volume": 1354410
+      },
+      {
+        "Close": 0.0007999999797903001,
+        "High": 0.0007999999797903001,
+        "Low": 0.0007999999797903001,
+        "Open": 0.0007999999797903001,
+        "Volume": 500
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -14,11 +51,41 @@
       "status": "no_data"
     },
     "balance_sheet": {
-      "status": "success",
-      "rows": 34,
-      "columns": [
-        "2021-12-31 00:00:00"
-      ],
-      "data": [
-        {
-          
+      "status": "no_data"
+    },
+    "cash_flow": {
+      "status": "no_data"
+    }
+  },
+  "options_data": {
+    "status": "error",
+    "error_message": "Too Many Requests. Rate limited. Try after a while."
+  },
+  "news_data": {
+    "news": {
+      "status": "no_data"
+    },
+    "recommendations": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  },
+  "holders_data": {
+    "major_holders": {
+      "status": "error"
+    },
+    "institutional_holders": {
+      "status": "error"
+    }
+  },
+  "earnings_data": {
+    "earnings": {
+      "status": "error",
+      "message": "'NoneType' object has no attribute 'empty'"
+    },
+    "calendar": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  }
+}

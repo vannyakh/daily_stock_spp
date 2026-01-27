@@ -1,9 +1,18 @@
 {
   "ticker": "XSIAX",
-  "timestamp": "2026-01-24T05:19:16.059812",
+  "timestamp": "2026-01-27T05:14:08.987405",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 1,
+    "data": [
+      {
+        "Close": 9.430000305175781,
+        "High": 9.430000305175781,
+        "Low": 9.430000305175781,
+        "Open": 9.430000305175781,
+        "Volume": 0
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -29,7 +38,8 @@
       "status": "no_data"
     },
     "recommendations": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   },
   "holders_data": {
