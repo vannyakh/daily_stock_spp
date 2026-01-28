@@ -1,9 +1,9 @@
 {
   "ticker": "BIXT",
-  "timestamp": "2026-01-27T05:17:36.439032",
+  "timestamp": "2026-01-28T05:11:01.464574",
   "intraday_data": {
     "status": "success",
-    "rows": 7,
+    "rows": 9,
     "data": [
       {
         "Close SILEF": 0.2712000012397766,
@@ -53,6 +53,20 @@
         "Low SILEF": 0.25,
         "Open SILEF": 0.25,
         "Volume SILEF": 6000
+      },
+      {
+        "Close SILEF": 0.24400000274181366,
+        "High SILEF": 0.24400000274181366,
+        "Low SILEF": 0.24400000274181366,
+        "Open SILEF": 0.24400000274181366,
+        "Volume SILEF": 1957
+      },
+      {
+        "Close SILEF": 0.23999999463558197,
+        "High SILEF": 0.23999999463558197,
+        "Low SILEF": 0.23999999463558197,
+        "Open SILEF": 0.23999999463558197,
+        "Volume SILEF": 0
       }
     ]
   },
@@ -77,7 +91,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

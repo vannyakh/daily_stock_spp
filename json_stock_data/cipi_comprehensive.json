@@ -1,9 +1,39 @@
 {
   "ticker": "CIPI",
-  "timestamp": "2026-01-27T05:11:14.864296",
+  "timestamp": "2026-01-28T05:06:55.807583",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 4,
+    "data": [
+      {
+        "Close KNOS": 0.0035000001080334187,
+        "High KNOS": 0.0035000001080334187,
+        "Low KNOS": 0.0035000001080334187,
+        "Open KNOS": 0.0035000001080334187,
+        "Volume KNOS": 0
+      },
+      {
+        "Close KNOS": 0.003000000026077032,
+        "High KNOS": 0.003000000026077032,
+        "Low KNOS": 0.003000000026077032,
+        "Open KNOS": 0.003000000026077032,
+        "Volume KNOS": 12500
+      },
+      {
+        "Close KNOS": 0.003000000026077032,
+        "High KNOS": 0.003000000026077032,
+        "Low KNOS": 0.003000000026077032,
+        "Open KNOS": 0.003000000026077032,
+        "Volume KNOS": 69745
+      },
+      {
+        "Close KNOS": 0.0035000001080334187,
+        "High KNOS": 0.0035000001080334187,
+        "Low KNOS": 0.0035000001080334187,
+        "Open KNOS": 0.0035000001080334187,
+        "Volume KNOS": 83493
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -26,7 +56,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

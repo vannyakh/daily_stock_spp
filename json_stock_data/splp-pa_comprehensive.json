@@ -1,9 +1,18 @@
 {
   "ticker": "SPLP-PA",
-  "timestamp": "2026-01-27T05:16:41.410947",
+  "timestamp": "2026-01-28T05:10:27.365443",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 1,
+    "data": [
+      {
+        "Close SENEB": 115.5,
+        "High SENEB": 115.5,
+        "Low SENEB": 115.5,
+        "Open SENEB": 115.5,
+        "Volume SENEB": 0
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -26,7 +35,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

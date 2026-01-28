@@ -1,9 +1,18 @@
 {
   "ticker": "GEGP",
-  "timestamp": "2026-01-27T05:11:29.921587",
+  "timestamp": "2026-01-28T05:07:04.704213",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 1,
+    "data": [
+      {
+        "Close AAUGF": 0.3050000071525574,
+        "High AAUGF": 0.3050000071525574,
+        "Low AAUGF": 0.3050000071525574,
+        "Open AAUGF": 0.3050000071525574,
+        "Volume AAUGF": 0
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -26,7 +35,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

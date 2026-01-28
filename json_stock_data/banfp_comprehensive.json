@@ -1,32 +1,9 @@
 {
   "ticker": "BANFP",
-  "timestamp": "2026-01-27T05:25:03.938442",
+  "timestamp": "2026-01-28T05:15:00.105166",
   "intraday_data": {
-    "status": "success",
-    "rows": 3,
-    "data": [
-      {
-        "Close": 26.0,
-        "High": 26.0,
-        "Low": 26.0,
-        "Open": 26.0,
-        "Volume": 0
-      },
-      {
-        "Close": 26.125,
-        "High": 26.125,
-        "Low": 26.125,
-        "Open": 26.125,
-        "Volume": 225
-      },
-      {
-        "Close": 26.1299991607666,
-        "High": 26.1299991607666,
-        "Low": 26.1299991607666,
-        "Open": 26.1299991607666,
-        "Volume": 269
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -49,7 +26,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

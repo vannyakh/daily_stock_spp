@@ -1,9 +1,18 @@
 {
   "ticker": "OKMN",
-  "timestamp": "2026-01-27T05:22:02.986595",
+  "timestamp": "2026-01-28T05:13:31.688224",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 1,
+    "data": [
+      {
+        "Close PERF-WT": 0.03099999949336052,
+        "High PERF-WT": 0.03099999949336052,
+        "Low PERF-WT": 0.03099999949336052,
+        "Open PERF-WT": 0.03099999949336052,
+        "Volume PERF-WT": 0
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -26,7 +35,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

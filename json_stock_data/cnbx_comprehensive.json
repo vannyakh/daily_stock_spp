@@ -1,46 +1,9 @@
 {
   "ticker": "CNBX",
-  "timestamp": "2026-01-27T05:12:52.091662",
+  "timestamp": "2026-01-28T05:07:58.985243",
   "intraday_data": {
-    "status": "success",
-    "rows": 5,
-    "data": [
-      {
-        "Close RAKR": 0.05979999899864197,
-        "High RAKR": 0.05979999899864197,
-        "Low RAKR": 0.05979999899864197,
-        "Open RAKR": 0.05979999899864197,
-        "Volume RAKR": 0
-      },
-      {
-        "Close RAKR": 0.05979999899864197,
-        "High RAKR": 0.05979999899864197,
-        "Low RAKR": 0.05979999899864197,
-        "Open RAKR": 0.05979999899864197,
-        "Volume RAKR": 20
-      },
-      {
-        "Close RAKR": 0.05979999899864197,
-        "High RAKR": 0.05979999899864197,
-        "Low RAKR": 0.05979999899864197,
-        "Open RAKR": 0.05979999899864197,
-        "Volume RAKR": 50
-      },
-      {
-        "Close RAKR": 0.05979999899864197,
-        "High RAKR": 0.05979999899864197,
-        "Low RAKR": 0.05979999899864197,
-        "Open RAKR": 0.05979999899864197,
-        "Volume RAKR": 40
-      },
-      {
-        "Close RAKR": 0.05009999871253967,
-        "High RAKR": 0.05009999871253967,
-        "Low RAKR": 0.05009999871253967,
-        "Open RAKR": 0.05009999871253967,
-        "Volume RAKR": 20000
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -63,7 +26,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

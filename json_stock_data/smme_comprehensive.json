@@ -1,25 +1,9 @@
 {
   "ticker": "SMME",
-  "timestamp": "2026-01-27T05:12:48.730554",
+  "timestamp": "2026-01-28T05:07:57.115061",
   "intraday_data": {
-    "status": "success",
-    "rows": 2,
-    "data": [
-      {
-        "Close EMDF": 0.0032999999821186066,
-        "High EMDF": 0.0032999999821186066,
-        "Low EMDF": 0.0032999999821186066,
-        "Open EMDF": 0.0032999999821186066,
-        "Volume EMDF": 0
-      },
-      {
-        "Close EMDF": 0.003800000064074993,
-        "High EMDF": 0.003800000064074993,
-        "Low EMDF": 0.003800000064074993,
-        "Open EMDF": 0.003800000064074993,
-        "Volume EMDF": 30000
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -42,7 +26,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

@@ -1,60 +1,9 @@
 {
   "ticker": "BRRN",
-  "timestamp": "2026-01-27T05:17:36.926670",
+  "timestamp": "2026-01-28T05:11:01.816388",
   "intraday_data": {
-    "status": "success",
-    "rows": 7,
-    "data": [
-      {
-        "Close ADMQ": 0.0364999994635582,
-        "High ADMQ": 0.0364999994635582,
-        "Low ADMQ": 0.0364999994635582,
-        "Open ADMQ": 0.0364999994635582,
-        "Volume ADMQ": 0
-      },
-      {
-        "Close ADMQ": 0.035999998450279236,
-        "High ADMQ": 0.03610000014305115,
-        "Low ADMQ": 0.035999998450279236,
-        "Open ADMQ": 0.03610000014305115,
-        "Volume ADMQ": 96000
-      },
-      {
-        "Close ADMQ": 0.035999998450279236,
-        "High ADMQ": 0.035999998450279236,
-        "Low ADMQ": 0.035999998450279236,
-        "Open ADMQ": 0.035999998450279236,
-        "Volume ADMQ": 16574
-      },
-      {
-        "Close ADMQ": 0.03099999949336052,
-        "High ADMQ": 0.031300000846385956,
-        "Low ADMQ": 0.03099999949336052,
-        "Open ADMQ": 0.031300000846385956,
-        "Volume ADMQ": 23426
-      },
-      {
-        "Close ADMQ": 0.03720000013709068,
-        "High ADMQ": 0.03720000013709068,
-        "Low ADMQ": 0.03720000013709068,
-        "Open ADMQ": 0.03720000013709068,
-        "Volume ADMQ": 1800
-      },
-      {
-        "Close ADMQ": 0.035100001841783524,
-        "High ADMQ": 0.035100001841783524,
-        "Low ADMQ": 0.035100001841783524,
-        "Open ADMQ": 0.035100001841783524,
-        "Volume ADMQ": 1000
-      },
-      {
-        "Close ADMQ": 0.03400000184774399,
-        "High ADMQ": 0.034049998968839645,
-        "Low ADMQ": 0.03400000184774399,
-        "Open ADMQ": 0.034049998968839645,
-        "Volume ADMQ": 9299
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -77,7 +26,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

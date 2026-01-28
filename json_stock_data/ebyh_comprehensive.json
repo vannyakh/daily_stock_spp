@@ -1,81 +1,9 @@
 {
   "ticker": "EBYH",
-  "timestamp": "2026-01-27T05:11:44.401390",
+  "timestamp": "2026-01-28T05:07:13.481615",
   "intraday_data": {
-    "status": "success",
-    "rows": 10,
-    "data": [
-      {
-        "Close TCRT": 2.9298999309539795,
-        "High TCRT": 2.9298999309539795,
-        "Low TCRT": 2.9214000701904297,
-        "Open TCRT": 2.9214000701904297,
-        "Volume TCRT": 797
-      },
-      {
-        "Close TCRT": 2.929500102996826,
-        "High TCRT": 2.929500102996826,
-        "Low TCRT": 2.929500102996826,
-        "Open TCRT": 2.929500102996826,
-        "Volume TCRT": 0
-      },
-      {
-        "Close TCRT": 2.934999942779541,
-        "High TCRT": 2.934999942779541,
-        "Low TCRT": 2.934999942779541,
-        "Open TCRT": 2.934999942779541,
-        "Volume TCRT": 130
-      },
-      {
-        "Close TCRT": 2.9928998947143555,
-        "High TCRT": 2.9928998947143555,
-        "Low TCRT": 2.9928998947143555,
-        "Open TCRT": 2.9928998947143555,
-        "Volume TCRT": 613
-      },
-      {
-        "Close TCRT": 2.990000009536743,
-        "High TCRT": 2.990000009536743,
-        "Low TCRT": 2.990000009536743,
-        "Open TCRT": 2.990000009536743,
-        "Volume TCRT": 549
-      },
-      {
-        "Close TCRT": 2.990000009536743,
-        "High TCRT": 2.990000009536743,
-        "Low TCRT": 2.9670000076293945,
-        "Open TCRT": 2.9670000076293945,
-        "Volume TCRT": 1154
-      },
-      {
-        "Close TCRT": 2.9800000190734863,
-        "High TCRT": 2.9800000190734863,
-        "Low TCRT": 2.930000066757202,
-        "Open TCRT": 2.950000047683716,
-        "Volume TCRT": 2054
-      },
-      {
-        "Close TCRT": 2.9200000762939453,
-        "High TCRT": 2.9200000762939453,
-        "Low TCRT": 2.9200000762939453,
-        "Open TCRT": 2.9200000762939453,
-        "Volume TCRT": 1004
-      },
-      {
-        "Close TCRT": 3.0,
-        "High TCRT": 3.0,
-        "Low TCRT": 3.0,
-        "Open TCRT": 3.0,
-        "Volume TCRT": 100
-      },
-      {
-        "Close TCRT": 2.930000066757202,
-        "High TCRT": 2.930000066757202,
-        "Low TCRT": 2.930000066757202,
-        "Open TCRT": 2.930000066757202,
-        "Volume TCRT": 176
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -98,7 +26,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",
@@ -107,10 +36,10 @@
   },
   "holders_data": {
     "major_holders": {
-      "status": "error"
+      "status": "no_data"
     },
     "institutional_holders": {
-      "status": "error"
+      "status": "no_data"
     }
   },
   "earnings_data": {
@@ -120,7 +49,7 @@
     },
     "calendar": {
       "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
+      "message": "'dict' object has no attribute 'empty'"
     }
   }
 }

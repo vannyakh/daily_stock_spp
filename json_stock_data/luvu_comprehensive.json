@@ -1,9 +1,39 @@
 {
   "ticker": "LUVU",
-  "timestamp": "2026-01-27T05:11:16.845379",
+  "timestamp": "2026-01-28T05:06:56.893184",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 4,
+    "data": [
+      {
+        "Close YBGJ": 0.01209999993443489,
+        "High YBGJ": 0.01209999993443489,
+        "Low YBGJ": 0.01209999993443489,
+        "Open YBGJ": 0.01209999993443489,
+        "Volume YBGJ": 0
+      },
+      {
+        "Close YBGJ": 0.012299999594688416,
+        "High YBGJ": 0.012299999594688416,
+        "Low YBGJ": 0.012299999594688416,
+        "Open YBGJ": 0.012299999594688416,
+        "Volume YBGJ": 10
+      },
+      {
+        "Close YBGJ": 0.011800000444054604,
+        "High YBGJ": 0.011800000444054604,
+        "Low YBGJ": 0.011800000444054604,
+        "Open YBGJ": 0.011800000444054604,
+        "Volume YBGJ": 10000
+      },
+      {
+        "Close YBGJ": 0.011500000022351742,
+        "High YBGJ": 0.011500000022351742,
+        "Low YBGJ": 0.011500000022351742,
+        "Open YBGJ": 0.011500000022351742,
+        "Volume YBGJ": 10000
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -26,7 +56,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

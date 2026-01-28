@@ -1,9 +1,95 @@
 {
   "ticker": "GLOP-PA",
-  "timestamp": "2026-01-27T05:16:24.635643",
+  "timestamp": "2026-01-28T05:10:18.131013",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 12,
+    "data": [
+      {
+        "Close FMCCH": 17.899999618530273,
+        "High FMCCH": 17.899999618530273,
+        "Low FMCCH": 17.899999618530273,
+        "Open FMCCH": 17.899999618530273,
+        "Volume FMCCH": 2450
+      },
+      {
+        "Close FMCCH": 17.639999389648438,
+        "High FMCCH": 17.639999389648438,
+        "Low FMCCH": 17.639999389648438,
+        "Open FMCCH": 17.639999389648438,
+        "Volume FMCCH": 100
+      },
+      {
+        "Close FMCCH": 17.5,
+        "High FMCCH": 17.5,
+        "Low FMCCH": 17.5,
+        "Open FMCCH": 17.5,
+        "Volume FMCCH": 100
+      },
+      {
+        "Close FMCCH": 17.5,
+        "High FMCCH": 17.5,
+        "Low FMCCH": 17.5,
+        "Open FMCCH": 17.5,
+        "Volume FMCCH": 75
+      },
+      {
+        "Close FMCCH": 17.5,
+        "High FMCCH": 17.5,
+        "Low FMCCH": 17.5,
+        "Open FMCCH": 17.5,
+        "Volume FMCCH": 75
+      },
+      {
+        "Close FMCCH": 17.5,
+        "High FMCCH": 17.5,
+        "Low FMCCH": 17.5,
+        "Open FMCCH": 17.5,
+        "Volume FMCCH": 75
+      },
+      {
+        "Close FMCCH": 17.5,
+        "High FMCCH": 17.5,
+        "Low FMCCH": 17.5,
+        "Open FMCCH": 17.5,
+        "Volume FMCCH": 75
+      },
+      {
+        "Close FMCCH": 17.5,
+        "High FMCCH": 17.5,
+        "Low FMCCH": 17.5,
+        "Open FMCCH": 17.5,
+        "Volume FMCCH": 425
+      },
+      {
+        "Close FMCCH": 17.25,
+        "High FMCCH": 17.25,
+        "Low FMCCH": 17.25,
+        "Open FMCCH": 17.25,
+        "Volume FMCCH": 75
+      },
+      {
+        "Close FMCCH": 17.25,
+        "High FMCCH": 17.25,
+        "Low FMCCH": 17.25,
+        "Open FMCCH": 17.25,
+        "Volume FMCCH": 75
+      },
+      {
+        "Close FMCCH": 17.25,
+        "High FMCCH": 17.25,
+        "Low FMCCH": 17.25,
+        "Open FMCCH": 17.25,
+        "Volume FMCCH": 0
+      },
+      {
+        "Close FMCCH": 17.079999923706055,
+        "High FMCCH": 17.079999923706055,
+        "Low FMCCH": 17.079999923706055,
+        "Open FMCCH": 17.079999923706055,
+        "Volume FMCCH": 3675
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -14,13 +100,42 @@
       "status": "no_data"
     },
     "balance_sheet": {
-      "status": "success",
-      "rows": 60,
-      "columns": [
-        "2023-12-31 00:00:00",
-        "2022-12-31 00:00:00",
-        "2021-12-31 00:00:00"
-      ],
-      "data": [
-        {
-          
+      "status": "no_data"
+    },
+    "cash_flow": {
+      "status": "no_data"
+    }
+  },
+  "options_data": {
+    "status": "error",
+    "error_message": "Too Many Requests. Rate limited. Try after a while."
+  },
+  "news_data": {
+    "news": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    },
+    "recommendations": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  },
+  "holders_data": {
+    "major_holders": {
+      "status": "error"
+    },
+    "institutional_holders": {
+      "status": "error"
+    }
+  },
+  "earnings_data": {
+    "earnings": {
+      "status": "error",
+      "message": "'NoneType' object has no attribute 'empty'"
+    },
+    "calendar": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  }
+}

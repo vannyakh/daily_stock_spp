@@ -1,25 +1,9 @@
 {
   "ticker": "NYMTI",
-  "timestamp": "2026-01-27T05:25:35.880661",
+  "timestamp": "2026-01-28T05:15:15.177345",
   "intraday_data": {
-    "status": "success",
-    "rows": 2,
-    "data": [
-      {
-        "Close GAINN": 24.981599807739258,
-        "High GAINN": 24.981599807739258,
-        "Low GAINN": 24.981599807739258,
-        "Open GAINN": 24.981599807739258,
-        "Volume GAINN": 0
-      },
-      {
-        "Close GAINN": 24.959999084472656,
-        "High GAINN": 24.959999084472656,
-        "Low GAINN": 24.959999084472656,
-        "Open GAINN": 24.959999084472656,
-        "Volume GAINN": 325
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -42,7 +26,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

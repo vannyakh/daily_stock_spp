@@ -1,9 +1,53 @@
 {
   "ticker": "ECCU",
-  "timestamp": "2026-01-27T05:22:56.170459",
+  "timestamp": "2026-01-28T05:13:56.746104",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 6,
+    "data": [
+      {
+        "Close": 25.410999298095703,
+        "High": 25.410999298095703,
+        "Low": 25.410999298095703,
+        "Open": 25.410999298095703,
+        "Volume": 0
+      },
+      {
+        "Close": 25.405000686645508,
+        "High": 25.405000686645508,
+        "Low": 25.405000686645508,
+        "Open": 25.405000686645508,
+        "Volume": 277
+      },
+      {
+        "Close": 25.33009910583496,
+        "High": 25.3302001953125,
+        "Low": 25.15999984741211,
+        "Open": 25.329999923706055,
+        "Volume": 2110
+      },
+      {
+        "Close": 25.364999771118164,
+        "High": 25.364999771118164,
+        "Low": 25.364999771118164,
+        "Open": 25.364999771118164,
+        "Volume": 0
+      },
+      {
+        "Close": 25.329999923706055,
+        "High": 25.329999923706055,
+        "Low": 25.329999923706055,
+        "Open": 25.329999923706055,
+        "Volume": 302
+      },
+      {
+        "Close": 25.31999969482422,
+        "High": 25.31999969482422,
+        "Low": 25.31999969482422,
+        "Open": 25.31999969482422,
+        "Volume": 2707
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -26,7 +70,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

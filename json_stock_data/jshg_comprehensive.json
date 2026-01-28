@@ -1,9 +1,18 @@
 {
   "ticker": "JSHG",
-  "timestamp": "2026-01-27T05:17:44.861249",
+  "timestamp": "2026-01-28T05:11:06.705107",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 1,
+    "data": [
+      {
+        "Close TGNT": 0.022350000217556953,
+        "High TGNT": 0.022350000217556953,
+        "Low TGNT": 0.022350000217556953,
+        "Open TGNT": 0.022350000217556953,
+        "Volume TGNT": 0
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -26,7 +35,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

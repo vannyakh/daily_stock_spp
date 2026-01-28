@@ -1,18 +1,9 @@
 {
   "ticker": "LENDX",
-  "timestamp": "2026-01-27T05:22:38.424131",
+  "timestamp": "2026-01-28T05:13:49.288094",
   "intraday_data": {
-    "status": "success",
-    "rows": 1,
-    "data": [
-      {
-        "Close": 45.849998474121094,
-        "High": 45.849998474121094,
-        "Low": 45.849998474121094,
-        "Open": 45.849998474121094,
-        "Volume": 0
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -35,7 +26,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

@@ -1,39 +1,9 @@
 {
   "ticker": "BZRD",
-  "timestamp": "2026-01-27T05:18:24.669561",
+  "timestamp": "2026-01-28T05:11:30.407780",
   "intraday_data": {
-    "status": "success",
-    "rows": 4,
-    "data": [
-      {
-        "Close": 0.054999999701976776,
-        "High": 0.054999999701976776,
-        "Low": 0.054999999701976776,
-        "Open": 0.054999999701976776,
-        "Volume": 0
-      },
-      {
-        "Close": 0.05510000139474869,
-        "High": 0.05510000139474869,
-        "Low": 0.05510000139474869,
-        "Open": 0.05510000139474869,
-        "Volume": 10000
-      },
-      {
-        "Close": 0.054999999701976776,
-        "High": 0.054999999701976776,
-        "Low": 0.054999999701976776,
-        "Open": 0.054999999701976776,
-        "Volume": 10000
-      },
-      {
-        "Close": 0.054999999701976776,
-        "High": 0.05510000139474869,
-        "Low": 0.054999999701976776,
-        "Open": 0.05510000139474869,
-        "Volume": 112000
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -56,7 +26,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

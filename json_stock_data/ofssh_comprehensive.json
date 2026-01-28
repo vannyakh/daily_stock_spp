@@ -1,9 +1,18 @@
 {
   "ticker": "OFSSH",
-  "timestamp": "2026-01-27T05:26:09.993105",
+  "timestamp": "2026-01-28T05:15:35.459000",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 1,
+    "data": [
+      {
+        "Close HTFB": 25.008699417114258,
+        "High HTFB": 25.008699417114258,
+        "Low HTFB": 25.008699417114258,
+        "Open HTFB": 25.008699417114258,
+        "Volume HTFB": 200
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -26,7 +35,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

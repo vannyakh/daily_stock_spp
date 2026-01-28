@@ -1,39 +1,9 @@
 {
   "ticker": "FERN",
-  "timestamp": "2026-01-27T05:12:03.530074",
+  "timestamp": "2026-01-28T05:07:24.471120",
   "intraday_data": {
-    "status": "success",
-    "rows": 4,
-    "data": [
-      {
-        "Close": 0.0019000000320374966,
-        "High": 0.0019000000320374966,
-        "Low": 0.0019000000320374966,
-        "Open": 0.0019000000320374966,
-        "Volume": 0
-      },
-      {
-        "Close": 0.0017000000225380063,
-        "High": 0.0017000000225380063,
-        "Low": 0.0017000000225380063,
-        "Open": 0.0017000000225380063,
-        "Volume": 111184
-      },
-      {
-        "Close": 0.0017000000225380063,
-        "High": 0.0017000000225380063,
-        "Low": 0.0017000000225380063,
-        "Open": 0.0017000000225380063,
-        "Volume": 31171
-      },
-      {
-        "Close": 0.0017000000225380063,
-        "High": 0.0017000000225380063,
-        "Low": 0.0017000000225380063,
-        "Open": 0.0017000000225380063,
-        "Volume": 11
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -56,7 +26,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

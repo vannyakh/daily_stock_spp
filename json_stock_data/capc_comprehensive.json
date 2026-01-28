@@ -1,10 +1,31 @@
 {
   "ticker": "CAPC",
-  "timestamp": "2026-01-27T05:11:31.512043",
+  "timestamp": "2026-01-28T05:07:05.913991",
   "intraday_data": {
     "status": "success",
-    "rows": 1,
+    "rows": 4,
     "data": [
+      {
+        "Close": 0.05000000074505806,
+        "High": 0.05000000074505806,
+        "Low": 0.05000000074505806,
+        "Open": 0.05000000074505806,
+        "Volume": 0
+      },
+      {
+        "Close": 0.05000000074505806,
+        "High": 0.05000000074505806,
+        "Low": 0.05000000074505806,
+        "Open": 0.05000000074505806,
+        "Volume": 1999
+      },
+      {
+        "Close": 0.05000000074505806,
+        "High": 0.05000000074505806,
+        "Low": 0.05000000074505806,
+        "Open": 0.05000000074505806,
+        "Volume": 7000
+      },
       {
         "Close": 0.05000000074505806,
         "High": 0.05000000074505806,
@@ -35,10 +56,12 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   },
   "holders_data": {

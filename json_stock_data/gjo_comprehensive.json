@@ -1,9 +1,9 @@
 {
   "ticker": "GJO",
-  "timestamp": "2026-01-27T05:14:24.448934",
+  "timestamp": "2026-01-28T05:09:00.371008",
   "intraday_data": {
     "status": "success",
-    "rows": 2,
+    "rows": 4,
     "data": [
       {
         "Close": 25.030000686645508,
@@ -17,7 +17,21 @@
         "High": 24.926300048828125,
         "Low": 24.926300048828125,
         "Open": 24.926300048828125,
-        "Volume": 400
+        "Volume": 0
+      },
+      {
+        "Close": 25.030000686645508,
+        "High": 25.030000686645508,
+        "Low": 25.030000686645508,
+        "Open": 25.030000686645508,
+        "Volume": 1975
+      },
+      {
+        "Close": 24.915000915527344,
+        "High": 24.915000915527344,
+        "Low": 24.915000915527344,
+        "Open": 24.915000915527344,
+        "Volume": 1000
       }
     ]
   },
@@ -42,7 +56,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

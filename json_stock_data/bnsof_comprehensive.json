@@ -1,39 +1,9 @@
 {
   "ticker": "BNSOF",
-  "timestamp": "2026-01-27T05:17:29.390875",
+  "timestamp": "2026-01-28T05:10:56.128185",
   "intraday_data": {
-    "status": "success",
-    "rows": 4,
-    "data": [
-      {
-        "Close": 2.0999999046325684,
-        "High": 2.0999999046325684,
-        "Low": 2.0999999046325684,
-        "Open": 2.0999999046325684,
-        "Volume": 0
-      },
-      {
-        "Close": 1.9700000286102295,
-        "High": 1.9700000286102295,
-        "Low": 1.9700000286102295,
-        "Open": 1.9700000286102295,
-        "Volume": 213
-      },
-      {
-        "Close": 1.9700000286102295,
-        "High": 1.9700000286102295,
-        "Low": 1.9600000381469727,
-        "Open": 1.9600000381469727,
-        "Volume": 200
-      },
-      {
-        "Close": 2.359999895095825,
-        "High": 2.359999895095825,
-        "Low": 2.359999895095825,
-        "Open": 2.359999895095825,
-        "Volume": 200
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -56,7 +26,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

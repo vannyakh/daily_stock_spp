@@ -1,33 +1,99 @@
 {
   "ticker": "JBDI",
-  "timestamp": "2026-01-27T05:08:54.228353",
+  "timestamp": "2026-01-28T05:05:28.396766",
   "intraday_data": {
-    "status": "success",
-    "rows": 1,
-    "data": [
-      {
-        "Close OTLC": 0.07069999724626541,
-        "High OTLC": 0.07069999724626541,
-        "Low OTLC": 0.07069999724626541,
-        "Open OTLC": 0.07069999724626541,
-        "Volume OTLC": 0
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
-    "message": "argument of type 'NoneType' is not iterable"
+    "message": "Too Many Requests. Rate limited. Try after a while."
   },
   "financials": {
     "income_statement": {
+      "status": "no_data"
+    },
+    "balance_sheet": {
+      "status": "no_data"
+    },
+    "cash_flow": {
+      "status": "no_data"
+    }
+  },
+  "options_data": {
+    "status": "error",
+    "error_message": "Too Many Requests. Rate limited. Try after a while."
+  },
+  "news_data": {
+    "news": {
       "status": "success",
-      "rows": 52,
-      "columns": [
-        "2024-05-31 00:00:00",
-        "2023-05-31 00:00:00",
-        "2022-05-31 00:00:00",
-        "2021-05-31 00:00:00"
-      ],
+      "count": 1,
       "data": [
         {
-          
+          "id": "0ee094ae-ebf5-3e3d-aef5-76be87e76f2c",
+          "content": {
+            "id": "0ee094ae-ebf5-3e3d-aef5-76be87e76f2c",
+            "contentType": "STORY",
+            "title": "BC-Most Active Stocks",
+            "description": "",
+            "summary": "td class=\"col-issue\">Next Technology Holding Inc.",
+            "pubDate": "2025-09-10T14:30:17Z",
+            "displayTime": "2025-09-10T14:30:17Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": null,
+            "provider": {
+              "displayName": "Associated Press Finance",
+              "url": "http://www.ap.org/"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/bc-most-active-stocks-143017455.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/bc-most-active-stocks-143017455.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        }
+      ]
+    },
+    "recommendations": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  },
+  "holders_data": {
+    "major_holders": {
+      "status": "error"
+    },
+    "institutional_holders": {
+      "status": "error"
+    }
+  },
+  "earnings_data": {
+    "earnings": {
+      "status": "error",
+      "message": "'NoneType' object has no attribute 'empty'"
+    },
+    "calendar": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  }
+}

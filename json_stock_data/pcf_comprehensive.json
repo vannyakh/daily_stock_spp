@@ -1,46 +1,9 @@
 {
   "ticker": "PCF",
-  "timestamp": "2026-01-27T05:03:23.110950",
+  "timestamp": "2026-01-28T05:00:38.562189",
   "intraday_data": {
-    "status": "success",
-    "rows": 5,
-    "data": [
-      {
-        "Close LSE": 5.0,
-        "High LSE": 5.0,
-        "Low LSE": 5.0,
-        "Open LSE": 5.0,
-        "Volume LSE": 0
-      },
-      {
-        "Close LSE": 5.105000019073486,
-        "High LSE": 5.105000019073486,
-        "Low LSE": 5.105000019073486,
-        "Open LSE": 5.105000019073486,
-        "Volume LSE": 578
-      },
-      {
-        "Close LSE": 5.059999942779541,
-        "High LSE": 5.119999885559082,
-        "Low LSE": 5.059999942779541,
-        "Open LSE": 5.119999885559082,
-        "Volume LSE": 3342
-      },
-      {
-        "Close LSE": 5.000100135803223,
-        "High LSE": 5.000100135803223,
-        "Low LSE": 5.0,
-        "Open LSE": 5.0,
-        "Volume LSE": 464
-      },
-      {
-        "Close LSE": 5.054999828338623,
-        "High LSE": 5.054999828338623,
-        "Low LSE": 5.054999828338623,
-        "Open LSE": 5.054999828338623,
-        "Volume LSE": 113
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -63,7 +26,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

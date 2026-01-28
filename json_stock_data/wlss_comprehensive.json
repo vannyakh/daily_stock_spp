@@ -1,10 +1,32 @@
 {
   "ticker": "WLSS",
-  "timestamp": "2026-01-27T05:20:17.345439",
+  "timestamp": "2026-01-28T05:12:35.097357",
   "intraday_data": {
     "status": "success",
-    "rows": 0,
-    "data": []
+    "rows": 3,
+    "data": [
+      {
+        "Close GGROW": 0.009999999776482582,
+        "High GGROW": 0.010099999606609344,
+        "Low GGROW": 0.009999999776482582,
+        "Open GGROW": 0.009999999776482582,
+        "Volume GGROW": 0
+      },
+      {
+        "Close GGROW": 0.010099999606609344,
+        "High GGROW": 0.010099999606609344,
+        "Low GGROW": 0.009999999776482582,
+        "Open GGROW": 0.009999999776482582,
+        "Volume GGROW": 0
+      },
+      {
+        "Close GGROW": 0.00989999994635582,
+        "High GGROW": 0.009999999776482582,
+        "Low GGROW": 0.00989999994635582,
+        "Open GGROW": 0.009999999776482582,
+        "Volume GGROW": 200
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -27,7 +49,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

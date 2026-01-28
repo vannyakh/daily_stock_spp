@@ -1,53 +1,9 @@
 {
   "ticker": "DHCNI",
-  "timestamp": "2026-01-27T05:20:46.891762",
+  "timestamp": "2026-01-28T05:12:50.782532",
   "intraday_data": {
-    "status": "success",
-    "rows": 6,
-    "data": [
-      {
-        "Close DHCNL": 18.350000381469727,
-        "High DHCNL": 18.350000381469727,
-        "Low DHCNL": 18.170000076293945,
-        "Open DHCNL": 18.170000076293945,
-        "Volume DHCNL": 0
-      },
-      {
-        "Close DHCNL": 18.350000381469727,
-        "High DHCNL": 18.350000381469727,
-        "Low DHCNL": 18.350000381469727,
-        "Open DHCNL": 18.350000381469727,
-        "Volume DHCNL": 296
-      },
-      {
-        "Close DHCNL": 18.39539909362793,
-        "High DHCNL": 18.39539909362793,
-        "Low DHCNL": 18.39539909362793,
-        "Open DHCNL": 18.39539909362793,
-        "Volume DHCNL": 410
-      },
-      {
-        "Close DHCNL": 18.489999771118164,
-        "High DHCNL": 18.489999771118164,
-        "Low DHCNL": 18.489999771118164,
-        "Open DHCNL": 18.489999771118164,
-        "Volume DHCNL": 467
-      },
-      {
-        "Close DHCNL": 18.489999771118164,
-        "High DHCNL": 18.489999771118164,
-        "Low DHCNL": 18.489999771118164,
-        "Open DHCNL": 18.489999771118164,
-        "Volume DHCNL": 177
-      },
-      {
-        "Close DHCNL": 18.549999237060547,
-        "High DHCNL": 18.549999237060547,
-        "Low DHCNL": 18.490100860595703,
-        "Open DHCNL": 18.520000457763672,
-        "Volume DHCNL": 623
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -70,7 +26,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

@@ -1,9 +1,25 @@
 {
   "ticker": "AACB",
-  "timestamp": "2026-01-27T05:13:53.808885",
+  "timestamp": "2026-01-28T05:08:44.203355",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 2,
+    "data": [
+      {
+        "Close": 10.380000114440918,
+        "High": 10.380000114440918,
+        "Low": 10.380000114440918,
+        "Open": 10.380000114440918,
+        "Volume": 0
+      },
+      {
+        "Close": 10.380000114440918,
+        "High": 10.380000114440918,
+        "Low": 10.380000114440918,
+        "Open": 10.380000114440918,
+        "Volume": 48302
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -26,7 +42,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

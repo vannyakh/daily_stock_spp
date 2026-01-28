@@ -1,81 +1,9 @@
 {
   "ticker": "BRKH",
-  "timestamp": "2026-01-27T05:16:54.569918",
+  "timestamp": "2026-01-28T05:10:36.108896",
   "intraday_data": {
-    "status": "success",
-    "rows": 10,
-    "data": [
-      {
-        "Close ENO": 22.639999389648438,
-        "High ENO": 22.639999389648438,
-        "Low ENO": 22.639999389648438,
-        "Open ENO": 22.639999389648438,
-        "Volume ENO": 0
-      },
-      {
-        "Close ENO": 22.559999465942383,
-        "High ENO": 22.559999465942383,
-        "Low ENO": 22.559999465942383,
-        "Open ENO": 22.559999465942383,
-        "Volume ENO": 439
-      },
-      {
-        "Close ENO": 22.709999084472656,
-        "High ENO": 22.709999084472656,
-        "Low ENO": 22.649999618530273,
-        "Open ENO": 22.65999984741211,
-        "Volume ENO": 972
-      },
-      {
-        "Close ENO": 22.604900360107422,
-        "High ENO": 22.604900360107422,
-        "Low ENO": 22.604900360107422,
-        "Open ENO": 22.604900360107422,
-        "Volume ENO": 152
-      },
-      {
-        "Close ENO": 22.600000381469727,
-        "High ENO": 22.610000610351562,
-        "Low ENO": 22.600000381469727,
-        "Open ENO": 22.606399536132812,
-        "Volume ENO": 801
-      },
-      {
-        "Close ENO": 22.565500259399414,
-        "High ENO": 22.565500259399414,
-        "Low ENO": 22.565500259399414,
-        "Open ENO": 22.565500259399414,
-        "Volume ENO": 329
-      },
-      {
-        "Close ENO": 22.550399780273438,
-        "High ENO": 22.550399780273438,
-        "Low ENO": 22.550399780273438,
-        "Open ENO": 22.550399780273438,
-        "Volume ENO": 1027
-      },
-      {
-        "Close ENO": 22.540000915527344,
-        "High ENO": 22.59000015258789,
-        "Low ENO": 22.540000915527344,
-        "Open ENO": 22.59000015258789,
-        "Volume ENO": 552
-      },
-      {
-        "Close ENO": 22.549999237060547,
-        "High ENO": 22.549999237060547,
-        "Low ENO": 22.549999237060547,
-        "Open ENO": 22.549999237060547,
-        "Volume ENO": 277
-      },
-      {
-        "Close ENO": 22.556800842285156,
-        "High ENO": 22.556800842285156,
-        "Low ENO": 22.556800842285156,
-        "Open ENO": 22.556800842285156,
-        "Volume ENO": 247
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -98,7 +26,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

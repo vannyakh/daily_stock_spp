@@ -1,30 +1,23 @@
 {
   "ticker": "DUK-PA",
-  "timestamp": "2026-01-27T05:14:51.086986",
+  "timestamp": "2026-01-28T05:09:16.117491",
   "intraday_data": {
     "status": "success",
-    "rows": 3,
+    "rows": 2,
     "data": [
       {
-        "Close FMCCT": 19.899999618530273,
-        "High FMCCT": 19.899999618530273,
-        "Low FMCCT": 19.899999618530273,
-        "Open FMCCT": 19.899999618530273,
-        "Volume FMCCT": 0
+        "Close RLXXF": 39.75,
+        "High RLXXF": 39.75,
+        "Low RLXXF": 39.75,
+        "Open RLXXF": 39.75,
+        "Volume RLXXF": 0
       },
       {
-        "Close FMCCT": 19.649999618530273,
-        "High FMCCT": 19.649999618530273,
-        "Low FMCCT": 19.649999618530273,
-        "Open FMCCT": 19.649999618530273,
-        "Volume FMCCT": 100
-      },
-      {
-        "Close FMCCT": 19.600000381469727,
-        "High FMCCT": 19.600000381469727,
-        "Low FMCCT": 19.600000381469727,
-        "Open FMCCT": 19.600000381469727,
-        "Volume FMCCT": 100
+        "Close RLXXF": 38.20000076293945,
+        "High RLXXF": 38.20000076293945,
+        "Low RLXXF": 38.20000076293945,
+        "Open RLXXF": 38.20000076293945,
+        "Volume RLXXF": 1654
       }
     ]
   },
@@ -37,14 +30,42 @@
       "status": "no_data"
     },
     "balance_sheet": {
-      "status": "success",
-      "rows": 79,
-      "columns": [
-        "2024-12-31 00:00:00",
-        "2023-12-31 00:00:00",
-        "2022-12-31 00:00:00",
-        "2021-12-31 00:00:00"
-      ],
-      "data": [
-        {
-          
+      "status": "no_data"
+    },
+    "cash_flow": {
+      "status": "no_data"
+    }
+  },
+  "options_data": {
+    "status": "error",
+    "error_message": "Too Many Requests. Rate limited. Try after a while."
+  },
+  "news_data": {
+    "news": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    },
+    "recommendations": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  },
+  "holders_data": {
+    "major_holders": {
+      "status": "error"
+    },
+    "institutional_holders": {
+      "status": "error"
+    }
+  },
+  "earnings_data": {
+    "earnings": {
+      "status": "error",
+      "message": "'NoneType' object has no attribute 'empty'"
+    },
+    "calendar": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  }
+}

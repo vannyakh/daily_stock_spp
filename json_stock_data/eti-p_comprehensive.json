@@ -1,9 +1,9 @@
 {
   "ticker": "ETI-P",
-  "timestamp": "2026-01-27T05:13:16.586006",
+  "timestamp": "2026-01-28T05:08:24.847529",
   "intraday_data": {
     "status": "success",
-    "rows": 4,
+    "rows": 6,
     "data": [
       {
         "Close": 23.59000015258789,
@@ -31,7 +31,21 @@
         "High": 23.559999465942383,
         "Low": 23.559999465942383,
         "Open": 23.559999465942383,
-        "Volume": 301
+        "Volume": 0
+      },
+      {
+        "Close": 23.78499984741211,
+        "High": 23.78499984741211,
+        "Low": 23.78499984741211,
+        "Open": 23.78499984741211,
+        "Volume": 395
+      },
+      {
+        "Close": 23.707500457763672,
+        "High": 23.707500457763672,
+        "Low": 23.707500457763672,
+        "Open": 23.707500457763672,
+        "Volume": 0
       }
     ]
   },
@@ -56,7 +70,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

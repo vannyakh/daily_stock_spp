@@ -1,32 +1,9 @@
 {
   "ticker": "NCL",
-  "timestamp": "2026-01-27T05:08:02.578826",
+  "timestamp": "2026-01-28T05:04:51.442770",
   "intraday_data": {
-    "status": "success",
-    "rows": 3,
-    "data": [
-      {
-        "Close GIGM": 1.4900000095367432,
-        "High GIGM": 1.4900000095367432,
-        "Low GIGM": 1.4900000095367432,
-        "Open GIGM": 1.4900000095367432,
-        "Volume GIGM": 482
-      },
-      {
-        "Close GIGM": 1.4983999729156494,
-        "High GIGM": 1.4983999729156494,
-        "Low GIGM": 1.4983999729156494,
-        "Open GIGM": 1.4983999729156494,
-        "Volume GIGM": 121
-      },
-      {
-        "Close GIGM": 1.4950000047683716,
-        "High GIGM": 1.4950000047683716,
-        "Low GIGM": 1.4950000047683716,
-        "Open GIGM": 1.4950000047683716,
-        "Volume GIGM": 100
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -52,7 +29,8 @@
       "status": "no_data"
     },
     "recommendations": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   },
   "holders_data": {

@@ -1,18 +1,9 @@
 {
   "ticker": "VYCO",
-  "timestamp": "2026-01-27T05:12:00.251959",
+  "timestamp": "2026-01-28T05:07:21.089287",
   "intraday_data": {
-    "status": "success",
-    "rows": 1,
-    "data": [
-      {
-        "Close": 0.10999999940395355,
-        "High": 0.10999999940395355,
-        "Low": 0.10999999940395355,
-        "Open": 0.10999999940395355,
-        "Volume": 0
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -35,7 +26,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

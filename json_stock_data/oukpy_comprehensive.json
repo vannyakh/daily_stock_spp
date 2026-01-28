@@ -1,15 +1,29 @@
 {
   "ticker": "OUKPY",
-  "timestamp": "2026-01-27T04:50:33.191689",
+  "timestamp": "2026-01-28T04:49:01.695464",
   "intraday_data": {
     "status": "success",
-    "rows": 1,
+    "rows": 3,
     "data": [
       {
         "Close": 9.949999809265137,
         "High": 9.949999809265137,
         "Low": 9.949999809265137,
         "Open": 9.949999809265137,
+        "Volume": 0
+      },
+      {
+        "Close": 10.0,
+        "High": 10.0,
+        "Low": 10.0,
+        "Open": 10.0,
+        "Volume": 100
+      },
+      {
+        "Close": 10.289999961853027,
+        "High": 10.289999961853027,
+        "Low": 10.289999961853027,
+        "Open": 10.289999961853027,
         "Volume": 0
       }
     ]
@@ -571,16 +585,15 @@
       ]
     },
     "recommendations": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
+      "status": "no_data"
     }
   },
   "holders_data": {
     "major_holders": {
-      "status": "error"
+      "status": "no_data"
     },
     "institutional_holders": {
-      "status": "error"
+      "status": "no_data"
     }
   },
   "earnings_data": {

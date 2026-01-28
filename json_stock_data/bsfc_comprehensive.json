@@ -1,39 +1,9 @@
 {
   "ticker": "BSFC",
-  "timestamp": "2026-01-27T05:12:29.477536",
+  "timestamp": "2026-01-28T05:07:42.458455",
   "intraday_data": {
-    "status": "success",
-    "rows": 4,
-    "data": [
-      {
-        "Close": 0.00139999995008111,
-        "High": 0.00139999995008111,
-        "Low": 0.00139999995008111,
-        "Open": 0.00139999995008111,
-        "Volume": 0
-      },
-      {
-        "Close": 0.0013000000035390258,
-        "High": 0.0013000000035390258,
-        "Low": 0.0013000000035390258,
-        "Open": 0.0013000000035390258,
-        "Volume": 750
-      },
-      {
-        "Close": 0.00139999995008111,
-        "High": 0.00139999995008111,
-        "Low": 0.00139999995008111,
-        "Open": 0.00139999995008111,
-        "Volume": 9250
-      },
-      {
-        "Close": 0.0013000000035390258,
-        "High": 0.0013000000035390258,
-        "Low": 0.0013000000035390258,
-        "Open": 0.0013000000035390258,
-        "Volume": 5976
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -56,7 +26,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

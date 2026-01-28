@@ -1,32 +1,9 @@
 {
   "ticker": "EGMCF",
-  "timestamp": "2026-01-27T05:11:48.243507",
+  "timestamp": "2026-01-28T05:07:16.111605",
   "intraday_data": {
-    "status": "success",
-    "rows": 3,
-    "data": [
-      {
-        "Close": 0.07029999792575836,
-        "High": 0.07029999792575836,
-        "Low": 0.05999999865889549,
-        "Open": 0.05999999865889549,
-        "Volume": 0
-      },
-      {
-        "Close": 0.0763000026345253,
-        "High": 0.07999999821186066,
-        "Low": 0.0763000026345253,
-        "Open": 0.07900000363588333,
-        "Volume": 69296
-      },
-      {
-        "Close": 0.07419999688863754,
-        "High": 0.07419999688863754,
-        "Low": 0.07419999688863754,
-        "Open": 0.07419999688863754,
-        "Volume": 1200
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -49,52 +26,8 @@
   },
   "news_data": {
     "news": {
-      "status": "success",
-      "count": 1,
-      "data": [
-        {
-          "id": "38759f13-dedb-3714-9fd1-c8c0c268006c",
-          "content": {
-            "id": "38759f13-dedb-3714-9fd1-c8c0c268006c",
-            "contentType": "STORY",
-            "title": "Fairchild Gold to Acquire Emergent Metals Golden Arrow Project in Nevada",
-            "description": "",
-            "summary": "Fairchild Gold (FAIR.V) on Monday said it entered into a Memorandum of Understanding (MOU) to acquir",
-            "pubDate": "2025-09-29T20:50:16Z",
-            "displayTime": "2025-09-29T20:50:16Z",
-            "isHosted": true,
-            "bypassModal": false,
-            "previewUrl": null,
-            "thumbnail": null,
-            "provider": {
-              "displayName": "MT Newswires",
-              "url": "https://www.mtnewswires.com/"
-            },
-            "canonicalUrl": {
-              "url": "https://finance.yahoo.com/news/fairchild-gold-acquire-emergent-metals-205016893.html",
-              "site": "finance",
-              "region": "US",
-              "lang": "en-US"
-            },
-            "clickThroughUrl": {
-              "url": "https://finance.yahoo.com/news/fairchild-gold-acquire-emergent-metals-205016893.html",
-              "site": "finance",
-              "region": "US",
-              "lang": "en-US"
-            },
-            "metadata": {
-              "editorsPick": false
-            },
-            "finance": {
-              "premiumFinance": {
-                "isPremiumNews": true,
-                "isPremiumFreeNews": false
-              }
-            },
-            "storyline": null
-          }
-        }
-      ]
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

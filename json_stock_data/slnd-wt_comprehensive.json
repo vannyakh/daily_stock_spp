@@ -1,9 +1,32 @@
 {
   "ticker": "SLND-WT",
-  "timestamp": "2026-01-27T05:22:00.853576",
+  "timestamp": "2026-01-28T05:13:30.235923",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 3,
+    "data": [
+      {
+        "Close VLN-WT": 0.06030000001192093,
+        "High VLN-WT": 0.06030000001192093,
+        "Low VLN-WT": 0.06030000001192093,
+        "Open VLN-WT": 0.06030000001192093,
+        "Volume VLN-WT": 0
+      },
+      {
+        "Close VLN-WT": 0.06589999794960022,
+        "High VLN-WT": 0.06589999794960022,
+        "Low VLN-WT": 0.06589999794960022,
+        "Open VLN-WT": 0.06589999794960022,
+        "Volume VLN-WT": 300
+      },
+      {
+        "Close VLN-WT": 0.056299999356269836,
+        "High VLN-WT": 0.07989999651908875,
+        "Low VLN-WT": 0.056299999356269836,
+        "Open VLN-WT": 0.07989999651908875,
+        "Volume VLN-WT": 3500
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -26,7 +49,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

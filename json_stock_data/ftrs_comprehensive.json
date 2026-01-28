@@ -1,46 +1,9 @@
 {
   "ticker": "FTRS",
-  "timestamp": "2026-01-27T05:17:46.789871",
+  "timestamp": "2026-01-28T05:11:07.769654",
   "intraday_data": {
-    "status": "success",
-    "rows": 5,
-    "data": [
-      {
-        "Close SWISF": 0.0560000017285347,
-        "High SWISF": 0.0560000017285347,
-        "Low SWISF": 0.0560000017285347,
-        "Open SWISF": 0.0560000017285347,
-        "Volume SWISF": 0
-      },
-      {
-        "Close SWISF": 0.04814999923110008,
-        "High SWISF": 0.04814999923110008,
-        "Low SWISF": 0.04814999923110008,
-        "Open SWISF": 0.04814999923110008,
-        "Volume SWISF": 1989
-      },
-      {
-        "Close SWISF": 0.0478999987244606,
-        "High SWISF": 0.0478999987244606,
-        "Low SWISF": 0.0478999987244606,
-        "Open SWISF": 0.0478999987244606,
-        "Volume SWISF": 2170
-      },
-      {
-        "Close SWISF": 0.04600000008940697,
-        "High SWISF": 0.04600000008940697,
-        "Low SWISF": 0.04600000008940697,
-        "Open SWISF": 0.04600000008940697,
-        "Volume SWISF": 8830
-      },
-      {
-        "Close SWISF": 0.04814999923110008,
-        "High SWISF": 0.04814999923110008,
-        "Low SWISF": 0.04814999923110008,
-        "Open SWISF": 0.04814999923110008,
-        "Volume SWISF": 100
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -63,7 +26,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

@@ -1,9 +1,18 @@
 {
   "ticker": "GRAF-WT",
-  "timestamp": "2026-01-27T05:21:51.670756",
+  "timestamp": "2026-01-28T05:13:24.086840",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 1,
+    "data": [
+      {
+        "Close ESHAR": 0.2298000007867813,
+        "High ESHAR": 0.2298000007867813,
+        "Low ESHAR": 0.2298000007867813,
+        "Open ESHAR": 0.2298000007867813,
+        "Volume ESHAR": 0
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -26,7 +35,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

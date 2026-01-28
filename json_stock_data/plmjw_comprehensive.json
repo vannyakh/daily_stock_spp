@@ -1,59 +1,9 @@
 {
   "ticker": "PLMJW",
-  "timestamp": "2026-01-27T05:20:02.488591",
+  "timestamp": "2026-01-28T05:12:27.594271",
   "intraday_data": {
-    "status": "success",
-    "rows": 4,
-    "data": [
-      {
-        "Close AISPW": 1.2699999809265137,
-        "Close SLDPW": 0.7799999713897705,
-        "High AISPW": 1.2699999809265137,
-        "High SLDPW": 0.7799999713897705,
-        "Low AISPW": 1.2699999809265137,
-        "Low SLDPW": 0.7799999713897705,
-        "Open AISPW": 1.2699999809265137,
-        "Open SLDPW": 0.7799999713897705,
-        "Volume AISPW": 2524.0,
-        "Volume SLDPW": 100.0
-      },
-      {
-        "Close AISPW": 1.2000000476837158,
-        "Close SLDPW": 0.7900000214576721,
-        "High AISPW": 1.2000000476837158,
-        "High SLDPW": 0.7900000214576721,
-        "Low AISPW": 1.2000000476837158,
-        "Low SLDPW": 0.7900000214576721,
-        "Open AISPW": 1.2000000476837158,
-        "Open SLDPW": 0.7900000214576721,
-        "Volume AISPW": 1592.0,
-        "Volume SLDPW": 400.0
-      },
-      {
-        "Close AISPW": 1.2350000143051147,
-        "Close SLDPW": 0.796500027179718,
-        "High AISPW": 1.2350000143051147,
-        "High SLDPW": 0.796500027179718,
-        "Low AISPW": 1.2350000143051147,
-        "Low SLDPW": 0.796500027179718,
-        "Open AISPW": 1.2350000143051147,
-        "Open SLDPW": 0.796500027179718,
-        "Volume AISPW": 200.0,
-        "Volume SLDPW": 595.0
-      },
-      {
-        "Close AISPW": 1.2100000381469727,
-        "Close SLDPW": 0.7049999833106995,
-        "High AISPW": 1.2100000381469727,
-        "High SLDPW": 0.7269999980926514,
-        "Low AISPW": 1.2100000381469727,
-        "Low SLDPW": 0.7049999833106995,
-        "Open AISPW": 1.2100000381469727,
-        "Open SLDPW": 0.7269999980926514,
-        "Volume AISPW": 100.0,
-        "Volume SLDPW": 1843.0
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -76,7 +26,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

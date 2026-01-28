@@ -1,47 +1,9 @@
 {
   "ticker": "CRNT",
-  "timestamp": "2026-01-27T04:59:43.571885",
+  "timestamp": "2026-01-28T04:57:14.371292",
   "intraday_data": {
-    "status": "success",
-    "rows": 3,
-    "data": [
-      {
-        "Close ANNA": 2.934999942779541,
-        "Close": 2.251499891281128,
-        "High ANNA": 2.934999942779541,
-        "High": 2.251499891281128,
-        "Low ANNA": 2.934999942779541,
-        "Low": 2.251499891281128,
-        "Open ANNA": 2.934999942779541,
-        "Open": 2.251499891281128,
-        "Volume ANNA": 201.0,
-        "Volume": 448.0
-      },
-      {
-        "Close ANNA": 2.934999942779541,
-        "Close": 2.2576000690460205,
-        "High ANNA": 2.956700086593628,
-        "High": 2.2576000690460205,
-        "Low ANNA": 2.934999942779541,
-        "Low": 2.2576000690460205,
-        "Open ANNA": 2.956700086593628,
-        "Open": 2.2576000690460205,
-        "Volume ANNA": 663.0,
-        "Volume": 1998.0
-      },
-      {
-        "Close ANNA": 2.944999933242798,
-        "Close": 2.267199993133545,
-        "High ANNA": 2.944999933242798,
-        "High": 2.267199993133545,
-        "Low ANNA": 2.9000000953674316,
-        "Low": 2.267199993133545,
-        "Open ANNA": 2.9000000953674316,
-        "Open": 2.267199993133545,
-        "Volume ANNA": 823.0,
-        "Volume": 254.0
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -661,7 +623,8 @@
       ]
     },
     "recommendations": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   },
   "holders_data": {

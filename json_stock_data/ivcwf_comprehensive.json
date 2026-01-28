@@ -1,18 +1,9 @@
 {
   "ticker": "IVCWF",
-  "timestamp": "2026-01-27T05:19:04.062787",
+  "timestamp": "2026-01-28T05:11:53.738908",
   "intraday_data": {
-    "status": "success",
-    "rows": 1,
-    "data": [
-      {
-        "Close AERTW": 0.03229999914765358,
-        "High AERTW": 0.03229999914765358,
-        "Low AERTW": 0.03229999914765358,
-        "Open AERTW": 0.03229999914765358,
-        "Volume AERTW": 0
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -35,7 +26,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

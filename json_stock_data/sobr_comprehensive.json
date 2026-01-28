@@ -1,25 +1,9 @@
 {
   "ticker": "SOBR",
-  "timestamp": "2026-01-27T05:12:30.795608",
+  "timestamp": "2026-01-28T05:07:43.471735",
   "intraday_data": {
-    "status": "success",
-    "rows": 2,
-    "data": [
-      {
-        "Close WAST": 0.04010000079870224,
-        "High WAST": 0.04010000079870224,
-        "Low WAST": 0.04010000079870224,
-        "Open WAST": 0.04010000079870224,
-        "Volume WAST": 0
-      },
-      {
-        "Close WAST": 0.03999999910593033,
-        "High WAST": 0.03999999910593033,
-        "Low WAST": 0.03999999910593033,
-        "Open WAST": 0.03999999910593033,
-        "Volume WAST": 35000
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -42,97 +26,12 @@
   },
   "news_data": {
     "news": {
-      "status": "success",
-      "count": 2,
-      "data": [
-        {
-          "id": "661b55e7-4a4d-36d4-8cf9-9c09be9c2ef2",
-          "content": {
-            "id": "661b55e7-4a4d-36d4-8cf9-9c09be9c2ef2",
-            "contentType": "STORY",
-            "title": "US Equity Futures Mixed Amid Signs of Year-End Optimism",
-            "description": "",
-            "summary": "Trading held steady premarket Friday despite broader optimism about the US economy, with US equity f",
-            "pubDate": "2025-12-26T13:54:18Z",
-            "displayTime": "2025-12-26T13:54:18Z",
-            "isHosted": true,
-            "bypassModal": false,
-            "previewUrl": null,
-            "thumbnail": null,
-            "provider": {
-              "displayName": "MT Newswires",
-              "url": "https://www.mtnewswires.com/"
-            },
-            "canonicalUrl": {
-              "url": "https://finance.yahoo.com/news/us-equity-futures-mixed-amid-135418353.html",
-              "site": "finance",
-              "region": "US",
-              "lang": "en-US"
-            },
-            "clickThroughUrl": {
-              "url": "https://finance.yahoo.com/news/us-equity-futures-mixed-amid-135418353.html",
-              "site": "finance",
-              "region": "US",
-              "lang": "en-US"
-            },
-            "metadata": {
-              "editorsPick": false
-            },
-            "finance": {
-              "premiumFinance": {
-                "isPremiumNews": true,
-                "isPremiumFreeNews": false
-              }
-            },
-            "storyline": null
-          }
-        },
-        {
-          "id": "afc918ff-42bb-3e35-b9e7-8774e7ecf2a3",
-          "content": {
-            "id": "afc918ff-42bb-3e35-b9e7-8774e7ecf2a3",
-            "contentType": "STORY",
-            "title": "BC-Most Active Stocks",
-            "description": "",
-            "summary": "td class=\"col-issue\">Hycroft Mining Holding Corp.",
-            "pubDate": "2025-12-24T15:30:18Z",
-            "displayTime": "2025-12-24T15:30:18Z",
-            "isHosted": true,
-            "bypassModal": false,
-            "previewUrl": null,
-            "thumbnail": null,
-            "provider": {
-              "displayName": "Associated Press Finance",
-              "url": "http://www.ap.org/"
-            },
-            "canonicalUrl": {
-              "url": "https://finance.yahoo.com/news/bc-most-active-stocks-153018365.html",
-              "site": "finance",
-              "region": "US",
-              "lang": "en-US"
-            },
-            "clickThroughUrl": {
-              "url": "https://finance.yahoo.com/news/bc-most-active-stocks-153018365.html",
-              "site": "finance",
-              "region": "US",
-              "lang": "en-US"
-            },
-            "metadata": {
-              "editorsPick": false
-            },
-            "finance": {
-              "premiumFinance": {
-                "isPremiumNews": false,
-                "isPremiumFreeNews": false
-              }
-            },
-            "storyline": null
-          }
-        }
-      ]
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   },
   "holders_data": {

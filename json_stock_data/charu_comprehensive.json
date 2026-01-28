@@ -1,18 +1,9 @@
 {
   "ticker": "CHARU",
-  "timestamp": "2026-01-27T05:26:17.348218",
+  "timestamp": "2026-01-28T05:15:38.623720",
   "intraday_data": {
-    "status": "success",
-    "rows": 1,
-    "data": [
-      {
-        "Close OCSAW": 15.220000267028809,
-        "High OCSAW": 15.220000267028809,
-        "Low OCSAW": 15.220000267028809,
-        "Open OCSAW": 15.220000267028809,
-        "Volume OCSAW": 0
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -35,7 +26,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

@@ -1,9 +1,25 @@
 {
   "ticker": "USML",
-  "timestamp": "2026-01-27T05:23:31.512647",
+  "timestamp": "2026-01-28T05:14:13.275363",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 2,
+    "data": [
+      {
+        "Close": 42.470001220703125,
+        "High": 42.470001220703125,
+        "Low": 42.470001220703125,
+        "Open": 42.470001220703125,
+        "Volume": 0
+      },
+      {
+        "Close": 42.74020004272461,
+        "High": 42.74020004272461,
+        "Low": 42.4900016784668,
+        "Open": 42.4900016784668,
+        "Volume": 0
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -26,7 +42,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

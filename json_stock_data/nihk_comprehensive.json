@@ -1,10 +1,17 @@
 {
   "ticker": "NIHK",
-  "timestamp": "2026-01-27T05:12:44.593731",
+  "timestamp": "2026-01-28T05:07:54.492383",
   "intraday_data": {
     "status": "success",
-    "rows": 1,
+    "rows": 2,
     "data": [
+      {
+        "Close": 0.0024999999441206455,
+        "High": 0.0024999999441206455,
+        "Low": 0.0024999999441206455,
+        "Open": 0.0024999999441206455,
+        "Volume": 0
+      },
       {
         "Close": 0.0024999999441206455,
         "High": 0.0024999999441206455,
@@ -35,7 +42,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

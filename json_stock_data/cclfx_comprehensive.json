@@ -1,10 +1,17 @@
 {
   "ticker": "CCLFX",
-  "timestamp": "2026-01-27T05:22:41.427221",
+  "timestamp": "2026-01-28T05:13:50.498024",
   "intraday_data": {
     "status": "success",
-    "rows": 1,
+    "rows": 2,
     "data": [
+      {
+        "Close": 10.489999771118164,
+        "High": 10.489999771118164,
+        "Low": 10.489999771118164,
+        "Open": 10.489999771118164,
+        "Volume": 0
+      },
       {
         "Close": 10.489999771118164,
         "High": 10.489999771118164,
@@ -35,7 +42,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

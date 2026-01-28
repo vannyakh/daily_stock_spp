@@ -1,150 +1,32 @@
 {
   "ticker": "CHKR",
-  "timestamp": "2026-01-27T05:07:36.768208",
+  "timestamp": "2026-01-28T05:04:31.321604",
   "intraday_data": {
     "status": "success",
     "rows": 1,
     "data": [
       {
-        "Close NAAS": 3.0899999141693115,
-        "High NAAS": 3.1500000953674316,
-        "Low NAAS": 3.0799999237060547,
-        "Open NAAS": 3.1500000953674316,
-        "Volume NAAS": 0
+        "Close": 0.421099990606308,
+        "High": 0.421099990606308,
+        "Low": 0.421099990606308,
+        "Open": 0.421099990606308,
+        "Volume": 0
       }
     ]
   },
   "stock_info": {
     "status": "error",
-    "message": "Too Many Requests. Rate limited. Try after a while."
+    "message": "argument of type 'NoneType' is not iterable"
   },
   "financials": {
     "income_statement": {
-      "status": "no_data"
-    },
-    "balance_sheet": {
-      "status": "no_data"
-    },
-    "cash_flow": {
-      "status": "no_data"
-    }
-  },
-  "options_data": {
-    "status": "error",
-    "error_message": "Too Many Requests. Rate limited. Try after a while."
-  },
-  "news_data": {
-    "news": {
       "status": "success",
-      "count": 2,
+      "rows": 32,
+      "columns": [
+        "2023-12-31 00:00:00",
+        "2022-12-31 00:00:00",
+        "2021-12-31 00:00:00"
+      ],
       "data": [
         {
-          "id": "2eb59dfe-0b7a-37c0-8ec3-1db185d569af",
-          "content": {
-            "id": "2eb59dfe-0b7a-37c0-8ec3-1db185d569af",
-            "contentType": "STORY",
-            "title": "Chesapeake Granite Wash: Q3 Earnings Snapshot",
-            "description": "",
-            "summary": "HOUSTON (AP) \u2014 Chesapeake Granite Wash Trust (CHKR) on Monday reported earnings of $817,000 in its third quarter. The Houston-based company said it had profit of 2 cents per share. The owner of royalty interests in oil and natural gas properties posted revenue of $1.4 million in the period.",
-            "pubDate": "2025-11-10T22:01:06Z",
-            "displayTime": "2025-11-10T22:01:06Z",
-            "isHosted": true,
-            "bypassModal": false,
-            "previewUrl": null,
-            "thumbnail": null,
-            "provider": {
-              "displayName": "Associated Press Finance",
-              "url": "http://www.ap.org/"
-            },
-            "canonicalUrl": {
-              "url": "https://finance.yahoo.com/news/chesapeake-granite-wash-q3-earnings-220106092.html",
-              "site": "finance",
-              "region": "US",
-              "lang": "en-US"
-            },
-            "clickThroughUrl": {
-              "url": "https://finance.yahoo.com/news/chesapeake-granite-wash-q3-earnings-220106092.html",
-              "site": "finance",
-              "region": "US",
-              "lang": "en-US"
-            },
-            "metadata": {
-              "editorsPick": false
-            },
-            "finance": {
-              "premiumFinance": {
-                "isPremiumNews": false,
-                "isPremiumFreeNews": false
-              }
-            },
-            "storyline": null
-          }
-        },
-        {
-          "id": "010dc318-7017-3909-81d7-ad2c1630ff84",
-          "content": {
-            "id": "010dc318-7017-3909-81d7-ad2c1630ff84",
-            "contentType": "STORY",
-            "title": "Chesapeake Granite Wash: Q2 Earnings Snapshot",
-            "description": "",
-            "summary": "HOUSTON (AP) \u2014 Chesapeake Granite Wash Trust (CHKR) on Wednesday reported earnings of $1.4 million in its second quarter. On a per-share basis, the Houston-based company said it had net income of 3 cents. The owner of royalty interests in oil and natural gas properties posted revenue of $1.6 million in the period.",
-            "pubDate": "2025-08-06T17:00:24Z",
-            "displayTime": "2025-08-06T17:00:24Z",
-            "isHosted": true,
-            "bypassModal": false,
-            "previewUrl": null,
-            "thumbnail": null,
-            "provider": {
-              "displayName": "Associated Press Finance",
-              "url": "http://www.ap.org/"
-            },
-            "canonicalUrl": {
-              "url": "https://finance.yahoo.com/news/chesapeake-granite-wash-q2-earnings-170024077.html",
-              "site": "finance",
-              "region": "US",
-              "lang": "en-US"
-            },
-            "clickThroughUrl": {
-              "url": "https://finance.yahoo.com/news/chesapeake-granite-wash-q2-earnings-170024077.html",
-              "site": "finance",
-              "region": "US",
-              "lang": "en-US"
-            },
-            "metadata": {
-              "editorsPick": false
-            },
-            "finance": {
-              "premiumFinance": {
-                "isPremiumNews": false,
-                "isPremiumFreeNews": false
-              }
-            },
-            "storyline": null
-          }
-        }
-      ]
-    },
-    "recommendations": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
-    }
-  },
-  "holders_data": {
-    "major_holders": {
-      "status": "error"
-    },
-    "institutional_holders": {
-      "status": "error"
-    }
-  },
-  "earnings_data": {
-    "earnings": {
-      "status": "error",
-      "message": "'NoneType' object has no attribute 'empty'"
-    },
-    "calendar": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
-    }
-  }
-}
+          

@@ -1,9 +1,9 @@
 {
   "ticker": "ISMCF",
-  "timestamp": "2026-01-27T05:20:42.568797",
+  "timestamp": "2026-01-28T05:12:48.988873",
   "intraday_data": {
     "status": "success",
-    "rows": 1,
+    "rows": 2,
     "data": [
       {
         "Close": 715.9368896484375,
@@ -11,6 +11,13 @@
         "Low": 715.9368896484375,
         "Open": 717.5847778320312,
         "Volume": 904
+      },
+      {
+        "Close": 718.5386962890625,
+        "High": 720.305419921875,
+        "Low": 718.5386962890625,
+        "Open": 720.305419921875,
+        "Volume": 565
       }
     ]
   },
@@ -35,7 +42,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

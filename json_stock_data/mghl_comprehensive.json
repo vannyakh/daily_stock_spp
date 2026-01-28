@@ -1,9 +1,46 @@
 {
   "ticker": "MGHL",
-  "timestamp": "2026-01-27T05:18:03.047416",
+  "timestamp": "2026-01-28T05:11:15.932195",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 5,
+    "data": [
+      {
+        "Close AXIM": 0.01600000075995922,
+        "High AXIM": 0.01600000075995922,
+        "Low AXIM": 0.01600000075995922,
+        "Open AXIM": 0.01600000075995922,
+        "Volume AXIM": 0
+      },
+      {
+        "Close AXIM": 0.013700000010430813,
+        "High AXIM": 0.013700000010430813,
+        "Low AXIM": 0.013700000010430813,
+        "Open AXIM": 0.013700000010430813,
+        "Volume AXIM": 1000
+      },
+      {
+        "Close AXIM": 0.014999999664723873,
+        "High AXIM": 0.014999999664723873,
+        "Low AXIM": 0.014999999664723873,
+        "Open AXIM": 0.014999999664723873,
+        "Volume AXIM": 100000
+      },
+      {
+        "Close AXIM": 0.01590000092983246,
+        "High AXIM": 0.01590000092983246,
+        "Low AXIM": 0.01590000092983246,
+        "Open AXIM": 0.01590000092983246,
+        "Volume AXIM": 80316
+      },
+      {
+        "Close AXIM": 0.014000000432133675,
+        "High AXIM": 0.014000000432133675,
+        "Low AXIM": 0.014000000432133675,
+        "Open AXIM": 0.014000000432133675,
+        "Volume AXIM": 0
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -26,7 +63,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

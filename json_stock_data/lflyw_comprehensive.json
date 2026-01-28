@@ -1,18 +1,9 @@
 {
   "ticker": "LFLYW",
-  "timestamp": "2026-01-27T05:26:13.228165",
+  "timestamp": "2026-01-28T05:15:37.007820",
   "intraday_data": {
-    "status": "success",
-    "rows": 1,
-    "data": [
-      {
-        "Close BETRW": 0.20000000298023224,
-        "High BETRW": 0.20000000298023224,
-        "Low BETRW": 0.20000000298023224,
-        "Open BETRW": 0.20000000298023224,
-        "Volume BETRW": 0
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -35,10 +26,12 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   },
   "holders_data": {

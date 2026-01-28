@@ -1,9 +1,32 @@
 {
   "ticker": "TGCB",
-  "timestamp": "2026-01-27T05:17:32.918632",
+  "timestamp": "2026-01-28T05:10:59.059052",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 3,
+    "data": [
+      {
+        "Close": 0.06109999865293503,
+        "High": 0.06109999865293503,
+        "Low": 0.06109999865293503,
+        "Open": 0.06109999865293503,
+        "Volume": 0
+      },
+      {
+        "Close": 0.08649999648332596,
+        "High": 0.08649999648332596,
+        "Low": 0.05810000002384186,
+        "Open": 0.06549999862909317,
+        "Volume": 90100
+      },
+      {
+        "Close": 0.08630000054836273,
+        "High": 0.08630000054836273,
+        "Low": 0.08630000054836273,
+        "Open": 0.08630000054836273,
+        "Volume": 0
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -26,7 +49,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

@@ -1,10 +1,18 @@
 {
   "ticker": "UEPEN",
-  "timestamp": "2026-01-27T05:15:42.902720",
+  "timestamp": "2026-01-28T05:09:50.912410",
   "intraday_data": {
     "status": "success",
-    "rows": 0,
-    "data": []
+    "rows": 1,
+    "data": [
+      {
+        "Close": 61.0,
+        "High": 61.0,
+        "Low": 61.0,
+        "Open": 61.0,
+        "Volume": 50
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -27,7 +35,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

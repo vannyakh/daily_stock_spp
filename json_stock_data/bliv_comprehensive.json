@@ -1,39 +1,9 @@
 {
   "ticker": "BLIV",
-  "timestamp": "2026-01-27T05:13:19.836878",
+  "timestamp": "2026-01-28T05:08:25.984653",
   "intraday_data": {
-    "status": "success",
-    "rows": 4,
-    "data": [
-      {
-        "Close": 2.819999933242798,
-        "High": 2.819999933242798,
-        "Low": 2.819999933242798,
-        "Open": 2.819999933242798,
-        "Volume": 0
-      },
-      {
-        "Close": 3.0999999046325684,
-        "High": 3.0999999046325684,
-        "Low": 3.0999999046325684,
-        "Open": 3.0999999046325684,
-        "Volume": 107
-      },
-      {
-        "Close": 2.950000047683716,
-        "High": 2.950000047683716,
-        "Low": 2.950000047683716,
-        "Open": 2.950000047683716,
-        "Volume": 167
-      },
-      {
-        "Close": 3.0999999046325684,
-        "High": 3.0999999046325684,
-        "Low": 3.0999999046325684,
-        "Open": 3.0999999046325684,
-        "Volume": 165
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -56,71 +26,8 @@
   },
   "news_data": {
     "news": {
-      "status": "success",
-      "count": 1,
-      "data": [
-        {
-          "id": "5699f7cf-d846-32be-a7e1-bb96fec07cde",
-          "content": {
-            "id": "5699f7cf-d846-32be-a7e1-bb96fec07cde",
-            "contentType": "STORY",
-            "title": "Companies Like BeLive Holdings (NASDAQ:BLIV) Are In A Position To Invest In Growth",
-            "description": "",
-            "summary": "Just because a business does not make any money, does not mean that the stock will go down. For example, although...",
-            "pubDate": "2025-10-04T14:26:44Z",
-            "displayTime": "2025-10-04T14:26:44Z",
-            "isHosted": true,
-            "bypassModal": false,
-            "previewUrl": null,
-            "thumbnail": {
-              "originalUrl": "https://media.zenfs.com/en/simply_wall_st__316/41bdd0c670f621394929d5266c5d6c72",
-              "originalWidth": 1194,
-              "originalHeight": 432,
-              "caption": "",
-              "resolutions": [
-                {
-                  "url": "https://s.yimg.com/uu/api/res/1.2/3wFOxca.gMo3EgB9BjBM9g--~B/aD00MzI7dz0xMTk0O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/simply_wall_st__316/41bdd0c670f621394929d5266c5d6c72",
-                  "width": 1194,
-                  "height": 432,
-                  "tag": "original"
-                },
-                {
-                  "url": "https://s.yimg.com/uu/api/res/1.2/vD4pRO4kEaxH8LXMGMHNtw--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/simply_wall_st__316/41bdd0c670f621394929d5266c5d6c72",
-                  "width": 170,
-                  "height": 128,
-                  "tag": "170x128"
-                }
-              ]
-            },
-            "provider": {
-              "displayName": "Simply Wall St.",
-              "url": "https://simplywall.st/"
-            },
-            "canonicalUrl": {
-              "url": "https://finance.yahoo.com/news/companies-belive-holdings-nasdaq-bliv-142644099.html",
-              "site": "finance",
-              "region": "US",
-              "lang": "en-US"
-            },
-            "clickThroughUrl": {
-              "url": "https://finance.yahoo.com/news/companies-belive-holdings-nasdaq-bliv-142644099.html",
-              "site": "finance",
-              "region": "US",
-              "lang": "en-US"
-            },
-            "metadata": {
-              "editorsPick": false
-            },
-            "finance": {
-              "premiumFinance": {
-                "isPremiumNews": false,
-                "isPremiumFreeNews": false
-              }
-            },
-            "storyline": null
-          }
-        }
-      ]
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

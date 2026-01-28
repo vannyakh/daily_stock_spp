@@ -1,9 +1,25 @@
 {
   "ticker": "FKST",
-  "timestamp": "2026-01-27T05:18:04.557017",
+  "timestamp": "2026-01-28T05:11:17.404410",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 2,
+    "data": [
+      {
+        "Close GMBL": 0.23000000417232513,
+        "High GMBL": 0.23000000417232513,
+        "Low GMBL": 0.23000000417232513,
+        "Open GMBL": 0.23000000417232513,
+        "Volume GMBL": 1
+      },
+      {
+        "Close GMBL": 0.20999999344348907,
+        "High GMBL": 0.20999999344348907,
+        "Low GMBL": 0.20999999344348907,
+        "Open GMBL": 0.20999999344348907,
+        "Volume GMBL": 0
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -26,7 +42,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

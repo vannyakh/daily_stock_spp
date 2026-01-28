@@ -1,9 +1,9 @@
 {
   "ticker": "UK",
-  "timestamp": "2026-01-27T05:12:14.394678",
+  "timestamp": "2026-01-28T05:07:30.722489",
   "intraday_data": {
     "status": "success",
-    "rows": 8,
+    "rows": 14,
     "data": [
       {
         "Close": 0.718999981880188,
@@ -60,6 +60,48 @@
         "Low": 0.6973999738693237,
         "Open": 0.6973999738693237,
         "Volume": 300
+      },
+      {
+        "Close": 0.6974999904632568,
+        "High": 0.6974999904632568,
+        "Low": 0.6974999904632568,
+        "Open": 0.6974999904632568,
+        "Volume": 1810
+      },
+      {
+        "Close": 0.699400007724762,
+        "High": 0.699400007724762,
+        "Low": 0.6974999904632568,
+        "Open": 0.6974999904632568,
+        "Volume": 165
+      },
+      {
+        "Close": 0.6969000101089478,
+        "High": 0.6969000101089478,
+        "Low": 0.6969000101089478,
+        "Open": 0.6969000101089478,
+        "Volume": 4923
+      },
+      {
+        "Close": 0.6782000064849854,
+        "High": 0.6782000064849854,
+        "Low": 0.6782000064849854,
+        "Open": 0.6782000064849854,
+        "Volume": 207
+      },
+      {
+        "Close": 0.6782000064849854,
+        "High": 0.6782000064849854,
+        "Low": 0.6782000064849854,
+        "Open": 0.6782000064849854,
+        "Volume": 194
+      },
+      {
+        "Close": 0.699400007724762,
+        "High": 0.699400007724762,
+        "Low": 0.699400007724762,
+        "Open": 0.699400007724762,
+        "Volume": 209
       }
     ]
   },
@@ -84,7 +126,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",
@@ -93,10 +136,10 @@
   },
   "holders_data": {
     "major_holders": {
-      "status": "error"
+      "status": "no_data"
     },
     "institutional_holders": {
-      "status": "error"
+      "status": "no_data"
     }
   },
   "earnings_data": {

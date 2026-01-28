@@ -1,36 +1,13 @@
 {
   "ticker": "DDCIU",
-  "timestamp": "2026-01-27T05:14:09.819919",
+  "timestamp": "2026-01-28T05:08:53.394308",
   "intraday_data": {
-    "status": "success",
-    "rows": 3,
-    "data": [
-      {
-        "Close EIIA": 25.217599868774414,
-        "High EIIA": 25.217599868774414,
-        "Low EIIA": 25.217599868774414,
-        "Open EIIA": 25.217599868774414,
-        "Volume EIIA": 0
-      },
-      {
-        "Close EIIA": 25.219999313354492,
-        "High EIIA": 25.219999313354492,
-        "Low EIIA": 25.219999313354492,
-        "Open EIIA": 25.219999313354492,
-        "Volume EIIA": 100
-      },
-      {
-        "Close EIIA": 25.220500946044922,
-        "High EIIA": 25.220500946044922,
-        "Low EIIA": 25.220500946044922,
-        "Open EIIA": 25.220500946044922,
-        "Volume EIIA": 504
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
-    "message": "argument of type 'NoneType' is not iterable"
+    "message": "Too Many Requests. Rate limited. Try after a while."
   },
   "financials": {
     "income_statement": {
@@ -49,7 +26,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

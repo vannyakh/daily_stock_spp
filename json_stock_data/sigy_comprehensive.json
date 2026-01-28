@@ -1,89 +1,55 @@
 {
   "ticker": "SIGY",
-  "timestamp": "2026-01-27T05:10:46.628947",
+  "timestamp": "2026-01-28T05:06:39.195233",
   "intraday_data": {
-    "status": "success",
-    "rows": 9,
-    "data": [
-      {
-        "Close AMBO": 2.809999942779541,
-        "High AMBO": 2.809999942779541,
-        "Low AMBO": 2.809999942779541,
-        "Open AMBO": 2.809999942779541,
-        "Volume AMBO": 298
-      },
-      {
-        "Close AMBO": 2.925100088119507,
-        "High AMBO": 2.925100088119507,
-        "Low AMBO": 2.9000000953674316,
-        "Open AMBO": 2.9000000953674316,
-        "Volume AMBO": 2039
-      },
-      {
-        "Close AMBO": 2.859999895095825,
-        "High AMBO": 2.859999895095825,
-        "Low AMBO": 2.859999895095825,
-        "Open AMBO": 2.859999895095825,
-        "Volume AMBO": 1733
-      },
-      {
-        "Close AMBO": 2.930000066757202,
-        "High AMBO": 2.930000066757202,
-        "Low AMBO": 2.930000066757202,
-        "Open AMBO": 2.930000066757202,
-        "Volume AMBO": 360
-      },
-      {
-        "Close AMBO": 2.8201000690460205,
-        "High AMBO": 3.039900064468384,
-        "Low AMBO": 2.8201000690460205,
-        "Open AMBO": 2.8201000690460205,
-        "Volume AMBO": 5714
-      },
-      {
-        "Close AMBO": 2.809999942779541,
-        "High AMBO": 2.819999933242798,
-        "Low AMBO": 2.809999942779541,
-        "Open AMBO": 2.819999933242798,
-        "Volume AMBO": 3802
-      },
-      {
-        "Close AMBO": 3.0,
-        "High AMBO": 3.0,
-        "Low AMBO": 2.9800000190734863,
-        "Open AMBO": 3.0,
-        "Volume AMBO": 939
-      },
-      {
-        "Close AMBO": 2.819499969482422,
-        "High AMBO": 2.819499969482422,
-        "Low AMBO": 2.819499969482422,
-        "Open AMBO": 2.819499969482422,
-        "Volume AMBO": 245
-      },
-      {
-        "Close AMBO": 2.8399999141693115,
-        "High AMBO": 2.8399999141693115,
-        "Low AMBO": 2.8399999141693115,
-        "Open AMBO": 2.8399999141693115,
-        "Volume AMBO": 104
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
-    "message": "argument of type 'NoneType' is not iterable"
+    "message": "Too Many Requests. Rate limited. Try after a while."
   },
   "financials": {
     "income_statement": {
-      "status": "success",
-      "rows": 43,
-      "columns": [
-        "2024-12-31 00:00:00",
-        "2023-12-31 00:00:00",
-        "2022-12-31 00:00:00",
-        "2021-12-31 00:00:00"
-      ],
-      "data": [
-        {
-          
+      "status": "no_data"
+    },
+    "balance_sheet": {
+      "status": "no_data"
+    },
+    "cash_flow": {
+      "status": "no_data"
+    }
+  },
+  "options_data": {
+    "status": "error",
+    "error_message": "Too Many Requests. Rate limited. Try after a while."
+  },
+  "news_data": {
+    "news": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    },
+    "recommendations": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  },
+  "holders_data": {
+    "major_holders": {
+      "status": "error"
+    },
+    "institutional_holders": {
+      "status": "error"
+    }
+  },
+  "earnings_data": {
+    "earnings": {
+      "status": "error",
+      "message": "'NoneType' object has no attribute 'empty'"
+    },
+    "calendar": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  }
+}

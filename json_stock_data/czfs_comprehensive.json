@@ -1,9 +1,18 @@
 {
   "ticker": "CZFS",
-  "timestamp": "2026-01-27T05:00:33.437521",
+  "timestamp": "2026-01-28T04:58:02.548158",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 1,
+    "data": [
+      {
+        "Close ALDF": 10.520000457763672,
+        "High ALDF": 10.520000457763672,
+        "Low ALDF": 10.520000457763672,
+        "Open ALDF": 10.520000457763672,
+        "Volume ALDF": 0
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -642,7 +651,8 @@
       ]
     },
     "recommendations": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   },
   "holders_data": {

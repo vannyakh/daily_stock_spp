@@ -1,9 +1,9 @@
 {
   "ticker": "RAASY",
-  "timestamp": "2026-01-27T05:12:00.822224",
+  "timestamp": "2026-01-28T05:07:22.279154",
   "intraday_data": {
     "status": "success",
-    "rows": 3,
+    "rows": 5,
     "data": [
       {
         "Close": 1.899999976158142,
@@ -25,6 +25,20 @@
         "Low": 2.0,
         "Open": 2.0,
         "Volume": 363
+      },
+      {
+        "Close": 2.049999952316284,
+        "High": 2.049999952316284,
+        "Low": 2.049999952316284,
+        "Open": 2.049999952316284,
+        "Volume": 100
+      },
+      {
+        "Close": 2.049999952316284,
+        "High": 2.049999952316284,
+        "Low": 2.049999952316284,
+        "Open": 2.049999952316284,
+        "Volume": 3833
       }
     ]
   },
@@ -49,7 +63,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

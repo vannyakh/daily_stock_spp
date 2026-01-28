@@ -1,32 +1,9 @@
 {
   "ticker": "HSPT",
-  "timestamp": "2026-01-27T05:13:37.107137",
+  "timestamp": "2026-01-28T05:08:35.181022",
   "intraday_data": {
-    "status": "success",
-    "rows": 3,
-    "data": [
-      {
-        "Close": 10.609999656677246,
-        "High": 10.609999656677246,
-        "Low": 10.609999656677246,
-        "Open": 10.609999656677246,
-        "Volume": 0
-      },
-      {
-        "Close": 10.609999656677246,
-        "High": 10.609999656677246,
-        "Low": 10.609999656677246,
-        "Open": 10.609999656677246,
-        "Volume": 100
-      },
-      {
-        "Close": 10.570099830627441,
-        "High": 10.570099830627441,
-        "Low": 10.569999694824219,
-        "Open": 10.569999694824219,
-        "Volume": 632
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -49,7 +26,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

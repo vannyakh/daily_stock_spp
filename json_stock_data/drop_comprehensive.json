@@ -1,9 +1,25 @@
 {
   "ticker": "DROP",
-  "timestamp": "2026-01-27T05:17:56.009644",
+  "timestamp": "2026-01-28T05:11:13.045250",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 2,
+    "data": [
+      {
+        "Close": 0.002199999988079071,
+        "High": 0.002400000113993883,
+        "Low": 0.002199999988079071,
+        "Open": 0.002400000113993883,
+        "Volume": 40000
+      },
+      {
+        "Close": 0.002099999925121665,
+        "High": 0.002099999925121665,
+        "Low": 0.002099999925121665,
+        "Open": 0.002099999925121665,
+        "Volume": 500000
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -26,7 +42,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

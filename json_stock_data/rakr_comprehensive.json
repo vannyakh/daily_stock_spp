@@ -1,46 +1,9 @@
 {
   "ticker": "RAKR",
-  "timestamp": "2026-01-27T05:12:52.163672",
+  "timestamp": "2026-01-28T05:07:58.489916",
   "intraday_data": {
-    "status": "success",
-    "rows": 5,
-    "data": [
-      {
-        "Close": 0.05979999899864197,
-        "High": 0.05979999899864197,
-        "Low": 0.05979999899864197,
-        "Open": 0.05979999899864197,
-        "Volume": 0
-      },
-      {
-        "Close": 0.05979999899864197,
-        "High": 0.05979999899864197,
-        "Low": 0.05979999899864197,
-        "Open": 0.05979999899864197,
-        "Volume": 20
-      },
-      {
-        "Close": 0.05979999899864197,
-        "High": 0.05979999899864197,
-        "Low": 0.05979999899864197,
-        "Open": 0.05979999899864197,
-        "Volume": 50
-      },
-      {
-        "Close": 0.05979999899864197,
-        "High": 0.05979999899864197,
-        "Low": 0.05979999899864197,
-        "Open": 0.05979999899864197,
-        "Volume": 40
-      },
-      {
-        "Close": 0.05009999871253967,
-        "High": 0.05009999871253967,
-        "Low": 0.05009999871253967,
-        "Open": 0.05009999871253967,
-        "Volume": 20000
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -63,7 +26,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

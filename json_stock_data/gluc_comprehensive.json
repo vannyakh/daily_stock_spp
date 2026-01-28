@@ -1,53 +1,9 @@
 {
   "ticker": "GLUC",
-  "timestamp": "2026-01-27T05:17:39.023543",
+  "timestamp": "2026-01-28T05:11:02.801616",
   "intraday_data": {
-    "status": "success",
-    "rows": 6,
-    "data": [
-      {
-        "Close MVCO": 0.0012000000569969416,
-        "High MVCO": 0.0012000000569969416,
-        "Low MVCO": 0.0012000000569969416,
-        "Open MVCO": 0.0012000000569969416,
-        "Volume MVCO": 0
-      },
-      {
-        "Close MVCO": 0.0012000000569969416,
-        "High MVCO": 0.0012000000569969416,
-        "Low MVCO": 0.0012000000569969416,
-        "Open MVCO": 0.0012000000569969416,
-        "Volume MVCO": 112000
-      },
-      {
-        "Close MVCO": 0.0012000000569969416,
-        "High MVCO": 0.0012000000569969416,
-        "Low MVCO": 0.0012000000569969416,
-        "Open MVCO": 0.0012000000569969416,
-        "Volume MVCO": 911
-      },
-      {
-        "Close MVCO": 0.0012000000569969416,
-        "High MVCO": 0.0012000000569969416,
-        "Low MVCO": 0.0012000000569969416,
-        "Open MVCO": 0.0012000000569969416,
-        "Volume MVCO": 520000
-      },
-      {
-        "Close MVCO": 0.0012000000569969416,
-        "High MVCO": 0.0012000000569969416,
-        "Low MVCO": 0.0012000000569969416,
-        "Open MVCO": 0.0012000000569969416,
-        "Volume MVCO": 475000
-      },
-      {
-        "Close MVCO": 0.0012000000569969416,
-        "High MVCO": 0.0012000000569969416,
-        "Low MVCO": 0.0012000000569969416,
-        "Open MVCO": 0.0012000000569969416,
-        "Volume MVCO": 911
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -70,10 +26,12 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   },
   "holders_data": {

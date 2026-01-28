@@ -1,15 +1,22 @@
 {
   "ticker": "STTDF",
-  "timestamp": "2026-01-27T05:11:36.127290",
+  "timestamp": "2026-01-28T05:07:08.099672",
   "intraday_data": {
     "status": "success",
-    "rows": 1,
+    "rows": 2,
     "data": [
       {
         "Close": 0.07000000029802322,
         "High": 0.07349999994039536,
         "Low": 0.07000000029802322,
         "Open": 0.07349999994039536,
+        "Volume": 0
+      },
+      {
+        "Close": 0.0729999989271164,
+        "High": 0.0729999989271164,
+        "Low": 0.0729999989271164,
+        "Open": 0.0729999989271164,
         "Volume": 0
       }
     ]
@@ -35,52 +42,8 @@
   },
   "news_data": {
     "news": {
-      "status": "success",
-      "count": 1,
-      "data": [
-        {
-          "id": "111121de-8d36-3a86-b0ab-c922f7b64cd5",
-          "content": {
-            "id": "111121de-8d36-3a86-b0ab-c922f7b64cd5",
-            "contentType": "STORY",
-            "title": "Aventis Energy Confirms Strong Radioactivity at Corvo Uranium Project",
-            "description": "",
-            "summary": "Aventis Energy (AVE.CN) Monday confirmed strong radioactivity during the 2025 exploration program at",
-            "pubDate": "2025-09-22T14:13:14Z",
-            "displayTime": "2025-09-22T14:13:14Z",
-            "isHosted": true,
-            "bypassModal": false,
-            "previewUrl": null,
-            "thumbnail": null,
-            "provider": {
-              "displayName": "MT Newswires",
-              "url": "https://www.mtnewswires.com/"
-            },
-            "canonicalUrl": {
-              "url": "https://finance.yahoo.com/news/aventis-energy-confirms-strong-radioactivity-141314060.html",
-              "site": "finance",
-              "region": "US",
-              "lang": "en-US"
-            },
-            "clickThroughUrl": {
-              "url": "https://finance.yahoo.com/news/aventis-energy-confirms-strong-radioactivity-141314060.html",
-              "site": "finance",
-              "region": "US",
-              "lang": "en-US"
-            },
-            "metadata": {
-              "editorsPick": false
-            },
-            "finance": {
-              "premiumFinance": {
-                "isPremiumNews": true,
-                "isPremiumFreeNews": false
-              }
-            },
-            "storyline": null
-          }
-        }
-      ]
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

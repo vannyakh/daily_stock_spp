@@ -1,9 +1,9 @@
 {
   "ticker": "DUKH",
-  "timestamp": "2026-01-27T05:15:11.372912",
+  "timestamp": "2026-01-28T05:09:30.926565",
   "intraday_data": {
     "status": "success",
-    "rows": 3,
+    "rows": 5,
     "data": [
       {
         "Close": 24.6200008392334,
@@ -25,6 +25,20 @@
         "Low": 24.629899978637695,
         "Open": 24.6299991607666,
         "Volume": 1044
+      },
+      {
+        "Close": 24.604999542236328,
+        "High": 24.604999542236328,
+        "Low": 24.604999542236328,
+        "Open": 24.604999542236328,
+        "Volume": 577
+      },
+      {
+        "Close": 24.607500076293945,
+        "High": 24.607500076293945,
+        "Low": 24.607500076293945,
+        "Open": 24.607500076293945,
+        "Volume": 0
       }
     ]
   },
@@ -49,7 +63,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

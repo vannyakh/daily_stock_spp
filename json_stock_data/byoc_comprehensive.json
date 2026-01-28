@@ -1,74 +1,9 @@
 {
   "ticker": "BYOC",
-  "timestamp": "2026-01-27T05:17:50.895213",
+  "timestamp": "2026-01-28T05:11:10.048344",
   "intraday_data": {
-    "status": "success",
-    "rows": 9,
-    "data": [
-      {
-        "Close PWDY": 0.003700000001117587,
-        "High PWDY": 0.003700000001117587,
-        "Low PWDY": 0.003700000001117587,
-        "Open PWDY": 0.003700000001117587,
-        "Volume PWDY": 0
-      },
-      {
-        "Close PWDY": 0.0038999998942017555,
-        "High PWDY": 0.0038999998942017555,
-        "Low PWDY": 0.0038999998942017555,
-        "Open PWDY": 0.0038999998942017555,
-        "Volume PWDY": 3000
-      },
-      {
-        "Close PWDY": 0.003700000001117587,
-        "High PWDY": 0.003700000001117587,
-        "Low PWDY": 0.003700000001117587,
-        "Open PWDY": 0.003700000001117587,
-        "Volume PWDY": 187550
-      },
-      {
-        "Close PWDY": 0.003700000001117587,
-        "High PWDY": 0.003700000001117587,
-        "Low PWDY": 0.003700000001117587,
-        "Open PWDY": 0.003700000001117587,
-        "Volume PWDY": 12000
-      },
-      {
-        "Close PWDY": 0.003800000064074993,
-        "High PWDY": 0.003800000064074993,
-        "Low PWDY": 0.003800000064074993,
-        "Open PWDY": 0.003800000064074993,
-        "Volume PWDY": 58900
-      },
-      {
-        "Close PWDY": 0.004000000189989805,
-        "High PWDY": 0.004000000189989805,
-        "Low PWDY": 0.004000000189989805,
-        "Open PWDY": 0.004000000189989805,
-        "Volume PWDY": 100
-      },
-      {
-        "Close PWDY": 0.0035000001080334187,
-        "High PWDY": 0.0035000001080334187,
-        "Low PWDY": 0.0035000001080334187,
-        "Open PWDY": 0.0035000001080334187,
-        "Volume PWDY": 40000
-      },
-      {
-        "Close PWDY": 0.004000000189989805,
-        "High PWDY": 0.004000000189989805,
-        "Low PWDY": 0.004000000189989805,
-        "Open PWDY": 0.004000000189989805,
-        "Volume PWDY": 100
-      },
-      {
-        "Close PWDY": 0.004000000189989805,
-        "High PWDY": 0.004000000189989805,
-        "Low PWDY": 0.004000000189989805,
-        "Open PWDY": 0.004000000189989805,
-        "Volume PWDY": 100
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -91,7 +26,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

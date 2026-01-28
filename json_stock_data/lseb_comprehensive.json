@@ -1,9 +1,25 @@
 {
   "ticker": "LSEB",
-  "timestamp": "2026-01-27T05:19:37.498408",
+  "timestamp": "2026-01-28T05:12:13.635669",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 2,
+    "data": [
+      {
+        "Close CDTTW": 0.006899999920278788,
+        "High CDTTW": 0.007000000216066837,
+        "Low CDTTW": 0.006899999920278788,
+        "Open CDTTW": 0.007000000216066837,
+        "Volume CDTTW": 0
+      },
+      {
+        "Close CDTTW": 0.007000000216066837,
+        "High CDTTW": 0.007000000216066837,
+        "Low CDTTW": 0.006899999920278788,
+        "Open CDTTW": 0.007000000216066837,
+        "Volume CDTTW": 2676
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -26,7 +42,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

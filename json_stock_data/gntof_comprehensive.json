@@ -1,9 +1,46 @@
 {
   "ticker": "GNTOF",
-  "timestamp": "2026-01-27T05:12:24.046560",
+  "timestamp": "2026-01-28T05:07:37.500656",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 5,
+    "data": [
+      {
+        "Close LQWC": 0.01769999973475933,
+        "High LQWC": 0.01769999973475933,
+        "Low LQWC": 0.01769999973475933,
+        "Open LQWC": 0.01769999973475933,
+        "Volume LQWC": 0
+      },
+      {
+        "Close LQWC": 0.01769999973475933,
+        "High LQWC": 0.01769999973475933,
+        "Low LQWC": 0.01769999973475933,
+        "Open LQWC": 0.01769999973475933,
+        "Volume LQWC": 10000
+      },
+      {
+        "Close LQWC": 0.019999999552965164,
+        "High LQWC": 0.019999999552965164,
+        "Low LQWC": 0.019999999552965164,
+        "Open LQWC": 0.019999999552965164,
+        "Volume LQWC": 20000
+      },
+      {
+        "Close LQWC": 0.017799999564886093,
+        "High LQWC": 0.017799999564886093,
+        "Low LQWC": 0.017799999564886093,
+        "Open LQWC": 0.017799999564886093,
+        "Volume LQWC": 30000
+      },
+      {
+        "Close LQWC": 0.01769999973475933,
+        "High LQWC": 0.01769999973475933,
+        "Low LQWC": 0.01769999973475933,
+        "Open LQWC": 0.01769999973475933,
+        "Volume LQWC": 0
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -26,10 +63,12 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   },
   "holders_data": {

@@ -1,74 +1,9 @@
 {
   "ticker": "QIND",
-  "timestamp": "2026-01-27T05:10:46.159986",
+  "timestamp": "2026-01-28T05:06:39.562408",
   "intraday_data": {
-    "status": "success",
-    "rows": 9,
-    "data": [
-      {
-        "Close AMBO": 2.809999942779541,
-        "High AMBO": 2.809999942779541,
-        "Low AMBO": 2.809999942779541,
-        "Open AMBO": 2.809999942779541,
-        "Volume AMBO": 298
-      },
-      {
-        "Close AMBO": 2.925100088119507,
-        "High AMBO": 2.925100088119507,
-        "Low AMBO": 2.9000000953674316,
-        "Open AMBO": 2.9000000953674316,
-        "Volume AMBO": 2039
-      },
-      {
-        "Close AMBO": 2.859999895095825,
-        "High AMBO": 2.859999895095825,
-        "Low AMBO": 2.859999895095825,
-        "Open AMBO": 2.859999895095825,
-        "Volume AMBO": 1733
-      },
-      {
-        "Close AMBO": 2.930000066757202,
-        "High AMBO": 2.930000066757202,
-        "Low AMBO": 2.930000066757202,
-        "Open AMBO": 2.930000066757202,
-        "Volume AMBO": 360
-      },
-      {
-        "Close AMBO": 2.8201000690460205,
-        "High AMBO": 3.039900064468384,
-        "Low AMBO": 2.8201000690460205,
-        "Open AMBO": 2.8201000690460205,
-        "Volume AMBO": 5714
-      },
-      {
-        "Close AMBO": 2.809999942779541,
-        "High AMBO": 2.819999933242798,
-        "Low AMBO": 2.809999942779541,
-        "Open AMBO": 2.819999933242798,
-        "Volume AMBO": 3802
-      },
-      {
-        "Close AMBO": 3.0,
-        "High AMBO": 3.0,
-        "Low AMBO": 2.9800000190734863,
-        "Open AMBO": 3.0,
-        "Volume AMBO": 939
-      },
-      {
-        "Close AMBO": 2.819499969482422,
-        "High AMBO": 2.819499969482422,
-        "Low AMBO": 2.819499969482422,
-        "Open AMBO": 2.819499969482422,
-        "Volume AMBO": 245
-      },
-      {
-        "Close AMBO": 2.8399999141693115,
-        "High AMBO": 2.8399999141693115,
-        "Low AMBO": 2.8399999141693115,
-        "Open AMBO": 2.8399999141693115,
-        "Volume AMBO": 104
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -91,71 +26,8 @@
   },
   "news_data": {
     "news": {
-      "status": "success",
-      "count": 1,
-      "data": [
-        {
-          "id": "13c274ed-1028-33cf-98a4-9dd0919fda61",
-          "content": {
-            "id": "13c274ed-1028-33cf-98a4-9dd0919fda61",
-            "contentType": "STORY",
-            "title": "Fusion Fuel Posts \u20ac6.9M H1 Revenue and Eyes Hydrogen Expansion",
-            "description": "",
-            "summary": "Fusion Fuel Green reported \u20ac6.9 million in first-half 2025 revenue, driven by LPG operations, while narrowing losses and advancing hydrogen and biomass ventures.",
-            "pubDate": "2025-09-18T08:00:00Z",
-            "displayTime": "2025-09-18T08:00:00Z",
-            "isHosted": true,
-            "bypassModal": false,
-            "previewUrl": null,
-            "thumbnail": {
-              "originalUrl": "https://media.zenfs.com/en/oilprice.com/610418414055d1cccaaef16b011f98dc",
-              "originalWidth": 718,
-              "originalHeight": 300,
-              "caption": "",
-              "resolutions": [
-                {
-                  "url": "https://s.yimg.com/uu/api/res/1.2/iQNUBS7tAYbKXfwDuBI.JA--~B/aD0zMDA7dz03MTg7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/oilprice.com/610418414055d1cccaaef16b011f98dc",
-                  "width": 718,
-                  "height": 300,
-                  "tag": "original"
-                },
-                {
-                  "url": "https://s.yimg.com/uu/api/res/1.2/pnN_nxZtdF6xKLauAjm7kA--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/oilprice.com/610418414055d1cccaaef16b011f98dc",
-                  "width": 170,
-                  "height": 128,
-                  "tag": "170x128"
-                }
-              ]
-            },
-            "provider": {
-              "displayName": "Oilprice.com",
-              "url": "http://oilprice.com"
-            },
-            "canonicalUrl": {
-              "url": "https://finance.yahoo.com/news/fusion-fuel-posts-6-9m-080000778.html",
-              "site": "finance",
-              "region": "US",
-              "lang": "en-US"
-            },
-            "clickThroughUrl": {
-              "url": "https://finance.yahoo.com/news/fusion-fuel-posts-6-9m-080000778.html",
-              "site": "finance",
-              "region": "US",
-              "lang": "en-US"
-            },
-            "metadata": {
-              "editorsPick": false
-            },
-            "finance": {
-              "premiumFinance": {
-                "isPremiumNews": false,
-                "isPremiumFreeNews": false
-              }
-            },
-            "storyline": null
-          }
-        }
-      ]
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

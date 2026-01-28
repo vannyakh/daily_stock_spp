@@ -1,18 +1,9 @@
 {
   "ticker": "OPXS",
-  "timestamp": "2026-01-27T05:06:09.839789",
+  "timestamp": "2026-01-28T05:03:09.216510",
   "intraday_data": {
-    "status": "success",
-    "rows": 1,
-    "data": [
-      {
-        "Close HRGN": 1.8200000524520874,
-        "High HRGN": 1.8200000524520874,
-        "Low HRGN": 1.8200000524520874,
-        "Open HRGN": 1.8200000524520874,
-        "Volume HRGN": 0
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -651,7 +642,8 @@
       ]
     },
     "recommendations": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   },
   "holders_data": {

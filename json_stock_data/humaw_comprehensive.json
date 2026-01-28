@@ -1,23 +1,16 @@
 {
   "ticker": "HUMAW",
-  "timestamp": "2026-01-27T05:21:13.675435",
+  "timestamp": "2026-01-28T05:13:02.983585",
   "intraday_data": {
     "status": "success",
-    "rows": 2,
+    "rows": 1,
     "data": [
       {
-        "Close": 0.13750000298023224,
-        "High": 0.13750000298023224,
-        "Low": 0.13750000298023224,
-        "Open": 0.13750000298023224,
-        "Volume": 0
-      },
-      {
-        "Close": 0.11699999868869781,
-        "High": 0.11999999731779099,
-        "Low": 0.11129999905824661,
-        "Open": 0.11999999731779099,
-        "Volume": 6200
+        "Close HLLY-WT": 0.1525000035762787,
+        "High HLLY-WT": 0.1526000052690506,
+        "Low HLLY-WT": 0.1525000035762787,
+        "Open HLLY-WT": 0.1526000052690506,
+        "Volume HLLY-WT": 0
       }
     ]
   },
@@ -27,14 +20,45 @@
   },
   "financials": {
     "income_statement": {
-      "status": "success",
-      "rows": 40,
-      "columns": [
-        "2024-12-31 00:00:00",
-        "2023-12-31 00:00:00",
-        "2022-12-31 00:00:00",
-        "2021-12-31 00:00:00"
-      ],
-      "data": [
-        {
-          
+      "status": "no_data"
+    },
+    "balance_sheet": {
+      "status": "no_data"
+    },
+    "cash_flow": {
+      "status": "no_data"
+    }
+  },
+  "options_data": {
+    "status": "error",
+    "error_message": "Too Many Requests. Rate limited. Try after a while."
+  },
+  "news_data": {
+    "news": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    },
+    "recommendations": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  },
+  "holders_data": {
+    "major_holders": {
+      "status": "error"
+    },
+    "institutional_holders": {
+      "status": "error"
+    }
+  },
+  "earnings_data": {
+    "earnings": {
+      "status": "error",
+      "message": "'NoneType' object has no attribute 'empty'"
+    },
+    "calendar": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  }
+}

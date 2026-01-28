@@ -1,16 +1,23 @@
 {
   "ticker": "DXFFY",
-  "timestamp": "2026-01-27T05:12:53.867210",
+  "timestamp": "2026-01-28T05:08:05.434567",
   "intraday_data": {
     "status": "success",
-    "rows": 1,
+    "rows": 2,
     "data": [
       {
         "Close": 1.3300000429153442,
         "High": 1.4900000095367432,
         "Low": 1.2799999713897705,
         "Open": 1.440000057220459,
-        "Volume": 50176
+        "Volume": 50276
+      },
+      {
+        "Close": 1.2999999523162842,
+        "High": 1.3300000429153442,
+        "Low": 1.2200000286102295,
+        "Open": 1.2400000095367432,
+        "Volume": 167314
       }
     ]
   },
@@ -35,7 +42,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

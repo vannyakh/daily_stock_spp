@@ -1,50 +1,13 @@
 {
   "ticker": "INND",
-  "timestamp": "2026-01-27T05:12:57.576358",
+  "timestamp": "2026-01-28T05:08:08.712221",
   "intraday_data": {
-    "status": "success",
-    "rows": 5,
-    "data": [
-      {
-        "Close": 0.0008999999845400453,
-        "High": 0.0008999999845400453,
-        "Low": 0.0008999999845400453,
-        "Open": 0.0008999999845400453,
-        "Volume": 0
-      },
-      {
-        "Close": 0.0010999999940395355,
-        "High": 0.0010999999940395355,
-        "Low": 0.0010999999940395355,
-        "Open": 0.0010999999940395355,
-        "Volume": 10000
-      },
-      {
-        "Close": 0.0010000000474974513,
-        "High": 0.0010000000474974513,
-        "Low": 0.0010000000474974513,
-        "Open": 0.0010000000474974513,
-        "Volume": 12
-      },
-      {
-        "Close": 0.0012000000569969416,
-        "High": 0.0012000000569969416,
-        "Low": 0.0012000000569969416,
-        "Open": 0.0012000000569969416,
-        "Volume": 200000
-      },
-      {
-        "Close": 0.0010000000474974513,
-        "High": 0.0010000000474974513,
-        "Low": 0.0010000000474974513,
-        "Open": 0.0010000000474974513,
-        "Volume": 249988
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
-    "message": "argument of type 'NoneType' is not iterable"
+    "message": "Too Many Requests. Rate limited. Try after a while."
   },
   "financials": {
     "income_statement": {
@@ -63,7 +26,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

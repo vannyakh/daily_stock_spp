@@ -1,9 +1,53 @@
 {
   "ticker": "VMHG",
-  "timestamp": "2026-01-27T05:12:56.084529",
+  "timestamp": "2026-01-28T05:08:07.438203",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 6,
+    "data": [
+      {
+        "Close": 0.0010000000474974513,
+        "High": 0.0010000000474974513,
+        "Low": 0.0010000000474974513,
+        "Open": 0.0010000000474974513,
+        "Volume": 139645
+      },
+      {
+        "Close": 0.0010000000474974513,
+        "High": 0.0010000000474974513,
+        "Low": 0.0010000000474974513,
+        "Open": 0.0010000000474974513,
+        "Volume": 1000000
+      },
+      {
+        "Close": 0.0010000000474974513,
+        "High": 0.0010000000474974513,
+        "Low": 0.0010000000474974513,
+        "Open": 0.0010000000474974513,
+        "Volume": 696300
+      },
+      {
+        "Close": 0.0007999999797903001,
+        "High": 0.0007999999797903001,
+        "Low": 0.0007999999797903001,
+        "Open": 0.0007999999797903001,
+        "Volume": 97350
+      },
+      {
+        "Close": 0.0010000000474974513,
+        "High": 0.0010000000474974513,
+        "Low": 0.0010000000474974513,
+        "Open": 0.0010000000474974513,
+        "Volume": 348545
+      },
+      {
+        "Close": 0.0010000000474974513,
+        "High": 0.0010000000474974513,
+        "Low": 0.0010000000474974513,
+        "Open": 0.0010000000474974513,
+        "Volume": 0
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -26,18 +70,20 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   },
   "holders_data": {
     "major_holders": {
-      "status": "no_data"
+      "status": "error"
     },
     "institutional_holders": {
-      "status": "no_data"
+      "status": "error"
     }
   },
   "earnings_data": {

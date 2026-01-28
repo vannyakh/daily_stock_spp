@@ -1,9 +1,32 @@
 {
   "ticker": "NUGN",
-  "timestamp": "2026-01-27T05:11:37.496423",
+  "timestamp": "2026-01-28T05:07:08.954169",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 3,
+    "data": [
+      {
+        "Close FUNI": 0.03500000014901161,
+        "High FUNI": 0.03500000014901161,
+        "Low FUNI": 0.03500000014901161,
+        "Open FUNI": 0.03500000014901161,
+        "Volume FUNI": 0
+      },
+      {
+        "Close FUNI": 0.03400000184774399,
+        "High FUNI": 0.03400000184774399,
+        "Low FUNI": 0.03400000184774399,
+        "Open FUNI": 0.03400000184774399,
+        "Volume FUNI": 21729
+      },
+      {
+        "Close FUNI": 0.03700000047683716,
+        "High FUNI": 0.03700000047683716,
+        "Low FUNI": 0.03700000047683716,
+        "Open FUNI": 0.03700000047683716,
+        "Volume FUNI": 0
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -26,7 +49,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

@@ -1,25 +1,9 @@
 {
   "ticker": "ICDIQ",
-  "timestamp": "2026-01-27T05:24:01.623975",
+  "timestamp": "2026-01-28T05:14:28.925543",
   "intraday_data": {
-    "status": "success",
-    "rows": 2,
-    "data": [
-      {
-        "Close PW-PA": 8.899999618530273,
-        "High PW-PA": 8.899999618530273,
-        "Low PW-PA": 8.899999618530273,
-        "Open PW-PA": 8.899999618530273,
-        "Volume PW-PA": 0
-      },
-      {
-        "Close PW-PA": 8.890000343322754,
-        "High PW-PA": 8.890000343322754,
-        "Low PW-PA": 8.890000343322754,
-        "Open PW-PA": 8.890000343322754,
-        "Volume PW-PA": 284
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -42,7 +26,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

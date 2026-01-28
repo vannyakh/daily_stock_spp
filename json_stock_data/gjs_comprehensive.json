@@ -1,9 +1,25 @@
 {
   "ticker": "GJS",
-  "timestamp": "2026-01-27T05:13:14.207426",
+  "timestamp": "2026-01-28T05:08:23.056512",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 2,
+    "data": [
+      {
+        "Close GJT": 23.489999771118164,
+        "High GJT": 23.489999771118164,
+        "Low GJT": 23.395200729370117,
+        "Open GJT": 23.399999618530273,
+        "Volume GJT": 0
+      },
+      {
+        "Close GJT": 23.489999771118164,
+        "High GJT": 23.489999771118164,
+        "Low GJT": 23.489999771118164,
+        "Open GJT": 23.489999771118164,
+        "Volume GJT": 0
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -26,7 +42,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

@@ -1,9 +1,32 @@
 {
   "ticker": "RMXI",
-  "timestamp": "2026-01-27T05:18:52.479706",
+  "timestamp": "2026-01-28T05:11:48.393576",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 3,
+    "data": [
+      {
+        "Close": 1.5,
+        "High": 1.5,
+        "Low": 1.5,
+        "Open": 1.5,
+        "Volume": 3325
+      },
+      {
+        "Close": 1.649999976158142,
+        "High": 1.649999976158142,
+        "Low": 1.649999976158142,
+        "Open": 1.649999976158142,
+        "Volume": 100
+      },
+      {
+        "Close": 1.7899999618530273,
+        "High": 1.7899999618530273,
+        "Low": 1.7899999618530273,
+        "Open": 1.7899999618530273,
+        "Volume": 0
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -26,7 +49,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

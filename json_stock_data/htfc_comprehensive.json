@@ -1,9 +1,9 @@
 {
   "ticker": "HTFC",
-  "timestamp": "2026-01-27T05:26:09.802338",
+  "timestamp": "2026-01-28T05:15:35.341561",
   "intraday_data": {
     "status": "success",
-    "rows": 5,
+    "rows": 8,
     "data": [
       {
         "Close": 24.950000762939453,
@@ -39,6 +39,27 @@
         "Low": 24.959400177001953,
         "Open": 24.959999084472656,
         "Volume": 471
+      },
+      {
+        "Close": 24.94499969482422,
+        "High": 24.94499969482422,
+        "Low": 24.94499969482422,
+        "Open": 24.94499969482422,
+        "Volume": 0
+      },
+      {
+        "Close": 24.94300079345703,
+        "High": 24.979999542236328,
+        "Low": 24.94300079345703,
+        "Open": 24.979999542236328,
+        "Volume": 2124
+      },
+      {
+        "Close": 24.950000762939453,
+        "High": 24.950000762939453,
+        "Low": 24.950000762939453,
+        "Open": 24.950000762939453,
+        "Volume": 280
       }
     ]
   },
@@ -63,7 +84,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

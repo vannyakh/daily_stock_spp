@@ -1,25 +1,9 @@
 {
   "ticker": "BRQL",
-  "timestamp": "2026-01-27T05:22:03.788671",
+  "timestamp": "2026-01-28T05:13:32.190688",
   "intraday_data": {
-    "status": "success",
-    "rows": 2,
-    "data": [
-      {
-        "Close": 0.5699999928474426,
-        "High": 0.5699999928474426,
-        "Low": 0.5699999928474426,
-        "Open": 0.5699999928474426,
-        "Volume": 0
-      },
-      {
-        "Close": 0.6159999966621399,
-        "High": 0.6159999966621399,
-        "Low": 0.6159999966621399,
-        "Open": 0.6159999966621399,
-        "Volume": 135
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -42,7 +26,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

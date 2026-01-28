@@ -1,15 +1,29 @@
 {
   "ticker": "CRTD",
-  "timestamp": "2026-01-27T05:17:48.278204",
+  "timestamp": "2026-01-28T05:11:09.090309",
   "intraday_data": {
     "status": "success",
-    "rows": 1,
+    "rows": 3,
     "data": [
       {
         "Close": 0.5299999713897705,
         "High": 0.5299999713897705,
         "Low": 0.5299999713897705,
         "Open": 0.5299999713897705,
+        "Volume": 0
+      },
+      {
+        "Close": 0.5299999713897705,
+        "High": 0.5299999713897705,
+        "Low": 0.5299999713897705,
+        "Open": 0.5299999713897705,
+        "Volume": 700
+      },
+      {
+        "Close": 0.5101000070571899,
+        "High": 0.5101000070571899,
+        "Low": 0.5101000070571899,
+        "Open": 0.5101000070571899,
         "Volume": 0
       }
     ]
@@ -35,52 +49,8 @@
   },
   "news_data": {
     "news": {
-      "status": "success",
-      "count": 1,
-      "data": [
-        {
-          "id": "8f969250-0382-34ca-8dbd-e03cd6e30385",
-          "content": {
-            "id": "8f969250-0382-34ca-8dbd-e03cd6e30385",
-            "contentType": "STORY",
-            "title": "Creatd: Q3 Earnings Snapshot",
-            "description": "",
-            "summary": "NEW YORK (AP) \u2014 Creatd Inc. CRTD) on Friday reported a loss of $780,000 in its third quarter. The New York-based company said it had a loss of 13 cents per share.",
-            "pubDate": "2025-11-14T22:56:32Z",
-            "displayTime": "2025-11-14T22:56:32Z",
-            "isHosted": true,
-            "bypassModal": false,
-            "previewUrl": null,
-            "thumbnail": null,
-            "provider": {
-              "displayName": "Associated Press Finance",
-              "url": "http://www.ap.org/"
-            },
-            "canonicalUrl": {
-              "url": "https://finance.yahoo.com/news/creatd-q3-earnings-snapshot-225632535.html",
-              "site": "finance",
-              "region": "US",
-              "lang": "en-US"
-            },
-            "clickThroughUrl": {
-              "url": "https://finance.yahoo.com/news/creatd-q3-earnings-snapshot-225632535.html",
-              "site": "finance",
-              "region": "US",
-              "lang": "en-US"
-            },
-            "metadata": {
-              "editorsPick": false
-            },
-            "finance": {
-              "premiumFinance": {
-                "isPremiumNews": false,
-                "isPremiumFreeNews": false
-              }
-            },
-            "storyline": null
-          }
-        }
-      ]
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

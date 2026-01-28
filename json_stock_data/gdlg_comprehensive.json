@@ -1,25 +1,9 @@
 {
   "ticker": "GDLG",
-  "timestamp": "2026-01-27T05:21:45.183918",
+  "timestamp": "2026-01-28T05:13:19.146072",
   "intraday_data": {
-    "status": "success",
-    "rows": 2,
-    "data": [
-      {
-        "Close": 0.17000000178813934,
-        "High": 0.17000000178813934,
-        "Low": 0.17000000178813934,
-        "Open": 0.17000000178813934,
-        "Volume": 0
-      },
-      {
-        "Close": 0.17000000178813934,
-        "High": 0.17000000178813934,
-        "Low": 0.17000000178813934,
-        "Open": 0.17000000178813934,
-        "Volume": 15000
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -42,7 +26,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

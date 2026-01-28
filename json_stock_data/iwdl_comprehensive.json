@@ -1,9 +1,53 @@
 {
   "ticker": "IWDL",
-  "timestamp": "2026-01-27T05:23:33.283762",
+  "timestamp": "2026-01-28T05:14:14.652109",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 6,
+    "data": [
+      {
+        "Close": 51.869998931884766,
+        "High": 51.869998931884766,
+        "Low": 51.869998931884766,
+        "Open": 51.869998931884766,
+        "Volume": 0
+      },
+      {
+        "Close": 51.779998779296875,
+        "High": 51.779998779296875,
+        "Low": 51.779998779296875,
+        "Open": 51.779998779296875,
+        "Volume": 100
+      },
+      {
+        "Close": 51.7599983215332,
+        "High": 51.7599983215332,
+        "Low": 51.7599983215332,
+        "Open": 51.7599983215332,
+        "Volume": 100
+      },
+      {
+        "Close": 51.75,
+        "High": 51.75,
+        "Low": 51.75,
+        "Open": 51.75,
+        "Volume": 100
+      },
+      {
+        "Close": 51.79520034790039,
+        "High": 51.81340026855469,
+        "Low": 51.79520034790039,
+        "Open": 51.81340026855469,
+        "Volume": 0
+      },
+      {
+        "Close": 51.81340026855469,
+        "High": 51.81340026855469,
+        "Low": 51.79520034790039,
+        "Open": 51.79520034790039,
+        "Volume": 0
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -26,7 +70,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

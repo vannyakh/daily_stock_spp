@@ -1,46 +1,9 @@
 {
   "ticker": "SAJ",
-  "timestamp": "2026-01-27T05:25:33.582670",
+  "timestamp": "2026-01-28T05:15:13.909949",
   "intraday_data": {
-    "status": "success",
-    "rows": 5,
-    "data": [
-      {
-        "Close": 25.899599075317383,
-        "High": 25.899599075317383,
-        "Low": 25.899599075317383,
-        "Open": 25.899599075317383,
-        "Volume": 0
-      },
-      {
-        "Close": 25.889999389648438,
-        "High": 25.889999389648438,
-        "Low": 25.889999389648438,
-        "Open": 25.889999389648438,
-        "Volume": 813
-      },
-      {
-        "Close": 25.989999771118164,
-        "High": 25.989999771118164,
-        "Low": 25.989999771118164,
-        "Open": 25.989999771118164,
-        "Volume": 879
-      },
-      {
-        "Close": 25.950000762939453,
-        "High": 25.950000762939453,
-        "Low": 25.950000762939453,
-        "Open": 25.950000762939453,
-        "Volume": 435
-      },
-      {
-        "Close": 25.950000762939453,
-        "High": 25.950000762939453,
-        "Low": 25.950000762939453,
-        "Open": 25.950000762939453,
-        "Volume": 222
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -63,10 +26,12 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   },
   "holders_data": {

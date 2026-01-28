@@ -1,9 +1,46 @@
 {
   "ticker": "EXEEW",
-  "timestamp": "2026-01-27T05:25:04.912782",
+  "timestamp": "2026-01-28T05:14:59.769155",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 5,
+    "data": [
+      {
+        "Close EXEEL": 99.20999908447266,
+        "High EXEEL": 99.20999908447266,
+        "Low EXEEL": 99.20999908447266,
+        "Open EXEEL": 99.20999908447266,
+        "Volume EXEEL": 0
+      },
+      {
+        "Close EXEEL": 99.30000305175781,
+        "High EXEEL": 99.30000305175781,
+        "Low EXEEL": 99.30000305175781,
+        "Open EXEEL": 99.30000305175781,
+        "Volume EXEEL": 133
+      },
+      {
+        "Close EXEEL": 101.88999938964844,
+        "High EXEEL": 101.88999938964844,
+        "Low EXEEL": 101.88999938964844,
+        "Open EXEEL": 101.88999938964844,
+        "Volume EXEEL": 0
+      },
+      {
+        "Close EXEEL": 95.88999938964844,
+        "High EXEEL": 95.88999938964844,
+        "Low EXEEL": 95.88999938964844,
+        "Open EXEEL": 95.88999938964844,
+        "Volume EXEEL": 181
+      },
+      {
+        "Close EXEEL": 99.94999694824219,
+        "High EXEEL": 99.94999694824219,
+        "Low EXEEL": 99.94999694824219,
+        "Open EXEEL": 99.94999694824219,
+        "Volume EXEEL": 294
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -17,13 +54,39 @@
       "status": "no_data"
     },
     "cash_flow": {
-      "status": "success",
-      "rows": 50,
-      "columns": [
-        "2024-12-31 00:00:00",
-        "2023-12-31 00:00:00",
-        "2022-12-31 00:00:00"
-      ],
-      "data": [
-        {
-          
+      "status": "no_data"
+    }
+  },
+  "options_data": {
+    "status": "error",
+    "error_message": "Too Many Requests. Rate limited. Try after a while."
+  },
+  "news_data": {
+    "news": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    },
+    "recommendations": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  },
+  "holders_data": {
+    "major_holders": {
+      "status": "error"
+    },
+    "institutional_holders": {
+      "status": "error"
+    }
+  },
+  "earnings_data": {
+    "earnings": {
+      "status": "error",
+      "message": "'NoneType' object has no attribute 'empty'"
+    },
+    "calendar": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  }
+}

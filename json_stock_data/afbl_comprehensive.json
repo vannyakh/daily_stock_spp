@@ -1,25 +1,9 @@
 {
   "ticker": "AFBL",
-  "timestamp": "2026-01-27T05:20:31.658441",
+  "timestamp": "2026-01-28T05:12:44.436760",
   "intraday_data": {
-    "status": "success",
-    "rows": 2,
-    "data": [
-      {
-        "Close ZOOZW": 0.04039999842643738,
-        "High ZOOZW": 0.04039999842643738,
-        "Low ZOOZW": 0.04039999842643738,
-        "Open ZOOZW": 0.04039999842643738,
-        "Volume ZOOZW": 0
-      },
-      {
-        "Close ZOOZW": 0.04800000041723251,
-        "High ZOOZW": 0.04800000041723251,
-        "Low ZOOZW": 0.04800000041723251,
-        "Open ZOOZW": 0.04800000041723251,
-        "Volume ZOOZW": 1500
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -42,7 +26,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",

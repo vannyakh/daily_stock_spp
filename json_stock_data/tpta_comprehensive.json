@@ -1,9 +1,23 @@
 {
   "ticker": "TPTA",
-  "timestamp": "2026-01-27T05:14:22.827494",
+  "timestamp": "2026-01-28T05:08:59.871147",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 1,
+    "data": [
+      {
+        "Close": 23.979999542236328,
+        "Close XPTFX": 10.0600004196167,
+        "High": 23.979999542236328,
+        "High XPTFX": 10.0600004196167,
+        "Low": 23.979999542236328,
+        "Low XPTFX": 10.0600004196167,
+        "Open": 23.979999542236328,
+        "Open XPTFX": 10.0600004196167,
+        "Volume": 0.0,
+        "Volume XPTFX": 0.0
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -26,7 +40,8 @@
   },
   "news_data": {
     "news": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     },
     "recommendations": {
       "status": "error",
