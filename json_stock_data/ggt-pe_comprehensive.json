@@ -1,54 +1,127 @@
 {
   "ticker": "GGT-PE",
-  "timestamp": "2026-01-28T05:10:23.596835",
+  "timestamp": "2026-01-30T06:04:25.686531",
   "intraday_data": {
     "status": "success",
-    "rows": 4,
+    "rows": 1,
     "data": [
       {
-        "Close": 21.25,
-        "High": 21.25,
-        "Low": 21.25,
-        "Open": 21.25,
-        "Volume": 0
-      },
-      {
-        "Close": 21.299999237060547,
-        "High": 21.299999237060547,
-        "Low": 21.299999237060547,
-        "Open": 21.299999237060547,
-        "Volume": 409
-      },
-      {
-        "Close": 21.280000686645508,
-        "High": 21.290000915527344,
-        "Low": 21.280000686645508,
-        "Open": 21.290000915527344,
-        "Volume": 405
-      },
-      {
-        "Close": 21.280000686645508,
-        "High": 21.280000686645508,
-        "Low": 21.280000686645508,
-        "Open": 21.280000686645508,
+        "Close": 21.34000015258789,
+        "High": 21.34000015258789,
+        "Low": 21.34000015258789,
+        "Open": 21.34000015258789,
         "Volume": 0
       }
     ]
   },
   "stock_info": {
     "status": "error",
-    "message": "argument of type 'NoneType' is not iterable"
+    "message": "Too Many Requests. Rate limited. Try after a while."
   },
   "financials": {
     "income_statement": {
+      "status": "no_data"
+    },
+    "balance_sheet": {
+      "status": "no_data"
+    },
+    "cash_flow": {
+      "status": "no_data"
+    }
+  },
+  "options_data": {
+    "status": "error",
+    "error_message": "Too Many Requests. Rate limited. Try after a while."
+  },
+  "news_data": {
+    "news": {
       "status": "success",
-      "rows": 22,
-      "columns": [
-        "2024-12-31 00:00:00",
-        "2023-12-31 00:00:00",
-        "2022-12-31 00:00:00",
-        "2021-12-31 00:00:00"
-      ],
+      "count": 1,
       "data": [
         {
-          
+          "id": "6cc73c82-a6d0-32c3-950e-4b236e2cedbf",
+          "content": {
+            "id": "6cc73c82-a6d0-32c3-950e-4b236e2cedbf",
+            "contentType": "STORY",
+            "title": "Big Insider Purchases by Carl Icahn, Mario Gabelli, and Others",
+            "description": "",
+            "summary": "In the past week or so, renowned investors Carl Icahn and Mario Gabelli led some huge insider buying. These were not the only notable purchases though.",
+            "pubDate": "2025-11-12T14:45:23Z",
+            "displayTime": "2025-11-12T14:45:23Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": {
+              "originalUrl": "https://media.zenfs.com/en/24_7_wall_st__718/4c1b1c5db311eef2752e4237cd801883",
+              "originalWidth": 1366,
+              "originalHeight": 767,
+              "caption": "",
+              "resolutions": [
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/nDHB4mgxQsOsu1ueNMWQvA--~B/aD03Njc7dz0xMzY2O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/24_7_wall_st__718/4c1b1c5db311eef2752e4237cd801883",
+                  "width": 1366,
+                  "height": 767,
+                  "tag": "original"
+                },
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/bR0j2MkRs99unrVb2LYSkw--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/24_7_wall_st__718/4c1b1c5db311eef2752e4237cd801883",
+                  "width": 170,
+                  "height": 128,
+                  "tag": "170x128"
+                }
+              ]
+            },
+            "provider": {
+              "displayName": "24/7 Wall St.",
+              "url": "https://247wallst.com/"
+            },
+            "canonicalUrl": {
+              "url": "https://247wallst.com/investing/2025/11/12/big-insider-purchases-by-carl-icahn-mario-gabelli-and-others/",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/big-insider-purchases-carl-icahn-144523504.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        }
+      ]
+    },
+    "recommendations": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  },
+  "holders_data": {
+    "major_holders": {
+      "status": "error"
+    },
+    "institutional_holders": {
+      "status": "error"
+    }
+  },
+  "earnings_data": {
+    "earnings": {
+      "status": "error",
+      "message": "'NoneType' object has no attribute 'empty'"
+    },
+    "calendar": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  }
+}

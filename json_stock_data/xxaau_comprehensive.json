@@ -1,25 +1,9 @@
 {
   "ticker": "XXAAU",
-  "timestamp": "2026-01-28T05:15:32.378654",
+  "timestamp": "2026-01-30T06:17:35.437550",
   "intraday_data": {
-    "status": "success",
-    "rows": 2,
-    "data": [
-      {
-        "Close REGCO": 22.639999389648438,
-        "High REGCO": 22.639999389648438,
-        "Low REGCO": 22.540000915527344,
-        "Open REGCO": 22.540000915527344,
-        "Volume REGCO": 0
-      },
-      {
-        "Close REGCO": 22.540000915527344,
-        "High REGCO": 22.540000915527344,
-        "Low REGCO": 22.540000915527344,
-        "Open REGCO": 22.540000915527344,
-        "Volume REGCO": 151
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -42,8 +26,7 @@
   },
   "news_data": {
     "news": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
+      "status": "no_data"
     },
     "recommendations": {
       "status": "error",

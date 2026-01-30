@@ -1,13 +1,116 @@
 {
   "ticker": "PCG-PI",
-  "timestamp": "2026-01-28T05:09:59.745723",
+  "timestamp": "2026-01-30T06:03:20.036966",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 3,
+    "data": [
+      {
+        "Close": 17.25,
+        "High": 17.25,
+        "Low": 17.25,
+        "Open": 17.25,
+        "Volume": 0
+      },
+      {
+        "Close": 16.600000381469727,
+        "High": 16.600000381469727,
+        "Low": 16.600000381469727,
+        "Open": 16.600000381469727,
+        "Volume": 0
+      },
+      {
+        "Close": 16.625,
+        "High": 16.625,
+        "Low": 16.625,
+        "Open": 16.625,
+        "Volume": 0
+      }
+    ]
   },
   "stock_info": {
-    "status": "error",
-    "message": "Too Many Requests. Rate limited. Try after a while."
+    "status": "success",
+    "data": {
+      "maxAge": 86400,
+      "priceHint": 2,
+      "previousClose": 16.6,
+      "open": 16.625,
+      "dayLow": 16.625,
+      "dayHigh": 16.625,
+      "regularMarketPreviousClose": 16.6,
+      "regularMarketOpen": 16.625,
+      "regularMarketDayLow": 16.625,
+      "regularMarketDayHigh": 16.625,
+      "trailingPE": 2.6209996,
+      "volume": 205,
+      "regularMarketVolume": 205,
+      "averageVolume": 3900,
+      "averageVolume10days": 3900,
+      "averageDailyVolume10Day": 3900,
+      "bid": 0.0,
+      "ask": 17.25,
+      "bidSize": 200,
+      "askSize": 600,
+      "marketCap": 4395234304,
+      "fiftyTwoWeekLow": 16.625,
+      "fiftyTwoWeekHigh": 19.1822,
+      "allTimeHigh": 26.84,
+      "allTimeLow": 4.25,
+      "fiftyDayAverage": 19.1549,
+      "twoHundredDayAverage": 19.1549,
+      "currency": "USD",
+      "tradeable": false,
+      "quoteType": "EQUITY",
+      "symbol": "PCG-PI",
+      "language": "en-US",
+      "region": "US",
+      "typeDisp": "Equity",
+      "quoteSourceName": "Nasdaq Real Time Price",
+      "triggerable": true,
+      "customPriceAlertConfidence": "HIGH",
+      "hasPrePostMarketData": true,
+      "firstTradeDateMilliseconds": 86016600000,
+      "postMarketChangePercent": 0.0,
+      "postMarketPrice": 16.625,
+      "postMarketChange": 0.0,
+      "regularMarketChange": 0.0249996,
+      "regularMarketDayRange": "16.625 - 16.625",
+      "fullExchangeName": "NYSE American",
+      "financialCurrency": "USD",
+      "averageDailyVolume3Month": 3900,
+      "fiftyTwoWeekLowChange": 0.0,
+      "fiftyTwoWeekLowChangePercent": 0.0,
+      "marketState": "PREPRE",
+      "shortName": "Pacific Gas & Electric Co. 4.36",
+      "longName": "Pacific Gas and Electric Company PFD 1ST 4.36%",
+      "regularMarketChangePercent": 0.1506,
+      "regularMarketPrice": 16.625,
+      "postMarketTime": 1769720685,
+      "regularMarketTime": 1769700243,
+      "exchange": "ASE",
+      "messageBoardId": "finmb_805269",
+      "exchangeTimezoneName": "America/New_York",
+      "exchangeTimezoneShortName": "EST",
+      "gmtOffSetMilliseconds": -18000000,
+      "market": "us_market",
+      "esgPopulated": false,
+      "epsTrailingTwelveMonths": 6.343,
+      "sharesOutstanding": 264375008,
+      "bookValue": 73.717,
+      "fiftyDayAverageChange": -2.5298996,
+      "fiftyDayAverageChangePercent": -0.13207585,
+      "twoHundredDayAverageChange": -2.5298996,
+      "twoHundredDayAverageChangePercent": -0.13207585,
+      "priceToBook": 0.22552463,
+      "sourceInterval": 15,
+      "exchangeDataDelayedBy": 0,
+      "cryptoTradeable": false,
+      "fiftyTwoWeekRange": "16.625 - 19.1822",
+      "fiftyTwoWeekHighChange": -2.5571995,
+      "fiftyTwoWeekHighChangePercent": -0.13331106,
+      "fiftyTwoWeekChangePercent": 0.0,
+      "dividendDate": 1771113600
+    }
   },
   "financials": {
     "income_statement": {
@@ -21,13 +124,11 @@
     }
   },
   "options_data": {
-    "status": "error",
-    "error_message": "Too Many Requests. Rate limited. Try after a while."
+    "expirations": []
   },
   "news_data": {
     "news": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
+      "status": "no_data"
     },
     "recommendations": {
       "status": "error",

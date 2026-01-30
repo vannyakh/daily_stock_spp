@@ -1,29 +1,13 @@
 {
   "ticker": "CADCX",
-  "timestamp": "2026-01-28T05:13:47.097825",
+  "timestamp": "2026-01-30T06:13:07.198564",
   "intraday_data": {
-    "status": "success",
-    "rows": 2,
-    "data": [
-      {
-        "Close": 24.56999969482422,
-        "High": 24.56999969482422,
-        "Low": 24.56999969482422,
-        "Open": 24.56999969482422,
-        "Volume": 0
-      },
-      {
-        "Close": 24.56999969482422,
-        "High": 24.56999969482422,
-        "Low": 24.56999969482422,
-        "Open": 24.56999969482422,
-        "Volume": 0
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
-    "message": "argument of type 'NoneType' is not iterable"
+    "message": "Too Many Requests. Rate limited. Try after a while."
   },
   "financials": {
     "income_statement": {
@@ -42,8 +26,7 @@
   },
   "news_data": {
     "news": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
+      "status": "no_data"
     },
     "recommendations": {
       "status": "error",

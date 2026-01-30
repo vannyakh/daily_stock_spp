@@ -1,240 +1,69 @@
 {
   "ticker": "ETST",
-  "timestamp": "2026-01-28T05:02:40.785622",
+  "timestamp": "2026-01-30T05:46:28.919699",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 6,
+    "data": [
+      {
+        "Close": 0.15000000596046448,
+        "High": 0.15000000596046448,
+        "Low": 0.15000000596046448,
+        "Open": 0.15000000596046448,
+        "Volume": 0
+      },
+      {
+        "Close": 0.15000000596046448,
+        "High": 0.15000000596046448,
+        "Low": 0.15000000596046448,
+        "Open": 0.15000000596046448,
+        "Volume": 8103
+      },
+      {
+        "Close": 0.15000000596046448,
+        "High": 0.15000000596046448,
+        "Low": 0.15000000596046448,
+        "Open": 0.15000000596046448,
+        "Volume": 10308
+      },
+      {
+        "Close": 0.14499999582767487,
+        "High": 0.14499999582767487,
+        "Low": 0.14499999582767487,
+        "Open": 0.14499999582767487,
+        "Volume": 0
+      },
+      {
+        "Close": 0.15680000185966492,
+        "High": 0.15680000185966492,
+        "Low": 0.15680000185966492,
+        "Open": 0.15680000185966492,
+        "Volume": 37990
+      },
+      {
+        "Close": 0.15889999270439148,
+        "High": 0.15889999270439148,
+        "Low": 0.15889999270439148,
+        "Open": 0.15889999270439148,
+        "Volume": 0
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
-    "message": "Too Many Requests. Rate limited. Try after a while."
+    "message": "argument of type 'NoneType' is not iterable"
   },
   "financials": {
     "income_statement": {
-      "status": "no_data"
-    },
-    "balance_sheet": {
-      "status": "no_data"
-    },
-    "cash_flow": {
-      "status": "no_data"
-    }
-  },
-  "options_data": {
-    "status": "error",
-    "error_message": "Too Many Requests. Rate limited. Try after a while."
-  },
-  "news_data": {
-    "news": {
       "status": "success",
-      "count": 3,
+      "rows": 58,
+      "columns": [
+        "2025-03-31 00:00:00",
+        "2024-03-31 00:00:00",
+        "2023-03-31 00:00:00",
+        "2022-03-31 00:00:00",
+        "2021-03-31 00:00:00"
+      ],
       "data": [
         {
-          "id": "883b64e5-65f5-3979-b89a-396aaf058f4e",
-          "content": {
-            "id": "883b64e5-65f5-3979-b89a-396aaf058f4e",
-            "contentType": "STORY",
-            "title": "The Zacks Analyst Blog Highlights Oracle, IBM, Merck and Earth Science Tech",
-            "description": "",
-            "summary": "Oracle, IBM, Merck and Earth Science Tech are included in this Analyst Blog.",
-            "pubDate": "2025-05-15T10:17:00Z",
-            "displayTime": "2025-05-15T10:17:00Z",
-            "isHosted": true,
-            "bypassModal": false,
-            "previewUrl": null,
-            "thumbnail": {
-              "originalUrl": "https://media.zenfs.com/en/zacks.com/44deeada4a931587093cfb55cec8bf0e",
-              "originalWidth": 635,
-              "originalHeight": 400,
-              "caption": "",
-              "resolutions": [
-                {
-                  "url": "https://s.yimg.com/uu/api/res/1.2/4UImlos11YVRz_bPus7vxg--~B/aD00MDA7dz02MzU7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/zacks.com/44deeada4a931587093cfb55cec8bf0e",
-                  "width": 635,
-                  "height": 400,
-                  "tag": "original"
-                },
-                {
-                  "url": "https://s.yimg.com/uu/api/res/1.2/S7hwhake_fifqC5A2gH6Gg--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/zacks.com/44deeada4a931587093cfb55cec8bf0e",
-                  "width": 170,
-                  "height": 128,
-                  "tag": "170x128"
-                }
-              ]
-            },
-            "provider": {
-              "displayName": "Zacks",
-              "url": "http://www.zacks.com/"
-            },
-            "canonicalUrl": {
-              "url": "https://finance.yahoo.com/news/zacks-analyst-blog-highlights-oracle-101700486.html",
-              "site": "finance",
-              "region": "US",
-              "lang": "en-US"
-            },
-            "clickThroughUrl": {
-              "url": "https://finance.yahoo.com/news/zacks-analyst-blog-highlights-oracle-101700486.html",
-              "site": "finance",
-              "region": "US",
-              "lang": "en-US"
-            },
-            "metadata": {
-              "editorsPick": false
-            },
-            "finance": {
-              "premiumFinance": {
-                "isPremiumNews": false,
-                "isPremiumFreeNews": false
-              }
-            },
-            "storyline": null
-          }
-        },
-        {
-          "id": "b57b0fa2-edd7-316f-bf7a-c4f2bccd16c2",
-          "content": {
-            "id": "b57b0fa2-edd7-316f-bf7a-c4f2bccd16c2",
-            "contentType": "STORY",
-            "title": "Is Earth Science Tech, Inc. (ETST) the Cheapest Stock Insiders Are Buying In March?",
-            "description": "",
-            "summary": "We recently published a list of 15 Cheapest Stocks Insiders Are Buying In March. In this article, we are going to take a look at where Earth Science Tech, Inc. (OTCPK:ETST) stands against other cheapest stocks insiders are buying in March. After solid gains Monday, the broader market index and blue chip companies traded flat [\u2026]",
-            "pubDate": "2025-03-28T14:56:22Z",
-            "displayTime": "2025-03-28T14:56:22Z",
-            "isHosted": true,
-            "bypassModal": false,
-            "previewUrl": null,
-            "thumbnail": {
-              "originalUrl": "https://media.zenfs.com/en/insidermonkey.com/3cf67fab86ecf0d016485aefdc97aabb",
-              "originalWidth": 1456,
-              "originalHeight": 816,
-              "caption": "Is Earth Science Tech, Inc. (ETST) the Cheapest Stock Insiders Are Buying In March?",
-              "resolutions": [
-                {
-                  "url": "https://s.yimg.com/uu/api/res/1.2/FMm_B4w2P.9n2QsjuN2bZQ--~B/aD04MTY7dz0xNDU2O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/insidermonkey.com/3cf67fab86ecf0d016485aefdc97aabb",
-                  "width": 1456,
-                  "height": 816,
-                  "tag": "original"
-                },
-                {
-                  "url": "https://s.yimg.com/uu/api/res/1.2/1aNTZQR1MmJqIl62p.buHw--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/insidermonkey.com/3cf67fab86ecf0d016485aefdc97aabb",
-                  "width": 170,
-                  "height": 128,
-                  "tag": "170x128"
-                }
-              ]
-            },
-            "provider": {
-              "displayName": "Insider Monkey",
-              "url": "http://www.insidermonkey.com"
-            },
-            "canonicalUrl": {
-              "url": "https://finance.yahoo.com/news/earth-science-tech-inc-etst-145622140.html",
-              "site": "finance",
-              "region": "US",
-              "lang": "en-US"
-            },
-            "clickThroughUrl": {
-              "url": "https://finance.yahoo.com/news/earth-science-tech-inc-etst-145622140.html",
-              "site": "finance",
-              "region": "US",
-              "lang": "en-US"
-            },
-            "metadata": {
-              "editorsPick": false
-            },
-            "finance": {
-              "premiumFinance": {
-                "isPremiumNews": false,
-                "isPremiumFreeNews": false
-              }
-            },
-            "storyline": null
-          }
-        },
-        {
-          "id": "3bda41ab-62ad-368d-a90d-8dcc671ea696",
-          "content": {
-            "id": "3bda41ab-62ad-368d-a90d-8dcc671ea696",
-            "contentType": "STORY",
-            "title": "Earth Science Tech (ETST): Among Cheapest Stocks Insiders Are Buying Recently",
-            "description": "",
-            "summary": "We recently published a list of 10 Cheapest Stocks Insiders Are Buying Recently. In this article, we are going to take a look at whereEarth Science Tech (OTCPK:ETST) stands against other cheapest stocks that insiders are buying recently. Why should we be interested in affordable stocks? Some investors like to look for cheaper stocks in [\u2026]",
-            "pubDate": "2025-02-21T05:19:01Z",
-            "displayTime": "2025-02-21T05:19:01Z",
-            "isHosted": true,
-            "bypassModal": false,
-            "previewUrl": null,
-            "thumbnail": {
-              "originalUrl": "https://media.zenfs.com/en/insidermonkey.com/1d387f502677a937b7ca1f6cb2f64464",
-              "originalWidth": 1678,
-              "originalHeight": 1119,
-              "caption": "Earth Science Tech (ETST): Among Cheapest Stocks Insiders Are Buying Recently",
-              "resolutions": [
-                {
-                  "url": "https://s.yimg.com/uu/api/res/1.2/Gk32tMHQwEiDlQRATODELg--~B/aD0xMTE5O3c9MTY3ODthcHBpZD15dGFjaHlvbg--/https://media.zenfs.com/en/insidermonkey.com/1d387f502677a937b7ca1f6cb2f64464",
-                  "width": 1678,
-                  "height": 1119,
-                  "tag": "original"
-                },
-                {
-                  "url": "https://s.yimg.com/uu/api/res/1.2/LW40GkuCr9AStM.KpLoUvQ--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/insidermonkey.com/1d387f502677a937b7ca1f6cb2f64464",
-                  "width": 170,
-                  "height": 128,
-                  "tag": "170x128"
-                }
-              ]
-            },
-            "provider": {
-              "displayName": "Insider Monkey",
-              "url": "http://www.insidermonkey.com"
-            },
-            "canonicalUrl": {
-              "url": "https://finance.yahoo.com/news/earth-science-tech-etst-among-051901798.html",
-              "site": "finance",
-              "region": "US",
-              "lang": "en-US"
-            },
-            "clickThroughUrl": {
-              "url": "https://finance.yahoo.com/news/earth-science-tech-etst-among-051901798.html",
-              "site": "finance",
-              "region": "US",
-              "lang": "en-US"
-            },
-            "metadata": {
-              "editorsPick": false
-            },
-            "finance": {
-              "premiumFinance": {
-                "isPremiumNews": false,
-                "isPremiumFreeNews": false
-              }
-            },
-            "storyline": null
-          }
-        }
-      ]
-    },
-    "recommendations": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
-    }
-  },
-  "holders_data": {
-    "major_holders": {
-      "status": "error"
-    },
-    "institutional_holders": {
-      "status": "error"
-    }
-  },
-  "earnings_data": {
-    "earnings": {
-      "status": "error",
-      "message": "'NoneType' object has no attribute 'empty'"
-    },
-    "calendar": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
-    }
-  }
-}
+          

@@ -1,9 +1,39 @@
 {
   "ticker": "JACS",
-  "timestamp": "2026-01-28T05:08:43.748261",
+  "timestamp": "2026-01-30T06:00:06.375561",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 4,
+    "data": [
+      {
+        "Close": 10.5,
+        "High": 10.5,
+        "Low": 10.5,
+        "Open": 10.5,
+        "Volume": 0
+      },
+      {
+        "Close": 10.479999542236328,
+        "High": 10.5,
+        "Low": 10.479999542236328,
+        "Open": 10.5,
+        "Volume": 611
+      },
+      {
+        "Close": 10.470000267028809,
+        "High": 10.470000267028809,
+        "Low": 10.470000267028809,
+        "Open": 10.470000267028809,
+        "Volume": 8064
+      },
+      {
+        "Close": 10.479999542236328,
+        "High": 10.479999542236328,
+        "Low": 10.479999542236328,
+        "Open": 10.479999542236328,
+        "Volume": 96655
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -26,8 +56,71 @@
   },
   "news_data": {
     "news": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
+      "status": "success",
+      "count": 1,
+      "data": [
+        {
+          "id": "e4a68809-f2d9-36af-ab9d-4689f2c6f7ee",
+          "content": {
+            "id": "e4a68809-f2d9-36af-ab9d-4689f2c6f7ee",
+            "contentType": "STORY",
+            "title": "Private companies own 18% of Jackson Acquisition Company II (NYSE:JACS) shares but individual investors control 60% of the company",
+            "description": "",
+            "summary": "Key Insights The considerable ownership by individual investors in Jackson Acquisition Company II indicates that they...",
+            "pubDate": "2025-05-12T10:39:25Z",
+            "displayTime": "2025-05-12T10:39:25Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": {
+              "originalUrl": "https://media.zenfs.com/en/simply_wall_st__316/f88d3d8c5618aa88ce2627c2a1cda340",
+              "originalWidth": 1194,
+              "originalHeight": 432,
+              "caption": "",
+              "resolutions": [
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/SSw8naZrBB1tKswm10P8gw--~B/aD00MzI7dz0xMTk0O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/simply_wall_st__316/f88d3d8c5618aa88ce2627c2a1cda340",
+                  "width": 1194,
+                  "height": 432,
+                  "tag": "original"
+                },
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/79qko4F_hdhwRlGyEfLjcw--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/simply_wall_st__316/f88d3d8c5618aa88ce2627c2a1cda340",
+                  "width": 170,
+                  "height": 128,
+                  "tag": "170x128"
+                }
+              ]
+            },
+            "provider": {
+              "displayName": "Simply Wall St.",
+              "url": "https://simplywall.st/"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/private-companies-own-18-jackson-103925452.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/private-companies-own-18-jackson-103925452.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        }
+      ]
     },
     "recommendations": {
       "status": "error",

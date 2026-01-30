@@ -1,43 +1,13 @@
 {
   "ticker": "SCDL",
-  "timestamp": "2026-01-28T05:14:13.763150",
+  "timestamp": "2026-01-30T06:14:13.721643",
   "intraday_data": {
-    "status": "success",
-    "rows": 4,
-    "data": [
-      {
-        "Close MVRL": 16.079999923706055,
-        "High MVRL": 16.079999923706055,
-        "Low MVRL": 16.01099967956543,
-        "Open MVRL": 16.05900001525879,
-        "Volume MVRL": 0
-      },
-      {
-        "Close MVRL": 16.06999969482422,
-        "High MVRL": 16.06999969482422,
-        "Low MVRL": 16.06999969482422,
-        "Open MVRL": 16.06999969482422,
-        "Volume MVRL": 104
-      },
-      {
-        "Close MVRL": 16.220699310302734,
-        "High MVRL": 16.220699310302734,
-        "Low MVRL": 16.220699310302734,
-        "Open MVRL": 16.220699310302734,
-        "Volume MVRL": 0
-      },
-      {
-        "Close MVRL": 16.54599952697754,
-        "High MVRL": 16.54599952697754,
-        "Low MVRL": 16.5,
-        "Open MVRL": 16.5,
-        "Volume MVRL": 398
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
-    "message": "Too Many Requests. Rate limited. Try after a while."
+    "message": "argument of type 'NoneType' is not iterable"
   },
   "financials": {
     "income_statement": {
@@ -56,8 +26,7 @@
   },
   "news_data": {
     "news": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
+      "status": "no_data"
     },
     "recommendations": {
       "status": "error",

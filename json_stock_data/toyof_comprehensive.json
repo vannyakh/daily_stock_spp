@@ -1,83 +1,638 @@
 {
   "ticker": "TOYOF",
-  "timestamp": "2026-01-28T05:09:07.266557",
+  "timestamp": "2026-01-30T06:01:07.803034",
   "intraday_data": {
-    "status": "success",
-    "rows": 8,
-    "data": [
-      {
-        "Close PCCYF": 1.100000023841858,
-        "High PCCYF": 1.1100000143051147,
-        "Low PCCYF": 1.100000023841858,
-        "Open PCCYF": 1.1100000143051147,
-        "Volume PCCYF": 0
-      },
-      {
-        "Close PCCYF": 1.100000023841858,
-        "High PCCYF": 1.100000023841858,
-        "Low PCCYF": 1.100000023841858,
-        "Open PCCYF": 1.100000023841858,
-        "Volume PCCYF": 3100
-      },
-      {
-        "Close PCCYF": 1.1200000047683716,
-        "High PCCYF": 1.1200000047683716,
-        "Low PCCYF": 1.1200000047683716,
-        "Open PCCYF": 1.1200000047683716,
-        "Volume PCCYF": 2000
-      },
-      {
-        "Close PCCYF": 1.1299999952316284,
-        "High PCCYF": 1.1299999952316284,
-        "Low PCCYF": 1.1299999952316284,
-        "Open PCCYF": 1.1299999952316284,
-        "Volume PCCYF": 100
-      },
-      {
-        "Close PCCYF": 1.090000033378601,
-        "High PCCYF": 1.090000033378601,
-        "Low PCCYF": 1.090000033378601,
-        "Open PCCYF": 1.090000033378601,
-        "Volume PCCYF": 100
-      },
-      {
-        "Close PCCYF": 1.090000033378601,
-        "High PCCYF": 1.090000033378601,
-        "Low PCCYF": 1.090000033378601,
-        "Open PCCYF": 1.090000033378601,
-        "Volume PCCYF": 100
-      },
-      {
-        "Close PCCYF": 1.1100000143051147,
-        "High PCCYF": 1.1100000143051147,
-        "Low PCCYF": 1.1100000143051147,
-        "Open PCCYF": 1.1100000143051147,
-        "Volume PCCYF": 200
-      },
-      {
-        "Close PCCYF": 1.1100000143051147,
-        "High PCCYF": 1.1100000143051147,
-        "Low PCCYF": 1.1100000143051147,
-        "Open PCCYF": 1.1100000143051147,
-        "Volume PCCYF": 0
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
-    "message": "argument of type 'NoneType' is not iterable"
+    "message": "Too Many Requests. Rate limited. Try after a while."
   },
   "financials": {
     "income_statement": {
+      "status": "no_data"
+    },
+    "balance_sheet": {
+      "status": "no_data"
+    },
+    "cash_flow": {
+      "status": "no_data"
+    }
+  },
+  "options_data": {
+    "status": "error",
+    "error_message": "Too Many Requests. Rate limited. Try after a while."
+  },
+  "news_data": {
+    "news": {
       "status": "success",
-      "rows": 46,
-      "columns": [
-        "2025-03-31 00:00:00",
-        "2024-03-31 00:00:00",
-        "2023-03-31 00:00:00",
-        "2022-03-31 00:00:00",
-        "2021-03-31 00:00:00"
-      ],
+      "count": 10,
       "data": [
         {
-          
+          "id": "b89c5c18-e9c2-3d92-98f7-9414c910e52e",
+          "content": {
+            "id": "b89c5c18-e9c2-3d92-98f7-9414c910e52e",
+            "contentType": "STORY",
+            "title": "Japanese automakers rush to explore partnership with Shriram after MUFG investment, MUFG executive says",
+            "description": "",
+            "summary": "TOKYO, Jan 30 (Reuters) - Japan's Mitsubishi UFJ Financial Group has seen a surge in interest from Japanese automakers hoping to tap its 20% stake in Indian non-bank lender Shriram Finance to boost",
+            "pubDate": "2026-01-29T23:06:23Z",
+            "displayTime": "2026-01-29T23:06:23Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": {
+              "originalUrl": "https://media.zenfs.com/en/reuters.com/a307d8580c480495f55bd2c6a913b197",
+              "originalWidth": 800,
+              "originalHeight": 533,
+              "caption": "Mitsubishi UFJ Financial Group Senior Managing Corporate Executive Yasushi Itagaki speaks about the group's overseas strategy at the company's Tokyo headquarters, Japan, January 28, 2026. REUTERS/Miho Uranaka",
+              "resolutions": [
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/6mqscUgN99kAHu958t5BXQ--~B/aD01MzM7dz04MDA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/reuters.com/a307d8580c480495f55bd2c6a913b197",
+                  "width": 800,
+                  "height": 533,
+                  "tag": "original"
+                },
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/b757eticfiM9Xy6g_SJznw--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/reuters.com/a307d8580c480495f55bd2c6a913b197",
+                  "width": 170,
+                  "height": 128,
+                  "tag": "170x128"
+                }
+              ]
+            },
+            "provider": {
+              "displayName": "Reuters",
+              "url": "https://www.reuters.com/"
+            },
+            "canonicalUrl": {
+              "url": "https://sg.finance.yahoo.com/news/japanese-automakers-rush-explore-partnership-230623716.html",
+              "site": "finance",
+              "region": "SG",
+              "lang": "en-SG"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/japanese-automakers-rush-explore-partnership-230623716.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        },
+        {
+          "id": "9fb36abc-5469-39f8-9fe2-293b7455e438",
+          "content": {
+            "id": "9fb36abc-5469-39f8-9fe2-293b7455e438",
+            "contentType": "STORY",
+            "title": "Toyota retains world\u2019s top automaker title with record 2025 sales",
+            "description": "",
+            "summary": "Investing.com -- Toyota Motor maintained its position as the world\u2019s top-selling automaker in 2025, reporting record sales of 10.5 million vehicles on Thursday.",
+            "pubDate": "2026-01-29T11:57:25Z",
+            "displayTime": "2026-01-29T11:57:25Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": null,
+            "provider": {
+              "displayName": "Investing.com",
+              "url": "https://www.investing.com/"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/toyota-retains-world-top-automaker-115725637.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/toyota-retains-world-top-automaker-115725637.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        },
+        {
+          "id": "b810f831-b77e-3f46-a5e6-0a7f0887240f",
+          "content": {
+            "id": "b810f831-b77e-3f46-a5e6-0a7f0887240f",
+            "contentType": "STORY",
+            "title": "Trump's Tariffs Cost These Asian Carmakers Billions",
+            "description": "",
+            "summary": "That's the knock to operating profit Toyota expects from U.S. tariffs this fiscal year, as President Trump's trade policies disrupt the global auto industry.  Toyota posted record sales in 2025, cementing its position as the world\u2019s top-selling automaker.  Sales gains were led by Japan and the U.S., where its hybrid vehicles remain popular.",
+            "pubDate": "2026-01-29T11:46:23Z",
+            "displayTime": "2026-01-29T11:46:23Z",
+            "isHosted": false,
+            "bypassModal": false,
+            "previewUrl": "https://finance.yahoo.com/m/b810f831-b77e-3f46-a5e6-0a7f0887240f/trump-s-tariffs-cost-these.html",
+            "thumbnail": {
+              "originalUrl": "https://media.zenfs.com/en/wsj.com/6fc6e3aff1b9e2cfcba7f8970850d3b2",
+              "originalWidth": 1280,
+              "originalHeight": 640,
+              "caption": "",
+              "resolutions": [
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/IU8QhUfd_UgKrVJtFoCsOQ--~B/aD02NDA7dz0xMjgwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/wsj.com/6fc6e3aff1b9e2cfcba7f8970850d3b2",
+                  "width": 1280,
+                  "height": 640,
+                  "tag": "original"
+                },
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/NC3cDQTYCcqhzhZBiUidwQ--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/wsj.com/6fc6e3aff1b9e2cfcba7f8970850d3b2",
+                  "width": 170,
+                  "height": 128,
+                  "tag": "170x128"
+                }
+              ]
+            },
+            "provider": {
+              "displayName": "The Wall Street Journal",
+              "url": "http://www.wsj.com/"
+            },
+            "canonicalUrl": {
+              "url": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-01-29-2026/card/trump-s-tariffs-cost-these-asian-carmakers-billions-smR2Nal8NcuiXh3Wj9AM?siteid=yhoof2&yptr=yahoo",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": null,
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        },
+        {
+          "id": "6a3e4a4b-1896-3c75-a255-73009c0eeff5",
+          "content": {
+            "id": "6a3e4a4b-1896-3c75-a255-73009c0eeff5",
+            "contentType": "STORY",
+            "title": "Toyota Remains World\u2019s Top-Selling Automaker",
+            "description": "",
+            "summary": "Toyota  Motor said its group sales rose to a record 11.3 million vehicles in 2025, cementing its position as the world\u2019s top-selling automaker, even as U.S. tariffs disrupted the industry and hit the company\u2019s earnings.  The Japanese carmaker said Thursday that its group worldwide sales, which include those of subsidiaries Daihatsu Motor and  Hino Motors  rose 4.6% in 2025.  Toyota said gains were led by Japan and the U.S., where gasoline-electric hybrid vehicles remained popular.",
+            "pubDate": "2026-01-29T08:56:00Z",
+            "displayTime": "2026-01-29T08:56:00Z",
+            "isHosted": false,
+            "bypassModal": false,
+            "previewUrl": "https://finance.yahoo.com/m/6a3e4a4b-1896-3c75-a255-73009c0eeff5/toyota-remains-world%E2%80%99s.html",
+            "thumbnail": {
+              "originalUrl": "https://media.zenfs.com/en/wsj.com/4707c7a27ac57094a3ab8488ef4d2419",
+              "originalWidth": 1280,
+              "originalHeight": 640,
+              "caption": "",
+              "resolutions": [
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/3k7rEqkHNnWboNouohK5zQ--~B/aD02NDA7dz0xMjgwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/wsj.com/4707c7a27ac57094a3ab8488ef4d2419",
+                  "width": 1280,
+                  "height": 640,
+                  "tag": "original"
+                },
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/a3zo3a4M31gwRy5JThRBrg--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/wsj.com/4707c7a27ac57094a3ab8488ef4d2419",
+                  "width": 170,
+                  "height": 128,
+                  "tag": "170x128"
+                }
+              ]
+            },
+            "provider": {
+              "displayName": "The Wall Street Journal",
+              "url": "http://www.wsj.com/"
+            },
+            "canonicalUrl": {
+              "url": "https://www.wsj.com/business/autos/toyota-remains-worlds-top-selling-automaker-8a58bfda?siteid=yhoof2&yptr=yahoo",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": null,
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        },
+        {
+          "id": "5f5751d6-1066-3ee0-847e-3eebc1a8e8ee",
+          "content": {
+            "id": "5f5751d6-1066-3ee0-847e-3eebc1a8e8ee",
+            "contentType": "STORY",
+            "title": "Elliott Stands a Chance at Foiling Controversial Toyota Deal",
+            "description": "",
+            "summary": "After all, the group already owns about 48% of Toyota Industries Corp., and holds deep ties with many of the buyout target\u2019s top minority shareholders.  Elliott may only need the support of an additional 7% of voting shares to win, according to Travis Lundy, an independent analyst who\u2019s been involved in Japanese equities and investor activism for over two decades.",
+            "pubDate": "2026-01-29T06:57:32Z",
+            "displayTime": "2026-01-29T06:57:32Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": {
+              "originalUrl": "https://media.zenfs.com/en/bloomberg_holding_pen_162/dfa8db8eb4930710e6ca0bf26c78a2ac",
+              "originalWidth": 2000,
+              "originalHeight": 1333,
+              "caption": "",
+              "resolutions": [
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/9LjfMCMg8DbPMMSAeCsYVA--~B/aD0xMzMzO3c9MjAwMDthcHBpZD15dGFjaHlvbg--/https://media.zenfs.com/en/bloomberg_holding_pen_162/dfa8db8eb4930710e6ca0bf26c78a2ac",
+                  "width": 2000,
+                  "height": 1333,
+                  "tag": "original"
+                },
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/4rG0doNc9_dj9DbgvUiBtA--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/bloomberg_holding_pen_162/dfa8db8eb4930710e6ca0bf26c78a2ac",
+                  "width": 170,
+                  "height": 128,
+                  "tag": "170x128"
+                }
+              ]
+            },
+            "provider": {
+              "displayName": "Bloomberg",
+              "url": "https://www.bloomberg.com/company"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/elliott-stands-chance-foiling-controversial-065732461.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/elliott-stands-chance-foiling-controversial-065732461.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        },
+        {
+          "id": "662d4b07-52f8-3291-a8fe-629421ad862a",
+          "content": {
+            "id": "662d4b07-52f8-3291-a8fe-629421ad862a",
+            "contentType": "STORY",
+            "title": "Toyota Motor Corporation (TM) Registers a Bigger Fall Than the Market: Important Facts to Note",
+            "description": "",
+            "summary": "In the most recent trading session, Toyota Motor Corporation (TM) closed at $218.89, indicating a -2.33% shift from the previous trading day.",
+            "pubDate": "2026-01-28T22:50:03Z",
+            "displayTime": "2026-01-28T22:50:03Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": {
+              "originalUrl": "https://media.zenfs.com/en/zacks.com/f889276f4a638f3c7a79c0e3e6b768c1",
+              "originalWidth": 900,
+              "originalHeight": 600,
+              "caption": "",
+              "resolutions": [
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/0K2vxHTAGj_tGrBqjPJ8Cg--~B/aD02MDA7dz05MDA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/zacks.com/f889276f4a638f3c7a79c0e3e6b768c1",
+                  "width": 900,
+                  "height": 600,
+                  "tag": "original"
+                },
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/Xhlfn4mpAJXpE0vIOolxTw--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/zacks.com/f889276f4a638f3c7a79c0e3e6b768c1",
+                  "width": 170,
+                  "height": 128,
+                  "tag": "170x128"
+                }
+              ]
+            },
+            "provider": {
+              "displayName": "Zacks",
+              "url": "http://www.zacks.com/"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/toyota-motor-corporation-tm-registers-225003826.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/toyota-motor-corporation-tm-registers-225003826.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        },
+        {
+          "id": "25a7f674-5c7e-3a73-9327-f9bffefc5028",
+          "content": {
+            "id": "25a7f674-5c7e-3a73-9327-f9bffefc5028",
+            "contentType": "STORY",
+            "title": "Joby Weighs Archer Legal Challenge Against Toyota And Vertiport Growth Plans",
+            "description": "",
+            "summary": "Archer Aviation has asked a court to dismiss Joby Aero\u2019s lawsuit that alleges theft of confidential files and misuse of proprietary information. The legal move comes as Joby Aviation (NYSE:JOBY) deepens ties with Toyota and vertiport partner Metropolis Technologies. These developments sit at the intersection of intellectual property risk, competitive positioning and infrastructure planning for future electric air taxi services. Joby Aviation, trading as NYSE:JOBY, is developing electric...",
+            "pubDate": "2026-01-28T19:11:51Z",
+            "displayTime": "2026-01-28T19:11:51Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": {
+              "originalUrl": "https://media.zenfs.com/en/simply_wall_st__316/4b379f9ed3f80f55476d72ed08ba4e52",
+              "originalWidth": 1194,
+              "originalHeight": 432,
+              "caption": "",
+              "resolutions": [
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/yhs92jtzc6Qzq8t7Tx5IAw--~B/aD00MzI7dz0xMTk0O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/simply_wall_st__316/4b379f9ed3f80f55476d72ed08ba4e52",
+                  "width": 1194,
+                  "height": 432,
+                  "tag": "original"
+                },
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/wCp66IZKz1jWP12XMoiyvg--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/simply_wall_st__316/4b379f9ed3f80f55476d72ed08ba4e52",
+                  "width": 170,
+                  "height": 128,
+                  "tag": "170x128"
+                }
+              ]
+            },
+            "provider": {
+              "displayName": "Simply Wall St.",
+              "url": "https://simplywall.st/"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/joby-weighs-archer-legal-challenge-191151650.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/joby-weighs-archer-legal-challenge-191151650.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        },
+        {
+          "id": "d3730461-aeae-3025-ba33-7e4d0965cd3b",
+          "content": {
+            "id": "d3730461-aeae-3025-ba33-7e4d0965cd3b",
+            "contentType": "STORY",
+            "title": "GM exec explains how it beat tariffs in 2025",
+            "description": "",
+            "summary": "Tariffs were a major part of the story in 2025 for U.S. automakers like General Motors. The initial 25% duties levied on all automotive and auto parts imports hit each of the Detroit Big 3 automakers differently, since each manufactures a different number of vehicles in the U.S. Ford, for example, ...",
+            "pubDate": "2026-01-28T17:47:00Z",
+            "displayTime": "2026-01-28T17:47:00Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": {
+              "originalUrl": "https://media.zenfs.com/en/thestreet_881/e30ae6fe1677f949d6e280e964c2a988",
+              "originalWidth": 1200,
+              "originalHeight": 779,
+              "caption": "",
+              "resolutions": [
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/P9yvImuTFRQnaS3a3nDIgg--~B/aD03Nzk7dz0xMjAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/thestreet_881/e30ae6fe1677f949d6e280e964c2a988",
+                  "width": 1200,
+                  "height": 779,
+                  "tag": "original"
+                },
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/YgFwP.XuvhFoMSOeT9698Q--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/thestreet_881/e30ae6fe1677f949d6e280e964c2a988",
+                  "width": 170,
+                  "height": 128,
+                  "tag": "170x128"
+                }
+              ]
+            },
+            "provider": {
+              "displayName": "TheStreet",
+              "url": "https://www.thestreet.com/"
+            },
+            "canonicalUrl": {
+              "url": "https://www.thestreet.com/automotive/gm-exec-explains-how-it-beat-tariffs-in-2025",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/gm-exec-explains-beat-tariffs-174700374.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        },
+        {
+          "id": "e78d6272-d4d6-3bbf-ae0b-d348a69b5662",
+          "content": {
+            "id": "e78d6272-d4d6-3bbf-ae0b-d348a69b5662",
+            "contentType": "STORY",
+            "title": "Elliott\u2019s Toyota Challenge Puts Takeover Valuation And Governance Under The Microscope",
+            "description": "",
+            "summary": "Elliott Investment Management has intensified its campaign against Toyota Motor\u2019s planned takeover of Toyota Industries Corp., questioning the deal\u2019s valuation. The activist investor has raised its stake and is publicly challenging how the proposal treats minority shareholders. The dispute highlights rising scrutiny of corporate governance practices around major Japanese companies like Toyota Motor. Toyota Motor (TSE:7203) is in focus as the takeover debate lands on an already closely...",
+            "pubDate": "2026-01-28T15:13:16Z",
+            "displayTime": "2026-01-28T15:13:16Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": {
+              "originalUrl": "https://media.zenfs.com/en/simply_wall_st__316/dcf3a88c75d56323d24e22a8db14dddc",
+              "originalWidth": 1194,
+              "originalHeight": 432,
+              "caption": "",
+              "resolutions": [
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/OKdkOy0U71Q_0Cn3Ad.Ckg--~B/aD00MzI7dz0xMTk0O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/simply_wall_st__316/dcf3a88c75d56323d24e22a8db14dddc",
+                  "width": 1194,
+                  "height": 432,
+                  "tag": "original"
+                },
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/J_Wxd407cIMTu5hZ3P2huQ--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/simply_wall_st__316/dcf3a88c75d56323d24e22a8db14dddc",
+                  "width": 170,
+                  "height": 128,
+                  "tag": "170x128"
+                }
+              ]
+            },
+            "provider": {
+              "displayName": "Simply Wall St.",
+              "url": "https://simplywall.st/"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/elliott-toyota-challenge-puts-takeover-151316046.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/elliott-toyota-challenge-puts-takeover-151316046.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        },
+        {
+          "id": "ba2ff591-7ba9-30fd-9a8f-08133691ca86",
+          "content": {
+            "id": "ba2ff591-7ba9-30fd-9a8f-08133691ca86",
+            "contentType": "STORY",
+            "title": "Toyota Motor (TM) Is Considered a Good Investment by Brokers: Is That True?",
+            "description": "",
+            "summary": "Based on the average brokerage recommendation (ABR), Toyota Motor (TM) should be added to one's portfolio. Wall Street analysts' overly optimistic recommendations cast doubt on the effectiveness of this highly sought-after metric. So, is the stock worth buying?",
+            "pubDate": "2026-01-28T14:30:03Z",
+            "displayTime": "2026-01-28T14:30:03Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": {
+              "originalUrl": "https://media.zenfs.com/en/zacks.com/48ad4265c55e3ba7a1fb9148d6e717d9",
+              "originalWidth": 900,
+              "originalHeight": 601,
+              "caption": "",
+              "resolutions": [
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/QOfludHza1dTKV8R6Coeiw--~B/aD02MDE7dz05MDA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/zacks.com/48ad4265c55e3ba7a1fb9148d6e717d9",
+                  "width": 900,
+                  "height": 601,
+                  "tag": "original"
+                },
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/thZ5nAsZ4WtcmUWXhIUjkg--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/zacks.com/48ad4265c55e3ba7a1fb9148d6e717d9",
+                  "width": 170,
+                  "height": 128,
+                  "tag": "170x128"
+                }
+              ]
+            },
+            "provider": {
+              "displayName": "Zacks",
+              "url": "http://www.zacks.com/"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/toyota-motor-tm-considered-good-143003685.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/toyota-motor-tm-considered-good-143003685.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        }
+      ]
+    },
+    "recommendations": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  },
+  "holders_data": {
+    "major_holders": {
+      "status": "error"
+    },
+    "institutional_holders": {
+      "status": "error"
+    }
+  },
+  "earnings_data": {
+    "earnings": {
+      "status": "error",
+      "message": "'NoneType' object has no attribute 'empty'"
+    },
+    "calendar": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  }
+}

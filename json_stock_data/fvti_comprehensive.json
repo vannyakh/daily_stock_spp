@@ -1,39 +1,9 @@
 {
   "ticker": "FVTI",
-  "timestamp": "2026-01-28T05:06:55.853234",
+  "timestamp": "2026-01-30T05:55:52.248085",
   "intraday_data": {
-    "status": "success",
-    "rows": 4,
-    "data": [
-      {
-        "Close KNOS": 0.0035000001080334187,
-        "High KNOS": 0.0035000001080334187,
-        "Low KNOS": 0.0035000001080334187,
-        "Open KNOS": 0.0035000001080334187,
-        "Volume KNOS": 0
-      },
-      {
-        "Close KNOS": 0.003000000026077032,
-        "High KNOS": 0.003000000026077032,
-        "Low KNOS": 0.003000000026077032,
-        "Open KNOS": 0.003000000026077032,
-        "Volume KNOS": 12500
-      },
-      {
-        "Close KNOS": 0.003000000026077032,
-        "High KNOS": 0.003000000026077032,
-        "Low KNOS": 0.003000000026077032,
-        "Open KNOS": 0.003000000026077032,
-        "Volume KNOS": 69745
-      },
-      {
-        "Close KNOS": 0.0035000001080334187,
-        "High KNOS": 0.0035000001080334187,
-        "Low KNOS": 0.0035000001080334187,
-        "Open KNOS": 0.0035000001080334187,
-        "Volume KNOS": 83493
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -56,8 +26,7 @@
   },
   "news_data": {
     "news": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
+      "status": "no_data"
     },
     "recommendations": {
       "status": "error",

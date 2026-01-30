@@ -1,55 +1,88 @@
 {
   "ticker": "NKGNW",
-  "timestamp": "2026-01-28T05:12:07.136383",
+  "timestamp": "2026-01-30T06:08:48.316491",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 9,
+    "data": [
+      {
+        "Close NPWR-WT": 0.6290000081062317,
+        "High NPWR-WT": 0.6290000081062317,
+        "Low NPWR-WT": 0.6290000081062317,
+        "Open NPWR-WT": 0.6290000081062317,
+        "Volume NPWR-WT": 0
+      },
+      {
+        "Close NPWR-WT": 0.6349999904632568,
+        "High NPWR-WT": 0.6349999904632568,
+        "Low NPWR-WT": 0.6349999904632568,
+        "Open NPWR-WT": 0.6349999904632568,
+        "Volume NPWR-WT": 180
+      },
+      {
+        "Close NPWR-WT": 0.6000000238418579,
+        "High NPWR-WT": 0.6100000143051147,
+        "Low NPWR-WT": 0.6000000238418579,
+        "Open NPWR-WT": 0.6068000197410583,
+        "Volume NPWR-WT": 6505
+      },
+      {
+        "Close NPWR-WT": 0.6000000238418579,
+        "High NPWR-WT": 0.6200000047683716,
+        "Low NPWR-WT": 0.6000000238418579,
+        "Open NPWR-WT": 0.6200000047683716,
+        "Volume NPWR-WT": 4620
+      },
+      {
+        "Close NPWR-WT": 0.6269999742507935,
+        "High NPWR-WT": 0.6269999742507935,
+        "Low NPWR-WT": 0.6269999742507935,
+        "Open NPWR-WT": 0.6269999742507935,
+        "Volume NPWR-WT": 1086
+      },
+      {
+        "Close NPWR-WT": 0.6399999856948853,
+        "High NPWR-WT": 0.6399999856948853,
+        "Low NPWR-WT": 0.6399999856948853,
+        "Open NPWR-WT": 0.6399999856948853,
+        "Volume NPWR-WT": 500
+      },
+      {
+        "Close NPWR-WT": 0.569599986076355,
+        "High NPWR-WT": 0.569599986076355,
+        "Low NPWR-WT": 0.569599986076355,
+        "Open NPWR-WT": 0.569599986076355,
+        "Volume NPWR-WT": 0
+      },
+      {
+        "Close NPWR-WT": 0.5751000046730042,
+        "High NPWR-WT": 0.5751000046730042,
+        "Low NPWR-WT": 0.5751000046730042,
+        "Open NPWR-WT": 0.5751000046730042,
+        "Volume NPWR-WT": 778
+      },
+      {
+        "Close NPWR-WT": 0.5799999833106995,
+        "High NPWR-WT": 0.5799999833106995,
+        "Low NPWR-WT": 0.5764999985694885,
+        "Open NPWR-WT": 0.5764999985694885,
+        "Volume NPWR-WT": 4247
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
-    "message": "Too Many Requests. Rate limited. Try after a while."
+    "message": "argument of type 'NoneType' is not iterable"
   },
   "financials": {
     "income_statement": {
-      "status": "no_data"
-    },
-    "balance_sheet": {
-      "status": "no_data"
-    },
-    "cash_flow": {
-      "status": "no_data"
-    }
-  },
-  "options_data": {
-    "status": "error",
-    "error_message": "Too Many Requests. Rate limited. Try after a while."
-  },
-  "news_data": {
-    "news": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
-    },
-    "recommendations": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
-    }
-  },
-  "holders_data": {
-    "major_holders": {
-      "status": "error"
-    },
-    "institutional_holders": {
-      "status": "error"
-    }
-  },
-  "earnings_data": {
-    "earnings": {
-      "status": "error",
-      "message": "'NoneType' object has no attribute 'empty'"
-    },
-    "calendar": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
-    }
-  }
-}
+      "status": "success",
+      "rows": 40,
+      "columns": [
+        "2023-12-31 00:00:00",
+        "2022-12-31 00:00:00",
+        "2021-12-31 00:00:00"
+      ],
+      "data": [
+        {
+          

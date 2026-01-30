@@ -1,6 +1,6 @@
 {
   "ticker": "EMMA",
-  "timestamp": "2026-01-28T05:07:51.305785",
+  "timestamp": "2026-01-30T05:58:05.979648",
   "intraday_data": {
     "status": "no_data",
     "message": "No intraday data available"
@@ -11,14 +11,108 @@
   },
   "financials": {
     "income_statement": {
+      "status": "no_data"
+    },
+    "balance_sheet": {
+      "status": "no_data"
+    },
+    "cash_flow": {
+      "status": "no_data"
+    }
+  },
+  "options_data": {
+    "status": "error",
+    "error_message": "Too Many Requests. Rate limited. Try after a while."
+  },
+  "news_data": {
+    "news": {
       "status": "success",
-      "rows": 47,
-      "columns": [
-        "2024-12-31 00:00:00",
-        "2023-12-31 00:00:00",
-        "2022-12-31 00:00:00",
-        "2021-12-31 00:00:00"
-      ],
+      "count": 1,
       "data": [
         {
-          
+          "id": "4725eb45-fd51-3567-9154-89822033133a",
+          "content": {
+            "id": "4725eb45-fd51-3567-9154-89822033133a",
+            "contentType": "STORY",
+            "title": "Emmaus, NIT sign Endari distribution agreement",
+            "description": "",
+            "summary": "Under the terms of the agreement, Emmaus will receive an upfront payment and a royalty on NIT\u2019s product sales.",
+            "pubDate": "2025-12-31T09:57:16Z",
+            "displayTime": "2025-12-31T09:57:16Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": {
+              "originalUrl": "https://media.zenfs.com/en/pharmaceutical_technology_376/988499965cbcd5e0805b4d4838a00193",
+              "originalWidth": 1440,
+              "originalHeight": 827,
+              "caption": "Endari is indicated to reduce acute complications of sickle cell disease in adults and children aged five years and older. Credit: Babul Hosen/Shutterstock.com.",
+              "resolutions": [
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/AIYsl7v5N9Oobl8J7lmEDA--~B/aD04Mjc7dz0xNDQwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/pharmaceutical_technology_376/988499965cbcd5e0805b4d4838a00193",
+                  "width": 1440,
+                  "height": 827,
+                  "tag": "original"
+                },
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/hqJWhjOOabUofKp1PucR5g--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/pharmaceutical_technology_376/988499965cbcd5e0805b4d4838a00193",
+                  "width": 170,
+                  "height": 128,
+                  "tag": "170x128"
+                }
+              ]
+            },
+            "provider": {
+              "displayName": "Pharmaceutical Technology",
+              "url": "https://www.globaldata.com/"
+            },
+            "canonicalUrl": {
+              "url": "https://www.pharmaceutical-technology.com/news/emmaus-nit-endari-agreement/",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/emmaus-nit-sign-endari-distribution-095716124.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        }
+      ]
+    },
+    "recommendations": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  },
+  "holders_data": {
+    "major_holders": {
+      "status": "error"
+    },
+    "institutional_holders": {
+      "status": "error"
+    }
+  },
+  "earnings_data": {
+    "earnings": {
+      "status": "error",
+      "message": "'NoneType' object has no attribute 'empty'"
+    },
+    "calendar": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  }
+}

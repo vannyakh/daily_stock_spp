@@ -1,9 +1,25 @@
 {
   "ticker": "VCRRX",
-  "timestamp": "2026-01-28T05:13:44.932365",
+  "timestamp": "2026-01-30T06:13:04.711865",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 2,
+    "data": [
+      {
+        "Close": 28.850000381469727,
+        "High": 28.850000381469727,
+        "Low": 28.850000381469727,
+        "Open": 28.850000381469727,
+        "Volume": 0
+      },
+      {
+        "Close": 28.899999618530273,
+        "High": 28.899999618530273,
+        "Low": 28.899999618530273,
+        "Open": 28.899999618530273,
+        "Volume": 0
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -26,8 +42,7 @@
   },
   "news_data": {
     "news": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
+      "status": "no_data"
     },
     "recommendations": {
       "status": "error",

@@ -1,36 +1,13 @@
 {
   "ticker": "PMVC",
-  "timestamp": "2026-01-28T05:07:33.230349",
+  "timestamp": "2026-01-30T05:57:20.104168",
   "intraday_data": {
-    "status": "success",
-    "rows": 3,
-    "data": [
-      {
-        "Close NVSGF": 0.03999999910593033,
-        "High NVSGF": 0.03999999910593033,
-        "Low NVSGF": 0.039900001138448715,
-        "Open NVSGF": 0.039900001138448715,
-        "Volume NVSGF": 0
-      },
-      {
-        "Close NVSGF": 0.03310000151395798,
-        "High NVSGF": 0.03310000151395798,
-        "Low NVSGF": 0.03310000151395798,
-        "Open NVSGF": 0.03310000151395798,
-        "Volume NVSGF": 50000
-      },
-      {
-        "Close NVSGF": 0.03310000151395798,
-        "High NVSGF": 0.03310000151395798,
-        "Low NVSGF": 0.03310000151395798,
-        "Open NVSGF": 0.03310000151395798,
-        "Volume NVSGF": 0
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
-    "message": "Too Many Requests. Rate limited. Try after a while."
+    "message": "argument of type 'NoneType' is not iterable"
   },
   "financials": {
     "income_statement": {
@@ -49,8 +26,7 @@
   },
   "news_data": {
     "news": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
+      "status": "no_data"
     },
     "recommendations": {
       "status": "error",

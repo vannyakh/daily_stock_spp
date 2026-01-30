@@ -1,61 +1,54 @@
 {
   "ticker": "AXIM",
-  "timestamp": "2026-01-28T05:11:16.620214",
+  "timestamp": "2026-01-30T06:06:38.493171",
   "intraday_data": {
-    "status": "success",
-    "rows": 5,
-    "data": [
-      {
-        "Close": 0.01600000075995922,
-        "High": 0.01600000075995922,
-        "Low": 0.01600000075995922,
-        "Open": 0.01600000075995922,
-        "Volume": 0
-      },
-      {
-        "Close": 0.013700000010430813,
-        "High": 0.013700000010430813,
-        "Low": 0.013700000010430813,
-        "Open": 0.013700000010430813,
-        "Volume": 1000
-      },
-      {
-        "Close": 0.014999999664723873,
-        "High": 0.014999999664723873,
-        "Low": 0.014999999664723873,
-        "Open": 0.014999999664723873,
-        "Volume": 100000
-      },
-      {
-        "Close": 0.01590000092983246,
-        "High": 0.01590000092983246,
-        "Low": 0.01590000092983246,
-        "Open": 0.01590000092983246,
-        "Volume": 80316
-      },
-      {
-        "Close": 0.014000000432133675,
-        "High": 0.014000000432133675,
-        "Low": 0.014000000432133675,
-        "Open": 0.014000000432133675,
-        "Volume": 0
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
-    "message": "argument of type 'NoneType' is not iterable"
+    "message": "Too Many Requests. Rate limited. Try after a while."
   },
   "financials": {
     "income_statement": {
-      "status": "success",
-      "rows": 50,
-      "columns": [
-        "2024-12-31 00:00:00",
-        "2023-12-31 00:00:00",
-        "2022-12-31 00:00:00",
-        "2021-12-31 00:00:00"
-      ],
-      "data": [
-        {
-          
+      "status": "no_data"
+    },
+    "balance_sheet": {
+      "status": "no_data"
+    },
+    "cash_flow": {
+      "status": "no_data"
+    }
+  },
+  "options_data": {
+    "status": "error",
+    "error_message": "Too Many Requests. Rate limited. Try after a while."
+  },
+  "news_data": {
+    "news": {
+      "status": "no_data"
+    },
+    "recommendations": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  },
+  "holders_data": {
+    "major_holders": {
+      "status": "error"
+    },
+    "institutional_holders": {
+      "status": "error"
+    }
+  },
+  "earnings_data": {
+    "earnings": {
+      "status": "error",
+      "message": "'NoneType' object has no attribute 'empty'"
+    },
+    "calendar": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  }
+}

@@ -1,25 +1,9 @@
 {
   "ticker": "BRWC",
-  "timestamp": "2026-01-28T05:07:26.579602",
+  "timestamp": "2026-01-30T05:57:04.375075",
   "intraday_data": {
-    "status": "success",
-    "rows": 2,
-    "data": [
-      {
-        "Close": 0.75,
-        "High": 0.75,
-        "Low": 0.75,
-        "Open": 0.75,
-        "Volume": 2000
-      },
-      {
-        "Close": 0.75,
-        "High": 0.75,
-        "Low": 0.75,
-        "Open": 0.75,
-        "Volume": 0
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -42,8 +26,7 @@
   },
   "news_data": {
     "news": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
+      "status": "no_data"
     },
     "recommendations": {
       "status": "error",

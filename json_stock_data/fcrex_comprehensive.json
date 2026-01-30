@@ -1,27 +1,13 @@
 {
   "ticker": "FCREX",
-  "timestamp": "2026-01-28T05:13:47.270364",
+  "timestamp": "2026-01-30T06:13:09.281202",
   "intraday_data": {
-    "status": "success",
-    "rows": 1,
-    "data": [
-      {
-        "Close": 11.960000038146973,
-        "Close NRXPW": 0.0625,
-        "High": 11.960000038146973,
-        "High NRXPW": 0.0625,
-        "Low": 11.960000038146973,
-        "Low NRXPW": 0.06210000067949295,
-        "Open": 11.960000038146973,
-        "Open NRXPW": 0.06210000067949295,
-        "Volume": 0.0,
-        "Volume NRXPW": 0.0
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
-    "message": "argument of type 'NoneType' is not iterable"
+    "message": "Too Many Requests. Rate limited. Try after a while."
   },
   "financials": {
     "income_statement": {
@@ -40,8 +26,7 @@
   },
   "news_data": {
     "news": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
+      "status": "no_data"
     },
     "recommendations": {
       "status": "error",

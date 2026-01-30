@@ -1,53 +1,9 @@
 {
   "ticker": "AQB",
-  "timestamp": "2026-01-28T05:07:10.389825",
+  "timestamp": "2026-01-30T05:56:24.906168",
   "intraday_data": {
-    "status": "success",
-    "rows": 6,
-    "data": [
-      {
-        "Close CBLO": 0.18700000643730164,
-        "High CBLO": 0.18700000643730164,
-        "Low CBLO": 0.18700000643730164,
-        "Open CBLO": 0.18700000643730164,
-        "Volume CBLO": 0
-      },
-      {
-        "Close CBLO": 0.17000000178813934,
-        "High CBLO": 0.17000000178813934,
-        "Low CBLO": 0.17000000178813934,
-        "Open CBLO": 0.17000000178813934,
-        "Volume CBLO": 5000
-      },
-      {
-        "Close CBLO": 0.17000000178813934,
-        "High CBLO": 0.17000000178813934,
-        "Low CBLO": 0.17000000178813934,
-        "Open CBLO": 0.17000000178813934,
-        "Volume CBLO": 5000
-      },
-      {
-        "Close CBLO": 0.18690000474452972,
-        "High CBLO": 0.18690000474452972,
-        "Low CBLO": 0.18690000474452972,
-        "Open CBLO": 0.18690000474452972,
-        "Volume CBLO": 5000
-      },
-      {
-        "Close CBLO": 0.17499999701976776,
-        "High CBLO": 0.17499999701976776,
-        "Low CBLO": 0.17499999701976776,
-        "Open CBLO": 0.17499999701976776,
-        "Volume CBLO": 15000
-      },
-      {
-        "Close CBLO": 0.18000000715255737,
-        "High CBLO": 0.18000000715255737,
-        "Low CBLO": 0.18000000715255737,
-        "Open CBLO": 0.18000000715255737,
-        "Volume CBLO": 0
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -70,8 +26,52 @@
   },
   "news_data": {
     "news": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
+      "status": "success",
+      "count": 1,
+      "data": [
+        {
+          "id": "554ddc6c-e0fd-30ff-bc09-8f9fe66373f1",
+          "content": {
+            "id": "554ddc6c-e0fd-30ff-bc09-8f9fe66373f1",
+            "contentType": "STORY",
+            "title": "BC-Most Active Stocks",
+            "description": "",
+            "summary": "td class=\"col-issue\">Next Technology Holding Inc.",
+            "pubDate": "2025-08-28T14:30:16Z",
+            "displayTime": "2025-08-28T14:30:16Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": null,
+            "provider": {
+              "displayName": "Associated Press Finance",
+              "url": "http://www.ap.org/"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/bc-most-active-stocks-143016768.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/bc-most-active-stocks-143016768.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        }
+      ]
     },
     "recommendations": {
       "status": "error",

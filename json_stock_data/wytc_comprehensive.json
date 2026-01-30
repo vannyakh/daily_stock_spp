@@ -1,9 +1,46 @@
 {
   "ticker": "WYTC",
-  "timestamp": "2026-01-28T05:13:41.548622",
+  "timestamp": "2026-01-30T06:12:50.717279",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 5,
+    "data": [
+      {
+        "Close": 1.659999966621399,
+        "High": 1.659999966621399,
+        "Low": 1.659999966621399,
+        "Open": 1.659999966621399,
+        "Volume": 990
+      },
+      {
+        "Close": 1.649999976158142,
+        "High": 1.649999976158142,
+        "Low": 1.649999976158142,
+        "Open": 1.649999976158142,
+        "Volume": 1000
+      },
+      {
+        "Close": 1.649999976158142,
+        "High": 1.649999976158142,
+        "Low": 1.649999976158142,
+        "Open": 1.649999976158142,
+        "Volume": 4000
+      },
+      {
+        "Close": 1.6299999952316284,
+        "High": 1.6299999952316284,
+        "Low": 1.6299999952316284,
+        "Open": 1.6299999952316284,
+        "Volume": 180
+      },
+      {
+        "Close": 1.600000023841858,
+        "High": 1.600000023841858,
+        "Low": 1.600000023841858,
+        "Open": 1.600000023841858,
+        "Volume": 0
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -21,7 +58,8 @@
     }
   },
   "options_data": {
-    "expirations": []
+    "status": "error",
+    "error_message": "Too Many Requests. Rate limited. Try after a while."
   },
   "news_data": {
     "news": {

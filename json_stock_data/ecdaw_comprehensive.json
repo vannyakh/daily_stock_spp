@@ -1,9 +1,25 @@
 {
   "ticker": "ECDAW",
-  "timestamp": "2026-01-28T05:15:41.082987",
+  "timestamp": "2026-01-30T06:17:51.105830",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 2,
+    "data": [
+      {
+        "Close": 0.009700000286102295,
+        "High": 0.009700000286102295,
+        "Low": 0.009700000286102295,
+        "Open": 0.009700000286102295,
+        "Volume": 0
+      },
+      {
+        "Close": 0.009700000286102295,
+        "High": 0.009700000286102295,
+        "Low": 0.009700000286102295,
+        "Open": 0.009700000286102295,
+        "Volume": 30303
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -26,8 +42,71 @@
   },
   "news_data": {
     "news": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
+      "status": "success",
+      "count": 1,
+      "data": [
+        {
+          "id": "44bbc1b3-ce1e-3fb1-ac35-db9c43f9869e",
+          "content": {
+            "id": "44bbc1b3-ce1e-3fb1-ac35-db9c43f9869e",
+            "contentType": "STORY",
+            "title": "ECD Automotive Design Reports Third Quarter 2024 Earnings",
+            "description": "",
+            "summary": "ECD Automotive Design ( NASDAQ:ECDA ) Third Quarter 2024 Results Key Financial Results Revenue: US$6.44m (up 3.7% from...",
+            "pubDate": "2025-03-27T11:41:25Z",
+            "displayTime": "2025-03-27T11:41:25Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": {
+              "originalUrl": "https://media.zenfs.com/en/simply_wall_st__316/78a8c60a6283aea0450523395306d38c",
+              "originalWidth": 945,
+              "originalHeight": 636,
+              "caption": "",
+              "resolutions": [
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/5Vpve0Pc2F3m_L3fs2p_dQ--~B/aD02MzY7dz05NDU7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/simply_wall_st__316/78a8c60a6283aea0450523395306d38c",
+                  "width": 945,
+                  "height": 636,
+                  "tag": "original"
+                },
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/5K6kmrQzRk.k.11fs9N_QA--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/simply_wall_st__316/78a8c60a6283aea0450523395306d38c",
+                  "width": 170,
+                  "height": 128,
+                  "tag": "170x128"
+                }
+              ]
+            },
+            "provider": {
+              "displayName": "Simply Wall St.",
+              "url": "https://simplywall.st/"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/ecd-automotive-design-reports-third-114125626.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/ecd-automotive-design-reports-third-114125626.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        }
+      ]
     },
     "recommendations": {
       "status": "error",

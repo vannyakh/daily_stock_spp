@@ -1,13 +1,43 @@
 {
   "ticker": "QULL",
-  "timestamp": "2026-01-28T05:14:14.173038",
+  "timestamp": "2026-01-30T06:14:14.127126",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 4,
+    "data": [
+      {
+        "Close PFFL": 8.510000228881836,
+        "High PFFL": 8.510000228881836,
+        "Low PFFL": 8.510000228881836,
+        "Open PFFL": 8.510000228881836,
+        "Volume PFFL": 0
+      },
+      {
+        "Close PFFL": 8.505000114440918,
+        "High PFFL": 8.514200210571289,
+        "Low PFFL": 8.505000114440918,
+        "Open PFFL": 8.514200210571289,
+        "Volume PFFL": 0
+      },
+      {
+        "Close PFFL": 8.479999542236328,
+        "High PFFL": 8.479999542236328,
+        "Low PFFL": 8.479999542236328,
+        "Open PFFL": 8.479999542236328,
+        "Volume PFFL": 185
+      },
+      {
+        "Close PFFL": 8.474800109863281,
+        "High PFFL": 8.475000381469727,
+        "Low PFFL": 8.474800109863281,
+        "Open PFFL": 8.475000381469727,
+        "Volume PFFL": 0
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
-    "message": "Too Many Requests. Rate limited. Try after a while."
+    "message": "argument of type 'NoneType' is not iterable"
   },
   "financials": {
     "income_statement": {
@@ -26,8 +56,7 @@
   },
   "news_data": {
     "news": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
+      "status": "no_data"
     },
     "recommendations": {
       "status": "error",

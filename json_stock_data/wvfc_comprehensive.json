@@ -1,9 +1,25 @@
 {
   "ticker": "WVFC",
-  "timestamp": "2026-01-28T05:10:51.868681",
+  "timestamp": "2026-01-30T06:05:35.800355",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 2,
+    "data": [
+      {
+        "Close IMUC": 0.10119999945163727,
+        "High IMUC": 0.10119999945163727,
+        "Low IMUC": 0.10119999945163727,
+        "Open IMUC": 0.10119999945163727,
+        "Volume IMUC": 11
+      },
+      {
+        "Close IMUC": 0.15000000596046448,
+        "High IMUC": 0.15000000596046448,
+        "Low IMUC": 0.15000000596046448,
+        "Open IMUC": 0.15000000596046448,
+        "Volume IMUC": 0
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -26,8 +42,7 @@
   },
   "news_data": {
     "news": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
+      "status": "no_data"
     },
     "recommendations": {
       "status": "error",

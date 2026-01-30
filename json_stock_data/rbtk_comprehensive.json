@@ -1,9 +1,18 @@
 {
   "ticker": "RBTK",
-  "timestamp": "2026-01-28T04:58:42.138329",
+  "timestamp": "2026-01-30T05:38:18.143238",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 1,
+    "data": [
+      {
+        "Close": 17.1200008392334,
+        "High": 17.1200008392334,
+        "Low": 17.1200008392334,
+        "Open": 17.1200008392334,
+        "Volume": 0
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
@@ -93,7 +102,8 @@
       ]
     },
     "recommendations": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   },
   "holders_data": {

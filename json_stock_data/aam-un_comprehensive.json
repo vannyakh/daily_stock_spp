@@ -1,46 +1,9 @@
 {
   "ticker": "AAM-UN",
-  "timestamp": "2026-01-28T05:11:50.206789",
+  "timestamp": "2026-01-30T06:08:07.396840",
   "intraday_data": {
-    "status": "success",
-    "rows": 5,
-    "data": [
-      {
-        "Close AAM-WT": 0.12970000505447388,
-        "High AAM-WT": 0.1298000067472458,
-        "Low AAM-WT": 0.12970000505447388,
-        "Open AAM-WT": 0.1298000067472458,
-        "Volume AAM-WT": 0
-      },
-      {
-        "Close AAM-WT": 0.13899999856948853,
-        "High AAM-WT": 0.13899999856948853,
-        "Low AAM-WT": 0.13899999856948853,
-        "Open AAM-WT": 0.13899999856948853,
-        "Volume AAM-WT": 8359
-      },
-      {
-        "Close AAM-WT": 0.1388999968767166,
-        "High AAM-WT": 0.1388999968767166,
-        "Low AAM-WT": 0.1388999968767166,
-        "Open AAM-WT": 0.1388999968767166,
-        "Volume AAM-WT": 25800
-      },
-      {
-        "Close AAM-WT": 0.12549999356269836,
-        "High AAM-WT": 0.12549999356269836,
-        "Low AAM-WT": 0.12549999356269836,
-        "Open AAM-WT": 0.12549999356269836,
-        "Volume AAM-WT": 8043
-      },
-      {
-        "Close AAM-WT": 0.1388999968767166,
-        "High AAM-WT": 0.1388999968767166,
-        "Low AAM-WT": 0.1388999968767166,
-        "Open AAM-WT": 0.1388999968767166,
-        "Volume AAM-WT": 44527
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -51,42 +14,11 @@
       "status": "no_data"
     },
     "balance_sheet": {
-      "status": "no_data"
-    },
-    "cash_flow": {
-      "status": "no_data"
-    }
-  },
-  "options_data": {
-    "status": "error",
-    "error_message": "Too Many Requests. Rate limited. Try after a while."
-  },
-  "news_data": {
-    "news": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
-    },
-    "recommendations": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
-    }
-  },
-  "holders_data": {
-    "major_holders": {
-      "status": "error"
-    },
-    "institutional_holders": {
-      "status": "error"
-    }
-  },
-  "earnings_data": {
-    "earnings": {
-      "status": "error",
-      "message": "'NoneType' object has no attribute 'empty'"
-    },
-    "calendar": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
-    }
-  }
-}
+      "status": "success",
+      "rows": 33,
+      "columns": [
+        "2024-12-31 00:00:00"
+      ],
+      "data": [
+        {
+          

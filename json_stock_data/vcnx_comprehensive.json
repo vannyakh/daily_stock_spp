@@ -1,6 +1,6 @@
 {
   "ticker": "VCNX",
-  "timestamp": "2026-01-28T05:07:12.904248",
+  "timestamp": "2026-01-30T05:56:30.636329",
   "intraday_data": {
     "status": "no_data",
     "message": "No intraday data available"
@@ -11,14 +11,108 @@
   },
   "financials": {
     "income_statement": {
+      "status": "no_data"
+    },
+    "balance_sheet": {
+      "status": "no_data"
+    },
+    "cash_flow": {
+      "status": "no_data"
+    }
+  },
+  "options_data": {
+    "status": "error",
+    "error_message": "Too Many Requests. Rate limited. Try after a while."
+  },
+  "news_data": {
+    "news": {
       "status": "success",
-      "rows": 46,
-      "columns": [
-        "2024-12-31 00:00:00",
-        "2023-12-31 00:00:00",
-        "2022-12-31 00:00:00",
-        "2021-12-31 00:00:00"
-      ],
+      "count": 1,
       "data": [
         {
-          
+          "id": "94d03fdf-f6c8-3551-9884-908f528f8c5a",
+          "content": {
+            "id": "94d03fdf-f6c8-3551-9884-908f528f8c5a",
+            "contentType": "STORY",
+            "title": "Vaccinex plans Nasdaq exit as Alzheimer market pressure grows",
+            "description": "",
+            "summary": "Following equity shortcomings, Vaccinex ends its journey as a public company after six and a half years.",
+            "pubDate": "2025-03-10T21:15:45Z",
+            "displayTime": "2025-03-10T21:15:45Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": {
+              "originalUrl": "https://media.zenfs.com/en/pharmaceutical_technology_376/1b331f27158b6f350549efd6fc170820",
+              "originalWidth": 1000,
+              "originalHeight": 668,
+              "caption": "",
+              "resolutions": [
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/lDzTaGjaIy6l7a41DDmNUg--~B/aD02Njg7dz0xMDAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/pharmaceutical_technology_376/1b331f27158b6f350549efd6fc170820",
+                  "width": 1000,
+                  "height": 668,
+                  "tag": "original"
+                },
+                {
+                  "url": "https://s.yimg.com/uu/api/res/1.2/npv8dsvXGpkC6HypUgUucw--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/pharmaceutical_technology_376/1b331f27158b6f350549efd6fc170820",
+                  "width": 170,
+                  "height": 128,
+                  "tag": "170x128"
+                }
+              ]
+            },
+            "provider": {
+              "displayName": "Pharmaceutical Technology",
+              "url": "https://www.globaldata.com/"
+            },
+            "canonicalUrl": {
+              "url": "https://www.pharmaceutical-technology.com/news/vaccinex-plans-nasdaq-exit-as-alzheimer-market-pressure-grows/",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/vaccinex-plans-nasdaq-exit-alzheimer-211545558.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        }
+      ]
+    },
+    "recommendations": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  },
+  "holders_data": {
+    "major_holders": {
+      "status": "error"
+    },
+    "institutional_holders": {
+      "status": "error"
+    }
+  },
+  "earnings_data": {
+    "earnings": {
+      "status": "error",
+      "message": "'NoneType' object has no attribute 'empty'"
+    },
+    "calendar": {
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
+    }
+  }
+}

@@ -1,39 +1,9 @@
 {
   "ticker": "FMCKM",
-  "timestamp": "2026-01-28T05:10:17.679067",
+  "timestamp": "2026-01-30T06:04:14.250846",
   "intraday_data": {
-    "status": "success",
-    "rows": 4,
-    "data": [
-      {
-        "Close GLOP-PC": 25.81999969482422,
-        "High GLOP-PC": 25.81999969482422,
-        "Low GLOP-PC": 25.81999969482422,
-        "Open GLOP-PC": 25.81999969482422,
-        "Volume GLOP-PC": 0
-      },
-      {
-        "Close GLOP-PC": 25.600000381469727,
-        "High GLOP-PC": 25.600000381469727,
-        "Low GLOP-PC": 25.600000381469727,
-        "Open GLOP-PC": 25.600000381469727,
-        "Volume GLOP-PC": 0
-      },
-      {
-        "Close GLOP-PC": 25.697999954223633,
-        "High GLOP-PC": 25.799999237060547,
-        "Low GLOP-PC": 25.697999954223633,
-        "Open GLOP-PC": 25.799999237060547,
-        "Volume GLOP-PC": 201
-      },
-      {
-        "Close GLOP-PC": 25.649999618530273,
-        "High GLOP-PC": 25.649999618530273,
-        "Low GLOP-PC": 25.649999618530273,
-        "Open GLOP-PC": 25.649999618530273,
-        "Volume GLOP-PC": 0
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -41,45 +11,14 @@
   },
   "financials": {
     "income_statement": {
-      "status": "no_data"
-    },
-    "balance_sheet": {
-      "status": "no_data"
-    },
-    "cash_flow": {
-      "status": "no_data"
-    }
-  },
-  "options_data": {
-    "status": "error",
-    "error_message": "Too Many Requests. Rate limited. Try after a while."
-  },
-  "news_data": {
-    "news": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
-    },
-    "recommendations": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
-    }
-  },
-  "holders_data": {
-    "major_holders": {
-      "status": "error"
-    },
-    "institutional_holders": {
-      "status": "error"
-    }
-  },
-  "earnings_data": {
-    "earnings": {
-      "status": "error",
-      "message": "'NoneType' object has no attribute 'empty'"
-    },
-    "calendar": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
-    }
-  }
-}
+      "status": "success",
+      "rows": 29,
+      "columns": [
+        "2024-12-31 00:00:00",
+        "2023-12-31 00:00:00",
+        "2022-12-31 00:00:00",
+        "2021-12-31 00:00:00"
+      ],
+      "data": [
+        {
+          

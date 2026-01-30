@@ -1,130 +1,9 @@
 {
   "ticker": "FURY",
-  "timestamp": "2026-01-28T05:02:38.819730",
+  "timestamp": "2026-01-30T05:46:20.962847",
   "intraday_data": {
-    "status": "success",
-    "rows": 17,
-    "data": [
-      {
-        "Close SST": 4.5,
-        "High SST": 4.5,
-        "Low SST": 4.5,
-        "Open SST": 4.5,
-        "Volume SST": 0
-      },
-      {
-        "Close SST": 4.514999866485596,
-        "High SST": 4.514999866485596,
-        "Low SST": 4.514999866485596,
-        "Open SST": 4.514999866485596,
-        "Volume SST": 447
-      },
-      {
-        "Close SST": 4.400000095367432,
-        "High SST": 4.440000057220459,
-        "Low SST": 4.400000095367432,
-        "Open SST": 4.440000057220459,
-        "Volume SST": 1260
-      },
-      {
-        "Close SST": 4.390100002288818,
-        "High SST": 4.390100002288818,
-        "Low SST": 4.390100002288818,
-        "Open SST": 4.390100002288818,
-        "Volume SST": 101
-      },
-      {
-        "Close SST": 4.389999866485596,
-        "High SST": 4.389999866485596,
-        "Low SST": 4.389999866485596,
-        "Open SST": 4.389999866485596,
-        "Volume SST": 102
-      },
-      {
-        "Close SST": 4.470099925994873,
-        "High SST": 4.470099925994873,
-        "Low SST": 4.470099925994873,
-        "Open SST": 4.470099925994873,
-        "Volume SST": 417
-      },
-      {
-        "Close SST": 4.25,
-        "High SST": 4.389999866485596,
-        "Low SST": 4.239999771118164,
-        "Open SST": 4.389999866485596,
-        "Volume SST": 1230
-      },
-      {
-        "Close SST": 4.544000148773193,
-        "High SST": 4.544000148773193,
-        "Low SST": 4.544000148773193,
-        "Open SST": 4.544000148773193,
-        "Volume SST": 703
-      },
-      {
-        "Close SST": 4.5,
-        "High SST": 4.5,
-        "Low SST": 4.5,
-        "Open SST": 4.5,
-        "Volume SST": 1007
-      },
-      {
-        "Close SST": 4.445000171661377,
-        "High SST": 4.445000171661377,
-        "Low SST": 4.289999961853027,
-        "Open SST": 4.289999961853027,
-        "Volume SST": 1176
-      },
-      {
-        "Close SST": 4.349999904632568,
-        "High SST": 4.349999904632568,
-        "Low SST": 4.349999904632568,
-        "Open SST": 4.349999904632568,
-        "Volume SST": 100
-      },
-      {
-        "Close SST": 4.289899826049805,
-        "High SST": 4.53000020980835,
-        "Low SST": 4.289899826049805,
-        "Open SST": 4.409999847412109,
-        "Volume SST": 0
-      },
-      {
-        "Close SST": 4.170000076293945,
-        "High SST": 4.179999828338623,
-        "Low SST": 4.150000095367432,
-        "Open SST": 4.179999828338623,
-        "Volume SST": 848
-      },
-      {
-        "Close SST": 4.315299987792969,
-        "High SST": 4.315299987792969,
-        "Low SST": 4.315299987792969,
-        "Open SST": 4.315299987792969,
-        "Volume SST": 365
-      },
-      {
-        "Close SST": 4.190100193023682,
-        "High SST": 4.199999809265137,
-        "Low SST": 4.179999828338623,
-        "Open SST": 4.190100193023682,
-        "Volume SST": 848
-      },
-      {
-        "Close SST": 4.190100193023682,
-        "High SST": 4.190100193023682,
-        "Low SST": 4.179999828338623,
-        "Open SST": 4.179999828338623,
-        "Volume SST": 686
-      },
-      {
-        "Close SST": 4.179999828338623,
-        "High SST": 4.179999828338623,
-        "Low SST": 4.179999828338623,
-        "Open SST": 4.179999828338623,
-        "Volume SST": 0
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -649,15 +528,16 @@
       ]
     },
     "recommendations": {
-      "status": "no_data"
+      "status": "error",
+      "message": "Too Many Requests. Rate limited. Try after a while."
     }
   },
   "holders_data": {
     "major_holders": {
-      "status": "no_data"
+      "status": "error"
     },
     "institutional_holders": {
-      "status": "no_data"
+      "status": "error"
     }
   },
   "earnings_data": {

@@ -1,13 +1,43 @@
 {
   "ticker": "BACK",
-  "timestamp": "2026-01-28T05:07:15.637109",
+  "timestamp": "2026-01-30T05:56:39.206045",
   "intraday_data": {
-    "status": "no_data",
-    "message": "No intraday data available"
+    "status": "success",
+    "rows": 4,
+    "data": [
+      {
+        "Close": 0.0989999994635582,
+        "High": 0.0989999994635582,
+        "Low": 0.0989999994635582,
+        "Open": 0.0989999994635582,
+        "Volume": 0
+      },
+      {
+        "Close": 0.08009999990463257,
+        "High": 0.08009999990463257,
+        "Low": 0.08009999990463257,
+        "Open": 0.08009999990463257,
+        "Volume": 0
+      },
+      {
+        "Close": 0.07999999821186066,
+        "High": 0.07999999821186066,
+        "Low": 0.07999999821186066,
+        "Open": 0.07999999821186066,
+        "Volume": 3
+      },
+      {
+        "Close": 0.07999999821186066,
+        "High": 0.07999999821186066,
+        "Low": 0.07999999821186066,
+        "Open": 0.07999999821186066,
+        "Volume": 0
+      }
+    ]
   },
   "stock_info": {
     "status": "error",
-    "message": "argument of type 'NoneType' is not iterable"
+    "message": "Too Many Requests. Rate limited. Try after a while."
   },
   "financials": {
     "income_statement": {
@@ -26,8 +56,7 @@
   },
   "news_data": {
     "news": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
+      "status": "no_data"
     },
     "recommendations": {
       "status": "error",

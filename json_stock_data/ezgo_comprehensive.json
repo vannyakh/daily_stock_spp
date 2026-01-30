@@ -1,39 +1,9 @@
 {
   "ticker": "EZGO",
-  "timestamp": "2026-01-28T05:07:32.682665",
+  "timestamp": "2026-01-30T05:57:19.530855",
   "intraday_data": {
-    "status": "success",
-    "rows": 4,
-    "data": [
-      {
-        "Close USAQ": 0.9199000000953674,
-        "High USAQ": 0.9199000000953674,
-        "Low USAQ": 0.9199000000953674,
-        "Open USAQ": 0.9199000000953674,
-        "Volume USAQ": 0
-      },
-      {
-        "Close USAQ": 0.800000011920929,
-        "High USAQ": 0.800000011920929,
-        "Low USAQ": 0.800000011920929,
-        "Open USAQ": 0.800000011920929,
-        "Volume USAQ": 395
-      },
-      {
-        "Close USAQ": 0.7699999809265137,
-        "High USAQ": 0.7699999809265137,
-        "Low USAQ": 0.7699999809265137,
-        "Open USAQ": 0.7699999809265137,
-        "Volume USAQ": 5400
-      },
-      {
-        "Close USAQ": 0.800000011920929,
-        "High USAQ": 0.800000011920929,
-        "Low USAQ": 0.800000011920929,
-        "Open USAQ": 0.800000011920929,
-        "Volume USAQ": 0
-      }
-    ]
+    "status": "no_data",
+    "message": "No intraday data available"
   },
   "stock_info": {
     "status": "error",
@@ -56,8 +26,52 @@
   },
   "news_data": {
     "news": {
-      "status": "error",
-      "message": "Too Many Requests. Rate limited. Try after a while."
+      "status": "success",
+      "count": 1,
+      "data": [
+        {
+          "id": "a0e29a37-fcc0-3823-bf72-aceffd25881e",
+          "content": {
+            "id": "a0e29a37-fcc0-3823-bf72-aceffd25881e",
+            "contentType": "STORY",
+            "title": "BC-Most Active Stocks",
+            "description": "",
+            "summary": "td class=\"col-issue\">New Era Energy & Digital Inc.",
+            "pubDate": "2025-11-06T15:30:19Z",
+            "displayTime": "2025-11-06T15:30:19Z",
+            "isHosted": true,
+            "bypassModal": false,
+            "previewUrl": null,
+            "thumbnail": null,
+            "provider": {
+              "displayName": "Associated Press Finance",
+              "url": "http://www.ap.org/"
+            },
+            "canonicalUrl": {
+              "url": "https://finance.yahoo.com/news/bc-most-active-stocks-153019699.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "clickThroughUrl": {
+              "url": "https://finance.yahoo.com/news/bc-most-active-stocks-153019699.html",
+              "site": "finance",
+              "region": "US",
+              "lang": "en-US"
+            },
+            "metadata": {
+              "editorsPick": false
+            },
+            "finance": {
+              "premiumFinance": {
+                "isPremiumNews": false,
+                "isPremiumFreeNews": false
+              }
+            },
+            "storyline": null
+          }
+        }
+      ]
     },
     "recommendations": {
       "status": "error",
